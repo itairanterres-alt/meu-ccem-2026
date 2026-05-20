@@ -1229,8 +1229,544 @@
   .panel.active{display:block}
 
   /* ========================================
-     CORREÇÕES PÓS-AVALIAÇÕES
+     ABA TRABALHOS (Demonstração de Conceito)
      ======================================== */
+
+  /* Banner editorial topo */
+  .demo-concept-banner{
+    background:linear-gradient(to right, rgba(193,140,62,0.15), rgba(193,140,62,0.05));
+    border-bottom:1px solid var(--gold);
+    padding:10px 14px;
+    display:flex;
+    align-items:flex-start;
+    gap:8px;
+    font-size:12px;
+    line-height:1.4;
+    color:#7a5c1e;
+    font-family:var(--sans);
+    flex-shrink:0;
+  }
+  .demo-concept-banner svg{flex-shrink:0;margin-top:1px;width:14px;height:14px;stroke:currentColor;stroke-width:1.8;fill:none}
+  .demo-concept-banner strong{font-weight:600;color:#5a4416}
+
+  /* Header da aba */
+  .trabalhos-head{
+    padding:18px 16px 8px;
+  }
+  .trabalhos-head h2{
+    font-family:var(--serif);
+    font-size:22px;
+    font-weight:500;
+    color:var(--ink);
+    letter-spacing:-0.01em;
+    margin-bottom:4px;
+  }
+  .trabalhos-head .sub{
+    font-size:13px;
+    color:var(--ink-soft);
+    margin-bottom:12px;
+  }
+  .trabalhos-submit-link{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:8px 12px;
+    font-family:var(--mono);
+    font-size:11.5px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--ink-soft);
+    cursor:pointer;
+    transition:all 0.15s;
+  }
+  .trabalhos-submit-link:hover{background:var(--bg-soft);color:var(--ink)}
+  .trabalhos-submit-link svg{width:14px;height:14px;stroke:currentColor;stroke-width:1.6;fill:none}
+
+  /* Filtros de categoria */
+  .cat-filters{
+    display:flex;
+    gap:6px;
+    overflow-x:auto;
+    padding:0 16px 14px;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .cat-filters::-webkit-scrollbar{display:none}
+  .cat-chip{
+    flex-shrink:0;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:6px 12px;
+    font-family:var(--sans);
+    font-size:12px;
+    color:var(--ink-soft);
+    cursor:pointer;
+    transition:all 0.15s;
+    white-space:nowrap;
+  }
+  .cat-chip:hover{border-color:var(--ink-mute);color:var(--ink)}
+  .cat-chip.active{
+    background:var(--ink);
+    color:var(--bg);
+    border-color:var(--ink);
+  }
+  .cat-chip .cat-count{
+    margin-left:4px;
+    opacity:0.6;
+    font-family:var(--mono);
+    font-size:11px;
+  }
+
+  /* Mural de cards */
+  .mural{
+    padding:0 16px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .poster-card{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:11px;
+    padding:14px;
+    cursor:pointer;
+    transition:all 0.15s;
+  }
+  .poster-card:hover{
+    border-color:var(--ink-mute);
+    box-shadow:0 2px 8px rgba(26,36,56,0.06);
+  }
+  .poster-card-head{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-bottom:8px;
+    flex-wrap:wrap;
+  }
+  .poster-card-cat{
+    font-family:var(--mono);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    background:var(--bg-soft);
+    color:var(--ink-soft);
+    padding:3px 8px;
+    border-radius:10px;
+  }
+  .poster-card-type{
+    font-family:var(--mono);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--gold);
+  }
+  .poster-card-id{
+    margin-left:auto;
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-mute);
+  }
+  .poster-card-title{
+    font-family:var(--serif);
+    font-size:15px;
+    font-weight:500;
+    color:var(--ink);
+    line-height:1.3;
+    margin-bottom:8px;
+  }
+  .poster-card-message{
+    font-size:13px;
+    line-height:1.5;
+    color:var(--ink-soft);
+    font-style:italic;
+    padding:8px 10px;
+    background:rgba(193,140,62,0.06);
+    border-left:2px solid var(--gold);
+    border-radius:4px;
+    margin-bottom:10px;
+  }
+  .poster-card-authors{
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-bottom:8px;
+    line-height:1.4;
+  }
+  .poster-card-authors .first-author{
+    color:var(--ink);
+    font-weight:500;
+  }
+  .poster-card-foot{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-mute);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+  }
+  .poster-card-foot .with-audio{
+    color:var(--green);
+    display:flex;
+    align-items:center;
+    gap:3px;
+  }
+  .poster-card-foot svg{width:11px;height:11px;stroke:currentColor;stroke-width:2;fill:none}
+
+  /* Estado vazio de categoria */
+  .empty-cat{
+    padding:30px 16px;
+    text-align:center;
+    color:var(--ink-mute);
+    font-size:13px;
+    font-style:italic;
+  }
+
+  /* Pôster expandido (subview) */
+  .poster-detail{
+    position:absolute;
+    inset:0;
+    background:var(--bg);
+    z-index:50;
+    display:none;
+    flex-direction:column;
+    overflow:hidden;
+  }
+  .poster-detail.open{display:flex}
+  .poster-detail-head{
+    padding:14px 16px 12px;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-shrink:0;
+    background:var(--bg);
+  }
+  .poster-detail-back{
+    background:var(--bg-soft);
+    border:none;
+    border-radius:8px;
+    padding:8px 12px;
+    font-family:var(--mono);
+    font-size:12px;
+    color:var(--ink);
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:4px;
+  }
+  .poster-detail-back:hover{background:var(--line)}
+  .poster-detail-back svg{width:14px;height:14px;stroke:currentColor;stroke-width:2;fill:none}
+  .poster-detail-head .id{
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-mute);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-left:auto;
+  }
+  .poster-detail-body{
+    overflow-y:auto;
+    flex:1;
+    padding:0 16px 80px;
+  }
+  .poster-detail-meta{
+    padding:14px 0 10px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    border-bottom:1px solid var(--line);
+  }
+  .poster-detail-meta span{
+    font-family:var(--mono);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    background:var(--bg-soft);
+    color:var(--ink-soft);
+    padding:4px 10px;
+    border-radius:10px;
+  }
+  .poster-detail-meta span.gold{color:var(--gold);background:rgba(193,140,62,0.08)}
+  .poster-detail-title{
+    font-family:var(--serif);
+    font-size:22px;
+    font-weight:500;
+    color:var(--ink);
+    line-height:1.25;
+    letter-spacing:-0.01em;
+    margin:16px 0 12px;
+  }
+  .poster-detail-msg{
+    background:rgba(193,140,62,0.08);
+    border-left:3px solid var(--gold);
+    border-radius:4px;
+    padding:14px 14px;
+    font-family:var(--serif);
+    font-size:16px;
+    font-style:italic;
+    line-height:1.5;
+    color:var(--ink);
+    margin-bottom:18px;
+  }
+  .poster-detail-section{margin-bottom:20px}
+  .poster-detail-section h4{
+    font-family:var(--mono);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--ink-mute);
+    margin-bottom:8px;
+  }
+  .poster-detail-section p{
+    font-size:14px;
+    line-height:1.55;
+    color:var(--ink);
+  }
+  .poster-authors-block{
+    background:var(--bg-card);
+    border-radius:8px;
+    padding:12px;
+    border:1px solid var(--line);
+  }
+  .poster-authors-block .author{
+    font-size:13.5px;
+    color:var(--ink);
+    margin-bottom:2px;
+  }
+  .poster-authors-block .author:last-child{margin-bottom:0}
+  .poster-authors-block .institution{
+    font-size:12px;
+    color:var(--ink-mute);
+    font-style:italic;
+    margin-top:4px;
+  }
+
+  /* Player de áudio do autor */
+  .audio-author{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:12px 14px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .audio-author-icon{
+    background:var(--accent);
+    color:white;
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+  }
+  .audio-author-icon svg{width:16px;height:16px;fill:currentColor}
+  .audio-author-text{flex:1;min-width:0}
+  .audio-author-text .lbl{font-size:11.5px;color:var(--ink-mute);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.06em}
+  .audio-author-text .dur{font-size:14px;color:var(--ink);font-weight:500}
+  .audio-no-author{
+    padding:12px;
+    background:var(--bg-soft);
+    border-radius:8px;
+    font-size:12.5px;
+    color:var(--ink-mute);
+    font-style:italic;
+    text-align:center;
+  }
+
+  /* Perguntas */
+  .questions-list{display:flex;flex-direction:column;gap:10px}
+  .question-item{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:11px;
+  }
+  .question-q{
+    font-size:13.5px;
+    color:var(--ink);
+    line-height:1.4;
+    margin-bottom:6px;
+  }
+  .question-a{
+    font-size:13px;
+    color:var(--ink-soft);
+    line-height:1.5;
+    padding-top:8px;
+    border-top:1px dashed var(--line);
+  }
+  .question-status{
+    display:inline-block;
+    font-family:var(--mono);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    padding:2px 8px;
+    border-radius:8px;
+    margin-bottom:6px;
+  }
+  .question-status.answered{background:rgba(45,100,87,0.1);color:var(--green)}
+  .question-status.pending{background:rgba(193,140,62,0.1);color:#9c6f24}
+
+  /* Ações do pôster (votar, perguntar) */
+  .poster-actions{
+    display:flex;
+    gap:8px;
+    padding:14px 16px;
+    background:var(--bg);
+    border-top:1px solid var(--line);
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:60;
+  }
+  .poster-action-btn{
+    flex:1;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:11px 8px;
+    font-family:var(--sans);
+    font-size:12.5px;
+    color:var(--ink);
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    transition:all 0.15s;
+  }
+  .poster-action-btn:hover{background:var(--bg-soft)}
+  .poster-action-btn.primary{background:var(--accent);color:white;border-color:var(--accent)}
+  .poster-action-btn.primary:hover{background:#7a1f2c}
+  .poster-action-btn svg{width:14px;height:14px;stroke:currentColor;stroke-width:1.8;fill:none}
+  .poster-action-btn.voted svg{fill:currentColor}
+
+  /* Modal de demo de submissão */
+  .submission-demo .modal-card{max-width:520px}
+  .sub-step{display:none}
+  .sub-step.active{display:block}
+  .sub-step-indicator{
+    display:flex;
+    gap:6px;
+    margin-bottom:18px;
+    justify-content:center;
+  }
+  .sub-step-dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:var(--line);
+    transition:all 0.2s;
+  }
+  .sub-step-dot.active{background:var(--accent);transform:scale(1.3)}
+  .sub-step-dot.done{background:var(--green)}
+  .sub-form-field{margin-bottom:14px}
+  .sub-form-label{
+    display:block;
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-mute);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-bottom:5px;
+  }
+  .sub-form-input, .sub-form-select{
+    width:100%;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:10px 12px;
+    font-family:var(--sans);
+    font-size:13.5px;
+    color:var(--ink);
+  }
+  .sub-form-textarea{
+    width:100%;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:10px 12px;
+    font-family:var(--sans);
+    font-size:13.5px;
+    color:var(--ink);
+    resize:vertical;
+    min-height:80px;
+    line-height:1.5;
+  }
+  .sub-step-foot{
+    display:flex;
+    gap:8px;
+    margin-top:18px;
+  }
+  .sub-step-foot button{
+    flex:1;
+    padding:11px;
+    border-radius:8px;
+    font-family:var(--sans);
+    font-size:13px;
+    font-weight:500;
+    cursor:pointer;
+    border:none;
+  }
+  .sub-step-foot .secondary{background:var(--bg-soft);color:var(--ink-soft)}
+  .sub-step-foot .primary{background:var(--ink);color:var(--bg)}
+  .sub-preview{
+    background:var(--bg-soft);
+    border-radius:10px;
+    padding:14px;
+    margin-top:14px;
+  }
+  .sub-preview-lbl{
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-mute);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-bottom:8px;
+  }
+  .sub-preview-poster{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:14px;
+  }
+  .sub-preview-poster .pp-cat{
+    font-family:var(--mono);
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:var(--ink-mute);
+    margin-bottom:6px;
+  }
+  .sub-preview-poster .pp-title{
+    font-family:var(--serif);
+    font-size:15px;
+    font-weight:500;
+    color:var(--ink);
+    line-height:1.3;
+    margin-bottom:8px;
+  }
+  .sub-preview-poster .pp-msg{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    font-style:italic;
+    line-height:1.5;
+    padding:8px;
+    background:rgba(193,140,62,0.06);
+    border-left:2px solid var(--gold);
+    border-radius:3px;
+  }
+
+
 
   /* Banner demonstração no Assistente */
   .demo-banner{
@@ -2130,8 +2666,7 @@
 
       <div class="day-summary" id="daySummary">
         <span><strong>10</strong> sessões</span>
-        <span><strong>2</strong> de interesse</span>
-        <span><strong>1</strong> sua fala <span style="color:var(--gold)">★</span></span>
+        <span><strong id="daySummaryMarks">0</strong> marcadas</span>
         <button class="map-pill" onclick="openMapModal()">
           <svg viewBox="0 0 24 24"><path d="M9 3L3 6v15l6-3 6 3 6-3V3l-6 3-6-3z"/><path d="M9 3v15"/><path d="M15 6v15"/></svg>
           Mapa Expoville
@@ -2205,7 +2740,7 @@
           </div>
           <div class="actions">
             <button class="action-btn primary" onclick="capture(this, 'Simpósio 1 · DM2 em 3 atos')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
-            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
           </div>
         </div>
 
@@ -2272,7 +2807,7 @@
           </div>
           <div class="actions">
             <button class="action-btn primary" onclick="capture(this, 'Simpósio 3 · CDT')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
-            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
           </div>
         </div>
 
@@ -2338,8 +2873,7 @@
           </div>
         </div>
 
-        <div class="session starred">
-          <div class="star-mark">★</div>
+        <div class="session">
           <div class="session-row">
             <div class="time-col">
               <div class="time-start">17:00</div>
@@ -2353,13 +2887,13 @@
               <div class="session-speakers">
                 <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Suplementos para performance: mitos e verdades</span> · <span class="talk-name">Dr. Fúlvio Tomaselli</span></div></div>
                 <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Emagrecer a qualquer custo: o debate ético dos manipulados</span> · <span class="talk-name">Dr. Neuton Dornelas Gomes</span></div></div>
-                <div class="speaker is-me"><span class="talk-mark">★</span><div class="talk"><span class="talk-title">Centenas de exames e zero hipótese</span> · <span class="talk-name">Dr. Itairan da Silva Terres</span><div style="font-size:11.5px;color:var(--gold);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.08em;margin-top:2px">sua fala</div></div></div>
+                <div class="speaker"><span class="talk-mark">3.</span><div class="talk"><span class="talk-title">Centenas de exames e zero hipótese</span> · <span class="talk-name">Dr. Itairan da Silva Terres</span></div></div>
               </div>
             </div>
           </div>
           <div class="actions">
-            <button class="action-btn primary" onclick="capture(this, 'Simpósio 5 · Sua fala')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
-            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Sua fala</button>
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 5 · Entre evidências e modismos')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
           </div>
         </div>
 
@@ -2561,7 +3095,7 @@
           </div>
           <div class="actions">
             <button class="action-btn primary" onclick="capture(this, 'Mini · IA no consultório')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
-            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
           </div>
         </div>
 
@@ -2707,6 +3241,42 @@
 
     </section>
 
+    <!-- ============= ABA TRABALHOS (Demonstração de Conceito) ============= -->
+    <section class="panel" id="panel-trabalhos" data-screen-label="Aba Trabalhos">
+
+      <div class="demo-concept-banner">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+        <span><strong>Demonstração de conceito</strong> · trabalhos fictícios para validação do formato com a Comissão Científica. Os trabalhos reais virão da chamada oficial em junho/2026.</span>
+      </div>
+
+      <div class="trabalhos-head">
+        <h2>Trabalhos científicos</h2>
+        <p class="sub" id="trabalhosSubtitle">17 trabalhos · 10 categorias</p>
+        <button class="trabalhos-submit-link" onclick="openSubmissionDemo()">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M12 18v-6M9 15l3-3 3 3"/></svg>
+          Como o autor submete?
+        </button>
+      </div>
+
+      <div class="cat-filters" id="catFilters"></div>
+
+      <div class="mural" id="mural"></div>
+
+      <!-- Subview: pôster expandido -->
+      <div class="poster-detail" id="posterDetail">
+        <div class="poster-detail-head">
+          <button class="poster-detail-back" onclick="closePosterDetail()">
+            <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+            Voltar
+          </button>
+          <span class="id" id="posterDetailId">—</span>
+        </div>
+        <div class="poster-detail-body" id="posterDetailBody"></div>
+        <div class="poster-actions" id="posterActionsBar"></div>
+      </div>
+
+    </section>
+
     <!-- ============= ABA CADERNO ============= -->
     <section class="panel" id="panel-caderno" data-screen-label="Aba Caderno">
 
@@ -2841,6 +3411,13 @@
       </svg>
       Assistente
     </button>
+    <button onclick="switchPanel('trabalhos', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="14" rx="2"/>
+        <path d="M3 10h18M8 17v4M16 17v4M6 21h12"/>
+      </svg>
+      Trabalhos
+    </button>
     <button onclick="switchPanel('caderno', this)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
         <path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5z"/>
@@ -2935,10 +3512,10 @@ function seedInitial(){
      title:'Estratificação de risco no CDT — o que mudou',
      body:'<strong>Take-home:</strong> resposta excelente, indeterminada, bioquímica incompleta, estrutural incompleta — categorias <strong>dinâmicas</strong>, reavaliáveis no seguimento.',
      tags:['tireoide','CDT','ATA'], ts: Date.now()-86400000*1.0},
-    {id:'c4', day:'sexta', time:'17:35', sessionRef:'Simpósio 5 · Dr. Itairan Terres ★', type:'texto',
-     title:'"Centenas de exames e zero hipótese" — anotações da sua fala',
+    {id:'c4', day:'sexta', time:'17:35', sessionRef:'Simpósio 5 · Dr. Itairan Terres', type:'texto',
+     title:'"Centenas de exames e zero hipótese" — anotações',
      body:'Frase a guardar: <em>"o exame não substitui a hipótese — confirma ou refuta uma."</em> Conexão com hiperdiagnóstico em endo (incidentaloma adrenal, nódulo tireoide).',
-     tags:['sua-fala','raciocínio-clínico'], ts: Date.now()-86400000*0.9},
+     tags:['raciocínio-clínico','bioética'], ts: Date.now()-86400000*0.9},
     {id:'c5', day:'sabado', time:'8:30', sessionRef:'Simpósio 6 · Dr. Alexandre Hohl', type:'foto',
      title:'Nova diretriz de hipogonadismo — pontos de mudança',
      body:'<strong>Cutoff de testosterona total</strong> ajustado por idade. Tratamento iniciado apenas com <strong>duas</strong> dosagens matinais alteradas.',
@@ -2976,6 +3553,7 @@ function switchPanel(name, btn){
   document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   if(name === 'caderno') renderCaderno();
+  if(name === 'trabalhos') renderTrabalhos();
   if(name === 'assistente') setTimeout(()=>{
     const w = document.getElementById('chatWrap');
     if(w) w.scrollTop = w.scrollHeight;
@@ -2988,10 +3566,13 @@ function switchDay(day, btn){
   btn.classList.add('active');
   const summary = document.getElementById('daySummary');
   const marks = Object.values(state.marks).filter(Boolean).length;
+  const mapPill = '<button class="map-pill" onclick="openMapModal()">' +
+    '<svg viewBox="0 0 24 24"><path d="M9 3L3 6v15l6-3 6 3 6-3V3l-6 3-6-3z"/><path d="M9 3v15"/><path d="M15 6v15"/></svg>' +
+    'Mapa Expoville</button>';
   if(day === 'sexta'){
-    summary.innerHTML = '<span><strong>10</strong> sessões</span><span><strong>'+marks+'</strong> marcadas</span><span><strong>1</strong> sua fala <span style="color:var(--gold)">★</span></span>';
+    summary.innerHTML = '<span><strong>10</strong> sessões</span><span><strong>'+marks+'</strong> marcadas</span>' + mapPill;
   } else {
-    summary.innerHTML = '<span><strong>9</strong> sessões</span><span><strong>'+marks+'</strong> marcadas</span><span><strong>1</strong> tema-chave <span style="color:var(--gold)">★</span></span>';
+    summary.innerHTML = '<span><strong>9</strong> sessões</span><span><strong>'+marks+'</strong> marcadas</span><span><strong>1</strong> tema-chave <span style="color:var(--gold)">★</span></span>' + mapPill;
   }
 }
 
@@ -3642,8 +4223,7 @@ const SPEAKER_BIOS = {
   },
   "Dr. Itairan da Silva Terres": {
     role: "Comissão Científica · Endocrinologista e bioeticista",
-    bio: "Professor e coordenador adjunto do curso de medicina da UNIDAVI. Membro da Comissão Científica do CCEM 2026. Sua palestra discute o problema do excesso de exames sem hipótese clínica.",
-    isMe: true
+    bio: "Professor e coordenador adjunto do curso de medicina da UNIDAVI. Membro da Comissão Científica do CCEM 2026. Sua palestra discute o problema do excesso de exames sem hipótese clínica."
   },
   "Dra. Goretti Silveira Rodrigues": {
     role: "Endocrinologista",
@@ -3787,8 +4367,7 @@ const SESSION_META = {
       "Suplementos de performance: o que tem evidência, o que é marketing.",
       "Manipulados para emagrecimento: limites éticos da prescrição.",
       "Centenas de exames sem hipótese clínica — o caso dos pacientes 'da bateria'."
-    ],
-    isItairan: true
+    ]
   },
   // Sábado
   "sab-0": {
@@ -4451,6 +5030,602 @@ decorateExistingAIBubbles();
 markConsentByDefault();
 initSessionFilter();
 patchCaptureToAvoidPhantom();
+
+
+/* ============================================================
+   ABA TRABALHOS — Demonstração de Conceito
+   17 trabalhos fictícios em 10 categorias SBEM
+   ============================================================ */
+
+const SBEM_CATEGORIES = [
+  { id: 'all',          name: 'Todas',             color: 'var(--ink)' },
+  { id: 'diabetes',     name: 'Diabetes Mellitus',  color: '#8E2433' },
+  { id: 'tireoide',     name: 'Tireoide',           color: '#1A5D8E' },
+  { id: 'obesidade',    name: 'Obesidade',          color: '#C18C3E' },
+  { id: 'feminina',     name: 'End. Feminina, Andrologia e Transgeneridade', color: '#7A4577' },
+  { id: 'adrenal',      name: 'Adrenal e Hipertensão', color: '#2D6457' },
+  { id: 'pediatrica',   name: 'End. Pediátrica',    color: '#A35820' },
+  { id: 'neuroendo',    name: 'Neuroendocrinologia', color: '#445F8E' },
+  { id: 'ossea',        name: 'Metab. Ósseo e Mineral', color: '#6B5C7A' },
+  { id: 'esporte',      name: 'End. do Esporte e Exercício', color: '#4D7E3E' },
+  { id: 'dislipidemia', name: 'Dislipidemia e Aterosclerose', color: '#B3502E' },
+  { id: 'basica',       name: 'End. Básica e Translacional', color: '#8A8A8A' }
+];
+
+const POSTERS = [
+  // DIABETES MELLITUS (3)
+  { id:'P-001', cat:'diabetes', type:'Trabalho original', title:'Eficácia da semaglutida em pacientes com DM2 e obesidade grau III: experiência ambulatorial de 24 meses',
+    message:'Resposta glicêmica é precoce, mas o impacto antropométrico só estabiliza após 12 meses — não desista antes.',
+    authors:[
+      {name:'Dr. Eduardo Schmidt', inst:'UFSC'},
+      {name:'Dra. Patricia Bauer Lima', inst:'HU-UFSC'},
+      {name:'Dr. Marcos Vilas Boas', inst:'SES-SC'}
+    ],
+    abstract:{
+      Introdução:'Semaglutida combina ação glicêmica e antiobesidade, mas dados de longo prazo em coorte brasileira de obesidade grau III são limitados.',
+      Objetivos:'Avaliar resposta glicêmica e antropométrica em 24 meses de seguimento.',
+      Métodos:'Coorte retrospectiva ambulatorial, 64 pacientes com DM2 e IMC>40, semaglutida 1mg/sem.',
+      Resultados:'HbA1c −1,7% (IC 95% −1,9 a −1,5) já em 3 meses, estável após. Peso: queda lenta, plateau em 14% aos 12-18 meses.',
+      Conclusão:'Eficácia glicêmica precoce; resposta ponderal exige paciência clínica e ajustes de expectativa.'
+    },
+    hasAudio:true, audioMin:'1:42', votes:34, questions:[
+      {q:'Houve perdas por efeitos adversos GI significativas nessa coorte?', a:'Sim, 11% abandonaram nos primeiros 3 meses — náusea e plenitude foram os principais. Após ajuste de titulação, perda caiu para <3% no acompanhamento de longo prazo.', answered:true},
+      {q:'Vocês observaram pacientes que ficaram refratários ao plateau e tentaram doses maiores?', answered:false}
+    ]
+  },
+  { id:'P-002', cat:'diabetes', type:'Trabalho original', title:'Tirzepatida em DM2 não-controlado: coorte real de 87 pacientes em Joinville',
+    message:'Redução média de 1,8% na HbA1c em 6 meses, com 38% atingindo meta <7% — mas adesão é o gargalo.',
+    authors:[
+      {name:'Dr. André Boehm', inst:'HU-Joinville'},
+      {name:'Dra. Renata Cardoso', inst:'UNIVILLE'},
+      {name:'Dr. Felipe Sant\'Anna', inst:'Clínica privada'}
+    ],
+    abstract:{
+      Introdução:'Tirzepatida (agonista duplo GIP/GLP-1) demonstrou superioridade em ensaios clínicos, mas dados de mundo real no Sul do Brasil são escassos.',
+      Objetivos:'Caracterizar resposta clínica em 6 meses.',
+      Métodos:'Coorte prospectiva, 87 pacientes DM2 não controlado, titulação até 10mg/sem.',
+      Resultados:'HbA1c −1,8%; 38% atingiram <7%. Perda de peso 9,4%. Adesão 71% aos 6 meses.',
+      Conclusão:'Eficácia comparável aos ensaios, mas adesão prática é o desafio.'
+    },
+    hasAudio:true, audioMin:'1:56', votes:28, questions:[
+      {q:'Qual foi o principal motivo de descontinuação?', a:'Custo. 18% pararam por não conseguir manter pela rede privada após 4-6 meses.', answered:true}
+    ]
+  },
+  { id:'P-003', cat:'diabetes', type:'Série de casos', title:'Cetoacidose euglicêmica em uso de iSGLT2: série de 4 casos hospitalares',
+    message:'Glicemia normal não exclui CAD em quem usa iSGLT2 — pedir cetona sempre que sintoma sugerir.',
+    authors:[
+      {name:'Dra. Júlia Reiser', inst:'Hospital Hans Dieter Schmidt'},
+      {name:'Dr. Carlos Eduardo Vianna', inst:'HRHDS Joinville'}
+    ],
+    abstract:{
+      'Apresentação inicial':'4 pacientes DM2 em uso de iSGLT2, internados por sintomas variados (dor abdominal, dispneia, mal-estar) com glicemia <250 mg/dL.',
+      Evolução:'pH<7.30 e cetonemia em todos. Diagnóstico de CAD euglicêmica.',
+      Conduta:'Suspensão de iSGLT2, hidratação, insulina, reposição de bicarbonato em 2 casos.',
+      Discussão:'Cetoacidose euglicêmica é causa subdiagnosticada em pacientes em uso de iSGLT2 — sintomas inespecíficos podem mascarar quadro grave. Pedir cetona urinária ou sérica em qualquer paciente sintomático sob iSGLT2.'
+    },
+    hasAudio:false, votes:19, questions:[
+      {q:'Houve recidiva após alta?', answered:false}
+    ]
+  },
+  // TIREOIDE (3)
+  { id:'P-004', cat:'tireoide', type:'Série de casos', title:'CDT de baixo risco com tireoglobulina detectável após tireoidectomia: estratificação dinâmica em 5 anos',
+    message:'Tg detectável após ablação não é falha de tratamento — é categoria a estratificar.',
+    authors:[
+      {name:'Dra. Beatriz Karmann', inst:'UNIVALI'},
+      {name:'Dr. Henrique Bertelli', inst:'Hospital Santa Catarina'},
+      {name:'Dra. Luiza Wiethorn', inst:'UNIVALI'}
+    ],
+    abstract:{
+      'Apresentação inicial':'12 pacientes CDT estágio 1 com Tg estimulada 0,2-5,0 ng/mL após tireoidectomia total e ablação.',
+      Evolução:'Categorizados como "resposta indeterminada" (ATA 2015). Seguimento 5 anos.',
+      Conduta:'Vigilância ativa, sem reintervenção primária.',
+      Discussão:'10/12 mantiveram resposta estável ou melhoraram. Apenas 2 evoluíram para resposta bioquímica incompleta. Tg detectável não obriga intervenção — categoria dinâmica.'
+    },
+    hasAudio:true, audioMin:'1:48', votes:22, questions:[
+      {q:'Qual cutoff vocês usaram para definir indeterminada vs bioquímica incompleta?', a:'Seguimos ATA 2015: Tg estimulada 1-10 ng/mL indeterminada; >10 bioquímica incompleta. Os 2 casos que pioraram tinham trajetória ascendente da Tg.', answered:true}
+    ]
+  },
+  { id:'P-005', cat:'tireoide', type:'Revisão sistemática', title:'TSH supressivo a longo prazo no CDT de alto risco: revisão sistemática das evidências pós-ATA 2015',
+    message:'Manter TSH <0,1 mU/L por mais de 5 anos aumenta risco CV sem ganho oncológico claro — repensar.',
+    authors:[
+      {name:'Dr. Ricardo Becker', inst:'UNISUL'},
+      {name:'Dra. Cláudia Hartmann', inst:'UNISUL'},
+      {name:'Dr. Tomás Velho de Souza', inst:'Hospital São José'}
+    ],
+    abstract:{
+      Introdução:'Supressão de TSH no seguimento do CDT de alto risco é prática histórica, com benefício oncológico controverso após 5 anos.',
+      Objetivos:'Revisar evidência pós-ATA 2015 sobre supressão a longo prazo.',
+      Métodos:'Revisão sistemática PubMed e Cochrane, 2015-2024, 23 estudos elegíveis.',
+      Resultados:'Sem evidência de ganho oncológico após 5 anos de resposta excelente. Aumento consistente de eventos CV em pacientes >60 anos com TSH <0,1.',
+      Conclusão:'Após 5 anos com resposta excelente, considerar relaxar supressão para 0,1-0,5 mU/L em pacientes selecionados.'
+    },
+    hasAudio:true, audioMin:'2:03', votes:41, questions:[]
+  },
+  { id:'P-006', cat:'tireoide', type:'Trabalho original', title:'Tireoidite pós-COVID em mulheres jovens de SC: caracterização de 23 casos',
+    message:'Tireoidite indolor pós-COVID é mais comum que reportado — investigar TSH em sintomas inespecíficos.',
+    authors:[
+      {name:'Dra. Mariana Lopez Caetano', inst:'FURB'},
+      {name:'Dr. Felipe Quevedo', inst:'FURB'},
+      {name:'Dra. Ana Beatriz Lemos', inst:'Hospital Santo Antônio Blumenau'}
+    ],
+    abstract:{
+      Introdução:'Tireoidite subaguda pós-COVID-19 foi inicialmente descrita como rara, mas relatos crescem.',
+      Objetivos:'Caracterizar casos identificados em SC entre 2022 e 2024.',
+      Métodos:'Série retrospectiva, mulheres 25-45 anos, sintomas tireoideos até 12 semanas após COVID confirmado.',
+      Resultados:'23 casos. 70% tireoidite indolor (não a forma clássica dolorosa). Hipertireoidismo transitório seguido de hipotireoidismo em 60%.',
+      Conclusão:'Forma indolor é predominante e subdiagnosticada — TSH em sintomas inespecíficos pós-COVID merece consideração.'
+    },
+    hasAudio:true, audioMin:'1:32', votes:25, questions:[
+      {q:'Houve recuperação espontânea em quanto tempo?', a:'Mediana de 6 meses para retorno aos valores basais. 4 pacientes desenvolveram hipotireoidismo permanente.', answered:true}
+    ]
+  },
+  // OBESIDADE (3)
+  { id:'P-007', cat:'obesidade', type:'Relato de experiência', title:'Bariátrica revisional após reganho de peso: experiência multidisciplinar em centro privado',
+    message:'Revisional não é fracasso — é manejo de doença crônica. Indicação criteriosa muda desfecho.',
+    authors:[
+      {name:'Dr. Bernardo Schweitzer', inst:'Clínica privada · Florianópolis'},
+      {name:'Dr. Mateus Cordeiro', inst:'Hospital Baía Sul'},
+      {name:'Dra. Iolanda Hess', inst:'Equipe multiprofissional independente'}
+    ],
+    abstract:{
+      'Apresentação inicial':'47 pacientes pós-bariátrica com reganho >25% do peso perdido em 5 anos.',
+      Evolução:'Avaliação multidisciplinar (endócrino + cirurgião + nutricional + psicológico) ao longo de 6-12 meses.',
+      Conduta:'18 foram para revisional cirúrgica; 29 evoluíram com tratamento clínico intensivo (incluindo GLP-1RA).',
+      Discussão:'Indicação criteriosa de revisional, com avaliação psicossocial robusta, evita revisional precoce desnecessária. Tratamento clínico foi suficiente em 60% dos casos.'
+    },
+    hasAudio:false, votes:31, questions:[
+      {q:'Qual o critério psicossocial que mais pesou na decisão?', answered:false},
+      {q:'Houve diferença de desfecho entre quem fez clínica vs revisional?', answered:false}
+    ]
+  },
+  { id:'P-008', cat:'obesidade', type:'Trabalho original', title:'Estilo de vida pós-bariátrica e manutenção de peso aos 5 anos: coorte de 142 pacientes',
+    message:'Quem mantém atividade física semanal estruturada perde 11% a mais em 5 anos do que quem não mantém.',
+    authors:[
+      {name:'Dra. Tamara Rodrigues', inst:'UFSC'},
+      {name:'Dr. Lucas Eichholz', inst:'UFSC'},
+      {name:'Dra. Carolina Marpe', inst:'CEPON'}
+    ],
+    abstract:{
+      Introdução:'Bariátrica é tratamento, não cura. Reganho aos 5 anos é a regra.',
+      Objetivos:'Avaliar associação entre estilo de vida estruturado e manutenção de peso aos 5 anos.',
+      Métodos:'Coorte ambulatorial 142 pacientes, seguimento mediano 5,2 anos.',
+      Resultados:'Quem mantinha ≥150 min/sem de atividade física apresentou perda total 11% maior. Acompanhamento nutricional regular: 6% adicional.',
+      Conclusão:'Estilo de vida estruturado pós-bariátrica não é coadjuvante — é determinante.'
+    },
+    hasAudio:true, audioMin:'1:50', votes:38, questions:[]
+  },
+  { id:'P-009', cat:'obesidade', type:'Trabalho original', title:'Semaglutida 2,4mg no manejo de obesidade grau I: ainda há lugar para tratamento clínico em SC?',
+    message:'Em obesidade grau I, ganhos antropométricos são reais — mas custo-efetividade exige seleção cuidadosa.',
+    authors:[
+      {name:'Dr. Otávio Schoeller', inst:'UNIDAVI'},
+      {name:'Dra. Helena Rotermund', inst:'UNIDAVI'}
+    ],
+    abstract:{
+      Introdução:'Cobertura suplementar privada em SC para semaglutida 2,4mg ainda é heterogênea — papel em obesidade grau I é debate ético-econômico.',
+      Objetivos:'Caracterizar resposta em pacientes com IMC 30-34,9.',
+      Métodos:'Transversal, 52 pacientes, 6 meses de tratamento.',
+      Resultados:'Perda média 14%; 73% atingiram meta 10%. Custo médio R$ 1.800/mês.',
+      Conclusão:'Resposta é robusta, mas custo limita acesso. Seleção criteriosa por risco metabólico é necessária no atual cenário.'
+    },
+    hasAudio:true, audioMin:'1:38', votes:23, questions:[
+      {q:'Vocês usaram algum escore de risco metabólico para selecionar?', a:'Sim. Priorizamos pacientes com pré-diabetes, esteatose hepática ou ≥2 fatores de risco CV. Em obesidade grau I sem comorbidade, raramente indicamos.', answered:true}
+    ]
+  },
+  // FEMININA E TRANSGENERIDADE (2)
+  { id:'P-010', cat:'feminina', type:'Relato de experiência', title:'Hormonioterapia em mulheres trans no SUS-SC: experiência ambulatorial em 3 centros',
+    message:'Acesso à hormonioterapia segura no SUS-SC ainda é fragmentado — protocolos regionais aumentam segurança.',
+    authors:[
+      {name:'Dra. Vitória Salles', inst:'Ambulatório de Diversidade · SES-SC'},
+      {name:'Dra. Aline Beltrami', inst:'HU-UFSC'},
+      {name:'Dr. Pedro Hörner', inst:'Hospital São José'}
+    ],
+    abstract:{
+      'Apresentação inicial':'138 mulheres trans em hormonioterapia em 3 centros públicos de SC, 2020-2024.',
+      Evolução:'Caracterização sociodemográfica, esquemas, eventos adversos.',
+      Conduta:'Estradiol valerato oral + espironolactona ou acetato de ciproterona conforme disponibilidade local.',
+      Discussão:'Heterogeneidade de protocolos entre centros aumenta risco de eventos tromboembólicos. Proposta de protocolo regional unificado em discussão com SES-SC.'
+    },
+    hasAudio:true, audioMin:'2:08', votes:47, questions:[
+      {q:'Houve casos de TVP nessa coorte?', a:'Sim. 4 eventos em 4 anos, todos em pacientes com estradiol VO em dose alta (>4mg/dia) — reforça necessidade de protocolo unificado priorizando estradiol transdérmico.', answered:true},
+      {q:'Como vocês fazem o seguimento dos níveis de estradiol sérico no SUS?', answered:false}
+    ]
+  },
+  { id:'P-011', cat:'feminina', type:'Trabalho original', title:'SOP em adolescentes: critério Rotterdam vs critérios pediátricos — comparação em 78 pacientes',
+    message:'Rotterdam superdiagnostica SOP em adolescentes — critérios pediátricos reduzem rótulo desnecessário em 31%.',
+    authors:[
+      {name:'Dra. Larissa Frantz', inst:'HU-UFSC'},
+      {name:'Dr. Eduardo Pessoa', inst:'HU-UFSC'},
+      {name:'Dra. Beatriz Mantello', inst:'Hospital Infantil Joana de Gusmão'}
+    ],
+    abstract:{
+      Introdução:'Adolescentes apresentam fisiologia normalmente irregular nos primeiros anos pós-menarca, dificultando diagnóstico de SOP.',
+      Objetivos:'Comparar Rotterdam vs critérios pediátricos (Witchel 2018) em 78 adolescentes.',
+      Métodos:'Transversal, 14-19 anos, sintomas sugestivos.',
+      Resultados:'Rotterdam: 67% diagnosticadas. Pediátricos: 36%. Discordância de 31% — supostas portadoras pelo Rotterdam não preenchem critérios pediátricos.',
+      Conclusão:'Critérios pediátricos reduzem rotulação desnecessária e preservam autonomia clínica.'
+    },
+    hasAudio:false, votes:29, questions:[]
+  },
+  // ADRENAL (1)
+  { id:'P-012', cat:'adrenal', type:'Série de casos', title:'Hiperaldosteronismo primário em HAS refratária: rastreamento sistemático aumenta diagnóstico em 4x',
+    message:'HAS refratária merece relação aldosterona/renina sempre — diagnóstico tardio custa rim e coração.',
+    authors:[
+      {name:'Dr. Augusto Reichow', inst:'UFSC'},
+      {name:'Dra. Renata Kühl', inst:'Hospital Universitário'}
+    ],
+    abstract:{
+      'Apresentação inicial':'Coorte de 156 pacientes com HAS refratária encaminhados a ambulatório especializado.',
+      Evolução:'Rastreamento sistemático com relação aldosterona/renina + teste confirmatório.',
+      Conduta:'Diagnóstico de hiperaldosteronismo primário em 19% (vs 4-5% relatado historicamente em SC sem rastreamento sistemático).',
+      Discussão:'Rastreamento sistemático aumenta diagnóstico em 4x. Preservação renal e cardiovascular justifica esforço. Subdiagnóstico é a regra fora de centros especializados.'
+    },
+    hasAudio:true, audioMin:'1:44', votes:33, questions:[]
+  },
+  // PEDIÁTRICA (1)
+  { id:'P-013', cat:'pediatrica', type:'Coorte', title:'Puberdade precoce central em meninas catarinenses: coorte de 56 casos em 8 anos',
+    message:'Idade óssea avançada aos 8 anos exige investigação — atraso diagnóstico compromete estatura final.',
+    authors:[
+      {name:'Dra. Andrea Becker', inst:'Hospital Infantil Joana de Gusmão'},
+      {name:'Dra. Mônica Voss', inst:'HIJG'},
+      {name:'Dr. Davi Stadnik', inst:'HIJG'}
+    ],
+    abstract:{
+      Introdução:'Puberdade precoce central em meninas exige diagnóstico precoce para preservar estatura final.',
+      Objetivos:'Caracterizar coorte catarinense em 8 anos de seguimento.',
+      Métodos:'56 meninas com diagnóstico antes de 8 anos, GnRH-análogo iniciado em mediana de 6 meses após diagnóstico.',
+      Resultados:'Estatura final adulta preservada em 79% (estatura-alvo familiar). Atraso >12 meses no início do tratamento associado a perda de potencial estatural.',
+      Conclusão:'Encaminhamento ágil ao especialista é determinante para preservação do potencial genético.'
+    },
+    hasAudio:true, audioMin:'1:51', votes:26, questions:[]
+  },
+  // NEUROENDOCRINOLOGIA (1)
+  { id:'P-014', cat:'neuroendo', type:'Caso clínico', title:'Macroprolactinoma agressivo resistente a cabergolina: temozolomida como segunda linha',
+    message:'Cabergolina falha em 10-20% dos macroprolactinomas — temozolomida muda história natural.',
+    authors:[
+      {name:'Dr. Bruno Pizolato', inst:'HU-UFSC'},
+      {name:'Dra. Camila Faria', inst:'HU-UFSC'},
+      {name:'Dr. Vinícius Petersen', inst:'Neurocirurgia UFSC'}
+    ],
+    abstract:{
+      'Apresentação inicial':'Homem 38a, macroprolactinoma invasivo com cefaleia e perda visual, resistente a cabergolina em dose alta.',
+      Evolução:'Ressecção transesfenoidal subtotal. Recidiva em 9 meses com prolactina >5000.',
+      Conduta:'Temozolomida 6 ciclos. Resposta bioquímica e tumoral parcial sustentada após 18 meses.',
+      Discussão:'Cabergolina falha em 10-20% dos macroprolactinomas. Temozolomida é alternativa estabelecida, com resposta em ~50% dos resistentes. Custo e acesso são desafios.'
+    },
+    hasAudio:false, votes:21, questions:[
+      {q:'Como vocês conseguiram acesso à temozolomida via SUS?', answered:false}
+    ]
+  },
+  // ÓSSEA (1)
+  { id:'P-015', cat:'ossea', type:'Trabalho original', title:'Densitometria óssea em adultos com DM1 de longa duração: prevalência de osteoporose subdiagnosticada',
+    message:'DM1 com >15 anos tem osteoporose em 1 de cada 4 — investigar sempre, não esperar fratura.',
+    authors:[
+      {name:'Dra. Helena Klocke', inst:'UDESC'},
+      {name:'Dr. Marcus Pacheco', inst:'UDESC'},
+      {name:'Dra. Luana Garbin', inst:'CEDOM Florianópolis'}
+    ],
+    abstract:{
+      Introdução:'DM1 está associado a baixa qualidade óssea, mas rastreamento densitométrico é heterogêneo.',
+      Objetivos:'Caracterizar prevalência de osteoporose em DM1 com >15 anos de duração.',
+      Métodos:'Transversal, 124 adultos DM1, densitometria coluna+fêmur.',
+      Resultados:'Osteoporose em 24% (vs 6% esperado para idade). Risco aumentado em mulheres pós-menopausa e usuários crônicos de corticoide para outras condições.',
+      Conclusão:'DM1 com mais de 15 anos merece densitometria rotineira, independente de fratura prévia.'
+    },
+    hasAudio:true, audioMin:'1:35', votes:28, questions:[]
+  },
+  // ESPORTE (1)
+  { id:'P-016', cat:'esporte', type:'Trabalho original', title:'Síndrome RED-S em corredoras amadoras de meia distância: experiência ambulatorial em centro de referência',
+    message:'RED-S não é só nas atletas elite — corredora amadora também precisa rastreio energético.',
+    authors:[
+      {name:'Dr. Felipe Lottermann', inst:'UFSC · Medicina do Esporte'},
+      {name:'Dra. Carolina Mees', inst:'UFSC'},
+      {name:'Dr. Iuri Stadnik', inst:'CEFID-UDESC'}
+    ],
+    abstract:{
+      Introdução:'RED-S (Relative Energy Deficiency in Sport) é entidade clínica recente que substitui a "tríade da atleta". Subdiagnóstico em amadoras é provável.',
+      Objetivos:'Caracterizar RED-S em corredoras amadoras de meia distância em SC.',
+      Métodos:'Coorte 42 mulheres, 25-45 anos, 30-80 km/sem.',
+      Resultados:'Critérios RED-S em 38%. Distúrbios menstruais em 52%. Baixa densidade óssea em 26%.',
+      Conclusão:'RED-S é prevalente em amadoras de meia distância. Rastreio energético-menstrual-ósseo deve ser rotina em endocrinologia esportiva.'
+    },
+    hasAudio:true, audioMin:'1:47', votes:30, questions:[]
+  },
+  // DISLIPIDEMIA (1)
+  { id:'P-017', cat:'dislipidemia', type:'Trabalho original', title:'Lipoproteína(a) elevada em pacientes com DM2 e DCV precoce: prevalência e implicações terapêuticas',
+    message:'Lp(a) está alta em 1/3 dos DM2 com DCV precoce — pedir 1 vez na vida muda risco.',
+    authors:[
+      {name:'Dra. Beatriz Niedermeier', inst:'Hospital de Caridade Joinville'},
+      {name:'Dr. Ramiro Coelho', inst:'HCC-Joinville'},
+      {name:'Dra. Mariana Tessmann', inst:'Cardio-endocrino · Privado'}
+    ],
+    abstract:{
+      Introdução:'Lp(a) é marcador hereditário de risco CV residual. Em DM2 com DCV precoce, sua prevalência é subestudada no Sul do Brasil.',
+      Objetivos:'Determinar prevalência de Lp(a) >50 mg/dL em coorte regional.',
+      Métodos:'Transversal, 89 pacientes DM2 com DCV antes dos 55 anos.',
+      Resultados:'Lp(a) >50 mg/dL em 33%. Em 7%, valores >180 mg/dL (risco genético muito alto).',
+      Conclusão:'Lp(a) deve ser medida ao menos uma vez na vida em DM2 com DCV precoce. Estratifica conduta de prevenção secundária agressiva.'
+    },
+    hasAudio:true, audioMin:'1:53', votes:36, questions:[
+      {q:'Vocês indicam apoB também nesse perfil?', a:'Sim, em geral pedimos Lp(a) e apoB juntos. ApoB é o marcador mais relevante para guiar terapia de LDL/aterogênese; Lp(a) é o marcador hereditário independente.', answered:true}
+    ]
+  }
+];
+
+let trabalhosState = {
+  activeCategory: 'all',
+  initialized: false
+};
+
+function initTrabalhos(){
+  // Renderiza filtros uma vez
+  const filtersEl = document.getElementById('catFilters');
+  if(!filtersEl) return;
+
+  const counts = {};
+  POSTERS.forEach(p => { counts[p.cat] = (counts[p.cat]||0) + 1; });
+
+  filtersEl.innerHTML = SBEM_CATEGORIES.map(cat => {
+    const count = cat.id === 'all' ? POSTERS.length : (counts[cat.id] || 0);
+    const active = cat.id === 'all' ? 'active' : '';
+    return `<button class="cat-chip ${active}" data-cat-id="${cat.id}" onclick="filterTrabalhos('${cat.id}', this)">${cat.name}<span class="cat-count">${count}</span></button>`;
+  }).join('');
+
+  trabalhosState.initialized = true;
+}
+
+function renderTrabalhos(){
+  if(!trabalhosState.initialized) initTrabalhos();
+
+  const mural = document.getElementById('mural');
+  const activeCategory = trabalhosState.activeCategory;
+  const filtered = activeCategory === 'all'
+    ? POSTERS
+    : POSTERS.filter(p => p.cat === activeCategory);
+
+  const subtitle = document.getElementById('trabalhosSubtitle');
+  if(activeCategory === 'all'){
+    subtitle.textContent = `${POSTERS.length} trabalhos · 10 categorias`;
+  } else {
+    const catObj = SBEM_CATEGORIES.find(c => c.id === activeCategory);
+    subtitle.textContent = `${filtered.length} ${filtered.length === 1 ? 'trabalho' : 'trabalhos'} · ${catObj?.name}`;
+  }
+
+  if(filtered.length === 0){
+    mural.innerHTML = `<div class="empty-cat">Nenhum trabalho aprovado nesta categoria.</div>`;
+    return;
+  }
+
+  mural.innerHTML = filtered.map(p => {
+    const catObj = SBEM_CATEGORIES.find(c => c.id === p.cat);
+    const firstAuthor = p.authors[0]?.name || 'Autor';
+    const restAuthors = p.authors.length > 1 ? ` <span style="color:var(--ink-mute)">· +${p.authors.length - 1} ${p.authors.length === 2 ? 'autor' : 'autores'}</span>` : '';
+    return `
+      <div class="poster-card" onclick="openPosterDetail('${p.id}')">
+        <div class="poster-card-head">
+          <span class="poster-card-cat">${catObj?.name || p.cat}</span>
+          <span class="poster-card-type">${p.type}</span>
+          <span class="poster-card-id">${p.id}</span>
+        </div>
+        <div class="poster-card-title">${p.title}</div>
+        <div class="poster-card-message">${p.message}</div>
+        <div class="poster-card-authors"><span class="first-author">${firstAuthor}</span>${restAuthors} · <em>${p.authors[0]?.inst}</em></div>
+        <div class="poster-card-foot">
+          ${p.hasAudio ? `<span class="with-audio"><svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1v-7h3zM3 19a2 2 0 002 2h1v-7H3z"/></svg>áudio ${p.audioMin}</span>` : `<span>sem áudio</span>`}
+          <span>· ${p.votes} votos</span>
+          <span>· ${p.questions.length} ${p.questions.length === 1 ? 'pergunta' : 'perguntas'}</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function filterTrabalhos(catId, btn){
+  trabalhosState.activeCategory = catId;
+  document.querySelectorAll('.cat-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderTrabalhos();
+}
+
+function openPosterDetail(posterId){
+  const p = POSTERS.find(x => x.id === posterId);
+  if(!p) return;
+  const catObj = SBEM_CATEGORIES.find(c => c.id === p.cat);
+
+  const abstractHTML = Object.entries(p.abstract).map(([key, val]) =>
+    `<div class="poster-detail-section"><h4>${key}</h4><p>${val}</p></div>`
+  ).join('');
+
+  const authorsHTML = p.authors.map((a, idx) =>
+    `<div class="author">${idx === 0 ? '<strong>' : ''}${a.name}${idx === 0 ? '</strong>' : ''}<div class="institution">${a.inst}</div></div>`
+  ).join('');
+
+  const audioHTML = p.hasAudio
+    ? `<div class="audio-author">
+         <div class="audio-author-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+         <div class="audio-author-text">
+           <div class="lbl">Áudio do autor</div>
+           <div class="dur">${p.audioMin} · ${p.authors[0].name.split(' ').slice(0,3).join(' ')}</div>
+         </div>
+       </div>`
+    : `<div class="audio-no-author">Áudio não disponível para este trabalho</div>`;
+
+  const questionsHTML = p.questions.length > 0
+    ? `<div class="questions-list">${p.questions.map(q => `
+        <div class="question-item">
+          <span class="question-status ${q.answered ? 'answered' : 'pending'}">${q.answered ? 'Respondida' : 'Aguardando'}</span>
+          <div class="question-q">${q.q}</div>
+          ${q.answered ? `<div class="question-a">${q.a}</div>` : ''}
+        </div>`).join('')}</div>`
+    : `<p style="font-size:13px;color:var(--ink-mute);font-style:italic">Nenhuma pergunta ainda. Seja o primeiro a perguntar.</p>`;
+
+  document.getElementById('posterDetailId').textContent = p.id;
+  document.getElementById('posterDetailBody').innerHTML = `
+    <div class="poster-detail-meta">
+      <span>${catObj?.name}</span>
+      <span class="gold">${p.type}</span>
+    </div>
+    <div class="poster-detail-title">${p.title}</div>
+    <div class="poster-detail-msg">"${p.message}"</div>
+
+    <div class="poster-detail-section">
+      <h4>Autores</h4>
+      <div class="poster-authors-block">${authorsHTML}</div>
+    </div>
+
+    <div class="poster-detail-section">
+      <h4>Áudio do autor</h4>
+      ${audioHTML}
+    </div>
+
+    ${abstractHTML}
+
+    <div class="poster-detail-section">
+      <h4>Perguntas e respostas</h4>
+      ${questionsHTML}
+    </div>
+  `;
+
+  document.getElementById('posterActionsBar').innerHTML = `
+    <button class="poster-action-btn" onclick="votePoster('${p.id}', this)">
+      <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>
+      Votar (${p.votes})
+    </button>
+    <button class="poster-action-btn primary" onclick="askPoster('${p.id}')">
+      <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+      Perguntar
+    </button>
+  `;
+
+  document.getElementById('posterDetail').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closePosterDetail(){
+  document.getElementById('posterDetail').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function votePoster(posterId, btn){
+  const p = POSTERS.find(x => x.id === posterId);
+  if(!p) return;
+  if(btn.classList.contains('voted')){
+    p.votes -= 1;
+    btn.classList.remove('voted');
+  } else {
+    p.votes += 1;
+    btn.classList.add('voted');
+    showToast('Voto registrado neste protótipo');
+  }
+  btn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Votar (${p.votes})`;
+  renderTrabalhos();
+}
+
+function askPoster(posterId){
+  showToast('Demo: pergunta vai ao autor pelo app');
+}
+
+/* ----- Modal de demo de submissão (fluxo do autor) ----- */
+let subStep = 1;
+function openSubmissionDemo(){
+  subStep = 1;
+  openModal('Como o autor submete', renderSubmissionStep());
+  // Dar tipo especial ao modal
+  document.querySelector('.modal-backdrop').classList.add('submission-demo');
+}
+
+function renderSubmissionStep(){
+  const dots = [1,2,3,4].map(n => `<span class="sub-step-dot ${n === subStep ? 'active' : n < subStep ? 'done' : ''}"></span>`).join('');
+  const stepHTML = (() => {
+    if(subStep === 1) return `
+      <div class="modal-title">Identificação do trabalho</div>
+      <div class="modal-subtitle">Passo 1 de 4 · dados básicos</div>
+      <div class="sub-form-field">
+        <label class="sub-form-label">Título</label>
+        <input class="sub-form-input" value="Eficácia da semaglutida em pacientes com DM2 e obesidade grau III..." readonly>
+      </div>
+      <div class="sub-form-field">
+        <label class="sub-form-label">Categoria temática</label>
+        <select class="sub-form-select"><option>Diabetes Mellitus</option></select>
+      </div>
+      <div class="sub-form-field">
+        <label class="sub-form-label">Tipo de trabalho</label>
+        <select class="sub-form-select"><option>Trabalho original</option></select>
+      </div>
+    `;
+    if(subStep === 2) return `
+      <div class="modal-title">Resumo estruturado</div>
+      <div class="modal-subtitle">Passo 2 de 4 · até 3.000 caracteres</div>
+      <div class="sub-form-field">
+        <label class="sub-form-label">Mensagem clínica em uma frase</label>
+        <textarea class="sub-form-textarea" readonly>Resposta glicêmica é precoce, mas o impacto antropométrico só estabiliza após 12 meses — não desista antes.</textarea>
+      </div>
+      <div class="sub-form-field">
+        <label class="sub-form-label">Resumo</label>
+        <textarea class="sub-form-textarea" readonly style="min-height:160px">Introdução: Semaglutida combina ação glicêmica e antiobesidade...
+
+Objetivos: Avaliar resposta glicêmica e antropométrica em 24 meses...
+
+Métodos: Coorte retrospectiva ambulatorial, 64 pacientes...
+
+Resultados: HbA1c −1,7%; peso estabiliza em 14% aos 12-18 meses...
+
+Conclusão: Eficácia glicêmica precoce; resposta ponderal exige paciência.</textarea>
+      </div>
+    `;
+    if(subStep === 3) return `
+      <div class="modal-title">Mídia do autor</div>
+      <div class="modal-subtitle">Passo 3 de 4 · figuras e áudio</div>
+      <div class="sub-form-field">
+        <label class="sub-form-label">Figuras (até 6, máx 2MB cada)</label>
+        <div style="background:var(--bg-soft);border:1px dashed var(--line);border-radius:8px;padding:14px;text-align:center;font-size:12.5px;color:var(--ink-mute)">
+          ⊕ 2 figuras carregadas<br>
+          <span style="font-family:var(--mono);font-size:11.5px">curva-glicemia.png · histograma-peso.png</span>
+        </div>
+      </div>
+      <div class="sub-form-field">
+        <label class="sub-form-label">Áudio explicativo do autor (obrigatório · até 2 min)</label>
+        <div style="background:var(--bg-soft);border-radius:8px;padding:14px;display:flex;align-items:center;gap:10px">
+          <div style="background:var(--accent);color:white;width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <div style="flex:1">
+            <div style="font-size:13px;color:var(--ink)">Áudio gravado · 1:42</div>
+            <div style="font-size:11.5px;color:var(--ink-mute);font-family:var(--mono)">audio-autor.webm</div>
+          </div>
+        </div>
+      </div>
+    `;
+    if(subStep === 4) return `
+      <div class="modal-title">Preview do pôster</div>
+      <div class="modal-subtitle">Passo 4 de 4 · sistema diagrama por você</div>
+      <p style="font-size:13px;color:var(--ink-soft);line-height:1.5;margin-bottom:10px">O sistema gera 3 formatos automaticamente:</p>
+      <div class="sub-preview">
+        <div class="sub-preview-lbl">Pôster · versão app (mobile)</div>
+        <div class="sub-preview-poster">
+          <div class="pp-cat">Diabetes Mellitus · P-001</div>
+          <div class="pp-title">Eficácia da semaglutida em pacientes com DM2 e obesidade grau III: experiência ambulatorial de 24 meses</div>
+          <div class="pp-msg">"Resposta glicêmica é precoce, mas o impacto antropométrico só estabiliza após 12 meses — não desista antes."</div>
+          <div style="font-size:11.5px;color:var(--ink-mute);font-family:var(--mono);margin-top:8px">Dr. Eduardo Schmidt + 2 autores · áudio 1:42</div>
+        </div>
+        <div style="margin-top:10px;font-size:12px;color:var(--ink-soft);font-style:italic;text-align:center">⊞ Versões adicionais: pôster-telão 16:9 · página web citável com DOI</div>
+      </div>
+    `;
+    return '';
+  })();
+  const footHTML = `
+    <div class="sub-step-foot">
+      ${subStep > 1 ? '<button class="secondary" onclick="prevSubStep()">Voltar</button>' : '<button class="secondary" onclick="closeModal()">Fechar</button>'}
+      ${subStep < 4 ? '<button class="primary" onclick="nextSubStep()">Próximo</button>' : '<button class="primary" onclick="closeModal()">Concluir demo</button>'}
+    </div>
+  `;
+  return `<div class="sub-step-indicator">${dots}</div>${stepHTML}${footHTML}`;
+}
+
+function nextSubStep(){ if(subStep < 4){ subStep++; document.getElementById('modalBody').innerHTML = renderSubmissionStep(); }}
+function prevSubStep(){ if(subStep > 1){ subStep--; document.getElementById('modalBody').innerHTML = renderSubmissionStep(); }}
+
+/* Inicialização da aba Trabalhos (depois de POSTERS declarado) */
+initTrabalhos();
 
 
 </script>
