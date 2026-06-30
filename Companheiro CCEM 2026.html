@@ -1,0 +1,2955 @@
+<!DOCTYPE html>
+<!--
+  Companheiro CCEM 2026 — versão evolutiva v0.9 (beta)
+  ----------------------------------------------------
+  Este arquivo é uma versão funcional com mocks. Para virar produção, substituir:
+
+    1. getMockReply()          → chamada real à API
+                                  (Gemini 2.0 Flash padrão; Claude Sonnet em síntese/comparação)
+    2. loadState() / saveState() → integração com banco real (Supabase/Firebase) por userId
+    3. getOrCreateUserId()     → ler do link único de inscrição (e-mail do congressista)
+    4. sendPhoto() / handlePhotoFile() / finalizeRecording()
+                                → POST do dataURL/Blob para endpoint de análise
+                                  (Gemini Vision para imagens; Whisper/Gemini para áudio)
+    5. exportPDF()             → gerador real (jsPDF / server-side)
+    6. PROGRAM_DAYS            → grade vinda de API ao invés de hardcoded
+    7. CURRENT_SESSION         → derivar do horário do dispositivo + grade real
+
+  Pontos de troca estão marcados com `// TODO: integrar com API real` no código.
+  Demais funções e UI: idênticas à versão final, sem reescrita.
+
+  Stack mínima atual: HTML + CSS + JS vanilla. Google Fonts via CDN (Fraunces, DM Sans, JetBrains Mono).
+  Persistência: localStorage. Captura: input[type=file] + MediaRecorder API.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Companheiro CCEM 2026 · Protótipo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F6F2E8;
+    --bg-card:#FFFFFF;
+    --bg-soft:#EFEADC;
+    --bg-deep:#E8E0CB;
+    --ink:#1A2438;
+    --ink-soft:#5B6577;
+    --ink-mute:#8A93A4;
+    --line:#E1D9C5;
+    --line-soft:#EDE6D2;
+    --accent:#8E2433;
+    --accent-soft:#C25E5A;
+    --accent-bg:#F2DCD0;
+    --green:#2D6457;
+    --green-bg:#DCE6E2;
+    --gold:#C18C3E;
+    --gold-bg:#F4E4BD;
+    --shadow-sm: 0 1px 2px rgba(26,36,56,.04);
+    --shadow: 0 1px 2px rgba(26,36,56,.04), 0 4px 16px rgba(26,36,56,.05);
+    --shadow-lg: 0 2px 4px rgba(26,36,56,.05), 0 12px 32px rgba(26,36,56,.08);
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "DM Sans", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:var(--sans);
+    background:#1F1F1F;
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+    line-height:1.5;
+    overscroll-behavior:none;
+  }
+
+  /* device frame */
+  .stage{
+    min-height:100vh;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    padding:0;
+  }
+  .device{
+    width:100%;
+    max-width:420px;
+    min-height:100vh;
+    background:var(--bg);
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+  }
+  @media (min-width: 500px){
+    .stage{
+      padding:24px;
+      background:
+        radial-gradient(ellipse at top, #2a2a2a 0%, #1a1a1a 60%);
+      min-height:100vh;
+    }
+    .device{
+      min-height:calc(100vh - 48px);
+      max-height:calc(100vh - 48px);
+      height:calc(100vh - 48px);
+      border-radius:36px;
+      border:9px solid #111;
+      box-shadow: 0 0 0 1px #2a2a2a, 0 30px 80px rgba(0,0,0,.5);
+    }
+  }
+
+  /* =============== HEADER =============== */
+  header.app-head{
+    padding:16px 20px 12px;
+    background:var(--bg);
+    border-bottom:1px solid var(--line);
+    flex-shrink:0;
+    position:relative;
+  }
+  .head-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .logo-img{
+    height:36px;
+    width:auto;
+    display:block;
+  }
+  .logo-fallback{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:21px;
+    color:var(--ink);
+    letter-spacing:-0.02em;
+    line-height:1;
+  }
+  .logo-fallback .yr{color:var(--accent)}
+  .head-meta{
+    text-align:right;
+    line-height:1.1;
+  }
+  .meta-date{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:13px;
+    color:var(--ink);
+    letter-spacing:-0.01em;
+  }
+  .meta-loc{
+    font-size:9.5px;
+    color:var(--ink-mute);
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    font-weight:500;
+    margin-top:3px;
+  }
+  .live-strip{
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:11px;
+    color:var(--ink-soft);
+    background:var(--bg-soft);
+    border-radius:8px;
+    padding:7px 10px;
+    border:1px solid var(--line-soft);
+  }
+  .live-dot{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background:var(--accent);
+    flex-shrink:0;
+    animation:pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse{
+    0%,100%{opacity:1;transform:scale(1)}
+    50%{opacity:.5;transform:scale(.85)}
+  }
+  .live-strip .now-tag{
+    font-size:9.5px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--accent);
+  }
+  .live-strip .now-text{
+    flex:1;
+    color:var(--ink);
+    font-weight:500;
+    font-size:11.5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .live-strip .now-time{
+    font-family:var(--mono);
+    font-size:10.5px;
+    color:var(--ink-mute);
+  }
+
+  /* =============== MAIN =============== */
+  main{
+    flex:1;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    position:relative;
+  }
+
+  /* =============== BOTTOM NAV =============== */
+  nav.tabs{
+    display:flex;
+    border-top:1px solid var(--line);
+    background:var(--bg);
+    flex-shrink:0;
+    padding:6px 4px max(8px, env(safe-area-inset-bottom));
+  }
+  nav.tabs button{
+    flex:1;
+    background:none;
+    border:none;
+    padding:8px 4px 6px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:3px;
+    font-family:inherit;
+    font-size:10px;
+    color:var(--ink-mute);
+    font-weight:500;
+    letter-spacing:0.04em;
+    transition:color .18s;
+    position:relative;
+  }
+  nav.tabs button.active{color:var(--accent)}
+  nav.tabs button.active::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:24px;
+    height:2px;
+    background:var(--accent);
+    border-radius:0 0 2px 2px;
+  }
+  nav.tabs button svg{
+    width:21px;
+    height:21px;
+    stroke-width:1.5;
+  }
+
+  /* =============== ABA PROGRAMA =============== */
+  .day-bar{
+    padding:14px 20px 6px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .day-toggle{
+    display:flex;
+    background:var(--bg-soft);
+    border-radius:10px;
+    padding:3px;
+    flex:1;
+    border:1px solid var(--line-soft);
+  }
+  .day-toggle button{
+    flex:1;
+    background:none;
+    border:none;
+    padding:7px 10px;
+    border-radius:7px;
+    cursor:pointer;
+    font-family:inherit;
+    font-size:12.5px;
+    font-weight:500;
+    color:var(--ink-soft);
+    transition:all .2s;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+  }
+  .day-toggle button.active{
+    background:var(--bg-card);
+    color:var(--ink);
+    box-shadow:var(--shadow-sm);
+  }
+  .day-toggle button .day-num{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:14px;
+  }
+  .day-toggle button .day-name{
+    text-transform:lowercase;
+    letter-spacing:0.02em;
+  }
+  .filter-btn{
+    width:38px;
+    height:38px;
+    border-radius:10px;
+    background:var(--bg-soft);
+    border:1px solid var(--line-soft);
+    color:var(--ink-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+  }
+  .filter-btn svg{width:16px;height:16px}
+
+  .day-summary{
+    padding:0 20px 8px;
+    font-size:11px;
+    color:var(--ink-mute);
+    font-style:italic;
+    display:flex;
+    gap:14px;
+  }
+  .day-summary span strong{
+    font-style:normal;
+    color:var(--ink-soft);
+    font-weight:600;
+    font-family:var(--serif);
+  }
+
+  .session-list{
+    padding:6px 16px 24px;
+  }
+  .session{
+    background:var(--bg-card);
+    border-radius:14px;
+    padding:14px 16px;
+    margin-bottom:10px;
+    box-shadow:var(--shadow);
+    border:1px solid transparent;
+    transition:border .2s, transform .2s;
+    position:relative;
+    cursor:pointer;
+  }
+  .session:hover{transform:translateY(-1px)}
+  .session.starred{
+    border-color:var(--gold);
+    background:linear-gradient(180deg, #FFFCF4 0%, #FFFFFF 100%);
+  }
+  .session.now{
+    border-color:var(--accent);
+    box-shadow: 0 0 0 3px rgba(142,36,51,.08), var(--shadow);
+  }
+  .now-badge{
+    position:absolute;
+    top:-7px;
+    left:14px;
+    background:var(--accent);
+    color:white;
+    font-size:9px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    padding:3px 8px;
+    border-radius:4px;
+    display:flex;
+    align-items:center;
+    gap:5px;
+  }
+  .now-badge::before{
+    content:'';
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:white;
+    animation:pulse 2s ease-in-out infinite;
+  }
+  .session-row{
+    display:flex;
+    gap:14px;
+  }
+  .time-col{
+    flex-shrink:0;
+    width:48px;
+    padding-top:1px;
+    border-right:1px solid var(--line-soft);
+    padding-right:10px;
+    margin-right:0;
+  }
+  .time-start{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:16px;
+    color:var(--ink);
+    line-height:1;
+    letter-spacing:-0.01em;
+  }
+  .time-end{
+    font-family:var(--mono);
+    font-size:9.5px;
+    color:var(--ink-mute);
+    margin-top:3px;
+    letter-spacing:0.02em;
+  }
+  .time-dur{
+    font-size:9.5px;
+    color:var(--ink-mute);
+    margin-top:6px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+  }
+  .info-col{
+    flex:1;
+    min-width:0;
+  }
+  .badge{
+    display:inline-block;
+    font-size:9.5px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    padding:2px 7px;
+    border-radius:3px;
+    margin-bottom:7px;
+  }
+  .badge.simposio{background:var(--accent-bg);color:var(--accent)}
+  .badge.mini{background:var(--green-bg);color:var(--green)}
+  .badge.satelite{background:var(--bg-soft);color:var(--ink-soft);border:1px dashed var(--line)}
+  .badge.cerimonia{background:var(--gold-bg);color:#7A5414}
+
+  .session-title{
+    font-family:var(--serif);
+    font-size:15px;
+    font-weight:500;
+    color:var(--ink);
+    line-height:1.3;
+    margin-bottom:6px;
+    letter-spacing:-0.01em;
+  }
+  .moderator{
+    font-size:11px;
+    color:var(--ink-mute);
+    font-style:italic;
+    margin-bottom:6px;
+  }
+  .moderator::before{
+    content:'mod.';
+    font-style:normal;
+    font-family:var(--mono);
+    font-size:9.5px;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-right:6px;
+    color:var(--ink-mute);
+  }
+  .session-speakers{
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.5;
+  }
+  .speaker{
+    display:flex;
+    gap:6px;
+    align-items:flex-start;
+    padding:2px 0;
+  }
+  .speaker .talk-mark{
+    color:var(--ink-mute);
+    flex-shrink:0;
+    font-family:var(--mono);
+    font-size:11px;
+    margin-top:1px;
+  }
+  .speaker .talk{
+    flex:1;
+  }
+  .speaker .talk-title{
+    color:var(--ink);
+  }
+  .speaker .talk-name{
+    color:var(--ink-soft);
+    font-size:11.5px;
+  }
+  .speaker.is-me .talk-title,
+  .speaker.is-me .talk-name{
+    color:var(--accent);
+    font-weight:500;
+  }
+  .speaker.is-me .talk-mark{
+    color:var(--gold);
+  }
+
+  .interval{
+    text-align:center;
+    padding:8px 0;
+    margin:6px 16px;
+    font-size:10.5px;
+    color:var(--ink-mute);
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    font-weight:500;
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .interval::before, .interval::after{
+    content:'';
+    flex:1;
+    height:1px;
+    background:var(--line);
+  }
+  .interval .int-dur{
+    font-family:var(--mono);
+    color:var(--ink-mute);
+  }
+
+  .star-mark{
+    position:absolute;
+    top:14px;
+    right:14px;
+    font-size:14px;
+    color:var(--gold);
+  }
+
+  .actions{
+    display:flex;
+    gap:8px;
+    margin-top:12px;
+    padding-top:11px;
+    border-top:1px dashed var(--line);
+  }
+  .action-btn{
+    flex:1;
+    background:var(--bg-soft);
+    color:var(--ink-soft);
+    border:1px solid var(--line-soft);
+    padding:8px 10px;
+    border-radius:8px;
+    font-family:inherit;
+    font-size:11.5px;
+    font-weight:500;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    transition:all .2s;
+  }
+  .action-btn.primary{
+    background:var(--accent);
+    color:white;
+    border-color:var(--accent);
+  }
+  .action-btn.primary:hover{background:#7a1f2c}
+  .action-btn:hover{transform:translateY(-1px)}
+  .action-btn.marked{
+    background:var(--gold-bg);
+    color:#7A5414;
+    border-color:#E5CB87;
+  }
+  .action-btn svg{width:13px;height:13px;stroke-width:2}
+
+  /* =============== ABA ASSISTENTE =============== */
+  .panel#panel-assistente{
+    display:none;
+    flex-direction:column;
+    position:relative;
+    height:100%;
+  }
+  .panel#panel-assistente.active{display:flex}
+  .chat-context{
+    padding:12px 16px;
+    background:var(--bg-soft);
+    border-bottom:1px solid var(--line-soft);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex-shrink:0;
+  }
+  .ctx-avatar{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    background:linear-gradient(135deg, var(--accent) 0%, #6f1c28 100%);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:14px;
+    flex-shrink:0;
+  }
+  .ctx-info{
+    flex:1;
+    min-width:0;
+  }
+  .ctx-name{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:14px;
+    color:var(--ink);
+  }
+  .ctx-status{
+    font-size:10.5px;
+    color:var(--ink-soft);
+    margin-top:1px;
+    display:flex;
+    align-items:center;
+    gap:5px;
+  }
+  .ctx-status .dot{
+    width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0;
+  }
+
+  .chat-wrap{
+    padding:14px 14px 8px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    flex:1;
+    overflow-y:auto;
+  }
+  .day-divider{
+    text-align:center;
+    font-size:9.5px;
+    color:var(--ink-mute);
+    text-transform:uppercase;
+    letter-spacing:0.14em;
+    margin:6px 0 10px;
+  }
+  .msg-group{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+    max-width:88%;
+  }
+  .msg-group.user{
+    align-self:flex-end;
+    align-items:flex-end;
+  }
+  .msg-group.ai{
+    align-self:flex-start;
+  }
+  .msg{
+    padding:9px 13px;
+    border-radius:14px;
+    font-size:13px;
+    line-height:1.5;
+    word-wrap:break-word;
+  }
+  .msg.user{
+    background:var(--accent);
+    color:white;
+    border-bottom-right-radius:4px;
+  }
+  .msg.user .photo-stub{
+    background:rgba(255,255,255,.12);
+    border-radius:8px;
+    padding:0;
+    overflow:hidden;
+    margin:-4px -8px 6px;
+    text-align:center;
+    font-size:10.5px;
+    border:1px dashed rgba(255,255,255,.3);
+  }
+  .photo-stub-inner{
+    padding:24px 12px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:6px;
+    background:repeating-linear-gradient(45deg, rgba(255,255,255,.04) 0 8px, rgba(255,255,255,.08) 8px 16px);
+  }
+  .photo-stub-inner svg{width:22px;height:22px;opacity:.7}
+  .photo-stub-cap{
+    font-family:var(--mono);
+    font-size:10px;
+    opacity:.85;
+    letter-spacing:0.02em;
+  }
+  .audio-stub{
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.18);
+    border-radius:10px;
+    padding:8px 10px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:2px 0;
+  }
+  .audio-stub .play-btn{
+    width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,.18);
+    display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  }
+  .audio-stub .play-btn svg{width:10px;height:10px;fill:white}
+  .audio-stub .wave{
+    flex:1;display:flex;align-items:center;gap:2px;height:18px;
+  }
+  .audio-stub .wave span{
+    flex:1;background:rgba(255,255,255,.5);border-radius:1px;
+  }
+  .audio-stub .dur{
+    font-family:var(--mono);font-size:10px;opacity:.85;
+    min-width:30px;text-align:right;
+  }
+  .audio-stub .play-btn{cursor:pointer}
+  .audio-stub.playing .wave span{animation:wave-bounce .8s ease-in-out infinite}
+  @keyframes wave-bounce{50%{transform:scaleY(0.4)}}
+  .audio-stub .wave span{transform-origin:center}
+  .msg.user .photo-real{
+    border-radius:8px;
+    overflow:hidden;
+    margin:2px 0;
+    max-width:240px;
+  }
+  .msg.user .photo-real img{
+    display:block;width:100%;height:auto;
+  }
+  .recording-bar{
+    position:absolute;
+    left:16px;right:16px;
+    bottom:74px;
+    background:var(--accent);
+    color:white;
+    border-radius:10px;
+    padding:10px 14px;
+    display:none;
+    align-items:center;
+    gap:10px;
+    box-shadow:0 8px 24px -8px rgba(142,36,51,.5);
+    z-index:30;
+  }
+  .recording-bar.show{display:flex}
+  .recording-bar .rec-dot{
+    width:10px;height:10px;border-radius:50%;background:white;
+    animation:rec-blink 1s ease-in-out infinite;flex-shrink:0;
+  }
+  @keyframes rec-blink{50%{opacity:.3}}
+  .recording-bar .rec-label{
+    font-family:var(--mono);font-size:11px;letter-spacing:0.04em;
+    flex:1;
+  }
+  .recording-bar .rec-time{
+    font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;
+  }
+  .recording-bar button{
+    background:white;color:var(--accent);
+    border:none;border-radius:6px;
+    padding:5px 12px;font-family:var(--sans);font-size:11px;font-weight:600;
+    cursor:pointer;letter-spacing:0.02em;
+  }
+  .recording-bar button.cancel{
+    background:transparent;color:white;
+    border:1px solid rgba(255,255,255,.4);
+  }
+
+  .msg.ai{
+    background:var(--bg-card);
+    color:var(--ink);
+    border-bottom-left-radius:4px;
+    box-shadow:var(--shadow-sm);
+    border:1px solid var(--line-soft);
+  }
+  .msg.ai .ai-tag{
+    font-size:9.5px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:700;
+    margin-bottom:5px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .msg.ai .ai-tag::before{
+    content:'';
+    width:4px;height:4px;border-radius:50%;background:var(--accent);
+  }
+  .msg.ai strong{color:var(--ink);font-weight:600}
+  .msg.ai em.cite{
+    font-style:normal;
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-soft);
+    background:var(--bg-soft);
+    padding:1px 5px;
+    border-radius:3px;
+  }
+  .msg.ai .ref-row{
+    margin-top:8px;
+    padding:8px 10px;
+    background:var(--bg-soft);
+    border-left:2px solid var(--accent);
+    border-radius:0 6px 6px 0;
+    font-size:11.5px;
+    color:var(--ink-soft);
+    line-height:1.4;
+  }
+  .msg.ai .ref-row .ref-lbl{
+    font-family:var(--mono);
+    font-size:9.5px;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--ink-mute);
+    display:block;
+    margin-bottom:2px;
+  }
+  .msg.ai .compare-block{
+    margin-top:8px;
+    display:grid;
+    gap:6px;
+  }
+  .msg.ai .compare-row{
+    background:var(--bg-soft);
+    padding:8px 10px;
+    border-radius:8px;
+    font-size:12px;
+  }
+  .msg.ai .compare-row .who{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:12px;
+    color:var(--ink);
+    margin-bottom:2px;
+  }
+  .msg.ai .compare-row .who-sub{
+    font-size:10.5px;
+    color:var(--ink-mute);
+    margin-bottom:4px;
+  }
+  .msg.ai .ai-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    margin-top:9px;
+    padding-top:8px;
+    border-top:1px dashed var(--line);
+  }
+  .msg.ai .ai-actions button{
+    background:var(--bg-soft);
+    color:var(--ink-soft);
+    border:1px solid var(--line-soft);
+    padding:5px 9px;
+    border-radius:14px;
+    font-size:11px;
+    font-weight:500;
+    cursor:pointer;
+    font-family:inherit;
+    display:flex;
+    align-items:center;
+    gap:4px;
+    transition:all .15s;
+  }
+  .msg.ai .ai-actions button:hover{
+    background:var(--accent);
+    color:white;
+    border-color:var(--accent);
+  }
+  .msg.ai .ai-actions button.saved{
+    background:var(--green-bg);
+    color:var(--green);
+    border-color:var(--green-bg);
+  }
+  .msg.ai .ai-actions button svg{width:11px;height:11px;stroke-width:2.2}
+
+  .msg-stamp{
+    font-size:9.5px;
+    color:var(--ink-mute);
+    padding:0 4px;
+    font-family:var(--mono);
+    letter-spacing:0.02em;
+  }
+
+  .typing{
+    align-self:flex-start;
+    background:var(--bg-card);
+    border:1px solid var(--line-soft);
+    border-radius:14px;
+    border-bottom-left-radius:4px;
+    padding:10px 14px;
+    display:flex;
+    gap:4px;
+  }
+  .typing span{
+    width:6px;height:6px;border-radius:50%;background:var(--ink-mute);
+    animation:typing 1.4s ease-in-out infinite;
+  }
+  .typing span:nth-child(2){animation-delay:.15s}
+  .typing span:nth-child(3){animation-delay:.3s}
+  @keyframes typing{
+    0%,60%,100%{opacity:.3;transform:translateY(0)}
+    30%{opacity:1;transform:translateY(-3px)}
+  }
+
+  .quick-suggestions{
+    padding:0 14px 8px;
+    display:flex;
+    gap:6px;
+    overflow-x:auto;
+    flex-shrink:0;
+    -webkit-overflow-scrolling:touch;
+  }
+  .quick-suggestions::-webkit-scrollbar{display:none}
+  .quick-suggestions{scrollbar-width:none}
+  .quick-chip{
+    flex-shrink:0;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    color:var(--ink-soft);
+    padding:6px 11px;
+    border-radius:14px;
+    font-size:11.5px;
+    font-family:inherit;
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .quick-chip:hover{border-color:var(--accent);color:var(--accent)}
+
+  .composer{
+    margin:6px 14px 14px;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:6px;
+    display:flex;
+    gap:4px;
+    align-items:center;
+    flex-shrink:0;
+    box-shadow:var(--shadow-sm);
+  }
+  .composer input{
+    flex:1;
+    border:none;
+    background:none;
+    padding:6px 8px;
+    font-family:inherit;
+    font-size:13px;
+    color:var(--ink);
+    outline:none;
+    min-width:0;
+  }
+  .composer input::placeholder{color:var(--ink-mute);font-style:italic}
+  .composer-btn{
+    width:34px;
+    height:34px;
+    border-radius:10px;
+    background:transparent;
+    border:none;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--ink-soft);
+    flex-shrink:0;
+  }
+  .composer-btn:hover{background:var(--bg-soft)}
+  .composer-btn.recording{background:var(--accent);color:white;border-color:var(--accent);animation:rec-pulse 1.4s ease-in-out infinite}
+  @keyframes rec-pulse{0%,100%{box-shadow:0 0 0 0 rgba(142,36,51,.5)}50%{box-shadow:0 0 0 6px rgba(142,36,51,0)}}
+  .composer-btn.send{background:var(--accent);color:white}
+  .composer-btn.send:hover{background:#7a1f2c}
+  .composer-btn svg{width:16px;height:16px}
+
+  /* =============== ABA CADERNO =============== */
+  .caderno-head{
+    padding:18px 20px 4px;
+  }
+  .caderno-head h2{
+    font-family:var(--serif);
+    font-size:24px;
+    font-weight:600;
+    color:var(--ink);
+    margin-bottom:4px;
+    letter-spacing:-0.02em;
+  }
+  .caderno-head p{
+    font-size:12px;
+    color:var(--ink-soft);
+    font-style:italic;
+  }
+  .caderno-stats{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:8px;
+    margin:14px 16px 6px;
+  }
+  .stat-card{
+    background:var(--bg-card);
+    border-radius:11px;
+    padding:11px 10px;
+    box-shadow:var(--shadow-sm);
+    border:1px solid var(--line-soft);
+    text-align:left;
+    position:relative;
+  }
+  .stat-num{
+    font-family:var(--serif);
+    font-weight:700;
+    font-size:24px;
+    color:var(--accent);
+    line-height:1;
+    letter-spacing:-0.02em;
+  }
+  .stat-lbl{
+    font-size:10px;
+    color:var(--ink-mute);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-top:4px;
+    font-weight:500;
+  }
+  .stat-card.is-green .stat-num{color:var(--green)}
+  .stat-card.is-gold .stat-num{color:var(--gold)}
+
+  .filter-row{
+    padding:10px 16px 6px;
+    display:flex;
+    gap:5px;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+  .filter-row::-webkit-scrollbar{display:none}
+  .filter-row{scrollbar-width:none}
+  .filter-chip{
+    flex-shrink:0;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    color:var(--ink-soft);
+    padding:5px 11px;
+    border-radius:14px;
+    font-size:11.5px;
+    font-family:inherit;
+    font-weight:500;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    white-space:nowrap;
+  }
+  .filter-chip .count{
+    font-family:var(--mono);
+    font-size:10px;
+    opacity:.6;
+  }
+  .filter-chip.active{
+    background:var(--ink);
+    color:white;
+    border-color:var(--ink);
+  }
+  .filter-chip.active .count{opacity:.8}
+
+  .caderno-section{
+    padding:8px 16px 0;
+  }
+  .caderno-section h3{
+    font-family:var(--serif);
+    font-size:13px;
+    font-weight:600;
+    color:var(--ink);
+    margin-bottom:8px;
+    padding:0 4px;
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+  }
+  .caderno-section h3 .h3-meta{
+    font-family:var(--sans);
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--ink-mute);
+    font-weight:500;
+  }
+
+  .note-card{
+    background:var(--bg-card);
+    border-radius:12px;
+    padding:13px 14px 13px 17px;
+    margin-bottom:8px;
+    box-shadow:var(--shadow-sm);
+    border-left:3px solid var(--accent);
+    position:relative;
+    cursor:pointer;
+    transition:transform .15s;
+  }
+  .note-card:hover{transform:translateX(2px)}
+  .note-card.foto{border-left-color:var(--green)}
+  .note-card.audio{border-left-color:var(--gold)}
+  .note-card.texto{border-left-color:var(--accent)}
+  .note-meta{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:6px;
+    gap:8px;
+  }
+  .note-meta .session-ref{
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--ink-mute);
+    font-weight:500;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    flex:1;
+  }
+  .note-meta .type-tag{
+    font-size:9px;
+    padding:2px 6px;
+    border-radius:3px;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    font-weight:600;
+    flex-shrink:0;
+    display:flex;
+    align-items:center;
+    gap:3px;
+  }
+  .type-tag svg{width:9px;height:9px}
+  .type-tag.t-foto{background:var(--green-bg);color:var(--green)}
+  .type-tag.t-audio{background:var(--gold-bg);color:#7A5414}
+  .type-tag.t-texto{background:var(--accent-bg);color:var(--accent)}
+
+  .note-title{
+    font-family:var(--serif);
+    font-size:14px;
+    font-weight:500;
+    color:var(--ink);
+    margin-bottom:6px;
+    line-height:1.3;
+    letter-spacing:-0.01em;
+  }
+  .note-body{
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.5;
+  }
+  .note-body strong{color:var(--ink);font-weight:600}
+  .note-body em{color:var(--ink-soft)}
+  .note-body .cite{
+    font-family:var(--mono);
+    font-size:10.5px;
+    color:var(--ink-mute);
+    background:var(--bg-soft);
+    padding:1px 5px;
+    border-radius:3px;
+    font-style:normal;
+  }
+  .note-tags{
+    margin-top:8px;
+    display:flex;
+    gap:5px;
+    flex-wrap:wrap;
+  }
+  .note-tag{
+    font-family:var(--mono);
+    font-size:9.5px;
+    color:var(--ink-mute);
+    background:var(--bg-soft);
+    padding:2px 6px;
+    border-radius:3px;
+  }
+  .note-tag::before{content:'#';opacity:.5;margin-right:1px}
+
+  .export-bar{
+    margin:18px 16px 24px;
+    padding:14px 16px;
+    background:var(--bg-card);
+    border-radius:12px;
+    border:1px dashed var(--line);
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .export-bar .export-info{
+    flex:1;
+    min-width:0;
+  }
+  .export-bar p{
+    font-size:11.5px;
+    color:var(--ink-soft);
+    line-height:1.4;
+  }
+  .export-bar p strong{color:var(--ink);font-weight:600}
+  .export-bar button{
+    background:var(--ink);
+    color:white;
+    border:none;
+    padding:9px 14px;
+    border-radius:8px;
+    font-family:inherit;
+    font-size:12px;
+    font-weight:500;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    flex-shrink:0;
+  }
+  .export-bar button:hover{background:#0d1422}
+  .export-bar button svg{width:13px;height:13px}
+
+  /* panels */
+  .panel{display:none}
+  .panel.active{display:block}
+
+  /* footer hint */
+  .footer-hint{
+    text-align:center;
+    font-size:10px;
+    color:var(--ink-mute);
+    padding:0 20px 16px;
+    font-style:italic;
+    line-height:1.5;
+  }
+  .footer-hint .star{color:var(--gold)}
+
+  /* empty state */
+  .caderno-empty{
+    text-align:center;
+    padding:40px 32px 32px;
+    color:var(--ink-soft);
+  }
+  .caderno-empty .empty-art{
+    font-size:48px;
+    color:var(--line);
+    line-height:1;
+    margin-bottom:14px;
+    font-family:var(--serif);
+  }
+  .caderno-empty h4{
+    font-family:var(--serif);
+    font-size:16px;
+    font-weight:600;
+    color:var(--ink);
+    margin-bottom:6px;
+  }
+  .caderno-empty p{
+    font-size:12.5px;
+    line-height:1.5;
+    max-width:280px;
+    margin:0 auto;
+  }
+  .caderno-empty p strong{color:var(--ink);font-weight:600}
+
+  /* =============== ABA SOBRE =============== */
+  .panel#panel-sobre{
+    overflow-y:auto;
+    padding:0 0 32px;
+    background:var(--bg);
+  }
+  .sobre-header{
+    text-align:center;
+    padding:36px 24px 28px;
+    background:var(--bg-soft);
+    border-bottom:1px solid var(--line-soft);
+  }
+  .sobre-logo{
+    display:block;
+    height:64px;
+    width:auto;
+    margin:0 auto 16px;
+    object-fit:contain;
+  }
+  .sobre-logo-fallback{
+    font-family:var(--serif);
+    font-size:28px;
+    font-weight:600;
+    color:var(--accent);
+    letter-spacing:-0.01em;
+    margin:0 auto 16px;
+    line-height:1;
+  }
+  .sobre-title{
+    font-family:var(--serif);
+    font-size:18px;
+    font-weight:500;
+    color:var(--ink);
+    line-height:1.25;
+    letter-spacing:-0.01em;
+    max-width:300px;
+    margin:0 auto 8px;
+    text-wrap:balance;
+  }
+  .sobre-meta{
+    font-family:var(--sans);
+    font-size:12.5px;
+    color:var(--ink-soft);
+    line-height:1.4;
+  }
+  .sobre-card{
+    background:var(--bg-card);
+    margin:16px 16px 0;
+    padding:18px 18px 16px;
+    border-radius:11px;
+    border:1px solid var(--line-soft);
+  }
+  .sobre-card + .sobre-card{margin-top:14px}
+  .sobre-card h3{
+    font-family:var(--serif);
+    font-size:14.5px;
+    font-weight:600;
+    color:var(--ink);
+    letter-spacing:-0.005em;
+    margin-bottom:8px;
+  }
+  .sobre-card h3 + h3{margin-top:0}
+  .sobre-card p{
+    font-family:var(--sans);
+    font-size:13px;
+    line-height:1.55;
+    color:var(--ink-soft);
+  }
+  .sobre-card p + h3{margin-top:14px}
+  .sobre-rule{
+    border:none;
+    border-top:1px solid var(--line-soft);
+    margin:14px 0;
+  }
+  .sobre-org{
+    font-size:13.5px;
+    color:var(--ink);
+    line-height:1.5;
+  }
+  .sobre-org-sub{
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+  .sobre-id-row{
+    margin-top:14px;
+    padding:10px 12px;
+    background:var(--bg-soft);
+    border-radius:7px;
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .sobre-id-label{
+    font-family:var(--mono);
+    font-size:9.5px;
+    color:var(--ink-mute);
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+  }
+  .sobre-id-row code{
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--ink);
+  }
+  .sobre-danger-btn{
+    margin-top:10px;
+    width:100%;
+    background:transparent;
+    color:var(--accent);
+    border:1px solid var(--line);
+    padding:9px 12px;
+    border-radius:7px;
+    font-family:var(--sans);
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:0.01em;
+    cursor:pointer;
+    transition:all .15s;
+  }
+  .sobre-danger-btn:hover{
+    background:var(--accent);
+    color:white;
+    border-color:var(--accent);
+  }
+  .sobre-contact{
+    list-style:none;
+  }
+  .sobre-contact li{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    padding:9px 0;
+    border-bottom:1px solid var(--line-soft);
+    font-size:13px;
+  }
+  .sobre-contact li:last-child{border-bottom:none}
+  .sobre-contact-lbl{
+    font-family:var(--mono);
+    font-size:9.5px;
+    color:var(--ink-mute);
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    width:80px;
+    flex-shrink:0;
+  }
+  .sobre-contact a{
+    color:var(--accent);
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+    transition:border-color .15s;
+  }
+  .sobre-contact a:hover{border-bottom-color:var(--accent)}
+  .sobre-footer{
+    text-align:center;
+    margin-top:24px;
+    padding:0 24px;
+    font-family:var(--mono);
+    font-size:10px;
+    color:var(--ink-mute);
+    line-height:1.6;
+    letter-spacing:0.03em;
+  }
+  .sobre-footer div:last-child{
+    font-style:italic;
+    margin-top:2px;
+    color:var(--line);
+  }
+
+  /* user strip */
+  .user-strip{
+    margin:8px 16px 24px;
+    padding:8px 12px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:10px;
+    color:var(--ink-mute);
+    font-family:var(--mono);
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+  }
+  .user-strip code{
+    background:var(--bg-soft);
+    padding:2px 6px;
+    border-radius:3px;
+    color:var(--ink-soft);
+    text-transform:none;
+    letter-spacing:0;
+  }
+  .user-strip button{
+    margin-left:auto;
+    background:none;
+    border:1px solid var(--line);
+    color:var(--ink-mute);
+    padding:3px 8px;
+    border-radius:4px;
+    font-family:var(--mono);
+    font-size:9.5px;
+    cursor:pointer;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+  }
+  .user-strip button:hover{color:var(--accent);border-color:var(--accent)}
+
+  /* toast */
+  .toast{
+    position:fixed;
+    bottom:80px;
+    left:50%;
+    transform:translateX(-50%) translateY(20px);
+    background:var(--ink);
+    color:white;
+    padding:10px 16px;
+    border-radius:24px;
+    font-size:12px;
+    font-weight:500;
+    box-shadow:var(--shadow-lg);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .25s, transform .25s;
+    z-index:100;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .toast.show{
+    opacity:1;
+    transform:translateX(-50%) translateY(0);
+  }
+  .toast svg{width:14px;height:14px;color:var(--green)}
+
+  @media (min-width: 500px){
+    .toast{bottom:96px}
+  }
+</style>
+</head>
+<body>
+
+<div class="stage">
+<div class="device" data-screen-label="App Companheiro CCEM">
+
+  <header class="app-head">
+    <div class="head-row">
+      <div class="brand">
+        <img src="https://www.ccem2026.com.br/images/logo_2x.png" alt="CCEM 2026" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <div class="logo-fallback" style="display:none">CCEM <span class="yr">2026</span></div>
+      </div>
+      <div class="head-meta">
+        <div class="meta-date">23–24 OUT</div>
+        <div class="meta-loc">Joinville · SC</div>
+      </div>
+    </div>
+    <div class="live-strip" id="liveStrip">
+      <div class="live-dot" id="liveDot"></div>
+      <span class="now-tag" id="nowTag">Agora</span>
+      <span class="now-text" id="nowText">—</span>
+      <span class="now-time" id="nowTime"></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============= ABA PROGRAMA ============= -->
+    <section class="panel active" id="panel-programa" data-screen-label="Aba Programa">
+
+      <div class="day-bar">
+        <div class="day-toggle">
+          <button class="active" onclick="switchDay('sexta', this)"><span class="day-num">23</span><span class="day-name">sex</span></button>
+          <button onclick="switchDay('sabado', this)"><span class="day-num">24</span><span class="day-name">sáb</span></button>
+        </div>
+        <button class="filter-btn" title="Filtrar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"><path d="M3 6h18M7 12h10M10 18h4"/></svg>
+        </button>
+      </div>
+
+      <div class="day-summary" id="daySummary">
+        <span><strong>10</strong> sessões</span>
+        <span><strong>2</strong> de interesse</span>
+        <span><strong>1</strong> sua fala <span style="color:var(--gold)">★</span></span>
+      </div>
+
+      <!-- SEXTA -->
+      <div class="session-list" id="day-sexta">
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:00</div>
+              <div class="time-end">→ 8:15</div>
+              <div class="time-dur">15 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge cerimonia">Cerimônia</span>
+              <div class="session-title">Cerimônia de Abertura</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:15</div>
+              <div class="time-end">→ 8:45</div>
+              <div class="time-dur">30 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">Novas tecnologias de monitorização glicêmica: semelhantes ou diferentes na prática?</div>
+              <div class="moderator">Dr. Fulvio Thomazelli</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">·</span><div class="talk"><span class="talk-name">Dra. Talita Letícia Trevisan</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Mini-Conferência · Monitorização glicêmica')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="session now">
+          <div class="now-badge">Acontecendo</div>
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:45</div>
+              <div class="time-end">→ 10:00</div>
+              <div class="time-dur">1h 15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 1</span>
+              <div class="session-title">Tratamento do diabetes tipo 2 em 3 atos: clássicos, contemporâneos e promessas</div>
+              <div class="moderator">Dr. Paulo de Tarso Freitas</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Clássicos</span> · <span class="talk-name">Dr. Luiz Antonio de Araújo</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Contemporâneos</span> · <span class="talk-name">Dra. Adriana Striebel</span></div></div>
+                <div class="speaker"><span class="talk-mark">3.</span><div class="talk"><span class="talk-title">Promessas</span> · <span class="talk-name">Dra. Luciana Muniz Pechmann</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 1 · DM2 em 3 atos')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+          </div>
+        </div>
+
+        <div class="interval"><span>intervalo</span><span class="int-dur">10:00 → 10:20 · 20 min</span></div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">10:20</div>
+              <div class="time-end">→ 11:05</div>
+              <div class="time-dur">45 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">Sessão patrocinada</div>
+              <div class="session-speakers" style="font-style:italic;color:var(--ink-mute);font-size:11.5px">programação a definir</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">11:05</div>
+              <div class="time-end">→ 12:20</div>
+              <div class="time-dur">1h 15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 2</span>
+              <div class="session-title">Diabetes Mellitus tipo 1</div>
+              <div class="moderator">Dra. Flaviana Dalla Vechia</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Imunomodulador: quando e como?</span> · <span class="talk-name">Dr. Mauro Scharf Pinto</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Colônia de férias: experiência em SC</span> · <span class="talk-name">Dra. Julia Carpanezzi La Pastina</span></div></div>
+                <div class="speaker"><span class="talk-mark">3.</span><div class="talk"><span class="talk-title">Incretinas no DM1</span> · <span class="talk-name">Dr. Mauro Scharf Pinto</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 2 · DM1')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="interval"><span>almoço</span><span class="int-dur">12:20 → 13:20 · 1h</span></div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">13:20</div>
+              <div class="time-end">→ 14:35</div>
+              <div class="time-dur">1h 15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 3</span>
+              <div class="session-title">Tireoide — Carcinoma Diferenciado de Tireoide</div>
+              <div class="moderator">Dra. Maria Heloísa da Silva Canalli</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Estratificação de risco de recorrência</span> · <span class="talk-name">Dra. Marta Amaro Duval</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Novos parâmetros da tireoglobulina (ATA)</span> · <span class="talk-name">Dra. Lireda Meneses Silva</span></div></div>
+                <div class="speaker"><span class="talk-mark">3.</span><div class="talk"><span class="talk-title">Metástase linfonodal no seguimento</span> · <span class="talk-name">Dr. Cleo Otaviano Mesa Jr.</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 3 · CDT')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">14:35</div>
+              <div class="time-end">→ 15:20</div>
+              <div class="time-dur">45 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">"Menos gordura e menos músculo"</div>
+              <div class="session-speakers"><div class="speaker"><span class="talk-mark">·</span><div class="talk"><span class="talk-name">Dra. Fátima Sandmann</span></div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">15:20</div>
+              <div class="time-end">→ 15:50</div>
+              <div class="time-dur">30 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">Manejo de pacientes sem resposta excelente ao tratamento do CDT</div>
+              <div class="moderator">Dra. Goretti Silveira Rodrigues</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">·</span><div class="talk"><span class="talk-name">Dr. Cleo Otaviano Mesa Jr.</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Mini · CDT sem resposta')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="interval"><span>intervalo</span><span class="int-dur">15:50 → 16:10 · 20 min</span></div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">16:10</div>
+              <div class="time-end">→ 17:00</div>
+              <div class="time-dur">50 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 4</span>
+              <div class="session-title">Hipófise</div>
+              <div class="moderator">Dra. Julia Appel</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Desafios na hiperprolactinemia</span> · <span class="talk-name">Dra. Amely Pereira Silva Balthazar</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Caso clínico Cushing</span> · <span class="talk-name">Dr. Fúlvio Thomaselli + Dra. Sheila Montano Vega</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 4 · Hipófise')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="session starred">
+          <div class="star-mark">★</div>
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">17:00</div>
+              <div class="time-end">→ 18:10</div>
+              <div class="time-dur">1h 10</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 5</span>
+              <div class="session-title">Entre evidências e modismos</div>
+              <div class="moderator">Dr. Frederico Marchisotti</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Suplementos para performance: mitos e verdades</span> · <span class="talk-name">Dr. Fúlvio Tomaselli</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Emagrecer a qualquer custo: o debate ético dos manipulados</span> · <span class="talk-name">Dr. Neuton Dornelas Gomes</span></div></div>
+                <div class="speaker is-me"><span class="talk-mark">★</span><div class="talk"><span class="talk-title">Centenas de exames e zero hipótese</span> · <span class="talk-name">Dr. Itairan da Silva Terres</span><div style="font-size:10px;color:var(--gold);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.08em;margin-top:2px">sua fala</div></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 5 · Sua fala')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Sua fala</button>
+          </div>
+        </div>
+
+        <div class="interval"><span>encerramento dia 1</span><span class="int-dur">18:10</span></div>
+
+      </div>
+
+      <!-- SÁBADO -->
+      <div class="session-list" id="day-sabado" style="display:none">
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:00</div>
+              <div class="time-end">→ 9:15</div>
+              <div class="time-dur">1h 15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 6</span>
+              <div class="session-title">Gônadas</div>
+              <div class="moderator">Dra. Demelise Demczuk</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Nova diretriz de hipogonadismo</span> · <span class="talk-name">Dr. Alexandre Hohl</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Abordagem da perimenopausa</span> · <span class="talk-name">Dr. Marcelo F. Ronsoni</span></div></div>
+                <div class="speaker"><span class="talk-mark">3.</span><div class="talk"><span class="talk-title">Update SOP</span> · <span class="talk-name">Dra. Carina Morellato</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 6 · Gônadas')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">9:15</div>
+              <div class="time-end">→ 9:45</div>
+              <div class="time-dur">30 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">Terapia hormonal na transição de gênero</div>
+              <div class="moderator">Dra. Tanise Balvedi Damas</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">·</span><div class="talk"><span class="talk-name">Dra. Karen Faggioni de Marca Seidel</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Mini · Terapia hormonal')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="interval"><span>intervalo</span><span class="int-dur">9:45 → 10:05 · 20 min</span></div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">10:05</div>
+              <div class="time-end">→ 10:50</div>
+              <div class="time-dur">45 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">Sessão patrocinada</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">10:50</div>
+              <div class="time-end">→ 11:40</div>
+              <div class="time-dur">50 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 7</span>
+              <div class="session-title">Metabolismo Ósseo</div>
+              <div class="moderator">Dra. Júlia Vieira Oberger Marques</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Hipocalcemia de difícil manejo</span> · <span class="talk-name">Dr. Dalisbor Marcelo Weber Silva</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Caso clínico de osteoporose</span> · <span class="talk-name" style="font-style:italic;color:var(--ink-mute)">a confirmar</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 7 · Ósseo')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">11:40</div>
+              <div class="time-end">→ 12:30</div>
+              <div class="time-dur">50 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 8</span>
+              <div class="session-title">Adrenal — casos clínicos</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Cushing subclínico</span> · <span class="talk-name">Dra. Amanda Meneses Ferreira Lacombe</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Hiperaldosteronismo</span> · <span class="talk-name">Dr. Guilherme Asmar Alencar</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 8 · Adrenal')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="interval"><span>almoço</span><span class="int-dur">12:30 → 13:30 · 1h</span></div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">13:30</div>
+              <div class="time-end">→ 14:45</div>
+              <div class="time-dur">1h 15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 9</span>
+              <div class="session-title">Endocrinologia Pediátrica</div>
+              <div class="moderator">Dra. Zuleica Isabel Zarabia Morales</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Inibidor da aromatase na baixa estatura</span> · <span class="talk-name">Dra. Marilza Leal Nascimento</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Obesidade na infância e adolescência</span> · <span class="talk-name">Dra. Rose Marie Mueller Linhares</span></div></div>
+                <div class="speaker"><span class="talk-mark">3.</span><div class="talk"><span class="talk-title">Quando o normal vira doença?</span> · <span class="talk-name">Dra. Suely Keiko Kohara</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 9 · Pediátrica')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">14:45</div>
+              <div class="time-end">→ 15:30</div>
+              <div class="time-dur">45 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">Sessão patrocinada</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="interval"><span>intervalo</span><span class="int-dur">15:30 → 15:50 · 20 min</span></div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">15:50</div>
+              <div class="time-end">→ 17:05</div>
+              <div class="time-dur">1h 15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 10</span>
+              <div class="session-title">Obesidade</div>
+              <div class="moderator">Dr. Fabio Herget Pitanga</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">1.</span><div class="talk"><span class="talk-title">Menos gordura e menos músculo</span> · <span class="talk-name">Dra. Fátima Sandmann Afonso</span></div></div>
+                <div class="speaker"><span class="talk-mark">2.</span><div class="talk"><span class="talk-title">Estratégias de manutenção do peso perdido</span> · <span class="talk-name">Dra. Cristina Schreiber de Oliveira</span></div></div>
+                <div class="speaker"><span class="talk-mark">3.</span><div class="talk"><span class="talk-title">Risco CV na obesidade</span> · <span class="talk-name">Dra. Simone van de Sande Lee</span></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Simpósio 10 · Obesidade')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse</button>
+          </div>
+        </div>
+
+        <div class="session starred">
+          <div class="star-mark">★</div>
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">17:05</div>
+              <div class="time-end">→ 17:35</div>
+              <div class="time-dur">30 min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">IA no consultório do endocrinologista</div>
+              <div class="session-speakers">
+                <div class="speaker"><span class="talk-mark">·</span><div class="talk"><span class="talk-name">Dra. Milena Gurgel Teles Bezerra (SP)</span><div style="font-size:10px;color:var(--gold);font-family:var(--mono);text-transform:uppercase;letter-spacing:0.08em;margin-top:2px">tema-chave</div></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary" onclick="capture(this, 'Mini · IA no consultório')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar essa sessão</button>
+            <button class="action-btn marked" onclick="markInterest(this)"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+          </div>
+        </div>
+
+        <div class="interval"><span>encerramento</span><span class="int-dur">17:35</span></div>
+
+      </div>
+
+      <div class="footer-hint"><span class="star">★</span> destaque editorial · toque o card para capturar a sessão</div>
+
+    </section>
+
+    <!-- ============= ABA ASSISTENTE ============= -->
+    <section class="panel" id="panel-assistente" data-screen-label="Aba Assistente">
+
+      <div class="chat-context">
+        <div class="ctx-avatar">C</div>
+        <div class="ctx-info">
+          <div class="ctx-name">Companheiro CCEM</div>
+          <div class="ctx-status"><span class="dot"></span>contextualizado · Simpósio 1 · 9:14</div>
+        </div>
+      </div>
+
+      <div class="chat-wrap" id="chatWrap">
+
+        <div class="day-divider">sexta · 23 outubro · manhã</div>
+
+        <div class="msg-group ai">
+          <div class="msg ai">
+            <div class="ai-tag">Início da sessão</div>
+            Bom dia. Você está no <strong>Simpósio 1 — DM2 em 3 atos</strong>, mod. Dr. Paulo de Tarso Freitas. Acabou de começar a fala "Clássicos" do Dr. Luiz Antonio.<br><br>
+            Pode me mandar foto de slide, gravar um trecho da fala, ou anotar algo livre. Eu organizo no seu caderno.
+          </div>
+          <div class="msg-stamp">9:14</div>
+        </div>
+
+        <div class="msg-group user">
+          <div class="msg user">
+            <div class="photo-stub">
+              <div class="photo-stub-inner">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3"/></svg>
+                <div class="photo-stub-cap">slide-promessas-3.jpg</div>
+              </div>
+            </div>
+            slide do palestrante atual
+          </div>
+          <div class="msg-stamp">9:42</div>
+        </div>
+
+        <div class="msg-group ai">
+          <div class="msg ai">
+            <div class="ai-tag">Slide identificado</div>
+            Esse slide é da fala <strong>"Promessas"</strong> (Dra. Luciana Muniz Pechmann), terceira do Simpósio 1.<br><br>
+            <strong>Mensagem-chave:</strong> agonistas duplos GLP-1/GIP (tirzepatida) já consolidados — o próximo passo são triagonistas (retatrutida) com perda de peso superior a <strong>24%</strong> em fase 3.
+            <div class="ref-row">
+              <span class="ref-lbl">Referência citada</span>
+              Jastreboff AM et al. <em class="cite">NEJM 2023;389:514–526</em>
+            </div>
+            <div class="ai-actions">
+              <button class="saved"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6L9 17l-5-5"/></svg>Salvo no caderno</button>
+              <button>Take-home</button>
+              <button>Comparar com outra fala</button>
+            </div>
+          </div>
+          <div class="msg-stamp">9:42</div>
+        </div>
+
+        <div class="msg-group user">
+          <div class="msg user">Posso comparar o que ela disse com o que o Dr. Luiz Antonio falou em "Clássicos"?</div>
+          <div class="msg-stamp">9:51</div>
+        </div>
+
+        <div class="msg-group ai">
+          <div class="msg ai">
+            <div class="ai-tag">Comparação · mesma mesa</div>
+            Sim. Tese central de cada fala:
+            <div class="compare-block">
+              <div class="compare-row">
+                <div class="who">Clássicos</div>
+                <div class="who-sub">Dr. Luiz Antonio · 8:50</div>
+                Metformina segue como base — eficácia, segurança, custo. Insulina mantém lugar definido em falência secundária.
+              </div>
+              <div class="compare-row">
+                <div class="who">Promessas</div>
+                <div class="who-sub">Dra. Luciana · 9:35</div>
+                Nova geração de incretinas redefine o alvo — não é mais "controle glicêmico", é remissão metabólica.
+              </div>
+            </div>
+            <div class="ref-row" style="border-left-color:var(--gold)">
+              <span class="ref-lbl">Tensão entre as falas</span>
+              Custo e acesso. A Dra. Luciana citou que retatrutida ainda não tem horizonte SUS no Brasil — ponto que o Dr. Luiz Antonio reforçou ao defender metformina.
+            </div>
+            <div class="ai-actions">
+              <button>Salvar comparação</button>
+              <button>Adicionar à fala de hoje ★</button>
+            </div>
+          </div>
+          <div class="msg-stamp">9:52</div>
+        </div>
+
+        <div class="msg-group user">
+          <div class="msg user">
+            <div class="audio-stub">
+              <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+              <div class="wave">
+                <span style="height:30%"></span><span style="height:60%"></span><span style="height:80%"></span><span style="height:50%"></span><span style="height:90%"></span><span style="height:40%"></span><span style="height:70%"></span><span style="height:55%"></span><span style="height:85%"></span><span style="height:35%"></span><span style="height:65%"></span><span style="height:45%"></span><span style="height:75%"></span><span style="height:50%"></span>
+              </div>
+              <div class="dur">0:38</div>
+            </div>
+          </div>
+          <div class="msg-stamp">9:55</div>
+        </div>
+
+      </div>
+
+      <div class="quick-suggestions">
+        <button class="quick-chip">Resumir essa sessão</button>
+        <button class="quick-chip">Ver minhas capturas de hoje</button>
+        <button class="quick-chip">Próxima sessão de interesse</button>
+        <button class="quick-chip">Take-home da manhã</button>
+      </div>
+
+      <input type="file" id="photoInput" accept="image/*" capture="environment" style="display:none">
+
+      <div class="recording-bar" id="recordingBar">
+        <div class="rec-dot"></div>
+        <div class="rec-label">gravando</div>
+        <div class="rec-time" id="recTime">0:00</div>
+        <button class="cancel" id="recCancel">cancelar</button>
+        <button id="recStop">parar</button>
+      </div>
+
+      <div class="composer">
+        <button class="composer-btn" title="Câmera" id="btnPhoto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.6"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3"/></svg></button>
+        <button class="composer-btn" title="Microfone" id="btnMic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.6"><rect x="9" y="4" width="6" height="12" rx="3"/><path d="M5 12a7 7 0 0014 0M12 19v3"/></svg></button>
+        <input type="text" placeholder="escreva uma observação..." id="msgInput">
+        <button class="composer-btn send" title="Enviar" onclick="sendMsg()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></button>
+      </div>
+
+    </section>
+
+    <!-- ============= ABA CADERNO ============= -->
+    <section class="panel" id="panel-caderno" data-screen-label="Aba Caderno">
+
+      <div class="caderno-head">
+        <h2>Meu caderno</h2>
+        <p>tudo que você capturou no CCEM 2026</p>
+      </div>
+
+      <div class="caderno-stats">
+        <div class="stat-card">
+          <div class="stat-num" id="statCaptures">0</div>
+          <div class="stat-lbl">Capturas</div>
+        </div>
+        <div class="stat-card is-green">
+          <div class="stat-num" id="statSessions">0</div>
+          <div class="stat-lbl">Sessões</div>
+        </div>
+        <div class="stat-card is-gold">
+          <div class="stat-num" id="statRefs">0</div>
+          <div class="stat-lbl">Referências</div>
+        </div>
+      </div>
+
+      <div class="filter-row" id="filterRow">
+        <button class="filter-chip active" data-filter="all">Tudo <span class="count" id="countAll">0</span></button>
+        <button class="filter-chip" data-filter="foto">Fotos <span class="count" id="countFoto">0</span></button>
+        <button class="filter-chip" data-filter="audio">Áudios <span class="count" id="countAudio">0</span></button>
+        <button class="filter-chip" data-filter="texto">Textos <span class="count" id="countTexto">0</span></button>
+      </div>
+
+      <div id="notesContainer"></div>
+
+      <div class="caderno-empty" id="cadernoEmpty" style="display:none">
+        <div class="empty-art">○</div>
+        <h4>Caderno vazio</h4>
+        <p>Toque em <strong>Capturar essa sessão</strong> na aba Programa, ou mande algo pelo Assistente. Suas anotações ficam salvas neste dispositivo.</p>
+      </div>
+
+      <div class="export-bar" id="exportBar">
+        <div class="export-info">
+          <p><strong>Salvo neste dispositivo</strong> · sincroniza com o e-mail de inscrição depois.</p>
+        </div>
+        <button onclick="exportPDF()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          PDF
+        </button>
+      </div>
+
+    </section>
+
+    <!-- ============= ABA SOBRE ============= -->
+    <section class="panel" id="panel-sobre" data-screen-label="Aba Sobre">
+
+      <div class="sobre-header">
+        <img class="sobre-logo" src="https://www.ccem2026.com.br/images/logo_2x.png" alt="CCEM 2026" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'sobre-logo-fallback',textContent:'CCEM 2026'}))">
+        <h1 class="sobre-title">12º Congresso Catarinense de Endocrinologia e Metabologia</h1>
+        <p class="sobre-meta">23 e 24 de outubro de 2026 · Expoville · Joinville/SC</p>
+      </div>
+
+      <div class="sobre-card">
+        <h3>O que é o Companheiro CCEM</h3>
+        <p>Ferramenta pessoal de captura e organização do que você acompanha no congresso. As capturas são suas, ficam guardadas apenas no seu navegador, e podem ser exportadas em PDF ao final. As respostas geradas pela inteligência artificial são auxiliares — não substituem o conteúdo oficial das palestras nem devem ser citadas como fonte primária.</p>
+      </div>
+
+      <div class="sobre-card">
+        <h3>Seus dados</h3>
+        <p>Tudo o que você captura fica armazenado apenas no seu próprio dispositivo (navegador), em formato local. Nem o congresso nem terceiros têm acesso ao seu caderno. Ao limpar o navegador ou trocar de dispositivo, os dados são perdidos — recomendamos exportar o PDF ao final.</p>
+        <div class="sobre-id-row">
+          <div class="sobre-id-label">seu identificador local</div>
+          <code id="userIdLabel">—</code>
+        </div>
+        <button class="sobre-danger-btn" onclick="resetState()">Limpar todos os meus dados</button>
+      </div>
+
+      <div class="sobre-card">
+        <h3>Realização</h3>
+        <p class="sobre-org">SBEM-SC<br><span class="sobre-org-sub">Sociedade Brasileira de Endocrinologia e Metabologia<br>Regional Santa Catarina</span></p>
+        <hr class="sobre-rule">
+        <h3>Organização</h3>
+        <p class="sobre-org">Promotes Eventos</p>
+        <hr class="sobre-rule">
+        <h3>Responsável Técnico Médico</h3>
+        <p class="sobre-org">Dr. Fulvio Clemo Santos Tomaselli<br><span class="sobre-org-sub">CRM/SC 7031</span></p>
+      </div>
+
+      <div class="sobre-card">
+        <h3>Contato</h3>
+        <ul class="sobre-contact">
+          <li><span class="sobre-contact-lbl">Email</span><a href="mailto:contato@ccem2026.com.br">contato@ccem2026.com.br</a></li>
+          <li><span class="sobre-contact-lbl">WhatsApp</span><a href="https://wa.me/5547991303330" target="_blank" rel="noopener">(47) 99130-3330</a></li>
+          <li><span class="sobre-contact-lbl">Site oficial</span><a href="https://ccem2026.com.br" target="_blank" rel="noopener">ccem2026.com.br</a></li>
+          <li><span class="sobre-contact-lbl">Instagram</span><a href="https://instagram.com/sbemsceventos" target="_blank" rel="noopener">@sbemsceventos</a></li>
+        </ul>
+      </div>
+
+      <div class="sobre-footer">
+        <div>Companheiro CCEM 2026 · v0.9 (beta)</div>
+        <div>Versão experimental para validação com a comissão científica</div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <nav class="tabs">
+    <button class="active" onclick="switchPanel('programa', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2"/>
+        <path d="M16 2v4M8 2v4M3 10h18"/>
+      </svg>
+      Programa
+    </button>
+    <button onclick="switchPanel('assistente', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+      </svg>
+      Assistente
+    </button>
+    <button onclick="switchPanel('caderno', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5z"/>
+      </svg>
+      Caderno
+    </button>
+    <button onclick="switchPanel('sobre', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 11v5M12 7.5v.5"/>
+      </svg>
+      Sobre
+    </button>
+  </nav>
+
+  <div class="toast" id="toast">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+    <span id="toastText">Salvo no caderno</span>
+  </div>
+
+</div>
+</div>
+
+<script>
+/* ============================================================
+   COMPANHEIRO CCEM 2026 — núcleo funcional
+   ------------------------------------------------------------
+   Persistência: localStorage (chave única "ccem2026:<userId>")
+   Mocks: respostas da IA via getMockReply() — TROCAR por API real
+   Pontos de integração marcados com // TODO: integrar com API real
+   ============================================================ */
+
+const STORAGE_KEY_PREFIX = 'ccem2026:';
+const USER_KEY = 'ccem2026:userId';
+
+/* ---------- usuário ---------- */
+function getOrCreateUserId(){
+  // TODO: integrar com link único de inscrição (e-mail do congressista).
+  // Hoje: gera UUID curto local; substituir pelo token do back quando houver.
+  let id = localStorage.getItem(USER_KEY);
+  if(!id){
+    id = 'u_' + Math.random().toString(36).slice(2, 8) + Date.now().toString(36).slice(-3);
+    localStorage.setItem(USER_KEY, id);
+  }
+  return id;
+}
+const USER_ID = getOrCreateUserId();
+const STATE_KEY = STORAGE_KEY_PREFIX + USER_ID;
+
+/* ---------- estado persistido ---------- */
+const DEFAULT_STATE = {
+  version: 1,
+  createdAt: null,
+  captures: [],   // [{id, day, time, sessionRef, type, title, body, tags, ts}]
+  marks: {},      // { sessionId: true }
+  chat: []        // [{role:'user'|'ai', kind, ts, content...}]
+};
+
+function loadState(){
+  // TODO: integrar com API real (GET /caderno/:userId) — fallback localStorage offline.
+  try{
+    const raw = localStorage.getItem(STATE_KEY);
+    if(!raw) return seedInitial();
+    const parsed = JSON.parse(raw);
+    return Object.assign({}, DEFAULT_STATE, parsed);
+  } catch(e){
+    return seedInitial();
+  }
+}
+function saveState(){
+  // TODO: integrar com API real (POST /caderno/:userId) — manter localStorage como cache offline.
+  try{
+    localStorage.setItem(STATE_KEY, JSON.stringify(state));
+  } catch(e){ console.warn('storage falhou', e); }
+}
+function seedInitial(){
+  // semente plausível para a comissão ver algo funcional na primeira abertura.
+  // Em produção: estado começa vazio.
+  const s = JSON.parse(JSON.stringify(DEFAULT_STATE));
+  s.createdAt = Date.now();
+  s.marks = { 'sex-simp1': true, 'sex-simp3': true, 'sex-simp5': true, 'sab-mini-ia': true };
+  s.captures = [
+    {id:'c1', day:'sexta', time:'9:42', sessionRef:'Simpósio 1 · Dra. Luciana Pechmann', type:'foto',
+     title:'Triagonistas (retatrutida) — perda de peso superior a 24%',
+     body:'Próximo passo após GLP-1/GIP. <strong>Ref:</strong> <span class="cite">Jastreboff AM et al., NEJM 2023;389:514–526</span>. <em>Sem horizonte SUS no Brasil.</em>',
+     tags:['DM2','incretinas','obesidade'], ts: Date.now()-86400000*1.2},
+    {id:'c2', day:'sexta', time:'9:55', sessionRef:'Simpósio 1 · Dra. Luciana Pechmann', type:'audio',
+     title:'Custo e acesso da próxima geração de incretinas',
+     body:'<strong>Take-home:</strong> remissão metabólica é o novo alvo, mas o gargalo no Brasil é distribuição via SUS. Tensão direta com a fala "Clássicos" do Dr. Luiz Antonio.',
+     tags:[], ts: Date.now()-86400000*1.18},
+    {id:'c3', day:'sexta', time:'13:50', sessionRef:'Simpósio 3 · Dra. Marta Duval', type:'audio',
+     title:'Estratificação de risco no CDT — o que mudou',
+     body:'<strong>Take-home:</strong> resposta excelente, indeterminada, bioquímica incompleta, estrutural incompleta — categorias <strong>dinâmicas</strong>, reavaliáveis no seguimento.',
+     tags:['tireoide','CDT','ATA'], ts: Date.now()-86400000*1.0},
+    {id:'c4', day:'sexta', time:'17:35', sessionRef:'Simpósio 5 · Dr. Itairan Terres ★', type:'texto',
+     title:'"Centenas de exames e zero hipótese" — anotações da sua fala',
+     body:'Frase a guardar: <em>"o exame não substitui a hipótese — confirma ou refuta uma."</em> Conexão com hiperdiagnóstico em endo (incidentaloma adrenal, nódulo tireoide).',
+     tags:['sua-fala','raciocínio-clínico'], ts: Date.now()-86400000*0.9},
+    {id:'c5', day:'sabado', time:'8:30', sessionRef:'Simpósio 6 · Dr. Alexandre Hohl', type:'foto',
+     title:'Nova diretriz de hipogonadismo — pontos de mudança',
+     body:'<strong>Cutoff de testosterona total</strong> ajustado por idade. Tratamento iniciado apenas com <strong>duas</strong> dosagens matinais alteradas.',
+     tags:['gônadas','diretriz'], ts: Date.now()-86400000*0.5},
+    {id:'c6', day:'sabado', time:'16:30', sessionRef:'Simpósio 10 · Dra. Cristina Schreiber', type:'foto',
+     title:'Manutenção pós-emagrecimento — 4 estratégias farmacológicas',
+     body:'Manter incretina em dose menor · GLP-1 oral · associação com bupropiona/naltrexona · ciclo de pausa programada. <strong>Caveat:</strong> sem ECR direto.',
+     tags:['obesidade','manutenção'], ts: Date.now()-86400000*0.2},
+    {id:'c7', day:'sabado', time:'17:05', sessionRef:'Mini · Dra. Milena Gurgel ★', type:'texto',
+     title:'IA no consultório — o que vale e o que não vale',
+     body:'<strong>Útil:</strong> resumo de evolução, geração de pedidos, cruzamento com diretrizes. <strong>Não substitui:</strong> hipótese diagnóstica, decisão clínica, vínculo com paciente.',
+     tags:['IA','tema-chave','ressoa-com-fala'], ts: Date.now()-86400000*0.1}
+  ];
+  s.chat = [];
+  return s;
+}
+
+const state = loadState();
+saveState(); // garante presença
+
+/* ---------- contexto da sessão atual (mockado) ---------- */
+// TODO: integrar com horário real do dispositivo + grade do congresso.
+const CURRENT_SESSION = {
+  day: 'sexta',
+  ref: 'Simpósio 1 — DM2 em 3 atos',
+  moderator: 'Dr. Paulo de Tarso Freitas',
+  speakers: ['Dr. Luiz Antonio (Clássicos)', 'Dra. Adriana Striebel (Contemporâneos)', 'Dra. Luciana Pechmann (Promessas)'],
+  startedAt: '8:45'
+};
+
+/* ---------- navegação ---------- */
+function switchPanel(name, btn){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+name).classList.add('active');
+  document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  if(name === 'caderno') renderCaderno();
+  if(name === 'assistente') setTimeout(()=>{
+    const w = document.getElementById('chatWrap');
+    if(w) w.scrollTop = w.scrollHeight;
+  }, 30);
+}
+function switchDay(day, btn){
+  document.getElementById('day-sexta').style.display = day === 'sexta' ? 'block' : 'none';
+  document.getElementById('day-sabado').style.display = day === 'sabado' ? 'block' : 'none';
+  document.querySelectorAll('.day-toggle button').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const summary = document.getElementById('daySummary');
+  const marks = Object.values(state.marks).filter(Boolean).length;
+  if(day === 'sexta'){
+    summary.innerHTML = '<span><strong>10</strong> sessões</span><span><strong>'+marks+'</strong> marcadas</span><span><strong>1</strong> sua fala <span style="color:var(--gold)">★</span></span>';
+  } else {
+    summary.innerHTML = '<span><strong>9</strong> sessões</span><span><strong>'+marks+'</strong> marcadas</span><span><strong>1</strong> tema-chave <span style="color:var(--gold)">★</span></span>';
+  }
+}
+
+/* ---------- programa: capturar e marcar interesse ---------- */
+function capture(btn, label){
+  // cria captura "esqueleto" e leva ao Assistente, contexto = essa sessão.
+  const day = btn.closest('#day-sabado') ? 'sabado' : 'sexta';
+  const time = btn.closest('.session').querySelector('.time-start').textContent.trim();
+  const cap = {
+    id: 'c_' + Date.now().toString(36),
+    day, time,
+    sessionRef: label,
+    type: 'texto',
+    title: 'Captura iniciada — ' + label,
+    body: '<em>Toque o microfone, mande foto do slide, ou escreva uma observação no Assistente. Vou organizar aqui.</em>',
+    tags: [],
+    ts: Date.now()
+  };
+  state.captures.unshift(cap);
+  saveState();
+  showToast('Captura aberta · ' + label.split('·')[0].trim());
+  // troca para Assistente
+  const assistBtn = document.querySelectorAll('nav.tabs button')[1];
+  switchPanel('assistente', assistBtn);
+  // mensagem de IA contextualizada
+  pushAI({
+    tag: 'Sessão em foco',
+    html: 'Pronto. Estamos em <strong>' + label + '</strong>. Mande foto do slide, grave um trecho ou anote livre — vai pro caderno desta sessão.',
+    actions: [{label:'Take-home', kind:'takehome'}, {label:'Resumir', kind:'resume'}]
+  });
+}
+function markInterest(btn){
+  const sessionEl = btn.closest('.session');
+  const sid = sessionEl.dataset.sessionId || ('s_' + (sessionEl.querySelector('.session-title').textContent.trim().slice(0,20)));
+  sessionEl.dataset.sessionId = sid;
+  const isMarked = btn.classList.contains('marked');
+  if(isMarked){
+    delete state.marks[sid];
+    btn.classList.remove('marked');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Interesse';
+  } else {
+    state.marks[sid] = true;
+    btn.classList.add('marked');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado';
+    showToast('Marcada como interesse');
+  }
+  saveState();
+}
+
+/* ---------- caderno: render ---------- */
+let activeFilter = 'all';
+function renderCaderno(){
+  const container = document.getElementById('notesContainer');
+  const empty = document.getElementById('cadernoEmpty');
+  const items = state.captures.slice().sort((a,b)=>b.ts - a.ts);
+
+  // contadores
+  document.getElementById('countAll').textContent = items.length;
+  document.getElementById('countFoto').textContent = items.filter(c=>c.type==='foto').length;
+  document.getElementById('countAudio').textContent = items.filter(c=>c.type==='audio').length;
+  document.getElementById('countTexto').textContent = items.filter(c=>c.type==='texto').length;
+
+  // stats
+  document.getElementById('statCaptures').textContent = items.length;
+  document.getElementById('statSessions').textContent = new Set(items.map(c=>c.sessionRef)).size;
+  document.getElementById('statRefs').textContent = items.reduce((acc,c)=>acc + (c.body.match(/\bref\b|NEJM|JCEM|Lancet|Diabetes|guideline|diretriz/gi)||[]).length, 0);
+
+  const filtered = activeFilter === 'all' ? items : items.filter(c=>c.type===activeFilter);
+
+  if(filtered.length === 0){
+    container.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  // agrupa por dia
+  const sex = filtered.filter(c=>c.day==='sexta');
+  const sab = filtered.filter(c=>c.day==='sabado');
+
+  let html = '';
+  if(sex.length){
+    html += sectionHTML('Sexta · 23 outubro', sex);
+  }
+  if(sab.length){
+    html += sectionHTML('Sábado · 24 outubro', sab);
+  }
+  container.innerHTML = html;
+}
+function sectionHTML(title, list){
+  let h = '<div class="caderno-section"><h3>' + title +
+    ' <span class="h3-meta">' + list.length + ' ' + (list.length===1?'captura':'capturas') + '</span></h3>';
+  list.forEach(c => h += noteCardHTML(c));
+  h += '</div>';
+  return h;
+}
+function noteCardHTML(c){
+  const icons = {
+    foto: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3"/></svg>',
+    audio: '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="9" y="4" width="6" height="12" rx="3"/></svg>',
+    texto: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 6h16M4 12h16M4 18h10"/></svg>'
+  };
+  const labels = { foto:'Foto', audio:'Áudio', texto:'Texto' };
+  const tags = (c.tags||[]).map(t=>'<span class="note-tag">'+escapeHTML(t)+'</span>').join('');
+  return '<div class="note-card '+c.type+'" data-type="'+c.type+'" data-id="'+c.id+'">' +
+    '<div class="note-meta">' +
+      '<span class="session-ref">'+ escapeHTML(c.sessionRef) +' · '+ escapeHTML(c.time) +'</span>' +
+      '<span class="type-tag t-'+c.type+'">'+icons[c.type]+labels[c.type]+'</span>' +
+    '</div>' +
+    '<div class="note-title">'+ escapeHTML(c.title) +'</div>' +
+    '<div class="note-body">'+ c.body +'</div>' +
+    (tags? '<div class="note-tags">'+tags+'</div>' : '') +
+  '</div>';
+}
+function escapeHTML(s){ return String(s).replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[m]); }
+
+document.getElementById('filterRow').addEventListener('click', e=>{
+  const btn = e.target.closest('.filter-chip');
+  if(!btn) return;
+  document.querySelectorAll('.filter-chip').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  activeFilter = btn.dataset.filter;
+  renderCaderno();
+});
+
+/* ---------- toast ---------- */
+let toastTimer;
+function showToast(text){
+  const t = document.getElementById('toast');
+  document.getElementById('toastText').textContent = text;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>t.classList.remove('show'), 1800);
+}
+
+/* ---------- export PDF ---------- */
+function exportPDF(){
+  // TODO: integrar com gerador real (server-side ou jsPDF) — enviar state.captures.
+  showToast('PDF gerado · ' + state.captures.length + ' capturas');
+}
+
+/* ---------- reset ---------- */
+function resetState(){
+  if(!confirm('Limpar caderno, marcações e conversas deste dispositivo?')) return;
+  localStorage.removeItem(STATE_KEY);
+  localStorage.removeItem(USER_KEY);
+  location.reload();
+}
+
+/* ============================================================
+   ASSISTENTE — chat funcional com mock de IA
+   TODO: trocar getMockReply() por chamada à API real.
+   Padrão sugerido: Gemini 2.0 Flash, com roteamento para Claude
+   Sonnet em pedidos complexos (comparação, take-home, síntese).
+   ============================================================ */
+
+function nowStamp(){
+  const d = new Date();
+  return d.getHours() + ':' + String(d.getMinutes()).padStart(2,'0');
+}
+
+function pushUser(html){
+  state.chat.push({role:'user', html, ts: Date.now()});
+  saveState();
+  appendBubble('user', html, nowStamp());
+}
+function pushAI(payload){
+  state.chat.push({role:'ai', payload, ts: Date.now()});
+  saveState();
+  appendBubble('ai', renderAI(payload), nowStamp());
+}
+
+function appendBubble(role, html, stamp){
+  const wrap = document.getElementById('chatWrap');
+  if(role === 'user'){
+    wrap.insertAdjacentHTML('beforeend',
+      '<div class="msg-group user"><div class="msg user">'+html+'</div><div class="msg-stamp">'+stamp+'</div></div>');
+  } else {
+    wrap.insertAdjacentHTML('beforeend',
+      '<div class="msg-group ai"><div class="msg ai">'+html+'</div><div class="msg-stamp">'+stamp+'</div></div>');
+  }
+  wrap.scrollTop = wrap.scrollHeight;
+}
+
+function renderAI(p){
+  let h = '';
+  if(p.tag) h += '<div class="ai-tag">'+escapeHTML(p.tag)+'</div>';
+  h += p.html || '';
+  if(p.ref) h += '<div class="ref-row"><span class="ref-lbl">Referência citada</span>'+p.ref+'</div>';
+  if(p.actions && p.actions.length){
+    h += '<div class="ai-actions">';
+    p.actions.forEach(a => {
+      h += '<button data-kind="'+escapeHTML(a.kind)+'">'+escapeHTML(a.label)+'</button>';
+    });
+    h += '</div>';
+  }
+  return h;
+}
+
+function showTyping(){
+  const wrap = document.getElementById('chatWrap');
+  const t = document.createElement('div');
+  t.className = 'typing'; t.id = 'typingNow';
+  t.innerHTML = '<span></span><span></span><span></span>';
+  wrap.appendChild(t); wrap.scrollTop = wrap.scrollHeight;
+}
+function hideTyping(){
+  const t = document.getElementById('typingNow');
+  if(t) t.remove();
+}
+
+/* ----- mocks de resposta da IA ----- */
+// TODO: integrar com API real (Gemini 2.0 Flash padrão; Claude Sonnet em comparação/síntese).
+const MOCK_REPLIES = {
+  // categoria: ['photo' | 'audio' | 'compare' | 'takehome' | 'free']
+  photo: [
+    {tag:'Slide identificado', html:'Esse slide é da fala em curso (<strong>'+'{speaker}'+'</strong>). <br><br><strong>Mensagem-chave:</strong> a tabela mostra redução de A1c sustentada em 72 semanas com tirzepatida 15mg vs. semaglutida 1mg — diferença absoluta ~0,5%.', ref:'Frías JP et al. <em class="cite">NEJM 2021;385:503–515</em>',
+     actions:[{label:'Salvar no caderno', kind:'save'}, {label:'Take-home', kind:'takehome'}]},
+    {tag:'Slide identificado', html:'Slide do bloco "{speaker}". <br><br><strong>Ponto central:</strong> três categorias dinâmicas de resposta no seguimento do CDT — não são rótulos fixos, são reavaliáveis.', ref:'ATA Guidelines <em class="cite">Thyroid 2024 update</em>',
+     actions:[{label:'Salvar no caderno', kind:'save'}, {label:'Comparar com outra fala', kind:'compare'}]}
+  ],
+  audio: [
+    {tag:'Áudio transcrito · trecho', html:'<em>"...o que mudou não é a molécula, é o alvo. A gente não fala mais em controle, fala em remissão metabólica..."</em><br><br><strong>Take-home:</strong> mudança de paradigma terapêutico — controle → remissão.',
+     actions:[{label:'Salvar take-home', kind:'save'}, {label:'Ver transcrição completa', kind:'transcript'}]}
+  ],
+  takehome: [
+    {tag:'Take-home da sessão', html:'Três pontos para levar:<br><br>1. <strong>Metformina</strong> segue como base — eficácia, segurança, custo.<br>2. <strong>Incretinas duplas</strong> consolidadas (tirzepatida); triagonistas em fase 3.<br>3. <strong>Acesso</strong> via SUS é o gargalo brasileiro — sem horizonte definido.',
+     actions:[{label:'Salvar no caderno', kind:'save'}]}
+  ],
+  compare: [
+    {tag:'Comparação · mesma mesa', html:'Dois ângulos:<br><br><strong>Clássicos</strong> (Dr. Luiz Antonio): metformina + insulina seguem essenciais; medicina baseada em acesso.<br><br><strong>Promessas</strong> (Dra. Luciana): redefinir alvo terapêutico — remissão > controle.<br><br><em>Ponto de atrito:</em> custo e horizonte SUS.',
+     actions:[{label:'Salvar comparação', kind:'save'}]}
+  ],
+  resume: [
+    {tag:'Resumo da sessão', html:'<strong>Simpósio 1 — DM2 em 3 atos</strong> · 8:45–10:00<br><br>Três falas em diálogo: <strong>Clássicos</strong> defende metformina/insulina como espinha dorsal; <strong>Contemporâneos</strong> mapeia o consenso atual com GLP-1/GIP; <strong>Promessas</strong> projeta triagonistas (retatrutida) e remissão metabólica como novo alvo.',
+     actions:[{label:'Salvar resumo', kind:'save'}, {label:'Take-home', kind:'takehome'}]}
+  ],
+  free: [
+    {tag:'Anotado', html:'Adicionei ao caderno na sessão atual ({sessionRef}). Quer que eu sugira tags?', actions:[{label:'Sugerir tags', kind:'tags'}, {label:'Ver no caderno', kind:'goto-caderno'}]},
+    {tag:'Anotado', html:'Salvei a observação. Posso cruzar com a fala anterior dessa mesa?', actions:[{label:'Cruzar com fala anterior', kind:'compare'}, {label:'Só salvar', kind:'save'}]}
+  ]
+};
+
+function getMockReply(intent, ctx){
+  // TODO: integrar com API real. Hoje: seleciona um mock plausível por intenção.
+  const list = MOCK_REPLIES[intent] || MOCK_REPLIES.free;
+  const pick = list[Math.floor(Math.random()*list.length)];
+  // interpola placeholders
+  const out = JSON.parse(JSON.stringify(pick));
+  const speaker = ctx?.speaker || (CURRENT_SESSION.speakers[Math.floor(Math.random()*CURRENT_SESSION.speakers.length)]);
+  out.html = (out.html||'').replace(/\{speaker\}/g, speaker).replace(/\{sessionRef\}/g, CURRENT_SESSION.ref);
+  return out;
+}
+
+function classifyIntent(text){
+  const t = text.toLowerCase();
+  if(/comparar|compare|diferen[cç]a|versus|vs\b/.test(t)) return 'compare';
+  if(/take.?home|levar|conclus[aã]o/.test(t)) return 'takehome';
+  if(/resum[oi]r?|s[ií]ntese|sumariz/.test(t)) return 'resume';
+  return 'free';
+}
+
+/* ----- envios ----- */
+function sendMsg(){
+  const input = document.getElementById('msgInput');
+  const v = input.value.trim();
+  if(!v) return;
+  input.value = '';
+  pushUser(escapeHTML(v));
+  showTyping();
+  const intent = classifyIntent(v);
+  const latency = 900 + Math.random()*700;
+  setTimeout(()=>{
+    hideTyping();
+    pushAI(getMockReply(intent));
+  }, latency);
+}
+
+/* ---------- captura de foto (câmera real) ---------- */
+function handlePhotoFile(file){
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    const dataUrl = ev.target.result;
+    const photoHTML = '<div class="photo-real"><img src="'+dataUrl+'" alt="slide"></div>';
+    pushUser(photoHTML);
+    // TODO: enviar para API real — POST imagem (dataUrl ou Blob) para análise via Gemini Vision / Claude.
+    // Hoje: mock após 1,4s simulando latência da análise.
+    showTyping();
+    setTimeout(()=>{ hideTyping(); pushAI(getMockReply('photo')); }, 1400);
+  };
+  reader.onerror = () => {
+    pushAI({tag:'Erro', html:'Não foi possível ler a imagem. Tente outra foto.'});
+  };
+  reader.readAsDataURL(file);
+}
+
+document.getElementById('photoInput').addEventListener('change', e=>{
+  const f = e.target.files && e.target.files[0];
+  handlePhotoFile(f);
+  e.target.value = ''; // permite re-selecionar a mesma foto
+});
+
+document.getElementById('btnPhoto').addEventListener('click', ()=>{
+  try{
+    document.getElementById('photoInput').click();
+  } catch(err){
+    pushAI({tag:'Erro', html:'Não foi possível acessar a câmera. Verifique as permissões do navegador.'});
+  }
+});
+
+/* ---------- captura de áudio (MediaRecorder real) ---------- */
+let mediaRecorder = null;
+let recordedChunks = [];
+let recordingStream = null;
+let recordingStart = 0;
+let recordingTimer = null;
+
+function fmtTime(secs){
+  const m = Math.floor(secs/60), s = secs%60;
+  return m+':'+String(s).padStart(2,'0');
+}
+
+async function startRecording(){
+  if(mediaRecorder && mediaRecorder.state === 'recording') return;
+  if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+    pushAI({tag:'Erro', html:'Seu navegador não suporta gravação de áudio. Tente em Chrome ou Safari atualizados.'});
+    return;
+  }
+  try{
+    recordingStream = await navigator.mediaDevices.getUserMedia({audio:true});
+  } catch(err){
+    pushAI({tag:'Erro', html:'Não foi possível acessar o microfone. Verifique se autorizou o acesso e tente novamente.'});
+    return;
+  }
+  recordedChunks = [];
+  try{
+    mediaRecorder = new MediaRecorder(recordingStream);
+  } catch(err){
+    pushAI({tag:'Erro', html:'Não foi possível iniciar a gravação neste dispositivo.'});
+    stopStream(); return;
+  }
+  mediaRecorder.ondataavailable = e => { if(e.data && e.data.size>0) recordedChunks.push(e.data); };
+  mediaRecorder.onstop = finalizeRecording;
+  mediaRecorder.start();
+  recordingStart = Date.now();
+  document.getElementById('btnMic').classList.add('recording');
+  const bar = document.getElementById('recordingBar');
+  bar.classList.add('show');
+  const timeEl = document.getElementById('recTime');
+  timeEl.textContent = '0:00';
+  recordingTimer = setInterval(()=>{
+    const elapsed = Math.floor((Date.now()-recordingStart)/1000);
+    timeEl.textContent = fmtTime(elapsed);
+    if(elapsed >= 600){ stopRecording(); } // limite de 10min
+  }, 250);
+}
+
+function stopRecording(){
+  if(mediaRecorder && mediaRecorder.state === 'recording') mediaRecorder.stop();
+}
+function cancelRecording(){
+  if(mediaRecorder && mediaRecorder.state === 'recording'){
+    mediaRecorder._cancelled = true;
+    mediaRecorder.stop();
+  }
+}
+function stopStream(){
+  if(recordingStream){
+    recordingStream.getTracks().forEach(t=>t.stop());
+    recordingStream = null;
+  }
+}
+function finalizeRecording(){
+  clearInterval(recordingTimer); recordingTimer = null;
+  document.getElementById('btnMic').classList.remove('recording');
+  document.getElementById('recordingBar').classList.remove('show');
+  const cancelled = mediaRecorder && mediaRecorder._cancelled;
+  const dur = Math.max(1, Math.floor((Date.now()-recordingStart)/1000));
+  stopStream();
+  if(cancelled || recordedChunks.length === 0){ mediaRecorder = null; return; }
+
+  const mime = (mediaRecorder && mediaRecorder.mimeType) || 'audio/webm';
+  const blob = new Blob(recordedChunks, {type: mime});
+  const url = URL.createObjectURL(blob);
+  const id = 'au_' + Date.now().toString(36);
+  const wave = Array.from({length:18}, ()=>'<span style="height:'+(30+Math.random()*60)+'%"></span>').join('');
+  const audioHTML =
+    '<div class="audio-stub" data-audio-id="'+id+'">' +
+      '<div class="play-btn" data-action="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>' +
+      '<div class="wave">'+wave+'</div>' +
+      '<div class="dur">'+fmtTime(dur)+'</div>' +
+      '<audio src="'+url+'" preload="metadata" data-dur="'+dur+'"></audio>' +
+    '</div>';
+  pushUser(audioHTML);
+  mediaRecorder = null;
+
+  // TODO: enviar para API real — POST do Blob de áudio para transcrição (Whisper / Gemini)
+  // e análise pela IA. Hoje: mock após 1,7s.
+  showTyping();
+  setTimeout(()=>{ hideTyping(); pushAI(getMockReply('audio')); }, 1700);
+}
+
+document.getElementById('btnMic').addEventListener('click', ()=>{
+  if(mediaRecorder && mediaRecorder.state === 'recording') stopRecording();
+  else startRecording();
+});
+document.getElementById('recStop').addEventListener('click', stopRecording);
+document.getElementById('recCancel').addEventListener('click', cancelRecording);
+
+/* ---------- play de áudios reais (delegação) ---------- */
+document.getElementById('chatWrap').addEventListener('click', e=>{
+  const playBtn = e.target.closest('.audio-stub [data-action="play"]');
+  if(!playBtn) return;
+  const stub = playBtn.closest('.audio-stub');
+  const audio = stub.querySelector('audio');
+  if(!audio) return;
+  // pausa qualquer outro tocando
+  document.querySelectorAll('.audio-stub.playing').forEach(s=>{
+    if(s!==stub){ s.classList.remove('playing'); const a=s.querySelector('audio'); if(a){a.pause(); a.currentTime=0;} setPlayIcon(s, true); }
+  });
+  if(audio.paused){
+    audio.play().catch(()=>{});
+    stub.classList.add('playing');
+    setPlayIcon(stub, false);
+    audio.onended = ()=>{ stub.classList.remove('playing'); setPlayIcon(stub, true); };
+  } else {
+    audio.pause();
+    stub.classList.remove('playing');
+    setPlayIcon(stub, true);
+  }
+});
+function setPlayIcon(stub, isPlay){
+  const btn = stub.querySelector('[data-action="play"]');
+  if(!btn) return;
+  btn.innerHTML = isPlay
+    ? '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>'
+    : '<svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>';
+}
+
+/* ----- ações inline da IA ----- */
+document.getElementById('chatWrap').addEventListener('click', e=>{
+  const btn = e.target.closest('.ai-actions button');
+  if(!btn) return;
+  const kind = btn.dataset.kind;
+  if(kind === 'save'){
+    // salva o último conteúdo da IA como captura no caderno
+    const text = btn.closest('.msg.ai').innerHTML;
+    const cap = {
+      id: 'c_' + Date.now().toString(36),
+      day: CURRENT_SESSION.day, time: nowStamp(),
+      sessionRef: CURRENT_SESSION.ref,
+      type: 'texto',
+      title: 'Anotação salva via assistente',
+      body: text.replace(/<div class="ai-actions">[\s\S]*?<\/div>/, '').replace(/<div class="ai-tag">[\s\S]*?<\/div>/, ''),
+      tags: ['assistente'],
+      ts: Date.now()
+    };
+    state.captures.unshift(cap); saveState();
+    btn.classList.add('saved');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 6L9 17l-5-5"/></svg>Salvo';
+    showToast('Salvo no caderno');
+  } else if(kind === 'takehome'){
+    showTyping();
+    setTimeout(()=>{ hideTyping(); pushAI(getMockReply('takehome')); }, 900);
+  } else if(kind === 'compare'){
+    showTyping();
+    setTimeout(()=>{ hideTyping(); pushAI(getMockReply('compare')); }, 900);
+  } else if(kind === 'resume'){
+    showTyping();
+    setTimeout(()=>{ hideTyping(); pushAI(getMockReply('resume')); }, 900);
+  } else if(kind === 'goto-caderno'){
+    switchPanel('caderno', document.querySelectorAll('nav.tabs button')[2]);
+  } else if(kind === 'tags'){
+    pushAI({tag:'Tags sugeridas', html:'Com base no contexto: <span class="note-tag" style="margin-right:4px">DM2</span> <span class="note-tag" style="margin-right:4px">incretinas</span> <span class="note-tag">'+CURRENT_SESSION.day+'</span>'});
+  } else if(kind === 'transcript'){
+    pushAI({tag:'Transcrição', html:'<em>(transcrição completa do trecho de áudio aparece aqui — recurso em desenvolvimento)</em>'});
+  }
+});
+
+/* ---------- bootstrap ---------- */
+function restoreSessionMarks(){
+  document.querySelectorAll('.session').forEach(s=>{
+    const t = s.querySelector('.session-title');
+    if(!t) return;
+    const sid = 's_' + t.textContent.trim().slice(0,20);
+    s.dataset.sessionId = sid;
+    if(state.marks[sid]){
+      const btn = s.querySelector('.action-btn:not(.primary)');
+      if(btn && !btn.classList.contains('marked')){
+        btn.classList.add('marked');
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado';
+      }
+    }
+  });
+}
+function restoreChat(){
+  if(state.chat.length === 0) return; // mantém mensagens iniciais do HTML
+  // se há histórico salvo, esvazia o seed e renderiza histórico
+  document.getElementById('chatWrap').innerHTML = '<div class="day-divider">conversa salva</div>';
+  state.chat.forEach(m=>{
+    const stamp = new Date(m.ts);
+    const s = stamp.getHours()+':'+String(stamp.getMinutes()).padStart(2,'0');
+    if(m.role==='user') appendBubble('user', m.html, s);
+    else appendBubble('ai', renderAI(m.payload), s);
+  });
+}
+
+document.getElementById('msgInput').addEventListener('keydown', e=>{
+  if(e.key === 'Enter') sendMsg();
+});
+
+// quick chips
+document.querySelectorAll('.quick-chip').forEach(c=>{
+  c.addEventListener('click', ()=>{
+    const map = {'Resumir essa sessão':'resume','Ver minhas capturas de hoje':'goto','Próxima sessão de interesse':'next','Take-home da manhã':'takehome'};
+    const kind = map[c.textContent.trim()] || 'free';
+    if(kind === 'goto'){ switchPanel('caderno', document.querySelectorAll('nav.tabs button')[2]); return; }
+    pushUser(escapeHTML(c.textContent.trim()));
+    showTyping();
+    setTimeout(()=>{ hideTyping(); pushAI(getMockReply(kind === 'next' ? 'free' : kind)); }, 900);
+  });
+});
+
+// composer mídia: handlers reais são registrados acima (btnPhoto / btnMic)
+
+/* ---------- live strip: agora / em breve / próximo evento ---------- */
+// TODO: integrar com grade real do congresso vinda de API.
+const PROGRAM_DAYS = [
+  // sexta 23/10/2026
+  { date: new Date(2026,9,23), sessions: [
+    {start:'08:30', end:'08:45', title:'Abertura do congresso'},
+    {start:'08:45', end:'10:00', title:'Simpósio 1 — DM2 em 3 atos'},
+    {start:'10:20', end:'11:30', title:'Simpósio 2 — Tireoide'},
+    {start:'13:30', end:'14:40', title:'Simpósio 3 — CDT seguimento'},
+    {start:'15:00', end:'16:10', title:'Simpósio 4 — Adrenal'},
+    {start:'16:30', end:'17:45', title:'Simpósio 5 — Raciocínio clínico'}
+  ]},
+  // sábado 24/10/2026
+  { date: new Date(2026,9,24), sessions: [
+    {start:'08:30', end:'09:40', title:'Simpósio 6 — Hipogonadismo'},
+    {start:'10:00', end:'11:10', title:'Simpósio 7 — Obesidade infantil'},
+    {start:'13:30', end:'14:40', title:'Simpósio 9 — Manutenção pós-emagrecimento'},
+    {start:'15:00', end:'16:10', title:'Simpósio 10 — Novas fronteiras'},
+    {start:'16:30', end:'17:30', title:'Mini — IA no consultório'}
+  ]}
+];
+
+function parseHM(d, hm){
+  const [h,m] = hm.split(':').map(Number);
+  const out = new Date(d); out.setHours(h, m, 0, 0); return out;
+}
+function fmtHM(d){ return d.getHours()+':'+String(d.getMinutes()).padStart(2,'0'); }
+
+function computeLiveStatus(now){
+  // 1) durante uma sessão hoje?
+  for(const day of PROGRAM_DAYS){
+    if(day.date.toDateString() !== now.toDateString()) continue;
+    for(const s of day.sessions){
+      const st = parseHM(day.date, s.start), en = parseHM(day.date, s.end);
+      if(now >= st && now < en) return {kind:'live', tag:'Agora', text:s.title, time:fmtHM(now)};
+      if(now < st) return {kind:'soon', tag:'Em breve', text:s.title, time:s.start};
+    }
+  }
+  // 2) antes do congresso → primeiro evento
+  const firstDay = PROGRAM_DAYS[0];
+  if(now < parseHM(firstDay.date, firstDay.sessions[0].start)){
+    const first = firstDay.sessions[1] || firstDay.sessions[0]; // pula abertura, mostra Simpósio 1
+    const dateLabel = firstDay.date.toLocaleDateString('pt-BR', {day:'2-digit', month:'short'}).replace('.','');
+    return {kind:'upcoming', tag:'Próximo evento', text:first.title, time: dateLabel + ' · ' + first.start};
+  }
+  // 3) após o congresso → encerrado
+  return {kind:'past', tag:'Encerrado', text:'12º CCEM · 23–24 out 2026', time:''};
+}
+
+function renderLiveStrip(){
+  const now = new Date();
+  const st = computeLiveStatus(now);
+  document.getElementById('nowTag').textContent = st.tag;
+  document.getElementById('nowText').textContent = st.text;
+  document.getElementById('nowTime').textContent = st.time;
+  const dot = document.getElementById('liveDot');
+  const strip = document.getElementById('liveStrip');
+  // dot pulsa só quando "Agora"; em outros estados, vira marca estática
+  dot.style.animation = st.kind === 'live' ? '' : 'none';
+  dot.style.background = ({live:'var(--accent)', soon:'var(--gold)', upcoming:'var(--ink-mute)', past:'var(--line)'})[st.kind];
+  strip.dataset.state = st.kind;
+}
+renderLiveStrip();
+setInterval(renderLiveStrip, 30000); // re-checa a cada 30s
+
+
+
+// inicialização
+restoreSessionMarks();
+restoreChat();
+renderCaderno();
+
+</script>
+
+</body>
+</html>

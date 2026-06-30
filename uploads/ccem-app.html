@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>CCEM 2026 · Protótipo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F6F2E8;
+    --bg-card:#FFFFFF;
+    --bg-soft:#EFEADC;
+    --ink:#1A2438;
+    --ink-soft:#5B6577;
+    --ink-mute:#8A93A4;
+    --line:#E1D9C5;
+    --accent:#8E2433;
+    --accent-soft:#C25E5A;
+    --green:#2D6457;
+    --gold:#C18C3E;
+    --shadow: 0 1px 2px rgba(26,36,56,.04), 0 4px 16px rgba(26,36,56,.05);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:"DM Sans", system-ui, sans-serif;
+    background:#2A2A2A;
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+    line-height:1.5;
+  }
+  /* device frame para desktop, fullscreen mobile */
+  .device{
+    max-width:420px;
+    margin:0 auto;
+    min-height:100vh;
+    background:var(--bg);
+    position:relative;
+    overflow:hidden;
+    box-shadow: 0 0 60px rgba(0,0,0,.4);
+    display:flex;
+    flex-direction:column;
+  }
+  @media (min-width: 500px){
+    .device{
+      margin:24px auto;
+      min-height:calc(100vh - 48px);
+      max-height:calc(100vh - 48px);
+      border-radius:32px;
+      border:8px solid #1a1a1a;
+    }
+  }
+
+  /* HEADER */
+  header{
+    padding:14px 20px 14px;
+    background:var(--bg);
+    border-bottom:1px solid var(--line);
+    flex-shrink:0;
+  }
+  .logo-line{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:6px;
+  }
+  .logo-img{
+    height:38px;
+    width:auto;
+    display:block;
+  }
+  .meta-stack{
+    text-align:right;
+    line-height:1.2;
+  }
+  .meta-date{
+    font-family:"Fraunces", serif;
+    font-weight:600;
+    font-size:14px;
+    color:var(--ink);
+    letter-spacing:-0.01em;
+  }
+  .meta-loc{
+    font-size:10px;
+    color:var(--ink-mute);
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    font-weight:500;
+    margin-top:2px;
+  }
+  .subtitle{
+    font-size:11px;
+    color:var(--ink-soft);
+    font-style:italic;
+    line-height:1.4;
+  }
+
+  /* MAIN content */
+  main{
+    flex:1;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  /* BOTTOM NAV */
+  nav.tabs{
+    display:flex;
+    border-top:1px solid var(--line);
+    background:var(--bg);
+    flex-shrink:0;
+    padding:6px 0 max(8px, env(safe-area-inset-bottom));
+  }
+  nav.tabs button{
+    flex:1;
+    background:none;
+    border:none;
+    padding:10px 8px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4px;
+    font-family:inherit;
+    font-size:10.5px;
+    color:var(--ink-mute);
+    font-weight:500;
+    letter-spacing:0.02em;
+    transition:color .2s;
+  }
+  nav.tabs button.active{color:var(--accent)}
+  nav.tabs button svg{
+    width:22px;
+    height:22px;
+    stroke-width:1.5;
+  }
+
+  /* PROGRAMA */
+  .day-toggle{
+    display:flex;
+    margin:16px 20px 8px;
+    background:var(--bg-soft);
+    border-radius:10px;
+    padding:3px;
+  }
+  .day-toggle button{
+    flex:1;
+    background:none;
+    border:none;
+    padding:8px 12px;
+    border-radius:8px;
+    cursor:pointer;
+    font-family:inherit;
+    font-size:13px;
+    font-weight:500;
+    color:var(--ink-soft);
+    transition:all .2s;
+  }
+  .day-toggle button.active{
+    background:var(--bg-card);
+    color:var(--ink);
+    box-shadow:var(--shadow);
+  }
+  .day-toggle button .day-num{
+    font-family:"Fraunces", serif;
+    font-weight:600;
+    font-size:14px;
+    margin-right:4px;
+  }
+
+  .session-list{
+    padding:8px 16px 24px;
+  }
+  .session{
+    background:var(--bg-card);
+    border-radius:14px;
+    padding:14px 16px;
+    margin-bottom:10px;
+    box-shadow:var(--shadow);
+    border:1px solid transparent;
+    transition:border .2s;
+    position:relative;
+  }
+  .session.starred{
+    border-color:var(--gold);
+  }
+  .session-row{
+    display:flex;
+    gap:12px;
+  }
+  .time-col{
+    flex-shrink:0;
+    width:46px;
+    padding-top:2px;
+  }
+  .time-start{
+    font-family:"Fraunces", serif;
+    font-weight:600;
+    font-size:15px;
+    color:var(--ink);
+    line-height:1.1;
+  }
+  .time-dur{
+    font-size:10px;
+    color:var(--ink-mute);
+    margin-top:2px;
+  }
+  .info-col{
+    flex:1;
+    min-width:0;
+  }
+  .badge{
+    display:inline-block;
+    font-size:9.5px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    padding:2px 7px;
+    border-radius:3px;
+    margin-bottom:6px;
+  }
+  .badge.simposio{background:#F2DCD0;color:var(--accent)}
+  .badge.mini{background:#DCE6E2;color:var(--green)}
+  .badge.satelite{background:var(--bg-soft);color:var(--ink-soft)}
+  .badge.cerimonia{background:#F4E4BD;color:#7A5414}
+
+  .session-title{
+    font-size:13.5px;
+    font-weight:500;
+    color:var(--ink);
+    line-height:1.35;
+    margin-bottom:4px;
+  }
+  .session-speakers{
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.4;
+  }
+  .speaker{
+    display:block;
+    margin-top:1px;
+  }
+  .speaker .role{
+    font-style:italic;
+    font-size:11px;
+    color:var(--ink-mute);
+    margin-right:4px;
+  }
+  .moderator{
+    font-size:11px;
+    color:var(--ink-mute);
+    font-style:italic;
+    margin-bottom:4px;
+  }
+  .interval{
+    text-align:center;
+    padding:6px 0;
+    margin:4px 16px;
+    font-size:11px;
+    color:var(--ink-mute);
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    font-weight:500;
+    position:relative;
+  }
+  .interval::before, .interval::after{
+    content:'';
+    position:absolute;
+    top:50%;
+    width:30%;
+    height:1px;
+    background:var(--line);
+  }
+  .interval::before{left:0}
+  .interval::after{right:0}
+
+  .star-mark{
+    position:absolute;
+    top:14px;
+    right:14px;
+    font-size:16px;
+    color:var(--gold);
+  }
+
+  .actions{
+    display:flex;
+    gap:8px;
+    margin-top:12px;
+    padding-top:10px;
+    border-top:1px dashed var(--line);
+  }
+  .action-btn{
+    flex:1;
+    background:var(--bg-soft);
+    color:var(--ink-soft);
+    border:none;
+    padding:7px 10px;
+    border-radius:7px;
+    font-family:inherit;
+    font-size:11.5px;
+    font-weight:500;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    transition:all .2s;
+  }
+  .action-btn.primary{
+    background:var(--accent);
+    color:white;
+  }
+  .action-btn:hover{transform:translateY(-1px)}
+  .action-btn svg{width:13px;height:13px}
+
+  /* ASSISTENTE */
+  .chat-wrap{
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .chat-intro{
+    text-align:center;
+    padding:10px 16px 18px;
+    border-bottom:1px solid var(--line);
+    margin-bottom:8px;
+  }
+  .chat-intro h3{
+    font-family:"Fraunces", serif;
+    font-size:18px;
+    font-weight:600;
+    color:var(--ink);
+    margin-bottom:4px;
+  }
+  .chat-intro p{
+    font-size:12px;
+    color:var(--ink-soft);
+    font-style:italic;
+  }
+  .msg{
+    max-width:85%;
+    padding:10px 14px;
+    border-radius:14px;
+    font-size:13.5px;
+    line-height:1.5;
+  }
+  .msg.user{
+    align-self:flex-end;
+    background:var(--accent);
+    color:white;
+    border-bottom-right-radius:4px;
+  }
+  .msg.user .photo-stub{
+    background:rgba(255,255,255,.15);
+    border-radius:8px;
+    padding:30px 14px;
+    text-align:center;
+    font-size:11px;
+    margin-bottom:6px;
+    font-style:italic;
+    border:1px dashed rgba(255,255,255,.3);
+  }
+  .msg.ai{
+    align-self:flex-start;
+    background:var(--bg-card);
+    color:var(--ink);
+    border-bottom-left-radius:4px;
+    box-shadow:var(--shadow);
+  }
+  .msg.ai .ai-tag{
+    font-size:10px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+    margin-bottom:6px;
+  }
+  .msg.ai strong{color:var(--accent);font-weight:600}
+  .msg.ai .ai-actions{
+    display:flex;
+    gap:6px;
+    margin-top:10px;
+    padding-top:8px;
+    border-top:1px dashed var(--line);
+  }
+  .msg.ai .ai-actions button{
+    background:var(--bg-soft);
+    color:var(--ink-soft);
+    border:none;
+    padding:5px 10px;
+    border-radius:6px;
+    font-size:11px;
+    font-weight:500;
+    cursor:pointer;
+    font-family:inherit;
+  }
+
+  .composer{
+    margin:8px 16px 16px;
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:8px;
+    display:flex;
+    gap:6px;
+    align-items:center;
+  }
+  .composer input{
+    flex:1;
+    border:none;
+    background:none;
+    padding:8px;
+    font-family:inherit;
+    font-size:13px;
+    color:var(--ink);
+    outline:none;
+  }
+  .composer input::placeholder{color:var(--ink-mute);font-style:italic}
+  .composer-btn{
+    width:36px;
+    height:36px;
+    border-radius:9px;
+    background:var(--bg-soft);
+    border:none;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--ink-soft);
+  }
+  .composer-btn.send{background:var(--accent);color:white}
+  .composer-btn svg{width:16px;height:16px}
+
+  /* CADERNO */
+  .caderno-head{
+    padding:18px 20px 8px;
+  }
+  .caderno-head h2{
+    font-family:"Fraunces", serif;
+    font-size:22px;
+    font-weight:600;
+    color:var(--ink);
+    margin-bottom:4px;
+    letter-spacing:-0.01em;
+  }
+  .caderno-head p{
+    font-size:12px;
+    color:var(--ink-soft);
+    font-style:italic;
+  }
+  .caderno-stats{
+    display:flex;
+    gap:8px;
+    margin:14px 16px 4px;
+  }
+  .stat-card{
+    flex:1;
+    background:var(--bg-card);
+    border-radius:10px;
+    padding:10px 12px;
+    box-shadow:var(--shadow);
+    text-align:center;
+  }
+  .stat-num{
+    font-family:"Fraunces", serif;
+    font-weight:700;
+    font-size:22px;
+    color:var(--accent);
+    line-height:1;
+  }
+  .stat-lbl{
+    font-size:10px;
+    color:var(--ink-mute);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    margin-top:4px;
+  }
+
+  .caderno-section{
+    padding:16px 16px 0;
+  }
+  .caderno-section h3{
+    font-size:11px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--ink-mute);
+    margin-bottom:10px;
+    padding-left:4px;
+  }
+
+  .note-card{
+    background:var(--bg-card);
+    border-radius:12px;
+    padding:14px;
+    margin-bottom:8px;
+    box-shadow:var(--shadow);
+    border-left:3px solid var(--accent);
+  }
+  .note-card.foto{border-left-color:var(--green)}
+  .note-card.audio{border-left-color:var(--gold)}
+  .note-meta{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:6px;
+  }
+  .note-meta .session-ref{
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--ink-mute);
+    font-weight:500;
+  }
+  .note-meta .type-tag{
+    font-size:9.5px;
+    padding:2px 6px;
+    border-radius:3px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    font-weight:600;
+  }
+  .type-tag.t-foto{background:#DCE6E2;color:var(--green)}
+  .type-tag.t-audio{background:#F4E4BD;color:#7A5414}
+  .type-tag.t-texto{background:#F2DCD0;color:var(--accent)}
+
+  .note-title{
+    font-size:13.5px;
+    font-weight:500;
+    color:var(--ink);
+    margin-bottom:6px;
+    line-height:1.35;
+  }
+  .note-body{
+    font-size:12px;
+    color:var(--ink-soft);
+    line-height:1.5;
+  }
+  .note-body strong{color:var(--ink);font-weight:600}
+
+  .export-bar{
+    margin:20px 16px 24px;
+    padding:14px;
+    background:var(--bg-card);
+    border-radius:12px;
+    text-align:center;
+    border:1px dashed var(--line);
+  }
+  .export-bar p{
+    font-size:11.5px;
+    color:var(--ink-soft);
+    margin-bottom:8px;
+    font-style:italic;
+  }
+  .export-bar button{
+    background:var(--ink);
+    color:white;
+    border:none;
+    padding:8px 16px;
+    border-radius:8px;
+    font-family:inherit;
+    font-size:12px;
+    font-weight:500;
+    cursor:pointer;
+  }
+
+  /* hide non-active panels */
+  .panel{display:none}
+  .panel.active{display:block}
+
+  /* footer hint */
+  .footer-hint{
+    text-align:center;
+    font-size:10px;
+    color:var(--ink-mute);
+    padding:0 20px 16px;
+    font-style:italic;
+  }
+</style>
+</head>
+<body>
+
+<div class="device">
+
+  <header>
+    <div class="logo-line">
+      <img src="https://www.ccem2026.com.br/images/logo_2x.png" alt="CCEM 2026" class="logo-img" onerror="this.style.display='none';this.parentElement.querySelector('.logo-fallback').style.display='block'">
+      <div class="logo-fallback" style="display:none;font-family:'Fraunces',serif;font-weight:700;font-size:22px;color:var(--ink);">CCEM <span style="color:var(--accent)">2026</span></div>
+      <div class="meta-stack">
+        <div class="meta-date">23–24 OUT</div>
+        <div class="meta-loc">Joinville · SC</div>
+      </div>
+    </div>
+    <div class="subtitle">12º Congresso Catarinense de Endocrinologia e Metabologia · Expoville</div>
+  </header>
+
+  <main>
+
+    <!-- ============= ABA PROGRAMA ============= -->
+    <section class="panel active" id="panel-programa">
+
+      <div class="day-toggle">
+        <button class="active" onclick="switchDay('sexta')"><span class="day-num">23</span>sex</button>
+        <button onclick="switchDay('sabado')"><span class="day-num">24</span>sáb</button>
+      </div>
+
+      <!-- SEXTA -->
+      <div class="session-list" id="day-sexta">
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:00</div>
+              <div class="time-dur">15min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge cerimonia">Cerimônia</span>
+              <div class="session-title">Cerimônia de Abertura</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:15</div>
+              <div class="time-dur">30min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">Novas tecnologias de monitorização glicêmica: semelhantes ou diferentes na prática?</div>
+              <div class="session-speakers">
+                <span class="speaker"><span class="role">Palestrante</span>Dra. Talita Letícia Trevisan</span>
+                <span class="speaker"><span class="role">Moderador</span>Dr. Fulvio Thomazelli</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:45</div>
+              <div class="time-dur">1h15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 1</span>
+              <div class="session-title">Tratamento do diabetes tipo 2 em 3 atos: clássicos, contemporâneos e promessas</div>
+              <div class="moderator">Mod. Dr. Paulo de Tarso Freitas</div>
+              <div class="session-speakers">
+                <span class="speaker">— Clássicos · Dr. Luiz Antonio de Araújo</span>
+                <span class="speaker">— Contemporâneos · Dra. Adriana Striebel</span>
+                <span class="speaker">— Promessas · Dra. Luciana Muniz Pechmann</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="interval">— intervalo · 10:00–10:20 —</div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">10:20</div>
+              <div class="time-dur">45min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">Sessão patrocinada</div>
+              <div class="session-speakers"><span class="speaker">Programação a definir</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">11:05</div>
+              <div class="time-dur">1h15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 2</span>
+              <div class="session-title">Diabetes Mellitus tipo 1</div>
+              <div class="moderator">Mod. Dra. Flaviana Dalla Vechia</div>
+              <div class="session-speakers">
+                <span class="speaker">— Imunomodulador: quando e como? · Dr. Mauro Scharf Pinto</span>
+                <span class="speaker">— Colônia de férias: experiência em SC · Dra. Julia Carpanezzi La Pastina</span>
+                <span class="speaker">— Incretinas no DM1 · Dr. Mauro Scharf Pinto</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="interval">— intervalo · 12:20–13:20 —</div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">13:20</div>
+              <div class="time-dur">1h15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 3</span>
+              <div class="session-title">Tireoide — Carcinoma Diferenciado de Tireoide</div>
+              <div class="moderator">Mod. Dra. Maria Heloísa da Silva Canalli</div>
+              <div class="session-speakers">
+                <span class="speaker">— Estratificação de risco de recorrência · Dra. Marta Amaro Duval</span>
+                <span class="speaker">— Novos parâmetros da tireoglobulina (ATA) · Dra. Lireda Meneses Silva</span>
+                <span class="speaker">— Metástase linfonodal no seguimento · Dr. Cleo Otaviano Mesa Jr.</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">14:35</div>
+              <div class="time-dur">45min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">Sessão patrocinada — "Menos gordura e menos músculo"</div>
+              <div class="session-speakers"><span class="speaker">Inclui Dra. Fátima Sandmann</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">15:20</div>
+              <div class="time-dur">30min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">Manejo de pacientes sem resposta excelente ao tratamento do CDT</div>
+              <div class="session-speakers">
+                <span class="speaker"><span class="role">Palestrante</span>Dr. Cleo Otaviano Mesa Jr.</span>
+                <span class="speaker"><span class="role">Moderador</span>Dra. Goretti Silveira Rodrigues</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="interval">— intervalo · 15:50–16:10 —</div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">16:10</div>
+              <div class="time-dur">50min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 4</span>
+              <div class="session-title">Hipófise</div>
+              <div class="moderator">Mod. Dra. Julia Appel</div>
+              <div class="session-speakers">
+                <span class="speaker">— Desafios na hiperprolactinemia · Dra. Amely Pereira Silva Balthazar</span>
+                <span class="speaker">— Caso Clínico Cushing · Dr. Fúlvio Thomaselli e Dra. Sheila Montano Vega</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="session starred">
+          <div class="star-mark">★</div>
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">17:00</div>
+              <div class="time-dur">1h10</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 5</span>
+              <div class="session-title">Entre evidências e modismos</div>
+              <div class="moderator">Mod. Dr. Frederico Marchisotti</div>
+              <div class="session-speakers">
+                <span class="speaker">— Suplementos para performance: mitos e verdades · Dr. Fúlvio Thomaselli</span>
+                <span class="speaker">— Emagrecer a qualquer custo: o debate ético dos manipulados · Dr. Neuton Dornelas Gomes</span>
+                <span class="speaker">— <strong>Centenas de exames e zero hipótese · Dr. Itairan da Silva Terres</strong></span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+          </div>
+        </div>
+
+        <div class="interval">— encerramento dia 1 · 18:10 —</div>
+
+      </div>
+
+      <!-- SÁBADO -->
+      <div class="session-list" id="day-sabado" style="display:none">
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">8:00</div>
+              <div class="time-dur">1h15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 6</span>
+              <div class="session-title">Gônadas</div>
+              <div class="moderator">Mod. Dra. Demelise Demczuk</div>
+              <div class="session-speakers">
+                <span class="speaker">— Nova diretriz de hipogonadismo · Dr. Alexandre Hohl</span>
+                <span class="speaker">— Abordagem da perimenopausa · Dr. Marcelo F. Ronsoni</span>
+                <span class="speaker">— UpDate Síndrome dos Ovários Policísticos · Dra. Carina Morellato</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">9:15</div>
+              <div class="time-dur">30min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">Terapia hormonal na transição de gênero</div>
+              <div class="session-speakers">
+                <span class="speaker"><span class="role">Palestrante</span>Dra. Karen Faggioni de Marca Seidel</span>
+                <span class="speaker"><span class="role">Moderador</span>Dra. Tanise Balvedi Damas</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="interval">— intervalo · 9:45–10:05 —</div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">10:05</div>
+              <div class="time-dur">45min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">Sessão patrocinada</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">10:50</div>
+              <div class="time-dur">50min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 7</span>
+              <div class="session-title">Metabolismo Ósseo</div>
+              <div class="moderator">Mod. Dra. Júlia Vieira Oberger Marques</div>
+              <div class="session-speakers">
+                <span class="speaker">— Hipocalcemia de difícil manejo · Dr. Dalisbor Marcelo Weber Silva</span>
+                <span class="speaker">— Caso clínico de osteoporose · <em>(palestrante a confirmar)</em></span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">11:40</div>
+              <div class="time-dur">50min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 8</span>
+              <div class="session-title">Adrenal — casos clínicos</div>
+              <div class="session-speakers">
+                <span class="speaker">— Cushing subclínico · Dra. Amanda Meneses Ferreira Lacombe</span>
+                <span class="speaker">— Hiperaldosteronismo · Dr. Guilherme Asmar Alencar</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="interval">— intervalo · 12:30–13:30 —</div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">13:30</div>
+              <div class="time-dur">1h15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 9</span>
+              <div class="session-title">Endocrinologia Pediátrica</div>
+              <div class="moderator">Mod. Dra. Zuleica Isabel Zarabia Morales</div>
+              <div class="session-speakers">
+                <span class="speaker">— Inibidor da aromatase na baixa estatura · Dra. Marilza Leal Nascimento</span>
+                <span class="speaker">— Obesidade na infância e adolescência · Dra. Rose Marie Mueller Linhares</span>
+                <span class="speaker">— Quando o normal vira doença? · Dra. Suely Keiko Kohara</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">14:45</div>
+              <div class="time-dur">45min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge satelite">Simpósio Satélite</span>
+              <div class="session-title">Sessão patrocinada</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="interval">— intervalo · 15:30–15:50 —</div>
+
+        <div class="session">
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">15:50</div>
+              <div class="time-dur">1h15</div>
+            </div>
+            <div class="info-col">
+              <span class="badge simposio">Simpósio 10</span>
+              <div class="session-title">Obesidade</div>
+              <div class="moderator">Mod. Dr. Fabio Herget Pitanga</div>
+              <div class="session-speakers">
+                <span class="speaker">— Menos gordura e menos músculo · Dra. Fátima Sandmann Afonso</span>
+                <span class="speaker">— Estratégias de manutenção do peso perdido · Dra. Cristina Schreiber de Oliveira</span>
+                <span class="speaker">— Risco CV na obesidade · Dra. Simone van de Sande Lee</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>Marcar</button>
+          </div>
+        </div>
+
+        <div class="session starred">
+          <div class="star-mark">★</div>
+          <div class="session-row">
+            <div class="time-col">
+              <div class="time-start">17:05</div>
+              <div class="time-dur">30min</div>
+            </div>
+            <div class="info-col">
+              <span class="badge mini">Mini-Conferência</span>
+              <div class="session-title">IA no consultório do endocrinologista</div>
+              <div class="session-speakers">
+                <span class="speaker"><span class="role">Palestrante</span>Dra. Milena Gurgel Teles Bezerra (SP)</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="action-btn primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>Capturar</button>
+            <button class="action-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.4L12 17l-6.3 4.3L8 13.9 2 9.4h7.6z"/></svg>Marcado</button>
+          </div>
+        </div>
+
+        <div class="interval">— encerramento · 17:35 —</div>
+
+      </div>
+
+      <div class="footer-hint">★ marcado por você · toque para capturar</div>
+
+    </section>
+
+    <!-- ============= ABA ASSISTENTE ============= -->
+    <section class="panel" id="panel-assistente" style="display:flex;flex-direction:column;height:100%">
+
+      <div class="chat-intro">
+        <h3>Assistente CCEM</h3>
+        <p>mande foto, áudio ou texto — eu organizo</p>
+      </div>
+
+      <div class="chat-wrap" style="flex:1;overflow-y:auto">
+
+        <div class="msg ai">
+          <div class="ai-tag">CCEM 2026</div>
+          Oi! Você está no CCEM 2026, sexta 23 de outubro. Sessão acontecendo agora: <strong>Simpósio 1 — DM2 em 3 atos</strong>, com Dr. Paulo de Tarso Freitas (mod). Pode mandar foto de slide, gravar 30 segundos da fala, ou anotar algo livre.
+        </div>
+
+        <div class="msg user">
+          <div class="photo-stub">📷 foto enviada<br>(slide do palestrante)</div>
+        </div>
+
+        <div class="msg ai">
+          <div class="ai-tag">Slide identificado</div>
+          Esse slide é da fala <strong>"Promessas"</strong> (Dra. Luciana Muniz Pechmann), Simpósio 1.<br><br>
+          <strong>Mensagem-chave:</strong> agonistas duplos GLP-1/GIP (tirzepatida) já consolidados — próximo passo são triagonistas (retatrutida) com perda de peso superior a 24% em fase 3.<br><br>
+          <strong>Referência citada no slide:</strong> Jastreboff AM et al., NEJM 2023;389:514–526.
+          <div class="ai-actions">
+            <button>📓 Salvar no caderno</button>
+            <button>🔄 Take-home</button>
+          </div>
+        </div>
+
+        <div class="msg user">
+          Posso comparar o que ela disse com o que o Dr. Luiz Antônio falou em "Clássicos"?
+        </div>
+
+        <div class="msg ai">
+          <div class="ai-tag">Comparação entre falas</div>
+          Sim. Tese central de cada fala:<br><br>
+          <strong>Clássicos (Dr. Luiz Antônio):</strong> metformina segue como base — eficácia, segurança, custo. Insulina ainda tem lugar definido em falência secundária.<br><br>
+          <strong>Promessas (Dra. Luciana):</strong> nova geração de incretinas redefine alvos — não é mais "controle glicêmico", é remissão metabólica.<br><br>
+          <em>Tensão entre as duas falas:</em> custo e acesso. A Dra. Luciana citou que retatrutida ainda não tem horizonte SUS no Brasil.
+          <div class="ai-actions">
+            <button>📓 Salvar comparação</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="composer">
+        <button class="composer-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3"/></svg></button>
+        <button class="composer-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"><rect x="9" y="4" width="6" height="12" rx="3"/><path d="M5 12a7 7 0 0014 0M12 19v3"/></svg></button>
+        <input type="text" placeholder="escreva uma observação...">
+        <button class="composer-btn send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></button>
+      </div>
+
+    </section>
+
+    <!-- ============= ABA CADERNO ============= -->
+    <section class="panel" id="panel-caderno">
+
+      <div class="caderno-head">
+        <h2>Meu caderno</h2>
+        <p>tudo que você capturou no CCEM 2026</p>
+      </div>
+
+      <div class="caderno-stats">
+        <div class="stat-card">
+          <div class="stat-num">7</div>
+          <div class="stat-lbl">Capturas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">4</div>
+          <div class="stat-lbl">Sessões</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">12</div>
+          <div class="stat-lbl">Referências</div>
+        </div>
+      </div>
+
+      <div class="caderno-section">
+        <h3>Sexta · 23 outubro</h3>
+
+        <div class="note-card foto">
+          <div class="note-meta">
+            <span class="session-ref">Simpósio 1 · 9:30 · Dra. Luciana Pechmann</span>
+            <span class="type-tag t-foto">Foto</span>
+          </div>
+          <div class="note-title">Triagonistas (retatrutida) — perda de peso superior a 24%</div>
+          <div class="note-body">Próximo passo após GLP-1/GIP. <strong>Ref:</strong> Jastreboff AM et al., NEJM 2023;389:514–526. <em>Sem horizonte SUS no Brasil.</em></div>
+        </div>
+
+        <div class="note-card audio">
+          <div class="note-meta">
+            <span class="session-ref">Simpósio 3 · 13:50 · Dra. Marta Duval</span>
+            <span class="type-tag t-audio">Áudio</span>
+          </div>
+          <div class="note-title">Estratificação de risco no CDT — o que mudou</div>
+          <div class="note-body"><strong>Take-home:</strong> resposta excelente, indeterminada, bioquímica incompleta, estrutural incompleta — categorias dinâmicas, reavaliáveis no seguimento.</div>
+        </div>
+
+        <div class="note-card">
+          <div class="note-meta">
+            <span class="session-ref">Simpósio 5 · 17:35 · Dr. Itairan Terres</span>
+            <span class="type-tag t-texto">Texto</span>
+          </div>
+          <div class="note-title">"Centenas de exames e zero hipótese" — anotação livre</div>
+          <div class="note-body">Frase a guardar: <em>"o exame não substitui a hipótese — confirma ou refuta uma."</em> Conexão com o problema do hiperdiagnóstico em endo (incidentaloma adrenal, nódulo tireoide).</div>
+        </div>
+      </div>
+
+      <div class="caderno-section">
+        <h3>Sábado · 24 outubro</h3>
+
+        <div class="note-card foto">
+          <div class="note-meta">
+            <span class="session-ref">Simpósio 10 · 16:30 · Dra. Cristina Schreiber</span>
+            <span class="type-tag t-foto">Foto</span>
+          </div>
+          <div class="note-title">Manutenção pós-emagrecimento — 4 estratégias farmacológicas</div>
+          <div class="note-body">Manter incretina em dose menor · GLP-1 oral · associação com bupropiona/naltrexona · ciclo de pausa programada. <strong>Caveat:</strong> sem ECR direto comparando estratégias.</div>
+        </div>
+
+        <div class="note-card">
+          <div class="note-meta">
+            <span class="session-ref">Mini · 17:05 · Dra. Milena Gurgel Bezerra</span>
+            <span class="type-tag t-texto">Texto</span>
+          </div>
+          <div class="note-title">IA no consultório — o que vale e o que não vale</div>
+          <div class="note-body"><strong>Útil:</strong> resumo de evolução, geração de pedidos, cruzamento com diretrizes. <strong>Não substitui:</strong> hipótese diagnóstica, decisão clínica, vínculo com paciente.</div>
+        </div>
+      </div>
+
+      <div class="export-bar">
+        <p>seu caderno fica salvo após o congresso</p>
+        <button>Exportar como PDF</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <nav class="tabs">
+    <button class="active" onclick="switchPanel('programa', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2"/>
+        <path d="M16 2v4M8 2v4M3 10h18"/>
+      </svg>
+      Programa
+    </button>
+    <button onclick="switchPanel('assistente', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+      </svg>
+      Assistente
+    </button>
+    <button onclick="switchPanel('caderno', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5z"/>
+      </svg>
+      Caderno
+    </button>
+  </nav>
+
+</div>
+
+<script>
+  function switchPanel(name, btn){
+    document.querySelectorAll('.panel').forEach(p=>{
+      p.classList.remove('active');
+      p.style.display = 'none';
+    });
+    const panel = document.getElementById('panel-'+name);
+    panel.classList.add('active');
+    panel.style.display = name === 'assistente' ? 'flex' : 'block';
+
+    document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+
+  function switchDay(day){
+    document.getElementById('day-sexta').style.display = day === 'sexta' ? 'block' : 'none';
+    document.getElementById('day-sabado').style.display = day === 'sabado' ? 'block' : 'none';
+    document.querySelectorAll('.day-toggle button').forEach(b=>b.classList.remove('active'));
+    event.target.closest('button').classList.add('active');
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu CCEM 2026</title>
+  <meta name="theme-color" content="#1d3e8a"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; height: 100%; overflow: hidden; font-family: 'DM Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    body { background: #06112e; }
+
+    /* Stage — centra o device */
+    .stage {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      background: radial-gradient(ellipse at 50% 0%, #1d3e8a 0%, #040b1a 68%);
+    }
+
+    /* Device — frame do celular */
+    .device {
+      width: 390px; height: 844px;
+      border-radius: 50px;
+      background: #f3f6fc;
+      overflow: hidden;
+      border: 9px solid #070e28;
+      box-shadow:
+        0 0 0 1px #1a2f6e,
+        inset 0 0 0 1px rgba(255,255,255,.06),
+        0 40px 100px rgba(0,0,0,.75),
+        0 0 60px rgba(29,62,138,.3);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Notch */
+    .device::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 50%; transform: translateX(-50%);
+      width: 120px; height: 34px;
+      background: #070e28;
+      border-radius: 0 0 22px 22px;
+      z-index: 10;
+    }
+
+    /* React root fills device */
+    #root {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      min-height: 0;
+      padding-top: 34px; /* notch height */
+    }
+
+    /* Toast */
+    .ccem-toast {
+      position: absolute;
+      bottom: 76px; left: 50%;
+      transform: translateX(-50%) translateY(14px);
+      background: #1a2438;
+      color: #fff;
+      padding: 9px 15px;
+      border-radius: 24px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      box-shadow: 0 4px 20px rgba(0,0,0,.35);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .25s, transform .25s;
+      z-index: 200;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      white-space: nowrap;
+    }
+    .ccem-toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Scrollbars */
+    * { scrollbar-width: thin; scrollbar-color: #d5dff0 transparent; }
+    *::-webkit-scrollbar { width: 3px; height: 3px; }
+    *::-webkit-scrollbar-track { background: transparent; }
+    *::-webkit-scrollbar-thumb { background: #d5dff0; border-radius: 3px; }
+
+    /* Keyframes */
+    @keyframes ccem-pulse {
+      0%, 100% { box-shadow: 0 0 0 3px rgba(34,197,94,.2); }
+      50%       { box-shadow: 0 0 0 5px rgba(34,197,94,.06); }
+    }
+    @keyframes ccem-bounce {
+      0%, 60%, 100% { transform: translateY(0); }
+      30%           { transform: translateY(-4px); }
+    }
+
+    /* Responsive — se viewport menor que device */
+    @media (max-height: 870px) {
+      .device { height: calc(100vh - 26px); border-radius: 36px; }
+    }
+    @media (max-width: 410px) {
+      .device { width: 100vw; border-radius: 0; border-left: none; border-right: none; height: 100vh; }
+      .device::before { display: none; }
+      #root { padding-top: 0; }
+    }
+  </style>
+
+  <!-- React 18 + Babel (versões fixadas) -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="stage">
+  <div class="device">
+    <div id="root"></div>
+    <div id="ccem-toast" class="ccem-toast">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+      <span></span>
+    </div>
+  </div>
+</div>
+
+<!-- Dados do programa -->
+<script src="ccem-data.js"></script>
+
+<!-- Lib: ícones, hooks, storage -->
+<script type="text/babel" src="ccem-lib.jsx"></script>
+
+<!-- Telas -->
+<script type="text/babel" src="ccem-screens.jsx"></script>
+
+<!-- App Router -->
+<script type="text/babel" data-presets="react">
+  function App() {
+    const hash = useHashRoute();
+
+    const route = useMemo(() => {
+      const parts = (hash || '#/').replace(/^#\/?/, '').split('/').filter(Boolean);
+      if (parts[0] === 'sessao'     && parts[1]) return { tela:'sessao', id:parts[1] };
+      if (parts[0] === 'assistente')             return { tela:'assistente' };
+      if (parts[0] === 'caderno')                return { tela:'caderno' };
+      if (parts[0] === 'info')                   return { tela:'info', section:parts[1]||'o-evento' };
+      return { tela:'programa' };
+    }, [hash]);
+
+    const showShell = route.tela !== 'sessao';
+
+    return (
+      <AppShell showShell={showShell} aba={route.tela}>
+        {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
+        {route.tela === 'assistente' && <AssistenteScreen/>}
+        {route.tela === 'caderno'    && <CadernoScreen/>}
+        {route.tela === 'info'       && <InfoScreen section={route.section}/>}
+        {route.tela === 'programa'   && <ProgramaScreen/>}
+      </AppShell>
+    );
+  }
+
+  ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+
+<template id="__bundler_thumbnail" data-bg-color="#1d3e8a">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#0a1232"/>
+    <rect x="430" y="80" width="340" height="640" rx="36" fill="#1d3e8a"/>
+    <rect x="430" y="80" width="340" height="640" rx="36" fill="none" stroke="#2d54c0" stroke-width="2"/>
+    <rect x="448" y="120" width="304" height="580" rx="20" fill="#f3f6fc"/>
+    <rect x="448" y="120" width="304" height="36" rx="0" fill="#1d3e8a"/>
+    <rect x="448" y="156" width="304" height="60" fill="#ffffff"/>
+    <rect x="460" y="168" width="80" height="14" rx="4" fill="#1d3e8a" opacity=".3"/>
+    <rect x="460" y="188" width="120" height="8" rx="3" fill="#d5dff0"/>
+    <rect x="448" y="216" width="304" height="4" fill="#dde8f8"/>
+    <rect x="460" y="228" width="140" height="42" rx="8" fill="#1d3e8a" opacity=".08"/>
+    <rect x="608" y="228" width="130" height="42" rx="8" fill="#1d3e8a"/>
+    <rect x="460" y="282" width="280" height="56" rx="8" fill="#fff" stroke="#d5dff0"/>
+    <rect x="460" y="348" width="280" height="56" rx="8" fill="#fff" stroke="#d5dff0"/>
+    <rect x="460" y="414" width="280" height="56" rx="8" fill="#eef6ff" stroke="#c2daf8"/>
+    <rect x="448" y="620" width="304" height="60" rx="0" fill="#fff"/>
+    <text x="600" y="730" font-family="Georgia,serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle" opacity=".9">Meu CCEM 2026</text>
+    <text x="600" y="760" font-family="monospace" font-size="16" fill="#c18c3e" text-anchor="middle" letter-spacing="2">JOINVILLE · OUT 2026</text>
+  </svg>
+</template>
+
+</body>
+</html>
