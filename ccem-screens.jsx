@@ -20,7 +20,7 @@ function sessionIsPast(s) {
 }
 
 const BACK_BTN = {width:40,height:40,display:'flex',alignItems:'center',justifyContent:'center',border:'none',background:'transparent',cursor:'pointer',borderRadius:9,flexShrink:0,padding:0};
-const PILL = {display:'inline-flex',alignItems:'center',fontFamily:'JetBrains Mono,monospace',fontWeight:600,letterSpacing:'0.05em',textTransform:'uppercase',borderRadius:20,whiteSpace:'nowrap',lineHeight:1.6};
+const PILL = {display:'inline-flex',alignItems:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontWeight:600,letterSpacing:'0.05em',textTransform:'uppercase',borderRadius:20,whiteSpace:'nowrap',lineHeight:1.6};
 
 /* ── BadgePill / TopicPill / IntervalRow ───────────────────── */
 function BadgePill({ tipo, label, sm }) {
@@ -34,8 +34,8 @@ function TopicPill({ tema }) {
 function IntervalRow({ item }) {
   return (
     <div style={{display:'flex',alignItems:'center',gap:10,padding:'6px 16px',background:'#f5f8fd',borderTop:`1px solid ${C.linhaSoft}`,borderBottom:`1px solid ${C.linhaSoft}`,margin:'2px 0'}}>
-      <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,fontWeight:600}}>{item.label}</span>
-      {item.dur&&<span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,opacity:.75,marginLeft:'auto'}}>{item.dur}</span>}
+      <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,fontWeight:600}}>{item.label}</span>
+      {item.dur&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75,marginLeft:'auto'}}>{item.dur}</span>}
     </div>
   );
 }
@@ -60,13 +60,13 @@ function SessaoCard({ id }) {
         border:`1px solid ${s.isNow?'#c2daf8':C.linhaSoft}`,
         opacity:s.tipo==='satelite'?0.75:1,
         cursor:s.navegavel?'pointer':'default',position:'relative'}}>
-      {s.isNow&&<span style={{position:'absolute',top:8,right:8,background:'#22c55e',color:'#fff',fontFamily:'JetBrains Mono,monospace',fontSize:11,letterSpacing:'0.1em',textTransform:'uppercase',padding:'2px 7px',borderRadius:10,fontWeight:700}}>Agora</span>}
+      {s.isNow&&<span style={{position:'absolute',top:8,right:8,background:'#22c55e',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,letterSpacing:'0.1em',textTransform:'uppercase',padding:'2px 7px',borderRadius:10,fontWeight:700}}>Agora</span>}
       {s.starred&&!s.isNow&&<span style={{position:'absolute',top:7,right:10,color:C.ouro,fontSize:14}}>★</span>}
       <div style={{display:'flex',gap:10,alignItems:'flex-start'}}>
         <div style={{minWidth:40,flexShrink:0,textAlign:'center',paddingTop:1}}>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:13.5,fontWeight:700,color:C.azul,lineHeight:1}}>{s.inicio}</div>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,marginTop:3,lineHeight:1.3}}>→{s.fim}</div>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,opacity:.75,marginTop:1}}>{s.dur}</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13.5,fontWeight:700,color:C.azul,lineHeight:1}}>{s.inicio}</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:3,lineHeight:1.3}}>→{s.fim}</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75,marginTop:1}}>{s.dur}</div>
         </div>
         <div style={{flex:1,minWidth:0}}>
           <div style={{display:'flex',alignItems:'center',gap:5,marginBottom:5}}>
@@ -89,7 +89,7 @@ function SessaoCard({ id }) {
           {(s.falas||[]).length>3&&<div style={{fontSize:11,color:C.cinza,marginTop:2,fontStyle:'italic'}}>+{s.falas.length-3} fala(s)…</div>}
           {s.navegavel&&(
             <div style={{display:'flex',alignItems:'center',justifyContent:'flex-end',marginTop:6,gap:5}}>
-              {isMarked&&<span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.azulSoft}}>marcada</span>}
+              {isMarked&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.azulSoft}}>marcada</span>}
               <IcoChevR size={14} color={C.cinza}/>
             </div>
           )}
@@ -113,7 +113,7 @@ function DayTimeline({ dia }) {
   const bc = t => t==='simposio'?C.azul:t==='mini'?'#0d9488':t==='satelite'?'#94a3b8':'#334155';
   return (
     <div style={{margin:'0 12px 8px',background:'#fff',borderRadius:10,padding:'9px 12px 7px',border:`1px solid ${C.linhaSoft}`}}>
-      <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,marginBottom:5}}>
+      <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,marginBottom:5}}>
         {dia===DIAS[0]?'A jornada · sexta 23/out':'A jornada · sábado 24/out'}
       </div>
       <div style={{position:'relative',height:20,background:C.cinzaClr,borderRadius:4,overflow:'visible'}}>
@@ -128,7 +128,7 @@ function DayTimeline({ dia }) {
         })}
         {nowPct>=0&&<div style={{position:'absolute',top:-3,bottom:-3,left:nowPct+'%',width:2,background:C.azulSoft,borderRadius:1,zIndex:5,boxShadow:`0 0 0 2px rgba(45,84,192,.2)`}}/>}
       </div>
-      <div style={{display:'flex',justifyContent:'space-between',marginTop:4,fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza}}>
+      <div style={{display:'flex',justifyContent:'space-between',marginTop:4,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza}}>
         {[8,10,12,14,16,18].filter(h=>h*60<=DAY_END+30).map(h=><span key={h}>{h}h</span>)}
       </div>
     </div>
@@ -175,7 +175,7 @@ function SlideUploadBtn({ sessaoId, falaIdx }) {
         <span style={{fontSize:13}}>📎</span>
         <div style={{flex:1,minWidth:0}}>
           <div style={{fontSize:11,fontWeight:600,color:C.verde,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{slides.name}</div>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,marginTop:1}}>{(slides.size/1024).toFixed(0)} KB</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:1}}>{(slides.size/1024).toFixed(0)} KB</div>
         </div>
         <a href={slides.dataUrl} download={slides.name}
           style={{fontSize:11,fontWeight:600,color:C.azul,textDecoration:'none',background:C.azulBg,padding:'4px 9px',borderRadius:6,flexShrink:0}}>↓</a>
@@ -282,7 +282,7 @@ function SessaoDetail({ id }) {
           <button onClick={()=>window.history.back()} style={BACK_BTN}><IcoArrowL size={20} color="#fff"/></button>
           <div style={{flex:1,minWidth:0}}>
             <div style={{fontSize:13,fontWeight:700,lineHeight:1.2,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{s.titulo}</div>
-            <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,opacity:.75,marginTop:1}}>{s.inicio}–{s.fim} · {s.dur}</div>
+            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,opacity:.75,marginTop:1}}>{s.inicio}–{s.fim} · {s.dur}</div>
           </div>
           <div style={{display:'flex',gap:4,flexShrink:0}}>
             <button onClick={handleShare} title="Compartilhar" style={navBtn(true)}>
@@ -308,29 +308,29 @@ function SessaoDetail({ id }) {
             onKeyDown={isPast?e=>(e.key==='Enter'||e.key===' ')&&setCtxOpen(v=>!v):undefined}>
             <BadgePill tipo={s.tipo} label={s.badge}/>
             {(s.temas||[]).map(t=><TopicPill key={t} tema={t}/>)}
-            {s.starred&&<span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.ouro,letterSpacing:'0.06em',textTransform:'uppercase',padding:'2px 7px',background:C.ouroBg,borderRadius:10}}>Destaque</span>}
-            {isPast&&<span style={{marginLeft:'auto',fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,opacity:.75}}>
+            {s.starred&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro,letterSpacing:'0.06em',textTransform:'uppercase',padding:'2px 7px',background:C.ouroBg,borderRadius:10}}>Destaque</span>}
+            {isPast&&<span style={{marginLeft:'auto',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75}}>
               {ctxOpen?'▾ recolher':'▸ contexto'}
             </span>}
           </div>
           {ctxOpen&&(
             <div style={{marginTop:9}}>
               <h2 style={{fontFamily:'Georgia,serif',fontSize:15.5,fontWeight:700,color:C.tinta,lineHeight:1.35,letterSpacing:'-0.01em',margin:'0 0 8px'}}>{s.titulo}</h2>
-              <div style={{display:'flex',gap:8,alignItems:'center',fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza}}>
+              <div style={{display:'flex',gap:8,alignItems:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza}}>
                 <span style={{color:C.azulSoft,fontWeight:700}}>{s.inicio}</span>
                 <span>→ {s.fim}</span>
                 <span style={{opacity:.75}}>· {s.dur} · {s.dia}</span>
               </div>
               {s.moderador&&(
                 <div style={{marginTop:9,padding:'6px 10px',background:C.azulBg+'60',borderRadius:7,display:'flex',gap:8,alignItems:'center'}}>
-                  <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.07em',flexShrink:0}}>Moderador</span>
+                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.07em',flexShrink:0}}>Moderador</span>
                   <span style={{fontSize:12,color:C.tinta,fontWeight:500}}>{s.moderador}</span>
                 </div>
               )}
             </div>
           )}
           {!ctxOpen&&isPast&&(
-            <div style={{display:'flex',gap:8,alignItems:'center',fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,marginTop:6}}>
+            <div style={{display:'flex',gap:8,alignItems:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:6}}>
               <span style={{color:C.azulSoft,fontWeight:700}}>{s.inicio}–{s.fim}</span>
               {s.moderador&&<span style={{opacity:.75,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>mod. {s.moderador}</span>}
             </div>
@@ -340,19 +340,19 @@ function SessaoDetail({ id }) {
         {/* Falas */}
         {s.falas&&s.falas.length>0&&(
           <div style={{background:'#fff',borderRadius:14,padding:'12px 14px',border:`1px solid ${C.linhaSoft}`,marginBottom:10,boxShadow:'0 2px 10px rgba(29,62,138,.05)'}}>
-            <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,marginBottom:10,fontWeight:600}}>Programa da sessão</div>
+            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,marginBottom:10,fontWeight:600}}>Programa da sessão</div>
             {s.falas.map((f,i)=>{
               const bio = SPEAKER_BIOS[f.palestrante];
               return (
                 <div key={i} style={{display:'flex',gap:10,padding:'8px 0',borderBottom:i<s.falas.length-1?`1px solid ${C.linhaSoft}`:'none'}}>
-                  <div style={{width:22,height:22,borderRadius:7,background:bc+'1a',color:bc,display:'flex',alignItems:'center',justifyContent:'center',fontFamily:'JetBrains Mono,monospace',fontSize:11,fontWeight:700,flexShrink:0,marginTop:1}}>{f.n==='·'?'·':f.n}</div>
+                  <div style={{width:22,height:22,borderRadius:7,background:bc+'1a',color:bc,display:'flex',alignItems:'center',justifyContent:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,fontWeight:700,flexShrink:0,marginTop:1}}>{f.n==='·'?'·':f.n}</div>
                   <div style={{flex:1,minWidth:0}}>
                     {f.titulo&&<div style={{fontSize:12.5,fontWeight:600,color:C.tinta,lineHeight:1.3,marginBottom:2}}>{f.titulo}</div>}
                     <div style={{fontSize:12,color:f.isMe?C.ouro:C.tinta,fontWeight:f.isMe?600:500}}>
                       {f.palestrante}{f.isMe&&' ★'}{f.aConfirmar&&<em style={{color:C.cinza,fontWeight:400}}> (a confirmar)</em>}
                     </div>
                     {bio&&<div style={{fontSize:11,color:C.cinza,marginTop:1}}>{bio.role}</div>}
-                    {(f.label||f.isMe)&&<div style={{marginTop:3,display:'inline-block',background:C.ouroBg,color:C.ouro,fontFamily:'JetBrains Mono,monospace',fontSize:11,letterSpacing:'0.08em',textTransform:'uppercase',padding:'2px 7px',borderRadius:8}}>{f.label||'sua fala'}</div>}
+                    {(f.label||f.isMe)&&<div style={{marginTop:3,display:'inline-block',background:C.ouroBg,color:C.ouro,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,letterSpacing:'0.08em',textTransform:'uppercase',padding:'2px 7px',borderRadius:8}}>{f.label||'sua fala'}</div>}
                     <SlideDisplay sessaoId={id} falaIdx={i}/>
                   </div>
                 </div>
@@ -378,7 +378,7 @@ function SessaoDetail({ id }) {
           </div>
           <div style={{textAlign:'left',flex:1}}>
             <div style={{fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:600,color:C.azul}}>Perguntar ao Assistente</div>
-            <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,marginTop:1}}>contextualizado nesta sessão</div>
+            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:1}}>contextualizado nesta sessão</div>
           </div>
           <IcoChevR size={15} color={C.cinza}/>
         </button>
@@ -387,13 +387,13 @@ function SessaoDetail({ id }) {
         <div style={{display:'flex',gap:8}}>
           {prevId&&SESSOES[prevId]&&(
             <button onClick={()=>go('#/sessao/'+prevId)} style={{flex:1,background:'#fff',border:`1px solid ${C.linha}`,borderRadius:10,padding:'9px 12px',textAlign:'left',cursor:'pointer',minWidth:0}}>
-              <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:3}}>← Anterior</div>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:3}}>← Anterior</div>
               <div style={{fontSize:11,fontWeight:500,color:C.tinta,lineHeight:1.3,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{SESSOES[prevId].titulo}</div>
             </button>
           )}
           {nextId&&SESSOES[nextId]&&(
             <button onClick={()=>go('#/sessao/'+nextId)} style={{flex:1,background:'#fff',border:`1px solid ${C.linha}`,borderRadius:10,padding:'9px 12px',textAlign:'right',cursor:'pointer',minWidth:0}}>
-              <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:3}}>Próxima →</div>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:3}}>Próxima →</div>
               <div style={{fontSize:11,fontWeight:500,color:C.tinta,lineHeight:1.3,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{SESSOES[nextId].titulo}</div>
             </button>
           )}
@@ -450,15 +450,15 @@ function ProgramaScreen() {
         <div style={{display:'flex',background:'#f0f4fc',borderRadius:10,padding:3,gap:2,flex:1}}>
           {DIAS.map(d=>(
             <button key={d} onClick={()=>setDia(d)} style={{flex:1,padding:'6px 0',border:'none',borderRadius:8,fontFamily:'DM Sans,sans-serif',fontWeight:700,cursor:'pointer',background:dia===d?C.azul:'transparent',color:dia===d?'#fff':C.cinza,transition:'all .15s'}}>
-              <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:16,lineHeight:1,display:'block'}}>{d.includes('23')?'23':'24'}</span>
+              <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:16,lineHeight:1,display:'block'}}>{d.includes('23')?'23':'24'}</span>
               <span style={{fontSize:11,letterSpacing:'0.08em',textTransform:'uppercase'}}>{d.includes('sex')?'SEX':'SÁB'}</span>
             </button>
           ))}
         </div>
         <div style={{display:'flex',gap:6,flexShrink:0,alignItems:'center'}}>
           <div style={{textAlign:'right'}}>
-            <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.05em'}}>{totalSessoes} sessões</div>
-            {markedCount>0&&<div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.azulSoft,marginTop:1}}>{markedCount} marcadas</div>}
+            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.05em'}}>{totalSessoes} sessões</div>
+            {markedCount>0&&<div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.azulSoft,marginTop:1}}>{markedCount} marcadas</div>}
           </div>
           <button onClick={()=>setFilterOpen(true)} style={{position:'relative',width:36,height:36,display:'flex',alignItems:'center',justifyContent:'center',background:'#fff',border:`1px solid ${hasFilter?C.azul:C.linha}`,borderRadius:10,cursor:'pointer',flexShrink:0,color:hasFilter?C.azul:C.cinza}}>
             <IcoFilter size={16} color={hasFilter?C.azul:C.cinza}/>
@@ -498,7 +498,7 @@ function ProgramaScreen() {
             <button onClick={()=>{setBusca('');setFiltroTipo(null);setSoMarcados(false);}} style={{border:`1px solid ${C.linha}`,background:'#fff',color:C.azul,padding:'7px 16px',borderRadius:8,cursor:'pointer',fontFamily:'inherit',fontSize:12}}>Limpar filtros</button>
           </div>
         ):items.map((item,i)=>item.tipo==='intervalo'?<IntervalRow key={i} item={item}/>:<SessaoCard key={item.id} id={item.id}/>)}
-        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textAlign:'center',letterSpacing:'0.04em',opacity:.75}}>★ destaque editorial · toque para abrir a sessão</div>}
+        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textAlign:'center',letterSpacing:'0.04em',opacity:.75}}>★ destaque editorial · toque para abrir a sessão</div>}
       </div>
 
       {/* Filter bottom-sheet */}
@@ -508,11 +508,11 @@ function ProgramaScreen() {
           <div style={{background:'#fff',borderRadius:'18px 18px 0 0',padding:'20px 18px 36px',maxWidth:440,width:'100%',margin:'0 auto',boxShadow:'0 -4px 32px rgba(10,18,50,.18)'}}
             onClick={e=>e.stopPropagation()}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:18}}>
-              <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,fontWeight:600}}>Filtrar sessões</span>
+              <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,fontWeight:600}}>Filtrar sessões</span>
               <button onClick={()=>setFilterOpen(false)} style={{background:'none',border:'none',fontSize:22,color:C.cinza,cursor:'pointer',lineHeight:1,padding:'0 4px'}}>×</button>
             </div>
             <div style={{marginBottom:16}}>
-              <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9}}>Tipo de sessão</div>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9}}>Tipo de sessão</div>
               <div style={{display:'flex',gap:7,flexWrap:'wrap'}}>
                 {[['simposio','Simpósio'],['mini','Mini-Conferência'],['satelite','Satélite']].map(([t,lbl])=>(
                   <button key={t} onClick={()=>setFiltroTipo(filtroTipo===t?null:t)} style={chipSt(filtroTipo===t,C.azul)}>{lbl}</button>
@@ -580,12 +580,12 @@ function TrabalhosScreen() {
           <button onClick={()=>setSelected(null)} style={{background:'none',border:'none',cursor:'pointer',color:C.azul,display:'flex',alignItems:'center',gap:4,fontFamily:'DM Sans,sans-serif',fontSize:12,padding:0}}>
             <IcoArrowL size={16} color={C.azul}/> Voltar
           </button>
-          <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,marginLeft:'auto'}}>{w.id}</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginLeft:'auto'}}>{w.id}</span>
         </div>
         <div style={{flex:1,overflowY:'auto',padding:'14px 14px 28px'}}>
           <div style={{display:'flex',gap:6,marginBottom:8,flexWrap:'wrap'}}>
-            <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,background:C.cinzaClr,padding:'2px 8px',borderRadius:10,textTransform:'uppercase',letterSpacing:'0.06em'}}>{WORK_CATS.find(c=>c.id===w.cat)?.label||w.cat}</span>
-            <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.ouro,textTransform:'uppercase',letterSpacing:'0.06em'}}>{w.type}</span>
+            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,background:C.cinzaClr,padding:'2px 8px',borderRadius:10,textTransform:'uppercase',letterSpacing:'0.06em'}}>{WORK_CATS.find(c=>c.id===w.cat)?.label||w.cat}</span>
+            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro,textTransform:'uppercase',letterSpacing:'0.06em'}}>{w.type}</span>
           </div>
           <h2 style={{fontFamily:'Georgia,serif',fontSize:16,fontWeight:600,color:C.tinta,lineHeight:1.3,margin:'0 0 8px'}}>{w.title}</h2>
           <div style={{padding:'10px 12px',background:C.ouroBg+'60',borderLeft:`3px solid ${C.ouro}`,borderRadius:'0 6px 6px 0',fontSize:13,fontStyle:'italic',color:C.tinta,lineHeight:1.5,marginBottom:12}}>"{w.message}"</div>
@@ -596,7 +596,7 @@ function TrabalhosScreen() {
                 <svg width='13' height='13' viewBox='0 0 24 24' fill='white'><path d='M8 5v14l11-7z'/></svg>
               </div>
               <div>
-                <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em'}}>Áudio do autor</div>
+                <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em'}}>Áudio do autor</div>
                 <div style={{fontSize:13,fontWeight:500,color:C.tinta,marginTop:1}}>Demo · clique para ouvir</div>
               </div>
             </div>
@@ -619,12 +619,12 @@ function TrabalhosScreen() {
       <div style={{padding:'12px 14px 6px',background:'#fff',borderBottom:`1px solid ${C.linha}`,flexShrink:0}}>
         <div style={{display:'flex',alignItems:'baseline',justifyContent:'space-between',gap:8}}>
           <h2 style={{fontFamily:'Georgia,serif',fontSize:17,fontWeight:700,color:C.tinta,margin:0}}>Trabalhos</h2>
-          <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.05em'}}>{filtered.length} de {WORKS.length}</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.05em'}}>{filtered.length} de {WORKS.length}</span>
         </div>
         <div style={{display:'flex',padding:'8px 0 2px',gap:5,overflowX:'auto',scrollbarWidth:'none'}}>
           {WORK_CATS.map(c=>{
             const n=c.id==='all'?WORKS.length:(counts[c.id]||0); if(c.id!=='all'&&n===0) return null;
-            return <button key={c.id} onClick={()=>setCat(c.id)} style={{flexShrink:0,border:`1px solid ${cat===c.id?C.azul:C.linha}`,background:cat===c.id?C.azul:'#fff',color:cat===c.id?'#fff':C.cinza,borderRadius:16,padding:'4px 11px',fontSize:11.5,fontFamily:'inherit',cursor:'pointer',whiteSpace:'nowrap'}}>{c.label} <span style={{opacity:.65,fontFamily:'JetBrains Mono,monospace',fontSize:11}}>{n}</span></button>;
+            return <button key={c.id} onClick={()=>setCat(c.id)} style={{flexShrink:0,border:`1px solid ${cat===c.id?C.azul:C.linha}`,background:cat===c.id?C.azul:'#fff',color:cat===c.id?'#fff':C.cinza,borderRadius:16,padding:'4px 11px',fontSize:11.5,fontFamily:'inherit',cursor:'pointer',whiteSpace:'nowrap'}}>{c.label} <span style={{opacity:.65,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11}}>{n}</span></button>;
           })}
         </div>
       </div>
@@ -640,12 +640,12 @@ function TrabalhosScreen() {
             style={{background:'#fff',borderRadius:10,padding:'11px 12px',marginBottom:7,border:`1px solid ${C.linhaSoft}`,cursor:'pointer',transition:'transform .12s'}}
             onMouseOver={e=>e.currentTarget.style.transform='translateY(-1px)'} onMouseOut={e=>e.currentTarget.style.transform=''}>
             <div style={{display:'flex',gap:6,marginBottom:5,alignItems:'center'}}>
-              <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,background:C.cinzaClr,padding:'2px 7px',borderRadius:8,textTransform:'uppercase',letterSpacing:'0.06em'}}>{w.type}</span>
-              <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,marginLeft:'auto'}}>{w.id}</span>
+              <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,background:C.cinzaClr,padding:'2px 7px',borderRadius:8,textTransform:'uppercase',letterSpacing:'0.06em'}}>{w.type}</span>
+              <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginLeft:'auto'}}>{w.id}</span>
             </div>
             <div style={{fontSize:13,fontWeight:600,color:C.tinta,lineHeight:1.3,marginBottom:4}}>{w.title}</div>
             <div style={{fontSize:11.5,color:C.cinza,fontStyle:'italic',lineHeight:1.4,marginBottom:6,paddingLeft:8,borderLeft:`2px solid ${C.ouro}`}}>{w.message}</div>
-            <div style={{display:'flex',gap:8,fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,alignItems:'center'}}>
+            <div style={{display:'flex',gap:8,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,alignItems:'center'}}>
               {w.audio&&<span style={{color:C.verde}}>▶ áudio</span>}
               <span>★ {w.votes}</span>
               <span>{w.qa} perg.</span>
@@ -818,16 +818,16 @@ function AssistenteScreen() {
               <span style={{fontSize:24,flexShrink:0,lineHeight:1.1,marginTop:1}}>{f.ico}</span>
               <div style={{flex:1,minWidth:0}}>
                 <div style={{display:'flex',alignItems:'center',gap:6,marginBottom:3}}>
-                  <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>{f.ord}</span>
+                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>{f.ord}</span>
                   <span style={{fontSize:13,fontWeight:700,color:C.tinta}}>{f.title}</span>
                 </div>
                 <div style={{fontSize:11.5,color:C.cinza,lineHeight:1.45,marginBottom:7}}>{f.desc}</div>
-                <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.azulSoft,background:C.azulBg,padding:'2px 9px',borderRadius:8}}>ex: "{f.prompt}"</span>
+                <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.azulSoft,background:C.azulBg,padding:'2px 9px',borderRadius:8}}>ex: "{f.prompt}"</span>
               </div>
               <IcoChevR size={14} color={C.cinza} style={{flexShrink:0,marginTop:4}}/>
             </div>
           ))}
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,marginTop:8,padding:'8px 12px',background:'#f0f4fc',borderRadius:8,lineHeight:1.65}}>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:8,padding:'8px 12px',background:'#f0f4fc',borderRadius:8,lineHeight:1.65}}>
             Não forneço orientação clínica para casos de pacientes reais.
           </div>
         </div>
@@ -836,7 +836,7 @@ function AssistenteScreen() {
           {msgs.map((m,i)=>(
             <div key={i} style={{display:'flex',flexDirection:'column',alignItems:m.role==='ai'?'flex-start':'flex-end',marginBottom:10}}>
               <div style={msgStyle(m.role)}>
-                {m.role==='ai'&&m.tag&&<div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.azulSoft,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:6}}>{m.tag}</div>}
+                {m.role==='ai'&&m.tag&&<div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.azulSoft,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:6}}>{m.tag}</div>}
                 <div dangerouslySetInnerHTML={{__html:m.html}}/>
                 {m.role==='ai'&&m.ref&&<div style={{marginTop:7,paddingTop:7,borderTop:`1px solid ${C.linhaSoft}`,fontSize:11,color:C.cinza}} dangerouslySetInnerHTML={{__html:m.ref}}/>}
                 {m.role==='ai'&&m.actions&&(
@@ -845,7 +845,7 @@ function AssistenteScreen() {
                   </div>
                 )}
               </div>
-              <div style={{fontSize:11,color:C.cinza,marginTop:3,fontFamily:'JetBrains Mono,monospace'}}>{new Date(m.ts).getHours()}:{String(new Date(m.ts).getMinutes()).padStart(2,'0')}</div>
+              <div style={{fontSize:11,color:C.cinza,marginTop:3,fontFamily:'DM Sans,system-ui,sans-serif'}}>{new Date(m.ts).getHours()}:{String(new Date(m.ts).getMinutes()).padStart(2,'0')}</div>
             </div>
           ))}
           {loading&&<div style={{display:'flex',gap:4,padding:'8px 12px',background:'#fff',borderRadius:'14px 14px 14px 4px',width:60,border:`1px solid ${C.linhaSoft}`,marginBottom:10}}>{[0,1,2].map(i=><span key={i} style={{width:7,height:7,borderRadius:'50%',background:C.cinza,display:'inline-block',animation:`ccem-bounce .9s ${i*.2}s ease-in-out infinite`}}/>)}</div>}
@@ -894,19 +894,19 @@ function CadernoScreen() {
     return (
       <div style={{background:'#fff',borderRadius:10,padding:'10px 12px',marginBottom:6,border:`1px solid ${C.linhaSoft}`,borderLeft:`3px solid ${typeColor(c.type)}`}}>
         <div style={{display:'flex',alignItems:'center',gap:6,marginBottom:5}}>
-          <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:typeColor(c.type),textTransform:'uppercase',letterSpacing:'0.07em',fontWeight:600}}>{c.type}</span>
-          <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,flex:1,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{c.sessaoRef} · {c.time}</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:typeColor(c.type),textTransform:'uppercase',letterSpacing:'0.07em',fontWeight:600}}>{c.type}</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,flex:1,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{c.sessaoRef} · {c.time}</span>
         </div>
         <div style={{fontSize:12.5,fontWeight:600,color:C.tinta,marginBottom:4,lineHeight:1.3}}>{c.title}</div>
         <div style={{fontSize:11.5,color:C.cinza,lineHeight:1.5}} dangerouslySetInnerHTML={{__html:c.body}}/>
-        {(c.tags||[]).length>0&&<div style={{display:'flex',gap:4,marginTop:6,flexWrap:'wrap'}}>{c.tags.map(t=><span key={t} style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.azulSoft,background:C.azulBg+'60',padding:'2px 7px',borderRadius:8}}>{t}</span>)}</div>}
+        {(c.tags||[]).length>0&&<div style={{display:'flex',gap:4,marginTop:6,flexWrap:'wrap'}}>{c.tags.map(t=><span key={t} style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.azulSoft,background:C.azulBg+'60',padding:'2px 7px',borderRadius:8}}>{t}</span>)}</div>}
       </div>
     );
   }
 
   const fchip=(key,lbl)=>(
     <button key={key} onClick={()=>setFiltro(key)} style={{display:'flex',alignItems:'center',gap:4,padding:'5px 12px',border:`1px solid ${filtro===key?C.azul:C.linha}`,borderRadius:20,background:filtro===key?C.azul:'#fff',color:filtro===key?'#fff':C.cinza,fontSize:11.5,fontWeight:filtro===key?600:400,cursor:'pointer',fontFamily:'inherit',flexShrink:0}}>
-      {lbl}<span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,opacity:.7,marginLeft:2}}>{counts[key]}</span>
+      {lbl}<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,opacity:.7,marginLeft:2}}>{counts[key]}</span>
     </button>
   );
 
@@ -918,8 +918,8 @@ function CadernoScreen() {
         <div style={{display:'flex',gap:8}}>
           {[['Notas',captures.length,C.azulBg,C.azul],['Sessões',sessoes,C.verdeBg,C.verde],['Refs',refs,C.ouroBg,C.ouro]].map(([lbl,num,bg,color])=>(
             <div key={lbl} style={{flex:1,background:bg,borderRadius:10,padding:'7px 10px',textAlign:'center'}}>
-              <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:20,fontWeight:700,color,lineHeight:1}}>{num}</div>
-              <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color,textTransform:'uppercase',letterSpacing:'0.06em',marginTop:2,opacity:.8}}>{lbl}</div>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:20,fontWeight:700,color,lineHeight:1}}>{num}</div>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color,textTransform:'uppercase',letterSpacing:'0.06em',marginTop:2,opacity:.8}}>{lbl}</div>
             </div>
           ))}
         </div>
@@ -936,8 +936,8 @@ function CadernoScreen() {
           </div>
         ):(
           <>
-            {bySex.length>0&&<><div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',margin:'2px 0 8px',fontWeight:600}}>Sexta · 23 outubro</div>{bySex.map(c=><NoteCard key={c.id} c={c}/>)}</>}
-            {bySab.length>0&&<><div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',margin:'12px 0 8px',fontWeight:600}}>Sábado · 24 outubro</div>{bySab.map(c=><NoteCard key={c.id} c={c}/>)}</>}
+            {bySex.length>0&&<><div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',margin:'2px 0 8px',fontWeight:600}}>Sexta · 23 outubro</div>{bySex.map(c=><NoteCard key={c.id} c={c}/>)}</>}
+            {bySab.length>0&&<><div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',margin:'12px 0 8px',fontWeight:600}}>Sábado · 24 outubro</div>{bySab.map(c=><NoteCard key={c.id} c={c}/>)}</>}
             {bsOrph.length>0&&bsOrph.map(c=><NoteCard key={c.id} c={c}/>)}
           </>
         )}
@@ -956,10 +956,10 @@ function CadernoScreen() {
 function InfoScreen() {
   const IC = ({children,style})=><div style={{background:'#fff',borderRadius:12,padding:'13px 14px',margin:'10px 14px 0',border:`1px solid ${C.linhaSoft}`,boxShadow:'0 1px 5px rgba(29,62,138,.04)',...(style||{})}}>{children}</div>;
   const H3 = ({children})=><h3 style={{fontFamily:'Georgia,serif',fontSize:13.5,fontWeight:600,color:C.tinta,margin:'0 0 8px',letterSpacing:'-0.005em'}}>{children}</h3>;
-  const Row = ({lbl,val})=><div style={{display:'flex',gap:8,fontSize:12.5,color:C.cinza,padding:'6px 0',borderBottom:`1px solid ${C.linhaSoft}`}}><div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',width:72,flexShrink:0,lineHeight:1.6}}>{lbl}</div><div style={{flex:1,color:C.tinta}}>{val}</div></div>;
+  const Row = ({lbl,val})=><div style={{display:'flex',gap:8,fontSize:12.5,color:C.cinza,padding:'6px 0',borderBottom:`1px solid ${C.linhaSoft}`}}><div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',width:72,flexShrink:0,lineHeight:1.6}}>{lbl}</div><div style={{flex:1,color:C.tinta}}>{val}</div></div>;
   const CR = ({icon,lbl,val,href})=><div style={{display:'flex',alignItems:'center',gap:11,padding:'9px 0',borderBottom:`1px solid ${C.linhaSoft}`}}>
     <div style={{width:34,height:34,borderRadius:9,background:C.azulBg,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0,color:C.azul}}>{icon}</div>
-    <div><div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.07em',marginBottom:2}}>{lbl}</div>
+    <div><div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.07em',marginBottom:2}}>{lbl}</div>
       <div style={{fontSize:13,fontWeight:500,color:C.tinta}}>{href?<a href={href} target="_blank" rel="noopener" style={{color:C.azul,textDecoration:'none'}}>{val}</a>:val}</div>
     </div>
   </div>;
@@ -970,10 +970,10 @@ function InfoScreen() {
 
         {/* Identidade */}
         <div style={{background:C.azul,color:'#fff',padding:'20px 16px 18px'}}>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,letterSpacing:'0.12em',textTransform:'uppercase',opacity:.75,marginBottom:4}}>SBEM-SC · Sociedade Brasileira de Endocrinologia e Metabologia</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,letterSpacing:'0.12em',textTransform:'uppercase',opacity:.75,marginBottom:4}}>SBEM-SC · Sociedade Brasileira de Endocrinologia e Metabologia</div>
           <h2 style={{fontFamily:'Georgia,serif',fontSize:21,fontWeight:600,margin:'0 0 3px',lineHeight:1.2,letterSpacing:'-0.01em'}}>12º CCEM 2026</h2>
           <p style={{fontSize:12,opacity:.8,lineHeight:1.4,margin:'0 0 10px'}}>Congresso Catarinense de Endocrinologia e Metabologia</p>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,background:'rgba(255,255,255,.12)',padding:'7px 10px',borderRadius:6,letterSpacing:'0.02em',lineHeight:1.7}}>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,background:'rgba(255,255,255,.12)',padding:'7px 10px',borderRadius:6,letterSpacing:'0.02em',lineHeight:1.7}}>
             Expoville · Rua XV de Novembro, 4315 · Joinville/SC<br/>
             23 e 24 de Outubro de 2026
           </div>
@@ -988,7 +988,7 @@ function InfoScreen() {
           <Row lbl="Secretaria" val="Sex 23/10 · 07h30–18h30 · Sáb 24/10 · 07h30–18h"/>
           <Row lbl="Abertura" val="Sexta, 23/10 · 08h00"/>
           <div style={{display:'flex',gap:8,fontSize:12.5,color:C.cinza,padding:'6px 0'}}>
-            <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',width:72,flexShrink:0,lineHeight:1.6}}>Cert.</div>
+            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',width:72,flexShrink:0,lineHeight:1.6}}>Cert.</div>
             <div style={{flex:1,color:C.tinta}}>Disponíveis a partir de <strong>05/11/2026</strong> via CPF — apenas para inscritos presentes.</div>
           </div>
         </IC>
@@ -1002,7 +1002,7 @@ function InfoScreen() {
           <div style={{display:'flex',alignItems:'center',gap:11,padding:'9px 0'}}>
             <div style={{width:34,height:34,borderRadius:9,background:C.azulBg,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0,color:C.azul}}><IcoGlobe size={17}/></div>
             <div>
-              <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.07em',marginBottom:2}}>Site oficial</div>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.07em',marginBottom:2}}>Site oficial</div>
               <a href="https://www.ccem2026.com.br" target="_blank" rel="noopener" style={{fontSize:13,fontWeight:600,color:C.azul,textDecoration:'none'}}>ccem2026.com.br ↗</a>
             </div>
           </div>
@@ -1018,8 +1018,8 @@ function InfoScreen() {
             Dados armazenados localmente neste dispositivo. Nenhum dado pessoal é coletado ou transmitido.
           </p>
           <div style={{display:'flex',alignItems:'center',gap:8,padding:'7px 0',borderTop:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
-            <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',flexShrink:0}}>ID local</span>
-            <code style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.tinta,background:'#f0f4fc',padding:'2px 7px',borderRadius:5,flex:1,overflow:'hidden',textOverflow:'ellipsis'}}>{window.CCEM_USER_ID||'—'}</code>
+            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',flexShrink:0}}>ID local</span>
+            <code style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.tinta,background:'#f0f4fc',padding:'2px 7px',borderRadius:5,flex:1,overflow:'hidden',textOverflow:'ellipsis'}}>{window.CCEM_USER_ID||'—'}</code>
           </div>
           <button onClick={()=>{if(confirm('Limpar todos os dados deste dispositivo?')){localStorage.removeItem(window.CCEM_STATE_KEY);localStorage.removeItem('ccem2026:userId');location.reload();}}}
             style={{width:'100%',border:'1px solid #e53e3e',background:'#fff',color:'#e53e3e',borderRadius:8,padding:'8px',fontSize:12.5,fontWeight:500,cursor:'pointer',fontFamily:'inherit'}}>
@@ -1028,7 +1028,7 @@ function InfoScreen() {
         </IC>
 
         {/* Rodapé */}
-        <div style={{textAlign:'center',padding:'18px 16px 4px',fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,lineHeight:1.9}}>
+        <div style={{textAlign:'center',padding:'18px 16px 4px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,lineHeight:1.9}}>
           <div>Meu CCEM 2026 · v4.0</div>
           <div>versão em desenvolvimento · restrito à comissão</div>
           <div style={{marginTop:6}}>
@@ -1060,9 +1060,9 @@ function LiveStrip(){
   return (
     <div style={{display:'flex',alignItems:'center',gap:7,margin:'8px 0 0',padding:'5px 8px',background:bg[st.kind]||'#f5f7fb',borderRadius:7,border:`1px solid ${C.linhaSoft}`}}>
       <span style={{width:6,height:6,borderRadius:'50%',background:dotColors[st.kind],flexShrink:0,boxShadow:st.kind==='live'?'0 0 0 3px rgba(34,197,94,.2)':'none'}}/>
-      <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:st.kind==='live'?C.azulSoft:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',fontWeight:700,flexShrink:0}}>{st.tag}</span>
+      <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:st.kind==='live'?C.azulSoft:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',fontWeight:700,flexShrink:0}}>{st.tag}</span>
       <span style={{fontSize:11.5,color:C.tinta,fontWeight:500,flex:1,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{st.text}</span>
-      <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,flexShrink:0}}>{st.time}</span>
+      <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,flexShrink:0}}>{st.time}</span>
     </div>
   );
 }
@@ -1078,12 +1078,12 @@ function AppHeader(){
             onError={e=>{e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex';}}/>
           <div onClick={()=>go('#/')} style={{display:'none',alignItems:'baseline',gap:4,cursor:'pointer'}}>
             <span style={{fontFamily:'Georgia,serif',fontWeight:700,fontSize:17,color:C.azul,letterSpacing:'-0.02em'}}>CCEM</span>
-            <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
+            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
           </div>
         </div>
         <div style={{textAlign:'right',flexShrink:0}}>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,letterSpacing:'0.05em',textTransform:'uppercase'}}>23–24 OUT · Joinville/SC</div>
-          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.ouro,letterSpacing:'0.04em',marginTop:1}}>Expoville</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,letterSpacing:'0.05em',textTransform:'uppercase'}}>23–24 OUT · Joinville/SC</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro,letterSpacing:'0.04em',marginTop:1}}>Expoville</div>
         </div>
       </div>
       <LiveStrip/>
@@ -1142,9 +1142,9 @@ function DesktopSidebar({ aba }) {
       <div style={{padding:'22px 18px 14px',borderBottom:`1px solid ${C.linhaSoft}`}}>
         <button onClick={()=>go('#/')} style={{display:'flex',alignItems:'baseline',gap:6,marginBottom:5,background:'none',border:'none',cursor:'pointer',padding:0,textDecoration:'none'}}>
           <span style={{fontFamily:'Georgia,serif',fontWeight:700,fontSize:22,color:C.azul,letterSpacing:'-0.02em'}}>CCEM</span>
-          <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:12,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
         </button>
-        <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,letterSpacing:'0.04em',opacity:.75,marginTop:2}}>23–24 out · Joinville/SC</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,letterSpacing:'0.04em',opacity:.75,marginTop:2}}>23–24 out · Joinville/SC</div>
         <div style={{marginTop:10}}><LiveStrip/></div>
       </div>
       <nav style={{flex:1,padding:'10px 8px',overflowY:'auto'}}>
@@ -1161,7 +1161,7 @@ function DesktopSidebar({ aba }) {
         })}
       </nav>
       <div style={{padding:'12px 16px',borderTop:`1px solid ${C.linhaSoft}`}}>
-        <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:11,color:C.cinza,opacity:.75,lineHeight:1.7}}>v4.0 · Meu CCEM<br/>versão em desenvolvimento · restrito à comissão</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75,lineHeight:1.7}}>v4.0 · Meu CCEM<br/>versão em desenvolvimento · restrito à comissão</div>
       </div>
     </div>
   );
