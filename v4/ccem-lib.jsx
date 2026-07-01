@@ -82,38 +82,25 @@ function ccemGetUserId() {
 const CCEM_USER_ID  = ccemGetUserId();
 const CCEM_STATE_KEY = CCEM_STATE_PFIX + CCEM_USER_ID;
 
+// ── PENDÊNCIAS DE PRODUÇÃO (para outubro — não implementar agora) ──────────
+// [ ] BUILD: substituir Babel standalone (~3 MB) por build esbuild/Vite.
+//     No wifi saturado do Expoville, o bundle atual desacelera o primeiro load.
+// [ ] SERVICE WORKER + MANIFEST: cache do shell/grade para funcionamento
+//     offline e instalável (PWA). App de congresso precisa abrir sem rede.
+// [ ] ASSETS LOCAIS: hospedar React, Babel e fontes localmente — hoje
+//     dependem de unpkg/Google Fonts; CDN fora durante o evento = app fora.
+// ───────────────────────────────────────────────────────────────────────────
+
 function ccemSeedState() {
+  // Estado inicial limpo — sem dados de demonstração (P1 · jul/2026)
+  // Nomes reais de palestrantes permanecem em ccem-data.js (programa oficial).
+  // Corrigido: seed anterior populava o Caderno com notas atribuídas a
+  // palestrantes reais — eticamente sensível antes de abertura a inscritos.
   return {
-    version: 4, createdAt: Date.now(),
-    marks:    { 'simp1-dm2':true, 'simp3-cdt':true, 'simp5-modismos':true, 'mini-ia':true },
-    captures: [
-      { id:'c1', dia:DIAS[0], time:'9:42', sessaoId:'simp1-dm2',
-        sessaoRef:'Simpósio 1 · Dra. Luciana Pechmann', type:'foto',
-        title:'Triagonistas (retatrutida) — perda de peso > 24%',
-        body:'Próximo passo após GLP-1/GIP. <strong>Ref:</strong> Jastreboff AM et al., <em class="cite">NEJM 2023;389:514</em>. <em>Sem horizonte SUS.</em>',
-        tags:['DM2','incretinas'], ts: Date.now()-86400000*1.2 },
-      { id:'c2', dia:DIAS[0], time:'13:50', sessaoId:'simp3-cdt',
-        sessaoRef:'Simpósio 3 · Dra. Marta Duval', type:'audio',
-        title:'Categorias dinâmicas de resposta no CDT',
-        body:'<strong>Take-home:</strong> excelente, indeterminada, bioquímica incompleta, estrutural — reavaliáveis no seguimento.',
-        tags:['Tireoide','ATA'], ts: Date.now()-86400000*1.0 },
-      { id:'c3', dia:DIAS[0], time:'17:35', sessaoId:'simp5-modismos',
-        sessaoRef:'Simpósio 5 · Dr. Itairan Terres ★', type:'texto',
-        title:'"Centenas de exames e zero hipótese"',
-        body:'<em>"o exame confirma ou refuta — não substitui a hipótese."</em>',
-        tags:['sua-fala'], ts: Date.now()-86400000*0.9 },
-      { id:'c4', dia:DIAS[1], time:'8:30', sessaoId:'simp6-gonadas',
-        sessaoRef:'Simpósio 6 · Dr. Alexandre Hohl', type:'foto',
-        title:'Nova diretriz hipogonadismo — cutoff por idade',
-        body:'Duas dosagens matinais alteradas para iniciar tratamento.',
-        tags:['Gônadas'], ts: Date.now()-86400000*0.5 },
-      { id:'c5', dia:DIAS[1], time:'17:05', sessaoId:'mini-ia',
-        sessaoRef:'Mini · Dra. Milena Gurgel ★', type:'texto',
-        title:'IA no consultório — o que vale',
-        body:'<strong>Útil:</strong> resumo, pedidos. <strong>Não substitui:</strong> hipótese, decisão, vínculo.',
-        tags:['IA'], ts: Date.now()-86400000*0.1 },
-    ],
-    chat: [],
+    version: 5, createdAt: Date.now(),
+    marks:    {},
+    captures: [],
+    chat:     [],
   };
 }
 
@@ -122,17 +109,9 @@ function ccemLoadState() {
     const raw = localStorage.getItem(CCEM_STATE_KEY);
     if (!raw) return ccemSeedState();
     const parsed = JSON.parse(raw);
-    if (!parsed.version || parsed.version < 4) {
-      if (Array.isArray(parsed.captures)) {
-        parsed.captures = parsed.captures.map(c => {
-          if (!c.dia) {
-            const d = c.day || '';
-            c.dia = d === 'sexta' ? DIAS[0] : d === 'sabado' ? DIAS[1] : DIAS[0];
-          }
-          return c;
-        });
-      }
-      parsed.version = 4;
+    // Versão < 5: reiniciar limpo (remove seed com dados de demonstração)
+    if (!parsed.version || parsed.version < 5) {
+      return ccemSeedState();
     }
     return parsed;
   } catch(e) { return ccemSeedState(); }
