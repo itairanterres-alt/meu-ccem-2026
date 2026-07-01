@@ -11,8 +11,6 @@
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="Meu CCEM 2026"/>
   <meta property="og:description" content="App do 12º Congresso Catarinense de Endocrinologia e Metabologia · 23–24 out · Joinville/SC"/>
-  <meta property="og:image" content="https://www.ccem2026.com.br/images/logo_2x.png"/>
-  <meta name="twitter:card" content="summary_large_image"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
@@ -21,7 +19,6 @@
     html, body { width: 100%; height: 100%; font-family: 'DM Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
     body { background: #f3f6fc; overscroll-behavior: none; }
 
-    /* Stage — mobile: full-screen. Desktop: coluna central */
     .stage {
       min-height: 100%;
       display: flex;
@@ -30,7 +27,6 @@
       background: #f3f6fc;
     }
 
-    /* Device — coluna central do app */
     .device {
       width: 100%;
       max-width: 440px;
@@ -42,7 +38,6 @@
       position: relative;
     }
 
-    /* React root */
     #root {
       flex: 1;
       display: flex;
@@ -85,39 +80,33 @@
     *::-webkit-scrollbar-track { background: transparent; }
     *::-webkit-scrollbar-thumb { background: #d5dff0; border-radius: 3px; }
 
-    /* Keyframes */
     @keyframes ccem-bounce {
       0%, 60%, 100% { transform: translateY(0); }
       30%           { transform: translateY(-4px); }
     }
 
-    /* ── Desktop (≥ 720px): card flutuante centralizado ── */
+    /* Desktop */
     @media (min-width: 720px) {
-      html, body { overflow: auto; background: #dde8f8; }
+      html, body { overflow: hidden; background: #f0f4fb; height: 100%; }
       .stage {
         min-height: 100vh;
-        padding: 28px 0 48px;
-        background: linear-gradient(160deg, #e8eef8 0%, #dde8f8 100%);
-        align-items: flex-start;
+        padding: 0;
+        background: #f0f4fb;
+        align-items: stretch;
+        justify-content: stretch;
       }
       .device {
-        max-width: 560px;
-        min-height: calc(100vh - 76px);
-        border-radius: 14px;
-        box-shadow: 0 8px 40px rgba(29,62,138,.13), 0 1px 3px rgba(29,62,138,.08);
-        border: 1px solid #c8d8f0;
-        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
       }
       .ccem-toast { bottom: 24px; }
     }
-
-    /* ── Wide desktop ── */
-    @media (min-width: 1100px) {
-      .device { max-width: 620px; }
-    }
   </style>
 
-  <!-- React 18 + Babel (versões fixadas) -->
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
@@ -135,15 +124,15 @@
 </div>
 
 <!-- Dados do programa -->
-<script src="ccem-data.js"></script>
+<script src="v4/ccem-data.js"></script>
 
 <!-- Lib: ícones, hooks, storage -->
-<script type="text/babel" src="ccem-lib.jsx"></script>
+<script type="text/babel" src="v4/ccem-lib.jsx"></script>
 
 <!-- Telas -->
-<script type="text/babel" src="ccem-screens.jsx"></script>
+<script type="text/babel" src="v4/ccem-screens.jsx"></script>
 
-<!-- App Router -->
+<!-- App Router v4 -->
 <script type="text/babel" data-presets="react">
   function App() {
     const hash = useHashRoute();
@@ -154,7 +143,7 @@
       if (parts[0] === 'assistente')             return { tela:'assistente' };
       if (parts[0] === 'trabalhos')              return { tela:'trabalhos' };
       if (parts[0] === 'caderno')                return { tela:'caderno' };
-      if (parts[0] === 'info')                   return { tela:'info', section:parts[1]||'o-evento' };
+      if (parts[0] === 'info')                   return { tela:'info' };
       return { tela:'programa' };
     }, [hash]);
 
@@ -166,7 +155,7 @@
         {route.tela === 'assistente' && <AssistenteScreen/>}
         {route.tela === 'trabalhos'  && <TrabalhosScreen/>}
         {route.tela === 'caderno'    && <CadernoScreen/>}
-        {route.tela === 'info'       && <InfoScreen section={route.section}/>}
+        {route.tela === 'info'       && <InfoScreen/>}
         {route.tela === 'programa'   && <ProgramaScreen/>}
       </AppShell>
     );
