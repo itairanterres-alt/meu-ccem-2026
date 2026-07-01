@@ -1,5 +1,5 @@
 /* ============================================================
-   Meu CCEM 2026 — LIB: ícones, hooks, storage
+   Meu CCEM 2026 — LIB v4: ícones, hooks, storage
    ============================================================ */
 const { useState, useEffect, useRef, useMemo, useLayoutEffect, useCallback } = React;
 
@@ -33,6 +33,7 @@ const IcoMail    = p => <Ico {...p}><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 
 const IcoInsta   = p => <Ico {...p}><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/></Ico>;
 const IcoLink    = p => <Ico {...p}><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></Ico>;
 const IcoCapture = p => <Ico {...p}><path d="M3 7l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/></Ico>;
+const IcoPoster  = p => <Ico {...p}><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M3 10h18M8 17v4M16 17v4M6 21h12"/></Ico>;
 
 /* ── useHashRoute ──────────────────────────────────────────── */
 function useHashRoute() {
@@ -60,6 +61,16 @@ function showToast(text) {
 const CCEM_USER_KEY   = 'ccem2026:userId';
 const CCEM_STATE_PFIX = 'ccem2026:';
 
+// ── ACCESS CONTROL POINT ─────────────────────────────────────
+// TODO: Antes de criar/usar o userId anônimo, validar que o usuário
+// é um inscrito. Três caminhos candidatos a definir com a organizadora
+// (Promotes Eventos):
+//   1. Magic link por e-mail — usuário chega via URL com token único
+//   2. Lista de e-mails/CPF — verificar contra lista de inscritos
+//   3. Código de acesso geral — senha única compartilhada com inscritos
+// Inserir validação aqui e redirecionar para tela de gate se não autenticado.
+// Comportamento atual: userId anônimo em localStorage (acesso aberto para demos).
+// ─────────────────────────────────────────────────────────────
 function ccemGetUserId() {
   let id = localStorage.getItem(CCEM_USER_KEY);
   if (!id) {
@@ -71,38 +82,25 @@ function ccemGetUserId() {
 const CCEM_USER_ID  = ccemGetUserId();
 const CCEM_STATE_KEY = CCEM_STATE_PFIX + CCEM_USER_ID;
 
+// ── PENDÊNCIAS DE PRODUÇÃO (para outubro — não implementar agora) ──────────
+// [ ] BUILD: substituir Babel standalone (~3 MB) por build esbuild/Vite.
+//     No wifi saturado do Expoville, o bundle atual desacelera o primeiro load.
+// [ ] SERVICE WORKER + MANIFEST: cache do shell/grade para funcionamento
+//     offline e instalável (PWA). App de congresso precisa abrir sem rede.
+// [ ] ASSETS LOCAIS: hospedar React, Babel e fontes localmente — hoje
+//     dependem de unpkg/Google Fonts; CDN fora durante o evento = app fora.
+// ───────────────────────────────────────────────────────────────────────────
+
 function ccemSeedState() {
+  // Estado inicial limpo — sem dados de demonstração (P1 · jul/2026)
+  // Nomes reais de palestrantes permanecem em ccem-data.js (programa oficial).
+  // Corrigido: seed anterior populava o Caderno com notas atribuídas a
+  // palestrantes reais — eticamente sensível antes de abertura a inscritos.
   return {
-    version: 3, createdAt: Date.now(),
-    marks:    { 'simp1-dm2':true, 'simp3-cdt':true, 'simp5-modismos':true, 'mini-ia':true },
-    captures: [
-      { id:'c1', dia:DIAS[0], time:'9:42', sessaoId:'simp1-dm2',
-        sessaoRef:'Simpósio 1 · Dra. Luciana Pechmann', type:'foto',
-        title:'Triagonistas (retatrutida) — perda de peso > 24%',
-        body:'Próximo passo após GLP-1/GIP. <strong>Ref:</strong> Jastreboff AM et al., <em class="cite">NEJM 2023;389:514</em>. <em>Sem horizonte SUS.</em>',
-        tags:['DM2','incretinas'], ts: Date.now()-86400000*1.2 },
-      { id:'c2', dia:DIAS[0], time:'13:50', sessaoId:'simp3-cdt',
-        sessaoRef:'Simpósio 3 · Dra. Marta Duval', type:'audio',
-        title:'Categorias dinâmicas de resposta no CDT',
-        body:'<strong>Take-home:</strong> excelente, indeterminada, bioquímica incompleta, estrutural — reavaliáveis no seguimento.',
-        tags:['Tireoide','ATA'], ts: Date.now()-86400000*1.0 },
-      { id:'c3', dia:DIAS[0], time:'17:35', sessaoId:'simp5-modismos',
-        sessaoRef:'Simpósio 5 · Dr. Itairan Terres ★', type:'texto',
-        title:'"Centenas de exames e zero hipótese"',
-        body:'<em>"o exame confirma ou refuta — não substitui a hipótese."</em>',
-        tags:['sua-fala'], ts: Date.now()-86400000*0.9 },
-      { id:'c4', dia:DIAS[1], time:'8:30', sessaoId:'simp6-gonadas',
-        sessaoRef:'Simpósio 6 · Dr. Alexandre Hohl', type:'foto',
-        title:'Nova diretriz hipogonadismo — cutoff por idade',
-        body:'Duas dosagens matinais alteradas para iniciar tratamento.',
-        tags:['Gônadas'], ts: Date.now()-86400000*0.5 },
-      { id:'c5', dia:DIAS[1], time:'17:05', sessaoId:'mini-ia',
-        sessaoRef:'Mini · Dra. Milena Gurgel ★', type:'texto',
-        title:'IA no consultório — o que vale',
-        body:'<strong>Útil:</strong> resumo, pedidos. <strong>Não substitui:</strong> hipótese, decisão, vínculo.',
-        tags:['IA'], ts: Date.now()-86400000*0.1 },
-    ],
-    chat: [],
+    version: 5, createdAt: Date.now(),
+    marks:    {},
+    captures: [],
+    chat:     [],
   };
 }
 
@@ -111,18 +109,9 @@ function ccemLoadState() {
     const raw = localStorage.getItem(CCEM_STATE_KEY);
     if (!raw) return ccemSeedState();
     const parsed = JSON.parse(raw);
-    // ── migração v1/v2 → v3 ──────────────────────────────
-    if (!parsed.version || parsed.version < 3) {
-      if (Array.isArray(parsed.captures)) {
-        parsed.captures = parsed.captures.map(c => {
-          if (!c.dia) {
-            const d = c.day || '';
-            c.dia = d === 'sexta' ? DIAS[0] : d === 'sabado' ? DIAS[1] : DIAS[0];
-          }
-          return c;
-        });
-      }
-      parsed.version = 3;
+    // Versão < 5: reiniciar limpo (remove seed com dados de demonstração)
+    if (!parsed.version || parsed.version < 5) {
+      return ccemSeedState();
     }
     return parsed;
   } catch(e) { return ccemSeedState(); }
@@ -131,7 +120,7 @@ function ccemSaveState(s) {
   try { localStorage.setItem(CCEM_STATE_KEY, JSON.stringify(s)); } catch(e) {}
 }
 
-/* Store compartilhado (padrão SAM) */
+/* Store compartilhado */
 const _ccemStore     = { state: ccemLoadState() };
 const _ccemListeners = new Set();
 function _ccemNotify() { _ccemListeners.forEach(fn => fn()); }
@@ -162,7 +151,7 @@ function nowStamp() {
 Object.assign(window, {
   Ico, IcoChevL, IcoChevR, IcoArrowL, IcoCal, IcoChat, IcoBook, IcoInfo,
   IcoSearch, IcoStar, IcoPlus, IcoCheck, IcoX, IcoCam, IcoMic, IcoSend,
-  IcoFilter, IcoGlobe, IcoPhone, IcoMail, IcoInsta, IcoLink, IcoCapture,
+  IcoFilter, IcoGlobe, IcoPhone, IcoMail, IcoInsta, IcoLink, IcoCapture, IcoPoster,
   useHashRoute, showToast,
   CCEM_USER_ID, CCEM_STATE_KEY,
   ccemSeedState, ccemLoadState, ccemSaveState,
