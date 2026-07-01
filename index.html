@@ -132,6 +132,9 @@
 <!-- Telas -->
 <script type="text/babel" src="v4/ccem-screens.jsx"></script>
 
+<!-- Home (saguão de entrada) -->
+<script type="text/babel" src="v4/ccem-home.jsx"></script>
+
 <!-- App Router v4 -->
 <script type="text/babel" data-presets="react">
   function App() {
@@ -140,18 +143,20 @@
     const route = useMemo(() => {
       const parts = (hash || '#/').replace(/^#\/?/, '').split('/').filter(Boolean);
       if (parts[0] === 'sessao'     && parts[1]) return { tela:'sessao', id:parts[1] };
+      if (parts[0] === 'programa')               return { tela:'programa' };
       if (parts[0] === 'assistente')             return { tela:'assistente' };
       if (parts[0] === 'trabalhos')              return { tela:'trabalhos' };
       if (parts[0] === 'caderno')                return { tela:'caderno' };
       if (parts[0] === 'info')                   return { tela:'info' };
-      return { tela:'programa' };
+      return { tela:'home' };
     }, [hash]);
 
-    const showShell = route.tela !== 'sessao';
+    const showShell = route.tela !== 'sessao' && route.tela !== 'home';
 
     return (
       <AppShell showShell={showShell} aba={route.tela}>
         {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
+        {route.tela === 'home'       && <HomeScreen/>}
         {route.tela === 'assistente' && <AssistenteScreen/>}
         {route.tela === 'trabalhos'  && <TrabalhosScreen/>}
         {route.tela === 'caderno'    && <CadernoScreen/>}

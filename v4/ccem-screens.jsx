@@ -351,26 +351,26 @@ function SessaoDetail({ id }) {
           </div>
         )}
 
-        {/* Ações: Anotar + Marcar */}
+        {/* Ações: Anotar (primária) · Marcar (secundária) · Assistente (terciária) */}
         <div style={{display:'flex',gap:8,marginBottom:8}}>
-          <button onClick={handleAnotar} style={{flex:2,display:'flex',alignItems:'center',justifyContent:'center',gap:6,background:C.azul,color:'#fff',border:'none',borderRadius:10,padding:'11px',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600,cursor:'pointer'}}>
-            <IcoCapture size={15} color="#fff"/>Anotar
+          <button onClick={handleAnotar} style={{flex:3,display:'flex',alignItems:'center',justifyContent:'center',gap:7,background:C.azul,color:'#fff',border:'none',borderRadius:10,padding:'13px',fontFamily:'DM Sans,sans-serif',fontSize:14,fontWeight:700,cursor:'pointer',letterSpacing:'-0.01em',boxShadow:'0 2px 8px rgba(29,62,138,.25)'}}>
+            <IcoCapture size={17} color="#fff"/>Anotar
           </button>
-          <button onClick={toggleMark} style={{flex:1,display:'flex',alignItems:'center',justifyContent:'center',gap:5,background:isMarked?C.ouroBg:'#fff',color:isMarked?C.ouro:C.cinza,border:`1px solid ${isMarked?C.ouro:C.linha}`,borderRadius:10,padding:'11px 8px',fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:isMarked?600:500,cursor:'pointer'}}>
-            <IcoStar size={14} color={isMarked?C.ouro:C.cinza} filled={isMarked}/>{isMarked?'Marcado':'Marcar'}
+          <button onClick={toggleMark} style={{flexShrink:0,display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:3,background:isMarked?C.ouroBg:'#fff',color:isMarked?C.ouro:C.cinza,border:`1px solid ${isMarked?C.ouro:C.linha}`,borderRadius:10,padding:'10px 14px',fontFamily:'DM Sans,sans-serif',fontSize:10,fontWeight:isMarked?700:500,cursor:'pointer'}}>
+            <IcoStar size={16} color={isMarked?C.ouro:C.cinza} filled={isMarked}/>{isMarked?'Marcado':'Marcar'}
           </button>
         </div>
 
-        {/* Assistente contextual */}
-        <button onClick={handleAskAI} style={{width:'100%',display:'flex',alignItems:'center',gap:10,padding:'11px 14px',background:'linear-gradient(135deg,#1a3580 0%,#0f2260 100%)',border:'none',borderRadius:10,cursor:'pointer',marginBottom:14}}>
-          <div style={{width:28,height:28,borderRadius:8,background:'rgba(255,255,255,.15)',display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><circle cx="9" cy="10" r="1" fill="#fff" stroke="none"/><circle cx="12" cy="10" r="1" fill="#fff" stroke="none"/><circle cx="15" cy="10" r="1" fill="#fff" stroke="none"/></svg>
+        {/* Assistente — ação terciária, peso reduzido */}
+        <button onClick={handleAskAI} style={{width:'100%',display:'flex',alignItems:'center',gap:10,padding:'9px 14px',background:'#f0f4fc',border:`1px solid ${C.linha}`,borderRadius:10,cursor:'pointer',marginBottom:14}}>
+          <div style={{width:26,height:26,borderRadius:7,background:C.azul,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><circle cx="9" cy="10" r="1" fill="#fff" stroke="none"/><circle cx="12" cy="10" r="1" fill="#fff" stroke="none"/><circle cx="15" cy="10" r="1" fill="#fff" stroke="none"/></svg>
           </div>
           <div style={{textAlign:'left',flex:1}}>
-            <div style={{fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:700,color:'#fff'}}>Perguntar ao Assistente</div>
-            <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:8.5,color:'rgba(255,255,255,.65)',marginTop:1}}>contextualizado nesta sessão</div>
+            <div style={{fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:600,color:C.azul}}>Perguntar ao Assistente</div>
+            <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:8.5,color:C.cinza,marginTop:1}}>contextualizado nesta sessão</div>
           </div>
-          <IcoChevR size={16} color="rgba(255,255,255,.5)"/>
+          <IcoChevR size={15} color={C.cinza}/>
         </button>
 
         {/* Prev / Next */}
@@ -781,26 +781,61 @@ function AssistenteScreen() {
         </div>
       </div>
 
-      {/* Messages */}
-      <div style={{flex:1,overflowY:'auto',padding:'12px 12px 0'}}>
-        {msgs.map((m,i)=>(
-          <div key={i} style={{display:'flex',flexDirection:'column',alignItems:m.role==='ai'?'flex-start':'flex-end',marginBottom:10}}>
-            <div style={msgStyle(m.role)}>
-              {m.role==='ai'&&m.tag&&<div style={{fontFamily:'JetBrains Mono,monospace',fontSize:8.5,color:C.azulSoft,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:6}}>{m.tag}</div>}
-              <div dangerouslySetInnerHTML={{__html:m.html}}/>
-              {m.role==='ai'&&m.ref&&<div style={{marginTop:7,paddingTop:7,borderTop:`1px solid ${C.linhaSoft}`,fontSize:10.5,color:C.cinza}} dangerouslySetInnerHTML={{__html:m.ref}}/>}
-              {m.role==='ai'&&m.actions&&(
-                <div style={{display:'flex',gap:5,flexWrap:'wrap',marginTop:8}}>
-                  {m.actions.map((a,j)=><button key={j} onClick={()=>actionClick(a)} style={{border:`1px solid ${C.linha}`,background:'#f8fafd',color:C.azul,borderRadius:7,padding:'4px 10px',fontSize:11,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>{a}</button>)}
-                </div>
-              )}
-            </div>
-            <div style={{fontSize:9,color:C.cinza,marginTop:3,fontFamily:'JetBrains Mono,monospace'}}>{new Date(m.ts).getHours()}:{String(new Date(m.ts).getMinutes()).padStart(2,'0')}</div>
+      {/* Boas-vindas ou chat */}
+      {!msgs.some(m=>m.role==='user') ? (
+        <div style={{flex:1,overflowY:'auto',padding:'18px 14px 10px'}}>
+          {/* Saudação */}
+          <div style={{marginBottom:18}}>
+            <div style={{fontSize:16,fontWeight:700,color:C.tinta,marginBottom:ctxSessao?5:0,letterSpacing:'-0.01em'}}>Como posso ajudar?</div>
+            {ctxSessao&&<div style={{fontSize:11.5,color:C.cinza}}>Contextualizado em <strong style={{color:C.azulSoft}}>{ctxSessao.badge} — {ctxSessao.titulo.slice(0,45)}{ctxSessao.titulo.length>45?'…':''}</strong></div>}
           </div>
-        ))}
-        {loading&&<div style={{display:'flex',gap:4,padding:'8px 12px',background:'#fff',borderRadius:'14px 14px 14px 4px',width:60,border:`1px solid ${C.linhaSoft}`,marginBottom:10}}>{[0,1,2].map(i=><span key={i} style={{width:7,height:7,borderRadius:'50%',background:C.cinza,display:'inline-block',animation:`ccem-bounce .9s ${i*.2}s ease-in-out infinite`}}/>)}</div>}
-        <div ref={endRef}/>
-      </div>
+          {/* Três funções */}
+          {[
+            {ico:'📸',title:'Auxiliar de Anotação',desc:'Foto de slide, áudio ou texto livre → nota estruturada com take-home e referência bibliográfica quando visível.',prompt:'Quero anotar um slide desta sessão',ord:'1'},
+            {ico:'🔍',title:'Busca Semântica',desc:'Programa e trabalhos em linguagem natural: sessões, palestrantes, temas, comparações entre falas.',prompt:'Que sessões falam de Lp(a)?',ord:'2'},
+            {ico:'💬',title:'Concierge',desc:'Dúvidas práticas sobre horários, salas, exportação do caderno e submissão de trabalhos.',prompt:'Como exporto minhas notas?',ord:'3'},
+          ].map((f,i)=>(
+            <div key={i} onClick={()=>setText(f.prompt)}
+              style={{background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:12,padding:'13px 14px',marginBottom:8,cursor:'pointer',display:'flex',gap:12,alignItems:'flex-start',transition:'all .13s',position:'relative'}}
+              onMouseOver={e=>{e.currentTarget.style.borderColor=C.azul;e.currentTarget.style.transform='translateY(-1px)';e.currentTarget.style.boxShadow='0 4px 14px rgba(29,62,138,.09)';}}
+              onMouseOut={e=>{e.currentTarget.style.borderColor=C.linhaSoft;e.currentTarget.style.transform='';e.currentTarget.style.boxShadow='';}}>
+              <span style={{fontSize:24,flexShrink:0,lineHeight:1.1,marginTop:1}}>{f.ico}</span>
+              <div style={{flex:1,minWidth:0}}>
+                <div style={{display:'flex',alignItems:'center',gap:6,marginBottom:3}}>
+                  <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:8,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>{f.ord}</span>
+                  <span style={{fontSize:13,fontWeight:700,color:C.tinta}}>{f.title}</span>
+                </div>
+                <div style={{fontSize:11.5,color:C.cinza,lineHeight:1.45,marginBottom:7}}>{f.desc}</div>
+                <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:8.5,color:C.azulSoft,background:C.azulBg,padding:'2px 9px',borderRadius:8}}>ex: "{f.prompt}"</span>
+              </div>
+              <IcoChevR size={14} color={C.cinza} style={{flexShrink:0,marginTop:4}}/>
+            </div>
+          ))}
+          <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:8.5,color:C.cinza,marginTop:8,padding:'8px 12px',background:'#f0f4fc',borderRadius:8,lineHeight:1.65}}>
+            Não forneço orientação clínica para casos de pacientes reais.
+          </div>
+        </div>
+      ):(
+        <div style={{flex:1,overflowY:'auto',padding:'12px 12px 0'}}>
+          {msgs.map((m,i)=>(
+            <div key={i} style={{display:'flex',flexDirection:'column',alignItems:m.role==='ai'?'flex-start':'flex-end',marginBottom:10}}>
+              <div style={msgStyle(m.role)}>
+                {m.role==='ai'&&m.tag&&<div style={{fontFamily:'JetBrains Mono,monospace',fontSize:8.5,color:C.azulSoft,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:6}}>{m.tag}</div>}
+                <div dangerouslySetInnerHTML={{__html:m.html}}/>
+                {m.role==='ai'&&m.ref&&<div style={{marginTop:7,paddingTop:7,borderTop:`1px solid ${C.linhaSoft}`,fontSize:10.5,color:C.cinza}} dangerouslySetInnerHTML={{__html:m.ref}}/>}
+                {m.role==='ai'&&m.actions&&(
+                  <div style={{display:'flex',gap:5,flexWrap:'wrap',marginTop:8}}>
+                    {m.actions.map((a,j)=><button key={j} onClick={()=>actionClick(a)} style={{border:`1px solid ${C.linha}`,background:'#f8fafd',color:C.azul,borderRadius:7,padding:'4px 10px',fontSize:11,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>{a}</button>)}
+                  </div>
+                )}
+              </div>
+              <div style={{fontSize:9,color:C.cinza,marginTop:3,fontFamily:'JetBrains Mono,monospace'}}>{new Date(m.ts).getHours()}:{String(new Date(m.ts).getMinutes()).padStart(2,'0')}</div>
+            </div>
+          ))}
+          {loading&&<div style={{display:'flex',gap:4,padding:'8px 12px',background:'#fff',borderRadius:'14px 14px 14px 4px',width:60,border:`1px solid ${C.linhaSoft}`,marginBottom:10}}>{[0,1,2].map(i=><span key={i} style={{width:7,height:7,borderRadius:'50%',background:C.cinza,display:'inline-block',animation:`ccem-bounce .9s ${i*.2}s ease-in-out infinite`}}/>)}</div>}
+          <div ref={endRef}/>
+        </div>
+      )}
 
       {/* Composer — limpo, sem chips pré-prontos */}
       <div style={{display:'flex',alignItems:'center',gap:7,padding:'8px 10px 14px',background:'#fff',borderTop:`1px solid ${C.linhaSoft}`,flexShrink:0}}>
@@ -1022,9 +1057,10 @@ function AppHeader(){
     <div style={{padding:'10px 16px 8px',background:'#fff',borderBottom:`1px solid ${C.linha}`,flexShrink:0}}>
       <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:12}}>
         <div style={{display:'flex',alignItems:'center',gap:10}}>
-          <img src="https://www.ccem2026.com.br/images/logo_2x.png" alt="CCEM 2026" style={{height:28,objectFit:'contain'}}
+          <img src="https://www.ccem2026.com.br/images/logo_2x.png" alt="CCEM 2026" style={{height:28,objectFit:'contain',cursor:'pointer'}}
+            onClick={()=>go('#/')}
             onError={e=>{e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex';}}/>
-          <div style={{display:'none',alignItems:'baseline',gap:4}}>
+          <div onClick={()=>go('#/')} style={{display:'none',alignItems:'baseline',gap:4,cursor:'pointer'}}>
             <span style={{fontFamily:'Georgia,serif',fontWeight:700,fontSize:17,color:C.azul,letterSpacing:'-0.02em'}}>CCEM</span>
             <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:10,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
           </div>
@@ -1088,13 +1124,11 @@ function DesktopSidebar({ aba }) {
   return (
     <div style={{width:220,background:'#fff',borderRight:`1px solid ${C.linha}`,display:'flex',flexDirection:'column',flexShrink:0,height:'100%',overflow:'hidden'}}>
       <div style={{padding:'22px 18px 14px',borderBottom:`1px solid ${C.linhaSoft}`}}>
-        <div style={{display:'flex',alignItems:'baseline',gap:6,marginBottom:5}}>
+        <button onClick={()=>go('#/')} style={{display:'flex',alignItems:'baseline',gap:6,marginBottom:5,background:'none',border:'none',cursor:'pointer',padding:0,textDecoration:'none'}}>
           <span style={{fontFamily:'Georgia,serif',fontWeight:700,fontSize:22,color:C.azul,letterSpacing:'-0.02em'}}>CCEM</span>
           <span style={{fontFamily:'JetBrains Mono,monospace',fontSize:12,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
-        </div>
-        <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:8,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',lineHeight:1.8,opacity:.7}}>
-          12º Congresso Catarinense<br/>de Endocrinologia e Metabologia<br/>23–24 out · Joinville/SC
-        </div>
+        </button>
+        <div style={{fontFamily:'JetBrains Mono,monospace',fontSize:9.5,color:C.cinza,letterSpacing:'0.04em',opacity:.6,marginTop:2}}>23–24 out · Joinville/SC</div>
         <div style={{marginTop:10}}><LiveStrip/></div>
       </div>
       <nav style={{flex:1,padding:'10px 8px',overflowY:'auto'}}>
@@ -1123,7 +1157,7 @@ function AppShell({ showShell, aba, children }){
   if (isDesktop) {
     return (
       <div style={{flex:1,display:'flex',overflow:'hidden',minHeight:0}}>
-        <DesktopSidebar aba={showShell?aba:'programa'}/>
+        <DesktopSidebar aba={aba}/>
         <div style={{flex:1,overflow:'hidden',display:'flex',flexDirection:'column',minHeight:0,background:C.papel}}>
           {children}
         </div>
