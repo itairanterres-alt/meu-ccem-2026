@@ -419,4 +419,28 @@ function ccemPalestrante(nome) {
   return key ? PALESTRANTES[key] : null;
 }
 
-Object.assign(window, { C, TEMAS_COR, DIAS, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, PROGRAM_DAYS_LS, ccemLiveStatus });
+/* ── Trabalhos — DEMONSTRAÇÃO (fictícios) ─────────────────────
+   Substituir pelos trabalhos reais após validação da Comissão
+   Científica. A tela Trabalhos (ccem-screens.jsx) lê daqui.     */
+const WORK_CATS = [
+  {id:'all',label:'Todos'},
+  {id:'diabetes',label:'Diabetes'},
+  {id:'tireoide',label:'Tireoide'},
+  {id:'obesidade',label:'Obesidade'},
+  {id:'adrenal',label:'Adrenal'},
+  {id:'pediatrica',label:'Pediátrica'},
+  {id:'feminina',label:'Gônadas/Trans'},
+];
+const WORKS = [
+  {id:'P-001',cat:'diabetes',type:'Original',title:'Semaglutida em DM2 + obesidade grau III: 24 meses',message:'Resposta glicêmica precoce, impacto ponderal só estabiliza após 12 meses.',authors:'Dr. Eduardo Schmidt, Dra. Patricia Bauer Lima · UFSC',audio:true,votes:34,qa:2},
+  {id:'P-002',cat:'diabetes',type:'Original',title:'Tirzepatida em DM2: coorte real de 87 pacientes em Joinville',message:'Redução de 1,8% na HbA1c em 6 meses — adesão é o gargalo.',authors:'Dr. André Boehm, Dra. Renata Cardoso · HU-Joinville',audio:true,votes:28,qa:1},
+  {id:'P-003',cat:'diabetes',type:'Série de casos',title:'Cetoacidose euglicêmica em iSGLT2: série de 4 casos',message:'Glicemia normal não exclui CAD em iSGLT2 — pedir cetona sempre.',authors:'Dra. Júlia Reiser, Dr. Carlos Eduardo Vianna · HRHDS',audio:false,votes:19,qa:1},
+  {id:'P-004',cat:'tireoide',type:'Série de casos',title:'CDT de baixo risco com Tg detectável: estratificação dinâmica em 5 anos',message:'Tg detectável após ablação não é falha — é categoria a estratificar.',authors:'Dra. Beatriz Karmann, Dr. Henrique Bertelli · UNIVALI',audio:true,votes:22,qa:1},
+  {id:'P-005',cat:'tireoide',type:'Revisão',title:'TSH supressivo longo prazo no CDT de alto risco pós-ATA 2015',message:'Manter TSH <0,1 por >5 anos aumenta risco CV sem ganho oncológico claro.',authors:'Dr. Ricardo Becker, Dra. Cláudia Hartmann · UNISUL',audio:true,votes:41,qa:0},
+  {id:'P-006',cat:'obesidade',type:'Coorte',title:'Estilo de vida pós-bariátrica e manutenção de peso aos 5 anos',message:'Quem mantém atividade física estruturada perde 11% a mais em 5 anos.',authors:'Dra. Tamara Rodrigues, Dr. Lucas Eichholz · UFSC',audio:true,votes:38,qa:0},
+  {id:'P-007',cat:'adrenal',type:'Original',title:'Hiperaldosteronismo primário em HAS refratária: rastreamento 4x mais diagnóstico',message:'HAS refratária merece relação aldosterona/renina sempre.',authors:'Dr. Augusto Reichow, Dra. Renata Kühl · UFSC',audio:true,votes:33,qa:0},
+  {id:'P-008',cat:'pediatrica',type:'Coorte',title:'Puberdade precoce central em meninas catarinenses: 56 casos em 8 anos',message:'Atraso >12m no tratamento compromete estatura final.',authors:'Dra. Andrea Becker, Dra. Mônica Voss · HIJG',audio:true,votes:26,qa:0},
+  {id:'P-009',cat:'feminina',type:'Original',title:'Hormonioterapia em mulheres trans no SUS-SC: 3 centros',message:'Acesso ainda fragmentado — protocolos regionais aumentam segurança.',authors:'Dra. Vitória Salles, Dra. Aline Beltrami · SES-SC / HU-UFSC',audio:true,votes:47,qa:2},
+];
+
+Object.assign(window, { C, TEMAS_COR, DIAS, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, PROGRAM_DAYS_LS, ccemLiveStatus, WORK_CATS, WORKS });

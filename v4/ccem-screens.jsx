@@ -35,7 +35,7 @@ function IntervalRow({ item }) {
   return (
     <div style={{display:'flex',alignItems:'center',gap:10,padding:'6px 16px',background:'#f5f8fd',borderTop:`1px solid ${C.linhaSoft}`,borderBottom:`1px solid ${C.linhaSoft}`,margin:'2px 0'}}>
       <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,fontWeight:600}}>{item.label}</span>
-      {item.dur&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75,marginLeft:'auto'}}>{item.dur}</span>}
+      {item.dur&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginLeft:'auto'}}>{item.dur}</span>}
     </div>
   );
 }
@@ -66,7 +66,7 @@ function SessaoCard({ id }) {
         <div style={{minWidth:40,flexShrink:0,textAlign:'center',paddingTop:1}}>
           <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13.5,fontWeight:700,color:C.azul,lineHeight:1}}>{s.inicio}</div>
           <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:3,lineHeight:1.3}}>→{s.fim}</div>
-          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75,marginTop:1}}>{s.dur}</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:1}}>{s.dur}</div>
         </div>
         <div style={{flex:1,minWidth:0}}>
           <div style={{display:'flex',alignItems:'center',gap:5,marginBottom:5}}>
@@ -239,17 +239,10 @@ function SessaoDetail({ id }) {
   }
 
   function handleAnotar(){
-    updateAppState(st=>{
-      if(!st.captures) st.captures=[];
-      st.captures.unshift({
-        id:'c_'+Date.now().toString(36), dia:s.dia, time:nowStamp(),
-        sessaoId:id, sessaoRef:s.badge+' · '+s.titulo.slice(0,40),
-        type:'texto', title:'Nota — '+s.badge,
-        body:'<em>Adicione observações pelo Assistente.</em>',
-        tags:s.temas||[], ts:Date.now()
-      });
-    });
-    showToast('Nota criada · abrindo Assistente');
+    // não cria nota vazia — contextualiza o Assistente; a nota nasce quando houver conteúdo
+    window._ccemCtxSessaoId = id;
+    window._ccemAnotarIntent = true;
+    showToast('Anote pelo Assistente · vai para o Caderno');
     go('#/assistente');
   }
 
@@ -309,7 +302,7 @@ function SessaoDetail({ id }) {
             <BadgePill tipo={s.tipo} label={s.badge}/>
             {(s.temas||[]).map(t=><TopicPill key={t} tema={t}/>)}
             {s.starred&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro,letterSpacing:'0.06em',textTransform:'uppercase',padding:'2px 7px',background:C.ouroBg,borderRadius:10}}>Destaque</span>}
-            {isPast&&<span style={{marginLeft:'auto',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75}}>
+            {isPast&&<span style={{marginLeft:'auto',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza}}>
               {ctxOpen?'▾ recolher':'▸ contexto'}
             </span>}
           </div>
@@ -319,7 +312,7 @@ function SessaoDetail({ id }) {
               <div style={{display:'flex',gap:8,alignItems:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza}}>
                 <span style={{color:C.azulSoft,fontWeight:700}}>{s.inicio}</span>
                 <span>→ {s.fim}</span>
-                <span style={{opacity:.75}}>· {s.dur} · {s.dia}</span>
+                <span>· {s.dur} · {s.dia}</span>
               </div>
               {s.moderador&&(
                 <div style={{marginTop:9,padding:'6px 10px',background:C.azulBg+'60',borderRadius:7,display:'flex',gap:8,alignItems:'center'}}>
@@ -332,7 +325,7 @@ function SessaoDetail({ id }) {
           {!ctxOpen&&isPast&&(
             <div style={{display:'flex',gap:8,alignItems:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,marginTop:6}}>
               <span style={{color:C.azulSoft,fontWeight:700}}>{s.inicio}–{s.fim}</span>
-              {s.moderador&&<span style={{opacity:.75,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>mod. {s.moderador}</span>}
+              {s.moderador&&<span style={{overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>mod. {s.moderador}</span>}
             </div>
           )}
         </div>
@@ -485,7 +478,7 @@ function ProgramaScreen() {
         <div style={{display:'flex',gap:5,padding:'5px 12px',background:'#f0f4fc',borderBottom:`1px solid ${C.linhaSoft}`,flexShrink:0,overflowX:'auto',scrollbarWidth:'none',alignItems:'center'}}>
           {filtroTipo&&<span style={{...chipSt(true,C.azul),fontSize:11,padding:'3px 10px'}}>{filtroTipo==='simposio'?'Simpósio':filtroTipo==='mini'?'Mini':'Satélite'}</span>}
           {soMarcados&&<span style={{...chipSt(true,C.ouro),fontSize:11,padding:'3px 10px'}}>★ Marcados</span>}
-          <button onClick={()=>{setFiltroTipo(null);setSoMarcados(false);}} style={{border:'none',background:'none',color:C.cinza,fontSize:11,cursor:'pointer',fontFamily:'inherit',padding:'3px 6px',flexShrink:0,opacity:.7}}>Limpar ×</button>
+          <button onClick={()=>{setFiltroTipo(null);setSoMarcados(false);}} style={{border:'none',background:'none',color:C.cinza,fontSize:11,cursor:'pointer',fontFamily:'inherit',padding:'3px 6px',flexShrink:0}}>Limpar ×</button>
         </div>
       )}
 
@@ -498,7 +491,7 @@ function ProgramaScreen() {
             <button onClick={()=>{setBusca('');setFiltroTipo(null);setSoMarcados(false);}} style={{border:`1px solid ${C.linha}`,background:'#fff',color:C.azul,padding:'7px 16px',borderRadius:8,cursor:'pointer',fontFamily:'inherit',fontSize:12}}>Limpar filtros</button>
           </div>
         ):items.map((item,i)=>item.tipo==='intervalo'?<IntervalRow key={i} item={item}/>:<SessaoCard key={item.id} id={item.id}/>)}
-        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textAlign:'center',letterSpacing:'0.04em',opacity:.75}}>★ destaque editorial · toque para abrir a sessão</div>}
+        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textAlign:'center',letterSpacing:'0.04em'}}>★ destaque editorial · toque para abrir a sessão</div>}
       </div>
 
       {/* Filter bottom-sheet */}
@@ -542,27 +535,9 @@ function ProgramaScreen() {
   );
 }
 
-/* ── TrabalhosScreen ───────────────────────────────────────── */
-const WORK_CATS = [
-  {id:'all',label:'Todos'},
-  {id:'diabetes',label:'Diabetes'},
-  {id:'tireoide',label:'Tireoide'},
-  {id:'obesidade',label:'Obesidade'},
-  {id:'adrenal',label:'Adrenal'},
-  {id:'pediatrica',label:'Pediátrica'},
-  {id:'feminina',label:'Gônadas/Trans'},
-];
-const WORKS = [
-  {id:'P-001',cat:'diabetes',type:'Original',title:'Semaglutida em DM2 + obesidade grau III: 24 meses',message:'Resposta glicêmica precoce, impacto ponderal só estabiliza após 12 meses.',authors:'Dr. Eduardo Schmidt, Dra. Patricia Bauer Lima · UFSC',audio:true,votes:34,qa:2},
-  {id:'P-002',cat:'diabetes',type:'Original',title:'Tirzepatida em DM2: coorte real de 87 pacientes em Joinville',message:'Redução de 1,8% na HbA1c em 6 meses — adesão é o gargalo.',authors:'Dr. André Boehm, Dra. Renata Cardoso · HU-Joinville',audio:true,votes:28,qa:1},
-  {id:'P-003',cat:'diabetes',type:'Série de casos',title:'Cetoacidose euglicêmica em iSGLT2: série de 4 casos',message:'Glicemia normal não exclui CAD em iSGLT2 — pedir cetona sempre.',authors:'Dra. Júlia Reiser, Dr. Carlos Eduardo Vianna · HRHDS',audio:false,votes:19,qa:1},
-  {id:'P-004',cat:'tireoide',type:'Série de casos',title:'CDT de baixo risco com Tg detectável: estratificação dinâmica em 5 anos',message:'Tg detectável após ablação não é falha — é categoria a estratificar.',authors:'Dra. Beatriz Karmann, Dr. Henrique Bertelli · UNIVALI',audio:true,votes:22,qa:1},
-  {id:'P-005',cat:'tireoide',type:'Revisão',title:'TSH supressivo longo prazo no CDT de alto risco pós-ATA 2015',message:'Manter TSH <0,1 por >5 anos aumenta risco CV sem ganho oncológico claro.',authors:'Dr. Ricardo Becker, Dra. Cláudia Hartmann · UNISUL',audio:true,votes:41,qa:0},
-  {id:'P-006',cat:'obesidade',type:'Coorte',title:'Estilo de vida pós-bariátrica e manutenção de peso aos 5 anos',message:'Quem mantém atividade física estruturada perde 11% a mais em 5 anos.',authors:'Dra. Tamara Rodrigues, Dr. Lucas Eichholz · UFSC',audio:true,votes:38,qa:0},
-  {id:'P-007',cat:'adrenal',type:'Original',title:'Hiperaldosteronismo primário em HAS refratária: rastreamento 4x mais diagnóstico',message:'HAS refratária merece relação aldosterona/renina sempre.',authors:'Dr. Augusto Reichow, Dra. Renata Kühl · UFSC',audio:true,votes:33,qa:0},
-  {id:'P-008',cat:'pediatrica',type:'Coorte',title:'Puberdade precoce central em meninas catarinenses: 56 casos em 8 anos',message:'Atraso >12m no tratamento compromete estatura final.',authors:'Dra. Andrea Becker, Dra. Mônica Voss · HIJG',audio:true,votes:26,qa:0},
-  {id:'P-009',cat:'feminina',type:'Original',title:'Hormonioterapia em mulheres trans no SUS-SC: 3 centros',message:'Acesso ainda fragmentado — protocolos regionais aumentam segurança.',authors:'Dra. Vitória Salles, Dra. Aline Beltrami · SES-SC / HU-UFSC',audio:true,votes:47,qa:2},
-];
+/* ── TrabalhosScreen ─────────────────────────────────────────
+   WORK_CATS e WORKS agora vivem em ccem-data.js (junto do
+   programa oficial) — substituir lá pelos trabalhos reais.    */
 
 function TrabalhosScreen() {
   const [cat, setCat] = useState('all');
@@ -591,13 +566,13 @@ function TrabalhosScreen() {
           <div style={{padding:'10px 12px',background:C.ouroBg+'60',borderLeft:`3px solid ${C.ouro}`,borderRadius:'0 6px 6px 0',fontSize:13,fontStyle:'italic',color:C.tinta,lineHeight:1.5,marginBottom:12}}>"{w.message}"</div>
           <div style={{fontSize:12,color:C.cinza,marginBottom:12}}>{w.authors}</div>
           {w.audio&&(
-            <div style={{display:'flex',alignItems:'center',gap:10,padding:'10px 12px',background:'#fff',borderRadius:10,border:`1px solid ${C.linhaSoft}`,marginBottom:12}}>
-              <div style={{width:34,height:34,borderRadius:'50%',background:C.azul,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
-                <svg width='13' height='13' viewBox='0 0 24 24' fill='white'><path d='M8 5v14l11-7z'/></svg>
+            <div style={{display:'flex',alignItems:'center',gap:10,padding:'10px 12px',background:'#f5f8fd',borderRadius:10,border:`1px dashed ${C.linha}`,marginBottom:12}}>
+              <div style={{width:34,height:34,borderRadius:'50%',background:C.cinzaClr,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
+                <svg width='13' height='13' viewBox='0 0 24 24' fill={C.cinza}><path d='M8 5v14l11-7z'/></svg>
               </div>
               <div>
                 <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em'}}>Áudio do autor</div>
-                <div style={{fontSize:13,fontWeight:500,color:C.tinta,marginTop:1}}>Demo · clique para ouvir</div>
+                <div style={{fontSize:12.5,color:C.cinza,marginTop:1}}>disponível na versão com os trabalhos reais</div>
               </div>
             </div>
           )}
@@ -624,7 +599,7 @@ function TrabalhosScreen() {
         <div style={{display:'flex',padding:'8px 0 2px',gap:5,overflowX:'auto',scrollbarWidth:'none'}}>
           {WORK_CATS.map(c=>{
             const n=c.id==='all'?WORKS.length:(counts[c.id]||0); if(c.id!=='all'&&n===0) return null;
-            return <button key={c.id} onClick={()=>setCat(c.id)} style={{flexShrink:0,border:`1px solid ${cat===c.id?C.azul:C.linha}`,background:cat===c.id?C.azul:'#fff',color:cat===c.id?'#fff':C.cinza,borderRadius:16,padding:'4px 11px',fontSize:11.5,fontFamily:'inherit',cursor:'pointer',whiteSpace:'nowrap'}}>{c.label} <span style={{opacity:.65,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11}}>{n}</span></button>;
+            return <button key={c.id} onClick={()=>setCat(c.id)} style={{flexShrink:0,border:`1px solid ${cat===c.id?C.azul:C.linha}`,background:cat===c.id?C.azul:'#fff',color:cat===c.id?'#fff':C.cinza,borderRadius:16,padding:'4px 11px',fontSize:11.5,fontFamily:'inherit',cursor:'pointer',whiteSpace:'nowrap'}}>{c.label} <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11}}>{n}</span></button>;
           })}
         </div>
       </div>
@@ -706,7 +681,10 @@ function AssistenteScreen() {
   };
 
   const [msgs, setMsgs] = useState([{role:'ai',tag:'Início',ts:Date.now()-3600000,html:welcomeHtml()}]);
-  const [text, setText] = useState('');
+  const [text, setText] = useState(()=>{
+    if(window._ccemAnotarIntent){ window._ccemAnotarIntent=false; return 'Anotar: '; }
+    return '';
+  });
   const [loading, setLoading] = useState(false);
   const endRef   = useRef(null);
   const photoRef = useRef(null);
@@ -731,7 +709,7 @@ function AssistenteScreen() {
     if(!file) return;
     const reader=new FileReader();
     reader.onload=async ev=>{
-      setMsgs(m=>[...m,{role:'user',ts:Date.now(),html:`<img src="${ev.target.result}" style="max-width:180px;border-radius:8px;display:block;margin-bottom:4px"/><span style="font-size:10.5px;opacity:.7">slide enviado</span>`}]);
+      setMsgs(m=>[...m,{role:'user',ts:Date.now(),html:`<img src="${ev.target.result}" style="max-width:180px;border-radius:8px;display:block;margin-bottom:4px"/><span style="font-size:11px;opacity:.85">slide enviado</span>`}]);
       setLoading(true);
       try {
         const ctx = ccemBuildCtx(ctxId);
@@ -890,6 +868,24 @@ function CadernoScreen() {
 
   function typeColor(t){ return t==='foto'?C.azul:t==='audio'?'#0d9488':C.ouro; }
 
+  function exportPDF(){
+    const w = window.open('', '_blank');
+    if(!w){ showToast('Permita pop-ups para exportar o PDF'); return; }
+    const esc = s => String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+    const all = [...captures].sort((a,b)=>a.ts-b.ts);
+    const rows = all.map(c=>`<div class="nota"><div class="meta">${esc(c.sessaoRef)} · ${esc(c.time)}${c.dia?' · '+esc(c.dia):''}</div><h3>${esc(c.title)}</h3><div class="body">${c.body||''}</div></div>`).join('');
+    w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Meu Caderno · CCEM 2026</title><style>
+      body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
+      h1{font-size:22px;margin:0 0 2px}
+      .sub{font-size:12px;color:#4a5468;margin:0 0 24px;font-family:system-ui,sans-serif}
+      .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
+      .meta{font-size:11px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
+      h3{font-size:14px;margin:0 0 6px}
+      .body{font-size:13px;line-height:1.55}
+    </style></head><body><h1>Meu Caderno · CCEM 2026</h1><p class="sub">${all.length} nota${all.length!==1?'s':''} · exportado em ${new Date().toLocaleDateString('pt-BR')} · Meu CCEM</p>${rows}<script>window.print()<\/script></body></html>`);
+    w.document.close();
+  }
+
   function NoteCard({c}){
     return (
       <div style={{background:'#fff',borderRadius:10,padding:'10px 12px',marginBottom:6,border:`1px solid ${C.linhaSoft}`,borderLeft:`3px solid ${typeColor(c.type)}`}}>
@@ -906,7 +902,7 @@ function CadernoScreen() {
 
   const fchip=(key,lbl)=>(
     <button key={key} onClick={()=>setFiltro(key)} style={{display:'flex',alignItems:'center',gap:4,padding:'5px 12px',border:`1px solid ${filtro===key?C.azul:C.linha}`,borderRadius:20,background:filtro===key?C.azul:'#fff',color:filtro===key?'#fff':C.cinza,fontSize:11.5,fontWeight:filtro===key?600:400,cursor:'pointer',fontFamily:'inherit',flexShrink:0}}>
-      {lbl}<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,opacity:.7,marginLeft:2}}>{counts[key]}</span>
+      {lbl}<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,marginLeft:2}}>{counts[key]}</span>
     </button>
   );
 
@@ -919,7 +915,7 @@ function CadernoScreen() {
           {[['Notas',captures.length,C.azulBg,C.azul],['Sessões',sessoes,C.verdeBg,C.verde],['Refs',refs,C.ouroBg,C.ouro]].map(([lbl,num,bg,color])=>(
             <div key={lbl} style={{flex:1,background:bg,borderRadius:10,padding:'7px 10px',textAlign:'center'}}>
               <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:20,fontWeight:700,color,lineHeight:1}}>{num}</div>
-              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color,textTransform:'uppercase',letterSpacing:'0.06em',marginTop:2,opacity:.8}}>{lbl}</div>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color,textTransform:'uppercase',letterSpacing:'0.06em',marginTop:2}}>{lbl}</div>
             </div>
           ))}
         </div>
@@ -945,7 +941,7 @@ function CadernoScreen() {
       {captures.length>0&&(
         <div style={{padding:'9px 12px',background:'#fff',borderTop:`1px solid ${C.linha}`,display:'flex',alignItems:'center',gap:10,flexShrink:0}}>
           <p style={{flex:1,fontSize:11,color:C.cinza,lineHeight:1.4,margin:0}}><strong>Salvo neste dispositivo</strong> · {captures.length} nota{captures.length!==1?'s':''}</p>
-          <button onClick={()=>showToast('PDF gerado · '+captures.length+' notas')} style={{display:'flex',alignItems:'center',gap:5,background:C.azul,color:'#fff',border:'none',borderRadius:8,padding:'7px 14px',fontSize:12,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>↓ PDF</button>
+          <button onClick={exportPDF} style={{display:'flex',alignItems:'center',gap:5,background:C.azul,color:'#fff',border:'none',borderRadius:8,padding:'7px 14px',fontSize:12,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>↓ PDF</button>
         </div>
       )}
     </div>
@@ -1073,7 +1069,7 @@ function AppHeader(){
     <div style={{padding:'10px 16px 8px',background:'#fff',borderBottom:`1px solid ${C.linha}`,flexShrink:0}}>
       <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:12}}>
         <div style={{display:'flex',alignItems:'center',gap:10}}>
-          <img src="https://www.ccem2026.com.br/images/logo_2x.png" alt="CCEM 2026" style={{height:28,objectFit:'contain',cursor:'pointer'}}
+          <img src="v4/logo-ccem.png" alt="CCEM 2026" style={{height:28,objectFit:'contain',cursor:'pointer'}}
             onClick={()=>go('#/')}
             onError={e=>{e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex';}}/>
           <div onClick={()=>go('#/')} style={{display:'none',alignItems:'baseline',gap:4,cursor:'pointer'}}>
@@ -1144,7 +1140,7 @@ function DesktopSidebar({ aba }) {
           <span style={{fontFamily:'Georgia,serif',fontWeight:700,fontSize:22,color:C.azul,letterSpacing:'-0.02em'}}>CCEM</span>
           <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
         </button>
-        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,letterSpacing:'0.04em',opacity:.75,marginTop:2}}>23–24 out · Joinville/SC</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,letterSpacing:'0.04em',marginTop:2}}>23–24 out · Joinville/SC</div>
         <div style={{marginTop:10}}><LiveStrip/></div>
       </div>
       <nav style={{flex:1,padding:'10px 8px',overflowY:'auto'}}>
@@ -1161,7 +1157,7 @@ function DesktopSidebar({ aba }) {
         })}
       </nav>
       <div style={{padding:'12px 16px',borderTop:`1px solid ${C.linhaSoft}`}}>
-        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,opacity:.75,lineHeight:1.7}}>v4.0 · Meu CCEM<br/>versão em desenvolvimento · restrito à comissão</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,lineHeight:1.7}}>v4.0 · Meu CCEM<br/>versão em desenvolvimento · restrito à comissão</div>
       </div>
     </div>
   );
