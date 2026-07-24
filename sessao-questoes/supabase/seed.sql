@@ -1,0 +1,12 @@
+-- Seed — piloto 2026/2
+-- Dados de teste do fluxo de sessão entram aqui no passo 2.
+
+-- Promoção dos 3 admins nomeados (rodar no SQL editor após o primeiro
+-- login de cada um; substituir pelos e-mails reais):
+--
+-- update public.profiles set role = 'admin'
+-- where email in (
+--   'admin1@unidavi.edu.br',
+--   'admin2@unidavi.edu.br',
+--   'admin3@unidavi.edu.br'
+-- );
