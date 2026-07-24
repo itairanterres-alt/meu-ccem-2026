@@ -13,7 +13,25 @@ Amostra da §10 do brief: banco ENAMED da **UC I (Proliferação Celular), 4ª f
 | `UC1_fase4_extraido.json` | As 40 questões reestruturadas no schema de `questoes` (0 erros de validação) |
 | `parse_enamed.py` | Parser que produziu o JSON — referência de mapeamento para a Porta B |
 
-> ⚠️ Estes NÃO são o `SCHEMA_OUTPUT` (contrato do gerador institucional, 1º item da §10), que ainda não chegou. São a amostra real (2º item), para calibrar a estruturação de texto colado.
+| `UC1_fase4_canonico.json` | As 40 questões no formato **canônico** (array de alternativas, `uc_slug`, correta na letra autoral) — dado de teste do passo 2 |
+| `schema-institucional/` | O **SCHEMA_OUTPUT** e fontes de verdade curriculares (ver abaixo) |
+| `tokens-unidavi.{md,js}` | Tokens visuais UNIDAVI (3º anexo da §10) |
+
+## `schema-institucional/` — o contrato canônico (1º anexo da §10)
+
+Estava dentro da skill `capi-questoes-enamed`. **Fonte de verdade; o anexo prevalece (§10).**
+
+| Arquivo | O que é |
+|---|---|
+| `schema_questao_med_unidavi.json` | **SCHEMA_OUTPUT** — JSON Schema canônico da questão (v2026.1/v3.1) |
+| `oas_med_unidavi_2026_1.json` | 810 OAs por SP, fases 1–8 (fonte para §8; **sendo atualizado**) |
+| `taxonomia_med_unidavi_2026_1.json` | UCs, 27 competências DCN 2025, enums fechados |
+| `exemplo_questao_preenchida.json` | Exemplo canônico com vinheta (validado, 0 erros) |
+| `exemplo_questao_enunciado_direto.json` | Exemplo conceitual sem vinheta (`texto_base: null`) |
+| `validate_questao.py` | Validador executável institucional (requer `jsonschema`) |
+| `SKILL_VERSION` | Versão da skill geradora (1.3) |
+
+O schema do app (`supabase/migrations/`) foi realinhado a este contrato — ver `docs/revisao-schema.md`, seção "Reconciliação com o SCHEMA_OUTPUT".
 
 ## Formato de origem (o que a Porta B precisa engolir)
 
@@ -40,25 +58,26 @@ Amostra da §10 do brief: banco ENAMED da **UC I (Proliferação Celular), 4ª f
   (D) incorreta — <justificativa D>
   ```
 
-## Mapeamento para o schema
+## Mapeamento para o schema (canônico)
 
-| Campo do schema | Origem |
+| Campo canônico | Origem no .docx |
 |---|---|
 | `enunciado` | parágrafos entre `QUESTÃO n` e a primeira alternativa (doc de questões) |
-| `vinheta` | não separado na origem — vem embutido no enunciado (ver observação 1) |
-| `alt_a..alt_d` | linhas `(A)..(D)` do doc de questões |
-| `gabarito` | letra em `Resposta correta:` do gabarito |
-| `just_a..just_d` | linhas `(A)..(D)` da "Análise de todas as alternativas" |
-| `justificativa_geral` | linha `Justificativa geral:` (**campo novo no schema**) |
-| `nivel` | `(Nível: Fácil\|Média\|Difícil)` (**campo novo no schema** → enum `facil\|media\|dificil`) |
-| `fase`, `uc`, `sp` | 4ª fase (informado pelo docente); UC e SP do cabeçalho |
-| `oa_tags` | **ausente na origem** (ver observação 3) |
+| `texto_base` | `null` — sem vinheta separada; o caso vem no enunciado (ver observação 1) |
+| `alternativas[].texto` | linhas `(A)..(D)` do doc de questões |
+| `alternativas[].correta` | `true` na letra de `Resposta correta:` do gabarito |
+| `alternativas[].justificativa` | linhas `(A)..(D)` da "Análise de todas as alternativas"; na correta, prefixada pela "Justificativa geral" (ver observação 4) |
+| `dificuldade_editorial` | `(Nível: Fácil\|Média\|Difícil)` → `facil\|medio\|dificil` |
+| `fase_alvo`, `uc_slug` | 4ª fase; UC confirmada na taxonomia = `med_unidavi_f04_uc01_proliferacao_celular` |
+| `sp_referencia` | **null** — SP da amostra não bate com a taxonomia 2026.1 (ver revisao-schema §perguntas) |
+| `tema`, `area_clinica`, `nivel_bloom`, `competencia_dcn_2025`, `oa_slugs` | **ausentes na origem** — docente completa na curadoria (§6); não inventados (obs. 3) |
 
 ## Observações que alimentaram decisões de schema
 
-1. **Não há vinheta separada.** Nas questões clínicas o caso vem no corpo do enunciado ("Mulher de 41 anos..."); nas conceituais o enunciado é direto. O campo `vinheta` do schema fica nullable e, nesta amostra, sempre null — o texto do caso está em `enunciado`. Se o `SCHEMA_OUTPUT` separar vinheta de comando, ajustamos a extração.
-2. **A alternativa já traz um descritor.** Ex.: `(A) RAS, proto-oncogene ativado por mutações de ganho de função.` — a alternativa embute uma mini-explicação, e o gabarito ainda traz a justificativa completa em `just_a`. São campos distintos; ambos preservados.
-3. **Nenhum OA nos documentos.** A única âncora curricular é a "Matriz de Referência Comum (Portaria INEP nº 478/2025)", citada nas instruções — não há tag de OA por questão. Confirma a pergunta em aberto: a fonte dos OAs por SP (§8) precisa vir de outro lugar. `oa_tags` fica `{}` na importação até essa fonte existir.
+1. **Não há vinheta separada.** O caso vem no corpo do enunciado ("Mulher de 41 anos…"); `texto_base` fica null nesta amostra.
+2. **A alternativa já traz um descritor** (ex.: `(A) RAS, proto-oncogene…`) além da justificativa completa no gabarito — ambos preservados (`alternativas[].texto` e `.justificativa`).
+3. **Nenhum OA/competência/área nos documentos.** A única âncora é a Matriz INEP 478/2025. Porta B (.docx) produz questão **parcial**; area_clinica/nivel_bloom/competencia/OA/SP são completados pelo docente na tela de conferência (§6). Não inventados (§4).
+4. **"Justificativa geral" dobrada na correta.** O schema canônico não tem esse campo; para não perder o dado, o texto é prefixado na `justificativa` da alternativa correta na importação.
 
 ## Observação de conteúdo para os autores (não é bug do app)
 

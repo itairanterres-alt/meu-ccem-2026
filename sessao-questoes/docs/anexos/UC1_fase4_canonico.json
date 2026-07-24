@@ -1,0 +1,1802 @@
+[
+  {
+    "enunciado": "Durante discussão sobre a fisiopatologia das neoplasias, um estudante questiona em qual fase do ciclo celular ocorre a duplicação completa do material genético, etapa indispensável antes de a célula avançar para a mitose. Essa fase, situada entre as fases G1 e G2 da intérfase, é denominada",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 1,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fase G1, período de intensa síntese proteica sem replicação do DNA.",
+        "correta": false,
+        "justificativa": "Incorreta. Em G1 ocorre crescimento celular e síntese de proteínas e organelas, mas o DNA ainda não foi replicado."
+      },
+      {
+        "letra": "B",
+        "texto": "fase S, na qual ocorre a síntese (duplicação) do DNA.",
+        "correta": true,
+        "justificativa": "A fase S (síntese) da intérfase é o período em que ocorre a replicação completa do DNA, condição necessária para que a célula, após passar por G2, entre em mitose com material genético duplicado. Correta. A fase S é exatamente o período de duplicação do DNA, situando-se entre G1 e G2 na intérfase."
+      },
+      {
+        "letra": "C",
+        "texto": "fase G2, período de preparação final para a divisão celular.",
+        "correta": false,
+        "justificativa": "Incorreta. G2 é a fase de preparação final (síntese de proteínas necessárias à mitose e verificação de erros), após a replicação do DNA já ter ocorrido em S."
+      },
+      {
+        "letra": "D",
+        "texto": "metáfase, fase de alinhamento dos cromossomos na placa equatorial.",
+        "correta": false,
+        "justificativa": "Incorreta. A metáfase é uma fase da mitose propriamente dita, não da intérfase, e ocorre após a duplicação do DNA já ter sido concluída."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em aula sobre genes envolvidos na carcinogênese, o professor destaca que um determinado gene supressor tumoral atua como \"guardião do genoma\", interrompendo o ciclo celular no ponto de checagem G1/S diante de dano ao DNA e induzindo apoptose quando o reparo não é possível, sendo o gene mais frequentemente encontrado mutado em neoplasias humanas. Esse gene é o",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 2,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "RAS, proto-oncogene ativado por mutações de ganho de função.",
+        "correta": false,
+        "justificativa": "Incorreta. RAS é um proto-oncogene (não supressor tumoral); quando mutado, tem ganho de função e estimula a proliferação celular, não atuando como \"guardião do genoma\"."
+      },
+      {
+        "letra": "B",
+        "texto": "MYC, fator de transcrição que estimula proliferação celular.",
+        "correta": false,
+        "justificativa": "Incorreta. MYC é um fator de transcrição que, quando desregulado, estimula proliferação celular; não é um gene supressor tumoral e não tem a função descrita."
+      },
+      {
+        "letra": "C",
+        "texto": "p53 (TP53), gene supressor tumoral guardião do genoma.",
+        "correta": true,
+        "justificativa": "O TP53 (p53) é chamado de \"guardião do genoma\" por deter o ciclo celular em G1/S diante de dano ao DNA e induzir apoptose quando o reparo é inviável, sendo o gene supressor tumoral mais comumente alterado nos cânceres humanos. Correta. O p53 é o clássico \"guardião do genoma\", controlando o ponto de checagem G1/S e induzindo apoptose diante de dano irreparável ao DNA."
+      },
+      {
+        "letra": "D",
+        "texto": "BCL-2, gene relacionado à inibição da apoptose.",
+        "correta": false,
+        "justificativa": "Incorreta. BCL-2 é uma proteína antiapoptótica, cuja superexpressão inibe a apoptose e favorece a sobrevivência de células neoplásicas, função oposta à descrita no enunciado."
+      }
+    ]
+  },
+  {
+    "enunciado": "O papilomavírus humano (HPV) oncogênico é reconhecido como agente etiológico central do câncer do colo do útero. Duas proteínas virais atuam diretamente sobre reguladores do ciclo celular do hospedeiro: uma promove a degradação de p53 e outra inativa a proteína do retinoblastoma (pRb), retirando pontos de checagem essenciais e favorecendo a proliferação descontrolada. Essas duas oncoproteínas virais são, respectivamente,",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 3,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "L1 e L2, proteínas estruturais do capsídeo viral.",
+        "correta": false,
+        "justificativa": "Incorreta. L1 e L2 são proteínas estruturais do capsídeo viral, envolvidas na montagem do vírion e usadas como alvo antigênico nas vacinas, sem ação direta sobre p53/pRb."
+      },
+      {
+        "letra": "B",
+        "texto": "E6 e E7, oncoproteínas virais precoces.",
+        "correta": true,
+        "justificativa": "As oncoproteínas E6 (que promove a degradação de p53) e E7 (que inativa pRb) dos HPVs de alto risco oncogênico (como os tipos 16 e 18) desregulam pontos de checagem essenciais do ciclo celular, favorecendo o acúmulo de mutações e a progressão neoplásica. Correta. E6 degrada p53 e E7 inativa pRb, sendo essas as oncoproteínas centrais na carcinogênese associada ao HPV de alto risco."
+      },
+      {
+        "letra": "C",
+        "texto": "E1 e E2, proteínas reguladoras da replicação do genoma viral.",
+        "correta": false,
+        "justificativa": "Incorreta. E1 e E2 participam da replicação e regulação transcricional do genoma viral, mas não são as principais responsáveis pela inativação de p53/pRb."
+      },
+      {
+        "letra": "D",
+        "texto": "E4 e E5, proteínas acessórias sem relação com o ciclo celular do hospedeiro.",
+        "correta": false,
+        "justificativa": "Incorreta. E4 e E5 têm papéis acessórios no ciclo viral (maturação e modulação de sinalização celular), mas não são as oncoproteínas classicamente associadas à degradação de p53 e pRb."
+      }
+    ]
+  },
+  {
+    "enunciado": "Uma equipe de saúde da família está organizando uma campanha de rastreamento do câncer do colo do útero em sua área de abrangência. Segundo as diretrizes vigentes do Ministério da Saúde, a citologia oncótica (Papanicolau) deve ser oferecida a mulheres com vida sexual ativa a partir de qual idade, repetindo-se anualmente até dois exames normais consecutivos?",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 4,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "18 anos.",
+        "correta": false,
+        "justificativa": "Incorreta. Rastrear a partir dos 18 anos geraria sobrediagnóstico de alterações transitórias comuns em mulheres jovens, sem benefício comprovado, motivo pelo qual essa idade não é recomendada."
+      },
+      {
+        "letra": "B",
+        "texto": "21 anos.",
+        "correta": false,
+        "justificativa": "Incorreta. A idade de 21 anos é adotada por outras diretrizes internacionais, mas não corresponde à recomendação vigente do Ministério da Saúde brasileiro."
+      },
+      {
+        "letra": "C",
+        "texto": "25 anos.",
+        "correta": true,
+        "justificativa": "O Ministério da Saúde recomenda início do rastreamento citológico aos 25 anos em mulheres com vida sexual ativa, com periodicidade anual inicial e, após dois exames normais consecutivos, trienal. Correta. A diretriz brasileira estabelece 25 anos como idade de início do rastreamento em mulheres com vida sexual ativa."
+      },
+      {
+        "letra": "D",
+        "texto": "30 anos, apenas.",
+        "correta": false,
+        "justificativa": "Incorreta. Iniciar apenas aos 30 anos postergaria demasiadamente a detecção de lesões precursoras que podem se desenvolver antes dessa idade."
+      }
+    ]
+  },
+  {
+    "enunciado": "Uma mulher realiza citologia oncótica de rotina na UBS e o laudo citopatológico, segundo a nomenclatura de Bethesda, descreve o achado como \"ASC-US\". Ao explicar o resultado à paciente, o médico da unidade deve esclarecer que essa sigla corresponde a",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 5,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "carcinoma epidermoide invasor, já com invasão estromal confirmada.",
+        "correta": false,
+        "justificativa": "Incorreta. Carcinoma invasor é achado citológico de gravidade muito maior, com células claramente malignas, distinto do significado indeterminado do ASC-US."
+      },
+      {
+        "letra": "B",
+        "texto": "células escamosas atípicas de significado indeterminado.",
+        "correta": true,
+        "justificativa": "ASC-US (Atypical Squamous Cells of Undetermined Significance) designa alterações citológicas em células escamosas cuja natureza não pode ser definida com certeza como reativa ou neoplásica, exigindo investigação complementar conforme idade e histórico da paciente. Correta. ASC-US representa alteração celular escamosa de significado indeterminado, sem definição imediata entre processo reativo/inflamatório e lesão intraepitelial."
+      },
+      {
+        "letra": "C",
+        "texto": "lesão intraepitelial escamosa de alto grau (HSIL).",
+        "correta": false,
+        "justificativa": "Incorreta. HSIL representa lesão intraepitelial de alto grau, com alterações citológicas mais definidas e maior risco de doença invasiva, diferente da incerteza descrita no ASC-US."
+      },
+      {
+        "letra": "D",
+        "texto": "adenocarcinoma in situ do colo uterino.",
+        "correta": false,
+        "justificativa": "Incorreta. Adenocarcinoma in situ refere-se a alterações do epitélio glandular endocervical, categoria citológica distinta e mais grave que o ASC-US."
+      }
+    ]
+  },
+  {
+    "enunciado": "Durante a discussão do caso de Maria Aparecida, os estudantes revisam os conceitos fundamentais de oncologia. Um deles pergunta qual é a principal característica biológica que diferencia uma neoplasia maligna de uma neoplasia benigna, do ponto de vista histopatológico e clínico. A resposta mais adequada é a capacidade da neoplasia maligna de",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 6,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "crescer lentamente e permanecer encapsulada, sem invadir estruturas vizinhas.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse comportamento (crescimento lento, encapsulado, sem invasão) é típico de neoplasias benignas, e não malignas."
+      },
+      {
+        "letra": "B",
+        "texto": "invadir tecidos adjacentes localmente e originar metástases à distância.",
+        "correta": true,
+        "justificativa": "A capacidade de invasão local de tecidos adjacentes e de originar metástases (implantes tumorais à distância) é a característica biológica fundamental que distingue neoplasias malignas das benignas, estas geralmente encapsuladas e de crescimento expansivo local. Correta. Invasão tecidual local e metástase à distância são marcas biológicas que definem a malignidade de uma neoplasia."
+      },
+      {
+        "letra": "C",
+        "texto": "apresentar sempre células bem diferenciadas, semelhantes ao tecido de origem.",
+        "correta": false,
+        "justificativa": "Incorreta. Neoplasias malignas frequentemente apresentam graus variáveis de diferenciação, podendo ser pouco diferenciadas (anaplásicas); diferenciação boa e uniforme é mais típica de tumores benignos."
+      },
+      {
+        "letra": "D",
+        "texto": "permanecer assintomática durante toda a vida do paciente.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora algumas neoplasias malignas possam ser assintomáticas por período variável, isso não é regra nem característica definidora de malignidade."
+      }
+    ]
+  },
+  {
+    "enunciado": "Mulher de 41 anos, auxiliar de limpeza, sem uso regular de preservativos e sem histórico de vacinação contra HPV na adolescência, realiza citologia oncótica atrasada há cinco anos em ação da UBS. O resultado mostra ASC-US. Considerando que a paciente tem mais de 30 anos, qual conduta é preconizada pelas diretrizes brasileiras de rastreamento diante desse achado citológico?",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 7,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Repetir a citologia em 6 meses, independentemente da idade da paciente.",
+        "correta": false,
+        "justificativa": "Incorreta. A repetição em 6 meses é conduta preconizada para mulheres mais jovens (abaixo de 30 anos) com ASC-US, e não para essa faixa etária, na qual o risco de lesão de alto grau é maior."
+      },
+      {
+        "letra": "B",
+        "texto": "Encaminhar diretamente para colposcopia, dado o maior risco de lesão de alto grau nessa faixa etária.",
+        "correta": true,
+        "justificativa": "Em mulheres com 30 anos ou mais e resultado de ASC-US, a diretriz brasileira recomenda encaminhamento direto para colposcopia, pelo maior risco de lesão intraepitelial de alto grau associado à idade mais avançada, diferentemente da conduta adotada em mulheres mais jovens (repetição citológica). Correta. Em mulheres com 30 anos ou mais, o ASC-US deve motivar encaminhamento direto para colposcopia, pelo maior risco de doença significativa nessa faixa etária."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar apenas sorologia para HIV e hepatites, sem outra conduta específica sobre o colo uterino.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a triagem para IST possa ser pertinente em determinados contextos, ela não substitui a investigação colposcópica específica indicada pelo achado citológico."
+      },
+      {
+        "letra": "D",
+        "texto": "Tranquilizar a paciente e repetir a citologia apenas em 3 anos, como se o exame fosse normal.",
+        "correta": false,
+        "justificativa": "Incorreta. Considerar o resultado como normal e postergar por 3 anos ignoraria uma alteração citológica que já indica necessidade de investigação, aumentando o risco de diagnóstico tardio."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em aula sobre biologia molecular do câncer cervical, o professor detalha o mecanismo pelo qual a oncoproteína E6 do HPV de alto risco compromete a função de p53, favorecendo a sobrevivência de células com dano genômico que, em condições normais, seriam eliminadas por apoptose. Esse mecanismo molecular específico envolve",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 8,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ativação direta da via mitocondrial de apoptose por E6, aumentando a morte celular programada.",
+        "correta": false,
+        "justificativa": "Incorreta. E6 tem efeito oposto: reduz a apoptose ao degradar p53, não a estimula por via mitocondrial."
+      },
+      {
+        "letra": "B",
+        "texto": "ligação de E6 a uma ubiquitina-ligase (E6-AP), promovendo ubiquitinação e degradação proteassomal de p53.",
+        "correta": true,
+        "justificativa": "A oncoproteína E6 recruta a ubiquitina-ligase celular E6-AP, formando um complexo que ubiquitina p53 e a direciona para degradação pelo proteassoma, eliminando funcionalmente o principal ponto de controle do ciclo celular em resposta a dano no DNA. Correta. Esse é exatamente o mecanismo molecular descrito na literatura: E6 associa-se à E6-AP, promovendo ubiquitinação e degradação de p53 pelo proteassoma."
+      },
+      {
+        "letra": "C",
+        "texto": "metilação do promotor do gene TP53, silenciando sua transcrição de forma epigenética.",
+        "correta": false,
+        "justificativa": "Incorreta. A inativação de p53 pelo HPV ocorre por degradação proteica pós-traducional mediada por E6, e não por silenciamento epigenético do gene."
+      },
+      {
+        "letra": "D",
+        "texto": "inibição direta da enzima telomerase, encurtando os telômeros e induzindo senescência celular.",
+        "correta": false,
+        "justificativa": "Incorreta. O mecanismo de E6 não envolve a telomerase; na verdade, outra proteína viral (E6, em outro contexto) pode ativar a telomerase em algumas células, mas esse não é o mecanismo relacionado à inativação de p53 descrito no enunciado."
+      }
+    ]
+  },
+  {
+    "enunciado": "Durante discussão epidemiológica sobre câncer do colo do útero, os estudantes analisam dados que apontam a infecção persistente por determinados subtipos virais como condição necessária, embora não suficiente, para o desenvolvimento da neoplasia cervical. Entre os fatores discutidos (multiparidade, tabagismo, uso de contraceptivos hormonais, imunossupressão), qual é considerado o principal fator de risco, sem o qual a doença praticamente não se desenvolve?",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 9,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Multiparidade isolada, independentemente de outros fatores.",
+        "correta": false,
+        "justificativa": "Incorreta. A multiparidade é reconhecida como cofator que aumenta o risco na presença de infecção por HPV, mas isoladamente não causa a neoplasia cervical."
+      },
+      {
+        "letra": "B",
+        "texto": "Infecção persistente por HPV oncogênico, especialmente os tipos 16 e 18.",
+        "correta": true,
+        "justificativa": "A infecção persistente por tipos oncogênicos de HPV, principalmente 16 e 18, é considerada condição necessária para o desenvolvimento do câncer cervical; os demais fatores (multiparidade, tabagismo, uso de contraceptivos) atuam como cofatores que aumentam o risco na presença da infecção viral persistente, mas não são causas isoladas suficientes. Correta. A persistência da infecção por HPV oncogênico é considerada condição necessária (embora não suficiente isoladamente) para a carcinogênese cervical."
+      },
+      {
+        "letra": "C",
+        "texto": "Uso isolado de contraceptivos hormonais combinados, sem outros fatores associados.",
+        "correta": false,
+        "justificativa": "Incorreta. O uso de contraceptivos hormonais combinados é cofator discutido na literatura, mas não é o principal fator de risco nem causa a doença na ausência de infecção por HPV."
+      },
+      {
+        "letra": "D",
+        "texto": "Tabagismo isolado, na ausência de infecção viral.",
+        "correta": false,
+        "justificativa": "Incorreta. O tabagismo é cofator que aumenta o risco em mulheres já infectadas pelo HPV, mas isoladamente, sem a infecção viral, não é a principal causa da neoplasia cervical."
+      }
+    ]
+  },
+  {
+    "enunciado": "Mulher de 35 anos procura a UBS relatando sangramento pós-coital recorrente nos últimos dois meses. Ao exame especular, observa-se lesão exofítica, friável, com sangramento ao toque, localizada no colo uterino. A citologia ainda não foi realizada nesta consulta. Diante desse achado ao exame especular, qual é a conduta prioritária?",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 10,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Repetir apenas a citologia oncótica em 12 meses, como rotina de rastreamento.",
+        "correta": false,
+        "justificativa": "Incorreta. Postergar a investigação para rastreamento de rotina desconsidera a gravidade do achado macroscópico já suspeito, retardando um diagnóstico potencialmente urgente."
+      },
+      {
+        "letra": "B",
+        "texto": "Realizar biópsia dirigida da lesão visível, independentemente do resultado citológico.",
+        "correta": true,
+        "justificativa": "Diante de lesão macroscopicamente suspeita (exofítica, friável, sangrante) ao exame especular, a biópsia dirigida deve ser realizada prontamente, independentemente do resultado da citologia, pela alta suspeita clínica de neoplasia invasora, que exige confirmação histopatológica sem demora. Correta. Lesão suspeita visível ao exame especular exige biópsia dirigida imediata, não devendo a conduta depender do resultado citológico, que pode inclusive ser normal em algumas neoplasias invasoras."
+      },
+      {
+        "letra": "C",
+        "texto": "Iniciar tratamento empírico com antifúngico vaginal e reavaliar em 30 dias.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há dados clínicos (corrimento, prurido, aspecto compatível) que sustentem hipótese de infecção fúngica como causa do sangramento e da lesão descrita; tratar empiricamente atrasaria o diagnóstico correto."
+      },
+      {
+        "letra": "D",
+        "texto": "Solicitar apenas ultrassonografia transvaginal antes de qualquer outra conduta.",
+        "correta": false,
+        "justificativa": "Incorreta. A ultrassonografia transvaginal não substitui a biópsia para confirmação histopatológica de lesão cervical suspeita visível ao exame especular."
+      }
+    ]
+  },
+  {
+    "enunciado": "Uma equipe de saúde da família planeja ações de imunização em parceria com escolas do território, com foco na prevenção primária do câncer do colo do útero. Segundo o Programa Nacional de Imunizações, a vacinação contra HPV é indicada, prioritariamente, para meninas e meninos em qual faixa etária, justificando-se essa escolha pelo momento anterior ao início da vida sexual?",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 11,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "0 a 2 anos, em dose única, junto ao calendário básico da primeira infância.",
+        "correta": false,
+        "justificativa": "Incorreta. A vacina contra HPV não está indicada para lactentes; a resposta imunológica e a lógica de prevenção antes da exposição sexual justificam a faixa etária mais próxima da puberdade."
+      },
+      {
+        "letra": "B",
+        "texto": "9 a 14 anos.",
+        "correta": true,
+        "justificativa": "O PNI prioriza a vacinação contra HPV para meninas e meninos de 9 a 14 anos, faixa etária de maior benefício imunológico e epidemiológico, por anteceder, na maioria dos casos, o início da vida sexual e a exposição ao vírus. Correta. A faixa de 9 a 14 anos é a prioritária no PNI, por anteceder, na maior parte dos casos, o início da vida sexual."
+      },
+      {
+        "letra": "C",
+        "texto": "18 a 26 anos, de forma obrigatória para toda a população.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a vacinação possa ser considerada em grupos específicos até faixas etárias mais avançadas, ela não é obrigatória de forma universal nessa faixa e não é a prioridade do programa."
+      },
+      {
+        "letra": "D",
+        "texto": "Apenas mulheres acima de 30 anos, como estratégia de rastreamento substitutivo.",
+        "correta": false,
+        "justificativa": "Incorreta. A vacina é medida de prevenção primária (antes da exposição ao vírus) e não substitui o rastreamento citológico, tampouco é indicada exclusivamente após os 30 anos."
+      }
+    ]
+  },
+  {
+    "enunciado": "Paciente com diagnóstico confirmado de carcinoma epidermoide de colo uterino é submetida a exames de estadiamento. O laudo descreve invasão tumoral que se estende ao paramétrio, sem atingir a parede pélvica e sem hidronefrose associada. Segundo o sistema de estadiamento FIGO, esse achado corresponde ao estágio",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 12,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "IA, tumor microscópico restrito ao colo uterino.",
+        "correta": false,
+        "justificativa": "Incorreta. O estágio IA descreve doença microinvasiva, identificada apenas microscopicamente, incompatível com invasão parametrial macroscópica descrita no caso."
+      },
+      {
+        "letra": "B",
+        "texto": "IB, tumor clinicamente visível, restrito ao colo uterino.",
+        "correta": false,
+        "justificativa": "Incorreta. O estágio IB descreve tumor clinicamente visível, mas ainda restrito ao colo uterino, sem extensão parametrial, o que não corresponde ao achado descrito."
+      },
+      {
+        "letra": "C",
+        "texto": "IIB, com invasão parametrial, sem atingir a parede pélvica.",
+        "correta": true,
+        "justificativa": "O estágio IIB caracteriza-se pela invasão parametrial sem atingir a parede pélvica; a extensão até a parede pélvica e/ou a presença de hidronefrose/rim não funcionante caracterizaria estágio IIIB, mais avançado. Correta. A invasão parametrial sem atingir a parede pélvica caracteriza exatamente o estágio IIB do sistema FIGO."
+      },
+      {
+        "letra": "D",
+        "texto": "IIIB, com extensão até a parede pélvica e/ou hidronefrose.",
+        "correta": false,
+        "justificativa": "Incorreta. O estágio IIIB exige extensão até a parede pélvica e/ou hidronefrose/exclusão renal, achados ausentes no caso descrito, que menciona apenas invasão parametrial sem esses critérios."
+      }
+    ]
+  },
+  {
+    "enunciado": "Durante revisão sobre vias de sinalização envolvidas na proliferação celular, os estudantes discutem o proto-oncogene RAS, frequentemente mutado em diversas neoplasias humanas. Em condições fisiológicas, RAS atua como uma proteína transdutora de sinal que se ativa transitoriamente após estímulo de fatores de crescimento. Quando mutado de forma oncogênica, RAS contribui para a carcinogênese porque",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 13,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "perde completamente sua função enzimática, tornando-se inerte.",
+        "correta": false,
+        "justificativa": "Incorreta. A mutação oncogênica de RAS não causa perda de função; ao contrário, resulta em ganho de função com ativação constitutiva."
+      },
+      {
+        "letra": "B",
+        "texto": "passa a ser constitutivamente ativo, estimulando proliferação celular independentemente de sinal externo.",
+        "correta": true,
+        "justificativa": "Mutações oncogênicas em RAS resultam em ganho de função, mantendo a proteína no estado ativado (ligada a GTP) de forma constitutiva, o que perpetua sinais mitogênicos via cascata de MAP-quinases mesmo sem estímulo de fatores de crescimento externos. Correta. A mutação mantém RAS permanentemente ativado, perpetuando sinais proliferativos independentemente de estímulo externo, mecanismo clássico de ganho de função oncogênica."
+      },
+      {
+        "letra": "C",
+        "texto": "passa a atuar como gene supressor tumoral, inibindo a proliferação celular.",
+        "correta": false,
+        "justificativa": "Incorreta. RAS é um proto-oncogene, não um gene supressor tumoral; sua mutação favorece, e não inibe, a proliferação celular."
+      },
+      {
+        "letra": "D",
+        "texto": "inibe permanentemente a via de MAP-quinases, bloqueando a transdução de sinal.",
+        "correta": false,
+        "justificativa": "Incorreta. RAS ativado estimula, e não inibe, a via de MAP-quinases, sendo esse justamente o mecanismo de propagação do sinal proliferativo."
+      }
+    ]
+  },
+  {
+    "enunciado": "Mulher de 38 anos, assintomática, é submetida à colposcopia após citologia mostrando HSIL. A biópsia dirigida confirma neoplasia intraepitelial cervical grau 3 (NIC III), com alterações comprometendo toda a espessura do epitélio, mas sem romper a membrana basal. A paciente questiona por que essa lesão, mesmo restrita ao epitélio, é tratada como condição de alto risco que exige intervenção. A explicação fisiopatológica mais adequada para essa conduta é que",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 14,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a NIC III já rompeu a membrana basal, configurando, na realidade, carcinoma invasor microscópico.",
+        "correta": false,
+        "justificativa": "Incorreta. Por definição, a NIC III é uma lesão intraepitelial — a membrana basal permanece íntegra; caso houvesse ruptura, o diagnóstico já seria de carcinoma invasor, e não de NIC III."
+      },
+      {
+        "letra": "B",
+        "texto": "a NIC III representa acúmulo progressivo de alterações do ciclo celular por perda funcional de p53 e pRb (mediada por E6/E7), comprometendo toda a espessura do epitélio e precedendo diretamente a invasão estromal.",
+        "correta": true,
+        "justificativa": "A NIC III reflete o acúmulo progressivo de alterações do ciclo celular decorrentes da ação persistente de E6/E7 sobre p53 e pRb, comprometendo toda a espessura do epitélio (por definição, sem romper a membrana basal), mas representando lesão precursora de alto risco, com potencial significativo de progressão para carcinoma invasor se não tratada. Correta. Essa é a explicação fisiopatológica correta: o comprometimento progressivo do ciclo celular por E6/E7 leva a alterações que ocupam toda a espessura epitelial, configurando lesão de alto risco para invasão."
+      },
+      {
+        "letra": "C",
+        "texto": "a NIC III é sempre reversível espontaneamente em poucas semanas, sem necessidade real de seguimento ou tratamento.",
+        "correta": false,
+        "justificativa": "Incorreta. A NIC III tem taxa de regressão espontânea muito menor que lesões de baixo grau, sendo considerada lesão de alto risco que exige tratamento (excisional, geralmente), e não apenas observação."
+      },
+      {
+        "letra": "D",
+        "texto": "a NIC III ocorre exclusivamente em mulheres HPV-negativas, sendo o vírus irrelevante nesse estágio da doença.",
+        "correta": false,
+        "justificativa": "Incorreta. A NIC III está fortemente associada à infecção persistente por HPV oncogênico; afirmar que o vírus é irrelevante contraria a fisiopatologia estabelecida da doença."
+      }
+    ]
+  },
+  {
+    "enunciado": "Mulher de 45 anos, tabagista, com citologia mostrando lesão intraepitelial escamosa de alto grau (HSIL), é submetida à colposcopia, que evidencia epitélio acetobranco denso, mosaico grosseiro e pontilhado grosseiro na zona de transformação, totalmente visível, sem lesão aparente no canal endocervical. Diante desse quadro colposcópico, antes de qualquer decisão terapêutica definitiva, a conduta mais adequada é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 15,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "realizar conização a frio imediatamente, sem biópsia prévia, por já haver citologia e colposcopia sugestivas.",
+        "correta": false,
+        "justificativa": "Incorreta. Ainda que citologia e colposcopia sejam sugestivas, a confirmação histopatológica por biópsia dirigida é etapa obrigatória antes de procedimento excisional como a conização."
+      },
+      {
+        "letra": "B",
+        "texto": "realizar biópsia dirigida das áreas de maior anormalidade colposcópica, para confirmação histopatológica antes de definir o tratamento excisional.",
+        "correta": true,
+        "justificativa": "Diante de achados colposcópicos anormais compatíveis com lesão de alto grau, a biópsia dirigida das áreas de maior anormalidade é etapa necessária antes de qualquer conduta excisional (como exérese da zona de transformação ou conização), confirmando o grau histológico da lesão e orientando o tratamento definitivo. Correta. A biópsia dirigida das áreas colposcopicamente mais alteradas confirma o diagnóstico histológico e orienta corretamente a conduta terapêutica subsequente."
+      },
+      {
+        "letra": "C",
+        "texto": "indicar histerectomia total imediata, independentemente de confirmação histológica prévia.",
+        "correta": false,
+        "justificativa": "Incorreta. Histerectomia é conduta desproporcional e não é indicada como primeira abordagem para NIC, mesmo de alto grau, sendo reservada a situações específicas após tratamento conservador adequado ou outras indicações ginecológicas."
+      },
+      {
+        "letra": "D",
+        "texto": "repetir apenas a citologia em 6 meses, postergando a colposcopia já realizada.",
+        "correta": false,
+        "justificativa": "Incorreta. Postergar a investigação diante de citologia e colposcopia já alteradas retarda desnecessariamente o diagnóstico definitivo e o tratamento oportuno."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em discussão sobre novas terapias-alvo em oncologia, os estudantes analisam o mecanismo de ação dos inibidores de CDK4/6, utilizados em alguns tumores hormônio-sensíveis (como certos subtipos de câncer de mama), estabelecendo paralelo com os mecanismos de controle do ciclo celular estudados nesta situação-problema. Esses fármacos atuam, mecanisticamente,",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 16,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "impedindo a fosforilação de pRb, mantendo-a ligada a E2F e bloqueando a transição de G1 para S.",
+        "correta": true,
+        "justificativa": "Os inibidores de CDK4/6 impedem a fosforilação de pRb pelos complexos ciclina D-CDK4/6; a pRb hipofosforilada permanece ligada ao fator de transcrição E2F, bloqueando a transcrição de genes necessários à transição G1/S e interrompendo a progressão do ciclo celular. Correta. Esse é exatamente o mecanismo de ação: bloqueio da fosforilação de pRb, mantendo-a ligada a E2F e impedindo a progressão do ciclo celular para a fase S."
+      },
+      {
+        "letra": "B",
+        "texto": "ativando diretamente formas mutadas de p53 para restaurar sua função supressora tumoral.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há restauração direta de p53 mutado por essa classe de fármacos; o alvo terapêutico é a via ciclina D-CDK4/6-pRb, não p53."
+      },
+      {
+        "letra": "C",
+        "texto": "inibindo a enzima topoisomerase II, impedindo o desenovelamento do DNA durante a replicação.",
+        "correta": false,
+        "justificativa": "Incorreta. A inibição da topoisomerase II é mecanismo de ação de outra classe de quimioterápicos (como antraciclinas e epipodofilotoxinas), não dos inibidores de CDK4/6."
+      },
+      {
+        "letra": "D",
+        "texto": "estabilizando os microtúbulos do fuso mitótico, impedindo a progressão da metáfase.",
+        "correta": false,
+        "justificativa": "Incorreta. A estabilização de microtúbulos é mecanismo de ação de taxanos, atuando na mitose propriamente dita, e não na transição G1/S regulada por pRb/CDK4-6."
+      }
+    ]
+  },
+  {
+    "enunciado": "Mulher de 41 anos recebe diagnóstico histopatológico confirmado de carcinoma epidermoide de colo uterino, estadiamento FIGO IIB (invasão parametrial sem atingir a parede pélvica). Durante consulta com a equipe de oncologia, questiona sobre as opções terapêuticas disponíveis para esse estágio da doença. A conduta terapêutica padrão, considerando as diretrizes atuais para esse estadiamento, é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 17,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cirurgia radical (histerectomia radical com linfadenectomia) isolada, em todos os casos desse estágio.",
+        "correta": false,
+        "justificativa": "Incorreta. A partir do estágio IIB, a invasão parametrial geralmente contraindica a cirurgia radical isolada como tratamento primário, sendo preferida a quimiorradioterapia."
+      },
+      {
+        "letra": "B",
+        "texto": "quimiorradioterapia concomitante, com cisplatina semanal como radiossensibilizante, associada à braquiterapia complementar.",
+        "correta": true,
+        "justificativa": "A partir do estágio IIB (invasão parametrial), o tratamento padrão do carcinoma de colo uterino é a quimiorradioterapia concomitante — radioterapia externa associada à braquiterapia, com cisplatina semanal como radiossensibilizante — reservando-se a cirurgia radical isolada para estágios mais iniciais (geralmente até IB2/IIA, conforme protocolos institucionais). Correta. Esse é o tratamento padrão reconhecido para doença localmente avançada (a partir de IIB): quimiorradioterapia concomitante com cisplatina, associada à braquiterapia."
+      },
+      {
+        "letra": "C",
+        "texto": "apenas acompanhamento clínico expectante, sem intervenção ativa nesse estágio.",
+        "correta": false,
+        "justificativa": "Incorreta. O acompanhamento expectante sem tratamento ativo não é conduta aceitável diante de neoplasia maligna confirmada em estágio localmente avançado, com potencial curativo se tratada adequadamente."
+      },
+      {
+        "letra": "D",
+        "texto": "quimioterapia neoadjuvante isolada, sem qualquer associação com radioterapia.",
+        "correta": false,
+        "justificativa": "Incorreta. A quimioterapia isolada, sem radioterapia associada, não é o tratamento padrão para esse estágio; o racional terapêutico envolve o efeito radiossensibilizante da quimioterapia combinada à radioterapia."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em relação aos mecanismos de escape da apoptose em células cronicamente infectadas por HPV oncogênico, contribuindo para o acúmulo progressivo de mutações e a evolução para neoplasia invasora, o principal mecanismo molecular envolvido é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 18,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aumento da expressão de caspases efetoras, acelerando a via apoptótica.",
+        "correta": false,
+        "justificativa": "Incorreta. O mecanismo de escape à apoptose envolve redução, e não aumento, da atividade pró-apoptótica mediada por p53; aumento de caspases favoreceria mais apoptose, não menos."
+      },
+      {
+        "letra": "B",
+        "texto": "degradação de p53 mediada por E6, reduzindo a transcrição de genes pró-apoptóticos como BAX.",
+        "correta": true,
+        "justificativa": "Ao degradar p53 via complexo com E6-AP, a proteína E6 reduz a transcrição de genes pró-apoptóticos (como BAX), permitindo que células com dano genômico acumulado escapem da apoptose e sobrevivam, favorecendo o acúmulo progressivo de mutações adicionais que impulsionam a carcinogênese. Correta. A degradação de p53 por E6 reduz a expressão de genes pró-apoptóticos como BAX, permitindo sobrevivência de células geneticamente instáveis."
+      },
+      {
+        "letra": "C",
+        "texto": "hiperexpressão de p21 funcional, bloqueando complexos ciclina-CDK de forma sustentada.",
+        "correta": false,
+        "justificativa": "Incorreta. p21 é efetor de p53 que inibe complexos ciclina-CDK; como E6 degrada p53, a expressão funcional de p21 tende a estar reduzida, e não hiperexpressa, nesse contexto."
+      },
+      {
+        "letra": "D",
+        "texto": "manutenção de pRb hipofosforilada e ativamente ligada a E2F, impedindo a progressão do ciclo celular.",
+        "correta": false,
+        "justificativa": "Incorreta. A ação de E7 sobre pRb é justamente inativá-la (hiperfosforilação funcional/degradação), liberando E2F e promovendo progressão do ciclo celular, e não mantendo pRb ativa ligada a E2F."
+      }
+    ]
+  },
+  {
+    "enunciado": "Mulher de 41 anos, recém-diagnosticada com carcinoma invasor de colo uterino, é acompanhada pela equipe de saúde da família enquanto aguarda encaminhamento à oncologia. Durante uma visita domiciliar, demonstra grande ansiedade, medo da morte e desinformação sobre a doença, tendo buscado informações contraditórias na internet. Considerando os princípios da comunicação de más notícias em saúde, a conduta mais adequada da equipe é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 19,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "evitar o assunto até que o oncologista assuma integralmente o caso, para não se comprometer com informações que não domina.",
+        "correta": false,
+        "justificativa": "Incorreta. Evitar o assunto deixa a paciente vulnerável à desinformação (como já demonstrado pela busca em fontes não confiáveis) e rompe o vínculo de cuidado que a equipe de saúde da família deve manter."
+      },
+      {
+        "letra": "B",
+        "texto": "fornecer informações claras e adequadas ao nível de compreensão da paciente, verificar seu entendimento, acolher suas dúvidas e emoções, e oferecer suporte contínuo, sem prometer resultados que não podem ser garantidos.",
+        "correta": true,
+        "justificativa": "A comunicação de más notícias deve seguir princípios como os do protocolo SPIKES: linguagem clara e acessível, verificação da compreensão da paciente, acolhimento ativo das emoções e dúvidas, e manutenção de vínculo de cuidado contínuo, sem prometer certezas sobre desfechos que a equipe não pode garantir. Correta. Esses são os princípios centrais da comunicação de más notícias: clareza, verificação de entendimento, acolhimento emocional e honestidade sem falsas garantias."
+      },
+      {
+        "letra": "C",
+        "texto": "informar apenas os familiares da paciente, evitando o contato direto sobre o diagnóstico e prognóstico com a própria paciente.",
+        "correta": false,
+        "justificativa": "Incorreta. Omitir informações da própria paciente fere sua autonomia e o direito à informação sobre sua própria condição de saúde, sendo eticamente inadequado, salvo situações excepcionais específicas."
+      },
+      {
+        "letra": "D",
+        "texto": "restringir-se a repassar o resultado do exame de forma objetiva, sem abrir espaço para perguntas ou expressão de sentimentos.",
+        "correta": false,
+        "justificativa": "Incorreta. Comunicação puramente objetiva, sem espaço para dúvidas e expressão emocional, não acolhe as necessidades psicossociais da paciente diante do impacto de um diagnóstico oncológico."
+      }
+    ]
+  },
+  {
+    "enunciado": "Gestores municipais de saúde avaliam estratégias para reduzir a incidência e a mortalidade por câncer do colo do útero em médio e longo prazo, considerando restrições orçamentárias e a necessidade de priorizar ações com melhor relação custo-efetividade. Entre as estratégias possíveis, qual é reconhecida como a mais custo-efetiva para essa finalidade, integrando prevenção primária e secundária?",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 20,
+    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tratamento quimioterápico precoce e universal de todas as mulheres HPV-positivas, independentemente de achados citológicos.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe indicação de quimioterapia para mulheres apenas HPV-positivas sem lesão neoplásica estabelecida; essa conduta não tem respaldo científico nem é custo-efetiva."
+      },
+      {
+        "letra": "B",
+        "texto": "Combinação de vacinação contra HPV na pré-adolescência com rastreamento citológico organizado da população-alvo.",
+        "correta": true,
+        "justificativa": "A combinação de vacinação contra HPV (prevenção primária, reduzindo a incidência de infecção pelos tipos oncogênicos mais prevalentes) com rastreamento citológico organizado (prevenção secundária, detectando precocemente lesões precursoras) é reconhecida internacionalmente como a estratégia mais custo-efetiva para reduzir incidência e mortalidade por câncer de colo do útero. Correta. Essa é a estratégia com melhor relação custo-efetividade reconhecida, integrando prevenção primária (vacina) e secundária (rastreamento organizado)."
+      },
+      {
+        "letra": "C",
+        "texto": "Rastreamento por ressonância magnética pélvica anual em toda a população feminina adulta.",
+        "correta": false,
+        "justificativa": "Incorreta. Ressonância magnética pélvica anual universal tem custo elevadíssimo e não é o método de rastreamento populacional recomendado para câncer de colo do útero, que se baseia na citologia (e testes de HPV, quando disponíveis)."
+      },
+      {
+        "letra": "D",
+        "texto": "Uso rotineiro de antibioticoterapia profilática em mulheres sexualmente ativas.",
+        "correta": false,
+        "justificativa": "Incorreta. Antibioticoterapia não tem papel na prevenção do câncer do colo do útero, cuja etiologia central é viral (HPV), e não bacteriana."
+      }
+    ]
+  },
+  {
+    "enunciado": "Homem de 61 anos, porteiro noturno, procura a UBS por sintomas urinários. O médico da unidade explica que, além do toque retal, será solicitado um exame laboratorial amplamente utilizado no rastreamento e seguimento do câncer de próstata, cujo valor pode se elevar tanto em neoplasias quanto em condições benignas como hiperplasia prostática e prostatites. Esse marcador é o",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 1,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "CA 19-9, marcador tumoral utilizado principalmente em neoplasias pancreáticas.",
+        "correta": false,
+        "justificativa": "Incorreta. CA 19-9 é utilizado principalmente no acompanhamento de neoplasias pancreáticas e biliares, sem relação direta com a avaliação prostática."
+      },
+      {
+        "letra": "B",
+        "texto": "antígeno prostático específico (PSA).",
+        "correta": true,
+        "justificativa": "O PSA (antígeno prostático específico) é o marcador sérico utilizado, em conjunto com o toque retal, na investigação inicial e no seguimento de doenças prostáticas, incluindo o câncer de próstata, embora não seja exclusivo de neoplasia (pode se elevar também em HPB e prostatites). Correta. O PSA é o marcador utilizado especificamente na avaliação e seguimento da próstata, elevando-se tanto em processos benignos quanto malignos."
+      },
+      {
+        "letra": "C",
+        "texto": "alfa-fetoproteína, marcador utilizado em hepatocarcinoma e tumores germinativos.",
+        "correta": false,
+        "justificativa": "Incorreta. A alfa-fetoproteína é utilizada no rastreamento e seguimento de hepatocarcinoma e de tumores germinativos, sem relação com a próstata."
+      },
+      {
+        "letra": "D",
+        "texto": "antígeno carcinoembrionário (CEA), utilizado principalmente no seguimento de câncer colorretal.",
+        "correta": false,
+        "justificativa": "Incorreta. O CEA é utilizado principalmente no seguimento do câncer colorretal e de outros tumores gastrointestinais, não sendo o marcador de escolha para avaliação prostática."
+      }
+    ]
+  },
+  {
+    "enunciado": "Após biópsia prostática de paciente com suspeita de neoplasia, o laudo histopatológico descreve o grau de diferenciação tumoral por meio da soma dos dois padrões arquiteturais glandulares mais representativos da amostra (o predominante e o segundo mais frequente), fornecendo informação prognóstica relevante. Esse sistema de graduação histológica é conhecido como escala de",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 2,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Bishop, utilizada para avaliação do colo uterino no trabalho de parto.",
+        "correta": false,
+        "justificativa": "Incorreta. O índice de Bishop avalia as condições cervicais para indução do trabalho de parto, sem qualquer relação com graduação tumoral prostática."
+      },
+      {
+        "letra": "B",
+        "texto": "Gleason.",
+        "correta": true,
+        "justificativa": "O escore de Gleason soma os dois padrões histológicos mais representativos do adenocarcinoma prostático (o predominante e o segundo mais comum na amostra), refletindo o grau de diferenciação tumoral e correlacionando-se diretamente com o prognóstico da doença. Correta. A escala de Gleason é especificamente utilizada para graduação histológica do adenocarcinoma de próstata, somando os dois padrões glandulares mais representativos."
+      },
+      {
+        "letra": "C",
+        "texto": "Child-Pugh, utilizada para avaliação de gravidade de hepatopatia crônica.",
+        "correta": false,
+        "justificativa": "Incorreta. Child-Pugh avalia a gravidade da disfunção hepática em cirrose, sem relação com neoplasia prostática."
+      },
+      {
+        "letra": "D",
+        "texto": "Glasgow, utilizada para avaliação do nível de consciência.",
+        "correta": false,
+        "justificativa": "Incorreta. A Escala de Coma de Glasgow avalia nível de consciência em pacientes neurológicos ou traumatizados, sem qualquer relação com graduação histológica de tumores."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em aula sobre disseminação neoplásica, discute-se que o câncer de próstata avançado apresenta padrão característico de disseminação à distância, explicado, entre outros fatores, pela drenagem venosa pélvica através do plexo venoso vertebral. Os principais sítios de metástase à distância do câncer de próstata avançado são",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 3,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ossos e linfonodos.",
+        "correta": true,
+        "justificativa": "O câncer de próstata dissemina-se preferencialmente por via linfática para linfonodos pélvicos e por via hematogênica para ossos, especialmente do esqueleto axial (coluna, pelve), explicando o padrão clássico de metástases dessa neoplasia. Correta. Ossos (especialmente esqueleto axial) e linfonodos regionais são os sítios metastáticos mais característicos e clinicamente relevantes do câncer de próstata avançado."
+      },
+      {
+        "letra": "B",
+        "texto": "pele e músculo esquelético.",
+        "correta": false,
+        "justificativa": "Incorreta. Metástases cutâneas e musculares são raras no câncer de próstata, não representando os sítios característicos dessa neoplasia."
+      },
+      {
+        "letra": "C",
+        "texto": "tireoide e glândula suprarrenal.",
+        "correta": false,
+        "justificativa": "Incorreta. Tireoide e suprarrenal não são sítios metastáticos característicos do câncer de próstata, ainda que metástases atípicas possam ocorrer excepcionalmente."
+      },
+      {
+        "letra": "D",
+        "texto": "baço e pâncreas.",
+        "correta": false,
+        "justificativa": "Incorreta. Baço e pâncreas não são sítios preferenciais de disseminação do câncer de próstata."
+      }
+    ]
+  },
+  {
+    "enunciado": "Durante discussão sobre diagnóstico diferencial de doenças prostáticas, o professor destaca que a hiperplasia prostática benigna (HPB) e o adenocarcinoma de próstata, apesar de acometerem o mesmo órgão, originam-se preferencialmente em regiões anatômicas distintas da glândula. Essa diferença topográfica é descrita como",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 4,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "HPB originando-se predominantemente na zona transicional, enquanto o câncer acomete mais a zona periférica.",
+        "correta": true,
+        "justificativa": "A HPB origina-se predominantemente na zona transicional da próstata (região periuretral), enquanto o adenocarcinoma prostático acomete mais frequentemente a zona periférica da glândula, achado relevante para o exame de toque retal (que avalia principalmente a zona periférica) e para a interpretação de biópsias dirigidas. Correta. Essa é a distribuição topográfica clássica: HPB na zona transicional e adenocarcinoma predominantemente na zona periférica."
+      },
+      {
+        "letra": "B",
+        "texto": "HPB originando-se predominantemente na zona periférica, enquanto o câncer acomete a zona transicional.",
+        "correta": false,
+        "justificativa": "Incorreta. A distribuição está invertida em relação ao que classicamente se descreve na literatura urológica."
+      },
+      {
+        "letra": "C",
+        "texto": "ambas as condições acometendo exclusivamente a zona central da próstata, sem diferença topográfica.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a zona central também possa ser acometida ocasionalmente, não é o padrão predominante nem para HPB nem para o câncer de próstata."
+      },
+      {
+        "letra": "D",
+        "texto": "ambas as condições acometendo exclusivamente a zona transicional, de forma indistinguível.",
+        "correta": false,
+        "justificativa": "Incorreta. HPB e câncer de próstata têm, de fato, distribuição topográfica preferencial distinta, o que é clinicamente relevante e não indistinguível."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em revisão de conceitos fundamentais de oncologia, os estudantes discutem o processo pelo qual células neoplásicas se disseminam de seu sítio de origem, implantam-se e proliferam em um órgão distante, formando um novo foco tumoral. Esse processo é denominado",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 5,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "invasão local, processo restrito ao tecido de origem do tumor.",
+        "correta": false,
+        "justificativa": "Incorreta. Invasão local descreve a infiltração de tecidos adjacentes ao tumor primário, processo distinto (embora relacionado) da disseminação a distância que caracteriza a metástase."
+      },
+      {
+        "letra": "B",
+        "texto": "metástase.",
+        "correta": true,
+        "justificativa": "Metástase é o processo de disseminação de células tumorais a partir do sítio primário, com implantação e crescimento de um novo foco neoplásico em órgão ou tecido distante, sendo característica definidora de malignidade. Correta. Metástase é exatamente o processo de disseminação, implantação e crescimento de células tumorais em sítio distante do tumor primário."
+      },
+      {
+        "letra": "C",
+        "texto": "displasia, alteração da maturação celular sem formação de novo foco tumoral.",
+        "correta": false,
+        "justificativa": "Incorreta. Displasia refere-se a alterações da maturação e organização celular, frequentemente pré-neoplásicas, sem implicar formação de novo foco tumoral a distância."
+      },
+      {
+        "letra": "D",
+        "texto": "metaplasia, substituição de um tipo celular diferenciado por outro, sem implantação à distância.",
+        "correta": false,
+        "justificativa": "Incorreta. Metaplasia é a substituição reversível de um tipo celular diferenciado por outro, em resposta a estímulo, sem qualquer relação com implantação tumoral a distância."
+      }
+    ]
+  },
+  {
+    "enunciado": "Homem de 61 anos procura a UBS pela primeira vez em anos, relatando aumento da frequência urinária noturna, jato urinário enfraquecido e sensação de esvaziamento incompleto da bexiga, sintomas que ele atribuía ao envelhecimento. Nunca realizou exames preventivos e desconhece o significado do PSA, demonstrando resistência ao toque retal. Diante desse quadro, qual é a conduta inicial mais adequada na Atenção Primária?",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 6,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Solicitar apenas ultrassonografia abdominal total, sem exame físico direcionado.",
+        "correta": false,
+        "justificativa": "Incorreta. A ultrassonografia abdominal isolada não substitui a avaliação clínica direcionada (toque retal) nem a dosagem de PSA na investigação inicial de sintomas prostáticos."
+      },
+      {
+        "letra": "B",
+        "texto": "Realizar toque retal e solicitar PSA sérico, além de acolher as preocupações do paciente sobre o exame físico.",
+        "correta": true,
+        "justificativa": "A avaliação inicial de paciente com sintomas urinários sugestivos de doença prostática deve incluir toque retal e dosagem de PSA na atenção primária, etapas que orientam a necessidade de investigação complementar e o encaminhamento especializado, sendo importante também o acolhimento das preocupações do paciente para viabilizar o exame físico. Correta. Toque retal e PSA são exames de primeira linha na investigação de sintomas urinários sugestivos de doença prostática, devendo ser acompanhados de acolhimento das preocupações do paciente."
+      },
+      {
+        "letra": "C",
+        "texto": "Encaminhar diretamente para biópsia prostática, sem qualquer avaliação clínica ou laboratorial prévia.",
+        "correta": false,
+        "justificativa": "Incorreta. Biópsia prostática não é conduta de primeira linha sem avaliação clínica e laboratorial prévia que justifique essa investigação invasiva."
+      },
+      {
+        "letra": "D",
+        "texto": "Iniciar antibioticoterapia empírica antes de qualquer investigação diagnóstica.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há indicação de antibioticoterapia empírica sem quadro clínico sugestivo de infecção e sem qualquer investigação diagnóstica prévia."
+      }
+    ]
+  },
+  {
+    "enunciado": "Durante anamnese detalhada, um paciente com suspeita de câncer de próstata relata que seu pai foi tratado da mesma doença ainda jovem. O médico explica que esse dado é clinicamente relevante para a estratificação de risco do paciente. Em relação ao componente hereditário do câncer de próstata, é correto afirmar que",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 7,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não há nenhuma associação genética ou familiar conhecida para essa neoplasia.",
+        "correta": false,
+        "justificativa": "Incorreta. Há associação genética e familiar bem estabelecida para o câncer de próstata, sendo a história familiar um dos principais fatores de risco não modificáveis reconhecidos."
+      },
+      {
+        "letra": "B",
+        "texto": "história familiar em parentes de primeiro grau (como pai ou irmão) aumenta o risco relativo de desenvolvimento da doença, havendo inclusive associação com mutações em genes como BRCA2.",
+        "correta": true,
+        "justificativa": "Homens com parentes de primeiro grau (pai, irmão) com câncer de próstata apresentam risco relativo aumentado da doença, refletindo componente hereditário reconhecido, com associação inclusive a mutações germinativas em genes como BRCA2, relevantes tanto para câncer de próstata quanto de mama/ovário na família. Correta. A história familiar em parentes de primeiro grau aumenta o risco, com associação documentada a mutações em genes como BRCA2, relevante para estratificação de risco e decisões sobre rastreamento."
+      },
+      {
+        "letra": "C",
+        "texto": "apenas mutações em BRCA2 protegem contra o desenvolvimento de câncer de próstata.",
+        "correta": false,
+        "justificativa": "Incorreta. Mutações em BRCA2 aumentam, e não protegem, o risco de câncer de próstata (além do risco de câncer de mama e ovário em familiares)."
+      },
+      {
+        "letra": "D",
+        "texto": "a herança genética relacionada ao câncer de próstata só é clinicamente relevante em mulheres da família.",
+        "correta": false,
+        "justificativa": "Incorreta. A herança genética relacionada ao câncer de próstata é relevante para os homens da família (parentes de primeiro grau), sendo esse justamente o dado utilizado na estratificação de risco."
+      }
+    ]
+  },
+  {
+    "enunciado": "O laudo de biópsia prostática de um paciente descreve escore de Gleason 8 (5+3). Ao explicar o resultado à família, o urologista destaca que a notação entre parênteses (5+3) tem significado prognóstico específico, distinto de uma soma equivalente obtida de outra forma (como 3+5). Sobre esse laudo, é correto afirmar que",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 8,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o resultado indica tumor bem diferenciado, de baixo risco, sem necessidade de tratamento imediato.",
+        "correta": false,
+        "justificativa": "Incorreta. Um escore de Gleason 8 indica tumor pouco diferenciado e de alto risco, e não tumor bem diferenciado de baixo risco."
+      },
+      {
+        "letra": "B",
+        "texto": "o resultado indica tumor pouco diferenciado, de alto risco, sendo o padrão mais indiferenciado (5) o predominante na amostra, o que confere pior prognóstico do que se o padrão predominante fosse o 3.",
+        "correta": true,
+        "justificativa": "No escore de Gleason, o primeiro número indica o padrão histológico predominante e o segundo o segundo mais frequente; Gleason 8 (5+3) indica tumor pouco diferenciado e de alto risco, com o padrão mais indiferenciado (grau 5) sendo o predominante, conferindo pior prognóstico do que a mesma soma obtida como 3+5 (padrão predominante menos agressivo). Correta. A notação (5+3) indica que o padrão predominante é o mais indiferenciado (grau 5), conferindo prognóstico pior do que se a soma fosse obtida com o padrão 3 como predominante (3+5), mesmo com soma total idêntica."
+      },
+      {
+        "letra": "C",
+        "texto": "o resultado indica ausência de neoplasia, compatível apenas com hiperplasia benigna.",
+        "correta": false,
+        "justificativa": "Incorreta. Um escore de Gleason é atribuído a tecido neoplásico (adenocarcinoma), não sendo compatível com ausência de neoplasia."
+      },
+      {
+        "letra": "D",
+        "texto": "a ordem dos números na notação (5+3) não tem qualquer significado prognóstico adicional além da soma total.",
+        "correta": false,
+        "justificativa": "Incorreta. A ordem dos números tem significado prognóstico relevante: o primeiro número (padrão predominante) influencia o prognóstico mais do que a soma isolada sugere."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em uma reunião de equipe sobre políticas de rastreamento oncológico, discute-se que a dosagem populacional rotineira do PSA em homens assintomáticos é tema controverso na literatura médica, apesar de sua ampla utilização clínica. Um dos principais dilemas éticos e de saúde pública relacionados a essa prática é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 9,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a ausência total de qualquer benefício comprovado do exame em qualquer contexto clínico.",
+        "correta": false,
+        "justificativa": "Incorreta. O PSA tem benefício documentado em determinados contextos (detecção precoce em grupos de risco), não sendo correto afirmar ausência total de benefício; o dilema é sobre o balanço risco-benefício populacional, e não sobre ausência completa de utilidade."
+      },
+      {
+        "letra": "B",
+        "texto": "o risco de sobrediagnóstico e sobretratamento de tumores indolentes, que poderiam não impactar a sobrevida do paciente, gerando efeitos adversos desnecessários do tratamento.",
+        "correta": true,
+        "justificativa": "O rastreamento por PSA pode identificar tumores de crescimento lento (indolentes) que não trariam impacto clínico relevante ao longo da vida do paciente, gerando sobrediagnóstico e submetendo pacientes a tratamentos (cirurgia, radioterapia) com efeitos adversos significativos (incontinência, disfunção erétil) sem benefício proporcional — por isso a decisão de rastrear deve ser compartilhada entre médico e paciente. Correta. Esse é o principal dilema ético/epidemiológico: sobrediagnóstico e sobretratamento de tumores que não ameaçariam a vida do paciente, com exposição desnecessária a efeitos adversos do tratamento."
+      },
+      {
+        "letra": "C",
+        "texto": "o fato de o exame ser extremamente caro e inacessível para a rede pública de saúde.",
+        "correta": false,
+        "justificativa": "Incorreta. O PSA é exame relativamente barato e amplamente disponível na rede pública; o dilema não está centrado em custo ou acesso, mas no balanço risco-benefício do rastreamento."
+      },
+      {
+        "letra": "D",
+        "texto": "a impossibilidade técnica de realizar o exame em qualquer faixa etária da população masculina.",
+        "correta": false,
+        "justificativa": "Incorreta. O exame pode ser realizado em qualquer faixa etária adulta; a controvérsia está relacionada à indicação populacional em massa, e não à viabilidade técnica do exame."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em aula de patologia sobre invasão tumoral, discute-se o processo pelo qual células neoplásicas degradam a membrana basal e componentes da matriz extracelular, etapa fundamental para invasão de tecidos vizinhos e posterior disseminação metastática. Esse processo depende, entre outros fatores, da ação de enzimas denominadas",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 10,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metaloproteinases de matriz.",
+        "correta": true,
+        "justificativa": "As metaloproteinases de matriz (MMPs) são enzimas proteolíticas que degradam componentes da matriz extracelular e da membrana basal, facilitando a invasão local das células tumorais e etapas subsequentes da cascata metastática, como a intravasão vascular. Correta. As metaloproteinases de matriz são as enzimas classicamente associadas à degradação da matriz extracelular e membrana basal no processo de invasão tumoral."
+      },
+      {
+        "letra": "B",
+        "texto": "hemoglobina glicada, marcador de controle glicêmico.",
+        "correta": false,
+        "justificativa": "Incorreta. Hemoglobina glicada é marcador de controle glicêmico em diabetes, sem qualquer relação com degradação de matriz extracelular."
+      },
+      {
+        "letra": "C",
+        "texto": "fator intrínseco gástrico, envolvido na absorção de vitamina B12.",
+        "correta": false,
+        "justificativa": "Incorreta. O fator intrínseco gástrico participa da absorção intestinal de vitamina B12, sem relação com invasão tumoral."
+      },
+      {
+        "letra": "D",
+        "texto": "lipase pancreática, envolvida na digestão de lipídeos.",
+        "correta": false,
+        "justificativa": "Incorreta. A lipase pancreática participa da digestão de lipídeos no trato gastrointestinal, sem qualquer papel na degradação da matriz extracelular tumoral."
+      }
+    ]
+  },
+  {
+    "enunciado": "Paciente de 78 anos, com diagnóstico de câncer de próstata localizado de baixo risco (Gleason 6, PSA baixo, estágio clínico inicial), apresenta múltiplas comorbidades e expectativa de vida limitada, estimada em poucos anos. Considerando as possibilidades terapêuticas disponíveis para esse cenário clínico específico, uma conduta aceita e frequentemente recomendada é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 11,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "vigilância ativa, com monitorização periódica de PSA, toque retal e reavaliação clínica, evitando tratamento definitivo imediato.",
+        "correta": true,
+        "justificativa": "Em tumores de próstata de baixo risco e pacientes com expectativa de vida limitada por idade avançada e comorbidades, a vigilância ativa é conduta aceita e frequentemente preferida, evitando os efeitos adversos de tratamentos definitivos (cirurgia, radioterapia) sem benefício proporcional de sobrevida nesse contexto específico. Correta. A vigilância ativa é abordagem reconhecida para tumores de baixo risco em pacientes com expectativa de vida limitada, equilibrando segurança oncológica com qualidade de vida."
+      },
+      {
+        "letra": "B",
+        "texto": "quimioterapia sistêmica citotóxica imediata, independentemente do baixo risco tumoral.",
+        "correta": false,
+        "justificativa": "Incorreta. Quimioterapia citotóxica não é indicada para doença localizada de baixo risco; é reservada a estágios avançados/metastáticos, geralmente após falha de outras terapias."
+      },
+      {
+        "letra": "C",
+        "texto": "orquiectomia bilateral em todos os casos, independentemente do risco tumoral ou da expectativa de vida.",
+        "correta": false,
+        "justificativa": "Incorreta. Orquiectomia bilateral (castração cirúrgica) é reservada a contextos de doença avançada hormônio-sensível, não sendo indicada rotineiramente em tumores localizados de baixo risco."
+      },
+      {
+        "letra": "D",
+        "texto": "radioterapia de corpo inteiro, técnica não indicada para tratamento localizado de próstata.",
+        "correta": false,
+        "justificativa": "Incorreta. Radioterapia de corpo inteiro não é técnica utilizada no tratamento do câncer de próstata localizado; a radioterapia empregada é dirigida à próstata (radioterapia externa conformacional ou braquiterapia)."
+      }
+    ]
+  },
+  {
+    "enunciado": "Homem de 61 anos, biópsia prostática com Gleason 8 (5+3), PSA de 42 ng/mL. A cintilografia óssea de corpo inteiro evidencia múltiplas lesões hipercaptantes em corpos vertebrais e ossos da bacia, compatíveis com metástases ósseas. Considerando a fisiopatologia da disseminação do câncer de próstata, a explicação mais adequada para esse padrão específico de acometimento ósseo (predomínio no esqueleto axial) é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 12,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "disseminação exclusivamente por contiguidade direta da próstata para os ossos pélvicos adjacentes, sem qualquer componente vascular.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a contiguidade possa ocorrer localmente em estágios avançados, o padrão de metástases ósseas a distância (coluna, bacia) descrito no caso é explicado pela disseminação vascular, e não apenas por contiguidade direta."
+      },
+      {
+        "letra": "B",
+        "texto": "disseminação hematogênica preferencial para o esqueleto axial, favorecida pela drenagem venosa prostática através do plexo venoso vertebral (plexo de Batson), que se comunica com a circulação vertebral sem passar obrigatoriamente pela circulação pulmonar.",
+        "correta": true,
+        "justificativa": "O câncer de próstata dissemina-se preferencialmente para o esqueleto axial (coluna, pelve) por via hematogênica através do plexo venoso vertebral (Batson), uma rede venosa avalvular que permite que células tumorais alcancem diretamente os corpos vertebrais e a pelve óssea, sem necessariamente passar pela circulação pulmonar primeiro, explicando o padrão de metástases ósseas observado. Correta. O plexo venoso de Batson é o mecanismo fisiopatológico clássico que explica a disseminação hematogênica preferencial do câncer de próstata para o esqueleto axial."
+      },
+      {
+        "letra": "C",
+        "texto": "disseminação linfática exclusiva para linfonodos cervicais, sem qualquer envolvimento ósseo direto.",
+        "correta": false,
+        "justificativa": "Incorreta. O padrão de disseminação descrito no caso é ósseo (coluna e bacia), não correspondendo a disseminação linfática cervical isolada."
+      },
+      {
+        "letra": "D",
+        "texto": "disseminação por via aérea, através de aspiração de células tumorais circulantes.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe mecanismo de disseminação metastática por via aérea/aspiração de células tumorais; essa opção não corresponde a nenhum mecanismo fisiopatológico reconhecido de metástase."
+      }
+    ]
+  },
+  {
+    "enunciado": "Paciente com câncer de próstata metastático, ainda sem tratamento hormonal prévio (hormônio-sensível), é encaminhado para terapia de privação androgênica como parte do tratamento sistêmico. Ao explicar o racional terapêutico dessa conduta, o oncologista destaca que a maioria dos adenocarcinomas prostáticos depende da sinalização androgênica para proliferação e sobrevivência celular. Com base nesse racional fisiopatológico, é correto afirmar que",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 13,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as células tumorais prostáticas dependem, em grande parte, da sinalização pela via do receptor androgênico para proliferação e sobrevivência, justificando o benefício da privação androgênica em reduzir a atividade tumoral.",
+        "correta": true,
+        "justificativa": "A maioria dos adenocarcinomas de próstata é hormônio-sensível, dependendo da sinalização pelo receptor androgênico para crescimento e sobrevivência celular; por isso, a privação androgênica (cirúrgica ou farmacológica) reduz a proliferação tumoral e controla temporariamente a doença metastática, embora não seja curativa a longo prazo, já que a maioria dos tumores eventualmente desenvolve resistência (progressão para doença resistente à castração). Correta. Esse é o racional fisiopatológico correto: a dependência androgênica da maioria dos tumores prostáticos justifica o benefício terapêutico da privação hormonal."
+      },
+      {
+        "letra": "B",
+        "texto": "os androgênios inibem diretamente a proliferação das células tumorais prostáticas, o que tornaria contraditória a privação androgênica.",
+        "correta": false,
+        "justificativa": "Incorreta. Os androgênios estimulam, e não inibem, a proliferação da maioria das células do adenocarcinoma prostático — por isso a privação androgênica reduz, e não aumenta, a atividade tumoral."
+      },
+      {
+        "letra": "C",
+        "texto": "a testosterona não tem qualquer papel relevante na biologia do adenocarcinoma de próstata.",
+        "correta": false,
+        "justificativa": "Incorreta. A testosterona tem papel central na biologia da maioria dos adenocarcinomas prostáticos, sendo o principal alvo terapêutico da privação androgênica."
+      },
+      {
+        "letra": "D",
+        "texto": "o bloqueio androgênico cura definitivamente a doença metastática em praticamente todos os casos, eliminando a necessidade de qualquer seguimento posterior.",
+        "correta": false,
+        "justificativa": "Incorreta. A privação androgênica controla a doença por período variável, mas a maioria dos tumores eventualmente progride para a forma resistente à castração, não sendo, portanto, tratamento curativo definitivo na doença metastática."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em discussão sobre biologia tumoral, o professor apresenta o conceito de expansão clonal, explicando que um tumor não é uma população celular homogênea, mas sim um conjunto dinâmico de subpopulações que evoluem ao longo do tempo, inclusive sob pressão seletiva do tratamento. Em relação a esse conceito, é correto afirmar que",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 14,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "todas as células de um tumor mantêm exatamente o mesmo genótipo da célula de origem, sem qualquer variação ao longo da progressão tumoral.",
+        "correta": false,
+        "justificativa": "Incorreta. Tumores são geneticamente heterogêneos e evoluem clonalmente ao longo do tempo, acumulando novas mutações; não mantêm genótipo idêntico ao longo de toda a progressão."
+      },
+      {
+        "letra": "B",
+        "texto": "subpopulações celulares acumulam mutações adicionais ao longo do tempo, originando subclones com maior capacidade proliferativa, invasiva ou de resistência a tratamentos, processo relevante inclusive para explicar recidivas após terapia inicialmente eficaz.",
+        "correta": true,
+        "justificativa": "A expansão clonal descreve a seleção progressiva de subclones tumorais com vantagens proliferativas, invasivas ou de resistência terapêutica, decorrentes do acúmulo de mutações adicionais ao longo da evolução do tumor — processo central para explicar tanto a progressão da doença quanto o desenvolvimento de resistência a tratamentos inicialmente eficazes, como na progressão do câncer de próstata para a forma resistente à castração. Correta. A expansão clonal explica exatamente esse fenômeno de seleção de subclones com vantagens adaptativas, incluindo resistência a tratamentos."
+      },
+      {
+        "letra": "C",
+        "texto": "a expansão clonal ocorre exclusivamente em tumores benignos, sem qualquer relevância para neoplasias malignas.",
+        "correta": false,
+        "justificativa": "Incorreta. A expansão clonal é conceito central na biologia de neoplasias malignas, sendo, inclusive, um dos principais mecanismos de progressão e resistência terapêutica nesse contexto."
+      },
+      {
+        "letra": "D",
+        "texto": "não há qualquer relação entre expansão clonal e o desenvolvimento de resistência a terapias hormonais ou quimioterápicas.",
+        "correta": false,
+        "justificativa": "Incorreta. A expansão clonal está diretamente relacionada ao desenvolvimento de resistência terapêutica, como na seleção de subclones resistentes à privação androgênica no câncer de próstata avançado."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em revisão sobre a cascata metastática, os estudantes descrevem as etapas necessárias para que uma célula tumoral circulante origine um novo foco de crescimento em órgão distante, após ter alcançado a corrente sanguínea (intravasão). A sequência correta dos eventos subsequentes até a colonização do novo tecido é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 15,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "adesão da célula tumoral circulante ao endotélio do órgão-alvo, seguida de diapedese através da parede vascular (extravasamento) e, por fim, colonização e crescimento no novo microambiente tecidual.",
+        "correta": true,
+        "justificativa": "Após a intravasão, as células tumorais circulantes que sobrevivem ao estresse hemodinâmico e imunológico da corrente sanguínea aderem ao endotélio do órgão-alvo, atravessam a parede vascular por diapedese (extravasamento) e colonizam o novo microambiente tecidual, onde podem proliferar e formar um foco metastático estabelecido. Correta. Essa é a sequência correta da cascata metastática após a intravasão: adesão endotelial, extravasamento por diapedese e colonização tecidual."
+      },
+      {
+        "letra": "B",
+        "texto": "apoptose imediata e obrigatória de toda célula tumoral ao entrar na corrente sanguínea, impedindo qualquer possibilidade de metástase.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a maioria das células tumorais circulantes efetivamente sofra apoptose (anoikis) ou seja eliminada pelo sistema imune, isso não é obrigatório para todas elas — algumas sobrevivem e originam metástases, o que contraria a afirmação de eliminação total e obrigatória."
+      },
+      {
+        "letra": "C",
+        "texto": "fusão espontânea da célula tumoral com hemácias circulantes, mecanismo necessário para sua sobrevivência vascular.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há mecanismo fisiológico reconhecido de fusão entre células tumorais e hemácias como etapa necessária da cascata metastática."
+      },
+      {
+        "letra": "D",
+        "texto": "eliminação renal direta da célula tumoral circulante, sem qualquer interação com o endotélio vascular.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe mecanismo de eliminação renal direta de células tumorais circulantes como via de \"depuração\" fisiológica relevante nesse processo."
+      }
+    ]
+  },
+  {
+    "enunciado": "Comparando diretrizes de diferentes entidades sobre o rastreamento populacional do câncer de próstata por PSA em homens assintomáticos de risco médio, discute-se que há certa divergência de ênfase entre órgãos governamentais de saúde pública e sociedades de especialidade médica. Considerando as evidências atuais, a recomendação mais adequada para essa população é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 16,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "rastreamento obrigatório em massa a partir dos 40 anos, sem qualquer discussão individualizada sobre riscos e benefícios.",
+        "correta": false,
+        "justificativa": "Incorreta. Rastreamento obrigatório em massa, sem discussão individualizada, não é a recomendação atual baseada em evidências, dado o risco de sobrediagnóstico já discutido."
+      },
+      {
+        "letra": "B",
+        "texto": "tomada de decisão compartilhada entre médico e paciente, geralmente a partir dos 50 anos (ou mais precocemente em grupos de maior risco), ponderando riscos (sobrediagnóstico, biópsias desnecessárias) e benefícios (detecção precoce) do PSA.",
+        "correta": true,
+        "justificativa": "As diretrizes atuais recomendam decisão compartilhada entre médico e paciente, informando riscos (sobrediagnóstico, biópsias desnecessárias, efeitos adversos do tratamento) e benefícios (detecção precoce de tumores clinicamente relevantes) do rastreamento por PSA, geralmente a partir dos 50 anos em homens de risco médio, ou mais cedo (45 anos) em grupos de maior risco (história familiar, ascendência afrodescendente). Correta. A decisão compartilhada, com discussão individualizada de riscos e benefícios a partir dos 50 anos (ou antes, em grupos de risco), é a recomendação atual baseada em evidências."
+      },
+      {
+        "letra": "C",
+        "texto": "proibição total da realização do exame de PSA em qualquer idade ou contexto clínico.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há recomendação de proibição total do exame; a controvérsia está relacionada à indicação populacional em massa, não à disponibilidade do exame para decisão individualizada."
+      },
+      {
+        "letra": "D",
+        "texto": "rastreamento indicado apenas em mulheres com história familiar de câncer de próstata, sem qualquer recomendação para homens.",
+        "correta": false,
+        "justificativa": "Incorreta. A frase contém erro conceitual grave: câncer de próstata acomete homens (a próstata é órgão exclusivamente masculino), não sendo aplicável a mulheres."
+      }
+    ]
+  },
+  {
+    "enunciado": "Durante consulta, um paciente demonstra forte resistência ao exame de toque retal, relatando vergonha e comentários jocosos de colegas de trabalho sobre o procedimento, o que o levou a adiar a investigação diagnóstica por meses. Do ponto de vista da atuação médica centrada na pessoa, a conduta mais adequada da equipe de saúde diante dessa resistência é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 17,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ignorar a resistência do paciente e proceder ao exame sem qualquer esclarecimento adicional ou construção de vínculo.",
+        "correta": false,
+        "justificativa": "Incorreta. Ignorar a resistência do paciente e proceder sem qualquer diálogo pode comprometer a confiança na relação médico-paciente e gerar trauma ou nova recusa a exames futuros."
+      },
+      {
+        "letra": "B",
+        "texto": "acolher a preocupação do paciente, explicar tecnicamente a importância e a técnica do exame de forma clara e respeitosa, e construir vínculo de confiança antes de proceder, sem julgamento moral sobre seus receios.",
+        "correta": true,
+        "justificativa": "O cuidado centrado na pessoa exige acolhimento das preocupações do paciente, esclarecimento técnico claro e respeitoso sobre a importância e a técnica do exame, e construção de vínculo de confiança antes de proceder, reduzindo barreiras culturais e emocionais que podem atrasar o diagnóstico precoce de doenças graves. Correta. O acolhimento respeitoso, associado a esclarecimento técnico adequado, é a conduta que melhor concilia a necessidade clínica do exame com o cuidado centrado na pessoa."
+      },
+      {
+        "letra": "C",
+        "texto": "substituir definitivamente o exame físico por exames de imagem, sem qualquer justificativa técnica para essa substituição.",
+        "correta": false,
+        "justificativa": "Incorreta. Substituir o exame físico por exames de imagem sem justificativa técnica clara não é conduta baseada em evidências e pode gerar custos e atrasos desnecessários."
+      },
+      {
+        "letra": "D",
+        "texto": "encaminhar o paciente para outro serviço de saúde, sem qualquer orientação ou tentativa de acolhimento na própria consulta.",
+        "correta": false,
+        "justificativa": "Incorreta. Encaminhar sem qualquer tentativa de acolhimento transfere o problema sem resolver a barreira de comunicação, além de poder gerar sensação de abandono no paciente."
+      }
+    ]
+  },
+  {
+    "enunciado": "Em um município de médio porte, o fluxo de regulação do SUS para investigação de suspeita de câncer de próstata na atenção primária é discutido em uma reunião de gestão. O objetivo é conciliar diagnóstico precoce e uso racional dos recursos especializados disponíveis, evitando tanto encaminhamentos desnecessários quanto atrasos graves no diagnóstico. A conduta que melhor atende a esse objetivo é",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 18,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "encaminhar todo paciente com qualquer valor de PSA, mesmo discretamente alterado, diretamente para cirurgia oncológica, sem avaliação urológica prévia.",
+        "correta": false,
+        "justificativa": "Incorreta. Encaminhar diretamente para cirurgia oncológica sem avaliação urológica e confirmação diagnóstica prévia (biópsia) é conduta inadequada e não segue o fluxo racional de investigação."
+      },
+      {
+        "letra": "B",
+        "texto": "realizar avaliação clínica inicial completa (toque retal, PSA, sintomas urinários) na UBS, encaminhando ao urologista os casos com critérios de suspeita definidos em protocolo de regulação, conforme fluxo pactuado na rede.",
+        "correta": true,
+        "justificativa": "O fluxo adequado de regulação do SUS prevê avaliação clínica inicial completa na atenção primária (toque retal, PSA, avaliação de sintomas), com encaminhamento regulado ao urologista dos casos que atendem a critérios de suspeita definidos em protocolo, otimizando o uso dos recursos especializados e reduzindo tanto encaminhamentos desnecessários quanto demora indevida nos casos que realmente necessitam de avaliação especializada. Correta. Essa é a conduta que concilia diagnóstico precoce e uso racional de recursos, seguindo fluxo de regulação com critérios definidos de encaminhamento."
+      },
+      {
+        "letra": "C",
+        "texto": "não encaminhar nenhum paciente à atenção especializada, mantendo toda a investigação exclusivamente na atenção primária, independentemente dos achados.",
+        "correta": false,
+        "justificativa": "Incorreta. Não encaminhar nenhum paciente à atenção especializada, independentemente dos achados, pode atrasar o diagnóstico de casos que realmente necessitam de avaliação urológica e biópsia."
+      },
+      {
+        "letra": "D",
+        "texto": "solicitar diretamente biópsia prostática na própria UBS, sem qualquer avaliação especializada prévia.",
+        "correta": false,
+        "justificativa": "Incorreta. Biópsia prostática é procedimento especializado que exige avaliação urológica prévia, não sendo indicado solicitá-la diretamente na atenção primária sem critérios clínicos e laboratoriais que a justifiquem."
+      }
+    ]
+  },
+  {
+    "enunciado": "Paciente com câncer de próstata localmente avançado (sem metástases à distância confirmadas, mas com invasão local significativa) é discutido em reunião multidisciplinar de oncologia para definição do plano terapêutico. Considerando as possibilidades terapêuticas atuais reconhecidas para esse estágio da doença, é correto afirmar que",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 19,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a radioterapia associada à terapia de privação androgênica é uma opção terapêutica reconhecida e com benefício de sobrevida demonstrado nesse cenário.",
+        "correta": true,
+        "justificativa": "No câncer de próstata localmente avançado, a radioterapia combinada à terapia de privação androgênica é estratégia terapêutica reconhecida, com benefício de sobrevida demonstrado em ensaios clínicos, sendo uma das principais opções de tratamento com intenção curativa nesse cenário, ao lado da cirurgia radical em casos selecionados. Correta. A combinação de radioterapia com privação androgênica é opção terapêutica reconhecida e validada por evidência científica para esse estágio da doença."
+      },
+      {
+        "letra": "B",
+        "texto": "a única opção terapêutica válida para doença localmente avançada é a prostatectomia radical isolada, sem qualquer terapia associada.",
+        "correta": false,
+        "justificativa": "Incorreta. A prostatectomia radical isolada nem sempre é suficiente ou indicada em doença localmente avançada; frequentemente há necessidade de terapia adjuvante/combinada, e a radioterapia associada à hormonioterapia é alternativa validada."
+      },
+      {
+        "letra": "C",
+        "texto": "a quimioterapia citotóxica sistêmica é sempre a primeira linha de tratamento para doença localmente avançada, independentemente do estágio.",
+        "correta": false,
+        "justificativa": "Incorreta. A quimioterapia citotóxica sistêmica não é a primeira linha para doença localmente avançada (não metastática); é reservada principalmente para estágios metastáticos, especialmente resistentes à castração."
+      },
+      {
+        "letra": "D",
+        "texto": "não existe qualquer tratamento eficaz disponível para câncer de próstata localmente avançado, sendo indicados apenas cuidados paliativos exclusivos.",
+        "correta": false,
+        "justificativa": "Incorreta. Existem tratamentos com intenção curativa reconhecidos para doença localmente avançada (radioterapia + hormonioterapia, cirurgia em casos selecionados), não sendo correto afirmar ausência de tratamento eficaz."
+      }
+    ]
+  },
+  {
+    "enunciado": "Comparando as políticas de rastreamento do câncer de próstata preconizadas pelo Ministério da Saúde brasileiro e por sociedades de especialidade, como a Sociedade Brasileira de Urologia, discute-se em uma aula de saúde coletiva as diferenças de ênfase entre essas recomendações. É correto afirmar que",
+    "texto_base": null,
+    "fase_alvo": 4,
+    "uc_slug": "med_unidavi_f04_uc01_proliferacao_celular",
+    "sp_referencia": null,
+    "tema": null,
+    "subtema": null,
+    "area_clinica": null,
+    "nivel_bloom": null,
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [],
+    "oa_slugs": [],
+    "tags": [],
+    "referencia": null,
+    "fonte_geracao": "porta_b:docx_uc1_fase4",
+    "_num": 20,
+    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as duas entidades têm posicionamento idêntico e não há qualquer controvérsia sobre o tema no cenário brasileiro.",
+        "correta": false,
+        "justificativa": "Incorreta. Há divergência de ênfase real e documentada entre essas entidades quanto à recomendação de rastreamento populacional por PSA."
+      },
+      {
+        "letra": "B",
+        "texto": "o Ministério da Saúde não recomenda rastreamento populacional rotineiro por PSA, priorizando decisão individualizada frente às incertezas de benefício líquido, enquanto sociedades de especialidade tendem a valorizar mais ativamente a discussão do rastreamento a partir dos 50 anos (ou antes, em grupos de risco).",
+        "correta": true,
+        "justificativa": "Há divergência de ênfase entre o Ministério da Saúde, que não recomenda rastreamento populacional rotineiro por PSA devido às incertezas sobre o benefício líquido em nível populacional, e sociedades de especialidade (como a SBU), que tendem a recomendar de forma mais ativa a discussão do rastreamento a partir dos 50 anos (ou antes, em grupos de risco), evidenciando a necessidade de decisão compartilhada baseada em evidências e adaptada ao contexto individual do paciente. Correta. Essa descrição reflete corretamente a divergência de posicionamento entre as diretrizes do Ministério da Saúde e das sociedades de especialidade sobre o tema."
+      },
+      {
+        "letra": "C",
+        "texto": "nenhuma das duas entidades reconhece o PSA como exame clinicamente válido para qualquer finalidade.",
+        "correta": false,
+        "justificativa": "Incorreta. Ambas as entidades reconhecem a validade clínica do PSA como ferramenta diagnóstica e de seguimento; a controvérsia está relacionada à indicação de rastreamento populacional em massa, não à validade do exame em si."
+      },
+      {
+        "letra": "D",
+        "texto": "o rastreamento por toque retal foi formalmente abolido por ambas as entidades, sendo considerado obsoleto.",
+        "correta": false,
+        "justificativa": "Incorreta. O toque retal continua sendo parte da avaliação clínica recomendada na investigação de doenças prostáticas, não tendo sido abolido por nenhuma das entidades."
+      }
+    ]
+  }
+]

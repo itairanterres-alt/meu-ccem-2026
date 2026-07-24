@@ -94,11 +94,19 @@ begin
     'estado', sq.estado,
     'ordem', sq.ordem,
     'enunciado', q.enunciado,
-    'vinheta', q.vinheta,
-    'alt_a', q.alt_a,
-    'alt_b', q.alt_b,
-    'alt_c', q.alt_c,
-    'alt_d', q.alt_d
+    'texto_base', q.texto_base
+  );
+
+  -- alternativas na ordem de exibição embaralhada do item; enquanto o item
+  -- está 'aberta', NÃO enviamos o flag `correta` (a letra é só um id opaco).
+  resultado := resultado || jsonb_build_object(
+    'alternativas',
+    (select jsonb_agg(
+       jsonb_build_object('posicao', pos.ord, 'letra', a.letra, 'texto', a.texto)
+       order by pos.ord)
+     from unnest(sq.ordem_alternativas) with ordinality as pos(letra, ord)
+     join public.questao_alternativas a
+       on a.questao_id = sq.questao_id and a.letra = pos.letra)
   );
 
   select * into r
@@ -114,13 +122,14 @@ begin
   -- gabarito e justificativas só depois do travamento
   if sq.estado in ('travada', 'discutida') then
     resultado := resultado || jsonb_build_object(
-      'gabarito', q.gabarito,
-      'justificativa_geral', q.justificativa_geral,
-      'just_a', q.just_a,
-      'just_b', q.just_b,
-      'just_c', q.just_c,
-      'just_d', q.just_d,
-      'acertei', (r.alternativa is not null and r.alternativa = q.gabarito)
+      'gabarito', (select letra from public.questao_alternativas
+                   where questao_id = sq.questao_id and correta),
+      'justificativas',
+        (select jsonb_object_agg(letra, justificativa)
+         from public.questao_alternativas where questao_id = sq.questao_id),
+      'acertei', (r.alternativa is not null and exists (
+        select 1 from public.questao_alternativas
+        where questao_id = sq.questao_id and letra = r.alternativa and correta))
     );
   end if;
 
@@ -152,6 +161,12 @@ begin
     raise exception 'Item não encontrado';
   end if;
 
+  -- a letra precisa existir entre as alternativas desta questão
+  if not exists (select 1 from public.questao_alternativas
+                 where questao_id = sq.questao_id and letra = upper(trim(p_alternativa))) then
+    raise exception 'Alternativa inexistente para esta questão';
+  end if;
+
   select status into st from public.sessoes where id = sq.sessao_id;
 
   if st <> 'em_andamento' or sq.estado <> 'aberta' then
@@ -175,11 +190,13 @@ end;
 $$;
 
 -- ---------- Distribuição por alternativa (projeção) ----------
--- Retorna as quatro alternativas com contagem (zero incluído).
--- Disponível apenas com o item travado/discutido — nunca antes.
+-- Retorna as quatro alternativas na ordem de EXIBIÇÃO do item (embaralhada),
+-- com texto, contagem (zero incluído) e flag `correta`. Só contagens
+-- agregadas, nunca linhas individuais. Disponível apenas com o item
+-- travado/discutido — nunca antes.
 
 create or replace function public.rpc_distribuicao(p_sessao_questao_id uuid)
-returns table (alternativa text, contagem bigint)
+returns table (posicao int, letra char(1), texto text, correta boolean, contagem bigint)
 language plpgsql stable security definer
 set search_path = public
 as $$
@@ -209,14 +226,17 @@ begin
   end if;
 
   return query
-  select alt.a, count(r.id)
-  from (values ('A'), ('B'), ('C'), ('D')) as alt (a)
+  select pos.ord::int, a.letra, a.texto, a.correta,
+         count(r.id)
+  from unnest(sq.ordem_alternativas) with ordinality as pos(letra, ord)
+  join public.questao_alternativas a
+    on a.questao_id = sq.questao_id and a.letra = pos.letra
   left join public.respostas r
     on r.sessao_id = sq.sessao_id
    and r.questao_id = sq.questao_id
-   and r.alternativa = alt.a
-  group by alt.a
-  order by alt.a;
+   and r.alternativa = a.letra
+  group by pos.ord, a.letra, a.texto, a.correta
+  order by pos.ord;
 end;
 $$;
 

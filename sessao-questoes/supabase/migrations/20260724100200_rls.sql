@@ -11,6 +11,7 @@
 
 alter table public.profiles             enable row level security;
 alter table public.questoes             enable row level security;
+alter table public.questao_alternativas enable row level security;
 alter table public.questao_versoes      enable row level security;
 alter table public.sessoes              enable row level security;
 alter table public.sessao_questoes      enable row level security;
@@ -63,6 +64,26 @@ create policy "staff edita"
 create policy "admin exclui"
   on public.questoes for delete
   using (public.fn_is_admin());
+
+-- ---------- questao_alternativas ----------
+-- Espelha questoes: staff lê o banco; aluno lê só após o item ser travado
+-- (revisão pós-sessão). Escrita é do staff. O gabarito (correta) fica
+-- oculto ao aluno durante a sessão porque, com o item aberto, ele recebe
+-- as alternativas via rpc_ver_item (sem `correta`) e não tem SELECT direto
+-- aqui até o travamento.
+
+create policy "staff le alternativas"
+  on public.questao_alternativas for select
+  using (public.fn_is_staff());
+
+create policy "aluno le alternativas pos travamento"
+  on public.questao_alternativas for select
+  using (public.fn_questao_liberada_para_aluno(questao_id));
+
+create policy "staff escreve alternativas"
+  on public.questao_alternativas for all
+  using (public.fn_is_staff())
+  with check (public.fn_is_staff());
 
 -- ---------- questao_versoes ----------
 

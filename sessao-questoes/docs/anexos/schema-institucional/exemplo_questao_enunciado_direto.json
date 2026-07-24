@@ -1,0 +1,30 @@
+{
+  "tipo": "questao",
+  "fase_alvo": 1,
+  "uc_slug": "med_unidavi_f01_uc02_concepcao_formacao_ser_humano",
+  "tema": "Foliculogênese — modelo das duas células",
+  "subtema": "Compartimentalização da esteroidogênese ovariana",
+  "cenario_origem": ["conferencia", "sessao_tutorial"],
+  "competencia_dcn_2025": ["dcn2025_comp_21"],
+  "nivel_bloom": "compreensao",
+  "area_clinica": "ciclo_basico",
+  "dificuldade_editorial": "medio",
+  "tags": ["foliculogenese", "esteroidogenese", "eixo_reprodutor"],
+  "texto_base": null,
+  "enunciado": "No modelo das duas células do folículo ovariano, qual hormônio atua sobre as células da teca para estimular a produção de androgênios?",
+  "alternativas": [
+    {"letra":"A","texto":"Hormônio luteinizante","correta":true,"justificativa":"Correta. O LH atua nos receptores das células da teca, estimulando a síntese de androgênios, que difundem para a granulosa e são aromatizados a estrogênios."},
+    {"letra":"B","texto":"Hormônio folículo-estimulante","correta":false,"justificativa":"Incorreta. O FSH age sobre as células da granulosa, induzindo a aromatase; não é o estímulo primário da teca. Quem troca os compartimentos marca esta."},
+    {"letra":"C","texto":"Estradiol","correta":false,"justificativa":"Incorreta. O estradiol é produto final da aromatização na granulosa, não o estímulo sobre a teca."},
+    {"letra":"D","texto":"Progesterona","correta":false,"justificativa":"Incorreta. A progesterona predomina na fase lútea pós-ovulatória e não comanda a produção androgênica da teca."}
+  ],
+  "referencia": "HALL, J.E. Guyton & Hall — Tratado de Fisiologia Médica. 14ª ed. Rio de Janeiro: GEN, 2021. Cap. 82.",
+  "fonte_geracao": "capi-questoes-enamed v1.3",
+  "status_curadoria": "pendente",
+  "disponibilidade": "disponivel",
+  "meses_desde_ultimo_uso": null,
+  "versao": 1,
+  "uso_em_avaliacoes": {"total_avaliativo":0,"ultima_avaliacao_em":null,"historico":[]},
+  "performance": {"n_respostas_treino":0,"n_respostas_avaliativo":0,"taxa_acerto_treino":null,"taxa_acerto_avaliativo":null,"dificuldade_tri_b":null,"discriminacao_tri_a":null},
+  "auditoria": {"criada_por":"capi-questoes-enamed v1.3","criada_em":"2026-07-04T00:00:00Z","curada_por":null,"curada_em":null,"edicoes":[]}
+}

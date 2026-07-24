@@ -8,7 +8,9 @@ Fatia do ecossistema MED-UNIDAVI 2027 — o que precisa nascer certo é o **sche
 
 **Passo 1 de 4** (conforme plano de trabalho): estrutura + migrations para revisão do schema. **Nenhuma UI ainda** — o schema deve ser aprovado antes.
 
-Leia `docs/revisao-schema.md`: decisões tomadas, divergências em relação ao rascunho da §5 do brief, e as perguntas em aberto (incluindo os anexos da §10, que ainda não chegaram ao repositório).
+O schema foi **realinhado ao contrato institucional** `schema_questao_med_unidavi.json` (o `SCHEMA_OUTPUT` da §10, encontrado dentro da skill `capi-questoes-enamed`) — que prevalece sobre o rascunho da §5. As 40 questões reais da amostra foram carregadas no formato canônico e o fluxo inteiro revalidado sob RLS.
+
+Leia `docs/revisao-schema.md`: a reconciliação com o SCHEMA_OUTPUT, as decisões, o que foi resolvido pelo coordenador e as perguntas em aberto. Fontes de verdade curriculares em `docs/anexos/schema-institucional/`.
 
 ## Stack (fechada)
 

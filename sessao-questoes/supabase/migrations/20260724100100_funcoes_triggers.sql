@@ -127,9 +127,29 @@ create trigger profile_protegido
   for each row execute function public.trg_profile_protegido();
 
 -- ---------- Versionamento de questões ----------
--- Edição de CONTEÚDO grava o snapshot da versão anterior em
--- questao_versoes e incrementa `versao`. Mudança só de status
--- (pendente -> curada) não gera versão.
+-- Edição de CONTEÚDO grava o snapshot da versão anterior (linha +
+-- alternativas) em questao_versoes e incrementa `versao`. Mudança só de
+-- status (pendente <-> curado) não gera versão.
+--
+-- As alternativas vivem em questao_alternativas, mas o documento canônico
+-- completo (incl. o array `alternativas`) é mantido em `payload`. Comparar
+-- os campos de conteúdo projetados + payload->'alternativas' cobre também
+-- edição de alternativa, desde que o editor/importador mantenha o payload
+-- em sincronia (o que a Porta A/B fazem por construção).
+
+create or replace function public.fn_snapshot_questao(p_id uuid)
+returns jsonb
+language sql stable security definer
+set search_path = public
+as $$
+  select jsonb_build_object(
+    'questao', to_jsonb(q),
+    'alternativas', coalesce(
+      (select jsonb_agg(to_jsonb(a) order by a.letra)
+       from public.questao_alternativas a where a.questao_id = q.id), '[]'::jsonb)
+  )
+  from public.questoes q where q.id = p_id
+$$;
 
 create or replace function public.trg_questao_versionar()
 returns trigger
@@ -137,21 +157,19 @@ language plpgsql security definer
 set search_path = public
 as $$
 begin
-  if (old.enunciado, old.vinheta,
-      old.alt_a, old.alt_b, old.alt_c, old.alt_d,
-      old.gabarito,
-      old.just_a, old.just_b, old.just_c, old.just_d,
-      old.justificativa_geral, old.nivel,
-      old.fase, old.uc, old.sp, old.oa_tags)
+  if (old.enunciado, old.texto_base, old.tema, old.subtema,
+      old.uc_slug, old.sp_referencia, old.area_clinica, old.nivel_bloom,
+      old.dificuldade_editorial, old.competencia_dcn_2025, old.oa_slugs,
+      old.tags, old.referencia, old.fase_alvo,
+      old.payload -> 'alternativas')
      is distinct from
-     (new.enunciado, new.vinheta,
-      new.alt_a, new.alt_b, new.alt_c, new.alt_d,
-      new.gabarito,
-      new.just_a, new.just_b, new.just_c, new.just_d,
-      new.justificativa_geral, new.nivel,
-      new.fase, new.uc, new.sp, new.oa_tags) then
+     (new.enunciado, new.texto_base, new.tema, new.subtema,
+      new.uc_slug, new.sp_referencia, new.area_clinica, new.nivel_bloom,
+      new.dificuldade_editorial, new.competencia_dcn_2025, new.oa_slugs,
+      new.tags, new.referencia, new.fase_alvo,
+      new.payload -> 'alternativas') then
     insert into public.questao_versoes (questao_id, versao, snapshot, editado_por)
-    values (old.id, old.versao, to_jsonb(old), auth.uid());
+    values (old.id, old.versao, public.fn_snapshot_questao(old.id), auth.uid());
     new.versao := old.versao + 1;
     -- edição de conteúdo devolve a questão à curadoria
     new.status := 'pendente';

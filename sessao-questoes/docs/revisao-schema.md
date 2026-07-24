@@ -2,7 +2,22 @@
 
 Documento de apoio à revisão das quatro migrations em `supabase/migrations/`. O rascunho da §5 do brief foi preservado na intenção; abaixo, tudo o que foi **refinado** e o porquê.
 
-> **Atualização (amostra real recebida — UC1, 4ª fase, SP1+SP2).** Os quatro `.docx` da §10 estão agora em `docs/anexos/`, com a nota de calibração da Porta B (`docs/anexos/README.md`). Dois campos novos entraram no schema por causa da amostra (`nivel`, `justificativa_geral`); as 40 questões reais foram extraídas e carregadas na tabela `questoes` sob RLS com **0 erros** de validação. Detalhes nos refinamentos 11–12 abaixo. O `SCHEMA_OUTPUT` (contrato do gerador, 1º item da §10) **ainda não chegou** — segue pendente.
+> **Atualização 1 (amostra .docx — UC1, 4ª fase).** Os quatro `.docx` estão em `docs/anexos/`, com nota de calibração da Porta B. As 40 questões reais foram extraídas e carregadas com 0 erros.
+>
+> **Atualização 2 (SCHEMA_OUTPUT encontrado — reconciliação grande).** O 1º anexo da §10 estava dentro da skill `capi-questoes-enamed`: é o `schema_questao_med_unidavi.json` (v2026.1/v3.1). Copiei-o, com a taxonomia, o banco de OAs, exemplos e o validador, para `docs/anexos/schema-institucional/`. **Pela §10 o anexo prevalece, então realinhei o schema ao contrato canônico** — mudança substancial descrita na seção "Reconciliação com o SCHEMA_OUTPUT" abaixo. As 40 questões foram recarregadas no formato canônico e o fluxo inteiro revalidado sob RLS (embaralhamento de alternativas, gabarito oculto, versionamento) — tudo passa. Também incorporei as respostas do coordenador (admins, domínio de e-mail).
+
+## Reconciliação com o SCHEMA_OUTPUT (o anexo prevalece)
+
+O contrato canônico é bem mais rico que o rascunho da §5. Ajustes feitos, todos por regra da §10 (não por preferência):
+
+1. **Alternativas viram tabela-filha `questao_alternativas`** `(letra, texto, correta, justificativa)`, fiel ao array canônico — em vez de `alt_a..alt_d` + `gabarito` + `just_a..just_d` achatados. Correção = alternativa com `correta = true` (não se assume letra fixa).
+2. **Convenção "correta em A" + embaralhamento.** O gerador institucional emite sempre a correta na letra A (o validador `CORRETA_A` exige isso); a exibição embaralha. Implementei `sessao_questoes.ordem_alternativas` (ex.: `{C,A,D,B}`): a projeção e o aluno veem as alternativas em ordem embaralhada por item, e a convenção A não vaza. Questão vinda da Porta B (.docx) tem a correta na letra autoral (B/A/C…) — o mesmo mecanismo cobre os dois casos.
+3. **Campos canônicos** adotados com os nomes do contrato: `uc_slug`, `sp_referencia` (slugs `med_unidavi_fXX_ucYY_...`, não texto livre), `texto_base` (era `vinheta`), `fase_alvo`, `tema`, `subtema`, `area_clinica`, `nivel_bloom`, `dificuldade_editorial`, `competencia_dcn_2025 text[]`, `oa_slugs text[]`, `tags`, `referencia`, `fonte_geracao`, `disponibilidade`.
+4. **Enums corrigidos:** `status` → `pendente|curado|suspenso|arquivado` (era `curada`); `dificuldade_editorial` → `facil|medio|dificil` (era `media`). `area_clinica` e `nivel_bloom` como CHECK contra os enums canônicos.
+5. **`payload jsonb`** guarda o documento canônico completo (fidelidade de ida-e-volta). Metadados que só o ecossistema usa — `uso_em_avaliacoes`, `performance`/TRI, `auditoria`, `imagens_anexadas`, `cenario_origem` — ficam no payload, **não** viram coluna nesta fatia ("uma fatia, não a plataforma").
+6. **Campos exigidos pelo canônico ficam NULLABLE** quando a Porta B não os traz (`tema`, `area_clinica`, `nivel_bloom`): questão `pendente` pode estar incompleta; a curadoria os completa. Um gate pode exigir preenchimento antes de `curado`. **Não inventei** area/bloom/competência/OA para a amostra .docx (§4).
+7. **"Justificativa geral" do .docx** (que o canônico não tem) é **dobrada na justificativa da alternativa correta** na importação — preserva o dado sem coluna não-canônica.
+8. **`versao` e `questao_versoes`** preservados; o snapshot agora inclui a linha + as alternativas (`fn_snapshot_questao`).
 
 ## O que ficou exatamente como o rascunho
 
@@ -40,11 +55,17 @@ Documento de apoio à revisão das quatro migrations em `supabase/migrations/`. 
 
 **Calibração da Porta B (impacto no passo 3).** A amostra revelou que questões e gabarito são **dois documentos separados**, casados pelo número da questão — a Porta B precisa aceitar os dois textos (colados juntos ou em dois campos) e a IA junta. Não há `vinheta` separada na origem (o caso vem no corpo do enunciado) nem `oa_tags`. Mapeamento completo em `docs/anexos/README.md`.
 
-## Perguntas em aberto — respondam antes ou junto com a aprovação
+## Resolvido pelo coordenador
 
-1. **Falta o `SCHEMA_OUTPUT`** (contrato do gerador institucional, 1º item da §10). A amostra `.docx` (2º item) chegou e está em `docs/anexos/`; os tokens visuais (3º item) também faltam. Como o anexo prevalece sobre a §5, a Porta A (CSV/JSON) e eventuais renomeações de campo seguem pendentes do `SCHEMA_OUTPUT`. **Pergunta concreta:** o `justificativa_geral` e o `nivel` que descobri na amostra estão no `SCHEMA_OUTPUT`? Se os nomes de campo divergirem, o anexo manda.
-2. **OAs do SP (§8):** confirmado pela amostra que **os OAs não estão nos documentos de questões** — a única âncora é a Matriz INEP 478/2025. Para sinalizar "OAs do SP sem item" preciso da lista oficial de OAs de cada SP. De onde ela vem — tabela importada por docente, ou digitada ao criar a sessão? Sem fonte, a tela mostra só os OAs presentes nas questões, sem detecção de lacuna.
-3. **Domínios de e-mail institucionais** para o magic link: qual(is) domínio(s) exatos de aluno e de docente (ex.: `@unidavi.edu.br`? alunos têm domínio próprio?). A restrição é configurada no Auth do Supabase.
-4. **Turma/fase do aluno:** o aluno declara a própria turma no primeiro acesso (autosserviço), ou admin importa a lista de matrícula? O schema aceita ambos; muda só o fluxo de onboarding.
-5. **UC e SP como texto livre** (`text`), conforme rascunho. Se a nomenclatura institucional tiver códigos canônicos (e o SCHEMA_OUTPUT sugerir isso), promovemos a tabelas de referência antes do piloto — mudar depois custa migração de dados.
-6. Confirmar os três pontos marcados em itálico nos refinamentos 2, 4 e 8.
+- ✅ **SCHEMA_OUTPUT** encontrado (dentro da skill) e adotado — ver reconciliação acima.
+- ✅ **Domínio de e-mail:** todos `@unidavi.edu.br`. Restrição documentada em `seed.sql` (configurar no Auth do Supabase).
+- ✅ **Admins:** `itairan.terres@`, `luiz.zanis@`, `tatiane.barbosa@unidavi.edu.br` — no `seed.sql`.
+- ✅ **Fonte de OAs:** existe (`oas_med_unidavi_2026_1.json`, 810 OAs, fases 1–8, slug `..._spZZ_oaNN`). Mas é 2026.1 e **os manuais estão sendo atualizados (hoje/segunda)** — então a fonte de OAs/SPs será **importável** (docente sobe o manual), não cravada no arquivo 2026.1. `oa_slugs` e `sp_referencia` referenciam esses slugs.
+
+## Perguntas em aberto
+
+1. **Manuais docentes atualizados:** não consigo acessar o OneDrive local (`C:\Users\...`) deste ambiente — preciso que os manuais novos sejam **enviados aqui** (como os .docx/skill). Enquanto isso, uso a taxonomia/OAs 2026.1 da skill como referência provisória.
+2. **SP da amostra .docx não bate com a taxonomia 2026.1.** A UC casa (`med_unidavi_f04_uc01_proliferacao_celular`), mas os títulos de SP da amostra ("O que eu fiz de errado?", "Quando o tempo é decisivo…") não existem em f04/uc01 da taxonomia 2026.1 (que lista "Cavalo de Tróia", "Ata de Reunião"…). Provável efeito da atualização dos manuais. **Não cravei `sp_referencia` da amostra** (fica null). Confirmar com os manuais novos qual o slug de SP correto.
+3. **Tipografia:** §11 pede DM Sans; o design system do ecossistema usa IBM Plex Sans. Recomendo IBM Plex Sans (alinhar ao ecossistema). Confirmar. (Ver `docs/anexos/tokens-unidavi.md`.)
+4. **Turma/fase do aluno:** autodeclarada no primeiro acesso, ou admin importa a matrícula? Schema aceita ambos.
+5. Confirmar os pontos de curadoria: edição de conteúdo volta status a `pendente`? Card só de questão respondida? Professor vê só agregados (nunca resposta nominal), inclusive no dashboard pós-sessão?

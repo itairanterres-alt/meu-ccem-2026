@@ -1,12 +1,21 @@
 -- Seed — piloto 2026/2
 -- Dados de teste do fluxo de sessão entram aqui no passo 2.
 
--- Promoção dos 3 admins nomeados (rodar no SQL editor após o primeiro
--- login de cada um; substituir pelos e-mails reais):
---
--- update public.profiles set role = 'admin'
--- where email in (
---   'admin1@unidavi.edu.br',
---   'admin2@unidavi.edu.br',
---   'admin3@unidavi.edu.br'
--- );
+-- ------------------------------------------------------------------
+-- Auth: restringir magic link ao domínio institucional @unidavi.edu.br
+-- (todos — alunos e docentes — usam este domínio).
+-- Configurar no painel Supabase → Authentication → Providers → Email,
+-- ou via política de e-mail; documentado aqui para rastreabilidade.
+-- ------------------------------------------------------------------
+
+-- ------------------------------------------------------------------
+-- Promoção dos 3 admins nomeados (coordenação/assessoria pedagógica).
+-- Rodar após o primeiro login de cada um (magic link cria o profile
+-- como 'aluno'; este UPDATE promove a admin).
+-- ------------------------------------------------------------------
+update public.profiles set role = 'admin'
+where email in (
+  'itairan.terres@unidavi.edu.br',
+  'luiz.zanis@unidavi.edu.br',
+  'tatiane.barbosa@unidavi.edu.br'
+);
