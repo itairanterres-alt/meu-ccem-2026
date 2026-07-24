@@ -23,12 +23,9 @@ Fonte: design system do ecossistema MED-UNIDAVI 2027 (`DS` em Shared Components)
 
 Raios: `radiusSm 6px`, `radius/radiusMd 10px`, `radiusLg 14px`. Sombras: `shadow`, `shadowMd`, `shadowLg` (ver o objeto `DS` original).
 
-## Divergência tipográfica — precisa de decisão
+## Tipografia — DECIDIDO: IBM Plex Sans
 
-- **§11 do brief:** tipografia **DM Sans**.
-- **Design system do ecossistema:** **IBM Plex Sans**.
-
-Como este app será absorvido pelo ecossistema (§2), **recomendo IBM Plex Sans** para nascer alinhado — mas registro a divergência porque a §11 é instrução direta. *Confirmar.*
+A §11 do brief pedia DM Sans; o design system do ecossistema usa IBM Plex Sans. O coordenador **decidiu por IBM Plex Sans** (alinhar ao ecossistema MED-UNIDAVI 2027, ao qual este app será absorvido). É a fonte a usar na UI (passo 2).
 
 ## O que do design system NÃO se aplica a este app
 

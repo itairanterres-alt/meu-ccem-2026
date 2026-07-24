@@ -61,11 +61,13 @@ O contrato canônico é bem mais rico que o rascunho da §5. Ajustes feitos, tod
 - ✅ **Domínio de e-mail:** todos `@unidavi.edu.br`. Restrição documentada em `seed.sql` (configurar no Auth do Supabase).
 - ✅ **Admins:** `itairan.terres@`, `luiz.zanis@`, `tatiane.barbosa@unidavi.edu.br` — no `seed.sql`.
 - ✅ **Fonte de OAs:** existe (`oas_med_unidavi_2026_1.json`, 810 OAs, fases 1–8, slug `..._spZZ_oaNN`). Mas é 2026.1 e **os manuais estão sendo atualizados (hoje/segunda)** — então a fonte de OAs/SPs será **importável** (docente sobe o manual), não cravada no arquivo 2026.1. `oa_slugs` e `sp_referencia` referenciam esses slugs.
+- ✅ **Manuais docentes 2026.1 acessíveis** via Google Drive connector (14 PDFs, fases 1–12). Consigo lê-los e parsear SP/OA quando preciso — mas os novos manuais devem ser **anexados aqui** quando saírem.
+- ✅ **Tipografia: IBM Plex Sans** (decidido — alinhar ao ecossistema).
 
 ## Perguntas em aberto
 
-1. **Manuais docentes atualizados:** não consigo acessar o OneDrive local (`C:\Users\...`) deste ambiente — preciso que os manuais novos sejam **enviados aqui** (como os .docx/skill). Enquanto isso, uso a taxonomia/OAs 2026.1 da skill como referência provisória.
-2. **SP da amostra .docx não bate com a taxonomia 2026.1.** A UC casa (`med_unidavi_f04_uc01_proliferacao_celular`), mas os títulos de SP da amostra ("O que eu fiz de errado?", "Quando o tempo é decisivo…") não existem em f04/uc01 da taxonomia 2026.1 (que lista "Cavalo de Tróia", "Ata de Reunião"…). Provável efeito da atualização dos manuais. **Não cravei `sp_referencia` da amostra** (fica null). Confirmar com os manuais novos qual o slug de SP correto.
-3. **Tipografia:** §11 pede DM Sans; o design system do ecossistema usa IBM Plex Sans. Recomendo IBM Plex Sans (alinhar ao ecossistema). Confirmar. (Ver `docs/anexos/tokens-unidavi.md`.)
+1. **Manuais novos:** anexar aqui quando saírem (hoje/segunda). Os 2026.1 já estão acessíveis via Drive; construo o importador de OA/SP para o formato novo quando ele chegar.
+2. **Numeração de UC diverge entre a taxonomia da skill e o manual oficial (2026.1).** O manual da 4ª fase lista: UC1 = "Doenças Resultantes da Agressão ao Meio Ambiente", **UC2 = "Proliferação Celular"**, UC3 = "Saúde da Mulher…". Mas o `taxonomia_med_unidavi_2026_1.json` da skill rotula f04/**uc01** como "Proliferação Celular". **Alerta de dado:** o `uc_slug` que usei na seed da amostra (`..._f04_uc01_proliferacao_celular`) segue o rótulo da taxonomia, que está errado frente ao manual (deveria ser uc02). Como a amostra é do currículo novo e é só dado de teste, deixei como está e sinalizo — a fonte canônica de UC/SP precisa ser reconciliada com os manuais novos. Vale a coordenação conferir/corrigir a taxonomia da skill também.
+3. **SP da amostra .docx** ("O que eu fiz de errado?", "Quando o tempo é decisivo…") **não existe em nenhuma UC da 4ª fase no manual 2026.1** — é do currículo novo. `sp_referencia` fica null até os manuais novos.
 4. **Turma/fase do aluno:** autodeclarada no primeiro acesso, ou admin importa a matrícula? Schema aceita ambos.
 5. Confirmar os pontos de curadoria: edição de conteúdo volta status a `pendente`? Card só de questão respondida? Professor vê só agregados (nunca resposta nominal), inclusive no dashboard pós-sessão?
