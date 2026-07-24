@@ -115,6 +115,7 @@ begin
   if sq.estado in ('travada', 'discutida') then
     resultado := resultado || jsonb_build_object(
       'gabarito', q.gabarito,
+      'justificativa_geral', q.justificativa_geral,
       'just_a', q.just_a,
       'just_b', q.just_b,
       'just_c', q.just_c,

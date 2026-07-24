@@ -141,12 +141,14 @@ begin
       old.alt_a, old.alt_b, old.alt_c, old.alt_d,
       old.gabarito,
       old.just_a, old.just_b, old.just_c, old.just_d,
+      old.justificativa_geral, old.nivel,
       old.fase, old.uc, old.sp, old.oa_tags)
      is distinct from
      (new.enunciado, new.vinheta,
       new.alt_a, new.alt_b, new.alt_c, new.alt_d,
       new.gabarito,
       new.just_a, new.just_b, new.just_c, new.just_d,
+      new.justificativa_geral, new.nivel,
       new.fase, new.uc, new.sp, new.oa_tags) then
     insert into public.questao_versoes (questao_id, versao, snapshot, editado_por)
     values (old.id, old.versao, to_jsonb(old), auth.uid());

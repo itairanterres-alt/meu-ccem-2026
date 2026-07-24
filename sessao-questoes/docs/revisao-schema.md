@@ -2,6 +2,8 @@
 
 Documento de apoio à revisão das quatro migrations em `supabase/migrations/`. O rascunho da §5 do brief foi preservado na intenção; abaixo, tudo o que foi **refinado** e o porquê.
 
+> **Atualização (amostra real recebida — UC1, 4ª fase, SP1+SP2).** Os quatro `.docx` da §10 estão agora em `docs/anexos/`, com a nota de calibração da Porta B (`docs/anexos/README.md`). Dois campos novos entraram no schema por causa da amostra (`nivel`, `justificativa_geral`); as 40 questões reais foram extraídas e carregadas na tabela `questoes` sob RLS com **0 erros** de validação. Detalhes nos refinamentos 11–12 abaixo. O `SCHEMA_OUTPUT` (contrato do gerador, 1º item da §10) **ainda não chegou** — segue pendente.
+
 ## O que ficou exatamente como o rascunho
 
 - Todas as tabelas do rascunho existem com os mesmos nomes: `profiles`, `questoes`, `questao_versoes`, `sessoes`, `sessao_questoes`, `respostas`, `cards`.
@@ -32,10 +34,16 @@ Documento de apoio à revisão das quatro migrations em `supabase/migrations/`. 
 
 **10. Realtime.** `sessoes` e `sessao_questoes` na publication — aluno e projeção acompanham o lockstep por eventos (RLS se aplica: aluno só recebe eventos de sessão em que é participante). `respostas` **fora** da publication (evento de INSERT vazaria a resposta individual); o "N de M responderam" do professor é polling leve do RPC.
 
+**11. Campo novo `nivel` (enum `facil|media|dificil`).** A amostra marca cada questão com `(Nível: Fácil|Média|Difícil)` — metadado institucional real. Capturado como enum nullable (nem toda origem informará). "O dado é o produto": descartá-lo perderia informação que o gerador já produz.
+
+**12. Campo novo `justificativa_geral` (nullable).** O gabarito traz, além das 4 justificativas por alternativa, uma "Justificativa geral" — explicação global da resposta correta, distinta dos comentários por alternativa e útil na discussão em sala. Adicionado; `rpc_ver_item` passa a devolvê-lo após o travamento. Nullable porque texto colado na Porta B pode não trazê-lo.
+
+**Calibração da Porta B (impacto no passo 3).** A amostra revelou que questões e gabarito são **dois documentos separados**, casados pelo número da questão — a Porta B precisa aceitar os dois textos (colados juntos ou em dois campos) e a IA junta. Não há `vinheta` separada na origem (o caso vem no corpo do enunciado) nem `oa_tags`. Mapeamento completo em `docs/anexos/README.md`.
+
 ## Perguntas em aberto — respondam antes ou junto com a aprovação
 
-1. **Anexos da §10 não chegaram ao repositório** (SCHEMA_OUTPUT, amostra .docx, tokens visuais). O schema de `questoes` segue o rascunho da §5; como o anexo prevalece, a importação (passo 3) e eventuais renomeações de campos ficam pendentes do `SCHEMA_OUTPUT`. Enviem os três arquivos — idealmente commitados em `sessao-questoes/docs/anexos/`.
-2. **OAs do SP (§8):** para sinalizar "OAs do SP sem item", preciso da lista oficial de OAs de cada SP. De onde ela vem — tabela importada por docente, ou digitada pelo professor ao criar a sessão? (Não vou inventar OA; sem fonte, a tela mostra só os OAs presentes nas questões selecionadas, sem detecção de lacuna.)
+1. **Falta o `SCHEMA_OUTPUT`** (contrato do gerador institucional, 1º item da §10). A amostra `.docx` (2º item) chegou e está em `docs/anexos/`; os tokens visuais (3º item) também faltam. Como o anexo prevalece sobre a §5, a Porta A (CSV/JSON) e eventuais renomeações de campo seguem pendentes do `SCHEMA_OUTPUT`. **Pergunta concreta:** o `justificativa_geral` e o `nivel` que descobri na amostra estão no `SCHEMA_OUTPUT`? Se os nomes de campo divergirem, o anexo manda.
+2. **OAs do SP (§8):** confirmado pela amostra que **os OAs não estão nos documentos de questões** — a única âncora é a Matriz INEP 478/2025. Para sinalizar "OAs do SP sem item" preciso da lista oficial de OAs de cada SP. De onde ela vem — tabela importada por docente, ou digitada ao criar a sessão? Sem fonte, a tela mostra só os OAs presentes nas questões, sem detecção de lacuna.
 3. **Domínios de e-mail institucionais** para o magic link: qual(is) domínio(s) exatos de aluno e de docente (ex.: `@unidavi.edu.br`? alunos têm domínio próprio?). A restrição é configurada no Auth do Supabase.
 4. **Turma/fase do aluno:** o aluno declara a própria turma no primeiro acesso (autosserviço), ou admin importa a lista de matrícula? O schema aceita ambos; muda só o fluxo de onboarding.
 5. **UC e SP como texto livre** (`text`), conforme rascunho. Se a nomenclatura institucional tiver códigos canônicos (e o SCHEMA_OUTPUT sugerir isso), promovemos a tabelas de referência antes do piloto — mudar depois custa migração de dados.

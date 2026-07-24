@@ -11,6 +11,10 @@ create type public.user_role as enum ('admin', 'professor', 'aluno');
 
 create type public.questao_status as enum ('pendente', 'curada');
 
+-- nível de dificuldade declarado pelo autor no banco institucional
+-- (Fácil / Média / Difícil, conforme os .docx de origem)
+create type public.questao_nivel as enum ('facil', 'media', 'dificil');
+
 create type public.sessao_status as enum ('rascunho', 'aberta', 'em_andamento', 'encerrada');
 
 -- estado de um item dentro da sessão (lockstep)
@@ -47,6 +51,11 @@ create table public.questoes (
   just_b     text not null,
   just_c     text not null,
   just_d     text not null,
+  -- explicação global da resposta correta ("Justificativa geral" no gabarito),
+  -- distinta das justificativas por alternativa; nullable porque texto colado
+  -- na Porta B pode não trazê-la
+  justificativa_geral text,
+  nivel      public.questao_nivel,               -- opcional; nem toda origem informa
   fase       int not null check (fase between 1 and 12),
   uc         text not null,
   sp         text not null,
