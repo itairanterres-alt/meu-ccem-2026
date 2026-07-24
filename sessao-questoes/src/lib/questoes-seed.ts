@@ -1,4 +1,22 @@
-[
+// Dado de teste do passo 2 — as 40 questões reais da amostra UC1/fase4
+// (docs/anexos/UC1_fase4_canonico.json), formato canônico. Usado pelo
+// demoClient para rodar o fluxo de ponta a ponta sem Supabase ao vivo.
+// `_proveniencia` é só para debug/demo — não existe no schema real.
+import type { Alternativa } from './types'
+
+export interface QuestaoSeed {
+  enunciado: string
+  texto_base: string | null
+  fase_alvo: number
+  uc_slug: string
+  sp_referencia: string | null
+  tema: string | null
+  dificuldade_editorial: 'facil' | 'medio' | 'dificil' | null
+  alternativas: Alternativa[]
+  _proveniencia: string
+}
+
+export const QUESTOES_SEED: QuestaoSeed[] = [
   {
     "enunciado": "Durante discussão sobre a fisiopatologia das neoplasias, um estudante questiona em qual fase do ciclo celular ocorre a duplicação completa do material genético, etapa indispensável antes de a célula avançar para a mitose. Essa fase, situada entre as fases G1 e G2 da intérfase, é denominada",
     "texto_base": null,
@@ -6,17 +24,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 1,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -42,7 +50,8 @@
         "correta": false,
         "justificativa": "Incorreta. A metáfase é uma fase da mitose propriamente dita, não da intérfase, e ocorre após a duplicação do DNA já ter sido concluída."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q1"
   },
   {
     "enunciado": "Em aula sobre genes envolvidos na carcinogênese, o professor destaca que um determinado gene supressor tumoral atua como \"guardião do genoma\", interrompendo o ciclo celular no ponto de checagem G1/S diante de dano ao DNA e induzindo apoptose quando o reparo não é possível, sendo o gene mais frequentemente encontrado mutado em neoplasias humanas. Esse gene é o",
@@ -51,17 +60,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 2,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -87,7 +86,8 @@
         "correta": false,
         "justificativa": "Incorreta. BCL-2 é uma proteína antiapoptótica, cuja superexpressão inibe a apoptose e favorece a sobrevivência de células neoplásicas, função oposta à descrita no enunciado."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q2"
   },
   {
     "enunciado": "O papilomavírus humano (HPV) oncogênico é reconhecido como agente etiológico central do câncer do colo do útero. Duas proteínas virais atuam diretamente sobre reguladores do ciclo celular do hospedeiro: uma promove a degradação de p53 e outra inativa a proteína do retinoblastoma (pRb), retirando pontos de checagem essenciais e favorecendo a proliferação descontrolada. Essas duas oncoproteínas virais são, respectivamente,",
@@ -96,17 +96,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 3,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -132,7 +122,8 @@
         "correta": false,
         "justificativa": "Incorreta. E4 e E5 têm papéis acessórios no ciclo viral (maturação e modulação de sinalização celular), mas não são as oncoproteínas classicamente associadas à degradação de p53 e pRb."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q3"
   },
   {
     "enunciado": "Uma equipe de saúde da família está organizando uma campanha de rastreamento do câncer do colo do útero em sua área de abrangência. Segundo as diretrizes vigentes do Ministério da Saúde, a citologia oncótica (Papanicolau) deve ser oferecida a mulheres com vida sexual ativa a partir de qual idade, repetindo-se anualmente até dois exames normais consecutivos?",
@@ -141,17 +132,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 4,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -177,7 +158,8 @@
         "correta": false,
         "justificativa": "Incorreta. Iniciar apenas aos 30 anos postergaria demasiadamente a detecção de lesões precursoras que podem se desenvolver antes dessa idade."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q4"
   },
   {
     "enunciado": "Uma mulher realiza citologia oncótica de rotina na UBS e o laudo citopatológico, segundo a nomenclatura de Bethesda, descreve o achado como \"ASC-US\". Ao explicar o resultado à paciente, o médico da unidade deve esclarecer que essa sigla corresponde a",
@@ -186,17 +168,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 5,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -222,7 +194,8 @@
         "correta": false,
         "justificativa": "Incorreta. Adenocarcinoma in situ refere-se a alterações do epitélio glandular endocervical, categoria citológica distinta e mais grave que o ASC-US."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q5"
   },
   {
     "enunciado": "Durante a discussão do caso de Maria Aparecida, os estudantes revisam os conceitos fundamentais de oncologia. Um deles pergunta qual é a principal característica biológica que diferencia uma neoplasia maligna de uma neoplasia benigna, do ponto de vista histopatológico e clínico. A resposta mais adequada é a capacidade da neoplasia maligna de",
@@ -231,17 +204,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 6,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -267,7 +230,8 @@
         "correta": false,
         "justificativa": "Incorreta. Embora algumas neoplasias malignas possam ser assintomáticas por período variável, isso não é regra nem característica definidora de malignidade."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q6"
   },
   {
     "enunciado": "Mulher de 41 anos, auxiliar de limpeza, sem uso regular de preservativos e sem histórico de vacinação contra HPV na adolescência, realiza citologia oncótica atrasada há cinco anos em ação da UBS. O resultado mostra ASC-US. Considerando que a paciente tem mais de 30 anos, qual conduta é preconizada pelas diretrizes brasileiras de rastreamento diante desse achado citológico?",
@@ -276,17 +240,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 7,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -312,7 +266,8 @@
         "correta": false,
         "justificativa": "Incorreta. Considerar o resultado como normal e postergar por 3 anos ignoraria uma alteração citológica que já indica necessidade de investigação, aumentando o risco de diagnóstico tardio."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q7"
   },
   {
     "enunciado": "Em aula sobre biologia molecular do câncer cervical, o professor detalha o mecanismo pelo qual a oncoproteína E6 do HPV de alto risco compromete a função de p53, favorecendo a sobrevivência de células com dano genômico que, em condições normais, seriam eliminadas por apoptose. Esse mecanismo molecular específico envolve",
@@ -321,17 +276,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 8,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -357,7 +302,8 @@
         "correta": false,
         "justificativa": "Incorreta. O mecanismo de E6 não envolve a telomerase; na verdade, outra proteína viral (E6, em outro contexto) pode ativar a telomerase em algumas células, mas esse não é o mecanismo relacionado à inativação de p53 descrito no enunciado."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q8"
   },
   {
     "enunciado": "Durante discussão epidemiológica sobre câncer do colo do útero, os estudantes analisam dados que apontam a infecção persistente por determinados subtipos virais como condição necessária, embora não suficiente, para o desenvolvimento da neoplasia cervical. Entre os fatores discutidos (multiparidade, tabagismo, uso de contraceptivos hormonais, imunossupressão), qual é considerado o principal fator de risco, sem o qual a doença praticamente não se desenvolve?",
@@ -366,17 +312,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 9,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -402,7 +338,8 @@
         "correta": false,
         "justificativa": "Incorreta. O tabagismo é cofator que aumenta o risco em mulheres já infectadas pelo HPV, mas isoladamente, sem a infecção viral, não é a principal causa da neoplasia cervical."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q9"
   },
   {
     "enunciado": "Mulher de 35 anos procura a UBS relatando sangramento pós-coital recorrente nos últimos dois meses. Ao exame especular, observa-se lesão exofítica, friável, com sangramento ao toque, localizada no colo uterino. A citologia ainda não foi realizada nesta consulta. Diante desse achado ao exame especular, qual é a conduta prioritária?",
@@ -411,17 +348,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 10,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -447,7 +374,8 @@
         "correta": false,
         "justificativa": "Incorreta. A ultrassonografia transvaginal não substitui a biópsia para confirmação histopatológica de lesão cervical suspeita visível ao exame especular."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q10"
   },
   {
     "enunciado": "Uma equipe de saúde da família planeja ações de imunização em parceria com escolas do território, com foco na prevenção primária do câncer do colo do útero. Segundo o Programa Nacional de Imunizações, a vacinação contra HPV é indicada, prioritariamente, para meninas e meninos em qual faixa etária, justificando-se essa escolha pelo momento anterior ao início da vida sexual?",
@@ -456,17 +384,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 11,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -492,7 +410,8 @@
         "correta": false,
         "justificativa": "Incorreta. A vacina é medida de prevenção primária (antes da exposição ao vírus) e não substitui o rastreamento citológico, tampouco é indicada exclusivamente após os 30 anos."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q11"
   },
   {
     "enunciado": "Paciente com diagnóstico confirmado de carcinoma epidermoide de colo uterino é submetida a exames de estadiamento. O laudo descreve invasão tumoral que se estende ao paramétrio, sem atingir a parede pélvica e sem hidronefrose associada. Segundo o sistema de estadiamento FIGO, esse achado corresponde ao estágio",
@@ -501,17 +420,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 12,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -537,7 +446,8 @@
         "correta": false,
         "justificativa": "Incorreta. O estágio IIIB exige extensão até a parede pélvica e/ou hidronefrose/exclusão renal, achados ausentes no caso descrito, que menciona apenas invasão parametrial sem esses critérios."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q12"
   },
   {
     "enunciado": "Durante revisão sobre vias de sinalização envolvidas na proliferação celular, os estudantes discutem o proto-oncogene RAS, frequentemente mutado em diversas neoplasias humanas. Em condições fisiológicas, RAS atua como uma proteína transdutora de sinal que se ativa transitoriamente após estímulo de fatores de crescimento. Quando mutado de forma oncogênica, RAS contribui para a carcinogênese porque",
@@ -546,17 +456,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 13,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -582,7 +482,8 @@
         "correta": false,
         "justificativa": "Incorreta. RAS ativado estimula, e não inibe, a via de MAP-quinases, sendo esse justamente o mecanismo de propagação do sinal proliferativo."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q13"
   },
   {
     "enunciado": "Mulher de 38 anos, assintomática, é submetida à colposcopia após citologia mostrando HSIL. A biópsia dirigida confirma neoplasia intraepitelial cervical grau 3 (NIC III), com alterações comprometendo toda a espessura do epitélio, mas sem romper a membrana basal. A paciente questiona por que essa lesão, mesmo restrita ao epitélio, é tratada como condição de alto risco que exige intervenção. A explicação fisiopatológica mais adequada para essa conduta é que",
@@ -591,17 +492,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 14,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -627,7 +518,8 @@
         "correta": false,
         "justificativa": "Incorreta. A NIC III está fortemente associada à infecção persistente por HPV oncogênico; afirmar que o vírus é irrelevante contraria a fisiopatologia estabelecida da doença."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q14"
   },
   {
     "enunciado": "Mulher de 45 anos, tabagista, com citologia mostrando lesão intraepitelial escamosa de alto grau (HSIL), é submetida à colposcopia, que evidencia epitélio acetobranco denso, mosaico grosseiro e pontilhado grosseiro na zona de transformação, totalmente visível, sem lesão aparente no canal endocervical. Diante desse quadro colposcópico, antes de qualquer decisão terapêutica definitiva, a conduta mais adequada é",
@@ -636,17 +528,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 15,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -672,7 +554,8 @@
         "correta": false,
         "justificativa": "Incorreta. Postergar a investigação diante de citologia e colposcopia já alteradas retarda desnecessariamente o diagnóstico definitivo e o tratamento oportuno."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q15"
   },
   {
     "enunciado": "Em discussão sobre novas terapias-alvo em oncologia, os estudantes analisam o mecanismo de ação dos inibidores de CDK4/6, utilizados em alguns tumores hormônio-sensíveis (como certos subtipos de câncer de mama), estabelecendo paralelo com os mecanismos de controle do ciclo celular estudados nesta situação-problema. Esses fármacos atuam, mecanisticamente,",
@@ -681,17 +564,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 16,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -717,7 +590,8 @@
         "correta": false,
         "justificativa": "Incorreta. A estabilização de microtúbulos é mecanismo de ação de taxanos, atuando na mitose propriamente dita, e não na transição G1/S regulada por pRb/CDK4-6."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q16"
   },
   {
     "enunciado": "Mulher de 41 anos recebe diagnóstico histopatológico confirmado de carcinoma epidermoide de colo uterino, estadiamento FIGO IIB (invasão parametrial sem atingir a parede pélvica). Durante consulta com a equipe de oncologia, questiona sobre as opções terapêuticas disponíveis para esse estágio da doença. A conduta terapêutica padrão, considerando as diretrizes atuais para esse estadiamento, é",
@@ -726,17 +600,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 17,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -762,7 +626,8 @@
         "correta": false,
         "justificativa": "Incorreta. A quimioterapia isolada, sem radioterapia associada, não é o tratamento padrão para esse estágio; o racional terapêutico envolve o efeito radiossensibilizante da quimioterapia combinada à radioterapia."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q17"
   },
   {
     "enunciado": "Em relação aos mecanismos de escape da apoptose em células cronicamente infectadas por HPV oncogênico, contribuindo para o acúmulo progressivo de mutações e a evolução para neoplasia invasora, o principal mecanismo molecular envolvido é",
@@ -771,17 +636,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 18,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -807,7 +662,8 @@
         "correta": false,
         "justificativa": "Incorreta. A ação de E7 sobre pRb é justamente inativá-la (hiperfosforilação funcional/degradação), liberando E2F e promovendo progressão do ciclo celular, e não mantendo pRb ativa ligada a E2F."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q18"
   },
   {
     "enunciado": "Mulher de 41 anos, recém-diagnosticada com carcinoma invasor de colo uterino, é acompanhada pela equipe de saúde da família enquanto aguarda encaminhamento à oncologia. Durante uma visita domiciliar, demonstra grande ansiedade, medo da morte e desinformação sobre a doença, tendo buscado informações contraditórias na internet. Considerando os princípios da comunicação de más notícias em saúde, a conduta mais adequada da equipe é",
@@ -816,17 +672,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 19,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -852,7 +698,8 @@
         "correta": false,
         "justificativa": "Incorreta. Comunicação puramente objetiva, sem espaço para dúvidas e expressão emocional, não acolhe as necessidades psicossociais da paciente diante do impacto de um diagnóstico oncológico."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q19"
   },
   {
     "enunciado": "Gestores municipais de saúde avaliam estratégias para reduzir a incidência e a mortalidade por câncer do colo do útero em médio e longo prazo, considerando restrições orçamentárias e a necessidade de priorizar ações com melhor relação custo-efetividade. Entre as estratégias possíveis, qual é reconhecida como a mais custo-efetiva para essa finalidade, integrando prevenção primária e secundária?",
@@ -861,17 +708,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 20,
-    "_sp_titulo": "SP 1 — O que eu fiz de errado?",
     "alternativas": [
       {
         "letra": "A",
@@ -897,7 +734,8 @@
         "correta": false,
         "justificativa": "Incorreta. Antibioticoterapia não tem papel na prevenção do câncer do colo do útero, cuja etiologia central é viral (HPV), e não bacteriana."
       }
-    ]
+    ],
+    "_proveniencia": "SP 1 — O que eu fiz de errado? — Q20"
   },
   {
     "enunciado": "Homem de 61 anos, porteiro noturno, procura a UBS por sintomas urinários. O médico da unidade explica que, além do toque retal, será solicitado um exame laboratorial amplamente utilizado no rastreamento e seguimento do câncer de próstata, cujo valor pode se elevar tanto em neoplasias quanto em condições benignas como hiperplasia prostática e prostatites. Esse marcador é o",
@@ -906,17 +744,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 1,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -942,7 +770,8 @@
         "correta": false,
         "justificativa": "Incorreta. O CEA é utilizado principalmente no seguimento do câncer colorretal e de outros tumores gastrointestinais, não sendo o marcador de escolha para avaliação prostática."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q1"
   },
   {
     "enunciado": "Após biópsia prostática de paciente com suspeita de neoplasia, o laudo histopatológico descreve o grau de diferenciação tumoral por meio da soma dos dois padrões arquiteturais glandulares mais representativos da amostra (o predominante e o segundo mais frequente), fornecendo informação prognóstica relevante. Esse sistema de graduação histológica é conhecido como escala de",
@@ -951,17 +780,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 2,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -987,7 +806,8 @@
         "correta": false,
         "justificativa": "Incorreta. A Escala de Coma de Glasgow avalia nível de consciência em pacientes neurológicos ou traumatizados, sem qualquer relação com graduação histológica de tumores."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q2"
   },
   {
     "enunciado": "Em aula sobre disseminação neoplásica, discute-se que o câncer de próstata avançado apresenta padrão característico de disseminação à distância, explicado, entre outros fatores, pela drenagem venosa pélvica através do plexo venoso vertebral. Os principais sítios de metástase à distância do câncer de próstata avançado são",
@@ -996,17 +816,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 3,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1032,7 +842,8 @@
         "correta": false,
         "justificativa": "Incorreta. Baço e pâncreas não são sítios preferenciais de disseminação do câncer de próstata."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q3"
   },
   {
     "enunciado": "Durante discussão sobre diagnóstico diferencial de doenças prostáticas, o professor destaca que a hiperplasia prostática benigna (HPB) e o adenocarcinoma de próstata, apesar de acometerem o mesmo órgão, originam-se preferencialmente em regiões anatômicas distintas da glândula. Essa diferença topográfica é descrita como",
@@ -1041,17 +852,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 4,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1077,7 +878,8 @@
         "correta": false,
         "justificativa": "Incorreta. HPB e câncer de próstata têm, de fato, distribuição topográfica preferencial distinta, o que é clinicamente relevante e não indistinguível."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q4"
   },
   {
     "enunciado": "Em revisão de conceitos fundamentais de oncologia, os estudantes discutem o processo pelo qual células neoplásicas se disseminam de seu sítio de origem, implantam-se e proliferam em um órgão distante, formando um novo foco tumoral. Esse processo é denominado",
@@ -1086,17 +888,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "facil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 5,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1122,7 +914,8 @@
         "correta": false,
         "justificativa": "Incorreta. Metaplasia é a substituição reversível de um tipo celular diferenciado por outro, em resposta a estímulo, sem qualquer relação com implantação tumoral a distância."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q5"
   },
   {
     "enunciado": "Homem de 61 anos procura a UBS pela primeira vez em anos, relatando aumento da frequência urinária noturna, jato urinário enfraquecido e sensação de esvaziamento incompleto da bexiga, sintomas que ele atribuía ao envelhecimento. Nunca realizou exames preventivos e desconhece o significado do PSA, demonstrando resistência ao toque retal. Diante desse quadro, qual é a conduta inicial mais adequada na Atenção Primária?",
@@ -1131,17 +924,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 6,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1167,7 +950,8 @@
         "correta": false,
         "justificativa": "Incorreta. Não há indicação de antibioticoterapia empírica sem quadro clínico sugestivo de infecção e sem qualquer investigação diagnóstica prévia."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q6"
   },
   {
     "enunciado": "Durante anamnese detalhada, um paciente com suspeita de câncer de próstata relata que seu pai foi tratado da mesma doença ainda jovem. O médico explica que esse dado é clinicamente relevante para a estratificação de risco do paciente. Em relação ao componente hereditário do câncer de próstata, é correto afirmar que",
@@ -1176,17 +960,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 7,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1212,7 +986,8 @@
         "correta": false,
         "justificativa": "Incorreta. A herança genética relacionada ao câncer de próstata é relevante para os homens da família (parentes de primeiro grau), sendo esse justamente o dado utilizado na estratificação de risco."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q7"
   },
   {
     "enunciado": "O laudo de biópsia prostática de um paciente descreve escore de Gleason 8 (5+3). Ao explicar o resultado à família, o urologista destaca que a notação entre parênteses (5+3) tem significado prognóstico específico, distinto de uma soma equivalente obtida de outra forma (como 3+5). Sobre esse laudo, é correto afirmar que",
@@ -1221,17 +996,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 8,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1257,7 +1022,8 @@
         "correta": false,
         "justificativa": "Incorreta. A ordem dos números tem significado prognóstico relevante: o primeiro número (padrão predominante) influencia o prognóstico mais do que a soma isolada sugere."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q8"
   },
   {
     "enunciado": "Em uma reunião de equipe sobre políticas de rastreamento oncológico, discute-se que a dosagem populacional rotineira do PSA em homens assintomáticos é tema controverso na literatura médica, apesar de sua ampla utilização clínica. Um dos principais dilemas éticos e de saúde pública relacionados a essa prática é",
@@ -1266,17 +1032,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 9,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1302,7 +1058,8 @@
         "correta": false,
         "justificativa": "Incorreta. O exame pode ser realizado em qualquer faixa etária adulta; a controvérsia está relacionada à indicação populacional em massa, e não à viabilidade técnica do exame."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q9"
   },
   {
     "enunciado": "Em aula de patologia sobre invasão tumoral, discute-se o processo pelo qual células neoplásicas degradam a membrana basal e componentes da matriz extracelular, etapa fundamental para invasão de tecidos vizinhos e posterior disseminação metastática. Esse processo depende, entre outros fatores, da ação de enzimas denominadas",
@@ -1311,17 +1068,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 10,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1347,7 +1094,8 @@
         "correta": false,
         "justificativa": "Incorreta. A lipase pancreática participa da digestão de lipídeos no trato gastrointestinal, sem qualquer papel na degradação da matriz extracelular tumoral."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q10"
   },
   {
     "enunciado": "Paciente de 78 anos, com diagnóstico de câncer de próstata localizado de baixo risco (Gleason 6, PSA baixo, estágio clínico inicial), apresenta múltiplas comorbidades e expectativa de vida limitada, estimada em poucos anos. Considerando as possibilidades terapêuticas disponíveis para esse cenário clínico específico, uma conduta aceita e frequentemente recomendada é",
@@ -1356,17 +1104,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "medio",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 11,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1392,7 +1130,8 @@
         "correta": false,
         "justificativa": "Incorreta. Radioterapia de corpo inteiro não é técnica utilizada no tratamento do câncer de próstata localizado; a radioterapia empregada é dirigida à próstata (radioterapia externa conformacional ou braquiterapia)."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q11"
   },
   {
     "enunciado": "Homem de 61 anos, biópsia prostática com Gleason 8 (5+3), PSA de 42 ng/mL. A cintilografia óssea de corpo inteiro evidencia múltiplas lesões hipercaptantes em corpos vertebrais e ossos da bacia, compatíveis com metástases ósseas. Considerando a fisiopatologia da disseminação do câncer de próstata, a explicação mais adequada para esse padrão específico de acometimento ósseo (predomínio no esqueleto axial) é",
@@ -1401,17 +1140,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 12,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1437,7 +1166,8 @@
         "correta": false,
         "justificativa": "Incorreta. Não existe mecanismo de disseminação metastática por via aérea/aspiração de células tumorais; essa opção não corresponde a nenhum mecanismo fisiopatológico reconhecido de metástase."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q12"
   },
   {
     "enunciado": "Paciente com câncer de próstata metastático, ainda sem tratamento hormonal prévio (hormônio-sensível), é encaminhado para terapia de privação androgênica como parte do tratamento sistêmico. Ao explicar o racional terapêutico dessa conduta, o oncologista destaca que a maioria dos adenocarcinomas prostáticos depende da sinalização androgênica para proliferação e sobrevivência celular. Com base nesse racional fisiopatológico, é correto afirmar que",
@@ -1446,17 +1176,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 13,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1482,7 +1202,8 @@
         "correta": false,
         "justificativa": "Incorreta. A privação androgênica controla a doença por período variável, mas a maioria dos tumores eventualmente progride para a forma resistente à castração, não sendo, portanto, tratamento curativo definitivo na doença metastática."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q13"
   },
   {
     "enunciado": "Em discussão sobre biologia tumoral, o professor apresenta o conceito de expansão clonal, explicando que um tumor não é uma população celular homogênea, mas sim um conjunto dinâmico de subpopulações que evoluem ao longo do tempo, inclusive sob pressão seletiva do tratamento. Em relação a esse conceito, é correto afirmar que",
@@ -1491,17 +1212,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 14,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1527,7 +1238,8 @@
         "correta": false,
         "justificativa": "Incorreta. A expansão clonal está diretamente relacionada ao desenvolvimento de resistência terapêutica, como na seleção de subclones resistentes à privação androgênica no câncer de próstata avançado."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q14"
   },
   {
     "enunciado": "Em revisão sobre a cascata metastática, os estudantes descrevem as etapas necessárias para que uma célula tumoral circulante origine um novo foco de crescimento em órgão distante, após ter alcançado a corrente sanguínea (intravasão). A sequência correta dos eventos subsequentes até a colonização do novo tecido é",
@@ -1536,17 +1248,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 15,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1572,7 +1274,8 @@
         "correta": false,
         "justificativa": "Incorreta. Não existe mecanismo de eliminação renal direta de células tumorais circulantes como via de \"depuração\" fisiológica relevante nesse processo."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q15"
   },
   {
     "enunciado": "Comparando diretrizes de diferentes entidades sobre o rastreamento populacional do câncer de próstata por PSA em homens assintomáticos de risco médio, discute-se que há certa divergência de ênfase entre órgãos governamentais de saúde pública e sociedades de especialidade médica. Considerando as evidências atuais, a recomendação mais adequada para essa população é",
@@ -1581,17 +1284,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 16,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1617,7 +1310,8 @@
         "correta": false,
         "justificativa": "Incorreta. A frase contém erro conceitual grave: câncer de próstata acomete homens (a próstata é órgão exclusivamente masculino), não sendo aplicável a mulheres."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q16"
   },
   {
     "enunciado": "Durante consulta, um paciente demonstra forte resistência ao exame de toque retal, relatando vergonha e comentários jocosos de colegas de trabalho sobre o procedimento, o que o levou a adiar a investigação diagnóstica por meses. Do ponto de vista da atuação médica centrada na pessoa, a conduta mais adequada da equipe de saúde diante dessa resistência é",
@@ -1626,17 +1320,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 17,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1662,7 +1346,8 @@
         "correta": false,
         "justificativa": "Incorreta. Encaminhar sem qualquer tentativa de acolhimento transfere o problema sem resolver a barreira de comunicação, além de poder gerar sensação de abandono no paciente."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q17"
   },
   {
     "enunciado": "Em um município de médio porte, o fluxo de regulação do SUS para investigação de suspeita de câncer de próstata na atenção primária é discutido em uma reunião de gestão. O objetivo é conciliar diagnóstico precoce e uso racional dos recursos especializados disponíveis, evitando tanto encaminhamentos desnecessários quanto atrasos graves no diagnóstico. A conduta que melhor atende a esse objetivo é",
@@ -1671,17 +1356,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 18,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1707,7 +1382,8 @@
         "correta": false,
         "justificativa": "Incorreta. Biópsia prostática é procedimento especializado que exige avaliação urológica prévia, não sendo indicado solicitá-la diretamente na atenção primária sem critérios clínicos e laboratoriais que a justifiquem."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q18"
   },
   {
     "enunciado": "Paciente com câncer de próstata localmente avançado (sem metástases à distância confirmadas, mas com invasão local significativa) é discutido em reunião multidisciplinar de oncologia para definição do plano terapêutico. Considerando as possibilidades terapêuticas atuais reconhecidas para esse estágio da doença, é correto afirmar que",
@@ -1716,17 +1392,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 19,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1752,7 +1418,8 @@
         "correta": false,
         "justificativa": "Incorreta. Existem tratamentos com intenção curativa reconhecidos para doença localmente avançada (radioterapia + hormonioterapia, cirurgia em casos selecionados), não sendo correto afirmar ausência de tratamento eficaz."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q19"
   },
   {
     "enunciado": "Comparando as políticas de rastreamento do câncer de próstata preconizadas pelo Ministério da Saúde brasileiro e por sociedades de especialidade, como a Sociedade Brasileira de Urologia, discute-se em uma aula de saúde coletiva as diferenças de ênfase entre essas recomendações. É correto afirmar que",
@@ -1761,17 +1428,7 @@
     "uc_slug": "med_unidavi_f04_uc02_proliferacao_celular",
     "sp_referencia": null,
     "tema": null,
-    "subtema": null,
-    "area_clinica": null,
-    "nivel_bloom": null,
     "dificuldade_editorial": "dificil",
-    "competencia_dcn_2025": [],
-    "oa_slugs": [],
-    "tags": [],
-    "referencia": null,
-    "fonte_geracao": "porta_b:docx_uc1_fase4",
-    "_num": 20,
-    "_sp_titulo": "SP 2 — Quando o tempo é decisivo...",
     "alternativas": [
       {
         "letra": "A",
@@ -1797,6 +1454,7 @@
         "correta": false,
         "justificativa": "Incorreta. O toque retal continua sendo parte da avaliação clínica recomendada na investigação de doenças prostáticas, não tendo sido abolido por nenhuma das entidades."
       }
-    ]
+    ],
+    "_proveniencia": "SP 2 — Quando o tempo é decisivo... — Q20"
   }
 ]

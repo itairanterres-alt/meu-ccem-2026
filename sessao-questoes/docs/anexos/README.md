@@ -12,7 +12,6 @@ Amostra da §10 do brief: banco ENAMED da **UC I (Proliferação Celular), 4ª f
 | `UC1_SP2_Gabarito_ENAMED.docx` | Gabarito comentado SP2 |
 | `UC1_fase4_extraido.json` | As 40 questões reestruturadas no schema de `questoes` (0 erros de validação) |
 | `parse_enamed.py` | Parser que produziu o JSON — referência de mapeamento para a Porta B |
-
 | `UC1_fase4_canonico.json` | As 40 questões no formato **canônico** (array de alternativas, `uc_slug`, correta na letra autoral) — dado de teste do passo 2 |
 | `schema-institucional/` | O **SCHEMA_OUTPUT** e fontes de verdade curriculares (ver abaixo) |
 | `tokens-unidavi.{md,js}` | Tokens visuais UNIDAVI (3º anexo da §10) |
@@ -68,7 +67,7 @@ O schema do app (`supabase/migrations/`) foi realinhado a este contrato — ver 
 | `alternativas[].correta` | `true` na letra de `Resposta correta:` do gabarito |
 | `alternativas[].justificativa` | linhas `(A)..(D)` da "Análise de todas as alternativas"; na correta, prefixada pela "Justificativa geral" (ver observação 4) |
 | `dificuldade_editorial` | `(Nível: Fácil\|Média\|Difícil)` → `facil\|medio\|dificil` |
-| `fase_alvo`, `uc_slug` | 4ª fase; UC confirmada na taxonomia = `med_unidavi_f04_uc01_proliferacao_celular` |
+| `fase_alvo`, `uc_slug` | 4ª fase; UC = `med_unidavi_f04_uc02_proliferacao_celular` (corrigido conforme manual oficial — ver nota abaixo) |
 | `sp_referencia` | **null** — SP da amostra não bate com a taxonomia 2026.1 (ver revisao-schema §perguntas) |
 | `tema`, `area_clinica`, `nivel_bloom`, `competencia_dcn_2025`, `oa_slugs` | **ausentes na origem** — docente completa na curadoria (§6); não inventados (obs. 3) |
 
@@ -82,3 +81,12 @@ O schema do app (`supabase/migrations/`) foi realinhado a este contrato — ver 
 ## Observação de conteúdo para os autores (não é bug do app)
 
 Distribuição do gabarito nas 40 questões: **A=8, B=29, C=3, D=0**. Nenhuma questão tem D como resposta; 72,5% são B. Uma chave tão enviesada permite acerto por padrão (marcar sempre B) e reduz o valor diagnóstico — vale rebalancear na curadoria. O app **não** altera conteúdo; fica como sinalização para a coordenação/autores.
+
+## Correção de dado (24/07, pós-manual)
+
+`UC1_fase4_canonico.json`: `uc_slug` corrigido de `..._uc01_proliferacao_celular` para
+**`..._uc02_proliferacao_celular`**, conforme o sumário do Manual Docente 4ª fase 2026.1
+(Drive institucional): UC1 = "Doenças Resultantes da Agressão ao Meio Ambiente", **UC2 =
+"Proliferação Celular"**. A taxonomia da skill (`schema-institucional/taxonomia_med_unidavi_2026_1.json`)
+rotula f04/uc01 como Proliferação Celular — diverge do manual oficial. Sinalizado em
+`docs/revisao-schema.md` para a coordenação corrigir a taxonomia da skill na fonte.
