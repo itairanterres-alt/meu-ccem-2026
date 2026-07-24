@@ -67,7 +67,7 @@ O schema do app (`supabase/migrations/`) foi realinhado a este contrato — ver 
 | `alternativas[].correta` | `true` na letra de `Resposta correta:` do gabarito |
 | `alternativas[].justificativa` | linhas `(A)..(D)` da "Análise de todas as alternativas"; na correta, prefixada pela "Justificativa geral" (ver observação 4) |
 | `dificuldade_editorial` | `(Nível: Fácil\|Média\|Difícil)` → `facil\|medio\|dificil` |
-| `fase_alvo`, `uc_slug` | 4ª fase; UC = `med_unidavi_f04_uc02_proliferacao_celular` (corrigido conforme manual oficial — ver nota abaixo) |
+| `fase_alvo`, `uc_slug` | 4ª fase; UC = `med_unidavi_f04_uc01_proliferacao_celular` (confirmado pelo Manual Docente 4ª fase 2026/2 — ver nota abaixo) |
 | `sp_referencia` | **null** — SP da amostra não bate com a taxonomia 2026.1 (ver revisao-schema §perguntas) |
 | `tema`, `area_clinica`, `nivel_bloom`, `competencia_dcn_2025`, `oa_slugs` | **ausentes na origem** — docente completa na curadoria (§6); não inventados (obs. 3) |
 
@@ -82,11 +82,23 @@ O schema do app (`supabase/migrations/`) foi realinhado a este contrato — ver 
 
 Distribuição do gabarito nas 40 questões: **A=8, B=29, C=3, D=0**. Nenhuma questão tem D como resposta; 72,5% são B. Uma chave tão enviesada permite acerto por padrão (marcar sempre B) e reduz o valor diagnóstico — vale rebalancear na curadoria. O app **não** altera conteúdo; fica como sinalização para a coordenação/autores.
 
-## Correção de dado (24/07, pós-manual)
+## Correção de dado — histórico (24/07)
 
-`UC1_fase4_canonico.json`: `uc_slug` corrigido de `..._uc01_proliferacao_celular` para
-**`..._uc02_proliferacao_celular`**, conforme o sumário do Manual Docente 4ª fase 2026.1
-(Drive institucional): UC1 = "Doenças Resultantes da Agressão ao Meio Ambiente", **UC2 =
-"Proliferação Celular"**. A taxonomia da skill (`schema-institucional/taxonomia_med_unidavi_2026_1.json`)
-rotula f04/uc01 como Proliferação Celular — diverge do manual oficial. Sinalizado em
-`docs/revisao-schema.md` para a coordenação corrigir a taxonomia da skill na fonte.
+Numa primeira leitura, `uc_slug` foi trocado de `..._uc01_proliferacao_celular` para
+`..._uc02_proliferacao_celular`, por parecer confirmado pela numeração interna
+(`f04.uc01`/`uc02`/`uc03`) de `schema-institucional/oas_med_unidavi_2026_1.json`. Essa correção
+estava **errada**: com os Manuais Docentes 2026/2 (semestre corrente) em mãos, confirmado em
+três pontos do documento (sumário, tabela de estrutura curricular e cabeçalho de seção) que a
+4ª fase é **UC1 = Proliferação Celular, UC2 = Saúde da Mulher/Sexualidade/Planejamento Familiar,
+UC3 = Doenças Resultantes da Agressão ao Meio Ambiente** — exatamente como já estava em
+`taxonomia_med_unidavi_2026_1.json` desde o início.
+
+**Raiz do problema:** é `oas_med_unidavi_2026_1.json` que tem a numeração de UC da 4ª fase
+deslocada — seus SPs sobre proliferação celular/câncer ("Nada Será Como Antes", câncer de colo/
+próstata/leucemias/colorretal/pulmão) estão rotulados `f04.uc02`, quando deveriam ser `f04.uc01`;
+os SPs sobre intoxicação/agressão ambiental ("Cavalo de Tróia", corticoide) estão em `f04.uc01`
+quando deveriam ser `f04.uc03`; e os de saúde da mulher/gravidez ("Gravidez não é doença!") estão
+em `f04.uc03` quando deveriam ser `f04.uc02`. A taxonomia estava certa desde 2026.1; o banco de
+OAs da skill é que precisa da correção (rotação de uc01→uc03→uc02→uc01). Revertido:
+`uc_slug` de volta a `..._uc01_proliferacao_celular` em `UC1_fase4_canonico.json` e
+`src/lib/questoes-seed.ts`. Detalhe em `docs/revisao-schema.md`.
