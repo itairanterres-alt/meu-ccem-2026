@@ -35,9 +35,14 @@ export function ProfessorHome() {
         title="Minhas sessões"
         subtitle={PROFESSOR_DEMO.nome}
         action={
-          <Btn variant="primary" onClick={() => navigate('/professor/nova')}>
-            + Nova sessão
-          </Btn>
+          <div className="flex gap-2">
+            <Btn variant="secondary" onClick={() => navigate('/importacao')}>
+              Importar questões
+            </Btn>
+            <Btn variant="primary" onClick={() => navigate('/professor/nova')}>
+              + Nova sessão
+            </Btn>
+          </div>
         }
       />
       {sessoes.length === 0 ? (

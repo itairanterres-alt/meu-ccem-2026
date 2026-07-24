@@ -6,6 +6,9 @@ import { ProfessorConduzir } from './features/sessao-professor/ProfessorConduzir
 import { Projecao } from './features/projecao/Projecao'
 import { AlunoEntrar } from './features/sessao-aluno/AlunoEntrar'
 import { AlunoSessao } from './features/sessao-aluno/AlunoSessao'
+import { Importacao } from './features/importacao/Importacao'
+import { PortaA } from './features/importacao/PortaA'
+import { PortaB } from './features/importacao/PortaB'
 import { DEMO_MODE } from './lib/client'
 
 export default function App() {
@@ -20,6 +23,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/professor" element={<ProfessorHome />} />
         <Route path="/professor/nova" element={<NovaSessao />} />
+        <Route path="/importacao" element={<Importacao />} />
+        <Route path="/importacao/porta-a" element={<PortaA />} />
+        <Route path="/importacao/porta-b" element={<PortaB />} />
         <Route path="/professor/:sessaoId" element={<ProfessorConduzir />} />
         <Route path="/projecao/:sessaoId" element={<Projecao />} />
         <Route path="/aluno" element={<AlunoEntrar />} />

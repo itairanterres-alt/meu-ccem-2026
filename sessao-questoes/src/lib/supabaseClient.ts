@@ -15,6 +15,7 @@ import type {
   Letra,
   LinhaDistribuicao,
   Questao,
+  QuestaoRascunho,
   Sessao,
   SessaoQuestao,
 } from './types'
@@ -47,6 +48,51 @@ export function makeSupabaseSessaoClient(sb: SupabaseClient | null): SessaoClien
       const { data, error } = await q
       if (error) throw error
       return (data ?? []).map(rowParaQuestao)
+    },
+
+    async importarQuestoes(rascunhos: QuestaoRascunho[], autorId: string) {
+      const client = mustClient(sb)
+      const resultado: Questao[] = []
+      // Uma a uma (não em lote) para poder amarrar cada linha de
+      // questao_alternativas ao id gerado — mesma lógica de criarSessao.
+      // RLS "staff importa" já cobre o insert (staff + criado_por = auth.uid()).
+      for (const r of rascunhos) {
+        const { data: questaoRow, error: e1 } = await client
+          .from('questoes')
+          .insert({
+            payload: payloadCanonico(r, autorId),
+            enunciado: r.enunciado,
+            texto_base: r.texto_base,
+            fase_alvo: r.fase_alvo,
+            uc_slug: r.uc_slug,
+            sp_referencia: r.sp_referencia,
+            tema: r.tema,
+            subtema: r.subtema,
+            area_clinica: r.area_clinica,
+            nivel_bloom: r.nivel_bloom,
+            dificuldade_editorial: r.dificuldade_editorial,
+            competencia_dcn_2025: r.competencia_dcn_2025,
+            oa_slugs: r.oa_slugs,
+            tags: r.tags,
+            referencia: r.referencia,
+            fonte_geracao: r.fonte_geracao,
+            criado_por: autorId,
+          })
+          .select()
+          .single()
+        if (e1) throw e1
+        const linhas = r.alternativas.map((a) => ({
+          questao_id: questaoRow.id,
+          letra: a.letra,
+          texto: a.texto,
+          correta: !!a.correta,
+          justificativa: a.justificativa ?? '',
+        }))
+        const { error: e2 } = await client.from('questao_alternativas').insert(linhas)
+        if (e2) throw e2
+        resultado.push({ ...rowParaQuestao(questaoRow), alternativas: r.alternativas })
+      }
+      return resultado
     },
 
     async criarSessao(input: NovaSessaoInput) {
@@ -275,7 +321,15 @@ function rowParaQuestao(row: any): Questao {
     uc_slug: row.uc_slug,
     sp_referencia: row.sp_referencia,
     tema: row.tema,
+    subtema: row.subtema,
+    area_clinica: row.area_clinica,
+    nivel_bloom: row.nivel_bloom,
     dificuldade_editorial: row.dificuldade_editorial,
+    competencia_dcn_2025: row.competencia_dcn_2025 ?? [],
+    oa_slugs: row.oa_slugs ?? [],
+    tags: row.tags ?? [],
+    referencia: row.referencia,
+    fonte_geracao: row.fonte_geracao,
     status: row.status,
     versao: row.versao,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -285,5 +339,40 @@ function rowParaQuestao(row: any): Questao {
       correta: a.correta,
       justificativa: a.justificativa,
     })),
+  }
+}
+
+// Documento canônico completo para a coluna `payload` (fidelidade de
+// ida-e-volta com schema_questao_med_unidavi.json) — os campos que a
+// coluna projetada não guarda (uso_em_avaliacoes, performance, auditoria,
+// cenario_origem) nascem no default do schema; uma questão 'pendente'
+// legitimamente não tem tudo preenchido ainda (curadoria completa depois).
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function payloadCanonico(r: QuestaoRascunho, autorId: string): Record<string, any> {
+  return {
+    tipo: 'questao',
+    fase_alvo: r.fase_alvo,
+    uc_slug: r.uc_slug,
+    sp_referencia: r.sp_referencia,
+    tema: r.tema,
+    subtema: r.subtema,
+    area_clinica: r.area_clinica,
+    nivel_bloom: r.nivel_bloom,
+    dificuldade_editorial: r.dificuldade_editorial,
+    competencia_dcn_2025: r.competencia_dcn_2025,
+    cenario_origem: ['nao_especificado'],
+    tags: r.tags,
+    texto_base: r.texto_base,
+    enunciado: r.enunciado,
+    alternativas: r.alternativas,
+    oa_slugs: r.oa_slugs,
+    referencia: r.referencia,
+    fonte_geracao: r.fonte_geracao,
+    status_curadoria: 'pendente',
+    disponibilidade: 'disponivel',
+    versao: 1,
+    uso_em_avaliacoes: { total_avaliativo: 0, ultima_avaliacao_em: null, historico: [] },
+    performance: { n_respostas_treino: 0, n_respostas_avaliativo: 0 },
+    auditoria: { criada_por: autorId, criada_em: new Date().toISOString() },
   }
 }

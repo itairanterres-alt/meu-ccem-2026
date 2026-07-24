@@ -14,6 +14,7 @@ import type {
   Letra,
   LinhaDistribuicao,
   Questao,
+  QuestaoRascunho,
   Sessao,
   SessaoQuestao,
   SessaoStatus,
@@ -59,7 +60,15 @@ class DemoStore {
     uc_slug: q.uc_slug,
     sp_referencia: q.sp_referencia,
     tema: q.tema,
+    subtema: null,
+    area_clinica: null,
+    nivel_bloom: null,
     dificuldade_editorial: q.dificuldade_editorial,
+    competencia_dcn_2025: [],
+    oa_slugs: [],
+    tags: [],
+    referencia: null,
+    fonte_geracao: q._proveniencia,
     status: 'pendente',
     versao: 1,
     alternativas: q.alternativas,
@@ -97,6 +106,10 @@ interface Persistido {
   participantes: [string, string[]][]
   respostas: Resposta[]
   codigos: string[]
+  // Banco de questões: nasce só com o seed (não persistido); a partir da
+  // 1ª importação passa a incluir os rascunhos confirmados, também
+  // sincronizados entre abas como o resto do estado mutável.
+  questoes?: Questao[]
 }
 
 function persistir() {
@@ -107,6 +120,7 @@ function persistir() {
     participantes: [...store.participantes.entries()].map(([k, v]) => [k, [...v]]),
     respostas: store.respostas,
     codigos: [...store.codigos],
+    questoes: store.questoes,
   }
   localStorage.setItem(STORAGE_KEY, JSON.stringify(payload))
 }
@@ -122,6 +136,7 @@ function reidratar() {
     store.participantes = new Map(p.participantes.map(([k, v]) => [k, new Set(v)]))
     store.respostas = p.respostas
     store.codigos = new Set(p.codigos)
+    if (p.questoes) store.questoes = p.questoes
   } catch {
     // estado corrompido em localStorage — mantém o que já está em memória
   }
@@ -163,6 +178,20 @@ export const demoClient: SessaoClient = {
                (filtro?.ucSlug === undefined || q.uc_slug === filtro.ucSlug)
       )
     )
+  },
+
+  async importarQuestoes(rascunhos: QuestaoRascunho[], _autorId: string) {
+    return tick(() => {
+      const novas: Questao[] = rascunhos.map((r) => ({
+        ...r,
+        id: uid('questao'),
+        status: 'pendente',
+        versao: 1,
+      }))
+      store.questoes = [...store.questoes, ...novas]
+      persistir()
+      return novas
+    })
   },
 
   async criarSessao(input: NovaSessaoInput) {

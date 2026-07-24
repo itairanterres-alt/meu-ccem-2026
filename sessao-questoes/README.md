@@ -6,7 +6,7 @@ Fatia do ecossistema MED-UNIDAVI 2027 — o que precisa nascer certo é o **sche
 
 ## Estado atual
 
-**Passo 2 de 4** (conforme plano de trabalho): **schema aprovado**; fluxo da sessão de ponta a ponta construído e verificado — professor monta e abre, aluno entra pelo código, responde, professor trava, distribuição aparece (professor/projeção/aluno), avança, encerra. Roda em modo demo (dados em memória, sem Supabase) com as **40 questões reais** da amostra. Leia `docs/passo-2-fluxo-sessao.md` para como rodar e o que foi verificado.
+**Passo 3 de 4** (conforme plano de trabalho): fluxo da sessão de ponta a ponta (passo 2) construído e verificado — professor monta e abre, aluno entra pelo código, responde, professor trava, distribuição aparece (professor/projeção/aluno), avança, encerra. Importação (passo 3) construída e verificada — Porta A (JSON no schema canônico) e Porta B (colar do formato real da coordenação, estruturação determinística sem IA), ambas convergindo numa tela de conferência antes de gravar no banco. Roda em modo demo (dados em memória, sem Supabase) com as **40 questões reais** da amostra + o que for importado. Leia `docs/passo-2-fluxo-sessao.md` e `docs/passo-3-importacao.md`.
 
 O schema foi **realinhado ao contrato institucional** `schema_questao_med_unidavi.json` (o `SCHEMA_OUTPUT` da §10, encontrado dentro da skill `capi-questoes-enamed`) — que prevalece sobre o rascunho da §5. Leia `docs/revisao-schema.md`: a reconciliação com o SCHEMA_OUTPUT, as decisões, o que foi resolvido pelo coordenador e as perguntas em aberto. Fontes de verdade curriculares em `docs/anexos/schema-institucional/`.
 
@@ -22,6 +22,7 @@ sessao-questoes/
 ├── docs/
 │   ├── revisao-schema.md          # decisões e perguntas em aberto
 │   ├── passo-2-fluxo-sessao.md    # como rodar; o que foi verificado
+│   ├── passo-3-importacao.md      # Porta A/B; como rodar; o que foi verificado
 │   └── anexos/                    # amostra real, SCHEMA_OUTPUT, tokens visuais
 ├── supabase/
 │   ├── migrations/
@@ -41,11 +42,11 @@ sessao-questoes/
         ├── sessao-professor/      # nova sessão, conduzir (abrir/avançar/travar/encerrar)
         ├── projecao/              # tela projetada: código, item, distribuição
         ├── sessao-aluno/          # entrar por código, responder, revisão
+        ├── importacao/            # Porta A (JSON) e Porta B (colar, sem IA) + conferência
         │
         │  # ——— próximos passos ———
         ├── auth/                  # magic link real (hoje: identity.ts faz as vezes)
-        ├── importacao/            # Porta A (CSV/JSON) e Porta B (colar + IA + conferência)
-        ├── dashboards/            # professor/admin (agregados) e aluno (próprio)
+        ├── dashboards/            # professor/admin (agregados), aluno (próprio) e curadoria
         └── cards/                 # flashcards FSRS do aluno
 ```
 
@@ -74,5 +75,5 @@ Depois: gerar tipos com `supabase gen types typescript`, trocar os `as any` em `
 
 1. ✅ Estrutura + migrations — schema aprovado
 2. ✅ Fluxo da sessão de ponta a ponta com dados de teste (as 40 questões reais)
-3. Importação (Porta A: CSV/JSON no `SCHEMA_OUTPUT`; Porta B: colar + estruturar + conferir)
+3. ✅ Importação (Porta A: JSON no `SCHEMA_OUTPUT`; Porta B: colar + estruturar + conferir)
 4. Dashboards e cards

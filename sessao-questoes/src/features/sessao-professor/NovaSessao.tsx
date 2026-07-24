@@ -11,6 +11,7 @@ const NIVEL_LABEL: Record<string, string> = { facil: 'Fácil', medio: 'Média', 
 
 export function NovaSessao() {
   const navigate = useNavigate()
+  const [fase, setFase] = useState(4)
   const [questoes, setQuestoes] = useState<Questao[]>([])
   const [carregando, setCarregando] = useState(true)
   const [selecionadas, setSelecionadas] = useState<string[]>([])
@@ -20,14 +21,15 @@ export function NovaSessao() {
   const [criando, setCriando] = useState(false)
 
   useEffect(() => {
-    client.listarBancoQuestoes({ fase: 4 }).then((qs) => {
+    setCarregando(true)
+    setSelecionadas([])
+    client.listarBancoQuestoes({ fase }).then((qs) => {
       setQuestoes(qs)
       setCarregando(false)
     })
-  }, [])
+  }, [fase])
 
   const ucSlug = questoes[0]?.uc_slug ?? ''
-  const fase = questoes[0]?.fase_alvo ?? 4
 
   const spTitulos = useMemo(() => {
     // No modo demo, a proveniência (SP de origem) não é campo do schema —
@@ -101,13 +103,31 @@ export function NovaSessao() {
           </div>
           <div>
             <label className="block text-sm font-semibold text-textSec mb-1">Fase</label>
-            <div className="px-3 py-3 text-base text-text">{fase}ª fase</div>
+            <select
+              value={fase}
+              onChange={(e) => setFase(Number(e.target.value))}
+              className="rounded border border-border px-3 py-3 text-base"
+            >
+              {Array.from({ length: 12 }, (_, i) => i + 1).map((f) => (
+                <option key={f} value={f}>
+                  {f}ª fase
+                </option>
+              ))}
+            </select>
           </div>
         </div>
       </Card>
 
       {carregando ? (
         <Spinner />
+      ) : questoes.length === 0 ? (
+        <Card className="p-8 text-center text-textSec">
+          Nenhuma questão no banco para a {fase}ª fase ainda.{' '}
+          <button className="text-blue underline" onClick={() => navigate('/importacao')}>
+            Importar questões
+          </button>
+          .
+        </Card>
       ) : (
         <>
           <div className="flex items-center justify-between mb-3">

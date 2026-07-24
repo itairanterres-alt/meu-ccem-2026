@@ -14,6 +14,7 @@ import type {
   LinhaDistribuicao,
   Letra,
   Questao,
+  QuestaoRascunho,
   Sessao,
   SessaoQuestao,
 } from './types'
@@ -31,6 +32,10 @@ export interface NovaSessaoInput {
 export interface SessaoClient {
   // ---------- Professor: montar e conduzir ----------
   listarBancoQuestoes(filtro?: { fase?: number; ucSlug?: string }): Promise<Questao[]>
+  // Importação (Porta A: JSON já no schema canônico; Porta B: parseColado()
+  // no cliente). Ambas as portas convergem aqui — o cliente só recebe
+  // rascunhos já estruturados, nasce status 'pendente', versao 1.
+  importarQuestoes(rascunhos: QuestaoRascunho[], autorId: string): Promise<Questao[]>
   criarSessao(input: NovaSessaoInput): Promise<Sessao>
   abrirSessao(sessaoId: string): Promise<Sessao>
   listarItens(sessaoId: string): Promise<SessaoQuestao[]>
