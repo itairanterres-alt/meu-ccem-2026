@@ -83,6 +83,22 @@ Rodado de ponta a ponta com Playwright contra o build de produção (`vite previ
   desabilitado com 0 selecionadas — não é possível importar dado quebrado.
 - `npm run build` e `tsc -b --noEmit` limpos.
 
+## Uso real — 240 questões novas via Porta B (24/07)
+
+A coordenação passou, via pasta do Google Drive, os documentos ENAMED completos das 3 UCs PBL da
+4ª fase (Proliferação Celular, Saúde da Mulher/Sexualidade/Planejamento Familiar, Doenças
+Resultantes da Agressão ao Meio Ambiente), 4 SPs cada — 24 arquivos `.docx` (par Questões+Gabarito
+por SP), mesmo formato da amostra original. Processados com a mesma lógica de `parseColado.ts`
+(fora da UI, via script, para não exigir colar 240 questões manualmente na tela) e acrescentados a
+`questoes-seed.ts`: banco de teste passou de 40 para **280 questões**. Validação: 4 alternativas e
+exatamente 1 correta em cada uma das 240, nenhum campo vazio, `tsc`/`build` limpos, confirmado
+visualmente que as 280 aparecem em Nova Sessão.
+
+A mesma pasta trazia 13 arquivos de **questões discursivas** (dissertativas, corrigidas por
+critério SUFICIENTE/INSUFICIENTE) — formato que o schema atual não suporta (`alternativas`
+A-D é obrigatório). Descartadas por decisão do coordenador; ficam fora do escopo até que exista
+um tipo de item "questão discursiva" no schema, se algum dia fizer sentido.
+
 ## O que falta (fora do escopo deste passo)
 
 - Estruturação assistida por IA na Porta B, para texto fora do formato QUESTÃO/gabarito (precisa
