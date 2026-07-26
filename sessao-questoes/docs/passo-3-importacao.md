@@ -113,6 +113,33 @@ SP2 e SP3 (pares completos) processados e integrados: **40 questões novas**, ba
 de 280 para **320 questões**. SP1 ficou de fora — falta o documento de Questões (só veio o
 Gabarito); pendente até a coordenação enviar o par completo.
 
+## Uso real — 519 questões novas das 5ª e 6ª fases (26/07)
+
+A coordenação subiu (pasta "Questões tutoriais 2026-2" no Drive, cópia de um OneDrive) as UCs PBL
+completas das 5ª e 6ª fases, mesmo formato ENAMED. Processadas com a mesma lógica de
+`parseColado.ts` (via script, fora da UI) e integradas a `questoes-seed.ts` — banco de teste passa
+de 320 para **839 questões**. Detalhamento:
+
+| Fase | UC (uc_slug) | SPs | Questões |
+|---|---|---|---|
+| 5 | Dor (`f05_uc01_dor`) — completa SP1+SP4 (SP2/SP3 já estavam) | 2 | 40 |
+| 5 | Dor Abdominal, Diarreia, Vômitos e Icterícia (`f05_uc02`) | 5 | 100 |
+| 5 | Febre, Inflamação e Infecção (`f05_uc03`) | 5 | 100 |
+| 6 | Problemas Mentais e de Comportamento (`f06_uc01`) | 4 | 79 |
+| 6 | Perda de Sangue (`f06_uc02`) | 5 | 100 |
+| 6 | Fadiga, Perda de Peso e Anemias (`f06_uc03`) | 5 | 100 |
+
+**Nota de dado:** a SP1 de "Problemas Mentais e de Comportamento" (6ª fase, título "Memórias")
+tem só **19 questões** no material da coordenação — os dois documentos-fonte (Questões e Gabarito)
+não contêm uma QUESTÃO 20. Não é erro de importação; é lacuna na origem. Por isso essa UC tem 79
+questões (19 + 20×3), não 80.
+
+**Reforço da armadilha de nomenclatura:** os arquivos vieram com dois padrões de nome misturados
+na mesma pasta ("UC1 SP1 Questoes ENAMED.docx" genérico e "UC1_SP1_Memorias_..." descritivo), e o
+mesmo "UC1 SPn" aparecia para UCs de fases diferentes (Dor na 5ª vs. Saúde Mental na 6ª). Cada par
+foi conferido pelo cabeçalho interno do documento (`Unidade Curricular ... — <nome>`) antes de
+processar, nunca pelo nome do arquivo.
+
 ## O que falta (fora do escopo deste passo)
 
 - Estruturação assistida por IA na Porta B, para texto fora do formato QUESTÃO/gabarito (precisa

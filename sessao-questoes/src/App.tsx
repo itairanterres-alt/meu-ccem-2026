@@ -16,7 +16,7 @@ export default function App() {
     <HashRouter>
       {DEMO_MODE && (
         <div className="bg-amber text-white text-center text-xs font-bold py-1 tracking-wide">
-          MODO DEMO — dados em memória, sem Supabase. As 320 questões são reais (4ª fase completa + Dor, 5ª fase).
+          MODO DEMO — dados em memória, sem Supabase. As 839 questões são reais (4ª, 5ª e 6ª fases).
         </div>
       )}
       <Routes>
