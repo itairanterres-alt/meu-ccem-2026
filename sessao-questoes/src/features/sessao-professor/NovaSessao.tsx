@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Btn, Card, ErrorBanner, PageHeader, Spinner } from '../../ui/kit'
 import { client } from '../../lib/client'
-import { PROFESSOR_DEMO } from '../../lib/identity'
+import { useAuth } from '../auth/AuthContext'
 import type { Questao } from '../../lib/types'
 import { registrarSessaoDemo } from './ProfessorHome'
 
@@ -11,6 +11,7 @@ const NIVEL_LABEL: Record<string, string> = { facil: 'Fácil', medio: 'Média', 
 
 export function NovaSessao() {
   const navigate = useNavigate()
+  const { identidade } = useAuth()
   const [fase, setFase] = useState(4)
   const [questoes, setQuestoes] = useState<Questao[]>([])
   const [carregando, setCarregando] = useState(true)
@@ -45,11 +46,12 @@ export function NovaSessao() {
   async function criar() {
     if (!titulo.trim()) return setErro('Dê um título à sessão.')
     if (selecionadas.length === 0) return setErro('Selecione ao menos uma questão.')
+    if (!identidade) return setErro('Sessão de login expirada — entre novamente.')
     setErro(null)
     setCriando(true)
     try {
       const sessao = await client.criarSessao({
-        professorId: PROFESSOR_DEMO.id,
+        professorId: identidade.id,
         titulo: titulo.trim(),
         fase,
         ucSlug,

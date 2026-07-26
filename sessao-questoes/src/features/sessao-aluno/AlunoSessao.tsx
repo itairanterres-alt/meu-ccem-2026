@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Badge, Btn, Card, ErrorBanner, Spinner } from '../../ui/kit'
 import { client } from '../../lib/client'
-import { lerIdentidade } from '../../lib/identity'
+import { useAuth } from '../auth/AuthContext'
 import type { Letra, Sessao, ItemAluno } from '../../lib/types'
 
 // Tela do aluno — polegar, uma mão, celular (§11). Alvos de toque
@@ -11,7 +11,7 @@ import type { Letra, Sessao, ItemAluno } from '../../lib/types'
 export function AlunoSessao() {
   const { sessaoId } = useParams<{ sessaoId: string }>()
   const navigate = useNavigate()
-  const identidade = lerIdentidade()
+  const { identidade } = useAuth()
 
   const [sessao, setSessao] = useState<Sessao | null>(null)
   const [item, setItem] = useState<ItemAluno | null>(null)

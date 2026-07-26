@@ -11,7 +11,12 @@
 export interface Identidade {
   id: string
   nome: string
-  role: 'professor' | 'aluno'
+  role: 'admin' | 'professor' | 'aluno'
+}
+
+// Quem pode conduzir sessão / importar / curar: professor ou admin.
+export function ehStaff(identidade: Identidade | null): boolean {
+  return identidade?.role === 'professor' || identidade?.role === 'admin'
 }
 
 export const PROFESSOR_DEMO: Identidade = { id: 'prof_1', nome: 'Prof. Ana Beatriz', role: 'professor' }

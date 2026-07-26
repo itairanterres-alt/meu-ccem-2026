@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Btn, Card, ErrorBanner, PageHeader } from '../../ui/kit'
 import { client } from '../../lib/client'
-import { PROFESSOR_DEMO } from '../../lib/identity'
+import { useAuth } from '../auth/AuthContext'
 import { parseColado } from '../../lib/parseColado'
 import type { QuestaoRascunho } from '../../lib/types'
 import { RevisaoQuestoes } from './RevisaoQuestoes'
@@ -32,6 +32,7 @@ Análise de todas as alternativas:
 
 export function PortaB() {
   const navigate = useNavigate()
+  const { identidade } = useAuth()
   const [faseAlvo, setFaseAlvo] = useState(4)
   const [ucSlug, setUcSlug] = useState('')
   const [spReferencia, setSpReferencia] = useState('')
@@ -68,7 +69,7 @@ export function PortaB() {
     setConfirmando(true)
     setErroImportacao(null)
     try {
-      const importadas = await client.importarQuestoes(selecionados, PROFESSOR_DEMO.id)
+      const importadas = await client.importarQuestoes(selecionados, identidade?.id ?? '')
       setConcluido(importadas.length)
     } catch (e) {
       setErroImportacao(e instanceof Error ? e.message : 'Erro ao importar')

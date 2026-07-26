@@ -24,9 +24,32 @@ import type { NovaSessaoInput, SessaoClient } from './api'
 const url = import.meta.env.VITE_SUPABASE_URL as string | undefined
 const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined
 
+// Singleton: a MESMA instância é usada pelo SessaoClient (RPCs/tabelas) e
+// pela camada de auth (features/auth). Precisa ser única porque o supabase-js
+// guarda a sessão autenticada (JWT) no próprio cliente — se a auth logasse
+// num cliente e as RPCs rodassem em outro, as chamadas sairiam sem o
+// auth.uid() de que todo o schema (RLS + RPCs security definer) depende.
+// `undefined` = ainda não resolvido; `null` = env ausente (modo demo).
+let _sb: SupabaseClient | null | undefined
+
 export function criarSupabaseClient(): SupabaseClient | null {
-  if (!url || !anonKey) return null
-  return createClient(url, anonKey)
+  if (_sb !== undefined) return _sb
+  _sb =
+    !url || !anonKey
+      ? null
+      : createClient(url, anonKey, {
+          auth: {
+            // PKCE devolve o token via query string (?code=...) em vez de
+            // fragmento (#access_token=...), evitando colisão com o HashRouter
+            // (que usa o próprio # para as rotas). detectSessionInUrl troca o
+            // code por sessão automaticamente no carregamento.
+            flowType: 'pkce',
+            detectSessionInUrl: true,
+            persistSession: true,
+            autoRefreshToken: true,
+          },
+        })
+  return _sb
 }
 
 function mustClient(sb: SupabaseClient | null): SupabaseClient {

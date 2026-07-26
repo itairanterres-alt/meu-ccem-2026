@@ -2,12 +2,13 @@ import { useCallback, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Badge, Btn, Card, ErrorBanner, Spinner } from '../../ui/kit'
 import { client } from '../../lib/client'
-import { PROFESSOR_DEMO } from '../../lib/identity'
+import { useAuth } from '../auth/AuthContext'
 import type { ContagemRespostas, ItemAluno, LinhaDistribuicao, Sessao, SessaoQuestao } from '../../lib/types'
 
 export function ProfessorConduzir() {
   const { sessaoId } = useParams<{ sessaoId: string }>()
   const navigate = useNavigate()
+  const { identidade } = useAuth()
   const [sessao, setSessao] = useState<Sessao | null>(null)
   const [itens, setItens] = useState<SessaoQuestao[]>([])
   const [item, setItem] = useState<ItemAluno | null>(null)
@@ -23,7 +24,7 @@ export function ProfessorConduzir() {
     const its = await client.listarItens(sessaoId)
     setItens(its)
     if (s.questao_atual) {
-      const it = await client.verItem(s.questao_atual, PROFESSOR_DEMO.id)
+      const it = await client.verItem(s.questao_atual, identidade?.id ?? '')
       setItem(it)
       if (it.estado === 'aberta') {
         setContagem(await client.contagemRespostas(s.questao_atual))
@@ -34,7 +35,7 @@ export function ProfessorConduzir() {
     } else {
       setItem(null)
     }
-  }, [sessaoId])
+  }, [sessaoId, identidade])
 
   useEffect(() => {
     carregar()

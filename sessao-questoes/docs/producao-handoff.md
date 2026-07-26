@@ -53,16 +53,31 @@ piloto.
 5. No painel **Authentication**: habilitar login por **magic link** (e-mail) e restringir ao
    domínio `@unidavi.edu.br`. (Decisão já tomada — ver `docs/revisao-schema.md`.)
 
-### Passo B — construir a feature de autenticação **[código — pode ser feito antes do dono]**
+### Passo B — feature de autenticação **✅ FEITO (código)**
 
-Único pedaço de código realmente faltante. Hoje `src/lib/identity.ts` finge o login (personas em
-`sessionStorage`). As migrations/RLS/RPCs já foram desenhadas em cima de `auth.uid()` + magic link.
-Falta a feature `src/features/auth/`:
-- Tela de login por magic link (e-mail institucional).
-- Sessão vinda de `supabase.auth` em vez de `identity.ts`. As telas já consomem uma identidade
-  abstrata, então idealmente só `identity.ts` (ou um provedor equivalente) muda.
-- Sem isso, o aluno **não** consegue entrar na sessão em produção (as RPCs `rpc_entrar_sessao`,
-  `rpc_responder` etc. usam `auth.uid()`).
+Construída a feature `src/features/auth/` (magic link real por cima do schema existente). O que foi
+entregue:
+- **`AuthContext.tsx`** — provedor único (`useAuth()`) que as telas consomem no lugar dos acessos
+  diretos a `identity.ts`. Expõe `{ identidade, carregando, modo, entrarComoDemo, enviarMagicLink,
+  sair }`. Em modo demo, a identidade vem de `identity.ts` (personas em `sessionStorage`, uma aba =
+  um usuário — preservado); em modo supabase, vem de `supabase.auth` + a linha em `profiles`.
+- **`Login.tsx`** — tela de magic link institucional (valida `@unidavi.edu.br`, sem senha).
+- **`guards.tsx`** — `RequireStaff` (professor/admin) e `RequireAuth` (autenticado); aplicados em
+  `App.tsx`. A `/projecao/:id` fica sem guarda de propósito (tela de sala, sem login próprio). No
+  modo demo os guards não criam atrito (o professor "entra" como `PROFESSOR_DEMO` ao abrir a área).
+- **`src/lib/supabaseAuth.ts`** — ponte `supabase.auth` → `Identidade` (resolve role via `profiles`,
+  dispara/encerra sessão, assina `onAuthStateChange`).
+- As telas (`Home`, `ProfessorHome`, `NovaSessao`, `ProfessorConduzir`, `PortaA/B`, `AlunoEntrar`,
+  `AlunoSessao`) agora leem a identidade de `useAuth()`; nenhuma importa mais `PROFESSOR_DEMO`/
+  `lerIdentidade` direto (exceto o próprio provedor/guard, por construção).
+- **`identity.ts`**: `Identidade.role` passou a incluir `'admin'`; adicionado `ehStaff()`.
+- **`supabaseClient.ts`**: `criarSupabaseClient()` agora é **singleton** (a auth e as RPCs precisam
+  compartilhar a MESMA instância, senão as chamadas sairiam sem o JWT). Configurado `flowType:
+  'pkce'` — ver a armadilha nova nº 6 sobre HashRouter.
+
+Verificado: `npm run build` (tsc + vite) passa; smoke test em modo demo (Home → professor → nova
+sessão) roda sem erros de runtime. **Não testado contra Supabase ao vivo** (projeto ainda não
+provisionado) — o Passo A continua sendo o gate.
 
 ### Passo C — ligar o app ao Supabase **[código]**
 
@@ -71,10 +86,21 @@ Falta a feature `src/features/auth/`:
    supabase gen types typescript --project-id <ref> > src/lib/database.types.ts
    ```
    Depois, tipar as chamadas RPC/tabela em `supabaseClient.ts` com os tipos gerados.
-2. Carregar as 839 questões no banco real. Duas opções: (a) script de seed único que insere de
-   `questoes-seed.ts` em `questoes` + `questao_alternativas`; ou (b) usar a própria importação
-   (Porta A/B) já construída, que em modo `supabase` grava direto no banco (RLS "staff importa" já
-   permite). A opção (a) é mais rápida para carga inicial.
+2. Carregar as 839 questões no banco real. **Script pronto (opção a):** `scripts/seed-questoes.ts`,
+   rodável com `npm run seed:questoes`. Insere `questoes-seed.ts` em `questoes` +
+   `questao_alternativas` com o payload canônico completo. Exige três variáveis de ambiente:
+   ```bash
+   SUPABASE_URL=https://<ref>.supabase.co \
+   SUPABASE_SERVICE_ROLE_KEY=<service_role key> \
+   SEED_AUTOR_ID=<uuid do profile admin> \
+   npm run seed:questoes
+   ```
+   Usa a **service role** (bypassa RLS — é carga administrativa) e aborta se `questoes` já tiver
+   linhas (use `SEED_FORCE=1` para forçar). O `SEED_AUTOR_ID` é o `id` de um admin em `profiles` —
+   ou seja, o admin precisa ter feito o 1º login (magic link) antes, para o trigger `handle_new_user`
+   ter criado a linha. Descubra com `select id, email from public.profiles where role='admin';`.
+   A opção (b) — usar a própria importação (Porta A/B), que em modo `supabase` grava direto no banco
+   (RLS "staff importa") — continua válida, mas a (a) é mais rápida para a carga inicial.
 3. Configurar o `.env` local para teste ao vivo (ver `.env.example`):
    ```
    VITE_DATA_MODE=supabase
@@ -122,6 +148,18 @@ pegar atrito de rede/Realtime que o demo não expõe.
    13 arquivos discursivos na pasta; descartados por decisão do coordenador.
 5. **Limite de ~2 páginas Chromium simultâneas** no ambiente de teste sandboxed — para testes
    Playwright multi-dispositivo, reusar/fechar páginas em vez de abrir muitas de uma vez.
+6. **Magic link × HashRouter.** O app usa `HashRouter` (rotas no `#`). O fluxo *implicit* do
+   Supabase devolve o token também no fragmento (`#access_token=…`), o que colide com as rotas. Por
+   isso o cliente foi configurado com `flowType: 'pkce'` (`supabaseClient.ts`): o retorno vem em
+   `?code=…` na query string e o `detectSessionInUrl` troca por sessão no carregamento. **Ao testar
+   ao vivo, confirmar que o retorno do e-mail estabelece a sessão** (é o único ponto que não deu
+   para validar sem projeto Supabase). Se der problema, a alternativa é migrar para `BrowserRouter`
+   com rewrite na Vercel. O `emailRedirectTo` é `origin + pathname` (sem hash) — garantir que essa
+   URL esteja na allowlist de **Redirect URLs** no painel Supabase (Authentication → URL
+   Configuration), incluindo a URL final da Vercel.
+7. **`criarSupabaseClient()` é singleton** — não instanciar um segundo cliente para auth. Se auth e
+   RPCs usarem instâncias diferentes, o JWT não acompanha as chamadas e tudo cai em "não
+   autenticado". Ver a nota no topo de `supabaseClient.ts`.
 
 ## Roadmap combinado (onde estamos)
 
@@ -129,4 +167,10 @@ pegar atrito de rede/Realtime que o demo não expõe.
 2. ✅ Fluxo da sessão de ponta a ponta
 3. ✅ Importação (Porta A/B) + carga das 4ª/5ª/6ª fases (839 questões)
 4. ⏳ **Produção: Supabase provisionado + auth + deploy Vercel** ← este handoff
+   - ✅ Passo B — feature de autenticação (magic link) construída e buildando
+   - ✅ Passo C.2 — script de carga das 839 questões pronto (`npm run seed:questoes`)
+   - ⬜ Passo A — provisionar Supabase **[precisa do dono]** (gate de tudo abaixo)
+   - ⬜ Passo C.1/C.3 — gerar `database.types.ts`, trocar os `as any`, `.env` e teste ao vivo
+   - ⬜ Passo D — deploy Vercel **[precisa do dono]**
+   - ⬜ Passo E — ensaio com celulares reais
 5. ⬜ Dashboards e cards (professor/admin/aluno; curadoria; flashcards FSRS)

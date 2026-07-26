@@ -5,7 +5,7 @@ import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Btn, Card, ErrorBanner, PageHeader } from '../../ui/kit'
 import { client } from '../../lib/client'
-import { PROFESSOR_DEMO } from '../../lib/identity'
+import { useAuth } from '../auth/AuthContext'
 import type { Alternativa, AreaClinica, Letra, NivelBloom, QuestaoRascunho } from '../../lib/types'
 import { RevisaoQuestoes } from './RevisaoQuestoes'
 
@@ -53,6 +53,7 @@ function extrairLista(json: unknown): unknown[] {
 
 export function PortaA() {
   const navigate = useNavigate()
+  const { identidade } = useAuth()
   const fileRef = useRef<HTMLInputElement>(null)
   const [texto, setTexto] = useState('')
   const [erroParse, setErroParse] = useState<string | null>(null)
@@ -86,7 +87,7 @@ export function PortaA() {
     setConfirmando(true)
     setErroImportacao(null)
     try {
-      const importadas = await client.importarQuestoes(selecionados, PROFESSOR_DEMO.id)
+      const importadas = await client.importarQuestoes(selecionados, identidade?.id ?? '')
       setConcluido(importadas.length)
     } catch (e) {
       setErroImportacao(e instanceof Error ? e.message : 'Erro ao importar')
