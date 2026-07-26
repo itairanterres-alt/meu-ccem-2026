@@ -99,6 +99,20 @@ critério SUFICIENTE/INSUFICIENTE) — formato que o schema atual não suporta (
 A-D é obrigatório). Descartadas por decisão do coordenador; ficam fora do escopo até que exista
 um tipo de item "questão discursiva" no schema, se algum dia fizer sentido.
 
+## Uso real — 40 questões de "Dor" via upload direto (26/07)
+
+Upload direto de 5 `.docx` (não pasta do Drive): "UC1 — Dor" (5ª fase, `uc_slug =
+med_unidavi_f05_uc01_dor`) — SP1 Gabarito (sem o par de Questões), e SP2/SP3 completos
+(Questões+Gabarito). **Alerta de nomenclatura:** o nome do arquivo ("UC1_SPn") não identifica a
+fase — cada fase tem sua própria UC1/UC2/UC3 com temas diferentes; a 4ª fase e a 5ª fase têm
+ambas uma "UC1_SP2_Questoes_ENAMED.docx" com conteúdo completamente distinto (Proliferação Celular
+vs. Dor). Conferir o cabeçalho do documento (`Unidade Curricular ... — <nome>`) antes de assumir a
+fase, nunca confiar só no nome do arquivo.
+
+SP2 e SP3 (pares completos) processados e integrados: **40 questões novas**, banco de teste passa
+de 280 para **320 questões**. SP1 ficou de fora — falta o documento de Questões (só veio o
+Gabarito); pendente até a coordenação enviar o par completo.
+
 ## O que falta (fora do escopo deste passo)
 
 - Estruturação assistida por IA na Porta B, para texto fora do formato QUESTÃO/gabarito (precisa

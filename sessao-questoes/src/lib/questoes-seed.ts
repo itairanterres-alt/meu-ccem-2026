@@ -10096,5 +10096,1445 @@ export const QUESTOES_SEED: QuestaoSeed[] = [
       }
     ],
     "_proveniencia": "whatsapp:UC3_SP4_ENAMED — Q20"
+  },
+  {
+    "enunciado": "Armando, 75 anos, duas semanas após amputação do pé esquerdo por gangrena isquêmica, relata dor lancinante, parestesias e prurido na região do pé que não existe mais, \"como se ele ainda existisse\". Esse quadro, clássico após amputações, é denominado",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dor fantasma, um exemplo de dor neuropática.",
+        "correta": true,
+        "justificativa": "A dor fantasma é a percepção dolorosa referida a um segmento corporal amputado, sendo o exemplo clássico de dor neuropática decorrente de reorganização e hiperexcitabilidade de vias nociceptivas centrais e periféricas após lesão nervosa. Correta. A dor fantasma é definida exatamente por essa percepção dolorosa no membro ausente, sendo um paradigma de dor neuropática."
+      },
+      {
+        "letra": "B",
+        "texto": "dor nociceptiva somática residual do coto cirúrgico.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor nociceptiva do coto decorre de lesão tecidual local presente (cicatriz, inflamação), enquanto a dor fantasma é referida a um segmento que não existe mais, com mecanismo neuropático distinto."
+      },
+      {
+        "letra": "C",
+        "texto": "dor psicogênica, sem substrato neurofisiológico.",
+        "correta": false,
+        "justificativa": "Incorreta. Há substrato neurofisiológico bem estabelecido (reorganização cortical, hiperatividade de neurônios desaferentados), não se tratando de fenômeno psicogênico."
+      },
+      {
+        "letra": "D",
+        "texto": "dor referida, projetada de uma víscera abdominal.",
+        "correta": false,
+        "justificativa": "Incorreta. Dor referida corresponde à percepção de dor visceral em um local corporal diferente do órgão afetado, mecanismo distinto do envolvido na dor fantasma."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q1"
+  },
+  {
+    "enunciado": "O cirurgião que atendeu Armando esclarece que a dor no membro amputado não decorre de infecção ou lesão local, tratando-se de uma \"dor complexa\", e o encaminha à equipe multiprofissional de dor. Do ponto de vista fisiopatológico, a dor neuropática, categoria à qual pertence a dor fantasma, é definida como a dor",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "causada por lesão ou disfunção do sistema nervoso somatossensorial, central ou periférico.",
+        "correta": true,
+        "justificativa": "A dor neuropática resulta de lesão ou disfunção do sistema somatossensorial (nervo periférico, plexo, medula ou encéfalo), diferindo mecanisticamente da dor nociceptiva, que decorre da ativação de nociceptores íntegros por estímulo nocivo real. Correta. Essa é a definição consagrada de dor neuropática: decorre de lesão ou disfunção do sistema somatossensorial, e não da ativação de nociceptores por estímulo externo."
+      },
+      {
+        "letra": "B",
+        "texto": "causada exclusivamente por estímulo mecânico ou térmico direto sobre nociceptores intactos.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa descrição corresponde à dor nociceptiva, mecanismo distinto da dor neuropática."
+      },
+      {
+        "letra": "C",
+        "texto": "que ocorre apenas em vísceras abdominais e pélvicas, nunca em membros.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor neuropática pode ocorrer em qualquer segmento inervado, incluindo membros, como no caso da dor fantasma de Armando."
+      },
+      {
+        "letra": "D",
+        "texto": "que responde exclusivamente a anti-inflamatórios não esteroidais, sem necessidade de outras classes medicamentosas.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor neuropática tipicamente responde pouco a AINEs, sendo tratada preferencialmente com anticonvulsivantes e antidepressivos adjuvantes, como a gabapentina prescrita ao paciente."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q2"
+  },
+  {
+    "enunciado": "Armando encontra-se em cuidados paliativos há 5 anos, em decorrência de câncer de próstata previamente tratado com radioterapia e prostatectomia radical. Segundo a definição da Organização Mundial da Saúde, os cuidados paliativos são direcionados a pacientes com doenças",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "exclusivamente terminais, aplicando-se apenas nas últimas semanas de vida.",
+        "correta": false,
+        "justificativa": "Incorreta. A indicação precoce de cuidados paliativos, concomitante ao tratamento da doença de base, é hoje reconhecida como benéfica, não se restringindo às últimas semanas de vida."
+      },
+      {
+        "letra": "B",
+        "texto": "que ameaçam a continuidade da vida, com abordagem que visa qualidade de vida por meio de prevenção e alívio do sofrimento, desde o diagnóstico.",
+        "correta": true,
+        "justificativa": "Os cuidados paliativos, segundo a OMS, aplicam-se a pacientes com doenças que ameaçam a continuidade da vida, com abordagem ativa e integral, direcionada à prevenção e ao alívio do sofrimento físico, psicológico, social e espiritual, idealmente desde o diagnóstico, e não apenas na fase terminal. Correta. Essa é a definição atual da OMS, enfatizando abordagem precoce, integral e voltada à qualidade de vida diante de doenças ameaçadoras à continuidade da vida."
+      },
+      {
+        "letra": "C",
+        "texto": "curáveis, sendo contraindicados em condições crônicas ou oncológicas avançadas.",
+        "correta": false,
+        "justificativa": "Incorreta. Cuidados paliativos são indicados justamente em doenças crônicas graves e oncológicas avançadas, não sendo restritos a condições curáveis."
+      },
+      {
+        "letra": "D",
+        "texto": "psiquiátricas isoladas, sem relação com doenças orgânicas crônicas.",
+        "correta": false,
+        "justificativa": "Incorreta. Cuidados paliativos aplicam-se a diversas condições orgânicas crônicas graves (oncológicas, cardiológicas, neurológicas, entre outras), não sendo restritos a doenças psiquiátricas."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q3"
+  },
+  {
+    "enunciado": "Um estudante pergunta ao tutor qual é a diferença conceitual entre analgesia e anestesia, termos frequentemente confundidos. A distinção correta entre esses dois conceitos é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "analgesia é a abolição completa de todas as sensibilidades (dolorosa, tátil e térmica), enquanto anestesia é apenas o alívio parcial da dor.",
+        "correta": false,
+        "justificativa": "Incorreta. A definição está invertida: é a anestesia, e não a analgesia, que pode abolir múltiplas modalidades sensoriais, e a anestesia não é definida como alívio parcial."
+      },
+      {
+        "letra": "B",
+        "texto": "analgesia é a ausência ou o alívio da percepção dolorosa, preservando outras modalidades sensoriais, enquanto anestesia é a perda de sensibilidade de forma mais ampla, podendo incluir perda de consciência.",
+        "correta": true,
+        "justificativa": "Analgesia é o alívio ou a ausência da percepção dolorosa, com preservação de outras modalidades sensoriais (tato, temperatura), enquanto anestesia corresponde à perda de sensibilidade de forma mais abrangente, podendo ser local, regional ou geral (com perda de consciência nesta última). Correta. Essa é a distinção correta: analgesia preserva outras sensibilidades além de aliviar a dor, enquanto anestesia envolve perda de sensibilidade mais ampla, podendo incluir perda de consciência na anestesia geral."
+      },
+      {
+        "letra": "C",
+        "texto": "os dois termos são sinônimos, sem qualquer distinção fisiológica ou clínica relevante.",
+        "correta": false,
+        "justificativa": "Incorreta. Os termos não são sinônimos, tendo definições e implicações clínicas distintas, inclusive quanto à extensão do bloqueio sensorial."
+      },
+      {
+        "letra": "D",
+        "texto": "analgesia refere-se exclusivamente a procedimentos cirúrgicos, enquanto anestesia se aplica apenas ao manejo da dor crônica.",
+        "correta": false,
+        "justificativa": "Incorreta. Ambos os termos se aplicam a diferentes contextos clínicos, incluindo dor aguda, crônica e procedimentos cirúrgicos, não sendo mutuamente exclusivos por contexto."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q4"
+  },
+  {
+    "enunciado": "A equipe de cuidados paliativos que acompanha Armando avalia não apenas sua dor física, mas também seu sofrimento emocional relacionado ao afastamento do filho mais velho, seu medo em relação à progressão da doença e questões espirituais. Esse conjunto de sofrimentos, que extrapola a dimensão puramente física, é conceituado na literatura de cuidados paliativos como",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dor nociceptiva mista, de origem somática e visceral combinadas.",
+        "correta": false,
+        "justificativa": "Incorreta. Dor nociceptiva mista refere-se à combinação de mecanismos nociceptivos somáticos e viscerais, conceito estritamente físico, distinto da dimensão biopsicossocial-espiritual da dor total."
+      },
+      {
+        "letra": "B",
+        "texto": "dor total, conceito que integra dimensões física, psicológica, social e espiritual do sofrimento.",
+        "correta": true,
+        "justificativa": "O conceito de \"dor total\", proposto por Cicely Saunders, integra as dimensões física, psicológica, social e espiritual do sofrimento do paciente, sendo central na abordagem dos cuidados paliativos, especialmente em doença oncológica avançada. Correta. O conceito de dor total abrange justamente a integração das dimensões física, psicológica, social e espiritual, coerente com a avaliação ampla realizada pela equipe de Armando."
+      },
+      {
+        "letra": "C",
+        "texto": "dor fantasma secundária, decorrente de reorganização cortical exclusiva.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor fantasma é fenômeno neuropático específico do membro amputado, não englobando o sofrimento psicossocial e espiritual do paciente."
+      },
+      {
+        "letra": "D",
+        "texto": "dor iatrogênica, causada por efeito adverso medicamentoso.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há relato de efeito adverso medicamentoso como causa do sofrimento descrito; o quadro reflete sofrimento multidimensional inerente à doença avançada e ao contexto de vida do paciente."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q5"
+  },
+  {
+    "enunciado": "Foi prescrita a Armando gabapentina 300 mg, um comprimido de 8/8 horas, para o tratamento da dor neuropática do membro fantasma. A gabapentina pertence, farmacologicamente, à classe dos",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "anti-inflamatórios não esteroidais.",
+        "correta": false,
+        "justificativa": "Incorreta. A gabapentina não pertence à classe dos AINEs, e seu mecanismo de ação é completamente distinto (não envolve inibição de ciclo-oxigenases)."
+      },
+      {
+        "letra": "B",
+        "texto": "anticonvulsivantes, utilizados também no tratamento da dor neuropática.",
+        "correta": true,
+        "justificativa": "A gabapentina é um anticonvulsivante que, por seu mecanismo de modulação de canais de cálcio voltagem-dependentes, tornou-se também um dos principais fármacos adjuvantes no tratamento da dor neuropática, incluindo a dor fantasma. Correta. A gabapentina é um anticonvulsivante, classe também amplamente utilizada como adjuvante analgésico no tratamento da dor neuropática, mecanismo distinto do uso primário anticonvulsivante."
+      },
+      {
+        "letra": "C",
+        "texto": "opioides fracos, análogos da codeína.",
+        "correta": false,
+        "justificativa": "Incorreta. A gabapentina não é um opioide nem possui estrutura ou mecanismo relacionados à codeína."
+      },
+      {
+        "letra": "D",
+        "texto": "corticosteroides de uso sistêmico prolongado.",
+        "correta": false,
+        "justificativa": "Incorreta. A gabapentina não é um corticosteroide; pertence à classe dos anticonvulsivantes (gabapentinoides)."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q6"
+  },
+  {
+    "enunciado": "Um estudante pergunta por que a gabapentina, um anticonvulsivante, é eficaz no tratamento da dor neuropática de Armando. O mecanismo de ação farmacológico que fundamenta esse uso é a",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ligação à subunidade alfa-2-delta de canais de cálcio voltagem-dependentes, reduzindo a liberação de neurotransmissores excitatórios (como glutamato) em neurônios hiperexcitáveis.",
+        "correta": true,
+        "justificativa": "A gabapentina liga-se à subunidade alfa-2-delta de canais de cálcio voltagem-dependentes em terminações nervosas hiperexcitáveis, reduzindo o influxo de cálcio e, consequentemente, a liberação de neurotransmissores excitatórios (glutamato, substância P), o que atenua a hiperexcitabilidade neuronal característica da dor neuropática. Correta. Esse é o mecanismo central da ação analgésica da gabapentina na dor neuropática, reduzindo a transmissão excitatória excessiva por neurônios sensibilizados."
+      },
+      {
+        "letra": "B",
+        "texto": "inibição direta e seletiva da enzima ciclo-oxigenase 2 (COX-2) em tecidos neurais periféricos.",
+        "correta": false,
+        "justificativa": "Incorreta. A gabapentina não atua sobre ciclo-oxigenases; esse é o mecanismo dos AINEs, farmacologicamente distinto."
+      },
+      {
+        "letra": "C",
+        "texto": "ativação de receptores opioides mu no corno posterior da medula espinal.",
+        "correta": false,
+        "justificativa": "Incorreta. A gabapentina não é agonista de receptores opioides; seu mecanismo envolve canais de cálcio, não receptores opioides."
+      },
+      {
+        "letra": "D",
+        "texto": "bloqueio irreversível da recaptação de dopamina em vias mesolímbicas.",
+        "correta": false,
+        "justificativa": "Incorreta. A gabapentina não atua sobre a recaptação de dopamina nem sobre vias mesolímbicas; seu alvo farmacológico é a subunidade alfa-2-delta de canais de cálcio."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q7"
+  },
+  {
+    "enunciado": "A Síndrome Dolorosa Regional Complexa (SDRC), condição relevante no diagnóstico diferencial de dores neuropáticas pós-traumáticas e pós-cirúrgicas, caracteriza-se clinicamente por",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dor desproporcional ao evento desencadeante, associada a alterações autonômicas (edema, alterações de temperatura e coloração cutânea, sudorese) e tróficas na região afetada.",
+        "correta": true,
+        "justificativa": "A SDRC caracteriza-se por dor desproporcional em intensidade e/ou duração ao evento causal, associada a alterações autonômicas (edema, alterações vasomotoras e sudomotoras) e tróficas (pele, unhas, pelos) na região afetada, sendo diagnóstico diferencial relevante em quadros dolorosos pós-traumáticos, incluindo pós-amputação. Correta. Essa é a descrição clássica da SDRC: dor desproporcional associada a disautonomia local e alterações tróficas."
+      },
+      {
+        "letra": "B",
+        "texto": "dor exclusivamente noturna, sem qualquer alteração autonômica ou trófica associada.",
+        "correta": false,
+        "justificativa": "Incorreta. A SDRC não se caracteriza por padrão exclusivamente noturno; as alterações autonômicas e tróficas são elementos centrais do diagnóstico, e sua ausência descaracterizaria o quadro."
+      },
+      {
+        "letra": "C",
+        "texto": "ausência completa de dor, com predomínio de déficit motor isolado.",
+        "correta": false,
+        "justificativa": "Incorreta. A SDRC caracteriza-se justamente pela presença de dor intensa e desproporcional, não por sua ausência; pode haver disfunção motora associada, mas não como achado isolado definidor."
+      },
+      {
+        "letra": "D",
+        "texto": "quadro restrito a alterações psiquiátricas, sem qualquer componente físico documentável.",
+        "correta": false,
+        "justificativa": "Incorreta. A SDRC possui substrato fisiopatológico documentável (disautonomia, sensibilização central e periférica, alterações tróficas objetivas), não sendo um diagnóstico psiquiátrico."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q8"
+  },
+  {
+    "enunciado": "Considerando a dor oncológica crônica de Armando, relacionada ao câncer de próstata previamente tratado, e sua eventual necessidade de escalonamento terapêutico segundo a escada analgésica da OMS, a indicação de opioides fortes (como a morfina) nesse contexto de dor crônica oncológica está reservada a quadros de dor",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "leve, como primeira escolha, antes de qualquer analgésico não opioide.",
+        "correta": false,
+        "justificativa": "Incorreta. Para dor leve, a primeira escolha são analgésicos não opioides (primeiro degrau), não opioides fortes."
+      },
+      {
+        "letra": "B",
+        "texto": "moderada a intensa, refratária ou insuficientemente controlada pelos degraus anteriores da escada analgésica.",
+        "correta": true,
+        "justificativa": "Na escada analgésica da OMS, os opioides fortes correspondem ao terceiro degrau, indicados para dor moderada a intensa que não responde adequadamente aos analgésicos não opioides (primeiro degrau) ou opioides fracos (segundo degrau), sendo amplamente utilizados no manejo da dor oncológica crônica quando indicado. Correta. Opioides fortes são indicados para dor moderada a intensa refratária aos degraus anteriores, sendo amplamente empregados no controle da dor oncológica crônica, inclusive em cuidados paliativos."
+      },
+      {
+        "letra": "C",
+        "texto": "exclusivamente aguda pós-operatória, sendo contraindicados em dor crônica oncológica.",
+        "correta": false,
+        "justificativa": "Incorreta. Opioides fortes são amplamente utilizados também na dor crônica oncológica, especialmente em cuidados paliativos, não estando restritos ao contexto agudo pós-operatório."
+      },
+      {
+        "letra": "D",
+        "texto": "psicogênica, sem qualquer substrato nociceptivo ou neuropático identificável.",
+        "correta": false,
+        "justificativa": "Incorreta. A indicação de opioides fortes fundamenta-se na intensidade e refratariedade da dor nociceptiva/neuropática, não em dor psicogênica sem substrato identificável."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q9"
+  },
+  {
+    "enunciado": "Um estudante questiona por que Armando, mesmo sabendo racionalmente que seu pé foi amputado, continua percebendo sensações e dor nesse segmento ausente. A explicação neurofisiológica mais adequada para a persistência da dor fantasma envolve, entre outros mecanismos,",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reorganização do mapa somatotópico no córtex somatossensorial primário (S1), com invasão de áreas corticais correspondentes ao membro amputado por regiões corticais vizinhas.",
+        "correta": true,
+        "justificativa": "A dor fantasma relaciona-se, entre outros mecanismos, à reorganização (plasticidade) do mapa somatotópico cortical em S1, no qual áreas corticais adjacentes \"invadem\" o território cortical previamente correspondente ao membro amputado, além de hiperatividade de neuromas no coto e alterações na medula espinal. Correta. A reorganização cortical somatotópica, com invasão de regiões vizinhas sobre o território do membro amputado, é um dos principais mecanismos centrais propostos para a dor fantasma."
+      },
+      {
+        "letra": "B",
+        "texto": "regeneração completa e funcional do nervo periférico amputado, restabelecendo sensibilidade normal ao membro ausente.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há regeneração funcional do membro amputado; o nervo periférico seccionado pode formar neuromas dolorosos no coto, mas não há restabelecimento de sensibilidade normal ao membro ausente."
+      },
+      {
+        "letra": "C",
+        "texto": "ausência total de atividade neuronal nas áreas corticais previamente relacionadas ao membro amputado.",
+        "correta": false,
+        "justificativa": "Incorreta. Ao contrário da ausência de atividade, há hiperatividade e reorganização das áreas corticais correspondentes, o que sustenta a persistência da percepção dolorosa."
+      },
+      {
+        "letra": "D",
+        "texto": "substituição definitiva da representação cortical do membro amputado por tecido cicatricial glial, sem qualquer atividade elétrica residual.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora ocorram alterações teciduais no coto, a representação cortical não é simplesmente substituída por tecido glial inerte; há atividade neuronal reorganizada e frequentemente hiperativa."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q10"
+  },
+  {
+    "enunciado": "A equipe multiprofissional que acompanha Armando inclui fisioterapia e psicoterapia semanais, além da farmacoterapia com gabapentina. Essa abordagem multimodal para o tratamento da dor crônica de Armando fundamenta-se no princípio de que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a dor crônica, por ter componentes biopsicossociais, responde melhor a intervenções combinadas (farmacológicas e não farmacológicas) do que à farmacoterapia isolada.",
+        "correta": true,
+        "justificativa": "A dor crônica, especialmente em contextos como o de Armando (neuropática, oncológica, com componente psicossocial evidente), beneficia-se de abordagem multimodal, combinando farmacoterapia, intervenções físicas (fisioterapia) e psicológicas (psicoterapia), reconhecendo a natureza biopsicossocial do fenômeno doloroso crônico. Correta. A abordagem multimodal é reconhecidamente mais eficaz no manejo da dor crônica com componentes biopsicossociais, como o quadro de Armando."
+      },
+      {
+        "letra": "B",
+        "texto": "a fisioterapia e a psicoterapia substituem completamente a necessidade de qualquer medicação analgésica em dor neuropática crônica.",
+        "correta": false,
+        "justificativa": "Incorreta. As intervenções não farmacológicas complementam, mas geralmente não substituem integralmente a farmacoterapia em quadros de dor neuropática moderada a intensa, sendo abordagens combinadas, não substitutivas."
+      },
+      {
+        "letra": "C",
+        "texto": "apenas a farmacoterapia é eficaz no manejo da dor neuropática, sendo as demais intervenções meramente complementares sem evidência de benefício.",
+        "correta": false,
+        "justificativa": "Incorreta. Há evidências de benefício de intervenções não farmacológicas (fisioterapia, terapias cognitivo-comportamentais) no manejo da dor crônica, não sendo meramente complementares sem eficácia."
+      },
+      {
+        "letra": "D",
+        "texto": "a psicoterapia está indicada exclusivamente quando há diagnóstico formal de transtorno depressivo associado.",
+        "correta": false,
+        "justificativa": "Incorreta. A psicoterapia em cuidados paliativos e dor crônica pode ser indicada mesmo sem diagnóstico formal de transtorno depressivo, visando ao manejo do sofrimento psicológico e existencial, como no caso de Armando em relação ao afastamento do filho."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q11"
+  },
+  {
+    "enunciado": "Um estudante questiona a diferença fisiopatológica entre a dor neuropática de Armando (dor fantasma) e uma eventual dor nociceptiva somática associada à cicatrização do coto cirúrgico, caso houvesse infecção local. A principal diferença mecanística entre esses dois tipos de dor é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a dor nociceptiva depende da ativação de nociceptores íntegros por estímulo nocivo real, enquanto a dor neuropática decorre de lesão ou disfunção das próprias vias nervosas somatossensoriais.",
+        "correta": true,
+        "justificativa": "A dor nociceptiva resulta da ativação de nociceptores íntegros por um estímulo nocivo real (mecânico, térmico, químico ou inflamatório), enquanto a dor neuropática resulta de lesão ou disfunção direta das vias somatossensoriais, mesmo na ausência de estímulo nocivo periférico atual — como ocorre na dor fantasma de Armando. Correta. Essa é a distinção fisiopatológica fundamental entre os dois tipos de dor, central para compreender por que Armando sente dor mesmo sem tecido periférico correspondente."
+      },
+      {
+        "letra": "B",
+        "texto": "ambas dependem exclusivamente da ativação de nociceptores periféricos íntegros, sem qualquer participação central.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor neuropática, por definição, não depende da ativação de nociceptores periféricos íntegros por estímulo nocivo real; decorre de disfunção das próprias vias nervosas."
+      },
+      {
+        "letra": "C",
+        "texto": "a dor neuropática é sempre de menor intensidade que a dor nociceptiva, por definição fisiopatológica.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há regra fisiopatológica que determine menor intensidade da dor neuropática; ela pode ser tão ou mais intensa que a dor nociceptiva, como frequentemente ocorre na dor fantasma e em neuropatias dolorosas."
+      },
+      {
+        "letra": "D",
+        "texto": "apenas a dor nociceptiva pode se tornar crônica; a dor neuropática é, por definição, sempre aguda e autolimitada.",
+        "correta": false,
+        "justificativa": "Incorreta. Ambos os tipos de dor podem cronificar-se; a dor fantasma de Armando, inclusive, ilustra a cronicidade possível da dor neuropática."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q12"
+  },
+  {
+    "enunciado": "Diante do quadro de Armando, com múltiplas comorbidades (doença isquêmica periférica, sequela de AVC, câncer de próstata em cuidados paliativos) e sofrimento psicossocial relacionado ao conflito familiar, a conduta da equipe de saúde mais alinhada aos princípios da atenção centrada na pessoa e dos cuidados paliativos é",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "focar exclusivamente no controle farmacológico da dor neuropática, sem investigar aspectos familiares ou emocionais.",
+        "correta": false,
+        "justificativa": "Incorreta. O foco exclusivamente farmacológico, ignorando dimensões psicossociais, contraria os princípios da dor total e da atenção integral em cuidados paliativos."
+      },
+      {
+        "letra": "B",
+        "texto": "avaliar de forma integral as dimensões física, psicológica, social e espiritual do sofrimento de Armando, incluindo sua relação familiar, e envolver equipe multiprofissional no plano de cuidado.",
+        "correta": true,
+        "justificativa": "A atenção centrada na pessoa e os princípios dos cuidados paliativos preconizam avaliação e manejo integral do sofrimento, incluindo dimensões física, psicológica, social e espiritual (conceito de dor total), com atuação de equipe multiprofissional, o que é coerente com o cuidado recebido por Armando. Correta. Essa conduta integra corretamente os princípios da atenção centrada na pessoa e dos cuidados paliativos, reconhecendo e abordando todas as dimensões do sofrimento de Armando."
+      },
+      {
+        "letra": "C",
+        "texto": "transferir toda a responsabilidade do cuidado emocional exclusivamente para os familiares, sem participação da equipe de saúde.",
+        "correta": false,
+        "justificativa": "Incorreta. A equipe de saúde tem papel ativo no manejo do sofrimento psicossocial, não devendo transferir essa responsabilidade exclusivamente à família."
+      },
+      {
+        "letra": "D",
+        "texto": "suspender o acompanhamento em cuidados paliativos, uma vez que o paciente já recebeu tratamento oncológico definitivo (radioterapia e prostatectomia).",
+        "correta": false,
+        "justificativa": "Incorreta. Cuidados paliativos não se limitam ao período de tratamento oncológico ativo; são mantidos e frequentemente intensificados conforme a progressão da doença e do sofrimento associado, mesmo após tratamentos definitivos prévios."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q13"
+  },
+  {
+    "enunciado": "Sobre os mecanismos periféricos envolvidos na gênese da dor fantasma e neuropática pós-amputação, a formação de neuromas dolorosos no coto residual relaciona-se, fisiopatologicamente, com",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "regeneração organizada e funcional dos axônios seccionados, restabelecendo conexões normais com o território amputado.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há regeneração funcional organizada que restabeleça conexões normais com o território amputado; o brotamento é desorganizado e disfuncional, formando neuromas."
+      },
+      {
+        "letra": "B",
+        "texto": "brotamento axonal desorganizado (sprouting) das terminações nervosas seccionadas, com acúmulo ectópico de canais de sódio voltagem-dependentes e geração de atividade elétrica espontânea ectópica.",
+        "correta": true,
+        "justificativa": "Após a secção nervosa na amputação, ocorre brotamento axonal desorganizado (sprouting) nas terminações seccionadas, com acúmulo anômalo de canais de sódio voltagem-dependentes, gerando focos de hiperexcitabilidade e disparos ectópicos espontâneos — os neuromas —, que contribuem para a dor no coto e, por sensibilização central subsequente, para a dor fantasma. Correta. O brotamento axonal desorganizado com acúmulo de canais de sódio e geração de disparos ectópicos espontâneos é o mecanismo periférico central na formação de neuromas dolorosos."
+      },
+      {
+        "letra": "C",
+        "texto": "ausência completa de atividade elétrica nas fibras nervosas seccionadas do coto.",
+        "correta": false,
+        "justificativa": "Incorreta. Ao contrário da ausência de atividade, os neuromas caracterizam-se por hiperatividade e disparos ectópicos espontâneos."
+      },
+      {
+        "letra": "D",
+        "texto": "substituição total do tecido nervoso seccionado por tecido adiposo metabolicamente inerte.",
+        "correta": false,
+        "justificativa": "Incorreta. Não ocorre simples substituição por tecido adiposo inerte; há tecido neural reorganizado de forma disfuncional e eletricamente ativo."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q14"
+  },
+  {
+    "enunciado": "Um estudante questiona por que, mesmo após terapia bem-sucedida com gabapentina, fisioterapia e psicoterapia, Armando ainda pode apresentar exacerbações ocasionais da dor fantasma em situações de estresse emocional intenso. A explicação fisiopatológica mais adequada para essa influência do estresse sobre a dor neuropática crônica envolve",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a completa independência entre os sistemas de resposta ao estresse (eixo hipotálamo-hipófise-adrenal, sistema simpático) e as vias de modulação da dor.",
+        "correta": false,
+        "justificativa": "Incorreta. Há ampla interface entre os sistemas de resposta ao estresse e as vias de modulação da dor, não independência entre eles."
+      },
+      {
+        "letra": "B",
+        "texto": "a interação entre sistemas de resposta ao estresse e vias nociceptivas moduladoras, nas quais a ativação simpática e de mediadores do estresse pode reduzir o limiar de ativação de neurônios sensibilizados e influenciar negativamente a modulação descendente da dor.",
+        "correta": true,
+        "justificativa": "Existe interface bem estabelecida entre sistemas de resposta ao estresse (eixo hipotálamo-hipófise-adrenal, sistema nervoso simpático) e vias nociceptivas, de modo que estados de estresse emocional intenso podem reduzir o limiar de neurônios sensibilizados e comprometer a eficácia das vias descendentes inibitórias, favorecendo exacerbações transitórias da dor crônica mesmo sob tratamento adequado. Correta. A interação entre resposta ao estresse e modulação nociceptiva, com redução do limiar de neurônios sensibilizados e comprometimento da modulação descendente, explica exacerbações da dor crônica em contextos de estresse emocional."
+      },
+      {
+        "letra": "C",
+        "texto": "a substituição completa da dor neuropática por dor puramente psicogênica durante períodos de estresse.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor permanece fisiopatologicamente neuropática; o estresse module sua intensidade percebida, mas não a transforma em fenômeno puramente psicogênico."
+      },
+      {
+        "letra": "D",
+        "texto": "o bloqueio definitivo dos efeitos da gabapentina por qualquer nível de estresse emocional, tornando o fármaco inerte nessas situações.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há bloqueio farmacológico completo do efeito da gabapentina pelo estresse emocional; pode haver modulação da percepção da dor sem anular o mecanismo de ação do fármaco."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q15"
+  },
+  {
+    "enunciado": "Considerando a possível progressão da doença oncológica de Armando e a necessidade eventual de rotação de opioides no manejo da dor oncológica refratária, o principal fundamento farmacológico para a prática de rotação de opioides (troca entre diferentes opioides) é",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a tolerância cruzada incompleta entre diferentes opioides, permitindo, ao trocar o fármaco, obter analgesia eficaz com menor dose equivalente e menos efeitos adversos.",
+        "correta": true,
+        "justificativa": "A rotação de opioides fundamenta-se na tolerância cruzada incompleta entre diferentes fármacos dessa classe: ao trocar de opioide, frequentemente é possível obter analgesia adequada com dose equianalgésica menor que a esperada, além de reduzir efeitos adversos acumulados com o uso prolongado do fármaco anterior. Correta. A tolerância cruzada incompleta é o fundamento farmacológico central da rotação de opioides, permitindo otimizar analgesia e reduzir efeitos adversos em dor oncológica refratária."
+      },
+      {
+        "letra": "B",
+        "texto": "a ausência completa de tolerância cruzada entre opioides, tornando a troca sempre ineficaz.",
+        "correta": false,
+        "justificativa": "Incorreta. Existe tolerância cruzada entre opioides, porém incompleta; se fosse completa ausência de tolerância cruzada, a lógica da rotação seria distinta (doses equianalgésicas plenas sem benefício adicional)."
+      },
+      {
+        "letra": "C",
+        "texto": "a necessidade de evitar totalmente o uso de opioides fortes em pacientes oncológicos, substituindo-os definitivamente por AINEs.",
+        "correta": false,
+        "justificativa": "Incorreta. Os opioides fortes continuam sendo pilar do tratamento da dor oncológica moderada a intensa; não há indicação de substituição definitiva por AINEs nesse contexto."
+      },
+      {
+        "letra": "D",
+        "texto": "o fato de que todos os opioides possuem exatamente o mesmo perfil de efeitos adversos, tornando a rotação irrelevante clinicamente.",
+        "correta": false,
+        "justificativa": "Incorreta. Diferentes opioides apresentam perfis distintos de efeitos adversos e metabolismo, o que justamente fundamenta a prática clínica de rotação para otimizar tolerabilidade."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q16"
+  },
+  {
+    "enunciado": "Sobre a fisiopatologia da dor oncológica em pacientes como Armando, um mecanismo relevante e distinto dos observados em dor neuropática pós-amputação é a dor óssea por metástase, quando presente. Esse tipo de dor caracteriza-se, mecanisticamente, por envolver",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ativação exclusiva de fibras A-beta táteis, sem qualquer participação de nociceptores ou processo inflamatório.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor óssea metastática envolve ativação de nociceptores e processos inflamatórios/osteoclásticos, não sendo mediada por fibras A-beta táteis isoladamente."
+      },
+      {
+        "letra": "B",
+        "texto": "combinação de mecanismos nociceptivos (por lesão tecidual e liberação de mediadores inflamatórios e fatores osteoclásticos) e neuropáticos (por compressão ou infiltração de estruturas nervosas adjacentes), configurando dor mista.",
+        "correta": true,
+        "justificativa": "A dor óssea metastática caracteriza-se por mecanismo misto: componente nociceptivo, por destruição óssea, ativação osteoclástica e liberação de mediadores inflamatórios sensibilizadores, associado, em muitos casos, a componente neuropático por compressão ou infiltração de estruturas nervosas adjacentes ao osso comprometido. Correta. A combinação de mecanismos nociceptivos (inflamatórios e osteoclásticos) e neuropáticos (compressivos/infiltrativos) caracteriza a dor óssea metastática como dor mista, distinta mecanisticamente da dor fantasma puramente neuropática pós-amputação."
+      },
+      {
+        "letra": "C",
+        "texto": "mecanismo idêntico ao da dor fantasma, com origem puramente central e ausência de qualquer componente periférico.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor óssea metastática possui componente periférico evidente (lesão tecidual óssea local), diferindo do mecanismo predominantemente central e de reorganização cortical da dor fantasma."
+      },
+      {
+        "letra": "D",
+        "texto": "ausência completa de resposta a opioides, sendo tratável exclusivamente com bisfosfonatos isolados.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor óssea metastática costuma responder, ao menos parcialmente, a opioides e outras estratégias (radioterapia, bisfosfonatos, anti-inflamatórios), não sendo tratável exclusivamente por uma única classe isolada."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q17"
+  },
+  {
+    "enunciado": "Reconsiderando o quadro biopsicossocial de Armando, com sofrimento relacionado ao afastamento do filho mais velho, um estudante questiona como esse sofrimento relacional pode influenciar objetivamente sua percepção de dor física. A explicação neurofisiológica mais adequada para essa interação é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sofrimento emocional e dor física compartilham, ao menos parcialmente, substratos neurais comuns (como o córtex cingulado anterior e a ínsula), de modo que o sofrimento psicossocial pode amplificar a percepção da dor física por vias de integração central compartilhadas.",
+        "correta": true,
+        "justificativa": "Sofrimento emocional/social e dor física compartilham, ao menos parcialmente, redes neurais comuns de processamento (córtex cingulado anterior, ínsula, entre outras estruturas do componente afetivo-motivacional da dor), o que explica por que sofrimento psicossocial significativo, como o vivido por Armando, pode amplificar a percepção subjetiva da dor física, fundamentando o conceito de dor total. Correta. O compartilhamento parcial de substratos neurais entre sofrimento emocional e dor física explica a amplificação recíproca entre essas dimensões, sustentando a abordagem integral necessária no caso de Armando."
+      },
+      {
+        "letra": "B",
+        "texto": "sofrimento emocional e dor física são processados em estruturas encefálicas completamente distintas e não comunicantes, sem qualquer interação possível.",
+        "correta": false,
+        "justificativa": "Incorreta. Há evidência robusta de sobreposição neural entre processamento de dor física e sofrimento emocional/social, não estruturas completamente independentes."
+      },
+      {
+        "letra": "C",
+        "texto": "o sofrimento emocional substitui integralmente a necessidade de avaliação e tratamento da dor física, tornando-a irrelevante clinicamente.",
+        "correta": false,
+        "justificativa": "Incorreta. A avaliação e o tratamento da dor física permanecem necessários e relevantes mesmo diante de sofrimento emocional intenso; ambos devem ser abordados de forma integrada, não substitutiva."
+      },
+      {
+        "letra": "D",
+        "texto": "apenas a dor física pode influenciar o estado emocional, sendo unidirecional e sem retroalimentação do sofrimento psicológico sobre a dor física.",
+        "correta": false,
+        "justificativa": "Incorreta. A relação é bidirecional: assim como a dor física pode gerar sofrimento emocional, o sofrimento psicossocial pode retroalimentar e amplificar a percepção da dor física, como discutido no conceito de dor total."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q18"
+  },
+  {
+    "enunciado": "Um estudante questiona por que a indicação precoce de cuidados paliativos, concomitante ao tratamento oncológico ativo, é hoje recomendada, e não apenas nas fases terminais da doença, como ocorria em modelos assistenciais mais antigos. O principal fundamento para essa mudança de paradigma é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estudos demonstram que a integração precoce de cuidados paliativos ao tratamento oncológico associa-se a melhor controle de sintomas, melhor qualidade de vida e, em alguns estudos, até maior sobrevida, além de facilitar planejamento de cuidados avançado.",
+        "correta": true,
+        "justificativa": "Estudos robustos (incluindo ensaios clínicos de referência em oncologia) demonstraram que a integração precoce de cuidados paliativos ao tratamento oncológico ativo associa-se a melhor controle sintomático, melhor qualidade de vida, redução de intervenções fúteis no fim da vida e, em alguns casos, até ganho de sobrevida, fundamentando a recomendação atual de indicação precoce. Correta. Essa é a evidência que sustenta a recomendação atual de integração precoce dos cuidados paliativos, concomitante ao tratamento oncológico ativo, e não restrita à fase terminal."
+      },
+      {
+        "letra": "B",
+        "texto": "cuidados paliativos precoces substituem integralmente a necessidade de tratamento oncológico específico, sendo mutuamente exclusivos.",
+        "correta": false,
+        "justificativa": "Incorreta. Cuidados paliativos precoces são concomitantes, e não substitutos, ao tratamento oncológico ativo (quimioterapia, radioterapia, cirurgia), quando indicado."
+      },
+      {
+        "letra": "C",
+        "texto": "a introdução precoce de cuidados paliativos está associada a piora comprovada da qualidade de vida, sendo essa mudança de paradigma controversa e sem sustentação científica.",
+        "correta": false,
+        "justificativa": "Incorreta. A evidência científica disponível é favorável, não contrária, à introdução precoce de cuidados paliativos, associando-a a melhores desfechos, não a piora da qualidade de vida."
+      },
+      {
+        "letra": "D",
+        "texto": "cuidados paliativos precoces aplicam-se exclusivamente a pacientes sem qualquer possibilidade de tratamento oncológico ativo concomitante.",
+        "correta": false,
+        "justificativa": "Incorreta. Cuidados paliativos precoces aplicam-se justamente de forma concomitante ao tratamento ativo, sendo essa simultaneidade o cerne da mudança de paradigma discutida."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q19"
+  },
+  {
+    "enunciado": "Integrando os múltiplos aspectos do caso de Armando — dor fantasma neuropática, comorbidades vasculares e neurológicas, doença oncológica em cuidados paliativos e sofrimento psicossocial familiar —, a conduta terapêutica mais completa e alinhada à melhor prática atual para o manejo global de sua dor é",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tratamento exclusivamente farmacológico com um único fármaco analgésico, sem reavaliação periódica ou abordagem multiprofissional.",
+        "correta": false,
+        "justificativa": "Incorreta. A monoterapia sem reavaliação periódica e sem abordagem multiprofissional não contempla a complexidade biopsicossocial e a natureza multifatorial da dor de Armando."
+      },
+      {
+        "letra": "B",
+        "texto": "abordagem multimodal e interdisciplinar, combinando farmacoterapia adequada ao mecanismo de dor predominante (anticonvulsivante para o componente neuropático), intervenções não farmacológicas (fisioterapia, psicoterapia), avaliação e manejo das dimensões psicossociais e espirituais (dor total) e reavaliação periódica da eficácia terapêutica.",
+        "correta": true,
+        "justificativa": "O manejo integral da dor crônica complexa de Armando exige abordagem multimodal e interdisciplinar: farmacoterapia direcionada ao mecanismo fisiopatológico predominante (anticonvulsivante para dor neuropática, com possível necessidade futura de opioides para dor oncológica), intervenções não farmacológicas complementares, avaliação e manejo das dimensões psicossociais e espirituais do sofrimento (dor total), e reavaliação contínua — coerente com toda a discussão da situação-problema. Correta. Essa conduta integra corretamente todos os aspectos discutidos no caso — mecanismo de dor, farmacoterapia direcionada, intervenções não farmacológicas, dimensão psicossocial/espiritual e reavaliação —, refletindo a melhor prática atual em cuidados paliativos e manejo da dor crônica."
+      },
+      {
+        "letra": "C",
+        "texto": "encaminhamento exclusivo a especialista em saúde mental, sem qualquer intervenção farmacológica direcionada ao componente neuropático da dor.",
+        "correta": false,
+        "justificativa": "Incorreta. O encaminhamento à saúde mental é componente importante, mas não substitui a necessidade de farmacoterapia direcionada ao componente neuropático objetivamente identificado (dor fantasma)."
+      },
+      {
+        "letra": "D",
+        "texto": "suspensão de qualquer intervenção terapêutica até resolução espontânea do conflito familiar relatado.",
+        "correta": false,
+        "justificativa": "Incorreta. A suspensão de intervenções terapêuticas contraria os princípios de manejo ativo do sofrimento em cuidados paliativos, e o conflito familiar não tem resolução espontânea garantida nem prazo previsível que justifique postergar o cuidado."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP2_Dor_ENAMED — Q20"
+  },
+  {
+    "enunciado": "Renata, 39 anos, refere dor difusa, de difícil localização, presente há quatro anos, envolvendo ombros, região cervical, coluna dorsal e lombar, associada a sono não reparador e fadiga. Ao exame, identificam-se áreas de hipersensibilidade dolorosa à palpação em múltiplos pontos, sem sinais inflamatórios articulares objetivos. Esse quadro clínico é mais compatível com o diagnóstico de",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "artrite reumatoide em fase inicial, com acometimento articular predominante.",
+        "correta": false,
+        "justificativa": "Incorreta. A artrite reumatoide caracteriza-se por sinovite objetiva, com sinais inflamatórios articulares (edema, calor, rigidez matinal por sinovite), tipicamente com padrão simétrico em pequenas articulações, e alterações laboratoriais/de imagem, não descritas no caso."
+      },
+      {
+        "letra": "B",
+        "texto": "fibromialgia, síndrome de dor crônica difusa associada a hipersensibilidade dolorosa e distúrbios do sono.",
+        "correta": true,
+        "justificativa": "A fibromialgia caracteriza-se por dor musculoesquelética crônica e difusa, presente por mais de três meses, associada a hipersensibilidade dolorosa generalizada, distúrbios do sono, fadiga e ausência de sinais inflamatórios articulares objetivos aos exames — quadro compatível com o de Renata. Correta. O quadro de dor difusa crônica, hipersensibilidade dolorosa à palpação e ausência de sinais inflamatórios objetivos é característico da fibromialgia."
+      },
+      {
+        "letra": "C",
+        "texto": "osteoartrite primária generalizada, de origem degenerativa articular.",
+        "correta": false,
+        "justificativa": "Incorreta. A osteoartrite é doença degenerativa articular localizada, tipicamente relacionada a articulações de carga, sem o padrão de dor difusa generalizada e hipersensibilidade descrito."
+      },
+      {
+        "letra": "D",
+        "texto": "gota poliarticular, decorrente de depósito de cristais de urato.",
+        "correta": false,
+        "justificativa": "Incorreta. A gota caracteriza-se por crises agudas de monoartrite ou oligoartrite intensamente inflamatória, associada a hiperuricemia, quadro distinto da dor crônica difusa de Renata."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q1"
+  },
+  {
+    "enunciado": "Um estudante pergunta qual é a principal característica que distingue a dor da fibromialgia de uma dor inflamatória articular clássica. A resposta correta é que a dor da fibromialgia é",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "acompanhada de edema articular evidente, eritema e calor local, com elevação de provas inflamatórias.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa descrição é típica de artrites inflamatórias, não da fibromialgia, que não apresenta sinais objetivos de inflamação articular."
+      },
+      {
+        "letra": "B",
+        "texto": "predominantemente muscular e de partes moles, com hipersensibilidade dolorosa difusa, sem sinais objetivos de inflamação articular ou alterações laboratoriais específicas.",
+        "correta": true,
+        "justificativa": "A dor da fibromialgia é predominantemente musculoesquelética e de partes moles, difusa, com hipersensibilidade dolorosa generalizada, sem sinais objetivos de inflamação articular (edema, calor, eritema) e sem alterações laboratoriais específicas, o que frequentemente gera dificuldade diagnóstica e frustração ao paciente, como relatado por Renata. Correta. A ausência de sinais inflamatórios objetivos e de alterações laboratoriais específicas, associada a dor difusa musculoesquelética, é a marca distintiva da fibromialgia frente a doenças inflamatórias articulares."
+      },
+      {
+        "letra": "C",
+        "texto": "restrita a uma única articulação, de início súbito e resolução espontânea em 24 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. A dor da fibromialgia é caracteristicamente difusa e crônica (mais de três meses), não restrita a uma articulação nem de resolução espontânea rápida."
+      },
+      {
+        "letra": "D",
+        "texto": "sempre acompanhada de deformidade articular estrutural visível ao exame físico.",
+        "correta": false,
+        "justificativa": "Incorreta. A fibromialgia não causa deformidade articular estrutural; trata-se de condição sem dano articular objetivo demonstrável."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q2"
+  },
+  {
+    "enunciado": "Renata relata frustração porque, em atendimentos anteriores, foi informada que \"não havia nada errado nos exames\", chegando a ser encaminhada ao psiquiatra sem investigação adequada de sua queixa física. Essa situação ilustra um problema comum no manejo da fibromialgia, relacionado a",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "excesso de exames complementares solicitados de forma desnecessária, com sobrediagnóstico da condição.",
+        "correta": false,
+        "justificativa": "Incorreta. O problema descrito não é de excesso de exames, mas de descrédito da queixa por ausência de achados objetivos nos exames já realizados."
+      },
+      {
+        "letra": "B",
+        "texto": "estigmatização e descrédito da queixa dolorosa por ausência de achados objetivos em exames de rotina, resultando frequentemente em diagnóstico tardio.",
+        "correta": true,
+        "justificativa": "A fibromialgia frequentemente é subdiagnosticada ou tem seu diagnóstico postergado devido à ausência de achados objetivos em exames de imagem e laboratoriais de rotina, levando a estigmatização da queixa dolorosa e, por vezes, encaminhamentos inadequados sem reconhecimento da legitimidade clínica da condição, situação vivenciada por Renata. Correta. A estigmatização e o descrédito da dor por ausência de achados objetivos, levando a diagnóstico tardio, é um problema amplamente reconhecido no manejo da fibromialgia, refletido na fala de Renata."
+      },
+      {
+        "letra": "C",
+        "texto": "tratamento excessivamente precoce e agressivo com opioides fortes, sem indicação adequada.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há relato de tratamento precoce com opioides fortes; ao contrário, o problema foi a falta de reconhecimento diagnóstico adequado."
+      },
+      {
+        "letra": "D",
+        "texto": "hospitalização inadequada e prolongada para investigação de quadro autolimitado.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há indicação de hospitalização para o diagnóstico de fibromialgia, que é eminentemente clínico e ambulatorial."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q3"
+  },
+  {
+    "enunciado": "A síndrome dolorosa miofascial, diagnóstico diferencial relevante frente à fibromialgia, caracteriza-se clinicamente pela presença de",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pontos-gatilho (trigger points) em bandas musculares tensas, que podem ocorrer em qualquer músculo e desencadear dor referida à palpação.",
+        "correta": true,
+        "justificativa": "A síndrome dolorosa miofascial caracteriza-se pela presença de pontos-gatilho — pequenas áreas hiperirritáveis em bandas musculares tensas — que podem ocorrer em qualquer músculo do corpo e, à palpação, desencadeiam dor local e frequentemente dor referida a distância. Correta. Os pontos-gatilho em bandas musculares tensas, capazes de ocorrer em qualquer músculo e gerar dor referida à palpação, são a característica definidora da síndrome miofascial."
+      },
+      {
+        "letra": "B",
+        "texto": "dor articular simétrica em pequenas articulações das mãos, associada a rigidez matinal prolongada.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa descrição é típica de artrite reumatoide, não da síndrome miofascial, que é primariamente muscular, não articular."
+      },
+      {
+        "letra": "C",
+        "texto": "exclusivamente dor visceral abdominal, sem qualquer relação com musculatura esquelética.",
+        "correta": false,
+        "justificativa": "Incorreta. A síndrome miofascial refere-se a dor musculoesquelética, não visceral."
+      },
+      {
+        "letra": "D",
+        "texto": "ausência completa de achados à palpação muscular, com exame físico integralmente normal.",
+        "correta": false,
+        "justificativa": "Incorreta. Ao exame físico, há achados característicos e reprodutíveis à palpação (pontos-gatilho, bandas tensas), diferentemente do descrito na alternativa."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q4"
+  },
+  {
+    "enunciado": "Um estudante pergunta qual é a principal diferença na distribuição dos pontos dolorosos entre a fibromialgia e a síndrome dolorosa miofascial. A resposta correta é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "na fibromialgia, os pontos dolorosos tendem a ser difusos e bilaterais/simétricos; na síndrome miofascial, os pontos-gatilho podem ocorrer em qualquer músculo, de forma mais localizada e nem sempre simétrica.",
+        "correta": true,
+        "justificativa": "Na fibromialgia, a dor e a hipersensibilidade tendem a ser difusas, generalizadas e frequentemente simétricas; já na síndrome miofascial, os pontos-gatilho podem surgir em qualquer músculo isolado ou em grupos musculares específicos, de forma mais localizada e não necessariamente simétrica — distinção clínica relevante destacada na intencionalidade da situação-problema. Correta. Essa é a distinção fundamental na distribuição da dor entre as duas condições: difusa e simétrica na fibromialgia; mais localizada e variável na síndrome miofascial."
+      },
+      {
+        "letra": "B",
+        "texto": "na síndrome miofascial, os pontos dolorosos são sempre simétricos e generalizados por todo o corpo, idênticos à fibromialgia.",
+        "correta": false,
+        "justificativa": "Incorreta. Ao contrário, a síndrome miofascial caracteriza-se justamente por não seguir necessariamente um padrão simétrico e generalizado, podendo restringir-se a músculos ou grupos musculares específicos."
+      },
+      {
+        "letra": "C",
+        "texto": "na fibromialgia, os pontos dolorosos restringem-se exclusivamente à musculatura paravertebral lombar.",
+        "correta": false,
+        "justificativa": "Incorreta. A fibromialgia não se restringe à musculatura lombar; sua distribuição é tipicamente generalizada, envolvendo múltiplas regiões corporais."
+      },
+      {
+        "letra": "D",
+        "texto": "não há qualquer diferença na distribuição dos pontos dolorosos entre as duas condições, sendo a distinção baseada apenas em exames de imagem.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há exame de imagem específico que distinga as duas condições; a distinção é fundamentalmente clínica, baseada em anamnese e exame físico, incluindo o padrão de distribuição dos pontos dolorosos."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q5"
+  },
+  {
+    "enunciado": "Diante do quadro crônico de Renata, a equipe de saúde iniciou tratamento medicamentoso associado a fisioterapia, práticas integrativas e acompanhamento psicológico em serviço multiprofissional. Essa abordagem combinada reflete o princípio de que o tratamento da fibromialgia deve ser, preferencialmente,",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "facil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "exclusivamente farmacológico, com uso isolado de anti-inflamatórios em altas doses.",
+        "correta": false,
+        "justificativa": "Incorreta. O tratamento exclusivamente farmacológico com AINEs em altas doses não é a abordagem recomendada, já que a fibromialgia responde de forma limitada a essa classe isoladamente, além dos riscos associados ao uso prolongado."
+      },
+      {
+        "letra": "B",
+        "texto": "multidisciplinar, combinando intervenções farmacológicas e não farmacológicas para o manejo integral da dor crônica e de seus fatores associados.",
+        "correta": true,
+        "justificativa": "O tratamento da fibromialgia é reconhecidamente multidisciplinar, combinando farmacoterapia direcionada (frequentemente antidepressivos e/ou anticonvulsivantes, não necessariamente AINEs isolados), exercício físico orientado, fisioterapia, práticas integrativas e suporte psicológico, dado o caráter multifatorial da condição. Correta. A abordagem multidisciplinar integrando farmacoterapia e intervenções não farmacológicas é a recomendação atual para o manejo da fibromialgia, coerente com a conduta adotada para Renata."
+      },
+      {
+        "letra": "C",
+        "texto": "restrito a repouso absoluto prolongado, evitando qualquer atividade física.",
+        "correta": false,
+        "justificativa": "Incorreta. O repouso absoluto prolongado é contraindicado na fibromialgia; a atividade física orientada e progressiva é, ao contrário, parte importante do tratamento."
+      },
+      {
+        "letra": "D",
+        "texto": "baseado unicamente em psicoterapia, sem qualquer intervenção física ou farmacológica.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a psicoterapia seja componente importante, o tratamento integral da fibromialgia combina múltiplas abordagens, não sendo baseado exclusivamente nela."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q6"
+  },
+  {
+    "enunciado": "Um estudante questiona por que analgésicos comuns e anti-inflamatórios trouxeram apenas alívio discreto e passageiro à dor de Renata. Essa resposta terapêutica limitada aos AINEs é esperada na fibromialgia porque",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a fibromialgia caracteriza-se predominantemente por alterações no processamento central da dor (sensibilização central), e não por processo inflamatório periférico primário, alvo terapêutico dos AINEs.",
+        "correta": true,
+        "justificativa": "A fisiopatologia da fibromialgia envolve primariamente alterações no processamento central da dor — sensibilização central, com amplificação da transmissão nociceptiva e disfunção das vias descendentes moduladoras —, e não um processo inflamatório periférico primário, o que explica a resposta terapêutica limitada aos AINEs, cujo principal mecanismo é a inibição da síntese periférica de prostaglandinas. Correta. Como a fibromialgia não tem como mecanismo central um processo inflamatório periférico, os AINEs, que atuam predominantemente nesse nível, apresentam eficácia limitada, exigindo abordagem farmacológica direcionada a mecanismos centrais."
+      },
+      {
+        "letra": "B",
+        "texto": "os AINEs são absolutamente contraindicados em qualquer condição de dor crônica, independentemente da etiologia.",
+        "correta": false,
+        "justificativa": "Incorreta. Os AINEs não são absolutamente contraindicados em dor crônica; sua limitação na fibromialgia é de eficácia, relacionada ao mecanismo fisiopatológico, não uma contraindicação geral."
+      },
+      {
+        "letra": "C",
+        "texto": "a fibromialgia decorre de processo inflamatório articular grave, que exigiria doses muito mais altas de AINEs do que as habitualmente utilizadas.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há processo inflamatório articular objetivo na fibromialgia (achado central da situação-problema); aumentar a dose de AINEs não corrigiria o mecanismo fisiopatológico predominantemente central da condição."
+      },
+      {
+        "letra": "D",
+        "texto": "os AINEs atuam exclusivamente sobre dor neuropática, mecanismo que não está envolvido na fibromialgia.",
+        "correta": false,
+        "justificativa": "Incorreta. Os AINEs atuam sobre mecanismos nociceptivos periféricos inflamatórios, não sobre dor neuropática; a limitação de eficácia na fibromialgia relaciona-se à ausência de processo inflamatório periférico relevante, não a um mecanismo neuropático."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q7"
+  },
+  {
+    "enunciado": "Diante da limitada resposta aos AINEs, uma classe medicamentosa frequentemente utilizada no tratamento farmacológico da fibromialgia é a dos antidepressivos, mesmo em pacientes sem diagnóstico de depressão. A justificativa farmacológica para esse uso, no contexto da dor crônica, é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "antidepressivos tricíclicos e inibidores duais da recaptação de serotonina e noradrenalina potencializam vias descendentes inibitórias da dor, reduzindo a transmissão nociceptiva central.",
+        "correta": true,
+        "justificativa": "Antidepressivos tricíclicos (como amitriptilina) e duais (como duloxetina) potencializam as vias descendentes inibitórias serotoninérgicas e noradrenérgicas que modulam a transmissão nociceptiva no corno posterior da medula, sendo eficazes na dor crônica com componente de sensibilização central, como a fibromialgia, independentemente da presença de depressão associada. Correta. A potencialização das vias descendentes inibitórias da dor, por ação serotoninérgica/noradrenérgica, fundamenta o uso de antidepressivos como analgésicos adjuvantes na fibromialgia."
+      },
+      {
+        "letra": "B",
+        "texto": "todos os antidepressivos atuam exclusivamente sobre receptores opioides periféricos, sendo equivalentes farmacologicamente à morfina.",
+        "correta": false,
+        "justificativa": "Incorreta. Antidepressivos não atuam sobre receptores opioides; seu mecanismo analgésico envolve neurotransmissão monoaminérgica central, distinto do mecanismo dos opioides."
+      },
+      {
+        "letra": "C",
+        "texto": "os antidepressivos eliminam completamente a necessidade de qualquer abordagem não farmacológica no tratamento da fibromialgia.",
+        "correta": false,
+        "justificativa": "Incorreta. Os antidepressivos são um componente do tratamento multimodal, não eliminando a necessidade de intervenções não farmacológicas (exercício, fisioterapia, terapia cognitivo-comportamental), que permanecem essenciais."
+      },
+      {
+        "letra": "D",
+        "texto": "os antidepressivos atuam apenas sobre o humor, sem qualquer efeito direto sobre vias de modulação da dor.",
+        "correta": false,
+        "justificativa": "Incorreta. Antidepressivos tricíclicos e duais possuem efeito analgésico direto sobre vias de modulação da dor, independente e distinto de seu efeito sobre o humor, o que justifica seu uso mesmo sem diagnóstico de depressão."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q8"
+  },
+  {
+    "enunciado": "Sobre a classificação farmacológica dos anti-inflamatórios não esteroidais (AINEs), um estudante pergunta qual é a principal diferença entre AINEs não seletivos e inibidores seletivos da COX-2 em relação ao perfil de efeitos adversos. A resposta correta é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "AINEs não seletivos inibem COX-1 e COX-2, apresentando maior risco gastrointestinal; inibidores seletivos de COX-2 reduzem o risco gastrointestinal, mas apresentam maior risco cardiovascular relativo.",
+        "correta": true,
+        "justificativa": "AINEs não seletivos inibem tanto COX-1 quanto COX-2, com maior risco de lesão gastrointestinal por redução da citoproteção gástrica mediada por prostaglandinas dependentes de COX-1; os inibidores seletivos de COX-2 reduzem esse risco gastrointestinal, mas têm sido associados a maior risco cardiovascular relativo, por desequilíbrio entre tromboxano e prostaciclina. Correta. Essa é a diferença clássica de perfil de risco entre as duas categorias de AINEs, relevante na escolha terapêutica individualizada."
+      },
+      {
+        "letra": "B",
+        "texto": "inibidores seletivos de COX-2 não apresentam qualquer risco cardiovascular, sendo completamente isentos de efeitos adversos.",
+        "correta": false,
+        "justificativa": "Incorreta. Os inibidores seletivos de COX-2 apresentam risco cardiovascular aumentado documentado, não sendo isentos de efeitos adversos."
+      },
+      {
+        "letra": "C",
+        "texto": "AINEs não seletivos não possuem qualquer risco gastrointestinal, sendo mais seguros que os inibidores seletivos de COX-2 em todos os aspectos.",
+        "correta": false,
+        "justificativa": "Incorreta. AINEs não seletivos apresentam risco gastrointestinal reconhecidamente maior que os inibidores seletivos de COX-2, não menor."
+      },
+      {
+        "letra": "D",
+        "texto": "não há diferença relevante de perfil de efeitos adversos entre AINEs não seletivos e inibidores seletivos de COX-2.",
+        "correta": false,
+        "justificativa": "Incorreta. Há diferença relevante e bem documentada de perfil de efeitos adversos entre as duas categorias, fundamentando a escolha terapêutica conforme o perfil de risco de cada paciente."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q9"
+  },
+  {
+    "enunciado": "Nos pontos-gatilho identificados na musculatura de Renata (síndrome miofascial associada), uma opção terapêutica local frequentemente utilizada é a infiltração com anestésico local. O mecanismo de ação farmacológico dos anestésicos locais, fundamentando esse uso, é o",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "bloqueio reversível dos canais de sódio voltagem-dependentes na membrana neuronal, impedindo a geração e propagação do potencial de ação.",
+        "correta": true,
+        "justificativa": "Os anestésicos locais atuam bloqueando de forma reversível os canais de sódio voltagem-dependentes na membrana das fibras nervosas, impedindo a geração e a propagação do potencial de ação e, consequentemente, a condução do estímulo doloroso na região infiltrada — mecanismo utilizado na infiltração de pontos-gatilho miofasciais. Correta. O bloqueio reversível de canais de sódio voltagem-dependentes é o mecanismo central de ação dos anestésicos locais, fundamentando seu uso na infiltração de pontos-gatilho."
+      },
+      {
+        "letra": "B",
+        "texto": "agonismo em receptores opioides periféricos, promovendo analgesia sistêmica prolongada.",
+        "correta": false,
+        "justificativa": "Incorreta. Os anestésicos locais não atuam sobre receptores opioides; seu efeito é local, por bloqueio de canais de sódio, não sistêmico via receptores opioides."
+      },
+      {
+        "letra": "C",
+        "texto": "inibição irreversível da enzima ciclo-oxigenase, com efeito anti-inflamatório sistêmico.",
+        "correta": false,
+        "justificativa": "Incorreta. Anestésicos locais não inibem ciclo-oxigenases; esse é o mecanismo dos AINEs, farmacologicamente distinto."
+      },
+      {
+        "letra": "D",
+        "texto": "estímulo direto da liberação de serotonina e noradrenalina nas vias descendentes moduladoras da dor.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse é o mecanismo dos antidepressivos tricíclicos/duais utilizados como adjuvantes analgésicos, não dos anestésicos locais."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q10"
+  },
+  {
+    "enunciado": "Considerando os fatores de piora relatados por Renata — intensificação da dor após período de tensão emocional relacionada a dificuldades financeiras — um estudante pergunta qual é a relação fisiopatológica entre estresse psicológico crônico e exacerbação dos sintomas na fibromialgia. A explicação mais adequada é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o estresse crônico não possui qualquer influência documentada sobre a percepção dolorosa em condições de sensibilização central.",
+        "correta": false,
+        "justificativa": "Incorreta. Há ampla evidência de que o estresse crônico influencia negativamente a percepção dolorosa em condições de sensibilização central, como a fibromialgia."
+      },
+      {
+        "letra": "B",
+        "texto": "o estresse psicológico crônico pode agravar a disfunção do eixo hipotálamo-hipófise-adrenal e a modulação descendente da dor, contribuindo para amplificação da sensibilização central característica da fibromialgia.",
+        "correta": true,
+        "justificativa": "Na fibromialgia, o estresse psicológico crônico relaciona-se a disfunção do eixo hipotálamo-hipófise-adrenal e prejuízo na modulação descendente inibitória da dor, contribuindo para a amplificação da sensibilização central e, consequentemente, para a exacerbação sintomática observada em períodos de tensão emocional, como relatado por Renata. Correta. A disfunção do eixo hipotálamo-hipófise-adrenal e da modulação descendente da dor sob estresse crônico contribui para a amplificação da sensibilização central, explicando a exacerbação sintomática relatada por Renata."
+      },
+      {
+        "letra": "C",
+        "texto": "o estresse converte definitivamente a fibromialgia em uma doença exclusivamente psiquiátrica, sem qualquer componente de processamento nociceptivo.",
+        "correta": false,
+        "justificativa": "Incorreta. A fibromialgia não é uma condição exclusivamente psiquiátrica; envolve processamento nociceptivo central alterado, com contribuição de fatores psicossociais, mas não se reduz a eles."
+      },
+      {
+        "letra": "D",
+        "texto": "apenas fatores genéticos determinam a intensidade da dor na fibromialgia, sem qualquer influência de fatores psicossociais.",
+        "correta": false,
+        "justificativa": "Incorreta. A fibromialgia tem etiologia multifatorial, envolvendo predisposição genética, fatores neurobiológicos e psicossociais combinados, não sendo determinada exclusivamente por fatores genéticos."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q11"
+  },
+  {
+    "enunciado": "Um estudante questiona por que o sono fragmentado e não reparador de Renata é considerado clinicamente relevante na fibromialgia, e não apenas uma consequência secundária da dor. A relação fisiopatológica mais adequada entre distúrbio do sono e fibromialgia é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o sono não reparador é irrelevante para a fisiopatologia da fibromialgia, sendo apenas uma queixa isolada sem relação bidirecional com a dor.",
+        "correta": false,
+        "justificativa": "Incorreta. Há relação bidirecional bem documentada entre distúrbio do sono e dor na fibromialgia, não sendo uma queixa isolada e irrelevante."
+      },
+      {
+        "letra": "B",
+        "texto": "a privação do sono de ondas lentas (estágio profundo, não-REM) pode reduzir a liberação de substâncias moduladoras da dor e favorecer maior sensibilização central, estabelecendo relação bidirecional entre distúrbio do sono e dor crônica.",
+        "correta": true,
+        "justificativa": "Estudos mostram que a privação do sono de ondas lentas (estágio 3, não-REM) associa-se a menor liberação de substâncias moduladoras da dor (como hormônio do crescimento e possivelmente componentes do sistema opioide endógeno) e a maior sensibilização central, estabelecendo relação bidirecional entre distúrbio do sono e dor crônica na fibromialgia — a dor fragmenta o sono, e o sono de má qualidade amplifica a dor. Correta. A privação de sono de ondas lentas contribui para maior sensibilização central e amplificação da dor, estabelecendo um ciclo bidirecional entre sono não reparador e dor crônica, relevante no manejo terapêutico de Renata."
+      },
+      {
+        "letra": "C",
+        "texto": "o distúrbio do sono na fibromialgia decorre exclusivamente de apneia obstrutiva do sono não diagnosticada.",
+        "correta": false,
+        "justificativa": "Incorreta. O caso não menciona achados sugestivos de apneia obstrutiva do sono; o distúrbio do sono na fibromialgia relaciona-se primariamente à própria fisiopatologia da sensibilização central, não exclusivamente a uma comorbidade respiratória não descrita."
+      },
+      {
+        "letra": "D",
+        "texto": "o sono não reparador cura espontaneamente a sensibilização central independentemente de qualquer intervenção terapêutica.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há remissão espontânea da sensibilização central pelo sono não reparador; ao contrário, a privação de sono de qualidade tende a perpetuar e agravar o quadro, exigindo intervenção terapêutica direcionada."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q12"
+  },
+  {
+    "enunciado": "Considerando a abordagem integral e multidisciplinar adotada para Renata no âmbito do SUS, envolvendo fisioterapia, práticas integrativas e complementares e acompanhamento psicológico, a justificativa para a inclusão de práticas integrativas e complementares no manejo da dor crônica multifatorial é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "medio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "substituem integralmente qualquer abordagem farmacológica ou fisioterapêutica, sendo suficientes isoladamente.",
+        "correta": false,
+        "justificativa": "Incorreta. As práticas integrativas atuam como complemento, não substituto, das demais abordagens terapêuticas (farmacológica, fisioterapêutica, psicológica) no manejo integral da fibromialgia."
+      },
+      {
+        "letra": "B",
+        "texto": "podem contribuir como estratégias complementares no manejo integral da dor crônica, favorecendo relaxamento, controle do estresse e melhora da qualidade de vida, quando associadas às demais intervenções.",
+        "correta": true,
+        "justificativa": "A Política Nacional de Práticas Integrativas e Complementares (PNPIC) do SUS reconhece diversas práticas (como acupuntura, entre outras) como estratégias complementares no manejo integral de condições crônicas, incluindo a dor crônica, contribuindo para relaxamento, controle do estresse e melhora da qualidade de vida quando associadas a outras intervenções, sem substituí-las. Correta. Essa é a justificativa adequada para a inclusão de práticas integrativas como parte da abordagem multidisciplinar complementar no manejo da dor crônica de Renata."
+      },
+      {
+        "letra": "C",
+        "texto": "não possuem qualquer indicação reconhecida pela Política Nacional de Práticas Integrativas e Complementares do SUS.",
+        "correta": false,
+        "justificativa": "Incorreta. A PNPIC é uma política oficial do SUS, que reconhece e disponibiliza diversas práticas integrativas e complementares na rede de atenção à saúde."
+      },
+      {
+        "letra": "D",
+        "texto": "são indicadas exclusivamente para dor aguda pós-cirúrgica, sem qualquer papel em dor crônica.",
+        "correta": false,
+        "justificativa": "Incorreta. As práticas integrativas e complementares têm papel reconhecido também no manejo de condições crônicas, incluindo dor crônica, não sendo restritas ao contexto agudo pós-cirúrgico."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q13"
+  },
+  {
+    "enunciado": "Sobre a fisiopatologia central da fibromialgia, estudos de neuroimagem funcional têm demonstrado alterações no processamento da dor em pacientes afetados. O principal achado fisiopatológico central característico dessa condição, relacionado à amplificação da percepção dolorosa, é",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "redução isolada e completa da atividade em todas as áreas corticais de processamento sensorial, sem qualquer hiperatividade documentada.",
+        "correta": false,
+        "justificativa": "Incorreta. Ao contrário de redução isolada, há hiperatividade documentada em áreas específicas de processamento da dor frente a estímulos habitualmente não dolorosos."
+      },
+      {
+        "letra": "B",
+        "texto": "amplificação do processamento nociceptivo central, com hiperatividade em áreas de processamento da dor (como ínsula e córtex cingulado anterior) frente a estímulos de intensidade normalmente não dolorosa ou levemente dolorosa, além de disfunção das vias descendentes inibitórias.",
+        "correta": true,
+        "justificativa": "Estudos de neuroimagem funcional em pacientes com fibromialgia demonstram amplificação do processamento nociceptivo central, com hiperatividade em áreas como ínsula e córtex cingulado anterior frente a estímulos de intensidade normalmente não dolorosa, associada a disfunção das vias descendentes inibitórias da dor — substrato fisiopatológico da sensibilização central característica da condição. Correta. A amplificação central do processamento nociceptivo, com hiperatividade em áreas como ínsula e cíngulo anterior e disfunção das vias descendentes inibitórias, é o principal substrato fisiopatológico demonstrado por estudos de neuroimagem funcional na fibromialgia."
+      },
+      {
+        "letra": "C",
+        "texto": "presença constante de lesão estrutural demonstrável por ressonância magnética convencional em todos os pacientes com fibromialgia.",
+        "correta": false,
+        "justificativa": "Incorreta. A fibromialgia não apresenta lesão estrutural demonstrável por ressonância magnética convencional; as alterações identificadas são predominantemente funcionais, exigindo técnicas de neuroimagem funcional específicas."
+      },
+      {
+        "letra": "D",
+        "texto": "ausência completa de qualquer alteração neurofisiológica documentável, sendo a fibromialgia uma condição puramente funcional sem substrato biológico.",
+        "correta": false,
+        "justificativa": "Incorreta. Há substrato neurofisiológico documentado por estudos de neuroimagem funcional e outras técnicas, refutando a ideia de ausência completa de base biológica."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q14"
+  },
+  {
+    "enunciado": "Um estudante questiona por que antidepressivos tricíclicos, como a amitriptilina, são frequentemente prescritos em baixas doses (muito inferiores às doses antidepressivas) no tratamento da fibromialgia e de outras condições de dor crônica. A explicação farmacológica mais adequada para essa prática é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "em doses baixas, a amitriptilina exerce efeito analgésico predominante por modulação das vias descendentes da dor, com menor incidência dos efeitos adversos anticolinérgicos e sedativos observados em doses antidepressivas plenas.",
+        "correta": true,
+        "justificativa": "Em doses baixas, a amitriptilina exerce efeito analgésico relevante por meio da modulação das vias descendentes serotoninérgicas e noradrenérgicas da dor, com perfil de efeitos adversos (anticolinérgicos, sedativos) mais favorável do que em doses antidepressivas plenas, o que fundamenta seu uso frequente como adjuvante analgésico em dor crônica, incluindo fibromialgia. Correta. O efeito analgésico em baixas doses, com menor incidência de efeitos adversos anticolinérgicos e sedativos, fundamenta a prática de prescrever amitriptilina em doses inferiores às antidepressivas no manejo da dor crônica."
+      },
+      {
+        "letra": "B",
+        "texto": "doses baixas de amitriptilina não exercem qualquer efeito farmacológico mensurável, sendo prescritas apenas como efeito placebo.",
+        "correta": false,
+        "justificativa": "Incorreta. Há efeito farmacológico mensurável e bem documentado da amitriptilina em baixas doses sobre a modulação da dor, não se tratando de efeito placebo."
+      },
+      {
+        "letra": "C",
+        "texto": "doses baixas de amitriptilina atuam exclusivamente sobre receptores opioides, com potência equivalente à morfina em baixas concentrações.",
+        "correta": false,
+        "justificativa": "Incorreta. A amitriptilina não atua sobre receptores opioides; seu mecanismo analgésico envolve neurotransmissão monoaminérgica central (serotonina e noradrenalina), distinto do mecanismo opioide."
+      },
+      {
+        "letra": "D",
+        "texto": "a amitriptilina em baixas doses cura definitivamente a sensibilização central, eliminando a necessidade de manutenção terapêutica.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há cura definitiva da sensibilização central com o uso de amitriptilina; trata-se de manejo sintomático contínuo, frequentemente necessitando manutenção terapêutica prolongada associada a outras intervenções."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q15"
+  },
+  {
+    "enunciado": "Sobre os critérios diagnósticos atuais da fibromialgia, propostos pelo American College of Rheumatology, um estudante pergunta se a contagem clássica de 18 pontos dolorosos (tender points) ainda é considerada obrigatória para o diagnóstico. A resposta correta, refletindo a evolução dos critérios diagnósticos, é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a contagem de 18 tender points permanece como único critério diagnóstico válido, sendo obrigatória em toda avaliação, sem qualquer alternativa reconhecida.",
+        "correta": false,
+        "justificativa": "Incorreta. Os critérios diagnósticos evoluíram, incorporando outros parâmetros além da contagem isolada de tender points, que não é mais considerada obrigatória e exclusiva nos critérios mais recentes."
+      },
+      {
+        "letra": "B",
+        "texto": "critérios mais atuais incorporam índices de dor generalizada e escalas de gravidade de sintomas associados (fadiga, sono não reparador, sintomas cognitivos), reduzindo a dependência exclusiva da contagem de tender points.",
+        "correta": true,
+        "justificativa": "Os critérios diagnósticos mais atuais para fibromialgia incorporam o índice de dor generalizada (Widespread Pain Index) e uma escala de gravidade de sintomas associados (fadiga, sono não reparador, sintomas cognitivos), reduzindo a dependência exclusiva da contagem clássica dos 18 tender points utilizada em critérios mais antigos, embora o exame físico continue relevante na avaliação clínica. Correta. A incorporação de índices de dor generalizada e escalas de gravidade de sintomas associados reflete a evolução dos critérios diagnósticos atuais para fibromialgia."
+      },
+      {
+        "letra": "C",
+        "texto": "o diagnóstico de fibromialgia atualmente depende exclusivamente de exames de neuroimagem funcional, sem qualquer critério clínico.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico de fibromialgia permanece eminentemente clínico, baseado em anamnese e critérios validados; exames de neuroimagem funcional são utilizados em pesquisa, não como critério diagnóstico de rotina."
+      },
+      {
+        "letra": "D",
+        "texto": "não existe, atualmente, nenhum critério diagnóstico reconhecido para fibromialgia, sendo diagnóstico de exclusão absoluta sem parâmetros definidos.",
+        "correta": false,
+        "justificativa": "Incorreta. Existem critérios diagnósticos clínicos reconhecidos e validados (como os do American College of Rheumatology), não sendo a fibromialgia um diagnóstico sem parâmetros definidos."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q16"
+  },
+  {
+    "enunciado": "Um estudante questiona a relação entre síndrome miofascial não tratada adequadamente e o desenvolvimento subsequente de quadros de sensibilização central mais amplos, como a fibromialgia. A hipótese fisiopatológica que relaciona esses dois quadros é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a persistência de input nociceptivo periférico proveniente de pontos-gatilho miofasciais não tratados pode contribuir, ao longo do tempo, para sensibilização central progressiva, potencialmente favorecendo a evolução para quadros de dor crônica generalizada.",
+        "correta": true,
+        "justificativa": "A persistência de estímulos nociceptivos periféricos originados em pontos-gatilho miofasciais não adequadamente tratados pode, em teoria e em parte da literatura, contribuir para sensibilização central progressiva ao longo do tempo, sendo uma hipótese fisiopatológica discutida na relação entre dor miofascial persistente e quadros de dor crônica generalizada como a fibromialgia, embora não constitua evolução obrigatória ou universal. Correta. A hipótese de que a persistência de input nociceptivo periférico dos pontos-gatilho pode contribuir para sensibilização central progressiva é discutida na literatura como possível fator de risco para cronificação e generalização da dor."
+      },
+      {
+        "letra": "B",
+        "texto": "a síndrome miofascial e a fibromialgia são exatamente a mesma condição, apenas com nomenclaturas diferentes, sem qualquer distinção fisiopatológica.",
+        "correta": false,
+        "justificativa": "Incorreta. Síndrome miofascial e fibromialgia são condições distintas, com fisiopatologia, distribuição e abordagem terapêutica diferentes, ainda que possam coexistir ou se relacionar."
+      },
+      {
+        "letra": "C",
+        "texto": "não existe qualquer relação fisiopatológica plausível entre input nociceptivo periférico persistente e sensibilização central.",
+        "correta": false,
+        "justificativa": "Incorreta. Existe plausibilidade fisiopatológica bem descrita entre persistência de input nociceptivo periférico e sensibilização central, mecanismo inclusive discutido para outras condições de dor crônica."
+      },
+      {
+        "letra": "D",
+        "texto": "a síndrome miofascial sempre evolui obrigatoriamente para fibromialgia em todos os pacientes não tratados adequadamente.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há evolução obrigatória e universal da síndrome miofascial para fibromialgia; trata-se de uma possível contribuição em subgrupo de pacientes, não uma regra aplicável a todos os casos não tratados."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q17"
+  },
+  {
+    "enunciado": "Reconsiderando a rigidez matinal prolongada relatada por Renata, um estudante questiona como diferenciar, do ponto de vista fisiopatológico, a rigidez matinal da fibromialgia daquela observada em doenças inflamatórias articulares, como a artrite reumatoide. A distinção mais adequada é que",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "na fibromialgia, a rigidez matinal relaciona-se predominantemente a alterações do sono e sensibilização central, sem sinovite subjacente; na artrite reumatoide, decorre de processo inflamatório sinovial ativo, tipicamente associado a edema articular objetivo.",
+        "correta": true,
+        "justificativa": "Na fibromialgia, a rigidez matinal relaciona-se a sono não reparador e sensibilização central, sem sinovite subjacente e sem edema articular objetivo; na artrite reumatoide, a rigidez matinal prolongada (frequentemente superior a 30-60 minutos) decorre de processo inflamatório sinovial ativo, com edema articular e outros sinais inflamatórios objetivos associados — distinção clínica relevante no diagnóstico diferencial do caso de Renata. Correta. Essa distinção fisiopatológica — sensibilização central sem sinovite na fibromialgia versus inflamação sinovial ativa na artrite reumatoide — é central para o diagnóstico diferencial da rigidez matinal entre as duas condições."
+      },
+      {
+        "letra": "B",
+        "texto": "a rigidez matinal tem exatamente a mesma fisiopatologia em ambas as condições, sem qualquer distinção relevante.",
+        "correta": false,
+        "justificativa": "Incorreta. As fisiopatologias são distintas: uma envolve processamento central da dor sem inflamação articular; a outra, processo inflamatório sinovial objetivo."
+      },
+      {
+        "letra": "C",
+        "texto": "na artrite reumatoide, a rigidez matinal nunca dura mais que cinco minutos, ao contrário da fibromialgia.",
+        "correta": false,
+        "justificativa": "Incorreta. Na artrite reumatoide, a rigidez matinal é tipicamente prolongada (frequentemente superior a 30 minutos), e não breve; rigidez de curta duração é mais sugestiva de processos degenerativos, não inflamatórios."
+      },
+      {
+        "letra": "D",
+        "texto": "a rigidez matinal na fibromialgia decorre exclusivamente de contratura muscular fixa e irreversível.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há contratura muscular fixa e irreversível na fibromialgia; a rigidez é funcional, relacionada a sensibilização central e distúrbio do sono, sem alteração estrutural permanente."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q18"
+  },
+  {
+    "enunciado": "Do ponto de vista da saúde coletiva e da organização do cuidado no SUS, o caso de Renata ilustra desafios comuns no manejo de condições crônicas de dor difusa na atenção primária. Um dos principais desafios sistêmicos discutidos na literatura, refletido na trajetória diagnóstica de Renata, é",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o excesso de recursos diagnósticos disponíveis na atenção primária, levando a diagnóstico precoce e eficiente em praticamente todos os casos de dor crônica difusa.",
+        "correta": false,
+        "justificativa": "Incorreta. Ao contrário de excesso de recursos e diagnóstico precoce, o caso ilustra justamente a dificuldade e o atraso diagnóstico enfrentados por Renata."
+      },
+      {
+        "letra": "B",
+        "texto": "a dificuldade de reconhecimento e legitimação clínica de condições sem achados objetivos em exames de rotina, associada a fragmentação do cuidado entre diferentes especialidades sem abordagem integrada.",
+        "correta": true,
+        "justificativa": "Um desafio sistêmico relevante no manejo de condições como a fibromialgia na atenção primária é a dificuldade de reconhecimento clínico de quadros sem achados objetivos, associada à fragmentação do cuidado entre diferentes especialidades sem integração adequada, o que pode postergar o diagnóstico e prolongar o sofrimento do paciente, como evidenciado na trajetória de Renata antes do manejo multidisciplinar adequado. Correta. A dificuldade de legitimação clínica de condições sem achados objetivos, associada à fragmentação do cuidado, é um desafio sistêmico relevante refletido na trajetória de Renata antes de alcançar manejo multidisciplinar adequado."
+      },
+      {
+        "letra": "C",
+        "texto": "a ausência completa de qualquer diretriz clínica nacional para o manejo de dor crônica no âmbito do SUS.",
+        "correta": false,
+        "justificativa": "Incorreta. Existem diretrizes e protocolos clínicos voltados ao manejo da dor crônica no contexto do SUS e da atenção primária, ainda que sua implementação e o acesso variem conforme a região e o serviço."
+      },
+      {
+        "letra": "D",
+        "texto": "a impossibilidade estrutural de oferecer qualquer abordagem multiprofissional para dor crônica na rede pública de saúde.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora existam desafios de acesso, a rede pública de saúde pode e deve oferecer abordagem multiprofissional para dor crônica, como demonstrado pelo próprio desfecho do caso de Renata, encaminhada a fisioterapia, práticas integrativas e acompanhamento psicológico."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q19"
+  },
+  {
+    "enunciado": "Integrando os conceitos discutidos na situação-problema de Renata — dor musculoesquelética crônica difusa, sensibilização central, distúrbio do sono, fatores psicossociais associados e resposta limitada a analgésicos convencionais —, a conduta terapêutica mais completa e alinhada à melhor evidência atual para o manejo da fibromialgia é",
+    "texto_base": null,
+    "fase_alvo": 5,
+    "uc_slug": "med_unidavi_f05_uc01_dor",
+    "sp_referencia": null,
+    "tema": null,
+    "dificuldade_editorial": "dificil",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "monoterapia isolada com AINE em dose máxima, sem qualquer reavaliação da resposta terapêutica ao longo do tempo.",
+        "correta": false,
+        "justificativa": "Incorreta. A monoterapia isolada com AINE, sem reavaliação, não é eficaz nem alinhada à fisiopatologia predominantemente central da fibromialgia, sendo insuficiente como conduta isolada."
+      },
+      {
+        "letra": "B",
+        "texto": "abordagem multimodal combinando educação sobre a natureza da condição, farmacoterapia direcionada a mecanismos centrais (como antidepressivos duais ou tricíclicos em baixas doses), exercício físico orientado e progressivo, intervenções psicológicas (como terapia cognitivo-comportamental) e, quando disponíveis, práticas integrativas complementares.",
+        "correta": true,
+        "justificativa": "A melhor evidência atual para o manejo da fibromialgia recomenda abordagem multimodal: educação do paciente sobre a natureza da condição (validando a legitimidade da dor, como necessário no caso de Renata), farmacoterapia direcionada a mecanismos centrais de sensibilização (antidepressivos duais/tricíclicos, eventualmente outros adjuvantes), exercício físico orientado e progressivo, intervenções psicológicas como terapia cognitivo-comportamental, e práticas integrativas complementares quando disponíveis — coerente com a conduta adotada para Renata e com toda a discussão da situação-problema. Correta. Essa conduta integra corretamente todos os pilares terapêuticos recomendados atualmente para a fibromialgia, refletindo a abordagem multidisciplinar que trouxe melhora progressiva a Renata."
+      },
+      {
+        "letra": "C",
+        "texto": "encaminhamento exclusivo a reumatologista para tratamento imunobiológico, sem qualquer intervenção na atenção primária.",
+        "correta": false,
+        "justificativa": "Incorreta. A fibromialgia não é tratada com imunobiológicos (indicados em doenças inflamatórias articulares autoimunes, não na fibromialgia), e a atenção primária tem papel central no manejo e acompanhamento longitudinal dessa condição."
+      },
+      {
+        "letra": "D",
+        "texto": "orientação de repouso absoluto e afastamento total de qualquer atividade física ou laboral por tempo indeterminado.",
+        "correta": false,
+        "justificativa": "Incorreta. O repouso absoluto e o afastamento total de atividade física são contraindicados na fibromialgia; o exercício físico orientado e progressivo é, ao contrário, pilar terapêutico reconhecido."
+      }
+    ],
+    "_proveniencia": "upload:UC1_SP3_Dor_ENAMED — Q20"
   }
 ]
