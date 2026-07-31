@@ -214,8 +214,12 @@ for i in range(2, ws.max_row+1):
     for c in range(3, 12): ws.cell(i, c).alignment = Alignment(horizontal="center")
 
 # ================================================================ 6. COMPARATIVO
-s1 = {n: (f, a, p) for f in FASES for n, a, p in D.S1_ALUNOS[f]}
-s2 = {n: (f, a) for f in FASES for n, a in D.S2_ALUNOS[f]}
+# A 11ª Fase do Simulado 01 lista "Maria Amélia Vozniak Deluca" e a do Simulado 02
+# "Maria Amélia Vozniak Deluca Schneider": é a mesma pessoa, com o sobrenome cortado
+# na primeira imagem. Sem a fusão ela apareceria como dois alunos distintos.
+MERGE = {"Maria Amélia Vozniak Deluca": "Maria Amélia Vozniak Deluca Schneider"}
+s1 = {MERGE.get(n, n): (f, a, p) for f in FASES for n, a, p in D.S1_ALUNOS[f]}
+s2 = {MERGE.get(n, n): (f, a) for f in FASES for n, a in D.S2_ALUNOS[f]}
 rows = []
 for n in sorted(set(s1) | set(s2), key=lambda x: x.lower()):
     a = s1.get(n); b = s2.get(n)
@@ -284,8 +288,13 @@ linhas = [
   "alternativa reproduz a % de acerto simultaneamente nas 4 fases, e o resultado fecha com a soma "
   "de acertos dos alunos. Gabarito deduzido: " + GAB2),
  ("Ressalva 4 — nomes",
-  "Dois nomes apareciam truncados na imagem da 10ª Fase do Simulado 01 ('Lucas Eduardo dos Santos "
-  "Vian…' e 'Maria Eduarda Medeiros Macha…'); foram completados pela lista do Simulado 02."),
+  "Os 126 nomes foram lidos duas vezes de forma independente (uma imagem por simulado) e 112 "
+  "coincidem caractere a caractere, o que confirma essa leitura. Três casos exigiram intervenção: "
+  "'Lucas Eduardo dos Santos Vian…' e 'Maria Eduarda Medeiros Macha…' estavam truncados na imagem "
+  "da 10ª Fase do Simulado 01 e foram completados pela lista do Simulado 02; e 'Maria Amélia "
+  "Vozniak Deluca' (S01) e 'Maria Amélia Vozniak Deluca Schneider' (S02) são a mesma aluna, "
+  "unificadas na aba de comparativo. Os 13 nomes restantes que aparecem em um só simulado são "
+  "mudanças reais de turma (a 11ª Fase perdeu 4 alunos e ganhou 6 entre as duas aplicações)."),
  ("", ""),
  ("Abas", ""),
  ("  Alunos", "Uma linha por aluno por simulado: fase, acertos, % e posição."),

@@ -118,8 +118,9 @@ for i in range(2,ws.max_row+1):
 
 # ---- Comparativo
 ws=wb["Comparativo S01 x S02"]
-s1={n:a for f in FASES for n,a,_ in D.S1_ALUNOS[f]}
-s2={n:a for f in FASES for n,a in D.S2_ALUNOS[f]}
+MERGE={"Maria Amélia Vozniak Deluca":"Maria Amélia Vozniak Deluca Schneider"}
+s1={MERGE.get(n,n):a for f in FASES for n,a,_ in D.S1_ALUNOS[f]}
+s2={MERGE.get(n,n):a for f in FASES for n,a in D.S2_ALUNOS[f]}
 seen=set()
 for i in range(2,ws.max_row+1):
     n=ws.cell(i,1).value; seen.add(n)
