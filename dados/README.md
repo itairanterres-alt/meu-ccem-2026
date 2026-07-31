@@ -19,7 +19,7 @@ nenhum número em célula.
 Para cada uma das 8 combinações simulado × fase, a soma dos acertos por questão é **idêntica**
 à soma dos acertos dos alunos (diferença = 0). As 396 distribuições somam exatamente 100% e
 produzem apenas contagens inteiras de alunos. O gabarito do Simulado 02, ausente do PDF, foi
-deduzido e é o único que satisfaz essas duas restrições nas 60 questões.
+deduzido antes de o gabarito oficial estar disponível, e **confere com ele nas 60 questões**.
 
 ## Ressalvas registradas na aba `Leia-me`
 
@@ -27,9 +27,11 @@ deduzido e é o único que satisfaz essas duas restrições nas 60 questões.
    calculado com **E**, que é a alternativa correta pelo enunciado (definição de SRAG do
    Ministério da Saúde). A planilha reproduz o dashboard e sinaliza a divergência.
 2. **Q24 do Simulado 01** — anulada; não sobrou nenhum dado dela.
-3. **Gabarito do Simulado 02** — deduzido, não oficial.
-4. **Dois nomes** truncados na imagem da 10ª Fase do Simulado 01 foram completados pela
-   lista do Simulado 02.
+3. **Q17 do Simulado 01 e Q59 do Simulado 02** — prováveis erros do gabarito oficial, contra
+   os quais 88–94% e 57–90% dos alunos responderam. Não são erros de extração: a planilha
+   reproduz a chave oficial e registra a divergência.
+4. **Nomes** — 112 dos 126 coincidem nas duas leituras independentes; uma aluna aparecia com
+   o sobrenome cortado no Simulado 01 e foi unificada.
 
 ## Scripts
 

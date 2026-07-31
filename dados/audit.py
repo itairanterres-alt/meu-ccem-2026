@@ -11,7 +11,7 @@ def load(f):
     return o
 C={"Simulado 01":(load('charts1.json'),[q for q in range(1,41) if q!=24]),
    "Simulado 02":(load('charts2.json'),list(range(1,61)))}
-GAB2=open('gab_s2.txt').read().strip()
+GAB2=open('gab_s2_oficial.txt').read().strip()
 GAB={"Simulado 01":{q:D.GAB_S1[q-1] for q in range(1,41)},
      "Simulado 02":{q:GAB2[q-1] for q in range(1,61)}}
 KEY={s_:dict(g) for s_,g in GAB.items()}; KEY["Simulado 01"][39]="E"

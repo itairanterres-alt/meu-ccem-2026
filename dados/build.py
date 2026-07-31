@@ -22,7 +22,7 @@ def load(f):
     return out
 
 C1, C2 = load('charts1.json'), load('charts2.json')
-GAB2 = open('gab_s2.txt').read().strip()
+GAB2 = open('gab_s2_oficial.txt').read().strip()   # gabarito oficial (PDF)
 
 Q1 = [q for q in range(1, 41) if q != 24]            # 39 questões analisadas
 Q2 = list(range(1, 61))
@@ -282,11 +282,19 @@ linhas = [
   "%Acertos dos alunos é calculado sobre 39 questões. Não sobrou nenhum dado dela: a soma dos "
   "acertos por questão bate exatamente com a soma dos acertos dos alunos sem a Q24. Ela aparece "
   "nas abas de questões apenas como linha marcada em amarelo, sem valores."),
- ("Ressalva 3 — Gabarito do S02",
-  "O PDF do Simulado 02 vem com a folha de gabarito em branco. O gabarito das 60 questões foi "
-  "deduzido cruzando o cache dos gráficos com as % das imagens: em todas as 60 questões uma única "
-  "alternativa reproduz a % de acerto simultaneamente nas 4 fases, e o resultado fecha com a soma "
-  "de acertos dos alunos. Gabarito deduzido: " + GAB2),
+ ("Gabarito do S02 — conferido",
+  "A folha de gabarito vinha em branco no PDF da prova, então as 60 respostas foram deduzidas "
+  "cruzando o cache dos gráficos com as % das imagens. O gabarito oficial foi obtido depois e "
+  "confere nas 60 questões, sem nenhuma divergência. Deixou de ser dedução: " + GAB2),
+ ("Ressalva 3 — Q17 do S01",
+  "Não é problema de extração, é da prova. O gabarito oficial marca C, que descreve 'pontos de "
+  "atenção à saúde' (a definição usada na Q01); a alternativa B é a que define Atenção Primária. "
+  "Entre 88% e 94% dos alunos marcaram B e foram contados como erro. Corrigir a chave elevaria a "
+  "média de todas as fases em cerca de 2 p.p. Os números aqui reproduzem o dashboard, com C."),
+ ("Ressalva 3b — Q59 do S02",
+  "Mesma situação: o gabarito oficial marca B, que manda o paciente em crise aguardar o técnico de "
+  "referência; a alternativa C descreve a conduta de acolhimento à crise no CAPS. De 57% a 90% dos "
+  "alunos marcaram C. Corrigir elevaria as médias entre 0,7 e 1,5 p.p. Reproduzido aqui como B."),
  ("Ressalva 4 — nomes",
   "Os 126 nomes foram lidos duas vezes de forma independente (uma imagem por simulado) e 112 "
   "coincidem caractere a caractere, o que confirma essa leitura. Três casos exigiram intervenção: "
