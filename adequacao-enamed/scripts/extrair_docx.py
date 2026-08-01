@@ -146,7 +146,9 @@ def _varrer(texto, modo):
             for letra in reversed(LETRAS[:LETRAS.index(ancora)]):
                 anteriores = list(_marcador(letra, modo).finditer(texto, 0, limite))
                 if not anteriores:
-                    ok = False
+                    # aceita a sequencia sem 'A' (alternativa A sem marcador no
+                    # texto, ex.: "<texto A>B) <texto B>"); nunca sem 'B'
+                    ok = (letra == 'A' and 'B' in posicoes)
                     break
                 m = anteriores[-1]
                 posicoes[letra] = (m.start(), m.end())
@@ -261,8 +263,10 @@ def resolver_gabarito(bruto, alternativas, negrito):
     3) alternativa marcada em negrito (o modelo pede "resposta correta em negrito")
     """
     t = limpar(bruto or '')
-    t = re.sub(r'^(RESPOSTA\s+CORRETA|GABARITO|LETRA|ALTERNATIVA)\s*[:\-–]?\s*', '',
-               t, flags=re.IGNORECASE).strip()
+    for _ in range(3):
+        t = re.sub(r'^(RESPOSTA\s+CORRETA|GABARITO|CORRETA|CORRETO|LETRA|ALTERNATIVA)'
+                   r'\s*[:\-–]?\s*', '', t, flags=re.IGNORECASE).strip()
+    t = t.strip('“”"\'`\u00ab\u00bb ').strip()
     t = re.sub(r'^(LETRA|ALTERNATIVA)\s+', '', t, flags=re.IGNORECASE).strip()
 
     # 1) letra explicita ("A", "A)", "(A)", "A) texto da alternativa")

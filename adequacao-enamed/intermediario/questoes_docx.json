@@ -232,7 +232,7 @@
       "D": "é rara a associação com asma, conjuntivite alérgica e rinossinusite aguda",
       "E": "o tratamento de escolha é a corticoterapia via oral"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "O caso representa um paciente com rinite alérgica que pelo ARIA (Allergic Rhinitis and its Impact on Asthma) é intermitente leve. Correta. Errada. Os alimentos raramente desencadeiam sintomas respiratórios de modo isolado. Na maioria das vezes vêm como manifestações associadas a quadros mais graves como anafilaxia. Errada. Segundo o ARIA, a higiene ambiental (evitar alérgenos e irritantes) tem papel de destaque. Errada. As principais comorbidades associadas à rinite alérgica são: asma, conjuntivite alérgica, rinossinusite aguda, crônica, otite média com efusão e as alterações do desenvolvimento craniofacial dos respiradores bucais em crianças, além de apneia e hipopneia obstrutiva do sono, tanto em crianças como em adultos. Errada. Os corticosteróides, potentes agentes anti-inflamatórios, têm sido muito usados no tratamento de várias doenças, inclusive as alérgicas. Em pacientes com rinite alérgica os corticosteroides sistêmicos são reservados a pacientes com exacerbações graves ou formas graves de rinite alérgica sempre por curto período (cinco a sete dias) para prevenção de efeitos adversos decorrentes do uso prolongado",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -249,7 +249,7 @@
       "D": "Devido ao caráter recorrente e persistente, indica-se betaistina em uso contínuo",
       "E": "Frequentemente há alteração auditiva associada"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "O caso representa um paciente com VPPB (Vertigem Posicional Paroxística Benigna). Correta. Errada. A VPPB é uma forma comum de vertigem, responsável por quase metade dos pacientes com disfunção vestibular periférica. A latência, a transitoriedade e a fatigabilidade, juntamente com a típica direção mista otimista/torcional, estabelecem isso como uma vertigem periférica. Errada. O diagnóstico de VPPB é feito em um paciente que apresenta episódios recorrentes e breves (<1 minuto) de vertigem provocados por tipos específicos de movimentos da cabeça e é confirmado pela observação do nistagmo durante uma manobra provocativa. Testes adicionais não são indicados na VPPB de canal posterior típica. A eletronistagmografia (ENG) ou videonistagmografia (VNG), que testa as respostas calóricas e registra outros movimentos oculares, geralmente é normal na VPPB. A ENG é indicada apenas se houver suspeita de uma doença vestibular alternativa pela história ou exame. Errada. A VPPB é tratada de forma eficaz na maioria dos casos usando manobras de reposicionamento vestibular auto-tratamento com exercícios. Embora a história natural da VPPB não seja bem estudada, é amplamente aceito que os episódios não tratados geralmente se resolvem espontaneamente em dias ou semanas, às vezes por mais tempo. Os medicamentos não são úteis para os breves episódios de vertigem associados à VPPB, exceto quando a frequência das crises é muito alta. Errada. A perda auditiva ou os sintomas geralmente estão ausentes",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -700,9 +700,9 @@
     "id_origem": "questoes_clm_q042",
     "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
     "num": 42,
-    "enunciado": "Resposta correta em negrito Filho informa que foi visitar a pai que mora sozinho e é completamente independente.Percebeu que a pai estava descorado, confuso e lentificado. Informa tosse sem catarro evoluindo nesta ultima semana e vinha fazendo uso de um xarope e paracetamol. Na emergência: PA 90x50 FC 152 T 38,6 FR 26 GCS = 2+3+4 = 9 Quais suas medidas iniciais?",
+    "enunciado": "Resposta correta em negrito",
     "alternativas": {
-      "A": "Hidratação venosa vigorosa conforme tolerância + Antibioticoterapia de amplo espectro de forma endovenosa imediatamente Hidratação vigorosa conforme tolerância e aguardar hemoculturas para guiar a escolha da antibioticoterapia",
+      "A": "Filho informa que foi visitar a pai que mora sozinho e é completamente independente.Percebeu que a pai estava descorado, confuso e lentificado. Informa tosse sem catarro evoluindo nesta ultima semana e vinha fazendo uso de um xarope e paracetamol. Na emergência: PA 90x50 FC 152 T 38,6 FR 26 GCS = 2+3+4 = 9 Quais suas medidas iniciais?(a) Hidratação venosa vigorosa conforme tolerância + Antibioticoterapia de amplo espectro de forma endovenosa imediatamente Hidratação vigorosa conforme tolerância e aguardar hemoculturas para guiar a escolha da antibioticoterapia",
       "B": "Intubação para proteção da via aérea + inicio de droga vasoativa",
       "C": "RX torax e Hemograma para definição da conduta",
       "D": "Hidratação vigorosa conforme tolerância e aguardar hemoculturas para guiar a escolha da antibioticoterapia",
@@ -2587,17 +2587,17 @@
     "id_origem": "clm_napisul2_2026_q066",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 66,
-    "enunciado": "Homem, 42 anos, procura consulta de rotina. Nega comorbidades, não fuma, pratica atividade física ocasionalmente. IMC: 26 kg/m². Sem história familiar de doença cardiovascular precoce. Pressão arterial medida corretamente em duas consultas: 138 x 84 mmHg 136 x 86 mmHg Exames laboratoriais normais. Risco cardiovascular global estimado: baixo. Qual a classificação e a conduta mais adequada? Pré-hipertensão e tratamento apenas com medidas de estilo de vidaB) Pré-Hipertensão e iniciar IECA C) Hipertensão estágio 1 e iniciar diurético tiazídicoD) Hipertensão mascarada e solicitar MAPA imediatamente",
+    "enunciado": "Homem, 42 anos, procura consulta de rotina. Nega comorbidades, não fuma, pratica atividade física ocasionalmente. IMC: 26 kg/m². Sem história familiar de doença cardiovascular precoce. Pressão arterial medida corretamente em duas consultas: 138 x 84 mmHg 136 x 86 mmHg Exames laboratoriais normais. Risco cardiovascular global estimado: baixo. Qual a classificação e a conduta mais adequada?",
     "alternativas": {
-      "A": null,
-      "B": null,
-      "C": null,
-      "D": null,
+      "A": "Pré-hipertensão e tratamento apenas com medidas de estilo de vida",
+      "B": "Pré-Hipertensão e iniciar IECA",
+      "C": "Hipertensão estágio 1 e iniciar diurético tiazídico",
+      "D": "Hipertensão mascarada e solicitar MAPA imediatamente",
       "E": null
     },
     "gabarito": "A",
     "justificativa_oficial": "A nova Diretriz Brasileira de Hipertensão Arterial (2025) define: PA 130–139 x 85–89 mmHg → Pré-hipertensão (ou PA elevada) Pacientes de baixo risco cardiovascular → NÃO recebem farmacoterapia inicial Conduta:intervenção não farmacológica isolada (MEV): redução de peso atividade física regular redução de sódio moderação alcoólica dieta DASH Quem deve iniciar fármaco? Hipertensos estágio 1 com risco cardiovascular moderado/alto Qualquer hipertensão estágio ≥2 Doença cardiovascular estabelecida Diabetes, DRC ou lesão de órgão-alvo",
-    "n_alternativas": 0,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {

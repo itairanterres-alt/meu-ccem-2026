@@ -1,0 +1,437 @@
+[
+  {
+    "id_origem": "tp2022_q008",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Microbiota intestinal: produtos da fermentação bacteriana de polissacarídeos complexos",
+    "subtema": "Ácidos graxos de cadeia curta e síntese bacteriana de vitamina K",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "microbiota",
+      "Bacteroides",
+      "ácidos graxos de cadeia curta",
+      "vitamina K",
+      "fisiologia digestiva"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "É a alternativa menos discriminativa e potencialmente ambígua, pois o butirato de fato é um ácido graxo de cadeia curta e a microbiota produz vitaminas do complexo B, aproximando-a demais da resposta correta.",
+    "problema_detectado": "A alternativa 'butirato e vitamina B' é parcialmente defensável do ponto de vista bioquímico, gerando ambiguidade com a chave da questão.",
+    "justificativas": {
+      "A": "Incorreta. Ácidos graxos de cadeia média não são produtos típicos da fermentação bacteriana colônica, e a vitamina A é obtida da dieta, sob a forma de retinoides e carotenoides, e não da microbiota.",
+      "B": "Incorreta. Os ácidos graxos de cadeia longa provêm da dieta e da lipogênese do hospedeiro, não da fermentação de polissacarídeos complexos; a vitamina C tampouco é sintetizada pela microbiota intestinal humana.",
+      "D": "Correta. A fermentação de polissacarídeos complexos por espécies de Bacteroides gera ácidos graxos de cadeia curta (acetato, propionato e butirato), que são absorvidos pelos enterócitos e utilizados como fonte de energia; essas bactérias também sintetizam menaquinonas, formas da vitamina K aproveitadas pelo hospedeiro, além de participarem da desconjugação e desidroxilação dos sais biliares.",
+      "E": "Incorreta. Embora o propionato seja realmente um ácido graxo de cadeia curta produzido por Bacteroides, a vitamina D não é produto bacteriano: depende da síntese cutânea a partir do 7-desidrocolesterol e das hidroxilações hepática e renal."
+    }
+  },
+  {
+    "id_origem": "tp2022_q016",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Síndrome mononucleose-símile: correlação clínico-laboratorial da mononucleose infecciosa",
+    "subtema": "Linfocitose com atipia e diagnóstico diferencial das adenomegalias febris",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "mononucleose infecciosa",
+      "Epstein-Barr",
+      "leucograma",
+      "linfadenomegalia",
+      "diagnóstico diferencial"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "A cisticercose é a alternativa mais implausível do conjunto, pois não cursa com faringoamigdalite exsudativa nem com síndrome adenomegálica febril, sendo descartada sem qualquer raciocínio clínico.",
+    "problema_detectado": "O enunciado remete a um leucograma apresentado como imagem ('pode ser observado abaixo') que não está transcrito no texto, tornando o item dependente de recurso gráfico ausente.",
+    "justificativas": {
+      "A": "Incorreta. A toxoplasmose adquirida do imunocompetente costuma cursar com linfadenomegalia cervical posterior indolor e sintomas constitucionais leves, sem faringoamigdalite com exsudato pseudomembranoso e sem o padrão exuberante de linfocitose com linfócitos atípicos.",
+      "B": "Incorreta. A rubéola é doença exantemática autolimitada e de curso curto, com linfadenopatia retroauricular e occipital e exantema maculopapular, achados não descritos; amigdalite exsudativa e esplenomegalia não compõem seu quadro típico.",
+      "D": "Incorreta. A dengue é doença febril aguda de poucos dias, com mialgia, cefaleia retro-orbitária, exantema e, no hemograma, leucopenia e plaquetopenia, não se manifestando com amigdalite pseudomembranosa e adenomegalia arrastada por 15 dias.",
+      "E": "Correta. O acometimento do sistema linfoproliferativo, com linfadenomegalia cervical, esplenomegalia e amígdalas recobertas por intenso exsudato pseudomembranoso há 15 dias, somado à linfocitose e à monocitose do leucograma, fala a favor de mononucleose infecciosa pelo vírus Epstein-Barr."
+    }
+  },
+  {
+    "id_origem": "tp2022_q024",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "PNAB 2017: territorialização e parâmetros populacionais das equipes de Saúde da Família",
+    "subtema": "Adscrição de clientela, responsabilidade sanitária e cobertura de Agentes Comunitários de Saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "PNAB 2017",
+      "Estratégia Saúde da Família",
+      "território",
+      "agente comunitário de saúde",
+      "atenção primária"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "A ideia de equipes sem qualquer relação territorial contradiz frontalmente o trecho da PNAB citado no próprio enunciado, sendo eliminada sem esforço e, portanto, pouco discriminativa.",
+    "problema_detectado": "O item exige a memorização de um parâmetro numérico que a PNAB apresenta como faixa (2.000 pessoas como referência de cálculo e 3.500 como teto por equipe), o que pode gerar dúvida entre alternativas numericamente próximas.",
+    "justificativas": {
+      "B": "Incorreta. Em territórios de risco e alta vulnerabilidade social, a PNAB recomenda a cobertura de um Agente Comunitário de Saúde para cada 750 pessoas, e não para cada 3.500.",
+      "C": "Incorreta. A PNAB 2017 reafirma a Estratégia Saúde da Família como modelo prioritário de organização da Atenção Básica no Brasil; a Equipe de Atenção Básica é formato alternativo, e não meta a ser buscada por equipes já constituídas como ESF.",
+      "D": "Correta. Toda equipe de Saúde da Família deve ser territorializada, com responsabilidade sanitária sobre o território adscrito, e o dimensionamento do número de equipes do município parte do parâmetro de 2.000 pessoas por equipe, respeitado o quantitativo máximo de 3.500 pessoas por equipe previsto na PNAB.",
+      "E": "Incorreta. Um contingente de 5.000 pessoas por equipe ultrapassa o teto de 3.500 pessoas previsto na PNAB e inviabiliza o vínculo e a responsabilidade sanitária sobre a população adscrita."
+    }
+  },
+  {
+    "id_origem": "tp2022_q032",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Delineamentos epidemiológicos: identificação de estudo caso-controle teste-negativo",
+    "subtema": "Avaliação de efetividade vacinal contra a COVID-19",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "epidemiologia",
+      "caso-controle",
+      "efetividade vacinal",
+      "CoronaVac",
+      "medicina baseada em evidências"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "É a alternativa mais implausível, pois estudos ecológicos trabalham com dados agregados de populações e não comportam a lógica de grupo controle individuado descrita no enunciado.",
+    "problema_detectado": "A justificativa oficial do item inicia com um parágrafo sobre Agentes Comunitários de Saúde e PNAB, alheio ao tema da questão, o que evidencia erro de edição do material comentado.",
+    "justificativas": {
+      "A": "Incorreta. Na coorte, mesmo na histórica, parte-se da exposição para o desfecho; no estudo descrito o ponto de partida foi o resultado do RT-PCR (desfecho), com busca retrospectiva do status vacinal.",
+      "C": "Incorreta. Apesar de existir grupo de comparação, não houve alocação aleatória nem intervenção conduzida pelos pesquisadores, requisitos indispensáveis de um ensaio clínico controlado randomizado.",
+      "D": "Incorreta. O estudo é longitudinal, pois recupera a exposição em momento anterior à aferição do desfecho; em delineamento transversal exposição e desfecho seriam avaliados simultaneamente, em um único instante.",
+      "E": "Correta. Trata-se de estudo individuado, observacional e longitudinal, que parte de pacientes com teste positivo e negativo para o SARS-CoV-2 e busca no passado a exposição (vacinação) — delineamento característico de caso-controle, mais especificamente do caso-controle teste-negativo, usado para estimar a efetividade vacinal."
+    }
+  },
+  {
+    "id_origem": "tp2022_q040",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem inicial do uso abusivo de álcool identificado por rastreamento em paciente hipertenso",
+    "subtema": "Intervenção breve na Atenção Primária e investigação das causas de descontrole pressórico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_06",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "uso abusivo de álcool",
+      "CAGE",
+      "intervenção breve",
+      "hipertensão arterial",
+      "atenção primária"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Repete a mesma estrutura das alternativas B e D (controle pressórico somado a encaminhamento a outro profissional), configurando quase-duplicata sem acrescentar poder discriminativo.",
+    "problema_detectado": "Três distratores propõem essencialmente a mesma conduta — monitorar a pressão arterial e encaminhar a serviço especializado —, o que reduz a discriminação do item.",
+    "justificativas": {
+      "A": "Correta. Antes de modificar o esquema anti-hipertensivo é necessário investigar as causas da elevação pressórica, entre elas a adesão irregular ao tratamento e o próprio consumo abusivo de álcool. O feedback ao paciente sobre os riscos do seu padrão de consumo é o primeiro passo da intervenção breve, plenamente exequível pelo médico na Atenção Primária.",
+      "B": "Incorreta. Ajustar a dose sem antes confirmar o uso regular da medicação e identificar fatores contribuintes é conduta precipitada; além disso, o uso abusivo detectado pelo CAGE deve ser abordado pela própria equipe por meio de intervenção breve, e não por encaminhamento imediato.",
+      "C": "Incorreta. Associar um segundo anti-hipertensivo antes de verificar a adesão e abordar o consumo de álcool inverte a ordem lógica da investigação, e a simples orientação de cessação não substitui a intervenção breve estruturada.",
+      "D": "Incorreta. O encaminhamento à psiquiatria não constitui a abordagem inicial de um uso abusivo identificado por instrumento de triagem; o apoio psiquiátrico no matriciamento destina-se a apoiar a equipe, e não a oferecer atendimento ambulatorial individual de primeira linha."
+    }
+  },
+  {
+    "id_origem": "tp2022_q048",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Semiologia das adenomegalias: sinais de alarme para doenças linfoproliferativas",
+    "subtema": "Diferenciação entre linfonodo reacional e linfonodo suspeito de neoplasia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "semiologia",
+      "linfonodo",
+      "adenomegalia",
+      "linfoma",
+      "sinais de alarme"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Descreve linfonodo pequeno e móvel, praticamente sobreposta à alternativa que fala em linfonodos móveis e assintomáticos, configurando quase-duplicata.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. Adenomegalia dolorosa associada a febre aguda traduz processo infeccioso ou inflamatório reacional, com crescimento rápido e distensão capsular, e não doença tumoral.",
+      "C": "Correta. Adenomegalias de caráter linfoproliferativo tendem a ser indolores, volumosas (maiores que 2 cm), endurecidas, aderidas a planos profundos e imóveis, com crescimento crônico e progressivo, sem relação com foco infeccioso.",
+      "D": "Incorreta. Linfonodos móveis e assintomáticos, sem aderência a planos profundos e sem crescimento progressivo, correspondem em geral a linfonodos reacionais, de baixo valor preditivo para malignidade.",
+      "E": "Incorreta. Adenomegalia dolorosa de localização inframandibular sugere drenagem de foco infeccioso orofaríngeo ou dentário, padrão típico de linfonodo reacional agudo."
+    }
+  },
+  {
+    "id_origem": "tp2022_q056",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Interpretação da leucocitúria no exame de urina de rotina",
+    "subtema": "Leucocitúria estéril e limitações diagnósticas conforme a técnica de coleta",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "leucocitúria",
+      "exame de urina",
+      "infecção urinária",
+      "nefrolitíase",
+      "esterase leucocitária"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "É a alternativa mais implausível, pois afirmar relação inversa entre a esterase leucocitária e a microscopia contraria o próprio princípio do teste, que detecta enzima dos leucócitos.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A leucocitúria isolada não define infecção urinária e pode ocorrer sem bacteriúria (leucocitúria estéril) em diversas condições, como nefrolitíase, estados febris, nefrite intersticial, tuberculose urinária e uretrites.",
+      "C": "Incorreta. O tipo celular predominante na infecção urinária é o leucócito polimorfonuclear (neutrófilo); eosinófilos sugerem nefrite intersticial alérgica ou cistite intersticial, e o predomínio de linfócitos não caracteriza o quadro infeccioso bacteriano habitual.",
+      "D": "Incorreta. A leucocitúria é achado sensível, porém pouco específico para infecção urinária, ocorrendo em várias outras afecções urinárias e sistêmicas — exatamente o oposto do que a alternativa afirma.",
+      "E": "Incorreta. Tanto o ponto de corte quanto o valor diagnóstico da leucocitúria dependem da técnica de coleta: amostra obtida por saco coletor não permite firmar o diagnóstico na criança, ao passo que a punção suprapúbica tem elevado valor diagnóstico."
+    }
+  },
+  {
+    "id_origem": "tp2022_q064",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença inflamatória pélvica: critérios de internação hospitalar",
+    "subtema": "Distinção entre critérios diagnósticos e critérios de gravidade na DIP",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "doença inflamatória pélvica",
+      "abscesso tubo-ovariano",
+      "critérios de internação",
+      "IST",
+      "peritonismo"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Reúne apenas elementos diagnósticos ou epidemiológicos (DIU, massa pélvica, cultura para gonococo), nenhum deles critério de internação, o que a torna implausível e facilmente eliminável.",
+    "problema_detectado": "O enunciado define a DIP de modo impreciso, como inflamação 'que tem origem na vagina', quando se trata de infecção ascendente do trato genital superior a partir da cérvice uterina.",
+    "justificativas": {
+      "A": "Incorreta. Febre noturna e evidência histológica de endometrite integram o conjunto de critérios diagnósticos da DIP; apenas a rotura de abscesso justificaria hospitalização, de modo que o conjunto apresentado não responde ao comando.",
+      "B": "Incorreta. Secreção mucopurulenta e sorologia positiva para Clamídia são critérios diagnósticos, e não de internação; somente a falha do tratamento clínico ambulatorial figura entre os critérios de hospitalização.",
+      "D": "Correta. São critérios de internação na DIP a falha do tratamento clínico ambulatorial, com ausência de resposta após 72 horas, a presença de abscesso tubo-ovariano e os sinais de peritonismo, caracterizando abdome agudo infeccioso, aos quais se soma o estado geral grave com vômitos e febre persistente.",
+      "E": "Incorreta. Hidrossalpinge bilateral e elevação do VHS pertencem à avaliação diagnóstica e às sequelas da doença; isoladamente não indicam internação, ainda que a febre persistente componha o quadro de gravidade."
+    }
+  },
+  {
+    "id_origem": "tp2022_q072",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Adaptações fisiológicas cardiovasculares e hematológicas da gestação",
+    "subtema": "Débito cardíaco, volemia e hipercoagulabilidade gestacional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_01",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "gestação",
+      "fisiologia materna",
+      "débito cardíaco",
+      "hipercoagulabilidade",
+      "pré-natal"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Alternativa internamente inconsistente, pois qualifica como 'discreta' uma elevação de 30% e ainda inverte o comportamento plaquetário da gestação, sendo pouco discriminativa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. Ocorre o inverso: praticamente todos os fatores de coagulação aumentam na gestação, estabelecendo estado de hipercoagulabilidade fisiológica, com exceção dos fatores XI e XIII.",
+      "C": "Correta. O sistema cardiovascular da gestante difere substancialmente do da mulher não gestante, com aumento da frequência cardíaca basal, do volume sistólico e, consequentemente, do débito cardíaco, adaptação necessária à perfusão uteroplacentária.",
+      "D": "Incorreta. O volume plasmático aumenta, mas a produção de eritrócitos também está aumentada; a queda do hematócrito resulta da expansão plasmática proporcionalmente maior, caracterizando a anemia fisiológica dilucional da gravidez.",
+      "E": "Incorreta. A resistência vascular periférica diminui na gestação, por vasodilatação mediada por progesterona, óxido nítrico e prostaciclina, enquanto o débito cardíaco aumenta."
+    }
+  },
+  {
+    "id_origem": "tp2022_q080",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Calcificações mamográficas tipicamente benignas: padrão em pipoca do fibroadenoma",
+    "subtema": "Classificação BI-RADS e conduta diante de achado benigno",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_25",
+      "dcn2025_comp_08"
+    ],
+    "tags": [
+      "mamografia",
+      "BI-RADS",
+      "fibroadenoma",
+      "calcificações",
+      "rastreamento mamário"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "O hemangioma calcificado de mama é entidade rara e sem padrão mamográfico ensinado na graduação, funcionando como distrator implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O papiloma intraductal manifesta-se tipicamente por descarga papilar sanguinolenta e, à imagem, por nódulo retroareolar ou microcalcificações finas, e não por calcificações grosseiras em pipoca.",
+      "B": "Incorreta. A necrose gordurosa, geralmente pós-traumática ou pós-cirúrgica, produz cisto oleoso com calcificação periférica em casca de ovo, padrão distinto do descrito no laudo.",
+      "C": "Correta. Calcificações grosseiras do tipo pipoca são achado tipicamente benigno, ocorrem no interior de fibroadenomas em involução e são classificadas como BI-RADS 2, não exigindo investigação adicional — o que justifica a tranquilização da paciente.",
+      "E": "Incorreta. A mastopatia fibrocística cursa com cistos, densidades assimétricas e microcalcificações dispersas, puntiformes ou em leite de cálcio, e não com calcificação grosseira em pipoca."
+    }
+  },
+  {
+    "id_origem": "tp2022_q088",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Classificação do estado físico ASA e estratificação do risco operatório",
+    "subtema": "Caracterização do paciente ASA III na avaliação pré-operatória",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_20",
+      "dcn2025_comp_10",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "classificação ASA",
+      "risco cirúrgico",
+      "avaliação pré-operatória",
+      "anestesiologia",
+      "segurança do paciente"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Descreve situação extrema, correspondente ao paciente ASA V, muito distante da categoria questionada, sendo eliminada de imediato e pouco discriminativa.",
+    "problema_detectado": "O item emprega a nomenclatura clássica de doença 'compensada/não compensada', que difere da redação atual da ASA (doença sistêmica leve, doença sistêmica grave e doença sistêmica grave com ameaça constante à vida).",
+    "justificativas": {
+      "A": "Incorreta. A ausência de doença sistêmica corresponde ao paciente ASA I, hígido, sem comorbidades relevantes.",
+      "B": "Incorreta. A presença de doença sistêmica compensada, sem limitação funcional significativa, define o paciente ASA II.",
+      "D": "Incorreta. Doença sistêmica grave, com risco constante de morte, caracteriza o paciente ASA IV, categoria imediatamente acima da questionada.",
+      "E": "Correta. Na graduação da Sociedade Americana de Anestesiologistas, que vai de I a VI, o paciente ASA III é aquele portador de doença sistêmica não compensada, com limitação funcional, porém sem ameaça iminente de morte."
+    }
+  },
+  {
+    "id_origem": "tp2022_q096",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Técnica de biópsia no melanoma cutâneo e impacto sobre a avaliação histopatológica",
+    "subtema": "Índice de Breslow e estadiamento do melanoma",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "melanoma",
+      "índice de Breslow",
+      "biópsia excisional",
+      "estadiamento",
+      "oncologia cutânea"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "A fase de crescimento, sobretudo a vertical, também depende da avaliação em profundidade da lesão, aproximando-se demais da resposta correta e gerando ambiguidade.",
+    "problema_detectado": "A alternativa referente à fase de crescimento é parcialmente defensável, pois a caracterização da fase vertical depende da amostragem em profundidade, tal como o índice de Breslow.",
+    "justificativas": {
+      "A": "Correta. O índice de Breslow corresponde à espessura máxima do tumor medida a partir da camada granulosa; a biópsia incisional amostra apenas parte da lesão e pode não incluir seu ponto mais profundo, subestimando a espessura e comprometendo prognóstico e estadiamento. Por isso a biópsia excisional com margens estreitas, que permite avaliar todas as camadas e o real grau de invasão, é a técnica de escolha.",
+      "B": "Incorreta. A invasão vascular, quando presente no fragmento amostrado, é identificada normalmente à microscopia e não depende da retirada completa da lesão.",
+      "D": "Incorreta. A classificação histológica do melanoma (extensivo superficial, nodular, lentigo maligno e acral lentiginoso) costuma ser reconhecível em fragmento incisional representativo.",
+      "E": "Incorreta. A invasão linfática é avaliada no material disponível e pode ser detectada em fragmento incisional, não sendo o dado tipicamente perdido com essa técnica."
+    }
+  },
+  {
+    "id_origem": "tp2022_q104",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Composição de macronutrientes na intervenção dietética para perda de peso na obesidade",
+    "subtema": "Dietas com restrição de carboidratos e papel do déficit energético total",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "obesidade",
+      "dieta",
+      "macronutrientes",
+      "restrição de carboidratos",
+      "perda de peso"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Afirmação sem respaldo fisiológico ou de evidência, funcionando como distrator implausível que não exige raciocínio para ser eliminado.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O determinante principal da perda de peso é o déficit energético total; a modificação da proporção de macronutrientes tem efeito secundário e não supera a redução da energia ingerida.",
+      "B": "Incorreta. A restrição de gorduras totais auxilia sim na redução de peso quando resulta em diminuição da energia total consumida, pelo mesmo mecanismo de déficit calórico das demais estratégias.",
+      "C": "Incorreta. O aumento da ingestão proteica pode contribuir para a preservação de massa magra, mas esse efeito não é independente do treinamento físico realizado, e elevar as proteínas a 50% do valor energético total não constitui recomendação usual nem sustentável.",
+      "E": "Correta. Dietas com restrição de carboidratos, entre 25% e 40% do valor energético total, promovem perda de peso mais rápida no curto prazo, mas, quando comparadas a outras dietas de ingestão calórica semelhante, não apresentam superioridade no longo prazo."
+    }
+  },
+  {
+    "id_origem": "tp2022_q112",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndrome de lise tumoral: alterações metabólicas características",
+    "subtema": "Emergência oncológica e lesão renal aguda por precipitação de uratos e fosfato",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "síndrome de lise tumoral",
+      "emergência oncológica",
+      "hipercalemia",
+      "hiperuricemia",
+      "lesão renal aguda"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Alternativa internamente contraditória, pois lista simultaneamente hipercalemia e hipocalemia, o que a invalida tecnicamente como distrator.",
+    "problema_detectado": "Uma das alternativas apresenta contradição interna, ao arrolar ao mesmo tempo hipercalemia e hipocalemia, provável erro de digitação do item original.",
+    "justificativas": {
+      "A": "Incorreta. O catabolismo maciço de ácidos nucleicos leva ao acúmulo de purinas e, portanto, à hiperuricemia, e não à hipouricemia, ainda que os demais distúrbios listados estejam corretos.",
+      "B": "Incorreta. A liberação do conteúdo intracelular determina hipercalemia e hiperfosfatemia, e o excesso de fosfato quela o cálcio circulante, produzindo hipocalcemia — o oposto do que a alternativa descreve.",
+      "D": "Incorreta. O potássio liberado pelas células lisadas eleva a calemia, de modo que hipocalemia não integra a síndrome; além disso, falta a hipocalcemia, achado característico do quadro.",
+      "E": "Correta. A destruição maciça das células malignas libera purinas, potássio e fósforo, gerando hiperuricemia, hipercalemia e hiperfosfatemia; o excesso de fósforo precipita-se com o cálcio e determina hipocalcemia, conjunto de distúrbios que se deposita no rim e leva à insuficiência renal aguda."
+    }
+  },
+  {
+    "id_origem": "tp2022_q120",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Gota tofácea: diagnóstico da monoartrite aguda recorrente e momento da terapia hipouricemiante",
+    "subtema": "Artrocentese diagnóstica e alvo de ácido úrico na doença tofácea",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "gota",
+      "monoartrite",
+      "artrocentese",
+      "alopurinol",
+      "tofo gotoso"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É quase-duplicata da alternativa que também propõe artrite reumatoide, diferindo apenas pela classe do medicamento, e ainda traz a sigla cDMARDs onde deveria constar bDMARDs.",
+    "problema_detectado": "Duas alternativas propõem artrite reumatoide com condutas praticamente idênticas, e a que menciona terapia biológica usa a sigla cDMARDs em vez de bDMARDs; o enunciado ainda contém erros de digitação ('artocentese', 'metatarsofalandiana').",
+    "justificativas": {
+      "A": "Correta. Monoartrite aguda recorrente, com podagra prévia em primeira metatarsofalangiana, períodos intercríticos totalmente assintomáticos e nódulos que drenam material esbranquiçado (tofos) em cotovelo, caracteriza gota tofácea. Em monoartrite aguda sem diagnóstico definido é obrigatória a artrocentese para excluir artrite séptica; como as flutuações do ácido úrico no início da terapia redutora prolongam a crise, o alopurinol deve ser adiado até a resolução do quadro agudo, e na doença tofácea o alvo é ácido úrico menor que 5 mg/dL.",
+      "B": "Incorreta. A artrite reumatoide cursa com poliartrite simétrica de pequenas articulações das mãos e punhos e rigidez matinal prolongada, sem intervalos completamente assintomáticos e sem tofos drenando material esbranquiçado.",
+      "C": "Incorreta. A gonartrose é doença degenerativa de curso crônico e dor de padrão mecânico, sem crises inflamatórias agudas autolimitadas, sem antecedente de podagra e sem nódulos tofáceos; a conduta proposta ignora a hiperuricemia subjacente.",
+      "D": "Incorreta. Ainda que a hipótese de gota esteja correta, iniciar alopurinol imediatamente em altas doses durante a crise aguda prolonga e agrava os sintomas pela flutuação do ácido úrico; além disso, na doença tofácea o alvo terapêutico é inferior a 5 mg/dL, e não 6 mg/dL."
+    }
+  }
+]
