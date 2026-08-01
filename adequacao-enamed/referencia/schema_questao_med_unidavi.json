@@ -572,10 +572,54 @@
         },
         "matriz_enamed_478_2025": {
           "type": [
-            "string",
+            "object",
             "null"
           ],
-          "description": "Código do objeto de conhecimento na Matriz de Referência da Portaria INEP 478/2025. Nulo enquanto a Portaria não estiver disponível."
+          "additionalProperties": false,
+          "description": "Ancoragem na Matriz de Referência Comum (Portaria Inep nº 478/2025). São quatro eixos independentes da norma, não um código único.",
+          "properties": {
+            "area": {
+              "type": "string",
+              "description": "Art. 3º — uma das 7 áreas."
+            },
+            "competencias": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 3,
+              "description": "Art. 6º — competências avaliadas."
+            },
+            "conteudos": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "maxItems": 3,
+              "description": "Art. 8º — conteúdos exigidos."
+            },
+            "cenario": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Art. 7º — rede/ponto de atenção do caso."
+            },
+            "justificativa": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "maxLength": 300
+            }
+          },
+          "required": [
+            "area",
+            "competencias",
+            "conteudos"
+          ]
         }
       },
       "required": [

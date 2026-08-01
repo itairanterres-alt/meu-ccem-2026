@@ -104,7 +104,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_09"
+        ],
+        "cenario": null,
+        "justificativa": "Depósito de imunocomplexos no glomérulo caracteriza a hipersensibilidade tipo III na nefrite lúpica."
+      }
     }
   },
   {
@@ -212,7 +224,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_01"
+        ],
+        "cenario": null,
+        "justificativa": "Gametogênese e fertilização: meiose dos gametas e fecundação na tuba uterina."
+      }
     }
   },
   {
@@ -321,7 +345,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_09"
+        ],
+        "cenario": null,
+        "justificativa": "Nódulos regenerativos e septos fibrosos traduzem os mecanismos de reparo tecidual na cirrose."
+      }
     }
   },
   {
@@ -428,7 +464,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_14",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_20"
+        ],
+        "cenario": null,
+        "justificativa": "Hipermetilação de ilhas CpG silenciando genes supressores de tumor como mecanismo epigenético da carcinogênese."
+      }
     }
   },
   {
@@ -537,7 +585,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_10"
+        ],
+        "cenario": null,
+        "justificativa": "Mecanismo farmacológico da gastrolesão por AINE via inibição da COX-1 e perda da citoproteção."
+      }
     }
   },
   {
@@ -644,7 +704,17 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_01"
+        ],
+        "cenario": null,
+        "justificativa": "Bases iônicas do potencial de ação neuronal: conteúdo de estrutura e função aplicado à área clínica neurológica."
+      }
     }
   },
   {
@@ -753,7 +823,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_10"
+        ],
+        "cenario": null,
+        "justificativa": "Mecanismo de ação dos glicocorticoides via receptor nuclear citoplasmático."
+      }
     }
   },
   {
@@ -861,7 +943,18 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_02"
+        ],
+        "cenario": null,
+        "justificativa": "Nervos glossofaríngeo e vago como vias aferentes do reflexo barorreceptor; item puramente teórico."
+      }
     }
   },
   {
@@ -970,7 +1063,19 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Degranulação mastocitária não mediada por IgE pela vancomicina: base da reação de infusão rápida."
+      }
     }
   },
   {
@@ -1078,7 +1183,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_09"
+        ],
+        "cenario": null,
+        "justificativa": "Dimorfismo como fator de virulência de Candida spp. na infecção oportunista."
+      }
     }
   },
   {
@@ -1187,7 +1304,18 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_01"
+        ],
+        "cenario": null,
+        "justificativa": "Perda da neurofibromina mantém RAS/MAPK ativa e favorece proliferação tumoral na neurofibromatose tipo 1."
+      }
     }
   },
   {
@@ -1296,7 +1424,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": null,
+        "justificativa": "Patogenia da ascaridíase: migração larvária pulmonar e síndrome de Löffler na criança."
+      }
     }
   },
   {
@@ -1405,7 +1545,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_14",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_09"
+        ],
+        "cenario": null,
+        "justificativa": "Identificação do epitélio colunar e dos microvilos lesados na infecção enteropatogênica por E. coli."
+      }
     }
   },
   {
@@ -1513,7 +1665,18 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_06"
+        ],
+        "cenario": null,
+        "justificativa": "Estratigrafia dos planos teciduais na via de acesso cirúrgica à diáfise femoral."
+      }
     }
   },
   {
@@ -1622,7 +1785,18 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_06"
+        ],
+        "cenario": null,
+        "justificativa": "Item anatômico sobre os estabilizadores dinâmicos do joelho, sem cenário assistencial."
+      }
     }
   },
   {
@@ -1729,7 +1903,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_14",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_01"
+        ],
+        "cenario": null,
+        "justificativa": "Embriologia cardiovascular e cronologia da septação: processos do ciclo de vida que fundamentam as cardiopatias congênitas."
+      }
     }
   },
   {
@@ -1837,7 +2023,20 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_11",
+          "enamed_cont_18"
+        ],
+        "cenario": null,
+        "justificativa": "Carcinogênese química por hidrocarbonetos aromáticos policíclicos no tabagista."
+      }
     }
   },
   {
@@ -1946,7 +2145,21 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_02",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Formas cutânea e hemolítica do loxoscelismo e indicação de soroterapia na emergência."
+      }
     }
   },
   {
@@ -2055,7 +2268,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_09"
+        ],
+        "cenario": null,
+        "justificativa": "Funções executivas do lobo frontal comprometidas após AVC isquêmico: correlação anatomoclínica."
+      }
     }
   },
   {
@@ -2163,7 +2388,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Respostas simpáticas compensatórias ao choque hemorrágico no trauma."
+      }
     }
   },
   {
@@ -2271,7 +2508,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Marcos motores seguem sentido craniocaudal no primeiro ano: fisiologia do desenvolvimento na puericultura."
+      }
     }
   },
   {
@@ -2379,7 +2628,18 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_06",
+          "enamed_cont_02"
+        ],
+        "cenario": "enamed_cenario_03",
+        "justificativa": "Características semiológicas do recém-nascido prematuro: pele, tônus e reflexos ao exame físico."
+      }
     }
   },
   {
@@ -2489,7 +2749,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_05"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Crise febril simples na emergência pediátrica: uso racional de exames complementares."
+      }
     }
   },
   {
@@ -2598,7 +2870,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Queda transitória de C3 como marcador da glomerulonefrite difusa aguda pós-estreptocócica."
+      }
     }
   },
   {
@@ -2707,7 +2991,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_08",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_06",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Técnica e periodicidade corretas da aferição da pressão arterial na criança em puericultura."
+      }
     }
   },
   {
@@ -2816,7 +3113,20 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Puberdade precoce central associada à obesidade: papel da leptina na ativação do eixo hipotálamo-hipófise-gonadal."
+      }
     }
   },
   {
@@ -2926,7 +3236,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Tratamento de manutenção da asma persistente na criança com corticoide inalatório."
+      }
     }
   },
   {
@@ -3036,7 +3358,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_10",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_13",
+          "enamed_cont_02",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Correção da pega e do posicionamento no manejo da fissura mamilar e apoio ao aleitamento na UBS."
+      }
     }
   },
   {
@@ -3146,7 +3482,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Manejo de suporte da bronquiolite viral aguda em lactente no pronto-socorro."
+      }
     }
   },
   {
@@ -3254,7 +3602,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Sequência C-A-B e particularidades da reanimação cardiopulmonar pediátrica."
+      }
     }
   },
   {
@@ -3364,7 +3724,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Desidratação grave por diarreia no lactente exige hidratação venosa do plano C como emergência pediátrica."
+      }
     }
   },
   {
@@ -3473,7 +3845,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Indicação de ultrassonografia após a primeira infecção urinária febril do lactente."
+      }
     }
   },
   {
@@ -3581,7 +3965,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Diferenciação clínica entre resfriado comum e faringite estreptocócica em criança na atenção primária."
+      }
     }
   },
   {
@@ -3690,7 +4086,18 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_01"
+        ],
+        "cenario": null,
+        "justificativa": "Sinaptogênese e mielinização como base do crescimento do perímetro cefálico pós-natal."
+      }
     }
   },
   {
@@ -3799,7 +4206,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_02"
+        ],
+        "cenario": "enamed_cenario_04",
+        "justificativa": "Diagnóstico diferencial do transtorno do espectro autista na infância em cuidado especializado."
+      }
     }
   },
   {
@@ -3909,7 +4328,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_05",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Hipocalemia por diarreia aguda na infância: reconhecimento de onda U e achatamento de T no pronto atendimento."
+      }
     }
   },
   {
@@ -4019,7 +4451,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": null,
+        "justificativa": "Achado de neuroimagem característico da toxoplasmose congênita."
+      }
     }
   },
   {
@@ -4127,7 +4571,21 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "pH e bicarbonato definem cetoacidose diabética como abertura de DM1 na infância atendida em UPA."
+      }
     }
   },
   {
@@ -4236,7 +4694,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_02"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Doença de Graves como causa de tireotoxicose em adolescente com perda de peso e taquicardia."
+      }
     }
   },
   {
@@ -4345,7 +4815,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Contraindicações da VOP e risco de poliomielite vacinal no calendário brasileiro."
+      }
     }
   },
   {
@@ -4454,7 +4936,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_08",
+          "enamed_comp_12"
+        ],
+        "conteudos": [
+          "enamed_cont_18",
+          "enamed_cont_17",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Sintomas coletivos em horta com agrotóxico apontam nexo ocupacional, agravo de notificação em saúde do trabalhador."
+      }
     }
   },
   {
@@ -4563,7 +5059,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_16",
+          "enamed_cont_20"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Dependência do valor preditivo em relação à prevalência na interpretação de testes na APS."
+      }
     }
   },
   {
@@ -4672,7 +5180,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_03",
+          "enamed_cont_07",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Abordagem da espiritualidade na consulta, distinta da religiosidade, como dimensão do cuidado integral."
+      }
     }
   },
   {
@@ -4782,7 +5303,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_17"
+        ],
+        "cenario": null,
+        "justificativa": "Janela de detecção do NS1 e da sorologia IgM no diagnóstico laboratorial da dengue."
+      }
     }
   },
   {
@@ -4892,7 +5425,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_05",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Cefaleia progressiva por infecção oportunista do SNC em imunodeficiência avançada no pronto atendimento."
+      }
     }
   },
   {
@@ -5002,7 +5548,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_01",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_10",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "PEP sexual ao HIV em adolescente na USF: janela de 72 horas, acolhimento e autonomia do adolescente."
+      }
     }
   },
   {
@@ -5112,7 +5672,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_11",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_19"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Atribuições específicas do médico na equipe de Saúde da Família segundo a PNAB."
+      }
     }
   },
   {
@@ -5221,7 +5794,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_02",
+          "enamed_comp_12"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Hanseníase: quadro dermatoneurológico, transmissão e notificação compulsória na vigilância em saúde."
+      }
     }
   },
   {
@@ -5330,7 +5917,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_19",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Projeto terapêutico singular como prática colaborativa interprofissional no manejo das DANT na APS."
+      }
     }
   },
   {
@@ -5440,7 +6039,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_16",
+          "enamed_cont_20"
+        ],
+        "cenario": null,
+        "justificativa": "Séries históricas e tendências temporais na análise da transição epidemiológica."
+      }
     }
   },
   {
@@ -5550,7 +6161,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_13",
+          "enamed_cont_16"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Rastreamento de diabetes em população assintomática cadastrada configura prevenção secundária na ESF."
+      }
     }
   },
   {
@@ -5658,7 +6282,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_12"
+        ],
+        "cenario": null,
+        "justificativa": "Exemplos de prevenção terciária no modelo de Leavell & Clark, com foco em reabilitação."
+      }
     }
   },
   {
@@ -5768,7 +6404,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_14",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_20",
+          "enamed_cont_16"
+        ],
+        "cenario": null,
+        "justificativa": "Leitura crítica de risco relativo e intervalo de confiança em ensaio clínico randomizado de eficácia vacinal."
+      }
     }
   },
   {
@@ -5877,7 +6525,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03",
+          "enamed_comp_12"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Tratamento imediato com penicilina benzatina após teste rápido reagente para sífilis no pré-natal."
+      }
     }
   },
   {
@@ -5987,7 +6648,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_03",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Rastreamento mamográfico bienal dos 50 aos 69 anos conforme INCA, aplicado na consulta da UBS."
+      }
     }
   },
   {
@@ -6096,7 +6770,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Adscrição e vínculo previstos na PNAB aplicados à reorganização do cuidado ao hipertenso pela ESF."
+      }
     }
   },
   {
@@ -6204,7 +6891,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Regionalização e hierarquização propostas pelo Relatório Dawson."
+      }
     }
   },
   {
@@ -6315,7 +7014,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_10",
+          "enamed_comp_04",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_07",
+          "enamed_cont_02",
+          "enamed_cont_12"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Cuidados paliativos na APS com comunicação e planejamento de cuidados centrado nos valores da pessoa."
+      }
     }
   },
   {
@@ -6424,7 +7137,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_13",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Relação horizontal e dialógica na Educação Popular em Saúde como concepção de educação em saúde."
+      }
     }
   },
   {
@@ -6534,7 +7259,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_04",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_13",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Rastreio CAGE positivo em hipertenso e intervenção breve para uso abusivo de álcool."
+      }
     }
   },
   {
@@ -6644,7 +7382,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_06",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Pielonefrite obstrutiva com repercussão sistêmica exige desobstrução urgente por cateter duplo J."
+      }
     }
   },
   {
@@ -6752,7 +7503,19 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Classificação das cirurgias quanto ao potencial de contaminação: traqueostomia como potencialmente contaminada."
+      }
     }
   },
   {
@@ -6862,7 +7625,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06",
+          "enamed_comp_05",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Infecção superficial de sítio cirúrgico pós-colecistectomia: abertura e drenagem da ferida como conduta."
+      }
     }
   },
   {
@@ -6971,7 +7747,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Tratamento conservador com tipoia na fratura de clavícula da criança, considerando o potencial de remodelação."
+      }
     }
   },
   {
@@ -7080,7 +7868,20 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_06",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Indicação de ressonância multiparamétrica antes da biópsia prostática na investigação do PSA elevado."
+      }
     }
   },
   {
@@ -7190,7 +7991,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_06",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Pneumatose intestinal indicando necrose estabelecida: laparotomia de emergência, conteúdo de cirurgia geral."
+      }
     }
   },
   {
@@ -7301,7 +8115,20 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_10",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Respeito a autonomia do paciente capaz na recusa informada de cirurgia."
+      }
     }
   },
   {
@@ -7409,7 +8236,21 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03",
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Vômitos em jato não biliosos com alcalose hipoclorêmica indicam estenose hipertrófica do piloro."
+      }
     }
   },
   {
@@ -7519,7 +8360,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Proteção ocular rígida no hipema traumático: conduta inicial no trauma ocular contuso."
+      }
     }
   },
   {
@@ -7627,7 +8480,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Déficits neurológicos de S3-S5 na síndrome do cone medular pós-trauma."
+      }
     }
   },
   {
@@ -7737,7 +8602,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06",
+          "enamed_comp_05",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Abscesso peritonsilar com trismo e abaulamento requer drenagem transoral associada à antibioticoterapia."
+      }
     }
   },
   {
@@ -7846,7 +8724,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Nódulo cervical endurecido em tabagista e etilista: investigação de metástase de cabeça e pescoço."
+      }
     }
   },
   {
@@ -7954,7 +8844,18 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_02"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Prazo de retirada de pontos em sutura cutânea varia conforme a região anatômica e a cicatrização."
+      }
     }
   },
   {
@@ -8063,7 +8964,19 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Esplenectomia sem ruptura do cisto hidático esplênico para evitar disseminação e anafilaxia."
+      }
     }
   },
   {
@@ -8173,7 +9086,20 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06",
+          "enamed_comp_04",
+          "enamed_comp_05"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Uso de vasopressor alfa-agonista no manejo da hipotensão após indução anestésica com propofol."
+      }
     }
   },
   {
@@ -8283,7 +9209,19 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Resposta endócrino-metabólica ao trauma cirúrgico e eixo ADH-aldosterona no equilíbrio hidroeletrolítico pós-operatório."
+      }
     }
   },
   {
@@ -8393,7 +9331,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_06",
+          "enamed_comp_05"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Indicação de laparotomia em detrimento da videolaparoscopia na instabilidade hemodinâmica."
+      }
     }
   },
   {
@@ -8502,7 +9452,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Anemia ferropriva com sangue oculto positivo em homem de 56 anos indica colonoscopia por suspeita de neoplasia."
+      }
     }
   },
   {
@@ -8612,7 +9576,19 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Indicação de reabordagem cirúrgica no choque hemorrágico do pós-operatório de bypass gástrico."
+      }
     }
   },
   {
@@ -8721,7 +9697,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Fasciotomia na queimadura circunferencial de membro com síndrome compartimental."
+      }
     }
   },
   {
@@ -8830,7 +9818,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_04",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Pressão arterial acima do limite contraindica a trombólise até ser controlada: segurança na emergência neurológica."
+      }
     }
   },
   {
@@ -8940,7 +9941,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_04",
+        "justificativa": "Manejo dos efeitos adversos precoces e da latência de resposta dos ISRS no transtorno depressivo maior."
+      }
     }
   },
   {
@@ -9050,7 +10063,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Artrite reumatoide soronegativa: metotrexato como DMARD inicial após o diagnóstico clínico."
+      }
     }
   },
   {
@@ -9157,7 +10182,18 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_06",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Reconhecimento das lesões elementares hipocrômicas e seus diagnósticos diferenciais dermatológicos."
+      }
     }
   },
   {
@@ -9267,7 +10303,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_09",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Reposição de ferro oral e encaminhamento oportuno na anemia ferropriva por sangramento uterino anormal."
+      }
     }
   },
   {
@@ -9374,7 +10423,18 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_06",
+          "enamed_cont_09"
+        ],
+        "cenario": null,
+        "justificativa": "Caracterização do sinal de Brudzinski nas manobras de irritação meníngea: semiologia médica."
+      }
     }
   },
   {
@@ -9484,7 +10544,20 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_01",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_07"
+        ],
+        "cenario": null,
+        "justificativa": "Aplicação dos quatro princípios da bioética na relação médico-paciente."
+      }
     }
   },
   {
@@ -9593,7 +10666,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Corticoide inalatório associado a LABA como manutenção da asma persistente moderada no adulto."
+      }
     }
   },
   {
@@ -9701,7 +10786,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Endoscopia com biópsias escalonadas para diagnóstico de esofagite eosinofílica em jovem atópico."
+      }
     }
   },
   {
@@ -9811,7 +10908,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Red flags de compressão medular na lombalgia da APS e encaminhamento oportuno."
+      }
     }
   },
   {
@@ -9921,7 +11031,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Espirometria com VEF1/CVF pós-broncodilatador abaixo de 0,70 confirma a obstrução fixa da DPOC."
+      }
     }
   },
   {
@@ -10030,7 +11152,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Tireotoxicose por doença de Graves: betabloqueador para controle sintomático inicial."
+      }
     }
   },
   {
@@ -10140,7 +11274,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_17",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Uretrite gonocócica na APS: diagnóstico, tratamento do caso e manejo das parcerias sexuais."
+      }
     }
   },
   {
@@ -10248,7 +11396,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_06",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Pulsos femorais reduzidos apontando coarctação da aorta como causa secundária de hipertensão no jovem."
+      }
     }
   },
   {
@@ -10358,7 +11518,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Betabloqueador como anti-isquêmico de primeira linha na angina estável da doença coronariana crônica."
+      }
     }
   },
   {
@@ -10467,7 +11639,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Efeito incretínico e supressão do glucagon pelos agonistas de GLP-1 no tratamento do diabetes tipo 2."
+      }
     }
   },
   {
@@ -10576,7 +11760,19 @@
       "contexto_atencao": "terapia_intensiva",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Estadiamento KDIGO da injúria renal aguda pelo débito urinário em terapia intensiva."
+      }
     }
   },
   {
@@ -10686,7 +11882,21 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_05",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "AVC isquêmico cardioembólico por fibrilação atrial com anticoagulação na prevenção secundária."
+      }
     }
   },
   {
@@ -10796,7 +12006,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Redução de peso como única medida capaz de modificar a progressão da osteoartrite de joelhos."
+      }
     }
   },
   {
@@ -10906,7 +12128,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "VHS elevada com amaurose fugaz no diagnóstico da arterite temporal."
+      }
     }
   },
   {
@@ -11016,7 +12250,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_09",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "ASC-US após os 30 anos exige repetição do citopatológico em 6 meses conforme protocolo de rastreamento."
+      }
     }
   },
   {
@@ -11124,7 +12372,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Hiperandrogenismo e anovulação crônica no diagnóstico da síndrome dos ovários policísticos."
+      }
     }
   },
   {
@@ -11235,7 +12495,21 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_13",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_04",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Violência sexual: profilaxia de IST e contracepção de emergência sem exigência de boletim de ocorrência."
+      }
     }
   },
   {
@@ -11345,7 +12619,20 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_05",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_03",
+        "justificativa": "Manejo da COVID-19 grave em gestante de 33 semanas com corticoide antenatal e tromboprofilaxia."
+      }
     }
   },
   {
@@ -11453,7 +12740,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Perfil hormonal e manifestações clínicas da transição menopausal no climatério."
+      }
     }
   },
   {
@@ -11562,7 +12861,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Dor pélvica crônica com dismenorreia e dispareunia no pronto-socorro: hipótese de endometriose."
+      }
     }
   },
   {
@@ -11672,7 +12983,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_03",
+        "justificativa": "Reconhecimento do descolamento prematuro de placenta e seu principal fator de risco."
+      }
     }
   },
   {
@@ -11782,7 +13105,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10",
+          "enamed_cont_02"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Anti-TPO orienta a indicação de levotiroxina no hipotireoidismo subclínico durante o pré-natal."
+      }
     }
   },
   {
@@ -11892,7 +13229,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_03",
+        "justificativa": "Sulfato de magnésio na iminência de eclâmpsia em gestante de 32 semanas: emergência obstétrica."
+      }
     }
   },
   {
@@ -12001,7 +13350,19 @@
       "contexto_atencao": "internacao_hospitalar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_05"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_03",
+        "justificativa": "Neuroproteção e profilaxia para EGB no manejo hospitalar da RUPREME pré-termo."
+      }
     }
   },
   {
@@ -12111,7 +13472,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "O estadiamento de Tanner define quando a ausência de menarca configura amenorreia primária a investigar."
+      }
     }
   },
   {
@@ -12220,7 +13594,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Sífilis na gestante alérgica à penicilina: dessensibilização como conduta obrigatória no pré-natal."
+      }
     }
   },
   {
@@ -12329,7 +13715,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Endometriose profunda com infertilidade de 2 anos: indicação de fertilização in vitro."
+      }
     }
   },
   {
@@ -12439,7 +13837,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_03",
+        "justificativa": "Via de parto definida pela carga viral e contraindicação à amamentação na prevenção da transmissão vertical do HIV."
+      }
     }
   },
   {
@@ -12549,7 +13959,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_02",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Epidemiologia e fisiopatologia da incontinência urinária de esforço e do prolapso genital."
+      }
     }
   },
   {
@@ -12659,7 +14081,18 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09"
+        ],
+        "cenario": null,
+        "justificativa": "Classificação PALM-COEIN do sangramento uterino anormal e posição da adenomiose: questão conceitual."
+      }
     }
   },
   {
@@ -12769,7 +14202,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Restrição ao estrogênio pelo risco tromboembólico na escolha contraceptiva no lúpus."
+      }
     }
   },
   {
@@ -12878,7 +14323,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_06",
+          "enamed_cont_02",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Altura uterina e ausculta dos batimentos cardiofetais compõem o exame físico mínimo do pré-natal."
+      }
     }
   },
   {
@@ -12988,7 +14446,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Macrossomia e polidrâmnio como complicações do diabetes mellitus gestacional no pré-natal."
+      }
     }
   },
   {
@@ -13097,7 +14567,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_06"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Core biopsy como exame que firma o diagnóstico do nódulo mamário suspeito."
+      }
     }
   }
 ]

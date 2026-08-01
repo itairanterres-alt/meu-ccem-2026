@@ -108,7 +108,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Conceito, pontos de atenção e objetivos da Rede de Atenção à Saúde na organização do SUS."
+      }
     }
   },
   {
@@ -220,7 +232,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Requisitos de infraestrutura e ambiência da UBS definidos pela Política Nacional de Atenção Básica."
+      }
     }
   },
   {
@@ -331,7 +355,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Polos de educação permanente definidos pela Portaria GM/MS 198/2004 como política de formação no SUS."
+      }
     }
   },
   {
@@ -442,7 +478,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Item conceitual sobre a transversalidade como princípio da Política Nacional de Humanização."
+      }
     }
   },
   {
@@ -553,7 +601,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_14"
+        ],
+        "cenario": null,
+        "justificativa": "Definição normativa de vigilância em saúde na Resolução CNS nº 588/2018: questão conceitual sem cenário."
+      }
     }
   },
   {
@@ -665,7 +725,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Composição mínima da equipe de Saúde da Família Ribeirinha conforme normativa."
+      }
     }
   },
   {
@@ -777,7 +849,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_12",
+          "enamed_comp_15"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_08",
+          "enamed_cont_21"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Consultório na Rua como estratégia da PNAB e registro obrigatório das ações no e-SUS APS."
+      }
     }
   },
   {
@@ -889,7 +975,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_11",
+          "enamed_comp_15"
+        ],
+        "conteudos": [
+          "enamed_cont_15",
+          "enamed_cont_08"
+        ],
+        "cenario": null,
+        "justificativa": "Conceito de evento adverso na RDC nº 36/2013: taxonomia de incidentes e segurança do paciente."
+      }
     }
   },
   {
@@ -1001,7 +1099,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_14",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_20",
+          "enamed_cont_16"
+        ],
+        "cenario": null,
+        "justificativa": "Qualidade metodológica em epidemiologia: população de estudo e viés de seleção."
+      }
     }
   },
   {
@@ -1113,7 +1223,20 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_16",
+          "enamed_cont_20",
+          "enamed_cont_03"
+        ],
+        "cenario": null,
+        "justificativa": "Correlação entre indicadores agregados exige reconhecer a falácia ecológica: análise crítica epidemiológica."
+      }
     }
   },
   {
@@ -1223,7 +1346,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_14",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_20",
+          "enamed_cont_16"
+        ],
+        "cenario": null,
+        "justificativa": "Identificação do delineamento transversal a partir da medida de prevalência apresentada."
+      }
     }
   },
   {
@@ -1334,7 +1469,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Atribuições de conselhos e conferências de saúde no controle social previsto na Lei 8.142/1990."
+      }
     }
   },
   {
@@ -1445,7 +1592,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_05"
+        ],
+        "cenario": null,
+        "justificativa": "Transversalidade da Política Nacional de Humanização entre ações e instâncias gestoras do SUS."
+      }
     }
   },
   {
@@ -1556,7 +1715,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_15",
+          "enamed_cont_14"
+        ],
+        "cenario": null,
+        "justificativa": "Abrangência normativa da RDC 36/2013 e do Núcleo de Segurança do Paciente na gestão dos serviços."
+      }
     }
   },
   {
@@ -1668,7 +1839,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Conceitos legais do Decreto nº 7.508/2011 sobre organização e regionalização do SUS."
+      }
     }
   },
   {
@@ -1780,7 +1963,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Organização poliárquica das Redes de Atenção a Saúde no SUS."
+      }
     }
   },
   {
@@ -1891,7 +2086,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Atributos da APS e coordenação do cuidado na organização das redes de atenção à saúde."
+      }
     }
   },
   {
@@ -2001,7 +2208,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Princípios doutrinários do SUS e da RAS operacionalizados na Atenção Básica."
+      }
     }
   },
   {
@@ -2112,7 +2331,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_19"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Apoio matricial das eMulti na APS conforme a Portaria GM/MS nº 635/2023."
+      }
     }
   },
   {
@@ -2223,7 +2455,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_13"
+        ],
+        "cenario": null,
+        "justificativa": "Identificar os valores e princípios fundantes da Política Nacional de Promoção da Saúde no âmbito do SUS."
+      }
     }
   },
   {
@@ -2334,7 +2578,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Diagnóstico clínico de asma em adulto jovem na atenção primária a partir da história e do exame."
+      }
     }
   },
   {
@@ -2446,7 +2702,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_03",
+          "enamed_comp_12"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_09",
+          "enamed_cont_16"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Confirmação laboratorial por IgM em caso suspeito de rubéola no âmbito da vigilância epidemiológica."
+      }
     }
   },
   {
@@ -2558,7 +2828,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Indicação da vacina influenza à gestante como grupo prioritário em consulta individual na UBS."
+      }
     }
   },
   {
@@ -2670,7 +2952,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Distinção entre funções e atributos da APS na organização das redes de atenção à saúde."
+      }
     }
   },
   {
@@ -2781,7 +3075,21 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_11",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Monitoramento clínico de caso confirmado de mpox com alto risco de gravidade em serviço especializado."
+      }
     }
   },
   {
@@ -2894,7 +3202,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_10",
+          "enamed_comp_04",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_07",
+          "enamed_cont_10",
+          "enamed_cont_04"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Pactuação do cuidado diante de recusa terapêutica por delírio persecutório na APS."
+      }
     }
   },
   {
@@ -3005,7 +3327,21 @@
       "contexto_atencao": "domiciliar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_10",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_12",
+          "enamed_cont_04"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Demência avançada com baixa funcionalidade: metas terapêuticas, desprescrição e cuidados paliativos domiciliares."
+      }
     }
   },
   {
@@ -3116,7 +3452,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_13",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Estágios de mudança na cessação do tabagismo em paciente com dependência nicotínica grave."
+      }
     }
   },
   {
@@ -3227,7 +3576,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Distinção entre critério diagnóstico de hipertensão e fatores de risco na UBS."
+      }
     }
   },
   {
@@ -3339,7 +3700,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Aplicar os critérios laboratoriais e a necessidade de confirmação para firmar o diagnóstico de diabetes mellitus."
+      }
     }
   },
   {
@@ -3451,7 +3824,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Conduta no hipertenso com pressão arterial na meta e baixo risco no cuidado longitudinal da APS."
+      }
     }
   },
   {
@@ -3563,7 +3948,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Estratificação de risco do pé diabético define a periodicidade de reavaliação na atenção básica."
+      }
     }
   },
   {
@@ -3676,7 +4073,20 @@
       "contexto_atencao": "domiciliar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_10",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_12",
+          "enamed_cont_19"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Projeto terapêutico singular em idosa acamada com demência avançada, incluindo a sobrecarga da cuidadora."
+      }
     }
   },
   {
@@ -3787,7 +4197,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_02",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_03",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Abordagem familiar na APS: identificação de crise acidental do ciclo de vida como determinante do adoecimento."
+      }
     }
   },
   {
@@ -3898,7 +4321,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_10",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_03",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Genograma como ferramenta de abordagem familiar na APS para identificar padrões transgeracionais."
+      }
     }
   },
   {
@@ -4009,7 +4445,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_12",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_08",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Distinção dos campos do registro SOAP no prontuário orientado por problemas."
+      }
     }
   },
   {
@@ -4120,7 +4568,21 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_14",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_20",
+          "enamed_cont_09",
+          "enamed_cont_16"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Razão de verossimilhança do VHS aplicada à probabilidade pós-teste na arterite de células gigantes."
+      }
     }
   },
   {
@@ -4231,7 +4693,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_03"
+        ],
+        "cenario": null,
+        "justificativa": "Populações vulnerabilizadas com maior risco de adoecimento por tuberculose no Brasil."
+      }
     }
   },
   {
@@ -4343,7 +4817,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_16"
+        ],
+        "cenario": null,
+        "justificativa": "Definição de caso de SRAG na vigilância de influenza e covid-19."
+      }
     }
   },
   {
@@ -4455,7 +4941,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_17",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Pseudomembrana e pescoço taurino identificam difteria em criança não vacinada: doença imunoprevenível."
+      }
     }
   },
   {
@@ -4562,7 +5061,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Requisitos da Lei nº 8.142/1990 para a transferência intergovernamental de recursos do SUS."
+      }
     }
   },
   {
@@ -4681,7 +5192,21 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_07",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_03",
+          "enamed_cont_16",
+          "enamed_cont_14"
+        ],
+        "cenario": null,
+        "justificativa": "Leitura de indicadores materno-infantis por quintis de riqueza à luz do princípio da equidade no SUS."
+      }
     }
   },
   {
@@ -4788,7 +5313,20 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_04",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Requisitos legais e éticos da esterilização cirúrgica voluntária segundo a Lei nº 9.263/1996."
+      }
     }
   },
   {
@@ -4895,7 +5433,20 @@
       "contexto_atencao": "domiciliar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_12",
+          "enamed_comp_13"
+        ],
+        "conteudos": [
+          "enamed_cont_08",
+          "enamed_cont_17",
+          "enamed_cont_16"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Definição da causa básica na declaração de óbito por morte natural domiciliar acompanhada pela equipe."
+      }
     }
   },
   {
@@ -5002,7 +5553,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Antiagregação após AVC classificada como prevenção secundária no acompanhamento pela UBS."
+      }
     }
   },
   {
@@ -5110,7 +5673,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Atribuições do Conselho Municipal de Saúde e controle social na Lei 8.142/1990."
+      }
     }
   },
   {
@@ -5218,7 +5793,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_07",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_13",
+          "enamed_cont_11",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Grupos do Programa Nacional de Controle do Tabagismo como intervenção coletiva de promoção na UBS."
+      }
     }
   },
   {
@@ -5326,7 +5915,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_02"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Diferenciação entre TDAH e transtorno opositor-desafiador em escolar avaliado na atenção primária."
+      }
     }
   },
   {
@@ -5434,7 +6035,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_12"
+        ],
+        "conteudos": [
+          "enamed_cont_16",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Classificação de óbito materno indireto e óbito neonatal precoce nos indicadores."
+      }
     }
   },
   {
@@ -5542,7 +6155,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_15",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Distinguir carve-out de acesso avançado é organizar a agenda da equipe para garantir acesso na APS."
+      }
     }
   },
   {
@@ -5649,7 +6275,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Cessação do tabagismo: abordagem cognitivo-comportamental associada à farmacoterapia na APS."
+      }
     }
   },
   {
@@ -5757,7 +6396,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_10",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Gravidez não desejada na APS: sigilo, acolhimento sem julgamento e redução de danos."
+      }
     }
   },
   {
@@ -5864,7 +6516,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Plano terapêutico de cessação do tabagismo com reposição de nicotina e abordagem cognitivo-comportamental."
+      }
     }
   },
   {
@@ -5973,7 +6637,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_12",
+          "enamed_comp_01",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_08",
+          "enamed_cont_17",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Notificação compulsória e proteção da criança diante de suspeita de violência sexual na APS."
+      }
     }
   },
   {
@@ -6081,7 +6759,19 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Delirium tremens na abstinência alcoólica: emergência de conteúdo de saúde mental tratada com benzodiazepínico."
+      }
     }
   },
   {
@@ -6189,7 +6879,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_10",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_07",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Identificação do estágio de contemplação na entrevista motivacional."
+      }
     }
   },
   {
@@ -6296,7 +6998,21 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_07",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_18",
+          "enamed_cont_03",
+          "enamed_cont_13"
+        ],
+        "cenario": null,
+        "justificativa": "Mudanças climáticas como determinantes socioambientais do risco cardiovascular; item sem cenário assistencial."
+      }
     }
   },
   {
@@ -6405,7 +7121,20 @@
       "contexto_atencao": "urgencia_emergencia",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_02",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_11",
+          "enamed_comp_05"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_08"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Responsabilidade médica e negligência na transferência de paciente instável no pós-operatório."
+      }
     }
   },
   {
@@ -6512,7 +7241,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_07",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_03",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Competência cultural no cuidado a ribeirinhos e indígenas por equipe fluvial."
+      }
     }
   },
   {
@@ -6619,7 +7361,21 @@
       "contexto_atencao": "terapia_intensiva",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_10",
+          "enamed_comp_12"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_08",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Doação de órgãos após morte encefálica depende de autorização familiar: exigência ética e legal do exercício médico."
+      }
     }
   },
   {
@@ -6726,7 +7482,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_16",
+          "enamed_cont_20"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Escolha do estudo transversal para estimar prevalência de doenças crônicas no território."
+      }
     }
   },
   {
@@ -6834,7 +7602,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_09",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_14",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Rastreamento do câncer colorretal no SUS: sangue oculto nas fezes como estratégia populacional."
+      }
     }
   },
   {
@@ -6942,7 +7724,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Esquema de dose única da vacina HPV dos 9 aos 14 anos conforme o calendário nacional de imunização."
+      }
     }
   },
   {
@@ -7051,7 +7845,21 @@
       "contexto_atencao": "domiciliar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_12",
+          "enamed_comp_13"
+        ],
+        "conteudos": [
+          "enamed_cont_05",
+          "enamed_cont_04",
+          "enamed_cont_08"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Violência institucional contra pessoa idosa em ILPI: contenção mecânica e negligência frente ao Estatuto."
+      }
     }
   },
   {
@@ -7158,7 +7966,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_07",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Conduta vacinal e notificação diante de epizootia de primatas: vigilância da febre amarela no território."
+      }
     }
   },
   {
@@ -7266,7 +8087,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_10",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_13",
+          "enamed_cont_17",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Abordagem da hesitação vacinal e da desinformação em atividade educativa comunitária."
+      }
     }
   },
   {
@@ -7373,7 +8208,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_14",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_20",
+          "enamed_cont_16",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Valores preditivos variam com a prevalência: validade de teste diagnóstico aplicada à hanseníase na UBS."
+      }
     }
   },
   {
@@ -7481,7 +8330,19 @@
       "contexto_atencao": "domiciliar",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_04",
+        "justificativa": "Diagnóstico e abordagem inicial da anorexia nervosa em adolescente identificada em visita domiciliar."
+      }
     }
   },
   {
@@ -7588,7 +8449,19 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_04",
+        "justificativa": "Exame psíquico no diagnóstico de episódio depressivo com ataques de pânico."
+      }
     }
   },
   {
@@ -7695,7 +8568,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_10",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_03",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Dificuldade escolar aos 6 anos exige avaliação inicial ampla do desenvolvimento antes de rotular transtorno."
+      }
     }
   },
   {
@@ -7804,7 +8691,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_15",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Territorialização e divisão em microáreas no planejamento do processo de trabalho da ESF."
+      }
     }
   },
   {
@@ -7912,7 +8811,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Oferta das PICS nos diferentes níveis de atenção conforme a PNPIC e organização da rede municipal."
+      }
     }
   },
   {
@@ -8031,7 +8942,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Barreiras de acessibilidade na APS analisadas à luz dos princípios e diretrizes do SUS."
+      }
     }
   },
   {
@@ -8138,7 +9061,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_09",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15",
+          "enamed_cont_03"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Participação social via Conselho Local de Saúde na reorganização do processo de trabalho da equipe."
+      }
     }
   },
   {
@@ -8249,7 +9186,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": null,
+        "justificativa": "Transversalidade como diretriz da Política Nacional de Humanização: conteúdo de política de saúde e SUS."
+      }
     }
   },
   {
@@ -8360,7 +9309,20 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_14",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_03"
+        ],
+        "cenario": null,
+        "justificativa": "Tríade do burnout e diagnóstico diferencial com episódio depressivo."
+      }
     }
   },
   {
@@ -8471,7 +9433,21 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_11",
+          "enamed_comp_09",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_19",
+          "enamed_cont_14",
+          "enamed_cont_15"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Atribuições das eMulti e trabalho interprofissional complementar às equipes de Saúde da Família."
+      }
     }
   },
   {
@@ -8583,7 +9559,19 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Atuação das equipes de Consultório na Rua na política de cuidado à população em situação de rua."
+      }
     }
   },
   {
@@ -8694,7 +9682,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_11",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_19",
+          "enamed_cont_12"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Momentos de construção do Projeto Terapêutico Singular pela equipe da APS."
+      }
     }
   },
   {
@@ -8807,7 +9808,19 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_05"
+        ],
+        "cenario": null,
+        "justificativa": "A diretiva antecipada de vontade expressa a autonomia do paciente e vincula eticamente a conduta médica."
+      }
     }
   },
   {
@@ -8918,7 +9931,20 @@
       "contexto_atencao": "atencao_primaria",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_11",
+          "enamed_comp_09",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_19",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Interconsulta e clínica ampliada como instrumentos do apoio matricial entre equipes na APS."
+      }
     }
   },
   {
@@ -9030,7 +10056,21 @@
       "contexto_atencao": "nao_aplicavel",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_01",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_12",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_04",
+        "justificativa": "Reforma Psiquiátrica e clínica ampliada: modelo de cuidado territorial baseado na autonomia do usuário."
+      }
     }
   },
   {
@@ -9142,7 +10182,20 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_10",
+          "enamed_comp_11"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_19"
+        ],
+        "cenario": "enamed_cenario_04",
+        "justificativa": "Acolhimento à crise no CAPS e papel do técnico de referência na condução do projeto terapêutico."
+      }
     }
   },
   {
@@ -9253,7 +10306,21 @@
       "contexto_atencao": "ambulatorial_especializado",
       "conteudo_declarado_origem": null,
       "autor_declarado_origem": null,
-      "matriz_enamed_478_2025": null
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_09",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_12",
+          "enamed_cont_03"
+        ],
+        "cenario": "enamed_cenario_04",
+        "justificativa": "Diagnóstico situacional no cuidado infantojuvenil do CAPSi conforme a lógica da reforma psiquiátrica."
+      }
     }
   }
 ]
