@@ -130,7 +130,9 @@ def _marcador(letra, modo):
     """
     par = '[' + letra + letra.lower() + ']'
     if modo == 'estrito':
-        return re.compile(r'(?:(?<=\n)|(?<=^)|(?<=\s))\(?\s*' + par +
+        # o marcador nao pode estar colado a uma letra/digito (evita casar com
+        # o "a." final de "psoriasica."), mas pode vir apos pontuacao: "...?(a)"
+        return re.compile(r'(?:^|(?<=[^0-9A-Za-z\u00c0-\u024f]))\(?\s*' + par +
                           r'\s*[\)\.\-–:]\s*')
     return re.compile(r'\(?\s*' + par + r'\s*\)\s*')
 
@@ -157,7 +159,8 @@ def _varrer(texto, modo):
                 continue
             limite = m_anc.end()
             for letra in LETRAS[LETRAS.index(ancora) + 1:]:
-                m = _marcador(letra, modo).search(texto, limite)
+                m = (_marcador(letra, modo).search(texto, limite) or
+                     _marcador(letra, 'frouxo').search(texto, limite))
                 if not m:
                     break
                 posicoes[letra] = (m.start(), m.end())
@@ -170,12 +173,16 @@ def _varrer(texto, modo):
 
 
 def achar_marcadores(texto):
-    """Retorna lista [(letra, ini, fim)] ou [] se nao encontrar pelo menos A-C."""
-    for modo in ('estrito', 'frouxo'):
-        r = _varrer(texto, modo)
-        if r:
-            return r
-    return []
+    """
+    Retorna lista [(letra, ini, fim)] ou [] se nao encontrar pelo menos A-C.
+    Roda os dois modos e fica com o que reconhecer mais alternativas
+    (empate: modo estrito, que erra menos).
+    """
+    est = _varrer(texto, 'estrito')
+    fro = _varrer(texto, 'frouxo')
+    if len(fro) > len(est):
+        return fro
+    return est
 
 
 def limpar(s):
@@ -315,7 +322,7 @@ def extrair_arquivo(nome_arq, slug, fonte):
         # o proprio paragrafo do marcador pode trazer texto extra apos ':'
         resto_marcador = ps[i]['texto'].split(':', 1)
         cabeca = resto_marcador[1].strip() if len(resto_marcador) > 1 else ''
-        if norm(cabeca).startswith('RESPOSTA CORRETA EM NEGRITO'):
+        if norm(re.sub(r'\s+', ' ', cabeca)).startswith('RESPOSTA CORRETA EM NEGRITO'):
             cabeca = ''
 
         def acha(marc, desde=0):
@@ -378,8 +385,13 @@ def extrair_arquivo(nome_arq, slug, fonte):
     return questoes
 
 
+# arquivo de metodologia (NAO e banco de questoes; so extraimos as imagens)
+METODOLOGIA = ('resumo_tp_elaboracao_questoes.docx', 'resumo_tp_metodologia')
+
+
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
+    imgs_met = extrair_imagens(os.path.join(FONTES, METODOLOGIA[0]), METODOLOGIA[1])
     todas = []
     relatorio = []
     for nome_arq, slug, fonte in ARQUIVOS:
@@ -417,6 +429,12 @@ def main():
         print('     gabarito: %s' % amostra['gabarito'])
         print('     justificativa: %s' % (amostra['justificativa_oficial'] or '')[:220])
         print('-' * 78)
+    print('ARQUIVO: %s  (slug=%s)' % METODOLOGIA)
+    print('  material de METODOLOGIA (recomendacoes de elaboracao de itens)')
+    print('  -> nao e banco de questoes; nenhuma questao extraida')
+    print('  imagens embutidas ... %d %s (logo do cabecalho)' %
+          (len(imgs_met), imgs_met))
+    print('-' * 78)
     print('TOTAL GERAL: %d questoes -> %s' %
           (len(todas), os.path.join(OUTDIR, 'questoes_docx.json')))
 
