@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tp2022_q004",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo farmacológico da constipação intestinal na gestação",
+    "subtema": "Classes de laxantes e segurança no ciclo gravídico-puerperal",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["constipação", "gestação", "laxantes", "docusato", "farmacologia"],
+    "descartar": "C",
+    "motivo_descarte": "É quase-duplicata da alternativa D, pois bisacodil e óleo de rícino pertencem à mesma classe farmacológica (laxantes irritantes/estimulantes).",
+    "problema_detectado": "As alternativas C e D descrevem a mesma classe de laxantes (irritantes/estimulantes), configurando quase-duplicata que reduz o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Correta. O docusato é laxante amolecedor de fezes (surfactante) que atua como emulsificador do bolo fecal, sendo indicado na constipação leve e considerado seguro na gravidez, embora seu efeito não seja imediato — perfil adequado à gestante de 34 semanas que não respondeu às medidas dietéticas e ao exercício.",
+      "B": "Incorreta. A loperamida é um agonista opioide periférico usado no tratamento da diarreia, e não da constipação; além disso, não pertence à classe dos ativadores de canais de cloreto, representada pela lubiprostona.",
+      "D": "Incorreta. O óleo de rícino é laxante irritante/estimulante que não deve ser usado na gravidez, porque pode provocar contrações uterinas, especialmente relevante nesta gestante de 34 semanas.",
+      "E": "Incorreta. O óleo mineral é laxante lubrificante contraindicado em pacientes com disfagia — exatamente a queixa da paciente — e em acamados, pelo risco de aspiração e pneumonia lipoide."
+    }
+  },
+  {
+    "id_origem": "tp2022_q012",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Mecanismos efetores celulares e humorais da resposta imune antiviral na COVID-19",
+    "subtema": "Linfócitos T, células NK e ativação do sistema complemento",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["imunologia", "COVID-19", "complemento", "linfócitos T", "células NK"],
+    "descartar": "B",
+    "motivo_descarte": "Alternativa implausível e conceitualmente incoerente, pois emprega a nomenclatura inexistente 'linfócito TCD8+/Th2' (o perfil Th2 é próprio de linfócitos TCD4+).",
+    "problema_detectado": "A alternativa B mistura marcadores incompatíveis ('TCD8+/Th2'), tornando-a reconhecível como distrator artificial e não plausível.",
+    "justificativas": {
+      "A": "Incorreta. As células B que expressam MHC de classe II são ativadas por linfócitos TCD4+ auxiliares, e não por TCD8+; a partir dessa cooperação passam a produzir IgG, que opsoniza partículas virais e auxilia os macrófagos no combate ao vírus.",
+      "C": "Incorreta. As células Natural Killer são linfócitos da imunidade inata que liberam enzimas líticas — perforina e granzimas —, e não anticorpos; a produção de anticorpos é exclusiva dos plasmócitos derivados de linfócitos B.",
+      "D": "Correta. A via clássica do complemento é ativada pela ligação de C1q a imunocomplexos contendo IgM ou IgG, desencadeando a cascata até a formação e a deposição do complexo de ataque à membrana (C5b-9) nas células infectadas, com lise osmótica — mecanismo humoral efetor relevante no combate a vírus.",
+      "E": "Incorreta. A função citotóxica antiviral cabe aos linfócitos TCD8+, ativados por células apresentadoras de antígeno via MHC de classe I; os linfócitos TCD4+ reconhecem antígenos apresentados em MHC de classe II e exercem função auxiliar, como a produção de IFN-gama pelo perfil Th1, que ativa a destruição de vírus em vesículas endocíticas dos macrófagos."
+    }
+  },
+  {
+    "id_origem": "tp2022_q020",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Tríade epidemiológica das enteroparasitoses: hospedeiro, parasita e ambiente",
+    "subtema": "Mecanismos de evasão imune e determinantes da transmissão",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_15", "dcn2025_comp_01"],
+    "tags": ["parasitologia", "enteroparasitoses", "epidemiologia", "evasão imune", "saneamento"],
+    "descartar": "A",
+    "motivo_descarte": "Alternativa implausível e mal redigida, com erros ortográficos e de concordância ('assintomáticos', 'desinteria') e associação incorreta com anemia perniciosa.",
+    "problema_detectado": "A alternativa A apresenta erros ortográficos e de concordância que a tornam identificável como distrator descuidado.",
+    "justificativas": {
+      "B": "Incorreta. A água é veículo importante de transmissão de diversos enteroparasitas e sua qualidade, assim como a cobertura de saneamento básico, influencia diretamente a incidência das parasitoses intestinais.",
+      "C": "Incorreta. A dependência de um vetor restringe e dificulta a disseminação, pois condiciona a transmissão à presença do vetor competente; ademais, nem todas as parasitoses dependem de vetor, sendo a via fecal-oral a predominante nas enteroparasitoses.",
+      "D": "Incorreta. Não há imunização desenvolvida e disponível para as enteroparasitoses causadas por helmintos e protozoários; a prevenção apoia-se em saneamento, higiene, educação em saúde e tratamento em massa.",
+      "E": "Correta. Vários parasitas dispõem de mecanismos de evasão da resposta imune do hospedeiro — variação antigênica, mimetismo molecular, encistamento e modulação da resposta inflamatória —, fator ligado ao componente 'parasita' da tríade que favorece sua sobrevivência e a cronificação da infecção."
+    }
+  },
+  {
+    "id_origem": "tp2022_q028",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Cartão Nacional de Saúde como identificador do usuário do SUS",
+    "subtema": "Política de e-Saúde, registro do histórico assistencial e nome social",
+    "competencia_dcn_2025": ["dcn2025_comp_24", "dcn2025_comp_27", "dcn2025_comp_07"],
+    "tags": ["SUS", "Cartão Nacional de Saúde", "sistemas de informação", "nome social", "gestão"],
+    "descartar": "C",
+    "motivo_descarte": "É a alternativa menos discriminativa e potencialmente ambígua, pois depende de conhecimento normativo específico da ANS sobre a obrigatoriedade de informar o número do CNS pelas operadoras.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O CNS é cadastro único de abrangência nacional, vinculado ao CPF; múltiplos cartões configuram duplicidade cadastral a ser corrigida, pois fragmentam o histórico do usuário e prejudicam — e não facilitam — o atendimento em outras localidades.",
+      "B": "Incorreta. Embora pessoal e intransferível, o CNS alimenta as bases nacionais de pessoas, estabelecimentos e procedimentos, sendo instrumento essencial para análises epidemiológicas e para a formulação de políticas pelos gestores de saúde pública e privada.",
+      "D": "Incorreta. Conforme a Portaria GM/MS nº 1.820/2009, todo documento do usuário deve conter campo para registro do nome social, assegurado o uso do nome de preferência em todas as interações da pessoa com o SUS, independentemente do registro civil.",
+      "E": "Correta. Integrando a política de e-Saúde, o CNS vincula ao usuário os registros de seus atendimentos, permitindo-lhe conhecer os profissionais que o atenderam, o período, a unidade de saúde e os procedimentos clínicos e cirúrgicos realizados, o que organiza a rede de atenção e qualifica a gestão do SUS."
+    }
+  },
+  {
+    "id_origem": "tp2022_q036",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Escolha do teste diagnóstico conforme sensibilidade e especificidade",
+    "subtema": "Epidemiologia clínica e probabilidade pré-teste em paciente sintomático",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_03", "dcn2025_comp_25"],
+    "tags": ["epidemiologia clínica", "especificidade", "testes diagnósticos", "medicina baseada em evidências"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível por empregar termo inexistente na epidemiologia clínica ('prevalência pós-teste'), o que a torna facilmente descartável.",
+    "problema_detectado": "A vinheta clínica é extensa e praticamente irrelevante para a resposta, já que a pergunta final é puramente conceitual sobre propriedades de testes diagnósticos.",
+    "justificativas": {
+      "A": "Incorreta. O valor preditivo positivo não é propriedade intrínseca do teste: depende da prevalência da doença na população examinada, sendo um resultado da aplicação do teste e não um atributo a ser ponderado previamente à sua solicitação.",
+      "B": "Incorreta. O valor preditivo negativo, além de variar com a prevalência, interessa sobretudo quando se pretende afastar doença em pacientes com baixa probabilidade pré-teste, situação oposta à desta paciente com sintomatologia expressiva.",
+      "C": "Incorreta. A sensibilidade — capacidade de detectar os verdadeiros positivos — é o atributo priorizado em testes de rastreamento, aplicados a pessoas assintomáticas, para não deixar escapar doentes.",
+      "D": "Correta. Como a paciente tem sintomas e forte suspeita de neoplasia maligna, é necessário um exame complementar de alta especificidade, isto é, capaz de detectar os verdadeiros negativos; nesse cenário, um resultado positivo aumenta consideravelmente a chance de a doença estar presente."
+    }
+  },
+  {
+    "id_origem": "tp2022_q044",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Obesidade na infância: diagnóstico antropométrico e complicações",
+    "subtema": "Classificação por IMC/percentil e comorbidades associadas",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_15"],
+    "tags": ["obesidade infantil", "IMC", "esteatose hepática", "apneia do sono", "puericultura"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível, pois recomenda conduta francamente prejudicial (omitir o desjejum), reconhecida por qualquer examinando como incorreta.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. IMC acima do percentil 97 para idade e sexo define obesidade; o sobrepeso corresponde à faixa entre os percentis 85 e 97, de modo que o valor apresentado não é compatível com sobrepeso.",
+      "B": "Correta. A obesidade na infância pode cursar com complicações sérias, entre elas doença hepática gordurosa não alcoólica (esteatose), apneia obstrutiva do sono, dislipidemia, resistência insulínica, alterações ortopédicas como o genu valgo descrito e repercussões psicossociais, incluindo depressão e baixa autoestima.",
+      "C": "Incorreta. A obesidade na infância é de causa exógena em mais de 90% dos casos; endocrinopatias são causas raras e habitualmente cursam com baixa estatura, o que não ocorre nesta criança, com estatura no percentil 90.",
+      "D": "Incorreta. A obesidade associa-se ao diabetes mellitus tipo 2, decorrente de resistência insulínica, e não ao tipo 1, de etiologia autoimune e não relacionado ao excesso de peso."
+    }
+  },
+  {
+    "id_origem": "tp2022_q052",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Reconhecimento e manejo inicial do choque séptico na criança",
+    "subtema": "Ressuscitação volêmica com cristaloides e antibioticoterapia na primeira hora",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["choque séptico", "pediatria", "meningococcemia", "ressuscitação volêmica", "sepse"],
+    "descartar": "C",
+    "motivo_descarte": "É quase-duplicata da alternativa E, pois ambas propõem coloide como expansor inicial, sendo C a menos discriminativa por não especificar o tempo até o antibiótico.",
+    "problema_detectado": "As alternativas C e E são quase-duplicatas, diferindo apenas pela menção à coleta de exames, o que empobrece o conjunto de distratores.",
+    "justificativas": {
+      "A": "Correta. O quadro de febre, petéquias e equimoses, sonolência, hipotensão e enchimento capilar lentificado caracteriza choque séptico, provavelmente meningocócico; conforme a Surviving Sepsis Campaign, após monitorização e oxigenação devem-se administrar cristaloides balanceados 10-20 mL/kg em alíquotas e iniciar antibioticoterapia de amplo espectro na primeira hora.",
+      "B": "Incorreta. A solução glicosada a 5% é hipotônica e não promove expansão intravascular efetiva, sendo inadequada para a ressuscitação; além disso, aguardar exames complementares e culturas não deve retardar o início do antibiótico.",
+      "D": "Incorreta. A escolha de cristaloides está correta, mas postergar a antibioticoterapia para até três horas é inaceitável no choque séptico, em que o retardo se associa a aumento da mortalidade — a meta é a administração na primeira hora.",
+      "E": "Incorreta. Embora acerte o prazo de uma hora para o antibiótico, os coloides não são a opção de primeira linha para a ressuscitação volêmica do choque séptico pediátrico, que deve ser feita com cristaloides balanceados e tamponados."
+    }
+  },
+  {
+    "id_origem": "tp2022_q060",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico diferencial das doenças exantemáticas na infância",
+    "subtema": "Eritema infeccioso pelo parvovírus B19 e o exantema rendilhado",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["exantema", "parvovírus B19", "eritema infeccioso", "pediatria", "diagnóstico diferencial"],
+    "descartar": "D",
+    "motivo_descarte": "Alternativa implausível diante do quadro, pois a doença de Kawasaki exige febre alta por cinco dias ou mais associada a critérios mucocutâneos ausentes no caso.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O sarampo cursa com pródromo de febre alta, tosse, coriza, conjuntivite e manchas de Koplik, seguido de exantema morbiliforme de progressão craniocaudal e descamação furfurácea, sem o padrão rendilhado descrito.",
+      "B": "Incorreta. No exantema súbito (roséola), causado pelo herpes-vírus humano tipo 6, ocorre febre alta por três a cinco dias e o exantema maculopapular surge justamente quando a febre cessa, predominando em tronco.",
+      "C": "Incorreta. Na rubéola o exantema é róseo e de progressão craniocaudal, acompanhado de linfadenopatia retroauricular, occipital e cervical posterior, sem face esbofeteada nem aspecto rendilhado nos membros.",
+      "E": "Correta. O eritema infeccioso, causado pelo parvovírus B19, é precedido por febre baixa e evolui em três fases: exantema em face ('face esbofeteada'), depois exantema maculopapular de aspecto rendilhado em membros e, por fim, recidiva do exantema uma a três semanas depois, desencadeada por sol, calor, estresse ou exercício."
+    }
+  },
+  {
+    "id_origem": "tp2022_q068",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Tratamento ambulatorial da doença inflamatória pélvica",
+    "subtema": "Critérios de internação e cobertura de gonococo e clamídia",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["doença inflamatória pélvica", "IST", "ceftriaxona", "doxiciclina", "ginecologia"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível, pois propõe esquema sem qualquer respaldo (clindamicina oral com amicacina intramuscular por quatro a seis semanas), inexistente nas diretrizes de IST.",
+    "problema_detectado": "O enunciado não descreve integralmente os três critérios maiores obrigatórios de doença inflamatória pélvica, omitindo a dor à palpação anexial, o que fragiliza a fundamentação diagnóstica do item.",
+    "justificativas": {
+      "A": "Incorreta. A penicilina benzatina é o tratamento da sífilis e não cobre gonococo nem clamídia, agentes presumidos neste caso; além disso, na ausência de sinais de irritação peritoneal, febre ou instabilidade hemodinâmica, não há indicação de internação.",
+      "B": "Correta. Trata-se de doença inflamatória pélvica leve a moderada, sem peritonite ou instabilidade, permitindo tratamento ambulatorial com ceftriaxona 250 mg IM em dose única, dirigida ao gonococo, associada a doxiciclina 100 mg VO de 12/12 horas por 14 dias, dirigida à clamídia, com reavaliação em 48 a 72 horas e tratamento das parcerias sexuais.",
+      "C": "Incorreta. Cefoxitina intravenosa associada a doxiciclina constitui esquema hospitalar, reservado a casos com abscesso tubo-ovariano, gestação, intolerância ou falha do tratamento oral, ou quadro grave — situações ausentes nesta paciente, tornando desnecessária a internação.",
+      "D": "Incorreta. O ertapenem não integra os esquemas recomendados para doença inflamatória pélvica e a azitromicina 1 g em dose única não substitui os 14 dias de doxiciclina nem cobre adequadamente o espectro envolvido."
+    }
+  },
+  {
+    "id_origem": "tp2022_q076",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Avaliação da reserva ovariana e preservação da fertilidade",
+    "subtema": "Hormônio antimülleriano, contagem de folículos antrais e idade",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_02"],
+    "tags": ["reserva ovariana", "hormônio antimülleriano", "fertilidade", "reprodução humana"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível, pois a inibina A não é marcador de reserva ovariana (o marcador da granulosa relacionado ao pool folicular é a inibina B).",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. FSH e estradiol basais do terceiro dia do ciclo são marcadores tardios de esgotamento folicular e apresentam grande variabilidade intercíclica, sendo inferiores ao hormônio antimülleriano; a contagem de folículos antrais isolada não supre essa limitação.",
+      "B": "Incorreta. O LH não é marcador de reserva ovariana e, embora a idade seja excelente parâmetro, a combinação proposta não permite estimar o nível de esgotamento folicular e oocitário.",
+      "C": "Correta. A idade é reconhecidamente excelente parâmetro para mensurar a reserva ovariana, com declínio folicular importante e aumento de aneuploidias após os 35 anos; o hormônio antimülleriano, produzido exclusivamente por folículos pré-antrais e antrais, sofre mínima variação ao longo do ciclo ou com contraceptivos orais, sendo superior aos demais exames hormonais; e a contagem de folículos antrais por ultrassonografia complementa a avaliação.",
+      "D": "Incorreta. Apesar de o hormônio antimülleriano ser adequado, o LH e o estradiol não estimam o pool folicular remanescente, refletindo apenas a dinâmica hormonal do ciclo em curso."
+    }
+  },
+  {
+    "id_origem": "tp2022_q084",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Conduta na hemorragia subconjuntival (hiposfagma) em paciente anticoagulado",
+    "subtema": "Olho vermelho indolor com acuidade visual preservada",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_18"],
+    "tags": ["hiposfagma", "olho vermelho", "anticoagulação", "oftalmologia", "conduta expectante"],
+    "descartar": "D",
+    "motivo_descarte": "É a alternativa menos discriminativa e potencialmente ambígua, pois compressas frias são por vezes sugeridas como medida sintomática, o que a aproxima de uma conduta aceitável.",
+    "problema_detectado": "A alternativa D introduz ambiguidade, já que compressas geladas podem ser vistas como medida sintomática admissível, competindo indevidamente com a resposta oficial.",
+    "justificativas": {
+      "A": "Incorreta. O hiposfagma é sangramento conjuntival benigno e autolimitado; com acuidade 20/20, ausência de dor espontânea ou à movimentação ocular e Glasgow 15, não há indicação de internação nem de exame radiológico.",
+      "B": "Correta. A conduta é expectante: tranquilizar e orientar o paciente quanto à benignidade do quadro e à reabsorção espontânea do sangue em uma a três semanas, prescrevendo lubrificante ocular para conforto e revisando o controle da anticoagulação, causa favorecedora neste caso, ao lado do esforço da tosse.",
+      "C": "Incorreta. Não há infecção nem processo inflamatório que justifique antibióticos ou anti-inflamatórios; os anti-inflamatórios não esteroidais podem ainda acentuar o risco hemorrágico no paciente em uso de anticoagulante oral.",
+      "E": "Incorreta. O mapeamento de retina não se justifica diante de hemorragia subconjuntival isolada, com visão preservada e sem trauma ocular contuso ou sintomas sugestivos de acometimento do segmento posterior."
+    }
+  },
+  {
+    "id_origem": "tp2022_q092",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Adaptação metabólica ao jejum e manutenção da glicemia nas primeiras horas",
+    "subtema": "Glicogenólise, gliconeogênese e cetogênese",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["metabolismo", "jejum", "glicogenólise", "gliconeogênese", "bioquímica"],
+    "descartar": "E",
+    "motivo_descarte": "É quase-duplicata da alternativa B, pois a glutamina é um aminoácido gliconeogênico, de modo que ambas expressam o mesmo mecanismo.",
+    "problema_detectado": "Além da quase-duplicata entre B e E, o termo 'glicogenólise periférica' é impreciso, uma vez que a manutenção da glicemia nas primeiras horas depende essencialmente do glicogênio hepático.",
+    "justificativas": {
+      "A": "Correta. Após algumas horas de jejum, a queda da insulina e a elevação do glucagon determinam rápida mobilização das reservas de glicogênio, especialmente hepáticas, sendo a glicogenólise o mecanismo que sustenta a glicemia nesse período inicial, antes que a gliconeogênese assuma o papel principal.",
+      "B": "Incorreta. A gliconeogênese a partir de aminoácidos — particularmente alanina e glutamina, mobilizados das proteínas musculares sob ação do cortisol, da queda da insulina e dos hormônios adrenérgicos e tireoidianos — torna-se vital apenas depois que as pequenas reservas de glicogênio se esgotam, algumas horas adiante.",
+      "C": "Incorreta. A lipólise, com quebra dos triglicerídeos em glicerol e ácidos graxos, também é mecanismo mais tardio; o glicerol contribui de modo limitado para a gliconeogênese e os ácidos graxos servem sobretudo como fonte de energia para o fígado e demais órgãos.",
+      "D": "Incorreta. Os corpos cetônicos não são convertidos em glicose: são produzidos a partir dos ácidos graxos e consumidos como combustível alternativo, sobretudo pelo cérebro, apenas com o prolongamento do jejum."
+    }
+  },
+  {
+    "id_origem": "tp2022_q100",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hematoma extradural pós-traumático e correlação anatomovascular",
+    "subtema": "Intervalo lúcido e ruptura da artéria meníngea média",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["trauma cranioencefálico", "hematoma extradural", "artéria meníngea média", "neuroanatomia"],
+    "descartar": "D",
+    "motivo_descarte": "Alternativa implausível, pois a artéria basilar irriga o tronco encefálico na fossa posterior, sem qualquer relação topográfica com um hematoma biconvexo frontotemporal.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A artéria cerebral anterior é vaso intradural do polígono de Willis; seu comprometimento relaciona-se a infartos ou hemorragia subaracnóidea, e não à coleção extradural biconvexa descrita.",
+      "B": "Incorreta. A artéria temporal superficial é extracraniana, ramo terminal da carótida externa; sua lesão produz sangramento no couro cabeludo, como hematoma subgaleal, sem coleção intracraniana.",
+      "C": "Incorreta. A artéria cerebral média é intradural e sua lesão causa infarto ou hemorragia intraparenquimatosa e subaracnóidea, com padrão tomográfico distinto do hematoma em forma de lente biconvexa.",
+      "E": "Correta. O intervalo lúcido de horas após o trauma, seguido de rápida deterioração neurológica com coma e hemiparesia contralateral, associado a hematoma biconvexo frontotemporal na tomografia, caracteriza hematoma extradural, tipicamente decorrente de fratura lateral do crânio com ruptura da artéria meníngea média."
+    }
+  },
+  {
+    "id_origem": "tp2022_q108",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico e implicações terapêuticas da identificação da espécie de Plasmodium na malária",
+    "subtema": "Hemoscopia, testes rápidos e limitações da sorologia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_24"],
+    "tags": ["malária", "Plasmodium", "gota espessa", "doenças infecciosas", "diagnóstico"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível, pois propõe tratamento empírico apenas por suspeição clínica, contrariando a exigência de confirmação laboratorial e de tratamento espécie-específico.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A identificação da espécie de Plasmodium — P. falciparum, P. vivax, P. malariae e P. ovale — é central no diagnóstico, porque o tratamento atinge pontos-chave distintos do ciclo evolutivo de cada espécie, como o uso de primaquina para as formas hipnozoíticas hepáticas de P. vivax e P. ovale e de esquemas com derivados da artemisinina para P. falciparum.",
+      "B": "Incorreta. O paroxismo malárico — calafrio, febre e sudorese — não é patognomônico e frequentemente falta ou é irregular, sobretudo em primoinfecções, de modo que não permite diagnóstico clínico seguro sem confirmação laboratorial.",
+      "C": "Incorreta. A hemoscopia em lâmina corada (gota espessa) é o padrão de referência e permite quantificar a parasitemia, mas os testes imunocromatográficos rápidos apenas detectam antígenos do parasito, sem estimar a carga parasitária.",
+      "D": "Incorreta. Os métodos sorológicos (IFI e ELISA) detectam anticorpos que persistem após a cura e não distinguem infecção atual de pregressa, sendo inadequados ao diagnóstico em área endêmica; prestam-se a inquéritos epidemiológicos e à triagem de doadores de sangue."
+    }
+  },
+  {
+    "id_origem": "tp2022_q116",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Avaliação e manejo da asma não controlada com rinite alérgica associada",
+    "subtema": "Exacerbação, corticoterapia e critérios de encaminhamento",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_02"],
+    "tags": ["asma", "rinite alérgica", "corticoide", "atenção primária", "via aérea única"],
+    "descartar": "D",
+    "motivo_descarte": "Alternativa implausível e parcialmente redundante com a A no eixo da corticoterapia, pois propõe corticoide oral em monoterapia com suspensão dos demais fármacos, conduta sem qualquer respaldo.",
+    "problema_detectado": "O enunciado contém erro de digitação ('alterantiva') e a alternativa correta é redigida de forma genérica, apenas indicando 'avaliar', o que reduz a precisão do item.",
+    "justificativas": {
+      "A": "Incorreta. A asma é condição inflamatória crônica cujo tratamento de base é o corticoide inalatório, que pode ser necessário a qualquer momento e em qualquer etapa; a paciente está sintomática há semanas, com dispneia e tosse noturna, o que afasta a suposta estabilidade.",
+      "B": "Incorreta. Rinite alérgica e asma são manifestações da mesma via aérea única e devem ser tratadas concomitantemente, pois o controle da rinite — aqui evidente pelo prurido ocular, espirros e obstrução nasal — contribui para o controle da asma.",
+      "C": "Correta. Diante de sintomas persistentes e em piora após infecção viral, em paciente com asma atópica sensibilizada a ácaros, deve-se avaliar a gravidade da exacerbação e o nível de controle para ajustar a etapa terapêutica, considerando corticoide oral quando indicado — que pode ser necessário em qualquer etapa — e o encaminhamento ao especialista nos casos de difícil controle.",
+      "E": "Incorreta. Macrolídeos não têm indicação de rotina no manejo da asma; não há sinais de infecção bacteriana neste caso, e o uso adjuvante da azitromicina restringe-se a casos selecionados de asma grave não controlada, sob acompanhamento especializado."
+    }
+  }
+]

@@ -6,8 +6,17 @@
     "dificuldade_editorial": "medio",
     "tema": "Insuficiência adrenal: aldosterona, hipotensão postural e hipercalemia",
     "subtema": "Fisiologia do córtex adrenal e regulação hidroeletrolítica",
-    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
-    "tags": ["endocrinologia", "aldosterona", "hipercalemia", "hipotensão postural", "fisiologia"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "endocrinologia",
+      "aldosterona",
+      "hipercalemia",
+      "hipotensão postural",
+      "fisiologia"
+    ],
     "descartar": "E",
     "motivo_descarte": "Hepatócitos não têm qualquer papel na regulação da volemia e da calemia descrita no caso, sendo alternativa implausível e sem poder discriminativo.",
     "problema_detectado": null,
@@ -25,8 +34,16 @@
     "dificuldade_editorial": "medio",
     "tema": "Teratoma sacrococcígeo e persistência da linha primitiva",
     "subtema": "Embriologia da terceira semana e gastrulação",
-    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03"],
-    "tags": ["embriologia", "teratoma sacrococcígeo", "gastrulação", "neonatologia"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "embriologia",
+      "teratoma sacrococcígeo",
+      "gastrulação",
+      "neonatologia"
+    ],
     "descartar": "B",
     "motivo_descarte": "A vesícula umbilical é a alternativa mais implausível e menos discriminativa, pois não origina tumores sacrococcígeos com derivados dos três folhetos.",
     "problema_detectado": null,
@@ -44,8 +61,18 @@
     "dificuldade_editorial": "medio",
     "tema": "Dilemas bioéticos e sigilo profissional no trabalho em equipe na Atenção Primária",
     "subtema": "Confidencialidade e limites de responsabilidade na equipe multiprofissional",
-    "competencia_dcn_2025": ["dcn2025_comp_04", "dcn2025_comp_23", "dcn2025_comp_22", "dcn2025_comp_27"],
-    "tags": ["bioética", "sigilo profissional", "equipe multiprofissional", "atenção primária"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_04",
+      "dcn2025_comp_23",
+      "dcn2025_comp_22",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "bioética",
+      "sigilo profissional",
+      "equipe multiprofissional",
+      "atenção primária"
+    ],
     "descartar": "E",
     "motivo_descarte": "A alternativa E é quase duplicata da D, pois ambas defendem que toda a equipe deve conhecer detalhadamente todos os casos, testando o mesmo equívoco conceitual.",
     "problema_detectado": null,
@@ -63,8 +90,16 @@
     "dificuldade_editorial": "medio",
     "tema": "Níveis de prevenção segundo as funções da medicina de Henry Sigerist",
     "subtema": "Prevenção primária, secundária, terciária e quaternária",
-    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
-    "tags": ["prevenção", "história natural da doença", "rastreamento", "saúde coletiva"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "prevenção",
+      "história natural da doença",
+      "rastreamento",
+      "saúde coletiva"
+    ],
     "descartar": "E",
     "motivo_descarte": "A alternativa E repete o mesmo erro conceitual da alternativa C (classificar um exame de detecção precoce como prevenção primária), configurando quase-duplicata.",
     "problema_detectado": null,
@@ -82,8 +117,17 @@
     "dificuldade_editorial": "dificil",
     "tema": "Política Nacional de Práticas Integrativas e Complementares em Saúde (PNPIC), 2006",
     "subtema": "Elenco original de práticas regulamentadas no SUS",
-    "competencia_dcn_2025": ["dcn2025_comp_16", "dcn2025_comp_01", "dcn2025_comp_06"],
-    "tags": ["PNPIC", "políticas públicas", "SUS", "práticas integrativas"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "PNPIC",
+      "políticas públicas",
+      "SUS",
+      "práticas integrativas"
+    ],
     "descartar": "D",
     "motivo_descarte": "A alternativa D é funcionalmente equivalente às alternativas B e C, pois todas listam apenas práticas incorporadas nas ampliações de 2017/2018, sendo a menos discriminativa do conjunto.",
     "problema_detectado": null,
@@ -101,8 +145,17 @@
     "dificuldade_editorial": "medio",
     "tema": "Contraindicações verdadeiras e falsas às vacinas do calendário infantil",
     "subtema": "Imunizações na atenção básica",
-    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
-    "tags": ["imunização", "calendário vacinal", "rotavírus", "atenção primária"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "imunização",
+      "calendário vacinal",
+      "rotavírus",
+      "atenção primária"
+    ],
     "descartar": "D",
     "motivo_descarte": "Baixo peso ao nascer não é contraindicação sequer discutível para a tríplice viral, aplicada aos 12 meses, tornando a alternativa implausível e pouco discriminativa.",
     "problema_detectado": null,
@@ -120,8 +173,17 @@
     "dificuldade_editorial": "medio",
     "tema": "Reidratação parenteral na desidratação grave por diarreia aguda em lactente",
     "subtema": "Plano C do Ministério da Saúde e cálculo de expansão volêmica",
-    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
-    "tags": ["desidratação", "diarreia aguda", "reidratação parenteral", "lactente"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "desidratação",
+      "diarreia aguda",
+      "reidratação parenteral",
+      "lactente"
+    ],
     "descartar": "A",
     "motivo_descarte": "Soro glicosado isolado não expande o intravascular e é opção implausível para reidratação de choque hipovolêmico, não discriminando o candidato.",
     "problema_detectado": "O Ringer lactato também é cristaloide isotônico recomendado na expansão da desidratação grave, de modo que a alternativa B só se torna incorreta pelo volume proposto, o que pode gerar ambiguidade.",
@@ -139,8 +201,19 @@
     "dificuldade_editorial": "medio",
     "tema": "Interrupção legal da gestação em adolescente menor de 14 anos vítima de estupro de vulnerável",
     "subtema": "Aborto previsto em lei e dever do Estado",
-    "competencia_dcn_2025": ["dcn2025_comp_05", "dcn2025_comp_04", "dcn2025_comp_23", "dcn2025_comp_11"],
-    "tags": ["aborto legal", "estupro de vulnerável", "adolescência", "ética médica", "violência sexual"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_04",
+      "dcn2025_comp_23",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "aborto legal",
+      "estupro de vulnerável",
+      "adolescência",
+      "ética médica",
+      "violência sexual"
+    ],
     "descartar": "D",
     "motivo_descarte": "A alternativa D reproduz o mesmo argumento da alternativa A (o consentimento afastaria o direito à interrupção), sendo quase-duplicata conceitual.",
     "problema_detectado": null,
@@ -158,8 +231,17 @@
     "dificuldade_editorial": "medio",
     "tema": "Parada de progressão da dilatação e desproporção cefalopélvica no trabalho de parto",
     "subtema": "Distocia funcional versus mecânica e indicação de cesariana",
-    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
-    "tags": ["trabalho de parto", "distocia", "desproporção cefalopélvica", "cesariana"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "trabalho de parto",
+      "distocia",
+      "desproporção cefalopélvica",
+      "cesariana"
+    ],
     "descartar": "C",
     "motivo_descarte": "A analgesia de parto é conduta adjuvante que não responde ao problema obstétrico apresentado, sendo a alternativa menos discriminativa do conjunto.",
     "problema_detectado": null,
@@ -177,8 +259,17 @@
     "dificuldade_editorial": "medio",
     "tema": "Rastreamento do câncer do colo do útero segundo as Diretrizes Brasileiras (INCA, 2016)",
     "subtema": "Idade de início, periodicidade e critérios de suspensão",
-    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
-    "tags": ["rastreamento", "câncer de colo uterino", "citopatológico", "atenção primária"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "rastreamento",
+      "câncer de colo uterino",
+      "citopatológico",
+      "atenção primária"
+    ],
     "descartar": "E",
     "motivo_descarte": "A alternativa E repete o erro do teste de Schiller já presente na alternativa B, acrescentando periodicidade inexistente, sendo quase-duplicata pouco discriminativa.",
     "problema_detectado": null,
@@ -196,8 +287,17 @@
     "dificuldade_editorial": "dificil",
     "tema": "Otite média com efusão persistente pós-otite média aguda e critérios de indicação cirúrgica",
     "subtema": "Perda auditiva condutiva e tubo de ventilação",
-    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
-    "tags": ["otite média com efusão", "perda auditiva", "otorrinolaringologia pediátrica", "audiometria"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "otite média com efusão",
+      "perda auditiva",
+      "otorrinolaringologia pediátrica",
+      "audiometria"
+    ],
     "descartar": "E",
     "motivo_descarte": "A alternativa E é quase-duplicata da D, pois ambas propõem adenoidectomia como via de solução, acrescentando apenas tonsilectomia sem indicação clínica no caso.",
     "problema_detectado": null,
@@ -215,8 +315,17 @@
     "dificuldade_editorial": "medio",
     "tema": "Rastreamento do câncer colorretal em idoso com anemia por perda digestiva",
     "subtema": "Sangue oculto nas fezes e colonoscopia como estratégia de detecção precoce",
-    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
-    "tags": ["câncer colorretal", "rastreamento", "anemia no idoso", "colonoscopia"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "câncer colorretal",
+      "rastreamento",
+      "anemia no idoso",
+      "colonoscopia"
+    ],
     "descartar": "D",
     "motivo_descarte": "A ultrassonografia abdominal restrita a mulheres acima de 60 anos não tem qualquer respaldo como estratégia de rastreamento colorretal, sendo alternativa implausível.",
     "problema_detectado": "O enunciado remete a uma imagem radiológica (padrão em 'mordida de maçã' no enema opaco) que não é reproduzida no texto, tornando o item dependente de figura ausente.",
@@ -234,8 +343,18 @@
     "dificuldade_editorial": "medio",
     "tema": "Critérios diagnósticos da 4ª Definição Universal do Infarto Agudo do Miocárdio",
     "subtema": "Indicação de reperfusão e interpretação da troponina",
-    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
-    "tags": ["síndrome coronariana aguda", "infarto", "eletrocardiograma", "troponina", "reperfusão"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "síndrome coronariana aguda",
+      "infarto",
+      "eletrocardiograma",
+      "troponina",
+      "reperfusão"
+    ],
     "descartar": "D",
     "motivo_descarte": "A exigência cumulativa de sintomas, eletrocardiograma, marcadores e cateterismo para firmar o diagnóstico é implausível e contraria a lógica de tempo-dependência do quadro.",
     "problema_detectado": null,
@@ -253,8 +372,17 @@
     "dificuldade_editorial": "medio",
     "tema": "Diabetes mellitus tipo 1 autoimune em adulto jovem e esquema inicial de insulinização",
     "subtema": "Terapia basal-bolus e síndrome poliglandular autoimune",
-    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
-    "tags": ["diabetes tipo 1", "insulinoterapia", "endocrinologia", "autoimunidade"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "diabetes tipo 1",
+      "insulinoterapia",
+      "endocrinologia",
+      "autoimunidade"
+    ],
     "descartar": "C",
     "motivo_descarte": "A alternativa C é quase-duplicata da B, diferindo apenas na dose de metformina e testando exatamente o mesmo equívoco terapêutico.",
     "problema_detectado": null,
@@ -270,10 +398,19 @@
     "area_clinica": "clinica_medica",
     "nivel_bloom": "analise",
     "dificuldade_editorial": "medio",
-    "tema": "Síndrome da secreção inapropriada de vasopressina como manifestação paraneoplásica do carcinoma pulmonar de pequenas células",
+    "tema": "SIADH paraneoplásica no carcinoma pulmonar de pequenas células",
     "subtema": "Hiponatremia paraneoplásica",
-    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_01"],
-    "tags": ["SIADH", "hiponatremia", "câncer de pulmão", "síndrome paraneoplásica"],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "SIADH",
+      "hiponatremia",
+      "câncer de pulmão",
+      "síndrome paraneoplásica"
+    ],
     "descartar": "D",
     "motivo_descarte": "A Doença de Graves não cursa com hiponatremia e não guarda relação com tumores neuroendócrinos, sendo alternativa implausível no contexto do caso.",
     "problema_detectado": "O enunciado descreve urina de coloração clara e aumento da frequência urinária, achados pouco compatíveis com a SIADH, que cursa com urina inadequadamente concentrada e tendência à retenção hídrica.",

@@ -130,7 +130,7 @@
       "D": "Cefalexina 500 mg via oral de 6 em 6 horas por 7 dias e Nitrofurantoína 100 mg via oral após relação sexual por 1 ano",
       "E": "Cefalexina 500 mg via oral de 6 em 6 horas por 3 dias e profilaxia com Extrato de Cranberry via oral por 1 ano"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Devido à resistência bacteriana, é recomendado como primeira linha para o tratamento empírico da infecção urinária não complicada na mulher a Fosfomicina, nitrofurantoína e sulfametoxazol-trimetoprima. O uso de estrógenos vaginais é recomendado para tratamento da infecção urinária na mulher na menopausa. O Cranberry apresenta uma baixa eficácia para profilaxia de infecção urinária de repetição na mulher menopausada. Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2019). Recomendações conjuntas SBI / SBU / Febrasgo – 2019:",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -351,7 +351,7 @@
       "D": "Reticulocitopenia com VCM baixo sugere deficiência de Vit B12",
       "E": "Reticulocitose sugere anemia aplástica ou mielodisplasia"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Nas anemias, a elevação dos reticulócitos indica um processo de aumento de degradação dos eritrócitos, como nos processos hemolíticos ou sangramento. Já a contagem de reticulócitos baixa indica alguma forma de falência na produção dos eritrócitos, como nas doenças da medula óssea e deficiência de vitaminas importantes para a eritropoiese. Nas anemias com baixa contagem de reticulócitos o VCM elevado pode indicar deficiência de vitamina B12, folato e as com VCM baixo deficiência de ferro, talassemia",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -368,7 +368,7 @@
       "D": "Hipercalcemia secundária a hipoalbuminemia e síndrome paraneoplásica, que podem levar ao quadro clínico descrito",
       "E": "Neutropenia febril, devido ao tratamento quimioterápico"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Tromboembolismo venoso é uma das principais causas de mortalidade nos pacientes oncológicos. A patogêneses está relacionado com o estado de hipercoaguabilidade conferido pelas neoplasias, imobilização dos pacientes, uso de acesso venoso central e alguns quimioterápiucos. Outras complicações podem ser decorrentes de metástases (câncer gástrico mais comum é para fígado), síndrome da veia cava superior com quadro clínico de dispneia e edema em face (mais comum no câncer de pulmão e linfomas), hipercalcemia (que se apresenta com vômitos, alteração estado mental, polidipsia e poliuria) e neutropenia febril, caracterizado por febre aferida e contagem de neutrófilos abaixo de 1000, sem foco definido de infecção",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -419,7 +419,7 @@
       "D": "Pessoas vacinadas podem se infectar, mas costumam evoluir com sintomas mais leves e não possuem capacidade de transmissão do vírus, por apresentarem carga viral mais baixa",
       "E": "Embora possa ocorrer, a reinfecção pelo vírus é um fenômeno raro e geralmente associado a quadro clínico leve. Por esse motivo não há benefício na vacinação de pessoas que já apresentaram infecção comprovada, exceto imunodeprimidos"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Pessoas infectadas que estão sem sintomas não são transmissoras, porque possuem uma baixa carga viral. INCORRETO. A transmissão pode ocorrer no período pré-sintomático, a partir de 48 horas antes do início dos sintomas e mesmo por pessoas assintomáticas. As novas variantes de preocupação do vírus (VOC), em especial a variante Ômicron, possuem uma menor transmissibilidade, mas são relacionadas a quadros clínicos mais graves. INCORRETO. A variante Ômicron é relacionada a uma maior transmissibilidade e a sintomas de vias aéreas superiores com menor taxa de hospitalização. Pessoas vacinadas podem se infectar, mas costumam evoluir com sintomas mais leves e não possuem capacidade de transmissão do vírus, por apresentarem carga viral mais baixa. INCORRETO. A vacinação reduz o risco de contrair o vírus e de evoluir para forma grave, mas pessoas vacinadas podem se infectar, adoecer e transmitir o vírus. Embora o período entre a exposição ao vírus e o início dos sintomas seja em média 5 a 6 dias, as pessoas podem apresentar manifestações clínicas desde o primeiro dia até o 14º dia após a exposição. CORRETO. Embora possa ocorrer, a reinfecção pelo vírus é um fenômeno raro e geralmente associado a quadro clínico leve. Por esse motivo não há benefício na vacinação de pessoas que já apresentaram infecção comprovada, exceto imunodeprimidos. INCORRETO. A infecção não garante imunidade completa e duradoura e casos de reinfecção são descritos desde o início da pandemia, e ocorrendo inclusive em períodos menores de 90 dias. Por esse motivo segue a recomendação da vacinação, independente do tempo de infecção",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -479,15 +479,15 @@
     "id_origem": "questoes_clm_q029",
     "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
     "num": 29,
-    "enunciado": "A.A., 69 anos, mulher, é trazida à emergência devido à \"sonolência e febre” pelo cuidador do asilo onde reside há três anos. Hipertensa e diabética, sob controle com Captopril e Metformina. Nunca foi internada ou submetida a cirurgias e não há relato de uso de antibioticoterapia recente. Seu quadro vacinal está atrasado, sendo suas últimas vacinas contra pneumonia e gripe em 2018. Nos últimos 3 dias ela encontrava-se sonolenta e confusa, reclamando de uma dor de cabeça que “nunca havia apresentado antes”. Hoje apresentou temperatura de 38ºC aferida na instituição e um vômito não precedido por náusea. Acompanhante não sabe acrescentar nenhuma outra informação. Ao exame físico, a Escala de Coma de Glasgow é de 12 pontos (Abertura Ocular 3 pontos, Resposta Verbal 4 pontos, Resposta Motora 5 pontos). Nervos cranianos, normais. Exames de cabeça e pescoço demonstram rigidez de nuca com Brudzinski positivo. Sem nenhuma outra alteração no exame físico. Na admissão, os sinais vitais estavam estáveis, com uma glicemia de 120mg/dL. Foi levada a um quarto de isolamento respiratório para gotículas e feito Dexametasona. Sua Tomografia de Crânio de entrada estava normal, exames laboratoriais pendentes e o líquido cefalorraquidiano (líquor) retornou com o seguinte resultado: Celularidade 1700 (predomínio de neutrófilos: 90%), 5 hemácias, Lactato elevado, proteínas totais: 120mg/dL, glicose de 20mg/dL, Tinta da china (Látex) negativo. Culturas e sorologias pendentes. Avalie o caso e ASSINALE a alternativa que representa a melhor conduta a ser tomada para a paciente. a. Devido às características do líquor e a epidemiologia do paciente, seria apropriado acrescentar ceftriaxona + ampicilina à antibioticoterapi",
+    "enunciado": "A.A., 69 anos, mulher, é trazida à emergência devido à \"sonolência e febre” pelo cuidador do asilo onde reside há três anos. Hipertensa e diabética, sob controle com Captopril e Metformina. Nunca foi internada ou submetida a cirurgias e não há relato de uso de antibioticoterapia recente. Seu quadro vacinal está atrasado, sendo suas últimas vacinas contra pneumonia e gripe em 2018. Nos últimos 3 dias ela encontrava-se sonolenta e confusa, reclamando de uma dor de cabeça que “nunca havia apresentado antes”. Hoje apresentou temperatura de 38ºC aferida na instituição e um vômito não precedido por náusea. Acompanhante não sabe acrescentar nenhuma outra informação. Ao exame físico, a Escala de Coma de Glasgow é de 12 pontos (Abertura Ocular 3 pontos, Resposta Verbal 4 pontos, Resposta Motora 5 pontos). Nervos cranianos, normais. Exames de cabeça e pescoço demonstram rigidez de nuca com Brudzinski positivo. Sem nenhuma outra alteração no exame físico. Na admissão, os sinais vitais estavam estáveis, com uma glicemia de 120mg/dL. Foi levada a um quarto de isolamento respiratório para gotículas e feito Dexametasona. Sua Tomografia de Crânio de entrada estava normal, exames laboratoriais pendentes e o líquido cefalorraquidiano (líquor) retornou com o seguinte resultado: Celularidade 1700 (predomínio de neutrófilos: 90%), 5 hemácias, Lactato elevado, proteínas totais: 120mg/dL, glicose de 20mg/dL, Tinta da china (Látex) negativo. Culturas e sorologias pendentes. Avalie o caso e ASSINALE a alternativa que representa a melhor conduta a ser tomada para a paciente",
     "alternativas": {
-      "A": "",
+      "A": "Devido às características do líquor e a epidemiologia do paciente, seria apropriado acrescentar ceftriaxona + ampicilina à antibioticoterapia",
       "B": "Provavelmente o caso em questão é uma meningoencefalite herpética, considerando a alteração do nível de consciência e as características do líquor, sendo necessária a suspensão da ceftriaxona e introdução de aciclovir. introduzir aciclovir",
       "C": "O uso de dexametasona deve ser mantido até o término do tratamento independente do agente etiológico",
       "D": "Caso o agente etiológico seja um pneumococo, os moradores do asilo precisarão receber profilaxia com antibióticos como rifampicina, ceftriaxona ou ciprofloxacino",
       "E": "INtroduzir ceftriaxona"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "a. Devido às características do líquor e a epidemiologia do paciente, seria apropriado acrescentar ampicilina a antibioticoterapia – CORRETO. Devido a idade do paciente é necessário a cobertura para Listeria monocytogenes. b. Provavelmente, o caso em questão é uma meningoencefalite herpética, considerando a alteração do nível de consciência e as características do líquor. – FALSO. O líquido cefalorraquidiano (líquor) é condizente com uma infecção por bactéria. c. O uso de dexametasona deve ser mantido até o término do tratamento independente do agente etiológico – FALSO. A corticoterapia deve ser mantida somente em caso de crescimento de Haemophilus influenzae ou Neisseria meningitidis. d. Caso o agente etiológico seja um pneumococo, os moradores do asilo precisarão receber profilaxia com antibióticos como rifampicina, ceftriaxona ou ciprofloxacino – FALSO. Essa profilaxia é realizada para contactantes de pacientes diagnosticados com uma infecção MENINGOCÓCCICA (Neisseria meningitidis). e. São sinais de alerta para a suspeita diagnóstica de cefaleia secundária neste caso: Sexo feminino, idade maior de 50anos, sinais neurológicos (confusão), sinais sistêmicos (febre) e a mudança de padrão da cefaleia. – FALSO. O sexo feminino não é um critério a ser considerado como um sinal de alerta",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -501,10 +501,10 @@
       "A": "Leptospirose, a indicação é iniciar Penicilina Cristalina EV",
       "B": "Dengue hemorrágica, a indicação é introduzir hidratação vigorosa e transfusão sanguínea",
       "C": "Malária grave e a indicação é utilizar primaquina por 14 dias",
-      "D": "Pneumonia por citomegalovírus, dev",
-      "E": "se solicitar exame de HIV e iniciar ganciclovir EV. e. Paracoccidioidomicose disseminada e deve-se iniciar Anfotericina B"
+      "D": "Pneumonia por citomegalovírus, deve-se solicitar exame de HIV e iniciar ganciclovir EV",
+      "E": "Paracoccidioidomicose disseminada e deve-se iniciar Anfotericina B"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "A síndrome de Weil é considerada um tipo de leptospirose, nomeada de forma íctero-hemorrágica. É uma forma grave, sendo constituída clinicamente por uma tríade típica: icterícia, insuficiência renal e hemorragias, sendo esta mais comumente pulmonar. Os exames laboratoriais mostram aumento de creatinina e leucocitose com desvio à esquerda. O tratamento é feito com medidas de suporte, diálise precoce e em caso de hemorragia pulmonar, uso de ventilação mecânica com baixo volume e alta PEEP. A antibioticoterapia é indicada e deve ter início precoce com uso de penicilina cristalina 50 a 100.000 UI por kg/dia, administrada em 4 a 6 doses; ou ampicilina 50 a 100 mg/dia, intravenosa, ou ceftriaxona 80 a 100 mg kg/dia em 1 ou 2 doses. Dengue hemorrágica apresenta anemia, leucopenia com linfocitose e plaquetopenia. Poderia pensar em malária por Plasmodium falciparum (doença grave) nesse caso, porém o hemograma apresentaria leucopenia e o tratamento deveria ser feito com Artemer + Lumefantrina associado a primaquina. Diagnóstico de Paracoco e Pneumonia por CMV não cabem no caso acima",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -534,22 +534,22 @@
     "alternativas": {
       "A": "A probabilidade de desenvolver condições pós-covid-19 ou síndrome pós covid-19 não está relacionada à gravidade do quadro agudo ou necessidade de hospitalização",
       "B": "O tempo de recuperação é o mesmo em todas pessoas acometidas pelo covid-19, sendo que, na maioria dos casos, os sintomas desaparecem em tempo menor que em 12 semanas",
-      "C": "A ocorrência de novos sintomas ou condições pós covid-19 é previsível, afetando os indivíduos apenas com sintomas pulmonares e cardiovasculares. d. A condição pós-covid é determinada após o surgimento ou a persistência de sintomas após 2 semanas da infecção aguda covid-19. e. Não é recomendado o paciente procurar atendimento se apresentar sintomas de dispneia, taquicardia taquipneia inexplicada, visto ser sintomas esperados nas primeiras 12 semanas pós infecção aguda covi",
-      "D": "19",
-      "E": null
+      "C": "A ocorrência de novos sintomas ou condições pós covid-19 é previsível, afetando os indivíduos apenas com sintomas pulmonares e cardiovasculares",
+      "D": "A condição pós-covid é determinada após o surgimento ou a persistência de sintomas após 2 semanas da infecção aguda covid-19",
+      "E": "Não é recomendado o paciente procurar atendimento se apresentar sintomas de dispneia, taquicardia taquipneia inexplicada, visto ser sintomas esperados nas primeiras 12 semanas pós infecção aguda covid-19"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "- Alternativa A, correta. Todas as pessoas que apresentaram diagnóstico de infecção aguda COVID (sintomas leves, moderados ou graves) podem desenvolver sintomas compatíveis COVID longa, independente da gravidade dos sintomas apresentados na fase aguda da doença. Os pacientes com doenças/condições crônicas estão mais propensos a apresentarem sequelas pós-covid 19. - Alternativa B, incorreta. Na maioria dos casos, os sintomas persistentes e/ou os novos desaparecem nas primeiras 12 semanas, no entanto este tempo é distinto de uma pessoa para outra. - Alternativa C, incorreta. A ocorrência de novos sintomas ou condições pós-covid é IMPREVISÍVEL, afeta os indivíduos de maneiras distintas e em momentos diferentes com sintomas pulmonares, neurológicos, cardiovasculares, gastrointestinais, musculoesqueléticos, dermatológicos, dentre outros. - Alternativa D, incorreta. A condição pós-covid é descrita como ampla gama de manifestações clínicas novas, recorrentes ou persistentes presentes após quatro semanas da infecção aguda covid-19. - Alternativa E, incorreta. Paciente com indicação de investigação de causas para sintomas, pois os mesmos podem indicar doenças agudas cardiovasculares e ou pulmonares",
-    "n_alternativas": 4,
+    "n_alternativas": 5,
     "requer_imagem": false
   },
   {
     "id_origem": "questoes_clm_q033",
     "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
     "num": 33,
-    "enunciado": "Paciente masculino, 35 anos, relata histórico de gastroenterocolite bacteriana há três semanas, tratada com ciprofloxacino, tendo apresentado melhora completa do quadro. Procura atendimento médico com queixas articulares. O médico suspeita de artrite reativa. Assinale a alternativa abaixo que apresenta quadro clínico compatível com artrite reativa: a) Artrite de joelhos e tornozelo direito e dactilite em segundo quirodáctilo esquerdo há cinco dias. Líquido sinovial com sinais inflamatórios e cultura bacteriana negativ",
+    "enunciado": "Paciente masculino, 35 anos, relata histórico de gastroenterocolite bacteriana há três semanas, tratada com ciprofloxacino, tendo apresentado melhora completa do quadro. Procura atendimento médico com queixas articulares. O médico suspeita de artrite reativa. Assinale a alternativa abaixo que apresenta quadro clínico compatível com artrite reativ",
     "alternativas": {
-      "A": "",
+      "A": "Artrite de joelhos e tornozelo direito e dactilite em segundo quirodáctilo esquerdo há cinco dias. Líquido sinovial com sinais inflamatórios e cultura bacteriana negativa",
       "B": "Artrite de joelho direito há três semanas. Líquido sinovial séptico com cultura bacteriana positiva",
       "C": "Artrite de joelhos, metacarpofalangeanas e interfalangeanas proximais bilateralmente há oito semanas. Elevação sérica de provas de atividade inflamatória e fator reumatoide negativo",
       "D": "Episódios de monoartrites intermitentes em primeiros pododáctilos e tornozelos há sete meses. Apresenta obesidade, dislipidemia e diabetes mellitus",
@@ -742,7 +742,7 @@
       "D": "Sinal de Babinski",
       "E": "Hipopalestesia"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "A história deste paciente é consistente com uma hérnia discal lombar, condição muito comum em trabalhadores braçais na atenção primária à saúde. A localização mais comum da herniação discal encontra-se entre a quinta vértebra lombar e a primeira vértebra sacral, produzindo compressão da raiz de S1; e em segundo lugar, entre a quarta e quinta vértebras lombares, produzindo compressão da raiz de L5. A compressão produzindo radiculopatia de S1, é associada à dor na região lombar e/ou na região glútea, frequentemente irradiando-se de forma descendente para a região posterior e panturrilha do membro inferior ipsilateral até a região lateral e plantar do pé, afetando sobretudo o quarto e quinto pododáctilos. Hiporreflexia do aquileu no membro inferior direito – RESPOSTA CORRETA – a perda do reflexo aquileu no membro acometido é, muitas vezes, o único sinal objetivo de radiculopatia do S1 e a capacitação do médico em fazer este exame e reconhecer seu achado é uma competência importante para a sua atuação na atenção primária à saúde, que é a porta de entrada desses pacientes no SUS Hipossensibilidade dolorosa no 1o e 2o pododáctilos à direita – é esperado na síndrome da radiculopatia do L5, o que não corresponde a este caso de radiculopatia do S1, com comprometimento esperado no quarto e quinto pododáctilos Hiperreflexia patelar no membro inferior direito – este é outro sinal de lesão do neurônio motor superior e, portanto, como o sinal de Babinski, não é esperado neste caso, que é um caso clássico de compressão mecânica exercida pela hérnia discal sobre o segundo neurônio ou neurônio motor inferior Sinal de Babinski no membro inferior direito – o sinal de Babinski indica dano ao neurônio motor superior (ou primeiro neurônio), o que não é esperado neste caso, que é um caso clássico de compressão mecânica exercida pela hérnia discal sobre o segundo neurônio ou neurônio motor inferior Perda e/ou redução do tônus retal (reflexo anal superficial) – na radiculopatia do S1, não há comprometimento das funções esfincterianas, seja do trato gastrointestinal, quanto do trato urinário",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -751,9 +751,9 @@
     "id_origem": "questoes_clm_q045",
     "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
     "num": 45,
-    "enunciado": "Mulher, 21 anos de idade, há 30 dias referindo epistaxe recorrente e aparecimento de equimoses em membros inferiores, que progrediram para abdome e tronco. Nega trauma ou dor local. Ao exame: púrpuras em membros inferiores bilateralmente e tronco, de tamanhos variáveis, planas e indolores, além de petéquias em face. Hemograma: Hb 11,5g/L, Ht 35%, Leucócitos 10.400/mm3 com diferencial normal, plaquetas 8.000/mm3. Previamente hígida e o restante da investigação laboratorial foi normal. Qual deve ser o diagnóstico e o que deve ser feito? a) púrpura trombocitopênica imune, prednisona 1 mg/ kg/di",
+    "enunciado": "Mulher, 21 anos de idade, há 30 dias referindo epistaxe recorrente e aparecimento de equimoses em membros inferiores, que progrediram para abdome e tronco. Nega trauma ou dor local. Ao exame: púrpuras em membros inferiores bilateralmente e tronco, de tamanhos variáveis, planas e indolores, além de petéquias em face. Hemograma: Hb 11,5g/L, Ht 35%, Leucócitos 10.400/mm3 com diferencial normal, plaquetas 8.000/mm3. Previamente hígida e o restante da investigação laboratorial foi normal. Qual deve ser o diagnóstico e o que deve ser feito?",
     "alternativas": {
-      "A": "",
+      "A": "púrpura trombocitopênica imune, prednisona 1 mg/ kg/dia",
       "B": "púrpura trombocitopênica imune, transfusão de concentrado de plaquetas e imunoglobulina humana",
       "C": "púrpura trombocitopênica trombótica, transfusão de concentrado de plaquetas e plasmaferese",
       "D": "púrpura trombocitopênica trombótica, transfusão de concentrado de plaquetas",
@@ -793,7 +793,7 @@
       "D": "A combinação de IECA + BRA é segura e bem tolerada",
       "E": "Bloqueadores dos Receptores da Angiotensina são superiores aos IECA"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Estudos randomizados confirmam que este grupo farmacológico deve estar presente na prescrição da maioria dos hipertensos na população geral. O controle (PAS <130mmHg) com monoterapia é infrequente nos estágios 1 e 2. Os IECA, BRA e BCC, juntamente com os tiazídicos são os fármacos de primeira linha. BRA são intercambiáveis, mas não devem ser associados, devido ao risco de efeitos colaterais",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -853,9 +853,9 @@
     "id_origem": "questoes_clm_q051",
     "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
     "num": 51,
-    "enunciado": "Paciente do sexo feminino, 28 anos, previamente hígida, sem qualquer história patológica pregressa, chega na emergência trazida por familiares, com história de disúria iniciada há cinco dias, febre iniciada há 48 h junto com dor lombar alta bilateral, e hoje iniciou com sintomas de fraqueza pois não consegue ficar em pé, ficando tonta e com sensação de desmaio. Tem pressão arterial sistêmica medida em decúbito dorsal de 80 / 30 mmHg, frequência cardíaca em decúbito dorsal = 124 batimentos por minuto, frequência respiratória = 26 incursões respiratórias por minuto, em decúbito dorsal. Tem sinal de Giordano positivo bilateralmente, enchimento capilar maior que quatro segundos, cianose de extremidades. Diante desses dados qual a conduta inicial dentro da primeira hora de tratamento, dentre as opções abaixo: A) Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + colher lactato plasmático + iniciar droga vasoativa endovenosa (noradrenalin",
+    "enunciado": "Paciente do sexo feminino, 28 anos, previamente hígida, sem qualquer história patológica pregressa, chega na emergência trazida por familiares, com história de disúria iniciada há cinco dias, febre iniciada há 48 h junto com dor lombar alta bilateral, e hoje iniciou com sintomas de fraqueza pois não consegue ficar em pé, ficando tonta e com sensação de desmaio. Tem pressão arterial sistêmica medida em decúbito dorsal de 80 / 30 mmHg, frequência cardíaca em decúbito dorsal = 124 batimentos por minuto, frequência respiratória = 26 incursões respiratórias por minuto, em decúbito dorsal. Tem sinal de Giordano positivo bilateralmente, enchimento capilar maior que quatro segundos, cianose de extremidades. Diante desses dados qual a conduta inicial dentro da primeira hora de tratamento, dentre as opções abaixo:",
     "alternativas": {
-      "A": "",
+      "A": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + colher lactato plasmático + iniciar droga vasoativa endovenosa (noradrenalina)",
       "B": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura iniciar antibiótico endovenoso de largo espectro",
       "C": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura e iniciar antibiótico endovenoso de largo espectro",
       "D": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + colher lactato plasmático + aguardar pelo menos 1 h para avaliar a resposta a infusão volêmica",
@@ -1023,9 +1023,9 @@
     "id_origem": "questoes_clm_q061",
     "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
     "num": 61,
-    "enunciado": "Mulher de 70 anos, hipertensa e diabética, com dispneia aos esforços, foi internada com quadro de dor torácica e síncope aos moderados esforços. História prévia de angioplastia coronariana, porém com cateterismo sem lesões coronarianas novas. Ao exame, apresentava PA 124/104 mmHg; FC 96 bpm e ritmo regular com ascensão lenta, sopro sistólico ejetivo com pico mesossistólico mais audível em 2º EIC próximo à borda esternal D e com irradiação para carótidas. Qual a valvopatia provável? (A) Estenose aórtic",
+    "enunciado": "Mulher de 70 anos, hipertensa e diabética, com dispneia aos esforços, foi internada com quadro de dor torácica e síncope aos moderados esforços. História prévia de angioplastia coronariana, porém com cateterismo sem lesões coronarianas novas. Ao exame, apresentava PA 124/104 mmHg; FC 96 bpm e ritmo regular com ascensão lenta, sopro sistólico ejetivo com pico mesossistólico mais audível em 2º EIC próximo à borda esternal D e com irradiação para carótidas. Qual a valvopatia provável?",
     "alternativas": {
-      "A": "",
+      "A": "Estenose aórtica",
       "B": "Estenose mitral",
       "C": "Insuficiência aórtica",
       "D": "Insuficiência mitral",
@@ -1057,9 +1057,9 @@
     "id_origem": "questoes_clm_q063",
     "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
     "num": 63,
-    "enunciado": "A Insuficiência cardíaca (IC) é uma síndrome clínica complexa, na qual o coração é incapaz de bombear sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento. Em relação a IC assinale a alternativa que corresponde às medicações que modificam a sobrevida do paciente com IC com fração de ejeção reduzida: (A) Enalapril + Bisoprolol + Espironolactona + Dapagliflozin",
+    "enunciado": "A Insuficiência cardíaca (IC) é uma síndrome clínica complexa, na qual o coração é incapaz de bombear sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento. Em relação a IC assinale a alternativa que corresponde às medicações que modificam a sobrevida do paciente com IC com fração de ejeção reduzid",
     "alternativas": {
-      "A": "",
+      "A": "Enalapril + Bisoprolol + Espironolactona + Dapagliflozina",
       "B": "Digoxina + Captopril + Furosemida + Empagliflozina",
       "C": "Digoxina + Lisinopril + Carvedilol + Espironolactona",
       "D": "Metoprolol + Enalapril + Furosemida + Dapagliflozina",
@@ -1422,7 +1422,7 @@
       "D": "É necessário realizar exames laboratoriais após a COVID 19 para avaliação da maioria das suas sequelas",
       "E": "A reinfecção pelo vírus não afeta a incidência de sintomas persistentes de COVID 19"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "COVID 19 é uma doença sistêmica cuja apresentação é muito variada, assim como suas sequelas. Os sintomas que mais comumente persistem e, portanto, exigem do profissional assistente maior esforço terapêutico são tosse, fraqueza, dispneia, dor torácica e problemas cognitivos, enquanto alopecia, tontura, alterações olfativas e mialgia ocorrem de forma menos persistente e costumam desaparecer com a evolução temporal",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -1439,7 +1439,7 @@
       "D": "Uso de beta2 agonista inalatório de longa duração, corticoide sistêmico, epinefrina e O²",
       "E": "Uso de beta2 agonista inalatório de curta ou longa duração, corticoide sistêmico, aminofilina e O²"
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Asma é uma doença inflamatória crônica que cursa com hiper-reatividade brônquica e obstrução reversível das vias aéreas, caracterizada por exacerbações de dispneia, tosse, opressão torácica e sibilos. A crise aguda de asma ocorre quando há uma piora significativa dos sintomas basais do paciente que usualmente requer mudança no tratamento habitual. Geralmente é desencadeada por infecções virais, exposição ocupacional ou a alérgenos ambientais",
     "n_alternativas": 5,
     "requer_imagem": false
@@ -1482,9 +1482,9 @@
     "id_origem": "clm_napisul2_2026_q001",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 1,
-    "enunciado": "Paciente masculino, 42 anos, procura atendimento médico por queixa de dores articulares em mãos e calcâneos. Relata piora da dor pela manhã, associada a rigidez articular matinal superior a 2 horas. Ao exame físico, observam-se lesões eritemato-descamativas crônicas em região retroauricular direita, pitting ungueal, sinovite em articulações interfalangianas proximais da mão esquerda, além de dor à palpação do tendão de Aquiles direito. Exames laboratoriais: FAN 1:80, padrão nuclear pontilhado fino denso (VR: negativo até 1:80); proteína C reativa (PCR) 5,6 mg/L (VR < 5,0 mg/L); velocidade de hemossedimentação (VHS) 42 mm/h (VR < 20 mm/h); fator reumatoide 18 (VR < 20 UI/mL). Assinale a hipótese diagnóstica mais provável e o tratamento inicial mais adequado: a) artrite psoriásic",
+    "enunciado": "Paciente masculino, 42 anos, procura atendimento médico por queixa de dores articulares em mãos e calcâneos. Relata piora da dor pela manhã, associada a rigidez articular matinal superior a 2 horas. Ao exame físico, observam-se lesões eritemato-descamativas crônicas em região retroauricular direita, pitting ungueal, sinovite em articulações interfalangianas proximais da mão esquerda, além de dor à palpação do tendão de Aquiles direito. Exames laboratoriais: FAN 1:80, padrão nuclear pontilhado fino denso (VR: negativo até 1:80); proteína C reativa (PCR) 5,6 mg/L (VR < 5,0 mg/L); velocidade de hemossedimentação (VHS) 42 mm/h (VR < 20 mm/h); fator reumatoide 18 (VR < 20 UI/mL). Assinale a hipótese diagnóstica mais provável e o tratamento inicial mais adequado:",
     "alternativas": {
-      "A": "",
+      "A": "artrite psoriásica",
       "B": "artrite reumatoide",
       "C": "osteoartrite de mãos e pés",
       "D": "lúpus eritematoso sistêmico",
@@ -1538,12 +1538,12 @@
       "A": "Iniciar trombólise venosa com alteplase",
       "B": "Manter observação clínica e repetir TC em 24h",
       "C": "Iniciar anticoagulação plena com heparina de baixo peso molecular",
-      "D": "Reduzir a PA rapidamente para valores dentro da faixa da normalidad",
-      "E": ""
+      "D": "Reduzir a PA rapidamente para valores dentro da faixa da normalidade",
+      "E": null
     },
     "gabarito": "A",
     "justificativa_oficial": "A) Correta. A trombólise com alteplase é indicada em pacientes com AVC isquêmico confirmado, sem sinais de hemorragia na TC e dentro da janela terapêutica de até 4h30 após o início dos sintomas. B) Errada. O paciente está dentro da janela terapêutica para trombólise (<4h30). A simples observação atrasaria tratamento eficaz. C) Errada. A anticoagulação plena não é indicada na fase aguda de AVC isquêmico, especialmente antes de excluir hemorragia ou confirmar fonte cardioembólica. D) Errada. Reduzir a PA de forma abrupta pode comprometer a perfusão cerebral; o controle da pressão é cuidadoso e só é indicado se >185x110 mmHg antes da trombólise OU 220x120mmHg se não for trombolisar",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
@@ -1567,9 +1567,9 @@
     "id_origem": "clm_napisul2_2026_q006",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 6,
-    "enunciado": "Sobre as diretrizes atuais do rastreamento do câncer do colo de útero no Brasil, assinale a alternativa correta: A) É recomendada a utilização de teste de DN",
+    "enunciado": "Sobre as diretrizes atuais do rastreamento do câncer do colo de útero no Brasil, assinale a alternativa corret",
     "alternativas": {
-      "A": "HPV oncogênico com genotipagem parcial como método de rastreamento primário",
+      "A": "É recomendada a utilização de teste de DNA-HPV oncogênico com genotipagem parcial como método de rastreamento primário",
       "B": "Homens transgênero não são contemplados na diretriz devido sua identidade biológica ao nascimento",
       "C": "As recomendações das diretrizes são aplicáveis tanto para casos sintomáticos quanto para casos assintomáticos, aumentando sua sensibilidade diagnóstica e sua eficácia",
       "D": "É recomendada a realização de citologia simultaneamente ao teste de DNA-HPV oncogênico",
@@ -1601,9 +1601,9 @@
     "id_origem": "clm_napisul2_2026_q008",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 8,
-    "enunciado": "A rinite alérgica é caracterizada por prurido nasal, espirros, rinorreia e obstrução nasal. Em sua forma persistente moderada a grave, pode exigir terapias além do controle farmacológico sintomático. Considerando as estratégias capazes de modificar a história natural da doença e promover benefício clínico sustentado após o término do tratamento, indique a alternativa que está mais alinhada com as recomendações terapêuticas atuais: a) Imunoterapia específica (sublingual ou subcutâne",
+    "enunciado": "A rinite alérgica é caracterizada por prurido nasal, espirros, rinorreia e obstrução nasal. Em sua forma persistente moderada a grave, pode exigir terapias além do controle farmacológico sintomático. Considerando as estratégias capazes de modificar a história natural da doença e promover benefício clínico sustentado após o término do tratamento, indique a alternativa que está mais alinhada com as recomendações terapêuticas atuais:",
     "alternativas": {
-      "A": ", capaz de induzir tolerância imunológica e reduzir sintomas",
+      "A": "Imunoterapia específica (sublingual ou subcutânea), capaz de induzir tolerância imunológica e reduzir sintomas",
       "B": "Antihistamínicos de primeira geração — preferidos pelo maior efeito anti-inflamatório sustentado",
       "C": "Corticoides sistêmicos diários — recomendados como base terapêutica contínua",
       "D": "Antibióticos de amplo espectro prolongados — indicados para controle inflamatório crônico",
@@ -1622,8 +1622,8 @@
     "alternativas": {
       "A": "Síndrome gripal com suspeita de COVID-19; orientar isolamento domiciliar, realizar teste diagnóstico e tratamento sintomático, com vigilância de sinais de gravidade",
       "B": "Síndrome gripal sem suspeita de COVID-19; prescrever sintomáticos e liberar sem isolamento",
-      "C": "Síndrome Respiratória Aguda Grave; indicar internação hospitalar e iniciar corticoterapia sistêmica. D) COVI",
-      "D": "19 confirmado; iniciar anticoagulação profilática ambulatorial devido à presença de fator de risco cardiovascular",
+      "C": "Síndrome Respiratória Aguda Grave; indicar internação hospitalar e iniciar corticoterapia sistêmica",
+      "D": "COVID-19 confirmado; iniciar anticoagulação profilática ambulatorial devido à presença de fator de risco cardiovascular",
       "E": null
     },
     "gabarito": "A",
@@ -1635,9 +1635,9 @@
     "id_origem": "clm_napisul2_2026_q010",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 10,
-    "enunciado": "Homem de 62 anos, com diagnóstico prévio de doença arterial coronariana, apresenta angina CCS III apesar de uso regular de betabloqueador e nitrato. Teste ergométrico mostra infra de ST de 2 mm em múltiplas derivações com baixa carga de esforço. Ecocardiograma revela FE 55%.Qual exame complementar é mais adequado para definir necessidade de revascularização? A) Cineangiocoronariografia diagnóstic",
+    "enunciado": "Homem de 62 anos, com diagnóstico prévio de doença arterial coronariana, apresenta angina CCS III apesar de uso regular de betabloqueador e nitrato. Teste ergométrico mostra infra de ST de 2 mm em múltiplas derivações com baixa carga de esforço. Ecocardiograma revela FE 55%.Qual exame complementar é mais adequado para definir necessidade de revascularização?",
     "alternativas": {
-      "A": "",
+      "A": "Cineangiocoronariografia diagnóstica",
       "B": "Ajustar tratamento via oral com outros anti-anginosos e repetir teste ergométrico em 3 meses",
       "C": "Ajustar nitrato via oral e solicitar cintilografia de perfusão miocárdica para confirmação diagnóstica",
       "D": "Solicitar RMN de perfusão miocárdica, antes de otimizar tratamento",
@@ -1652,9 +1652,9 @@
     "id_origem": "clm_napisul2_2026_q011",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 11,
-    "enunciado": "Homem de 45 anos, IMC 33 kg/m², PA 150/92 mmHg confirmada por MAPA. Glicemia de jejum 118 mg/dL (VR <100). Microalbuminúria 120 mg/g (VR <30).Qual estratégia terapêutica inicial reduz risco cardiovascular e progressão de lesão renal? A) Iniciar bloqueador do sistema renina-angiotensina associado a mudanças intensivas de estilo de vid",
+    "enunciado": "Homem de 45 anos, IMC 33 kg/m², PA 150/92 mmHg confirmada por MAPA. Glicemia de jejum 118 mg/dL (VR <100). Microalbuminúria 120 mg/g (VR <30).Qual estratégia terapêutica inicial reduz risco cardiovascular e progressão de lesão renal?",
     "alternativas": {
-      "A": "",
+      "A": "Iniciar bloqueador do sistema renina-angiotensina associado a mudanças intensivas de estilo de vida",
       "B": "Prescrever dieta hipossódica, iniciar diurético tiazídico e reavaliar em 30 dias",
       "C": "Iniciar betabloqueador e metformina. Reavaliar em 2 semanas",
       "D": "Indicar modificação intensiva no estilo de vida e reavaliar em 30 dias",
@@ -1686,9 +1686,9 @@
     "id_origem": "clm_napisul2_2026_q013",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 13,
-    "enunciado": "Uma mulher de 24 anos, previamente hígida, procura atendimento por disúria, polaciúria e urgência miccional há 2 dias. Nega febre, dor lombar, náuseas ou corrimento vaginal. Ao exame físico apresenta bom estado geral, afebril e sem dor à punho-percussão lombar. EAS mostra leucocitúria e nitrito positivo. Não há comorbidades nem uso recente de antibióticos. Considerando o diagnóstico mais provável e a conduta baseada em evidências, assinale a alternativa correta: A) O quadro é compatível com cistite aguda não complicada, podendo ser iniciado tratamento empírico sem necessidade de urocultur",
+    "enunciado": "Uma mulher de 24 anos, previamente hígida, procura atendimento por disúria, polaciúria e urgência miccional há 2 dias. Nega febre, dor lombar, náuseas ou corrimento vaginal. Ao exame físico apresenta bom estado geral, afebril e sem dor à punho-percussão lombar. EAS mostra leucocitúria e nitrito positivo. Não há comorbidades nem uso recente de antibióticos. Considerando o diagnóstico mais provável e a conduta baseada em evidências, assinale a alternativa corret",
     "alternativas": {
-      "A": "",
+      "A": "O quadro é compatível com cistite aguda não complicada, podendo ser iniciado tratamento empírico sem necessidade de urocultura",
       "B": "Toda infecção urinária deve ser confirmada por urocultura antes do início de antibióticos",
       "C": "A presença de nitrito positivo indica obrigatoriamente pielonefrite",
       "D": "O tratamento deve ser intravenoso devido ao risco elevado de bacteremia",
@@ -1745,7 +1745,7 @@
       "D": "Não concorda e orienta K endovenoso após a primeira hora de hidratação",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Segundo a Diretriz da Sociedade Brasileira de Diabetes (SBD), no tratamento da CAD: A insulinoterapia NÃO deve ser iniciada quando o potássio sérico está < 3,3 mEq/L, pois a insulina desloca potássio para dentro da célula, podendo precipitar arritmias fatais. A diretriz também reforça que: Antes da insulina, deve-se realizar hidratação vigorosa com solução isotônica para expansão volêmica. Em seguida, deve-se administrar potássio EV até que o K seja ≥ 3,3 mEq/L. Apenas depois disso, inicia-se insulina regular EV em infusão contínua",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -1830,7 +1830,7 @@
       "D": "Apenas IMC 30 possui indicação para tratamento farmacológico",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Segundo o Posicionamento SBEM/ABESO (2024) e a Diretriz Brasileira para o Tratamento Farmacológico da Obesidade (2025), o tratamento medicamentoso está indicado para: IMC ≥ 30 kg/m², independentemente de comorbidades; ou IMC ≥ 27 kg/m² associado a pelo menos uma comorbidade, como hipertensão, diabetes tipo 2, apneia do sono ou MASLD. Este paciente tem IMC de 28 kg/m² e duas comorbidades (hipertensão e MASLD), além de falha comprovada de abordagem comportamental, preenchendo integralmente o critério formal para farmacoterapia",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -1907,17 +1907,17 @@
     "id_origem": "clm_napisul2_2026_q026",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 26,
-    "enunciado": "As dislipidemias estão intimamente relacionadas ao desenvolvimento da aterosclerose e da doença cardiovascular. Considerando os conceitos básicos do metabolismo lipídico, assinale a alternativa correta: A) O LDL-colesterol é a principal lipoproteína responsável pelo transporte de colesterol do fígado para os tecidos periféricos e está diretamente envolvido na formação da placa aterosclerótic",
+    "enunciado": "As dislipidemias estão intimamente relacionadas ao desenvolvimento da aterosclerose e da doença cardiovascular. Considerando os conceitos básicos do metabolismo lipídico, assinale a alternativa corret",
     "alternativas": {
-      "A": "",
+      "A": "O LDL-colesterol é a principal lipoproteína responsável pelo transporte de colesterol do fígado para os tecidos periféricos e está diretamente envolvido na formação da placa aterosclerótica",
       "B": "O HDL-colesterol apresenta associação inversa com o risco cardiovascular principalmente como marcador epidemiológico, sem participação direta nos mecanismos biológicos de proteção contra a aterosclerose",
       "C": "Os triglicerídeos circulam no plasma predominantemente em forma livre, estando sua relevância clínica mais relacionada ao contexto metabólico em que se inserem do que a um papel aterogênico direto",
-      "D": "As lipoproteínas participam do transporte de lipídios tanto da dieta quanto da síntese endógena, sendo as partículas de origem dietética as mais diretamente relacionadas ao desenvolvimento da ateroscleros",
-      "E": ""
+      "D": "As lipoproteínas participam do transporte de lipídios tanto da dieta quanto da síntese endógena, sendo as partículas de origem dietética as mais diretamente relacionadas ao desenvolvimento da aterosclerose",
+      "E": null
     },
     "gabarito": "A",
     "justificativa_oficial": "A alternativa correta descreve adequadamente o papel central do LDL-colesterol no transporte de colesterol aos tecidos periféricos e sua participação direta na aterogênese. A alternativa B reflete um erro conceitual comum ao reduzir o HDL-colesterol a um marcador epidemiológico, desconsiderando sua atuação no transporte reverso do colesterol e em mecanismos antiaterogênicos.A alternativa C é plausível, porém incorreta, pois os triglicerídeos circulam majoritariamente associados a lipoproteínas (quilomícrons e VLDL), e seus remanescentes têm participação no processo aterosclerótico.A alternativa D reconhece corretamente as vias exógena e endógena do metabolismo lipídico, mas erra ao atribuir maior relevância aterogênica às partículas de origem dietética, quando as lipoproteínas endógenas, especialmente o LDL, têm papel central",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
@@ -1949,7 +1949,7 @@
       "D": "Enterococcus faecium; inibição da síntese de ácido fólico",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "O perfil laboratorial (cocos em cadeias, catalase negativa e gama-hemolíticos) identifica o gênero Enterococcus. Os beta-lactâmicos atuam ligando-se às PBPs e impedindo a transpeptidação (formação de pontes cruzadas no peptideoglicano). S. pyogenes é beta-hemolítico. A síntese de DNA é alvo de quinolonas. S. aureus é catalase positiva e coagulase positiva. O alvo das sulfas é o ácido fólico",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -1966,7 +1966,7 @@
       "D": "Integração ao DNA do hospedeiro",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Os inibidores da protease impedem a clivagem das poliproteínas Gag-Pol, o que bloqueia a maturação do vírus, resultando em partículas imaturas e não infecciosas. A adsorção é bloqueada por antagonistas de CCR5 (ex: Maraviroc). A transcrição reversa é o alvo dos ITRN/ITRNN (ex: Tenofovir). A integração é o alvo dos inibidores da integrase (ex: Dolutegravir)",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -1983,7 +1983,7 @@
       "D": "Rutura da membrana citoplasmática bacteriana",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Os macrolídeos inibem a síntese proteica bacteriana ao se ligarem à subunidade 50S, impedindo a translocação do peptídeo. Inibição da síntese da parede celular é alvo das penicilinas e cefalosporinas. Inibição da enzima DNA-girase é alvo das quinolonas (ex: Ciprofloxacina) e Rutura da membrana citoplasmática bacteriana é alvo da daptomicina ou polimixinas",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -1992,15 +1992,15 @@
     "id_origem": "clm_napisul2_2026_q031",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 31,
-    "enunciado": "Um homem de 30 anos apresenta um exantema maculopapular que atinge as palmas das mãos e as plantas dos pés. Ele relata ter apresentado uma úlcera genital indolor que cicatrizou espontaneamente há cerca de 2 meses. O teste VDRL atual é de 1:64. Qual é a classificação correta desta fase da infecção e o tratamento recomendado? A) Sífilis Secundária; Penicilina Benzatínica 2,4M UI em dose únic",
+    "enunciado": "Um homem de 30 anos apresenta um exantema maculopapular que atinge as palmas das mãos e as plantas dos pés. Ele relata ter apresentado uma úlcera genital indolor que cicatrizou espontaneamente há cerca de 2 meses. O teste VDRL atual é de 1:64. Qual é a classificação correta desta fase da infecção e o tratamento recomendado?",
     "alternativas": {
-      "A": "",
+      "A": "Sífilis Secundária; Penicilina Benzatínica 2,4M UI em dose única",
       "B": "Sífilis Primária; Penicilina Cristalina em dose única",
       "C": "Sífilis Latente; Penicilina Benzatínica 7,2M UI (3 doses semanais)",
       "D": "Sífilis Secundária; Penicilina Cristalina por via intravenosa",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "O exantema palmo-plantar após a cicatrização de uma úlcera indolor (cancro) define a sífilis secundária. O tratamento preconizado é dose única de 2,4 milhões de UI de Penicilina Benzatina. A fase primária é caracterizada pela presença do cancro ativo. A dose tripla (7,2M UI) é para sífilis latente tardia ou de duração indeterminada. Penicilina cristalina IV é o padrão-ouro apenas para Neurossífilis",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -2230,17 +2230,17 @@
     "id_origem": "clm_napisul2_2026_q045",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 45,
-    "enunciado": "No artigo 1º do Código de Ética Médica, destaca-se que é vedado ao médico causar dano ao paciente, por ação ou omissão, caracterizável como imperícia, imprudência ou negligência. Identifique qual o princípio bioético, dentre as alternativas abaixo, que o referido artigo abrange: A) Não-maleficênci",
+    "enunciado": "No artigo 1º do Código de Ética Médica, destaca-se que é vedado ao médico causar dano ao paciente, por ação ou omissão, caracterizável como imperícia, imprudência ou negligência. Identifique qual o princípio bioético, dentre as alternativas abaixo, que o referido artigo abrange:",
     "alternativas": {
-      "A": "",
+      "A": "Não-maleficência",
       "B": "Beneficência",
       "C": "Autonomia",
-      "D": "Equidad",
-      "E": ""
+      "D": "Equidade",
+      "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "A não-maleficência é um dos pilares da prática médica, orientando o médico a evitar condutas que possam trazer prejuízos físicos, psíquicos, morais ou sociais aos pacientes. Trata-se de um dos principais baluartes éticos preconizados pelo Código de Ética Médica do Conselho Federal de Medicina, juntamente com Beneficência, Autonomia e Justiça",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
@@ -2264,15 +2264,15 @@
     "id_origem": "clm_napisul2_2026_q047",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 47,
-    "enunciado": "Mulher, 30 anos, previamente hígida, procurou atendimento após apresentar sangramento nasal espontâneo e gengivorragia ao escovar os dentes. Não havia história de uso de anticoagulantes ou antiagregantes plaquetários. O exame físico revelou petéquias nos membros inferiores. Assinale a alternativa cujo mecanismo fisiopatológico justifica o quadro apresentado. a) Trombocitopeni",
+    "enunciado": "Mulher, 30 anos, previamente hígida, procurou atendimento após apresentar sangramento nasal espontâneo e gengivorragia ao escovar os dentes. Não havia história de uso de anticoagulantes ou antiagregantes plaquetários. O exame físico revelou petéquias nos membros inferiores. Assinale a alternativa cujo mecanismo fisiopatológico justifica o quadro apresentado",
     "alternativas": {
-      "A": "",
+      "A": "Trombocitopenia",
       "B": "Coagulação intravascular disseminada",
       "C": "Deficiência de fator VIII",
       "D": "Deficiência de vitamina K",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Os principais sinais e sintomas causados ​​por um quadro de trombocitopenia (plaquetopenia) incluem o surgimento de petéquias, púrpuras, equimoses, sangramento de mucosas (como gengivorragia). O número de plaquetas no sangue varia entre 150.000 e 350.000/mm3; se este número cai para 50.000/mm³ o paciente apresentará uma tendência hemorrágica, e quando o número é inferior a 20.000 por mm³ o sangramento pode ocorrer espontaneamente",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -2284,8 +2284,8 @@
     "enunciado": "Um homem de 67 anos, diabético há 10 anos, com histórico de cálculo renal, dá entrada no pronto-socorro com febre (38,8 °C), confusão mental, dor lombar esquerda e vômitos há 48 horas. Ao exame físico, apresenta PA 90/55 mmHg, FC 112 bpm e sinal de Giordano à esquerda. Exames laboratoriais iniciais mostram leucocitose, creatinina em 2,5mg/dL e extremidades frias. Com base em seu conhecimento, identifique a melhor conduta inicial",
     "alternativas": {
       "A": "Iniciar antibioticoterapia empírica intravenosa imediata, colher culturas e solicitar TC de abdome sem contraste",
-      "B": "Iniciar analgesia intravenosa e solicitar TC de abdome sem contraste para avaliar a posição do cálculo urinário. c) Solicitar urocultura e aguardar o resultado para então escolher o antibiótico com a menor Concentração Inibitória Mínima (MI",
-      "C": "",
+      "B": "Iniciar analgesia intravenosa e solicitar TC de abdome sem contraste para avaliar a posição do cálculo urinário",
+      "C": "Solicitar urocultura e aguardar o resultado para então escolher o antibiótico com a menor Concentração Inibitória Mínima (MIC)",
       "D": "Tratar ambulatorialmente com terapia expulsiva de cálculo urinário oral após 24 horas de estabilização clínica no pronto-socorro",
       "E": null
     },
@@ -2306,7 +2306,7 @@
       "D": "Iniciar imediatamente tratamento farmacológico anti-hipertensivo sem mais avaliações",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Segundo a Diretriz Brasileira de Hipertensão Arterial – 2025, o diagnóstico de hipertensão arterial pode ser feito com valores de PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg em pelo menos duas consultas, desde que as medidas sejam concordantes, Quando há medidas discordantes entre consultas, como neste caso (uma medida acima do normal, e outra normal), não é possível confirmar nem excluir o diagnóstico apenas com medidas de consultório. Nessas situações, a diretriz recomenda o uso de medidas fora do consultório, por MRPA ou MAPA",
     "n_alternativas": 4,
     "requer_imagem": false
@@ -2388,12 +2388,12 @@
       "A": "A decisão terapêutica neste caso, por se tratar de paciente com comorbidades graves e irreversíveis, leva em consideração a qualidade de vida e o princípio de não maleficência, sendo a opção de não intubar e não levar para UTI a mais correta",
       "B": "Por se tratar de uma pessoa idosa, esta teria preferência na solicitação de leito de UTI e intubação, a fim de prevalecer o princípio da equidade, sendo que, caso não seja submetida aos procedimentos adequados, poderia ser considerado um caso de etarismo",
       "C": "Caso a paciente não seja intubada e levada para UTI, pode-se considerar uma eutanásia e negligência médica, pois sem este tratamento a paciente encontrará um desfecho fatal, o que fere o princípio de justiça e beneficência",
-      "D": "Visto a autonomia estar comprometida pela demência, dev",
-      "E": "se priorizar o princípio da beneficência e não realizar a intubação e transferência para UTI, desde que a paciente tenha previamente uma Diretiva Antecipada de Vontade que dê respaldo à equipe médica"
+      "D": "Visto a autonomia estar comprometida pela demência, deve-se priorizar o princípio da beneficência e não realizar a intubação e transferência para UTI, desde que a paciente tenha previamente uma Diretiva Antecipada de Vontade que dê respaldo à equipe médica",
+      "E": null
     },
     "gabarito": "A",
     "justificativa_oficial": "b) A idade cronológica não deve ser marcador para tomada de decisão, e sim a funcionalidade. A equidade não prevê tratar todos da mesma maneira, mas sim tratar de forma individualizada os diferentes para que atinjam uma mesma meta. c) Eutanásia seria encurtar a vida e causar a morte através de um procedimento/medicamento, fato que não se enquadra neste caso. Aqui deveria ser considerado uma distanásia, que é prolongar de forma artificial a vida um paciente sem chance de cura. Também não seria negligência pois não houve omissão nem descuido por parte dos médicos, pois continuarão a cuidar da paciente mesmo sem os procedimentos invasivos. A paciente já teria um desfecho fatal em decorrência das próprias comorbidades, submetê-la a procedimentos invasivos não iriam reverter o quadro. d) a não intubação e não transferência para UTI se enquadra no princípio de não maleficência, e não é obrigatório DAV para respaldar uma decisão que poderia ocasionar uma distanásia na paciente",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
@@ -2422,12 +2422,12 @@
       "A": "Não solicitar exame de imagem neste momento, orientar manutenção das atividades e iniciar anti-inflamatório não esteroidal por curto período associado a abordagem terapêutica multimodal",
       "B": "Solicitar ressonância magnética da coluna lombar para investigar causa estrutural da dor, prescrever ciclo curto de anti-inflamatório não esteroidal e encaminhar para avaliação especializada após realização do exame",
       "C": "Solicitar radiografia da coluna lombar considerando a duração dos sintomas, prescrever analgésicos simples e orientar redução temporária das atividades físicas até melhora do quadro",
-      "D": "Prescrever relaxante muscular associado a opioide fraco por curto período, recomendar repouso relativo e reavaliar necessidade de exames posteriorment",
-      "E": ""
+      "D": "Prescrever relaxante muscular associado a opioide fraco por curto período, recomendar repouso relativo e reavaliar necessidade de exames posteriormente",
+      "E": null
     },
     "gabarito": "A",
     "justificativa_oficial": "A maioria dos casos de lombalgia atendidos na atenção primária corresponde à lombalgia inespecífica, condição em que exames de imagem não são indicados na ausência de sinais de alarme. Neste caso, o paciente apresenta lombalgia com três semanas de evolução, sem red flags como febre, perda ponderal, história prévia de câncer, trauma significativo, déficit neurológico ou sinais de síndrome da cauda equina. A avaliação com o STarT Back Screening Tool demonstra alto risco de cronificação, devido à pontuação elevada na subescala psicossocial. Nesses casos, recomenda-se uma abordagem terapêutica estratificada, que inclui educação do paciente, manutenção das atividades habituais, uso de anti-inflamatório não esteroidal por curto período quando necessário e intervenções multimodais com atenção aos fatores psicossociais associados à dor. A alternativa “a” está correta por contemplar essas recomendações. As alternativas “c” e “b” estão incorretas por indicarem exames de imagem sem presença de sinais de alarme ou déficit neurológico. A alternativa “d” está incorreta por indicar opioide precocemente e recomendar repouso relativo, condutas que não são recomendadas no manejo inicial da lombalgia inespecífica",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
@@ -2587,51 +2587,51 @@
     "id_origem": "clm_napisul2_2026_q066",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 66,
-    "enunciado": "Homem, 42 anos, procura consulta de rotin",
+    "enunciado": "Homem, 42 anos, procura consulta de rotina. Nega comorbidades, não fuma, pratica atividade física ocasionalmente. IMC: 26 kg/m². Sem história familiar de doença cardiovascular precoce. Pressão arterial medida corretamente em duas consultas: 138 x 84 mmHg 136 x 86 mmHg Exames laboratoriais normais. Risco cardiovascular global estimado: baixo. Qual a classificação e a conduta mais adequada? Pré-hipertensão e tratamento apenas com medidas de estilo de vidaB) Pré-Hipertensão e iniciar IECA C) Hipertensão estágio 1 e iniciar diurético tiazídicoD) Hipertensão mascarada e solicitar MAPA imediatamente",
     "alternativas": {
-      "A": "Nega comorbidades, não fuma, pratica atividade física ocasionalmente. IMC: 26 kg/m². Sem história familiar de doença cardiovascular precoce. Pressão arterial medida corretamente em duas consultas: 138 x 84 mmHg 136 x 86 mmHg Exames laboratoriais normais. Risco cardiovascular global estimado: baixo. Qual a classificação e a conduta mais adequada? Pré-hipertensão e tratamento apenas com medidas de estilo de vida",
-      "B": "Pré-Hipertensão e iniciar IECA",
-      "C": "Hipertensão estágio 1 e iniciar diurético tiazídico",
-      "D": "Hipertensão mascarada e solicitar MAPA imediatamente",
+      "A": null,
+      "B": null,
+      "C": null,
+      "D": null,
       "E": null
     },
     "gabarito": "A",
     "justificativa_oficial": "A nova Diretriz Brasileira de Hipertensão Arterial (2025) define: PA 130–139 x 85–89 mmHg → Pré-hipertensão (ou PA elevada) Pacientes de baixo risco cardiovascular → NÃO recebem farmacoterapia inicial Conduta:intervenção não farmacológica isolada (MEV): redução de peso atividade física regular redução de sódio moderação alcoólica dieta DASH Quem deve iniciar fármaco? Hipertensos estágio 1 com risco cardiovascular moderado/alto Qualquer hipertensão estágio ≥2 Doença cardiovascular estabelecida Diabetes, DRC ou lesão de órgão-alvo",
-    "n_alternativas": 4,
+    "n_alternativas": 0,
     "requer_imagem": false
   },
   {
     "id_origem": "clm_napisul2_2026_q067",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 67,
-    "enunciado": "Homem, 63 anos, DRC estágio 4, chega ao pronto atendimento com fraqueza muscular.ECG: ondas T apiculadas difusas. Laboratório:",
+    "enunciado": "Homem, 63 anos, DRC estágio 4, chega ao pronto atendimento com fraqueza muscular.ECG: ondas T apiculadas difusas. Laboratório: K⁺ = 6,6 mEq/L Creatinina = 3,2 mg/dL pH = 7,31 Qual a melhor abordagem terapêutica inicial?",
     "alternativas": {
-      "A": "K⁺ = 6,6 mEq/L",
-      "B": "Creatinina = 3,2 mg/dL",
-      "C": "pH = 7,31",
-      "D": "Gluconato de cálcio EV, insulina Regular com glicose e ciclossilicato de zircônio sódico",
-      "E": "Gluconato de cálcio EV, insulina NPH com glicose e beta-agonista inalatório"
+      "A": "Gluconato de cálcio EV, insulina Regular com glicose e ciclossilicato de zircônio sódico",
+      "B": "Gluconato de cálcio EV, insulina NPH com glicose e beta-agonista inalatório",
+      "C": "Furosemida EV, hidratação venosa vigorosa e hemodiálise",
+      "D": "Bicarbonato de sódio EV isoladamente, Resina de troca catiônica oral e restrição de potássio",
+      "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Paciente com hipercalemia grave + alteração eletrocardiográfica → emergência médica. Tratamento recomendado (KDIGO): Estabilização de membrana Gluconato de cálcio EV Deslocamento intracelular do potássio Insulina + glicose Beta-agonista (opcional) Remoção de potássio do organismo Ciclossilicato de zircônio sódico (SZC)(opção atual preferida em relação às resinas antigas) Bicarbonato isolado não trata adequadamente.Resina de poliestirenossulfonato tem ação tardia e risco gastrointestinal",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
     "id_origem": "clm_napisul2_2026_q068",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 68,
-    "enunciado": "Mulher, 58 anos, DM2 há 12 anos, HbA1c 8,1%. Uso atual: metformina 2 g/dia e IECA. Exames:",
+    "enunciado": "Mulher, 58 anos, DM2 há 12 anos, HbA1c 8,1%. Uso atual: metformina 2 g/dia e IECA. Exames: TFG: 58 ml/min Albuminúria: 420 mg/g PA: 134x82 mmHg Qual a melhor estratégia visando proteção renal e controle glicêmico?",
     "alternativas": {
-      "A": "TFG: 58 ml/min",
-      "B": "Albuminúria: 420 mg/g",
-      "C": "PA: 134x82 mmHg",
-      "D": "Associar inibidor de SGLT2",
-      "E": "Iniciar insulina basal"
+      "A": "Associar inibidor de SGLT2",
+      "B": "Iniciar insulina basal",
+      "C": "Suspender metformina",
+      "D": "Acrescentar sulfoniluréia",
+      "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "Paciente com: DM2 DRC (albuminúria significativa) Tratamento atual padrão (ADA + KDIGO):✔ SGLT2 inhibitor = terapia de primeira linha para proteção renal✔ IECA/BRA = reduzir progressão da nefropatia O benefício do SGLT2: reduz progressão da DRC reduz necessidade de diálise reduz mortalidade cardiovascular Insulina controla glicose, mas não protege rim",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
@@ -2711,12 +2711,12 @@
       "A": "O quadro é compatível com hipocalcemia decorrente de lesão ou comprometimento vascular das paratireoides durante a tireoidectomia, o que é mais comum quando o procedimento é realizado por doença de Graves",
       "B": "O sinal de Trousseau corresponde à contração do ângulo labial à percussão do nervo facial e apresenta elevada especificidade diagnóstica por ocorrer em pequena parcela de indivíduos sem hipocalcemia",
       "C": "A conduta inicial deve priorizar a confirmação laboratorial da hipocalcemia antes de qualquer intervenção terapêutica, independentemente da presença de manifestações clínicas sugestivas",
-      "D": "O tratamento da hipocalcemia sintomática deve ser realizado com infusão contínua de citrato de cálcio, com cálculo da dose baseado no peso corporal da pacient",
-      "E": "Deve-se monitorar o ritmo cardíaco com ECG durante a infusão"
+      "D": "O tratamento da hipocalcemia sintomática deve ser realizado com infusão contínua de citrato de cálcio, com cálculo da dose baseado no peso corporal da paciente. Deve-se monitorar o ritmo cardíaco com ECG durante a infusão",
+      "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": "b. Incorreta. A descrição corresponde ao sinal de Chvostek, não ao sinal de Trousseau. O sinal de Trousseau é desencadeado pela insuflação do manguito de pressão arterial, provocando espasmo carpopedal em contexto de hipocalcemia. c. Incorreta. Na presença de sinais clínicos sugestivos de hipocalcemia sintomática, a reposição de cálcio endovenoso pode ser iniciada concomitantemente à investigação laboratorial, especialmente diante de manifestações neuromusculares evidentes. d. Incorreta. O tratamento de escolha é a administração endovenosa lenta de gluconato de cálcio a 10%, e não citrato de cálcio. A dose inicial não é calculada exclusivamente com base no peso corporal, mas conforme gravidade clínica e níveis séricos de cálcio",
-    "n_alternativas": 5,
+    "n_alternativas": 4,
     "requer_imagem": false
   },
   {
@@ -2910,9 +2910,9 @@
     "id_origem": "clm_napisul2_2026_q085",
     "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
     "num": 85,
-    "enunciado": "Paciente de 68 anos, com diagnóstico de Insuficiência Cardíaca com Fração de Ejeção Reduzida (ICFEr - FE: 32%) de etiologia isquêmica, em acompanhamento ambulatorial. Atualmente em classe funcional NYHA II, faz uso de Enalapril 20mg 12/12h, Carvedilol 25mg 12/12h e Espironolactona 25mg/dia. Exames laboratoriais recentes mostram Creatinina: 1,1 mg/dL e Potássio: 4,2 mEq/L. De acordo com as diretrizes atuais para redução de mortalidade e hospitalização, qual a conduta farmacológica mais adequada a ser adicionada ao esquema terapêutico? a) Iniciar Inibidor do Cotransportador Sódio-Glicose 2 (iSGLT2), como a Dapagliflozina ou Empagliflozin",
+    "enunciado": "Paciente de 68 anos, com diagnóstico de Insuficiência Cardíaca com Fração de Ejeção Reduzida (ICFEr - FE: 32%) de etiologia isquêmica, em acompanhamento ambulatorial. Atualmente em classe funcional NYHA II, faz uso de Enalapril 20mg 12/12h, Carvedilol 25mg 12/12h e Espironolactona 25mg/dia. Exames laboratoriais recentes mostram Creatinina: 1,1 mg/dL e Potássio: 4,2 mEq/L. De acordo com as diretrizes atuais para redução de mortalidade e hospitalização, qual a conduta farmacológica mais adequada a ser adicionada ao esquema terapêutico?",
     "alternativas": {
-      "A": "",
+      "A": "Iniciar Inibidor do Cotransportador Sódio-Glicose 2 (iSGLT2), como a Dapagliflozina ou Empagliflozina",
       "B": "Substituir Enalapril por Hidralazina e Nitrato de Isossorbida",
       "C": "Adicionar Digoxina para controle de sintomas e redução de remodelamento",
       "D": "Iniciar Varfarina devido à etiologia isquêmica e baixa fração de ejeção",

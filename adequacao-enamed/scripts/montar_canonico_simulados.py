@@ -132,7 +132,8 @@ def montar(rec, e):
 
 
 def main():
-    extr = {r["id_origem"]: r for r in json.load(open(EXTR, encoding="utf-8"))}
+    extr = {r["id_origem"]: r for r in json.load(open(EXTR, encoding="utf-8"))
+            if not r.get("descartada")}
     enr = {}
     for f in sorted(glob.glob(os.path.join(ENR_DIR, "parte_*.json"))):
         for item in json.load(open(f, encoding="utf-8")):

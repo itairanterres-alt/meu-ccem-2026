@@ -66,16 +66,35 @@ def norm(s):
     return s.upper().strip()
 
 
+def _negrito(run):
+    b = run.find(W + 'rPr/' + W + 'b')
+    if b is None:
+        return False
+    return b.get(W + 'val') not in ('0', 'false', 'none')
+
+
 def ler_paragrafos(path):
-    """Retorna lista de dicts {texto, lista, imagem} na ordem do documento."""
+    """Retorna lista de dicts {texto, negrito(mascara), lista, imagem}."""
     z = zipfile.ZipFile(path)
     root = ET.fromstring(z.read('word/document.xml'))
     out = []
     for p in root.iter(W + 'p'):
-        texto = ''.join(t.text or '' for t in p.iter(W + 't'))
-        lista = p.find(W + 'pPr/' + W + 'numPr') is not None
-        imagem = p.find('.//' + A + 'blip') is not None
-        out.append({'texto': texto.strip(), 'lista': lista, 'imagem': imagem})
+        texto, mascara = '', []
+        for r in p.iter(W + 'r'):
+            t = ''.join(x.text or '' for x in r.iter(W + 't'))
+            if not t:
+                continue
+            texto += t
+            mascara += [_negrito(r)] * len(t)
+        # normaliza espacos das bordas mantendo a mascara alinhada
+        i, j = 0, len(texto)
+        while i < j and texto[i].isspace():
+            i += 1
+        while j > i and texto[j - 1].isspace():
+            j -= 1
+        out.append({'texto': texto[i:j], 'negrito': mascara[i:j],
+                    'lista': p.find(W + 'pPr/' + W + 'numPr') is not None,
+                    'imagem': p.find('.//' + A + 'blip') is not None})
     return out
 
 
@@ -99,28 +118,33 @@ def extrair_imagens(path, slug):
 # --------------------------------------------------------------------------- #
 # alternativas
 # --------------------------------------------------------------------------- #
-def _marcador(letra):
-    """Regex de um marcador de alternativa: a) A) (a) (A) a. A. a- ..."""
-    return re.compile(r'\(?\s*[' + letra + letra.lower() + r']\s*[\)\.\-–:]\s*')
-
-
-def achar_marcadores(texto):
+def _marcador(letra, modo):
     """
-    Localiza os marcadores A..E ancorando no ultimo 'D' plausivel e caminhando
-    para tras (C, B, A) e depois para frente (E). Isso evita casar com um 'A.'
-    solto dentro do enunciado.
+    Regex de um marcador de alternativa.
 
-    Retorna lista [(letra, ini, fim)] ou [] se nao encontrar pelo menos A-C.
+    modo 'estrito': o marcador comeca a linha (caso normal, uma alternativa
+        por paragrafo) e aceita ')' '.' '-' ':' como delimitador.
+    modo 'frouxo': o marcador pode estar colado ao texto anterior (alternativas
+        concatenadas num unico paragrafo) mas so aceita ')', para nao casar com
+        o 'a.' final de palavras como "psoriasica.".
     """
+    par = '[' + letra + letra.lower() + ']'
+    if modo == 'estrito':
+        return re.compile(r'(?:(?<=\n)|(?<=^)|(?<=\s))\(?\s*' + par +
+                          r'\s*[\)\.\-–:]\s*')
+    return re.compile(r'\(?\s*' + par + r'\s*\)\s*')
+
+
+def _varrer(texto, modo):
+    """Ancora no ultimo 'D' (ou 'C') plausivel e caminha para tras e p/ frente."""
     for ancora in ('D', 'C'):
-        cands = [m for m in _marcador(ancora).finditer(texto)]
+        cands = list(_marcador(ancora, modo).finditer(texto))
         for m_anc in reversed(cands):
             posicoes = {ancora: (m_anc.start(), m_anc.end())}
             ok = True
-            # para tras
             limite = m_anc.start()
             for letra in reversed(LETRAS[:LETRAS.index(ancora)]):
-                anteriores = [m for m in _marcador(letra).finditer(texto, 0, limite)]
+                anteriores = list(_marcador(letra, modo).finditer(texto, 0, limite))
                 if not anteriores:
                     ok = False
                     break
@@ -129,10 +153,9 @@ def achar_marcadores(texto):
                 limite = m.start()
             if not ok:
                 continue
-            # para frente
             limite = m_anc.end()
             for letra in LETRAS[LETRAS.index(ancora) + 1:]:
-                m = _marcador(letra).search(texto, limite)
+                m = _marcador(letra, modo).search(texto, limite)
                 if not m:
                     break
                 posicoes[letra] = (m.start(), m.end())
@@ -144,67 +167,131 @@ def achar_marcadores(texto):
     return []
 
 
+def achar_marcadores(texto):
+    """Retorna lista [(letra, ini, fim)] ou [] se nao encontrar pelo menos A-C."""
+    for modo in ('estrito', 'frouxo'):
+        r = _varrer(texto, modo)
+        if r:
+            return r
+    return []
+
+
 def limpar(s):
     s = re.sub(r'\s+', ' ', s or '').strip()
     return s.strip(' .;')
 
 
+def _grupos_de_lista(linhas):
+    """Retorna [(ini, fim)] dos blocos contiguos de itens de lista."""
+    grupos, atual = [], None
+    for i, p in enumerate(linhas):
+        if p['lista']:
+            if atual is None:
+                atual = [i, i + 1]
+            else:
+                atual[1] = i + 1
+        elif atual is not None:
+            grupos.append(tuple(atual))
+            atual = None
+    if atual is not None:
+        grupos.append(tuple(atual))
+    return grupos
+
+
 def separar_enunciado_alternativas(paragrafos):
     """
-    paragrafos: lista de dicts (apenas o trecho entre ENUNCIADO e RESPOSTA).
-    Retorna (enunciado, {letra: texto|None}, n_alternativas).
+    paragrafos: trecho entre o marcador ENUNCIADO e RESPOSTA CORRETA.
+    Retorna (enunciado, {letra: texto|None}, n_alternativas, {letra: frac_negrito}).
     """
     linhas = [p for p in paragrafos if p['texto']]
     texto = '\n'.join(p['texto'] for p in linhas)
+    mascara = []
+    for k, p in enumerate(linhas):
+        if k:
+            mascara.append(False)
+        mascara += p['negrito']
 
-    # 1) marcadores literais (a) / A) / (A) / a. ... inclusive concatenados
+    def frac_negrito(ini, fim):
+        trecho = mascara[ini:fim]
+        util = [b for b, c in zip(trecho, texto[ini:fim]) if not c.isspace()]
+        return (sum(util) / len(util)) if util else 0.0
+
+    # 1) marcadores literais: a) A) (A) a. ... inclusive concatenados
     marcs = achar_marcadores(texto)
     if marcs:
-        enunciado = limpar(texto[:marcs[0][1] - (marcs[0][2] - marcs[0][1])]
-                           if False else texto[:marcs[0][1]])
-        # recorta o proprio marcador do fim do enunciado
-        enunciado = limpar(texto[:marcs[0][1]])
-        enunciado = re.sub(r'\(?\s*[Aa]\s*[\)\.\-–:]\s*$', '', enunciado).strip()
-        alts = {}
+        if marcs[0][0] != 'A':
+            # alternativa A sem marcador: comeca no inicio da linha do marcador B
+            ini_linha = texto.rfind('\n', 0, marcs[0][1]) + 1
+            marcs = [('A', ini_linha, ini_linha)] + marcs
+        alts, negr = {}, {}
         for i, (letra, ini, fim) in enumerate(marcs):
             prox = marcs[i + 1][1] if i + 1 < len(marcs) else len(texto)
             alts[letra] = limpar(texto[fim:prox])
-        return limpar(enunciado), alts, len(marcs)
+            negr[letra] = frac_negrito(fim, prox)
+        enunciado = re.sub(r'\(?\s*[Aa]\s*[\)\.\-–:]\s*$', '',
+                           limpar(texto[:marcs[0][1]])).strip()
+        return limpar(enunciado), alts, len(marcs), negr
 
-    # 2) alternativas como itens de lista numerada (sem letra no texto)
-    idx_lista = [i for i, p in enumerate(linhas) if p['lista']]
-    if len(idx_lista) >= 3:
-        primeiro = idx_lista[0]
-        itens = [linhas[i]['texto'] for i in idx_lista][:5]
-        enunciado = ' '.join(p['texto'] for p in linhas[:primeiro])
-        alts = {LETRAS[i]: limpar(t) for i, t in enumerate(itens)}
-        return limpar(enunciado), alts, len(itens)
+    # 2) alternativas como itens de lista numerada (sem letra no texto).
+    #    Usa o ULTIMO bloco contiguo de itens de lista com 3 a 5 itens, pois
+    #    listas anteriores costumam ser exames/achados do proprio enunciado.
+    grupos = [g for g in _grupos_de_lista(linhas) if 3 <= (g[1] - g[0]) <= 5]
+    if grupos:
+        ini, fim = grupos[-1]
+        itens = linhas[ini:fim]
+        alts = {LETRAS[i]: limpar(p['texto']) for i, p in enumerate(itens)}
+        negr = {}
+        for i, p in enumerate(itens):
+            util = [b for b, c in zip(p['negrito'], p['texto']) if not c.isspace()]
+            negr[LETRAS[i]] = (sum(util) / len(util)) if util else 0.0
+        enunciado = ' '.join(p['texto'] for p in linhas[:ini])
+        return limpar(enunciado), alts, len(itens), negr
 
     # 3) nao ha alternativas identificaveis
-    return limpar(texto), {}, 0
+    return limpar(texto), {}, 0, {}
 
 
 # --------------------------------------------------------------------------- #
 # gabarito
 # --------------------------------------------------------------------------- #
-def resolver_gabarito(bruto, alternativas):
-    """bruto: texto que segue 'RESPOSTA CORRETA:'."""
-    if not bruto:
-        return None
-    t = limpar(bruto)
-    m = re.match(r'^(?:LETRA\s*|ALTERNATIVA\s*)?\(?\s*([A-Ea-e])\s*[\)\.\-–:]?\s*$',
-                 t, re.IGNORECASE)
-    if m:
+def resolver_gabarito(bruto, alternativas, negrito):
+    """
+    bruto: texto que segue 'RESPOSTA CORRETA:'.
+    1) letra explicita  2) texto igual/parecido ao de uma alternativa
+    3) alternativa marcada em negrito (o modelo pede "resposta correta em negrito")
+    """
+    t = limpar(bruto or '')
+    t = re.sub(r'^(RESPOSTA\s+CORRETA|GABARITO|LETRA|ALTERNATIVA)\s*[:\-–]?\s*', '',
+               t, flags=re.IGNORECASE).strip()
+    t = re.sub(r'^(LETRA|ALTERNATIVA)\s+', '', t, flags=re.IGNORECASE).strip()
+
+    # 1) letra explicita ("A", "A)", "(A)", "A) texto da alternativa")
+    m = re.match(r'^\(?\s*([A-Ea-e])\s*[\)\.\-–:]?\s*(?:$|\s)', t)
+    if m and (len(t) <= 3 or re.match(r'^\(?\s*[A-Ea-e]\s*[\)\.\-–:]', t)):
         return m.group(1).upper()
-    # texto da alternativa correta -> casa com a alternativa mais parecida
-    alvo = norm(t)
-    if alvo:
+
+    # 2) casamento com o texto de uma alternativa
+    if t:
+        import difflib
+        alvo = norm(t)
+        melhor, escore = None, 0.0
         for letra, txt in alternativas.items():
             if not txt:
                 continue
-            a, b = norm(txt), alvo
-            if a == b or a.startswith(b[:60]) or b.startswith(a[:60]):
-                return letra
+            a = norm(txt)
+            r = difflib.SequenceMatcher(None, a[:200], alvo[:200]).ratio()
+            if a.startswith(alvo[:50]) or alvo.startswith(a[:50]):
+                r = max(r, 0.9)
+            if r > escore:
+                melhor, escore = letra, r
+        if escore >= 0.75:
+            return melhor
+
+    # 3) negrito
+    if negrito:
+        marcadas = [l for l, f in negrito.items() if f >= 0.6 and alternativas.get(l)]
+        if len(marcadas) == 1:
+            return marcadas[0]
     return None
 
 
@@ -241,9 +328,10 @@ def extrair_arquivo(nome_arq, slug, fonte):
             j_com if j_com is not None else (j_ref if j_ref is not None else len(bloco)))
         trecho = bloco[:corte_enunciado]
         if cabeca:
-            trecho = [{'texto': cabeca, 'lista': False, 'imagem': False}] + trecho
+            trecho = [{'texto': cabeca, 'negrito': [False] * len(cabeca),
+                       'lista': False, 'imagem': False}] + trecho
 
-        enunciado, alts, n_alt = separar_enunciado_alternativas(trecho)
+        enunciado, alts, n_alt, negr = separar_enunciado_alternativas(trecho)
 
         # ---- resposta correta -------------------------------------------- #
         bruto = ''
@@ -255,7 +343,7 @@ def extrair_arquivo(nome_arq, slug, fonte):
                 lim = j_com if j_com is not None else len(bloco)
                 seguintes = [b['texto'] for b in bloco[j_resp + 1:lim] if b['texto']]
                 bruto = seguintes[0] if seguintes else ''
-        gabarito = resolver_gabarito(bruto, alts)
+        gabarito = resolver_gabarito(bruto, alts, negr)
 
         # ---- justificativa ------------------------------------------------ #
         justificativa = None

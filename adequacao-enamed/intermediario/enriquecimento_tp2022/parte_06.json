@@ -1,0 +1,436 @@
+[
+  {
+    "id_origem": "tp2022_q006",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Mecanismo de nefroproteção dos inibidores da enzima conversora de angiotensina",
+    "subtema": "Hemodinâmica glomerular e tônus da arteríola eferente",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "farmacologia",
+      "IECA",
+      "hemodinâmica glomerular",
+      "nefroproteção",
+      "hipertensão arterial"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "É quase-duplicata da alternativa E, diferindo apenas na arteríola citada e repetindo a mesma premissa equivocada de que não haveria interferência na pressão capilar glomerular.",
+    "problema_detectado": "As cinco alternativas são construídas por combinação mecânica dos mesmos dois elementos (arteríola aferente/eferente e pressão capilar glomerular), gerando pares redundantes.",
+    "justificativas": {
+      "A": "Incorreta. A dilatação da arteríola aferente aumentaria o fluxo de entrada no glomérulo e elevaria a pressão capilar glomerular; os IECA atuam preferencialmente sobre a arteríola eferente, cujo tônus depende da angiotensina II.",
+      "B": "Incorreta. O efeito nefroprotetor dos IECA não se explica apenas pela queda da pressão arterial sistêmica, pois há ação hemodinâmica intrarrenal específica sobre as arteríolas, em especial a eferente.",
+      "C": "Correta. A dilatação da arteríola eferente diminui a resistência à saída do sangue do glomérulo, provocando redução da pressão capilar glomerular; somada à redução da pressão arterial sistêmica, atenua a hiperfiltração e a proteinúria, conferindo nefroproteção.",
+      "E": "Incorreta. Os IECA de fato dilatam a arteríola eferente, mas justamente por isso reduzem a pressão capilar glomerular — afirmar que não há interferência sobre essa pressão nega o próprio mecanismo de nefroproteção."
+    }
+  },
+  {
+    "id_origem": "tp2022_q014",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Caracterização do exsudato purulento em derrame pleural infeccioso",
+    "subtema": "Inflamação aguda e formação de empiema",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "patologia geral",
+      "inflamação aguda",
+      "exsudato",
+      "empiema pleural",
+      "neutrófilos"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "\"Edema agudo\" é alternativa implausível e pouco discriminativa, pois nomeia acúmulo de líquido sem componente celular, incompatível com qualquer leitura do caso apresentado.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Transudato é líquido pobre em proteínas e em células, decorrente de desequilíbrio das forças hidrostáticas e oncóticas; o achado de líquido turvo e amarelado com alta contagem de leucócitos caracteriza exsudato, e não transudato.",
+      "B": "Correta. As infecções bacterianas desencadeiam resposta inflamatória aguda dominada por neutrófilos, que ao morrer liberam enzimas lisossômicas e produzem necrose liquefativa, formando pus, ou exsudato purulento; quando ocorre no espaço pleural, recebe o nome de empiema.",
+      "C": "Incorreta. A inflamação crônica é caracterizada por infiltrado de mononucleares (linfócitos, macrófagos e plasmócitos), com destruição tecidual e fibrose; aqui o predomínio de 98% de neutrófilos indica processo agudo.",
+      "D": "Incorreta. A inflamação fibrinosa cursa com exsudação predominante de fibrina em superfícies serosas, com poucas células; o líquido turvo com neutrofilia maciça e cocos gram-positivos corresponde a exsudato purulento."
+    }
+  },
+  {
+    "id_origem": "tp2022_q022",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Relatório Dawson (1920) e a organização regionalizada dos sistemas de saúde",
+    "subtema": "Bases históricas da Atenção Primária à Saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "atenção primária à saúde",
+      "história das políticas de saúde",
+      "Relatório Dawson",
+      "regionalização",
+      "saúde coletiva"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "É quase-duplicata da alternativa B, pois ambas ancoram equivocadamente a organização dos serviços e o conceito de territorialização nos hospitais-escola.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. O Relatório Dawson propôs os centros primários de saúde, regionalizados e orientados para a comunidade, como porta de entrada do sistema; atribuir esse papel aos hospitais-escola com foco no ensino médico decorre de confusão comum com o Relatório Flexner.",
+      "C": "Incorreta. O relatório permanece atual e sua proposta é exatamente a oposta da afirmada: são os centros de atenção primária, orientados para a comunidade, que devem resolver a maior parte dos problemas de saúde da população.",
+      "D": "Correta. O documento foi encomendado pelo governo inglês com o objetivo de buscar formas de organizar a provisão de serviços de saúde à população de determinada região, garantindo acesso à saúde de maneira regionalizada e hierarquizada.",
+      "E": "Incorreta. As propostas do Relatório apontavam justamente a necessidade de articulação com os serviços de saúde pública e o foco nas necessidades de saúde da comunidade, e não no atendimento individual de doentes no ambiente hospitalar."
+    }
+  },
+  {
+    "id_origem": "tp2022_q030",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Princípios e diretrizes do SUS aplicados à contratação de serviço privado complementar",
+    "subtema": "Lei 8.080/1990 e participação complementar da iniciativa privada",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_05",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "SUS",
+      "Lei 8.080/1990",
+      "princípios doutrinários",
+      "gestão em saúde",
+      "serviço complementar"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível, pois inverte de forma grosseira o conceito de equidade ao propor maior acesso a quem menos precisa, sendo descartada de imediato por qualquer examinando.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A universalidade de acesso às ações e serviços de saúde é princípio do SUS sem exceções por nacionalidade; estrangeiros residentes ou em trânsito no país também têm direito à assistência.",
+      "B": "Correta. A Lei 8.080/1990 estabelece a igualdade da assistência à saúde, sem preconceitos ou privilégios de qualquer espécie, princípio que vincula igualmente os serviços privados contratados de forma complementar, os quais não podem recusar atendimento a qualquer pessoa.",
+      "C": "Incorreta. A lei estabelece a descentralização político-administrativa, com direção única em cada esfera de governo e ênfase na municipalização, e não centralização na esfera federal.",
+      "D": "Incorreta. O direito à informação previsto na lei refere-se à informação prestada às pessoas assistidas sobre sua própria saúde; dados individuais são protegidos pelo sigilo profissional e não podem ser repassados aos meios de comunicação."
+    }
+  },
+  {
+    "id_origem": "tp2022_q038",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Características clínicas da hanseníase virchowiana na classificação de Madrid",
+    "subtema": "Formas clínicas e infectividade da hanseníase",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "hanseníase",
+      "dermatologia",
+      "forma virchowiana",
+      "doenças negligenciadas",
+      "semiologia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "\"Emagrecimento\" é achado inespecífico e pouco discriminativo, não integrando o quadro semiológico característico da forma virchowiana abordado pela questão.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Na forma virchowiana o suor está diminuído ou ausente de forma generalizada em decorrência do acometimento das fibras autonômicas, tornando-se mais intenso apenas nas áreas poupadas pela doença.",
+      "B": "Incorreta. Os nervos periféricos e seus ramos mais superficiais tornam-se espessados de forma simétrica, o que inclusive dificulta a comparação entre os lados durante o exame.",
+      "C": "Correta. A forma virchowiana, a mais contagiosa segundo a classificação de Madrid (1953), caracteriza-se por pele da face infiltrada, avermelhada, seca e com poros dilatados, configurando a fácies leonina.",
+      "D": "Incorreta. Há acometimento dos pelos com queda progressiva, especialmente na região das sobrancelhas (madarose), de modo que a pilificação não é mantida."
+    }
+  },
+  {
+    "id_origem": "tp2022_q046",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Achados intracranianos característicos da toxoplasmose congênita",
+    "subtema": "Infecções congênitas do grupo TORCH e diagnóstico por imagem",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "toxoplasmose congênita",
+      "neonatologia",
+      "infecções congênitas",
+      "calcificações intracranianas",
+      "diagnóstico por imagem"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "\"Empiema do sistema nervoso central\" é alternativa implausível, pois corresponde a coleção purulenta de etiologia bacteriana piogênica, sem relação com a infecção congênita por Toxoplasma gondii.",
+    "problema_detectado": "A hidrocefalia também integra a tríade clássica de Sabin da toxoplasmose congênita, o que cria alguma ambiguidade com a alternativa C, embora o achado mais sugestivo permaneça sendo a calcificação difusa.",
+    "justificativas": {
+      "A": "Incorreta. O edema cerebral é achado inespecífico, comum a agressões agudas variadas (hipóxia, trauma, infecções), não permitindo estabelecer correlação com toxoplasmose congênita.",
+      "B": "Incorreta. O abscesso encefálico corresponde a coleção purulenta focal, típica de infecções bacterianas piogênicas ou de toxoplasmose cerebral do adulto imunossuprimido, e não do padrão da infecção congênita.",
+      "C": "Incorreta. A hidrocefalia pode ocorrer na toxoplasmose congênita por obstrução do aqueduto, mas é achado de menor especificidade, presente em diversas malformações e infecções; a lesão que melhor sugere a correlação é a calcificação intracraniana difusa.",
+      "E": "Correta. As calcificações intracranianas ocorrem de forma recorrente nas lesões por toxoplasmose e por citomegalovírus; na toxoplasmose têm aspecto difuso, distribuídas pelo parênquima, enquanto nas causadas por citomegalovírus predomina a localização periventricular."
+    }
+  },
+  {
+    "id_origem": "tp2022_q054",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "dificil",
+    "tema": "Origem neurológica do reflexo primitivo de voracidade no lactente",
+    "subtema": "Reflexos primitivos e avaliação do desenvolvimento neuropsicomotor",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "reflexos primitivos",
+      "desenvolvimento neuropsicomotor",
+      "puericultura",
+      "neurologia infantil",
+      "semiologia pediátrica"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Os núcleos da base relacionam-se ao controle do movimento voluntário e do tônus, sendo alternativa implausível como origem de um reflexo primitivo desencadeado por estímulo tátil perioral.",
+    "problema_detectado": "A justificativa oficial descreve apenas a via aferente trigeminal, sem explicitar o nível de origem indicado no gabarito, o que pode gerar ambiguidade entre as classificações de reflexos primitivos adotadas nos diferentes textos.",
+    "justificativas": {
+      "A": "Incorreta. Os reflexos de origem medular são aqueles cujo arco se fecha em segmentos espinhais, como a retirada em flexão e a extensão cruzada; a voracidade depende de aferência trigeminal, portanto de nervo craniano.",
+      "B": "Incorreta. O córtex cerebral não é a origem dos reflexos primitivos; ao contrário, sua maturação progressiva inibe essas respostas, que desaparecem nos primeiros meses de vida — a persistência delas sugere justamente disfunção do controle cortical.",
+      "C": "Correta. O reflexo de voracidade é um reflexo primitivo cuja origem é atribuída ao sistema piramidal, sendo a percepção do estímulo tátil perioral conduzida pelo nervo craniano trigêmeo, que constitui a via aferente do reflexo.",
+      "D": "Incorreta. Os núcleos vestibulares comandam respostas posturais e labirínticas, como o reflexo tônico cervical e o componente vestibular do reflexo de Moro, e não a resposta tátil de busca perioral."
+    }
+  },
+  {
+    "id_origem": "tp2022_q062",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Interpretação de testes treponêmicos e não treponêmicos na gestante e cicatriz sorológica",
+    "subtema": "Diagnóstico e tratamento da sífilis no pré-natal de alto risco",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "sífilis na gestação",
+      "pré-natal",
+      "VDRL",
+      "cicatriz sorológica",
+      "penicilina benzatina"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "A azitromicina não é opção terapêutica aceita para sífilis na gestação (não previne sífilis congênita e há resistência documentada), tornando a alternativa implausível.",
+    "problema_detectado": "O enunciado anuncia \"os seguintes testes\" mas a tabela com os resultados sorológicos não está reproduzida, tornando o item dependente de material ausente.",
+    "justificativas": {
+      "A": "Incorreta. Não se exclui o diagnóstico de sífilis apenas pela titulação baixa do teste não treponêmico: na sífilis tardia os títulos costumam ser baixos e, havendo teste treponêmico e não treponêmico reagentes, considera-se a gestante infectada, sendo inaceitável apenas acompanhar a curva.",
+      "C": "Incorreta. Não existe conduta de dose \"de garantia\": o tratamento da sífilis na gestação deve seguir o estadiamento clínico-laboratorial, e uma dose isolada de penicilina benzatina é insuficiente para as formas latentes tardias ou de duração ignorada.",
+      "D": "Incorreta. Tratar de imediato com três doses sem antes checar o histórico ignora a etapa inicial obrigatória de avaliar tratamento prévio e completo, que pode configurar cicatriz sorológica; ademais, a conduta quanto à parceria deve ser individualizada segundo sua própria avaliação.",
+      "E": "Correta. Diante de testes reagentes é preciso avaliar se a paciente já recebeu tratamento prévio e completo para sífilis, pois a cicatriz sorológica pode persistir após a cura; na ausência desse histórico, teste treponêmico e não treponêmico reagentes — ainda que com títulos baixos, como ocorre na sífilis tardia — configuram infecção a ser tratada."
+    }
+  },
+  {
+    "id_origem": "tp2022_q070",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Conduta na mastite puerperal sem abscesso e manutenção do aleitamento",
+    "subtema": "Intercorrências mamárias no puerpério",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "mastite puerperal",
+      "aleitamento materno",
+      "puerpério",
+      "antibioticoterapia",
+      "atenção à mulher"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "É quase-duplicata da alternativa B, repetindo a antibioticoterapia de largo espectro e acrescentando apenas a suspensão da amamentação, conduta já contemplada na alternativa A.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A suspensão da amamentação na mama acometida só está indicada quando há saída de pus pelo mamilo; a manutenção do esvaziamento mamário é parte essencial do tratamento da mastite.",
+      "B": "Correta. Nos casos de mastite sem abscesso o tratamento adequado é o uso de antibiótico de largo espectro associado à manutenção da amamentação, que garante o esvaziamento da mama e a resolução da estase láctea.",
+      "D": "Incorreta. A drenagem cirúrgica está indicada apenas nos casos de abscesso mamário, condição expressamente afastada no diagnóstico inicial apresentado.",
+      "E": "Incorreta. Compressas e medidas locais são apenas adjuvantes do conforto e da drenagem do leite; isoladamente não tratam a mastite infecciosa, que exige antibioticoterapia."
+    }
+  },
+  {
+    "id_origem": "tp2022_q078",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Fatores de risco para câncer do colo do útero além da infecção pelo HPV",
+    "subtema": "Prevenção e rastreamento do câncer cervical",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_21",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "câncer de colo uterino",
+      "HPV",
+      "tabagismo",
+      "fatores de risco",
+      "prevenção"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "É redundante com obesidade e sedentarismo, pertencendo ao mesmo eixo cardiometabólico dos demais distratores, e ainda apresenta grafia incorreta (\"Deslipidemia\").",
+    "problema_detectado": "Três dos quatro distratores pertencem ao mesmo campo semântico cardiometabólico, o que reduz a capacidade discriminativa do item.",
+    "justificativas": {
+      "A": "Correta. O tabagismo aumenta o risco de desenvolvimento do câncer do colo do útero de forma proporcional ao número de cigarros fumados por dia e ao início em idade precoce, atuando sobre a persistência da infecção pelo HPV e a progressão para lesões precursoras.",
+      "B": "Incorreta. O sedentarismo não figura entre os fatores de risco estabelecidos para o câncer do colo do útero, cujos determinantes principais envolvem a infecção persistente pelo HPV, a imunidade, a genética e o comportamento sexual.",
+      "D": "Incorreta. A obesidade é fator de risco reconhecido para neoplasias hormônio-dependentes, como o câncer de endométrio e o de mama na pós-menopausa, e não para o câncer do colo do útero.",
+      "E": "Incorreta. A hipertensão arterial sistêmica não guarda relação causal com a carcinogênese cervical, que depende da persistência da infecção por HPV de alto risco oncogênico."
+    }
+  },
+  {
+    "id_origem": "tp2022_q086",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Exame de escolha para rastreamento do aneurisma de aorta abdominal",
+    "subtema": "Cirurgia vascular e métodos de triagem por imagem",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_25",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "aneurisma de aorta abdominal",
+      "rastreamento",
+      "ultrassonografia",
+      "cirurgia vascular",
+      "diagnóstico por imagem"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "É quase-duplicata da angiorressonância magnética (alternativa D), pois ambas repousam sobre a mesma tecnologia e compartilham as mesmas limitações de custo e disponibilidade.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A angiotomografia com contraste endovenoso é o exame de escolha para o planejamento terapêutico e a avaliação de ruptura, mas envolve radiação ionizante e contraste nefrotóxico, o que a inviabiliza como método de triagem populacional.",
+      "C": "Incorreta. A arteriografia é método invasivo, com risco de complicações vasculares, e avalia apenas a luz do vaso, podendo subestimar o diâmetro real do aneurisma na presença de trombo mural.",
+      "D": "Incorreta. A angiorressonância magnética fornece boas imagens vasculares sem radiação, porém tem alto custo, menor disponibilidade e maior tempo de exame, não se prestando à triagem.",
+      "E": "Correta. A ultrassonografia abdominal apresenta sensibilidade e especificidade excelentes para detecção do aneurisma de aorta abdominal e constitui o método de triagem de escolha, por ser não invasiva, de baixo custo e por evitar radiação e meio de contraste."
+    }
+  },
+  {
+    "id_origem": "tp2022_q094",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação de lesão traqueobrônquica no trauma torácico fechado",
+    "subtema": "Escape aéreo persistente após drenagem torácica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "trauma torácico",
+      "lesão traqueobrônquica",
+      "broncoscopia",
+      "pneumotórax hipertensivo",
+      "emergência"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "A endoscopia digestiva alta é quase-duplicata funcional da seriografia esofágica, já presente na alternativa C, pois ambas investigam a mesma hipótese de lesão esofágica.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A tomografia de tórax pode sugerir a lesão ao demonstrar pneumomediastino ou descontinuidade da via aérea, mas não a confirma nem define sua extensão e localização; a investigação do trauma torácico não deve se restringir à tomografia.",
+      "B": "Incorreta. A ressonância magnética não tem papel na avaliação do trauma torácico agudo, pelo tempo prolongado de exame e pela dificuldade de monitorização de paciente instável.",
+      "C": "Incorreta. A seriografia esofágica avalia lesão de esôfago, hipótese que não explica hemoptise, enfisema subcutâneo cervical e escape aéreo persistente pelo dreno com pulmão não expandido.",
+      "D": "Correta. O quadro de hemoptise, enfisema subcutâneo cervical, pneumotórax hipertensivo e escape aéreo importante com falha de expansão pulmonar após drenagem é muito sugestivo de lesão traqueobrônquica, situação em que a broncoscopia tem papel fundamental por confirmar, localizar e graduar a lesão, orientando a abordagem multidisciplinar."
+    }
+  },
+  {
+    "id_origem": "tp2022_q102",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem inicial do edema agudo de pulmão na sala de emergência",
+    "subtema": "Vasodilatadores, ventilação não invasiva e prevenção da intubação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "edema agudo de pulmão",
+      "nitratos",
+      "ventilação não invasiva",
+      "insuficiência cardíaca aguda",
+      "emergência"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível e eticamente insustentável, pois nega a indicação de suporte ventilatório invasivo com base na presunção equivocada de que todo edema agudo de pulmão traduz insuficiência cardíaca terminal.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Doses maciças de furosemida em aplicação rápida não constituem o foco terapêutico inicial: o diurético tem início de ação mais lento, e grande parte dos pacientes com edema agudo de pulmão apresenta redistribuição de volume e não hipervolemia, com risco de hipotensão e lesão renal.",
+      "B": "Incorreta. A morfina é medida já muito embasada e de fácil utilização pelas equipes de emergência, não devendo ser reservada apenas a profissionais mais experientes nem tratada como recurso de exceção.",
+      "C": "Correta. O uso de doses mais elevadas de nitratos, na ausência de hipotensão, supera em rapidez farmacológica o efeito das demais medicações, reduzindo pré-carga e retorno venoso e aliviando de forma mais efetiva a congestão, a inundação alveolar e a hipóxia enquanto os fármacos de início mais lento começam a agir.",
+      "D": "Incorreta. A ventilação não invasiva é medida de primeira linha, com sólida comprovação de benefício no edema agudo de pulmão — reduz a necessidade de intubação — e é de fácil realização em unidades de emergência."
+    }
+  },
+  {
+    "id_origem": "tp2022_q110",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Cefaleia em paciente idoso com amaurose fugaz e claudicação mandibular",
+    "subtema": "Arterite de células gigantes e sinais de alarme na cefaleia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "arterite temporal",
+      "cefaleia secundária",
+      "amaurose fugaz",
+      "polimialgia reumática",
+      "sinais de alarme"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "A cefaleia em salvas é implausível no caso, por ser dor unilateral estritamente orbitária, em crises curtas e recorrentes com sintomas autonômicos, típica de homens jovens, incompatível com dor bitemporal contínua de dois meses em idoso.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A migrânea com aura cursa com sintomas visuais transitórios e totalmente reversíveis que precedem a dor, geralmente com início em pacientes mais jovens e história prévia de crises, não explicando a claudicação mandibular nem o quadro constitucional.",
+      "B": "Incorreta. A cefaleia tensional é dor em aperto, bilateral, de intensidade leve a moderada, sem sintomas visuais, sem piora à mastigação e sem manifestações sistêmicas como fadiga e dores proximais.",
+      "C": "Incorreta. A cefaleia cervicogênica é dor referida de estruturas da coluna cervical, desencadeada por movimentos ou posturas do pescoço; não justifica amaurose fugaz nem a piora da dor ao mastigar.",
+      "D": "Correta. Em paciente com mais de 50 anos, com dor temporal, alteração visual (amaurose fugaz), piora ao mastigar (claudicação mandibular) e sintomas associados de fadiga e dores em ombros e cervical — sugestivos de polimialgia reumática —, a arterite temporal deve ser rapidamente investigada e tratada para evitar sequela visual definitiva."
+    }
+  },
+  {
+    "id_origem": "tp2022_q118",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Sítios intestinais de absorção do ferro e anemia após cirurgia bariátrica",
+    "subtema": "Fisiologia da absorção de micronutrientes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "absorção de ferro",
+      "anemia ferropriva",
+      "cirurgia bariátrica",
+      "fisiologia digestiva",
+      "micronutrientes"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Apresenta erro de grafia (\"fundo gátrico\") e é quase-duplicata da alternativa E, ambas ancoradas na premissa equivocada de absorção gástrica de ferro.",
+    "problema_detectado": "A alternativa A traz erro de digitação (\"fundo gátrico\"), corrigido pelo descarte da opção.",
+    "justificativas": {
+      "B": "Incorreta. O estômago participa apenas da solubilização e redução do ferro férrico a ferroso pelo ácido clorídrico, mas não o absorve; o íleo terminal é o sítio de absorção de vitamina B12 e sais biliares.",
+      "C": "Incorreta. A absorção de ferro é máxima no duodeno e decresce progressivamente ao longo do intestino delgado, sendo mínima no íleo terminal.",
+      "D": "Correta. O ferro é absorvido pela borda em escova das células epiteliais dos vilos intestinais, principalmente no duodeno e na porção proximal do jejuno, o que explica a ferropenia após cirurgia bariátrica com derivação desses segmentos.",
+      "E": "Incorreta. Embora o jejuno proximal contribua para a absorção, o fundo gástrico não é sítio de absorção de ferro; o estômago apenas prepara o mineral para captação duodenal."
+    }
+  }
+]

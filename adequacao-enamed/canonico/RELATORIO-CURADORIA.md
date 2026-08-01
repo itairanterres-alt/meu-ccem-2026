@@ -1655,7 +1655,7 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 
 ## Simulados MED/ENAMED 2026 (01 e 02)
 
-100 questões · convertidas 5→4: 50 · dependem de imagem: 4 · com defeito sinalizado: 35
+84 questões · convertidas 5→4: 50 · dependem de imagem: 3 · com defeito sinalizado: 31
 
 
 ### 1. Rede de Atenção à Saúde (RAS): conceito, pontos de atenção e objetivos  
@@ -3186,83 +3186,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** ✅ 98%.  
   <sub>Correta. Sensibilidade é a proporção de verdadeiros positivos entre os doentes: 98 dos 100 acometidos, ou seja, 98%.</sub>
 
-### 68. Princípios do SUS aplicados à organização da visita domiciliar  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 28*
-
-**Enunciado:** Ao assumir a coordenação de uma equipe de saúde da família, um médico de família e comunidade percebe que sua equipe não utiliza critérios para estabelecimento de fluxo de agendamento de visitas domiciliares. Diante dessa situação, ele decide promover uma roda de conversa a fim de sensibilizar sua equipe acerca da necessidade de organizar critérios para a definição das visitas domiciliares como uma abordagem ao indivíduo em seu aspecto familiar e comunitário. Nesse caso, qual é o princípio do Sistema Único de Saúde (SUS) que melhor se enquadra na estratégia adotada para melhoria do trabalho da equipe?
-
-- **(A)** ✅ Equidade.  
-  <sub>Correta. Definir critérios que priorizem as visitas domiciliares conforme necessidade, risco e vulnerabilidade concretiza a equidade — tratar desigualmente os desiguais na medida de suas desigualdades — otimizando o cuidado ofertado pela equipe.</sub>
-
-- **(B)** Autonomia.  
-  <sub>Incorreta. Autonomia é princípio bioético e diretriz das relações de cuidado, não integrando os princípios doutrinários do SUS que orientam a priorização das ações da equipe.</sub>
-
-- **(C)** Integralidade.  
-  <sub>Incorreta. Integralidade refere-se à abordagem do sujeito em suas dimensões biopsicossociais e à articulação de promoção, prevenção, cura e reabilitação, e não ao critério de escolha de quem será visitado primeiro.</sub>
-
-- **(D)** Universalidade.  
-  <sub>Incorreta. Universalidade assegura acesso a todos, sem discriminação, mas não fornece o critério de ordenação e priorização discutido na roda de conversa.</sub>
-
-### 69. Estratégias prioritárias de controle do tabagismo em âmbito municipal  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · dificil · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 29*
-
-> ⚠️ **defeito na origem:** A alternativa C também descreve ações reconhecidas de controle do tabagismo em adolescentes, o que reduz a univocidade da chave e torna o item potencialmente ambíguo quanto à noção de prioridade.
-
-**Enunciado:** Um gestor municipal de saúde, ao perceber um significativo aumento de tabagismo entre os adolescentes em seu município no último ano, resolveu adotar estratégias para o combate ao uso do tabaco em sua região. A partir dessas informações, assinale a opção que apresenta as estratégias prioritárias a serem adotadas para essa população.
-
-- **(A)** Orientação e prescrição de medicamentos aos pacientes tabagistas, para auxiliar aqueles que ainda não manifestaram o desejo de cessação.  
-  <sub>Incorreta. Prescrever farmacoterapia a quem ainda não manifestou desejo de cessação contraria a abordagem por estágios de mudança e desperdiça recurso em pacientes na fase pré-contemplativa, além de a farmacoterapia ter indicação restrita em adolescentes.</sub>
-
-- **(B)** ✅ Capacitação dos profissionais de saúde acerca do tratamento para cessação do tabagismo visando o atendimento de pacientes com desejo de parar de fumar.  
-  <sub>Correta. A estratégia prioritária da gestão é qualificar a rede pela capacitação das equipes no tratamento do tabagismo, conforme o Programa Nacional de Controle do Tabagismo, garantindo oferta organizada e resolutiva de abordagem a quem procura ajuda para parar de fumar.</sub>
-
-- **(C)** Organização de comitês nos bairros para regulação da venda e do uso de tabaco e promoção de ações em eventos para chamar atenção aos fatores de risco do uso de fumo.  
-  <sub>Incorreta. A regulação da venda e do uso de tabaco é atribuição normativa e fiscalizatória da vigilância sanitária e da legislação federal, não cabendo a comitês de bairro; ações pontuais em eventos têm baixo impacto sustentado sobre a prevalência.</sub>
-
-- **(D)** Encaminhamento dos fumantes para o nível de maior densidade tecnológica, considerando o difícil controle do tabagismo e a necessidade de melhores estratégias para essa ação.  
-  <sub>Incorreta. O tabagismo é condição de manejo prioritário na atenção primária; encaminhar todos os fumantes a serviços de maior densidade tecnológica inverte a lógica da Rede de Atenção à Saúde e sobrecarrega níveis especializados sem ganho de efetividade.</sub>
-
-### 70. Sangramento uterino na pós-menopausa e autonomia da paciente idosa  
-`med_unidavi_f10_uc01_saude_mulher` · fase 10 · ginecologia_obstetricia · medio · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 30*
-
-**Caso:** Uma paciente com 70 anos, menopausa ocorrida aos 52 anos, queixa -se de sangramento vaginal de pequena quantidade e intermitente, com 3 meses de evolução. Não tem história prévia de doença neoplásica pré-invasiva e teve dois citopatológicos negativos consecutivos dos 59 até os 64 anos. O exame especular realizado na última consulta não demonstrou lesões aparentes. Está acompanhada pela filha, que afirma estar muito ansiosa, porque leu casos parecidos relatados na internet e acha que a mãe pode estar com "câncer de útero". A paciente é tabagista (1 maço/dia), há 40 anos, e apresenta história mórbida pregressa de hipertensão arterial sistêmica, em tratamento, e de intolerância glicêmica, em tratamento, via oral. Conta que pratica pilates 3 vezes por semana e que tem independência financeira e social, apresentando -se calma durante a consulta. Ao exame físico, encontra-se lúcida, orientada, contactuante e atenta. Seu IMC é de 30 kg/m². Os exames laboratoriais não apresentam particularidades. Informa que gostaria de decidir sobre sua saúde por conta própria.
-
-**Enunciado:** Considerando esse caso, o médico generalista da atenção primária deve
-
-- **(A)** comunicar o quadro clínico à filha da paciente, que deverá se encarregar de explicá -lo à mãe, porque é idosa, e orientar que não serão necessários exames adicionais.  
-  <sub>Incorreta. A idade por si só não retira a capacidade civil nem justifica comunicar o diagnóstico a terceiros, e o sangramento pós-menopausa sempre exige investigação.</sub>
-
-- **(B)** ✅ respeitar o direito à autonomia, privacidade e sigilo médico da paciente idosa, já que ela demonstra ser capaz de autogerir-se, e solicitar ultrassonografia transvaginal.  
-  <sub>Correta. A paciente é lúcida e capaz de autogerir-se, devendo ter respeitados autonomia, privacidade e sigilo; o sangramento pós-menopausa, sobretudo com obesidade e intolerância glicêmica, exige investigação inicial com ultrassonografia transvaginal para avaliar o eco endometrial.</sub>
-
-- **(C)** explicar que é obrigatória a presença de um responsável pela paciente, por ser idosa, para a continuidade do tratamento, e solicitar CA 125 e ultrassonografia transvaginal.  
-  <sub>Incorreta. Não há obrigatoriedade de acompanhante para paciente idosa capaz, e o CA 125 não tem papel no rastreio ou na investigação inicial do sangramento pós-menopausa.</sub>
-
-- **(D)** explicar que a família deve ser comunicada do ocorrido com a paciente e que, devido à idade, o tratamento é expectante, orientando que não serão necessários exames adicionais.  
-  <sub>Incorreta. Conduta expectante é inaceitável diante de sangramento pós-menopausa, que deve ser considerado câncer de endométrio até prova em contrário.</sub>
-
-### 71. Saúde de populações indígenas e ribeirinhas  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · dificil · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 31*
-
-**Enunciado:** Um médico de família e comunidade, que atua em uma equipe de saúde da família fluvial focada em populações ribeirinhas, é convidado para atender uma população indígena de um distrito sanitário especial indígena (DSEI). Com relação a essas populações e ao território em que habitam, assinale a opção correta.
-
-- **(A)** ✅ A delimitação dos DSEIs considera a distribuição demográfica tradicional, que pode não coincidir com os limites de estados; já o território das equipes de saúde da família ribeirinhas respeita esses limites.  
-  <sub>Correta. A delimitação dos DSEIs baseia-se na ocupação e na distribuição etnodemográfica tradicional dos povos indígenas, podendo atravessar fronteiras estaduais e municipais, ao passo que as equipes de saúde da família ribeirinhas se organizam a partir do território municipal ao qual estão vinculadas.</sub>
-
-- **(B)** As demarcações de áreas indígenas garantem a proteção contra conflitos e situações de vulnerabilidade, apesar de a distribuição de terras representar um problema a ser enfrentado pelas populações ribeirinhas.  
-  <sub>Incorreta. A demarcação de terras indígenas, por si só, não elimina conflitos fundiários nem situações de vulnerabilidade, que persistem em muitos territórios demarcados.</sub>
-
-- **(C)** A desnutrição infantil tem uma alta incidência nas populações indígenas, o que não ocorre frequentemente na população ribeirinha, dada a diversidade de alimentos disponíveis às margens dos percursos fluviais.  
-  <sub>Incorreta. A desnutrição infantil e a insegurança alimentar também são problemas relevantes entre populações ribeirinhas, cuja disponibilidade e diversidade alimentar são sazonais e frequentemente limitadas.</sub>
-
-- **(D)** O principal recurso de atenção à saúde da população indígena ainda é o sistema tradicional de saúde; já na população ribeirinha, as práticas tradicionais e os cuidadores locais foram abandonados e substituídos por medicina alopática.  
-  <sub>Incorreta. As práticas tradicionais de cuidado e os cuidadores locais, como parteiras e benzedeiras, permanecem vivos e atuantes nas comunidades ribeirinhas, coexistindo com a biomedicina.</sub>
-
-### 72. Transtornos alimentares na adolescência: anorexia nervosa  
+### 68. Transtornos alimentares na adolescência: anorexia nervosa  
 `med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: analise  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 32*
 
@@ -3282,25 +3206,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** transtorno de purgação; metoclopramida.  
   <sub>Incorreta. O transtorno de purgação pressupõe comportamentos purgativos recorrentes na ausência de compulsão alimentar, negados pela adolescente, e a metoclopramida não tem qualquer indicação terapêutica nesse contexto.</sub>
 
-### 73. Valor preditivo positivo de teste diagnóstico e influência da prevalência  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · dificil · Bloom: aplicacao  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 33*
-
-**Enunciado:** Um novo exame que detecta o DNA do Mycobacterium leprae em pacientes com suspeita de hanseníase está sendo testado. Ele demonstra capacidade de detectar 80% de pacientes com a doença e fornece resultado falso -positivo em 20% das pessoas sem a doença. Um médico de família e comunidade está utilizando esse exame em uma comunidade vulnerável na qual a prevalência de hanseníase é de 10%. Nesse caso, qual é a probabilidade de um resultado positivo ser de um indivíduo realmente doente?
-
-- **(A)** ✅ 31%.  
-  <sub>Correta. Com sensibilidade de 80%, especificidade de 80% e prevalência de 10%, o VPP = (0,80 × 0,10) / [(0,80 × 0,10) + (0,20 × 0,90)] = 0,08/0,26 ≈ 31%, o que evidencia o impacto da baixa prevalência sobre o valor preditivo positivo.</sub>
-
-- **(B)** 97%.  
-  <sub>Incorreta. O valor de 97% corresponde ao valor preditivo negativo do teste nesse cenário [0,72/(0,72 + 0,02)], e não à probabilidade de doença diante de resultado positivo.</sub>
-
-- **(C)** 69%.  
-  <sub>Incorreta. 69% é a proporção complementar, isto é, a probabilidade de que um resultado positivo seja falso-positivo (1 − VPP), e não a de que o indivíduo esteja realmente doente.</sub>
-
-- **(D)** 80%.  
-  <sub>Incorreta. 80% é a sensibilidade do teste (probabilidade de positividade entre os doentes), grandeza distinta do VPP, que parte do resultado positivo para estimar a probabilidade de doença.</sub>
-
-### 74. Diagnóstico diferencial de episódio depressivo com ataques de pânico  
+### 69. Diagnóstico diferencial de episódio depressivo com ataques de pânico  
 `med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: analise  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 34*
 
@@ -3320,43 +3226,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** ✅ Transtorno depressivo com ataques de pânico.  
   <sub>Correta. O paciente preenche critérios de episódio depressivo maior (anedonia e humor deprimido por mais de 2 meses, perda ponderal, hipersonia, fadiga e dificuldade de concentração), com ataques de pânico inesperados como manifestação associada, após exclusão de causas orgânicas.</sub>
 
-### 75. Atenção intercultural em distrito sanitário especial indígena: criança com sinais de gravidade  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · dificil · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 35*
-
-**Enunciado:** Em um distrito sanitário especial indígena, um médico atende a uma criança com 4 anos, com 23 kg, que apresenta taquipneia, tosse, letargia, choro sem lágrimas e febre de 39,2 °C. Como tratamento, o paciente tem utilizado emplastros de ervas no peito. Diante desse quadro, após a avaliação do paciente, o médico precisa, por meio de intérprete, solicitar à mãe que
-
-- **(A)** ✅ conceda autorização para internar a criança mantendo os emplastros utilizados.  
-  <sub>Correta. A criança apresenta sinais de gravidade (taquipneia, letargia, desidratação e febre alta) que impõem internação com autorização materna obtida por intérprete; manter os emplastros, prática sem risco identificado, respeita a cultura do povo e fortalece vínculo e adesão, conforme a atenção diferenciada preconizada na saúde indígena.</sub>
-
-- **(B)** retire os emplastros e inicie medicamento parenteral em regime de internação para a melhora do desconforto da criança.  
-  <sub>Incorreta. A internação está indicada, mas exigir a retirada dos emplastros sem necessidade clínica desrespeita a prática tradicional da família e compromete o vínculo e a adesão ao tratamento.</sub>
-
-- **(C)** realize o tratamento em domicilio com ervas tradicionais de seu povo e que retorne em 7 dias.  
-  <sub>Incorreta. Letargia e sinais de desidratação são sinais de perigo que contraindicam o manejo domiciliar exclusivo com ervas e retorno em sete dias, com risco elevado de evolução desfavorável.</sub>
-
-- **(D)** inicie uso de antibiótico em domicilio , com visitas da equipe médica, e que mantenha o uso do emplastro.  
-  <sub>Incorreta. A antibioticoterapia oral domiciliar é insuficiente diante dos sinais gerais de perigo apresentados, que exigem hospitalização com terapia parenteral e hidratação.</sub>
-
-### 76. Delineamento de estudos epidemiológicos: inquéritos populacionais  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: compreensao  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 36*
-
-**Enunciado:** Os inquéritos populacionais de saúde têm sido cada vez mais utilizados não apenas para avaliar a eficácia dos serviços de saúde na perspectiva dos usuários, mas também como uma fonte de informações sobre morbidade referida e sobre estilo de vida saudável. A Pesquisa Nacional de Saúde foi um inquérito de saúde de base domiciliar, de âmbito nacional, realizada pelo Ministério da Saúde em parceria com o Instituto Brasileiro de Geografia e Estatística (IBGE) em 2013 e em 2019. Essa pesquisa realizada pelo IBGE se caracteriza como um estudo do tipo
-
-- **(A)** coorte.  
-  <sub>Incorreta. Coorte pressupõe seguimento longitudinal de expostos e não expostos ao longo do tempo para medir incidência, o que não ocorre em um inquérito domiciliar pontual.</sub>
-
-- **(B)** ✅ transversal.  
-  <sub>Correta. A Pesquisa Nacional de Saúde é inquérito domiciliar de base populacional que afere exposições e desfechos em um mesmo momento, caracterizando estudo observacional transversal (de prevalência).</sub>
-
-- **(C)** experimental.  
-  <sub>Incorreta. Não há intervenção nem alocação de participantes pelo investigador, requisitos essenciais de um estudo experimental.</sub>
-
-- **(D)** caso-controle.  
-  <sub>Incorreta. No caso-controle parte-se de doentes e não doentes para investigar retrospectivamente exposições, desenho distinto de um inquérito de base populacional.</sub>
-
-### 77. Conduta inicial diante de suspeita de transtorno específico de aprendizagem aos 6 anos  
+### 70. Conduta inicial diante de suspeita de transtorno específico de aprendizagem aos 6 anos  
 `med_unidavi_f09_uc01_saude_crianca` · fase 9 · pediatria · medio · Bloom: aplicacao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 37*
 
@@ -3378,25 +3248,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** equipe de reforço pedagógico, a fim de realizar acompanhamento, uma vez que a criança não apresenta problemas aparentes.  
   <sub>Incorreta. Encaminhar apenas para reforço pedagógico sem avaliação diagnóstica assume indevidamente a ausência de transtorno e não fornece o plano individualizado que a criança necessita.</sub>
 
-### 78. Diferenciação entre uso nocivo, dependência e abstinência de álcool  
-`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 38*
-
-**Enunciado:** Um homem com 46 anos comparece à consulta acompanhado de sua esposa e solicita atestado para justificar 2 dias de ausência no trabalho. Refere que, há 2 dias, apresenta diminuição do apetite, cefaleia, fadiga, tristeza e sentimento de culpa. A esposa refere que ele ingeriu grande quantidade de bebida alcoólica numa festa e que chegou em casa sendo carregado por amigos na noite anterior ao início dos sintomas. Segundo ela, isso costuma acontecer há 1 ano, cerca de 2 vezes ao mês. Após essas situações, o paciente fica bastante entristecido, não quer sair da cama e acaba faltando ao trabalho. Entre os episódios de ingesta de bebida, o paciente trabalha, estuda e tem bom funcionamento familiar e soc ial. Nega comorbidades e uso de medicações. Ao exame físico, não apresenta alterações. Nesse caso, ao final da consulta, o médico deve explicar ao paciente que seu quadro clínico trata-se de
-
-- **(A)** ✅ uso nocivo de álcool.  
-  <sub>Correta. Há padrão de consumo que já produz dano concreto à saúde e ao funcionamento laboral, sem critérios de dependência, configurando uso nocivo de álcool.</sub>
-
-- **(B)** dependência de álcool.  
-  <sub>Incorreta. Não há fissura, tolerância, perda de controle, saliência do consumo nem uso continuado apesar de dano persistente, e entre os episódios o funcionamento social e laboral é preservado.</sub>
-
-- **(C)** episódio depressivo moderado.  
-  <sub>Incorreta. Os sintomas depressivos são breves, restritos ao período pós-libação e sem duração mínima de duas semanas, não preenchendo critérios de episódio depressivo.</sub>
-
-- **(D)** síndrome de abstinência do álcool.  
-  <sub>Incorreta. A abstinência cursa com tremores, sudorese, taquicardia, ansiedade e risco de convulsões, achados ausentes neste paciente.</sub>
-
-### 79. Territorialização e divisão em microáreas na Estratégia Saúde da Família  
+### 71. Territorialização e divisão em microáreas na Estratégia Saúde da Família  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · dificil · Bloom: analise  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 39*
 
@@ -3414,7 +3266,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** Utilizar dados primários para a divisão do território em micro áreas, como bancos de dados do DATASUS e do IBGE, pois eles o ferecem informações em níveis de desagregação suficientes para ajudar a estabelecer o diagnóstico situacional local.  
   <sub>Incorreta. Bases do DATASUS e do IBGE constituem dados secundários e, além disso, seu nível de desagregação costuma ser insuficiente para delimitar microáreas intraurbanas.</sub>
 
-### 80. Política Nacional de Práticas Integrativas e Complementares (PNPIC)  
+### 72. Política Nacional de Práticas Integrativas e Complementares (PNPIC)  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 40*
 
@@ -3434,122 +3286,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** a auriculoterapia deve ser inserida em todos os níveis de atenção em saúde, com ênfase na atenção terciária, pois nesta, apresenta melhores resultados.  
   <sub>Incorreta. A auriculoterapia é preconizada com ênfase na atenção primária, e não na atenção terciária, sendo uma das práticas de maior capilaridade na APS.</sub>
 
-### 81. Abordagem familiar com ecomapa em idoso com neoplasia de próstata avançada  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 41*
-
-> ⚠️ **depende de imagem** (anexar na curadoria)  
-> ⚠️ **defeito na origem:** O enunciado remete a um ecomapa "exibido a seguir" que não acompanha o item, embora o campo requer_imagem esteja marcado como falso; além disso há quebras de palavra por espaçamento ("fi lha").
-
-**Caso:** O caso de um homem de 72 anos é avaliado em reunião de equipe na unidade básica de saúde após uma visita domiciliar realizada pelo agente comunitário de saúde (ACS). A esposa, de 68 anos, ao perceber uma piora do quadro de incontinência urinária, associada à perda ponderal expressiva em 08 meses, levou o idoso ao urologista, do qual havia abandonado o seguimento do acompanhamento prévio da hiperplasia benigna prostática (HPB). A visita foi solicitada porque ao receber o diagnóstico de neoplasia de próstata avançado sem possibilidade de cura, a esposa percebeu o desinteresse do idoso em realizar tarefas cotidianas e para tomar banho, se levantar da cama e se vestir, além da falta de apoio, em relação aos cuidados com o pai, da filha do casal, uma mulher de 33 anos que dá muito trabalho, segundo a mãe. O ecomapa exibido a seguir foi construído pelos membros da equipe, considerando outras informações colhidas pelo ACS durante à visita domiciliar.
-
-**Enunciado:** A partir das informações apresentadas no texto e no ecomapa, a equipe de saúde da família deverá
-
-- **(A)** desenvolver um projeto terapêutico singular definitivo para a esposa se orientar e seguir, pois o idoso se encontra sem perspectiva de cura.  
-  <sub>Incorreta. O projeto terapêutico singular é dinâmico e pactuado com o paciente e a família, jamais "definitivo", e não pode ser dirigido apenas à esposa, ignorando a autonomia e as necessidades do idoso.</sub>
-
-- **(B)** sugerir a internação compulsória para tratamento da fi lha do casal, diminuindo a quantidade de problemas que a esposa do idoso precisará gerenciar nesta fase.  
-  <sub>Incorreta. A internação compulsória é medida excepcional, judicialmente regulada e restrita a situações de risco grave em transtorno mental ou dependência química, inexistindo no caso qualquer diagnóstico ou indicação que a justifique.</sub>
-
-- **(C)** ✅ reconhecer a dinâmica de funcionamento familiar, detectando disfuncionalidades e planejar intervenções precoces na busca do reequilíbrio dessa estrutura de relações.  
-  <sub>Correta. Diante de um ecomapa que evidencia as relações da família com a rede social e seus pontos de tensão, cabe à equipe reconhecer a dinâmica familiar, identificar disfuncionalidades e planejar intervenções precoces que restabeleçam o equilíbrio e sustentem o cuidado.</sub>
-
-- **(D)** sugerir a internação do idoso em um serviço de cuidados paliativos para possibilitar que uma equipe de paliativismo preparada possa gerenciar o cuidado prestado.  
-  <sub>Incorreta. Cuidados paliativos não exigem internação e devem ser ofertados preferencialmente no domicílio, com apoio da equipe de saúde da família e matriciamento, preservando vínculo familiar e território.</sub>
-
-### 82. Sinais de alerta do neurodesenvolvimento e suspeita de TEA no lactente  
-`med_unidavi_f09_uc01_saude_crianca` · fase 9 · pediatria · medio · Bloom: aplicacao  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 42*
-
-**Enunciado:** Um menino de 6 meses e 15 dias é trazido pela mãe em consulta de puericultura na unidade básica de saúde. A criança recusa papas sólidas e aceita apenas o leite materno. Revisando consultas anteriores, o médico de família e comunidade identifica que a mãe já havia demonstrado preocupação, pois a criança ainda não apresentava sorriso social, não observava a mãe nem olhava nos seus olhos enquanto mamava, não se interessava por outras crianças, não respondia a chamados e não apresentava nenhum tipo de lalação. Por isso, a criança foi encaminhada para investigação com um otorrinolaringologista, o qual não identificou nenhum déficit auditivo. A mãe, de 39 anos, apresentou diabetes gestacional. Diante desse quadro, a conduta do médico de família deve ser
-
-- **(A)** manter rotina de puericultura e estimulação adequada e precoce por equipe multidisciplinar até 24 meses.  
-  <sub>Incorreta. Manter apenas a rotina de puericultura e a estimulação, sem investigação especializada, posterga o diagnóstico e a intervenção precoce, que são determinantes do prognóstico.</sub>
-
-- **(B)** rastrear transtorno do espectro autista nessa criança, para descartar essa condição, antes de referenciá-la para a atenção especializada.  
-  <sub>Incorreta. Os instrumentos de rastreio validados para TEA (como o M-CHAT) são aplicados a partir dos 16-18 meses, e o rastreio não deve condicionar nem retardar o encaminhamento diante de sinais de alerta já manifestos.</sub>
-
-- **(C)** acompanhar o desenvolvimento da criança até os 16 meses de idade, pela ausência de sinais de alerta sugestivos de transtorno do espectro autista.  
-  <sub>Incorreta. Há múltiplos sinais de alerta presentes — ausência de sorriso social, de contato visual, de resposta ao chamado e de lalação —, o que contraindica conduta expectante.</sub>
-
-- **(D)** ✅ referenciar a criança para atenção especializada, para acompanhamento, investigação e planejamento terapêutico em conjunto com a atenção primária.  
-  <sub>Correta. Com sinais de alerta do neurodesenvolvimento e déficit auditivo já afastado, a conduta é referenciar à atenção especializada para investigação e planejamento terapêutico, mantendo o acompanhamento compartilhado com a atenção primária.</sub>
-
-### 83. Transtorno de ansiedade generalizada: diagnóstico e diagnóstico diferencial na APS  
-`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · facil · Bloom: aplicacao  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 43*
-
-**Enunciado:** Um homem de 30 anos é atendido em unidade básica de saúde com queixa de alteração no padrão do sono, alternando noites de insônia com noites de sono inquieto há 7 meses. Sente-se preocupado, com medo excessivo de adoecer ou de algo desagradável ocorrer. Seus amigos o consideram inquieto, tenso, irritado e com dificuldade de se concentrar. Ele relata que mantém suas atividades profissionais normalmente. Diante desse quadro, qual é o diagnóstico mais provável?
-
-- **(A)** Depressão maior.  
-  <sub>Incorreta. Não há humor deprimido persistente, anedonia, alterações de apetite, culpa ou ideação de morte; a alteração isolada do sono não sustenta o diagnóstico de depressão maior.</sub>
-
-- **(B)** Transtorno bipolar do humor.  
-  <sub>Incorreta. O transtorno bipolar exige ao menos um episódio de mania ou hipomania, com humor elevado ou irritável, redução da necessidade de sono e aumento da energia, elementos ausentes no relato.</sub>
-
-- **(C)** ✅ Transtorno de ansiedade generalizada.  
-  <sub>Correta. Preocupação e apreensão excessivas e de difícil controle por mais de seis meses, associadas a inquietação, tensão, irritabilidade, dificuldade de concentração e alteração do sono, preenchem os critérios de transtorno de ansiedade generalizada.</sub>
-
-- **(D)** Transtorno do déficit da atenção em adulto.  
-  <sub>Incorreta. O transtorno de déficit de atenção no adulto requer sintomas de desatenção e/ou hiperatividade iniciados na infância, com prejuízo persistente em múltiplos contextos; aqui o quadro começou há sete meses e o desempenho profissional está preservado.</sub>
-
-### 84. Confidencialidade e prescrição de contracepção na adolescência  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 44*
-
-**Enunciado:** Durante uma consulta de rotina com o médico da unidade básica de saúde, uma adolescente de 15 anos relata ter iniciado sua vida sexual com o namorado de mesma idade. Ela refere que têm usado preservativo, porém sente -se insegura e gostaria de iniciar o uso de anticoncepcionais orais, assim como suas amigas já o fazem. A paciente não apresenta queixas e não tem antecedentes patológicos pessoais ou familiares. Frequenta o primeiro ano do ensino médio e relata que não gostaria de informar seus pais sobre as questões de sua sexualidade. Considerando o Código de Ética Médica e o Estatuto da Criança e do Adolescente, a conduta correta do médico, nesse caso, é
-
-- **(A)** optar por não prescrever a anticoncepcão oral, uma vez que a adolescente pretende usar pílula para evitar a gravidez e estará arriscada a contrair infecções sexualmente transmissíveis, caracterizando imaturidade psicológica e risco para si; ele deve reforçar, também, a prática sexual segura e, devido ao risco iminente à saúde da adolescente, está obrigado a informar os responsáveis sobre o motivo da consulta.  
-  <sub>Incorreta. O início da vida sexual não caracteriza imaturidade psicológica nem risco grave e iminente, únicas situações que autorizariam a quebra do sigilo e a comunicação obrigatória aos responsáveis.</sub>
-
-- **(B)** ✅ ponderar sobre a prescrição de anticoncepção, pois a busca pelo aconselhamento médico é um indício de decisão madura, sendo provável que, em caso de recusa da prescrição, a paciente decida se automedicar; ele deve, também, aproveitar esse momento para abordar a prática sexual segura, assim como deve incentivar o fortalecimento dos laços de comunicação familiar sobre as decisões da adolescente.  
-  <sub>Correta. A adolescente com capacidade de discernimento tem direito ao sigilo e à prescrição contraceptiva; a procura por orientação médica sinaliza decisão madura, e a recusa apenas favoreceria a automedicação — cabendo ainda abordar sexo seguro e estimular a comunicação familiar.</sub>
-
-- **(C)** decidir por não prescrever a anticoncepção oral, uma vez que não consegue, com base na consulta, julgar a maturidade da adolescente, podendo ser responsabilizado em caso de uso inadequado e de gravidez subsequente; ele deve aproveitar o momento para abordar a prática sexual segura e para manter os princípios de confidencialidade sobre a consulta, já que não há risco de vida iminente.  
-  <sub>Incorreta. Embora acerte ao preservar a confidencialidade, negar a contracepção por receio de responsabilização contraria o dever de assistência e expõe a adolescente à gravidez não planejada.</sub>
-
-- **(D)** considerar a prescrição de anticoncepção, visto que a menina já iniciou a tividade sexual, aproveitando o momento, também, para abordar a prática sexual segura; ele deve comunicar a adolescente de que o assunto será tratado com seus pais, uma vez que os menores de 16 anos são classificados como “absolutamente incapazes de exercer pessoalmente os atos da vida civil".  
-  <sub>Incorreta. A incapacidade civil absoluta do menor de 16 anos não autoriza a quebra do sigilo médico: o Código de Ética Médica e o ECA asseguram confidencialidade ao adolescente com capacidade de autodeterminação, salvo risco grave à saúde ou à vida.</sub>
-
-### 85. Definição de ação prioritária no plano municipal de saúde a partir do perfil epidemiológico  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 45*
-
-> ⚠️ **defeito na origem:** Há erros de digitação com quebra indevida de palavras no enunciado e na alternativa A ("aten ção", "unidade básica d e saúde"), sem comprometer o entendimento.
-
-**Enunciado:** Após assumir a gestão da saúde municipal, um médico encontra a seguinte situação de saúde: uma população de 30 mil habitantes, com faixa etária predominante de 20 a 50 anos, com predomínio de doenças crônicas não transmissíveis e de causas externas, principalmente por acidentes. O município possui cobertura de atenção primária de 70%, com sete equipes de saúde da família em áreas de maior vulnerabilidade e nas áreas menos vulneráveis, uma unidade básica d e saúde tradicional. A partir desses dados, o médico reúne a equipe de planejamento para construir o plano municipal dos próximos 4 anos. Com base nessas informações, qual deve ser a ação prioritária contemplada no plano?
-
-- **(A)** ✅ Ampliação da cobertura da atenção primária com maior integração com atenção secundária de forma a melhorar os indicadores das doenças crônicas e a ampliar a resolubilidade do Sistema Único de Saúde.  
-  <sub>Correta. Com cobertura de atenção primária de apenas 70% e predomínio de doenças crônicas não transmissíveis, a prioridade é ampliar a cobertura da estratégia de saúde da família e integrá-la à atenção secundária, pois a APS coordenadora do cuidado é o principal determinante de melhora dos indicadores e da resolutividade do SUS.</sub>
-
-- **(B)** Manutenção da cobertura de saúde da família, priorizando a criação de um serviço de urgência e de emergência em área mais vulnerável, considerando as necessidades de saúde.  
-  <sub>Incorreta. Manter a cobertura atual não enfrenta a lacuna de acesso identificada, e priorizar um serviço de urgência reforça o modelo centrado na demanda espontânea, sem impacto sobre a carga de doenças crônicas.</sub>
-
-- **(C)** Aumento dos serviços de saúde de atenção primária tradicional pela necessidade de ampliar o acesso dos usuários ao sistema de saúde sem estratégia de saúde da família.  
-  <sub>Incorreta. Expandir unidades básicas tradicionais sem estratégia de saúde da família contraria a Política Nacional de Atenção Básica, que elege a ESF como modelo prioritário por sua vinculação territorial e longitudinalidade.</sub>
-
-- **(D)** Aquisição de novas ambulâncias para facilitar as remoções de pacientes para os municípios vizinhos e os fluxos dos usuários nas urgências, ampliando o acesso à saúde.  
-  <sub>Incorreta. A compra de ambulâncias atua apenas na remoção de pacientes e na dependência de outros municípios, sem ampliar a capacidade local de prevenir e manejar as condições crônicas e as causas externas.</sub>
-
-### 86. Doença pleural ocupacional por exposição ao amianto  
-`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 46*
-
-**Enunciado:** Um homem de 59 anos comparece à unidade básica de saúde com queixas de dispneia aos esforços físicos e de tosse seca, os quais se desenvolveram gradualmente ao longo dos últimos anos. Ele relata sono e apetite normais, no entanto refere febre e perda de mais de 5% do peso corporal nos últimos 2 meses. Menciona que é divorciado e que está tendo dificuldades para encontrar emprego desde que o local onde trabalhava encerrou suas atividades. Paciente apresenta tomografia computadorizada de tórax com espessamento da pleura visceral e parietal, derrame pleural e formação de placas pleurais. Considerando o contexto clínico -epidemiológico desse caso, é correto afirmar que o paciente trabalhava na
-
-- **(A)** agricultura (com agrotóxico).  
-  <sub>Incorreta. A exposição a agrotóxicos associa-se a quadros neurotóxicos, dermatológicos e neoplasias hematológicas, e não ao acometimento pleural descrito.</sub>
-
-- **(B)** ✅ construção civil (com amianto).  
-  <sub>Correta. Placas pleurais associadas a espessamento pleural difuso e derrame pleural são marcadores clássicos de exposição ao asbesto, frequente na construção civil, com quadro insidioso de dispneia, tosse seca e sintomas consumptivos sugestivos de mesotelioma.</sub>
-
-- **(C)** fabricação de solventes químicos (com benzeno).  
-  <sub>Incorreta. O benzeno é mielotóxico e leucemogênico, cursando com alterações hematológicas, sem produzir placas pleurais.</sub>
-
-- **(D)** extração do carvão (com poeira do carvão mineral).  
-  <sub>Incorreta. A pneumoconiose dos trabalhadores do carvão determina acometimento predominantemente parenquimatoso, com nódulos e fibrose maciça progressiva, não doença pleural com placas.</sub>
-
-### 87. Princípios do SUS e barreiras de acesso na Atenção Primária  
+### 73. Princípios do SUS e barreiras de acesso na Atenção Primária  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: analise  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 47*
 
@@ -3570,27 +3307,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** universalidade e de coordenação do cuidado, uma vez que o paciente “menos doente” ou com menores necessidades de cuidados está no final da fila.  
   <sub>Incorreta. Universalidade é a garantia de acesso a todos, e coordenação do cuidado refere-se à condução do usuário pela rede; a cena retratada não versa sobre estratificação por necessidade clínica.</sub>
 
-### 88. Obrigatoriedade da vacinação infantil segundo o ECA  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · dificil · Bloom: aplicacao  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 48*
-
-> ⚠️ **defeito na origem:** O item permite leitura ambígua entre a resposta pautada estritamente na obrigatoriedade legal e a conduta gradual de sensibilização, além de conter quebra de palavra na extração ('fam ília'); recomenda-se explicitar no enunciado a ancoragem no texto do ECA.
-
-**Enunciado:** Ao realizar visita domiciliar a uma família, a equipe da saúde da fam ília (eSF) identifica atraso vacinal nas três crianças residentes na casa, todas menores de 5 anos de idade. Os pais informaram que optaram por suspender o esquema de vacinação dos seus filhos, pois questionam os benefícios de vacinas. De acordo com o Estatuto da Criança e do Adolescente, a eSF, nesse caso, deve
-
-- **(A)** acatar a decisão dos pais que possuem o pátrio poder, respeitando as convicções da família frente à questão da necessidade da imunização cada vez mais controversa.  
-  <sub>Incorreta. O ECA substituiu o pátrio poder pelo poder familiar, que não é absoluto e não autoriza os responsáveis a afastar a vacinação obrigatória; ademais, a efetividade das vacinas não é matéria controversa.</sub>
-
-- **(B)** sensibilizar a família por meio de estratégias de convencimento sobre benefícios da vacinação e, em situações especiais, como em risco iminente de adoecimento, acionar o Conselho Tutelar.  
-  <sub>Incorreta. Embora a sensibilização da família seja parte do cuidado, condicionar o acionamento do Conselho Tutelar apenas ao risco iminente de adoecimento contraria o caráter obrigatório da vacinação e o dever de comunicação previsto no Estatuto.</sub>
-
-- **(C)** ✅ acionar o Conselho Tutelar de forma imediata e proceder à vacinação nessa mesma visita, uma vez que a imunização das crianças é obrigatória nos casos recomendados pelas autoridades sanitárias.  
-  <sub>Correta. O art. 14, §1º, do ECA torna obrigatória a vacinação das crianças nos casos recomendados pelas autoridades sanitárias, e a recusa dos responsáveis configura violação de direito com comunicação obrigatória ao Conselho Tutelar (arts. 13 e 56), cabendo à equipe atualizar o esquema vacinal.</sub>
-
-- **(D)** realizar a vacinação das crianças nessa mesma visita, contrariando a opinião dos pais, pois, do ponto de vista da proteção à criança, negar-lhes a vacinação pode ser considerado negligência.  
-  <sub>Incorreta. Vacinar sem qualquer comunicação ao Conselho Tutelar omite o encaminhamento exigido pelo ECA e deixa a equipe sem o respaldo institucional necessário diante da recusa dos responsáveis.</sub>
-
-### 89. Participação social na organização do processo de trabalho da equipe de saúde da família  
+### 74. Participação social na organização do processo de trabalho da equipe de saúde da família  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: aplicacao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 49*
 
@@ -3610,25 +3327,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 - **(D)** Núcleo de Saúde Coletiva — órgão consultivo — a fim de ampliar as ações coletivas de forma organizada e permanente, com impacto local de suas ações, tais como a organização da demanda por meio da implantação de uma no va equipe de saúde da família após a divisão do território de abrangência.  
   <sub>Incorreta. O Núcleo de Saúde Coletiva não é instância de controle social, e a criação de nova equipe com redivisão territorial é decisão de gestão e financiamento, não estratégia de participação comunitária.</sub>
 
-### 90. Atuação do médico de família e comunidade na saúde suplementar  
-`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
-*Origem: Simulado 02 — MED/ENAMED 2026, questão 50*
-
-**Enunciado:** Um médico de família e comunidade deseja ampliar seu campo de atuação para incluir a saúde suplementar. Ele reconhece que muitas pessoas têm planos de saúde e desejam receber atendimento médico abrangente e personalizado, em modelos assistenciais que garantam os atributos essenciais da atenção primária à saúde. No que se refere à saúde suplementar, é correto afirmar que esse médico de família poderá atuar
-
-- **(A)** na gestão de operadoras de planos de saúde, organizando uma rede integrada e funcional, priorizando o modelo assistencial tradicional, garantindo, dessa forma, o cuidado longitudinal.  
-  <sub>Incorreta. O modelo assistencial tradicional, fragmentado e centrado em procedimentos e especialidades, é justamente o que compromete o cuidado longitudinal que se pretende garantir.</sub>
-
-- **(B)** na atenção domiciliar, por meio de operadoras de planos de saúde, devido à impo ssibilidade de realizar esse tipo de atendimento de forma autônoma, garantindo a coordenação do cuidado de pacientes domiciliados, com foco na família.  
-  <sub>Incorreta. A atenção domiciliar pode ser prestada de forma autônoma pelo médico de família, não havendo impossibilidade de realizá-la fora do vínculo com operadoras.</sub>
-
-- **(C)** em consultórios de estabelecimentos de saúde, prestando atendimento a clientes que estabeleceram cont rato com o proprietário, em um modelo de atenção primária à saúde, com a garantia de longitudinalidade e coordenação do cuidado.  
-  <sub>Incorreta. O contrato firmado entre o cliente e o proprietário do estabelecimento, e não com o médico, fragiliza o vínculo terapêutico continuado e não assegura, por si, longitudinalidade e coordenação do cuidado.</sub>
-
-- **(D)** ✅ na assistência em clínica de operadora de plano de saúde ou em consultório particular, atuando no modelo assistencial com a coordenação de cuidados pela atenção primária à saúde, garantindo a integralidade e longitudinalidade do cuidado.  
-  <sub>Correta. Na saúde suplementar, o médico de família pode atuar em clínicas de operadoras ou em consultório particular adotando modelo assistencial coordenado pela APS, preservando integralidade e longitudinalidade do cuidado.</sub>
-
-### 91. Política Nacional de Humanização (HumanizaSUS): conceito e diretrizes  
+### 75. Política Nacional de Humanização (HumanizaSUS): conceito e diretrizes  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 51*
 
@@ -3653,7 +3352,7 @@ Motivo: A opção que propõe a ‘idealização do homem’ é conceitualmente 
 
 <sub>Renumeração: A→A, C→B, D→C, E→D · gabarito C → B</sub>
 
-### 92. Síndrome de burnout em profissionais de saúde  
+### 76. Síndrome de burnout em profissionais de saúde  
 `med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · facil · Bloom: conhecimento  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 52*
 
@@ -3679,7 +3378,7 @@ Motivo: “Fadiga industrial” é termo em desuso, sem correspondência nosoló
 
 <sub>Renumeração: A→A, C→B, D→C, E→D · gabarito C → B</sub>
 
-### 93. Atribuições prioritárias das equipes multiprofissionais na Atenção Primária (eMulti)  
+### 77. Atribuições prioritárias das equipes multiprofissionais na Atenção Primária (eMulti)  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: conhecimento  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 53*
 
@@ -3704,7 +3403,7 @@ Motivo: É a atribuição mais evidente e universalmente reconhecida das eMulti,
 
 <sub>Renumeração: B→A, C→B, D→C, E→D · gabarito E → D</sub>
 
-### 94. Equipes de Consultório na Rua e cuidado à população em situação de rua  
+### 78. Equipes de Consultório na Rua e cuidado à população em situação de rua  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 54*
 
@@ -3729,7 +3428,7 @@ Motivo: É o distrator mais fraco, pois isolar apenas a afirmativa I ignora dois
 
 <sub>Renumeração: B→A, C→B, D→C, E→D · gabarito E → D</sub>
 
-### 95. Projeto Terapêutico Singular na Atenção Primária  
+### 79. Projeto Terapêutico Singular na Atenção Primária  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 55*
 
@@ -3754,7 +3453,7 @@ Motivo: A alternativa nega frontalmente a premissa do PTS ao propor ações que 
 
 <sub>Renumeração: B→A, C→B, D→C, E→D · gabarito B → A</sub>
 
-### 96. Diretivas antecipadas de vontade em cuidados paliativos  
+### 80. Diretivas antecipadas de vontade em cuidados paliativos  
 `med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 56*
 
@@ -3779,7 +3478,7 @@ Motivo: Confunde o documento com uma suposta 'Lei de diretrizes e base em saúde
 
 <sub>Renumeração: A→A, B→B, C→C, D→D · gabarito D → D</sub>
 
-### 97. Instrumentos do apoio matricial e da equipe de referência  
+### 81. Instrumentos do apoio matricial e da equipe de referência  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 57*
 
@@ -3805,7 +3504,7 @@ Motivo: É o distrator mais fraco por ser o oposto explícito do conceito aprese
 
 <sub>Renumeração: A→A, C→B, D→C, E→D · gabarito E → D</sub>
 
-### 98. Reforma Psiquiátrica brasileira e o conceito de clínica ampliada  
+### 82. Reforma Psiquiátrica brasileira e o conceito de clínica ampliada  
 `med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 58*
 
@@ -3830,7 +3529,7 @@ Motivo: Alternativa absurda: nega a participação do usuário sob o argumento d
 
 <sub>Renumeração: B→A, C→B, D→C, E→D · gabarito D → C</sub>
 
-### 99. Acolhimento à crise no CAPS e papel do técnico de referência  
+### 83. Acolhimento à crise no CAPS e papel do técnico de referência  
 `med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · dificil · Bloom: analise  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 59*
 
@@ -3856,7 +3555,7 @@ Motivo: A alternativa é internamente contraditória ao afirmar que na agudizaç
 
 <sub>Renumeração: A→A, B→B, C→C, D→D · gabarito B → B</sub>
 
-### 100. Clínica de saúde mental infantojuvenil na reforma psiquiátrica  
+### 84. Clínica de saúde mental infantojuvenil na reforma psiquiátrica  
 `med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 60*
 
@@ -3885,4 +3584,4 @@ Motivo: Alternativa absurda — tomar a criança como “objeto a ser moldado”
 
 ---
 
-**Total: 190 questões para curadoria.**
+**Total: 174 questões para curadoria.**

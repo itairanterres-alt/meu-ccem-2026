@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tp2022_q003",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Não disjunção cromossômica na espermatogênese",
+    "subtema": "Meiose I e formação de gametas aneuploides",
+    "competencia_dcn_2025": ["dcn2025_comp_21"],
+    "tags": ["genetica", "meiose", "aneuploidia", "espermatogenese", "nao-disjuncao"],
+    "descartar": "B",
+    "motivo_descarte": "As duas frações propostas descrevem exatamente o mesmo conjunto cromossômico (24, X ou Y), tornando a alternativa internamente contraditória e implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Propõe que todos os espermatozoides tenham 24 cromossomos, o que é impossível: a não disjunção em meiose I gera produtos complementares, metade com um cromossomo a mais e metade com um a menos. Além disso, como a falha atingiu um par de autossomos, a segregação dos cromossomos sexuais ocorreu normalmente, e a distinção entre X e Y não caracteriza o defeito descrito.",
+      "C": "Correta. A não disjunção de um par de autossomos corresponde a uma falha na anáfase I do espermatócito primário, em que o par não se separa. Disso resultam espermatócitos secundários geneticamente anormais: 50% com um cromossomo a mais (24) e 50% com um cromossomo a menos (22). Na meiose II as cromátides irmãs se separam como esperado, de modo que as espermátides reproduzem a mesma proporção — 50% com 24 e 50% com 22 cromossomos —, cada uma carreando X ou Y, já que a segregação dos cromossomos sexuais foi preservada.",
+      "D": "Incorreta. Nenhum gameta desse ciclo tem número normal de cromossomos: como todos os quatro produtos derivam de espermatócitos secundários já aneuploides, todos são anormais, metade com 24 e metade com 22 cromossomos, e não 23.",
+      "E": "Incorreta. Mistura produtos aneuploides com gametas euploides (23, X e 23, Y), padrão que corresponderia a uma não disjunção ocorrida na meiose II de apenas uma das células-filhas, e não à falha de meiose I descrita no enunciado."
+    }
+  },
+  {
+    "id_origem": "tp2022_q011",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Infecções por bactérias anaeróbias de origem endógena",
+    "subtema": "Colite pseudomembranosa por Clostridioides difficile",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_20"],
+    "tags": ["microbiologia", "anaerobios", "clostridioides-difficile", "colite-pseudomembranosa"],
+    "descartar": "B",
+    "motivo_descarte": "Queimadura é condição sem qualquer relação fisiopatológica com a colite pseudomembranosa, funcionando como distrator implausível e pouco discriminativo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A intoxicação alimentar por toxinas pré-formadas é mecanismo típico de outros clostrídios, como Clostridium perfringens e Clostridium botulinum; a colite pseudomembranosa depende do desequilíbrio da microbiota intestinal do próprio paciente, e não da ingestão de toxina pré-formada.",
+      "C": "Correta. O Clostridioides (Clostridium) difficile pode participar ocasionalmente da microbiota intestinal e das infecções nosocomiais por clostrídios, tornando-se patogênico quando a antibioticoterapia suprime a microbiota anaeróbia residente, permitindo sua multiplicação e a produção de toxinas — mecanismo clássico das doenças associadas ao C. difficile, principalmente a colite pseudomembranosa relacionada com antibioticoterapia.",
+      "D": "Incorreta. A presença de corpo estranho favorece infecções por anaeróbios no sítio acometido, por queda do potencial de oxirredução local e formação de biofilme, mas não desencadeia a colite pseudomembranosa, que depende da ruptura da microbiota intestinal.",
+      "E": "Incorreta. A neutropenia predispõe a outras complicações intestinais, como a enterocolite neutropênica (tiflite), e não é a condição que caracteristicamente converte o C. difficile em patógeno."
+    }
+  },
+  {
+    "id_origem": "tp2022_q019",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Distúrbios do ciclo da ureia e manejo nutricional da hiperamonemia",
+    "subtema": "Deficiência de argininosuccinato liase (argininossuccinúria)",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["bioquimica", "ciclo-da-ureia", "hiperamonemia", "erro-inato-do-metabolismo"],
+    "descartar": "B",
+    "motivo_descarte": "A preocupação com carência de vitaminas lipossolúveis não guarda relação com a fisiopatologia do ciclo da ureia, o que torna a alternativa implausível e pouco discriminativa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. É exatamente a conduta oposta à indicada: como esses pacientes não eliminam adequadamente o nitrogênio proveniente da oxidação de aminoácidos, o aporte proteico deve ser restrito e rigorosamente controlado, sob risco de agravar a hiperamonemia e a encefalopatia.",
+      "C": "Incorreta. Restringir carboidratos é o contrário do recomendado: a oferta calórica generosa, sobretudo à custa de carboidratos, é justamente o que poupa o catabolismo proteico endógeno e reduz a geração de amônia.",
+      "D": "Incorreta. Uma dieta 'equilibrada' com aporte proteico livre é inadequada nesses pacientes, e a hiponatremia não é o problema central do caso, cuja gravidade decorre da encefalopatia hiperamonêmica (letargia e crises convulsivas focais).",
+      "E": "Correta. Pacientes com distúrbios do ciclo da ureia apresentam dificuldade na eliminação do nitrogênio proveniente da oxidação de aminoácidos, com acúmulo de amônia. Em jejum, a oxidação de aminoácidos endógenos aumenta; assim, evitar jejum prolongado, mantendo aporte calórico contínuo, minimiza a produção de amônia e as complicações neurológicas."
+    }
+  },
+  {
+    "id_origem": "tp2022_q027",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "História Natural da Doença no modelo de Leavell e Clark",
+    "subtema": "Períodos de pré-patogênese e patogênese",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_15", "dcn2025_comp_21"],
+    "tags": ["saude-coletiva", "historia-natural-da-doenca", "leavell-e-clark", "prevencao"],
+    "descartar": "E",
+    "motivo_descarte": "O caráter absoluto da afirmação ('necessariamente' e 'irreversíveis') a torna implausível e redundante com a alternativa C, que já aborda cronicidade e sequelas.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Na pré-patogênese o agente isolado não é suficiente para desencadear a doença: é necessária a interação com outros fatores, notadamente os individuais (genéticos, imunológicos, comportamentais) e os ambientais, na tríade agente-hospedeiro-meio.",
+      "B": "Correta. No período pré-patogênico atuam agentes e fatores causais de naturezas diversas — física, química, nutricional, biológica, genética e social —, que interagem com o hospedeiro suscetível e com o ambiente antes que qualquer alteração se instale no organismo.",
+      "C": "Incorreta. No período de patogênese descrevem-se quatro níveis de evolução da doença, e a alternativa omite a morte como desfecho possível, ao lado da cura, da cronicidade e das sequelas.",
+      "D": "Incorreta. As primeiras alterações bioquímicas, fisiológicas e histológicas ocorrem na fase patogênica precoce, ainda abaixo do horizonte clínico e, portanto, assintomática; o diagnóstico por sinais e sintomas só se torna possível na fase clínica da doença."
+    }
+  },
+  {
+    "id_origem": "tp2022_q035",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Medidas de efeito e associação em estudos epidemiológicos",
+    "subtema": "Medidas absolutas e relativas de risco",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["epidemiologia", "medidas-de-associacao", "risco-atribuivel", "odds-ratio"],
+    "descartar": "A",
+    "motivo_descarte": "É quase-duplicata do gabarito, já que diferença de risco e risco atribuível são o mesmo conceito, variando apenas pelo uso incorreto de prevalência em lugar de incidência.",
+    "problema_detectado": "As definições de risco relativo e odds ratio distribuídas entre as alternativas se sobrepõem conceitualmente, o que pode tornar a alternativa D defensável e gerar ambiguidade.",
+    "justificativas": {
+      "B": "Incorreta. A descrição apresentada corresponde à razão de prevalência, medida de associação usada para verificar a probabilidade de o evento acontecer na população; a odds ratio expressa a razão entre as chances (odds) nos grupos comparados.",
+      "C": "Correta. Risco atribuível — sinônimo de diferença de risco e, portanto, medida absoluta do tipo diferença — é obtido pela diferença entre a incidência do evento no grupo exposto ao fator de risco e a incidência no grupo não exposto.",
+      "D": "Incorreta. Segundo o padrão adotado, a divisão entre a probabilidade de o evento acontecer quando se está exposto ou não ao fator de risco define a odds ratio; o risco relativo expressa quantas vezes o risco de desenvolver a doença é maior no grupo exposto em comparação com o não exposto.",
+      "E": "Incorreta. A definição apresentada — quantas vezes o risco de desenvolver a doença é maior em um grupo comparado a outro — é a do risco relativo, e não a da razão de prevalência."
+    }
+  },
+  {
+    "id_origem": "tp2022_q043",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Puberdade precoce heterossexual em menina de 7 anos",
+    "subtema": "Diagnóstico diferencial de virilização periférica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["pediatria", "puberdade-precoce", "virilizacao", "hiperplasia-adrenal-congenita"],
+    "descartar": "E",
+    "motivo_descarte": "Afirmar que o quadro é normal aos 7 anos é factualmente incorreto e implausível diante de hipertrofia clitoriana, não discriminando o candidato preparado.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O quadro é de virilização (pubarca, acne e hipertrofia de clitóris) sem qualquer desenvolvimento mamário (M1), o que já afasta a ativação do eixo hipotálamo-hipófise-gonadal; a investigação deve priorizar androgênios (17-OH-progesterona, testosterona, SDHEA) e imagem adrenal, e não estradiol, LH e FSH.",
+      "B": "Incorreta. Sinais de virilização em uma menina caracterizam puberdade precoce heterossexual (contrassexual); seria isossexual o desenvolvimento de caracteres femininos, como a telarca, ausente neste caso.",
+      "C": "Incorreta. A adrenarca precoce é condição benigna e não progressiva, com pubarca isolada; não causa hipertrofia de clitóris nem avanço tão acentuado da idade óssea (10 anos para idade cronológica de 7) associado à aceleração do crescimento observada.",
+      "D": "Correta. Trata-se de puberdade precoce heterossexual e, portanto, de causa periférica (independente de gonadotrofinas). As etiologias mais comuns são tumor produtor de androgênios, hiperplasia adrenal congênita e exposição exógena a esteroides sexuais, todas a serem ativamente investigadas."
+    }
+  },
+  {
+    "id_origem": "tp2022_q051",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipoglicemia neonatal em recém-nascido grande para a idade gestacional",
+    "subtema": "Filho de mãe com diabetes gestacional",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["neonatologia", "hipoglicemia-neonatal", "recem-nascido-gig", "diabetes-gestacional"],
+    "descartar": "C",
+    "motivo_descarte": "Convulsão neonatal é manifestação clínica e não causa, configurando erro de categoria entre as opções diagnósticas, além de não haver crise convulsiva descrita no caso.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não há fatores de risco relevantes para sepse precoce — bolsa rota de apenas 1 hora, parto a termo e Apgar 8/9 — nem sinais infecciosos como febre, instabilidade térmica ou má perfusão, sendo o quadro mais bem explicado por causa metabólica.",
+      "B": "Incorreta. O exame cardiovascular é normal, com frequência cardíaca adequada, pulsos presentes, ausência de sopro e de visceromegalia, o que torna a cardiopatia improvável como causa da hipoatividade, da taquipneia e da apneia.",
+      "D": "Incorreta. Erros inatos do metabolismo são raros, costumam manifestar-se de modo progressivo e geralmente após a introdução e o acúmulo do aporte alimentar; constituem diagnóstico de exclusão diante de um contexto tão típico de hipoglicemia.",
+      "E": "Correta. A hipoglicemia acomete cerca de 8 a 10% dos recém-nascidos grandes para a idade gestacional, e o diabetes gestacional é fator de risco reconhecido. O neonato de 4200 g apresenta justamente os sinais descritos na literatura — letargia, hipoatividade, apneia, desconforto respiratório, além de irritabilidade, sucção débil, hipotonia, hipotermia, cianose e convulsões —, impondo glicemia capilar imediata."
+    }
+  },
+  {
+    "id_origem": "tp2022_q059",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Quimioprofilaxia de contatos na doença meningocócica",
+    "subtema": "Indicações e esquema com rifampicina",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_24", "dcn2025_comp_14"],
+    "tags": ["doenca-meningococica", "quimioprofilaxia", "rifampicina", "vigilancia-epidemiologica"],
+    "descartar": "B",
+    "motivo_descarte": "A redação agramatical e truncada compromete a compreensão do que se afirma, inviabilizando o julgamento técnico da alternativa.",
+    "problema_detectado": "A alternativa B apresenta redação agramatical ('é desnecessário que a da quimioprofilaxia ser administrada'), o que compromete a clareza do item.",
+    "justificativas": {
+      "A": "Incorreta. O medicamento de escolha para a quimioprofilaxia da doença meningocócica é a rifampicina; a amoxicilina não é utilizada com essa finalidade, cabendo ceftriaxona ou ciprofloxacino como alternativas em situações específicas.",
+      "C": "Correta. Profissionais de saúde têm indicação de quimioprofilaxia apenas quando realizam procedimentos invasivos, como intubação orotraqueal e aspiração de vias aéreas, sem o uso de equipamento de proteção individual adequado; o contato assistencial de rotina, com EPI, não configura indicação.",
+      "D": "Incorreta. O início deve ser o mais precoce possível, preferencialmente até 48 horas após a exposição ao doente, e não em até 24 horas.",
+      "E": "Incorreta. A profilaxia dos contatos é feita com antibiótico (quimioprofilaxia); a imunização é medida complementar de controle, indicada conforme o sorogrupo identificado e a situação epidemiológica, e não substitui o antimicrobiano."
+    }
+  },
+  {
+    "id_origem": "tp2022_q067",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Critérios diagnósticos da síndrome dos ovários policísticos",
+    "subtema": "Critérios de Rotterdam e exclusão de diagnósticos diferenciais",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_01"],
+    "tags": ["ginecologia", "sindrome-dos-ovarios-policisticos", "criterios-de-rotterdam", "anovulacao-cronica"],
+    "descartar": "C",
+    "motivo_descarte": "É redundante com a alternativa E, pois ambas versam sobre níveis e razões de gonadotrofinas, sendo a menos discriminativa das duas.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Os critérios de Rotterdam, mais utilizados no diagnóstico da SOP, exigem a presença de dois dos três achados: anovulação crônica, hiperandrogenismo clínico ou hiperandrogenemia e ovários policísticos à ultrassonografia. Além disso, é necessária a exclusão de outras causas de anovulação crônica e de alteração androgênica, como hiperprolactinemia, disfunção tireoidiana, hiperplasia adrenal congênita não clássica, síndrome de Cushing e tumores produtores de androgênios.",
+      "B": "Incorreta. Ultrassonografia normal não afasta o diagnóstico, pois bastam dois dos três critérios de Rotterdam: a associação de anovulação crônica com hiperandrogenismo, como no caso descrito, já é suficiente.",
+      "D": "Incorreta. Pelos critérios de Rotterdam nenhum achado isolado é obrigatório; o diagnóstico pode ser firmado, por exemplo, com anovulação crônica e ovários policísticos ao ultrassom, sem hiperandrogenismo.",
+      "E": "Incorreta. Níveis e razões de gonadotrofinas, como a relação LH/FSH, são variáveis, sofrem influência da fase do ciclo e do índice de massa corporal e não integram os critérios diagnósticos, não sendo confiáveis para o diagnóstico."
+    }
+  },
+  {
+    "id_origem": "tp2022_q075",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Agentes etiológicos das infecções pélvicas associadas à obstrução tubária",
+    "subtema": "Infertilidade por fator tuboperitoneal",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["infertilidade", "fator-tuboperitoneal", "doenca-inflamatoria-pelvica", "infeccoes-sexualmente-transmissiveis"],
+    "descartar": "E",
+    "motivo_descarte": "Candida albicans não causa infecção pélvica ascendente nem obstrução tubária, tornando a combinação implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Gardnerella vaginalis associa-se à vaginose bacteriana e Escherichia coli a infecções urinárias e a quadros pélvicos polimicrobianos secundários; nenhuma delas figura entre os agentes mais prevalentes das infecções que levam à obstrução tubária.",
+      "B": "Incorreta. Trichomonas vaginalis causa vaginite e cervicite, e o papel do Ureaplasma urealyticum na doença inflamatória pélvica é secundário e controverso; a dupla não corresponde aos agentes mais comuns.",
+      "C": "Incorreta. Ainda que inclua corretamente a Chlamydia trachomatis, o Ureaplasma urealyticum não é o segundo agente mais prevalente nessas infecções, papel que cabe à Neisseria gonorrhoeae.",
+      "D": "Correta. Cerca de 10 a 40% das infecções que ascendem pela endocérvice e comprometem as tubas são causadas por Chlamydia trachomatis e Neisseria gonorrhoeae, sem dúvida os agentes etiológicos mais prevalentes. Estima-se infertilidade em até 12% das mulheres após o primeiro episódio, 25% após dois episódios e até 50% após a terceira doença inflamatória pélvica, além de risco até 10 vezes maior de gravidez ectópica pelo comprometimento da motilidade tubária."
+    }
+  },
+  {
+    "id_origem": "tp2022_q083",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo da via aérea difícil em trauma facial por projétil de arma de fogo",
+    "subtema": "Indicação de via aérea cirúrgica de urgência",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_01"],
+    "tags": ["via-aerea-dificil", "cricotireoidostomia", "trauma-facial", "atls"],
+    "descartar": "E",
+    "motivo_descarte": "A ventilação com bolsa-válvula-máscara é medida de suporte já comprovadamente insuficiente neste cenário e não constitui conduta definitiva, sendo a opção menos discriminativa.",
+    "problema_detectado": "Há erros de digitação nas alternativas ('Instalaçao', 'Cricotireodostomia'), que devem ser corrigidos na revisão editorial do item.",
+    "justificativas": {
+      "A": "Incorreta. A máscara laríngea é dispositivo supraglótico, não protege a via aérea contra aspiração e torna-se ineficaz diante de sangramento volumoso em cavidade oral e de edema de face e de língua, que distorcem a anatomia supraglótica.",
+      "B": "Incorreta. A traqueostomia é procedimento mais demorado, tecnicamente mais complexo e com maior risco de sangramento; não é a via aérea cirúrgica de escolha na emergência com hipoxemia grave, ficando reservada a situações eletivas ou a casos selecionados, como suspeita de lesão laríngea.",
+      "C": "Correta. Diante de via aérea que não pode ser visualizada nem assegurada após tentativas frustradas, com saturação de 57%, a prioridade é garantir imediatamente a oxigenação e a ventilação, com meta de saturação acima de 94%. A conduta indicada é a cricotireoidostomia, via aérea cirúrgica rápida e de escolha no resgate do cenário 'não intubável, não ventilável'.",
+      "D": "Incorreta. A intubação orotraqueal às cegas em via aérea com trauma, sangramento ativo e edema tem alta taxa de insucesso, pode agravar a lesão e criar falso trajeto, retardando perigosamente a oxigenação em paciente já gravemente hipoxêmico."
+    }
+  },
+  {
+    "id_origem": "tp2022_q091",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Instabilidade hemodinâmica no pós-operatório imediato de gastroplastia em Y de Roux",
+    "subtema": "Hemorragia intra-abdominal e choque hemorrágico",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_01"],
+    "tags": ["cirurgia-bariatrica", "bypass-y-de-roux", "choque-hemorragico", "complicacao-pos-operatoria"],
+    "descartar": "C",
+    "motivo_descarte": "Hemorragia digestiva baixa com indicação de colonoscopia é implausível em pós-operatório imediato de bypass gástrico e em paciente hemodinamicamente instável.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Taquicardia de 145 bpm, hipotensão (80x60 mmHg), sudorese, palidez e lipotimia nas primeiras horas após a gastroplastia, sem exteriorização de sangramento (ausência de hematêmese ou enterorragia), configuram choque hemorrágico por hemorragia intra-abdominal. A instabilidade hemodinâmica impõe tratamento cirúrgico, sendo a laparoscopia a abordagem diagnóstica e terapêutica indicada.",
+      "B": "Incorreta. A úlcera marginal ou péptica é complicação tardia do bypass, manifestando-se com dor epigástrica e sangramento exteriorizado; a endoscopia no pós-operatório imediato oferece risco à anastomose recente e não resolve a instabilidade hemodinâmica.",
+      "D": "Incorreta. O choque séptico não se instala em poucas horas de pós-operatório e cursaria com febre e padrão vasodilatado, com extremidades quentes, ao contrário da palidez e da sudorese fria descritas.",
+      "E": "Incorreta. A deiscência de anastomose costuma manifestar-se entre o terceiro e o quinto dia de pós-operatório, com taquicardia persistente, febre, dor abdominal e sinais de peritonite; nas primeiras horas o diagnóstico mais provável é o sangramento."
+    }
+  },
+  {
+    "id_origem": "tp2022_q099",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Profilaxia pós-exposição da raiva humana após mordedura canina",
+    "subtema": "Acidente leve com animal desaparecido",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_24", "dcn2025_comp_14"],
+    "tags": ["raiva-humana", "profilaxia-pos-exposicao", "mordedura-animal", "vacinacao"],
+    "descartar": "E",
+    "motivo_descarte": "Prescrever apenas analgésicos e anti-inflamatórios é conduta sintomática irrelevante para a prevenção da raiva, funcionando como distrator implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A observação por 10 dias aplica-se ao animal agressor, quando ele está disponível, e não ao paciente; como o cão desapareceu após o acidente, essa conduta é inviável e não substitui a profilaxia.",
+      "B": "Correta. Em acidente leve — lesão superficial em perna — com o cão desaparecido, a conduta preconizada é lavar abundantemente a ferida com água e sabão e iniciar imediatamente o esquema vacinal antirrábico, conforme as normas de profilaxia da raiva humana.",
+      "C": "Incorreta. A soroterapia (imunoglobulina ou soro antirrábico) está indicada nos acidentes graves, como lesões profundas, múltiplas ou extensas, ferimentos em cabeça, face, pescoço, mãos e pés ou lambedura de mucosas, o que não corresponde a esta lesão superficial em perna.",
+      "D": "Incorreta. A antibioticoprofilaxia pode ser considerada em mordeduras conforme o risco de infecção bacteriana, mas não previne a raiva, que é o objeto da conduta questionada, e não pode substituir a vacinação."
+    }
+  },
+  {
+    "id_origem": "tp2022_q107",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Discrepância entre medidas de pressão arterial no consultório e no domicílio",
+    "subtema": "Efeito do avental branco",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_02", "dcn2025_comp_10"],
+    "tags": ["hipertensao-arterial", "efeito-do-avental-branco", "monitorizacao-residencial", "medida-da-pressao-arterial"],
+    "descartar": "A",
+    "motivo_descarte": "Valores de 142/92 mmHg não correspondem a hipertensão estágio II sob nenhum critério vigente, tornando a alternativa implausível e pouco discriminativa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Correta. A diferença entre as medidas obtidas no consultório e fora dele é denominada efeito do avental branco quando positiva. Com base em estudos de MRPA, diferenças iguais ou superiores a 15 mmHg na pressão sistólica e/ou 9 mmHg na diastólica indicam efeito do avental branco significativo — exatamente o observado (142/92 mmHg no consultório contra 120/80 mmHg no domicílio), em paciente que refere ficar tenso ao ser avaliado por profissional de saúde.",
+      "C": "Incorreta. Não é possível firmar o diagnóstico de hipertensão estágio I com uma única aferição de consultório, sobretudo quando as medidas domiciliares são normais; com os dados disponíveis, não se pode diagnosticar hipertensão.",
+      "D": "Incorreta. A pré-hipertensão corresponde a valores de consultório entre 130-139 mmHg de sistólica e/ou 85-89 mmHg de diastólica devidamente confirmados; além de os valores aferidos ultrapassarem essa faixa, as medidas fora do consultório são normais.",
+      "E": "Incorreta. Não há sintomas que caracterizem crise de ansiedade, como palpitações, dispneia, parestesias e medo intenso; a tensão situacional diante do profissional de saúde apenas explica a elevação pressórica restrita ao consultório."
+    }
+  },
+  {
+    "id_origem": "tp2022_q115",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Neurotransmissores implicados na fisiopatologia da esquizofrenia",
+    "subtema": "Hipótese dopaminérgica e sintomas positivos",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["esquizofrenia", "dopamina", "neurotransmissores", "psicofarmacologia"],
+    "descartar": "C",
+    "motivo_descarte": "A glicina é o distrator mais frágil, pois não é habitualmente relacionada aos sintomas psicóticos no ensino de graduação, contribuindo pouco para a discriminação do item.",
+    "problema_detectado": "A vinheta apresenta dados clínicos (irritabilidade e insônia recentes) que não são necessários para responder, já que a pergunta é conceitual sobre o neurotransmissor associado à esquizofrenia.",
+    "justificativas": {
+      "A": "Incorreta. A norepinefrina relaciona-se principalmente à regulação do alerta, do humor e da resposta ao estresse, com papel relevante nos transtornos de humor e de ansiedade, não sendo o principal neurotransmissor implicado nas alucinações e nos delírios.",
+      "B": "Incorreta. A serotonina tem papel modulador na esquizofrenia, o que explica parte do efeito dos antipsicóticos de segunda geração, antagonistas 5-HT2A, mas não é o neurotransmissor central da hipótese fisiopatológica do quadro.",
+      "D": "Correta. A dopamina é um neurotransmissor da família das catecolaminas, e a hipótese dopaminérgica atribui o desenvolvimento da esquizofrenia a níveis elevados ou desregulados desse neurotransmissor. A hiperatividade dopaminérgica na via mesolímbica está associada aos sintomas positivos descritos — alucinações auditivas e delírios persecutórios —, e o bloqueio de receptores D2 é a base da ação dos antipsicóticos.",
+      "E": "Incorreta. O ácido gama-aminobutírico é o principal neurotransmissor inibitório do sistema nervoso central e participa de modo acessório da fisiopatologia da esquizofrenia, por disfunção de interneurônios, mas não é o mais associado à sintomatologia apresentada."
+    }
+  }
+]

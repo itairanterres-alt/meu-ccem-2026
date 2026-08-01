@@ -119,6 +119,8 @@ def _decol_layout(linhas):
             # respingo de texto justificado que passou do corredor
             if a and len(b.strip()) < 4:
                 a, b = (a + " " + b.strip()).rstrip(), ""
+            # o mesmo respingo, mas colado no início da coluna da direita
+            b = re.sub(r"^(\s*)\S{1,4}\s{6,}(?=\S)", r"\1", b)
             if a:
                 esq.append(a)
             if b.strip():
@@ -258,13 +260,24 @@ ACENTO = {"´": "́", "˜": "̃", "ˆ": "̂",
           "¸": "̧", "`": "̀", "¨": "̈"}
 
 
+# radicais de 1-2 letras que na verdade são palavras: "de ´ıons" = "de íons",
+# nunca "deíons". Só nesses casos o í NÃO é colado à palavra anterior.
+_STOP_I = {"a", "o", "e", "é", "as", "os", "da", "do", "de", "na", "no", "em",
+           "um", "ao", "se", "ou", "por", "com", "que", "sem"}
+
+
 def desLatex(s):
     """Remonta acentos do PDF gerado em LaTeX ('condi¸ c˜ ao' -> 'condição')."""
     s = re.sub(r"(\w)-\s*\n\s*(\w)", r"\1\2", s)          # hifenização de fim de linha
+    s = s.replace("ı", "i")                                # i sem pingo (LaTeX \i)
+    # 'caracter ´ ısticas' -> 'caracter´ısticas' -> 'características'
+    s = re.sub(r"([A-Za-zÀ-ÿ]+)\s+(´\s*i)",
+               lambda m: m.group(1) + m.group(2) if m.group(1).lower() not in _STOP_I
+               else m.group(0), s)
     s = re.sub(r"([´˜ˆ¸`¨])\s+", r"\1", s)                 # espaço depois do acento
-    s = re.sub(r"([´˜ˆ¸`¨])([A-Za-zı])",
+    s = re.sub(r"([´˜ˆ¸`¨])([A-Za-z])",
                lambda m: unicodedata.normalize("NFC", m.group(2) + ACENTO[m.group(1)]), s)
-    return s.replace("ı", "i")
+    return s
 
 
 def norm(s):
@@ -447,6 +460,9 @@ def melhor_linearizacao(pdf, prova):
 def extrair_caderno(prova):
     pdf = os.path.join(FONTES, prova["slug"] + ".pdf")
     texto, metodo, scores = melhor_linearizacao(pdf, prova)
+    # quebra de linha no hífen: nos dois cadernos o hífen é sempre real
+    # ("pronto-\nsocorro", "apresenta-\nse") — mantém o hífen, tira a quebra.
+    texto = re.sub(r"([A-Za-zÀ-ÿ])-\s*\n\s*([A-Za-zÀ-ÿ])", r"\1-\2", texto)
     with open(os.path.join(FONTES, prova["slug"] + ".txt"), "w", encoding="utf-8") as f:
         f.write(texto)
 
