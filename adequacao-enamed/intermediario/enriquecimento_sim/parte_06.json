@@ -1,0 +1,349 @@
+[
+  {
+    "id_origem": "simulado01_2026_q06",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Composição mínima da Equipe de Saúde da Família Ribeirinha (eSFR)",
+    "subtema": "Portaria nº 837/2014 e atenção básica em populações ribeirinhas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_11",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "eSFR",
+      "ribeirinhos",
+      "atenção básica",
+      "portaria 837/2014",
+      "equipe mínima"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Distrator implausível: prevê dois médicos e um microscopista, composição que não corresponde a nenhuma configuração de equipe prevista na atenção básica ribeirinha.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Correta. A Portaria nº 837/2014 define como composição mínima da eSFR um médico, preferencialmente especialista em Medicina de Família e Comunidade, um enfermeiro, preferencialmente especialista em Saúde da Família, e um auxiliar ou técnico de enfermagem.",
+      "C": "Incorreta. O cirurgião-dentista não integra a composição mínima da eSFR; a saúde bucal é incorporada de modo complementar, por meio de equipe de saúde bucal vinculada.",
+      "D": "Incorreta. Além de incluir indevidamente o cirurgião-dentista na equipe mínima, exige quatro agentes de saúde, quantitativo não estabelecido como mínimo pela portaria.",
+      "E": "Incorreta. Descreve uma configuração ampliada, com equipe de saúde bucal completa e dois auxiliares ou técnicos de enfermagem, muito além do mínimo normativo exigido."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q14",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abrangência da RDC nº 36/2013 sobre segurança do paciente",
+    "subtema": "Núcleo de Segurança do Paciente e âmbito de aplicação da norma",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_20",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "segurança do paciente",
+      "RDC 36/2013",
+      "ANVISA",
+      "qualidade assistencial"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Distrator absurdo: restringir a norma somente aos serviços públicos contraria frontalmente o texto da RDC e dificilmente seria assinalado por qualquer candidato.",
+    "problema_detectado": "As alternativas B e C são quase idênticas, diferindo apenas pela inclusão do termo 'privados', o que reduz a clareza técnica do item.",
+    "justificativas": {
+      "B": "Incorreta. A omissão dos serviços privados descaracteriza o alcance da norma, que abrange expressamente os serviços de saúde privados.",
+      "C": "Correta. A RDC nº 36/2013 aplica-se aos serviços de saúde, sejam eles públicos, privados, filantrópicos, civis ou militares, incluindo os que exercem ações de ensino e pesquisa.",
+      "D": "Incorreta. Os consultórios individualizados estão expressamente excluídos do âmbito de aplicação da resolução.",
+      "E": "Incorreta. Consultórios individualizados, laboratórios clínicos e serviços móveis e de atenção domiciliar constituem justamente as exceções excluídas da abrangência da RDC."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q22",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Confirmação diagnóstica de caso suspeito de rubéola",
+    "subtema": "Vigilância epidemiológica de doenças exantemáticas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_03",
+      "dcn2025_comp_14"
+    ],
+    "tags": [
+      "rubéola",
+      "sorologia IgM",
+      "vigilância epidemiológica",
+      "doença exantemática",
+      "notificação"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível: observar o caso por 48 horas não constitui critério de confirmação diagnóstica e retarda indevidamente a investigação de agravo de notificação imediata.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O vínculo epidemiológico é critério auxiliar de confirmação, aplicável apenas quando não há amostra laboratorial oportuna; no caso, o paciente nega contato com casos confirmados.",
+      "B": "Correta. A confirmação laboratorial por sorologia com pesquisa de IgM e IgG específicos é o método de escolha para confirmar caso suspeito de rubéola, sendo a coleta indicada no primeiro contato com o serviço de saúde.",
+      "C": "Incorreta. A associação temporal com vacinação serve para descartar caso vacinal, e o paciente não possui registro de vacinação contra rubéola.",
+      "D": "Incorreta. O quadro clínico da rubéola é inespecífico e se sobrepõe ao de outras exantemáticas, de modo que critérios clínicos isolados não confirmam o caso."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q30",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Critérios laboratoriais para diagnóstico de diabetes mellitus",
+    "subtema": "Glicemia de jejum, HbA1c e necessidade de confirmação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "diabetes mellitus",
+      "glicemia de jejum",
+      "hemoglobina glicada",
+      "diagnóstico",
+      "pré-diabetes"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator absurdo: HbA1c de 4,5% é valor plenamente normal, sem qualquer possibilidade de sustentar o diagnóstico de diabetes.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A glicemia capilar é método de triagem e monitorização, não sendo aceita como critério diagnóstico de diabetes mellitus.",
+      "B": "Incorreta. HbA1c de 5,6% é normal e de 6,1% caracteriza pré-diabetes, pois o ponto de corte diagnóstico é HbA1c maior ou igual a 6,5%.",
+      "C": "Correta. Duas glicemias de jejum em amostras distintas com valores maiores ou iguais a 126 mg/dL (136 e 152 mg/dL) confirmam o diagnóstico de diabetes mellitus em paciente assintomático.",
+      "D": "Incorreta. Uma única glicemia de jejum de 126 mg/dL em paciente assintomático não é suficiente, exigindo repetição do exame para confirmação diagnóstica."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q38",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Populações com maior risco de adoecimento por tuberculose no Brasil",
+    "subtema": "Determinantes sociais e populações vulnerabilizadas na TB",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_15",
+      "dcn2025_comp_11",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "tuberculose",
+      "população em situação de rua",
+      "vulnerabilidade",
+      "determinantes sociais"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "É o distrator menos discriminativo: profissionais de saúde apresentam o menor incremento de risco entre os grupos listados e o vínculo com os determinantes sociais descritos no enunciado é o mais tênue.",
+    "problema_detectado": "Todos os grupos citados são reconhecidos como populações de maior risco no Manual de Recomendações, de modo que o enunciado só se resolve pela magnitude relativa do risco, o que o torna parcialmente ambíguo; além disso, o item está marcado como exigindo imagem sem que haja recurso gráfico necessário à sua resolução.",
+    "justificativas": {
+      "A": "Incorreta. A população indígena apresenta risco aproximadamente 3 vezes maior que o da população geral, magnitude bem inferior à do grupo de maior vulnerabilidade.",
+      "C": "Incorreta. Pessoas vivendo com HIV têm risco cerca de 30 vezes maior, elevado, porém ainda menor que o da população em situação de rua.",
+      "D": "Incorreta. Pessoas privadas de liberdade têm risco cerca de 30 vezes maior, ficando abaixo do grupo com maior risco relativo.",
+      "E": "Correta. A população em situação de rua é o grupo com maior risco relativo de adoecimento por tuberculose no Brasil, cerca de 56 vezes o da população geral, justamente por concentrar os determinantes sociais descritos no enunciado."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q06",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Atribuições e funcionamento do Conselho Municipal de Saúde",
+    "subtema": "Controle social no SUS e Lei nº 8.142/1990",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_18",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "controle social",
+      "conselho de saúde",
+      "SUS",
+      "participação popular",
+      "ostomizados"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Erro de digitação na alternativa A, que inicia com a letra 'A' duplicada antes do texto ('A a discussão').",
+    "justificativas": {
+      "A": "Incorreta. A proposição de novos serviços não é prerrogativa exclusiva do Executivo; o conselho de saúde tem caráter deliberativo sobre a formulação de estratégias e o controle da execução da política de saúde.",
+      "B": "Incorreta. A composição dos conselhos é paritária e inclui 50% de representantes dos usuários, de modo que associações de pacientes têm participação assegurada.",
+      "C": "Incorreta. A competência deliberativa do conselho alcança também os aspectos econômicos e financeiros, incluindo a aprovação de gastos previstos no plano municipal de saúde.",
+      "D": "Correta. O CMS é órgão deliberativo e formulador de estratégias, cabendo ao gestor, isto é, à secretaria municipal de saúde, a execução operacional das deliberações homologadas."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q14",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta diante de suspeita de violência sexual contra criança na APS",
+    "subtema": "Notificação compulsória, registro em prontuário e rede de proteção",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_27",
+      "dcn2025_comp_11",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "violência sexual",
+      "notificação compulsória",
+      "SINAN",
+      "conselho tutelar",
+      "proteção infantil"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A suspeita de violência contra criança é de notificação compulsória imediata no SINAN, independentemente de confirmação, devendo o registro em prontuário ser objetivo e a rede intersetorial, incluindo o conselho tutelar, ser acionada com a equipe.",
+      "B": "Incorreta. A notificação não pode ser condicionada à confirmação pericial, pois a suspeita já a torna obrigatória, e o encaminhamento à perícia não substitui o acolhimento e a avaliação inicial na unidade.",
+      "C": "Incorreta. Confrontar os supostos agressores expõe a criança a risco adicional de revitimização e de ocultação de provas, além de não substituir a notificação.",
+      "D": "Incorreta. A denúncia policial isolada não cumpre a obrigação de notificação epidemiológica no SINAN nem a articulação com o conselho tutelar, órgão de referência para a proteção da criança."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q22",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Rastreamento de câncer colorretal nas políticas públicas do SUS",
+    "subtema": "Pesquisa de sangue oculto nas fezes versus colonoscopia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_25",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "câncer colorretal",
+      "rastreamento",
+      "sangue oculto nas fezes",
+      "colonoscopia",
+      "SUS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Estimular a judicialização para obter exame não indicado como rastreamento populacional é conduta inadequada e onera o sistema sem benefício comprovado.",
+      "B": "Incorreta. A colonoscopia não é o exame de rastreamento inicial preconizado no SUS para indivíduos assintomáticos e de risco habitual, sendo reservada a casos com rastreio positivo ou indicação clínica.",
+      "C": "Correta. Para pessoa assintomática, sem história familiar e na faixa etária de rastreamento, o exame preconizado pelo Ministério da Saúde é a pesquisa de sangue oculto nas fezes, com colonoscopia reservada aos resultados positivos.",
+      "D": "Incorreta. Afirmar que o SUS não oferece rastreamento de câncer de intestino é falso e transferir o cuidado ao setor privado contraria os princípios de integralidade e equidade."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q30",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Sangramento uterino na pós-menopausa e autonomia da paciente idosa",
+    "subtema": "Investigação inicial com ultrassonografia transvaginal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_03",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "sangramento pós-menopausa",
+      "câncer de endométrio",
+      "ultrassonografia transvaginal",
+      "autonomia",
+      "idosa"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A idade por si só não retira a capacidade civil nem justifica comunicar o diagnóstico a terceiros, e o sangramento pós-menopausa sempre exige investigação.",
+      "B": "Correta. A paciente é lúcida e capaz de autogerir-se, devendo ter respeitados autonomia, privacidade e sigilo; o sangramento pós-menopausa, sobretudo com obesidade e intolerância glicêmica, exige investigação inicial com ultrassonografia transvaginal para avaliar o eco endometrial.",
+      "C": "Incorreta. Não há obrigatoriedade de acompanhante para paciente idosa capaz, e o CA 125 não tem papel no rastreio ou na investigação inicial do sangramento pós-menopausa.",
+      "D": "Incorreta. Conduta expectante é inaceitável diante de sangramento pós-menopausa, que deve ser considerado câncer de endométrio até prova em contrário."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q38",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diferenciação entre uso nocivo, dependência e abstinência de álcool",
+    "subtema": "Padrões de uso de álcool e critérios diagnósticos (CID-10)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "álcool",
+      "uso nocivo",
+      "dependência",
+      "saúde mental",
+      "atenção primária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Há padrão de consumo que já produz dano concreto à saúde e ao funcionamento laboral, sem critérios de dependência, configurando uso nocivo de álcool.",
+      "B": "Incorreta. Não há fissura, tolerância, perda de controle, saliência do consumo nem uso continuado apesar de dano persistente, e entre os episódios o funcionamento social e laboral é preservado.",
+      "C": "Incorreta. Os sintomas depressivos são breves, restritos ao período pós-libação e sem duração mínima de duas semanas, não preenchendo critérios de episódio depressivo.",
+      "D": "Incorreta. A abstinência cursa com tremores, sudorese, taquicardia, ansiedade e risco de convulsões, achados ausentes neste paciente."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q46",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença pleural ocupacional por exposição ao amianto",
+    "subtema": "Placas pleurais, derrame pleural e nexo causal ocupacional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_15",
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "amianto",
+      "placas pleurais",
+      "saúde do trabalhador",
+      "mesotelioma",
+      "pneumopatia ocupacional"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A exposição a agrotóxicos associa-se a quadros neurotóxicos, dermatológicos e neoplasias hematológicas, e não ao acometimento pleural descrito.",
+      "B": "Correta. Placas pleurais associadas a espessamento pleural difuso e derrame pleural são marcadores clássicos de exposição ao asbesto, frequente na construção civil, com quadro insidioso de dispneia, tosse seca e sintomas consumptivos sugestivos de mesotelioma.",
+      "C": "Incorreta. O benzeno é mielotóxico e leucemogênico, cursando com alterações hematológicas, sem produzir placas pleurais.",
+      "D": "Incorreta. A pneumoconiose dos trabalhadores do carvão determina acometimento predominantemente parenquimatoso, com nódulos e fibrose maciça progressiva, não doença pleural com placas."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q54",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Equipes de Consultório na Rua e cuidado à população em situação de rua",
+    "subtema": "Política Nacional para a População em Situação de Rua",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_06",
+      "dcn2025_comp_22",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "consultório na rua",
+      "população em situação de rua",
+      "equipe multiprofissional",
+      "álcool e outras drogas"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "É o distrator mais fraco, pois isolar apenas a afirmativa I ignora dois enunciados amplamente conhecidos e explicitamente previstos na política, sendo a opção menos plausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. Exclui a afirmativa III, embora a busca ativa e o cuidado a usuários de álcool, crack e outras drogas estejam entre as atribuições expressas das eCR.",
+      "C": "Incorreta. Exclui a afirmativa II, ainda que a atuação itinerante e in loco, integrada às UBS, seja característica definidora das equipes de Consultório na Rua.",
+      "D": "Incorreta. Exclui a afirmativa I, embora a composição multiprofissional e a abordagem dos diferentes problemas e necessidades de saúde dessa população sejam previstas na política.",
+      "E": "Correta. As três afirmativas descrevem corretamente as eCR: equipes multiprofissionais, de atuação itinerante e integrada às UBS, que realizam busca ativa e cuidado aos usuários de álcool, crack e outras drogas."
+    }
+  }
+]

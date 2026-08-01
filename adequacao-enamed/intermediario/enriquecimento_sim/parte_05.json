@@ -1,0 +1,339 @@
+[
+  {
+    "id_origem": "simulado01_2026_q05",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Conceito de vigilância em saúde na Resolução CNS nº 588/2018",
+    "subtema": "Política Nacional de Vigilância em Saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_16",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "vigilância em saúde",
+      "SUS",
+      "PNVS",
+      "saúde coletiva"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Reproduz a definição legal de integralidade da assistência (Lei nº 8.080/1990), conceito estranho ao objeto da questão e que praticamente nenhum candidato marcaria como definição de vigilância em saúde.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A Resolução CNS nº 588/2018, que institui a Política Nacional de Vigilância em Saúde, define vigilância em saúde como processo contínuo e sistemático de coleta, consolidação, análise e disseminação de dados sobre eventos relacionados à saúde, com vistas ao planejamento e à implementação de medidas de saúde pública para proteção da saúde da população.",
+      "B": "Incorreta. O texto descreve as atribuições da vigilância laboratorial e sanitária — investigação diagnóstica de agravos e verificação da conformidade de produtos e amostras ambientais —, que são componentes da vigilância em saúde, e não a sua definição.",
+      "C": "Incorreta. Descreve a promoção da saúde como componente da integralidade do cuidado na Rede de Atenção à Saúde; trata-se de uma das diretrizes articuladas à vigilância, mas não do conceito solicitado.",
+      "D": "Incorreta. Corresponde à análise de situação de saúde/monitoramento de indicadores, que é um dos componentes operacionais da vigilância em saúde e não abrange as etapas de coleta, consolidação e disseminação previstas na definição normativa."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q13",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Política Nacional de Humanização como política transversal do SUS",
+    "subtema": "HumanizaSUS: princípios e diretrizes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_12",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "humanização",
+      "PNH",
+      "SUS",
+      "gestão participativa"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Afirmação implausível e redundante com o erro contido na alternativa D, pois nega justamente os sujeitos da rede, elemento central e explícito no nome da política de humanização.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. A PNH orienta as práticas de atenção e gestão a partir da experiência conjunta de usuários, trabalhadores e gestores; restringi-la à experiência exclusiva do usuário contraria a diretriz de cogestão.",
+      "C": "Incorreta. A PNH define as trocas solidárias como comprometidas com a dupla tarefa de produção de saúde e produção de sujeitos, e não com uma tarefa única.",
+      "D": "Incorreta. A humanização articula as práticas em saúde valorizando também a dimensão subjetiva e social do cuidado, não apenas o aspecto objetivo.",
+      "E": "Correta. Por ser política transversal às ações e instâncias gestoras do SUS, a PNH inclui gestores, trabalhadores e usuários como sujeitos ativos e corresponsáveis pela produção do cuidado e pela gestão dos serviços."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q21",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico clínico de asma em adulto jovem na atenção primária",
+    "subtema": "Doenças respiratórias obstrutivas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "asma",
+      "sibilos",
+      "dispneia",
+      "tabagismo passivo"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "Hipótese implausível diante de mucosa nasal sem alterações e de sibilos difusos ao exame pulmonar, achados que não pertencem ao quadro de rinossinusite.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Tosse seca, chiado e dispneia com piora noturna, desencadeados por exposição à fumaça de tabaco, associados a sibilos difusos expiratórios em paciente jovem sem febre nem emagrecimento, configuram o padrão de variabilidade e hiper-responsividade típico da asma.",
+      "C": "Incorreta. A DPOC exige história de exposição significativa e cumulativa, tipicamente tabagismo ativo de longa data, e ocorre em faixa etária mais avançada, com limitação de fluxo aéreo persistente e não variável.",
+      "D": "Incorreta. A tuberculose pulmonar cursa habitualmente com tosse por mais de três semanas acompanhada de febre vespertina, sudorese noturna e perda ponderal, todos ausentes no caso.",
+      "E": "Incorreta. A pneumonia adquirida na comunidade cursa com febre, taquipneia e achados focais como estertores crepitantes ou sopro tubário, e não com sibilância difusa em paciente afebril e eupneica."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q29",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Critério diagnóstico de hipertensão arterial sistêmica versus fatores de risco",
+    "subtema": "Hipertensão arterial: diagnóstico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hipertensão arterial",
+      "diagnóstico",
+      "medida da PA",
+      "fator de risco"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "A idade isolada de 48 anos não é critério diagnóstico nem fator de risco destacado no caso, sendo a opção menos discriminativa entre os distratores.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Além de descrever um evento não relatado no caso, uma única aferição em unidade de pronto atendimento, em contexto de dor ou estresse agudo, não estabelece o diagnóstico de hipertensão arterial.",
+      "B": "Incorreta. O sedentarismo é fator de risco modificável para o desenvolvimento de hipertensão, mas não integra os critérios diagnósticos da doença.",
+      "C": "Incorreta. A história familiar aumenta a probabilidade pré-teste de hipertensão, porém é fator predisponente e não elemento diagnóstico.",
+      "D": "Correta. O diagnóstico de hipertensão arterial sistêmica se firma por medidas repetidas de pressão arterial iguais ou superiores a 140 x 90 mmHg em consultas distintas; o paciente apresenta cinco aferições elevadas ao longo do último ano, o que dispensa nova confirmação."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q37",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Valor diagnóstico das provas de fase aguda na arterite de células gigantes",
+    "subtema": "Vasculites de grandes vasos e raciocínio probabilístico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "arterite temporal",
+      "VHS",
+      "cefaleia no idoso",
+      "razão de verossimilhança"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "A radiografia craniana não tem qualquer utilidade nesse cenário e reproduz a mesma estrutura de C e E, funcionando como distrator absurdo e quase duplicado.",
+    "problema_detectado": "As alternativas C, D e E são variações quase idênticas da mesma proposição, diferindo apenas pelo método de imagem, o que empobrece a discriminação do item.",
+    "justificativas": {
+      "A": "Incorreta. Embora a PCR costume estar elevada, sua razão de verossimilhança positiva é baixa por ser marcador inespecífico de inflamação, de modo que a elevação isolada da PCR pouco modifica a probabilidade pós-teste de arterite de células gigantes.",
+      "B": "Correta. Em idoso com cefaleia de início recente e artéria temporal espessada, VHS acima de 100 mm/h apresenta razão de verossimilhança positiva expressiva e eleva substancialmente a probabilidade de arterite de células gigantes, indicando corticoterapia imediata e biópsia da artéria temporal.",
+      "C": "Incorreta. A tomografia de crânio não faz parte da investigação diagnóstica da arterite de células gigantes e não deve retardar o início do tratamento; o diagnóstico é clínico-laboratorial, confirmado por biópsia ou por imagem vascular dirigida.",
+      "E": "Incorreta. A ressonância magnética de crânio convencional não é essencial nesse contexto; apenas a angiorressonância ou o ultrassom da artéria temporal têm papel na avaliação vascular, e nunca como pré-requisito para se cogitar o diagnóstico."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q05",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Níveis de prevenção aplicados à antiagregação após acidente vascular cerebral",
+    "subtema": "Prevenção secundária de eventos cardiovasculares",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "níveis de prevenção",
+      "AAS",
+      "AVC",
+      "prevenção secundária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A prevenção primária atua em indivíduos ainda sem a doença, reduzindo a incidência por controle de fatores de risco ou imunização; o paciente já sofreu o evento cerebrovascular.",
+      "B": "Incorreta. A prevenção terciária visa limitar o dano e reabilitar sequelas já instaladas, o que não se aplica a paciente que evoluiu sem sequelas e recebe antiagregante profilático.",
+      "C": "Correta. A prescrição de ácido acetilsalicílico em paciente que já apresentou acidente vascular cerebral tem por objetivo impedir a recorrência do evento em doença já estabelecida, o que caracteriza prevenção secundária.",
+      "D": "Incorreta. A prevenção quaternária consiste em proteger o paciente de intervenções desnecessárias e da iatrogenia decorrente do excesso de medicalização, e não em prescrever terapia com benefício comprovado."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q13",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Plano terapêutico para cessação do tabagismo com dependência à nicotina",
+    "subtema": "Abordagem cognitivo-comportamental e terapia de reposição de nicotina",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "tabagismo",
+      "dependência de nicotina",
+      "TRN",
+      "terapia comportamental"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há erros de digitação com quebra indevida de palavras no enunciado (\"ansie dade\") e uso de maiúscula inicial fora do padrão na alternativa A, sem prejuízo para a compreensão do item.",
+    "justificativas": {
+      "A": "Incorreta. A reposição de nicotina isolada é menos eficaz do que quando combinada ao suporte comportamental, que é o componente indispensável de todo tratamento do tabagismo preconizado pelo Programa Nacional de Controle do Tabagismo.",
+      "B": "Correta. Paciente com carga tabágica elevada, múltiplas tentativas prévias e sintomas de abstinência (irritabilidade e ansiedade na redução) apresenta dependência à nicotina de grau relevante, para a qual está indicada a abordagem cognitivo-comportamental estruturada associada à terapia de reposição de nicotina.",
+      "C": "Incorreta. A cessação abrupta é a estratégia preferencial, mas, isoladamente, a terapia comportamental sem apoio farmacológico é insuficiente diante de sintomas de abstinência já documentados.",
+      "D": "Incorreta. Os benzodiazepínicos não têm eficácia comprovada na cessação do tabagismo, não são recomendados nas diretrizes e acrescentam risco de dependência e sedação."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q21",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Escolha do desenho de estudo para levantamento de doenças crônicas no território",
+    "subtema": "Epidemiologia: estudos observacionais e planejamento em saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "estudo transversal",
+      "prevalência",
+      "epidemiologia",
+      "planejamento em saúde"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O estudo transversal, ou de prevalência, avalia exposição e desfecho em um único momento, é rápido e de baixo custo e é o desenho adequado para levantar a carga de doenças crônicas em uma população definida com vistas ao planejamento imediato de ações.",
+      "B": "Incorreta. Estudos experimentais envolvem intervenção alocada pelo pesquisador e destinam-se a testar eficácia de intervenções, não a descrever a situação de saúde de uma população.",
+      "C": "Incorreta. O estudo de caso-controle parte do desfecho já ocorrido para investigar exposições pregressas e serve à identificação de fatores associados, não à estimativa da prevalência de múltiplas doenças crônicas.",
+      "D": "Incorreta. A coorte prospectiva exige acompanhamento longitudinal por período prolongado, o que é incompatível com a exigência de resultados em curto prazo para o planejamento local."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q29",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Estratégias prioritárias de controle do tabagismo em âmbito municipal",
+    "subtema": "Programa Nacional de Controle do Tabagismo e organização da rede",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_18",
+      "dcn2025_comp_13",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "tabagismo",
+      "gestão municipal",
+      "PNCT",
+      "educação permanente"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa C também descreve ações reconhecidas de controle do tabagismo em adolescentes, o que reduz a univocidade da chave e torna o item potencialmente ambíguo quanto à noção de prioridade.",
+    "justificativas": {
+      "A": "Incorreta. Prescrever farmacoterapia a quem ainda não manifestou desejo de cessação contraria a abordagem por estágios de mudança e desperdiça recurso em pacientes na fase pré-contemplativa, além de a farmacoterapia ter indicação restrita em adolescentes.",
+      "B": "Correta. A estratégia prioritária da gestão é qualificar a rede pela capacitação das equipes no tratamento do tabagismo, conforme o Programa Nacional de Controle do Tabagismo, garantindo oferta organizada e resolutiva de abordagem a quem procura ajuda para parar de fumar.",
+      "C": "Incorreta. A regulação da venda e do uso de tabaco é atribuição normativa e fiscalizatória da vigilância sanitária e da legislação federal, não cabendo a comitês de bairro; ações pontuais em eventos têm baixo impacto sustentado sobre a prevalência.",
+      "D": "Incorreta. O tabagismo é condição de manejo prioritário na atenção primária; encaminhar todos os fumantes a serviços de maior densidade tecnológica inverte a lógica da Rede de Atenção à Saúde e sobrecarrega níveis especializados sem ganho de efetividade."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q37",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta inicial diante de suspeita de transtorno específico de aprendizagem aos 6 anos",
+    "subtema": "Desenvolvimento neuropsicomotor e dificuldades escolares",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "transtorno de aprendizagem",
+      "criança",
+      "psicopedagogia",
+      "atenção primária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado contém erros de digitação com quebra de palavras (\"f azem\", \"c riança\") e a expressão \"alerta do desenvolvimento neuropsicomortor\" está grafada de modo incorreto, dificultando parcialmente a leitura.",
+    "justificativas": {
+      "A": "Correta. Afastadas causas orgânicas, sensoriais, perinatais e psicossociais pela avaliação médica, a etapa seguinte é a avaliação psicopedagógica, que caracteriza o perfil das dificuldades e define o transtorno específico de aprendizagem, orientando a intervenção educacional.",
+      "B": "Incorreta. Aos 6 anos, já no processo formal de alfabetização, é possível identificar sinais de alerta e iniciar a investigação; postergar a avaliação retarda a intervenção precoce, que é o principal determinante de bom prognóstico.",
+      "C": "Incorreta. O encaminhamento ao neuropediatra se justificaria diante de sinais neurológicos, dismorfismos, regressão do desenvolvimento ou crises epilépticas, todos explicitamente ausentes no caso.",
+      "D": "Incorreta. Encaminhar apenas para reforço pedagógico sem avaliação diagnóstica assume indevidamente a ausência de transtorno e não fornece o plano individualizado que a criança necessita."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q45",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Definição de ação prioritária no plano municipal de saúde a partir do perfil epidemiológico",
+    "subtema": "Planejamento em saúde e Rede de Atenção à Saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_18",
+      "dcn2025_comp_16",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "plano municipal de saúde",
+      "atenção primária",
+      "doenças crônicas",
+      "RAS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há erros de digitação com quebra indevida de palavras no enunciado e na alternativa A (\"aten ção\", \"unidade básica d e saúde\"), sem comprometer o entendimento.",
+    "justificativas": {
+      "A": "Correta. Com cobertura de atenção primária de apenas 70% e predomínio de doenças crônicas não transmissíveis, a prioridade é ampliar a cobertura da estratégia de saúde da família e integrá-la à atenção secundária, pois a APS coordenadora do cuidado é o principal determinante de melhora dos indicadores e da resolutividade do SUS.",
+      "B": "Incorreta. Manter a cobertura atual não enfrenta a lacuna de acesso identificada, e priorizar um serviço de urgência reforça o modelo centrado na demanda espontânea, sem impacto sobre a carga de doenças crônicas.",
+      "C": "Incorreta. Expandir unidades básicas tradicionais sem estratégia de saúde da família contraria a Política Nacional de Atenção Básica, que elege a ESF como modelo prioritário por sua vinculação territorial e longitudinalidade.",
+      "D": "Incorreta. A compra de ambulâncias atua apenas na remoção de pacientes e na dependência de outros municípios, sem ampliar a capacidade local de prevenir e manejar as condições crônicas e as causas externas."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q53",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Atribuições prioritárias das equipes multiprofissionais na Atenção Primária (eMulti)",
+    "subtema": "Organização do trabalho interprofissional na APS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_22",
+      "dcn2025_comp_09",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "eMulti",
+      "matriciamento",
+      "APS",
+      "interprofissionalidade"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "É a atribuição mais evidente e universalmente reconhecida das eMulti, funcionando como distrator óbvio e o menos discriminativo em um item de exceção.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta como resposta à exceção, pois a oferta de ações de saúde à distância, por telessaúde e teleinterconsulta, está expressamente prevista entre as atividades das eMulti.",
+      "C": "Incorreta como resposta à exceção, pois o apoio matricial às equipes de APS e as intervenções no território constituem o núcleo do trabalho das eMulti.",
+      "D": "Incorreta como resposta à exceção, pois as atividades coletivas e a construção compartilhada de projetos terapêuticos singulares são ações típicas dessas equipes.",
+      "E": "Correta. As eMulti se caracterizam pela atuação intersetorial e interprofissional, articulando saúde com educação, assistência social e demais políticas; o desenvolvimento de práticas meramente setoriais contraria essa lógica e é, portanto, a exceção."
+    }
+  }
+]

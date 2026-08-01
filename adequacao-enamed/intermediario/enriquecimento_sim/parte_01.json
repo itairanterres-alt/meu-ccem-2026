@@ -1,0 +1,373 @@
+[
+  {
+    "id_origem": "simulado01_2026_q01",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "tema": "Rede de Atenção à Saúde (RAS): conceito, pontos de atenção e objetivos",
+    "subtema": "Portaria de Consolidação nº 3/2017",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "RAS",
+      "SUS",
+      "pontos de atenção",
+      "integralidade",
+      "políticas de saúde"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "É o distrator mais fraco por conter isoladamente a única afirmativa francamente falsa (I), sendo implausível como resposta e pouco discriminativo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. A afirmativa II é verdadeira, mas a alternativa é incompleta: a afirmativa III reproduz literalmente um dos objetivos da RAS previstos na norma, de modo que a resposta não pode se restringir a II.",
+      "C": "Incorreta. Inclui a afirmativa I, que é falsa: na lógica de rede, todos os pontos de atenção são igualmente importantes para o cumprimento dos objetivos da RAS, diferenciando-se apenas pela densidade tecnológica.",
+      "D": "Incorreta. Embora a afirmativa III esteja correta, a alternativa incorpora a afirmativa I, que contraria o princípio de que não há hierarquia de importância entre os pontos de atenção da rede.",
+      "E": "Correta. A afirmativa II corresponde à definição normativa de pontos de atenção à saúde como espaços de oferta de serviços com produção singular, e a III reproduz o objetivo da RAS de promover integração sistêmica com atenção contínua, integral, de qualidade, responsável e humanizada."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q09",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "tema": "Qualidade metodológica de estudos epidemiológicos",
+    "subtema": "Definição da população de estudo e seleção de participantes",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "epidemiologia",
+      "validade",
+      "amostragem",
+      "viés",
+      "MBE"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "É a negação direta do conteúdo da alternativa correta (representatividade), tornando-se implausível e entregando a resposta ao candidato atento.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. Instrumentos desenvolvidos pelo próprio estudo exigem pré-teste (e idealmente validação) para garantir compreensibilidade, confiabilidade e validade das medidas obtidas.",
+      "C": "Incorreta. Uma vez identificadas, as variáveis de confusão devem obrigatoriamente ser controladas, seja no desenho (restrição, pareamento, randomização), seja na análise (estratificação, modelos multivariados); deixá-las sem controle compromete a validade interna.",
+      "D": "Incorreta. O cálculo prévio do tamanho amostral influencia a precisão e o poder estatístico, mas não é o determinante fundamental da qualidade: uma amostra grande e mal selecionada permanece enviesada.",
+      "E": "Correta. A validade de um estudo epidemiológico depende essencialmente da definição adequada da população-alvo e do método de seleção dos participantes, pois deles derivam a representatividade e o controle dos vieses de seleção."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q17",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "tema": "Atenção Primária à Saúde e organização dos pontos de atenção",
+    "subtema": "Atributos e papel coordenador da APS na RAS",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "APS",
+      "RAS",
+      "coordenação do cuidado",
+      "atenção básica"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Afirmação factualmente absurda — a APS é o primeiro nível de atenção, e nenhum candidato minimamente preparado a assinalaria.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. A APS de fato enfatiza a resolutividade sobre os problemas mais comuns, mas coordena o cuidado em todos os demais pontos de atenção da rede, e não apenas \"nos pontos de atenção básica\", como restringe indevidamente a alternativa.",
+      "C": "Correta. Os pontos de atenção à saúde são definidos como espaços onde se ofertam determinados serviços de saúde por meio de uma produção singular, conceito integrante da organização da APS dentro da RAS.",
+      "D": "Incorreta. O advérbio \"exclusivamente\" invalida a assertiva: além das unidades básicas e ambulatoriais especializadas, também são pontos de atenção os CAPS, os serviços de atenção domiciliar, as unidades hospitalares, entre outros.",
+      "E": "Incorreta. Um mesmo hospital pode abrigar distintos pontos de atenção à saúde (ambulatório, unidade de terapia intensiva, emergência, hospital-dia), conforme a lógica poliárquica das redes."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q25",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "tema": "Monitoramento clínico de caso confirmado de mpox (monkeypox) com alto risco de gravidade",
+    "subtema": "Vigilância e seguimento de doenças emergentes",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_14",
+      "dcn2025_comp_24",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "mpox",
+      "infectologia",
+      "vigilância",
+      "monitoramento"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Intervalo de 15 dias é absurdo para o seguimento de uma doença infecciosa aguda em paciente de alto risco, sendo o distrator menos plausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O monitoramento a cada 2 dias é insuficiente para pacientes com fatores de risco para forma grave, nos quais a deterioração clínica pode ocorrer em intervalo menor.",
+      "B": "Incorreta. Intervalo de 3 dias não permite detecção oportuna de complicações como sepse, encefalite, comprometimento oftálmico ou lesões extensas em pacientes de alto risco.",
+      "C": "Incorreta. O intervalo semanal é aplicável ao seguimento de casos leves e de baixo risco, não ao grupo de indivíduos com alto risco de evolução grave.",
+      "E": "Correta. Casos confirmados de mpox pertencentes a grupos de alto risco de forma grave (imunossuprimidos, gestantes, crianças, doenças cutâneas extensas) devem ter monitoramento diário até a resolução do quadro."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q33",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "tema": "Projeto terapêutico singular em idosa acamada com demência avançada e apoio à cuidadora",
+    "subtema": "Sobrecarga do cuidador e atenção domiciliar na APS",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_01",
+      "dcn2025_comp_12",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "PTS",
+      "cuidador",
+      "demência",
+      "atenção domiciliar",
+      "idoso"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "É o distrator mais fraco por duplicar parcialmente a alternativa D (reabilitação da deglutição) sem contemplar a cuidadora, propondo encaminhamento ao CER sem qualquer indicação no caso.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O PTS deve incluir a cuidadora como sujeito do cuidado, com avaliação periódica de sobrecarga (p. ex., escala de Zarit), e manter a longitudinalidade do acompanhamento de Vanda pela equipe de APS, já que a paciente está clinicamente estável e sem intercorrências.",
+      "B": "Incorreta. Encaminhamento ao geriatra e terapias regulares não modificam o curso da doença de Alzheimer em fase avançada, além de sobrecarregarem paciente acamada e cuidadora com deslocamentos desnecessários.",
+      "D": "Incorreta. Embora acerte ao dar suporte à cuidadora, encaminhar para serviço de atenção secundária domiciliar não se justifica em paciente estável, sem lesões por pressão e sem internações recentes, cujo caso é plenamente manejável pela APS.",
+      "E": "Incorreta. Propõe terapias sem indicação clínica e transfere o cuidado a serviço especializado, rompendo a coordenação e a longitudinalidade da APS, que pode ela própria ofertar abordagem paliativa domiciliar."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q01",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "tema": "Lei nº 8.142/1990: requisitos para transferência intergovernamental de recursos do SUS",
+    "subtema": "Financiamento e controle social no SUS",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_18",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "SUS",
+      "Lei 8.142",
+      "financiamento",
+      "controle social"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A comissão de elaboração do plano de carreira, cargos e salários consta entre os requisitos do art. 4º da Lei nº 8.142/1990, mas o prontuário eletrônico não é exigência legal para o repasse, o que invalida a alternativa.",
+      "B": "Incorreta. O plano diretor de regionalização é instrumento introduzido pela NOAS/2001 e não figura entre os requisitos estabelecidos pela Lei nº 8.142/1990.",
+      "C": "Incorreta. O plano de saúde é de fato exigido pelo art. 4º, porém a central de marcação de consultas e exames é ferramenta de gestão da regulação assistencial, sem previsão como condição para o repasse.",
+      "D": "Correta. O art. 4º da Lei nº 8.142/1990 condiciona o recebimento dos recursos à existência de Fundo de Saúde e de Conselho de Saúde com composição paritária de usuários, entre os demais requisitos ali listados."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q09",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "tema": "Classificação de óbito materno e de nascido vivo no cálculo de indicadores de mortalidade e natalidade",
+    "subtema": "Mortalidade materna por causa obstétrica indireta e mortalidade neonatal precoce",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_24",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "indicadores",
+      "mortalidade materna",
+      "nascido vivo",
+      "neonatal precoce",
+      "Covid-19"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"gestant e\", \"s erá\"), que devem ser corrigidas na editoração.",
+    "justificativas": {
+      "A": "Incorreta. O óbito por Covid-19 durante a gestação configura morte materna por causa obstétrica indireta (doença preexistente ou intercorrente agravada pelos efeitos fisiológicos da gravidez) e deve ser contabilizado no indicador de mortalidade materna.",
+      "B": "Incorreta. O recém-nascido que apresentou batimentos cardíacos e movimentos respiratórios é, por definição da OMS, nascido vivo — independentemente do peso e da idade gestacional —, devendo compor o denominador da natalidade.",
+      "C": "Incorreta. Erra duplamente: nega a natureza materna do óbito por causa obstétrica indireta e exclui da natalidade uma criança que nasceu viva.",
+      "D": "Correta. A morte da gestante por agravamento respiratório da Covid-19 é morte materna indireta; a criança, por ter apresentado sinais de vida ao nascer, é nascido vivo (entra na natalidade) e seu óbito nas primeiras horas caracteriza mortalidade neonatal precoce (0 a 6 dias)."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q17",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "tema": "Mudanças climáticas, determinantes socioambientais e ações de promoção da saúde",
+    "subtema": "Poluição do ar, ondas de calor e risco cardiovascular",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_15",
+      "dcn2025_comp_01",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "clima",
+      "promoção da saúde",
+      "poluição do ar",
+      "determinantes sociais"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Enunciado apresenta quebra de palavra por espaçamento indevido (\"ou tras\") decorrente da extração do PDF.",
+    "justificativas": {
+      "A": "Correta. A exposição crônica a material particulado e a poluentes atmosféricos associa-se a maior risco de hipertensão, diabetes e agravos alérgicos como a dermatite atópica, sendo a redução da exposição domiciliar nos horários de pico de tráfego uma medida simples e efetiva de promoção da saúde.",
+      "B": "Incorreta. A expansão da monocultura para biocombustíveis tende a concentrar terra e renda, aumentar uso de agrotóxicos e queimadas, não configurando ação de promoção da saúde nem melhoria das condições de vida dos pequenos produtores.",
+      "C": "Incorreta. Ondas de calor promovem vasodilatação e perdas hidroeletrolíticas, com tendência à queda da pressão arterial; aumentar doses de anti-hipertensivos nesse contexto expõe o paciente a hipotensão, síncope e lesão renal aguda.",
+      "D": "Incorreta. A educação em saúde sobre estresse climático é recomendada no ambiente escolar, pois amplia o letramento em saúde e a capacidade de enfrentamento, e não deve ser evitada sob a alegação de sofrimento emocional."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q25",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "tema": "Conduta na suspeita de epizootia de primata e esquema vacinal da febre amarela",
+    "subtema": "Imunização e vigilância epidemiológica",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_14",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "febre amarela",
+      "vacinação",
+      "epizootia",
+      "vigilância"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O Brasil possui áreas com transmissão de febre amarela silvestre e a morte de primata não humano nas proximidades é evento de alerta (epizootia), de notificação imediata, não podendo o risco ser descartado.",
+      "B": "Correta. Desde 2017 o Ministério da Saúde adota dose única da vacina de febre amarela para pessoas vacinadas a partir dos 5 anos de idade, conferindo proteção por toda a vida; portanto, o paciente vacinado há 9 anos não necessita de reforço.",
+      "C": "Incorreta. A conduta médica não deve ficar condicionada ao resultado do exame do animal; cabe a notificação imediata da epizootia à vigilância, que investigará o caso enquanto se avaliam risco e cobertura vacinal da população.",
+      "D": "Incorreta. Não há indicação de reforço \"independentemente da última dose\" — a recomendação vigente é de dose única, reservando-se doses adicionais a situações específicas, como vacinação antes dos 5 anos ou imunossupressão."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q33",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "tema": "Valor preditivo positivo de teste diagnóstico e influência da prevalência",
+    "subtema": "Hanseníase em comunidade vulnerável",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_03",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "VPP",
+      "sensibilidade",
+      "especificidade",
+      "hanseníase",
+      "teste diagnóstico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Com sensibilidade de 80%, especificidade de 80% e prevalência de 10%, o VPP = (0,80 × 0,10) / [(0,80 × 0,10) + (0,20 × 0,90)] = 0,08/0,26 ≈ 31%, o que evidencia o impacto da baixa prevalência sobre o valor preditivo positivo.",
+      "B": "Incorreta. O valor de 97% corresponde ao valor preditivo negativo do teste nesse cenário [0,72/(0,72 + 0,02)], e não à probabilidade de doença diante de resultado positivo.",
+      "C": "Incorreta. 69% é a proporção complementar, isto é, a probabilidade de que um resultado positivo seja falso-positivo (1 − VPP), e não a de que o indivíduo esteja realmente doente.",
+      "D": "Incorreta. 80% é a sensibilidade do teste (probabilidade de positividade entre os doentes), grandeza distinta do VPP, que parte do resultado positivo para estimar a probabilidade de doença."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q41",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "tema": "Abordagem familiar com ecomapa em idoso com neoplasia de próstata avançada",
+    "subtema": "Funcionalidade familiar e planejamento de intervenções pela eSF",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_12",
+      "dcn2025_comp_22",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "ecomapa",
+      "abordagem familiar",
+      "cuidados paliativos",
+      "visita domiciliar"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado remete a um ecomapa \"exibido a seguir\" que não acompanha o item, embora o campo requer_imagem esteja marcado como falso; além disso há quebras de palavra por espaçamento (\"fi lha\").",
+    "justificativas": {
+      "A": "Incorreta. O projeto terapêutico singular é dinâmico e pactuado com o paciente e a família, jamais \"definitivo\", e não pode ser dirigido apenas à esposa, ignorando a autonomia e as necessidades do idoso.",
+      "B": "Incorreta. A internação compulsória é medida excepcional, judicialmente regulada e restrita a situações de risco grave em transtorno mental ou dependência química, inexistindo no caso qualquer diagnóstico ou indicação que a justifique.",
+      "C": "Correta. Diante de um ecomapa que evidencia as relações da família com a rede social e seus pontos de tensão, cabe à equipe reconhecer a dinâmica familiar, identificar disfuncionalidades e planejar intervenções precoces que restabeleçam o equilíbrio e sustentem o cuidado.",
+      "D": "Incorreta. Cuidados paliativos não exigem internação e devem ser ofertados preferencialmente no domicílio, com apoio da equipe de saúde da família e matriciamento, preservando vínculo familiar e território."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q49",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "tema": "Participação social na organização do processo de trabalho da equipe de saúde da família",
+    "subtema": "Conselho Local de Saúde",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_18",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "controle social",
+      "conselho local",
+      "acesso",
+      "processo de trabalho"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"solicitado s\", \"no va\").",
+    "justificativas": {
+      "A": "Correta. O Conselho Local de Saúde é a instância de participação da comunidade no âmbito da própria unidade, aproximando usuários e equipe e permitindo pactuar coletivamente questões operacionais como fluxos de agendamento e de coleta de exames.",
+      "B": "Incorreta. O Conselho Municipal de Saúde é órgão deliberativo e permanente — e não meramente consultivo — atuando no planejamento e na fiscalização da política municipal, e não na resolução cotidiana da agenda de uma única unidade.",
+      "C": "Incorreta. Restringir a composição a profissionais e gestores, apresentando apenas o resultado à população, contraria o requisito de participação da comunidade explicitado no enunciado.",
+      "D": "Incorreta. O Núcleo de Saúde Coletiva não é instância de controle social, e a criação de nova equipe com redivisão territorial é decisão de gestão e financiamento, não estratégia de participação comunitária."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q57",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "tema": "Instrumentos do apoio matricial e da equipe de referência",
+    "subtema": "Clínica ampliada e trabalho interprofissional",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_09",
+      "dcn2025_comp_22",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "matriciamento",
+      "interconsulta",
+      "clínica ampliada",
+      "interprofissionalidade"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "É o distrator mais fraco por ser o oposto explícito do conceito apresentado no próprio enunciado (protocolos unidisciplinares e atendimentos centralizados por núcleo), sendo implausível para qualquer candidato.",
+    "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"ar ranjos\", \"realizar - se\", \"centraliz ados\", \"e scala\").",
+    "justificativas": {
+      "A": "Incorreta. Restringir a atuação de cada profissional ao interior de sua especialidade nega o núcleo do matriciamento, que é justamente a construção compartilhada de projetos entre equipe de referência e apoiadores.",
+      "C": "Incorreta. Encaminhamento entre especialistas e centrais de regulação são dispositivos do fluxo tradicional de referência, e não instrumentos do apoio matricial, que pressupõe corresponsabilização e não transferência do caso.",
+      "D": "Incorreta. Ainda que cite atendimentos e visitas conjuntas, a \"escala de complexidade para qualificar encaminhamentos\" é ferramenta de regulação assistencial, estranha ao conjunto de instrumentos do matriciamento.",
+      "E": "Correta. São instrumentos do processo de matriciamento a interconsulta, os atendimentos e intervenções conjuntas, a visita domiciliar conjunta e o contato a distância por telefone e outras tecnologias de comunicação, todos voltados à corresponsabilização entre as equipes."
+    }
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "id_origem": "simulado01_2026_q02",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Política Nacional de Atenção Básica: infraestrutura e ambiência da UBS",
+    "subtema": "Requisitos estruturais e pontos de apoio para populações dispersas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "PNAB",
+      "UBS",
+      "infraestrutura",
+      "atenção básica",
+      "ambiência"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "Distrator menos discriminativo: isola a afirmativa II, cuja correção é evidente pela leitura do próprio enunciado, e repete a estrutura de 'apenas uma afirmativa' já contemplada na alternativa A.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A adequação ao quantitativo da população adscrita (I) é exigência da PNAB, mas não esgota a norma, que também determina considerar densidade demográfica e perfil populacional (II) e prever pontos de apoio (III).",
+      "C": "Incorreta. Ao restringir-se a I e II, exclui indevidamente a previsão de pontos de apoio para populações dispersas (rurais, ribeirinhas, assentamentos), expressamente prevista na PNAB.",
+      "D": "Incorreta. Desconsidera a afirmativa I, sendo que a adequação da estrutura ao quantitativo e às especificidades da população adscrita é requisito central de infraestrutura e ambiência na PNAB.",
+      "E": "Correta. A PNAB determina que a infraestrutura e a ambiência da UBS sejam adequadas ao quantitativo e às especificidades da população adscrita, considerem densidade demográfica, perfil populacional e serviços ofertados, e contemplem pontos de apoio para populações dispersas."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q10",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Óbitos por causas mal definidas em idosos e determinantes socioeconômicos",
+    "subtema": "Interpretação de dados epidemiológicos e falácia ecológica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_15",
+      "dcn2025_comp_21",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "epidemiologia",
+      "saúde do idoso",
+      "causas mal definidas",
+      "determinantes sociais",
+      "mortalidade"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "É quase sobreponível à alternativa E, pois ambas negam a associação entre mortalidade por causas mal definidas e renda, tornando-a redundante e pouco discriminativa.",
+    "problema_detectado": "O enunciado inicia descrevendo uma distribuição gráfica ('A distribuição da proporção de óbitos...') sem que o gráfico esteja disponível, ficando a primeira frase truncada em relação ao apoio visual original.",
+    "justificativas": {
+      "A": "Incorreta. O próprio texto informa que cerca de 65% dos óbitos sem causa básica conhecida em idosos ocorrem sem assistência médica, o que evidencia relação direta com a assistência.",
+      "B": "Correta. A maior proporção de óbitos por causas mal definidas nas macrorregiões com maior taxa de pobreza, somada à elevada frequência de óbitos sem assistência médica, sustenta a associação entre falta de assistência e nível socioeconômico.",
+      "C": "Incorreta. Os dados são agregados por macrorregião; inferir a renda individual dos idosos que morreram sem assistência a partir de médias regionais configura falácia ecológica.",
+      "E": "Incorreta. O padrão observado foi o inverso: a maior proporção de mortes por causas mal definidas ocorreu nas regiões com MAIOR proporção de habitantes com renda per capita inferior a meio salário mínimo."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q18",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Princípios do SUS operacionalizados na Atenção Básica",
+    "subtema": "Distinção entre princípios doutrinários, diretrizes organizativas e atributos da APS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "SUS",
+      "princípios doutrinários",
+      "atenção básica",
+      "redes de atenção"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator quase idêntico em lógica ao da alternativa B (ambos acrescentam uma função da Atenção Básica — ordenação da rede/coordenação do cuidado — à lista de princípios), sendo o menos discriminativo do conjunto.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Longitudinalidade é atributo essencial da Atenção Primária à Saúde, e não princípio doutrinário do SUS.",
+      "B": "Incorreta. Coordenação do cuidado é atributo da APS e função da Atenção Básica na ordenação das redes, não integrando o rol de princípios do SUS.",
+      "D": "Incorreta. Regionalização e hierarquização são diretrizes organizativas da rede de atenção, e não princípios doutrinários do SUS.",
+      "E": "Correta. Universalidade, equidade e integralidade são os princípios doutrinários do SUS que devem ser operacionalizados na Atenção Básica, conforme a PNAB."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q26",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo do paciente com sintomas psicóticos e recusa terapêutica na APS",
+    "subtema": "Acolhimento, pactuação do cuidado e entrevista motivacional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_23",
+      "dcn2025_comp_12",
+      "dcn2025_comp_04"
+    ],
+    "tags": [
+      "psicose",
+      "acolhimento",
+      "autonomia",
+      "entrevista motivacional",
+      "CAPS"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Conduta absurda e juridicamente indevida no caso descrito — internação compulsória por ambulância sem qualquer critério de risco iminente —, que nenhum candidato preparado assinalaria.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Encaminhar ao CAPS contra a recusa do paciente e sem vínculo prévio rompe a continuidade do cuidado; a equipe de Atenção Básica é corresponsável pelo cuidado em saúde mental no território.",
+      "B": "Incorreta. Insistir na medicação diante de delírio persecutório tende a reforçar a desconfiança e a romper o vínculo; a adesão medicamentosa não é pré-requisito para a construção do plano terapêutico singular.",
+      "C": "Incorreta. 'Convencer' o paciente traduz abordagem persuasiva e paternalista, distinta da pactuação negociada e da entrevista motivacional, além de desconsiderar sua autonomia.",
+      "D": "Correta. Acolher, avaliar o quadro clínico geral e pactuar o acompanhamento possível — com apoio da entrevista motivacional — preserva o vínculo e a autonomia, mantendo o cuidado na APS enquanto não há critério para medida involuntária."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q34",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Ciclo de vida familiar: crises normativas e crises acidentais",
+    "subtema": "Desemprego e perda de moradia como crise acidental",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_15",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "abordagem familiar",
+      "ciclo de vida",
+      "crise acidental",
+      "determinantes sociais"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "Alternativa implausível: 'família em estágio tardio' é incompatível com a família descrita, composta por casal jovem e três filhas de 4, 6 e 14 anos.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. 'Família com filho pequeno' é etapa normativa (esperada) do ciclo de vida familiar, e não crise acidental.",
+      "C": "Correta. O desemprego do marido e a consequente perda da moradia são eventos inesperados e não previsíveis no desenvolvimento familiar, caracterizando crise acidental (não normativa).",
+      "D": "Incorreta. 'Família com criança em idade escolar' descreve um estágio previsível do ciclo vital, correspondendo a crise normativa e não acidental.",
+      "E": "Incorreta. 'Família com adolescente' também é etapa normativa do ciclo de vida familiar, ainda que gere tensões esperadas, não configurando crise acidental."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q02",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Princípios do SUS e redução de iniquidades em indicadores materno-infantis",
+    "subtema": "Universalidade e equidade na expansão de coberturas por quintis de riqueza",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_11",
+      "dcn2025_comp_15",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "SUS",
+      "equidade",
+      "saúde materno-infantil",
+      "iniquidades",
+      "cobertura"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item depende de um gráfico que não é reproduzido no enunciado, sendo referenciado apenas por link externo, o que compromete a resolução autônoma do item.",
+    "justificativas": {
+      "A": "Incorreta. Integralidade refere-se à oferta articulada de ações de promoção, prevenção, tratamento e reabilitação em todos os níveis de atenção, e não explica diretamente a distribuição das coberturas entre estratos de renda.",
+      "B": "Correta. A ampliação da cobertura para toda a população expressa a universalidade, enquanto o ganho proporcionalmente maior nos quintis mais pobres, reduzindo o gradiente socioeconômico, traduz a equidade.",
+      "C": "Incorreta. Regionalização é diretriz organizativa da rede de atenção, sem relação direta com a evolução das coberturas segundo quintis de riqueza.",
+      "D": "Incorreta. Participação social e hierarquização são, respectivamente, princípio de gestão participativa e diretriz de organização da rede, não sendo os princípios que melhor explicam a redução das desigualdades de cobertura."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q10",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Modelos de agendamento na Atenção Primária à Saúde",
+    "subtema": "Modelo tradicional, carve-out e acesso avançado",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_18",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "acesso",
+      "agendamento",
+      "carve-out",
+      "acesso avançado",
+      "gestão da agenda"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A agenda previamente lotada com encaixes caracteriza o modelo tradicional, e a reserva fixa de 40% das vagas para demanda aguda define o modelo carve-out, cujo principal risco é o dimensionamento incorreto da demanda, com vagas ociosas ou insuficientes.",
+      "B": "Incorreta. O ponto de partida descrito é o modelo tradicional, não o carve-out, e a mudança adotada não corresponde ao acesso aberto/avançado.",
+      "C": "Incorreta. O acesso avançado baseia-se em 'fazer hoje o trabalho de hoje', com a maior parte da agenda aberta no próprio dia, e não em reserva percentual fixa de vagas.",
+      "D": "Incorreta. Nem o modelo de origem (descrito como tradicional) nem o de chegada (carve-out) correspondem aos apontados na alternativa."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q18",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Responsabilidade médica na transferência de paciente instável no pós-operatório",
+    "subtema": "Código de Ética Médica: imprudência, imperícia e negligência",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_04",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "ética médica",
+      "negligência",
+      "transporte do paciente",
+      "pós-operatório",
+      "segurança do paciente"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Realizar o procedimento em clínica privada não configura, por si, imprudência; a falha ética está na omissão do cuidado devido no pós-operatório, e não no local da cirurgia.",
+      "B": "Incorreta. Não há no caso elementos de falha técnica na execução da abdominoplastia que caracterizem imperícia.",
+      "C": "Correta. Deixar de estabilizar hemodinamicamente a paciente e delegar o transporte à família, sem suporte e sem acompanhamento médico, configura omissão do cuidado devido, isto é, negligência.",
+      "D": "Incorreta. Solicitar que familiares transportem paciente hemodinamicamente instável, sem estabilização prévia e sem suporte avançado, é o oposto de conduta diligente."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q26",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hesitação vacinal e comunicação em saúde na comunidade",
+    "subtema": "Desinformação, redes sociais e confiança nos imunobiológicos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_08",
+      "dcn2025_comp_12",
+      "dcn2025_comp_01",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "hesitação vacinal",
+      "imunização",
+      "fake news",
+      "educação em saúde"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A veiculação de conteúdos que questionam eficácia e segurança das vacinas abala a confiança nos imunobiológicos, e os algoritmos das redes sociais promovem exposição seletiva, associando conteúdo antivacina a pautas morais e reforçando bolhas informacionais.",
+      "B": "Incorreta. A hesitação vacinal não se restringe aos estratos de menor renda; é amplamente descrita também em grupos de maior escolaridade e poder aquisitivo.",
+      "C": "Incorreta. Não existe política de redução temporária do uso de vacinas para aumentar engajamento posterior; o paradoxo epidemiológico apenas reduz a percepção de risco das doenças imunopreveníveis.",
+      "D": "Incorreta. A desinformação atinge todos os estratos sociais, e a alternativa inverte o efeito descrito, minimizando indevidamente o impacto das fake news."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q34",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico diferencial de episódio depressivo com ataques de pânico",
+    "subtema": "Critérios diagnósticos e diferenciação de transtornos ansiosos e bipolar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "depressão",
+      "ataque de pânico",
+      "diagnóstico diferencial",
+      "exame psíquico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não há esquiva fóbica de situações nem preocupação persistente com novas crises que caracterizem agorafobia, e o núcleo do quadro é depressivo, não panicoso.",
+      "B": "Incorreta. Não há relato de episódio prévio de mania ou hipomania, requisito indispensável para o diagnóstico de transtorno bipolar.",
+      "C": "Incorreta. O transtorno de ansiedade generalizada exige preocupação excessiva e de difícil controle por pelo menos 6 meses, incompatível com os 2 meses de evolução descritos.",
+      "D": "Correta. O paciente preenche critérios de episódio depressivo maior (anedonia e humor deprimido por mais de 2 meses, perda ponderal, hipersonia, fadiga e dificuldade de concentração), com ataques de pânico inesperados como manifestação associada, após exclusão de causas orgânicas."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q42",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sinais de alerta do neurodesenvolvimento e suspeita de TEA no lactente",
+    "subtema": "Encaminhamento à atenção especializada e cuidado compartilhado com a APS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "puericultura",
+      "neurodesenvolvimento",
+      "TEA",
+      "sinais de alerta",
+      "coordenação do cuidado"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Manter apenas a rotina de puericultura e a estimulação, sem investigação especializada, posterga o diagnóstico e a intervenção precoce, que são determinantes do prognóstico.",
+      "B": "Incorreta. Os instrumentos de rastreio validados para TEA (como o M-CHAT) são aplicados a partir dos 16-18 meses, e o rastreio não deve condicionar nem retardar o encaminhamento diante de sinais de alerta já manifestos.",
+      "C": "Incorreta. Há múltiplos sinais de alerta presentes — ausência de sorriso social, de contato visual, de resposta ao chamado e de lalação —, o que contraindica conduta expectante.",
+      "D": "Correta. Com sinais de alerta do neurodesenvolvimento e déficit auditivo já afastado, a conduta é referenciar à atenção especializada para investigação e planejamento terapêutico, mantendo o acompanhamento compartilhado com a atenção primária."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q50",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Atuação do médico de família e comunidade na saúde suplementar",
+    "subtema": "Modelos assistenciais e garantia dos atributos da APS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_06",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "saúde suplementar",
+      "atributos da APS",
+      "longitudinalidade",
+      "coordenação do cuidado"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O modelo assistencial tradicional, fragmentado e centrado em procedimentos e especialidades, é justamente o que compromete o cuidado longitudinal que se pretende garantir.",
+      "B": "Incorreta. A atenção domiciliar pode ser prestada de forma autônoma pelo médico de família, não havendo impossibilidade de realizá-la fora do vínculo com operadoras.",
+      "C": "Incorreta. O contrato firmado entre o cliente e o proprietário do estabelecimento, e não com o médico, fragiliza o vínculo terapêutico continuado e não assegura, por si, longitudinalidade e coordenação do cuidado.",
+      "D": "Correta. Na saúde suplementar, o médico de família pode atuar em clínicas de operadoras ou em consultório particular adotando modelo assistencial coordenado pela APS, preservando integralidade e longitudinalidade do cuidado."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q58",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Reforma Psiquiátrica brasileira e o conceito de clínica ampliada",
+    "subtema": "Singularização do cuidado, autonomia e subjetividade do usuário",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_23",
+      "dcn2025_comp_11",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "reforma psiquiátrica",
+      "clínica ampliada",
+      "atenção psicossocial",
+      "autonomia"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Alternativa absurda: nega a participação do usuário sob o argumento de que ele não teria conhecimento técnico e o reduz a objeto de intervenção, contrariando frontalmente o conceito de clínica ampliada.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. A clínica ampliada opõe-se à ênfase sintomatológica, deslocando o foco da doença para o sujeito, sua história e seu contexto de vida.",
+      "C": "Incorreta. O isolamento social e a centralidade do hospital constituem exatamente o paradigma manicomial que a Reforma Psiquiátrica busca superar.",
+      "D": "Correta. A clínica ampliada propõe atenção e condutas singularizadas, voltadas ao resgate da subjetividade do usuário, considerando sua autonomia e o contexto social em que está inserido.",
+      "E": "Incorreta. Descreve a dimensão organizativa do modelo de atenção psicossocial — inclusão social e reordenação da rede —, e não o conceito de clínica ampliada, definido pela singularização do cuidado."
+    }
+  }
+]

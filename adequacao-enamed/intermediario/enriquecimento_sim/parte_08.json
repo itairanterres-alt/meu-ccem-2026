@@ -1,0 +1,353 @@
+[
+  {
+    "id_origem": "simulado01_2026_q08",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Segurança do paciente: taxonomia de incidentes da RDC nº 36/2013",
+    "subtema": "Conceito de evento adverso",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_20",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "segurança do paciente",
+      "evento adverso",
+      "RDC 36/2013",
+      "notificação",
+      "qualidade assistencial"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Sobrepõe-se quase integralmente à alternativa B (ambas descrevem efeito indesejado de fármaco), sendo redundante e alheia à taxonomia da RDC nº 36/2013.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Reproduz o conceito de dano (comprometimento de estrutura ou função do corpo e/ou qualquer efeito dele oriundo), que é elemento constitutivo do evento adverso, mas não o define.",
+      "B": "Incorreta. Corresponde à definição farmacológica de efeito colateral, decorrente de mecanismo distinto do efeito terapêutico, conceito estranho à taxonomia de segurança do paciente da RDC nº 36/2013.",
+      "D": "Incorreta. Descreve incidente — ocorrência não intencional durante a assistência —, que só se qualifica como evento adverso quando efetivamente resulta em dano ao paciente.",
+      "E": "Correta. A RDC nº 36/2013 define evento adverso como o incidente que resulta em dano à saúde do paciente; é justamente a presença do dano que o distingue do near miss e do incidente sem lesão."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q16",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Redes de Atenção à Saúde no SUS",
+    "subtema": "Conceito, finalidades e organização poliárquica das RAS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "redes de atenção",
+      "SUS",
+      "integralidade",
+      "APS coordenadora",
+      "organização de serviços"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Afirma que a RAS se caracteriza por cuidado multiprofissional sem compartilhamento de objetivos e compromissos com resultados, proposição absurda que nenhum candidato assinalaria.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. As RAS integram pontos de atenção de diferentes densidades tecnológicas, e não apenas de densidade básica; restringi-las a este nível contraria a lógica da integralidade do cuidado.",
+      "B": "Correta. Conforme a Portaria GM/MS nº 4.279/2010, a RAS promove integração sistêmica de ações e serviços, com atenção contínua, integral, de qualidade, responsável e humanizada, incrementando acesso, equidade, eficácia clínica e sanitária e eficiência econômica.",
+      "C": "Incorreta. A organização das RAS é horizontal e poliárquica entre os pontos de atenção — e não vertical/hierárquica —, ainda que a APS seja de fato o centro de comunicação da rede.",
+      "D": "Incorreta. A centralidade nas necessidades de saúde de uma população adscrita é atributo essencial da RAS; negá-la desconfigura o próprio conceito de rede."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q24",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "dificil",
+    "tema": "Atenção Primária à Saúde: funções versus atributos",
+    "subtema": "Resolubilidade, organização e responsabilização na RAS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "APS",
+      "atributos de Starfield",
+      "funções da APS",
+      "coordenação do cuidado",
+      "rede de atenção"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É a menos discriminativa: repete a mesma estrutura de C e D ao listar apenas atributos derivados/essenciais, e a orientação comunitária é o item de menor apelo entre os distratores.",
+    "problema_detectado": "A afirmação inicial de que cabe à APS 'integrar verticalmente os serviços' é ambígua diante da organização horizontal e poliárquica preconizada para as Redes de Atenção à Saúde.",
+    "justificativas": {
+      "A": "Correta. Na literatura adotada pelo Ministério da Saúde, as funções da APS na Rede de Atenção à Saúde são resolubilidade, organização (coordenação dos fluxos e contrafluxos de usuários) e responsabilização pela população adscrita.",
+      "B": "Incorreta. Ainda que organização seja função da APS, primeiro contato/acessibilidade é atributo essencial descrito por Starfield, e não função na rede.",
+      "C": "Incorreta. Primeiro contato e longitudinalidade são atributos essenciais da APS, categoria conceitual distinta das funções exercidas na rede.",
+      "D": "Incorreta. Integralidade e coordenação do cuidado também integram os atributos essenciais da APS, não constituindo as funções cobradas no enunciado."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q32",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Estratificação de risco do pé diabético na atenção básica",
+    "subtema": "Classificação de risco e periodicidade de reavaliação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "diabetes mellitus",
+      "pé diabético",
+      "estratificação de risco",
+      "prevenção",
+      "exame dos pés"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Emprega a categoria 'grau IIIa', inexistente na classificação de risco do pé diabético adotada pelos Cadernos de Atenção Básica, o que a torna implausível e redundante em relação à alternativa D.",
+    "problema_detectado": "As alternativas C, D e E apresentam a mesma conduta (reavaliação semestral), reduzindo o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Correta. Sensibilidade protetora preservada, ausência de deformidades e ausência de úlcera atual ou pregressa definem risco grau 0, cuja recomendação é reavaliação anual dos pés.",
+      "B": "Incorreta. O grau 1 pressupõe perda da sensibilidade protetora, com ou sem deformidade, achado explicitamente ausente na paciente.",
+      "C": "Incorreta. O grau 2 exige neuropatia associada a doença arterial periférica e/ou deformidade, não identificadas ao exame.",
+      "D": "Incorreta. O grau 3 requer história de úlcera prévia, cicatriz de úlcera ou amputação, condições referidas como ausentes no caso."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q40",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Doenças imunopreveníveis: reconhecimento clínico da difteria",
+    "subtema": "Faringoamigdalite pseudomembranosa e pescoço taurino",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "difteria",
+      "imunização",
+      "pseudomembrana",
+      "hesitação vacinal",
+      "doenças exantemáticas"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "A sífilis não é doença imunoprevenível nem cursa com placas pseudomembranosas obstrutivas, sendo o distrator mais implausível diante da premissa do enunciado.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O vírus sincicial respiratório causa bronquiolite e infecção de vias aéreas inferiores, com sibilância e desconforto respiratório, sem placas pseudomembranosas aderentes ou adenomegalia cervical volumosa.",
+      "B": "Correta. Placas pseudomembranosas branco-acinzentadas, aderentes e invasivas, toxemia desproporcional à febre baixa, dor de garganta discreta e pescoço taurino são o quadro clássico da difteria por Corynebacterium diphtheriae, prevenida pelas vacinas com componente diftérico.",
+      "C": "Incorreta. A faringoamigdalite estreptocócica cursa com odinofagia intensa, febre alta e exsudato purulento facilmente removível, ao contrário da dor discreta e da membrana aderente descritas.",
+      "E": "Incorreta. O sarampo manifesta-se por febre alta, tosse, coriza, conjuntivite, manchas de Koplik e exantema maculopapular craniocaudal, sem membranas obstrutivas de orofaringe."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q08",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Transtorno do déficit de atenção e hiperatividade no escolar",
+    "subtema": "Diagnóstico diferencial com transtorno opositor-desafiador",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_02",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "TDAH",
+      "saúde mental infantil",
+      "escalas validadas",
+      "transtorno opositor-desafiador",
+      "desenvolvimento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado e as alternativas apresentam quebras indevidas de palavras e espaçamentos ('perceb e-se', 'alime ntar', 'deve -se', 'opositor -desafiador') decorrentes da extração do PDF, exigindo revisão tipográfica.",
+    "justificativas": {
+      "A": "Incorreta. Nomeia o transtorno opositor-desafiador, cujo núcleo é humor raivoso, comportamento desafiador e vingativo, incompatível com o predomínio de desatenção e hiperatividade descrito; ainda menciona 'escalas variadas' em vez de instrumentos validados.",
+      "B": "Correta. Desatenção, hiperatividade e impulsividade com início antes dos 12 anos, presentes em mais de um contexto e com prejuízo funcional acadêmico e social, configuram suspeita de TDAH, cuja investigação é clínica e psicossocial, apoiada em escalas validadas como o SNAP-IV.",
+      "C": "Incorreta. Descreve corretamente os critérios do transtorno opositor-desafiador, mas o caso não traz padrão persistente de desobediência e hostilidade contra figuras de autoridade, e a avaliação inicial não se restringe ao âmbito psiquiátrico.",
+      "D": "Incorreta. Embora nomeie o TDAH, atribui-lhe critérios do transtorno opositor-desafiador (dificuldade em aceitar regras e irritação) e limita a investigação à avaliação psiquiátrica especializada."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q16",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Modelo transteórico de mudança e entrevista motivacional",
+    "subtema": "Identificação do estágio de contemplação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_12",
+      "dcn2025_comp_08"
+    ],
+    "tags": [
+      "entrevista motivacional",
+      "estágios de mudança",
+      "comportamento compulsivo",
+      "abordagem familiar",
+      "ambivalência"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado contém quebras de palavras oriundas da extração do PDF ('d istração', 'g erado'), demandando revisão tipográfica.",
+    "justificativas": {
+      "A": "Incorreta. No estágio de ação o indivíduo já modificou efetivamente o comportamento e sustenta a mudança; o paciente ainda não implementou qualquer alteração concreta.",
+      "B": "Correta. O paciente admite o problema e reconhece suas consequências familiares e financeiras, mas mantém ambivalência e ainda não estabeleceu plano de mudança, o que caracteriza a contemplação no modelo transteórico de Prochaska e DiClemente.",
+      "C": "Incorreta. Na pré-contemplação não há reconhecimento do problema nem intenção de mudar; a própria justificativa da alternativa (reconhecer o impacto) contradiz esse estágio.",
+      "D": "Incorreta. Na preparação o indivíduo já se compromete e organiza condições para mudar em curto prazo; a justificativa oferecida descreve, de forma incoerente, ausência de percepção do problema."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q24",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Violência institucional contra a pessoa idosa em ILPI",
+    "subtema": "Negligência e contenção mecânica à luz do Estatuto da Pessoa Idosa",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_11",
+      "dcn2025_comp_23",
+      "dcn2025_comp_04"
+    ],
+    "tags": [
+      "pessoa idosa",
+      "negligência",
+      "violência institucional",
+      "ILPI",
+      "contenção mecânica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há quebras de palavras provenientes da extração do PDF ('maus -tratos', 'configura -se'), que devem ser corrigidas na versão canônica.",
+    "justificativas": {
+      "A": "Incorreta. A institucionalização em ILPI é modalidade legalmente admitida de cuidado e, isoladamente, não configura violência; o que caracteriza a violação é a omissão de cuidados constatada.",
+      "B": "Incorreta. Agitação e demência não legitimam contenção mecânica rotineira nem privação de higiene: a restrição exige indicação e prescrição médica, tempo limitado e reavaliação sistemática.",
+      "C": "Correta. A omissão na prestação dos cuidados devidos — higiene, mobilidade e controle da dor — configura negligência e, por ocorrer de modo reiterado no âmbito do serviço prestador, caracteriza violência institucional, conduta vedada pelo Estatuto da Pessoa Idosa (Lei nº 10.741/2003).",
+      "D": "Incorreta. A violência patrimonial pressupõe apropriação, uso indevido ou destruição de bens e recursos financeiros da pessoa idosa, situação não descrita no caso."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q32",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Transtornos alimentares na adolescência: anorexia nervosa",
+    "subtema": "Diagnóstico e abordagem terapêutica inicial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "anorexia nervosa",
+      "adolescência",
+      "amenorreia",
+      "psicoterapia",
+      "transtornos alimentares"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado apresenta quebras de palavras da extração do PDF ('apresent a', 'v omitar', 'apr esenta', 'verificam -se'), que exigem revisão tipográfica.",
+    "justificativas": {
+      "A": "Incorreta. A bulimia nervosa exige episódios recorrentes de compulsão alimentar seguidos de comportamentos compensatórios, expressamente negados; além disso, a bupropiona é contraindicada em transtornos alimentares pelo risco aumentado de convulsões.",
+      "B": "Incorreta. O hipertireoidismo cursa com apetite preservado ou aumentado, taquicardia, tremor, intolerância ao calor e hiperdefecação, achados ausentes no exame físico descrito.",
+      "C": "Correta. Restrição alimentar deliberada, exercício físico excessivo, distorção da imagem corporal, perda ponderal acentuada (IMC de aproximadamente 15,6 kg/m²) e amenorreia secundária configuram anorexia nervosa, cujo manejo inicial é a psicoterapia associada à reabilitação nutricional e ao monitoramento clínico.",
+      "D": "Incorreta. O transtorno de purgação pressupõe comportamentos purgativos recorrentes na ausência de compulsão alimentar, negados pela adolescente, e a metoclopramida não tem qualquer indicação terapêutica nesse contexto."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q40",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Política Nacional de Práticas Integrativas e Complementares (PNPIC)",
+    "subtema": "Organização das PICS nos níveis de atenção do SUS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "PICS",
+      "PNPIC",
+      "atenção primária",
+      "auriculoterapia",
+      "políticas públicas"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa A apresenta erro de digitação e de concordância ('especia lizada', 'com a acesso regulado'), decorrente da extração do PDF.",
+    "justificativas": {
+      "A": "Incorreta. A acupuntura é ofertada prioritariamente na atenção primária, integrando a carteira de serviços da APS, não sendo restrita à atenção especializada mediante regulação de acesso.",
+      "B": "Incorreta. A Organização Mundial da Saúde recomenda e estimula a integração das medicinas tradicionais e complementares aos sistemas nacionais, mas não regula quais práticas cada país implementa — no Brasil, essa definição cabe à PNPIC, do Ministério da Saúde.",
+      "C": "Correta. A PNPIC (Portaria nº 971/2006 e portarias de ampliação) estabelece que as ações das PICS tenham caráter multiprofissional e interdisciplinar, com práticas adequadas ao nível de atenção em que estão implantadas, com ênfase na atenção primária.",
+      "D": "Incorreta. A auriculoterapia é preconizada com ênfase na atenção primária, e não na atenção terciária, sendo uma das práticas de maior capilaridade na APS."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q48",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Obrigatoriedade da vacinação infantil segundo o ECA",
+    "subtema": "Recusa vacinal dos responsáveis e acionamento do Conselho Tutelar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_24",
+      "dcn2025_comp_11",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "ECA",
+      "recusa vacinal",
+      "Conselho Tutelar",
+      "imunização",
+      "proteção à criança"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item permite leitura ambígua entre a resposta pautada estritamente na obrigatoriedade legal e a conduta gradual de sensibilização, além de conter quebra de palavra na extração ('fam ília'); recomenda-se explicitar no enunciado a ancoragem no texto do ECA.",
+    "justificativas": {
+      "A": "Incorreta. O ECA substituiu o pátrio poder pelo poder familiar, que não é absoluto e não autoriza os responsáveis a afastar a vacinação obrigatória; ademais, a efetividade das vacinas não é matéria controversa.",
+      "B": "Incorreta. Embora a sensibilização da família seja parte do cuidado, condicionar o acionamento do Conselho Tutelar apenas ao risco iminente de adoecimento contraria o caráter obrigatório da vacinação e o dever de comunicação previsto no Estatuto.",
+      "C": "Correta. O art. 14, §1º, do ECA torna obrigatória a vacinação das crianças nos casos recomendados pelas autoridades sanitárias, e a recusa dos responsáveis configura violação de direito com comunicação obrigatória ao Conselho Tutelar (arts. 13 e 56), cabendo à equipe atualizar o esquema vacinal.",
+      "D": "Incorreta. Vacinar sem qualquer comunicação ao Conselho Tutelar omite o encaminhamento exigido pelo ECA e deixa a equipe sem o respaldo institucional necessário diante da recusa dos responsáveis."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q56",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diretivas antecipadas de vontade em cuidados paliativos",
+    "subtema": "Autonomia e manifestação prévia de vontade",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_04",
+      "dcn2025_comp_01",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "diretivas antecipadas",
+      "cuidados paliativos",
+      "autonomia",
+      "testamento vital",
+      "bioética"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Confunde o documento com uma suposta 'Lei de diretrizes e base em saúde', denominação inexistente e categorialmente incompatível com um documento pessoal de vontade, sendo o distrator mais implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não existe documento denominado testamento familiar; a manifestação descrita é pessoal e unilateral, correspondendo ao chamado testamento vital, e não a ato de terceiros ou da família.",
+      "B": "Incorreta. O consentimento refere-se à anuência esclarecida para procedimento específico no momento presente, e não à manifestação prévia de vontade para cenário futuro de incapacidade.",
+      "C": "Incorreta. O documento produz efeitos enquanto a pessoa está viva, porém incapaz de expressar sua vontade, não se destinando a orientações sobre condutas após a morte.",
+      "D": "Correta. Trata-se das diretivas antecipadas de vontade (Resolução CFM nº 1.995/2012), documento pelo qual pessoa maior e capaz registra previamente os cuidados que deseja ou não receber caso se torne incapaz de manifestar sua vontade, sendo livremente revogável a qualquer tempo."
+    }
+  }
+]

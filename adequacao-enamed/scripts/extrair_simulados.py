@@ -57,6 +57,69 @@ def parse_alternativas(corpo):
     return norm(enun), alts
 
 
+# Palavras curtas legítimas do pt-BR: impedem junções falsas ("com um" -> "comum",
+# "geral do" -> "geraldo"). Só juntamos quando um dos fragmentos NÃO é palavra.
+CURTAS = set("""a o e é as os da de do di na no em um uma uns ao aos às à das dos nas nos
+por para per com sem sob sobre se sua seu suas seus que qual quais quem cujo mais mas
+menos já há até pelo pela pelos pelas ou nem foi ser sao são tem têm ter teve era eram
+esta este isso essa esse aquele lhe nao não sim seu tal via ano anos dia dias mg ml kg
+bpm mmhg irpm anti pos pre pós pré""".split())
+
+RESIDUO_FIM = re.compile(r"\s*(Qu|tão\s*\d*|o\s+\d{1,2})\s*$")
+
+
+def _e_palavra(frag, vocab):
+    f = frag.lower()
+    return f in vocab or f in CURTAS
+
+
+def corrigir_quebras(registros):
+    """Junta palavras partidas pela extração do PDF ('aten ção' -> 'atenção').
+    Usa o vocabulário do próprio corpus: só junta se a forma unida existir no
+    corpus e pelo menos um dos fragmentos não for palavra."""
+    from collections import Counter
+
+    def campos(r):
+        yield ("enunciado", None)
+        for L in "ABCDE":
+            if r["alternativas"].get(L):
+                yield ("alternativas", L)
+
+    def get(r, c, L):
+        return r["alternativas"][L] if L else r[c]
+
+    def put(r, c, L, v):
+        if L:
+            r["alternativas"][L] = v
+        else:
+            r[c] = v
+
+    corpus = " ".join(get(r, c, L) for r in registros for c, L in campos(r))
+    cnt = Counter(w.lower() for w in re.findall(r"[A-Za-zÀ-ÿ]{4,}", corpus))
+    vocab = {w for w, n in cnt.items() if n >= 2}
+
+    padrao = re.compile(r"\b([A-Za-zÀ-ÿ]+)\s([A-Za-zÀ-ÿ]+)\b")
+    juncoes = []
+
+    def sub(m):
+        a, b = m.group(1), m.group(2)
+        unido = a + b
+        if (unido.lower() in vocab and len(unido) >= 5
+                and not (_e_palavra(a, vocab) and _e_palavra(b, vocab))):
+            juncoes.append(f"{a} {b} -> {unido}")
+            return unido
+        return m.group(0)
+
+    for r in registros:
+        for c, L in list(campos(r)):
+            t = get(r, c, L)
+            novo = RESIDUO_FIM.sub("", t)
+            novo = padrao.sub(sub, novo)
+            if novo != t:
+                put(r, c, L, novo.strip())
+    return juncoes
+
+
 def extrair(nome):
     txt = open(os.path.join(BASE, "fontes", nome + ".txt"), encoding="utf-8").read()
     partes = re.split(r"Quest[ãa]o\s+0*(\d{1,2})\b", txt, flags=re.I)
@@ -118,6 +181,8 @@ def main():
                        sem_gab, gab_fora,
                        [r["num"] for r in regs if r["requer_imagem"]], anoms))
         todos += regs
+
+    juncoes = corrigir_quebras(todos)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(todos, open(OUT, "w"), ensure_ascii=False, indent=2)
 
@@ -129,6 +194,8 @@ def main():
         if gf:   print(f"  !! gabarito aponta alternativa vazia: {gf}")
         if img:  print(f"  dependem de imagem: {img}")
         for a in anoms: print(f"  corrigido -> {a}")
+    if juncoes:
+        print(f"\nPalavras remontadas ({len(juncoes)}): " + "; ".join(juncoes))
     print(f"\nTotal: {len(todos)} questões -> {OUT}")
 
 

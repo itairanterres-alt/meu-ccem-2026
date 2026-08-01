@@ -1,0 +1,365 @@
+[
+  {
+    "id_origem": "simulado01_2026_q03",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Política Nacional de Educação Permanente em Saúde (Portaria GM/MS nº 198/2004)",
+    "subtema": "Polos de educação permanente e Colegiado de Gestão",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_13",
+      "dcn2025_comp_16",
+      "dcn2025_comp_19"
+    ],
+    "tags": [
+      "educação permanente",
+      "SUS",
+      "políticas de saúde",
+      "gestão em saúde"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "‘II, apenas’ é o distrator mais fraco, pois isola a afirmativa de menor apelo entre as três e não corresponde a nenhuma leitura plausível da portaria.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A afirmativa I está correta, mas restringir a resposta a ela ignora as funções de mobilização da formação de gestores (II) e de articulação ensino-serviço (III), igualmente previstas na Portaria nº 198/2004.",
+      "C": "Incorreta. I e II estão corretas, porém a afirmativa III — articular a transformação das práticas de saúde e de educação na saúde, com implementação das DCN e conversão da rede em rede-escola — também integra as funções do polo.",
+      "D": "Incorreta. Ainda que II e III estejam corretas, a exclusão de I é indevida: identificar necessidades de formação e desenvolvimento dos trabalhadores é função primordial do Colegiado de Gestão do polo.",
+      "E": "Correta. As três afirmativas reproduzem funções atribuídas ao Colegiado de Gestão configurado como polo de educação permanente em saúde para o SUS pela Portaria GM/MS nº 198/2004."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q11",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Delineamentos epidemiológicos: identificação de estudo seccional (transversal)",
+    "subtema": "Estudos observacionais e medidas de prevalência",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "epidemiologia",
+      "estudo transversal",
+      "delineamento",
+      "prevalência"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "‘Coorte misto’ é termo de uso raríssimo e sem plausibilidade no contexto descrito, funcionando como opção praticamente não escolhida pelos candidatos.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. No estudo ecológico a unidade de análise é o grupo ou a população, e não o indivíduo; aqui exposição e desfecho foram aferidos em cada um dos 1.041 participantes.",
+      "B": "Incorreta. No caso-controle parte-se do desfecho (pessoas com depressão) e seleciona-se um grupo-controle para investigar exposições pregressas, o que não corresponde à amostra representativa descrita.",
+      "C": "Correta. Amostra representativa da população, com aferição simultânea de exposição (sexo, idade, ocupação) e desfecho (episódio depressivo) e estimativa de prevalência, caracteriza estudo seccional (transversal).",
+      "D": "Incorreta. A coorte retrospectiva exige seguimento no tempo a partir da exposição, com estimativa de incidência; o enunciado explicita que as determinações foram feitas simultaneamente."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q19",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Equipes Multiprofissionais na Atenção Primária (eMulti) — Portaria GM/MS nº 635/2023",
+    "subtema": "Processo de trabalho e apoio matricial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_22",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "eMulti",
+      "atenção primária",
+      "apoio matricial",
+      "trabalho interprofissional"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "A alternativa C é textualmente idêntica à alternativa B, configurando duplicata por erro de elaboração da prova.",
+    "problema_detectado": "As alternativas B e C são idênticas, defeito de elaboração que reduz o item, na prática, a quatro opções distintas.",
+    "justificativas": {
+      "A": "Incorreta. Omite a oferta de ações de saúde à distância e as práticas intersetoriais, além de excluir indevidamente o cuidado domiciliar compartilhado do rol de ações das eMulti.",
+      "B": "Incorreta. A lista permanece incompleta e a negativa do atendimento domiciliar contraria a portaria, que inclui o cuidado domiciliar compartilhado entre as ações das eMulti.",
+      "D": "Incorreta. Embora acrescente a construção conjunta de projetos terapêuticos e as intervenções no território, mantém a exclusão do atendimento domiciliar, ação expressamente prevista para as eMulti.",
+      "E": "Correta. A Portaria GM/MS nº 635/2023 arrola, no processo de trabalho das eMulti, atendimentos individuais e em grupo, atividades coletivas, ações de saúde à distância, apoio matricial com discussão de casos e práticas intersetoriais."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q27",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Idoso com demência avançada: perfil de funcionalidade e indicação de cuidados paliativos",
+    "subtema": "Geriatria — imobilidade, polifarmácia e metas terapêuticas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "idoso frágil",
+      "doença de Alzheimer",
+      "cuidados paliativos",
+      "polifarmácia"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "Afirmar que ‘todas’ as medicações ‘certamente’ são essenciais, independentemente da polifarmácia, é implausível diante da desprescrição indicada no idoso frágil e praticamente ninguém a marcaria.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Em idoso com demência avançada e perfil 3 de funcionalidade, as metas pressóricas e glicêmicas devem ser flexibilizadas, priorizando conforto e prevenção de hipoglicemia e hipotensão, não o controle rigoroso com finalidade reabilitadora.",
+      "C": "Incorreta. Imobilidade grau IV associada a Alzheimer em estágio avançado configura dependência completa, e não parcial, para as atividades básicas da vida diária.",
+      "D": "Incorreta. A equipe multiprofissional é fundamental, porém com objetivos de cuidado paliativo, controle de sintomas e prevenção de complicações da imobilidade, e não de reabilitação funcional, inalcançável nesse perfil.",
+      "E": "Correta. Perfil 3 de funcionalidade, demência em estágio avançado e imobilidade grau IV caracterizam idoso elegível a cuidados paliativos prolongados ou em fase final de vida, com foco em conforto, controle de sintomas e suporte ao cuidador."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q35",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Genograma como ferramenta de abordagem familiar na APS",
+    "subtema": "Padrões transgeracionais e relações familiares",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_12",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "genograma",
+      "abordagem familiar",
+      "uso de álcool",
+      "atenção primária"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "‘Maria e Mário são divorciados’ contradiz diretamente o enunciado, que informa o falecimento de Mário, sendo o distrator mais implausível do conjunto.",
+    "problema_detectado": "O item depende do genograma referido no enunciado, que não é reproduzido no texto; sem a figura, as alternativas sobre relações conflituosas não podem ser avaliadas com segurança.",
+    "justificativas": {
+      "A": "Correta. Pai e filho (Mário e Mário Luís) compartilham tabagismo e uso abusivo de álcool, e a morte precoce do pai aos 53 anos evidencia padrão repetitivo transgeracional de comportamento e adoecimento, achado clássico do genograma.",
+      "B": "Incorreta. O relato descreve sobrecarga de cuidado com a sogra em quadro depressivo, o que não equivale ao registro gráfico de relação conflituosa entre Mônica e Maria.",
+      "C": "Incorreta. Há queixa de falta de ajuda e de uso abusivo de álcool pelo marido, mas o caso não caracteriza, no genograma, linha de relação conflituosa entre o casal.",
+      "E": "Incorreta. O indivíduo índice é Mônica, pessoa a partir de cuja consulta e narrativa o genograma foi construído."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q03",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Planejamento reprodutivo e esterilização cirúrgica voluntária (Lei nº 9.263/1996)",
+    "subtema": "Requisitos legais da laqueadura tubária",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_23",
+      "dcn2025_comp_05"
+    ],
+    "tags": [
+      "planejamento familiar",
+      "laqueadura tubária",
+      "autonomia",
+      "consentimento informado"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Com 23 anos e três filhos vivos, a paciente atende ao requisito legal (idade mínima de 21 anos ou pelo menos dois filhos vivos); além disso, prescrever método hormonal sem escuta e escolha informada fere sua autonomia reprodutiva.",
+      "B": "Incorreta. A exigência de consentimento expresso do cônjuge foi revogada pela Lei nº 14.443/2022, tornando a decisão sobre a esterilização voluntária estritamente individual.",
+      "C": "Correta. A lei condiciona a esterilização voluntária à manifestação escrita de vontade, ao prazo mínimo de reflexão e, sobretudo, à prévia oferta de informação sobre todos os métodos disponíveis, reversíveis e irreversíveis, garantindo escolha livre e esclarecida.",
+      "D": "Incorreta. Restringir a orientação aos métodos reversíveis é indevido, pois a paciente preenche os critérios legais para a esterilização, e a informação deve abranger também os métodos definitivos."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q11",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Tratamento do tabagismo: abordagem cognitivo-comportamental e farmacoterapia",
+    "subtema": "Cessação do tabagismo na atenção primária",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "tabagismo",
+      "cessação",
+      "aconselhamento",
+      "terapia em grupo"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Há relação dose-resposta entre intensidade do aconselhamento e abstinência: abordagens intensivas e estruturadas alcançam taxas de cessação superiores às das intervenções breves.",
+      "B": "Incorreta. Aconselhamento e farmacoterapia são efetivos isoladamente; a combinação apenas potencializa as taxas de abstinência, não sendo condição para eficácia.",
+      "C": "Incorreta. Na dependência física elevada inicia-se, em regra, terapia de reposição de nicotina (adesivo associado a formulação de liberação rápida) ou bupropiona; a associação de TRN com bupropiona é reservada a casos selecionados ou de falha terapêutica.",
+      "D": "Correta. As intervenções em grupo, formato preconizado pelo Programa Nacional de Controle do Tabagismo, favorecem a abstinência pela interação e pelo apoio mútuo entre participantes, com participação ativa do fumante e do profissional de saúde."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q19",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Cuidado a populações ribeirinhas e indígenas na Amazônia por equipe de saúde fluvial",
+    "subtema": "Competência cultural e atenção diferenciada",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_02",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "saúde indígena",
+      "populações ribeirinhas",
+      "competência cultural",
+      "equipe fluvial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comando final do enunciado foi copiado de outro item (‘Assinale a opção que apresenta ações do processo de trabalho das eMulti’), tornando a instrução incoerente com o caso apresentado.",
+    "justificativas": {
+      "A": "Incorreta. O conhecimento cultural local não substitui a capacitação técnica; profissionais nativos necessitam de educação permanente para atuação clínica segura e integrada à rede do SUS.",
+      "B": "Incorreta. Reservar as soluções biomédicas a um grupo e as práticas tradicionais a outro estereotipa as comunidades e nega à população indígena o acesso integral às tecnologias em saúde.",
+      "C": "Correta. A atenção diferenciada preconizada pela Política Nacional de Atenção à Saúde dos Povos Indígenas e pela APS combina valorização das práticas tradicionais de cuidado, uso racional de medicamentos e articulação entre saber acadêmico e saber comunitário, com participação local.",
+      "D": "Incorreta. Padronizar os atendimentos por semelhança geográfica desconsidera as diferenças culturais e os modos de vida distintos explicitamente destacados no caso."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q27",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Validade de testes diagnósticos: sensibilidade, especificidade e valores preditivos",
+    "subtema": "Aplicação a novo teste para hanseníase na UBS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "sensibilidade",
+      "testes diagnósticos",
+      "hanseníase",
+      "epidemiologia clínica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O valor de 90% corresponde à especificidade, isto é, à proporção de verdadeiros negativos (90) entre as 100 pessoas não acometidas por hanseníase.",
+      "B": "Incorreta. O valor de 90,7% corresponde ao valor preditivo positivo [98/(98+10)] nessa amostra hipotética com igual número de doentes e não doentes.",
+      "C": "Incorreta. O valor de 97,8% corresponde ao valor preditivo negativo [90/(90+2)], e não à sensibilidade do teste.",
+      "D": "Correta. Sensibilidade é a proporção de verdadeiros positivos entre os doentes: 98 dos 100 acometidos, ou seja, 98%."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q35",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Atenção intercultural em distrito sanitário especial indígena: criança com sinais de gravidade",
+    "subtema": "Pneumonia na infância e respeito às práticas tradicionais",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_02",
+      "dcn2025_comp_04"
+    ],
+    "tags": [
+      "saúde indígena",
+      "pneumonia",
+      "interculturalidade",
+      "sinais de gravidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A criança apresenta sinais de gravidade (taquipneia, letargia, desidratação e febre alta) que impõem internação com autorização materna obtida por intérprete; manter os emplastros, prática sem risco identificado, respeita a cultura do povo e fortalece vínculo e adesão, conforme a atenção diferenciada preconizada na saúde indígena.",
+      "B": "Incorreta. A internação está indicada, mas exigir a retirada dos emplastros sem necessidade clínica desrespeita a prática tradicional da família e compromete o vínculo e a adesão ao tratamento.",
+      "C": "Incorreta. Letargia e sinais de desidratação são sinais de perigo que contraindicam o manejo domiciliar exclusivo com ervas e retorno em sete dias, com risco elevado de evolução desfavorável.",
+      "D": "Incorreta. A antibioticoterapia oral domiciliar é insuficiente diante dos sinais gerais de perigo apresentados, que exigem hospitalização com terapia parenteral e hidratação."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q43",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Transtorno de ansiedade generalizada: diagnóstico e diagnóstico diferencial na APS",
+    "subtema": "Transtornos de ansiedade",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "ansiedade generalizada",
+      "diagnóstico diferencial",
+      "insônia",
+      "saúde mental"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não há humor deprimido persistente, anedonia, alterações de apetite, culpa ou ideação de morte; a alteração isolada do sono não sustenta o diagnóstico de depressão maior.",
+      "B": "Incorreta. O transtorno bipolar exige ao menos um episódio de mania ou hipomania, com humor elevado ou irritável, redução da necessidade de sono e aumento da energia, elementos ausentes no relato.",
+      "C": "Correta. Preocupação e apreensão excessivas e de difícil controle por mais de seis meses, associadas a inquietação, tensão, irritabilidade, dificuldade de concentração e alteração do sono, preenchem os critérios de transtorno de ansiedade generalizada.",
+      "D": "Incorreta. O transtorno de déficit de atenção no adulto requer sintomas de desatenção e/ou hiperatividade iniciados na infância, com prejuízo persistente em múltiplos contextos; aqui o quadro começou há sete meses e o desempenho profissional está preservado."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q51",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Política Nacional de Humanização (HumanizaSUS): conceito e diretrizes",
+    "subtema": "Transversalidade e dimensão subjetiva do cuidado",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_12",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "humanização",
+      "PNH",
+      "SUS",
+      "subjetividade"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "A opção que propõe a ‘idealização do homem’ é conceitualmente absurda e contraria explicitamente a formulação da PNH, funcionando como distrator sem apelo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A humanização constitui política pública transversal (PNH), e não um programa; a própria PNH afirma-se como superação da lógica fragmentada de programas verticais.",
+      "C": "Correta. A PNH opera como eixo articulador das práticas em saúde, destacando e valorizando a dimensão subjetiva e social presente em todo ato de cuidado e de gestão.",
+      "D": "Incorreta. As trocas solidárias na PNH comprometem-se com a dupla tarefa de produção de saúde e de produção de sujeitos, não se restringindo à produção de saúde.",
+      "E": "Incorreta. A humanização dirige-se a usuários, trabalhadores e gestores; a valorização dos trabalhadores e a gestão participativa são diretrizes centrais da PNH."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q59",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Acolhimento à crise no CAPS e papel do técnico de referência",
+    "subtema": "Rede de Atenção Psicossocial e cuidado territorial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_12",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "CAPS",
+      "crise",
+      "acolhimento",
+      "RAPS",
+      "técnico de referência"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "A alternativa é internamente contraditória ao afirmar que na agudização sintomatológica o sujeito ‘não está em sofrimento’, tornando-a implausível para qualquer candidato.",
+    "problema_detectado": "Além do gabarito oficial (B), a alternativa C também enuncia conteúdo tecnicamente defensável sobre a responsabilidade do CAPS diante da crise, configurando duplicidade de opções plausíveis que merece revisão da curadoria.",
+    "justificativas": {
+      "A": "Incorreta. O encaminhamento direto ao hospital de emergência contraria a lógica da Rede de Atenção Psicossocial, que atribui ao CAPS, serviço territorial de base comunitária, o manejo das situações de crise.",
+      "B": "Correta. Conforme o gabarito oficial, a conduta valoriza o vínculo construído na convivência diária de Rafael com o serviço e o papel do técnico de referência, profissional responsável pela condução do projeto terapêutico singular e pelo acompanhamento das situações vividas pelo usuário.",
+      "C": "Incorreta. Apesar de mencionar a responsabilidade do CAPS diante da crise, a formulação é circular (‘a responsabilidade... reforça a responsabilidade’) e não descreve conduta concreta de acolhimento, razão pela qual não é a opção apontada pelo gabarito oficial.",
+      "D": "Incorreta. Os CAPS têm responsabilidade territorial e devem acolher e manejar situações de crise, ainda que não funcionem como serviços de pronto-socorro."
+    }
+  }
+]

@@ -84,8 +84,9 @@ def decolumnize(text):
 def norm(s):
     s = s.replace("\xad", "")
     s = re.sub(r"\s+", " ", s).strip()
-    # remove marcas de layout que vazam do PDF (área de rascunho, nº de página)
-    s = re.sub(r"\s*[ÁA]REA\s+(LIVRE|DE\s+RASCUNHO)\s*\d*\s*$", "", s, flags=re.I)
+    # remove marcas de layout que vazam do PDF (área de rascunho, nº de página).
+    # Podem aparecer no MEIO do texto quando a de-columnização junta as colunas.
+    s = re.sub(r"\s*[ÁA]REA\s+(LIVRE|DE\s+RASCUNHO)\s*\d*\s*", " ", s, flags=re.I)
     s = re.sub(r"\s+\d{1,3}$", "", s)  # nº de página solto ao final
     return s.strip()
 

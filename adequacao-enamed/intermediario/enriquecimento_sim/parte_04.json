@@ -1,0 +1,367 @@
+[
+  {
+    "id_origem": "simulado01_2026_q04",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Política Nacional de Humanização: princípios norteadores",
+    "subtema": "Transversalidade",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_08",
+      "dcn2025_comp_12",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "PNH",
+      "humanização",
+      "transversalidade",
+      "SUS"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "“Heterogeneidade” é praticamente sinônimo de “Diversidade” (alternativa B), configurando distrator duplicado e sem poder discriminativo.",
+    "problema_detectado": "As alternativas B (Diversidade) e E (Heterogeneidade) são semanticamente redundantes entre si.",
+    "justificativas": {
+      "A": "Incorreta. Pluralidade não figura entre os princípios da PNH, que são transversalidade, indissociabilidade entre atenção e gestão e protagonismo/corresponsabilidade dos sujeitos.",
+      "B": "Incorreta. Diversidade é valor caro ao SUS, mas não nomeia o princípio que amplia o grau de comunicação intra e intergrupos.",
+      "C": "Incorreta. A verticalidade descreve justamente o modo hierarquizado e fragmentado de relação que a PNH busca superar.",
+      "D": "Correta. A transversalidade é o princípio da PNH que visa ao aumento do grau de comunicação intra e intergrupos e à transformação dos modos de relação entre os sujeitos implicados na produção de saúde, rompendo com a lógica de núcleos isolados de saber e poder."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q12",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Lei nº 8.142/1990: controle social no SUS",
+    "subtema": "Conferências e Conselhos de Saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_18",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "Lei 8.142",
+      "controle social",
+      "conselho de saúde",
+      "conferência de saúde"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Atribuir ao governo Federal a definição do regimento de conferências e conselhos contraria frontalmente a lógica descentralizada do controle social, sendo o distrator mais implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O art. 1º, §1º, da Lei nº 8.142/1990 estabelece que a Conferência de Saúde se reunirá a cada quatro anos para avaliar a situação de saúde e propor as diretrizes para a formulação da política de saúde nos níveis correspondentes.",
+      "B": "Incorreta. A periodicidade legal é quadrienal, e não bienal; além disso, a convocação cabe ao Poder Executivo ou, extraordinariamente, ao Conselho de Saúde, e não ao Poder Legislativo.",
+      "C": "Incorreta. O Conselho de Saúde é órgão permanente e deliberativo que formula estratégias e também controla a execução da política de saúde na instância correspondente, inclusive em seus aspectos econômicos e financeiros.",
+      "D": "Incorreta. Conass e Conasems têm, cada qual, representação própria no Conselho Nacional de Saúde, não uma representação única e compartilhada."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q20",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Política Nacional de Promoção da Saúde: valores e princípios",
+    "subtema": "Valores fundantes da PNPS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_15",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "PNPS",
+      "promoção da saúde",
+      "valores",
+      "equidade"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Como a afirmativa III está integralmente contida na II, a alternativa “I, II e III” torna-se defensável e ambígua frente ao gabarito, além de estar corrompida por resíduo de digitalização.",
+    "problema_detectado": "A afirmativa III é subconjunto da II (repete parte dos mesmos valores fundantes), gerando ambiguidade entre as alternativas; há ainda ruído de digitalização (“o 20”) ao final da alternativa E.",
+    "justificativas": {
+      "A": "Incorreta. Além do reconhecimento da subjetividade (I), a PNPS explicita como valores fundantes a solidariedade, a felicidade, a ética, o respeito às diversidades, a humanização, a corresponsabilidade, a justiça e a inclusão social.",
+      "B": "Correta. As afirmativas I e II reproduzem, respectivamente, o reconhecimento da subjetividade das pessoas e dos coletivos e o rol completo de valores fundantes previstos na PNPS (Portaria GM/MS nº 2.446/2014).",
+      "C": "Incorreta. A afirmativa III enuncia apenas parte dos valores fundantes, omitindo solidariedade, felicidade, ética e respeito às diversidades; a combinação I e III deixa de contemplar o enunciado completo da política.",
+      "D": "Incorreta. A combinação exclui a afirmativa I, que corresponde a princípio expresso da PNPS — o reconhecimento da subjetividade das pessoas e dos coletivos no processo de atenção e cuidado."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q28",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem do tabagismo com dependência nicotínica grave",
+    "subtema": "Estágios de mudança e entrevista motivacional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "tabagismo",
+      "Fagerström",
+      "entrevista motivacional",
+      "cessação"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "O cigarro eletrônico (vaper) tem comercialização proibida no Brasil e não é estratégia reconhecida de cessação, sendo alternativa implausível que nenhum candidato bem preparado marcaria.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. Escore de Fagerström igual a 10 indica dependência muito elevada; nesse perfil, a cessação sem suporte farmacológico apresenta taxas de sucesso muito baixas.",
+      "C": "Incorreta. A terapia de reposição de nicotina isolada é insuficiente diante de dependência grave e, sobretudo, a paciente encontra-se em pré-contemplação, o que exige trabalho motivacional prévio e suporte comportamental.",
+      "D": "Correta. Diante de dependência nicotínica muito elevada, forte componente comportamental e estágio de pré-contemplação, a conduta é a entrevista motivacional associada ao suporte comportamental e ao tratamento farmacológico necessário, ainda mais premente pelo diagnóstico de neoplasia pulmonar.",
+      "E": "Incorreta. Prescrever bupropiona isoladamente ignora o estágio motivacional e o suporte comportamental indispensáveis, além de exigir avaliação prévia de contraindicações."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q36",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Registro Clínico Orientado por Problemas e método SOAP",
+    "subtema": "Campos Subjetivo, Objetivo e Avaliação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_27",
+      "dcn2025_comp_03",
+      "dcn2025_comp_08"
+    ],
+    "tags": [
+      "RCOP",
+      "SOAP",
+      "prontuário",
+      "registro clínico"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Afirmar que relatos de sofrimento, medo e insônia são irrelevantes e não devem ser registrados é clinicamente inaceitável, tornando o distrator implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Sinais vitais e medidas antropométricas são dados aferidos pelo profissional e, portanto, não pertencem ao campo Subjetivo, reservado ao relato da pessoa.",
+      "B": "Correta. No RCOP/SOAP, pressão arterial, frequência cardíaca, frequência respiratória, peso e altura são achados mensurados no atendimento e compõem o campo Objetivo.",
+      "C": "Incorreta. O campo Avaliação destina-se à síntese diagnóstica e à lista de problemas, e não ao registro bruto de sinais vitais e medidas antropométricas.",
+      "D": "Incorreta. Os relatos de falta de energia, medo e insônia são narrativa da paciente e devem constar no campo Subjetivo; no campo Avaliação entraria a interpretação desses dados, por exemplo, como hipótese de transtorno de humor/ansiedade."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q04",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Preenchimento da Declaração de Óbito em morte natural domiciliar",
+    "subtema": "Cadeia de causas: básica, antecedente e contribuintes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_27",
+      "dcn2025_comp_05"
+    ],
+    "tags": [
+      "declaração de óbito",
+      "causa básica",
+      "morte natural",
+      "DPOC"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não há sinais de trauma ou suspeita de morte violenta que justifiquem encaminhamento ao IML; ademais, a exacerbação de DPOC não é a causa básica, mas a doença de base já existente.",
+      "B": "Incorreta. O caso é de morte natural com assistência médica, não cabendo ao legista; sepse e insuficiência respiratória são mecanismos terminais e não devem figurar como causa básica.",
+      "C": "Correta. Tratando-se de morte natural de paciente sob acompanhamento domiciliar, cabe ao médico assistente (médico de família) emitir a Declaração de Óbito com causa presumida: a broncopneumonia é a causa básica que inicia a cadeia, a DPOC é o antecedente e HAS, hemiplegia e AVC são condições contribuintes.",
+      "D": "Incorreta. Parada cardiorrespiratória é modo de morrer, e não causa de óbito, sendo expressamente vedado seu registro como causa básica na Declaração de Óbito."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q12",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem ética da gravidez não desejada na APS",
+    "subtema": "Sigilo, informação e redução de danos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_04",
+      "dcn2025_comp_23",
+      "dcn2025_comp_02",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "gravidez não desejada",
+      "sigilo médico",
+      "redução de danos",
+      "autonomia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Impor o pré-natal e antecipar a entrega para adoção desconsidera a demanda trazida e a autonomia da paciente, além de não responder às suas dúvidas concretas.",
+      "B": "Incorreta. Desencorajar a paciente enfatizando riscos configura postura moralizante e coercitiva, incompatível com o cuidado centrado na pessoa e com a comunicação não julgadora.",
+      "C": "Correta. Cabe ao médico assegurar informações clínicas e legais corretas, garantir o sigilo profissional e orientar sobre sinais de alarme que exijam atendimento imediato, em lógica de redução de danos e sem emitir juízo moral sobre a decisão da mulher.",
+      "D": "Incorreta. Não há dever — nem permissão ética — de comunicar à autoridade policial: a quebra de sigilo em abortamento autoprovocado é vedada pelo Código de Ética Médica, pois exporia a paciente a processo criminal."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q20",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Morte encefálica e legislação de doação de órgãos",
+    "subtema": "Autorização familiar (Lei nº 10.211/2001)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_23",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "morte encefálica",
+      "doação de órgãos",
+      "consentimento familiar",
+      "transplante"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Resíduo de digitalização ao final da alternativa D (“o 20”), que deve ser removido na revisão editorial.",
+    "justificativas": {
+      "A": "Incorreta. Rim único com função preservada não constitui, por si só, contraindicação à doação de órgãos e tecidos, cuja elegibilidade é definida caso a caso pela equipe de captação.",
+      "B": "Correta. No Brasil vigora o consentimento familiar informado: pela Lei nº 10.211/2001, a retirada de órgãos depende de autorização escrita do cônjuge ou parente até segundo grau, com duas testemunhas, prevalecendo sobre a manifestação prévia em vida da paciente.",
+      "C": "Incorreta. Não há previsão legal que autorize o poder público a intervir para impor a doação diante da recusa do familiar legalmente legitimado.",
+      "D": "Incorreta. Anti-HBs positivo com HBsAg negativo traduz imunidade (vacinal ou por infecção prévia resolvida), situação que não impede a doação."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q28",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Princípios do SUS aplicados à organização da visita domiciliar",
+    "subtema": "Equidade e priorização por necessidade",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_18",
+      "dcn2025_comp_09"
+    ],
+    "tags": [
+      "equidade",
+      "visita domiciliar",
+      "ESF",
+      "princípios do SUS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Definir critérios que priorizem as visitas domiciliares conforme necessidade, risco e vulnerabilidade concretiza a equidade — tratar desigualmente os desiguais na medida de suas desigualdades — otimizando o cuidado ofertado pela equipe.",
+      "B": "Incorreta. Autonomia é princípio bioético e diretriz das relações de cuidado, não integrando os princípios doutrinários do SUS que orientam a priorização das ações da equipe.",
+      "C": "Incorreta. Integralidade refere-se à abordagem do sujeito em suas dimensões biopsicossociais e à articulação de promoção, prevenção, cura e reabilitação, e não ao critério de escolha de quem será visitado primeiro.",
+      "D": "Incorreta. Universalidade assegura acesso a todos, sem discriminação, mas não fornece o critério de ordenação e priorização discutido na roda de conversa."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q36",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Delineamento de estudos epidemiológicos: inquéritos populacionais",
+    "subtema": "Estudo transversal (Pesquisa Nacional de Saúde)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_10",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "epidemiologia",
+      "estudo transversal",
+      "inquérito de saúde",
+      "PNS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Coorte pressupõe seguimento longitudinal de expostos e não expostos ao longo do tempo para medir incidência, o que não ocorre em um inquérito domiciliar pontual.",
+      "B": "Correta. A Pesquisa Nacional de Saúde é inquérito domiciliar de base populacional que afere exposições e desfechos em um mesmo momento, caracterizando estudo observacional transversal (de prevalência).",
+      "C": "Incorreta. Não há intervenção nem alocação de participantes pelo investigador, requisitos essenciais de um estudo experimental.",
+      "D": "Incorreta. No caso-controle parte-se de doentes e não doentes para investigar retrospectivamente exposições, desenho distinto de um inquérito de base populacional."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q44",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Confidencialidade e prescrição de contracepção na adolescência",
+    "subtema": "Código de Ética Médica e ECA",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_04",
+      "dcn2025_comp_23",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "adolescência",
+      "sigilo",
+      "contracepção",
+      "ECA"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O início da vida sexual não caracteriza imaturidade psicológica nem risco grave e iminente, únicas situações que autorizariam a quebra do sigilo e a comunicação obrigatória aos responsáveis.",
+      "B": "Correta. A adolescente com capacidade de discernimento tem direito ao sigilo e à prescrição contraceptiva; a procura por orientação médica sinaliza decisão madura, e a recusa apenas favoreceria a automedicação — cabendo ainda abordar sexo seguro e estimular a comunicação familiar.",
+      "C": "Incorreta. Embora acerte ao preservar a confidencialidade, negar a contracepção por receio de responsabilização contraria o dever de assistência e expõe a adolescente à gravidez não planejada.",
+      "D": "Incorreta. A incapacidade civil absoluta do menor de 16 anos não autoriza a quebra do sigilo médico: o Código de Ética Médica e o ECA asseguram confidencialidade ao adolescente com capacidade de autodeterminação, salvo risco grave à saúde ou à vida."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q52",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Síndrome de burnout em profissionais de saúde",
+    "subtema": "Tríade diagnóstica e diagnósticos diferenciais",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_17",
+      "dcn2025_comp_13",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "burnout",
+      "saúde do profissional",
+      "residência médica",
+      "esgotamento"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "“Fadiga industrial” é termo em desuso, sem correspondência nosológica atual, configurando o distrator mais implausível do conjunto.",
+    "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“Qu”), que deve ser removido na revisão editorial.",
+    "justificativas": {
+      "A": "Incorreta. O episódio depressivo caracteriza-se por humor deprimido e/ou anedonia pervasivos, presentes em todos os contextos de vida, e não por sintomas circunscritos à relação com o trabalho.",
+      "C": "Correta. Exaustão emocional, despersonalização (distanciamento afetivo do paciente) e redução da realização pessoal compõem a tríade clássica da síndrome de burnout, fenômeno ocupacional descrito na CID-11 e frequente entre residentes.",
+      "D": "Incorreta. Insatisfação profissional é sentimento inespecífico, sem a estrutura sindrômica tridimensional nem o comprometimento funcional descrito no caso.",
+      "E": "Incorreta. Os transtornos de ansiedade cursam com preocupação excessiva e sintomas de hiperativação autonômica, não com despersonalização e exaustão emocional vinculadas ao trabalho."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q60",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Clínica de saúde mental infantojuvenil na reforma psiquiátrica",
+    "subtema": "Singularidade e diagnóstico situacional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_11",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "saúde mental infantojuvenil",
+      "reforma psiquiátrica",
+      "CAPSi",
+      "singularidade"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa absurda — tomar a criança como “objeto a ser moldado” contraria frontalmente a lógica da reforma psiquiátrica — e ainda corrompida por resíduo de digitalização (“tão 52”).",
+    "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“tão 52”).",
+    "justificativas": {
+      "A": "Incorreta. A reforma psiquiátrica rejeita a adaptação a padrões predefinidos de normalidade, propondo cuidado singularizado, territorial e orientado pela produção de autonomia.",
+      "B": "Incorreta. A escuta da criança é essencial, mas não se sobrepõe nem exclui a escuta de familiares e responsáveis, que integram o projeto terapêutico singular e a rede de cuidado.",
+      "C": "Correta. A hipótese diagnóstica é instrumento auxiliar e não pode ocupar o lugar do respeito à singularidade, devendo articular-se sempre ao diagnóstico situacional que considera contexto familiar, escolar e territorial.",
+      "D": "Incorreta. Conflitos relativos a gênero, trabalho, educação e família são determinantes centrais do sofrimento psíquico na adolescência e precisam ser considerados no cuidado."
+    }
+  }
+]

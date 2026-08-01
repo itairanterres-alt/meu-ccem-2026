@@ -1,0 +1,350 @@
+[
+  {
+    "id_origem": "simulado01_2026_q07",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Consultório na Rua e registro das ações na Atenção Primária",
+    "subtema": "Sistemas de informação em saúde (Sisab/e-SUS APS)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_16",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "consultório na rua",
+      "população em situação de rua",
+      "sisab",
+      "sistemas de informação",
+      "atenção básica"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "A ANVISA é uma agência reguladora sanitária, e não um sistema de informação, o que torna a opção implausível e sem poder discriminativo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A Rede Nacional de Dados em Saúde é a plataforma nacional de interoperabilidade e compartilhamento de informações entre serviços, e não o sistema em que se registra a produção assistencial das equipes de Atenção Básica.",
+      "C": "Incorreta. O Sinan destina-se à notificação de doenças e agravos de notificação compulsória; apenas parte do que a eCR atende geraria notificação, não a totalidade das ações.",
+      "D": "Correta. Todas as ações das equipes de Consultório na Rua devem ser registradas no Sisab, sistema oficial de informação da Atenção Básica alimentado pela estratégia e-SUS APS, o que garante o cômputo da produção dessas equipes.",
+      "E": "Incorreta. Não existe sistema com a denominação Sistema de Dados de Populações Vulneráveis no âmbito do Ministério da Saúde; trata-se de nomenclatura fictícia."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q15",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Decreto nº 7.508/2011 e organização do SUS",
+    "subtema": "Definições legais: PCDT, Mapa da Saúde, RAS e Comissões Intergestores",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_06",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "decreto 7508",
+      "sus",
+      "pcdt",
+      "regionalização",
+      "legislação"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Afirmar que a Rede de Atenção à Saúde se articula apenas em nível primário contraria o conceito elementar de rede regionalizada e hierarquizada, sendo o distrator mais frágil.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. As Comissões Intergestores (CIT, CIB e CIR) são instâncias de pactuação consensual entre os entes federativos quanto à organização e ao funcionamento das ações e serviços de saúde integrados em rede, e não órgãos de avaliação de desempenho do SUS.",
+      "B": "Incorreta. O Mapa da Saúde é a descrição geográfica da distribuição de recursos humanos e de ações e serviços de saúde ofertados pelo SUS e pela iniciativa privada; restringi-lo à oferta do SUS descaracteriza a definição legal.",
+      "D": "Incorreta. Os Serviços Especiais de Acesso Aberto são serviços de atendimento inicial à saúde da pessoa que, em razão de agravo ou situação laboral, necessita de atendimento especial, dispensando referência prévia; reduzi-los a atendimento de urgência é impreciso.",
+      "E": "Correta. Reproduz a definição legal de Protocolo Clínico e Diretriz Terapêutica constante do art. 2º do Decreto nº 7.508/2011, documento que estabelece critérios diagnósticos, tratamento preconizado, mecanismos de controle clínico e verificação de resultados a serem observados pelos gestores do SUS."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q23",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Vacinação contra influenza na gestação",
+    "subtema": "Imunização de grupos prioritários na APS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "influenza",
+      "gestante",
+      "imunização",
+      "pré-natal",
+      "prevenção"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "A alternativa C ('evitar a vacina na gestação') é praticamente sinônima da alternativa A, funcionando como duplicata mais genérica e menos discriminativa.",
+    "problema_detectado": "As alternativas A e C veiculam essencialmente a mesma ideia (contraindicar a vacina na gestação), configurando quase duplicata no item original.",
+    "justificativas": {
+      "A": "Incorreta. A vacina influenza é de vírus inativado e está recomendada em qualquer idade gestacional, inclusive no primeiro trimestre, sendo a gestante grupo prioritário da campanha anual.",
+      "B": "Incorreta. A proteção conferida é de curta duração e a composição vacinal é reformulada a cada ano conforme as cepas circulantes, o que exige dose anual — não existe imunidade por dez anos.",
+      "D": "Correta. Como a última dose foi aplicada no ano anterior, Letícia deve receber nova dose da vacina influenza da campanha vigente, independentemente de estar na 10ª semana de gestação.",
+      "E": "Incorreta. Não há necessidade de postergar a vacinação para depois da 12ª semana; a vacina inativada é segura em qualquer trimestre e o adiamento apenas prolonga a janela de suscetibilidade."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q31",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Manejo do paciente hipertenso com pressão arterial na meta",
+    "subtema": "Metas pressóricas e risco cardiovascular baixo",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hipertensão arterial",
+      "meta pressórica",
+      "risco cardiovascular",
+      "adesão",
+      "mudança de estilo de vida"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "A ideia de trocar o anti-hipertensivo para evitar 'tolerância do organismo' é farmacologicamente absurda e não seria assinalada por nenhum aluno minimamente preparado.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Com PA de 130x80 mmHg, paciente de baixo risco cardiovascular encontra-se dentro da meta pressórica; a conduta é manter o esquema em uso e reforçar as medidas não farmacológicas.",
+      "B": "Incorreta. A suspensão do anti-hipertensivo em paciente controlado costuma resultar em reascensão pressórica; o controle observado é consequência do tratamento, não motivo para retirá-lo.",
+      "D": "Incorreta. Parte de premissa falsa: a PA está dentro da meta, e não fora dela, embora o reforço de mudanças de estilo de vida seja sempre pertinente.",
+      "E": "Incorreta. Além de partir da mesma premissa equivocada sobre a meta, propõe modificação de esquema medicamentoso sem qualquer justificativa clínica."
+    }
+  },
+  {
+    "id_origem": "simulado01_2026_q39",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "dificil",
+    "tema": "Definição de caso de síndrome respiratória aguda grave (SRAG)",
+    "subtema": "Vigilância epidemiológica de influenza e covid-19",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_14",
+      "dcn2025_comp_24",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "srag",
+      "vigilância epidemiológica",
+      "influenza",
+      "covid-19",
+      "definição de caso"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Reproduz a definição antiga de síndrome gripal e se sobrepõe à alternativa B, que traz a versão vigente do mesmo conceito, sendo por isso o distrator redundante e mais fraco.",
+    "problema_detectado": "Item com defeito técnico: a alternativa E reproduz a definição operacional clássica de SRAG do Ministério da Saúde (síndrome gripal com dispneia, desconforto respiratório, pressão torácica persistente, dessaturação ou cianose), o que compete diretamente com o gabarito oficial D e exige revisão pela curadoria antes do uso.",
+    "justificativas": {
+      "B": "Incorreta. Descreve a definição de síndrome gripal — quadro respiratório agudo com pelo menos dois dos sinais e sintomas listados —, que não contempla os critérios de gravidade exigidos para SRAG.",
+      "C": "Incorreta. Enumera manifestações da síndrome gripal aplicadas à faixa pediátrica, e não os critérios que caracterizam o caso como grave.",
+      "D": "Correta. Conforme o gabarito oficial, integram a definição utilizada na vigilância os critérios específicos de agravamento em idosos — síncope, confusão mental, sonolência excessiva, irritabilidade e inapetência —, que devem levar à classificação e à notificação como SRAG nessa população.",
+      "E": "Incorreta. Segundo o gabarito oficial da prova, esta não é a alternativa a ser assinalada; registre-se, contudo, a sobreposição desse enunciado com os sinais de gravidade descritos nos protocolos de vigilância, conforme apontado no problema detectado."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q07",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem populacional para cessação do tabagismo na APS",
+    "subtema": "Programa Nacional de Controle do Tabagismo (INCA/MS)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "tabagismo",
+      "cessação",
+      "grupo terapêutico",
+      "atenção primária",
+      "promoção da saúde"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Consultas individuais semanais para todos os fumantes do território são inviáveis do ponto de vista da agenda da equipe e não constituem o formato preconizado pelo Ministério da Saúde.",
+      "B": "Incorreta. Campanhas e palestras informativas isoladas aumentam a conscientização, mas têm baixa efetividade sobre as taxas de cessação quando não vinculadas a uma intervenção estruturada.",
+      "C": "Correta. O Programa Nacional de Controle do Tabagismo preconiza a abordagem cognitivo-comportamental intensiva em grupo, com sessões estruturadas semanais no primeiro mês e sessões de manutenção, estratégia que reúne maior efetividade e viabilidade na APS.",
+      "D": "Incorreta. Visitas domiciliares semanais centradas na farmacoterapia consomem muito tempo da equipe, e o tratamento medicamentoso é adjuvante à abordagem comportamental, não a estratégia principal."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q15",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Delirium tremens na abstinência alcoólica",
+    "subtema": "Diagnóstico e tratamento inicial com benzodiazepínicos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "delirium tremens",
+      "abstinência alcoólica",
+      "benzodiazepínico",
+      "emergência",
+      "etilismo"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Embora o diagnóstico esteja certo, o haloperidol não trata o mecanismo da abstinência, reduz o limiar convulsivo e prolonga o intervalo QT, sendo apenas adjuvante em agitação refratária após benzodiazepínico.",
+      "B": "Correta. Agitação, confusão mental, tremores, sudorese e hiperatividade autonômica surgindo 48 a 72 horas após a interrupção do álcool em etilista crônico caracterizam delirium tremens, cujo tratamento de primeira linha é o benzodiazepínico intravenoso, como o diazepam, titulado conforme sintomas.",
+      "C": "Incorreta. A hipótese de encefalopatia hipertensiva não se sustenta: os níveis pressóricos são apenas moderadamente elevados e decorrem da hiperatividade adrenérgica da abstinência; restrição hídrica não tem papel nesse cenário.",
+      "D": "Incorreta. Além do diagnóstico equivocado, reduzir a pressão arterial nesse contexto pode agravar a instabilidade; a hipertensão é secundária e regride com o controle da abstinência."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q23",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Vacinação contra o HPV no calendário nacional",
+    "subtema": "Faixa etária e esquema de dose única (9 a 14 anos)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hpv",
+      "vacinação",
+      "dose única",
+      "adolescente",
+      "calendário vacinal"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A menina de 13 anos está dentro da faixa preconizada, mas o menino de 8 anos ainda não atingiu a idade mínima de 9 anos para a vacinação de rotina contra o HPV.",
+      "B": "Incorreta. O esquema vigente no calendário nacional para a faixa de 9 a 14 anos é de dose única, não havendo indicação de segunda dose em 60 dias para imunocompetentes.",
+      "C": "Incorreta. Inverte a conduta: a adolescente de 13 anos deve ser vacinada agora, e o menino iniciará o esquema ao completar 9 anos, e não 11.",
+      "D": "Correta. A menina de 13 anos recebe dose única na própria visita, enquanto o menino de 8 anos ainda não tem indicação, devendo retornar ao completar 9 anos."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q31",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Saúde de populações indígenas e ribeirinhas",
+    "subtema": "Distritos Sanitários Especiais Indígenas e equipes de saúde da família fluviais",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_15",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "dsei",
+      "saúde indígena",
+      "ribeirinhos",
+      "territorialização",
+      "populações vulnerabilizadas"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A delimitação dos DSEIs baseia-se na ocupação e na distribuição etnodemográfica tradicional dos povos indígenas, podendo atravessar fronteiras estaduais e municipais, ao passo que as equipes de saúde da família ribeirinhas se organizam a partir do território municipal ao qual estão vinculadas.",
+      "B": "Incorreta. A demarcação de terras indígenas, por si só, não elimina conflitos fundiários nem situações de vulnerabilidade, que persistem em muitos territórios demarcados.",
+      "C": "Incorreta. A desnutrição infantil e a insegurança alimentar também são problemas relevantes entre populações ribeirinhas, cuja disponibilidade e diversidade alimentar são sazonais e frequentemente limitadas.",
+      "D": "Incorreta. As práticas tradicionais de cuidado e os cuidadores locais, como parteiras e benzedeiras, permanecem vivos e atuantes nas comunidades ribeirinhas, coexistindo com a biomedicina."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q39",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Territorialização e divisão em microáreas na Estratégia Saúde da Família",
+    "subtema": "Planejamento de nova equipe em território vulnerável",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_15",
+      "dcn2025_comp_18",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "territorialização",
+      "microárea",
+      "estratégia saúde da família",
+      "diagnóstico situacional",
+      "vulnerabilidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Distribuir famílias vulneráveis de modo igualitário entre agentes comunitários fragmenta a lógica de adscrição geográfica contígua e desorganiza o vínculo territorial, sendo a carga de trabalho um critério secundário.",
+      "B": "Correta. A divisão em microáreas deve privilegiar a homogeneidade das necessidades e dos riscos dos grupos populacionais, ainda que resulte em recortes geograficamente assimétricos, o que qualifica o direcionamento das ações sanitárias e intersetoriais.",
+      "C": "Incorreta. Mapas esquemáticos impressos são recursos auxiliares úteis, mas não oferecem melhor capacidade analítica que as ferramentas de geoprocessamento.",
+      "D": "Incorreta. Bases do DATASUS e do IBGE constituem dados secundários e, além disso, seu nível de desagregação costuma ser insuficiente para delimitar microáreas intraurbanas."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q47",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Princípios do SUS e barreiras de acesso na Atenção Primária",
+    "subtema": "Acessibilidade, financiamento e gestão dos serviços",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "acessibilidade",
+      "gestão em saúde",
+      "financiamento do sus",
+      "atenção primária",
+      "filas"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item depende integralmente de uma charge não reproduzida no texto do enunciado, o que impede a resolução isolada e exige a inclusão da imagem original na versão do banco.",
+    "justificativas": {
+      "A": "Incorreta. Descentralização e hierarquização referem-se ao comando único em cada esfera de governo e à organização dos serviços por níveis de densidade tecnológica, não explicando por si a formação de filas.",
+      "B": "Correta. Filas prolongadas para entrar no serviço traduzem barreiras de acessibilidade organizacional, cuja raiz frequentemente está no subfinanciamento e na fragilidade da gestão do processo de trabalho e da oferta.",
+      "C": "Incorreta. Resolubilidade e integralidade dizem respeito à capacidade de resolver o problema e à abordagem integral do usuário, e não à vantagem de ser atendido primeiro por ordem de chegada.",
+      "D": "Incorreta. Universalidade é a garantia de acesso a todos, e coordenação do cuidado refere-se à condução do usuário pela rede; a cena retratada não versa sobre estratificação por necessidade clínica."
+    }
+  },
+  {
+    "id_origem": "simulado02_2026_q55",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Projeto Terapêutico Singular na Atenção Primária",
+    "subtema": "Momentos de construção e princípios do PTS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_22",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "projeto terapêutico singular",
+      "clínica ampliada",
+      "equipe multiprofissional",
+      "cuidado centrado na pessoa"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "A alternativa nega frontalmente a premissa do PTS ao propor ações que desconsideram necessidades e possibilidades do usuário, sendo absurda e sem poder discriminativo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Correta. O PTS tem por objetivo traçar uma estratégia de intervenção singular a partir das necessidades do usuário, dos recursos disponíveis na equipe e na rede e das características do território em que ele e sua família vivem.",
+      "C": "Incorreta. A articulação de serviços e o suporte social são justamente dispositivos que favorecem o restabelecimento de vínculos fragilizados no processo de adoecimento.",
+      "D": "Incorreta. Reproduzir o plano de outro usuário para padronizar o tratamento contraria a própria noção de singularidade que fundamenta o PTS.",
+      "E": "Incorreta. Embora acerte ao situar o usuário como foco, subordina o que deve ser tratado à expectativa dos profissionais, quando o processo exige negociação com o usuário e sua família, respeitando seu protagonismo e projeto de vida."
+    }
+  }
+]
