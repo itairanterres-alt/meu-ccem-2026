@@ -11,10 +11,24 @@ import json, os, glob
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, "canonico", "RELATORIO-CURADORIA.md")
-ARQS = [
-    ("ENAMED 2025 — Caderno 01", "enamed2025_caderno1.canonico.json"),
-    ("Simulados MED/ENAMED 2026", "simulados2026.canonico.json"),
-]
+
+# Rótulos conhecidos; qualquer *.canonico.json novo entra automaticamente.
+ROTULOS = {
+    "enamed2025_caderno1": "ENAMED 2025 — Caderno 01",
+    "simulados2026": "Simulados MED/ENAMED 2026 (01 e 02)",
+    "revalida": "Revalida — Provas Objetivas (2023.2 e 2024.1)",
+    "tp2022": "Teste de Progresso MED 2022 (comentado)",
+    "simulados_nacionais": "Simulados Nacionais ENAMED",
+    "questoes_docx": "Bancos institucionais (.docx)",
+}
+
+
+def descobrir():
+    achados = []
+    for caminho in sorted(glob.glob(os.path.join(BASE, "canonico", "*.canonico.json"))):
+        slug = os.path.basename(caminho).replace(".canonico.json", "")
+        achados.append((ROTULOS.get(slug, slug), os.path.basename(caminho)))
+    return achados
 
 
 def bloco(q, i):
@@ -59,7 +73,7 @@ def main():
               "redigidas por IA e **precisam de revisão docente**; a alternativa "
               "correta é sempre a do gabarito oficial da prova de origem.\n"]
     total = 0
-    for titulo, arq in ARQS:
+    for titulo, arq in descobrir():
         caminho = os.path.join(BASE, "canonico", arq)
         if not os.path.exists(caminho):
             continue

@@ -1653,7 +1653,7 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 
 ---
 
-## Simulados MED/ENAMED 2026
+## Simulados MED/ENAMED 2026 (01 e 02)
 
 100 questões · convertidas 5→4: 50 · dependem de imagem: 4 · com defeito sinalizado: 35
 

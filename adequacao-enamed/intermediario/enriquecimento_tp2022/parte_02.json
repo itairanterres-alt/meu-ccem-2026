@@ -1,0 +1,412 @@
+[
+  {
+    "id_origem": "tp2022_q002",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Carcinogênese química e câncer de pulmão em tabagista",
+    "subtema": "Hidrocarbonetos aromáticos policíclicos derivados da combustão do tabaco",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "patologia geral",
+      "carcinogênese",
+      "oncologia",
+      "tabagismo"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "Fenobarbital sódico e DDT são quase-duplicatas como promotores tumorais hepáticos, e o fenobarbital é o distrator menos plausível diante de um caso de carcinoma escamoso de pulmão.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A aflatoxina B1, produzida por Aspergillus flavus em grãos e cereais mal armazenados, é carcinógeno hepático clássico, associado ao carcinoma hepatocelular, e não ao carcinoma escamoso de pulmão do tabagista.",
+      "C": "Correta. A combustão do tabaco origina os hidrocarbonetos aromáticos policíclicos, carcinógenos indiretos que precisam ser metabolizados para exercer seus efeitos e que estão entre as substâncias carcinogênicas mais estudadas, respondendo pela patogênese do carcinoma de células escamosas neste paciente com 40 anos de tabagismo.",
+      "D": "Incorreta. O asbesto é carcinógeno ocupacional pulmonar, porém associa-se sobretudo ao mesotelioma e ao adenocarcinoma, e a história não traz qualquer exposição a amianto, ao contrário da exposição maciça à fumaça do tabaco.",
+      "E": "Incorreta. O diclorodifeniltricloroetano é organoclorado com ação predominante de promotor tumoral hepático em modelos experimentais, integrando o grupo de carcinógenos que não explicam a neoplasia pulmonar deste paciente."
+    }
+  },
+  {
+    "id_origem": "tp2022_q010",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Bradiarritmia sem ondas P: identificação do bloqueio sinoatrial",
+    "subtema": "Fisiologia do sistema de condução cardíaco e ritmos de escape",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "fisiologia cardiovascular",
+      "eletrocardiograma",
+      "bradiarritmia",
+      "sistema de condução"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Os bloqueios atrioventriculares de primeiro, segundo e terceiro graus formam uma série redundante de distratores, e o de segundo grau é o menos discriminativo por não acrescentar raciocínio distinto aos outros dois.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A ausência de ondas P com complexos QRS regulares a 46 bpm indica que o impulso originado no nó sinoatrial está totalmente bloqueado antes de entrar no músculo atrial, o que caracteriza o bloqueio sinoatrial; os ventrículos assumem então um ritmo de escape geralmente iniciado no nó atrioventricular, com frequência típica de 40 a 60 bpm. Na bradicardia sinusal, ao contrário, as ondas P permanecem presentes e associadas a cada QRS.",
+      "B": "Incorreta. No bloqueio atrioventricular de primeiro grau as ondas P estão presentes e todas conduzidas, apenas com prolongamento do intervalo PR acima de 200 ms, o que não corresponde a um traçado sem ondas P.",
+      "D": "Incorreta. No bloqueio atrioventricular de terceiro grau há ondas P visíveis, porém dissociadas dos complexos QRS; a ausência completa de atividade atrial registrável afasta esse diagnóstico.",
+      "E": "Incorreta. Os distúrbios do sistema His-Purkinje manifestam-se por alargamento do QRS e bloqueios de ramo ou fasciculares, preservando a despolarização atrial e, portanto, as ondas P."
+    }
+  },
+  {
+    "id_origem": "tp2022_q018",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Células imunes residentes do sistema nervoso central",
+    "subtema": "Micróglia e neuroglia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "neurociência",
+      "neuroglia",
+      "imunidade do SNC",
+      "histologia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "As células de Schwann pertencem ao sistema nervoso periférico e são distrator implausível para célula residente do encéfalo, além de estarem grafadas incorretamente no item.",
+    "problema_detectado": "Erro de grafia na alternativa E ('Schawann' em lugar de 'Schwann').",
+    "justificativas": {
+      "A": "Incorreta. Os oligodendrócitos são células gliais responsáveis pela mielinização dos axônios do sistema nervoso central, sem função imune residente.",
+      "B": "Correta. A micróglia é a única célula imune residente do encéfalo, derivada de precursores mieloides, e age como primeira linha de defesa imunológica do sistema nervoso central, com funções de vigilância, fagocitose e remodelamento sináptico.",
+      "C": "Incorreta. Os interneurônios são neurônios de circuito local, dedicados ao processamento e à modulação sináptica, e não desempenham papel imunológico.",
+      "D": "Incorreta. Os astrócitos participam do suporte metabólico, da manutenção da barreira hematoencefálica e da resposta reativa às lesões, mas não constituem as células imunes residentes do encéfalo."
+    }
+  },
+  {
+    "id_origem": "tp2022_q026",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Determinantes sociais da saúde como fatores de risco",
+    "subtema": "Conceito ampliado de saúde e Lei Orgânica da Saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_15",
+      "dcn2025_comp_11",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "determinantes sociais",
+      "saúde coletiva",
+      "Lei 8.080/1990",
+      "promoção da saúde"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Ter menos de 10 anos é característica biológica e etária individual, não um determinante social, configurando o distrator mais implausível do item.",
+    "problema_detectado": "A alternativa B é ambígua: 'ter regular suporte social' admite leitura tanto como suporte adequado quanto como suporte apenas mediano.",
+    "justificativas": {
+      "B": "Incorreta. O suporte social é de fato um determinante social da saúde, porém, quando presente, opera como fator de proteção e não como fator de risco.",
+      "C": "Incorreta. A educação figura entre os fatores determinantes e condicionantes da saúde, mas cursar uma faculdade traduz maior escolaridade e atua, portanto, como fator protetor.",
+      "D": "Incorreta. O consumo de cerveja duas vezes por semana é comportamento individual de estilo de vida; ainda que modulado por determinantes sociais, não constitui em si um determinante social.",
+      "E": "Correta. De acordo com a Lei Orgânica da Saúde, são fatores determinantes e condicionantes da saúde a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, o transporte, o lazer e o acesso aos bens e serviços essenciais; estar desempregado compromete trabalho e renda e caracteriza determinante social atuando como fator de risco."
+    }
+  },
+  {
+    "id_origem": "tp2022_q034",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Carta de Ottawa: campos de ação da promoção da saúde",
+    "subtema": "Desenvolvimento de habilidades pessoais e educação em saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "promoção da saúde",
+      "Carta de Ottawa",
+      "educação em saúde",
+      "políticas públicas"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "A criação de ambientes favoráveis refere-se a intervenções sobre o entorno físico e social, sendo o distrator menos discriminativo diante de um enunciado centrado em ação educativa dirigida ao indivíduo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A implementação de políticas públicas saudáveis atua no plano normativo e intersetorial, por meio de legislação, tributação e regulação, e não na capacitação direta das pessoas.",
+      "C": "Incorreta. O reforço da ação comunitária volta-se ao empoderamento de coletivos e ao controle social sobre as decisões em saúde, e não ao desenvolvimento de habilidades pessoais por estratégias educativas.",
+      "D": "Incorreta. A reorientação dos serviços de saúde diz respeito à mudança do modelo assistencial em direção à promoção e à integralidade, envolvendo gestores, serviços e profissionais.",
+      "E": "Correta. O desenvolvimento de habilidades individuais é viabilizado por meio de estratégias educativas, com programas de formação e atualização que capacitam os indivíduos a participar, a criar ambientes de apoio à promoção da saúde e a desenvolver habilidades pessoais relacionadas à adoção de estilos de vida saudáveis."
+    }
+  },
+  {
+    "id_origem": "tp2022_q042",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Tratamento da laringite viral aguda (crupe) leve a moderada",
+    "subtema": "Corticoterapia com dexametasona oral em dose única",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "crupe",
+      "estridor",
+      "emergência pediátrica",
+      "corticoterapia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "O corticoide inalatório (fluticasona) não tem papel no manejo agudo do crupe, sendo o distrator mais implausível do conjunto.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A inalação com beta-2-agonista está indicada na crise de broncoespasmo, que se manifesta por sibilância expiratória, e não no estridor inspiratório de origem laríngea apresentado por este lactente.",
+      "B": "Correta. Tosse rouca, estridor inspiratório e tiragem intercostal leve precedidos de coriza sem febre configuram laringite viral aguda leve a moderada, cuja medicação de escolha é a dexametasona por via oral em dose única de 0,6 mg/kg; o tratamento correto instituído prontamente evita as complicações potencialmente graves da obstrução de vias aéreas superiores.",
+      "C": "Incorreta. A prednisolona pode ser usada na laringite, porém na dose de 1 a 2 mg/kg/dia por cerca de 3 dias; a posologia oferecida (0,5 mg/kg/dia por 5 dias) é inadequada.",
+      "D": "Incorreta. A inalação com epinefrina está reservada aos casos graves, com estridor em repouso e desconforto respiratório importante, e não ao quadro leve/moderado descrito."
+    }
+  },
+  {
+    "id_origem": "tp2022_q050",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Cianose neonatal refratária ao oxigênio: transposição das grandes artérias",
+    "subtema": "Cardiopatias congênitas cianóticas canal-dependentes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "neonatologia",
+      "cardiopatia congênita",
+      "cianose",
+      "diagnóstico diferencial"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "A coarctação da aorta manifesta-se por choque com diferencial de pulsos e gradiente pressórico entre membros, sem cianose central refratária ao oxigênio, sendo a alternativa menos discriminativa.",
+    "problema_detectado": "O enunciado não informa saturação pré e pós-ductal, teste da hiperóxia ou ecocardiograma, elementos necessários para separar com segurança a transposição da hipertensão pulmonar persistente do recém-nascido.",
+    "justificativas": {
+      "A": "Incorreta. Embora haja hipoatividade, gemência e necessidade de expansão volêmica e droga vasoativa, o choque séptico não explica cianose que não responde ao oxigênio em recém-nascido com radiografia de tórax inteiramente normal, e o caso não traz fatores de risco infecciosos.",
+      "B": "Incorreta. A hipertensão pulmonar persistente é o principal diagnóstico diferencial, mas costuma associar-se a asfixia perinatal ou doença parenquimatosa e cursa com diferença de saturação pré e pós-ductal; o conjunto de radiografia normal, ausência de sopro e cianose refratária favorece a cardiopatia com circulação em paralelo.",
+      "C": "Correta. A transposição dos grandes vasos da base é cardiopatia cianótica dependente de canal arterial cuja manifestação mais importante é a cianose que surge algumas horas após o parto, quando o canal se fecha. Caracteristicamente a cianose não melhora com oxigênio, pois este constringe o ducto e piora o quadro; a radiografia mostra área cardíaca normal ou com discreta cardiomegalia e parênquima pulmonar normal, e a ausculta geralmente não revela sopros, podendo haver segunda bulha hiperfonética pela posição anterior da aorta. O tratamento inicial é prostaglandina endovenosa contínua para manter o ducto pérvio, com correção cirúrgica definitiva.",
+      "D": "Incorreta. A síndrome de aspiração meconial produz alterações radiológicas típicas, com infiltrado grosseiro, áreas de atelectasia e hiperinsuflação, ausentes neste recém-nascido cujo parênquima pulmonar está descrito como normal."
+    }
+  },
+  {
+    "id_origem": "tp2022_q058",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hematomas profundos no recém-nascido: hipótese de hemofilia A",
+    "subtema": "Diferenciação entre distúrbios da coagulação e da hemostasia primária",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "hematologia pediátrica",
+      "hemofilia",
+      "coagulopatia",
+      "neonatologia"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "A púrpura de Henoch-Schönlein é vasculite por IgA praticamente inexistente no período neonatal, o que a torna o distrator mais implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As manifestações clínicas das hemofilias são principalmente hemartroses e hematomas, relacionados ou não a trauma, e nas formas graves aparecem precocemente desde o nascimento; hematomas volumosos em coxas após as injeções intramusculares de vitamina K e da vacina para hepatite B, em recém-nascido do sexo masculino, constituem apresentação clássica da hemofilia A (deficiência de fator VIII, herança recessiva ligada ao X).",
+      "B": "Incorreta. A doença de von Willebrand caracteriza-se pela presença de sangramento cutâneo-mucoso, como epistaxe, gengivorragia e menorragia, e raramente se manifesta no período neonatal.",
+      "C": "Incorreta. As alterações do número ou da função plaquetária expressam-se por sangramentos mucosos e cutâneos de intensidade variável, com petéquias e púrpura, e não por hematomas profundos volumosos.",
+      "E": "Incorreta. A doença hemorrágica do recém-nascido decorre da deficiência de vitamina K e é justamente prevenida pela dose profilática que o paciente recebeu no pós-parto imediato."
+    }
+  },
+  {
+    "id_origem": "tp2022_q066",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Dismenorreia progressiva com cisto ovariano de conteúdo espesso: endometriose",
+    "subtema": "Endometrioma e diagnóstico por ultrassonografia transvaginal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "endometriose",
+      "dor pélvica crônica",
+      "ultrassonografia transvaginal",
+      "ginecologia"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "A gravidez ectópica exige atraso menstrual e quadro agudo com beta-hCG positivo, repetindo com a torção ovariana o papel de distrator de abdome agudo e sendo implausível neste caso crônico.",
+    "problema_detectado": "Erro de grafia na alternativa E ('Doenças inflamatória pélvia').",
+    "justificativas": {
+      "A": "Incorreta. O cisto de corpo lúteo é achado funcional, geralmente assintomático ou associado a dor unilateral aguda no período pós-ovulatório, com resolução espontânea, e não explica dismenorreia progressiva com dispareunia profunda.",
+      "B": "Incorreta. A torção ovariana é emergência cirúrgica que se apresenta com dor abdominal aguda e intensa, náuseas e vômitos, incompatível com o quadro crônico e cíclico descrito.",
+      "D": "Correta. A endometriose tem como características a menarca precoce, a dismenorreia progressiva, a dispareunia de profundidade e a infertilidade, exatamente o perfil desta nulípara com menarca aos 9 anos. O diagnóstico definitivo exige a visualização dos focos endometrióticos, sendo a laparoscopia o padrão-ouro, mas o achado de cisto ovariano com conteúdo espesso e homogêneo é fortemente sugestivo de endometrioma.",
+      "E": "Incorreta. A doença inflamatória pélvica cursa com dor pélvica associada a corrimento, febre e dor à mobilização do colo uterino, em geral com história de infecção sexualmente transmissível, e o achado ultrassonográfico esperado seria abscesso tubo-ovariano ou hidrossalpinge."
+    }
+  },
+  {
+    "id_origem": "tp2022_q074",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hiperêmese gravídica refratária no primeiro trimestre e doença trofoblástica",
+    "subtema": "Gravidez molar como causa de vômitos incoercíveis",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "hiperêmese gravídica",
+      "gravidez molar",
+      "primeiro trimestre",
+      "obstetrícia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "A isoimunização Rh não provoca vômitos e é excepcional em primigesta sem sensibilização prévia, constituindo o distrator mais implausível.",
+    "problema_detectado": "O comando emprega o plural ('quais poderiam estar associadas') em item de resposta única, sugerindo indevidamente a existência de mais de uma resposta.",
+    "justificativas": {
+      "A": "Incorreta. O abortamento retido cursa com regressão dos sintomas gravídicos e queda dos níveis de beta-hCG, e não com hiperêmese persistente e progressiva.",
+      "B": "Incorreta. A gestação anembrionada consiste em saco gestacional sem embrião, com beta-hCG habitualmente abaixo do esperado para a idade gestacional, não sendo causa de vômitos incoercíveis.",
+      "C": "Incorreta. O diabetes mellitus gestacional é rastreado e diagnosticado a partir da 24ª semana e não se manifesta por vômitos incoercíveis com perda ponderal às 7 semanas.",
+      "D": "Correta. Vômitos diários há 10 dias, refratários a antieméticos orais, com perda de 3 kg e desidratação, caracterizam hiperêmese gravídica; o aumento da produção de estrogênio (e dos níveis muito elevados de beta-hCG) causado pelo processo de gestação molar pode cursar com quadros severos de hiperêmese, o que torna obrigatória a ultrassonografia para investigar doença trofoblástica gestacional."
+    }
+  },
+  {
+    "id_origem": "tp2022_q082",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Etiologia mais comum do pneumotórax espontâneo secundário",
+    "subtema": "Doença pulmonar obstrutiva crônica e ruptura de bolhas enfisematosas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "pneumologia",
+      "pneumotórax",
+      "DPOC",
+      "dor torácica"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Trauma por acidente de trânsito define pneumotórax traumático, categoria excluída pelo próprio enunciado, funcionando como distrator nulo.",
+    "problema_detectado": "A alternativa A é logicamente incompatível com o enunciado, que restringe a pergunta ao pneumotórax espontâneo secundário.",
+    "justificativas": {
+      "B": "Incorreta. A tuberculose é causa relevante de pneumotórax espontâneo secundário em regiões de alta prevalência, sobretudo nas formas cavitárias, mas não é a etiologia mais frequente.",
+      "C": "Incorreta. As doenças intersticiais fibrosantes podem provocar pneumotórax secundário, geralmente de difícil resolução, porém respondem por parcela pequena dos casos.",
+      "D": "Correta. O pneumotórax espontâneo secundário ocorre sobre doença pulmonar prévia e tem pico de incidência entre 45 e 60 anos de idade, tendo como causa mais comum a doença pulmonar obstrutiva crônica, por ruptura de bolhas e blebs enfisematosos.",
+      "E": "Incorreta. A neoplasia pulmonar pode causar pneumotórax por necrose tumoral ou fístula broncopleural, mas é etiologia incomum quando comparada à DPOC."
+    }
+  },
+  {
+    "id_origem": "tp2022_q090",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Febre e dor abdominal no 5º dia após hemicolectomia esquerda",
+    "subtema": "Deiscência de anastomose colorretal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "cirurgia do aparelho digestivo",
+      "complicação pós-operatória",
+      "deiscência de anastomose",
+      "febre pós-operatória"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "A atelectasia é causa de febre nas primeiras 48 horas de pós-operatório e não produz dor abdominal localizada, duplicando com a broncopneumonia o papel de distrator respiratório e sendo a menos discriminativa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A ausculta pulmonar é normal e não há tosse, dispneia ou expectoração; a broncopneumonia não explica a dor localizada em hipocôndrio e flanco esquerdos.",
+      "C": "Correta. Paciente submetida a colectomia esquerda que, no pós-operatório precoce, apresenta náuseas, dor abdominal à esquerda (topografia da anastomose), febre de 38 °C e taquicardia de 120 bpm tem como principal suspeita diagnóstica a deiscência de anastomose; reforça a hipótese a ausência de sintomas respiratórios e de alterações pulmonares ao exame físico.",
+      "D": "Incorreta. A infecção de ferida operatória manifesta-se por hiperemia, calor, dor e drenagem de secreção na incisão, achados ausentes em exame físico descrito como sem outras alterações.",
+      "E": "Incorreta. A infecção urinária cursa tipicamente com disúria, polaciúria e dor lombar com Giordano positivo, exigindo confirmação por exame de urina, e não é a hipótese mais provável neste contexto pós-operatório."
+    }
+  },
+  {
+    "id_origem": "tp2022_q098",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hemianopsia heterônima bitemporal e localização da lesão tumoral",
+    "subtema": "Compressão do quiasma óptico por tumor hipofisário",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "neurologia",
+      "campo visual",
+      "quiasma óptico",
+      "tumor de hipófise"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "Tumor do corpo caloso cursa com síndromes de desconexão inter-hemisférica e não gera defeito campimétrico, sendo o distrator mais implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Correta. A hemianopsia heterônima bitemporal decorre da lesão das fibras nasais que se cruzam no quiasma óptico; tumores de hipófise, ao expandir-se em direção suprasselar, comprimem o quiasma e produzem exatamente esse defeito campimétrico, associado à cefaleia progressiva com piora noturna por efeito de massa.",
+      "C": "Incorreta. Lesões do lobo frontal cursam com alterações de comportamento, julgamento e marcha, além de desvio conjugado do olhar, mas não com defeito bitemporal de campo visual.",
+      "D": "Incorreta. Lesões occipitais acometem o córtex visual primário e produzem hemianopsia homônima contralateral, frequentemente com poupança macular.",
+      "E": "Incorreta. Lesões temporais comprometem as alças de Meyer e determinam quadrantanopsia homônima superior contralateral, e não hemianopsia bitemporal."
+    }
+  },
+  {
+    "id_origem": "tp2022_q106",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diarreia hospitalar após antibioticoterapia de amplo espectro em idoso",
+    "subtema": "Colite pseudomembranosa por Clostridioides difficile",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "infectologia",
+      "diarreia associada a antibiótico",
+      "infecção relacionada à assistência",
+      "geriatria"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Cryptosporidium repete com Giardia o papel de protozoário de transmissão hídrica e é típico de imunossuprimidos com HIV/aids, sendo o distrator menos discriminativo.",
+    "problema_detectado": "Erros de grafia nas alternativas B ('Giardia lambria', por Giardia lamblia) e E ('Shigella disenteriae', por Shigella dysenteriae).",
+    "justificativas": {
+      "A": "Incorreta. O rotavírus provoca gastroenterite aquosa aguda predominantemente em lactentes e crianças pequenas, sem relação com internações repetidas e antibioticoterapia em idoso.",
+      "B": "Incorreta. A giardíase é adquirida por via fecal-oral, em geral por água contaminada, e cursa com diarreia subaguda ou crônica com esteatorreia e distensão abdominal, e não com diarreia mucoide de início hospitalar.",
+      "C": "Correta. O histórico de paciente idoso com múltiplas internações e uso de antibióticos de amplo espectro favorece a supressão da microbiota normal do intestino e o desenvolvimento de Clostridioides (Clostridium) difficile, sustentando o diagnóstico de colite pseudomembranosa, que se expressa por diarreia profusa com muco, febre e piora clínica no curso da internação.",
+      "E": "Incorreta. Shigella é agente de disenteria de aquisição comunitária, com diarreia mucossanguinolenta, tenesmo e transmissão fecal-oral, não sendo a etiologia esperada em diarreia hospitalar pós-antibiótico."
+    }
+  },
+  {
+    "id_origem": "tp2022_q114",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Tireotoxicose com nódulo palpável: diagnóstico diferencial pela cintilografia",
+    "subtema": "Doença de Graves com nódulo hipocaptante incidental",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "endocrinologia",
+      "tireotoxicose",
+      "doença de Graves",
+      "cintilografia de tireoide"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "A tireoidite de Hashimoto evolui tipicamente para hipotireoidismo e, mesmo na fase de hashitoxicose, não produz hipercaptação difusa à cintilografia, sendo a alternativa menos discriminativa.",
+    "problema_detectado": "Erro de grafia na alternativa B ('Tiroidite lonfocítica', por tireoidite linfocítica).",
+    "justificativas": {
+      "A": "Incorreta. No adenoma tóxico (doença de Plummer) o nódulo é autônomo e aparece hipercaptante na cintilografia, com supressão da captação no restante da glândula, padrão exatamente oposto ao encontrado nesta paciente.",
+      "B": "Incorreta. A tireoidite linfocítica subaguda cursa com tireotoxicose transitória por destruição folicular e resultaria em hipocaptação difusa na cintilografia, e não em hipercaptação glandular.",
+      "C": "Correta. Trata-se de tireotoxicose (TSH suprimido em 0,01 mcUI/mL e T4 livre de 4,5 ng/dL) que exige diagnóstico diferencial. O nódulo palpável poderia sugerir nódulo autônomo, mas a cintilografia, exame mais adequado para diferenciar as causas, mostra hipercaptação difusa da glândula com área hipocaptante na topografia do nódulo, o que indica doença de Graves; o nódulo não é a fonte da tireotoxicose, pois, se o fosse, apareceria hipercaptante com hipocaptação no restante da tireoide.",
+      "E": "Incorreta. O bócio multinodular tóxico exibe captação heterogênea, em mosaico, com múltiplas áreas quentes e frias em glândula multinodular, o que não corresponde ao nódulo único descrito com hipercaptação difusa do parênquima remanescente."
+    }
+  }
+]

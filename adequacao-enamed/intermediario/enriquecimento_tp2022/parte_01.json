@@ -1,0 +1,417 @@
+[
+  {
+    "id_origem": "tp2022_q001",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Teste de hipóteses em pesquisa clínica: hipótese nula e hipótese alternativa",
+    "subtema": "Bioestatística inferencial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "bioestatística",
+      "metodologia científica",
+      "hipótese nula",
+      "inferência estatística"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "É quase-duplicata da alternativa B, pois ambas afirmam que as hipóteses não seriam passíveis de teste, diferindo apenas na justificativa acessória.",
+    "problema_detectado": "As alternativas B e C são quase-duplicatas, veiculando a mesma ideia central de que as hipóteses não poderiam ser testadas.",
+    "justificativas": {
+      "A": "Incorreta. H0 e H1 não são variáveis: variável dependente e independente designam os atributos medidos e manipulados no estudo (aqui, a sobrevivência e a assepsia das mãos), ao passo que H0 e H1 são afirmações prévias sobre a relação entre essas variáveis, formuladas para serem submetidas a teste estatístico.",
+      "B": "Incorreta. Hipóteses estatísticas são, por definição, afirmações passíveis de teste, e não proposições que devam ser simplesmente aceitas; é justamente o teste de hipóteses que permite decidir entre rejeitar ou não rejeitar H0 antes de levar qualquer conclusão aos resultados e à discussão.",
+      "D": "Correta. Para aplicar um teste estatístico, o pesquisador parte da hipótese de que o tratamento não tem efeito — a hipótese de nulidade, indicada por H0 (as taxas de sobrevivência são iguais nos dois grupos). A hipótese alternativa, indicada por H1, expressa aquilo em que o pesquisador acredita, isto é, que a assepsia tem efeito e a sobrevivência é maior no grupo tratado (Vieira, S. Bioestatística: Tópicos Avançados, 4ª ed., Elsevier, 2018).",
+      "E": "Incorreta. Variância é uma medida de dispersão dos dados em torno da média, e não uma afirmação sobre o efeito do tratamento; embora a homogeneidade de variâncias seja um dos pressupostos que orientam a escolha do teste, H0 e H1 são hipóteses, não variâncias."
+    }
+  },
+  {
+    "id_origem": "tp2022_q009",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Intoxicação aguda por salicilatos: distúrbio ácido-básico misto",
+    "subtema": "Toxicologia clínica e gasometria arterial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "intoxicação exógena",
+      "salicilatos",
+      "gasometria arterial",
+      "equilíbrio ácido-básico"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É a alternativa menos discriminativa, pois consiste apenas em um rótulo genérico ('Resultado 5') sem conteúdo próprio que agregue ao raciocínio ácido-básico exigido.",
+    "problema_detectado": "As alternativas remetem a uma tabela de valores gasométricos ('Resultado 1' a 'Resultado 5') que não está reproduzida no enunciado, tornando o item irrespondível sem o material original.",
+    "justificativas": {
+      "A": "Incorreta. Não corresponde ao padrão esperado quatro horas após ingestão maciça de salicilato: nesse momento já se instalou um distúrbio misto, com alcalose respiratória somada à acidose metabólica com ânion gap elevado, e não um distúrbio isolado ou de direção oposta.",
+      "B": "Incorreta. O conjunto assinalado não reproduz a combinação de pH próximo do normal ou baixo, pCO2 reduzida pela hiperventilação (respiração de 30/min) e bicarbonato consumido, que caracteriza a fase de transição da intoxicação salicílica.",
+      "C": "Incorreta. Os valores indicados não traduzem o acúmulo de cetoácidos orgânicos, ácido lático e ácido salicílico responsável pela queda do bicarbonato e pela elevação do ânion gap, calculável a partir do sódio de 140 mEq/L e do cloreto de 103 mEq/L informados.",
+      "D": "Correta. Na fase inicial da toxicidade da aspirina o paciente desenvolve alcalose respiratória por estimulação direta do centro respiratório na medula oblonga; na fase tardia, várias horas após a ingestão — como neste caso, com quatro horas de evolução, taquipneia, confusão e taquicardia —, soma-se acidose metabólica com ânion gap aumentado pelo acúmulo de cetoácidos orgânicos, ácido lático e ácido salicílico, configurando o distúrbio misto."
+    }
+  },
+  {
+    "id_origem": "tp2022_q017",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipótese dopaminérgica da psicose e antipsicóticos típicos",
+    "subtema": "Psicofarmacologia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "psicofarmacologia",
+      "antipsicóticos",
+      "receptor D2",
+      "esquizofrenia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É a alternativa mais implausível, pois nenhum dos dois fármacos citados originou a teoria dopaminérgica, e ainda repete o erro de incluir a clozapina, já presente em outros distratores.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Embora o haloperidol seja de fato um dos fármacos que fundamentaram a teoria dopaminérgica, a clozapina não é um antipsicótico típico: ela deu origem aos antipsicóticos atípicos ou de segunda geração, com ação preferencial sobre receptores serotoninérgicos e baixa afinidade por D2.",
+      "B": "Incorreta. A clorpromazina integra corretamente o par histórico, mas a sulpirida é uma benzamida substituída desenvolvida posteriormente, que não participou da formulação original da hipótese dopaminérgica da psicose.",
+      "C": "Correta. A síntese da clorpromazina e do haloperidol permitiu deduzir que o mecanismo comum desses fármacos era o antagonismo da dopamina, especificamente no receptor D2, observação que deu origem à teoria dopaminérgica da psicose.",
+      "D": "Incorreta. Apenas a clorpromazina pertence ao grupo dos típicos que embasaram a teoria; a clozapina inaugurou a segunda geração de antipsicóticos, justamente por apresentar eficácia com fraco bloqueio D2, o que levou à revisão e à ampliação da hipótese dopaminérgica."
+    }
+  },
+  {
+    "id_origem": "tp2022_q025",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Reforma Sanitária Brasileira e o marco da VIII Conferência Nacional de Saúde",
+    "subtema": "História das políticas públicas de saúde e SUS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_06",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "SUS",
+      "reforma sanitária",
+      "políticas de saúde",
+      "saúde coletiva"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "É a alternativa mais implausível, pois o INPS (1966) pertence à lógica previdenciária e contributiva anterior ao movimento sanitário, contra a qual a Reforma Sanitária justamente se opôs.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. O CEBES foi um importante espaço de articulação intelectual e política do movimento sanitário e produziu formulações decisivas para a Reforma; entretanto, embora tenha ocorrido no período da Reforma Sanitária, sua criação não foi o marco que mudou o rumo da saúde no Brasil.",
+      "C": "Incorreta. As Leis 8.080/1990 e 8.142/1990 são a consequência normativa da Reforma Sanitária, regulamentando o SUS já previsto na Constituição de 1988, e não o marco que deflagrou o movimento.",
+      "D": "Correta. Pela primeira vez uma Conferência Nacional de Saúde contou com expressiva participação popular em busca de uma reforma do sistema que atendesse a todos e de melhores condições de vida da população; a VIII Conferência (1986) consolidou um conceito ampliado de saúde e culminou na implantação do SUS.",
+      "E": "Incorreta. O Programa Saúde da Família foi implantado em 1994, já sob o SUS, como estratégia de reorganização da atenção básica; trata-se de desdobramento operacional posterior, e não do marco da Reforma Sanitária."
+    }
+  },
+  {
+    "id_origem": "tp2022_q033",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Controle de fatores de confusão na fase analítica de um estudo epidemiológico",
+    "subtema": "Epidemiologia e delineamento de pesquisa",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "epidemiologia",
+      "fator de confusão",
+      "estratificação",
+      "medicina baseada em evidências"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "É a alternativa mais implausível, pois o cegamento visa primariamente ao controle de viés de aferição e de expectativa, não sendo propriamente um método de controle de confundimento.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A randomização é adotada na fase de delineamento, no momento da alocação dos participantes, distribuindo aleatoriamente fatores de confusão conhecidos e desconhecidos entre os grupos; uma vez iniciado o estudo, não pode ser aplicada na análise dos resultados.",
+      "B": "Correta. Os fatores de confusão podem ser controlados em dois momentos: no delineamento do estudo e na análise dos resultados (fase analítica). A estratificação consiste em estabelecer estratos, isto é, categorias homogêneas e bem definidas das variáveis de confusão, para a análise dos resultados, sendo, portanto, um método da fase analítica — assim como a análise multivariada.",
+      "D": "Incorreta. O emparelhamento é definido a priori, ao selecionar controles semelhantes aos casos quanto às variáveis de confusão, o que o caracteriza como estratégia da fase de delineamento do estudo.",
+      "E": "Incorreta. A restrição limita a admissão no estudo a um subgrupo homogêneo quanto à variável de confusão (por exemplo, apenas não fumantes) e, por depender dos critérios de elegibilidade, é aplicada no delineamento e não na análise."
+    }
+  },
+  {
+    "id_origem": "tp2022_q041",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Dermatite atópica em lactente: tratamento tópico e hidratação da pele",
+    "subtema": "Dermatologia pediátrica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "dermatite atópica",
+      "prurido",
+      "hidratação cutânea",
+      "lactente"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "É a alternativa mais implausível, pois a prometazina tópica é formulação em desuso, com alto potencial de sensibilização e fotossensibilidade, sem indicação em dermatite atópica.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A permetrina tópica é o tratamento da escabiose, que cursa com prurido de predomínio noturno, lesões em espaços interdigitais, punhos, axilas e região genital e história de contactantes acometidos — quadro distinto do prurido de um ano com lesões em superfícies flexoras aqui descrito.",
+      "B": "Correta. O quadro é compatível com dermatite atópica (início na fase de lactente, piora com mudanças ambientais, pele seca e áspera e lesões eritêmato-descamativas em superfícies flexoras, como pregas antecubitais e poplíteas). O tratamento apoia-se em quatro pilares — educação do paciente, hidratação da pele, controle dos desencadeantes e medicamentos tópicos ou orais —, sendo o hidratante corporal a medida tópica de base para o controle do quadro.",
+      "C": "Incorreta. O ácido salicílico é queratolítico e irritante, indicado em dermatoses hiperqueratósicas; na pele atópica do lactente, agrava a xerose e a disfunção de barreira, podendo ainda ocorrer absorção sistêmica com risco de salicilismo.",
+      "E": "Incorreta. O cetoconazol creme é antifúngico, indicado em dermatofitoses e dermatite seborreica; não atua na disfunção de barreira cutânea nem na inflamação de perfil atópico que caracterizam este caso."
+    }
+  },
+  {
+    "id_origem": "tp2022_q049",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndrome colinérgica por organofosforado em escolar: reconhecimento e antídoto",
+    "subtema": "Toxicologia em emergência pediátrica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "intoxicação exógena",
+      "organofosforado",
+      "atropina",
+      "síndrome colinérgica"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É a alternativa mais implausível, por conter erro duplo: a miose com bradicardia e broncorreia não configura síndrome opioide e o flumazenil é antídoto de benzodiazepínicos, não de opioides.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A síndrome anticolinérgica cursa com o oposto do descrito — midríase, pele seca e quente, retenção urinária, taquicardia e ausência de secreções —, e não com miose, bradicardia e hipersecreção brônquica.",
+      "B": "Incorreta. A síndrome extrapiramidal manifesta-se por distonia aguda, acatisia, rigidez e crise oculógira após exposição a antipsicóticos ou antieméticos, sem miose, bradicardia ou comprometimento respiratório por broncorreia; o biperideno não corrige a crise colinérgica.",
+      "C": "Incorreta. A síndrome adrenérgica cursa com midríase, taquicardia, hipertensão, hipertermia e sudorese, sendo incompatível com a frequência cardíaca de 50 bpm e a miose bilateral apresentadas.",
+      "D": "Correta. As intoxicações exógenas, sobretudo as não intencionais, são causa frequente de atendimento em emergência pediátrica, e o quadro descrito — miose bilateral, bradicardia, broncorreia com murmúrio vesicular reduzido, dor abdominal, tremores e agitação, com exposição comum a outra criança — corresponde a provável intoxicação por organofosforado. A ligação irreversível do agente à acetilcolinesterase na fenda sináptica e sua ampla distribuição no organismo exigem medidas imediatas: suporte clínico, descontaminação e administração de atropina para reverter os efeitos muscarínicos, com pralidoxima como reativador da enzima."
+    }
+  },
+  {
+    "id_origem": "tp2022_q057",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Teste da oximetria de pulso (teste do coraçãozinho) na triagem neonatal",
+    "subtema": "Triagem neonatal de cardiopatias congênitas críticas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "triagem neonatal",
+      "oximetria de pulso",
+      "cardiopatia congênita",
+      "recém-nascido"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "É a alternativa mais implausível, pois contraria frontalmente a natureza universal da triagem neonatal, restringindo o teste aos recém-nascidos com sopro.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O resultado é considerado normal quando a saturação periférica é maior ou igual a 95% em ambas as medidas — membro superior direito e um dos membros inferiores — com diferença menor que 3% entre elas; portanto, valor abaixo de 95% em um ou em ambos os membros caracteriza teste alterado, exigindo repetição e, se confirmado, ecocardiograma.",
+      "B": "Incorreta. O teste deve ser realizado entre 24 e 48 horas de vida, antes da alta hospitalar, e não nas primeiras 24 horas, período em que ainda estão ocorrendo as adaptações da circulação e o fechamento do canal arterial, o que elevaria a taxa de resultados falso-positivos.",
+      "D": "Incorreta. O teste tem sensibilidade em torno de 75% e especificidade de 99%; assim, um resultado normal não exclui cardiopatia congênita crítica, escapando à triagem sobretudo a coartação de aorta, motivo pelo qual o exame físico e o seguimento clínico permanecem indispensáveis.",
+      "E": "Incorreta. A comparação é feita entre o membro superior direito — aferido antes do possível shunt pelo canal arterial, por ser pré-ductal — e um dos membros inferiores, e não entre um membro superior qualquer e o membro inferior ipsilateral."
+    }
+  },
+  {
+    "id_origem": "tp2022_q065",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndrome de insensibilidade androgênica completa como causa de amenorreia primária",
+    "subtema": "Distúrbios do desenvolvimento sexual",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "amenorreia primária",
+      "insensibilidade androgênica",
+      "cariótipo 46,XY",
+      "endocrinologia ginecológica"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É quase-duplicata da alternativa D, pois ambas partem do cariótipo XX com vagina de tamanho normal, repetindo o mesmo erro conceitual de base.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As pacientes com síndrome de insensibilidade androgênica completa têm cariótipo masculino normal (46,XY) e testículos que produzem testosterona e hormônio antimülleriano. A mutação inativadora do gene do receptor androgênico intracelular impede a masculinização interna e externa, resultando em genitália externa feminina e vagina curta em fundo cego; o hormônio antimülleriano, preservado, determina a ausência de trato genital interno feminino (útero e tubas), o que explica a amenorreia primária.",
+      "B": "Incorreta. A genitália externa apenas parcialmente masculinizada caracteriza as formas parciais de insensibilidade androgênica, e não a forma completa; além disso, o trato genital interno feminino está ausente, pois o hormônio antimülleriano produzido pelos testículos promove a regressão dos ductos de Müller.",
+      "C": "Incorreta. Acerta o cariótipo 46,XY, a genitália externa feminina e a vagina curta, mas erra ao afirmar a presença de trato genital interno feminino: útero e tubas não se desenvolvem justamente pela ação preservada do hormônio antimülleriano.",
+      "D": "Incorreta. O cariótipo 46,XX com genitália externa masculinizada corresponde ao pseudo-hermafroditismo feminino, tipicamente por hiperplasia adrenal congênita, e não à insensibilidade androgênica, que é uma forma de pseudo-hermafroditismo masculino com cariótipo 46,XY."
+    }
+  },
+  {
+    "id_origem": "tp2022_q073",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Incompetência istmocervical no segundo trimestre: fisiopatologia e diagnóstico",
+    "subtema": "Perda gestacional de repetição",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "incompetência istmocervical",
+      "segundo trimestre",
+      "dilatação cervical indolor",
+      "cerclagem"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "É quase-duplicata da alternativa C, pois ambas atribuem o quadro a malformações fetais, alterando apenas o órgão acometido.",
+    "problema_detectado": "O enunciado emprega o plano de DeLee para descrever a apresentação em gestação de 19 semanas, parâmetro próprio da assistência ao parto de feto viável, o que é tecnicamente incoerente com o quadro descrito.",
+    "justificativas": {
+      "A": "Incorreta. A hipertensão materna associa-se a insuficiência placentária, restrição de crescimento fetal, pré-eclâmpsia e descolamento prematuro de placenta, e não à dilatação cervical indolor com protrusão da bolsa amniótica no segundo trimestre.",
+      "B": "Correta. A principal hipótese é a incompetência istmocervical, caracterizada por perda fetal recorrente no segundo trimestre em consequência de insuficiência do sistema de oclusão do colo uterino. Manifesta-se por dilatação cervical indolor, ausência de sangramento, colo esvaecido e protrusão das membranas ovulares na vagina, seguida de rotura de membranas e expulsão fetal, na maioria das vezes com produto conceptual ainda vivo — exatamente o quadro descrito. O diagnóstico é clínico, geralmente retrospectivo, e depende fundamentalmente de cuidadosa anamnese obstétrica.",
+      "C": "Incorreta. Malformações renais fetais, como as uropatias obstrutivas, repercutem sobre o volume de líquido amniótico e o desenvolvimento pulmonar, mas não determinam falência do sistema de oclusão cervical nem explicam a dilatação indolar de 4 cm com bolsa em canal vaginal.",
+      "E": "Incorreta. A incompetência istmocervical responde por cerca de 10 a 20% das perdas gestacionais tardias, e não por 80% dos abortamentos; a maioria dos abortamentos precoces decorre de anomalias cromossômicas do concepto."
+    }
+  },
+  {
+    "id_origem": "tp2022_q081",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diverticulite aguda complicada com fístula colovaginal",
+    "subtema": "Abdome agudo inflamatório",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "diverticulite",
+      "fístula colovaginal",
+      "abdome agudo",
+      "AINEs"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É a alternativa mais implausível, pois a pancreatite necro-hemorrágica cursa com dor epigástrica em faixa e irradiação dorsal, sem qualquer mecanismo que produza saída de gás pela vagina.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A úlcera gástrica perfurada, favorecida pelo uso crônico de AINEs, manifesta-se com dor epigástrica súbita e intensa, abdome em tábua e pneumoperitônio, não com dor suprapúbica recorrente e eliminação de gás pela vagina.",
+      "B": "Correta. Trata-se de diverticulite aguda complicada: a doença é mais frequente em mulheres a partir dos 50 anos, e o uso de AINEs está associado a grande parte dos casos. A localização predominante é retossigmoide, e as crises recorrentes podem fistulizar para a bexiga e para a vagina — daí a pneumocolpo (saída de gás pela vagina), com febre, taquicardia e dor em flanco esquerdo e região suprapúbica.",
+      "C": "Incorreta. A cistite aguda complicada cursa com disúria, polaciúria e urgência, podendo evoluir com febre em caso de pielonefrite, mas a eliminação de gás pela vagina indica comunicação fistulosa com o tubo digestivo, e não infecção urinária isolada.",
+      "D": "Incorreta. A apendicite aguda supurada localiza-se tipicamente em fossa ilíaca direita, com dor migratória periumbilical, e não explica a dor em flanco esquerdo recorrente nem a fístula para a vagina característica da doença diverticular do sigmoide."
+    }
+  },
+  {
+    "id_origem": "tp2022_q089",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Hérnias inguinais: classificação anatômica em diretas e indiretas",
+    "subtema": "Parede abdominal e região inguinal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "hérnia inguinal",
+      "anatomia cirúrgica",
+      "vasos epigástricos inferiores",
+      "conduto peritônio-vaginal"
+    ],
+    "descartar": "A",
+    "motivo_descarte": "É parcialmente verdadeira — a fraqueza do tecido conjuntivo é de fato fator etiológico das hérnias diretas —, criando ambiguidade com o gabarito e reduzindo o poder discriminativo do item.",
+    "problema_detectado": "A alternativa A é parcialmente correta ao descrever a falha de tecido conjuntivo como mecanismo herniário, o que gera ambiguidade com a alternativa apontada como correta.",
+    "justificativas": {
+      "B": "Incorreta. A relação está invertida: a hérnia inguinal indireta emerge pelo anel inguinal profundo, lateralmente aos vasos epigástricos inferiores; é a hérnia direta que protrai medialmente a esses vasos, pelo triângulo de Hesselbach.",
+      "C": "Incorreta. Na criança predominam largamente as hérnias indiretas, de natureza congênita, decorrentes da persistência do conduto peritônio-vaginal; as hérnias diretas são raras nessa faixa etária, por dependerem de enfraquecimento adquirido da parede posterior.",
+      "D": "Correta. A maior parte das hérnias inguinais é indireta, em ambos os sexos e em todas as faixas etárias. Elas se originam da persistência total ou parcial do conduto peritônio-vaginal e seguem o trajeto do canal inguinal a partir do anel inguinal profundo, lateralmente aos vasos epigástricos inferiores, na região inguinal delimitada lateroinferiormente pelo ligamento inguinal e trato iliopúbico, medialmente pelo músculo reto abdominal e superiormente pela linha que une as espinhas ilíacas.",
+      "E": "Incorreta. A persistência do conduto peritônio-vaginal é o mecanismo da hérnia indireta, de origem congênita; a hérnia direta resulta de enfraquecimento adquirido da fáscia transversalis no triângulo de Hesselbach, sem relação com o processo vaginal."
+    }
+  },
+  {
+    "id_origem": "tp2022_q097",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Vigilância colonoscópica após polipectomia de adenoma com carcinoma in situ",
+    "subtema": "Coloproctologia e rastreamento do câncer colorretal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "pólipo adenomatoso",
+      "colonoscopia de vigilância",
+      "câncer colorretal",
+      "polipectomia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É a alternativa mais implausível, pois nenhuma diretriz de vigilância pós-polipectomia preconiza colonoscopia anual nesse cenário (e o texto ainda traz erro de grafia).",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O intervalo de 5 a 10 anos aplica-se a um ou dois adenomas tubulares menores que 1 cm, sem história familiar relevante; a lesão descrita tem 11 mm, o que a coloca na categoria de maior risco e encurta o intervalo de vigilância.",
+      "B": "Incorreta. Não há indicação de nova abordagem endoscópica da base: o exame histopatológico mostrou carcinoma intramucoso ou in situ, sem invasão da muscular da mucosa e com margens livres, o que caracteriza ressecção curativa; a mucosectomia complementar seria indicada em ressecção incompleta ou em piece meal.",
+      "C": "Correta. A vigilância dos pólipos intestinais acompanha a história natural da sequência adenoma-carcinoma, que leva de 2 a 3 anos para formar um pólipo adenomatoso e de 4 a 10 anos para a transformação maligna. Após polipectomia endoscópica de pólipo maligno, considera-se curado o caso em que o histopatológico revela carcinoma intramucoso ou in situ sem invasão da muscular da mucosa e com margens livres. Como o adenoma media mais de 10 mm, a recomendação da ASCRS é nova colonoscopia em 3 anos, desde que todas as lesões tenham sido removidas.",
+      "D": "Incorreta. A colectomia direita com anastomose ileotransversa é reservada aos pólipos malignos com invasão da submucosa e fatores de risco (margem comprometida, invasão angiolinfática, baixo grau de diferenciação) ou às lesões irressecáveis por via endoscópica; aqui, a ressecção foi curativa e a cirurgia representaria sobretratamento."
+    }
+  },
+  {
+    "id_origem": "tp2022_q105",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Lesões expansivas do sistema nervoso central em paciente com HIV e CD4 abaixo de 100",
+    "subtema": "Infecções oportunistas do sistema nervoso central",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "HIV",
+      "neurotoxoplasmose",
+      "infecção oportunista",
+      "lesão com realce anelar"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "É a alternativa mais implausível, pois a meningite asséptica é síndrome liquórica sem lesão parenquimatosa, não produzindo múltiplas lesões nodulares com realce e efeito de massa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A encefalite herpética tem apresentação aguda com febre, alteração comportamental e crises convulsivas, e a neuroimagem mostra acometimento assimétrico dos lobos temporais mediais e orbitofrontais, geralmente com componente hemorrágico, e não múltiplas lesões nodulares em núcleos da base.",
+      "B": "Incorreta. A neurotuberculose costuma cursar com meningite basal, hidrocefalia, vasculite e comprometimento de pares cranianos; embora possa formar tuberculomas, é causa muito menos frequente de múltiplas lesões com efeito de massa nesse contexto do que a toxoplasmose.",
+      "C": "Incorreta. A neurocriptococose manifesta-se predominantemente como meningite subaguda com cefaleia e hipertensão intracraniana, e a imagem tipicamente evidencia pseudocistos gelatinosos em núcleos da base com pouco ou nenhum realce, sem o padrão nodular com realce e edema perilesional descrito.",
+      "D": "Correta. A neurotoxoplasmose é a principal responsável por lesões com efeito de massa no sistema nervoso central em imunocomprometidos pelo HIV, especialmente com CD4 abaixo de 100 células/mm³. Cursa com alteração do nível de consciência e déficits focais em mais de 50% dos casos — aqui, hemiparesia, paralisia facial periférica, dismetria, ataxia e crise convulsiva — e a imagem típica é de lesões nodulares com realce ao contraste e edema adjacente, principalmente em região de núcleos da base."
+    }
+  },
+  {
+    "id_origem": "tp2022_q113",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Semiologia do edema de membros inferiores e correlação com hipóteses diagnósticas",
+    "subtema": "Propedêutica clínica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "semiologia do edema",
+      "síndrome nefrótica",
+      "trombose venosa profunda",
+      "diagnóstico diferencial"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "É a alternativa menos discriminativa, pois o quadro descrito corresponde de forma evidente a erisipela ou celulite, tornando a associação com tromboflebite superficial implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O edema mole é facilmente depressível e indica retenção hídrica de duração não muito longa, com infiltração de água no tecido celular subcutâneo; o edema de origem renal é generalizado, simétrico, frio, com predomínio facial e acúmulo particular nas regiões subpalpebrais, mais evidente no período matutino, ao acordar — conjunto compatível com síndrome nefrótica, hipótese pertinente nesta paciente com lúpus eritematoso sistêmico.",
+      "B": "Incorreta. Na trombose venosa profunda o edema é mole, quente e assimétrico, porém a dor é referida na panturrilha à dorsiflexão do pé (sinal de Homans), e não na região inguinal à flexão do pé, como descrito.",
+      "C": "Incorreta. O edema frio, mole, simétrico, vespertino, que melhora com a elevação dos membros aponta para insuficiência venosa periférica ou edema postural; a doença arterial obstrutiva periférica cursa com claudicação intermitente, dor isquêmica, pulsos reduzidos e trofismo cutâneo alterado, não com edema.",
+      "E": "Incorreta. Edema assimétrico associado a hipoxemia e dor ventilatório-dependente sugere trombose venosa profunda complicada por tromboembolismo pulmonar; na insuficiência cardíaca o edema é generalizado, simétrico, mole, frio e indolor, com predomínio vespertino e sinais de congestão sistêmica."
+    }
+  }
+]

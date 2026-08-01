@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tp2022_q005",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Insuficiência adrenal: aldosterona, hipotensão postural e hipercalemia",
+    "subtema": "Fisiologia do córtex adrenal e regulação hidroeletrolítica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["endocrinologia", "aldosterona", "hipercalemia", "hipotensão postural", "fisiologia"],
+    "descartar": "E",
+    "motivo_descarte": "Hepatócitos não têm qualquer papel na regulação da volemia e da calemia descrita no caso, sendo alternativa implausível e sem poder discriminativo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A medula adrenal secreta catecolaminas (adrenalina e noradrenalina); sua disfunção não altera a excreção renal de potássio e, portanto, não explica a hipercalemia observada.",
+      "B": "Correta. As células da zona glomerulosa do córtex adrenal são secretoras de aldosterona, e a deficiência desse mineralocorticoide provoca depleção renal de sódio e hipercalemia; a perda de sódio leva à hipovolemia, com redução do débito cardíaco e consequente hipotensão postural.",
+      "C": "Incorreta. As células musculares cardíacas são alvo, e não fonte, do distúrbio: sofrem os efeitos da hipercalemia e da hipovolemia, mas não regulam a excreção renal de sódio e potássio.",
+      "D": "Incorreta. As células foliculares da tireoide produzem T3 e T4; a disfunção tireoidiana não cursa com hipercalemia, e a hipotensão postural do caso decorre da depleção de sódio dependente de mineralocorticoide."
+    }
+  },
+  {
+    "id_origem": "tp2022_q013",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Teratoma sacrococcígeo e persistência da linha primitiva",
+    "subtema": "Embriologia da terceira semana e gastrulação",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03"],
+    "tags": ["embriologia", "teratoma sacrococcígeo", "gastrulação", "neonatologia"],
+    "descartar": "B",
+    "motivo_descarte": "A vesícula umbilical é a alternativa mais implausível e menos discriminativa, pois não origina tumores sacrococcígeos com derivados dos três folhetos.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O processo notocordal origina a notocorda, que induz a placa neural e persiste apenas como núcleo pulposo; sua remanescência anômala relaciona-se ao cordoma, tumor de linhagem única, e não a massa com ossos, cartilagens e pelos.",
+      "C": "Incorreta. As cristas neurais derivam do ectoderma e originam gânglios, melanócitos e medula adrenal; tumores dessa linhagem, como o neuroblastoma, não contêm simultaneamente tecidos dos três folhetos embrionários.",
+      "D": "Incorreta. Os somitos são derivados do mesoderma paraxial e originam o esqueleto axial, a musculatura e a derme; por pertencerem a um único folheto, não explicam tumor com vestígios de tecidos de origens embrionárias distintas.",
+      "E": "Correta. A linha primitiva é responsável pela formação do endoderma e do mesoderma a partir de células do epiblasto, que também origina o ectoderma; ela regride e desaparece na região sacrococcígea até o final da quarta semana, e sua persistência resulta em teratoma sacrococcígeo, contendo vestígios de diferentes tecidos, como ossos, cartilagens e pelos."
+    }
+  },
+  {
+    "id_origem": "tp2022_q021",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Dilemas bioéticos e sigilo profissional no trabalho em equipe na Atenção Primária",
+    "subtema": "Confidencialidade e limites de responsabilidade na equipe multiprofissional",
+    "competencia_dcn_2025": ["dcn2025_comp_04", "dcn2025_comp_23", "dcn2025_comp_22", "dcn2025_comp_27"],
+    "tags": ["bioética", "sigilo profissional", "equipe multiprofissional", "atenção primária"],
+    "descartar": "E",
+    "motivo_descarte": "A alternativa E é quase duplicata da D, pois ambas defendem que toda a equipe deve conhecer detalhadamente todos os casos, testando o mesmo equívoco conceitual.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Existem condições que justificam a quebra de sigilo — risco de dano físico sério a pessoa identificável, benefício real da quebra, esgotamento de outros recursos e generalizabilidade da decisão; além disso, o prontuário é de responsabilidade da instituição que o gere e as informações pertencem ao paciente, não sendo propriedade exclusiva do médico.",
+      "B": "Incorreta. Justamente porque cada profissão segue seu próprio código, é sempre necessário que a equipe discuta e compreenda os papéis e limites éticos de cada integrante, pactuando um processo de trabalho que acolha essas nuances.",
+      "C": "Correta. Não existe um código de ética multiprofissional único que oriente a equipe como um todo, e essa carência favorece crises diante de dilemas éticos, em razão das diferentes visões de cada profissão e de cada profissional.",
+      "D": "Incorreta. Nem toda informação sobre o usuário precisa estar explícita e acessível a todos no prontuário; dados sensíveis compartilhados em confiança exigem critério, pois o dever de confidencialidade permanece mesmo no cuidado compartilhado."
+    }
+  },
+  {
+    "id_origem": "tp2022_q029",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Níveis de prevenção segundo as funções da medicina de Henry Sigerist",
+    "subtema": "Prevenção primária, secundária, terciária e quaternária",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["prevenção", "história natural da doença", "rastreamento", "saúde coletiva"],
+    "descartar": "E",
+    "motivo_descarte": "A alternativa E repete o mesmo erro conceitual da alternativa C (classificar um exame de detecção precoce como prevenção primária), configurando quase-duplicata.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O tratamento da infecção latente pelo Mycobacterium tuberculosis com quimioprofilaxia configura prevenção primária, pois impede o adoecimento em quem ainda não desenvolveu a tuberculose ativa.",
+      "B": "Correta. Seu Joaquim já tem diabetes estabelecida e em uso de insulina; a recomendação de atividade física e dieta equilibrada busca evitar as complicações e incapacidades da doença já instalada, caracterizando prevenção terciária.",
+      "C": "Incorreta. A coleta de citologia oncótica é exame de rastreamento, ou seja, detecção precoce de doença assintomática, o que corresponde a prevenção secundária e não primária.",
+      "D": "Incorreta. A fonoaudiologia para reabilitação da deglutição após AVC visa recuperar função perdida e reduzir incapacidade, sendo prevenção terciária; a prevenção quaternária consiste em proteger o paciente de intervenções médicas desnecessárias."
+    }
+  },
+  {
+    "id_origem": "tp2022_q037",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "dificil",
+    "tema": "Política Nacional de Práticas Integrativas e Complementares em Saúde (PNPIC), 2006",
+    "subtema": "Elenco original de práticas regulamentadas no SUS",
+    "competencia_dcn_2025": ["dcn2025_comp_16", "dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["PNPIC", "políticas públicas", "SUS", "práticas integrativas"],
+    "descartar": "D",
+    "motivo_descarte": "A alternativa D é funcionalmente equivalente às alternativas B e C, pois todas listam apenas práticas incorporadas nas ampliações de 2017/2018, sendo a menos discriminativa do conjunto.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Acupuntura/Medicina Tradicional Chinesa, homeopatia, plantas medicinais e fitoterapia, medicina antroposófica e termalismo social/crenoterapia compõem exatamente o elenco regulamentado na primeira edição da PNPIC, publicada em 2006.",
+      "B": "Incorreta. Apiterapia, dança circular, meditação, terapia comunitária integrativa e shantala não constavam da política de 2006, tendo sido incorporadas apenas nas ampliações posteriores do elenco de práticas do SUS.",
+      "C": "Incorreta. Reiki, massoterapia, osteopatia, musicoterapia e naturopatia foram acrescentadas à PNPIC somente na ampliação de 2017, não integrando o texto original da política.",
+      "E": "Incorreta. Reflexoterapia, constelação familiar, aromaterapia, bioenergética e ozonioterapia foram incluídas no SUS apenas na ampliação de 2018, sendo posteriores à regulamentação inicial da PNPIC."
+    }
+  },
+  {
+    "id_origem": "tp2022_q045",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Contraindicações verdadeiras e falsas às vacinas do calendário infantil",
+    "subtema": "Imunizações na atenção básica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["imunização", "calendário vacinal", "rotavírus", "atenção primária"],
+    "descartar": "D",
+    "motivo_descarte": "Baixo peso ao nascer não é contraindicação sequer discutível para a tríplice viral, aplicada aos 12 meses, tornando a alternativa implausível e pouco discriminativa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Ser filho de mãe portadora do vírus da hepatite B não contraindica a vacina; ao contrário, reforça a indicação de vacinar nas primeiras horas de vida, associando-se a imunoglobulina específica anti-hepatite B.",
+      "B": "Correta. A vacina oral contra rotavírus não deve ser realizada em indivíduos com malformação do trato gastrointestinal não corrigida, em razão do risco aumentado de invaginação intestinal.",
+      "C": "Incorreta. A exposição vertical ao HIV não contraindica a BCG; a vacina está indicada ao nascimento nas crianças expostas assintomáticas, sendo contraindicada apenas diante de imunodeficiência já manifesta.",
+      "E": "Incorreta. A restrição à vacina de febre amarela refere-se à anafilaxia a proteínas do ovo, e não à alergia à proteína do leite de vaca."
+    }
+  },
+  {
+    "id_origem": "tp2022_q053",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Reidratação parenteral na desidratação grave por diarreia aguda em lactente",
+    "subtema": "Plano C do Ministério da Saúde e cálculo de expansão volêmica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["desidratação", "diarreia aguda", "reidratação parenteral", "lactente"],
+    "descartar": "A",
+    "motivo_descarte": "Soro glicosado isolado não expande o intravascular e é opção implausível para reidratação de choque hipovolêmico, não discriminando o candidato.",
+    "problema_detectado": "O Ringer lactato também é cristaloide isotônico recomendado na expansão da desidratação grave, de modo que a alternativa B só se torna incorreta pelo volume proposto, o que pode gerar ambiguidade.",
+    "justificativas": {
+      "B": "Incorreta. Embora o Ringer lactato seja cristaloide isotônico aceitável para expansão, o volume proposto (210 mL, equivalente a 30 mL/kg) não corresponde à alíquota preconizada pelo Ministério da Saúde, que é de 20 mL/kg a cada 30 minutos.",
+      "C": "Incorreta. A solução glicofisiológica não é indicada para expansão volêmica na desidratação grave, pois a carga de glicose agrava a diurese osmótica e reduz a tonicidade efetiva da solução infundida.",
+      "D": "Correta. Trata-se de desidratação grave secundária à diarreia aguda, com indicação de terapia de reidratação parenteral desde a admissão: soro fisiológico 0,9% na dose de 20 mL/kg, o que corresponde a 140 mL para os 7 kg do lactente, repetida a cada 30 minutos até que esteja hidratado.",
+      "E": "Incorreta. A mistura de soro fisiológico com soro glicosado meio a meio resulta em solução hipotônica, inadequada para expansão rápida, além de o volume de 210 mL exceder a alíquota de 20 mL/kg preconizada."
+    }
+  },
+  {
+    "id_origem": "tp2022_q061",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Interrupção legal da gestação em adolescente menor de 14 anos vítima de estupro de vulnerável",
+    "subtema": "Aborto previsto em lei e dever do Estado",
+    "competencia_dcn_2025": ["dcn2025_comp_05", "dcn2025_comp_04", "dcn2025_comp_23", "dcn2025_comp_11"],
+    "tags": ["aborto legal", "estupro de vulnerável", "adolescência", "ética médica", "violência sexual"],
+    "descartar": "D",
+    "motivo_descarte": "A alternativa D reproduz o mesmo argumento da alternativa A (o consentimento afastaria o direito à interrupção), sendo quase-duplicata conceitual.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Está correto afirmar que se caracteriza estupro de vulnerável, pois o Código Penal não distingue estupro real de presumido em menores de 14 anos; porém a legislação brasileira não estabelece limite de idade gestacional que impeça a interrupção nas oitava semana.",
+      "B": "Incorreta. Não há exigência legal de parecer de jurista, de dois obstetras ou de diretor de maternidade pública; o procedimento se apoia no relato da gestante, sem necessidade de boletim de ocorrência ou autorização judicial.",
+      "C": "Incorreta. Não há contraindicação à interrupção neste caso; ainda que a gestação na adolescência tenha riscos aumentados, prevalece a vontade da adolescente diante de gravidez decorrente de estupro de vulnerável.",
+      "E": "Correta. Por ser menor de 14 anos, fica caracterizado o crime de estupro de vulnerável e, como a adolescente não aceita a gestação, é admissível sua interrupção, cabendo ao Estado o dever de garanti-la de maneira ética, humanizada e segura."
+    }
+  },
+  {
+    "id_origem": "tp2022_q069",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Parada de progressão da dilatação e desproporção cefalopélvica no trabalho de parto",
+    "subtema": "Distocia funcional versus mecânica e indicação de cesariana",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["trabalho de parto", "distocia", "desproporção cefalopélvica", "cesariana"],
+    "descartar": "C",
+    "motivo_descarte": "A analgesia de parto é conduta adjuvante que não responde ao problema obstétrico apresentado, sendo a alternativa menos discriminativa do conjunto.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A parada de progressão da dilatação por 6 horas apesar de dinâmica uterina efetiva (4 contrações em 10 minutos), com bolsa rota, bossa serossanguinolenta e edema de colo, caracteriza desproporção cefalopélvica, cuja conduta é a cesariana.",
+      "B": "Incorreta. A dinâmica uterina já é efetiva, com 4 contrações em 10 minutos; acrescentar ocitocina não corrige uma distocia mecânica e aumenta o risco de sofrimento fetal e de rotura uterina.",
+      "D": "Incorreta. O fórcipe exige dilatação completa e apresentação insinuada em plano baixo; com 7 cm de dilatação e sinais de desproporção, sua aplicação é formalmente contraindicada.",
+      "E": "Incorreta. Aguardar a evolução natural diante de parada de progressão com dinâmica efetiva e sinais de desproporção apenas prolonga o trabalho de parto e amplia o risco de complicações maternas e fetais."
+    }
+  },
+  {
+    "id_origem": "tp2022_q077",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento do câncer do colo do útero segundo as Diretrizes Brasileiras (INCA, 2016)",
+    "subtema": "Idade de início, periodicidade e critérios de suspensão",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
+    "tags": ["rastreamento", "câncer de colo uterino", "citopatológico", "atenção primária"],
+    "descartar": "E",
+    "motivo_descarte": "A alternativa E repete o erro do teste de Schiller já presente na alternativa B, acrescentando periodicidade inexistente, sendo quase-duplicata pouco discriminativa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O rastreamento inicia-se aos 25 anos apenas nas mulheres que já iniciaram atividade sexual; embora a suspensão aos 64 anos com os dois últimos exames negativos esteja correta, a independência do início da vida sexual invalida a alternativa.",
+      "B": "Incorreta. O teste de Schiller não integra o rastreamento populacional, e o exame não é iniciado um ano após a sexarca nem mantido anualmente de forma indefinida até os 62 anos.",
+      "C": "Correta. Conforme o manual do INCA/Ministério da Saúde de 2016, os dois primeiros exames citopatológicos são realizados com intervalo anual e, sendo ambos negativos, a coleta passa a ser trienal.",
+      "D": "Incorreta. As diretrizes de 2016 mantiveram a citologia convencional como método de rastreamento no SUS, não tendo incorporado a pesquisa de HPV de alto risco associada ao exame citopatológico bianual."
+    }
+  },
+  {
+    "id_origem": "tp2022_q085",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Otite média com efusão persistente pós-otite média aguda e critérios de indicação cirúrgica",
+    "subtema": "Perda auditiva condutiva e tubo de ventilação",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["otite média com efusão", "perda auditiva", "otorrinolaringologia pediátrica", "audiometria"],
+    "descartar": "E",
+    "motivo_descarte": "A alternativa E é quase-duplicata da D, pois ambas propõem adenoidectomia como via de solução, acrescentando apenas tonsilectomia sem indicação clínica no caso.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Trata-se de otite média com efusão bilateral persistente após otite média aguda, com perda auditiva de grau moderado (níveis maiores ou iguais a 40 dB no melhor lado), situação em que se recomenda cirurgia, com timpanotomia e colocação de dreno de ventilação bilateral.",
+      "B": "Incorreta. Repetir o teste auditivo em prazo prolongado aplica-se aos casos com limiares normais (menores ou iguais a 20 dB) na persistência da efusão; com perda moderada, a espera expõe a criança a prejuízo de linguagem e de desenvolvimento.",
+      "C": "Incorreta. Corticoide tópico não altera a história natural da otite média com efusão nem acelera a resolução do derrame, não sendo recomendado como tratamento dessa condição.",
+      "D": "Incorreta. Observar por mais seis meses é inadequado diante de perda auditiva moderada já documentada, e a adenoidectomia não é o procedimento de escolha como primeira intervenção na otite média com efusão."
+    }
+  },
+  {
+    "id_origem": "tp2022_q093",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento do câncer colorretal em idoso com anemia por perda digestiva",
+    "subtema": "Sangue oculto nas fezes e colonoscopia como estratégia de detecção precoce",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
+    "tags": ["câncer colorretal", "rastreamento", "anemia no idoso", "colonoscopia"],
+    "descartar": "D",
+    "motivo_descarte": "A ultrassonografia abdominal restrita a mulheres acima de 60 anos não tem qualquer respaldo como estratégia de rastreamento colorretal, sendo alternativa implausível.",
+    "problema_detectado": "O enunciado remete a uma imagem radiológica (padrão em 'mordida de maçã' no enema opaco) que não é reproduzida no texto, tornando o item dependente de figura ausente.",
+    "justificativas": {
+      "A": "Incorreta. A endoscopia digestiva alta avalia o trato digestivo superior e não constitui estratégia de rastreamento do câncer colorretal, cuja lesão, sugerida pela imagem em 'mordida de maçã', localiza-se no cólon.",
+      "B": "Incorreta. Hemograma, ferro sérico e ferritina identificam a anemia ferropriva já instalada, ou seja, consequência tardia do sangramento tumoral, e não rastreiam a neoplasia em fase pré-clínica.",
+      "C": "Correta. A pesquisa de sangue oculto nas fezes é o teste inicial de suspeição para o câncer colorretal e, quando positiva, exige exame confirmatório com colonoscopia e biópsia das lesões suspeitas, com recomendação grau A para adultos de 50 a 75 anos, referendada pelo INCA.",
+      "E": "Incorreta. A tomografia computadorizada e o antígeno carcinoembrionário não são métodos de rastreamento; o CEA é marcador de seguimento e prognóstico, com sensibilidade e especificidade insuficientes para diagnóstico precoce."
+    }
+  },
+  {
+    "id_origem": "tp2022_q101",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Critérios diagnósticos da 4ª Definição Universal do Infarto Agudo do Miocárdio",
+    "subtema": "Indicação de reperfusão e interpretação da troponina",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["síndrome coronariana aguda", "infarto", "eletrocardiograma", "troponina", "reperfusão"],
+    "descartar": "D",
+    "motivo_descarte": "A exigência cumulativa de sintomas, eletrocardiograma, marcadores e cateterismo para firmar o diagnóstico é implausível e contraria a lógica de tempo-dependência do quadro.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O infradesnivelamento do segmento ST não traduz oclusão completa do vaso culpado e, portanto, não configura indicação de reperfusão na fase aguda; na grande maioria dos casos opta-se inicialmente por tratamento conservador pleno com estratificação de risco.",
+      "B": "Incorreta. Diante de dor típica com supradesnivelamento de ST, a reperfusão não deve ser retardada à espera dos marcadores de necrose miocárdica; aguardar a troponina nesse cenário significa perda de tempo e de miocárdio viável.",
+      "C": "Incorreta. A elevação da troponina indica lesão da célula miocárdica, mas não é sinônimo de síndrome isquêmica aguda: existem situações de injúria miocárdica não isquêmica, como sepse, insuficiência renal, miocardite e tromboembolismo pulmonar, que cursam com troponina elevada.",
+      "E": "Correta. Segundo a 4ª Definição Universal do Infarto Agudo do Miocárdio, dor torácica típica com supradesnivelamento do segmento ST em duas ou mais derivações contíguas caracteriza oclusão completa do vaso culpado e tem indicação de reperfusão, mecânica ou química, se em tempo hábil e na ausência de contraindicações."
+    }
+  },
+  {
+    "id_origem": "tp2022_q109",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Diabetes mellitus tipo 1 autoimune em adulto jovem e esquema inicial de insulinização",
+    "subtema": "Terapia basal-bolus e síndrome poliglandular autoimune",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["diabetes tipo 1", "insulinoterapia", "endocrinologia", "autoimunidade"],
+    "descartar": "C",
+    "motivo_descarte": "A alternativa C é quase-duplicata da B, diferindo apenas na dose de metformina e testando exatamente o mesmo equívoco terapêutico.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O conjunto — jovem magro (IMC 18), hipotireoidismo autoimune desde a infância, pai com Doença de Graves, poliúria, polidipsia e hiperglicemia franca com hemoglobina glicada de 13% — indica diabetes tipo 1, cujo tratamento inicial exige duas insulinas, a basal (glargina) e a ultrarrápida (asparte).",
+      "B": "Incorreta. A metformina é droga de escolha no diabetes tipo 2 e não substitui a insulinoterapia no diabetes tipo 1, no qual há deficiência absoluta de insulina e risco iminente de cetoacidose.",
+      "D": "Incorreta. NPH e glargina são ambas insulinas de ação basal; a associação não cobre as excursões glicêmicas pós-prandiais, deixando o paciente sem o componente bolus indispensável.",
+      "E": "Incorreta. Lispro e regular são insulinas prandiais (ultrarrápida e rápida); o esquema não contempla insulina basal, essencial para o controle glicêmico interprandial e noturno no diabetes tipo 1."
+    }
+  },
+  {
+    "id_origem": "tp2022_q117",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndrome da secreção inapropriada de vasopressina como manifestação paraneoplásica do carcinoma pulmonar de pequenas células",
+    "subtema": "Hiponatremia paraneoplásica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["SIADH", "hiponatremia", "câncer de pulmão", "síndrome paraneoplásica"],
+    "descartar": "D",
+    "motivo_descarte": "A Doença de Graves não cursa com hiponatremia e não guarda relação com tumores neuroendócrinos, sendo alternativa implausível no contexto do caso.",
+    "problema_detectado": "O enunciado descreve urina de coloração clara e aumento da frequência urinária, achados pouco compatíveis com a SIADH, que cursa com urina inadequadamente concentrada e tendência à retenção hídrica.",
+    "justificativas": {
+      "A": "Incorreta. A síndrome de Horner (ptose, miose e anidrose) decorre de compressão da cadeia simpática cervical, tipicamente por tumor do sulco superior, e não explica a hiponatremia nem as alterações urinárias descritas.",
+      "B": "Incorreta. A síndrome cerebral perdedora de sal cursa com hiponatremia acompanhada de hipovolemia e ocorre no contexto de lesão do sistema nervoso central, situação distinta do caso, associado a tumor pulmonar de pequenas células.",
+      "C": "Incorreta. Na doença de Addison há hiponatremia, porém associada a hipercalemia, hipotensão, hiperpigmentação cutânea e astenia intensa, achados ausentes nesta paciente.",
+      "E": "Correta. Os tumores de pequenas células são neuroendócrinos e têm a capacidade de secretar hormônios como o ADH de forma ectópica, levando a alterações urinárias e hiponatremia (sódio de 128 mmol/L), quadro denominado síndrome da secreção inapropriada de vasopressina (SIADH)."
+    }
+  }
+]

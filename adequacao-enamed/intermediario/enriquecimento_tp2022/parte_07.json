@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tp2022_q007",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Regulação da expressão gênica em eucariotos",
+    "subtema": "Controle traducional e pós-traducional da atividade de fatores de transcrição",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_10"],
+    "tags": ["biologia molecular", "fator de transcrição", "mRNA", "regulação gênica"],
+    "descartar": "C",
+    "motivo_descarte": "Transporte do mRNA é redundante com as demais etapas que alterariam o nível de mRNA (transcrição, degradação e splicing), sendo a opção menos discriminativa do conjunto.",
+    "problema_detectado": "O enunciado apresenta erros de digitação que prejudicam a leitura ('diferiuse', 'sítios desplicing') e quatro distratores conceitualmente redundantes, pois todos implicariam variação do nível de mRNA já descrita como semelhante.",
+    "justificativas": {
+      "A": "Correta. Como o nível de mRNA do fator de transcrição é semelhante nos dois tecidos, a diferença na expressão dos genes-alvo só pode ser atribuída à atividade da proteína regulatória, ou seja, a controles traducionais (quanto de proteína é sintetizada a partir do mesmo mRNA) ou pós-traducionais (fosforilação, ubiquitinação, translocação nuclear, ligação a cofatores).",
+      "B": "Incorreta. Um controle diferencial da transcrição do gene da proteína regulatória resultaria em quantidades distintas de seu mRNA nos dois tecidos, o que contraria o dado do enunciado de que os níveis de mRNA eram semelhantes.",
+      "D": "Incorreta. Diferenças na taxa de degradação do mRNA alterariam a meia-vida e, consequentemente, o nível de mRNA em estado estacionário do fator de transcrição, o que não foi observado entre os tecidos.",
+      "E": "Incorreta. A escolha diferencial de sítios de splicing poderia gerar isoformas distintas, mas é uma etapa de processamento do próprio transcrito; o achado de mRNA total semelhante com genes-alvo divergentes aponta prioritariamente para modulação da atividade da proteína já sintetizada."
+    }
+  },
+  {
+    "id_origem": "tp2022_q015",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Medidas de tendência central aplicadas a perfil epidemiológico",
+    "subtema": "Cálculo da mediana em série com número par de observações",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_10", "dcn2025_comp_24"],
+    "tags": ["bioestatística", "mediana", "epidemiologia", "sífilis gestacional"],
+    "descartar": "E",
+    "motivo_descarte": "O valor de 35 anos situa-se fora do intervalo de idades da série apresentada (17 a 33 anos) e não corresponde a nenhuma medida de tendência central, sendo implausível.",
+    "problema_detectado": "O enunciado é integralmente dependente de uma tabela com as idades das oito gestantes que não está reproduzida no item, tornando-o irrespondível sem o anexo.",
+    "justificativas": {
+      "A": "Correta. A mediana indica o valor central do conjunto ordenado de dados. Com quantidade par de observações (n = 8), somam-se os dois valores centrais e calcula-se a média entre eles: na série ordenada 17-18-20-21-27-32-32-33, tem-se (21 + 27) / 2 = 24 anos.",
+      "B": "Incorreta. O valor de 25 anos corresponde à média aritmética das idades da série, e não à mediana; média e mediana só coincidem em distribuições simétricas, o que não ocorre aqui.",
+      "C": "Incorreta. Trinta anos não corresponde a nenhuma das medidas de tendência central da série; o resultado provavelmente decorre de erro na ordenação dos dados ou na identificação dos valores centrais.",
+      "D": "Incorreta. O valor de 32 anos corresponde à moda da série, isto é, à idade que se repete com maior frequência, e não à mediana."
+    }
+  },
+  {
+    "id_origem": "tp2022_q023",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Atributos da Atenção Primária à Saúde durante a pandemia de COVID-19",
+    "subtema": "Coordenação do cuidado como atributo essencial",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_02", "dcn2025_comp_01"],
+    "tags": ["atenção primária", "coordenação do cuidado", "COVID-19", "estratégia saúde da família"],
+    "descartar": "C",
+    "motivo_descarte": "Cuidado multidisciplinar não figura entre os atributos essenciais nem derivados da APS descritos por Starfield, além de a alternativa conter erro de grafia ('multidisciplina').",
+    "problema_detectado": "O item mistura atributos essenciais e derivados nas opções e apresenta erro de digitação na alternativa C, o que fragiliza a precisão terminológica exigida pelo comando da questão.",
+    "justificativas": {
+      "A": "Correta. A APS é responsável pela coordenação do cuidado, supervisionando e integrando as informações vindas de outros níveis de atenção, como no caso de José, cujo diagnóstico foi feito na Central de Triagem e cujo seguimento familiar coube à equipe; e regulando fluxos e garantindo continuidade quando os serviços secundários se fecharam, como no caso de Maria, acompanhada pela endocrinologista.",
+      "B": "Incorreta. O primeiro contato ou acesso refere-se à APS ser a porta de entrada preferencial do sistema a cada novo problema; nos dois casos, porém, o diagnóstico e o acompanhamento especializado já haviam ocorrido fora da unidade, e a equipe atuou justamente integrando esse cuidado prévio.",
+      "D": "Incorreta. A competência cultural é atributo derivado e diz respeito à adequação do cuidado às particularidades culturais, étnicas e de crenças da população adscrita, aspecto que não é o eixo comum dos dois casos apresentados.",
+      "E": "Incorreta. A orientação familiar e comunitária é atributo derivado; embora o rastreio dos familiares de José a sugira parcialmente, ela não explica o caso de Maria, cujo elemento comum aos dois cenários é a articulação do cuidado entre níveis de atenção."
+    }
+  },
+  {
+    "id_origem": "tp2022_q031",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Modelos de educação em saúde na Estratégia Saúde da Família",
+    "subtema": "Educação dialógica versus modelo tradicional transmissivo",
+    "competencia_dcn_2025": ["dcn2025_comp_08", "dcn2025_comp_12", "dcn2025_comp_01"],
+    "tags": ["educação em saúde", "modelo dialógico", "COVID-19", "promoção da saúde"],
+    "descartar": "D",
+    "motivo_descarte": "Alternativa quase-duplicata da B, pois ambas descrevem a mesma lógica transmissiva de repasse unidirecional de informações à população.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. No modelo de Educação Dialogal, o indivíduo é reconhecido como sujeito portador de um saber que, embora distinto do saber técnico-científico, não é deslegitimado pelos serviços; a roda de conversa é o formato que operacionaliza esse princípio, pois profissionais e usuários atuam como iguais, ainda que com papéis diferenciados.",
+      "B": "Incorreta. A palestra, mesmo com dados epidemiológicos locais, mantém a relação vertical entre quem transmite e quem recebe a informação, sendo característica do modelo tradicional e não do modelo dialógico e participativo.",
+      "C": "Incorreta. Atividades de integração como o 'quebra-gelo' pertencem ao repertório das metodologias participativas e dialógicas, que valorizam a interação entre os sujeitos, e não ao modelo tradicional, centrado na transmissão de conteúdo.",
+      "E": "Incorreta. Relatos de experiência de pacientes que tiveram COVID-19 valorizam o saber vivencial da comunidade e favorecem a troca horizontal de experiências, sendo altamente pertinentes e não inadequados a esse contexto."
+    }
+  },
+  {
+    "id_origem": "tp2022_q039",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico diferencial de síndrome febril aguda com nexo epidemiológico amazônico",
+    "subtema": "Malária: paroxismos febris e procedência de área endêmica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_24"],
+    "tags": ["malária", "síndrome febril aguda", "doenças tropicais", "notificação compulsória"],
+    "descartar": "D",
+    "motivo_descarte": "A doença de Chagas aguda é a hipótese menos discriminativa, pois cursa tipicamente com febre prolongada, edema e sinais de porta de entrada, sem os paroxismos febris que caracterizam o quadro descrito.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A febre amarela silvestre também cursa com febre, cefaleia, mialgia e vômitos, mas evolui classicamente com o sinal de Faget, icterícia e manifestações hemorrágicas após breve remissão, e não com a alternância rítmica de febre alta, sudorese e calafrio descrita.",
+      "B": "Incorreta. A febre maculosa brasileira apresenta febre, cefaleia e mialgia intensas, porém o achado característico é o exantema maculopapular com progressão centrípeta e história de exposição a carrapatos, além de o nexo epidemiológico do caso apontar para procedência da Amazônia Legal.",
+      "C": "Correta. O quadro clínico e o dado epidemiológico são típicos da malária: febre alta intermitente em paroxismos que se alternam com sudorese e calafrio, acompanhada de cefaleia, mialgia, náuseas, vômitos e dor abdominal, em paciente procedente de Porto Velho (Rondônia), área endêmica na Amazônia Legal, com atividade agrícola. Trata-se de situação relativamente comum em qualquer pronto-socorro do país e a confirmação se faz por gota espessa.",
+      "E": "Incorreta. A dengue é hipótese frequente em quadros febris agudos com mialgia e cefaleia, mas cursa com febre contínua, dor retro-orbitária e exantema, sem os paroxismos com calafrio e sudorese, e não explica o nexo específico com área endêmica de malária."
+    }
+  },
+  {
+    "id_origem": "tp2022_q047",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico de rinite alérgica na infância",
+    "subtema": "Caráter essencialmente clínico do diagnóstico e papel dos exames complementares",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_25"],
+    "tags": ["rinite alérgica", "alergia", "pediatria", "diagnóstico clínico"],
+    "descartar": "B",
+    "motivo_descarte": "Alternativa implausível, pois descreve achados incompatíveis com rinite (estridor expiratório é sinal de obstrução de via aérea, não de doença nasal alérgica).",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Os testes úteis na investigação de rinite alérgica são os de leitura imediata (puntura cutânea) e a dosagem de IgE específica sérica, não IgG nem testes de contato de leitura tardia; ainda assim, esses exames apenas auxiliam a identificar os alérgenos desencadeantes e não são essenciais ao diagnóstico.",
+      "C": "Incorreta. Exames de imagem como radiografia de cavum e de seios da face não são necessários para o diagnóstico e podem inclusive ser iatrogênicos na criança por emitirem radiação ionizante.",
+      "D": "Incorreta. A nasofibroscopia poderia afastar polipose nasal e alterações anatômicas, mas não é mandatória: na infância é reservada a casos mais graves, atípicos ou refratários ao tratamento.",
+      "E": "Correta. O diagnóstico de rinite alérgica é essencialmente clínico, baseado em sintomas nasais crônicos ou recorrentes, como coriza, espirros em salvas, obstrução e prurido nasal, eventualmente com sintomas oculares associados; ao exame físico observam-se sinais de atopia como saudação alérgica, dupla prega de Dennie-Morgan e edema de conchas nasais com palidez de mucosa."
+    }
+  },
+  {
+    "id_origem": "tp2022_q055",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Teste do reflexo vermelho na triagem neonatal",
+    "subtema": "Leucocoria como sinal de catarata congênita",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["neonatologia", "teste do olhinho", "catarata congênita", "triagem neonatal"],
+    "descartar": "A",
+    "motivo_descarte": "A hemorragia subconjuntival é achado benigno e frequente do parto, sem qualquer relação com a opacificação do eixo visual avaliada pelo reflexo vermelho.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. O aumento do diâmetro corneano (megalocórnea), associado a lacrimejamento, fotofobia e opacificação corneana, sugere glaucoma congênito, e não catarata.",
+      "C": "Incorreta. A midríase não é sinal de doença nesse contexto; ao contrário, a dilatação pupilar facilita a realização e a interpretação do teste do reflexo vermelho.",
+      "D": "Correta. A avaliação das estruturas oculares no recém-nascido é essencial para o diagnóstico precoce da catarata congênita e deve fazer parte da rotina do exame neonatal. A presença de leucocoria (pupila branca) ou a ausência/assimetria do reflexo vermelho sugere a possibilidade de catarata, exigindo encaminhamento imediato ao oftalmologista.",
+      "E": "Incorreta. A anisocoria traduz diferença no diâmetro pupilar e relaciona-se a alterações neurológicas ou da inervação autonômica da íris, não à opacidade dos meios transparentes do olho."
+    }
+  },
+  {
+    "id_origem": "tp2022_q063",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Contracepção de emergência após violência sexual",
+    "subtema": "Esquema de levonorgestrel e janela terapêutica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_11", "dcn2025_comp_23"],
+    "tags": ["contracepção de emergência", "violência sexual", "levonorgestrel", "atendimento humanizado"],
+    "descartar": "A",
+    "motivo_descarte": "Alternativa quase-duplicata da C, pois ambas oferecem contraceptivos hormonais injetáveis de uso regular, sem qualquer papel na anticoncepção de emergência.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. O desogestrel 75 mcg é minipílula de uso contínuo diário, indicada como contracepção regular; a dose única não alcança a concentração progestacional necessária para inibir ou postergar a ovulação em regime de emergência.",
+      "C": "Incorreta. O acetato de medroxiprogesterona 150 mg intramuscular é contraceptivo injetável trimestral de uso programado, cujo início de ação e perfil farmacocinético não atendem à necessidade de bloqueio ovulatório imediato após a exposição.",
+      "D": "Incorreta. O método de Yuzpe emprega estrogênio e progestagênio combinados, porém em doses elevadas e fracionadas em duas tomadas com intervalo de 12 horas; uma única cartela-dose de etinilestradiol 30 mcg com gestodeno 75 mcg é insuficiente e não constitui esquema de emergência.",
+      "E": "Correta. A anticoncepção de emergência com levonorgestrel 0,75 mg por via oral em duas doses separadas por 12 horas (ou 1,5 mg em dose única) é o esquema indicado. Ela deve ser prescrita a todas as mulheres e adolescentes expostas ao risco de gravidez por contato certo ou duvidoso com sêmen, independentemente do período do ciclo menstrual, e administrada o mais precocemente possível, idealmente nas primeiras 72 horas — como nas 20 horas deste caso —, mantendo razoável proteção até o 5º dia após a violência sexual, ainda que com maiores taxas de falha."
+    }
+  },
+  {
+    "id_origem": "tp2022_q071",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação da amenorreia secundária com testes hormonais sequenciais",
+    "subtema": "Falência ovariana: gonadotrofinas elevadas e resposta ao estrogênio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["amenorreia secundária", "falência ovariana", "gonadotrofinas", "endocrinologia ginecológica"],
+    "descartar": "B",
+    "motivo_descarte": "A amenorreia psicogênica é quase-duplicata fisiopatológica da hiperprolactinemia (alternativa A), pois ambas cursam com hipogonadismo hipogonadotrófico e gonadotrofinas baixas ou normais.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A hiperprolactinemia inibe a secreção pulsátil de GnRH e cursa com gonadotrofinas baixas ou normais, o oposto do achado de FSH e LH elevados descrito no caso; além disso, costuma associar-se a galactorreia.",
+      "C": "Incorreta. Na síndrome dos ovários policísticos há estrogênio endógeno preservado, de modo que o teste da progesterona seria positivo, com sangramento de privação; o caso descreve teste da progesterona negativo.",
+      "D": "Incorreta. A síndrome de Asherman é causa uterina (sinéquias endometriais) e cursa com ausência de sangramento mesmo após estimulação sequencial com estrogênio e progesterona; aqui houve sangramento com a associação de estrogênio, o que demonstra endométrio responsivo e afasta a causa estrutural, improvável ainda em paciente com três partos vaginais prévios e menstruações anteriores normais.",
+      "E": "Correta. Pacientes que não respondem ao teste da progesterona mas sangram após estrogênio, com níveis elevados de gonadotrofinas circulantes, têm como causa principal de amenorreia a falência ovariana. Afastadas as causas estruturais, a ausência de menstruação decorre da exaustão folicular, que impede o estímulo proliferativo endometrial e a posterior descamação; sem produção estrogênica ovariana não há feedback negativo, e FSH e LH se elevam."
+    }
+  },
+  {
+    "id_origem": "tp2022_q079",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo da toxoplasmose aguda na gestação",
+    "subtema": "Espiramicina no primeiro trimestre e interpretação do teste de avidez de IgG",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["toxoplasmose", "pré-natal", "espiramicina", "infecção congênita"],
+    "descartar": "A",
+    "motivo_descarte": "Alternativa quase-duplicata da D, pois ambas propõem tuberculostáticos, sem qualquer relação com o tratamento da toxoplasmose.",
+    "problema_detectado": null,
+    "justificativas": {
+      "B": "Incorreta. O esquema com pirimetamina e sulfadiazina associado a ácido folínico (SPAF) é reservado à suspeita ou confirmação de infecção fetal e só deve ser iniciado a partir da 18ª semana, sendo evitado no primeiro trimestre pelo risco teratogênico da pirimetamina; a gestante do caso está com 12 semanas.",
+      "C": "Correta. Diante de IgM e IgG positivas com avidez de IgG inferior a 30% antes de 16 semanas, caracteriza-se infecção aguda recente, devendo-se iniciar espiramicina de forma contínua, com o objetivo de reduzir a transmissão vertical. A partir da 18ª semana, substitui-se a espiramicina pelo esquema SPAF (sulfadiazina, pirimetamina e ácido folínico) até a 34ª semana, quando se retorna à espiramicina. Por não atravessar a placenta, a espiramicina não trata a infecção fetal já estabelecida, atuando na profilaxia da transmissão.",
+      "D": "Incorreta. O esquema RIPE (rifampicina, isoniazida, pirazinamida e etambutol) é o tratamento da tuberculose e não tem atividade contra o Toxoplasma gondii.",
+      "E": "Incorreta. Sulfametoxazol-trimetoprim tem atividade antiparasitária limitada nesse contexto e não integra os protocolos brasileiros de toxoplasmose gestacional, sendo ainda desaconselhado no primeiro trimestre pelo componente antifolato."
+    }
+  },
+  {
+    "id_origem": "tp2022_q087",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento do câncer de próstata e decisão compartilhada",
+    "subtema": "Faixa etária de início e individualização da conduta",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_25", "dcn2025_comp_10"],
+    "tags": ["rastreamento", "câncer de próstata", "decisão compartilhada", "prevenção"],
+    "descartar": "B",
+    "motivo_descarte": "Alternativa internamente incoerente, pois associa rastreamento universal a homens com risco aumentado, grupo em que justamente se recomenda antecipar o início, tornando-a a menos discriminativa.",
+    "problema_detectado": "As alternativas D e E diferem apenas na faixa etária, e a própria justificativa oficial admite variação de recomendação entre guidelines, o que introduz alguma ambiguidade na chave de resposta.",
+    "justificativas": {
+      "A": "Incorreta. Não se indica rastreamento universal para todos os homens acima de 40-45 anos sem risco aumentado; nessa faixa etária o rastreamento é considerado apenas em populações de maior risco e sempre de forma individualizada.",
+      "C": "Incorreta. O histórico familiar positivo antecipa a discussão sobre rastreamento, mas não o torna indicado a qualquer idade, independentemente de outros dados; mesmo nesses homens a conduta é individualizada e habitualmente iniciada por volta dos 45 anos.",
+      "D": "Correta. As sociedades nacionais e internacionais de Urologia e Oncologia recomendam que o rastreamento com exame digital da próstata e dosagem do PSA sérico seja indicado de forma individualizada, após decisão informada e compartilhada com o paciente, considerando histórico familiar, raça, idade, presença de sintomas miccionais e desejo do paciente. Para homens sem risco aumentado, a idade de início situa-se entre 50 e 55 anos, variando conforme o guideline adotado.",
+      "E": "Incorreta. Embora a individualização e a decisão informada estejam corretas, a faixa de 40-45 anos antecipa indevidamente o rastreamento em homens sem risco aumentado, ampliando sobrediagnóstico e sobretratamento sem benefício demonstrado em mortalidade."
+    }
+  },
+  {
+    "id_origem": "tp2022_q095",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Insuficiência venosa crônica e úlcera de estase",
+    "subtema": "Características clínicas da úlcera venosa e diagnóstico diferencial com úlcera arterial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["insuficiência venosa crônica", "úlcera venosa", "cirurgia vascular", "feridas crônicas"],
+    "descartar": "B",
+    "motivo_descarte": "Descreve características de úlcera arterial e é conceitualmente redundante com a alternativa C, que aborda o mesmo diagnóstico diferencial isquêmico.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A localização mais comum da úlcera venosa é a região maleolar, principalmente do maléolo medial, e não o terço proximal da perna.",
+      "C": "Incorreta. Na insuficiência venosa crônica a dor inicia-se ao longo do dia após períodos em ortostatismo, piora ao final do dia e à noite, e apresenta melhora no repouso com os membros elevados; a piora com a elevação é característica da doença arterial obstrutiva.",
+      "D": "Incorreta. Úlceras de estase de longa duração, como a deste paciente com cinco anos de evolução, podem sofrer degeneração maligna (úlcera de Marjolin); a presença de bordos elevados e vegetantes deve levantar essa suspeita e indicar biópsia.",
+      "E": "Correta. A úlcera venosa pode ser pequena ou estender-se por grandes áreas, apresenta leito raso e com tecido de granulação, e normalmente é indolor ou pouco dolorosa, tornando-se francamente dolorosa quando há infecção associada."
+    }
+  },
+  {
+    "id_origem": "tp2022_q103",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Classificação de gravidade da DPOC pelo sistema GOLD",
+    "subtema": "Determinantes da classificação: VEF1, dispneia basal e exacerbações",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["DPOC", "GOLD", "espirometria", "pneumologia"],
+    "descartar": "A",
+    "motivo_descarte": "Alternativa conceitualmente redundante com a D, pois ambas atribuem à capacidade vital forçada um papel classificatório que ela não possui na GOLD.",
+    "problema_detectado": "O item está ancorado na versão GOLD 2022, cujos grupos A-D foram substituídos pelos grupos A, B e E a partir da atualização de 2023, exigindo revisão antes de novo uso.",
+    "justificativas": {
+      "B": "Incorreta. O número de exacerbações por ano é justamente um dos eixos que define o grupo do paciente na classificação GOLD e determina diretamente a escolha do tratamento farmacológico, inclusive a indicação de corticoide inalatório associado aos broncodilatadores de longa ação.",
+      "C": "Correta. O grau de dispneia basal, avaliado por instrumentos como a escala mMRC ou o questionário CAT, é um dos fatores determinantes da classificação de gravidade da GOLD, ao lado do VEF1 pós-broncodilatador e do número de exacerbações anuais, e orienta o tratamento farmacológico e não farmacológico.",
+      "D": "Incorreta. Nem a gasometria arterial nem a capacidade vital forçada pós-broncodilatador entram na classificação GOLD; a variável espirométrica utilizada é o VEF1 pós-broncodilatador, e capacidade vital forçada e gasometria não predizem gravidade nesse sistema.",
+      "E": "Incorreta. A graduação espirométrica GOLD de 1 a 4 baseia-se exclusivamente no VEF1 pós-broncodilatador em percentual do previsto, não incorporando a gasometria arterial."
+    }
+  },
+  {
+    "id_origem": "tp2022_q111",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Confirmação diagnóstica da doença falciforme em crise vaso-oclusiva",
+    "subtema": "Eletroforese de hemoglobina e síndrome torácica aguda",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["anemia falciforme", "síndrome torácica aguda", "eletroforese de hemoglobina", "hematologia"],
+    "descartar": "E",
+    "motivo_descarte": "O teste de Guthrie destina-se à triagem de fenilcetonúria e é totalmente estranho à investigação de hemoglobinopatias, sendo a opção mais implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O D-dímero pode estar elevado em quadros trombóticos e inflamatórios, incluindo a própria crise falcêmica, mas é inespecífico e não estabelece o diagnóstico etiológico da anemia hemolítica descrita.",
+      "B": "Correta. O quadro reúne anemia hemolítica com icterícia e palidez, história de internações e transfusões prévias, dor óssea aguda evoluindo com dispneia e dor torácica — sugerindo síndrome torácica aguda —, além de anemia normocrômica/normocítica grave com drepanócitos ao esfregaço. A confirmação etiológica exige a comprovação da hemoglobina S (ou de outras hemoglobinas mutantes) pela eletroforese de hemoglobinas, por HPLC ou por focalização isoelétrica; os testes de falcização apenas indicam a presença de Hb S e também são positivos no traço falciforme.",
+      "C": "Incorreta. O mielograma avalia a celularidade e a morfologia medular, sendo indicado em suspeita de aplasia, infiltração neoplásica ou displasia; na hemólise por hemoglobinopatia já sugerida pelo esfregaço periférico, é exame invasivo e desnecessário.",
+      "D": "Incorreta. A curva de fragilidade osmótica é utilizada na investigação da esferocitose hereditária, cuja morfologia característica são esferócitos, e não os drepanócitos identificados na microscopia deste paciente."
+    }
+  },
+  {
+    "id_origem": "tp2022_q119",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico diferencial de máculas hipocrômicas descamativas no tronco",
+    "subtema": "Pitiríase versicolor e sinal de Zileri",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["pitiríase versicolor", "dermatologia", "micose superficial", "hanseníase"],
+    "descartar": "D",
+    "motivo_descarte": "A psoríase é a hipótese menos plausível, pois se manifesta por placas eritematosas infiltradas com escamas prateadas em superfícies extensoras, e não por máculas brancas com descamação furfurácea.",
+    "problema_detectado": "A alternativa C apresenta erro de digitação ('indetermianda'), o que compromete a padronização editorial do item.",
+    "justificativas": {
+      "A": "Incorreta. A pitiríase rósea de Gibert inicia-se por uma placa-mãe (medalhão arauto), seguida de lesões eritematodescamativas ovaladas que se distribuem no tronco em padrão de 'árvore de Natal', com curso autolimitado de semanas, diferindo das máculas brancas persistentes descritas.",
+      "B": "Correta. A pitiríase versicolor é infecção fúngica superficial comum causada por Malassezia spp., que se apresenta com múltiplas máculas arredondadas, hipocrômicas ou acastanhadas, recobertas por escamas finas, no pescoço, tronco e extremidades superiores proximais, entremeadas por pele normal, acompanhando a distribuição das glândulas sebáceas. A descamação evidenciada ao estiramento da pele corresponde ao sinal de Zileri, e a sensibilidade preservada afasta hanseníase. O tratamento pode ser feito com cetoconazol 200 mg/dia por 10 dias e xampu de sulfeto de selênio a 2,5%.",
+      "C": "Incorreta. Na hanseníase indeterminada as manchas hipocrômicas são em número reduzido, de limites imprecisos e cursam com alteração de sensibilidade térmica, dolorosa e tátil, além de hipoidrose local; no caso descrito todas as modalidades de sensibilidade estão preservadas.",
+      "E": "Incorreta. A dermatite seborreica manifesta-se por placas eritematosas com escamas untuosas e amareladas em couro cabeludo, face (sulco nasogeniano, supercílios) e região pré-esternal, não produzindo máculas hipocrômicas disseminadas pelo tronco com descamação furfurácea ao estiramento."
+    }
+  }
+]
