@@ -77,6 +77,35 @@ Os repositórios abaixo, do mesmo tópico, apenas apontam para downloads externo
 - **dhchenx/chatgpt-in-healthcare**, **Pavansomisetty21/...DeepSeek-R1**,
   **omargalal20/medical-assistant-chatbot** — sem arquivos de banco de questões.
 
+## Ferramenta de triagem — `tools/triagem_endocrino.py`
+
+Script que normaliza os bancos heterogêneos (MedQA, MedQA4, MedMCQA, USMLE, NephSAP)
+num esquema único e pontua cada item por relevância para cada sessão do 12º CCEM,
+usando um léxico de domínio endocrinológico.
+
+```bash
+python3 question-banks/tools/triagem_endocrino.py
+```
+
+Saída: `pool_triado.json` — 2.139 itens etiquetados por sessão, a partir de 18.046
+itens únicos (29.540 antes da deduplicação). Distribuição por sessão:
+
+| Sessão | Itens | | Sessão | Itens |
+|--------|------:|-|--------|------:|
+| `simp1-dm2` | 932 | | `simp8-adrenal` | 106 |
+| `simp7-osseo` | 447 | | `simp3-cdt` | 103 |
+| `simp2-dm1` | 151 | | `simp9-pediatrica` | 43 |
+| `simp6-gonadas` | 142 | | `simp10-obesidade` | 30 |
+| `simp4-hipofise` | 138 | | `simp5-modismos` | 24 |
+| | | | `mini-glicemia` | 20 |
+
+**Escopo:** a triagem é específica do CCEM — filtra endocrinologia e mapeia para as
+14 sessões do congresso. Não serve para uso geral em medicina; um banco de propósito
+amplo (ENAMED, por exemplo) usaria os 18.046 itens sem esse filtro temático.
+
+`pool_triado.json` é artefato derivado: pode ser regerado a qualquer momento rodando
+o script. Está versionado apenas por conveniência de curadoria.
+
 ## Licenças e uso
 
 Cada dataset mantém a licença do repositório de origem. Verifique o link da fonte
