@@ -9,17 +9,26 @@ num esquema único e pontua cada item pela relevância para cada sessão do
 Saída: pool_triado.json — matéria-prima em inglês, etiquetada por sessão,
 para curadoria e tradução humana/assistida ao padrão ABDC.
 
-Uso:  python3 question-banks/tools/triagem_endocrino.py
+Os bancos-fonte NÃO ficam neste repositório: vivem em
+    itairanterres-alt/Treino-enamed  ->  data/question-banks/
+Aponte para eles com a variável BANCOS_DIR.
+
+Uso:
+    BANCOS_DIR=/caminho/para/Treino-enamed/data/question-banks \\
+        python3 question-banks/tools/triagem_endocrino.py
 """
 
 import json
 import csv
 import re
 import os
+import sys
 from collections import defaultdict
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(BASE, "pool_triado.json")
+AQUI = os.path.dirname(os.path.abspath(__file__))
+# Diretório dos bancos-fonte (clone do Treino-enamed). Sem ele o script não roda.
+BASE = os.environ.get("BANCOS_DIR") or os.path.dirname(AQUI)
+OUT = os.path.join(os.path.dirname(AQUI), "pool_triado.json")
 
 # ---------------------------------------------------------------- léxico
 # Cada sessão do CCEM 2026 -> termos que sinalizam pertinência.
@@ -243,6 +252,13 @@ def main():
         ("USMLE/usmle-step2.json", "USMLE-step2", ler_ontotune),
         ("USMLE/usmle-step3.json", "USMLE-step3", ler_ontotune),
     ]
+
+    if not os.path.isdir(os.path.join(BASE, "MedQA")):
+        sys.exit(
+            f"Bancos-fonte não encontrados em {BASE}\n"
+            "Clone itairanterres-alt/Treino-enamed e aponte BANCOS_DIR para\n"
+            "o diretório data/question-banks dele."
+        )
 
     todos = []
     for rel, nome, leitor in caminhos:
