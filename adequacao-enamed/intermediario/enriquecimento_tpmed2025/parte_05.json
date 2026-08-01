@@ -1,0 +1,433 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q005",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Mecanismo da gastrolesão induzida por anti-inflamatórios não esteroidais",
+    "subtema": "Inibição da COX-1 e perda da citoproteção gástrica por prostaglandinas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "farmacologia",
+      "AINE",
+      "ciclo-oxigenase",
+      "prostaglandinas",
+      "úlcera péptica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A COX-2 é a isoforma predominantemente induzida em processos inflamatórios e sua inibição responde pelo efeito analgésico e anti-inflamatório, não pela gastrolesão; além disso, a inibição da COX-2 não aumenta diretamente a secreção ácida pelas células parietais. A lesão gástrica dos AINEs não seletivos decorre da inibição da COX-1 constitutiva da mucosa.",
+      "B": "Correta. O naproxeno é um AINE não seletivo que inibe a COX-1 constitutiva da mucosa gástrica, reduzindo a síntese das prostaglandinas gastroprotetoras (PGE2 e PGI2). Com isso caem a secreção de muco e de bicarbonato e o fluxo sanguíneo mucoso, e perde-se a inibição fisiológica da secreção ácida pelas células parietais mediada pelos receptores de prostaglandina — efeitos que aumentam a suscetibilidade à pirose, à lesão erosiva e à úlcera péptica.",
+      "C": "Incorreta. Os AINEs não bloqueiam a liberação de histamina nem antagonizam os receptores H2 das células parietais; esse é o mecanismo dos antagonistas H2 (ranitidina, famotidina), que reduzem — e não aumentam — a acidez gástrica. Se esse fosse o efeito dos AINEs, o resultado esperado seria proteção, e não pirose.",
+      "D": "Incorreta. A porção inicial está certa (inibição da COX-1), mas o mecanismo descrito é equivocado: a redução da produção de muco decorre da queda das prostaglandinas locais, e não de bloqueio de via colinérgica. A acetilcolina, ao contrário, estimula a secreção ácida via receptores muscarínicos M3 e não é alvo dos AINEs."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q013",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Histologia da mucosa intestinal e lesão enteropatogênica por Escherichia coli",
+    "subtema": "Epitélio simples colunar com microvilos e má absorção por destruição da borda em escova",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "histologia",
+      "microbiologia",
+      "E. coli enteropatogênica",
+      "má absorção",
+      "microvilos"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado apresenta falha de formatação com ausência de espaçamento no nome científico (\"deEscherichia colipromovem\"), o que prejudica a leitura do item.",
+    "justificativas": {
+      "A": "Incorreta. O tecido conjuntivo denso não modelado e os vasos sanguíneos não constituem a interface de absorção intestinal nem o alvo da adesão bacteriana; a E. coli enteropatogênica age na superfície luminal do epitélio, e não no estroma vascular.",
+      "B": "Correta. O intestino delgado é revestido por epitélio simples colunar dotado de microvilos (borda em escova). A E. coli enteropatogênica adere ao enterócito por lesão do tipo attaching and effacing, degradando e apagando os microvilos; a perda dessa amplificação de superfície e das dissacaridases da borda em escova é o que gera a disfunção absortiva e a diarreia.",
+      "C": "Incorreta. O tecido conjuntivo denso modelado é típico de tendões e ligamentos, não da parede intestinal. As placas de Peyer são agregados linfoides do tecido linfoide associado à mucosa, relacionadas à imunidade (e alvo de outros patógenos, como Salmonella typhi), e não à absorção de nutrientes lesada nesta condição.",
+      "D": "Incorreta. O epitélio estratificado pavimentoso e a camada córnea são característicos da epiderme e de mucosas de proteção (esôfago, canal anal), sem função absortiva. Esse arranjo não existe no intestino delgado, onde ocorre a lesão descrita."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q021",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Marcos do desenvolvimento motor no primeiro ano de vida",
+    "subtema": "Sequência craniocaudal: controle cefálico, sedestação e marcha",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "puericultura",
+      "desenvolvimento neuropsicomotor",
+      "marcos motores",
+      "lactente"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O controle cefálico é adquirido bem antes: sustenta a cabeça por volta dos 2 meses, com firmeza completa por volta dos 3 a 4 meses. Situá-lo apenas aos 4 meses atrasa indevidamente o marco.",
+      "B": "Incorreta. Aos 8 meses o lactente tipicamente senta sem apoio e engatinha; a marcha com apoio surge, na maioria das crianças, entre 9 e 12 meses, e a marcha independente por volta dos 12 a 15 meses.",
+      "C": "Correta. A sedestação sem apoio é adquirida, na maioria das crianças, entre 6 e 9 meses, período em que o controle de tronco já permite a postura sentada estável com liberação das mãos para manipulação.",
+      "D": "Incorreta. O desenvolvimento motor segue sentido craniocaudal e proximodistal: o controle cefálico (cerca de 2 a 3 meses) precede o controle voluntário das mãos, com preensão voluntária por volta dos 4 a 5 meses e pinça a partir dos 9 meses."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q029",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Bronquiolite viral aguda em lactente: diagnóstico e conduta inicial",
+    "subtema": "Reconhecimento do desconforto respiratório e manejo de suporte",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "bronquiolite",
+      "vírus sincicial respiratório",
+      "lactente",
+      "desconforto respiratório",
+      "urgência pediátrica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Uma infecção de vias aéreas superiores não cursa com taquipneia de 60 rpm, tiragem subcostal, batimento de asa de nariz, sibilos difusos e hipoxemia relativa. A presença de sinais de esforço respiratório e acometimento de vias aéreas inferiores afasta essa hipótese e torna insuficiente uma conduta apenas domiciliar.",
+      "B": "Correta. Lactente de 6 meses com pródromo de coriza, tosse e febre baixa evoluindo com taquipneia, sibilos bilaterais, roncos, tiragem e batimento de asa de nariz configura bronquiolite viral aguda, mais comumente pelo vírus sincicial respiratório. O tratamento é de suporte: oxigenoterapia quando a saturação cai abaixo do alvo, hidratação e nutrição adequadas, desobstrução nasal e monitorização contínua, sem indicação rotineira de antibiótico, corticoide ou broncodilatador.",
+      "C": "Incorreta. Faltam elementos que sustentem pneumonia bacteriana: a febre é baixa, a ausculta mostra sibilos e roncos difusos em vez de crepitações localizadas e não há toxemia ou dor torácica. Antibioticoterapia parenteral seria uso inadequado de antimicrobiano, e a meta de saturação acima de 95% não é recomendada nesse contexto.",
+      "D": "Incorreta. O diagnóstico de asma é pouco provável em um primeiro episódio de sibilância aos 6 meses precedido de quadro viral típico, exigindo episódios recorrentes e outros critérios clínicos. Broncodilatador inalatório e corticoide sistêmico não têm benefício consistente na bronquiolite e não devem ser prescritos de rotina."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q037",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Toxoplasmose congênita: achados de neuroimagem característicos",
+    "subtema": "Calcificações intracranianas difusas e diagnóstico diferencial com citomegalovírus",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "toxoplasmose congênita",
+      "infecções congênitas",
+      "neonatologia",
+      "calcificações intracranianas",
+      "citomegalovírus"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O edema cerebral é achado inespecífico, associado a agressões agudas como asfixia perinatal, encefalites e trauma, sem valor discriminatório para a toxoplasmose congênita.",
+      "B": "Incorreta. A hidrocefalia pode de fato ocorrer na toxoplasmose congênita, integrando a tríade clássica com coriorretinite e calcificações, mas não é achado sugestivo por si só: é inespecífica e observada em malformações, hemorragia intraventricular e outras infecções congênitas. A lesão que aponta especificamente para a correlação é a calcificação.",
+      "C": "Correta. As calcificações intracranianas de distribuição difusa, atingindo córtex, núcleos da base e substância branca, são o achado mais sugestivo de toxoplasmose congênita. Servem também para o diferencial com a infecção congênita por citomegalovírus, em que as calcificações têm padrão preferencialmente periventricular/intraventricular.",
+      "D": "Incorreta. O empiema do sistema nervoso central é coleção purulenta relacionada a infecções bacterianas, geralmente secundária a sinusite, otite, meningite ou procedimentos neurocirúrgicos, e não faz parte do espectro da toxoplasmose congênita."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q045",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Cefaleia progressiva em paciente com sinais de imunodeficiência avançada",
+    "subtema": "Reconhecimento de infecção oportunista do sistema nervoso central na suspeita de AIDS",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "HIV/AIDS",
+      "infecção oportunista",
+      "neurocriptococose",
+      "cefaleia secundária",
+      "pronto atendimento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há divergência entre o gabarito oficial (letra C, \"Enxaqueca\") e a justificativa oficial do autor, que descreve o quadro como sugestivo de neurocriptococose (letra B), o que compromete a chave de resposta do item.",
+    "justificativas": {
+      "A": "Incorreta. A neuralgia do trigêmeo cursa com dor lancinante, em choque, de segundos a poucos minutos, restrita ao território de um ou mais ramos do nervo trigêmeo e frequentemente desencadeada por estímulos na face — padrão incompatível com a cefaleia holocraniana contínua e progressiva descrita.",
+      "B": "Incorreta. Conforme o gabarito oficial, esta não é a alternativa assinalada como resposta. Cabe registrar, contudo, que o comentário oficial do item descreve exatamente este raciocínio: emagrecimento, adenomegalias cervicais, dermatite seborreica, monilíase oral e disfagia compõem quadro de imunodeficiência avançada, e a cefaleia holocraniana progressiva que impede o sono é altamente sugestiva de neurocriptococose com hipertensão intracraniana.",
+      "C": "Correta. Alternativa indicada como resposta pelo gabarito oficial da prova. Ressalva técnica: o comentário do autor caracteriza o caso como imunodeficiência com infecção oportunista do sistema nervoso central, e a enxaqueca — cefaleia primária, recorrente, tipicamente hemicraniana e pulsátil, com fono e fotofobia e sem sinais de alarme — não explica emagrecimento, adenomegalias, candidíase oral e piora progressiva com insônia, que são bandeiras vermelhas de cefaleia secundária.",
+      "D": "Incorreta. A hemorragia subaracnóidea manifesta-se como cefaleia súbita e de intensidade máxima em segundos (cefaleia em trovoada), frequentemente com rigidez de nuca, vômitos e rebaixamento de consciência, e não com evolução insidiosa e progressiva ao longo de dez dias como no caso."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q053",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Interpretação de risco relativo e intervalo de confiança em ensaio clínico randomizado",
+    "subtema": "Eficácia vacinal, redução relativa de risco e significância estatística",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "epidemiologia",
+      "bioestatística",
+      "risco relativo",
+      "intervalo de confiança",
+      "medicina baseada em evidências"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A estimativa da redução de risco está certa (eficácia = [1 − RR] × 100 = 67%), mas a leitura da precisão é equivocada: o intervalo de confiança de 0,25 a 0,43 é estreito e está inteiramente abaixo de 1, o que indica boa precisão e significância estatística, e não baixa precisão.",
+      "B": "Incorreta. Risco relativo menor que 1 significa redução, e não aumento, do risco no grupo vacinado. Interpretar RR de 0,33 como aumento de 33% inverte o sentido da medida; o valor corresponde a um risco 67% menor do que o do grupo placebo (5% versus 15%).",
+      "C": "Correta. Com 50/1.000 casos entre vacinados e 150/1.000 entre os que receberam placebo, o RR de 0,33 indica risco 67% menor no grupo vacinado (eficácia = [1 − 0,33] × 100 = 67%). Como o intervalo de confiança de 95% (0,25–0,43) não inclui a unidade e é estreito, a associação é estatisticamente significativa e a estimativa, precisa.",
+      "D": "Incorreta. Acumula dois erros: interpreta RR menor que 1 como aumento de risco e afirma ausência de relevância estatística justamente quando o intervalo de confiança exclui o valor 1 — situação que, ao contrário, confirma a significância estatística do achado."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q061",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Litíase ureteral obstrutiva com infecção e repercussão sistêmica",
+    "subtema": "Desobstrução urgente do trato urinário com cateter duplo J",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "urologia",
+      "pielonefrite obstrutiva",
+      "sepse",
+      "cálculo ureteral",
+      "duplo J"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A unidade da creatinina está grafada de forma incorreta (\"1,5 ng/ml\" em vez de mg/dL) e a PCR é apresentada sem unidade.",
+    "justificativas": {
+      "A": "Incorreta. A litotripsia extracorpórea é contraindicada na vigência de infecção urinária ativa e de urossepse, pois a fragmentação pode disseminar material infectado e agravar o quadro; além disso, não promove drenagem imediata do sistema obstruído. Trata-se de procedimento eletivo, após controle da infecção.",
+      "B": "Correta. O paciente tem pielonefrite obstrutiva com sinais de sepse (febre alta, leucocitose com desvio, elevação de PCR, disfunção renal e hipotensão com tontura postural). A prioridade, após antibiótico e ressuscitação volêmica, é a desobstrução urgente do trato urinário por cateter duplo J ou nefrostomia percutânea, garantindo drenagem da urina infectada; o tratamento definitivo do cálculo é postergado para depois do controle do quadro infeccioso.",
+      "C": "Incorreta. Cálculo de 8 mm em ureter proximal tem baixa probabilidade de eliminação espontânea, e a conduta expectante é inaceitável diante de obstrução infectada com repercussão sistêmica — a demora na drenagem aumenta a mortalidade da urossepse.",
+      "D": "Incorreta. A analgesia é medida de suporte necessária, mas postergar a intervenção por 48 horas em um sistema urinário obstruído e infectado configura retardo em uma emergência urológica, com risco de choque séptico e perda funcional renal."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q069",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Trauma ocular contuso com hipema: conduta inicial no pronto-socorro",
+    "subtema": "Proteção ocular rígida e encaminhamento oftalmológico urgente",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "oftalmologia",
+      "trauma ocular",
+      "hipema",
+      "pressão intraocular",
+      "emergência"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Diante de trauma contuso com hipema, midríase e hipertensão ocular, a conduta inicial é proteger o olho com protetor rígido (evitando qualquer compressão sobre o globo), manter o paciente em repouso com cabeceira elevada, suspender antiagregantes quando possível e encaminhar com urgência ao oftalmologista, que definirá tratamento tópico, controle da PIO e seguimento do risco de ressangramento e de glaucoma secundário.",
+      "B": "Incorreta. A lavagem ocular está indicada em trauma químico ou presença de corpo estranho superficial, não em trauma contuso com hipema; a manipulação e a pressão sobre o globo podem agravar a lesão e favorecer novo sangramento na câmara anterior.",
+      "C": "Incorreta. O colírio anestésico tópico é contraindicado no manejo continuado do trauma ocular: mascara a dor, é tóxico para o epitélio corneano e retarda o reconhecimento de complicações. Além disso, o hipema com PIO elevada exige avaliação oftalmológica imediata, e não em 24 horas.",
+      "D": "Incorreta. A acetazolamida pode integrar o controle da pressão intraocular, mas isoladamente não resolve o quadro e sua indicação deve ser individualizada (é evitada, por exemplo, em portadores de anemia falciforme). Aguardar reavaliação em 6 horas atrasa a avaliação especializada imediata de que o paciente necessita."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q077",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Indicações e tipos de laparotomia na cirurgia abdominal de urgência",
+    "subtema": "Instabilidade hemodinâmica como contraindicação à videolaparoscopia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "cirurgia de urgência",
+      "abdome agudo",
+      "laparotomia",
+      "videolaparoscopia",
+      "hérnia incisional"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. É justamente o oposto: as incisões medianas infraumbilicais apresentam as maiores taxas de hérnia incisional pós-operatória, em razão das características da linha alba abaixo da cicatriz umbilical e da maior tensão nessa região.",
+      "B": "Incorreta. Nas laparotomias de urgência a incisão de escolha é a mediana, por permitir ampla e rápida exploração de toda a cavidade abdominal com boa extensibilidade. As incisões paramedianas, transversas e oblíquas são reservadas à abordagem dirigida de sítios cirúrgicos adjacentes, com campo de exploração limitado.",
+      "C": "Incorreta. Com a consolidação da cirurgia minimamente invasiva, a via preferencial para o tratamento cirúrgico das doenças abdominais de urgência passou a ser a laparoscopia; a laparotomia fica indicada quando há contraindicação à videocirurgia ou quando as condições clínicas e o achado intraoperatório assim exigirem.",
+      "D": "Correta. A instabilidade hemodinâmica com exame abdominal alterado e sem outra causa que explique o choque caracteriza abdome agudo hemorrágico e contraindica a videolaparoscopia (o pneumoperitônio agrava o comprometimento hemodinâmico), constituindo indicação clássica de laparotomia exploradora imediata."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q085",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Anemia ferropriva por sangramento uterino anormal em mulher de 45 anos",
+    "subtema": "Reposição de ferro oral, seguimento ambulatorial e encaminhamento à ginecologia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "anemia ferropriva",
+      "sangramento uterino anormal",
+      "ferro oral",
+      "atenção primária",
+      "microcitose"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Astenia, sonolência, queda de cabelo, unhas quebradiças e pica (desejo de comer gelo), com palidez e anemia microcítica (Hb 7,8 g/dL, VCM 68 fL) em mulher com sangramento menstrual aumentado, configuram anemia ferropriva por sangramento uterino anormal. Com a paciente clinicamente estável, a conduta é iniciar ferro oral, encaminhar à ginecologia para investigação e tratamento da causa do sangramento e reavaliar a resposta em 2 a 4 semanas (reticulocitose e elevação da hemoglobina).",
+      "B": "Incorreta. A transfusão de concentrado de hemácias é reservada a pacientes instáveis, sintomáticos de forma grave ou com anemia de instalação aguda; a paciente está estável, com quadro crônico e boa perspectiva de resposta ao ferro oral. Transfundir aqui expõe a riscos desnecessários.",
+      "C": "Incorreta. O ferro parenteral é indicado quando há intolerância ou falha do ferro oral, má absorção, perdas contínuas de grande monta ou necessidade de reposição rápida — nada disso demonstrado no caso. O valor isolado da hemoglobina, em paciente estável e ambulatorial, não justifica internação nem via endovenosa de início.",
+      "D": "Incorreta. O padrão microcítico (VCM 68 fL) aponta para carência de ferro, e não para anemia megaloblástica; não há qualquer elemento que sustente deficiência de folato ou de vitamina B12, cuja reposição empírica seria terapia desnecessária e poderia mascarar a avaliação da resposta ao ferro."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q093",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Uretrite aguda com secreção purulenta após exposição sexual desprotegida",
+    "subtema": "Diagnóstico de uretrite gonocócica e diferenciais das IST",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "infecções sexualmente transmissíveis",
+      "uretrite",
+      "gonorreia",
+      "Neisseria gonorrhoeae",
+      "saúde do homem"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Secreção uretral abundante e purulenta, de cor esverdeada, com disúria leve e prurido no meato, iniciada poucos dias após relação sexual desprotegida, é o quadro típico de uretrite gonocócica por Neisseria gonorrhoeae, cujo período de incubação é curto (2 a 7 dias). A confirmação se faz por bacterioscopia, cultura ou biologia molecular, com tratamento e manejo de parcerias sexuais.",
+      "B": "Incorreta. A candidíase uretral é rara e ocorre sobretudo em imunocomprometidos ou diabéticos; manifesta-se com prurido intenso e secreção esbranquiçada, grumosa, e não com secreção purulenta esverdeada de instalação aguda após exposição sexual.",
+      "C": "Incorreta. A sífilis primária caracteriza-se pelo cancro duro — úlcera genital única, de bordas endurecidas, fundo limpo e indolor, com adenopatia satélite —, além de período de incubação mais longo (cerca de 3 semanas). O paciente não apresenta lesão ulcerada.",
+      "D": "Incorreta. O herpes genital cursa com vesículas agrupadas que evoluem para úlceras dolorosas, frequentemente acompanhadas de ardência, parestesias e sintomas sistêmicos na primoinfecção. Não há descrição de lesões cutaneomucosas, e a secreção purulenta não é o padrão dessa etiologia."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q101",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta frente a citologia com ASC-US no rastreamento do câncer do colo do útero",
+    "subtema": "Repetição precoce do citopatológico em mulheres com 30 anos ou mais",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "rastreamento",
+      "câncer de colo do útero",
+      "ASC-US",
+      "citopatológico",
+      "prevenção"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A colposcopia não é a conduta inicial diante de um único resultado de ASC-US; ela fica indicada quando a citologia de repetição mantém alteração (ASC-US ou lesão mais grave), ou em resultados de maior gravidade, como ASC-H, lesão intraepitelial de alto grau, AGC ou suspeita de invasão.",
+      "B": "Incorreta. A cauterização do colo é conduta terapêutica sem qualquer indicação diante de ASC-US, resultado que na maioria das vezes reflete alteração reacional ou infecção transitória por HPV com alta taxa de regressão espontânea. Tratar sem diagnóstico histológico configura sobretratamento.",
+      "C": "Correta. Pelo protocolo de rastreamento do câncer do colo do útero, o ASC-US em mulher com 30 anos ou mais — como esta paciente de 31 anos — determina repetição precoce do exame citopatológico em 6 meses, já que nessa faixa etária a chance de lesão subjacente persistente é maior; mantida a atipia, encaminha-se para colposcopia.",
+      "D": "Incorreta. O intervalo de 1 ano para repetir a citologia após ASC-US aplica-se às mulheres mais jovens (abaixo de 30 anos), em que a regressão espontânea é mais frequente. Para a paciente de 31 anos, esse intervalo retardaria indevidamente a reavaliação."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q109",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Pré-eclâmpsia grave com iminência de eclâmpsia em gestação de 32 semanas",
+    "subtema": "Sulfato de magnésio, anti-hipertensivo de ação rápida e decisão sobre o parto",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "pré-eclâmpsia",
+      "iminência de eclâmpsia",
+      "sulfato de magnésio",
+      "emergência hipertensiva",
+      "obstetrícia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A conduta expectante domiciliar está formalmente contraindicada diante de pressão arterial em nível de emergência hipertensiva e de sinais de iminência de eclâmpsia; o risco de convulsão, acidente vascular encefálico, descolamento prematuro de placenta e óbito materno-fetal exige internação imediata.",
+      "B": "Correta. Cefaleia intensa, escotomas, dor epigástrica, hiperreflexia, PA de 170/110 mmHg e proteinúria em gestante previamente normotensa de 32 semanas configuram pré-eclâmpsia com critérios de gravidade e iminência de eclâmpsia. A conduta imediata é internação com sulfato de magnésio para profilaxia e tratamento das convulsões, anti-hipertensivo de ação rápida (hidralazina, nifedipino ou labetalol) para controle da crise, corticoterapia para maturação pulmonar fetal conforme a idade gestacional, avaliação da vitalidade fetal e definição do momento da interrupção da gestação — único tratamento definitivo.",
+      "C": "Incorreta. A metildopa é anti-hipertensivo de manutenção, com início de ação lento, inadequado para crise hipertensiva; além disso, acompanhamento ambulatorial semanal é inaceitável em quadro com sinais premonitórios de eclâmpsia e não contempla a profilaxia com sulfato de magnésio.",
+      "D": "Incorreta. Postergar a conduta por 48 horas apenas para monitorar a pressão arterial expõe mãe e feto a risco elevado de eclâmpsia e de outras complicações graves; o quadro descrito exige intervenção imediata, e não observação."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q117",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Escolha do método contraceptivo em mulher com lúpus eritematoso sistêmico",
+    "subtema": "Critérios de elegibilidade e restrição ao estrogênio pelo risco tromboembólico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "contracepção",
+      "lúpus eritematoso sistêmico",
+      "critérios de elegibilidade",
+      "SIU-levonorgestrel",
+      "risco tromboembólico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Contraceptivo combinado oral, mesmo bifásico, contém estrogênio e está entre as categorias restritivas dos critérios médicos de elegibilidade para mulheres com lúpus, sobretudo pelo risco tromboembólico aumentado (especialmente na presença de anticorpos antifosfolípides).",
+      "B": "Incorreta. O regime trifásico não altera a questão central: qualquer combinado oral expõe a paciente ao componente estrogênico, contraindicado ou restrito no lúpus pelo risco de trombose, além de possível interferência na atividade da doença.",
+      "C": "Incorreta. O injetável mensal também é combinado (estrogênio + progestagênio) e, portanto, carrega a mesma restrição relativa ao estrogênio nessa paciente; a via de administração não elimina o risco tromboembólico.",
+      "D": "Correta. Pelos critérios de elegibilidade, a mulher com lúpus deve evitar métodos com estrogênio pelo risco tromboembólico. O sistema intrauterino de levonorgestrel é a melhor escolha: método só de progestagênio, de longa duração e alta eficácia, com ação predominantemente local, ainda com o benefício de reduzir o sangramento menstrual — vantagem adicional em paciente em uso de corticoide e metotrexato (fármaco teratogênico, o que reforça a necessidade de contracepção altamente eficaz)."
+    }
+  }
+]

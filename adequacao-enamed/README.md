@@ -38,28 +38,63 @@ canônico** do ecossistema MED-UNIDAVI, no formato do
 3. **Validação.** Contra o JSON Schema canônico (mesmas regras de
    `docs/anexos/schema-institucional/validate_questao.py`).
 
-## Estado atual — 190 questões prontas para curadoria
+## Fontes varridas
 
-| Fonte | Questões | Arquivo canônico |
-|---|---|---|
-| ENAMED 2025 — Caderno 01 | **90** | `canonico/enamed2025_caderno1.canonico.json` |
-| Simulados MED/ENAMED 2026 (01 e 02) | **100** | `canonico/simulados2026.canonico.json` |
+Tudo o que havia de **questões** na pasta do Drive
+("Resultados de avaliações dos alunos - simulados enamed e TP" + subpasta
+"Simulados Enamed"). Os demais arquivos da pasta são dados de desempenho
+(dashboards, resultados por coordenador, painéis) — verificados um a um, não
+contêm texto de questão.
 
-**Todas as 190 validam 100% contra o `schema_questao_med_unidavi.json`.**
-Verificação de integridade 190/190: cada questão tem exatamente 4 alternativas
-e uma única correta, **idêntica à do gabarito oficial** da prova de origem.
+| Fonte | Extraídas | Gabarito | Justificativa da origem |
+|---|---|---|---|
+| ENAMED 2025 — Caderno 01 | 90 (de 100; 10 anuladas) | oficial Inep | — |
+| Revalida 2023.2 | 91 (de 100; 9 anuladas) | oficial Inep | — |
+| Revalida 2024.1 | 95 (de 100; 5 anuladas) | oficial Inep | — |
+| Teste de Progresso MED 2022 | 115 | oficial | ✅ do autor |
+| TPMed 2025 (22/05) | 120 | oficial | ✅ do autor |
+| Simulados MED/ENAMED 2026 (01 e 02) | 84 | oficial | — |
+| Bancos `.docx` (CLM, NAPISUL 2, TP 2023) | 176 | oficial | ✅ do autor |
+| Simulado Nacional ENAMED 2025 (Estratégia) | 50 | ❌ **ausente** | — |
+| Simulado ENAMED 2026.1 (FPS) | 100 | ❌ **ausente** | — |
 
-- ENAMED: 100 extraídas → 10 anuladas/excluídas descartadas → 90 no banco.
-- Simulados: 40 (Simulado 01) + 60 (Simulado 02) = 100, todas aproveitadas.
-- **50 questões convertidas de 5 para 4 alternativas** (todo o Simulado 01 e as
-  10 finais do Simulado 02; as outras 50 já vinham com 4).
-- Distribuição do gabarito final: A=44, B=51, C=45, D=50 — **sem viés**.
-- Áreas: MFC 93, clínica médica 23, pediatria 21, GO 17, saúde mental 16,
-  urgência/emergência 14, cirurgia 6.
+**921 questões únicas.** As 150 sem gabarito ficam fora do banco até que a
+chave apareça — a alternativa correta é a única coisa que não se inventa.
 
-👉 **Comece pelo `canonico/RELATORIO-CURADORIA.md`** — versão legível das 190
-questões, com a correta marcada, as justificativas, e o registro do que foi
-descartado em cada conversão.
+👉 **Comece pelo `canonico/RELATORIO-CURADORIA.md`** — todas as questões em
+formato legível, com a correta marcada, as justificativas e o registro do que
+foi descartado ou remapeado.
+
+## Deduplicação entre fontes
+
+O mesmo item aparecia em provas diferentes: o **Simulado 02 institucional
+reaproveitou 16 questões do Revalida** e há 5 repetidas entre os cadernos de
+TP. `scripts/deduplicar.py` mantém a cópia de maior prioridade (prova oficial
+nacional > caderno comentado mais recente > simulado institucional > `.docx`) e
+marca a perdedora com `duplicata_de`, sem apagar nada.
+
+## Viés de posição da alternativa correta
+
+Os três bancos `.docx` seguem a ficha NAPISUL/ABEM, cuja metodologia manda
+escrever a correta **sempre como "A"**: 175 das 176 questões vinham assim. Num
+banco de treino isso zera o valor do item. O montador genérico aceita
+`--redistribuir-correta`, que move a correta para uma posição definida por hash
+do `id_origem` (determinístico, reproduzível), preserva a ordem relativa dos
+distratores e registra tudo em `_proveniencia`.
+
+## Imagens
+
+`scripts/anexar_imagens.py` extrai as figuras dos PDFs e as anexa à questão
+certa. O ruído é separado por hash: logotipos, faixas decorativas de cabeçalho
+e arte de capa se repetem em muitas páginas e são descartados. Cada figura foi
+**visualizada** antes de descrita; o `alt_text` (obrigatório no schema, por
+acessibilidade) relata os achados **sem entregar o diagnóstico** que o
+enunciado pede.
+
+19 figuras anexadas até agora — radiografias, ECG, cardiotocografia, TC de
+crânio, fotos clínicas, ecomapa, gráficos e charges. Uma única figura
+referenciada no texto **não existe** no PDF de origem (genograma da Q35 do
+Simulado 01).
 
 ## Conversão de 5 para 4 alternativas
 

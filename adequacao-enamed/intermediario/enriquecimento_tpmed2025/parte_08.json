@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q008",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Reflexo barorreceptor e controle neural da pressão arterial",
+    "subtema": "Vias aferentes do seio carotídeo e do arco aórtico",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03"],
+    "tags": ["fisiologia cardiovascular", "nervos cranianos", "barorreceptores", "sistema nervoso autônomo"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O nervo trigêmeo (V) é responsável pela sensibilidade somática da face e pela inervação motora dos músculos da mastigação, e o nervo facial (VII) pela mímica facial, gustação dos dois terços anteriores da língua e inervação parassimpática de glândulas salivares e lacrimais. Nenhum deles conduz aferências dos barorreceptores do seio carotídeo ou do arco aórtico.",
+      "B": "Incorreta. O nervo vago (X) de fato participa do reflexo, transmitindo os sinais dos barorreceptores do arco aórtico, mas o nervo acessório (XI) é puramente motor, inervando os músculos esternocleidomastóideo e trapézio, sem função barorreceptora. Portanto, o par está incompleto/incorreto.",
+      "C": "Incorreta. Os nervos olfatório (I) e óptico (II) são nervos sensoriais especiais dedicados à olfação e à visão, respectivamente, e não têm qualquer participação na aferência barorreceptora nem na regulação autonômica da pressão arterial.",
+      "D": "Correta. O reflexo barorreceptor depende da detecção de variações da pressão arterial por mecanorreceptores do seio carotídeo e do arco aórtico. O nervo glossofaríngeo (IX), via nervo do seio carotídeo (nervo de Hering), conduz os estímulos aferentes do seio carotídeo até o tronco encefálico, enquanto o nervo vago (X) transmite os sinais do arco aórtico. Essas aferências convergem para o núcleo do trato solitário e são processadas no centro vasomotor bulbar, que ajusta a atividade simpática e parassimpática para regular a pressão arterial."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q016",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Embriologia do sistema cardiovascular",
+    "subtema": "Formação do tubo cardíaco e cronologia da septação",
+    "competencia_dcn_2025": ["dcn2025_comp_21"],
+    "tags": ["embriologia", "mesoderma lateral", "tubo cardíaco", "desenvolvimento fetal"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado é aberto (\"é correto afirmar que\"), sem pergunta focalizada, o que contraria a recomendação técnica de enunciado autossuficiente e respondível sem a leitura das alternativas.",
+    "justificativas": {
+      "A": "Incorreta. O coração começa a bater ao final da terceira semana de gestação, e não da quarta. Nesse momento o tubo cardíaco primitivo já apresenta contrações rítmicas, ainda que o fluxo unidirecional efetivo se estabeleça pouco depois.",
+      "B": "Incorreta. O sistema cardiovascular não deriva do ectoderma nem se forma na segunda semana. Sua origem é mesodérmica — especificamente do mesoderma lateral (esplâncnico), na área cardiogênica —, com início do processo na terceira semana; o ectoderma origina o sistema nervoso e a epiderme.",
+      "C": "Correta. O tubo cardíaco se forma a partir do mesoderma lateral (esplâncnico) durante a terceira semana, pela fusão dos tubos endocárdicos pareados na linha média após o dobramento embrionário, e passa a bater ao final dessa mesma semana.",
+      "D": "Incorreta. A separação dos átrios e dos ventrículos ocorre antes da sexta semana, por volta da quinta semana, com o desenvolvimento dos septos primum e secundum, dos coxins endocárdicos e do septo interventricular, processo essencialmente concluído em torno da oitava semana."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q024",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Glomerulonefrite difusa aguda pós-estreptocócica na infância",
+    "subtema": "Síndrome nefrítica: fisiopatologia, laboratório e tratamento",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["nefrologia pediátrica", "síndrome nefrítica", "complemento C3", "estreptococo"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A alteração do perfil lipídico, com hipertrigliceridemia e hipercolesterolemia, é característica da síndrome nefrótica, decorrente da hipoalbuminemia e do aumento da síntese hepática de lipoproteínas. O quadro descrito — edema, hipertensão e hematúria macroscópica após piodermite — é de síndrome nefrítica por glomerulonefrite pós-estreptocócica, na qual o perfil lipídico habitualmente não se altera.",
+      "B": "Incorreta. A glomerulonefrite difusa aguda pós-estreptocócica é mais frequente no sexo masculino, com predomínio aproximado de 2:1, e acomete principalmente escolares entre 5 e 12 anos, faixa etária compatível com o paciente do caso.",
+      "C": "Incorreta. A restrição hídrica e de sódio é pilar do tratamento, que é essencialmente de suporte. Como há retenção hidrossalina responsável pelo edema, pela hipertensão e pelo risco de congestão circulatória, indicam-se restrição de sal e de líquidos, além de diuréticos de alça e anti-hipertensivos quando necessário.",
+      "D": "Correta. A glomerulonefrite pós-estreptocócica é sequela tardia, não supurativa, de infecção prévia de vias aéreas superiores ou de pele por cepas nefritogênicas do estreptococo beta-hemolítico do grupo A de Lancefield, manifestando-se pela tríade edema, hipertensão e hematúria de instalação súbita. Sua fisiopatologia envolve depósito de imunocomplexos nos glomérulos com ativação da via alternativa e consumo da fração C3 do complemento, que se apresenta diminuída e costuma normalizar em 6 a 8 semanas."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q032",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação por imagem após primeira infecção urinária febril no lactente",
+    "subtema": "Pielonefrite em menor de 2 anos e ultrassonografia de rins e vias urinárias",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_25"],
+    "tags": ["infecção do trato urinário", "pielonefrite", "ultrassonografia", "lactente"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O objetivo da investigação por imagem após a primeira infecção urinária febril é descartar malformações do trato urinário que possam implicar piores desfechos no futuro. A ultrassonografia de rins e vias urinárias é o exame de avaliação morfológica inicial, especialmente em menores de 2 anos com pielonefrite, por ser não invasivo, sem radiação ionizante e capaz de identificar hidronefrose, dilatação ureteral, alterações do parênquima e abscessos.",
+      "B": "Incorreta. A urografia excretora está praticamente abandonada na avaliação da infecção urinária pediátrica, por expor a criança a radiação ionizante e a contraste iodado endovenoso, com baixa acurácia para as alterações de interesse quando comparada à ultrassonografia e aos estudos cintilográficos.",
+      "C": "Incorreta. A cintilografia renal dinâmica com DTPA avalia função e drenagem, sendo útil na suspeita de obstrução já demonstrada por outro método; não é exame de primeira linha após infecção urinária. Quando se busca cicatriz renal, o estudo indicado é a cintilografia estática com DMSA, e ainda assim posteriormente, não como investigação inicial.",
+      "D": "Incorreta. A uretrocistografia miccional é o exame que diagnostica refluxo vesicoureteral, mas é invasivo, exige cateterismo vesical e irradia a criança. Por isso é reservada a casos selecionados — ultrassonografia alterada, infecções febris recorrentes ou germe atípico —, sendo indicada após e conforme o resultado da ultrassonografia."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q040",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Vacinação contra poliomielite: VIP e VOP no calendário brasileiro",
+    "subtema": "Poliomielite associada ao vírus vacinal e contraindicações da VOP",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_24"],
+    "tags": ["imunização", "poliomielite", "VOP", "imunodeficiência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado é longo e datado, ancorando-se em um esquema de transição VIP/VOP que já foi superado pela adoção do esquema exclusivamente inativado no PNI, o que compromete a atualidade do item.",
+    "justificativas": {
+      "A": "Correta. A VOP contém poliovírus vivo atenuado, que pode reverter à neurovirulência e causar poliomielite associada ao vírus vacinal, risco maior na primeira dose, em pessoas sem imunidade prévia induzida por VIP e, sobretudo, em imunodeficientes. Por isso a VOP é contraindicada a crianças imunocomprometidas e a seus contatos domiciliares, a crianças hospitalizadas e às que ainda não receberam as três doses de VIP — nessas situações utiliza-se a VIP.",
+      "B": "Incorreta. É verdade que, desde 2016, a VOP disponível é bivalente, contendo apenas os poliovírus tipos 1 e 3 (após a retirada do tipo 2 pelo switch global). Contudo, essa composição não é a razão da contraindicação: a bivalente é justamente a formulação recomendada para reforços e campanhas. O motivo do impedimento é o risco de doença paralítica pelo vírus vacinal.",
+      "C": "Incorreta. Tanto a VIP quanto a VOP são altamente imunogênicas nos esquemas recomendados. Três ou mais doses de VOP induzem excelente resposta de anticorpos séricos e substancial imunidade intestinal, com proteção sustentada e provavelmente vitalícia; a duração da imunidade não é o problema.",
+      "D": "Incorreta. O leite materno não inativa a vacina oral contra poliomielite, e a amamentação não precisa ser suspensa antes ou depois de sua administração. Essa interferência é descrita, de forma parcial e transitória, para a vacina oral contra rotavírus, e ainda assim sem impacto que justifique adiar a mamada."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q048",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Hanseníase: epidemiologia, transmissão e quadro clínico",
+    "subtema": "Doença de notificação compulsória com acometimento dermatoneurológico",
+    "competencia_dcn_2025": ["dcn2025_comp_24", "dcn2025_comp_01", "dcn2025_comp_15"],
+    "tags": ["hanseníase", "doenças negligenciadas", "notificação compulsória", "vigilância em saúde"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A hanseníase, causada pelo Mycobacterium leprae, é doença infectocontagiosa de notificação compulsória e curável, endêmica no Brasil com maior carga nas regiões Centro-Oeste, Norte e Nordeste. A transmissão ocorre pessoa a pessoa, por gotículas das vias aéreas superiores eliminadas na fala, na tosse e no espirro, em contato próximo e prolongado com doentes ainda não tratados. Acomete pele e nervos periféricos — manchas hipocrômicas ou acastanhadas com alteração de sensibilidade térmica, dolorosa e tátil, caroços e placas, perda de força muscular —, além de mucosa do trato respiratório superior, olhos e linfonodos.",
+      "B": "Incorreta. A sífilis é causada pelo Treponema pallidum e tem transmissão predominantemente sexual e vertical, não pelo convívio domiciliar por via respiratória. Embora seja de notificação compulsória e curável, não tem a distribuição regional descrita nem o acometimento característico de nervos periféricos com perda de sensibilidade.",
+      "C": "Incorreta. A dengue é uma arbovirose transmitida pela picada do mosquito Aedes aegypti, sem transmissão direta pessoa a pessoa. É doença aguda e autolimitada, sem tratamento curativo específico e sem acometimento de nervos periféricos, pele em placas anestésicas ou linfonodos nos moldes descritos.",
+      "D": "Incorreta. A tuberculose também é infecciosa, de notificação compulsória e curável, e transmite-se por via respiratória, mas seu agente é o Mycobacterium tuberculosis e o acometimento é predominantemente pulmonar (ou ganglionar, pleural, ósseo, meníngeo nas formas extrapulmonares). Não cursa com o padrão dermatoneurológico de lesões cutâneas com alteração de sensibilidade e espessamento de nervos periféricos."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q056",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Diretrizes da PNAB aplicadas ao cuidado do hipertenso na Estratégia Saúde da Família",
+    "subtema": "Adscrição de clientela, vínculo e longitudinalidade do cuidado",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_16", "dcn2025_comp_01"],
+    "tags": ["PNAB", "atenção primária", "hipertensão arterial", "longitudinalidade"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Campanhas pontuais de aferição em espaços públicos e grupos exclusivos para hipertensos com mera oferta de medicamentos configuram ações fragmentadas e campanhistas, sem continuidade do cuidado nem responsabilização sanitária sobre o território. Contrariam as diretrizes de longitudinalidade e coordenação do cuidado previstas na PNAB.",
+      "B": "Incorreta. Criar agenda prioritária desvinculada de ações coletivas de promoção da saúde reduz o cuidado ao componente curativo individual e rompe a integralidade, princípio que exige articulação entre promoção, prevenção, tratamento e reabilitação no mesmo processo de trabalho da equipe.",
+      "C": "Correta. A PNAB, aprovada pela Portaria GM/MS nº 2.436/2017, estabelece como diretrizes a regionalização e hierarquização, a territorialização, a população adscrita, o cuidado centrado na pessoa, a resolutividade, a longitudinalidade do cuidado, a coordenação do cuidado, a ordenação da rede e a participação da comunidade. Implementar a adscrição de clientela, fortalecer o vínculo da equipe da ESF com a população adscrita e realizar cuidado contínuo por meio de consultas programadas e visitas domiciliares operacionaliza exatamente essas diretrizes e garante a integralidade diante da baixa adesão ao acompanhamento.",
+      "D": "Incorreta. Grupos educativos semanais são recurso válido de promoção da saúde, mas, isolados e sem ações individuais, não permitem avaliação de risco cardiovascular, ajuste terapêutico, busca ativa dos faltosos nem cuidado centrado na pessoa. A dispensa das ações individuais viola a integralidade e a resolutividade preconizadas pela PNAB."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q064",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Fratura de clavícula na infância: conduta inicial",
+    "subtema": "Tratamento conservador com tipoia e potencial de remodelação óssea",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["ortopedia pediátrica", "fratura de clavícula", "tratamento conservador", "trauma"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não há indicação de tentativa de redução incruenta nas fraturas de clavícula da criança: a manobra é dolorosa, instável e não altera o desfecho, pois o alto potencial de remodelação corrige desvios e encurtamentos residuais. A imobilização em velpeau também é mais restritiva e desconfortável que a tipoia, sem benefício adicional demonstrado.",
+      "B": "Incorreta. A fixação interna com placa e parafusos é reservada a situações excepcionais — fratura exposta, lesão neurovascular associada, pele em risco de perfuração iminente ou fratura flutuante do ombro —, ausentes neste caso. Expor uma criança de 8 anos a cirurgia numa fratura fechada e sem complicações acrescenta risco anestésico e infeccioso desnecessário.",
+      "C": "Correta. As fraturas de clavícula são comuns na infância e normalmente não requerem cirurgia, dado o elevado potencial de consolidação e remodelação, que permite recuperação da amplitude total de movimento do ombro. A conduta inicial é conservadora: imobilização com tipoia por conforto e analgesia, com acompanhamento ambulatorial para avaliar a consolidação e a reabilitação progressiva.",
+      "D": "Incorreta. A simples observação sem imobilização é inadequada, pois o membro pendente mantém dor e movimentação do foco de fratura. A tipoia é necessária para analgesia e proteção do membro nas primeiras semanas, ainda que a estratégia global seja não cirúrgica."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q072",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Nódulo cervical em adulto com fatores de risco para neoplasia de cabeça e pescoço",
+    "subtema": "Investigação diagnóstica de massa cervical suspeita e lesão primária",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["câncer de cabeça e pescoço", "nódulo cervical", "biópsia", "tabagismo"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Homem de 58 anos, tabagista e etilista de longa data, com massa cervical endurecida e fixa, rouquidão persistente, disfagia, perda ponderal e lesão ulcerada na base da língua reúne fatores de risco e sinais de alarme clássicos de neoplasia maligna de cabeça e pescoço. A conduta é confirmar histologicamente a lesão primária por biópsia e realizar o estudo anatomopatológico do linfonodo cervical, com estadiamento por imagem, evitando tratamentos empíricos que atrasem o diagnóstico.",
+      "B": "Incorreta. Cistos branquiais são malformações congênitas que se manifestam tipicamente em pacientes jovens, com massa cervical amolecida e móvel que pode inflamar. Não se associam a rouquidão, disfagia, perda de peso, fixação aos planos profundos nem a lesão ulcerada da base da língua. Ausência de dor e de sinais flogísticos, nesse contexto, reforça malignidade em vez de afastá-la.",
+      "C": "Incorreta. Linfadenopatias inflamatórias inespecíficas costumam ser dolorosas, amolecidas ou flutuantes, móveis e de curso autolimitado, geralmente com foco infeccioso identificável. Aqui o linfonodo é persistente, endurecido e fixo; além disso, antibioticoterapia empírica antes da investigação apenas retarda o diagnóstico e piora o prognóstico oncológico.",
+      "D": "Incorreta. A afirmação inverte o quadro clínico: rouquidão, disfagia e perda de peso são justamente sintomas clássicos das neoplasias malignas de cabeça e pescoço, sobretudo dos tumores de laringe, orofaringe e hipofaringe, e devem ser tratados como sinais de alerta em tabagistas e etilistas."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q080",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Queimadura circunferencial de membro com síndrome compartimental",
+    "subtema": "Indicação de fasciotomia segundo o ATLS",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["queimaduras", "síndrome compartimental", "fasciotomia", "ATLS"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A imobilização com talas não alivia a pressão intracompartimental e pode inclusive agravá-la ao restringir ainda mais o compartimento. Trata-se de medida de suporte para fraturas, sem qualquer papel resolutivo diante de síndrome compartimental instalada.",
+      "B": "Incorreta. A sedação e a analgesia são adjuvantes ao cuidado do queimado, mas mascarar a dor desproporcional — sinal cardinal da síndrome compartimental — sem descomprimir o compartimento retarda o tratamento definitivo e favorece necrose muscular e perda do membro.",
+      "C": "Incorreta. Compressas frias não reduzem a pressão intracompartimental e, no grande queimado, contribuem para hipotermia e vasoconstrição, com piora da perfusão tecidual já comprometida. Não há benefício terapêutico nessa conduta.",
+      "D": "Correta. Conforme o ATLS 10ª edição (2018), o único tratamento da síndrome compartimental é a fasciotomia, que descomprime o compartimento e restaura a perfusão tecidual. Nas queimaduras circunferenciais de membros, a escarotomia pode preceder ou acompanhar o procedimento, mas com síndrome compartimental instalada a fasciotomia é imperativa: o retardo pode resultar em rabdomiólise com mioglobinúria e consequente disfunção renal."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q088",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Tratamento de manutenção da asma persistente moderada no adulto",
+    "subtema": "Corticosteroide inalatório associado a beta-agonista de longa duração",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_03"],
+    "tags": ["asma", "pneumologia", "corticosteroide inalatório", "broncodilatador"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item ignora a recomendação atual de resgate com formoterol associado a corticosteroide inalatório em vez de beta-agonista de curta duração isolado, o que o torna parcialmente desatualizado frente às diretrizes vigentes.",
+    "justificativas": {
+      "A": "Correta. Esta é a abordagem recomendada para a asma persistente moderada: uso diário de corticosteroide inalatório, que controla a inflamação eosinofílica subjacente, associado a um beta-agonista de longa duração para broncodilatação sustentada, com medicação de resgate disponível para sintomas. A combinação maximiza o controle dos sintomas e previne exacerbações, permitindo o uso da menor dose eficaz de corticosteroide.",
+      "B": "Incorreta. O beta-agonista de longa duração nunca deve ser usado em monoterapia na asma: ele alivia o broncoespasmo sem tratar a inflamação subjacente, mascarando a deterioração do controle e associando-se a maior risco de exacerbações graves e óbito relacionado à asma.",
+      "C": "Incorreta. O uso apenas intermitente de broncodilatadores, sem corticosteroide inalatório, não controla a inflamação persistente das vias aéreas e é insuficiente para a asma persistente moderada, resultando em sintomas mal controlados, remodelamento brônquico e exacerbações recorrentes.",
+      "D": "Incorreta. Os corticosteroides orais são reservados a exacerbações agudas e à asma grave não controlada, por curtos períodos, e não devem ser empregados como monoterapia diária de manutenção. O uso crônico acarreta osteoporose, hiperglicemia, hipertensão, catarata e supressão do eixo hipotálamo-hipófise-adrenal, sem a vantagem da entrega tópica pulmonar do corticosteroide inalatório."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q096",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Mecanismo de ação dos agonistas do receptor de GLP-1 no diabetes tipo 2",
+    "subtema": "Efeitos incretínicos, esvaziamento gástrico e supressão do glucagon",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_21", "dcn2025_comp_25"],
+    "tags": ["diabetes mellitus tipo 2", "farmacologia", "GLP-1", "obesidade"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O efeito é oposto ao descrito: os agonistas do receptor de GLP-1 melhoram a sensibilidade periférica à insulina, com aumento — e não redução — da captação de glicose pelo músculo esquelético e pelos adipócitos, efeito potencializado pela perda ponderal que promovem.",
+      "B": "Correta. Os agonistas do receptor de GLP-1 exercem múltiplas ações: provocam saciedade e reduzem o apetite por ação hipotalâmica, retardam o esvaziamento gástrico atenuando a excursão glicêmica pós-prandial e inibem a secreção de glucagon pelas células alfa, com redução do débito hepático de glicose. Somam-se a isso o estímulo à secreção de insulina de maneira glicose-dependente e a perda ponderal, benefícios particularmente relevantes neste paciente com DM2 e obesidade.",
+      "C": "Incorreta. O estímulo à secreção de insulina pelos agonistas de GLP-1 é glicose-dependente, ocorrendo apenas quando a glicemia está elevada — daí o baixo risco intrínseco de hipoglicemia. A secreção de insulina independente da glicemia é característica das sulfonilureias e das glinidas, que se ligam ao receptor SUR1 do canal de potássio ATP-dependente.",
+      "D": "Incorreta. O aumento da glicosúria por inibição do cotransportador sódio-glicose tipo 2 no túbulo proximal é o mecanismo dos inibidores de SGLT2 (gliflozinas), classe distinta dos agonistas do receptor de GLP-1, que não atuam no rim por essa via."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q104",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Manejo da COVID-19 grave na gestação com 33 semanas",
+    "subtema": "Oxigenoterapia, corticoterapia antenatal e tromboprofilaxia",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_14"],
+    "tags": ["COVID-19", "gestação de alto risco", "síndrome respiratória aguda grave", "tromboprofilaxia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O caso configura síndrome respiratória aguda grave na gestação, com febre, dispneia, taquipneia de 24 irpm e saturação de 92% em ar ambiente. Diante da alteração de sinais vitais e da dessaturação, indica-se internação para suporte com oxigenoterapia. A corticoterapia antenatal para maturação pulmonar fetal se justifica pela idade gestacional de 33 semanas, dentro da janela de 24 a 34 semanas, e pela possibilidade de interrupção da gestação caso haja deterioração hemodinâmica materna. A anticoagulação profilática está indicada pelo risco aumentado de tromboembolismo na gestante com COVID-19.",
+      "B": "Incorreta. Não há indicação de cesariana emergencial: o feto está em boas condições, com líquido amniótico normal e sem sinais de sofrimento. A transmissão vertical do SARS-CoV-2 é rara e a via de parto não a previne; a interrupção deve ser reservada a indicações obstétricas ou à deterioração materna refratária, considerando que uma cesariana em vigência de hipoxemia agrava o quadro respiratório.",
+      "C": "Incorreta. Antibioticoterapia empírica não deve ser prescrita rotineiramente na ausência de sinais de coinfecção bacteriana. A coinfecção é infrequente na COVID-19, e o uso indiscriminado favorece resistência antimicrobiana, efeitos adversos e custos desnecessários; os antimicrobianos ficam reservados a casos com evidência clínica, radiológica ou laboratorial de infecção bacteriana.",
+      "D": "Incorreta. Os antivirais não estão indicados para todas as gestantes independentemente do quadro clínico. Sua utilização é individualizada, considerando gravidade, tempo de sintomas, fatores de risco e a relação risco-benefício na gestação, sempre associada — e nunca em substituição — ao suporte respiratório, à corticoterapia e à tromboprofilaxia."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q112",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Tratamento da sífilis na gestante alérgica à penicilina",
+    "subtema": "Dessensibilização e benzilpenicilina benzatina como única droga eficaz",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_24"],
+    "tags": ["sífilis", "gestação", "penicilina benzatina", "infecções sexualmente transmissíveis"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A doxiciclina é contraindicada na gestação, pois as tetraciclinas atravessam a placenta e depositam-se em ossos e dentes fetais, causando descoloração dentária e alteração do crescimento ósseo, além de risco de hepatotoxicidade materna. Também não é considerada tratamento adequado do feto.",
+      "B": "Incorreta. O estolato de eritromicina é formalmente contraindicado na gestação pelo risco de hepatotoxicidade materna (hepatite colestática) e, além disso, os macrolídeos atravessam mal a barreira placentária, não tratando o concepto; há ainda resistência documentada do Treponema pallidum à azitromicina.",
+      "C": "Correta. O tratamento da sífilis é disponibilizado pelo Sistema Único de Saúde, sendo a benzilpenicilina benzatina o medicamento de escolha e a única droga com eficácia comprovada durante a gestação, por atravessar a placenta e tratar simultaneamente a gestante e o feto, prevenindo a sífilis congênita. Em caso de alergia relatada, a conduta é a dessensibilização à penicilina em ambiente hospitalar com suporte para anafilaxia, seguida da administração do esquema adequado ao estágio — neste caso de sífilis latente de duração indeterminada com VDRL 1:64, três doses semanais de 2.400.000 UI.",
+      "D": "Incorreta. A tetraciclina, assim como a doxiciclina, é contraindicada na gestação por seus efeitos deletérios sobre a formação óssea e dentária do feto, não sendo alternativa aceitável mesmo diante de relato de alergia à penicilina."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q120",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico definitivo do câncer de mama em nódulo palpável suspeito",
+    "subtema": "Core biopsy e confirmação histopatológica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_25"],
+    "tags": ["câncer de mama", "core biopsy", "diagnóstico histológico", "mastologia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A ressonância magnética das mamas é método de imagem com alta sensibilidade, útil na avaliação da extensão da doença, em mamas densas, na pesquisa de tumor primário oculto e no rastreamento de mulheres de alto risco. Auxilia na detecção, mas não estabelece o diagnóstico definitivo, que é histológico.",
+      "B": "Correta. O diagnóstico definitivo de câncer de mama somente pode ser estabelecido por biópsia com estudo histológico, sendo a punção percutânea com agulha grossa (core biopsy) o método de escolha diante de nódulo duro e irregular em mulher de 58 anos. Além de confirmar a malignidade e o tipo histológico, permite avaliar grau, receptores hormonais, HER2 e índice proliferativo, dados essenciais para o planejamento terapêutico.",
+      "C": "Incorreta. A mamografia é o exame padrão para rastreamento e avaliação diagnóstica inicial, permitindo caracterizar a lesão pela classificação BI-RADS, mas seus achados são apenas sugestivos. Nenhuma imagem substitui a confirmação anatomopatológica antes de iniciar o tratamento oncológico.",
+      "D": "Incorreta. A ultrassonografia mamária complementa a mamografia, diferenciando lesões císticas de sólidas, avaliando mamas densas e linfonodos axilares e guiando a punção, mas não fornece diagnóstico definitivo. Vale acrescentar que mesmo a punção aspirativa por agulha fina, guiada por ultrassom, é exame citológico — o diagnóstico definitivo exige histologia."
+    }
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q003",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Reparo tecidual na hepatopatia crônica: regeneração e fibrose na cirrose",
+    "subtema": "Nódulos regenerativos e septos fibrosos na cirrose por hepatite C",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "patologia geral",
+      "cirrose hepática",
+      "fibrose",
+      "regeneração tecidual",
+      "hepatite C"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Na hepatopatia crônica, como na cirrose por hepatite C, o fígado tenta regenerar-se por meio da proliferação de hepatócitos; entretanto, a fibrose depositada entre os nódulos impede a reestruturação adequada do órgão, resultando em nódulos regenerativos desorganizados. Há, portanto, regeneração celular efetiva, mas os septos fibróticos distorcem a arquitetura lobular e comprometem progressivamente a função hepática — exatamente o que a biópsia descrita demonstra.",
+      "B": "Incorreta. A substituição do parênquima hepático normal por tecido conjuntivo denso realmente ocorre na fibrose avançada e na cirrose, mas esse processo não restaura a função hepática: ao contrário, prejudica ainda mais o funcionamento do órgão, com perda progressiva das capacidades metabólica e de detoxificação.",
+      "C": "Incorreta. A ativação de fibroblastos/células estreladas e a deposição de matriz extracelular são eventos característicos da fibrose hepática, porém esse arcabouço não facilita a regeneração ordenada do parênquima: ele forma barreiras físicas entre os hepatócitos e entre estes e os sinusoides, desorganizando a estrutura hepática e dificultando a recuperação funcional.",
+      "D": "Incorreta. A deposição de colágeno e a formação de tecido cicatricial de fato integram a resposta à lesão crônica, mas, ao contrário do que a alternativa afirma, esse processo não permite a reconstituição da arquitetura hepática original — a fibrose desorganiza definitivamente a estrutura lobular e leva à disfunção progressiva do órgão."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q011",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Neurofibromatose tipo 1: perda da neurofibromina e ativação da via RAS/MAPK",
+    "subtema": "Genes supressores tumorais e sinalização proliferativa",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "genética médica",
+      "neurofibromatose tipo 1",
+      "via RAS/MAPK",
+      "oncogênese",
+      "biologia celular"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O gene NF1 codifica a neurofibromina, proteína ativadora de GTPase que inativa o RAS ao converter RAS-GTP em RAS-GDP. A perda funcional da neurofibromina mantém a via RAS/MAPK constitutivamente ativada, promovendo proliferação celular descontrolada — sobretudo de células da linhagem de Schwann — e predisposição a neurofibromas, neurofibromas plexiformes, gliomas ópticos e tumores malignos da bainha de nervo periférico.",
+      "B": "Incorreta. A ativação crônica de RAS não induz apoptose nesse contexto. Em células normais, a hiperativação oncogênica pode desencadear senescência como mecanismo de defesa; na NF1, porém, a sinalização contínua da via RAS/MAPK favorece a proliferação e confere resistência à apoptose, contribuindo para o crescimento tumoral.",
+      "C": "Incorreta. A via RAS/MAPK não bloqueia o ciclo celular em G0; ao contrário, estimula sua progressão, especialmente nas transições G1/S e G2/M. Sem a neurofibromina, esse controle se desregula e as células de Schwann tornam-se mais propensas ao crescimento descontrolado, e não menos proliferativas.",
+      "D": "Incorreta. A ativação da via RAS/MAPK aumenta, e não reduz, a expressão de fatores de crescimento e o estímulo angiogênico. Nos tumores associados à NF1 observa-se superexpressão de VEGF, com maior vascularização tumoral e progressão dos neurofibromas para formas mais agressivas."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q019",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Correlação anatomoclínica dos lobos cerebrais após AVC isquêmico",
+    "subtema": "Funções executivas e controle comportamental do lobo frontal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "neuroanatomia",
+      "lobo frontal",
+      "funções executivas",
+      "AVC isquêmico",
+      "correlação anatomoclínica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O quadro descrito (disfunção executiva e desregulação comportamental) permite localizar a lesão no lobo frontal, mas não sustenta a lateralização à esquerda, e a justificativa oficial contém imprecisão ao atribuir processamento de linguagem ao lobo parietal direito.",
+    "justificativas": {
+      "A": "Incorreta. O lobo occipital é responsável pelo processamento visual primário e pelo reconhecimento de objetos; lesões nessa região cursam com déficits campimétricos, agnosia visual ou alexia, e não com dificuldade de planejar tarefas e controlar emoções.",
+      "B": "Correta. O lobo frontal, em especial o córtex pré-frontal dorsolateral e orbitofrontal, sustenta as funções executivas — planejamento, organização, sequenciamento de tarefas — e o controle inibitório do comportamento e das emoções. O AVC isquêmico frontal esquerdo da paciente explica diretamente a dificuldade de planejar e organizar tarefas e a desregulação emocional/comportamental descritas.",
+      "C": "Incorreta. O lobo temporal direito relaciona-se predominantemente à memória episódica de longo prazo, ao processamento de estímulos não verbais e ao reconhecimento de faces (prosopagnosia quando lesado), funções que não correspondem ao quadro apresentado.",
+      "D": "Incorreta. O lobo parietal está envolvido no processamento somatossensitivo, na integração visuoespacial e, à direita, na atenção espacial (heminegligência), e não nas funções executivas e no controle comportamental descritos no caso."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q027",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Tratamento de manutenção da asma persistente na criança escolar",
+    "subtema": "Corticoide inalatório em dose baixa como primeira linha de controle",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "asma",
+      "pediatria",
+      "corticoide inalatório",
+      "terapia de manutenção",
+      "pneumologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O beta-agonista de curta duração é medicação de resgate. Seu uso contínuo não trata a inflamação de base, associa-se a tolerância, taquicardia e tremor e, sobretudo, relaciona-se a pior controle da asma e a maior risco de exacerbações graves e óbito.",
+      "B": "Incorreta. O corticosteroide oral está reservado ao tratamento das exacerbações moderadas a graves, em cursos curtos. Como terapia de manutenção acarreta efeitos adversos importantes na criança, como déficit de crescimento, supressão adrenal e alterações metabólicas.",
+      "C": "Correta. A criança apresenta necessidade de resgate mais de quatro vezes por semana e despertares noturnos, caracterizando asma persistente não controlada. O corticoide inalatório em dose baixa diária é o tratamento de manutenção de primeira linha, por atuar diretamente sobre a inflamação crônica das vias aéreas, reduzindo sintomas, exacerbações e necessidade de resgate a longo prazo.",
+      "D": "Incorreta. Os anti-histamínicos podem auxiliar no controle da rinite alérgica associada, mas não atuam sobre a inflamação eosinofílica brônquica nem sobre a hiperresponsividade das vias aéreas, não sendo, portanto, terapia de controle da asma."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q035",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Diagnóstico diferencial do Transtorno do Espectro Autista na infância",
+    "subtema": "Sobreposição de sintomas entre TEA e outros transtornos do neurodesenvolvimento",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "transtorno do espectro autista",
+      "psiquiatria da infância",
+      "neurodesenvolvimento",
+      "diagnóstico diferencial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item apresenta baixa discriminação porque o Transtorno da Comunicação Social (Pragmático) é classicamente apontado como o principal diagnóstico diferencial do TEA, o que torna a alternativa C fortemente defensável e o enunciado ambíguo quanto ao critério de 'mais comumente associada'.",
+    "justificativas": {
+      "A": "Incorreta. O Transtorno de Ansiedade Social cursa com evitação de situações sociais por medo de avaliação negativa, mas preserva a reciprocidade social em ambientes seguros e não se acompanha de comportamentos repetitivos, interesses restritos ou atraso de linguagem, como os descritos no caso.",
+      "B": "Incorreta. O TOC grave pode envolver comportamentos repetitivos, porém estes são rituais egodistônicos executados para aliviar ansiedade decorrente de obsessões, e não estereotipias ou insistência em rotinas. Além disso, o TOC não cursa tipicamente com atraso de linguagem nem com prejuízo primário da interação social.",
+      "C": "Incorreta. O Transtorno da Comunicação Social (Pragmático) compartilha com o TEA o prejuízo na comunicação social e pode gerar confusão diagnóstica, mas, por definição diagnóstica, exclui-se quando estão presentes comportamentos repetitivos e interesses restritos — justamente os achados descritos na criança do caso, que caracterizam o TEA.",
+      "D": "Correta. Conforme o gabarito oficial, o Transtorno de Aprendizagem Específico com prejuízo na leitura é o diagnóstico a ser considerado no diferencial dessa criança em idade escolar: trata-se de condição de alta prevalência, frequentemente precedida por atraso de linguagem, que pode cursar com retraimento e dificuldade de interação secundários ao fracasso escolar, exigindo avaliação neuropsicológica para diferenciá-la do TEA e reconhecer eventual comorbidade."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q043",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem da espiritualidade na prática clínica e promoção da saúde",
+    "subtema": "Distinção entre espiritualidade e religiosidade no cuidado centrado na pessoa",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_11",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "espiritualidade",
+      "atenção primária",
+      "método clínico centrado na pessoa",
+      "diversidade sociocultural"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Existem instrumentos consolidados e aplicáveis na Atenção Primária para a abordagem da espiritualidade na prática clínica, como o FICA, o HOPE e a Spiritual History, além de intervenções que incorporam a dimensão espiritual ao plano de cuidado.",
+      "B": "Incorreta. Os conceitos estão invertidos. A religiosidade é que se vincula a uma instituição e a um sistema organizado de práticas, crenças e simbolismos; a espiritualidade tem caráter universal e intrínseco, relacionada à busca de sentido e propósito, não necessariamente ligada a instituições religiosas.",
+      "C": "Incorreta. Abordar a espiritualidade e a religiosidade aproxima — e não afasta — a prática do método clínico centrado na pessoa, pois esses aspectos estão intimamente ligados à experiência pessoal, às crenças e aos entendimentos individuais sobre o processo saúde/doença. O eventual desconforto de alguns profissionais é obstáculo a ser superado por educação permanente, não uma contraindicação.",
+      "D": "Correta. A compreensão da espiritualidade tem papel inclusivo diante da diversidade sociocultural, por ser dimensão universal e não restrita a uma filiação religiosa, e permite valorizar a vivência pessoal do sujeito nos processos de adoecimento, enfrentamento e recuperação — o que se associa, na literatura, a menor prevalência de depressão e ansiedade e a melhor bem-estar biopsicossocial."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q051",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Níveis de prevenção aplicados ao rastreamento de diabetes mellitus na ESF",
+    "subtema": "Prevenção secundária e diagnóstico precoce em população de risco",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_01",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "níveis de prevenção",
+      "diabetes mellitus",
+      "rastreamento",
+      "estratégia saúde da família",
+      "epidemiologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A prevenção primária ocorre no período pré-patogênico, antes do aparecimento da doença, e inclui promoção da saúde e proteção específica. O diagnóstico precoce de uma doença já instalada, ainda que assintomática, é ação de prevenção secundária, e não primária.",
+      "B": "Incorreta. Embora a classificação como prevenção secundária esteja correta, a conclusão não procede: o rastreamento de diabetes em hipertensos é custo-efetivo, pois se dirige a grupo de risco aumentado e permite intervenção antes do surgimento de complicações onerosas.",
+      "C": "Incorreta. Além de classificar erroneamente a ação como prevenção primária, propõe rastreamento universal indiscriminado, contrariando a lógica de rastreamento seletivo baseada em fatores de risco, que evita sobrediagnóstico e uso não racional de recursos.",
+      "D": "Correta. A ação configura prevenção secundária, pois é realizada em indivíduo já sob ação do agente patogênico, visando diagnóstico e tratamento precoces e limitação das complicações. Justifica-se plenamente porque o diabetes tipo 2 costuma ser assintomático nas fases iniciais e suas complicações crônicas impõem custo elevado ao paciente e ao sistema de saúde, sendo os hipertensos um grupo de risco prioritário."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q059",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Educação em saúde na concepção dialógica e Educação Popular em Saúde",
+    "subtema": "Relação horizontal entre profissional e usuário nas práticas educativas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_12",
+      "dcn2025_comp_02",
+      "dcn2025_comp_19"
+    ],
+    "tags": [
+      "educação em saúde",
+      "educação popular",
+      "concepção dialógica",
+      "atenção primária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Na concepção dialógica, fundada na Educação Popular, educadores/profissionais de saúde e educandos/usuários relacionam-se horizontalmente, como sujeitos iguais, ainda que ocupem papéis distintos no processo. O saber técnico dialoga com o saber popular, e o conhecimento é construído conjuntamente, e não transmitido de cima para baixo.",
+      "B": "Incorreta. A comunicação meramente informativa, em que o profissional prescreve hábitos saudáveis ao usuário, caracteriza a concepção tradicional de educação em saúde — vertical, curativista e biologicista —, justamente aquela criticada pela perspectiva dialógica.",
+      "C": "Incorreta. A concepção dialógica valoriza os movimentos sociais como expressão organizada dos usuários e como parceiros legítimos na construção das ações de saúde; alijá-los por representarem setores subalternos contraria os fundamentos da Educação Popular em Saúde.",
+      "D": "Incorreta. Desqualificar as iniciativas dos usuários por representarem o saber popular reproduz a lógica autoritária da educação tradicional. Na concepção dialógica, o saber popular é ponto de partida e componente legítimo do processo educativo."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q067",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Bioética em cirurgia: recusa informada de procedimento por paciente capaz",
+    "subtema": "Autonomia, consentimento informado e conflito com familiares",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_04",
+      "dcn2025_comp_02",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "bioética",
+      "autonomia do paciente",
+      "cuidados paliativos",
+      "consentimento informado",
+      "cirurgia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Tentar convencer o paciente afirmando que a cirurgia é a única chance de sobreviver configura coerção e distorce a informação, uma vez que o procedimento de grande porte tem risco elevado de morbimortalidade em portador de DPOC avançada e os cuidados paliativos constituem alternativa legítima.",
+      "B": "Incorreta. Operar contra a vontade expressa de paciente lúcido, orientado e adequadamente informado caracteriza paternalismo e violação da autonomia, além de ilícito ético e jurídico. A preservação da vida não é princípio absoluto que se sobreponha à autodeterminação de pessoa capaz.",
+      "C": "Correta. O princípio da autonomia assegura ao paciente lúcido, orientado e adequadamente esclarecido sobre prognóstico e riscos o direito de recusar tratamentos, inclusive cirúrgicos, optando por cuidados paliativos. A equipe deve respeitar essa decisão, registrá-la em prontuário, garantir controle de sintomas e acolher a família, esclarecendo-a sem transferir a ela a decisão.",
+      "D": "Incorreta. A avaliação psiquiátrica não deve ser solicitada de rotina apenas porque a decisão do paciente contraria a expectativa da equipe ou da família. O paciente está lúcido e orientado, com capacidade decisória preservada; a interconsulta só se justificaria diante de suspeita fundamentada de transtorno que comprometa o discernimento."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q075",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo da hipotensão após indução anestésica com propofol",
+    "subtema": "Titulação do hipnótico e uso de vasopressor alfa-agonista",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_20",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "anestesiologia",
+      "propofol",
+      "hipotensão",
+      "fenilefrina",
+      "colecistectomia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Manter a infusão de propofol sem corrigir a hipotensão perpetua a vasodilatação e a depressão miocárdica induzidas pelo fármaco, expondo o paciente a hipoperfusão de órgãos vitais, com risco de lesão miocárdica, renal e cerebral.",
+      "B": "Incorreta. Suspender abruptamente o propofol compromete a profundidade anestésica, com risco de despertar intraoperatório e resposta adrenérgica indesejada; além disso, a fluidoterapia agressiva isolada é lenta e frequentemente insuficiente para reverter rapidamente a hipotensão vasoplégica, podendo causar sobrecarga volêmica.",
+      "C": "Incorreta. A vasopressina não é a primeira escolha para hipotensão aguda pós-indução anestésica, sendo reservada a situações de choque vasoplégico refratário ou choque séptico, e ao resgate da hipotensão refratária a alfa-agonistas.",
+      "D": "Correta. A conduta adequada é titular a dose de propofol para a menor dose que mantenha plano anestésico adequado e tratar a vasodilatação com pequenas doses fracionadas de fenilefrina, alfa-1-agonista que restaura a resistência vascular sistêmica e a pressão de perfusão de forma rápida e previsível, associada a reposição volêmica criteriosa."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q083",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico e tratamento inicial da artrite reumatoide soronegativa",
+    "subtema": "Critérios classificatórios e início de metotrexato com corticosteroide",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "artrite reumatoide",
+      "reumatologia",
+      "fator reumatoide",
+      "metotrexato",
+      "poliartrite"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A negatividade do fator reumatoide não exclui artrite reumatoide: sua sensibilidade e especificidade situam-se em torno de 70 a 80%, e cerca de um quinto a um terço dos pacientes é soronegativo. Nesses casos, a pesquisa de anti-CCP e o quadro clínico sustentam o diagnóstico.",
+      "B": "Incorreta. A osteoartrite cursa com dor mecânica, protocinética, rigidez matinal inferior a 30 minutos e acometimento de interfalangianas distais, não com poliartrite simétrica de metacarpofalangianas e punhos, rigidez matinal de 3 horas e provas inflamatórias muito elevadas. Ademais, o colágeno não tem indicação no tratamento da osteoartrite.",
+      "C": "Correta. A paciente preenche critérios classificatórios de artrite reumatoide: acometimento poliarticular simétrico de pequenas articulações (interfalangianas proximais e metacarpofalangianas) e de punhos e joelho, sinovite ao exame físico, duração superior a 6 semanas e provas de atividade inflamatória elevadas (VHS 105 mm/h e PCR 6 mg/dL); o tabagismo é fator de risco reconhecido. O tratamento inicial deve incluir corticosteroide em dose baixa como ponte e metotrexato como medicamento modificador do curso da doença, iniciado precocemente.",
+      "D": "Incorreta. A febre reumática é rara após os 30 anos e cursa com poliartrite de grandes articulações, de padrão migratório, assimétrico e autolimitado, com duração inferior a 4 semanas, além de exigir evidência de infecção estreptocócica prévia — quadro incompatível com a poliartrite crônica simétrica de pequenas articulações apresentada."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q091",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Confirmação diagnóstica da doença pulmonar obstrutiva crônica",
+    "subtema": "Espirometria pós-broncodilatador com VEF1/CVF abaixo de 0,70",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "DPOC",
+      "espirometria",
+      "pneumologia",
+      "tabagismo",
+      "diagnóstico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A tomografia de tórax é útil para avaliar a extensão do enfisema, planejar intervenções e investigar doenças parenquimatosas associadas ou neoplasia pulmonar, mas não é o exame que estabelece o diagnóstico de DPOC, que é funcional.",
+      "B": "Incorreta. A hipoxemia crônica, com ou sem hipercapnia, pode ocorrer na DPOC avançada e orienta a indicação de oxigenoterapia domiciliar, porém não é específica nem diagnóstica, ocorrendo em diversas outras condições cardiorrespiratórias.",
+      "C": "Correta. O diagnóstico de DPOC exige comprovação de limitação persistente ao fluxo aéreo pela espirometria: relação VEF1/CVF menor que 0,70 após uso de broncodilatador, em paciente com sintomas compatíveis e exposição de risco, como o tabagismo intenso descrito. É esse achado que demonstra a obstrução não plenamente reversível característica da doença.",
+      "D": "Incorreta. A radiografia de tórax pode evidenciar hiperinsuflação, aumento do espaço aéreo retroesternal e retificação diafragmática, sinais sugestivos mas de baixa sensibilidade e especificidade; presta-se sobretudo a afastar diagnósticos alternativos, não a confirmar DPOC."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q099",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Osteoartrite de joelhos: medida capaz de modificar a progressão da doença",
+    "subtema": "Redução de peso versus tratamentos apenas sintomáticos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "osteoartrite",
+      "reumatologia",
+      "obesidade",
+      "redução de peso",
+      "tratamento não farmacológico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O analgésico simples contínuo, assim como os AINEs, proporciona apenas alívio sintomático da dor, sem qualquer efeito sobre a degradação da cartilagem ou sobre a progressão estrutural da osteoartrite, além de acarretar riscos com o uso prolongado.",
+      "B": "Correta. O quadro é de osteoartrite: dor crônica protocinética que piora ao esforço, rigidez matinal inferior a 10 minutos, crepitação em joelhos e nódulos de Heberden. Com IMC de aproximadamente 31,9 kg/m², a obesidade é o principal fator de risco modificável, e a redução de peso — associada a exercício e fortalecimento muscular — é a única medida entre as listadas com capacidade demonstrada de reduzir a sobrecarga articular e retardar a progressão da doença.",
+      "C": "Incorreta. A suplementação de colágeno, assim como glicosamina e condroitina, não demonstrou eficácia consistente em desfechos estruturais e não tem indicação como terapia modificadora da osteoartrite, restringindo-se, quando muito, a efeito sintomático marginal.",
+      "D": "Incorreta. A infiltração intra-articular de corticosteroide produz ação anti-inflamatória local com alívio sintomático transitório, de poucas semanas, e infiltrações repetidas podem inclusive associar-se a perda de cartilagem, não impedindo a progressão da doença."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q107",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Descolamento prematuro de placenta: reconhecimento e fator de risco principal",
+    "subtema": "Hipertensão arterial materna como principal fator etiológico do DPP",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_14"
+    ],
+    "tags": [
+      "descolamento prematuro de placenta",
+      "obstetrícia",
+      "hemorragia da segunda metade",
+      "hipertensão na gestação",
+      "urgência obstétrica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O quadro de dor abdominal súbita e intensa, hipertonia uterina, sangramento vaginal e óbito fetal em gestante a termo é típico de descolamento prematuro de placenta. Embora a causa última permaneça desconhecida, a hipertensão arterial materna — crônica ou associada à pré-eclâmpsia — é o principal fator etiológico identificado, presente em cerca de 44% dos casos.",
+      "B": "Incorreta. A cirurgia uterina prévia, como cesariana anterior, associa-se sobretudo a placenta prévia, acretismo placentário e rotura uterina; não é o fator de risco mais frequentemente relacionado ao descolamento prematuro de placenta.",
+      "C": "Incorreta. A obesidade é fator de risco para diversas complicações obstétricas, como diabetes gestacional, doenças hipertensivas e distocias, mas não figura como o fator mais frequentemente associado ao descolamento prematuro de placenta.",
+      "D": "Incorreta. Quanto ao extremo etário, é a idade materna avançada, e não a idade abaixo de 20 anos, que se associa a maior risco de descolamento prematuro de placenta; ainda assim, esse fator tem peso muito inferior ao da hipertensão arterial materna."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q115",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Epidemiologia e fisiopatologia da incontinência urinária e do prolapso genital",
+    "subtema": "Incontinência urinária de esforço e disfunção do assoalho pélvico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "incontinência urinária",
+      "prolapso de órgãos pélvicos",
+      "uroginecologia",
+      "assoalho pélvico",
+      "parto vaginal"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O prolapso de órgãos pélvicos é justamente mais frequente em multíparas, pois os fatores mecânicos — partos vaginais, macrossomia, período expulsivo prolongado, obesidade, tosse crônica e esforço abdominal repetido — são determinantes maiores, ainda que a predisposição genética do tecido conjuntivo também contribua.",
+      "B": "Correta. A incontinência urinária de esforço decorre da fraqueza do suporte uretral e das estruturas do assoalho pélvico, com hipermobilidade uretral e/ou deficiência esfincteriana intrínseca, o que impede a manutenção da pressão uretral acima da vesical durante aumentos súbitos da pressão abdominal. É mais comum em mulheres que tiveram partos vaginais, sendo agravada pela deficiência estrogênica do climatério.",
+      "C": "Incorreta. A incontinência urinária de urgência resulta de hiperatividade detrusora, com contrações involuntárias do músculo detrusor durante o enchimento vesical, tendo base neuromuscular e não mecânica; associa-se a condições neurológicas, envelhecimento vesical e irritantes locais.",
+      "D": "Incorreta. O tratamento de primeira linha do prolapso de órgãos pélvicos é conservador — fisioterapia do assoalho pélvico, controle de peso e uso de pessário —, sendo a cirurgia reservada a casos sintomáticos, de grau avançado ou refratários às medidas conservadoras, respeitando o desejo e as condições clínicas da mulher."
+    }
+  }
+]

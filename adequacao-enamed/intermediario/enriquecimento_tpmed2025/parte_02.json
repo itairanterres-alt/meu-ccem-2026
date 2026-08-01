@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q002",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Gametogênese e fertilização humana",
+    "subtema": "Meiose, haploidia e local da fecundação",
+    "competencia_dcn_2025": ["dcn2025_comp_21"],
+    "tags": ["embriologia", "meiose", "espermatogênese", "ovulogênese", "fertilização"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A espermatogênese de fato ocorre nos túbulos seminíferos, porém a ovulogênese, que ocorre nos ovários, forma óvulos haploides (n), e não diploides. Ambos os gametas precisam ser haploides para que a fecundação restabeleça a diploidia (2n) da espécie.",
+      "B": "Incorreta. A fertilização ocorre habitualmente na tuba uterina (trompa de Falópio), tipicamente na região ampular, e não no útero. É na tuba que o espermatozoide penetra no óvulo, restabelecendo a diploidia e formando o zigoto; o útero é o sítio de implantação posterior do blastocisto.",
+      "C": "Correta. A meiose I é a divisão reducional: ocorre a separação dos cromossomos homólogos (previamente pareados e submetidos a crossing-over na prófase I), resultando em células com metade do número de cromossomos da espécie. A meiose II é equacional e separa as cromátides-irmãs.",
+      "D": "Incorreta. A ovulogênese não é um processo contínuo: inicia-se ainda na vida intrauterina, com formação dos folículos primordiais e ovócitos primários bloqueados em prófase I, permanecendo interrompida até a puberdade. Após a menarca, um ovócito é liberado a cada ciclo, mas não há formação de novos folículos, e o intervalo de 28 dias é apenas uma média."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q010",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Fatores de virulência de Candida spp.",
+    "subtema": "Dimorfismo fúngico e patogenicidade em oportunistas",
+    "competencia_dcn_2025": ["dcn2025_comp_21"],
+    "tags": ["microbiologia", "micologia", "Candida", "virulência", "infecção oportunista"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado apresenta erros de digitação e ausência de pontuação final ('que contem um desses fatores'), e a alternativa A traz erro de espaçamento ('daCandida spp').",
+    "justificativas": {
+      "A": "Incorreta. A aderência a tecidos e a superfícies inanimadas (cateteres, próteses) é de fato um fator de virulência de Candida spp., mas ela é mediada por adesinas de superfície da parede celular (família Als, Hwp1) e não por fímbrias, estruturas próprias de bactérias. Candida não produz fímbrias.",
+      "B": "Incorreta. Plasmídeos de resistência e antibióticos antibacterianos não se aplicam a leveduras: os antibióticos de amplo espectro agem sobre bactérias, não sobre fungos. Na prática, o uso desses antibióticos favorece a candidíase indiretamente, ao suprimir a microbiota bacteriana competidora, o que não configura fator de virulência do fungo.",
+      "C": "Incorreta. Candida spp. não produz cápsula. A cápsula polissacarídica antifagocítica é característica marcante de Cryptococcus neoformans, e não das espécies de Candida.",
+      "D": "Correta. O dimorfismo é um dos principais fatores de virulência de Candida spp.: em resposta a alterações do microambiente, como mudanças de pH, temperatura, disponibilidade de nutrientes e presença de soro, a levedura converte-se em pseudo-hifas e hifas, forma que favorece a invasão tecidual, a formação de biofilme e a escape da fagocitose."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q018",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Loxoscelismo: manifestações clínicas do acidente por aranha marrom",
+    "subtema": "Forma cutânea e cutâneo-visceral (hemolítica) e soroterapia",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_24"],
+    "tags": ["animais peçonhentos", "Loxosceles", "loxoscelismo", "hemólise", "toxicologia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado grafa incorretamente o gênero como 'Lexosceles' (o correto é Loxosceles) e o texto do comando praticamente repete a alternativa correta, entregando parte da resposta.",
+    "justificativas": {
+      "A": "Correta. A peçonha de Loxosceles, de ação proteolítica (dermonecrótica, mediada principalmente pela esfingomielinase D) e hemolítica, produz sintomatologia cutânea e renal. A forma cutânea cursa com lesão de placa marmórea e necrose de evolução lenta, com dor pouco intensa nas primeiras horas e que se torna forte, por vezes lancinante, no decorrer do primeiro dia; podem ocorrer febre, náuseas, vômitos e diarreia. Na forma cutâneo-visceral, a hemólise intravascular leva a hemoglobinúria e insuficiência renal aguda, complicação prevenida pela soroterapia precoce, nas primeiras 24 horas.",
+      "B": "Incorreta. O comprometimento cutâneo ocorre, mas a toxicidade cardíaca não faz parte do quadro do loxoscelismo. Manifestações cardiovasculares proeminentes são características do escorpionismo grave (Tityus serrulatus), com miocardite tóxica e edema agudo de pulmão.",
+      "C": "Incorreta. O acometimento renal secundário à hemólise ocorre, mas a peçonha de Loxosceles não é neurotóxica. Quadros neurológicos com fácies latrodectísmica, contraturas e dor muscular intensa correspondem ao latrodectismo (viúva-negra), e a ação neurotóxica com fácies miastênica é típica do acidente por Phoneutria e por corais verdadeiras.",
+      "D": "Incorreta. Nem toxicidade cardíaca nem neurológica compõem o quadro do loxoscelismo, que é essencialmente dermonecrótico e hemolítico, com repercussão renal. Além disso, a alternativa omite justamente a manifestação cutânea, que é a apresentação mais frequente do acidente."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q026",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Puberdade precoce central associada à obesidade infantil",
+    "subtema": "Papel da leptina na ativação do eixo hipotálamo-hipófise-gonadal",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["endocrinologia pediátrica", "puberdade precoce", "leptina", "obesidade", "eixo HPG"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A hiperinsulinemia da obesidade tem papel mais associado à sensibilização ovariana às gonadotrofinas e à redução da SHBG do que à ativação do gerador hipotalâmico de pulsos. A insulina não é o gatilho primário da secreção pulsátil de GnRH que desencadeia a puberdade central.",
+      "B": "Correta. A leptina, produzida pelo tecido adiposo e elevada na criança obesa, é o sinal metabólico permissivo que age no hipotálamo (via neurônios kisspeptina/KNDy) estimulando a liberação precoce e pulsátil de GnRH, com consequente ativação do eixo hipotalâmico-hipofisário-gonadal e desenvolvimento puberal. Isso explica a telarca em estágio II de Tanner com aceleração do crescimento e ausência de virilização nesta menina de 7 anos.",
+      "C": "Incorreta. A aromatização periférica de andrógenos em estrogênios no tecido adiposo pode produzir telarca precoce isolada, uma forma de pseudopuberdade precoce periférica, mas ocorre sem ativação do eixo HPG e, portanto, sem a aceleração sustentada do crescimento e a progressão puberal observadas no caso.",
+      "D": "Incorreta. A obesidade de fato reduz a síntese hepática de SHBG e eleva a fração livre de esteroides sexuais, o que pode contribuir para as manifestações, mas esse é um mecanismo coadjuvante e periférico; não é o mecanismo responsável pelo início da puberdade, que depende da reativação do eixo hipotálamo-hipófise-gonadal."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q034",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Crescimento do perímetro cefálico e desenvolvimento cerebral pós-natal",
+    "subtema": "Sinaptogênese, mielinização e diagnóstico diferencial das alterações do PC",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["neurodesenvolvimento", "perímetro cefálico", "mielinização", "microcefalia", "craniossinostose"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Após o nascimento, o aumento do perímetro cefálico decorre principalmente da sinaptogênese, da arborização dendrítica e da mielinização progressiva, com contribuição mínima da neurogênese. A proliferação neuronal tem seu pico até cerca de 18 a 20 semanas de gestação, com pouca ou quase nenhuma proliferação após esse período.",
+      "B": "Incorreta. O perímetro cefálico reduzido ao nascimento associa-se predominantemente a falhas da neurogênese e da proliferação neuronal intrauterina, que é o processo que determina o crescimento cerebral fetal. Defeitos de migração neuronal (lisencefalia, heterotopias, polimicrogiria) podem coexistir, mas isoladamente não justificam a alteração do perímetro cefálico.",
+      "C": "Incorreta. Embora o crescimento do perímetro cefálico seja mais acelerado no primeiro ano de vida, ele não atinge o valor máximo ao final desse período: o crescimento prossegue, em ritmo mais lento, ao longo da infância e até a adolescência.",
+      "D": "Incorreta. A retificação (achatamento) da curva de perímetro cefálico no primeiro ano de vida aponta sobretudo para causas neurais, com falha do crescimento encefálico (microcefalia adquirida, encefalopatias, erros inatos do metabolismo), e não para doença óssea. A craniossinostose costuma cursar com perímetro cefálico preservado e assimetria/deformidade craniana, pois há crescimento compensatório em outros eixos."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q042",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Interpretação de testes diagnósticos na atenção primária",
+    "subtema": "Sensibilidade, especificidade e dependência do valor preditivo em relação à prevalência",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_03"],
+    "tags": ["epidemiologia clínica", "acurácia diagnóstica", "valor preditivo", "prevalência", "MBE"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A alternativa inverte a lógica: um teste muito sensível gera poucos falsos negativos, de modo que é o resultado NEGATIVO que permite afastar a doença com segurança (regra SnNout). Um teste sensível pode gerar muitos falsos positivos, e um resultado positivo isolado não permite afirmar que é pouco provável que o paciente não tenha a doença.",
+      "B": "Incorreta. Também há inversão: um teste específico gera poucos falsos positivos, e é o resultado POSITIVO que confirma a doença (regra SpPin). Um teste específico com resultado negativo não descarta a hipótese diagnóstica, pois pode haver falsos negativos.",
+      "C": "Incorreta. A relação é oposta: quanto maior a prevalência da doença, maior a probabilidade de que um resultado positivo seja verdadeiro positivo, ou seja, maior o valor preditivo positivo e menor a proporção de falsos positivos entre os testes positivos. Falsos positivos predominam justamente em cenários de baixa prevalência.",
+      "D": "Correta. Sensibilidade e especificidade são propriedades intrínsecas do teste, mas os valores preditivos positivo e negativo dependem diretamente da prevalência (probabilidade pré-teste) da doença na população examinada. Por isso, na situação descrita, de quadro inicial pouco diferenciado atendido na UBS, a interpretação do resultado exige considerar a probabilidade pré-teste do paciente."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q050",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Transição epidemiológica e análise de tendências temporais em saúde",
+    "subtema": "Séries históricas e coexistência de perfis de morbimortalidade",
+    "competencia_dcn_2025": ["dcn2025_comp_15", "dcn2025_comp_10", "dcn2025_comp_16"],
+    "tags": ["epidemiologia", "transição epidemiológica", "séries históricas", "morbimortalidade", "saúde coletiva"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Ainda que as doenças crônico-degenerativas predominem em países com transição avançada, as doenças infecciosas e as carências nutricionais não deixam de ser relevantes: permanecem como desafios de saúde pública sob a forma de infecções relacionadas à assistência à saúde, resistência antimicrobiana, doenças emergentes e pandemias.",
+      "B": "Incorreta. A transição epidemiológica não é linear nem irreversível. Há recrudescência de doenças infecciosas em muitos países, por surtos epidêmicos, resistência microbiana, queda de coberturas vacinais e desigualdades sociais, configurando coexistência de perfis, o que no Brasil se descreve como tripla carga de doença.",
+      "C": "Incorreta. O processo não ocorre de maneira uniforme entre populações nem é determinado exclusivamente pelo desenvolvimento econômico. Cultura, hábitos alimentares, condições ambientais, mudanças climáticas, comportamento e políticas de saúde influenciam o ritmo e o padrão da transição, gerando inclusive diferenças intranacionais e entre grupos sociais.",
+      "D": "Correta. A análise de tendências temporais por meio de séries históricas de indicadores de morbidade e mortalidade permite identificar padrões cíclicos e sazonais, tendências ascendentes ou descendentes e o impacto de intervenções em saúde, sendo ferramenta essencial da vigilância epidemiológica e do planejamento em saúde."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q058",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cuidados paliativos na Atenção Primária à Saúde",
+    "subtema": "Comunicação eficaz e planejamento de cuidados centrado em valores",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_08", "dcn2025_comp_06"],
+    "tags": ["cuidados paliativos", "APS", "comunicação", "cuidado centrado na pessoa", "final de vida"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas distratoras descrevem ações que de fato pertencem aos cuidados paliativos na APS e só se tornam incorretas por restrições acrescentadas ('focando na dor', 'no serviço suplementar', 'evitando temas religiosos'), o que aproxima o item de uma questão de leitura atenta e não de raciocínio clínico.",
+    "justificativas": {
+      "A": "Incorreta. O gerenciamento de sintomas é parte legítima do cuidado paliativo na APS, mas não pode ser restrito à dor: dispneia, náuseas, constipação, fadiga, delirium, ansiedade e sofrimento existencial também comprometem a qualidade de vida e devem ser manejados. O erro da alternativa está no foco exclusivo na dor.",
+      "B": "Correta. Envolver paciente e família em conversas abertas e honestas sobre valores, necessidades e expectativas, por meio de comunicação eficaz, é a oferta central do cuidado paliativo na APS. A equipe de família, pelo vínculo longitudinal e pela coordenação do cuidado, é a mais bem posicionada para conduzir a comunicação de más notícias e o planejamento antecipado de cuidados.",
+      "C": "Incorreta. O apoio psicossocial é atribuição da própria equipe de Atenção Primária e da rede multiprofissional territorial (eSF, eMulti, assistência social, recursos comunitários), não devendo ser terceirizado ao serviço suplementar. Delegar esse suporte para fora do território fere a longitudinalidade e a responsabilização sanitária da APS.",
+      "D": "Incorreta. O amparo nos cuidados de fim de vida deve justamente facilitar, e não evitar, a abordagem de temas espirituais e religiosos, que integram a dimensão do sofrimento total e frequentemente emergem no processo de adoecimento e morte. Evitá-los contraria o cuidado integral e centrado na pessoa."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q066",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Isquemia mesentérica aguda com necrose intestinal estabelecida",
+    "subtema": "Pneumatose intestinal, choque e indicação de laparotomia de emergência",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["abdome agudo", "isquemia mesentérica", "pneumatose intestinal", "fibrilação atrial", "cirurgia de emergência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A arteriografia mesentérica tem papel diagnóstico e terapêutico nas fases iniciais da isquemia mesentérica, quando o intestino ainda é viável. Na paciente descrita, já há choque, acidose metabólica com lactato elevado e pneumatose intestinal na tomografia, sinais de necrose transmural estabelecida; retardar a laparotomia para realizar revascularização endovascular aumenta a mortalidade.",
+      "B": "Incorreta. Suporte hemodinâmico em terapia intensiva e anticoagulação plena são medidas adjuvantes importantes, especialmente pela provável origem embólica associada ao pulso irregular, mas isoladamente não revertem o quadro abdominal: alça necrosada não se recupera com anticoagulação, e a manutenção do segmento inviável perpetua a translocação bacteriana, a acidose e o choque.",
+      "C": "Incorreta. O quadro simula obstrução intestinal, o que é característico da isquemia mesentérica, mas a distensão de jejuno e íleo acompanhada de pneumatose intestinal, choque e hiperlactatemia não corresponde a obstrução simples. Tratar apenas com hidratação, sonda nasogástrica e estabilização clínica retarda a única conduta capaz de salvar a paciente.",
+      "D": "Correta. Idosa tabagista, diabética e hipertensa, com pulso irregular (sugestivo de fibrilação atrial e fonte embólica), dor abdominal desproporcional ao exame físico, diarreia de aspecto violáceo, evolução rápida para choque com acidose lática e pneumatose intestinal na tomografia configura isquemia mesentérica aguda com necrose intestinal. A conduta é laparotomia de emergência para inventário da cavidade e ressecção dos segmentos de delgado necrosados, com eventual revascularização e reabordagem programada (second look)."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q074",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cisto hidático esplênico por Echinococcus",
+    "subtema": "Tratamento cirúrgico: esplenectomia e prevenção de disseminação",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["cirurgia abdominal", "equinococose", "cisto hidático", "baço", "esplenectomia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A enucleação isolada das lesões não é adequada diante de cisto dominante calcificado acompanhado de cistos-satélite: o acometimento multifocal torna a ressecção incompleta provável e há alto risco de rotura intraoperatória, com extravasamento de líquido hidático, disseminação de escólices e equinococose secundária ou choque anafilático.",
+      "B": "Correta. Na hidatidose esplênica, sobretudo com cisto dominante calcificado e múltiplos cistos adjacentes como no caso, a esplenectomia é o tratamento de escolha, pois remove em bloco todo o órgão acometido, evita o extravasamento do conteúdo parasitário e previne recidiva e complicações. A cirurgia é habitualmente associada a albendazol perioperatório e à vacinação para germes encapsulados.",
+      "C": "Incorreta. Antibioticoterapia e esvaziamento por punção são condutas para abscesso esplênico piogênico, não para cisto hidático. A punção de cisto hidático sem as devidas precauções pode provocar disseminação peritoneal de escólices e reação anafilática grave. Técnicas percutâneas tipo PAIR são exceção, empregadas em cistos hepáticos selecionados e sob cobertura de albendazol, não em baço multicístico com calcificações.",
+      "D": "Incorreta. O destelhamento com marsupialização é técnica aplicada a cistos esplênicos não parasitários (congênitos ou pós-traumáticos), permitindo preservação do baço. Em cisto hidático essa abordagem expõe o conteúdo parasitário à cavidade, com risco de disseminação e recidiva, sendo formalmente desaconselhada."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q082",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo de efeitos adversos precoces de ISRS no transtorno depressivo maior",
+    "subtema": "Tempo de resposta terapêutica e adesão ao antidepressivo",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_20"],
+    "tags": ["psiquiatria", "depressão", "ISRS", "efeitos adversos", "adesão terapêutica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa apontada como correta generaliza a remissão espontânea dos efeitos adversos, ainda que a disfunção sexual induzida por ISRS costume ser persistente e frequentemente exija ajuste de dose ou troca de classe.",
+    "justificativas": {
+      "A": "Incorreta. A suspensão imediata do ISRS, além de expor o paciente à síndrome de descontinuação, desperdiça uma resposta parcial já obtida em 4 semanas. A troca por antidepressivo tricíclico não é a primeira opção, pois os ATC apresentam perfil de efeitos colaterais menos favorável (anticolinérgicos, cardiotoxicidade, letalidade em superdose).",
+      "B": "Incorreta. Acrescentar um ansiolítico, tipicamente um benzodiazepínico, para controlar ansiedade e insônia mascara sintomas sem tratar a causa subjacente e agrega riscos de sedação, quedas, tolerância e dependência. Se necessário, o uso deve ser breve e adjuvante, jamais a conduta principal neste momento.",
+      "C": "Correta. Aos 30 dias de tratamento o paciente já apresenta melhora parcial, e a resposta plena do ISRS costuma exigir 6 a 8 semanas na dose adequada. Os efeitos adversos iniciais, como insônia e piora da ansiedade, são frequentemente transitórios e tendem a atenuar-se com a continuidade do uso. A conduta mais adequada é manter a medicação por mais algumas semanas, reforçando a psicoeducação e a adesão, reservando ajuste de dose ou troca para persistência dos sintomas.",
+      "D": "Incorreta. A psicoterapia é intervenção de eficácia comprovada e deve ser combinada ao tratamento, mas não substitui a farmacoterapia no transtorno depressivo maior moderado a grave, sobretudo em paciente que já demonstrou resposta parcial ao ISRS. Suspender o antidepressivo aumentaria o risco de recaída."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q090",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Sinais de alerta (red flags) na lombalgia atendida na APS",
+    "subtema": "Suspeita de neoplasia vertebral com compressão medular e encaminhamento urgente",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["lombalgia", "sinais de alerta", "compressão medular", "neoplasia", "encaminhamento"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O paciente reúne múltiplos sinais de alerta vermelho para lombalgia: idade acima de 50 anos, tabagismo, perda ponderal não intencional, dor progressiva há três meses que não alivia com repouso e piora à noite, além de déficit motor e hiperreflexia em membro inferior. Esse conjunto sugere neoplasia vertebral com possível compressão medular, situação que exige encaminhamento imediato para avaliação especializada e propedêutica de urgência, sem retardo na APS.",
+      "B": "Incorreta. Anti-inflamatório com repouso e reavaliação em 30 dias é a conduta da lombalgia inespecífica, sem sinais de alerta. Aqui, além de o repouso não aliviar a dor, aguardar um mês diante de déficit neurológico progressivo pode resultar em lesão medular irreversível e perda da janela terapêutica oncológica.",
+      "C": "Incorreta. Analgesia e fisioterapia com reavaliação em 60 dias postergam ainda mais o diagnóstico. A presença de déficit motor e hiperreflexia caracteriza sinal de neurônio motor superior, contraindicando manejo conservador expectante e demandando investigação imediata.",
+      "D": "Incorreta. Solicitar exames e manter o acompanhamento apenas ambulatorial na UBS é insuficiente diante da suspeita de compressão medular, cuja avaliação exige ressonância magnética e conduta especializada em caráter de urgência. A APS deve coordenar o cuidado, mas garantindo o encaminhamento imediato e não retendo o caso."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q098",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "AVC isquêmico cardioembólico por fibrilação atrial",
+    "subtema": "Classificação TOAST e prevenção secundária com anticoagulação oral",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["neurologia", "AVC isquêmico", "fibrilação atrial", "classificação TOAST", "anticoagulação"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado apresenta erros de digitação por falha de conversão do texto ('A VE-I', 'CHADSV ASC2'), o que prejudica a clareza do comando.",
+    "justificativas": {
+      "A": "Incorreta. A etiologia não é indeterminada, pois há fonte emboligênica definida: fibrilação atrial documentada em eletrocardiograma. Além disso, AAS associado a estatina é insuficiente para prevenção secundária de AVC cardioembólico por fibrilação atrial, cenário em que a antiagregação é comprovadamente inferior à anticoagulação.",
+      "B": "Incorreta. A indicação de anticoagulante oral está correta, mas a classificação etiológica não é indeterminada. Pelo TOAST, o subtipo indeterminado aplica-se quando não há causa identificada, quando há duas ou mais causas concorrentes ou quando a investigação é incompleta, o que não ocorre aqui, já que a fibrilação atrial explica o evento e a angiotomografia afastou estenoses carotídeas significativas.",
+      "C": "Incorreta. A classificação como cardioembólico está correta, mas o tratamento proposto não. A dupla antiagregação com AAS e clopidogrel é estratégia de curto prazo para AVC menor ou AIT de alto risco de origem aterotrombótica, e não substitui a anticoagulação na fibrilação atrial, além de aumentar o risco hemorrágico sem benefício adicional nesse contexto.",
+      "D": "Correta. O quadro é de síndrome de circulação anterior total (hemiplegia proporcionada mais disfunção cortical com afasia motora) com hipodensidade fronto-têmporo-parietal esquerda, precedido de evento transitório há dois meses. A fibrilação atrial identificada no eletrocardiograma, com carótidas sem estenose significativa, define etiologia cardioembólica pelo TOAST. Com CHA2DS2-VASc elevado (idade, hipertensão, diabetes e AVC/AIT prévios), a profilaxia secundária após a alta é anticoagulação oral plena, associada ao controle rigoroso dos fatores de risco."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q106",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Dor pélvica crônica com dismenorreia e dispareunia",
+    "subtema": "Diagnóstico diferencial e hipótese de endometriose",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_02"],
+    "tags": ["ginecologia", "dor pélvica crônica", "endometriose", "dismenorreia", "dispareunia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Dor pélvica com mais de três meses de duração, de caráter cíclico, que piora no período menstrual (dismenorreia secundária) e durante a relação sexual (dispareunia profunda), em mulher jovem com ciclos regulares e sem sinais infecciosos, é altamente sugestiva de endometriose. A dor à mobilização do colo pode traduzir aderências e implantes em fundo de saco e ligamentos uterossacros decorrentes da doença.",
+      "B": "Incorreta. Embora a doença inflamatória pélvica possa evoluir com dor pélvica crônica sequelar, a apresentação típica é aguda, com febre, corrimento vaginal purulento, dor anexial e sinais inflamatórios mais evidentes. A paciente nega febre e não apresenta corrimento, e a dor cíclica ligada à menstruação não é o padrão da DIP.",
+      "C": "Incorreta. A cistite intersticial (síndrome da bexiga dolorosa) também causa dor pélvica crônica, porém acompanha-se caracteristicamente de sintomas urinários, como urgência, aumento da frequência, noctúria e alívio da dor após a micção. A paciente nega alterações urinárias, o que torna essa hipótese improvável.",
+      "D": "Incorreta. A apendicite manifesta-se tipicamente como dor aguda, migratória para a fossa ilíaca direita, com anorexia, febre e sinais de irritação peritoneal. Formas crônicas são raras, não apresentam padrão cíclico relacionado ao ciclo menstrual e não explicam a dispareunia."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q114",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Prevenção da transmissão vertical do HIV",
+    "subtema": "TARV na gestação, via de parto conforme carga viral e contraindicação à amamentação",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_24"],
+    "tags": ["HIV", "transmissão vertical", "pré-natal", "antirretrovirais", "aleitamento"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A cesárea eletiva, realizada com 38 semanas e antes do início do trabalho de parto e da rotura de membranas, é indicada apenas quando a carga viral é detectável (acima de 1.000 cópias/mL) ou desconhecida após 34 semanas. Com carga viral indetectável, a via de parto pode ser obstétrica, e indicar cesárea independentemente da carga viral expõe a gestante a risco cirúrgico sem benefício adicional.",
+      "B": "Correta. A associação da terapia antirretroviral combinada durante toda a gestação, iniciada o mais precocemente possível, com a contraindicação formal ao aleitamento materno (substituído por fórmula láctea, com inibição farmacológica da lactação) é a base da prevenção da transmissão vertical do HIV, complementada pela profilaxia intraparto quando indicada e pela profilaxia do recém-nascido. A supressão viral materna é o principal determinante da redução do risco.",
+      "C": "Incorreta. A profilaxia no recém-nascido é apenas um componente da estratégia e não substitui o tratamento materno. A transmissão pode ocorrer intraútero, no periparto e pela amamentação; restringir a intervenção ao neonato deixa desprotegido todo o período gestacional e resulta em taxas de transmissão muito superiores.",
+      "D": "Incorreta. Postergar a TARV para o terceiro trimestre por receio de toxicidade fetal é conduta ultrapassada e prejudicial. Os esquemas atualmente recomendados têm perfil de segurança adequado na gestação, e o início precoce, idealmente no primeiro trimestre ou imediatamente após o diagnóstico, é o que garante supressão viral no momento do parto e menor risco de transmissão intraútero."
+    }
+  }
+]

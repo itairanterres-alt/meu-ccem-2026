@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q007",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Mecanismo de ação dos glicocorticoides",
+    "subtema": "Farmacologia dos anti-inflamatórios esteroidais e receptores nucleares",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["farmacologia", "glicocorticoides", "prednisona", "inflamação", "receptor nuclear"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O bloqueio dos receptores H1 da histamina é o mecanismo dos anti-histamínicos (por exemplo, loratadina e dexclorfeniramina), e não dos glicocorticoides; a prednisona não antagoniza diretamente receptores de histamina, embora reduza indiretamente a resposta alérgica ao suprimir a transcrição de mediadores inflamatórios.",
+      "B": "Incorreta. A inibição da ciclo-oxigenase (COX-1 e COX-2) é o mecanismo dos anti-inflamatórios não esteroidais, sendo a inibição irreversível característica do ácido acetilsalicílico. Os glicocorticoides reduzem a produção de prostaglandinas por via distinta e a montante, ao inibirem a fosfolipase A2 pela indução de lipocortina-1 e ao reprimirem a expressão gênica da COX-2.",
+      "C": "Correta. Os glicocorticoides atravessam a membrana plasmática e ligam-se a receptores intracelulares (nucleares) da família dos receptores de esteroides; o complexo hormônio-receptor transloca-se ao núcleo e modula a transcrição gênica, suprimindo a expressão de genes pró-inflamatórios (citocinas, quimiocinas, COX-2) por transrepressão de NF-κB e AP-1, e induzindo proteínas anti-inflamatórias como a lipocortina-1 (anexina A1).",
+      "D": "Incorreta. Os glicocorticoides reduzem, e não aumentam, a liberação de prostaglandinas, pois bloqueiam a cascata do ácido araquidônico por inibição indireta da fosfolipase A2; não existe o mecanismo descrito de estímulo epitelial brônquico à liberação de prostaglandinas anti-inflamatórias."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q015",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Estabilidade dinâmica do joelho",
+    "subtema": "Anatomia funcional do membro inferior: estabilizadores estáticos e dinâmicos",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03"],
+    "tags": ["anatomia", "joelho", "quadríceps femoral", "biomecânica", "estabilidade articular"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O ligamento cruzado anterior é um estabilizador estático, pois limita passivamente a translação anterior da tíbia sobre o fêmur e a rotação interna, sem gerar força ativa durante o movimento.",
+      "B": "Correta. A estabilidade dinâmica do joelho depende essencialmente da ação muscular ativa, e o quadríceps femoral é a principal estrutura envolvida: controla a posição e o rastreamento da patela, sustenta a extensão do joelho e absorve o impacto durante a marcha e as atividades de carga.",
+      "C": "Incorreta. O ligamento colateral lateral também é estabilizador estático, resistindo ao estresse em varo; sua atuação é passiva e não depende de contração muscular.",
+      "D": "Incorreta. O menisco lateral contribui para a congruência articular, a distribuição de carga e a absorção de impacto, mas é estrutura fibrocartilaginosa passiva, não sendo responsável pela estabilidade dinâmica."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q023",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Crise convulsiva febril simples na infância",
+    "subtema": "Classificação e conduta na convulsão febril: indicação de exames e profilaxia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["pediatria", "convulsão febril", "neurologia infantil", "conduta", "uso racional de exames"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A crise descrita não preenche critérios de crise febril complexa: foi generalizada tônico-clônica (sem sintomas focais), durou cerca de cinco minutos (menos de 15 minutos), foi única em 24 horas e teve resolução espontânea. Portanto, não há indicação de punção lombar nem de exame de imagem, que ficariam reservados a lactentes menores de 6 meses, a sinais meníngeos ou a depressão do sistema nervoso central.",
+      "B": "Correta. Trata-se de crise febril simples — crise generalizada, breve (menos de 15 minutos), única em 24 horas, com resolução espontânea, em criança de 2 anos (faixa de 3 meses a 5 anos) com foco infeccioso extracraniano evidente (quadro de via aérea superior) e exame neurológico normal em bom estado geral. Nesse cenário não há indicação de investigação complementar (líquor, imagem ou eletroencefalograma) no momento, e o tratamento é de suporte, sem necessidade de anticonvulsivante profilático de manutenção.",
+      "C": "Incorreta. A etiologia não está por esclarecer: há febre documentada e infecção de vias aéreas superiores concomitante, configurando crise febril. O eletroencefalograma não é indicado após crise febril simples, pois não altera a conduta nem prediz de forma útil o risco de epilepsia; a história familiar de epilepsia isoladamente não muda essa recomendação.",
+      "D": "Incorreta. Além de a etiologia estar definida como crise febril simples, a solicitação combinada de eletroencefalograma, tomografia de crânio e líquor representa investigação desnecessária, com exposição a radiação, procedimento invasivo e custos injustificados em criança em bom estado geral e com exame neurológico normal."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q031",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Diarreia aguda com desidratação grave em lactente",
+    "subtema": "Gastroenterite viral: diagnóstico e hidratação venosa no plano C",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["pediatria", "diarreia aguda", "desidratação grave", "adenovírus", "hidratação venosa"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado insere um distrator forte e clinicamente plausível (introdução de fórmula com leite de vaca há 2 semanas associada a fezes com muco), o que torna a alternativa C competitiva com o gabarito e reduz a univocidade da chave.",
+    "justificativas": {
+      "A": "Incorreta. O quadro é de diarreia aquosa sem disenteria, febre alta ou toxemia que sugiram etiologia bacteriana invasiva, e a antibioticoterapia empírica não está indicada na diarreia aguda do lactente, podendo prolongar a excreção de patógenos e causar dano. A prioridade é a reidratação, e não o antimicrobiano.",
+      "B": "Correta. O conjunto de diarreia aquosa de quatro dias, vômitos, irritabilidade e fezes explosivas é típico de gastroenterite viral (rotavírus e adenovírus entérico), e a criança apresenta sinais de desidratação grave — mucosas secas, enchimento capilar lento de 3 segundos, turgor cutâneo diminuído, oligúria, sonolência e taquicardia de 150 bpm. A conduta imediata é a hidratação venosa (plano C) com internação para monitorização, sem necessidade de antimicrobiano.",
+      "C": "Incorreta. Embora a introdução recente de fórmula com leite de vaca levante a hipótese, a alergia à proteína do leite de vaca costuma manifestar-se de forma mais insidiosa, com sangue oculto ou vivo nas fezes, dermatite, vômitos recorrentes e má progressão ponderal, e não com quadro agudo de quatro dias evoluindo para desidratação grave. A prioridade imediata neste momento é a reposição volêmica, e a troca por fórmula extensamente hidrolisada não é a conduta que define o caso.",
+      "D": "Incorreta. A giardíase cursa tipicamente com diarreia subaguda ou crônica, esteatorreia, distensão abdominal e perda ponderal, raramente causando desidratação grave em quatro dias. Além disso, propor hidratação oral em criança sonolenta com enchimento capilar lento é inadequado, pois há indicação formal de via venosa."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q039",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertireoidismo na adolescência: doença de Graves",
+    "subtema": "Diagnóstico diferencial das doenças da tireoide na infância e adolescência",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["endocrinologia", "doença de Graves", "tireotoxicose", "bócio", "adolescência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há erro de digitação na alternativa B (\"Tidoidite\" em vez de \"Tireoidite\"), o que pode confundir o candidato.",
+    "justificativas": {
+      "A": "Incorreta. O câncer de tireoide é habitualmente assintomático do ponto de vista hormonal e manifesta-se por nódulo palpável, geralmente maior que 1,5 cm, ou por linfonodomegalia cervical isolada; não explica o quadro de tireotoxicose com taquicardia, tremor fino, perda ponderal e bócio difuso.",
+      "B": "Incorreta. A tireoidite de Hashimoto pode cursar com hipertireoidismo transitório em cerca de 10% dos pacientes, pela destruição folicular e liberação de hormônio pré-formado, mas evolui para hipotireoidismo e não cursa com proptose nem com o quadro hipermetabólico sustentado de 40 dias aqui descrito.",
+      "C": "Incorreta. O bócio endêmico decorre da carência de iodo em áreas deficientes e associa-se a hipotireoidismo; o hipertireoidismo por iodo (fenômeno de Jod-Basedow) é situação particular de reposição em previamente carentes, não compatível com o quadro clássico apresentado.",
+      "D": "Correta. A doença de Graves é a causa mais comum de hipertireoidismo na infância e adolescência e explica todo o quadro: agitação, insônia, tremor fino de extremidades, perda ponderal apesar de ingesta normal, pele quente e úmida, taquicardia de 124 bpm com pressão divergente e bócio difuso, além do olhar assustado sugestivo de oftalmopatia, presente em cerca de metade dos casos pediátricos."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q047",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Atribuições do médico na Atenção Básica segundo a PNAB",
+    "subtema": "Portaria nº 2.436/2017: atribuições comuns e específicas da equipe de Saúde da Família",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_16", "dcn2025_comp_22"],
+    "tags": ["PNAB", "atenção básica", "atribuições profissionais", "políticas de saúde", "SUS"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O mapeamento do território e a identificação de famílias e indivíduos em situação de risco constituem atribuição comum a todos os membros da equipe de Atenção Básica, com papel destacado do agente comunitário de saúde, não sendo exclusiva do médico.",
+      "B": "Correta. A PNAB (Portaria nº 2.436/2017) elenca entre as atribuições específicas do médico indicar e avaliar a necessidade de internação hospitalar ou domiciliar, mantendo a responsabilização pelo acompanhamento do usuário durante o tratamento. Trata-se de ato privativo do profissional médico, distinguindo-se das atribuições dos demais integrantes da equipe.",
+      "C": "Incorreta. A atenção domiciliar a pessoas com problemas de saúde controlados e algum grau de dependência é atribuição compartilhada da equipe, podendo ser executada por enfermeiros, técnicos de enfermagem e demais profissionais, conforme a necessidade do usuário.",
+      "D": "Incorreta. O gerenciamento de insumos e o apoio ao funcionamento da unidade são atribuições comuns a todos os profissionais da equipe, com participação especial do técnico de enfermagem e da gestão local, não configurando atribuição exclusiva do médico."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q055",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Rastreamento do câncer de mama segundo INCA/Ministério da Saúde",
+    "subtema": "Mamografia bienal dos 50 aos 69 anos em mulheres assintomáticas de risco habitual",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_06"],
+    "tags": ["rastreamento", "câncer de mama", "mamografia", "prevenção", "INCA"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Mulher de 55 anos, assintomática e sem histórico familiar, encontra-se na faixa etária de rastreamento recomendada pelo INCA/Ministério da Saúde (50 a 69 anos), com periodicidade bienal. Como a última mamografia foi há quatro anos, está fora do intervalo preconizado e deve ser solicitada a mamografia de rastreamento, podendo o exame clínico das mamas ser realizado como parte do acompanhamento.",
+      "B": "Incorreta. A ultrassonografia mamária não é método de rastreamento populacional, sendo reservada como exame complementar em situações específicas, como avaliação de achado mamográfico ou mamas densas; a idade de 55 anos não justifica sua indicação isolada.",
+      "C": "Incorreta. Justamente por ser assintomática é que a paciente se enquadra no rastreamento, cujo objetivo é detectar lesões antes do aparecimento de sintomas; o exame clínico das mamas não substitui a mamografia.",
+      "D": "Incorreta. A periodicidade anual e a associação rotineira de ultrassonografia não estão em consonância com as recomendações vigentes do Ministério da Saúde, que adotam o intervalo bienal por equilibrar benefícios e riscos (falsos-positivos, sobrediagnóstico e exposição à radiação)."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q063",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Infecção de sítio cirúrgico superficial pós-colecistectomia",
+    "subtema": "Classificação das infecções de sítio cirúrgico e manejo inicial da ferida operatória",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_01"],
+    "tags": ["cirurgia", "infecção de sítio cirúrgico", "pós-operatório", "ferida operatória", "colecistectomia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há erro de formatação no enunciado (\"parece estaríntegra\" e uso de \"37,3o.C\"), que compromete a clareza do texto sem alterar a resposta.",
+    "justificativas": {
+      "A": "Incorreta. A infecção de sítio cirúrgico profunda envolve fáscia e planos musculares, e o enunciado descreve aponeurose aparentemente íntegra, com secreção restrita ao plano cutâneo/subcutâneo; não há indicação de reabordagem em centro cirúrgico com lavagem da cavidade abdominal.",
+      "B": "Incorreta. O abscesso intra-abdominal cursaria com febre mais elevada, dor abdominal significativa, sinais de irritação peritoneal ou íleo e repercussão sistêmica, o que não ocorre em paciente com abdome flácido, apenas discretamente doloroso, e sinais vitais normais salvo febrícula; a secreção drena pela incisão, indicando plano superficial.",
+      "C": "Correta. Quadro no quinto dia de pós-operatório, com hiperemia, edema e secreção seropurulenta na incisão, aponeurose íntegra e ausência de repercussão sistêmica, caracteriza infecção de sítio cirúrgico superficial (pele e tecido subcutâneo). O manejo inicial consiste em abertura dos pontos, drenagem da secreção e curativos diários, ficando a antibioticoterapia condicionada à presença de celulite extensa ou sinais sistêmicos.",
+      "D": "Incorreta. Além de o diagnóstico não ser de infecção profunda, o tratamento proposto está equivocado: o pilar do manejo é a abertura e a drenagem da ferida, e não antibiótico oral isolado com anti-inflamatórios, que mascarariam sinais inflamatórios sem resolver a coleção."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q071",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abscesso peritonsilar: diagnóstico e conduta",
+    "subtema": "Complicações supurativas da faringotonsilite aguda e drenagem transoral",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["otorrinolaringologia", "abscesso peritonsilar", "trismo", "drenagem", "antibioticoterapia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O tratamento clínico isolado é insuficiente diante de coleção já formada, evidenciada pelo abaulamento palatal e pelo trismo; sem drenagem há risco de progressão para espaços cervicais profundos, mediastinite e obstrução de via aérea.",
+      "B": "Incorreta. A punção e a drenagem por via cervical externa são reservadas a abscessos cervicais profundos (parafaríngeo, retrofaríngeo) ou a complicações; no abscesso peritonsilar a coleção é acessível pela cavidade oral, e a abordagem cervical acrescentaria morbidade desnecessária.",
+      "C": "Incorreta. A via transoral está correta, mas a anestesia geral não é necessária na maioria dos casos: a drenagem pode ser feita sob anestesia tópica e local, em sala de procedimentos. Além disso, a alternativa omite a antibioticoterapia, que é parte indispensável do tratamento.",
+      "D": "Correta. O quadro de febre, odinofagia, trismo, linfonodomegalia submandibular e abaulamento palatal unilateral com desvio caracteriza abscesso peritonsilar. A conduta ideal associa drenagem por via transoral — factível em sala de procedimentos, sem necessidade de centro cirúrgico — a analgesia e antibioticoterapia, prevenindo a evolução para formas graves."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q079",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Choque hemorrágico no pós-operatório imediato de bypass gástrico",
+    "subtema": "Complicações precoces da cirurgia bariátrica e indicação de reabordagem",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["cirurgia bariátrica", "choque hemorrágico", "pós-operatório", "Y de Roux", "laparoscopia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Nas primeiras horas após gastroplastia em Y de Roux, taquicardia de 145 bpm, hipotensão de 80x60 mmHg, sudorese, palidez e lipotimia caracterizam choque hipovolêmico por hemorragia, mais provavelmente intra-abdominal ou nas linhas de grampeamento, sem exteriorização por hematêmese ou enterorragia. A instabilidade hemodinâmica indica reabordagem cirúrgica imediata (laparoscopia) para identificar e controlar o sangramento, além da ressuscitação volêmica concomitante.",
+      "B": "Incorreta. A úlcera marginal é complicação tardia do bypass, surgindo semanas a meses após o procedimento, e não explica choque nas primeiras horas de pós-operatório; ademais, a endoscopia em paciente hemodinamicamente instável no pós-operatório precoce de anastomose recente é arriscada e não é a conduta inicial.",
+      "C": "Incorreta. O choque séptico não se instala em poucas horas de pós-operatório sem foco infeccioso estabelecido, febre ou outros sinais de resposta inflamatória; o paciente apresenta palidez e sudorese, padrão de choque frio hipovolêmico, e não a vasoplegia típica do choque distributivo.",
+      "D": "Incorreta. A deiscência de anastomose (fístula) manifesta-se tipicamente entre o segundo e o sétimo dia de pós-operatório, com taquicardia persistente, febre, dor abdominal e sinais peritoneais; além disso, antibiótico isolado não trataria a instabilidade hemodinâmica, que exige controle cirúrgico da causa."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q087",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Princípios da bioética na prática médica",
+    "subtema": "Autonomia, beneficência, não-maleficência e justiça",
+    "competencia_dcn_2025": ["dcn2025_comp_04", "dcn2025_comp_23", "dcn2025_comp_05"],
+    "tags": ["bioética", "princípios", "ética médica", "autonomia", "justiça"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A definição apresentada corresponde à não-maleficência (primum non nocere). A beneficência é o dever positivo de agir em favor do bem-estar do paciente, promovendo benefício e maximizando resultados favoráveis.",
+      "B": "Incorreta. A autonomia é princípio do paciente, e não do médico: garante ao indivíduo capaz o direito de tomar decisões informadas sobre o próprio tratamento, após esclarecimento adequado. Decidir pelo paciente sem seu consentimento configura paternalismo, admitido apenas em situações excepcionais de risco iminente de morte com impossibilidade de manifestação de vontade.",
+      "C": "Incorreta. A não-maleficência jamais deve ser ignorada, inclusive na urgência: mesmo em intervenções de risco, o dever é ponderar riscos e benefícios e minimizar danos, e não suspender o princípio.",
+      "D": "Correta. O princípio da justiça, na bioética principialista de Beauchamp e Childress, refere-se à distribuição equitativa dos recursos de saúde e ao tratamento justo e imparcial dos pacientes, considerando necessidades e direitos de todos — dimensão especialmente relevante em um sistema universal como o SUS."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q095",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Tratamento antianginoso na doença coronariana crônica",
+    "subtema": "Betabloqueador como terapia anti-isquêmica de primeira linha na angina estável",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_03"],
+    "tags": ["cardiologia", "angina estável", "betabloqueador", "doença coronariana", "terapia anti-isquêmica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O nitrato sublingual é medicação de resgate, destinada ao alívio da crise anginosa aguda, e não promove controle sintomático sustentado; deve ser prescrito a todos os coronariopatas, mas não responde à pergunta sobre a classe indicada para o controle dos sintomas habituais.",
+      "B": "Correta. Os betabloqueadores são a primeira escolha para o controle sintomático da angina estável, pois reduzem a frequência cardíaca, a contratilidade e o consumo miocárdico de oxigênio, aumentando o limiar isquêmico. O paciente tem frequência cardíaca de 80 bpm, pressão arterial preservada e nenhuma contraindicação, havendo margem para titulação da dose.",
+      "C": "Incorreta. Os nitratos de longa duração são opção de segunda linha, com limitação importante pela tolerância farmacológica, que exige intervalo livre diário; não reduzem eventos e não superam o betabloqueador como terapia inicial.",
+      "D": "Incorreta. Os bloqueadores dos canais de cálcio são alternativa quando há contraindicação ou intolerância ao betabloqueador, ou como associação em sintomas persistentes, e são preferenciais na angina vasoespástica — situação distinta da apresentada."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q103",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Atendimento à mulher vítima de violência sexual",
+    "subtema": "Contracepção de emergência e profilaxia de IST independentemente de denúncia",
+    "competencia_dcn_2025": ["dcn2025_comp_11", "dcn2025_comp_23", "dcn2025_comp_04", "dcn2025_comp_01"],
+    "tags": ["violência sexual", "profilaxia de IST", "contracepção de emergência", "acolhimento", "direitos da paciente"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A profilaxia pós-exposição para IST (HIV, sífilis, gonorreia, clamídia, tricomoníase e hepatite B) é iniciada com base no risco epidemiológico e no tempo decorrido, idealmente nas primeiras 72 horas para o HIV, sem aguardar confirmação laboratorial, que retardaria a janela de eficácia.",
+      "B": "Incorreta. A contracepção de emergência é medida assistencial de urgência e não exige qualquer autorização judicial; a exigência de boletim de ocorrência ou de decisão judicial para o atendimento configura barreira indevida de acesso.",
+      "C": "Incorreta. A coleta de material com finalidade pericial deve ser oferecida e explicada, mas jamais imposta: prevalece a autonomia da mulher, e a prioridade do atendimento é o acolhimento e o cuidado em saúde, não a produção de provas.",
+      "D": "Correta. Toda mulher vítima de violência sexual tem direito ao atendimento emergencial no SUS, incluindo contracepção de emergência e profilaxia para IST, hepatites virais e HIV, independentemente de registro de boletim de ocorrência ou de denúncia formal, conforme a Norma Técnica do Ministério da Saúde e a legislação vigente."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q111",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Desenvolvimento puberal normal e critérios de amenorreia primária",
+    "subtema": "Estadiamento de Tanner e quando investigar ausência de menarca na adolescente",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_02", "dcn2025_comp_10"],
+    "tags": ["ginecologia", "puberdade", "estágios de Tanner", "amenorreia primária", "adolescência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A síndrome de Turner cursa com disgenesia gonadal e, portanto, com ausência ou parada do desenvolvimento dos caracteres sexuais secundários, além de baixa estatura e estigmas fenotípicos; a paciente apresenta telarca e pubarca em estágio M4/P4, o que torna o cariótipo desnecessário neste momento.",
+      "B": "Incorreta. Puberdade tardia define-se pela ausência de caracteres sexuais secundários após os 13 anos nas meninas, o que não é o caso: o desenvolvimento iniciou-se após os 11 anos e progrediu adequadamente até M4/P4. Sem esse critério, a dosagem de FSH e LH não está indicada.",
+      "C": "Correta. A adolescente de 14 anos apresenta desenvolvimento puberal normal e progressivo (M4 e P4 de Tanner, iniciado após os 11 anos), e a menarca é o último evento da sequência puberal, ocorrendo habitualmente cerca de 2 a 2,5 anos após a telarca. A amenorreia primária só se define pela ausência de menstruação aos 13 anos sem desenvolvimento sexual ou aos 15 anos com desenvolvimento normal; logo, a conduta é orientar e tranquilizar mãe e adolescente, sem exames complementares.",
+      "D": "Incorreta. A síndrome dos ovários policísticos manifesta-se por irregularidade menstrual após a menarca, hiperandrogenismo clínico ou laboratorial e, frequentemente, sobrepeso — achados ausentes no caso. Solicitar hormônio antimülleriano e ultrassonografia pélvica nesse contexto expõe a adolescente a exames desnecessários e a achados de significado incerto."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q119",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Complicações do diabetes mellitus gestacional",
+    "subtema": "Polidrâmnio, macrossomia fetal e distocia de ombro no controle glicêmico inadequado",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["obstetrícia", "diabetes gestacional", "macrossomia", "polidrâmnio", "pré-natal"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Restrição do crescimento intrauterino e oligodrâmnio são característicos da insuficiência placentária, associada a doenças hipertensivas, vasculopatias e diabetes pré-gestacional de longa data com lesão vascular — padrão oposto ao do diabetes mellitus gestacional, em que a hiperglicemia materna leva a hiperinsulinemia fetal, crescimento excessivo e poliúria fetal.",
+      "B": "Correta. As complicações clássicas e mais prevalentes do diabetes mellitus gestacional são o polidrâmnio, decorrente da poliúria fetal secundária à hiperglicemia, e a macrossomia fetal, resultante do efeito anabólico da hiperinsulinemia fetal, com risco consequente de distocia de ombro, tocotraumatismo, cesariana e hipoglicemia neonatal.",
+      "C": "Incorreta. Proteinúria e convulsão compõem o quadro de pré-eclâmpsia e eclâmpsia, síndromes hipertensivas da gestação. Embora o diabetes gestacional aumente o risco de pré-eclâmpsia, esses achados não são complicações diretas e definidoras do DMG.",
+      "D": "Incorreta. A presença de esquizócitos em esfregaço de sangue periférico traduz anemia hemolítica microangiopática, típica da síndrome HELLP e de microangiopatias trombóticas, e não do diabetes mellitus gestacional; o polidrâmnio, isoladamente citado, não torna a alternativa correta."
+    }
+  }
+]

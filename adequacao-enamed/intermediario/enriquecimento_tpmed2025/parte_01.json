@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q001",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Mecanismo imunopatológico da nefrite lúpica",
+    "subtema": "Hipersensibilidade tipo III e deposição de imunocomplexos glomerulares",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03"],
+    "tags": ["imunologia", "lúpus eritematoso sistêmico", "nefrite lúpica", "hipersensibilidade tipo III"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Embora o LES tenha participação de linfócitos T auxiliares na amplificação da resposta autoimune, não há destruição direta das células epiteliais glomerulares por linfócitos T citotóxicos; a lesão renal lúpica não decorre de citotoxicidade celular direta.",
+      "B": "Incorreta. A IL-10 é uma citocina imunomoduladora que pode estimular a resposta humoral ao favorecer a diferenciação de linfócitos B e a produção de autoanticorpos, mas não é diretamente responsável pelo dano glomerular no LES.",
+      "C": "Incorreta. O TNF-alfa tem papel pró-inflamatório e pode contribuir para o processo inflamatório no LES, porém não é o principal mediador do dano renal lúpico, que não se explica por apoptose de células mesangiais induzida por essa citocina.",
+      "D": "Correta. Na glomerulonefrite lúpica o dano ocorre principalmente por hipersensibilidade do tipo III: complexos imunes formados por autoanticorpos (sobretudo anti-DNA de dupla-hélice) e antígenos nucleares depositam-se no mesângio e nas alças capilares glomerulares, ativando o sistema complemento e recrutando leucócitos, o que produz a proteinúria, a hipertensão e o edema descritos no caso."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q009",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Reação adversa à vancomicina (síndrome do homem vermelho)",
+    "subtema": "Degranulação mastocitária não mediada por IgE",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["farmacologia", "vancomicina", "reação adversa a medicamento", "MRSA"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Erro de formatação no enunciado, com palavras aglutinadas (\"porStaphylococcus aureusresistente\"), que prejudica a legibilidade do item.",
+    "justificativas": {
+      "A": "Correta. A reação conhecida como síndrome do homem vermelho ocorre por liberação de histamina decorrente de degranulação mastocitária não mediada por IgE, deflagrada diretamente pelo fármaco e associada à infusão rápida de vancomicina; por isso é dose e velocidade-dependente e melhora com redução da velocidade de infusão e anti-histamínicos.",
+      "B": "Incorreta. A ativação do sistema complemento pode gerar anafilatoxinas e inflamação em outros contextos, mas não é o mecanismo diretamente envolvido nessa reação adversa à vancomicina.",
+      "C": "Incorreta. A formação de imunocomplexos circulantes está associada a reações imunomediadas do tipo III, como a doença do soro, quadro clínico e temporalmente distinto do que ocorre neste caso.",
+      "D": "Incorreta. O fármaco não se deposita na derme, e a ativação de macrófagos residentes não é a causa do eritema, do rubor facial e do prurido observados após a infusão rápida."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q017",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Carcinogênese química no câncer de pulmão do tabagista",
+    "subtema": "Hidrocarbonetos aromáticos policíclicos como carcinógenos indiretos",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_15"],
+    "tags": ["patologia", "carcinogênese", "tabagismo", "carcinoma de células escamosas"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A aflatoxina B1, produzida por fungos do gênero Aspergillus em alimentos armazenados, é carcinógeno hepático classicamente relacionado ao carcinoma hepatocelular, e não ao câncer de pulmão do tabagista.",
+      "B": "Incorreta. O fenobarbital sódico atua como promotor tumoral em modelos experimentais hepáticos, não sendo o agente iniciador da carcinogênese pulmonar associada ao tabaco.",
+      "C": "Correta. A carcinogênese do fumo ocorre com a combustão do tabaco, que origina hidrocarbonetos aromáticos policíclicos (como o benzo[a]pireno). Trata-se de carcinógeno indireto, pois precisa ser metabolizado (citocromo P450) para gerar epóxidos que formam adutos de DNA, mecanismo entre os mais estudados e diretamente ligado ao carcinoma de células escamosas em tabagista de 40 anos.",
+      "D": "Incorreta. O asbesto é carcinógeno ocupacional associado a mesotelioma e a câncer de pulmão, mas o caso não traz história de exposição ocupacional; o fator etiológico presente e determinante é o tabagismo de longa data."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q025",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Aferição da pressão arterial na criança",
+    "subtema": "Periodicidade do rastreamento e técnica de medida",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["pediatria", "pressão arterial", "rastreamento", "hipertensão infantil"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa D contém erro de digitação (\"ter a PA aderidas\" em vez de \"aferida\"), o que compromete a clareza da chave correta.",
+    "justificativas": {
+      "A": "Incorreta. A escolha do manguito não é baseada na faixa etária, mas sim na circunferência do braço da criança: a bolsa inflável deve ter largura de cerca de 40% da circunferência e comprimento suficiente para envolver 80% a 100% do braço, garantindo medidas mais precisas.",
+      "B": "Incorreta. A pressão arterial deve ser aferida preferencialmente no braço direito, pois isso permite a comparação com as tabelas padronizadas de percentis e evita leituras falsamente baixas em casos de coarctação da aorta.",
+      "C": "Incorreta. A aferição da PA não é obrigatória em todas as consultas para todas as crianças; a recomendação é a medida anual a partir dos 3 anos, ou em qualquer idade diante de condições clínicas específicas.",
+      "D": "Correta. Todas as crianças a partir dos 3 anos devem ter a pressão arterial aferida ao menos uma vez ao ano. Em menores de 3 anos a aferição não é rotina, sendo indicada na presença de condições especiais, como prematuridade extrema, doenças renais, cardiopatias congênitas e infecção do trato urinário de repetição, entre outras."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q033",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico diferencial das infecções de vias aéreas superiores na infância",
+    "subtema": "Resfriado comum versus faringite estreptocócica, rinite alérgica e rinossinusite bacteriana",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["pediatria", "resfriado comum", "infecção de vias aéreas superiores", "diagnóstico diferencial"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Na faringite estreptocócica a febre costuma ser alta, acompanhada de exsudato purulento amigdaliano e adenomegalia cervical jugular em cerca de 60% dos casos, sem o predomínio de obstrução nasal, espirros e rinorreia hialina descrito no caso.",
+      "B": "Incorreta. A rinite alérgica cursa com história pregressa de sintomas nasais crônicos desencadeados por exposição a alérgenos, com hipertrofia e palidez de cornetos e ausência de febre; o enunciado explicita história pregressa negativa para sintomas nasais crônicos.",
+      "C": "Incorreta. A rinossinusite aguda bacteriana caracteriza-se por piora dos sintomas do resfriado comum após o quinto dia (ou persistência além de dez dias), com secreção purulenta na rinofaringe e dor local intensa, geralmente unilateral, o que não se aplica a um quadro com apenas dois dias de evolução.",
+      "D": "Correta. O resfriado comum apresenta ampla variedade de manifestações e pode ser acompanhado de febre e mal-estar, com mucosa respiratória hiperemiada, obstrução nasal, espirros, rinorreia hialina e dor de garganta leve, exatamente o conjunto de achados descritos na criança."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q041",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Suspeita de intoxicação exógena ocupacional na atenção primária",
+    "subtema": "Nexo causal com o trabalho e investigação do ambiente laboral",
+    "competencia_dcn_2025": ["dcn2025_comp_15", "dcn2025_comp_24", "dcn2025_comp_06"],
+    "tags": ["saúde do trabalhador", "intoxicação exógena", "atenção primária", "nexo causal"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A apresentação é aguda, e não crônica, e o agente ainda não foi identificado; notificar intoxicação crônica por hidrocarboneto antes da investigação toxicológica e ambiental é precipitado, sobretudo em horta comunitária, cenário em que agrotóxicos são a suspeita mais provável.",
+      "B": "Correta. Há quadro agudo com nexo causal ocupacional evidente, pois outro trabalhador da mesma atividade apresenta sintomas semelhantes. Conforme a lógica de monitoramento da exposição ocupacional (Norma Regulamentadora NR-7, Portaria SSST nº 24/1994), é imprescindível afastar a paciente da exposição, solicitar exames complementares e investigar minuciosamente as condições de trabalho e os produtos utilizados, o que também protege os demais expostos.",
+      "C": "Incorreta. Atribuir o quadro a insolação e tratá-lo apenas com eletrólitos e hidratação endovenosa não explica o adoecimento simultâneo do colega de trabalho e ignora o nexo ocupacional, mantendo a exposição do grupo.",
+      "D": "Incorreta. Prescrever sintomáticos e encaminhar à neurologia desloca o problema para investigação individual de causa neurológica, desconsiderando o nexo com o ambiente de trabalho e a necessidade de investigar os produtos utilizados."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q049",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Trabalho interprofissional na APS no manejo das DANT",
+    "subtema": "Projeto terapêutico singular como prática colaborativa",
+    "competencia_dcn_2025": ["dcn2025_comp_22", "dcn2025_comp_09", "dcn2025_comp_12"],
+    "tags": ["atenção primária", "interprofissionalidade", "doenças crônicas", "projeto terapêutico singular"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A interprofissionalidade na APS fortalece o cuidado integral e contínuo por meio da construção coletiva de planos terapêuticos singulares em reuniões periódicas de equipe, articulando diferentes saberes em ações de promoção da saúde, prevenção de complicações e adesão ao tratamento das DANT.",
+      "B": "Incorreta. Discutir casos complexos em encontros interprofissionais é positivo, mas priorizar a assistência individual como desfecho mantém a fragmentação do cuidado e não gera um projeto terapêutico compartilhado pela equipe.",
+      "C": "Incorreta. Restringir a atuação conjunta ao par médico-enfermeiro, acionando os demais profissionais apenas por demanda, caracteriza prática multiprofissional por encaminhamento, e não colaboração interprofissional com corresponsabilização.",
+      "D": "Incorreta. Reduzir a atuação da UBS à distribuição de medicamentos e atribuir as mudanças de estilo de vida exclusivamente à responsabilidade individual contraria a integralidade e desconsidera os determinantes sociais das DANT."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q057",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Relatório Dawson (1920) e a organização da Atenção Primária à Saúde",
+    "subtema": "Regionalização e hierarquização dos serviços de saúde",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_16"],
+    "tags": ["atenção primária", "Relatório Dawson", "políticas de saúde", "organização de serviços"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O documento orienta a organização dos serviços conforme as necessidades da comunidade, com centros primários regionalizados como porta de entrada, e não hospitais-escola; associar a proposta à melhoria do ensino médico é confusão comum com o Relatório Flexner.",
+      "B": "Incorreta. O relatório permanece atual justamente porque preconiza centros primários orientados para a comunidade, que devem resolver a maior parte dos problemas de saúde da população, papel que não cabe aos hospitais-escola.",
+      "C": "Correta. O Relatório Dawson foi encomendado pelo governo inglês com o objetivo de buscar formas de organizar a provisão de serviços de saúde à população de determinada região, estruturando centros primários e secundários articulados aos hospitais e garantindo acesso à saúde.",
+      "D": "Incorreta. As propostas do relatório apontavam a necessidade de articulação com a saúde pública e o foco nas necessidades de saúde da comunidade, e não o atendimento individual hospitalar centrado em doenças específicas ou grupos de doentes."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q065",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação do PSA elevado com toque retal sem nódulos",
+    "subtema": "Ressonância magnética multiparamétrica da próstata pré-biópsia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_25", "dcn2025_comp_01"],
+    "tags": ["urologia", "câncer de próstata", "PSA", "ressonância multiparamétrica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A cintilografia óssea é exame de estadiamento, indicada após confirmação histológica em doença de risco intermediário alto ou alto (por exemplo, PSA acima de 20 ng/mL ou escore de Gleason igual ou maior que 8); no caso não há sequer diagnóstico de neoplasia.",
+      "B": "Incorreta. A tomografia computadorizada de pelve tem baixa acurácia para caracterizar lesões intraprostáticas, sendo útil apenas para avaliação linfonodal e de extensão em doença já diagnosticada e de maior risco.",
+      "C": "Correta. A ressonância magnética multiparamétrica é o exame de eleição para identificar áreas suspeitas de neoplasia prostática, estratificando-as pelo escore PI-RADS e orientando a biópsia dirigida ou por fusão, conduta apropriada neste homem de 55 anos com PSA persistentemente elevado, história familiar e toque retal sem nódulos suspeitos.",
+      "D": "Incorreta. A ultrassonografia transretal isolada tem baixa sensibilidade para detectar o tumor, servindo atualmente como método de guia para a biópsia, e não como exame de escolha para localizar áreas suspeitas."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q073",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Prazo de retirada de pontos em suturas cutâneas com fio inabsorvível",
+    "subtema": "Cirurgia ambulatorial e cuidados com a ferida operatória",
+    "competencia_dcn_2025": ["dcn2025_comp_20", "dcn2025_comp_01"],
+    "tags": ["cirurgia ambulatorial", "sutura", "ferida operatória", "cicatrização"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A pele sobre articulações está sujeita a maior tensão e movimento, exigindo permanência mais prolongada dos pontos (em torno de 10 a 14 dias) para reduzir o risco de deiscência; 7 dias é prazo insuficiente.",
+      "B": "Correta. Em pacientes sem comorbidades, as suturas da pele da face e do pescoço são comumente removidas depois de cerca de 5 dias, prazo que equilibra a resistência já adquirida pela ferida e a prevenção de marcas de pontos em região de grande importância estética e boa vascularização.",
+      "C": "Incorreta. Na pele em geral os pontos são retirados entre 7 e 10 dias; mantê-los por 14 dias ou mais em áreas comuns favorece o aparecimento de marcas e cicatrizes indesejadas, ressalvadas regiões de maior tensão como o tronco.",
+      "D": "Incorreta. As suturas em mãos e pés permanecem por período mais longo, cerca de 14 dias, dada a tensão local e a cicatrização mais lenta; a retirada com 7 dias aumenta o risco de deiscência."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q081",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Contraindicações à trombólise no AVC isquêmico agudo",
+    "subtema": "Controle pressórico antes do alteplase",
+    "competencia_dcn_2025": ["dcn2025_comp_20", "dcn2025_comp_10", "dcn2025_comp_01"],
+    "tags": ["neurologia", "AVC isquêmico", "trombólise", "emergência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado pede contraindicação absoluta, mas a própria justificativa oficial classifica a pressão arterial maior que 185/110 mmHg como contraindicação relativa, por ser corrigível com anti-hipertensivo endovenoso, gerando imprecisão terminológica no item.",
+    "justificativas": {
+      "A": "Correta. Entre as opções apresentadas, apenas a pressão arterial maior que 185/110 mmHg configura contraindicação à trombólise: a paciente está com 210/120 mmHg e o alteplase não pode ser infundido antes da redução dos níveis pressóricos, motivo pelo qual se indica anti-hipertensivo endovenoso e reavaliação.",
+      "B": "Incorreta. O uso prévio de ácido acetilsalicílico 100 mg não contraindica a trombólise, pois a antiagregação plaquetária não eleva significativamente o risco de sangramento a ponto de impedir o procedimento.",
+      "C": "Incorreta. O AVC isquêmico prévio contraindicaria a trombólise se tivesse ocorrido há menos de 3 meses; como no caso o evento foi há 8 meses, a paciente pode ser trombolisada novamente.",
+      "D": "Incorreta. A crise convulsiva no início do quadro não é, por si, impeditivo ao tratamento; ela apenas exige afastar que o déficit neurológico decorra de paralisia de Todd, e não representa contraindicação neste cenário."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q089",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação da disfagia progressiva para sólidos em adulto jovem atópico",
+    "subtema": "Esofagite eosinofílica e endoscopia com biópsias",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["gastroenterologia", "disfagia", "esofagite eosinofílica", "endoscopia digestiva alta"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A esofagomanometria de alta resolução é útil para distúrbios motores como a acalasia, na qual costuma haver disfagia também para líquidos, regurgitação e perda de peso; a disfagia progressiva apenas para sólidos com impactação alimentar aponta para doença estrutural ou inflamatória da mucosa.",
+      "B": "Incorreta. A tomografia de tórax para pesquisa de tumor de mediastino com compressão extrínseca é pouco plausível em rapaz de 19 anos previamente hígido, sem emagrecimento significativo e sem sintomas compressivos associados.",
+      "C": "Incorreta. A esofagografia baritada pode auxiliar na avaliação de estreitamentos e estenoses e na suspeita de anéis esofágicos, mas não permite biópsia e, portanto, não confirma o diagnóstico de esofagite eosinofílica.",
+      "D": "Correta. O paciente apresenta disfagia progressiva para sólidos com impactação alimentar, sem perda de peso significativa e com história de asma desde a infância, quadro fortemente sugestivo de esofagite eosinofílica. O exame inicial mais adequado é a endoscopia digestiva alta com biópsias múltiplas do esôfago proximal e distal, pois o aspecto endoscópico pode ser normal e o diagnóstico depende da contagem de eosinófilos na mucosa (mais de 15 eosinófilos por campo de grande aumento)."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q097",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico e estadiamento da injúria renal aguda pelo débito urinário",
+    "subtema": "Critérios KDIGO em paciente de terapia intensiva",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["nefrologia", "injúria renal aguda", "KDIGO", "terapia intensiva"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item aplica o débito urinário sobre o peso corporal real de paciente com obesidade (IMC em torno de 39 kg/m²), enquanto as diretrizes recomendam o uso do peso ideal ou ajustado, ainda que isso não altere a resposta correta.",
+    "justificativas": {
+      "A": "Incorreta. O diagnóstico de injúria renal aguda não implica, por si só, indicação de terapia de substituição renal; a hemodiálise é indicada diante de complicações refratárias ao tratamento clínico, como hipervolemia, hipercalemia, acidose metabólica grave ou síndrome urêmica, nenhuma delas descrita no caso.",
+      "B": "Correta. Segundo as diretrizes KDIGO, a redução do volume de diurese a valores menores que 0,5 mL por quilo de peso por hora, por período de 12 horas, é critério diagnóstico de injúria renal aguda. O paciente eliminou 100 mL em 12 horas, o que corresponde a cerca de 0,08 mL/kg/h, muito abaixo do limiar (o correspondente ao estágio 2 pelo tempo de oligúria descrito).",
+      "C": "Incorreta. O volume de diurese é critério diagnóstico validado e normatizado pelo KDIGO, ao lado da variação da creatinina em relação ao valor basal; o que não pode ser utilizado isoladamente é o valor absoluto de creatinina ou de ureia séricas.",
+      "D": "Incorreta. O estágio 3 exige diurese menor que 0,3 mL/kg/h por 24 horas ou mais, ou anúria por pelo menos 12 horas, além dos critérios de creatinina; a oligúria por 12 horas descrita caracteriza o estágio 2."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q105",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Alterações clínicas e hormonais do climatério",
+    "subtema": "Perfil endócrino da transição menopausal e da pós-menopausa",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03"],
+    "tags": ["ginecologia", "climatério", "menopausa", "endocrinologia ginecológica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas encadeiam quatro asserções distintas cada uma, exigindo julgamento simultâneo de múltiplos achados e reduzindo a precisão psicométrica do item.",
+    "justificativas": {
+      "A": "Correta. A menor produção de inibina B leva à redução da resposta ovariana às gonadotrofinas, com elevação do FSH, e a depleção folicular reduz a secreção de estradiol; o ovário passa a produzir sobretudo androgênios, convertidos no tecido adiposo em estrona, que se torna o principal estrogênio circulante. Somam-se os sintomas vasomotores (ondas de calor e suores noturnos) e a redistribuição de gordura com aumento da adiposidade abdominal.",
+      "B": "Incorreta. Embora aumentem a incidência de osteoporose e as alterações da qualidade do sono, no climatério o estradiol se reduz, e não se eleva, e o perfil lipídico piora, com aumento do colesterol total e do LDL, e não sua redução.",
+      "C": "Incorreta. Sintomas depressivos e atrofia urogenital de fato ocorrem, mas a inibina B e o hormônio antimülleriano diminuem progressivamente com a depleção folicular, refletindo a queda da reserva ovariana, e não se elevam.",
+      "D": "Incorreta. O aumento do risco cardiovascular, a piora do sono, a maior incidência de diabetes melito e a redução do estradiol são compatíveis com o período, porém as gonadotrofinas (FSH e LH) elevam-se pela perda do retrocontrole negativo, e não se reduzem."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q113",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta na infertilidade associada à endometriose profunda e ovariana",
+    "subtema": "Indicação de fertilização in vitro",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_03"],
+    "tags": ["ginecologia", "endometriose", "infertilidade", "reprodução assistida"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A estimulação ovariana com coito programado tem baixa eficácia em pacientes com endometriose avançada e infertilidade prolongada, como nesta mulher de 35 anos com dois anos de tentativas e doença ovariana e profunda.",
+      "B": "Incorreta. A cirurgia pode ser considerada para melhora da dor e da qualidade de vida, mas não deve ser imposta antes de qualquer tentativa de reprodução assistida, sobretudo pelo risco de redução da reserva ovariana na exérese de endometriomas.",
+      "C": "Incorreta. Os contraceptivos hormonais controlam sintomas e a progressão da doença, porém impedem a gestação e são inadequados para uma paciente que deseja engravidar a curto prazo.",
+      "D": "Correta. Diante de endometriose ovariana e profunda, dois anos de infertilidade, fator masculino normal e demais exames sem alterações, o encaminhamento direto à fertilização in vitro é a estratégia de maior eficácia para obter gestação a curto prazo, considerando o impacto da endometriose sobre a fertilidade."
+    }
+  }
+]

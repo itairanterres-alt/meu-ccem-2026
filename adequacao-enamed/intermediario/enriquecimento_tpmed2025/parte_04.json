@@ -1,0 +1,423 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q004",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Epigenética e carcinogênese: metilação do DNA",
+    "subtema": "Hipermetilação de ilhas CpG em promotores de genes supressores de tumor",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "epigenetica",
+      "metilacao do DNA",
+      "genes supressores de tumor",
+      "oncologia molecular"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A metilação do DNA atua sobre o controle transcricional, e não sobre a maquinaria de replicação: a hipermetilação de ilhas CpG promotoras recruta proteínas ligadoras de metil-CpG e complexos repressores da cromatina, silenciando a transcrição. Células neoplásicas hipermetiladas seguem replicando o DNA e proliferando, o que contraria a ideia de inibição da replicação.",
+      "B": "Incorreta. Em regiões promotoras, a metilação silencia e não estimula a expressão gênica; além disso, o efeito epigenético incide sobre a transcrição, não sobre a tradução. A ativação de oncogenes no câncer associa-se, ao contrário, à hipometilação global do genoma, mecanismo distinto do descrito no enunciado.",
+      "C": "Correta. Embora o nível global de metilação do DNA seja menor nas células tumorais, ilhas CpG específicas localizadas em promotores tornam-se anormalmente hipermetiladas — em torno de 5 a 10% das ilhas CpG normalmente não metiladas. Esse excesso de metilação promotora inibe a transcrição de genes supressores de tumor (por exemplo, os que controlam checkpoints do ciclo celular e reparo do DNA), removendo freios da proliferação e favorecendo o desenvolvimento do câncer.",
+      "D": "Incorreta. A reativação da telomerase (TERT) nas células tumorais decorre sobretudo de mutações no promotor, amplificação e ativação transcricional, e não de hipermetilação promotora — mecanismo que, por definição, reprime a expressão do gene silenciado. A hipermetilação descrita no enunciado atua silenciando supressores tumorais."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q012",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Patogenia da ascaridíase e síndrome de Löffler",
+    "subtema": "Ciclo de Ascaris lumbricoides e fase de migração larvária pulmonar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "ascaridiase",
+      "sindrome de Loffler",
+      "eosinofilia",
+      "parasitologia",
+      "helmintiase"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Os vermes adultos alojados no intestino não têm relação direta com a fase pulmonar da ascaridíase e não liberam toxinas com tropismo pulmonar. Sua repercussão é local e nutricional — irritação da mucosa, dor abdominal, desnutrição e, em infestações maciças, obstrução intestinal ou migração para vias biliares.",
+      "B": "Incorreta. Os ovos ingeridos com água ou alimentos contaminados eclodem no intestino delgado; a resposta imunológica aos ovos ocorre, portanto, no compartimento intestinal. Os sintomas respiratórios decorrem da inflamação desencadeada pelas larvas que já migraram para o pulmão, e não dos ovos propriamente ditos.",
+      "C": "Incorreta. Não há reinfecção endógena nem permanência de larvas no parênquima pulmonar. A passagem pelo pulmão é etapa fisiológica do ciclo: após amadurecerem, as larvas sobem pela árvore brônquica, são deglutidas e retornam ao intestino, onde se tornam vermes adultos.",
+      "D": "Correta. Na ascaridíase, os ovos ingeridos eclodem no intestino e liberam larvas que atravessam a parede intestinal, alcançam a circulação porta e sistêmica e chegam aos pulmões. A migração transalveolar provoca reação inflamatória local de padrão de hipersensibilidade, com eosinofilia sanguínea e sintomas respiratórios — tosse seca, sibilância e febre baixa — acompanhados de infiltrados pulmonares migratórios ao raio X (síndrome de Löffler), exatamente o quadro descrito."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q020",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Respostas compensatórias fisiológicas ao choque hemorrágico",
+    "subtema": "Ativação simpática, vasoconstrição periférica e resposta neuro-hormonal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_14"
+    ],
+    "tags": [
+      "choque hemorragico",
+      "fisiologia cardiovascular",
+      "catecolaminas",
+      "vasoconstricao"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa B traz erro tipográfico ('dedução' em lugar de 'redução' do débito cardíaco), o que compromete a clareza do distrator.",
+    "justificativas": {
+      "A": "Incorreta. A hipovolemia aguda desencadeia descarga simpatoadrenal com AUMENTO, e não diminuição, da adrenalina circulante. O aumento do hormônio antidiurético de fato ocorre, mas a primeira parte da assertiva inverte a resposta adrenérgica esperada, tornando a alternativa incorreta.",
+      "B": "Incorreta. O aumento da adrenalina circulante está correto, mas a queda do débito cardíaco não é uma resposta compensatória e sim consequência da própria perda volêmica: o organismo compensa elevando frequência cardíaca e contratilidade para sustentar o débito. Além disso, o enunciado da alternativa apresenta erro tipográfico ('dedução' por 'redução').",
+      "C": "Incorreta. O aumento do hormônio antidiurético está correto, mas os leitos vasculares cutâneos sofrem VASOCONSTRIÇÃO — com aumento da resistência — e não redução da resistência. É justamente esse desvio de fluxo da pele, do músculo e do território esplâncnico que preserva a perfusão de cérebro, coração e rins (centralização).",
+      "D": "Correta. Em hemorragia grave, as respostas compensatórias visam manter a perfusão dos órgãos vitais: aumento da frequência cardíaca, vasoconstrição com elevação da resistência dos leitos cutâneo, muscular e esplâncnico, aumento da frequência respiratória e liberação de catecolaminas (adrenalina/noradrenalina), ADH e aldosterona. A alternativa reúne corretamente taquicardia e aumento da resistência vascular cutânea."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q028",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Manejo da pega inadequada e fissuras mamilares no aleitamento materno",
+    "subtema": "Orientação da técnica de pega e posicionamento na atenção primária",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "aleitamento materno",
+      "fissura mamilar",
+      "pega",
+      "puericultura",
+      "atencao primaria"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A massagem e a ordenha prévia podem auxiliar na ejeção do leite e no alívio do ingurgitamento, mas são medidas acessórias que não corrigem a causa subjacente do quadro — a pega restrita ao mamilo. Sem correção da técnica, a dor e as fissuras persistirão.",
+      "B": "Incorreta. Dor intensa e fissuras não são fenômenos normais da amamentação: são sinal de alerta para pega ou posicionamento inadequados. Aguardar a 'apojadura' postergaria a intervenção, favoreceria o desmame precoce e poderia evoluir para complicações como ingurgitamento e mastite.",
+      "C": "Correta. A dor durante as mamadas e as fissuras mamilares decorrem, no caso, da pega inadequada, com o bebê abocanhando apenas o mamilo. A conduta é ensinar o posicionamento correto para que o lactente abocanhe a aréola juntamente com o mamilo, com a boca bem aberta, o lábio inferior evertido, o queixo tocando a mama e o corpo alinhado e voltado para a mãe — o que redistribui a pressão da sucção, alivia a dor, permite mamada eficaz e favorece a cicatrização.",
+      "D": "Incorreta. A introdução da mamadeira gera confusão de bicos, piora ainda mais a pega ao seio e compromete o aleitamento materno exclusivo, recomendado até os seis meses de vida. É medida contrária à conduta preconizada."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q036",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Distúrbio hidroeletrolítico na diarreia aguda da infância",
+    "subtema": "Hipocalemia: alterações eletrocardiográficas (onda T achatada, onda U, QT longo)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "hipocalemia",
+      "diarreia aguda",
+      "desidratacao",
+      "eletrocardiograma",
+      "pediatria"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As perdas gastrointestinais volumosas — sobretudo em crianças reidratadas apenas com água e chá, sem o soro de reidratação oral da OMS, cuja concentração de potássio é de 20 mmol/L — estão entre as causas mais comuns de hipocalemia. A expansão com soro fisiológico, isento de potássio, dilui ainda mais o potássio sérico e desloca-o para o intracelular, precipitando a manifestação eletrocardiográfica clássica descrita: achatamento (ou inversão) das ondas T, surgimento de ondas U e aparente prolongamento do intervalo QT.",
+      "B": "Incorreta. A hipercalemia cursa com padrão eletrocardiográfico oposto: ondas T apiculadas e simétricas, achatamento e depois desaparecimento da onda P, alargamento do QRS e, em fase avançada, padrão sinusoidal. Além disso, o contexto de perdas digestivas altas e baixas com reposição sem potássio favorece a depleção, não a retenção.",
+      "C": "Incorreta. A hipocalcemia prolonga o intervalo QT às custas do alongamento do segmento ST, sem gerar ondas U proeminentes nem achatamento característico da onda T, e costuma manifestar-se clinicamente com tetania, parestesias e sinais de Chvostek e Trousseau, ausentes no caso.",
+      "D": "Incorreta. A hipercalcemia produz ENCURTAMENTO do intervalo QT, com redução do segmento ST — achado oposto ao descrito no monitor. Também não é o distúrbio esperado em criança com diarreia, vômitos e desidratação grave."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q044",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico laboratorial da dengue: exames específicos e inespecíficos",
+    "subtema": "Janela de detecção viral (NS1, PCR, isolamento) versus sorologia IgM",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_24",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "dengue",
+      "NS1",
+      "sorologia IgM",
+      "arbovirose",
+      "diagnostico laboratorial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Hemograma, coagulograma, provas de função hepática e albumina sérica são, de fato, exames inespecíficos, mas as alterações esperadas na dengue são leucopenia com neutropenia, linfócitos atípicos, plaquetopenia e hemoconcentração — e não leucocitose com neutrofilia, padrão que sugeriria infecção bacteriana.",
+      "B": "Correta. Na fase virêmica, que se estende até cerca do 5º dia de doença, o vírus está presente no sangue e pode ser identificado por métodos diretos: isolamento viral, RT-PCR ou pesquisa do antígeno NS1. São, portanto, os exames de escolha na fase aguda inicial, antes da conversão sorológica.",
+      "C": "Incorreta. O hemograma é justamente a linha de base para o acompanhamento do paciente com dengue e deve ser coletado precocemente, para que alterações posteriores — queda plaquetária e elevação do hematócrito por extravasamento plasmático — possam ser reconhecidas por comparação.",
+      "D": "Incorreta. Os anticorpos IgM tornam-se detectáveis em geral a partir do 6º dia de doença e podem permanecer positivos até cerca do 30º dia; a sorologia não é o exame preferencial em amostras coletadas até o 7º dia, período em que se privilegiam NS1, RT-PCR ou isolamento viral."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q052",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Níveis de prevenção segundo o modelo de Leavell & Clark",
+    "subtema": "Diferenciação entre prevenção primária, secundária e terciária",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "Leavell e Clark",
+      "niveis de prevencao",
+      "prevencao terciaria",
+      "historia natural da doenca"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O rastreamento para detecção precoce de câncer é prevenção secundária: atua no período patogênico precoce, identificando a doença em fase pré-clinica ou assintomática para permitir tratamento oportuno, e não sobre sequelas já instaladas.",
+      "B": "Incorreta. A promoção de hábitos saudáveis para evitar doenças cardiovasculares é prevenção primária, na vertente de promoção da saúde — atua no período pré-patogênico, antes da instalação da doença.",
+      "C": "Correta. O tratamento do paciente já diagnosticado com diabetes mellitus, com o objetivo de evitar complicações (nefropatia, retinopatia, pé diabético), configura prevenção terciária, cujo foco é limitar o dano e prevenir incapacidades e sequelas de doença já instalada.",
+      "D": "Incorreta. A vacinação é o exemplo clássico de prevenção primária na vertente de proteção específica, pois impede a ocorrência da infecção antes que o processo patológico se inicie."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q060",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem do uso abusivo de álcool em hipertenso na atenção primária",
+    "subtema": "Intervenção breve após triagem com CAGE e verificação de adesão terapêutica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_02",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "uso abusivo de alcool",
+      "CAGE",
+      "intervencao breve",
+      "hipertensao arterial",
+      "atencao primaria"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Antes de modificar o esquema anti-hipertensivo, cabe investigar as causas da elevação pressórica — e a má adesão medicamentosa e o consumo abusivo de álcool são causas frequentes e reversíveis. Confirmar o uso regular dos medicamentos e apresentar ao paciente os riscos do seu padrão de consumo corresponde ao feedback, primeiro passo da intervenção breve, ferramenta resolutiva e de baixo custo disponível na própria atenção primária.",
+      "B": "Incorreta. Ajustar a dose sem antes verificar adesão e fatores contribuintes (como o álcool) é conduta precipitada. Além disso, o encaminhamento imediato à psicologia fragmenta o cuidado e transfere um problema que o médico de família pode e deve abordar por meio da intervenção breve.",
+      "C": "Incorreta. Associar novo anti-hipertensivo em consulta na qual sequer se confirmou a adesão ao esquema atual é inadequado. Ainda que o álcool tenha efeito hipertensor, a orientação isolada de cessação, sem o feedback estruturado e a pactuação de metas, tem baixa efetividade.",
+      "D": "Incorreta. Postergar a abordagem do álcool para uma avaliação psiquiátrica não é a conduta inicial: o caso é de uso abusivo detectado por triagem, com indicação de intervenção breve na própria unidade. A psiquiatria na equipe multiprofissional atua predominantemente por apoio matricial, e não por atendimento ambulatorial individual de rotina."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q068",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Vômitos não biliosos em jato no lactente: estenose hipertrófica do piloro",
+    "subtema": "Alcalose metabólica hipoclorêmica e sinal da oliva pilórica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "estenose hipertrofica do piloro",
+      "vomitos em jato",
+      "alcalose metabolica",
+      "cirurgia pediatrica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado descreve o paciente como recém-nascido, embora a apresentação típica da estenose hipertrófica do piloro ocorra entre a 2ª e a 6ª semana de vida.",
+    "justificativas": {
+      "A": "Correta. A estenose hipertrófica do piloro decorre da hipertrofia da musculatura pilórica, com estreitamento progressivo da saída gástrica. Manifesta-se tipicamente entre a 2ª e a 6ª semana de vida com vômitos em jato, não biliosos (a obstrução é pré-papilar), fome ávida após vomitar e perda ponderal. A perda de ácido clorídrico gera alcalose metabólica hipoclorêmica e hipocalêmica, e o exame físico pode revelar a clássica 'oliva pilórica' — massa palpável em forma de azeitona no andar superior do abdome, à direita —, exatamente como descrito.",
+      "B": "Incorreta. Na atresia duodenal a obstrução situa-se, na maioria dos casos, distalmente à ampola de Vater, produzindo vômitos BILIOSOS já nas primeiras horas de vida, com sinal da dupla bolha à radiografia e forte associação à síndrome de Down. Não há oliva palpável.",
+      "C": "Incorreta. O refluxo gastroesofágico cursa com regurgitações e vômitos de pequeno volume, sem jato, sem massa abdominal palpável e sem alcalose metabólica; é habitualmente fisiológico no lactente e não provoca obstrução mecânica da via de saída gástrica.",
+      "D": "Incorreta. A atresia de vias biliares manifesta-se com icterícia colestática persistente, colúria e acolia fecal a partir das primeiras semanas de vida, com hiperbilirrubinemia de predomínio direto — quadro clínico inteiramente distinto dos vômitos em jato com alcalose e oliva palpável."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q076",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Resposta endócrino-metabólica ao trauma cirúrgico e equilíbrio hidroeletrolítico",
+    "subtema": "Eixo ADH-aldosterona-glicocorticoides e catecolaminas no pós-operatório",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_20",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "resposta metabolica ao trauma",
+      "pos-operatorio",
+      "ADH",
+      "aldosterona",
+      "hidroeletrolitico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comentário oficial argumenta que o mecanismo predominante de retenção hídrica no pós-operatório é a liberação de ADH com hiponatremia dilucional — conteúdo da alternativa A —, o que torna o item ambíguo por admitir duas assertivas fisiologicamente verdadeiras diante do gabarito oficial B.",
+    "justificativas": {
+      "A": "Incorreta. Conforme o gabarito oficial, esta não é a alternativa a ser assinalada, ainda que a liberação de ADH induzida pelo trauma cirúrgico de fato aumente a reabsorção renal de água e possa cursar com hiponatremia dilucional no pós-operatório. A assertiva, porém, descreve um desequilíbrio (diluição do sódio) e não a contribuição para a manutenção da perfusão tecidual solicitada pelo enunciado.",
+      "B": "Correta. A agressão cirúrgica ativa o eixo hipotálamo-hipófise-adrenal, com elevação do cortisol e demais glicocorticoides. Além dos efeitos catabólicos e hiperglicemiantes, esses hormônios exercem ação mineralocorticoide, promovendo retenção renal de sódio e, secundariamente, de água — o que expande o volume extracelular e contribui para a manutenção da volemia e da perfusão tecidual na fase de resposta ao trauma.",
+      "C": "Incorreta. As catecolaminas ESTIMULAM a glicogenólise e a gliconeogênese hepáticas e inibem a secreção de insulina, de modo que o padrão característico do pós-operatório é a HIPERGLICEMIA de estresse, e não hipoglicemia.",
+      "D": "Incorreta. A aldosterona, cuja secreção está aumentada pela ativação do sistema renina-angiotensina no trauma cirúrgico, AUMENTA a reabsorção de sódio no túbulo distal e no ducto coletor, com retenção de água e potássio urinário elevado. Seu efeito é, portanto, de preservação da volemia, prevenindo hipovolemia — o oposto do afirmado."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q084",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Semiologia dermatológica: lesões elementares hipocrômicas",
+    "subtema": "Diagnóstico diferencial de manchas hipocrômicas ao exame da pele",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "dermatologia",
+      "manchas hipocromicas",
+      "lesoes elementares",
+      "exame fisico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há divergência entre o gabarito oficial (C, pênfigo vulgar) e o comentário do autor, que descreve o vitiligo como a condição compatível com manchas hipocrômicas arredondadas, tornando o item tecnicamente inconsistente.",
+    "justificativas": {
+      "A": "Incorreta. O melanoma é lesão pigmentada (hipercrômica) e apresenta características descritas pela regra do ABCDE — assimetria, bordas irregulares, cores heterogêneas, diâmetro maior que 6 mm e evolução —, não correspondendo a manchas hipocrômicas arredondadas e uniformes.",
+      "B": "Incorreta. A dermatite atópica é dermatose inflamatória crônica e pruriginosa, com eczema, xerose e liquenificação em áreas flexurais; eventuais áreas claras residuais são pós-inflamatórias e não constituem a lesão elementar descrita no enunciado.",
+      "C": "Correta. Alternativa indicada pelo gabarito oficial da prova. Registre-se que o pênfigo vulgar é dermatose bolhosa autoimune por autoanticorpos antidesmogleína 3, cursando com bolhas flácidas e erosões dolorosas em pele e mucosas, com sinal de Nikolsky positivo; as lesões residuais após a reepitelização podem apresentar-se como áreas de hipocromia pós-inflamatória.",
+      "D": "Incorreta. Segundo o gabarito oficial, esta não é a alternativa a ser assinalada, embora o comentário do autor descreva o vitiligo — máculas acrômicas/hipocrômicas de bordas nítidas por destruição autoimune dos melanócitos — como o quadro clássico de manchas claras arredondadas. A divergência está registrada no campo de problema detectado."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q092",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Tireotoxicose por doença de Graves: diagnóstico e controle sintomático inicial",
+    "subtema": "Bócio difuso com orbitopatia e uso de betabloqueador na fase aguda",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "doenca de Graves",
+      "hipertireoidismo",
+      "betabloqueador",
+      "exoftalmia",
+      "endocrinologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O bócio multinodular tóxico cursa com tireoide nodular e assimétrica e NÃO se associa a exoftalmia, achado dependente dos autoanticorpos anti-receptor de TSH. Além disso, as drogas antitireoidianas reduzem a síntese hormonal, mas levam semanas para agir, não sendo a medida capaz de controlar rapidamente os sintomas solicitada pelo enunciado.",
+      "B": "Incorreta. O hipotireoidismo caracteriza-se por TSH elevado com T4 livre baixo, o oposto do encontrado (TSH suprimido < 0,01 mU/L e T4 livre elevado), e cursa com intolerância ao frio e ganho de peso. Iniciar levotiroxina agravaria gravemente a tireotoxicose.",
+      "C": "Incorreta. A tireoidite subaguda (de De Quervain) cursa tipicamente com dor cervical intensa, febre e antecedente de infecção viral, com captação reduzida à cintilografia e evolução autolimitada; não se associa a exoftalmia. Anti-inflamatórios e corticoides tratam o componente inflamatório, mas não se aplicam a este caso.",
+      "D": "Correta. Palpitações, perda de peso, fadiga, sudorese aumentada e intolerância ao calor, somados a abaulamento cervical anterior DIFUSO e exoftalmia, com TSH suprimido e T4 livre elevado, configuram doença de Graves. Para controlar rapidamente os sintomas adrenérgicos — taquicardia, tremor, ansiedade e sudorese — a intervenção inicial é o betabloqueador (por exemplo, propranolol), que age em horas, enquanto a terapia definitiva com antitireoidianos, iodo radioativo ou cirurgia é instituída em paralelo."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q100",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Cefaleia de início recente com amaurose fugaz e VHS elevada",
+    "subtema": "Arterite de células gigantes (arterite temporal) em maiores de 50 anos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "arterite de celulas gigantes",
+      "cefaleia",
+      "amaurose fugaz",
+      "VHS",
+      "vasculite"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A cefaleia tensional é bilateral, em aperto ou peso, de intensidade leve a moderada, sem sinais de alarme, sem hipersensibilidade do couro cabeludo de caráter inflamatório, sem sintomas visuais e com provas de atividade inflamatória normais — VHS de 100 mm/h é incompatível com o diagnóstico.",
+      "B": "Incorreta. A migrânea inicia-se tipicamente antes dos 40 anos, é recorrente, pulsátil, associada a náuseas, fotofobia e fonofobia, e sua aura visual é positiva e transitória (escotomas cintilantes), diferindo da amaurose fugaz por isquemia retiniana. Também não cursa com elevação acentuada da VHS.",
+      "C": "Correta. A arterite de células gigantes deve ser fortemente considerada em pacientes com mais de 50 anos que apresentam cefaleia nova ou mudança do padrão de cefaleia prévia, hipersensibilidade do couro cabeludo, claudicação mandibular, perda visual transitória (amaurose fugaz), febre inexplicada ou alterações vasculares ao exame, associados a elevação expressiva da VHS — todos presentes no caso. Diante de manifestações visuais, a corticoterapia deve ser iniciada imediatamente, com metilprednisolona intravenosa 500 a 1000 mg/dia por 3 dias, seguida de prednisona oral 40 a 60 mg/dia (ou prednisona 1 mg/kg/dia se o pulso não puder ser realizado prontamente), sem aguardar a biópsia da artéria temporal, dado o risco de cegueira irreversível.",
+      "D": "Incorreta. As cefaleias trigêmino-autonômicas, como a cefaleia em salvas, caracterizam-se por dor periorbitária excruciante, de curta duração e em surtos, acompanhada de sinais autonômicos ipsilaterais (lacrimejamento, hiperemia conjuntival, rinorreia, ptose e miose), sem elevação da VHS e sem amaurose fugaz."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q108",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipotireoidismo subclínico na gestação: conduta no pré-natal",
+    "subtema": "Papel do anti-TPO na decisão de iniciar levotiroxina",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hipotireoidismo subclinico",
+      "gestacao",
+      "anti-TPO",
+      "levotiroxina",
+      "pre-natal"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Postergar a decisão por quatro semanas em gestante de 8 semanas desperdiça a janela crítica do primeiro trimestre, período em que o feto depende integralmente do hormônio tireoidiano materno para a neurogênese. A investigação complementar necessária (anti-TPO) pode ser feita de imediato na mesma coleta.",
+      "B": "Incorreta. Iniciar levotiroxina 'independentemente de outros fatores' não é a recomendação: com TSH entre 4,0 e 10,0 mUI/L e T4 livre normal, a decisão terapêutica é orientada pela dosagem dos anticorpos antitireoidianos, evitando tratamento desnecessário e risco de iatrogenia por sobredosagem.",
+      "C": "Correta. Segundo a Febrasgo, diante de hipotireoidismo subclínico na gestação (TSH entre 4,0 e 10,0 mUI/L com T4 livre normal), a conduta depende do status do anti-TPO: se positivo, inicia-se levotiroxina na dose de 1 mcg/kg/dia; se negativo, a conduta é individualizada, podendo-se apenas monitorar. O caso descrito, com TSH de 5,5 mUI/L e T4 livre normal, enquadra-se exatamente nessa recomendação.",
+      "D": "Incorreta. O limiar de 10 mUI/L não é o critério isolado de decisão na gestação: valores acima do limite superior de referência gestacional já configuram hipotireoidismo subclínico e demandam avaliação do anti-TPO, com tratamento indicado quando positivo. A simples observação pode expor a gestante a maior risco de abortamento, prematuridade e comprometimento do neurodesenvolvimento fetal."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q116",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sangramento uterino anormal e classificação PALM-COEIN da FIGO",
+    "subtema": "Adenomiose: apresentação clínica e métodos de imagem para diagnóstico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "sangramento uterino anormal",
+      "PALM-COEIN",
+      "adenomiose",
+      "mioma submucoso",
+      "FIGO"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Na classificação PALM-COEIN, a adenomiose integra o grupo das causas estruturais (PALM) e caracteriza-se pela invasão do miométrio por glândulas e estroma endometriais, resultando em aumento uterino difuso, dismenorreia e dor pélvica progressiva, além de sangramento aumentado. A ultrassonografia transvaginal (assimetria das paredes miometriais, cistos miometriais, estriações subendometriais) e a ressonância magnética (espessamento da zona juncional) são os métodos úteis para o diagnóstico.",
+      "B": "Incorreta. Os miomas submucosos são justamente os que mais frequentemente causam SUA, pois distorcem a cavidade endometrial, alteram a vascularização local e reduzem a contratilidade uterina, produzindo sangramentos volumosos e prolongados, com anemia ferropriva e impacto na fertilidade.",
+      "C": "Incorreta. Os AINEs reduzem o volume do sangramento por inibição da síntese endometrial de prostaglandinas, porém não inibem a proliferação endometrial nem substituem as terapias hormonais (SIU de levonorgestrel, progestagênios, contraceptivos combinados), sendo apenas adjuvantes no manejo.",
+      "D": "Incorreta. O SUA anovulatório resulta de produção sustentada de estrogênio SEM oposição da progesterona, levando a proliferação endometrial excessiva e instável — e não a atrofia por deficiência estrogênica. É mais frequente nos extremos da vida reprodutiva (adolescência e perimenopausa) e na síndrome dos ovários policísticos; na pós-menopausa, todo sangramento exige investigação de malignidade."
+    }
+  }
+]
