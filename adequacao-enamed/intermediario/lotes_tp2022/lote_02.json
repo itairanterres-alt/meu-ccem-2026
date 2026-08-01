@@ -1,0 +1,257 @@
+[
+  {
+    "id_origem": "tp2022_q002",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 2,
+    "enunciado": "Homem de 60 anos apresenta tosse, perda de peso e cansaço há 4 meses. Tabagista por 40 anos. Radiografia de tórax revelou massa de 10 cm no pulmão esquerdo, cuja biópsia demonstrou carcinoma de células escamosas de pulmão. Qual dos seguintes carcinógenos está envolvido na patogênese do câncer de pulmão deste paciente?",
+    "alternativas": {
+      "A": "Aflatoxina B1.",
+      "B": "Fenobarbital sódico.",
+      "C": "Hidrocarbonetos aromáticos.",
+      "D": "Asbestos.",
+      "E": "Diclorodifeniltricloroetano (DDT)."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A carcinogênese do fumo ocorre com a combustão do tabaco, originando os hidrocarbonetos aromáticos policíclicos. Trata-se de um cancerígeno indireto por precisar ser metabolizado para exercer seus efeitos. É uma das substâncias carcinogênicas mais estudadas. As demais alternativas se referem a carcinógenos hepáticos, ou de outros tipos de neoplasias.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q010",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 10,
+    "enunciado": "Homem de 50 anos de idade com pressão arterial de 140/85 mmHg e peso de 90 kg. Ele relata que não se sente bem, seu eletrocardiograma (ECG) não tem ondas P, apresenta frequência cardíaca de 46 bpm e o complexo QRS ocorre regularmente. Este paciente tem bloqueio cardíaco:",
+    "alternativas": {
+      "A": "sinoatrial.",
+      "B": "de primeiro grau.",
+      "C": "de segundo grau.",
+      "D": "de terceiro grau.",
+      "E": "do sistema de His-Purkinje."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Quando um paciente não tem ondas P e apresenta frequência cardíaca baixa, é provável que o impulso proveniente do nó sinoatrial esteja totalmente bloqueado antes de entrar no músculo atrial. Isto é chamado de bloqueio sinoatrial. Os ventrículos assumem um novo ritmo geralmente iniciado no nó A-V neste momento, o que resulta em uma frequência cardíaca de 40 a 60 bpm. Ao contrário, durante a bradicardia sinoatrial ainda se tem ondas P associadas com cada complexo QRS. No bloqueio cardíaco de primeiro, segundo e terceiro graus, se tem ondas P em cada um desses instantes, embora algumas não estejam associadas ao complexo QRS.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q018",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 18,
+    "enunciado": "A neurociência estuda a função e o papel de componentes celulares ativos no funcionamento e nas patologias do SNC. As células imunes residentes no cérebro são um exemplo destes componentes celulares. Assinale a alternativa que indica as únicas células imunes residentes no cérebro.",
+    "alternativas": {
+      "A": "Oligodendrócitos.",
+      "B": "Micróglia.",
+      "C": "Interneurônios.",
+      "D": "Astrócitos.",
+      "E": "Células de Schawann."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "As Micróglias são as únicas células imunes residentes no cérebro. Elas agem como a primeira linha de defesa imunológica no cérebro.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q026",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 26,
+    "enunciado": "A relação entre saúde e os determinantes sociais é necessária para a compreensão do conceito ampliado de saúde. Qual das alternativas abaixo apresenta um determinante social como fator de risco para a saúde?",
+    "alternativas": {
+      "A": "Ter menos de 10 anos.",
+      "B": "Ter regular suporte social.",
+      "C": "Cursar uma faculdade.",
+      "D": "Beber uma cerveja 2 vezes por semana.",
+      "E": "Estar desempregado."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "De acordo com a Lei Orgânica da Saúde, os fatores determinante e condicionantes de saúde são: a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, o transporte, o lazer e o aceso aos bens e serviços essenciais para a saúde.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q034",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 34,
+    "enunciado": "Considerando a Primeira Conferência Internacional sobre Promoção da Saúde e a resultante Carta de Ottawa (1986) que propôs cinco campos de ação principais para a promoção da saúde, ao realizarmos ações de educação em saúde para a adoção de estilos de vida saudáveis, em que campo de ação estamos atuando?",
+    "alternativas": {
+      "A": "Implementação de políticas públicas saudáveis.",
+      "B": "Criação de ambientes saudáveis.",
+      "C": "Reforço da ação comunitária.",
+      "D": "Reorientação do Sistema de Saúde.",
+      "E": "Desenvolvimento de habilidades individuais."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Desenvolvimento de habilidades individuais: Viabilizado por meio de estratégias educativas, são programas de formação e atualização que capacitam os indivíduos a participar, criar ambientes de apoio à promoção da saúde e desenvolver habilidades pessoais relacionadas à adoção de estilos de vida saudáveis.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q042",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 42,
+    "enunciado": "Menino de 18 meses, dá entrada no pronto-socorro com tosse rouca, tiragem intercostal leve e estridor inspiratório. Na história, há presença de coriza há um dia sem febre associada. Com base neste quadro clínico prescreva o tratamento adequado.",
+    "alternativas": {
+      "A": "Inalação com beta-2-agonista 3 ciclos com intervalo de 20 min.",
+      "B": "Dexametasona 0,6 mg/Kg dose única via oral.",
+      "C": "Prednisolona 0,5 mg/Kg/dia por 5 dias.",
+      "D": "Inalação com epinefrina 0,5 mL/Kg.",
+      "E": "Inalação com fluticasona 2x com intervalo de 1hora."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A questão avalia os diagnósticos diferenciais de estridor respiratório, diferenciando o tratamento entre estridor laríngeo e broncoespasmo, cujo quadro clínico se diferencia principalmente pelos sintomas apresentados. Este quadro é comum nas emergências pediátricas e o tratamento correto prontamente iniciado evita as complicações potencialmente graves das obstruções de trato respiratório superior. A medicação de escolha para a laringite viral aguda leve/moderada, como é a situação do nosso paciente, é a dexametasona VO dose única. A inalação com epinefrina está indicada nos casos graves. A inalação com beta- 2-agonista está indicada na crise de broncoespasmo e a prednisolona para a laringite deve ser prescrita na dose de 1-2 mg/Kg/dia por 3 dias.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q050",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 50,
+    "enunciado": "Um bebê nascido com 39 semanas de idade gestacional, pesou 3460 gramas e seu Apgar foi 7/9. Com 13 horas e meia de vida estava hipoativo, gemente, taquipneico, cianótico, apresentando esforço respiratório, frequência cardíaca de 170 batimentos por minuto, não foi percebido sopro. Evoluiu com necessidade de suporte ventilatório com FiO2 de 100%, expansão com soro fisiológico 0,9% 70 ml e droga vasoativa. A radiografia de tórax mostrou área cardíaca normal, parênquima pulmonar sem alterações, cânula traqueal posicionada adequadamente. Paciente persistiu com baixa saturação mesmo em ventilação mecânica. Qual o diagnóstico mais provável?",
+    "alternativas": {
+      "A": "Choque séptico.",
+      "B": "Hipertensão pulmonar.",
+      "C": "Transposição dos grandes vasos da base.",
+      "D": "Aspiração meconial.",
+      "E": "Coarctação da aorta."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A transposição dos grandes vasos da base é cardiopatia cianótica dependente de canal arterial e a manifestação clínica mais importante é cianose que ocorre algumas horas após o parto quando ocorre o fechamento do canal arterial. No tratamento dessa cardiopatia deve-se iniciar prostaglandina endovenosa contínua para manter o ducto arterial pérvio. Não deve ser usado oxigênio e o tratamento é cirúrgico. O mais interessante no caso é uma cianose que não responde ao oxigênio justamente porque o oxigênio faz uma constrição do ducto promovendo o seu fechamento e piora da cianose. Lembrar que neste tipo de cardiopatia a circulação é em paralelo. Na radiografia de tórax geralmente a área cardíaca é normal ou com discreta cardiomegalia. O parênquima pulmonar também é normal e algumas vezes pode apresentar discreta congestão. Na ausculta cardíaca geralmente não há sopros, podendo apresentar segunda bulha mais hiperfonética devido a posição da aorta anterior saindo do ventrículo direito. Portanto lembrar que paciente com cianose que não melhora com oxigenioterapia, com radiografia de tórax que se exclui alterações pulmonares que justifiquem a cianose, ausência de sopros importantes uma boa hipótese diagnóstica é transposição dos grandes vasos da base.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q058",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 58,
+    "enunciado": "Recém-nascido a termo, sexo masculino, evoluiu com volumosos hematomas em coxas após receber vitamina K e vacina para hepatite B no pós-parto imediato. Qual sua principal hipótese diagnóstica?",
+    "alternativas": {
+      "A": "Hemofilia A.",
+      "B": "Doença de von Willebrand.",
+      "C": "Trombocitopenia imune primária.",
+      "D": "Púrpura de Henoch-Schönlein.",
+      "E": "Doença hemorrágica do recém-nascido."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "As alterações do número ou da função plaquetária se expressam por sangramentos mucosos e cutâneos de intensidade variável, como epistaxe, sangramento gengival e menorragia. A doença de von Willebrand caracteriza-se pela presença de sangramento cutâneo-mucoso. A Púrpura de Henoch-Schönlein ou vasculite por imunoglobulina A (IgA) é uma doença que envolve vasos predominantemente de pequeno calibre, com acometimento preferencial cutâneo, articular, gastrintestinal e renal. As manifestações clínicas das hemofilias são principalmente hemartroses e hematomas relacionados ou não a trauma. As manifestações clínicas são precoces desde o nascimento nos casos graves.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q066",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 66,
+    "enunciado": "Mulher de 27 anos, nulípara, menarca aos 9 anos, com dismenorreia progressiva e dispareunia profunda vem à Unidade Base de Saúde trazendo ultrassonografia transvaginal que evidencia cisto ovariano à direita com conteúdo espesso. Com base na história clínica e o exame complementar é provável tratar-se de:",
+    "alternativas": {
+      "A": "Cisto de corpo lúteo.",
+      "B": "Torção ovariana.",
+      "C": "Gravidez ectópica.",
+      "D": "Endometriose.",
+      "E": "Doenças inflamatória pélvia."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O Teste RA endometriose tem como característica a menarca precoce, dismenorreia progressiva, dispareunia de profundidade, infertilidade. Para o diagnóstico definitivo é necessário a visualização dos focos endometrióticos, sendo a laparoscopia considerada padrão-ouro, mas o achado de cistos ovarianos com conteúdo espesso, homogêneo é fortemente sugestivo de endometrioma.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q074",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 74,
+    "enunciado": "Mulher de 23 anos, 07 semanas de gestação, G1P0, apresenta quadro de vômitos diários, vários episódios há 10 dias sem melhora com uso de medicações antieméticas por via oral. Apresenta emagrecimento 3 kg desde início da gestação e sinais de desidratação leve. Das patologias listadas, quais poderiam estar associadas ao quadro proposto?",
+    "alternativas": {
+      "A": "Abortamento retido.",
+      "B": "Gestação anembrionada.",
+      "C": "Diabetes gestacional.",
+      "D": "Gravidez molar.",
+      "E": "Isoimunização RH."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O aumento da produção de estrogênio causado pelo processo de gestação molar pode cursar com quadros severos de hiperêmese gravídica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q082",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 82,
+    "enunciado": "O pneumotórax espontâneo geralmente ocorre com o paciente em repouso, raramente durante exercício. Dor torácica e dispnéia são os sintomas mais freqüentes. Qual a causa mais comum de pneumotórax espontâneo secundário?",
+    "alternativas": {
+      "A": "Trauma por acidente de trânsito.",
+      "B": "Tuberculose.",
+      "C": "Fibrose pulmonar.",
+      "D": "DPOC.",
+      "E": "Neoplasia pulmonar."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Com pico de incidência entre 45 e 60 anos de idade, tem como causa mais comum a doença pulmonar obstrutiva crônica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q090",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 90,
+    "enunciado": "Mulher de 35 anos, quinto dia pós-operatório de hemicolectomia esquerda, é admitida no prontoatendimento com quadro de náuseas associado a dor abdominal, predominando no lado esquerdo, e febre aferida de 38 graus. Ao exame físico apresenta dor à palpação profunda em hipocôndrio e flanco esquerdo, sem sinais de irritação peritoneal e frequência cardíaca de 120 batimentos por minutos. Ausculta pulmonar é normal, temperatura axilar de 38 graus e restante do exame físico sem alterações. Diante do quadro clínico apresentado qual seria o diagnóstico?",
+    "alternativas": {
+      "A": "Broncopneumonia.",
+      "B": "Atelectasia.",
+      "C": "Deiscência de anastomose.",
+      "D": "Infecção de ferida operatória.",
+      "E": "Infecção urinária."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Paciente submetida a colectomia esquerda apresentando no pós-operatório precoce quadro de náuseas, dor abdominal, febre e taquicardia; a principal suspeita diagnóstica é deiscência de anastomose. Além disso, não apresenta sintomas respiratórios ou alterações pulmonares no exame físico.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q098",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 98,
+    "enunciado": "Paciente de 30 anos queixa-se de perda da acuidade visual com evolução de 3 semanas associado a cefaleia progressiva com piora noturna. Ao exame neurológico apresenta hemianopsia heterônima bitemporal. Baseado no achado do exame neurológico, qual a provável localização da lesão tumoral?",
+    "alternativas": {
+      "A": "Tumor do corpo caloso.",
+      "B": "Tumor de hipófise.",
+      "C": "Tumor do lobo frontal.",
+      "D": "Tumor do lobo occipital.",
+      "E": "Tumor de lobo temporal."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Avaliação do conhecimento de anatomia, noções de semiologia, neurologia e oftalmologia. Tumores de hipófise podem fazer compressão do quiasma ótico com conseqüente Hemianopsia Heterônima Bitemporal.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q106",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 106,
+    "enunciado": "Homem de 72 anos, com internações nos últimos 4 meses para tratamento de infecções urinárias e respiratórias, volta com pneumonia. No terceiro dia de internação, apresenta piora clínica, retorno da febre e inicia com diarreia profusa com múltiplos episódios com presença de muco. De acordo com quadro clínico, qual o microrganismo mais provável presente na cultura de fezes?",
+    "alternativas": {
+      "A": "Rotavírus.",
+      "B": "Giardia lambria.",
+      "C": "Clostridium difficile.",
+      "D": "Cryptosporidium.",
+      "E": "Shigella disenteriae."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O histórico de paciente idoso com múltiplas internações e uso de antibióticos de amplo espectro favorecem seleção de bactérias da microbiota normal do intestino favorecendo o desenvolvimento deClostridium difficile e o diangóstico de colite pseudomembranosa.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q114",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 114,
+    "enunciado": "Mulher de 29 anos apresenta insônia, palpitações, nervosismo e perda de peso há 4 meses. Ao exame físico: FC 112 bpm, glândula aumentada de volume, indolor, nódulo palpável de cerca de 2 cm no terço superior de lobo esquerdo da tireoide. Os exames mostram: TSH 0,01 mcUI/ml (VR: 0,4 a 5), T4 livre 4,5 ng/dl (VR: 0,7 a 1,8), cintilografia de tireoide com aumento da captação, exceto área hipocaptante no lobo esquerdo (na topografia do nódulo). Qual é a causa destas alterações?",
+    "alternativas": {
+      "A": "Adenoma tóxico.",
+      "B": "Tiroidite lonfocítica subaguda.",
+      "C": "Doença de Graves.",
+      "D": "Tiroidite de Hashimoto.",
+      "E": "Bócio multinodular tóxico."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Trata-se de um caso de tireotoxicose, em que é necessário se fazer o diagnóstico diferencial. Todas as alternativas apresentadas são possíveis causas de tireotoxicose. A paciente apresenta um nódulo palpável, o que poderia sugerir uma doença de Plummer (nódulo autônomo). Porém, a cintilografia de tireoide, exame mais adequado para diferenciação entre as causas, mostra um nódulo hipocaptante, com hipercaptação no restante da glândula, o que indica o diagnóstico de doença de Graves. O nódulo neste caso não é a causa da tireotoxicose (se fosse, ele apareceria hipercaptante com hipocaptação no restante da glândula). A tireoidite linfocítica subaguda resultaria em hipocaptação difusa na cintilografia. VILAR, Lucio (Ed.). Endocrinologia clínica. 7. ed. Rio de Janeiro: Guanabara Koogan, 2021.",
+    "requer_imagem": false
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "id_origem": "tp2022_q007",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 7,
+    "enunciado": "O nível de mRNA de um fator de transcrição específico foi semelhante comparando dois tecidos distintos. Entretanto, os níveis de mRNA de seus genes-alvo diferiuse significativamente nestes tecidos. Qual das etapas da regulação da expressão do gene que codifica essa proteína regulatória tem maior probabilidade de ser diferencialmente controlada nesses tipos celulares?",
+    "alternativas": {
+      "A": "Tradução ou pós tradução.",
+      "B": "Transcrição.",
+      "C": "Transporte do mRNA.",
+      "D": "Degradação do mRNA.",
+      "E": "Escolha dos sítios desplicing."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Como o nível de mRNA do fator de transcrição específico é semelhante nos dois tecidos, a diferença pode ser atribuída a atividade desta proteína, ou seja, ou modificações traducionais ou pós traducionais.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q015",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 15,
+    "enunciado": "Em um serviço de acompanhamento à gestante, foi realizado um levantamento sobre o número de casos de sífilis na gestação diagnosticados no último mês. O objetivo era analisar o perfil epidemiológico destas gestantes. Foram 8 casos diagnosticados no período. Tendo como base a tabela abaixo, qual a mediana da idade das gestantes?",
+    "alternativas": {
+      "A": "24 anos.",
+      "B": "25 anos.",
+      "C": "30 anos.",
+      "D": "32 anos.",
+      "E": "35 anos."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O termo mediana refere-se à medida que específica a tendência central indicando exatamente o valor central de determinados dados. É importante ressaltar que quando temos uma quantidade ímpar de números, definimos a mediana como o número central dos números apresentados. Porém, quando se tem uma quantidade par de números, definimos a mediana destes da seguinte forma: Somam-se os dois números centrais e calcula-se a média entre eles. 17-18-20-21-27-32-32-33; (21+27) / 2= 24 anos mediana; Média =25 anos; moda = 32. Bioestatística - Princípios e Aplicações Callegarijacques,Sidia M.",
+    "requer_imagem": true
+  },
+  {
+    "id_origem": "tp2022_q023",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 23,
+    "enunciado": "Caso 1: José, 55 anos, hipertenso, foi diagnosticado com COVID-19 ontem na Central de Triagem de seu município. A equipe que o acompanha na Unidade de Saúde entrou em contato hoje para testar todos os familiares e acompanhar a evolução de toda a família. Caso 2: Maria, 65 anos, é portadora de diabetes mellitus. Devido a pandemia, o serviço de atenção secundária está temporariamente fechado. Maria procura o seu Médico de Família para mostrar os exames pedidos pela endocrinologista e ver se precisa fazer algum ajuste da medicação. Esses casos em conjunto demonstram qual atributo essencial da Atenção Primária à Saúde preservado durante a pandemia?",
+    "alternativas": {
+      "A": "Coordenação do cuidado.",
+      "B": "Primeiro contato.",
+      "C": "Cuidado multidisciplina.",
+      "D": "Competência cultural.",
+      "E": "Orientação familiar e comunitária."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A APS é responsável pela coordenação do cuidado, supervisionando as informações vindas de outros níveis de atenção (como no caso exemplificado pelo José), regulando os fluxos para garantir agilidade à atenção de problemas potencialmente graves e adequando todo esse cuidado à realidade das pessoas. Durante o fechamento (Lock down) dos serviços secundário como ambulatórios de especialidade coube à APS garantir o cuidado adequado e oportuno às pessoas como demonstrado no caso da Maria.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q031",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 31,
+    "enunciado": "João é médico de uma equipe de Estratégia de Saúde da Família de um município brasileiro que teve altas taxas de mortalidade por COVID-19. Ele percebeu a necessidade de fazer uma atividade de Educação com sua comunidade. Sobre a atividade a ser desenvolvida por João, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Será mais efetiva, considerando-se o modelo de Educação Dialogal, se João fizesse uma roda de conversa com sua população.",
+      "B": "Uma palestra com dados epidemiológicos locais está adequada ao modelo de Educação Dialogal.",
+      "C": "Para o modelo de Educação Tradicional, ele deve incluir uma atividade 'quebra gelo', que auxilia na interação entre os sujeitos.",
+      "D": "Será mais efetiva se João conseguir passar a maior quantidade de dados e informações sobre a doença para transmitir à população",
+      "E": "Uma atividade com relatos de pacientes que tiveram COVID-19 é considerada inadequada neste caso."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "No modelo dialógico: o indivíduo é reconhecido sujeito portador de um saber, que embora distinto do saber técnico-científico não é deslegitimado pelos serviços. Em um modelo dialógico e participativo, todos, profissionais e usuários, atuam como iguais, ainda que com papéis diferenciados.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q039",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 39,
+    "enunciado": "Paciente de 42 anos chega ao pronto socorro de um município da região sudeste referindo quadro agudo de mal-estar, cefaleia, mialgia, náusea, vômito, dor abdominal e febre alta (40oC) intermitente que se alterna com períodos de sudorese e calafrio. Relata proceder de Porto Velho (Rondônia) há 15 dias e trabalhar na agricultura. Antes de proceder ao exame físico, o principal diagnóstico é de:",
+    "alternativas": {
+      "A": "Febre amarela.",
+      "B": "Febre maculosa.",
+      "C": "Malária.",
+      "D": "Doença de Chagas aguda.",
+      "E": "Dengue."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O quadro clínico e a epidemiológico é típico da malária, doença endêmica em nosso país na região da Amazônia Legal. Trata-se de uma situação relativamente comum em qualquer pronto socorro do país.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q047",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 47,
+    "enunciado": "Rinite é a doença alérgica respiratória mais prevalente na infância e pode levar a grande impacto na qualidade de vida se não for identificada por profissionais de saúde. Em relação ao diagnóstico dessa condição, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "É baseado em testes alérgicos de leitura tardia (contato) e dosagem de Imunoglobulina G específica sérica.",
+      "B": "É orientado pelo exame físico, no qual se identifica estridor expiratório e eczema na região em torno no nariz.",
+      "C": "É norteado primordialmente por exames de imagem como radiografia do perfil nasal (cavum) e seios da face.",
+      "D": "É mandatório realização de nasofibroscopia para afastar polinose e outras alterações anatômicas da cavidade nasal.",
+      "E": "É essencialmente clínico, com a presença de coriza, espirros em salvas, obstrução e prurido nasal."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O diagnóstico de rinite alérgica é essencialmente clínico, incluindo sintomas crônicos nasais e eventualmente oculares associados. O teste alérgico de leitura imediata ou dosagem de IgE específica sérica auxiliam na identificação dos alérgenos que possam estar envolvidos do desencadeamento de sintomas, mas não são essenciais. No exame físico estão presentes sinais de atopia como saudação alérgica, dupla prega de Dennie Morgan e edema de conchas nasais com palidez de mucosa associada. Não são necessários exames de imagem, que inclusive podem ser iatrogênicos para a criança, por emitirem radiação. Nasofibroscopia poderia afastar polipose nasal, mas é realizada na infância para casos mais graves ou refratários ao tratamento.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q055",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 55,
+    "enunciado": "O exame do reflexo vermelho (\"teste do olhinho\") tem se mostrado eficaz como exame de triagem no período neonatal. Os casos suspeitos são encaminhados ao oftalmologista para confirmação diagnóstica. Identifique o que sugere a possibilidade de catarata congênita.",
+    "alternativas": {
+      "A": "Hemorragia subconjuntival.",
+      "B": "Aumento da córnea.",
+      "C": "Presença de midríase.",
+      "D": "Presença de leucoria.",
+      "E": "Presença de anisocoria."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O hábito de avaliar estruturas oculares no RN é essencial para o diagnóstico precoce da catarata congênita, devendo fazer parte da rotina do exame neonatal. A presença de leucocoria (pupila branca) ou a ausência do \"reflexo vermelho\"sugere a possibilidade de catarata.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q063",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 63,
+    "enunciado": "Mulher de 28 anos, procura a unidade de pronto atendimento relatando ter sido vítima de violência sexual há cerca de 20 horas; na anamnese refere que não utiliza método contraceptivo. Para contracepção de emergência, é indicado:",
+    "alternativas": {
+      "A": "Enantato de Noretisterona + Valerato de Estradiol, intra-muscular.",
+      "B": "Desogestrel, 75 mcg, via oral, em dose única.",
+      "C": "Acetato de medroxiprogesterona, 150 mg, intra-muscular, em dose única",
+      "D": "Etinilestradiol 30 mcg + gestodeno 75 mcg, via oral, em dose única.",
+      "E": "Levornogestrel, 0,75mg, via oral, em duas doses com intervalo de 12 horas."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A anticoncepção de emergência (AE) deve ser prescrita para todas as mulheres e adolescentes expostas à gravidez, através de contato certo ou duvidoso com sêmen, independente do período do ciclo menstrual que se encontrem, que tenham tido a primeira menstruação (ou que já apresentem sinais de puberdade) e que estejam antes da menopausa. A AE deve ser administrada o mais precocemente possível, dentro das primeiras 72 horas após o abuso. Porém entre o 4° e 5° dia da violência sexual a AE ainda oferece razoável proteção, embora com taxas de falha maiores. Sendo assim, a AE pode ser administrada até o 5o dia após a violência sexual.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q071",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 71,
+    "enunciado": "Mulher de 38 anos, IV gesta, já teve 3 partos normais e 1 abortamento, apresenta um quadro de ausência de menstruação há 6 meses. Fez o teste da progesterona que foi negativo, apresentou sangramento quando associou estrogênio. As dosagens das gonadotrofinas se mostraram elevadas. O diagnóstico neste de caso é de:",
+    "alternativas": {
+      "A": "Provável hiperprolactinemia.",
+      "B": "Amenorreia psicogênica.",
+      "C": "Síndrome dos ovários policísticos.",
+      "D": "Síndrome de Asherman.",
+      "E": "Falência ovariana."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Pacientes que não respondem aos testes do estrógeno e progesterona, com altos níveis de hormônios gonadotróficos circulantes, tem como causa principal de amenorreia a falência ovariana. Isso porque, afastadas causas estruturais (improváveis, visto que a paciente menstruava anteriormente e, inclusive, tem 3 partos vaginais), a ausência de sangramento menstrual se dá pela insuficiência ovariana, que não tem mais folículos ovarianos para estímulo endometrial proliferativo e posterior descamação. Assim como, na ausência de produção endógeno de gonadrotrofinas, não há feedback negativo na produção de FSH e LH.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q079",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 79,
+    "enunciado": "Primigesta de 30 anos, não tabagista, gestante de 12 semanas, tem resultado de sorologia para toxoplasmose mostrando IgM positiva, IgG positiva e a prova de avidez de IgG inferior a 30%. Para este caso indica-se:",
+    "alternativas": {
+      "A": "rifampicina e isoniazida.",
+      "B": "o pirimetamina e sulfonamida com ácido folínico.",
+      "C": "espiramicina.",
+      "D": "rifampicina, isoniazida, pirazinamida e etambutol.",
+      "E": "sulfametoxazol e trimetropim."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Iniciar com Espiramicina de forma contínua até a 16a semana de gestação. A partir da 18 a semana de gestação, substituir a espiramicina por esquema SPAF (Sulfadiazina, Pirimetamina e Ácido Folínico) até a 34a semana gestacional, substituindo o SPAF pela espiramicina. Por não atravessar a placenta, a espiramicina não pode ser usada para tratar infecções fetais.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q087",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 87,
+    "enunciado": "Considerando a importância do rastreamento de câncer de próstata, qual a conduta recomendada na prática diária para o diagnóstico precoce?",
+    "alternativas": {
+      "A": "Indicar rastreamento para todos homens acima de 40-45 anos sem risco aumentado para câncer de próstata.",
+      "B": "Indicar rastreamento para todos homens acima de 50-55 anos com risco aumentado para câncer de próstata.",
+      "C": "Indicar rastreamento para homens com histórico familiar positivo para câncer de próstata, independentemente da idade.",
+      "D": "Indicar rastreamento de forma individualizada, após decisão informada, para homens acima de 50-55 anos, sem risco aumentado para câncer de próstata.",
+      "E": "Indicar rastreamento de forma individualizada, após decisão informada, para homens acima de 40-45 anos, sem risco aumentado para câncer de próstata."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Todas as sociedades nacionais e internacionais de Urologia e Oncologia indicam rastreamento para câncer de próstata, com exame digital da próstata (toque) e dosagem do PSA sérico, sempre levando em consideração dados individuais como histórico familiar, raça, idade, presença de sintomas miccionais, desejo do paciente. A idade para início do rastreameanto pode diferir entre os \"guidelines\"das diferentes associações, alguns recomendando iniciar após os 50 anos, outros após os 55 anos.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q095",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 95,
+    "enunciado": "Homem de 65 anos, com história de varizes em membros inferiores desde os 20 anos, refere lesão ulcerada na perna direita há cerca de 5 anos, de difícil cicatrização. Faz acompanhamento no ambulatório de feridas por úlcera venosa crônica. Sobre a insuficiência venosa e a úlcera de estase, analise as alternativas abaixo e assinale a correta.",
+    "alternativas": {
+      "A": "A localização mais frequente da úlcera venosa é no terço proximal da perna.",
+      "B": "A úlcera venosa apresenta-se como extensa, profunda, com leito pálido e tecido necrótico.",
+      "C": "A dor no quadro de insuficiência venosa crônica piora com a elevação do membro.",
+      "D": "As úlceras de estase são de caráter benigno e não sofrem degeneração maligna.",
+      "E": "As úlceras venosas tornam-se dolorosas na ocorrência de infecção associada."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A dor presente em pacientes com insuficiência venosa, normalmente inicia-se no decorrer do dia, após períodos em posição ortostática, com piora no final do dia e a noite e apresenta melhora no repouso com membros elevados. A úlcera venosa (estase venosa) pode ser pequena ou estender-se por grandes áreas, apresenta leito raso e com tecido de granulação. Normalmente são indolores e tornam-se dolorosas quando apresentam infecção associada. A localização mais comum são nas regiões maleolares, principalmente maléolo medial. Nas úlceras de longa duração, a presença de bordos elevados deve levantar a suspeita de degeneração maligna.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q103",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 103,
+    "enunciado": "A Doença Pulmonar Obstrutiva Crônica, encontra-se entre as doenças crônicas mais prevalentes no mundo. Seu tratamento está baseado em sua classificação de gravidade. A classificação mais utilizada do mundo se chama GOLD, sendo sua última atualização em 2022. Frente a esta classificação, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A capacidade vital forçada é um importante preditor funcional e está diretamente relacionado com mortalidade.",
+      "B": "O número de exacerbações por ano caracteriza aumento de gravidade, mas não interfere no farmacológico.",
+      "C": "O grau de dispneia basal está entre os fatores determinantes de gravidade nesta classificação.",
+      "D": "A gasometria arterial e a capacidade vital forçada pós broncodilatador interferem nesta classificação.",
+      "E": "A classificação GOLD gradua de 1 a 4, considerando a espirometria e a gasometria."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A Doença Pulmonar Obstrutiva Crônica é classificada pelo sistema GOLD. Ela determina o tratamento farmacológico e não farmacológico ideal nos níveis A a D, baseados na VEF 1, dispneia basal e número de infecções anuais. Capacidade vital forçada e gasometria arterial não predizem gravidade.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q111",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 111,
+    "enunciado": "Paciente de 16 anos foi atendido na UPA devido a dor em membros inferiores há 3 dias. As dores se iniciaram de forma abrupta e sem associação com traumas. Referiu uso de analgésico com discreta melhora, porém hoje evoluiu falta de ar e dor no peito. Ao exame apresentava-se ictérico (2+/4+), pálido (3+/4+), febril, taquicárdico e taquipnéico. Na história pregressa, referiu várias internações inclusive com necessidade de transfusão sanguínea por 2 vezes. No hemograma apresentava: anemia normocrômica/normocítica severa, microscopia com presença de drepanócitos. Com base nas informações acima, assinale a alternativa que mostra qual exame laboratorial deverá ser realizado para confirmação do diagnóstico etiológico.",
+    "alternativas": {
+      "A": "D-dímero.",
+      "B": "Eletroforese de hemoglobina.",
+      "C": "Mielograma.",
+      "D": "Curva de fragilidade osmótica.",
+      "E": "Teste de Guthrie."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Anemia hemolítica com anemia, icterícia (provavelmente crônica, pois já necessitou transfusão anterior), com sintomatologia aguda sugerindo quadro de síndrome torácica aguda, exames favorecendo diagnóstico de anemia falciforme (anemia normo/normo e presença de drepanócitos), porém necessita confirmação com exames complementares. Diagnóstico definitivo: comprovação da hemoglobina S (ou de outras Hb mutantes) pela eletroforese de hemoglobinas por Cromatografia Líquida de Alta Performance (HPLC) ou Eletroforese de hemoglobina com Focalização Isoelétrica (FIE). Os testes de falcização indicam apenas a presença da Hb S, portanto também são positivos para os casos de traço.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q119",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 119,
+    "enunciado": "Homem de 50 anos, apresenta manchas nas costas com prurido esporádico, notadas durante o verão. Ao exame físico, observa-se múltiplas máculas arredondadas, brancas, recobertas com escamas finas desde o pescoço, estendendo-se por todo tronco, intercaladas de pele normal. As lesões também apresentam sensibilidade tátil, térmica e dolorosa preservadas e, ao estiramento da pele, a descamação ficou ainda mais evidente. Qual o diagnóstico para este caso?",
+    "alternativas": {
+      "A": "Pitiríase rósea de Gilbert.",
+      "B": "Pitiríase versicolor.",
+      "C": "Hanseníase indetermianda.",
+      "D": "Psoríase.",
+      "E": "Dermatite seborreica."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A pitiríase versicolor (PV) é uma infecção fúngica superficial comum, causada pelo fungo Malassezia furfur. Pacientes com PV geralmente apresentam múltiplas lesões no tronco, com regiões intercaladas de pele normal. As lesões podem também surgir no pescoço e extremidades superiores proximais. Sua distribuição normalmente é paralela à das glândulas sebáceas, com ocorrência maior no tórax, dorso e face. O tratamento é realizado com cetoconazol 200mg/ dia por 10 dias e xampu de sulfeto de selênio 2,5%.",
+    "requer_imagem": false
+  }
+]

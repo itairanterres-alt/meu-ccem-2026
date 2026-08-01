@@ -1,0 +1,257 @@
+[
+  {
+    "id_origem": "tp2022_q005",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 5,
+    "enunciado": "Homem de 35 anos procura o serviço de emergência por tontura postural. Ao exame físico, percebe-se diferença significativa entre a pressão arterial na posição em pé e em decúbito. Foram solicitados exames laboratoriais que revelaram hipercalemia. De acordo com o quadro clínico, quais células poderiam estar envolvidas?",
+    "alternativas": {
+      "A": "Da medula adrenal.",
+      "B": "Do córtex adrenal.",
+      "C": "Musculares cardíacas.",
+      "D": "Foliculares da tireoide.",
+      "E": "Hepatócitos."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "As células da zona glomerulosa do córtex adrenal são secretoras de aldosterona. A deficiência de aldosterona provoca depleção renal de sódio e hipercalemia. A depleção de sódio pode levar à hipovolemia e redução do débito cardíaco, ocasionando a hipotensão postural.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q013",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 13,
+    "enunciado": "Recém-nascido, sexo feminino, gestação a termo, portador de uma grande massa tumoral na região sacral, previamente diagnosticada por ultrassonografia durante o pré-natal (24 semanas). Desenvolveu logo após o nascimento constipação intestinal e urinária, necessitando de internação e encaminhamento para avaliação com cirurgião pediátrico para remoção cirúrgica do tumor. O exame anatomopatológico revelou a presença de vestígios de ossos, cartilagens e pelos. Qual a origem embrionária desse tumor?",
+    "alternativas": {
+      "A": "Processo notocordal.",
+      "B": "Vesícula umbilical.",
+      "C": "Cristas neurais.",
+      "D": "Somitos.",
+      "E": "Linha primitiva."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A linha primitiva é responsável pela formação do endoderma e mesoderma. É formada a partir de células do Epiblasto, que por sua vez, dá origem ao ectoderma. Em meados da quarta semana diminui em tamanho e torna-se uma estrutura insignificante na região sacrococcígea do embrião. Desaparecendo completamente até o final da quarta semana. Sua persistência resulta na formação de um tumor que pode conter vestígios de diferentes tecidos, visto que suas células estão envolvidas no desenvolvimentos dos 3 folhetos embrionários.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q021",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 21,
+    "enunciado": "Os 4 princípios da bioética são a benevolência (fazer o bem), a não maleficência (não fazer o mal), a autonomia (a pessoa escolhe) e a justiça (priorizar com equidade). Na Atenção Primária à Saúde (APS), existem alguns desafios que permeiam os limites éticos profissionais. Com relação à atuação na APS, pode-se afirmar que:",
+    "alternativas": {
+      "A": "nada justifica a quebra de confidencialidade e, portanto, o prontuário médico é propriedade e responsabilidade exclusiva do médico na equipe multiprofissional.",
+      "B": "cada profissão envolvida na equipe multiprofissional segue seu código de ética, tornando desnecessária a discussão de papéis e limites de responsabilidade dentro da equipe multiprofissional.",
+      "C": "atualmente, existe a carência de um código de ética multiprofissional, favorecendo crises em razão de diferentes visões de cada profissão e de cada profissional diante de dilemas éticos.",
+      "D": "por se tratar de equipe multiprofissional, entendese que toda a informação sobre o paciente necessita estar explícita em prontuário, de forma clara, para que todos conheçam todos os usuários.",
+      "E": "faz parte do trabalho multiprofissional as discussões sobre os casos atendidos, o que facilita que todos os profissionais conheçam detalhadamente cada caso, sanando, desta forma, qualquer conflito."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Existem condições que justificam a quebra de sigilo, como, por exemplo, sério dano físico a pessoa identificável, quando houver benefício real dessa quebra, quando for o último recurso e quando for generalizável, ou seja, mesmo dilema, com outros atores, permite a mesma solução. Sempre é necessário que a equipe multiprofissional discuta e compreenda os papéis e limites éticos de cada um dos profissionais da equipe e tentem estabelecer um processo de trabalho que acolha todas as nuances. O prontuário médico é de responsabilidade de instituição que o gere, sendo somente autorizada a exposição de detalhes e confidencialidades do paciente se este autorizar a exposição. Nem todos os casos precisam ser discutidos com todos os membros da equipe, podendo ser, num primeiro momento, partilhado com profissionais que tenham compromisso com algum órgão de ética profissional.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q029",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 29,
+    "enunciado": "Henry Sigerist descreveu as quatro funções da medicina: Promoção da Saúde, Prevenção das Doenças, Tratamento dos Doentes e Reabilitação. Das alternativas abaixo, assinale aquela que apresenta uma ação correta de medida de prevenção.",
+    "alternativas": {
+      "A": "Lucia recebeu diagnóstico de Infecção latente pelo Mycobacterium tuberculosis e sua médica indicou uso de quimioprofilaxia como prevenção secundária.",
+      "B": "Seu Joaquim é diabético, obeso, usa insulina e seu médico recomendou atividade física e dieta equilibrada como medida de prevenção terciária.",
+      "C": "Amanda de 23 anos foi colher seu exame de coleta de Citologia Oncótica pedido como rotina pela médica, realizando uma prevenção primária.",
+      "D": "Maria, 67 anos, após alta devido a um AVC, iniciou fonoaudiologia para ajudar na deglutição, pensando em prevenção quaternária.",
+      "E": "A verificação da pressão arterial nas consultas de rotina de Dona Ilda na UBS traduz uma forma de prevenção primária."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Diabéticos que fazer exercícios, evitam complicações da doença. A coleta de citologia oncótica é prevenção secundária. A fonoaudiologia em pacientes com sequela de AVC é prevenção terciária. A reverificação de pressão arterial é prevenção secundária. A quimioprofilaxia é prevenção primária.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q037",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 37,
+    "enunciado": "Em 2006, após seguidas discussões que se iniciaram na Oitava Conferência Nacional de Saúde, e a orientação da OMS (Organização Mundial de Saúde) sobre regulamentação de políticas que incentivassem o uso das chamadas práticas de medicina tradicionais e complementares, foi regulamentada a Política Nacional de Práticas Integrativas e Complementares em Saúde (PNPICS). Na PNPICS foram incluídas as seguintes práticas:",
+    "alternativas": {
+      "A": "Acupuntura, Homeopatia, Fitoterapia, Medicina Antroposófica e Termalismo social.",
+      "B": "Apiterapia, Dança circular, Meditação, Terapia Comunitária Integrativa e Shantala.",
+      "C": "Reiki, Massoterapia, Osteopatia, Musicoterapia e Naturopatia.",
+      "D": "Biodança, Arteterapia, Ayurveda, Terapia de florais e Imposição de mãos.",
+      "E": "Reflexoterapia, Constelação familiar, Aromaterapia, Bioenergética e Ozonioterapia."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A Acupuntura, Homeopatia, Fitoterapia, Medicina Antroposófica e Termalismo social, foram regulamentadas pela Política Nacional de Práticas Integrativas e Complementares em Saúde (PNPICS) e inseridas na primeira edição da política.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q045",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 45,
+    "enunciado": "Todo atendimento em Unidade Básica de Saúde é uma oportunidade para se verificar e, se necessário, atualizar a situação vacinal do paciente. No entanto, o médico deve se atentar a situações que contraindicam determinadas vacinas. Assinale a alternativa que contenha uma contra indicação correta a vacina citada.",
+    "alternativas": {
+      "A": "Vacina hepatite B - filhos de mãe portadora da Hepatite B.",
+      "B": "Vacina do rotavírus - malformações do trato gastrointestinal",
+      "C": "BCG - exposição vertical ao vírus do HIV.",
+      "D": "Tríplice viral - baixo peso ao nascer.",
+      "E": "Febre amarela - portadores de alergia à proteína do leite de vaca."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O conhecimento das reais contraindicações das vacinas é fundamental para evitar hesitação ou atrasos desnecessários na administração de vacinas. A vacina da hepatite B deve ser aplicada nas primeiras horas de vida e caso a mãe seja portadora do vírus, deve-se realizar também imunoglobulina específica. Exposição vertical ao HIV não contraindica a vacina BCG. A vacina da febre amarela deve ser evitada em pacientes com anafilaxia ao ovo. Vacina do rotavírus não deve ser realizada em indivíduos com malformações do trato gastrointestinal devido ao risco de invaginarão intestinal.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q053",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 53,
+    "enunciado": "Lactente de 6 meses é levado ao pronto socorro com quadro de vômitos e diarreia aquosa há 48 horas. Ao exame físico se encontra sonolento, hipoativo, olhos fundos com mucosas secas e ausência de lágrimas, pulso débil e enchimento capilar lentificado. Peso na admissão: 7 Kg. A reidratação deveria ser feita com que tipo de solução e volume?",
+    "alternativas": {
+      "A": "Glicosada 140 ml IV.",
+      "B": "Ringer lactato 210 ml IV.",
+      "C": "Glicofisiológica 140 ml IV.",
+      "D": "Fisiológica 140 ml IV.",
+      "E": "Fisiológica e glicosada (meio a meio) 210 ml IV."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Lactente com quadro de desidratação grave secundário à diarreia aguda. Neste caso, deve ser tratado desde a admissão com terapia de reidratação parenteral. Segundo proposto pelo Ministério da Saúde, deve receber Soro fisiológico 0,9%, 20ml/kg cada 30 minutos, até que esteja hidratada.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q061",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 61,
+    "enunciado": "Médico atende adolescente de 13 anos, grávida de 8 semanas, com conjunção carnal consentida, porém não aceita a gestação e deseja expressamente a interrupção da gravidez com apoio dos seus pais biológicos, presentes na consulta. O profissional deve proceder esclarecendo que:",
+    "alternativas": {
+      "A": "é considerado estupro mesma a adolescente tendo consentido a relação sexual, porém, como a gestação está na oitava semana, nao é permitido aborto.",
+      "B": "precisa ouvir a opinião de um jurista e outros dois médicos obstetras além de um diretor de uma maternidade pública, para ser tomada a decisão.",
+      "C": "neste caso, está contra-indicado interrupção da gravidez e a gestação apresenta riscos aumentados, deve fazer pré-natal em serviço de referência.",
+      "D": "a conjunção carnal foi consentida e conhecida previamente dos pais,portanto, legalmente, não está permitida a interrupção da gravidez.",
+      "E": "é admissível sua interrupção, cabendo ao Estado o dever de garanti-la, sendo realizado de maneira ética, humanizada e segura."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Por ser menor de 14 anos, fica caracterizado o crime de estupro de vulnerável, pelo código penal (CP), que não faz distinção de estupro real e presumido. Como ela não aceita a gestação, é admissível sua interrupção, cabendo ao Estado o dever de garanti-la, sendo realizado de maneira ética, humanizada e segura.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q069",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 69,
+    "enunciado": "Primigesta de 38 semanas, dá entrada ao pré-parto com bolsa rota, 6 cm de dilatação, dinâmica uterina de 3 contrações regulares em 10 minutos e batimentos cardiofetais normais. Após 6 horas de evolução do trabalho de parto, mantém 7 cm de dilatação, dinâmica uterina de 4 contrações efetivas em 10 minutos, batimentos cardiofetais normais, bossa serossanguinolenta e edema de colo. Qual o próximo passo para a condução do caso?",
+    "alternativas": {
+      "A": "Indicar cesarea.",
+      "B": "Condução do trabalho de parto com ocitocina.",
+      "C": "Analgesia de parto.",
+      "D": "Indicar fórcipe.",
+      "E": "Aguardar a evolução natural."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "No trabalho de parto a dinâmica uterina com 4 contrações em 10 minutos, bolsa rota, bossa serossangionolenta, edema de colo e parada de progressão caracterizam desproporção Céfalo-Pélvica e é indicação de Cesárea.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q077",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 77,
+    "enunciado": "Paciente de 26 anos foi submetida à coleta de exame de colpocitologia oncótica do colo uterino, na Unidade Básica de Saúde e, durante o exame, questionou a enfermeira sobre quando as mulheres deveriam iniciar a coleta deste exame e com qual frequência. De acordo com as últimas Diretrizes Brasileiras para Rastreamento do Câncer do Colo Uterino, editada pelo Ministério da Saúde em 2016, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A colpocitologia deve ser iniciada aos 25 anos independentemente de ter iniciado ou não a vida sexual e interrompida aos 64 anos, desde que os dois últimos exames sejam negativos.",
+      "B": "A citopatologia cervical e teste de Schiller devem ser iniciados um ano após início da atividade sexual, e mantido anualmente até os 62 anos.",
+      "C": "Os dois primeiros exames devem ser realizados com intervalo anual, e sendo negativos, a paciente realiza a citopatologia cervical a cada 3 anos.",
+      "D": "A partir das diretrizes de 2016, o Ministério da Saúde incluiu a pesquisa de HPV de alto risco ao exame citopatológico cervical bianual.",
+      "E": "A citopatologia cervical e o teste de Schiller devem ser realizados bianualmente a partir dos 25 anos."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Baseado no último manual INCA 2016, o rastreamento para o câncer de colo uterino é feito através da colpocitologia oncológica cervical convencional que é iniciada aos 25 anos, nas pacientes que já iniciaram a vida sexual. Este exame deve ser feito anualmente por duas vezes consecutivas e, se normais, passa a ser trienal. O rastreamento pode ser suspenso aos 64 anos desde que os dois últimos exames estejam normais. Paciente histerectomizadas e com colo extirpado por doença benigna estão dispensadas do rastreamento, assim como as pacientes que nunca tiveram relação sexual por via vaginal.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q085",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 85,
+    "enunciado": "Criança de 2 anos, com quadro de otite média aguda (OMA) em ambos ouvidos, realizou tratamento com antibiótico e após alguns dias da resolução do quadro de OMA, os pais observaram dificuldade auditiva. Ao exame físico constatado: otite média com efusão bilateral, membrana timpânica íntegra bilateral, Rinoscopia: septo alinhada, mucosa normocorada, Oroscopia: tonsila palatina grau II, sem lesões. Audiometria: Perda auditiva de grau moderado, Níveis maior ou igual a 40 dB. Qual a conduta frente ao caso?",
+    "alternativas": {
+      "A": "Indicar timpanotomia e dreno de ventilação bilateral.",
+      "B": "Repetir audiometria em 1 ano para reavaliar.",
+      "C": "Tratamento medicamentoso com corticoide tópico.",
+      "D": "Observar por 6 meses e indicar cirurgia de adenoidectomia.",
+      "E": "Indicar cirurgia de adenoidectomia e tonsilectomia."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A presença de efusão na orelha média após um episódio de OMA (otite média aguda) é a regra. Independentemente de tratamentos, uso de medicações ou acompanhamento clínico, a resolução espontânea da OME (otite média com efusão) é favorável, ocorrendo em 75% a 90% das crianças após três meses. Apesar da história natural favorável, a taxa de recorrência é alta, ficando ao redor de 65% em dois anos. A maioria dos casos se resolve dentro de alguns meses, mas o prognóstico é inversamente relacionado ao tempo de evolução. A resolução espontânea é menor nos casos bilaterais e com persistência de três meses ou mais. Na maioria dos casos, a abordagem à OME é de observação por tempo determinado, acompanhando a sua história natural de resolução espontânea. Nesse período, cabe ao médico proteger o paciente de intervenções infundadas, ao mesmo tempo que deve estar atento para detectar problemas de desenvolvimento da criança e alterações otoscópicas que possam resultar em danos irreversíveis. As crianças com OME sem fatores de risco para dificuldades de desenvolvimento devem ser inicialmente observadas por três meses a partir do início da efusão (se conhecido) ou da data do diagnóstico. Em muitos casos, não é possível predizer quando iniciou a OME. Um episódio de OMA/IVAS ou audiometria/timpanometria recente podem auxiliar na estimativa de sua duração. Recomenda-se, nas crianças com OME crônica que realizaram avaliação auditiva, a seguinte abordagem, considerando-se o nível auditivo no melhor lado:1. Níveis menores ou iguais 20 dB (normal): repetir teste auditivo em 3 a 6 meses na persistência de OME.2. Níveis entre 21 e 39 dB (leve): abordagem individualizada de acordo com a duração da efusão, intensidade da perda auditiva e preferência dos pais.3. Níveis maiores ou iguais a 40 dB (moderado): recomenda-se cirurgia. Essas recomendações não contemplam OME crônica unilateral que provoca perda auditiva condutiva.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q093",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 93,
+    "enunciado": "Paciente de 75 anos apresenta anemia e fraqueza e a investigação demonstrou a seguinte imagem radiológica: O que poderia ter sido solicitado como medida de diagnóstico precoce desta doença?",
+    "alternativas": {
+      "A": "Endoscopia digestiva alta acompanhado de biópsia de lesões suspeitas em adultos de 50 a 75 anos.",
+      "B": "Hemograma e dosagem de ferro sérico e ferritina em adultos de 50 a 75 anos bianualmente.",
+      "C": "Pesquisa de sangue oculto e colonoscopia acompanhado de biópsia de lesões suspeitas para adultos de 50 a 75 anos.",
+      "D": "Ultrassonografia de abdomen total a cada cinco anos em pacientes do sexo feminino acima de 60 anos.",
+      "E": "Tomografia computadorizada e dosagem de antígeno carcinoembrionário em pacientes acima dos 60 anos."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Anemia em idosos é consequência frequente de perda sanguínea, geralmente de tubo digestivo. A imagem em \"mordida de maçã\"em enema opaco é bem característica de neoplasia de colon e para esta doença, o exame de sangue oculto nas fezes (FOBT, do inglês, fecal occult blood test) é uma estratégia utilizada como um primeiro teste de suspeição, que necessitará, nos casos positivos, de exame complementar ou confirmatório. Os exames endoscópicos, como retossigmoidoscopia e colonoscopia, além de poderem ser utilizados como teste de rastreamento alternativos, são os confirmatórios dos casos com rastreamento com exame de sangue oculto alterado ou com sinais e sintomas suspeitos, permitindo biopsiar achados suspeitos e retirar lesões prémalignas (HEWITSON et al., 2007). A Força Tarefa de Serviços Preventivos dos Estados Unidos, em 2021, referendado pelo INCA, recomendou o rastreamento em adultos de 50 a 75 anos (recomendação grau A), de 45 e 49 anos (recomendação grau B) e, seletivamente, entre 76 e 85 anos (recomendação grau C).",
+    "requer_imagem": true
+  },
+  {
+    "id_origem": "tp2022_q101",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 101,
+    "enunciado": "A síndrome isquêmica aguda é uma emergência frequente na prática clínica diária. Segundo os critérios da 4a. Definição Universal do Infarto Agudo do Miocárdio, no que diz respeito aos seus critérios diagnósticos da apresentação aguda, podemos afirmar que:",
+    "alternativas": {
+      "A": "dor torácica típica há menos de 12 horas com eletrocardiograma mostrando infradesnivelamento do segmento de ST em duas ou mais derivações contíguas tem indicação de reperfusão.",
+      "B": "os marcadores de necrose miocárdica devem ser usados para confirmar o diagnóstico dos pacientes com dor típica e com supra de ST no eletrocardiograma, antes de indicar tratamento definitivo de reperfusão.",
+      "C": "o aumento dos marcadores de necrose miocárdica como a troponina, que é um marcador específico, significa que houve lesão de célula miocárdica, portanto, síndrome isquêmica aguda.",
+      "D": "para o diagnóstico da síndrome isquêmica aguda são necessários critérios diagnósticos rígidos de sintomas, eletrocardiograma, marcadores de necrose miocárdica e cateterismo para não aumentar os óbitos.",
+      "E": "dor torácica típica há menos de 6 horas com eletrocardiograma mostrando supradesnivelamento do segmento ST em duas ou mais derivações contíguas tem indicação de reperfusão."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Devido à elevada prevalência, morbidade e mortalidade da Síndrome Coronariana Aguda, torna-se sempre necessário revisar e enfatizar seus critérios diagnósticos e de abordagem em emergência, que são de responsabilidade de médicos clínicos e não de especialistas. A Quarta Definição Universal de Infarto Agudo - definida por consenso de especialistas e amplamente divulgada a partir de novembro de 2018 reafirmou que; Síndrome isquêmica com supra-ST deve ter como critério dor típica e ECG com supra em duas ou mais derivações contíguas e deve ser tratado com reperfusão (mecânica - angioplastia primária ou química - trombólise) se em tempo hábil e na ausência de contra-indicações. Essa conduta se aplica por esse tipo de evento se tratar de uma oclusão completa do vaso culpado. A alteração de infra-ST no ECG não traduz oclusão do vaso, portanto não deve ser conduzida da mesma forma na fase aguda, devendo ser optado na grande maioria dos casos por tratamento conservador pleno. O aluno da graduação também precisa ter pleno conhecimento da utilização adequada dos marcadores de necrose miocárdica (enzimas), para não perder tempo em eventos com SUPRA-ST, e também ter conhecimento de que existem situações em que há elevação de troponinas sem significar infarto e sim injúria miocárdica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q109",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 109,
+    "enunciado": "Homem de 22 anos tem hipotireoidismo desde os 12 anos. Veio à consulta no pronto atendimento queixando-se de dor abdominal, poliúria e polidipsia há 3 dias. Na história familiar pai portador de Doença de Graves. Ao exame físico: IMC=18, PA= 110/70 mmHg. Na unidade de saúde fez os seguintes exames: glicemia de jejum = 300mg/ dl e hemoglobina glicada = 13%. Indique a melhor opção de início de tratamento para este caso.",
+    "alternativas": {
+      "A": "Insulina glargina e asparte.",
+      "B": "Metformina 850mg 3 vezes ao dia.",
+      "C": "Metformina 500mg duas vezes ao dia.",
+      "D": "Insulina NPH e glargina.",
+      "E": "Insulina lispro e regular."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "No manejo do paciente com suspeita de diabetes tipo 1, situação frequentemente encontrada nos serviços de pronto atendimento, é indicado o uso de duas insulinas, a basal e a ultra-rápida.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q117",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 117,
+    "enunciado": "Mulher de 63 anos, ex-tabagista (60 maços/ano) foi submetida a cirurgia com ressecção do nódulo e o anatomopatológico revelou neoplasia pulmonar de pequenas células. Antes de iniciar o tratamento adjuvante, observou que estava indo ao banheiro urinar 6 vezes ao dia, urina de coloração clara e aos exames complementares hemograma normal; glicose 89 mg/dl; sódio de 128 mmol/L. A hipótese diagnóstica mais plausível é síndrome:",
+    "alternativas": {
+      "A": "de Horner.",
+      "B": "perdedora de sal.",
+      "C": "de Addison.",
+      "D": "de Graves.",
+      "E": "da secreção inapropriada de vasopressina."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Os tumores de pequena célula, tem a capacidade de secretar hormônios neuroendócrinos como ADH, levando a um quadro de polaciúria e hiponatremia denominada síndrome da SIADH.",
+    "requer_imagem": false
+  }
+]

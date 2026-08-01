@@ -1,0 +1,257 @@
+[
+  {
+    "id_origem": "tp2022_q003",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 3,
+    "enunciado": "Durante um ciclo de espermatogênese ocorreu a não disjunção de um par de cromossomos autossômicos durante a meiose. Espera-se que os espermatozoides gerados a partir desse ciclo anormal tenham o conjunto cromossômico:",
+    "alternativas": {
+      "A": "50% 24, X e 50% 24, Y.",
+      "B": "75% 24, X ou Y e 25% 24, X ou Y.",
+      "C": "50% 24, X ou Y e 50% 22, X ou Y.",
+      "D": "50% 24, X ou Y e 50% 23, X ou Y.",
+      "E": "25% 24, X ou Y; 25% 22, X ou Y; 25% 23, X e 25% 23, Y."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A questão está relacionada a ocorrência de gametogênese anormal. A não disjunção de um par de cromossomos autossômicos corresponde a uma falha na meiose I da espermatogênese, onde um par de cromossomo não se separa durante a anáfase I do espermatócito primário. Essa falha resulta na formação de espermatócitos secundários geneticamente anormais: 50% contendo um cromossomo a mais (24) e 50% contendo um cromossomo a menos (22). Durante a meiose 2 ocorreu a separação das cromátides irmãs como esperado, levando a formação de um conjunto de espermátides defeituosas de forma similar ao ocorrido com os espermatócitos secundários (50% contendo 24 cromossomos e 50% contendo 22 cromossomos). Na questão a não disjunção afetou um par de cromossomos autossômicos, sem prejuízo na separação do par de cromossomos sexuais.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q011",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 11,
+    "enunciado": "Bactérias anaeróbias são dominantes na microbiota anfibiôntica humana. Na grande maioria das vezes, as infecções por bactérias anaeróbias são de origem endógena. A gangrena gasosa após trauma cirúrgico, por exemplo, tem origem na microbiota intestinal do próprio paciente. O mesmo ocorre na colite pseudomembranosa, causada por Clostridium difficile, que habita a microbiota intestinal humana, podendo tornar-se patogênica na seguinte condição:",
+    "alternativas": {
+      "A": "intoxicação alimentar.",
+      "B": "queimaduras.",
+      "C": "uso de antibioticoterapia.",
+      "D": "presença de corpo estranho.",
+      "E": "neutropenia."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Na grande maioria das vezes, as infecções por anaeróbios são de origem endógena. A maioria dos casos de gangrena gasosa após trauma cirúrgico, por exemplo, tem origem na microbiota intestinal do próprio paciente. Contudo, algumas poucas infecções são exógenas, como, por exemplo, certas infecções por clostrídeo. Infecções nosocomiais podem ocorrer por contaminação com clostrídeos que ocasionalmente participam da microbiota intestinal e podem envolver intoxicação, assim como infecções. Exemplos de tais infecções podem ser as doenças associadas aoC. difficile, principalmente a colite pseudomembranosa relacionada com antibioticoterapia.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q019",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 19,
+    "enunciado": "Uma adolescente foi internada em estado letárgico. Após 2 dias, começou a apresentar atividade convulsiva focal. Os níveis plasmáticos de amônia estavam em 1000 micromol/L (normal 5 a 35 micromol/L). A determinação dos níveis de aminoácidos no plasma mostrou aumento marcante de argininosuccinato. Investigações diagnósticas evidenciaram distúrbios no ciclo da ureia. Assinale a opção correta de conduta para pacientes com o distúrbio acima.",
+    "alternativas": {
+      "A": "Enriquecer a dieta com fontes de proteínas para evitar complicações de carência de aminoácidos essenciais.",
+      "B": "Instituir dieta rica em lipídios para evitar carência de vitaminas lipossolúveis.",
+      "C": "Evitar o consumo de carboidratos para poupar o fígado, tendo em vista que este órgão já está sobrecarregado sintizando ureia.",
+      "D": "Orientar dieta equilibrada (proteinas, carboidratos e lipídios), rica em sais minerais para evitar a hiponatremia.",
+      "E": "Evitar jejum prolongado visando minimizar complicações neurológicas."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Pacientes com distúrbios no ciclo da ureia apresentam dificuldades na eliminação de nitrogênio proveniente da oxidação de aminoácidos, levando ao acúmulo de amônia. Em jejum a oxidação de aminoácidos se torna maior e desta forma deve-se evitar jejum prolongado minimizando a oxidação de aminoácidos e com isso complicações neurológicas.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q027",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 27,
+    "enunciado": "Assinale a alternativa que ilustra corretamente o modelo da História Natural da Doença, em que Leavell e Clark dividem o processo saúde-doença em 2 períodos, a pré-patogênese e a patogênese.",
+    "alternativas": {
+      "A": "Um agente patogênico presente na pré-patogênese tem poder de, sozinho, ser suficiente para desencadear uma doença em um indivíduo suscetível.",
+      "B": "Os agentes patogênicos responsáveis por causar uma doença na pré-patogênese podem ser de natureza física, química, nutricional, genética.",
+      "C": "No período da patogênese temos três níveis de evolução da doença, que podem ser caracterizadas pela presença de sequelas, pela cronicidade ou pela cura.",
+      "D": "As alterações bioquímicas, fisiológicas e histológicas do período da patogênese, permitem o diagnóstico pelos sinais e sintomas específicos de uma doença.",
+      "E": "A cronicidade do período de patogênese necessariamente determina graus variados de incapacidade física irreversíveis e de invalidez."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "E necessária uma interação de outros fatores como os individuais. No período da patogênese temos quatro níveis de evolução da doença e tem a morte como evolução da doença. A cronicidade pode ser reversível.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q035",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 35,
+    "enunciado": "Os estudos epidemiológicos permitem que as medidas de efeito e associação podem ser relativas, do tipo razão ou absolutas, do tipo diferença. Frente ao exposto assinale a alternativa que define as medidas de riscos.",
+    "alternativas": {
+      "A": "Diferença de risco é a diferença entre a prevalência (proporção ou taxa) do grupo de expostos em relação ao grupo não exposto.",
+      "B": "Odds ratio é uma medida de associação que pode ser utilizada para verificar a probabilidade de o evento acontecer na população.",
+      "C": "Risco atribuível é a diferença entre a incidência do evento em dois grupos, o do exposto ao fator de risco e do não exposto.",
+      "D": "Risco relativo é a divisão entre a probabilidade de um evento acontecer quando se está exposto ou não a um fator de risco.",
+      "E": "Razão de prevalência é o cálculo que resulta em quantas vezes o risco de desenvolver uma doença é maior em um grupo comparado ao outro grupo."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Odds ratio: É a divisão entre a probabilidade de um evento acontecer quando se está exposto ou não a um fator de risco. Risco relativo: É o cálculo que resulta em quantas vezes o risco de desenvolver uma doença é maior em um grupo comparado ao outro grupo. Razão de prevalência: é uma medida de associação que pode ser utilizada para verificar a probabilidade de o evento acontecer na população. Risco atribuível/Diferença de risco: é a diferença entre a incidência do evento em dois grupos, o do exposto ao fator de risco e do não exposto.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q043",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 43,
+    "enunciado": "Menina de 7 anos é trazida à consulta por aparecimento de pelos pubianos há 6 meses. Nega doenças prévias, nasceu de parto vaginal a termo, com peso de 2800g. A mãe mede 155cm, e teve a menarca aos 11 anos; o pai mede 168cm. Ao exame, apresenta estatura e peso no percentil 97. Presença de acne em face, pelos pubianos e hipertrofia de clitóris, sem mamas (M1 P3). A idade óssea é compatível com 10 anos. Sobre este caso, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "Deve-se solicitar dosagem de estradiol, LH e FSH para descartar uma puberdade precoce central.",
+      "B": "O aparecimento precoce de pelos pubianos e aumento do clítoris é sugestivo de uma puberdade precoce isossexual.",
+      "C": "Provavelmente é uma puberdade precoce não progressiva (adrenarca precoce).",
+      "D": "Trata-se de uma puberdade precoce periférica e deve-se investigar exposição a esteróides sexuais, além de tumor ou hiperplasia adrenal congênita.",
+      "E": "Em meninas esse quadro é normal, pois as alterações da puberdade se iniciam aos 7 anos."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Essa criança apresenta uma puberdade precoce heterossexual, portanto de causa periférica, e as causas mais comuns são: tumor ou hiperplasia adrenal congênita, exposição a androgênios. A adrenarca precoce não causa hipertrofia de clitóris nem avanço de idade óssea tão grande.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q051",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 51,
+    "enunciado": "Gestante de 32 anos, primigesta, apresentou diabetes gestacional, evolui para parto normal com 39 semanas de gestação. Bolsa rota com 1 hora de evolução, o neonato pesou 4200 gramas, Apgar 8/9. Com 12 horas de vida, o bebê está hipoativo, sonolento, frequência cardíaca 150 bpm, 55 inspirações por minuto, pulsos presentes, não auscultado sopro cardíaco, ausência de visceromegalia. Apresentou 1 episódio de apneia. Qual a provável causa das alterações na décima segunda hora de vida?",
+    "alternativas": {
+      "A": "Sepse neonatal.",
+      "B": "Cardiopatia.",
+      "C": "Convulsão nenatal.",
+      "D": "Erro inato do metabolismo.",
+      "E": "Hipoglicemia."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A hipoglicemia acomete cerca de 8 a 10% dos bebês grandes para idade gestacional. Os sinais e sintomas incluem irritabilidade, recusa alimentar, sucção débil, letargia, apneia, hipotonia, hipotermia, crises de cianose, instabilidade vasomotora, dificuldade respiratória, convulsões. O diabetes gestacional é um fator de risco para hipoglicemia neonatal.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q059",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 59,
+    "enunciado": "Sobre a quimioprofilaxia para contatos próximos a suspeitos de doença meningocócica, podemos afirmar que:",
+    "alternativas": {
+      "A": "o antibiótico de escolha para quimioprofilaxia é amoxicilina.",
+      "B": "é desnecessário que a da quimioprofilaxia ser administrada de forma simultânea aos contatos.",
+      "C": "é indicada aos profissionais de saúde, quando realizam procedimentos invasivos sem equipamento de proteção adequada.",
+      "D": "o início da quimioprofilaxia deverá ser até 24 horas da exposição ao doente.",
+      "E": "deverá ser realizada através da imunização."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "os profissionais de saúde deverão receber imunoprofilaxia apenas se realizar procedimentos invasivos como intubação orotraqueal, caso não utilizar EPI adequado. O medicamento de escolha é a rifampicina, iniciado até 48 horas após a exposição ao doente, de forma simultânea a todos os contactantes.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q067",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 67,
+    "enunciado": "Mulher de 25 anos, IMC 30, queixa-se de irregularidade menstrual e acne severa desde a menarca, suspeita-se do diagnóstico de síndrome dos ovários policísticos (SOP). Sobre o diagnóstico da SOP é correto afirmar que:",
+    "alternativas": {
+      "A": "o diagnóstico de síndrome dos ovários policísticos será estabelecido após exclusão de outras causas de anovulação crônica.",
+      "B": "ovários normais ao exame de ultrassonografia afastam o diagnóstico de síndrome dos ovários policísticos.",
+      "C": "os níveis séricos de FSH deverão estar superiores ao de LH em qualquer fase do ciclo menstrual.",
+      "D": "pelos critérios de Rotterdam, a hiperandrogenemia ou hiperandrogenismo é um achado obrigatório na Síndrome dos ovários policísticos.",
+      "E": "os níveis ou razões de gonadotrofina são um critério confiável para o diagnóstico de síndrome dos ovários policísticos."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Os critérios de Rotterdam é o mais utilizado no diagnóstico de SOP, que estabelece a presença de dois dos três critérios (anovulação crônica, hiperandrogenismo ou hiperandrogenemia, ovários policísticos ao ultrassom). Além disso, faz-se necessária a exclusão de outras causas de anovulação crônica e alteração androgênica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q075",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 75,
+    "enunciado": "Na gênese da obstrução tubária, merecem destaque as infecções endometriais e pélvicas, geralmente pela ascensão de microrganismos patogênicos presentes no trato genital feminino. Assinale a alternativa que apresenta os microrganismos mais comumente encontrados nestas infecções.",
+    "alternativas": {
+      "A": "Gardnerella vaginalis e Escherichia coli.",
+      "B": "Ureaplasma urealyticum e Trichomonas Vaginalis.",
+      "C": "Chlamydia trachomatis e Ureaplasma urealyticum.",
+      "D": "Chlamydia trachomatis e Neisseria Gonorrhoeae.",
+      "E": "Mycoplasma genitalium e Candida albicans."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A infertilidade por causa tubária é muito frequente em países em desenvolvimento e ocorre devido a migração de microrganismos pela endocérvice. Cerca de 10-40% destas infecções são causadas por Chlamydia trachomatis e Neisseria gonorrhoeae, sem dúvida os agentes etiológicos mais prevalentes. Estudos estimam que até 12% das mulheres acabam sendo inférteis após a primeira infecção, 25% após dois episódios e até 50% após a terceira doença inflamatória pélvica. Estas infecções tornam a paciente até 10x mais suscetível também a gravidez ectópica, pois nestes casos a motilidade tubária pode ser comprometida.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q083",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 83,
+    "enunciado": "Homem de 58 anos, trazido ao pronto socorro por familiares após tentativa de suicídio. Apresenta-se agitado e cianótico. Segundo familiares ele estava em tratamento para depressão e foi encontrado no quarto após o som de um tiro. O exame físico mostra orifício de entrada do projétil em boca, com presença de sangramento volumoso, edema de face e de língua, não sendo possível inspecionar a via aérea. No momento da admissão a enfermeira informa que a oximetria de pulso mostra uma saturação de 57%. Não se tem sucesso como uma nova tentativa de visualização da via aérea. Qual a conduta mais adequada neste momento?",
+    "alternativas": {
+      "A": "Instalaçao de máscara laríngea.",
+      "B": "Traqueostomia.",
+      "C": "Cricotireodostomia.",
+      "D": "Intubação orotraqueal às cegas.",
+      "E": "Ventilação com ambu e máscara."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O objetivo é manter o oxigênio acima de 94%. A priorirade é para a ventilação, fazendo-se cricotireodostomia.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q091",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 91,
+    "enunciado": "Homem de 42 anos foi submetido a gastroplastia Bypass em \"Y de Roux\"e encontra-se nas primeiras horas após a cirurgia. O time de resposta rápida do hospital é acionado devido a queixas de náuseas, tonturas e episódios de lipotimia ao tentar se levantar. Os dados vitais aferidos demonstram frequência cardíaca de 145 batimentos por minuto, pressão arterial de 80 x 60 mmHg, sudorese e palidez cutânea. Diante do quadro clínico apresentado, qual o diagnóstico e a melhor conduta terapêutica?",
+    "alternativas": {
+      "A": "Choque hemorrágico e realizar laparoscopia.",
+      "B": "Úlcera péptica e realizar endoscopia digestiva alta.",
+      "C": "Hemorragia digestiva baixa e realizar colonoscopia.",
+      "D": "Choque séptico e iniciar antibióticos de amplo espectro",
+      "E": "Deiscência de anastomose e iniciar antibióticos de amplo espectro."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Paciente submetido a gastroplastia apresentando sinais de choque hemorrágico no pós-operatório recente e sem sinais de exteriorização de sangramento (enterorragia ou hematêmese). A principal suspeita é de hemorragia intra-abdominal, sendo necessário tratamento cirúrgico devido a instabilidade hemodinâmica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q099",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 99,
+    "enunciado": "Um paciente sofreu mordedura de cachorro em perna direita. A lesão causada pela mordedura foi superficial. O paciente afirmou que o cachorro desapareceu após o acidente. Apos lavar a ferida, para prevenção da Raiva Humana, o médico deverá:",
+    "alternativas": {
+      "A": "observar o paciente por 10 dias.",
+      "B": "iniciar vacinação.",
+      "C": "iniciar soroterapia.",
+      "D": "prescrever antibióticos profiláticos.",
+      "E": "prescrever anlgésicos e antinflamatórios não hormonais."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "De acordo com TMFC em caso de acidente leve (lesão superficial em perna) com o cão desaparecido, deve-se lavar ferida e iniciar vacinação.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q107",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 107,
+    "enunciado": "Paciente com 42 anos, chega para consulta no ambulatório para fazer exame de rotina. Nega doenças ou uso de medicamentos. Informa que fica muito tenso quando é avaliado por profissional de saúde. Durante a avaliação pré-consulta foi identificado pressão arterial de 142/92 mmHg no membro superior direito e sentado. Em sua casa, ao medir a pressão arterial sua pressão é normalmente 120/80mmHg. Qual é a hipótese diagnóstica para este paciente?",
+    "alternativas": {
+      "A": "Hipertensão estágio II.",
+      "B": "Efeito do avental branco.",
+      "C": "Hipertensão estágio I.",
+      "D": "Pré hipertensão.",
+      "E": "Crise de ansiedade."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A diferença da pressão arterial entre as medidas obtidas no consultório e fora dele é denominada Efeito do avental branco ou Efeito do mascaramento, quando seus valores são, respectivamente, positivos ou negativos. Com base em estudos de MRPA, diferenças iguais ou superiores a 15 mmHg na pressão arterial sistólica e/ou 9 mmHg na pressão arterial diastólica indicam Efeito do avental branco significativa, enquanto diferenças iguais ou inferiores a -1 mmHg na pressão arterial sistólica e/ou pressão arterial diastólica indicam efeito de mascaramento significativa. Com os dados disponibilizados no enunciado, não é possível fazer o diagnóstico de hipertensão.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q115",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 115,
+    "enunciado": "Um homem de 38 anos vem ao ambulatório de psiquiatria acompanhado por sua mãe, que aponta como motivo da consulta o fato de o paciente estar irritando-se facilmente e dormindo pouco. Mãe refere que ele iniciou tratamento médico aos 16 anos de idade, quando recebeu o diagnóstico de esquizofrenia. No seu quadro se destacam ainda a presença de alucinações auditivas, delírios de cunho persecutório e isolamento social. Qual dos neurotransmissores é o mais associado à sintomatologia deste quadro?",
+    "alternativas": {
+      "A": "Norepinefrina.",
+      "B": "Serotonina.",
+      "C": "Glicina.",
+      "D": "Dopamina.",
+      "E": "Ácido gama-aminobutírico (GABA)."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A dopamina é um neurotransmissor pertencente à família das catecolaminas. A hipótese da dopamina para o desenvolvimento da esquizofrenia pode ser causada por níveis elevados ou desregulados deste neurotransmissor.",
+    "requer_imagem": false
+  }
+]

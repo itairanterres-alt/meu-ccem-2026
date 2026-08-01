@@ -1,0 +1,257 @@
+[
+  {
+    "id_origem": "tp2022_q001",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 1,
+    "enunciado": "Um grupo de estudantes de medicina realizou um projeto sobre a assepsia das mãos. Em parte do projeto constava: H0 - as taxas de sobrevivência são iguais nos dois grupos: tratado (com assepsia) e controle (sem assepsia); H1 - a taxa de sobrevivência no grupo tratado (com assepsia) é maior do que no grupo controle (sem assepsia). H0 e H1 são:",
+    "alternativas": {
+      "A": "Informações denominadas variáveis, sendo H0 variável dependente e H1 variável independente.",
+      "B": "Afirmações não passíveis de testes, devendo ser aceitas para serem levadas aos resultados e discussão do artigo.",
+      "C": "Hipóteses (respostas provisórias) não passíveis de testes devido a complexidade das afirmações, devendo ser reformuladas.",
+      "D": "Hipóteses que serão analisadas, sendo H0 a \"hipótese nula\"(não há efeito da assepsia) e H1 a hipótese a ser testada (existe efeito).",
+      "E": "Variâncias estatísticas que indicam o tipo de teste a ser empregado na análise estatística."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Para aplicar um teste estatístico, o pesquisador começa levantando a hipótese de que o tratamento não tem efeito. É a hipótese da nulidade, que se indica por H0 (lê-se agá-zero). No entanto, o pesquisador acredita no contrário: acha que o novo tratamento tem efeito. Esta é a hipótese alternativa - que se indica por H1 (lê-se agá-um). Não são variáveis e devem ser passíveis de testes. Vieira, S. Bioestatística Tópicos Avançados. 4a. Ed., Elsevier Editora, Rio de Janeiro, 2018.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q009",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 9,
+    "enunciado": "Homem de 30 anos é levado ao pronto-socorro 4 horas após a ingestão de aproximadamente 40 comprimidos de aspirina. Ele está tonto e com náuseas, mas não vomitou. Seu pulso é 140/min, a respiração é 30/min e a pressão arterial é 110/70 mm Hg. O exame físico mostra dor epigástrica leve. O paciente está confuso. Os estudos séricos mostram uma concentração de sódio de 140 mEq/L e uma concentração de cloreto de 103 mEq/L. A gasometria arterial no ar ambiente tem maior probabilidade de mostrar qual dos seguintes conjuntos de achados?",
+    "alternativas": {
+      "A": "Resultado 1.",
+      "B": "Resultado 2.",
+      "C": "Resultado 3.",
+      "D": "Resultado 4.",
+      "E": "Resultado 5."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Na fase inicial da toxicidade da aspirina, os pacientes desenvolvem alcalose respiratória devido à estimulação direta do centro respiratório na medula oblonga. Na fase tardia da toxicidade da aspirina, que ocorre várias horas após a ingestão, os pacientes desenvolvem aicdose metabólica devido ao acúmulo de cetoácidos orgânicos, ácido lático e ácido salicílico.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q017",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 17,
+    "enunciado": "A psicose está associada a uma série de patologias psiquiátricas e também pode ser efeito de substâncias ou drogas tóxicas. A explicação inicial dessa condição recai para o entendimento do neurotransmissor dopamina no seu receptor D2. Quais os fármacos antipsicóticos típicos que deram origem a teoria da dopamina (na psicose)?",
+    "alternativas": {
+      "A": "Haloperidol e Clozapina.",
+      "B": "Clorpromazina e Sulpirida.",
+      "C": "Haloperidol e clorpromazina.",
+      "D": "Clozapina e Clorpromazina.",
+      "E": "Clozapina e Sulpirida."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A síntese da Clorpromazina e do Haloperidol permitiu deduzir que o mecanismo comum desses fármacos era o antagonismo da dopamina, especificadamente em D2. A Clozapina deu origem aos antipsicóticos atípicos ou de segunda geração com ação preferencial em receptores serotominérgicos.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q025",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 25,
+    "enunciado": "O movimento da Reforma Sanitária Brasileira envolveu várias organizações da comunidade, professores, sanitaristas e estudantes, sindicatos e diversos parlamentares e surgiu diante da insatisfação com as condições sociais de pobreza e de saúde precária da população. Este movimento teve como marco:",
+    "alternativas": {
+      "A": "a criação do INPS (Instituto Nacional da Previdência Social).",
+      "B": "a criação do CEBES (Centro Brasileiro de Estudos em Saúde).",
+      "C": "a elaboração da Lei 8080 e da Lei 8142.",
+      "D": "a Oitava Conferência Nacional de Saúde.",
+      "E": "a implantação do PSF (Programa Saúde da Família)."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Pela 1 a vez, a VIII Conferência Nacional de Saúde contou com uma expressiva participação popular em busca de uma reforma no sistema de saúde que atendesse a todos, bem como melhorias das condições de vida da população. Isso culminou em um novo conceito de saúde, mais abrangente e finalmente na implantação do SUS. Embora tenha ocorrido no período da reforma sanitária, não foi o marco que mudou o rumo da saúde no Brasil.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q033",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 33,
+    "enunciado": "Dentre os métodos utilizados para controlar fatores de confusão de um estudo, qual pode ser utilizado na fase analítica?",
+    "alternativas": {
+      "A": "Randomização.",
+      "B": "Estratificação.",
+      "C": "Cegamento.",
+      "D": "Emparelhamento.",
+      "E": "Restrição."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Os fatores de confusão em um estudo podem ser controlados em 2 momentos, no delineamento do estudo e na análise dos resultados (fase analítica). No delineamento podem ser feitos o cegamento, a randomização, o emparelhamento e a restrição. A estratificação consiste em estabelecer extratos (categorias homogêneas bem definidas das variáveis de confusão) para a análise dos resultados, portanto, feita na fase analítica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q041",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 41,
+    "enunciado": "Lactente de 2 anos é trazido para consulta devido a quadro de prurido intermitente há 1 ano. Segundo a mãe, no último mês, paciente tem apresentado prurido intenso nos quatros membros, principalmente nos dias mais quentes. Nega febre. Nega sintomas respiratórios, gastrointestinais ou urinários. No exame físico notamse lesões eritemato descamativas nas pregas antecubitais e poplíteas e pele áspera. Qual tratamento tópico é adequado para o controle do quadro?",
+    "alternativas": {
+      "A": "Creme de permetrina.",
+      "B": "Hidratante corporal.",
+      "C": "Solução de ácido salicílico.",
+      "D": "Prometazina creme.",
+      "E": "Cetoconazol creme."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Paciente com quadro clínico compatível com dermatite atópica (início dos sintomas no período de lactente, piora com mudanças ambientais, pele seca/ áspera e localização de lesão em superfície flexora). O tratamento consiste em 4 pilares: educação do paciente, hidratação da pele, controle dos desencadeantes e medicamentos tópicos ou orais.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q049",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 49,
+    "enunciado": "Escolar de 7 anos, é levado ao pronto socorro com história de agitação psicomotora súbita, dor abdominal intensa, tremores e falta de ar há 1 hora. O paciente é previamente hígido, mãe nega internações, nega uso de medicação contínua, nega alergias, a mesma refere que ele estava brincando na casa de um vizinho e beberam suco artificial, após isto ambos apresentaram sintomas. Ao Exame: pupilas mióticas bilaterais, frequência cardíaca de 50 bpm, ausculta pulmonar com murmúrio vesicular muito reduzido e agitação psicomotora. A principal hipótese diagnóstica é de intoxicação exógena. Qual síndrome tóxica apresentada pelo paciente e qual a medida imediata?",
+    "alternativas": {
+      "A": "Síndrome anticolinérgica - tratamento de suporte, descontaminação gástrica com carvão ativado.",
+      "B": "Síndrome extrapiramidal - monitorização cardiorrespiratória, administração de biperideno.",
+      "C": "Síndrome adrenérgica - monitorização cardiorrespiratória, benzodiazepínico.",
+      "D": "Síndrome anticolinesterásica - tratamento de suporte, administração de atropina.",
+      "E": "Síndrome opióide - realizar uma dose de flumazenil como antídoto."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "As intoxicações exógenas, principalmente as na?o intencionais, constituem uma das principais causas de atendimento em emergência pediátrica, sendo portanto fundamental o conhecimento e tratamento inicial das principais síndromes tóxicas. O caso apresentado trata-se de uma provável intoxicação por organofosforado, que exige medidas imediatas devido à ampla distribuição deste agente tóxico no organismo e à sua ligação irreversível à acetilcolinesterase na fenda sináptica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q057",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 57,
+    "enunciado": "Em relação ao teste da oximetria de pulso ou teste do coraçãozinho em recém-nascidos, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O resultado é considerado alterado se a saturação de oxigênio estiver abaixo de 95% em um ou ambos os membros.",
+      "B": "O teste deve ser realizado nas primeiras 24 horas de vida, para permitir o diagnóstico precoce das cardiopatias congênitas.",
+      "C": "Deve ser realizado nos recém-nascidos que apresentarem sopro na ausculta cardíaca.",
+      "D": "O resultado normal exclui a presença de cardiopatias congênitas críticas dependentes do canal arterial.",
+      "E": "Compara a oximetria de pulso em um dos membros superiores com o membro inferior ipsilateral."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Deve ser realizado em todos os recém-nascidos. Momento da aferição entre 24 e 48 horas de vida, antes da alta hospitalar (não deve ser realizado antes de 24 horas de vida, período no qual ainda estão ocorrendo adaptações da circulação e fechamento do canal arterial). Local de aferição membro superior direito (antes de possível shunt pelo canal arterial) e em um dos membros inferiores. Resultado normal saturação periférica maior ou igual a 95% em ambas as medidas (membro superior direito e membro inferior) e diferença menor que 3% entre as medidas do membro superior direito e membro inferior. Este teste apresenta sensibilidade de 75% e especificidade de 99%. Sendo assim, algumas cardiopatias críticas podem não ser detectadas através dele, principalmente aquelas do tipo coartação de aorta.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q065",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 65,
+    "enunciado": "A Síndrome da Insensibilidade Androgênica Completa é uma forma de pseudo-hermafroditismo masculino e uma importante causa de amenorreia primaria. Nesta síndrome encontramos:",
+    "alternativas": {
+      "A": "Cariótipo XY, genitália externa feminina, vagina curta e ausência de trato genital interno feminino.",
+      "B": "Cariótipo XY, genitália externa parcialmente masculinizada, presença de trato genital interno feminino, vagina curta.",
+      "C": "Cariótipo XY, genitália externa feminina, vagina curta e presença de trato genital interno feminino.",
+      "D": "Cariótipo XX, genitália externa masculina, vagina de tamanho normal e trato genital interno feminino.",
+      "E": "Cariótipo XX, genitália externa ambígua, vagina de tamanho normal e ausência de trato genital interno feminino."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "As pacientes com síndrome de insensibilidade androgênica têm cariótipo masculino normal (46,XY), testículos que produzem testosterona e hormônio anti-mulleriano. Entretanto, uma mutação inativante do gene codificador do receptor androgênico intracelular resulta em insensibilidade dos órgãos às ações do androgênio que impede a masculinização normal interna e externa durante o desenvolvimento embrionário. Formando uma genitália feminina, ausência de orgãos internos e uma vagina curta em fundo cego.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q073",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 73,
+    "enunciado": "Mulher com 19 semanas de gestação, da entrada no pronto atendimento por queixa de sensação de peso na vagina. Nega queixas álgicas e dados vitais normais. Ao exame físico colo uterino esvaecido, dilatação cervical em 4 cm, percebe-se bolsa amniótica em canal vaginal, plano de DeLee +1. Sobre a principal hipótese diagnóstica, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A principal causa associada à hipótese diagnóstica é a hipertensão materna.",
+      "B": "Há uma insuficiência do sistema de oclusão do colo uterino.",
+      "C": "As malformações fetais associadas neste caso são principalmente renais.",
+      "D": "As malformações cardíacas fetais são determinantes nesse quadro.",
+      "E": "É responsável por cerca de 80% das causas de abortamento."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A principal hipótese diagnóstica nesse caso é a Incompetência Istmo Cervical. Caracteriza-se por perda fetal recorrente no segundo trimestre da gravidez, em consequência de insuficiência do sistema de oclusão do colo uterino. O diagnóstico é clínico de incompetência cervical geralmente retrospectivo e depende fundamentalmente de uma cuidadosa anamnese obstétrica. Geralmente ocorre dilatação cervical indolor, ausência de sangramento, protrusão das membranas ovulares na vagina e posterior rotura de membranas, seguida de expulsão fetal, na maioria das vezes com produto conceptual ainda vivo. Responsável por 10 a 20",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q081",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 81,
+    "enunciado": "Mulher de 60 anos, índice de massa corpórea(IMC) de 45, em uso crônico de AINES, procura emergência devido quadro de dor abdominal suprapúbica, febre e saída de gás pela vagina. Ao exame físico: febril, temperatura 38,5 graus, frequência cardíaca 110, frequência respiratória 26, abdômen com dor a palpação de flanco esquerdo e região suprapúbica recorrente. Qual o diagnóstico para este caso?",
+    "alternativas": {
+      "A": "Úlcera gástrica perfurada.",
+      "B": "Diverticulite aguda complicada.",
+      "C": "Cistite aguda complicada.",
+      "D": "Apendicite aguda supurada.",
+      "E": "Pancreatite necro-hemorrágica."
+    },
+    "gabarito": "B",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Diverticulite aguda, mais comum em mulheres, a partir dos 50 anos, o uso de AINES está associado a 70% casos de diverticulite. Localização predominante reto-sigmoide. Crises recorrentes podem fistulizar para bexiga e vagina.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q089",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 89,
+    "enunciado": "A hérnia inguinal pode ser definida como a protrusão de conteúdo intra-abdominal por uma falha na parede abdominal na região inguinal. Em relação às hérnias inguinais, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A hérnia inguinal ocorre por uma falha de tecido conjuntivo na parede abdominal inguinal.",
+      "B": "A hérnia inguinal indireta é medial aos vasos epigástricos inferiores.",
+      "C": "Na criança são mais frequentes as hérnias diretas.",
+      "D": "A maior parte das hérnias inguinais são indiretas.",
+      "E": "A hérnia inguinal direta ocorre pela persistência do conduto peritônio vaginal."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A região inguinal é delimitada lateroinferiormente pelo ligamento inguinal (e trato iliopúbico), medialmente pelo músculo reto abdominal e superiormente por uma linha imaginária ligando as duas espinhas ilíacas.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q097",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 97,
+    "enunciado": "Homem de 52 anos vem a consulta com exame colonoscópico demonstrando lesão polipoide pediculada no cólon ascendente de 11 mm de diâmetro que foi ressecada. O exame anatomopatológico mostra pólipo adenomatoso com carcinoma intramucoso ou in situ, sem invasão da muscular da mucosa com margens livres. Em relação a este achado, assinale a conduta indicada.",
+    "alternativas": {
+      "A": "Expectante com nova colonoscopia em 5 anos.",
+      "B": "Nova colonoscopia com mucosectomia da base da lesão.",
+      "C": "Expectante com nova colonoscopia em 3 anos.",
+      "D": "Colectomia direita com ileotransverso anastomose.",
+      "E": "Expectante com nova colonoscopia anualmete."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Acompanhamento ou Vigilancia dos pólipos intestinais, segue a historia natural de seu processo de malignizacao, em especial a sequencia adenoma-carcinoma, pode-se estimar que esta formação leva no mínimo de 2 a 3 anos para formar um pólipo adenomatoso e cerca de 4 a 10 anos para a transformação maligna. Sabe-se, também, que quando existem mais do que três adenomas ou um adenoma maior que 10 mm ou componente viloso ou displasia de alto grau o risco para câncer colorretal é maior. Por isso da vigilancia da colonoscopia entre 2 a 3 anos apos a polipectomia. Apos uma polipectomia endoscópica de um pólipo maligno ou com displasia de alto grau, considera-se curado se o o exame histopatológico diagnosticar um pólipo adenomatoso com carcinoma intramucoso ou in situ, portanto sem invasão da sua camada muscular da mucosa. Já as indicações formais de follow-up para os achados na colonoscopia pela Associação Americana de Cirurgiões colorretais (ASCRS) são: 1) Não tiver pólipos: colonoscopia a cada 10 anos, não havendo história familiar relevante; 2) Pólipos hiperplásicos distais pequenos: a cada 10 anos, não havendo história familiar relevante; 3) 1-2 adenomas tubulares com menos de 1 cm: 5-10 anos, não havendo história familiar relevante; 4) 3-10 adenomas tubulares ou 1 adenoma maior que 1 cm ou qualquer tamanho se viloso ou com displasia de alto grau: colonoscopia a cada 3 anos, se todas as lesões foram removidas. Se o preparo estiver ruim ou se houver mais de 10 pólipos: repetir com menos de 3 anos; 5) Se mais de 10 adenomas: repetir em menos de 3 anos, considerar síndrome polipoide; 6) Adenoma séssil removido por piece meal (ou seja, removido em pedaços): colonoscopia dentro de 2 a 6 meses, pois pode haver pólipos residuais em até 14% dos pacientes.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q105",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 105,
+    "enunciado": "Uma paciente de 39 anos, portadora de HIV (vírus da imunodeficiência humana), deu entrada no pronto-socorro devido sonolência e cefaleia nas duas últimas semanas, com piora há 3 dias, quando também iniciou hemiparesia à direita, e, há 2 horas, um episódio de crise convulsiva. No momento, apresenta escala de coma de Glasgow 12 (2+5+5), sacade hipermétrica à esquerda, paralisia facial periférica à esquerda, hemiparesia à direita, dismetria à esquerda, além de ataxia de marcha. Foi realizada tomografia de crânio com contraste, que evidenciou múltiplas lesões nodulares com realce ao contraste e edema adjacente, principalmente em região de núcleos da base, uma lesão em ponte à esquerda e uma lesão cerebelar à esquerda. A última contagem de linfócitos CD4 desta paciente estava menor que 100 células mm3. Para o caso apresentado, a etiologia mais provável para as lesões encontradas é:",
+    "alternativas": {
+      "A": "Encefalite herpética.",
+      "B": "Neurotuberculose.",
+      "C": "Neurocriptococose.",
+      "D": "Neurotoxoplasmose.",
+      "E": "Meningite asséptica."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A neurotoxoplasmose é a principal responsável por lesões com efeito massa no SNC em imunocomprometidos por HIV. Além disso, apresenta quadro com alteração do nível de consciência e déficits focais em mais de 50% dos casos. A imagem típica é de lesão nodulares com realce ao contraste, principalmente em região de núcleos da base.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q113",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 113,
+    "enunciado": "Mulher de 56 anos, negra, diarista, hipertensa e portadora de Lúpus Eritematoso Sistêmico, em uso regular de losartana 50 mg/dia, hidroclorotiazida 25 mg/dia e prednisona 10 mg/dia, busca atendimento médico com queixa de dor e inchaço em pernas de início há uma semana. Analise as seguintes proposições e assinale aquela que relaciona corretamente o dado semiológico à hipótese diagnóstica.",
+    "alternativas": {
+      "A": "Edema frio, mole, simétrico, associado à edema palpebral ao acordar aponta para diagnóstico de síndrome nefrótica.",
+      "B": "Edema quente, duro, assimétrico com dor inguinal à flexão do pé aponta para diagnóstico de trombose venosa profunda.",
+      "C": "Edema frio, mole, simétrico, vespertino, que melhora com a elevação dos membros aponta para diagnóstico de doença arterial obstrutiva periférica.",
+      "D": "Edema quente, mole, difuso, associado a calafrios e taquicardia apontam para diagnóstico de tromboflebite superficial.",
+      "E": "Edema frio, duro, assimétrico, associado à hipoxemia e dor ventilatório-dependente apontam para diagnóstico de insuficiência cardíaca crônica."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O edema mole é facilmente depressível, observado em diferentes condições e significa que a retenção hídrica é de duração não muito longa, e o tecido celular subcutâneo está infiltrado de água. Edema duro indica cronicidade com existência de proliferação fibroblástica. Edema quente indica processo inflamatório subjacente. O edema renal é um edema generalizado, predominantemente facial, acumulando-se de modo particular nas regiões sub palpebrais, mais evidente no período matutino. Na trombose venosa profunda há edema mole e dor em panturrilha à dorsiflexão do pé (Sinal de Homans). Edema que piora ao final do dia e melhora com elevação do membro aponta para insuficiência venosa periférica ou edema postural. Edema quente com calafrios aponta para erisipela ou celulite; na tromboflebite o edema acompanha o trajeto venoso e não costuma dar sinais sistêmicos. Na insuficiência cardíaca o edema é generalizado, simétrico, mole e indolor. Edema assimétrico com hipoxemia aponta para trombose venosa profunda complicada com tromboembolismo pulmonar.",
+    "requer_imagem": false
+  }
+]

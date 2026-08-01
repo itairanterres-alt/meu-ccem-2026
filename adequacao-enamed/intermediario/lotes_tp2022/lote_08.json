@@ -1,0 +1,257 @@
+[
+  {
+    "id_origem": "tp2022_q008",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 8,
+    "enunciado": "As espécies do gêneroBacteroides que colonizam o nosso trato gastrointestinal estão envolvidas em processos que auxiliam na manutenção da nossa saúde, como, por exemplo, digerindo diversos polissacarídeos complexos que não podem ser digeridos por enzimas do metabolismo humano. Os subprodutos dessa fermentação bacteriana que podem ser absorvidos pelos enterócitos e utilizados pelo corpo promovendo saúde são:",
+    "alternativas": {
+      "A": "ácidos graxos de cadeia média e vitamina A.",
+      "B": "ácidos graxos de cadeia longa e vitamina C.",
+      "C": "butirato e vitamina B.",
+      "D": "ácidos graxos de cadeia curta e vitamina K.",
+      "E": "propionato e vitamina D."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "As espécies do gênero Bacteroides, ao digerirem diversos polissacarídeos complexos que não podem ser digeridos por enzimas do metabolismo humano, geram subprodutos como os ácidos graxos de cadeia curta (butirato, propionato e acetato) que podem ser absorvidos por enterócitos e utilizados como fonte de energia. Bacteroides também produzem substâncias vitais para o hospedeiro humano, como as menaquinonas (vitamina K) e fazem a deconjugação e de-hidroxilação de sais biliares, promovendo a reciclagem desses compostos.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q016",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 16,
+    "enunciado": "Paciente hígido, relata em consulta presenças de \"ínguas\", dor de cabeça e de garganta e mal estar há 15 dias. No exame clínico apresentava linfadenomegalia cervical, amígdalas cobertas com um intenso exsudato pseudomembranoso, febre e esplenomegalia. O resultado do leucograma pode ser observado abaixo: Baseados nos dados clínicos e laboratoriais, este paciente é portador de:",
+    "alternativas": {
+      "A": "Toxoplasmose.",
+      "B": "Rubéola.",
+      "C": "Cisticercose.",
+      "D": "Dengue.",
+      "E": "Mononucleose infecciosa."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O acometimento do sistema linfoproliferativo, a lincocitose e a monocitose, falam a favor de monocucleose infeciosa.",
+    "requer_imagem": true
+  },
+  {
+    "id_origem": "tp2022_q024",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 24,
+    "enunciado": "A nova edição da PNAB (Política Nacional de Atenção Básica) de 2017 deixa claro no seu artigo 2o. que \"A Atenção Básica é o conjunto de ações de saúde individuais (...) realizada com equipe multiprofissional e dirigida à população em território definido, sobre as quais as equipes assumem responsabilidade sanitária\". Para que isso seja possível foi determinado que para os territórios de abrangência das equipes da Estratégia de Saúde da Família (ESF):",
+    "alternativas": {
+      "A": "cada equipe ESF deve trabalhar com as pessoas sem relação territorial entre si, no sistema de organização que se chama carteira de pacientes.",
+      "B": "caso seja um território de risco ou de alta vulnerabilidade, deve ter um Agente Comunitário de Saúde (ACS) para cada 3500 pessoas.",
+      "C": "as equipes são encorajadas a deixar de ser ESF para se tornar o que a PNAB passa a chamar de Equipe de Atenção Básica (EAB).",
+      "D": "cada cidade pode ter no máximo o número de equipes ESF que resulta na divisão de sua população por 2000.",
+      "E": "para a PNAB 2017 um quantitativo ideal seria montar o sistema de saúde local com 5000 pessoas por equipe ESF."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Toda ESF deve ser territorializada, com responsabilidade sanitária do território adscrito. Em caso de alto risco ou vulnerabilidade, deve ter 1 ACS a cada 750 pessoas. É a ESF que deve ser considerada o modelo prioritário de organização da APS no Brasil. Quantitativo máximo previsto na PNAB de 3500 pessoas por equipe ESF.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q032",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 32,
+    "enunciado": "Estudo realizado por Ranzani et al., publicado em agosto de 2021, envolveu 43.774 adultos com idade maior ou igual a 70 anos no estado de São Paulo. Todos os pacientes foram testados por meio de RT-PCR para o SARS-Cov-2. Os pacientes que apresentaram resultado positivo com doença sintomática foram pareados com um grupo controle de pacientes negativos. Observou-se então nos dados do sistema de vigilância epidemiológica se esses pacientes tinham sido vacinados. Com o resultado foi possível calcular a eficácia da vacina CoronaVac em idosos. É correto afirmar que esse é um estudo:",
+    "alternativas": {
+      "A": "do tipo coorte histórico.",
+      "B": "ecológico com grupo controle.",
+      "C": "controlado randomizado.",
+      "D": "transversal controlado.",
+      "E": "do tipo caso-controle."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A PNAB 2017 passou a permitir que os ACSs façam procedimentos básicos de enfermagem, contanto que passem por capacitação para tais práticas. Essas capacitações devem ser oferecidas pela gestão do sistema de saúde.O estudo apresentado é um estudo individuado, observacional e longitudinal. O estudo parte de pacientes com testes positivos e negativos para o SARS-Cov-2 (infectados e não infectados) e buscase em algum momento do passado se esses pacientes foram ou não vacinados (expostos ou não expostos). Esse delineamento de estudo é característico dos estudos de caso-controle, para ser mais específico, dos estudos de caso-controle teste negativos. Os estudos de coorte partem da exposição para a doença (desfecho). Os estudos ecológicos são agregados e não individuados. Apesar de ter grupo controle o estudo não é randomizado. O estudo é longitudinal e não transversal.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q040",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 40,
+    "enunciado": "Homem de 45 anos procurou atendimento na Unidade Básica para renovar sua receita de medicamentos anti-hipertensivos. Não apresentava queixas. Ao ser indagado sobre ingesta de álcool, relatou \"beber socialmente\". O médico assistente aplicou questionário CAGE (instrumento para triagem) e identificou o uso abusivo de álcool. Ao exame apresentava PA 170/90, sem outras particularidades. Na sequência, a abordagem inicial adequada seria:",
+    "alternativas": {
+      "A": "confirmar o uso regular dos medicamentos e apresentar os possíveis riscos do seu padrão de consumo de álcool.",
+      "B": "ajustar a dose do anti-hipertensivo, solicitar um controle da pressão arterial e encaminhar à psicologia.",
+      "C": "associar novo anti-hipertensivo e orientar a cessação da ingesta de álcool pelo risco de interação com a medicação.",
+      "D": "solicitar controle da pressão arterial com retorno programado e encaminhar para avaliação psiquiátrica.",
+      "E": "solicitar controle de pressão arterial domiciliar pelos agentes de saúde e encaminhar para a psicologia."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Avaliar possíveis causas da alteração da pressão arterial é a conduta esperada antes do ajuste de dose ou associação de novo anti-hipertensivo. Dentre as possibilidades terapêuticas na atenção primária à saúde para o uso abusivo de álcool está a intervenção breve, na qual o feedback é o primeiro passo a ser dado. A psiquiatria do NASF oferece apoio matricial e não atendimento ambulatorial individual.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q048",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 48,
+    "enunciado": "Achados semiológicos podem ser sinais importantes na investigação de patologias linfoproliferativas. Qual alternativa apresenta maior associação com patologias tumorais?",
+    "alternativas": {
+      "A": "Adenomegalias pequenas e móveis.",
+      "B": "Adenomegalias dolorosas associadas a febre aguda.",
+      "C": "Adenomegalia aderente a planos profundos e grandes.",
+      "D": "Adenomegalias móveis e assintomáticas.",
+      "E": "Adenomegalia dolorosa de localização inframandibular."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Adenomegalias com características linfoproliferativas podem assumir aspecto indolor, grandes (maior de 2 cm), aderentes a planos profundos e imóveis. Geralmente de crescimento crônico, não associado a patologias infecciosas.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q056",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 56,
+    "enunciado": "A leucocitúria pode ser detectada no exame de urina rotina e o jato médio urinário constitui a amostra mais utilizada nesta avaliação. Em relação à leucocitúria, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Leucocitúria estéril pode ser encontrada em casos de nefrolitíase.",
+      "B": "A esterase leucocitária apresenta relação inversa com a análise microscópica de leucocitúria.",
+      "C": "O tipo leucocitário predominante na infecção urinária é de linfócitos e eosinófilos.",
+      "D": "É um achado específico de infecção urinária, apesar de pouco sensível.",
+      "E": "O valor absoluto de leucocitúria de corte para diagnóstico de infecção urinária na criança independe da técnica de coleta da amostra de urina."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Leucocitúria isolada não define infecção urinária, podendo ocorrer em outras patologias urinárias, como nefrolitíase, febre, nefrite intersticial. A esterase leucocitária não é um substituto adequado para a microscopia, mas pode refletir relação direta com a leucocitúria em alguns casos. Os leucócitos polimorfonucleares são o tipo histológico encontrado nas infecções urinárias; eosinófilos podem ser encontrados nas cistites intersticiais. Leucociúria em urina coletada por saco coletor não diagnostica infecção, ao passo que em urina coletada por punção suprapúbica sim.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q064",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 64,
+    "enunciado": "A doença inflamatória pélvica (DIP), é uma inflamação que tem origem na vagina e que progride afetando o útero, as trompas e os ovários, se espalhando por uma grande área pélvica, acontecendo na maioria dos casos como consequência de uma infecção que não foi devidamente tratada. Assinale a alternativa que contem os critérios para internação hospitalar dos casos de DIP.",
+    "alternativas": {
+      "A": "Febre noturna, evidência histológica de endometrite, sinais de rotura de abscesso ovariano.",
+      "B": "Falha no tratamento clínico, presença de secreção muco-purulenta, sorologia positiva para Clamídia",
+      "C": "Presença de DIU, massa pélvica persistente, cultura positiva para gonococo",
+      "D": "Falha do tratamento clínico, presença de abscesso tubo-ovariano, sinais de peritonite.",
+      "E": "Hidrossalpinge bilateral, VHS elevado, febre persistente."
+    },
+    "gabarito": "D",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O tratamento da DIP pode ser ambulatorial ou hospitalar. São critérios de internação: ausência de resposta clínica após 72h do início do tratamento ambulatorial, presença de abscesso tubo-ovariano, estado geral grave (com presença de vômitos, febre persistente), sinais de peritonismo (abdome agudo infeccioso). A presença de massa palpável, secreção purulenta, comprovação laboratorial de Clamídia e Gonococo, PCR e VHS elevados, evidencia de endometrite são critérios para diagnóstico.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q072",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 72,
+    "enunciado": "O organismo feminino sofre mudanças anatômicas e funcionais durante a gravidez, adaptando-se para a presença do feto em desenvolvimento. O conhecimento das alterações fisiológicas do organismo materno é de fundamental importância para a prática da obstetrícia. Nas alterações fisiológicas cardiovasculares e hematológicos da grávida temos:",
+    "alternativas": {
+      "A": "elevação discreta dos níveis plaquetários, 30% maior que o de antes da gestação",
+      "B": "diminuição de todos os fatores de coagulação, exceto os fatores XI e XIII.",
+      "C": "aumento da frequência cardíaca basal, do volume sistólico e do débito cardíaco.",
+      "D": "aumento do volume plasmático e menor produção de eritrócitos.",
+      "E": "aumento da resistência vascular periférica e diminuição do débito cardíaco"
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O sistema cardiovascular da gestante totalmente diferente da mulher não gestante. Há aumento da frequência cardíaca basal, do volume sistólico e do débito cardíaco. Os níveis plaquetários estão diminuídos. Todos os fatores de coagulação aumentam, exceto os fatores XI e XIII. O volume plasmático aumenta mesmo, mas a produção de eritrócitos está aumentada também. A resistência vascular periférica diminui e o débito cardíaco aumenta.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q080",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 80,
+    "enunciado": "Mulher de 50 anos realizou mamografia rotineira. Mostrou-se apreensiva devido a descrição de calcificações grosseiras \"tipo pipoca\"em seu laudo mamográfico. O médico a tranquilizou, pois este achado é sugestivo de:",
+    "alternativas": {
+      "A": "papiloma.",
+      "B": "necrose gordurosa.",
+      "C": "fibroadenoma calcificado",
+      "D": "hemangioma calcificado.",
+      "E": "mastopatia fibrocística."
+    },
+    "gabarito": "C",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O achado mamográfico de calcificações grosseiras, tipo pipoca, que são calcificações tipicamente benignas não exigem investigação adicional. Acontecem dentro dos fibroadenomas e na Classificação de BI-RADS (Breast Imaging Reporting and Data System) é classificada como BI-RADS 2.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q088",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 88,
+    "enunciado": "Considerando a classificação do risco operatório de acordo com o estado físico estabelecido pela Sociedade Americana de Anestesiologistas (ASA), um paciente ASA III apresenta:",
+    "alternativas": {
+      "A": "ausência de doenças associadas.",
+      "B": "doença sistêmica compensada.",
+      "C": "pouca probabilidade de sobreviver 24 horas com ou sem cirurgia.",
+      "D": "doença sistêmica grave com risco de morte.",
+      "E": "doença sistêmica não compensada."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A Sociedade Americana de Anestesiologia classifica os pacientes que serão submetidos a cirurgia conforme suas comorbidades e risco cirúrgico fazendo uma graduação de I a VI. ASA I: Sem doença sistêmica/ASA II: Com doença sistêmica compensada/ASA III: Com doença sistêmica não compensadaASA IV: Com doença sistêmica grave com risco de morteASA V: Pouca probabilidade de sobreviver em 24 horas com ou sem cirurgia/ASA VI: Doador de órgãos.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q096",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 96,
+    "enunciado": "A biópsia incisional deve ser evitada no melanoma, mas, em alguns casos, é a opção mais indicada. Identifique qual informação histopatológica que costuma ser comprometida neste tipo de biópsia.",
+    "alternativas": {
+      "A": "Índice de Breslow.",
+      "B": "Invasão vascular.",
+      "C": "Fase de crescimento.",
+      "D": "Classificação histológica.",
+      "E": "Invasão linfática."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Correlação entre a técnica de biópsia realizada e a avaliação histopatológica do melanoma, avaliando o conhecimento frente as formas diagnósticas/prognósticas e de estadiamento do melanoma. Uma vez que o índice de Breslow é avaliado de forma adequada com a biópsia excisional da lesão, pois a retirada completa permite avaliar todas suas camadas e consequentemente o grau de profundida de invasão da lesão.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q104",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 104,
+    "enunciado": "A intervenção dietética é um dos pilares para a perda de peso sustentada no tratamento da obesidade. Em relação a composição de macronutrientes (proteínas, carboidratos e gorduras) de uma dieta para a indução de perda de peso, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "A modificação da composição de macronutrientes de uma dieta é mais eficaz que a redução total de energia ingerida.",
+      "B": "A dieta com restrição de gordura totais não auxilia na redução de peso mesmo quando acarreta redução total de energia consumida.",
+      "C": "O aumento da ingestão de proteínas em até 50% da composição dietética deve ser recomendado por facilitar a perda de peso com manutenção da massa magra, independente da intensidade do treinamento físico realizado pelo paciente.",
+      "D": "A ingestão de macronutrientes específicos após um período de jejum prolongado é determinante para a perda de peso.",
+      "E": "A restrição de carboidratos (entre 25% a 40% do valor energético total) é mais eficaz em curto prazo e semelhante a longo prazo, quando comparada a outras dietas com ingestão calórica semelhante."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A dieta com baixo teor de carboidratos apresenta perda de peso mais rápida quando comparada a outras dietas com mesmo teor calórico, sem superioridade no longo prazo.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q112",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 112,
+    "enunciado": "A síndrome de lise tumoral é caracterizada pela destruição maciça de células malignas e consequente liberação do seu conteúdo no espaço extracelular. Embora possa ocorrer de modo espontâneo, ela aparece, em geral, logo após o início do tratamento com agentes quimioterápicos citotóxicos. Uma vez liberados, estes metabólitos podem subjugar os mecanismos homeostáticos, depositando-se no rim e levando à insuficiência renal aguda. Os principais achados da síndrome de lise tumoral são:",
+    "alternativas": {
+      "A": "hipouricemia, hipercalemia, hipocalcemia, hiperfosfatemia.",
+      "B": "hiperuricemia, hipocalemia, hipercalcemia, hipofosfatemia.",
+      "C": "hipouricemia, hipercalemia, hipocalemia, hipofosfatemia.",
+      "D": "hiperuricemia, hipocalemia, hipercalemia, hiperfosfatemia.",
+      "E": "hiperuricemia, hipercalemia, hipocalcemia, hiperfosfatemia."
+    },
+    "gabarito": "E",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Na síndromes de lise tumoral por conta da lise das células patológicas ocasional aumento de purinas e consequentemente hiperuricemia, liberação de potássio e fosforo dessa forma hiperfosfatemia, hipercalemia e pelo excesso de fósforo depleção de cálcio.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp2022_q120",
+    "fonte": "Teste de Progresso MED 2022 (comentado)",
+    "num": 120,
+    "enunciado": "Homem de 56 anos, hipertenso, diabético e dislipidêmico. procura atendimento médico por crises de dor e edema no joelho direito de início há 3 dias. Relato prévio de crises semelhantes em primeira metatarsofalandiana do pé esquerdo. Alega períodos que fica totalmente sem dor. Nega uso de medicações para o quadro. Ao exame, presença de derrame articular em joelho direito e presença de nódulos palpáveis em cotovelo esquerdo e região articular direita com saída de secreção esbranquiçada ao toque. Frente ao quadro clínico acima, ASSINALE a principal hipótese diagnóstica e conduta.",
+    "alternativas": {
+      "A": "Gota. Artocentese diagnóstica de joelho direito. Adiar o início de alopurinol. Alvo de ácido úrico menor que 5mg/dL.",
+      "B": "Artrite reumatóide. Artocentese diagnóstica de joelho direito. Início de drogas modificadoras de atividade de doença convencional (cDMARDs).",
+      "C": "Gonartrose. Infiltração articular com glicocorticóide. Início de antiinflamatório não hormonal.",
+      "D": "Gota. Artocentese diagnóstica de joelho direito.Início imediato de alopurinol em altas doses. Alvo de ácido úrico menor de 6mg/dL.",
+      "E": "Artrite reumatoide. Artocentese diagnóstica de joelho direito.Início de drogas modificadores de atividade de doença biológica (cDMARDs)."
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Dor de desenvolvimento agudo, monoarticular e de primeira metatarsofalangiana (podagra) é indicativo de gota. Outros locais de acometimento podem ser os joelhos, tornozelos e o cotovelo. O quadro agudo de gota é acompanhado de sinais flogísticos como dor, vermelhidão e edema. Em monoartrite aguda, sem diagnóstico, é obrigatório a indicação de artrocentese diagnóstica para exclusão de quadros infecciosos. Flutuações do ácido úrico são esperados com o início de terapia redutora, podendo atrasar o alívio sintomático bem como prolongar o tempo de crises agudas, dessa forma é recomendado o adiamento da terapia até o fim da crise aguda. O alvo de ácido úrico em pacientes com quadro tofáceo (como o do paciente acima) é indicativo de rigidez, sendo esperado menor que 5mg/dl.",
+    "requer_imagem": false
+  }
+]
