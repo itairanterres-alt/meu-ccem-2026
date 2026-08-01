@@ -62,15 +62,44 @@ RE_LIXO = [
     re.compile(r"^\s*REVALIDA\s*$", re.I),
 ]
 
-# Referência EXPLÍCITA a material gráfico que não vem no texto.
-# `\bfigura\b` não casa "configura"; "quadro" só conta quando não é "quadro clínico".
-RE_IMAGEM = re.compile(
-    r"\b(figuras?|imagens?|imagem|gr[áa]ficos?|tabelas?|fotografias?|foto|"
-    r"esquemas?|fluxogramas?|ilustra[çc][ãa]o|radiografias?|"
-    r"eletrocardiograma|tomografia\s+(?:a\s+seguir|abaixo)|"
-    r"quadro\s+(?:a\s+seguir|abaixo|apresentad))\b",
-    re.I,
-)
+# --- requer_imagem ---------------------------------------------------------
+# Só marca quando o enunciado REMETE a um material gráfico exibido junto dele.
+# Cuidados: `\bfigura\b` não casa "configura"; `quadro` não casa "quadro
+# clínico"; `esquema` foi deixado de fora porque em português médico quase
+# sempre é "esquema terapêutico/vacinal", não um diagrama.
+_VISUAL = (r"\b(?:figuras?|imagens?|imagem|gr[áa]ficos?|tabelas?|fotografias?|"
+           r"fotos?|fluxogramas?|genogramas?|ecomapas?|organogramas?|"
+           r"ilustra[çc][õo]es|ilustra[çc][ãa]o|quadros?(?!\s+cl[íi]nic))\b")
+_EXAME = (r"\b(?:radiografias?|raio[- ]?x|eletrocardiogramas?|tra[çc]ados?|"
+          r"cardiotocografias?|tomografias?|ultrassonografias?|ecografias?|"
+          r"ecocardiogramas?|resson[âa]ncias?|endoscopias?|colonoscopias?|"
+          r"cintilografias?|exames?\s+de\s+imagem|l[âa]minas?)\b")
+_DEICTICO = r"\b(?:a\s+seguir|abaixo|acima)\b"
+_EXIBE = (r"\b(?:exibid|mostr|reproduz|apresentad|representad|vist[oa]|"
+          r"observ|ilustrad|transcrit)")
+
+# O separador `[^.”“"]` impede que a proximidade atravesse fim de frase ou
+# aspas — é o que evita o falso positivo de "via 'imagens brilhantes' e que,
+# a seguir, a visão ficou comprometida".
+RE_IMG_1 = re.compile(_VISUAL + r"[^.”“\"]{0,25}?" + _DEICTICO, re.I)
+RE_IMG_2 = re.compile(_DEICTICO + r"[^.”“\"]{0,60}?" + _VISUAL, re.I)
+RE_IMG_3 = re.compile(_EXIBE + r"[a-zç]*\s+(?:n[ao]s?)\s+" + _VISUAL, re.I)
+RE_FRASE = re.compile(r"[^.?!]+[.?!]?")
+
+
+def requer_imagem(enunciado):
+    """True quando o enunciado remete a figura/imagem/gráfico/tabela exibida."""
+    if RE_IMG_1.search(enunciado) or RE_IMG_2.search(enunciado) \
+            or RE_IMG_3.search(enunciado):
+        return True
+    # Exame de imagem "exibido/mostrado/visto ... a seguir" — a distância entre
+    # o nome do exame e o dêitico pode ser grande, então a checagem é por frase.
+    for frase in RE_FRASE.findall(enunciado):
+        if (re.search(_EXAME, frase, re.I)
+                and re.search(_EXIBE, frase, re.I)
+                and re.search(_DEICTICO, frase, re.I)):
+            return True
+    return False
 
 
 def limpar_linhas(linhas):
@@ -236,7 +265,7 @@ def extrair_prova(prova):
             "gabarito": None,
             "justificativa_oficial": None,
             "n_alternativas": len(letras),
-            "requer_imagem": bool(RE_IMAGEM.search(enunciado)),
+            "requer_imagem": requer_imagem(enunciado),
         })
 
     registros.sort(key=lambda r: r["num"])

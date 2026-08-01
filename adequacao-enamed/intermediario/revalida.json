@@ -147,7 +147,7 @@
     "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -204,7 +204,7 @@
     "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -261,7 +261,7 @@
     "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -869,7 +869,7 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": true,
     "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
@@ -983,7 +983,7 @@
     "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -1287,7 +1287,7 @@
     "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -1325,7 +1325,7 @@
     "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -1344,7 +1344,7 @@
     "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -1439,7 +1439,7 @@
     "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false,
+    "requer_imagem": true,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -1629,7 +1629,7 @@
     "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -2712,7 +2712,7 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": true,
     "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
@@ -2978,7 +2978,7 @@
     "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -3092,7 +3092,7 @@
     "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -3149,7 +3149,7 @@
     "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -3206,7 +3206,7 @@
     "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false,
+    "requer_imagem": true,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -3358,7 +3358,7 @@
     "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false,
+    "requer_imagem": true,
     "descartada": false,
     "motivo_descarte": null
   },
@@ -3662,7 +3662,7 @@
     "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true,
+    "requer_imagem": false,
     "descartada": false,
     "motivo_descarte": null
   },
