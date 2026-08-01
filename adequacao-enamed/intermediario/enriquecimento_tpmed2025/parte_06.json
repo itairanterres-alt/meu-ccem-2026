@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q006",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Bases iônicas do potencial de ação neuronal",
+    "subtema": "Canais de sódio e de potássio voltagem-dependentes na despolarização e na repolarização",
+    "competencia_dcn_2025": ["dcn2025_comp_21"],
+    "tags": ["fisiologia", "neurofisiologia", "potencial de ação", "canais iônicos"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado apresenta desvio de concordância (\"ocorre devido uma redistribuição\"), sem prejuízo à compreensão do item.",
+    "justificativas": {
+      "A": "Correta. Durante a fase de despolarização do potencial de ação, os canais de sódio voltagem-dependentes se abrem e permitem o influxo rápido de Na+, a favor de seu gradiente eletroquímico, levando o potencial de membrana a valores positivos. Em seguida, esses canais se inativam e abrem-se os canais de potássio voltagem-dependentes, gerando efluxo de K+ que restaura a negatividade interna — a repolarização. Portanto, despolarização por influxo de sódio e repolarização por efluxo de potássio.",
+      "B": "Incorreta. Inverte os íons envolvidos. O influxo de potássio é energeticamente desfavorável no neurônio em repouso, uma vez que o K+ é o cátion mais concentrado no meio intracelular e tende a sair, não a entrar. Da mesma forma, o efluxo de sódio não ocorre por canais voltagem-dependentes durante o potencial de ação: o Na+ é extruído lentamente pela bomba Na+/K+-ATPase, um processo ativo e posterior, que não explica a repolarização rápida.",
+      "C": "Incorreta. Inverte o sentido dos fluxos. O sódio é o cátion mais concentrado no meio extracelular, de modo que a abertura de seus canais voltagem-dependentes produz entrada, e não saída, do íon; um efluxo de sódio hiperpolarizaria a célula em vez de despolarizá-la. Igualmente, um influxo de potássio não repolarizaria a membrana, pois adicionaria carga positiva ao interior celular.",
+      "D": "Incorreta. Descreve exatamente o oposto do fenômeno fisiológico. O efluxo de potássio é o mecanismo da repolarização (e não da despolarização), enquanto o influxo de sódio é o mecanismo da despolarização (e não da repolarização). A alternativa apenas troca a ordem temporal correta dos dois eventos."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q014",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Estratigrafia tecidual na via de acesso cirúrgica à diáfise femoral",
+    "subtema": "Histologia dos tecidos epitelial, conjuntivo, adiposo e muscular na coxa",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_20"],
+    "tags": ["histologia", "anatomia cirúrgica", "planos teciduais", "fêmur"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Acerta o epitélio (a epiderme é estratificado pavimentoso queratinizado/córneo), mas erra nos dois tecidos seguintes. A derme é constituída por tecido conjuntivo propriamente dito denso NÃO modelado, com feixes colágenos em múltiplas direções; o denso modelado é próprio de tendões e ligamentos. Além disso, o tecido adiposo multilocular (gordura marrom) é abundante no feto e no recém-nascido e não compõe a hipoderme da coxa do adulto, onde há gordura unilocular (branca).",
+      "B": "Correta. Reproduz a estratigrafia normal da coxa, de superfície para profundidade: epiderme como tecido epitelial de revestimento estratificado pavimentoso córneo (queratinizado); derme como tecido conjuntivo propriamente dito denso não modelado; hipoderme com tecido adiposo unilocular (gordura branca); e, por fim, o compartimento muscular da coxa, formado por tecido muscular estriado esquelético, antes de se alcançar o periósteo e a diáfise femoral.",
+      "C": "Incorreta. Contém dois erros graves. A pele nunca é revestida por epitélio simples pavimentoso — esse epitélio reveste endotélios e mesotélios, não a superfície corporal, que é sempre estratificada e, na coxa, queratinizada. Além disso, a musculatura da coxa é estriada esquelética, de contração voluntária; tecido muscular liso ali existe apenas na parede vascular e nos músculos eretores do pelo, não constituindo um plano a ser incisado.",
+      "D": "Incorreta. Erra o epitélio e o conjuntivo. Novamente descreve a pele como epitélio simples pavimentoso, quando o revestimento cutâneo é estratificado pavimentoso córneo. E classifica a derme como conjuntivo denso modelado, arranjo restrito a tendões e ligamentos, onde as fibras colágenas são paralelas e unidirecionais; na derme o arranjo é entrelaçado, ou seja, denso não modelado. Os dois últimos elementos (adiposo unilocular e muscular estriado esquelético) estão corretos, mas não salvam a alternativa."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q022",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Características semiológicas do recém-nascido prematuro",
+    "subtema": "Exame físico do prematuro: pele, tônus, reflexos e genitália",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["neonatologia", "prematuridade", "exame físico", "semiologia pediátrica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O prematuro expressa no exame físico o grau de sua imaturidade: pele fina e lisa, recoberta por vernix caseoso, com tecido adiposo escasso e edema nas primeiras horas de vida; musculatura pouco desenvolvida, com hipotonia global e postura em extensão; reflexos primitivos diminuídos ou incompletos. Na genitália masculina, a bolsa escrotal apresenta-se lisa, sem definição da rafe mediana e com testículos habitualmente não palpáveis. A alternativa reúne exatamente esse conjunto.",
+      "B": "Incorreta. A pele do prematuro é fina, lisa e translúcida, e não espessa — o espessamento cutâneo, com descamação e ausência de vernix, é característico do recém-nascido pós-termo. Além disso, os reflexos do prematuro estão diminuídos, não aumentados, pela imaturidade neurológica. O achado de lábios menores protrusos, por si só, é compatível com prematuridade, mas está inserido em um conjunto que contém dois erros.",
+      "C": "Incorreta. Embora pele translúcida e vernix caseoso sejam compatíveis com prematuridade, a alternativa erra ao afirmar hipertonia e reflexos aumentados: o prematuro é hipotônico, com reflexos diminuídos, pois o tônus flexor amadurece no sentido caudocefálico ao longo do terceiro trimestre. Erra também ao descrever bolsa escrotal rugosa, sinal de maturidade genital que aparece próximo ao termo; no prematuro a bolsa é lisa, sem rugosidade nem rafe definida.",
+      "D": "Incorreta. Acerta apenas a pele lisa e os reflexos diminuídos. A hipertonia contradiz a hipotonia global típica da imaturidade neuromuscular do prematuro, sendo esse par (hipertonia + reflexos diminuídos) internamente incoerente. Adicionalmente, a alternativa omite o vernix caseoso, elemento semiológico esperado, e não caracteriza o conjunto de achados de forma completa."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q030",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Reanimação cardiopulmonar na parada cardiorrespiratória pediátrica",
+    "subtema": "Sequência C-A-B e prioridade das compressões torácicas de alta qualidade",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["PCR pediátrica", "suporte de vida", "compressões torácicas", "DEA"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A justificativa oficial é internamente inconsistente ao afirmar que a causa principal da PCR pediátrica é a hipóxia e, com base nisso, justificar a priorização da circulação.",
+    "justificativas": {
+      "A": "Incorreta. A sequência A-B-C foi abandonada tanto no atendimento ao adulto quanto ao da criança. As diretrizes vigentes padronizaram C-A-B para todas as faixas etárias, justamente para reduzir o atraso no início das compressões torácicas, que antes chegava a dezenas de segundos enquanto se preparava a via aérea. A afirmação erra ainda ao apresentar A-B-C como o padrão da reanimação do adulto.",
+      "B": "Incorreta. O intervalo de uma ventilação a cada 6 segundos (10 por minuto) é o parâmetro do adulto com via aérea avançada. Na criança e no lactente, a frequência ventilatória recomendada é maior, de uma ventilação a cada 2 a 3 segundos (20 a 30 por minuto), tanto na ventilação de resgate quanto na RCP com via aérea avançada, refletindo a maior demanda metabólica e a frequência respiratória fisiologicamente mais alta dessa faixa etária.",
+      "C": "Correta. Na PCR pediátrica a sequência recomendada é C-A-B (Circulation, Airway, Breathing), com ênfase em compressões torácicas de alta qualidade — profundidade de cerca de um terço do diâmetro anteroposterior do tórax, frequência de 100 a 120 por minuto, retorno completo do tórax e minimização de interrupções. A prioridade é restabelecer precocemente fluxo sanguíneo coronariano e cerebral; a ventilação, embora essencial no contexto pediátrico, é executada em seguida dentro da mesma sequência.",
+      "D": "Incorreta. O DEA está formalmente indicado na PCR pediátrica e deve ser aplicado assim que disponível, preferencialmente com atenuador de carga e pás pediátricas em menores de 8 anos. Embora os ritmos não chocáveis (assistolia e atividade elétrica sem pulso) predominem na criança, fibrilação ventricular e taquicardia ventricular sem pulso ocorrem em parcela relevante dos casos e só podem ser tratadas com desfibrilação, cuja precocidade determina a sobrevida."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q038",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Cetoacidose diabética como apresentação inicial de diabetes mellitus tipo 1 na infância",
+    "subtema": "Critérios laboratoriais: pH, bicarbonato e glicemia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["cetoacidose diabética", "diabetes tipo 1", "gasometria", "emergência pediátrica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Embora o pH abaixo de 7,20 seja compatível com cetoacidose (na faixa moderada a grave), a alternativa é internamente contraditória ao exigir bicarbonato MAIOR que 15 mEq/L: acidose metabólica com consumo de bases cursa com bicarbonato baixo, e o critério diagnóstico é bicarbonato menor que 15 mEq/L. O limiar glicêmico de 150 mg/dL também é inadequado, pois o critério é glicemia acima de 200 mg/dL.",
+      "B": "Correta. O quadro — polidipsia e poliúria há três meses, perda ponderal e anorexia há dois meses, dor abdominal com náuseas e vômitos, taquicardia, taquipneia e glicemia capilar de 420 mg/dL — configura diabetes mellitus em descompensação por cetoacidose diabética. Os critérios laboratoriais são exatamente pH menor que 7,30, bicarbonato menor que 15 mEq/L e glicemia acima de 200 mg/dL, somados a cetonemia/cetonúria. O manejo envolve internação, expansão volêmica e, após cerca de duas horas, insulina regular endovenosa contínua com soro de manutenção.",
+      "C": "Incorreta. Descreve alcalose (pH maior que 7,45) com bicarbonato elevado e glicemia normal, padrão incompatível com o caso. A paciente tem glicemia capilar documentada de 420 mg/dL, o que exclui glicemia abaixo de 200 mg/dL, e a taquipneia observada corresponde à respiração de Kussmaul, resposta compensatória a uma acidose metabólica — e não a um distúrbio alcalótico primário.",
+      "D": "Incorreta. Acerta a direção da acidose (pH menor que 7,20 e bicarbonato reduzido), mas erra o componente glicêmico ao propor glicemia abaixo de 150 mg/dL, valor frontalmente contrariado pela glicemia capilar de 420 mg/dL do caso. Os pontos de corte também não correspondem aos critérios diagnósticos padronizados de cetoacidose diabética, que utilizam bicarbonato menor que 15 mEq/L e glicemia acima de 200 mg/dL."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q046",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Profilaxia pós-exposição sexual ao HIV em adolescente na Atenção Primária",
+    "subtema": "Prevenção combinada, janela de 72 horas e atendimento do adolescente desacompanhado",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_23", "dcn2025_comp_11"],
+    "tags": ["PEP", "HIV", "adolescência", "prevenção combinada", "sigilo"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O adolescente tem direito ao atendimento desacompanhado e ao sigilo, conforme o Estatuto da Criança e do Adolescente, o Código de Ética Médica e as recomendações do Ministério da Saúde. A convocação dos responsáveis contra a vontade do usuário quebra a confidencialidade, afasta o adolescente do serviço e, sobretudo, atrasa uma intervenção cujo benefício depende criticamente do tempo — a PEP deve ser iniciada o mais precocemente possível, dentro das primeiras 72 horas.",
+      "B": "Incorreta. Não existe restrição de idade para a profilaxia pós-exposição: ela é indicada a adolescentes, inclusive menores de 18 anos, com esquema antirretroviral por 28 dias. Liberar o usuário apenas com reteste em 30 dias desperdiça a única janela terapêutica disponível (até 72 horas da exposição) e o expõe a risco evitável de soroconversão, contrariando a lógica da prevenção combinada.",
+      "C": "Incorreta. Trata-se de relação sexual consensual entre dois adolescentes de 16 anos, com idades equivalentes, sem indício de violência, coerção ou exploração sexual. Não há, portanto, situação de violação de direitos que configure notificação ao Conselho Tutelar ou medidas judiciais. Acionar esses dispositivos nesse contexto é conduta iatrogênica: viola o sigilo, estigmatiza o usuário e não oferece nenhuma proteção clínica.",
+      "D": "Correta. A conduta recomendada é realizar os testes rápidos para HIV, sífilis e hepatites B e C e, com teste de HIV não reagente, iniciar imediatamente a profilaxia pós-exposição com antirretrovirais. A exposição ocorreu há 13 horas, dentro do prazo máximo de 72 horas, e o status sorológico da fonte é desconhecido e inacessível — exatamente a situação em que a PEP está indicada. Complementa-se a abordagem com contracepção de outras IST, vacinação, aconselhamento e oferta de PrEP no seguimento."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q054",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo da sífilis na gestação após teste rápido reagente no pré-natal",
+    "subtema": "Tratamento imediato com penicilina G benzatina e prevenção da sífilis congênita",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_24", "dcn2025_comp_06"],
+    "tags": ["sífilis gestacional", "pré-natal", "penicilina benzatina", "notificação compulsória"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado não fornece dados (tempo de exposição, sintomas prévios, titulação) que permitam o estadiamento como sífilis latente tardia invocado na justificativa oficial, que ainda menciona iniciais de paciente ausentes no caso.",
+    "justificativas": {
+      "A": "Incorreta. Aguardar um segundo teste antes de tratar contraria a recomendação do Ministério da Saúde, que determina início imediato da penicilina na gestante com teste rápido reagente, justamente porque o atraso aumenta o risco de sífilis congênita. Além disso, o esquema proposto — dose única de 2,4 milhões de UI — só se aplicaria à sífilis recente comprovada; sem estadiamento definido, a gestante deve ser tratada como sífilis latente tardia ou de duração ignorada, com três doses semanais.",
+      "B": "Incorreta. Condiciona o tratamento a um resultado de VDRL com titulação superior a 1:8, critério que não existe para indicar terapia na gestação: qualquer titulação, e mesmo o teste rápido reagente isolado, já obriga o tratamento imediato. O teste não treponêmico serve para estadiamento e, sobretudo, para monitoramento da resposta terapêutica, não como pré-requisito para tratar. O seguimento sorológico na gestante, ademais, é mensal, e não apenas trimestral.",
+      "C": "Correta. Diante de teste rápido reagente em gestante, o tratamento deve ser iniciado imediatamente, sem aguardar confirmação laboratorial adicional, pois a sífilis gestacional é agravo de notificação compulsória e a prevenção da sífilis congênita depende de tratamento precoce e completo. Sem elementos que caracterizem sífilis recente, presume-se sífilis latente tardia ou de duração indeterminada, cujo esquema é penicilina G benzatina 2,4 milhões de UI por via intramuscular, uma vez por semana, totalizando três doses (7,2 milhões de UI). A parceria sexual deve ser testada e tratada para evitar reinfecção.",
+      "D": "Incorreta. Erra duas vezes. Primeiro, ao postergar o tratamento até o resultado do teste não treponêmico, o que retarda a proteção fetal. Segundo, ao indicar dessensibilização de rotina: esse procedimento é reservado exclusivamente às gestantes com alergia comprovada à penicilina, e não é etapa do manejo habitual. Na gestante, a penicilina benzatina é a única droga com eficácia comprovada para tratar o feto, mas a alergia não é presumida — ela precisa estar documentada."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q062",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Classificação das cirurgias quanto ao potencial de contaminação",
+    "subtema": "Identificação de procedimento potencialmente contaminado",
+    "competencia_dcn_2025": ["dcn2025_comp_20", "dcn2025_comp_01"],
+    "tags": ["infecção de sítio cirúrgico", "potencial de contaminação", "traqueostomia", "biossegurança"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Cirurgias potencialmente contaminadas são aquelas com penetração controlada, em condições eletivas e assépticas, dos tratos respiratório, digestório, geniturinário ou da orofaringe, sem extravasamento significativo de conteúdo e sem infecção estabelecida. A traqueostomia eletiva abre a via aérea, cavidade colonizada por flora própria, com risco moderado de contaminação — enquadrando-se exatamente nessa categoria.",
+      "B": "Incorreta. A herniorrafia inguinal eletiva, sem abertura de víscera oca e sem inflamação, é o exemplo clássico de cirurgia LIMPA: realizada em tecido estéril, em condições assépticas e sem penetração dos tratos respiratório, digestório ou geniturinário. Sua taxa esperada de infecção de sítio cirúrgico é inferior a 2%, o que dispensa antibioticoterapia terapêutica.",
+      "C": "Incorreta. A correção de aneurisma de carótida é também uma cirurgia LIMPA — procedimento vascular eletivo, em plano cervical, sem abertura de trato colonizado e sem processo infeccioso ou inflamatório. O fato de envolver prótese ou enxerto aumenta a gravidade de uma eventual infecção e justifica antibioticoprofilaxia rigorosa, mas não altera a classificação quanto ao potencial de contaminação.",
+      "D": "Incorreta. Perfuração de ceco por apendicite corresponde a cirurgia INFECTADA (ou suja), a categoria de maior risco: há víscera oca perfurada com extravasamento de conteúdo fecal, pus e infecção já instalada na cavidade. Nesses casos não se fala em profilaxia, e sim em antibioticoterapia terapêutica, com taxas de infecção de sítio cirúrgico que podem superar 30%."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q070",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Síndrome do cone medular após trauma raquimedular",
+    "subtema": "Déficits esfincterianos, sexuais e sensitivos na lesão de S3-S5",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["trauma raquimedular", "cone medular", "anestesia em sela", "bexiga neurogênica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O cone medular abriga os segmentos sacrais baixos (S3-S5), que contêm os núcleos parassimpáticos responsáveis pela função vesical, intestinal e sexual, além do centro do reflexo anal. Sua lesão produz um quadro de neurônio motor inferior: arreflexia do detrusor, com retenção urinária e incontinência por transbordamento; incontinência fecal por atonia esfincteriana; impotência; anestesia em sela no território S3-S5; e ausência do reflexo anal (e do bulbocavernoso).",
+      "B": "Incorreta. Descreve um padrão de neurônio motor SUPERIOR — hiperreflexia do detrusor, hiperestesia e reflexo anal exaltado — que corresponde a lesões medulares acima do cone, e não à lesão do próprio cone. Há ainda incoerência interna: hiperreflexia do detrusor gera incontinência de urgência por contrações não inibidas, e não incontinência por transbordamento, que é fenômeno de bexiga atônica e distendida.",
+      "C": "Incorreta. Acerta a arreflexia do detrusor com retenção e a ausência do reflexo anal, mas erra em três pontos. A incontinência da bexiga arreflexa é por transbordamento, e não por esforço (esta decorre de insuficiência esfincteriana, tipicamente feminina e não neurogênica); a lesão do cone causa incontinência fecal por atonia, e não retenção fecal; e o nível sensitivo da anestesia em sela é S3-S5, e não S1-S4.",
+      "D": "Incorreta. Combina os mesmos erros das alternativas anteriores: descreve hiperreflexia do detrusor, hiperestesia e reflexo anal aumentado, achados de lesão suprassacral e opostos à arreflexia e à anestesia esperadas na lesão do cone medular. Acrescenta ainda retenção fecal, quando o esperado é incontinência fecal, e delimita erroneamente o território sensitivo como S1-S4."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q078",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Anemia ferropriva com sangue oculto positivo e suspeita de neoplasia colorretal",
+    "subtema": "Câncer de cólon direito e indicação de colonoscopia diagnóstica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["câncer colorretal", "anemia ferropriva", "sangue oculto nas fezes", "colonoscopia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Atribuir a anemia a deficiência nutricional isolada ignora o dado mais relevante do caso: a pesquisa de sangue oculto fecal positiva, que documenta perda sanguínea pelo trato gastrointestinal. Em homem de 56 anos com astenia, emagrecimento progressivo em seis meses e anemia ferropriva, investigar apenas o perfil nutricional retarda o diagnóstico de uma neoplasia potencialmente curável. Em adultos, a anemia ferropriva é sinal de sangramento até prova em contrário.",
+      "B": "Correta. Neoplasias do cólon direito caracteristicamente cursam com anemia ferropriva, astenia e perda de peso, porque o sangramento é lento, crônico e não perceptível — o conteúdo ainda líquido e a distância do canal anal impedem a exteriorização de sangue visível, sendo a perda detectada apenas como sangue oculto nas fezes. Homem acima de 50 anos com anemia ferropriva e PSOF positiva tem indicação formal de colonoscopia, exame que permite visualização direta de toda a mucosa colônica e biópsia da lesão.",
+      "C": "Incorreta. A doença hemorroidária interna causa sangramento vermelho-vivo, visível, ao final da evacuação, e raramente é intensa o bastante para produzir anemia ferropriva com repercussão sistêmica. Sobretudo, não explica astenia e emagrecimento progressivos por seis meses. Atribuir a anemia às hemorroidas e encaminhar sem investigar o cólon é erro clássico que posterga o diagnóstico de neoplasia coexistente.",
+      "D": "Incorreta. A doença diverticular sangra de forma tipicamente aguda, volumosa e indolor (hematoquezia), e não como perda crônica oculta com anemia ferropriva e emagrecimento. Além disso, o enema opaco é método ultrapassado para essa investigação: não permite biópsia, tem baixa sensibilidade para lesões planas e pequenas e é formalmente contraindicado na suspeita de perfuração. A colonoscopia é o exame de escolha."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q086",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Manobras semiológicas de irritação meníngea na meningoencefalite",
+    "subtema": "Caracterização do sinal de Brudzinski",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["semiologia neurológica", "irritação meníngea", "sinal de Brudzinski", "meningite"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa A apresenta erro de redação (\"o paciente sente dor oferece resistência\"), com omissão de conectivo que prejudica a clareza do distrator.",
+    "justificativas": {
+      "A": "Incorreta. A manobra descrita — flexão da coxa sobre o quadril seguida de extensão da perna, com dor e resistência — corresponde ao sinal de Kernig, e não ao de Brudzinski. O Kernig também traduz irritação meníngea, por estiramento das raízes lombossacras, mas é pesquisado nos membros inferiores, sem envolver a flexão cervical, que é o gesto definidor do Brudzinski.",
+      "B": "Incorreta. Embora inicie corretamente com a flexão da cabeça sobre o tronco, descreve uma resposta oposta à real: no sinal de Brudzinski ocorre FLEXÃO involuntária de quadris e joelhos, e não hiperextensão do joelho. Rotação lateral de mãos e pés não integra nenhuma manobra meníngea clássica, tratando-se de elemento distrator sem correspondência semiológica.",
+      "C": "Correta. O sinal de Brudzinski é pesquisado com o paciente em decúbito dorsal: o examinador apoia uma das mãos na região occipital e a outra sobre o tórax e flete passivamente o pescoço. A resposta positiva é a flexão involuntária e reflexa dos quadris e joelhos — isto é, flexão da perna sobre a coxa e desta sobre a bacia —, movimento de defesa que reduz a tração sobre as meninges inflamadas. É achado de irritação meníngea, presente em proporções variáveis conforme a etiologia da meningoencefalite.",
+      "D": "Incorreta. A manobra do Brudzinski envolve a flexão da CABEÇA sobre o tronco, e não a elevação do tronco sobre a bacia. Além disso, a resposta descrita é apenas parcialmente correta: há de fato flexão da perna sobre a coxa, mas não ocorre hiperextensão do braço, elemento que não pertence a nenhuma das manobras meníngeas descritas classicamente."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q094",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertensão arterial resistente em adulto jovem com pulsos femorais reduzidos",
+    "subtema": "Rastreamento de hipertensão secundária e suspeita de coarctação da aorta",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["hipertensão secundária", "coarctação da aorta", "pulsos femorais", "hipertensão resistente"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A hipertensão essencial é diagnóstico de exclusão e torna-se improvável neste contexto: paciente jovem, de 37 anos, sem fatores de risco descritos, com pressão não controlada apesar de três classes de anti-hipertensivos em doses adequadas (incluindo diurético) e com boa adesão relatada. Sobretudo, o achado de pulsos femorais de baixa amplitude é um sinal orgânico que aponta causa anatômica identificável — algo que a hipertensão essencial não explica.",
+      "B": "Correta. Idade de início inferior a 40 anos, ausência de fatores de risco, hipertensão resistente (não controlada com três fármacos em doses otimizadas, um deles diurético) e presença de sinal físico específico são todos indicadores clássicos de hipertensão secundária. A redução da amplitude dos pulsos femorais, com o gradiente entre membros superiores e inferiores, direciona a hipótese para coarctação da aorta, que deve ser investigada com medida comparativa da pressão nos quatro membros, ecocardiograma e angiotomografia ou angiorressonância da aorta.",
+      "C": "Incorreta. A hipertensão maligna (ou emergência hipertensiva com lesão aguda de órgão-alvo) exige, além de níveis pressóricos muito elevados, evidência de dano agudo em curso — retinopatia grau III ou IV com hemorragias, exsudatos ou papiledema, encefalopatia, injúria renal aguda, microangiopatia trombótica. O enunciado é explícito ao afirmar que o único achado digno de nota ao exame físico são os pulsos femorais reduzidos, afastando esse cenário.",
+      "D": "Incorreta. Hipertensão mascarada define-se por pressão normal no consultório com valores elevados fora dele, situação exatamente inversa à do caso, em que a pressão de consultório é francamente alta (170/110 mmHg) e coerente com as medidas domiciliares acima de 160 mmHg. O conceito, portanto, não se aplica; o quadro caracteriza hipertensão resistente com forte suspeita de causa secundária."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q102",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Endocrinopatias ginecológicas mais prevalentes na prática clínica",
+    "subtema": "Síndrome dos ovários policísticos: hiperandrogenismo e irregularidade menstrual",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["SOP", "endocrinologia ginecológica", "hiperandrogenismo", "anovulação"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comando pede a condição \"considerada uma endocrinopatia ginecológica comum\", mas dois distratores (menopausa precoce e hiperplasia adrenal congênita) também são endocrinopatias, de modo que a chave depende exclusivamente do critério de prevalência, não explicitado no enunciado.",
+    "justificativas": {
+      "A": "Incorreta. As infecções vaginais — candidíase, vaginose bacteriana, tricomoníase — são afecções infecciosas do trato genital inferior, decorrentes de desequilíbrio da microbiota ou de transmissão sexual. Ainda que o estado hormonal possa modular a susceptibilidade (como na gestação ou no hipoestrogenismo da pós-menopausa), sua origem não é endócrina, o que as exclui da categoria de endocrinopatia ginecológica.",
+      "B": "Incorreta. A menopausa precoce, ou insuficiência ovariana primária antes dos 40 anos, é de fato uma endocrinopatia ginecológica, com hipoestrogenismo e elevação das gonadotrofinas. Contudo, sua prevalência é de aproximadamente 1% das mulheres, muito inferior à da síndrome dos ovários policísticos, o que a torna alternativa menos adequada diante do pedido por uma condição comum.",
+      "C": "Correta. A síndrome dos ovários policísticos é a endocrinopatia ginecológica mais comum na mulher em idade reprodutiva, acometendo cerca de 5 a 15% dessa população. Caracteriza-se por irregularidade menstrual decorrente de anovulação crônica, hiperandrogenismo clínico (hirsutismo, acne, alopecia) ou laboratorial e morfologia ovariana policística à ultrassonografia — os critérios de Rotterdam, dos quais dois de três firmam o diagnóstico após exclusão de outras causas. Associa-se ainda a resistência insulínica, obesidade, infertilidade e risco cardiometabólico aumentado.",
+      "D": "Incorreta. A hiperplasia adrenal congênita, sobretudo a forma não clássica por deficiência de 21-hidroxilase, é uma endocrinopatia de expressão ginecológica relevante e faz diagnóstico diferencial com a SOP, já que também cursa com hiperandrogenismo e anovulação. Entretanto, é significativamente menos prevalente e sua origem é adrenal, não ovariana, o que a torna alternativa menos apropriada frente ao que o comando solicita."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q110",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Manejo da ruptura prematura de membranas em hospital terciário",
+    "subtema": "Tocólise, neuroproteção, profilaxia para EGB e indicações de interrupção",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["RUPREME", "prematuridade", "corioamnionite", "estreptococo do grupo B"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado apresenta parêntese não fechado e erro de regência (\"assinale a assertiva correta RUPREME\"), com omissão da preposição \"sobre\".",
+    "justificativas": {
+      "A": "Incorreta. Os tocolíticos, como a nifedipina, não devem ser mantidos até a 34ª semana. Seu uso é limitado a no máximo 48 horas, tempo necessário para completar o ciclo de corticoterapia antenatal e, quando indicado, viabilizar a transferência para centro terciário. Na RUPREME pré-termo a tocólise prolongada é ainda mais questionável, pois pode retardar o diagnóstico de infecção intra-amniótica sem benefício perinatal demonstrado.",
+      "B": "Incorreta. O sulfato de magnésio para neuroproteção fetal está indicado apenas nos partos prematuros iminentes até 32 semanas (limite ampliado por alguns protocolos, mas nunca aplicável rotineiramente acima de 34 semanas), pois é nessa faixa que se demonstrou redução de paralisia cerebral. Acima de 34 semanas não há indicação, e postergar a interrupção por 12 horas para administrá-lo seria conduta sem respaldo e potencialmente danosa.",
+      "C": "Incorreta. Ocorre justamente o contrário: na ruptura prematura pré-termo de membranas, a profilaxia intraparto para Streptococcus do grupo B está indicada sempre que a cultura for positiva ou o estado de colonização for desconhecido. O desconhecimento não dispensa a profilaxia — ele a indica, pela impossibilidade de excluir a colonização e pelo risco de sepse neonatal precoce, agravado pela via de ascensão aberta.",
+      "D": "Correta. A infecção intrauterina (corioamnionite) é indicação absoluta de internação, antibioticoterapia de amplo espectro e interrupção da gestação em qualquer idade gestacional, independentemente da maturidade fetal, pois a permanência intrauterina aumenta a morbimortalidade materna e fetal — sepse materna, sepse neonatal e lesão neurológica. As demais indicações de interrupção na RUPREME são o trabalho de parto ativo e o comprometimento da vitalidade fetal."
+    }
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q118",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Exame físico mínimo na consulta de pré-natal de rotina",
+    "subtema": "Peso, pressão arterial, altura uterina e batimentos cardíacos fetais",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_06", "dcn2025_comp_25"],
+    "tags": ["pré-natal", "exame obstétrico", "altura uterina", "atenção primária"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Inclui a ultrassonografia como item do exame físico mínimo, o que é duplamente equivocado: trata-se de exame complementar, e não de exame físico, e não é obrigatória em todas as consultas de pré-natal. Além disso, omite dois parâmetros essenciais e realizáveis em qualquer consulta — o peso materno e, sobretudo, a pressão arterial, cuja aferição rotineira é a principal ferramenta de rastreamento dos distúrbios hipertensivos da gestação.",
+      "B": "Incorreta. A circunferência abdominal não integra o exame obstétrico de rotina; o parâmetro validado para acompanhar o crescimento fetal é a medida da altura uterina, plotada em curva por idade gestacional. O toque vaginal também não é obrigatório em consulta de rotina de gestante assintomática — reserva-se a situações específicas, como suspeita de trabalho de parto, sangramento ou perda de líquido. A alternativa ainda omite a pressão arterial.",
+      "C": "Incorreta. Reúne dois procedimentos não obrigatórios na consulta de rotina: a ultrassonografia, que é exame complementar com indicação em momentos definidos do pré-natal, e o toque vaginal, dispensável em gestante assintomática de 32 semanas com pré-natal regular e sem queixas. Acrescentar procedimentos desnecessários gera desconforto, risco e consumo evitável de recursos, contrariando a lógica de cuidado seguro e racional.",
+      "D": "Correta. O exame físico mínimo da consulta de pré-natal de rotina compreende peso materno (avaliação do ganho ponderal), pressão arterial (rastreamento de pré-eclâmpsia e hipertensão gestacional), medida da altura uterina (acompanhamento do crescimento fetal e detecção de discrepâncias) e ausculta dos batimentos cardíacos fetais (avaliação da vitalidade), somados à pesquisa de edema e à avaliação do estado geral. Ultrassonografia e toque vaginal não fazem parte da rotina obrigatória de todas as consultas."
+    }
+  }
+]
