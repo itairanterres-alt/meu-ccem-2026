@@ -1,0 +1,413 @@
+[
+  {
+    "id_origem": "revalida2023_2_q014",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Terapia hormonal do climatério: escolha do esquema de menor risco",
+    "subtema": "Estradiol transdérmico associado a progesterona natural micronizada",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "climatério",
+      "terapia hormonal",
+      "via transdérmica",
+      "progesterona micronizada",
+      "risco tromboembólico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado não informa explicitamente se a paciente é portadora de útero, dado necessário para justificar a obrigatoriedade da associação de progestagênio ao estrogênio.",
+    "justificativas": {
+      "A": "Incorreta. O estradiol por via oral sofre metabolismo hepático de primeira passagem, aumentando a síntese de fatores pró-coagulantes, de angiotensinogênio e de proteína C-reativa, o que eleva o risco tromboembólico e pressórico. Somado a isso, o acetato de noretisterona é progestagênio sintético com perfil androgênico desfavorável sobre lipídios e coagulação.",
+      "B": "Incorreta. Embora a via transdérmica do estradiol seja vantajosa por evitar a primeira passagem hepática, o adesivo combinado mantém o acetato de noretisterona, progestagênio sintético associado a maior impacto sobre o tecido mamário e sobre o risco trombótico do que a progesterona natural.",
+      "C": "Incorreta. Estrogênios equinos conjugados por via oral associados a acetato de medroxiprogesterona correspondem ao esquema testado no estudo Women's Health Initiative, que demonstrou aumento de eventos coronarianos, acidente vascular encefálico, tromboembolismo venoso e câncer de mama invasivo. É, portanto, o regime de maior risco entre os apresentados.",
+      "D": "Correta. O estradiol em gel transdérmico não sofre metabolismo hepático de primeira passagem, mantendo neutralidade sobre fatores de coagulação, triglicerídeos e pressão arterial, aspecto relevante em paciente hipertensa. A progesterona natural micronizada é o progestagênio com menor efeito proliferativo mamário e menor impacto trombótico, oferecendo proteção endometrial com o melhor perfil de segurança disponível."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q027",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Diagnóstico diferencial de lesão cutânea facial em trabalhador com fotoexposição crônica",
+    "subtema": "Melanoma cutâneo e critérios ABCDE",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "dermatologia",
+      "melanoma",
+      "câncer de pele",
+      "fotoexposição ocupacional",
+      "critérios ABCDE"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item é integralmente dependente da figura da lesão cutânea, que não está disponível no texto, impossibilitando a análise morfológica exigida.",
+    "justificativas": {
+      "A": "Correta. Lesão pigmentada de longa evolução em área fotoexposta que passa a crescer rapidamente em poucos meses caracteriza o critério de evolução dos parâmetros ABCDE. Associada à assimetria, às bordas irregulares e à policromia observadas na imagem, define o melanoma como hipótese principal, cabendo biópsia excisional com margens estreitas.",
+      "B": "Incorreta. O nevo melanocítico é lesão benigna estável, simétrica, de bordas regulares e coloração homogênea, que acompanha proporcionalmente o crescimento corporal. Modificação abrupta de tamanho ou cor afasta essa hipótese e obriga a investigação de transformação maligna.",
+      "C": "Incorreta. A ceratose seborreica é proliferação epidérmica benigna, de superfície verrucosa e untuosa, com aspecto de estar sobreposta ou colada à pele e presença de pseudocistos córneos. Não apresenta crescimento acelerado nem potencial de malignização.",
+      "D": "Incorreta. O carcinoma espinocelular manifesta-se tipicamente como lesão ceratósica, infiltrada, endurecida e frequentemente ulcerada ou com crosta hemorrágica, e não como lesão pigmentada com policromia. Embora também se relacione à exposição solar cumulativa, o padrão morfológico é distinto."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q042",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Perda involuntária de líquido pela vagina após histerectomia total abdominal",
+    "subtema": "Fístula ureterovaginal como complicação de cirurgia ginecológica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "fístula ureterovaginal",
+      "complicação cirúrgica",
+      "histerectomia",
+      "lesão do trato urinário",
+      "segurança do paciente"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não existe entidade nosológica denominada incompetência do assoalho vesical; a disfunção do assoalho pélvico manifesta-se como incontinência urinária aos esforços, com perdas intermitentes e desencadeadas por aumento da pressão abdominal, e não como escape contínuo pela vagina.",
+      "B": "Incorreta. O abscesso pélvico pós-operatório cursa com febre, dor pélvica, leucocitose e eventual drenagem de secreção purulenta, e não com perda contínua e progressiva de líquido claro. Além disso, a imagem descrita é de coleção líquida sem sinais de conteúdo espesso ou septado.",
+      "C": "Incorreta. O seroma é coleção serosa contida no leito operatório, sem comunicação com a cúpula vaginal, e tende a se reabsorver espontaneamente. Não explica perda externa persistente de líquido por mais de dois meses.",
+      "D": "Correta. A lesão ureteral inadvertida é complicação clássica da histerectomia, sobretudo próxima ao cruzamento com a artéria uterina, e a fistulização para a cúpula vaginal produz perda contínua e progressiva de urina. Como o ureter contralateral permanece íntegro, a micção segue normal, e o extravasamento origina o urinoma perivesical observado na ultrassonografia."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q057",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo pré-operatório de hérnia incisional volumosa em paciente com obesidade",
+    "subtema": "Otimização clínica e perda ponderal antes da herniorrafia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "hérnia incisional",
+      "obesidade",
+      "pré-operatório",
+      "recidiva herniária",
+      "abordagem multiprofissional"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A cinta abdominal apenas oferece conforto sintomático e não interrompe a progressão do defeito aponeurótico, que tende a se alargar com o tempo. Manter conduta exclusivamente expectante sem enfrentar o principal fator de risco modificável posterga a correção e piora as condições técnicas futuras.",
+      "B": "Incorreta. Defeitos com colo amplo, como o descrito, apresentam baixo risco de encarceramento e estrangulamento, justamente porque o anel largo não constringe as alças. Operar de imediato com índice de massa corporal de 37 kg/m² eleva significativamente as taxas de infecção de sítio cirúrgico, deiscência e recidiva.",
+      "C": "Correta. A obesidade grau II é o principal fator de risco modificável para recidiva e complicações da correção de hérnias incisionais volumosas, por aumentar a pressão intra-abdominal e a tensão sobre o reparo. A abordagem multiprofissional para perda ponderal, incluindo suporte nutricional e eventual cirurgia bariátrica prévia, melhora substancialmente os desfechos da herniorrafia.",
+      "D": "Incorreta. O diagnóstico de hérnia incisional de moderado volume é eminentemente clínico, e a ultrassonografia acrescenta pouco nesse contexto. Quando há necessidade de planejamento operatório em grandes defeitos, o exame indicado é a tomografia computadorizada, que permite estimar o volume herniário e a perda de domicílio."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q072",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Dor anal à evacuação com sangramento vivo em paciente constipada",
+    "subtema": "Fissura anal aguda na linha média posterior",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "fissura anal",
+      "proctologia",
+      "constipação intestinal",
+      "sangramento anal",
+      "exame proctológico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A tríade de dor intensa durante e após a defecação, sangramento vermelho-vivo em pequena quantidade e fezes ressecadas é típica da fissura anal. A localização preferencial na comissura posterior decorre da menor perfusão sanguínea dessa região pelo ramo terminal da artéria retal inferior, e o fundo raso indica lesão aguda, sem as alterações crônicas de plicoma sentinela e papila hipertrófica.",
+      "B": "Incorreta. A doença hemorroidária interna caracteristicamente provoca sangramento indolor, em jato ou gotejamento ao final da evacuação, podendo associar-se a prolapso. A presença de dor intensa e prolongada após a defecação não corresponde ao padrão hemorroidário não complicado.",
+      "C": "Incorreta. A fístula anorretal manifesta-se por drenagem crônica de secreção purulenta ou serosa por orifício cutâneo perianal, geralmente após abscesso prévio, sem relação temporal estreita com o ato evacuatório. Não explica dor lancinante desencadeada pela passagem das fezes.",
+      "D": "Incorreta. O abscesso perianal cursa com dor contínua e progressiva, independente da evacuação, acompanhada de sinais flogísticos locais, abaulamento, febre e mal-estar. A evolução de quinze dias com dor estritamente relacionada à defecação não é compatível."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q086",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento laboratorial da doença renal do diabetes em fase inicial",
+    "subtema": "Albuminúria moderadamente aumentada na relação albumina/creatinina",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "diabetes mellitus tipo 1",
+      "nefropatia diabética",
+      "microalbuminúria",
+      "rastreamento",
+      "complicações microvasculares"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa C emprega a expressão imprecisa \"taxa de filtração glomerular estimada eletronicamente\", terminologia não consagrada que pode confundir o candidato.",
+    "justificativas": {
+      "A": "Incorreta. A fita reagente do exame de urina de rotina só detecta proteína a partir de cerca de 300 a 500 mg por dia, o que corresponde à albuminúria gravemente aumentada, estágio já avançado e não inicial da doença renal do diabetes.",
+      "B": "Incorreta. A creatinina sérica só se eleva acima da faixa de referência após perda de aproximadamente metade da massa funcional renal, sendo marcador tardio e pouco sensível. Não permite identificar acometimento glomerular incipiente.",
+      "C": "Incorreta. Taxa de filtração glomerular estimada inferior a 45 mL/min/1,73 m² corresponde ao estágio G3b da doença renal crônica, isto é, redução funcional já moderada a grave, incompatível com a descrição de fase inicial.",
+      "D": "Correta. A albuminúria moderadamente aumentada, definida por relação albumina/creatinina entre 30 e 300 mg/g em amostra isolada de urina, é o marcador mais precoce de lesão glomerular no diabetes. A confirmação exige duas ou três amostras alteradas em intervalo de três a seis meses, exatamente como descrito, para excluir causas transitórias como exercício, febre e infecção urinária."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q100",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Conduta diante de teste rápido reagente para sífilis em população-chave na atenção primária",
+    "subtema": "Tratamento da sífilis recente, seguimento sorológico e notificação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_24",
+      "dcn2025_comp_11",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "sífilis",
+      "infecções sexualmente transmissíveis",
+      "penicilina benzatina",
+      "notificação compulsória",
+      "populações-chave"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa apontada como correta não contempla o tratamento e a convocação das parcerias sexuais, conduta obrigatória no manejo da sífilis, o que a torna incompleta em relação ao protocolo vigente.",
+    "justificativas": {
+      "A": "Incorreta. O esquema de três doses semanais de penicilina benzatina destina-se à sífilis tardia ou de duração ignorada. Como a paciente apresentava testes rápidos não reagentes há cinco meses, trata-se de sífilis recente, cujo tratamento é dose única.",
+      "B": "Incorreta. Além de propor esquema de três doses inadequado para sífilis recente, indica repetir o teste treponêmico como controle de cura. Os testes treponêmicos permanecem reagentes por anos ou por toda a vida após a infecção e não servem para monitorar a resposta terapêutica.",
+      "C": "Correta. Após teste rápido treponêmico reagente, solicita-se teste não treponêmico (VDRL) para obter a titulação basal e permitir o seguimento trimestral, esperando-se queda de pelo menos duas diluições. Tratando-se de sífilis recente, a penicilina benzatina 2,4 milhões UI em dose única é suficiente; a repetição do teste para HIV em trinta dias cobre a janela imunológica da exposição recente, e a notificação compulsória e o aconselhamento pós-teste completam a conduta.",
+      "D": "Incorreta. A repetição do teste rápido treponêmico não confirma diagnóstico nem fornece titulação basal para seguimento. A doxiciclina é alternativa reservada a pacientes com alergia comprovada à penicilina, situação expressamente afastada no enunciado, e não deve ser associada à penicilina."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q014",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Análise crítica do registro de pré-natal de baixo risco na atenção básica",
+    "subtema": "Momento adequado da ultrassonografia morfológica de segundo trimestre",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_27",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "pré-natal",
+      "ultrassonografia morfológica",
+      "hipertensão na gestação",
+      "cartão da gestante",
+      "qualidade do cuidado"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A tabela da carteirinha da gestante foi transcrita de forma corrida no enunciado, prejudicando a leitura e a correlação entre datas, idade gestacional e achados.",
+    "justificativas": {
+      "A": "Incorreta. O seguimento apresenta falhas relevantes: o tabagismo não recebeu abordagem, o corrimento referido com quinze semanas não foi investigado, a ultrassonografia solicitada não foi realizada e a elevação pressórica com vinte e seis semanas não gerou conduta imediata.",
+      "B": "Incorreta. O diagnóstico de pré-eclâmpsia exige pressão arterial igual ou superior a 140/90 mmHg em duas aferições após a vigésima semana, associada a proteinúria significativa ou a disfunção de órgão-alvo. Os registros isolados, sem proteinúria documentada nem exames complementares, não permitem fechar o diagnóstico.",
+      "C": "Incorreta. A associação de elevação pressórica após a vigésima semana com tabagismo ativo configura indicação formal de encaminhamento ao pré-natal de alto risco, mantendo-se o acompanhamento compartilhado com a unidade básica.",
+      "D": "Correta. A ultrassonografia morfológica de segundo trimestre deve ser realizada entre a vigésima e a vigésima quarta semana, período em que a anatomia fetal é mais bem avaliada e ainda há tempo hábil para exames confirmatórios e planejamento assistencial. A solicitação registrada com vinte e seis semanas está fora dessa janela."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q028",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Vacinação de criança imunossuprimida por corticoterapia em dose imunossupressora",
+    "subtema": "Contraindicação de vacinas de agentes vivos atenuados e resgate com cartão perdido",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "imunização",
+      "imunossupressão",
+      "corticoterapia",
+      "vacinas atenuadas",
+      "calendário vacinal"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A vacina influenza citada na alternativa C é inativada e poderia ser administrada ao paciente imunossuprimido, o que gera ambiguidade parcial entre as opções.",
+    "justificativas": {
+      "A": "Incorreta. O uso de corticoide em dose imunossupressora contraindica temporariamente a aplicação de vacinas constituídas por agentes vivos atenuados, pelo risco de doença vacinal disseminada. Portanto, não é possível aplicar indiscriminadamente todas as vacinas previstas para a faixa etária.",
+      "B": "Correta. Perdido o cartão e sem comprovante, a criança é considerada não vacinada e deve iniciar o resgate do esquema. Tríplice bacteriana e hepatite B são imunobiológicos inativados, que não se replicam no hospedeiro e podem ser aplicados com segurança durante a imunossupressão, ainda que a resposta imune possa ser reduzida.",
+      "C": "Incorreta. A vacina tetraviral contém vírus vivos atenuados de sarampo, caxumba, rubéola e varicela, formalmente contraindicada durante corticoterapia em dose imunossupressora, devendo ser adiada por pelo menos um mês após a suspensão do corticoide.",
+      "D": "Incorreta. A BCG é composta por bacilo vivo atenuado, contraindicada no imunossuprimido pelo risco de becegeíte disseminada. Ademais, a revacinação com BCG não está indicada, e o Programa Nacional de Imunizações limita sua aplicação de rotina aos menores de cinco anos."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q041",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Dor abdominal crônica recorrente com alteração do hábito intestinal e investigação negativa",
+    "subtema": "Síndrome do intestino irritável e critérios de Roma",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_02",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "síndrome do intestino irritável",
+      "distúrbio funcional",
+      "critérios de Roma",
+      "ansiedade",
+      "sinais de alarme"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A doença celíaca cursa habitualmente com má absorção, perda ponderal, anemia carencial e deficiências nutricionais, e a pesquisa de anticorpo antitransglutaminase, realizada e negativa, apresenta elevada sensibilidade para o rastreamento.",
+      "B": "Incorreta. A neoplasia colorretal é improvável em paciente de vinte e oito anos com quatro anos de sintomas estáveis, sem perda ponderal, sem anemia, sem sangue nas fezes e com pesquisa de sangue oculto negativa. A ausência completa de sinais de alarme torna essa hipótese remota.",
+      "C": "Incorreta. A retocolite ulcerativa manifesta-se com diarreia acompanhada de muco e sangue, urgência evacuatória, tenesmo, sintomas noturnos e elevação de marcadores inflamatórios, achados expressamente negados no caso.",
+      "D": "Correta. O quadro preenche os critérios de Roma para síndrome do intestino irritável: dor abdominal recorrente relacionada à defecação, com alteração da frequência e da consistência das fezes, evolução prolongada, ausência de sinais de alarme e investigação complementar sem alterações. A comorbidade ansiosa e o contexto psicossocial descritos são frequentes nesse distúrbio da interação intestino-cérebro."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q056",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Adolescente com perda ponderal acentuada, amenorreia e exercício excessivo",
+    "subtema": "Anorexia nervosa e abordagem terapêutica inicial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "anorexia nervosa",
+      "transtornos alimentares",
+      "adolescência",
+      "amenorreia secundária",
+      "psicoterapia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A bulimia nervosa define-se por episódios recorrentes de compulsão alimentar seguidos de comportamentos compensatórios, com peso corporal habitualmente normal ou elevado. A bupropiona é formalmente contraindicada em transtornos alimentares pelo risco aumentado de crises convulsivas.",
+      "B": "Incorreta. O hipertireoidismo provoca emagrecimento apesar de apetite preservado ou aumentado, acompanhado de taquicardia, tremor, intolerância ao calor e hiperdefecação. Não explica a restrição alimentar deliberada, a busca ativa por dietas restritivas nem o exercício compulsivo.",
+      "C": "Correta. A restrição alimentar intencional com índice de massa corporal de aproximadamente 15,6 kg/m², amenorreia secundária de quatro meses, exercício excessivo e negação do problema configuram anorexia nervosa. O tratamento inicial estrutura-se na psicoterapia, com destaque para a terapia baseada na família em adolescentes, associada à reabilitação nutricional gradual sob vigilância da síndrome de realimentação.",
+      "D": "Incorreta. O transtorno de purgação exige comportamentos purgativos recorrentes, como vômitos autoinduzidos ou uso de laxantes e diuréticos, expressamente negados pela adolescente. A metoclopramida é procinético antiemético, sem qualquer papel no tratamento de transtornos alimentares."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q069",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Interpretação da cardiotocografia intraparto e definição de conduta",
+    "subtema": "Traçado categoria I com desacelerações precoces no período de dilatação avançada",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "cardiotocografia",
+      "trabalho de parto",
+      "vitalidade fetal",
+      "desaceleração precoce",
+      "assistência ao parto"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item depende integralmente do traçado cardiotocográfico anexo, que não está disponível no texto, inviabilizando a leitura dos parâmetros exigidos.",
+    "justificativas": {
+      "A": "Incorreta. A linha de base normal situa-se entre 110 e 160 bpm, e variabilidade aumentada corresponde a oscilações acima de 25 bpm, o que não descreve o traçado. Além disso, desacelerações precoces são fisiológicas e não demandam manobras de reanimação intrauterina.",
+      "B": "Incorreta. As desacelerações tardias iniciam após o pico da contração e refletem insuficiência uteroplacentária com hipoxemia fetal, exigindo reanimação intrauterina completa e preparo para resolução da gestação, e não apenas mudança de decúbito e hidratação.",
+      "C": "Correta. Linha de base entre 110 e 160 bpm com variabilidade moderada, de 6 a 25 bpm, e desacelerações precoces, que espelham a contração uterina e decorrem da compressão do polo cefálico com resposta vagal, caracterizam traçado categoria I. Trata-se de padrão tranquilizador, esperado em dilatação avançada com apresentação em plano positivo, e a conduta é manter o acompanhamento do trabalho de parto.",
+      "D": "Incorreta. Desacelerações variáveis com características desfavoráveis, como retorno lento à linha de base, perda de variabilidade ou componente tardio, indicariam compressão funicular significativa e exigiriam reanimação intrauterina. O estímulo sonoro não é conduta indicada no manejo intraparto de traçado alterado."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q082",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Queimadura ocular química por cal em acidente de trabalho",
+    "subtema": "Lesão por álcali e necessidade de avaliação oftalmológica de urgência",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_14",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "queimadura ocular",
+      "álcali",
+      "acidente de trabalho",
+      "urgência oftalmológica",
+      "saúde do trabalhador"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O colírio lubrificante não neutraliza nem remove o agente cáustico e o repouso domiciliar retarda o atendimento especializado. A lesão por álcali progride mesmo após a interrupção da exposição, de modo que a conduta expectante compromete o prognóstico visual.",
+      "B": "Correta. A cal é álcali forte que produz necrose de liquefação, com saponificação de membranas e penetração profunda em direção à câmara anterior. O manejo exige irrigação abundante e prolongada com aferição do pH conjuntival, remoção mecânica de partículas dos fórnices e avaliação oftalmológica urgente pelo risco de isquemia límbica, úlcera, simbléfaro e perfuração.",
+      "C": "Incorreta. A oclusão prolongada mantém partículas de cal retidas nos fórnices em contato com a superfície ocular, perpetuando a agressão química. O procedimento correto é a irrigação contínua com eversão palpebral e remoção do material residual, jamais a oclusão precoce.",
+      "D": "Incorreta. A unidade básica de saúde não dispõe de lâmpada de fenda, fluoresceína e tonometria, recursos necessários para estimar a extensão do dano corneano e límbico. O acompanhamento ambulatorial sem avaliação especializada imediata posterga condutas que definem o desfecho visual."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q096",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diarreia sanguinolenta crônica com manifestações extraintestinais em adulto jovem",
+    "subtema": "Confirmação diagnóstica da doença inflamatória intestinal por colonoscopia com biópsia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "doença inflamatória intestinal",
+      "retocolite ulcerativa",
+      "colonoscopia",
+      "eritema nodoso",
+      "artrite periférica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Diarreia sanguinolenta com tenesmo por três meses, associada a artrite periférica migratória assimétrica de grandes articulações e a eritema nodoso nos membros inferiores, compõe quadro característico de doença inflamatória intestinal, sobretudo retocolite ulcerativa. A colonoscopia com biópsias escalonadas define a extensão do acometimento e fornece o padrão histopatológico, como distorção arquitetural das criptas, criptite e abscessos crípticos, confirmando o diagnóstico.",
+      "B": "Incorreta. Isospora belli e Cryptosporidium parvum são coccídios oportunistas de pacientes com imunodeficiência avançada e produzem diarreia aquosa volumosa, sem sangue nem tenesmo. Não explicam as manifestações articulares e cutâneas descritas.",
+      "C": "Incorreta. A colite por Clostridioides difficile relaciona-se ao uso recente de antibióticos e cursa com diarreia aquosa, febre e leucocitose, tipicamente com evolução mais aguda. Esse agente não é responsável por eritema nodoso nem por artrite periférica arrastada.",
+      "D": "Incorreta. A amebíase por Entamoeba histolytica pode causar disenteria após viagem a área de saneamento precário, porém tende a evoluir de forma mais autolimitada ou com complicações como abscesso hepático. Não produz o conjunto de manifestações extraintestinais imunomediadas presentes no caso."
+    }
+  }
+]

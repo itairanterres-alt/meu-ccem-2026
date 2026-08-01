@@ -1,0 +1,268 @@
+[
+  {
+    "id_origem": "revalida2023_2_q013",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Traumatismo cranioencefálico leve na infância e indicação de tomografia",
+    "subtema": "Regra de predição clínica PECARN",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20", "dcn2025_comp_25"],
+    "tags": ["tce_leve", "pecarn", "tomografia_cranio", "pediatria", "radioproteção"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa correta afirma de forma absoluta que não há 'qualquer sinal de alerta', embora o episódio de vômito seja listado como critério de observação por algumas diretrizes (p. ex., NICE), o que gera ambiguidade com a alternativa A.",
+    "justificativas": {
+      "A": "Incorreta. Vômito único e autolimitado, isolado, não constitui preditor independente de lesão intracraniana clinicamente importante; apenas vômitos repetidos ou persistentes, associados a outros critérios, elevam o risco.",
+      "B": "Correta. Com Glasgow 15, estado mental preservado, exame neurológico normal, ausência de sinais de fratura de crânio e mecanismo de baixa energia, o risco de lesão intracraniana clinicamente importante é inferior a 0,05%, indicando observação clínica em vez de imagem.",
+      "C": "Incorreta. Não existe indicação de tomografia baseada exclusivamente na faixa etária; a exposição do encéfalo em desenvolvimento à radiação ionizante aumenta risco oncológico cumulativo e a decisão deve seguir regras de predição validadas.",
+      "D": "Incorreta. A radiografia simples de crânio não avalia o parênquima encefálico nem coleções intracranianas e possui baixa acurácia para fraturas; a identificação isolada de traço fraturário sem repercussão clínica não modificaria a conduta."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q026",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Úlcera cutânea única em área endêmica amazônica: diagnóstico e terapêutica",
+    "subtema": "Leishmaniose tegumentar americana",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["leishmaniose_tegumentar", "dermatologia_tropical", "antimonial_pentavalente", "doencas_negligenciadas"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item é dependente de imagem para caracterizar o aspecto da lesão, e a figura não está disponível no arquivo de origem, o que compromete a resolução autônoma do enunciado.",
+    "justificativas": {
+      "A": "Incorreta. A paracoccidioidomicose (blastomicose sul-americana) cursa tipicamente com lesões mucosas de estomatite moriforme, acometimento pulmonar e adenomegalias; a apresentação como lesão cutânea única em dorso de mão, sem repercussão sistêmica, não é característica.",
+      "B": "Incorreta. O carcinoma espinocelular é raro aos 19 anos e depende de exposição solar crônica cumulativa ou lesão precursora; a evolução de pápula para lesão ulcerada em poucas semanas, em área endêmica, aponta para causa infecciosa.",
+      "C": "Incorreta. A hanseníase manifesta-se por placas ou máculas com hipoestesia térmica, dolorosa e tátil, além de espessamento de troncos nervosos; a ausência de alteração de sensibilidade e o caráter ulcerado afastam essa hipótese.",
+      "D": "Correta. Lesão ulcerada única, indolor, de bordas elevadas e infiltradas em moldura, com fundo granuloso, em militar exposto na floresta amazônica, caracteriza leishmaniose tegumentar; o tratamento de primeira linha no Brasil é o antimoniato de N-metilglucamina, na dose de 10 a 20 mg Sb5+/kg/dia."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q041",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico sindrômico e etiológico de proteinúria nefrótica em mulher jovem",
+    "subtema": "Nefrite lúpica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["sindrome_nefrotica", "lupus_eritematoso_sistemico", "proteinuria", "nefrologia", "fan"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado não informa o sedimento urinário (hematúria/cilindros) nem dosagem de complemento, dados que discriminariam com maior segurança o componente nefrítico associado à nefrite lúpica.",
+    "justificativas": {
+      "A": "Incorreta. Uma glicemia isolada não firma diagnóstico de diabetes, e a nefropatia diabética exige anos de hiperglicemia sustentada, sendo implausível aos 19 anos; a hiperglicemia aqui é mais compatível com resposta ao estresse ou a corticoterapia.",
+      "B": "Incorreta. A síndrome nefrítica define-se por hematúria dismórfica, hipertensão, oligúria e queda da filtração glomerular, ausentes no caso; a síndrome de Sjögren compromete o rim sobretudo por nefrite tubulointersticial e acidose tubular renal, não por proteinúria maciça.",
+      "C": "Incorreta. A trombose de veia renal é complicação tromboembólica da própria síndrome nefrótica, decorrente da perda urinária de antitrombina III, e não sua causa; além disso, o quadro apresentado não é nefrítico.",
+      "D": "Correta. Proteinúria superior a 3,5 g/24h, hipoalbuminemia, edema e dislipidemia configuram síndrome nefrótica; em mulher jovem com FAN de padrão nuclear homogêneo em título de 1:640, a etiologia mais provável é a nefrite lúpica, que deve ser confirmada por biópsia renal para classificação histológica."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q056",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Lombalgia com bandeiras vermelhas na atenção primária à saúde",
+    "subtema": "Indicação de exame de imagem na dor lombar",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["lombalgia", "bandeiras_vermelhas", "atencao_primaria", "semiologia", "imagem_diagnostica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A incontinência urinária, sinal decisivo para a conduta, é apresentada de forma apenas indireta ('cheiro de urina nas calças'), exigindo inferência não explicitada no enunciado.",
+    "justificativas": {
+      "A": "Incorreta. Idade acima de 50 anos, dor noturna que impede o sono, palidez de mucosas e perda involuntária de urina afastam a hipótese de lombalgia mecânica inespecífica; prescrever anti-inflamatório isoladamente retardaria o diagnóstico de doença estrutural grave.",
+      "B": "Incorreta. Lasègue, Lasègue cruzado e Wasserman negativos tornam improvável a compressão radicular por hérnia discal; encaminhar ao neurocirurgião sem definição diagnóstica prévia é conduta pouco resolutiva para a atenção primária.",
+      "C": "Correta. O conjunto de bandeiras vermelhas — idade avançada, dor progressiva de ritmo inflamatório, dor à palpação das apófises de L2 e L3, anemia clínica e disfunção esfincteriana — sugere lesão neoplásica, infecciosa ou compressiva da cauda equina, impondo investigação por imagem imediata.",
+      "D": "Incorreta. Atribuir o quadro à postura ocupacional ignora os sinais de alarme; ademais, o repouso prolongado é contraindicado no manejo da lombalgia por favorecer descondicionamento e cronificação."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q071",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Dor óssea, anemia, hipercalcemia e pico monoclonal em idoso",
+    "subtema": "Mieloma múltiplo e confirmação diagnóstica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["mieloma_multiplo", "gamopatia_monoclonal", "hipercalcemia", "hematologia", "lesao_osteolitica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A anemia falciforme manifesta-se desde a primeira infância com crises vaso-oclusivas e hemólise crônica, não produzindo componente monoclonal, hipercalcemia nem lesões osteolíticas em saca-bocado.",
+      "B": "Incorreta. O linfoma cursa habitualmente com linfadenomegalia, hepatoesplenomegalia e sintomas B, ausentes aqui; a combinação de banda monoclonal de IgA com imunoparesia de IgG e lesões líticas é característica de discrasia plasmocitária, tornando a biópsia linfonodal inadequada.",
+      "C": "Incorreta. O hiperparatireoidismo primário provoca reabsorção óssea subperiosteal, cistos e tumor marrom, além de hipofosfatemia, e não explica o pico monoclonal, a hipogamaglobulinemia das demais classes nem a anemia grave.",
+      "D": "Correta. O quadro reúne os critérios CRAB — hipercalcemia, insuficiência renal, anemia e lesões ósseas líticas — associados a componente monoclonal de IgA com imunoparesia; a confirmação exige mielograma demonstrando plasmocitose clonal medular, e a sonolência traduz encefalopatia hipercalcêmica."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q085",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Participação social na organização do processo de trabalho da equipe de saúde da família",
+    "subtema": "Conselho Local de Saúde e controle social no SUS",
+    "competencia_dcn_2025": ["dcn2025_comp_16", "dcn2025_comp_06", "dcn2025_comp_18", "dcn2025_comp_24"],
+    "tags": ["controle_social", "conselho_local_de_saude", "sus", "estrategia_saude_da_familia", "lei_8142"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A caracterização do Conselho Local de Saúde como órgão exclusivamente consultivo não é uniforme, pois sua natureza e atribuições variam conforme a legislação municipal, o que fragiliza a precisão da alternativa apontada como correta.",
+    "justificativas": {
+      "A": "Correta. O Conselho Local de Saúde é a instância de participação social vinculada ao território da própria unidade, permitindo que usuários e equipe pactuem coletivamente fluxos de agendamento, coleta de exames e uso dos recursos disponíveis, com resolução no nível em que o problema se manifesta.",
+      "B": "Incorreta. O Conselho Municipal de Saúde é órgão deliberativo e permanente, conforme a Lei nº 8.142/1990, e atua na formulação e fiscalização da política municipal como um todo, não sendo a instância adequada para operacionalizar a agenda de uma única unidade.",
+      "C": "Incorreta. Um colegiado composto apenas por profissionais e gestores exclui os usuários do processo decisório, contrariando a exigência de participação comunitária e a paridade de representação prevista para os órgãos de controle social do SUS.",
+      "D": "Incorreta. Não existe 'Núcleo de Saúde Coletiva' como instância formal de controle social no SUS; além disso, a criação de nova equipe de saúde da família depende de decisão de gestão, credenciamento e financiamento tripartite, e não de deliberação local."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q099",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico de rotura prematura de membranas em gestação a termo",
+    "subtema": "Valor do exame especular e testes complementares",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_25"],
+    "tags": ["amniorrexe", "rotura_de_membranas", "exame_especular", "obstetricia", "propedeutica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A visualização direta de saída de líquido amniótico claro com grumos pelo orifício cervical ao exame especular, em gestante com história típica de perda súbita e abundante, confirma a rotura das membranas, dispensando qualquer teste adicional.",
+      "B": "Incorreta. A medida do índice de líquido amniótico é achado indireto e de baixa especificidade, podendo permanecer normal logo após a rotura ou estar reduzido por outras causas, como insuficiência placentária, de modo que não confirma nem exclui o diagnóstico.",
+      "C": "Incorreta. O teste de pH vaginal com nitrazina e os testes imunocromatográficos (PAMG-1 ou IGFBP-1) destinam-se aos casos de dúvida diagnóstica; o pH ainda sofre falso-positivo na presença de sangue, sêmen ou vaginose bacteriana.",
+      "D": "Incorreta. A pesquisa de cristalização em folha de samambaia e os testes imunocromatográficos são métodos auxiliares reservados a apresentações duvidosas, tornando-se desnecessários e onerosos quando a perda de líquido já foi objetivamente documentada."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q013",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Enterocolite associada à doença de Hirschsprung e tratamento definitivo",
+    "subtema": "Abaixamento transanal endoanal em aganglionose de segmento curto",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["doenca_de_hirschsprung", "enterocolite", "cirurgia_pediatrica", "abaixamento_endoanal"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado remete a exame de imagem trazido pela mãe, porém a figura não está disponível no arquivo de origem, prejudicando a caracterização radiológica da zona de transição.",
+    "justificativas": {
+      "A": "Correta. Com aganglionose restrita ao sigmoide e após controle clínico da enterocolite, o tratamento definitivo é o abaixamento transanal endoanal em tempo único, que ressecca o segmento agangliônico e realiza a anastomose sem necessidade de estomia derivativa.",
+      "B": "Incorreta. A abordagem abdominoperineal associada a colostomia foi progressivamente substituída pela via transanal exclusiva nos segmentos curtos, pois acrescenta morbidade, tempo cirúrgico adicional e complicações de estoma sem benefício funcional.",
+      "C": "Incorreta. A colostomia descompressiva é medida temporária, indicada em falha do manejo clínico ou instabilidade persistente, e não constitui tratamento definitivo, uma vez que não remove o segmento aperistáltico responsável pela obstrução funcional.",
+      "D": "Incorreta. A colostomia definitiva reserva-se a casos excepcionais de aganglionose extensa, displasia neuronal intestinal difusa ou falha das reconstruções, situação distinta de uma criança com doença limitada ao sigmoide e passível de reconstrução."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q027",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Trauma torácico penetrante com choque hemorrágico refratário",
+    "subtema": "Hemotórax maciço e indicação de toracotomia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["trauma_toracico", "hemotorax_macico", "choque_hemorragico", "toracotomia", "atls"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O ATLS preconiza drenagem torácica imediata e concomitante à reanimação no hemotórax maciço, o que torna a alternativa B tecnicamente defensável e gera sobreposição com o gabarito.",
+    "justificativas": {
+      "A": "Correta. Ferimento penetrante em região axilar, com macicez e abolição do murmúrio vesicular, caracteriza hemotórax maciço; a ausência de resposta à reposição volêmica indica sangramento arterial ativo de grande vaso, impondo toracotomia de emergência para controle cirúrgico do foco hemorrágico.",
+      "B": "Incorreta. Condicionar a drenagem à estabilização hemodinâmica inverte a prioridade do atendimento, pois o paciente não responde à reanimação volêmica e a hemorragia só cessará com controle direto do vaso lesado.",
+      "C": "Incorreta. A punção torácica é manobra de descompressão do pneumotórax hipertensivo e não tem papel terapêutico no hemotórax maciço, no qual apenas retardaria o acesso definitivo à cavidade pleural.",
+      "D": "Incorreta. Solicitar radiografia em paciente instável com achados semiológicos inequívocos consome tempo crítico; a imagem não modificaria a conduta e adiaria o controle da hemorragia."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q040",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Conduta integrada no pré-natal: sífilis latente, anemia e gestante Rh negativo",
+    "subtema": "Penicilina benzatina, ferroterapia e profilaxia anti-D",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_24", "dcn2025_comp_10"],
+    "tags": ["pre_natal", "sifilis_na_gestacao", "aloimunizacao_rh", "anemia_gestacional", "penicilina_benzatina"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A hemoglobina é expressa em unidade incorreta (mg/dL em vez de g/dL) e a prescrição de sulfato ferroso é apresentada em número de comprimidos, sem especificar a dose de ferro elementar.",
+    "justificativas": {
+      "A": "Correta. Sem sorologia prévia, a sífilis classifica-se como latente de duração ignorada, exigindo três doses semanais de penicilina benzatina de 2,4 milhões UI e VDRL mensal na gestação; a hemoglobina de 10,5 g/dL configura anemia e demanda dose terapêutica de ferro com reavaliação em cerca de 60 dias; sendo Rh negativa, faz-se Coombs indireto seriado e imunoglobulina anti-D no pós-parto se o recém-nascido for Rh positivo.",
+      "B": "Incorreta. A dose única de penicilina benzatina aplica-se apenas à sífilis recente comprovada, o que não se sustenta sem sorologias anteriores; além disso, a profilaxia anti-D destina-se à mãe de recém-nascido Rh positivo, e não Rh negativo, que não oferece risco de aloimunização.",
+      "C": "Incorreta. A anemia já instalada requer dose terapêutica, e não profilática, de ferro; o teste de avidez para IgG só tem utilidade quando o IgM é reagente, o que não ocorre nesse caso de infecção toxoplásmica pregressa.",
+      "D": "Incorreta. Não existe esquema de duas semanas para sífilis latente, e a lógica da profilaxia anti-D está invertida: a imunoglobulina destina-se à gestante não sensibilizada, com Coombs indireto negativo, pois, uma vez positivo, a aloimunização já ocorreu e a profilaxia perde a finalidade."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q055",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Atenção à saúde de populações indígenas e ribeirinhas na Amazônia",
+    "subtema": "Organização territorial dos Distritos Sanitários Especiais Indígenas",
+    "competencia_dcn_2025": ["dcn2025_comp_11", "dcn2025_comp_15", "dcn2025_comp_06", "dcn2025_comp_16"],
+    "tags": ["saude_indigena", "dsei", "populacoes_ribeirinhas", "territorializacao", "equidade"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Os Distritos Sanitários Especiais Indígenas foram delimitados segundo critérios etnoculturais, de ocupação territorial tradicional e de acesso, podendo abranger mais de um município ou estado, enquanto as equipes de saúde da família fluviais e ribeirinhas seguem a lógica de territorialização municipal do SUS.",
+      "B": "Incorreta. A demarcação de terras indígenas não elimina conflitos fundiários, invasões, garimpo ilegal e situações de vulnerabilidade; o acesso à terra e a insegurança territorial são problemas compartilhados por indígenas e ribeirinhos.",
+      "C": "Incorreta. A desnutrição infantil e a insegurança alimentar também são prevalentes em comunidades ribeirinhas, cuja alimentação é frequentemente monótona, dependente da sazonalidade dos rios e limitada pela dificuldade de acesso a outros alimentos.",
+      "D": "Incorreta. As práticas tradicionais de cuidado nas populações ribeirinhas — parteiras, benzedeiras e uso de plantas medicinais — permanecem vivas e coexistem com a biomedicina, não tendo sido substituídas pelo modelo alopático."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q068",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Traço falciforme identificado na triagem neonatal: conduta e orientação familiar",
+    "subtema": "Diferenciação entre heterozigose e doença falciforme",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_08", "dcn2025_comp_03", "dcn2025_comp_12"],
+    "tags": ["traco_falciforme", "triagem_neonatal", "aconselhamento_genetico", "puericultura"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A triagem neonatal já emprega metodologia de separação de hemoglobinas capaz de definir o perfil FAS, de modo que repetir eletroforese não altera a conduta nem antecede a necessária orientação aos pais.",
+      "B": "Incorreta. Os testes de falcização e de solubilidade apenas detectam a presença de hemoglobina S, sem distinguir heterozigose de doença falciforme, e apresentam baixa sensibilidade no lactente jovem em razão do elevado teor de hemoglobina fetal.",
+      "C": "Incorreta. Não há indicação de repetir a triagem, pois o resultado é conclusivo; nem a icterícia neonatal tratada com fototerapia nem o aleitamento materno exclusivo interferem no perfil de hemoglobinas detectado.",
+      "D": "Correta. O traço falciforme corresponde à heterozigose HbAS, condição benigna que não cursa com anemia, hemólise ou crises vaso-oclusivas em situações habituais; a conduta inicial é acolher e esclarecer os pais, oferecendo aconselhamento genético quanto ao risco reprodutivo do casal."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q081",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Desdobramento fixo da segunda bulha em adulto jovem com dispneia",
+    "subtema": "Comunicação interatrial e embolia paradoxal",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["comunicacao_interatrial", "ausculta_cardiaca", "segunda_bulha", "embolia_paradoxal", "cardiologia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A estenose pulmonar produz sopro sistólico ejetivo com irradiação para o dorso, click de ejeção e desdobramento amplo, porém ainda variável com a respiração, além de hipofonese do componente pulmonar da segunda bulha.",
+      "B": "Incorreta. A estenose mitral caracteriza-se por hiperfonese de primeira bulha, estalido de abertura e ruflar diastólico com reforço pré-sistólico; a ausculta descrita não corresponde a esse padrão, ainda que o risco embólico sistêmico exista na doença.",
+      "C": "Correta. O desdobramento amplo e fixo da segunda bulha decorre do shunt esquerda-direita atrial, que mantém sobrecarga volumétrica constante do ventrículo direito e prolonga de modo invariável a ejeção pulmonar; o principal risco é a embolia paradoxal, com repercussão sistêmica quando o gradiente se inverte transitoriamente.",
+      "D": "Incorreta. O prolapso da valva mitral manifesta-se por click mesossistólico seguido de sopro telessistólico, com variação característica às manobras posturais, e não modifica o comportamento respiratório do desdobramento da segunda bulha."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q095",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo de criança com síndrome febril em área endêmica de dengue",
+    "subtema": "Estratificação de risco, prova do laço e hidratação oral",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_24", "dcn2025_comp_06"],
+    "tags": ["dengue", "prova_do_laco", "hidratacao_oral", "uso_racional_de_antibioticos", "pediatria"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A redação da opção correta sobre o momento do retorno ('no dia de melhora da febre ou no 5º dia após a consulta') é ambígua e não reproduz com clareza a orientação de reavaliação na defervescência preconizada pelo protocolo.",
+    "justificativas": {
+      "A": "Incorreta. Não há evidência clínica de otite média bacteriana estabelecida, e a antibioticoterapia empírica expõe a criança a efeitos adversos sem benefício; além disso, a opção omite a reposição hídrica, prioridade no quadro apresentado.",
+      "B": "Incorreta. Prescrever antimicrobiano sem confirmar o diagnóstico otológico à otoscopia e sem aplicar a prova do laço deixa de rastrear o extravasamento capilar e os sinais de alarme da dengue.",
+      "C": "Correta. Em área com transmissão ativa, o quadro febril com exantema exige prova do laço para avaliar fragilidade capilar e otoscopia para elucidar a otalgia; sem sinais de alarme, indica-se hidratação oral conforme o plano do protocolo do Ministério da Saúde, com reavaliação na defervescência, período de maior risco de extravasamento plasmático.",
+      "D": "Incorreta. A hidratação parenteral com solução salina e a observação prolongada estão reservadas a pacientes com sinais de alarme, choque ou intolerância à via oral, condições ausentes nessa criança apenas levemente desidratada e sem outras alterações."
+    }
+  }
+]

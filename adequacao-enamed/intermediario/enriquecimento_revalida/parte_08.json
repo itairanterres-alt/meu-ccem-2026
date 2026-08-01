@@ -1,0 +1,409 @@
+[
+  {
+    "id_origem": "revalida2023_2_q009",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Avaliação do desenvolvimento puberal feminino e limites de normalidade da telarca",
+    "subtema": "Diferenciação entre puberdade precoce e variação normal do início puberal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_08"
+    ],
+    "tags": [
+      "puberdade",
+      "estadiamento de Tanner",
+      "telarca",
+      "endocrinologia pediátrica",
+      "prevenção quaternária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O diagnóstico de puberdade precoce central em meninas exige surgimento de caracteres sexuais secundários antes dos 8 anos de idade; encaminhar e investigar uma progressão puberal fisiológica expõe a criança a exames e ansiedade desnecessários.",
+      "B": "Incorreta. A hiperplasia congênita da suprarrenal na forma não clássica cursa com virilização (clitoromegalia, hirsutismo, acne grave), aceleração da velocidade de crescimento e avanço da idade óssea, achados ausentes em uma genitália externa normal com curvas de crescimento preservadas.",
+      "C": "Incorreta. Lesões expansivas hipotálamo-hipofisárias costumam associar-se a sinais neurológicos, cefaleia, alterações visuais ou desaceleração/aceleração abrupta do crescimento, além de deflagrarem ativação puberal em idade francamente antecipada.",
+      "D": "Correta. Telarca e pubarca em estádios iniciais (M2/P2) aos 9 anos e 4 meses situam-se dentro da janela fisiológica de início puberal feminino, com crescimento estatural e ponderal adequados e história familiar de menarca em idade normal, dispensando propedêutica complementar e exigindo apenas acompanhamento clínico da progressão."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q022",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Colangite aguda por coledocolitíase: reconhecimento diagnóstico e priorização terapêutica",
+    "subtema": "Tríade de Charcot e antibioticoterapia precoce antes da drenagem biliar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "colangite aguda",
+      "tríade de Charcot",
+      "coledocolitíase",
+      "antibioticoterapia",
+      "via biliar"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A associação de febre com calafrios, icterícia e dor em hipocôndrio direito configura a tríade de Charcot, corroborada por padrão colestático (fosfatase alcalina e GGT muito elevadas, bilirrubina de predomínio direto) e dilatação de vias biliares; a prioridade imediata é ressuscitação volêmica com antibiótico de amplo espectro cobrindo enterobactérias e anaeróbios, seguida de drenagem biliar por colangiopancreatografia endoscópica.",
+      "B": "Incorreta. A colecistite aguda cursa com sinal de Murphy, espessamento parietal da vesícula e no máximo hiperbilirrubinemia discreta, não com bilirrubina direta de 6,5 mg/dL e via biliar dilatada; além disso, a papilotomia é procedimento de drenagem que não deve preceder a estabilização clínica e a antibioticoterapia.",
+      "C": "Incorreta. Embora o diagnóstico esteja correto, a colecistostomia percutânea drena apenas a vesícula e não descomprime a via biliar principal obstruída, sendo recurso reservado à colecistite aguda em paciente sem condições cirúrgicas.",
+      "D": "Incorreta. Paredes vesiculares finas e dilatação do colédoco falam contra colecistite; ademais, a exploração cirúrgica da via biliar em vigência de sepse biliar não estabilizada, sem cobertura antimicrobiana prévia, eleva substancialmente a morbimortalidade."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q036",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico diferencial dos transtornos de ansiedade na atenção primária",
+    "subtema": "Critérios do transtorno de ansiedade generalizada",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_02",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "transtorno de ansiedade generalizada",
+      "diagnóstico diferencial",
+      "atenção primária",
+      "insônia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O episódio depressivo maior exige humor deprimido persistente ou anedonia como sintoma nuclear, acompanhado de alterações de apetite, culpa, lentificação psicomotora ou ideação de morte, elementos não descritos no caso.",
+      "B": "Incorreta. O transtorno bipolar pressupõe a ocorrência, atual ou pregressa, de episódio de mania ou hipomania com humor expansivo/irritável, redução da necessidade de sono e aumento de energia dirigida a objetivos, o que difere da inquietação sustentada por preocupação apreensiva.",
+      "C": "Correta. Preocupação e apreensão excessivas e de difícil controle por período superior a seis meses, somadas a inquietação, tensão muscular, irritabilidade, dificuldade de concentração e perturbação do sono, preenchem o padrão sintomático do transtorno de ansiedade generalizada.",
+      "D": "Incorreta. O transtorno de déficit de atenção e hiperatividade no adulto requer sintomas de desatenção e/ou hiperatividade com início na infância, presentes antes dos 12 anos e persistentes ao longo da vida, incompatíveis com quadro instalado há sete meses."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q052",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Lombalgia com sinais de alarme e investigação de doença metastática óssea",
+    "subtema": "Lesões líticas vertebrais em paciente com antecedente de câncer de mama",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "lombalgia",
+      "sinais de alarme",
+      "metástase óssea",
+      "câncer de mama",
+      "lesão lítica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Dor lombar progressiva, refratária a analgésicos e anti-inflamatórios, em mulher com neoplasia mamária tratada há três anos e imagem com lesões líticas, configura o conjunto clássico de bandeiras vermelhas que aponta acometimento secundário do esqueleto axial, sítio preferencial de disseminação do carcinoma mamário.",
+      "B": "Incorreta. A espondilodiscite tuberculosa destrói o disco intervertebral e os platôs de corpos adjacentes, formando abscesso paravertebral frio, e habitualmente se acompanha de sintomas consumptivos, febre vespertina e história epidemiológica compatível.",
+      "C": "Incorreta. A hérnia discal produz dor de padrão radicular com irradiação em dermátomo, sinais de estiramento radicular positivos e ausência de destruição óssea na radiografia simples.",
+      "D": "Incorreta. A fratura vertebral traduz-se por perda de altura ou colapso do corpo vertebral após trauma ou em osso osteoporótico; quando ocorre neste contexto, é consequência patológica da lesão lítica subjacente, e não a hipótese diagnóstica primária."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q066",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndrome febril ictérica aguda com disfunção renal e diagnóstico laboratorial da leptospirose",
+    "subtema": "Forma íctero-hemorrágica (síndrome de Weil) e teste de microaglutinação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_24",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "leptospirose",
+      "síndrome de Weil",
+      "microaglutinação",
+      "síndrome ictérica febril",
+      "saneamento básico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A dengue evolui com extravasamento plasmático, hemoconcentração e plaquetopenia, sendo a icterícia colestática intensa manifestação rara; sufusão conjuntival com mialgia eletiva de panturrilhas não integra seu quadro característico.",
+      "B": "Incorreta. A hepatite viral B aguda cursa com elevação de aminotransferases dez a cem vezes acima do limite superior e habitualmente não determina lesão renal aguda com hipocalemia, padrão oposto ao observado.",
+      "C": "Correta. Icterícia rubínica com bilirrubina direta muito elevada, aumento apenas discreto das aminotransferases, lesão renal aguda perdedora de potássio, sufusão conjuntival e mialgia de panturrilhas em morador de área sem saneamento compõem a forma grave da doença, cuja confirmação sorológica de referência é o teste de microaglutinação.",
+      "D": "Incorreta. A febre amarela associa-se a exposição em área silvestre ou de transição, pode apresentar sinal de Faget e cursa com necrose hepatocelular e aminotransferases muito elevadas, com predomínio de aspartato aminotransferase."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q081",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Peritonite bacteriana espontânea em cirrose por vírus C: escolha do antimicrobiano empírico",
+    "subtema": "Interpretação do líquido ascítico (polimorfonucleares e GASA) e antibioticoterapia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "peritonite bacteriana espontânea",
+      "ascite",
+      "cirrose hepática",
+      "cefalosporina de terceira geração",
+      "GASA"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Contagem de polimorfonucleares acima de 250/mm³ no líquido ascítico com gradiente de albumina soro-ascite maior ou igual a 1,1 estabelece infecção espontânea do líquido em hipertensão portal, e a cefalosporina de terceira geração cobre adequadamente os agentes prevalentes (Escherichia coli, Klebsiella spp. e pneumococo), sem nefrotoxicidade.",
+      "B": "Incorreta. Os aminoglicosídeos são formalmente evitados no cirrótico por sua nefrotoxicidade, que precipita ou agrava lesão renal aguda e síndrome hepatorrenal em paciente já com circulação hiperdinâmica e vasoconstrição renal.",
+      "C": "Incorreta. As quinolonas têm papel consagrado na profilaxia primária e secundária desta complicação, mas não constituem a escolha empírica de primeira linha para o tratamento, sobretudo pelo risco de resistência em pacientes previamente expostos à classe.",
+      "D": "Incorreta. A penicilina cristalina não oferece cobertura para bacilos gram-negativos entéricos, responsáveis pela maioria dos episódios, e seu espectro restrito resultaria em falha terapêutica."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q095",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Atuação do médico de família e comunidade na saúde suplementar e atributos da APS",
+    "subtema": "Longitudinalidade, integralidade e coordenação do cuidado em operadoras e consultórios",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "saúde suplementar",
+      "atenção primária à saúde",
+      "coordenação do cuidado",
+      "longitudinalidade",
+      "modelo assistencial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas são longas e encadeiam vários atributos simultâneos, aproximando o item do vício de 'alternativa mais completa' e reduzindo o poder discriminativo entre as opções C e D.",
+    "justificativas": {
+      "A": "Incorreta. O modelo assistencial tradicional é fragmentado, centrado no procedimento e na livre demanda a especialistas focais, sendo justamente o que impede a construção de vínculo longitudinal e de rede integrada.",
+      "B": "Incorreta. Não existe impedimento legal ou técnico para que o médico preste atenção domiciliar de forma autônoma; vincular essa atuação exclusivamente à intermediação de operadoras é premissa falsa.",
+      "C": "Incorreta. Ao condicionar o atendimento a clientes que contrataram diretamente o proprietário do estabelecimento, a assertiva descreve um arranjo restrito que não corresponde à organização da assistência no setor suplementar.",
+      "D": "Correta. O médico de família pode atuar tanto em clínicas próprias ou credenciadas de operadoras quanto em consultório particular, exercendo em ambos os cenários a função de porta de entrada e de coordenador do cuidado, o que preserva os atributos de integralidade e longitudinalidade preconizados para a atenção primária."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q009",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Conduta diante de mamografia classificada como BI-RADS 4 com microcalcificações agrupadas",
+    "subtema": "Categorias BI-RADS e indicação de estudo histopatológico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "BI-RADS",
+      "mamografia",
+      "microcalcificações",
+      "biópsia percutânea",
+      "rastreamento mamário"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A quadrantectomia é procedimento terapêutico com finalidade oncológica e pressupõe malignidade previamente comprovada por histologia; indicá-la sem diagnóstico configura tratamento cirúrgico desnecessário em lesão potencialmente benigna.",
+      "B": "Correta. A categoria 4 reúne achados suspeitos, com valor preditivo positivo para câncer que varia de cerca de 2% a 95%, o que torna obrigatória a confirmação histopatológica; para microcalcificações agrupadas, a via de escolha é a biópsia percutânea guiada por estereotaxia.",
+      "C": "Incorreta. O seguimento radiológico semestral por até três anos corresponde à categoria 3, reservada a achados provavelmente benignos com risco de malignidade inferior a 2%, o que subestimaria a lesão descrita.",
+      "D": "Incorreta. A ultrassonografia tem baixa sensibilidade para detecção e caracterização de microcalcificações, de modo que seu resultado, qualquer que seja, não afasta a suspeita nem substitui a necessidade de biópsia."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q023",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Estenose hipertrófica do piloro no lactente: distúrbio hidroeletrolítico e tratamento definitivo",
+    "subtema": "Alcalose metabólica hipoclorêmica e hipocalêmica com indicação de piloromiotomia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "estenose hipertrófica do piloro",
+      "vômitos em jato",
+      "alcalose metabólica",
+      "piloromiotomia",
+      "lactente"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Vômitos não biliosos em jato com início entre a terceira e a sexta semana de vida, perda ponderal, massa móvel palpável em epigástrio (oliva pilórica) e alcalose metabólica hipoclorêmica e hipocalêmica por perda de suco gástrico caracterizam a obstrução pilórica, cujo tratamento definitivo é a piloromiotomia após correção hidroeletrolítica.",
+      "B": "Incorreta. A fundoplicatura destina-se à doença do refluxo gastroesofágico refratária com complicações, e o refluxo fisiológico não gera obstrução mecânica, massa palpável, tampouco alcalose hipoclorêmica com hipocloremia grave.",
+      "C": "Incorreta. Os erros inatos do metabolismo com descompensação neonatal manifestam-se tipicamente por acidose metabólica com ânion gap elevado, hipoglicemia e hiperamonemia, padrão oposto à alcalose documentada.",
+      "D": "Incorreta. A alergia à proteína do leite de vaca cursa com regurgitações, diarreia, sangue oculto ou vivo nas fezes e manifestações cutâneas, sem massa epigástrica palpável nem distúrbio acidobásico dessa magnitude; retardar a cirurgia com dieta de exclusão agrava a desidratação."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q036",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Leptospirose grave em período de chuvas: correlação clínico-laboratorial e diagnóstico diferencial",
+    "subtema": "Icterícia, rabdomiólise, plaquetopenia e lesão renal aguda hipocalêmica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_15",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "leptospirose",
+      "sufusão conjuntival",
+      "lesão renal aguda",
+      "rabdomiólise",
+      "doenças relacionadas a enchentes"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O quadro laboratorial informa predomínio de bilirrubina indireta (10 de 13 mg/dL), padrão incoerente com a icterícia rubínica de predomínio direto característica da leptospirose, o que pode induzir o candidato a hipóteses hemolíticas.",
+    "justificativas": {
+      "A": "Incorreta. A dengue grave manifesta-se por extravasamento plasmático com hemoconcentração, hipotensão e derrames cavitários, sem elevação expressiva de creatinofosfoquinase por lesão muscular nem sufusão hemorrágica conjuntival como achado típico.",
+      "B": "Incorreta. A malária pressupõe exposição em área endêmica ou viagem recente, ambas negadas, e sua icterícia decorre de hemólise intravascular com paroxismos febris regulares, sem mialgia eletiva de panturrilhas ou cilindros granulosos como marca do quadro.",
+      "C": "Incorreta. A hepatite A determina elevação de aminotransferases da ordem de milhares de unidades e não costuma provocar lesão renal aguda, plaquetopenia acentuada ou rabdomiólise.",
+      "D": "Correta. Morador de área urbana sujeita a inundação em período chuvoso, com febre, mialgia intensa de panturrilhas, sufusão hemorrágica conjuntival, icterícia, plaquetopenia, creatinofosfoquinase muito elevada e lesão renal aguda com hipocalemia, reúne o conjunto clínico-laboratorial típico da forma grave da espiroquetose."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q051",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Reação hansênica tipo 2 (eritema nodoso hansênico): reconhecimento clínico e histopatológico",
+    "subtema": "Nódulos dolorosos sistêmicos, madarose e vasculite leucocitoclástica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_24",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "hanseníase",
+      "eritema nodoso hansênico",
+      "reação hansênica",
+      "vasculite leucocitoclástica",
+      "madarose"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Nódulos eritematosos dolorosos disseminados, febre, artrite e madarose, associados a granulomas dérmicos com vasculite leucocitoclástica, traduzem fenômeno inflamatório mediado por imunocomplexos em paciente com forma multibacilar da hanseníase, caracterizando o eritema nodoso hansênico.",
+      "B": "Incorreta. A granulomatose com poliangiite acomete predominantemente vias aéreas superiores e inferiores e rins, com granulomas necrotizantes, nódulos pulmonares cavitados e positividade para anticorpo anticitoplasma de neutrófilo com padrão anti-proteinase 3; a rarefação de supercílios não integra seu espectro.",
+      "C": "Incorreta. A leishmaniose tegumentar americana produz úlcera geralmente única, indolor, de bordas elevadas e infiltradas com fundo granuloso, e a histologia mostra inflamação granulomatosa com amastigotas, não vasculite leucocitoclástica difusa com nódulos generalizados.",
+      "D": "Incorreta. O eritema nodoso associado à retocolite ulcerativa localiza-se preferencialmente na face anterior das pernas, acompanha a atividade da doença intestinal e ocorre em paciente com diarreia mucossanguinolenta, sintomas ausentes no relato."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q064",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação da amenorreia secundária com hiperandrogenismo após suspensão de contraceptivo oral",
+    "subtema": "Anovulação crônica hiperandrogênica e interpretação do perfil hormonal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "amenorreia secundária",
+      "síndrome dos ovários policísticos",
+      "hiperandrogenismo",
+      "anovulação crônica",
+      "hirsutismo"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A insuficiência ovariana prematura caracteriza-se por hipogonadismo hipergonadotrófico, com hormônio folículo-estimulante persistentemente elevado e sintomas de hipoestrogenismo, o que é afastado pelo valor de 6 mUI/mL.",
+      "B": "Incorreta. No hipogonadismo hipogonadotrófico há gonadotrofinas baixas ou inapropriadamente normais em vigência de hipoestrogenismo, com quadro de deficiência estrogênica e sem qualquer manifestação de excesso androgênico.",
+      "C": "Incorreta. A amenorreia pós-pílula é diagnóstico de exclusão e transitória, com retorno dos ciclos em geral em até seis meses; além disso, não explica o hirsutismo, a acne e o sobrepeso apresentados.",
+      "D": "Correta. Amenorreia prolongada com hirsutismo moderado, acne, sobrepeso e exclusão de gestação, disfunção tireoidiana, hiperprolactinemia e falência gonadal configura disfunção ovulatória por excesso de andrógenos, o mecanismo central da síndrome dos ovários policísticos."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q077",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Pancreatite crônica alcoólica: insuficiência exócrina e endócrina com manejo conservador",
+    "subtema": "Dor pós-prandial, esteatorreia e diabetes secundário",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "pancreatite crônica",
+      "esteatorreia",
+      "insuficiência pancreática exócrina",
+      "etilismo",
+      "emagrecimento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado remete a um 'quadro' e o item é sinalizado como dependente de imagem, mas a tabela laboratorial aparece apenas como texto corrido desestruturado, o que dificulta a leitura dos valores e sua comparação com as referências.",
+    "justificativas": {
+      "A": "Incorreta. O diagnóstico de pancreatite aguda exige dor de instalação súbita com amilase ou lipase pelo menos três vezes acima do limite superior da normalidade; as elevações aqui são discretas e o curso é arrastado por três meses.",
+      "B": "Correta. Dor abdominal recorrente desencadeada pela alimentação, perda ponderal significativa, esteatorreia e hiperglicemia em etilista de longa data traduzem destruição progressiva do parênquima com insuficiência exócrina e endócrina, cujo manejo inicial é analgesia escalonada, abstinência alcoólica, dieta hipogordurosa fracionada e reposição enzimática.",
+      "C": "Incorreta. A hepatite alcoólica cursa com icterícia, febre, hepatomegalia dolorosa e relação aspartato/alanina aminotransferase igual ou superior a dois com valores nitidamente elevados, o que não corresponde às enzimas praticamente normais apresentadas.",
+      "D": "Incorreta. A cirrose hepática manifesta-se por estigmas de hepatopatia crônica, sinais de hipertensão portal, plaquetopenia e hipoalbuminemia, e não justifica esteatorreia por má digestão de gorduras nem a dor mesogástrica pós-prandial."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q091",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Tamponamento cardíaco em paciente oncológico: diagnóstico à beira do leito e descompressão pericárdica",
+    "subtema": "Tríade de Beck, pulso paradoxal e baixa voltagem no eletrocardiograma",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "tamponamento cardíaco",
+      "pulso paradoxal",
+      "pericardiocentese",
+      "choque obstrutivo",
+      "derrame pericárdico neoplásico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Hipotensão, turgência jugular e bulhas hipofonéticas compõem a tríade de Beck, e a queda inspiratória da pressão sistólica superior a 10 mmHg (pulso paradoxal) somada à baixa voltagem do complexo QRS indica restrição ao enchimento diastólico por derrame pericárdico; a ecocardiografia confirma e guia a pericardiocentese, medida que reverte o choque obstrutivo.",
+      "B": "Incorreta. O eletrocardiograma não mostra alterações isquêmicas e o mecanismo do choque é obstrutivo extracardíaco; a trombólise em derrame pericárdico converteria o líquido em hemopericárdio, risco agravado pelo tempo de protrombina alargado e pela plaquetopenia.",
+      "C": "Incorreta. Não há febre, foco infeccioso ou hiperlactatemia que sustentem sepse, e o vasopressor isolado não corrige a limitação mecânica ao enchimento ventricular, servindo apenas como medida temporária até a drenagem.",
+      "D": "Incorreta. O tromboembolismo pulmonar não explica bulhas hipofonéticas nem baixa voltagem eletrocardiográfica, e a anticoagulação plena diante de derrame pericárdico com plaquetas de 62.000/mm³ pode precipitar sangramento intrapericárdico fatal."
+    }
+  }
+]

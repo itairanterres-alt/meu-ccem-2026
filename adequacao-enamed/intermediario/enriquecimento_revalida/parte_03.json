@@ -1,0 +1,441 @@
+[
+  {
+    "id_origem": "revalida2023_2_q004",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Prevenção primária de osteoporose na pós-menopausa",
+    "subtema": "Medidas não farmacológicas e critérios de rastreamento densitométrico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "osteoporose",
+      "climatério",
+      "prevenção primária",
+      "atenção primária",
+      "densitometria óssea"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A suplementação medicamentosa de cálcio e vitamina D não está indicada quando a ingestão dietética é adequada, e a densitometria de rastreamento em mulher sem fatores de risco adicionais é recomendada apenas a partir dos 65 anos.",
+      "B": "Correta. A prevenção primária baseia-se em aporte dietético adequado de cálcio e vitamina D, exposição solar para síntese cutânea de colecalciferol e exercícios com carga e resistência, que geram estímulo mecânico osteoblástico e reduzem o risco de quedas.",
+      "C": "Incorreta. A densitometria não está indicada nessa faixa etária sem fatores de risco, e bisfosfonatos ou raloxifeno constituem tratamento farmacológico de osteoporose estabelecida ou de osteopenia com alto risco de fratura, não prevenção primária.",
+      "D": "Incorreta. O diagnóstico de menopausa é clínico, firmado após 12 meses de amenorreia, dispensando dosagens hormonais; além disso, a terapia hormonal não deve ser prescrita com a finalidade isolada de prevenir osteoporose em mulher assintomática."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q017",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença do refluxo gastroesofágico: escolha do exame complementar",
+    "subtema": "Indicação de endoscopia digestiva alta na resposta parcial ao inibidor de bomba de prótons",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "DRGE",
+      "endoscopia digestiva alta",
+      "pirose",
+      "manifestações extraesofágicas",
+      "obesidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comando pede o exame de 'confirmação diagnóstica', o que gera ambiguidade com a pHmetria prolongada, considerada o padrão-ouro para documentar refluxo patológico, embora a endoscopia seja o exame inicial indicado pelo contexto de resposta parcial ao inibidor de bomba de prótons.",
+    "justificativas": {
+      "A": "Incorreta. A pHmetria prolongada é reservada a sintomas persistentes com endoscopia normal ou à avaliação pré-operatória, pois quantifica a exposição ácida, mas não identifica esofagite, estenose ou esôfago de Barrett.",
+      "B": "Correta. Em paciente com sintomas crônicos, manifestações extraesofágicas e resposta apenas parcial ao inibidor de bomba de prótons, a endoscopia digestiva alta permite documentar esofagite erosiva, complicações e lesões associadas, além de possibilitar biópsias.",
+      "C": "Incorreta. A esofagografia baritada avalia sobretudo alterações anatômicas e motoras grosseiras, como hérnia hiatal volumosa e estenoses, tendo baixa sensibilidade para lesões mucosas do refluxo.",
+      "D": "Incorreta. A manometria esofágica estuda a peristalse e a função do esfíncter inferior, sendo indicada para diagnosticar distúrbios motores e planejar fundoplicatura, não para confirmar doença do refluxo."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q031",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Monoartrite aguda recidivante: diferenciação entre gota e artrite séptica",
+    "subtema": "Interpretação da celularidade do líquido sinovial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "artrite séptica",
+      "gota",
+      "líquido sinovial",
+      "artrocentese",
+      "reumatologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Celularidade acima de 50 000 leucócitos/mm³ com predomínio de polimorfonucleares caracteriza líquido sinovial séptico; a articulação previamente lesada pela gota e a punção recente funcionam como portas de entrada, exigindo cultura, drenagem e antibioticoterapia empírica.",
+      "B": "Incorreta. A artropatia por depósito de pirofosfato de cálcio produz derrame inflamatório com celularidade habitualmente inferior e exige a identificação de cristais romboides com birrefringência fracamente positiva, o que não se sustenta diante desse grau de leucocitose.",
+      "C": "Incorreta. A suspensão do alopurinol pode precipitar nova crise por flutuação da uricemia, mas a exacerbação gotosa raramente ultrapassa 50 000 leucócitos/mm³ e o paciente permanece em uso de colchicina profilática.",
+      "D": "Incorreta. A artrite gonocócica disseminada cursa tipicamente com poliartralgia migratória, tenossinovite e lesões cutâneas pustulosas, e seu líquido sinovial costuma ser menos celular do que o observado nesse caso."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q045",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença pleural ocupacional: nexo causal com exposição ao amianto",
+    "subtema": "Placas pleurais e mesotelioma na saúde do trabalhador",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_15",
+      "dcn2025_comp_21",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "amianto",
+      "placas pleurais",
+      "saúde do trabalhador",
+      "mesotelioma",
+      "pneumopatia ocupacional"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A exposição a agrotóxicos organofosforados produz síndrome colinérgica aguda ou neuropatia tardia e, cronicamente, associa-se a neoplasias hematológicas, sem gerar espessamento ou placas pleurais.",
+      "B": "Correta. Placas pleurais associadas a espessamento das pleuras visceral e parietal e derrame pleural constituem o marcador radiológico mais específico de exposição prévia ao asbesto, cujas fibras migram para a pleura e desencadeiam fibrose e, com longa latência, mesotelioma.",
+      "C": "Incorreta. O benzeno é mielotóxico e leucemogênico, cursando com citopenias e leucemia mieloide aguda, e não determina acometimento pleural.",
+      "D": "Incorreta. A pneumoconiose dos trabalhadores do carvão manifesta-se por micronódulos parenquimatosos e fibrose maciça progressiva predominante em lobos superiores, poupando caracteristicamente a pleura."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q061",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Linfadenomegalia cervical febril em adolescente: investigação inicial",
+    "subtema": "Mononucleose infecciosa pelo vírus Epstein-Barr",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "mononucleose",
+      "Epstein-Barr",
+      "linfadenomegalia",
+      "linfócitos atípicos",
+      "sorologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Febre prolongada, faringite e adenomegalia cervical fibroelástica em adolescente, somadas a linfocitose com linfócitos atípicos, configuram síndrome mononucleose-símile, cuja investigação inicial é sorológica, com anticorpos heterófilos ou anti-VCA IgM e IgG.",
+      "B": "Incorreta. A biópsia excisional é reservada a linfonodos com características suspeitas de malignidade, como consistência endurecida, aderência, crescimento progressivo ou persistência além de quatro a seis semanas, o que não se aplica a esse estágio da investigação.",
+      "C": "Incorreta. O aspirado de medula óssea destina-se à suspeita de leucemia ou infiltração medular, sugerida por citopenias, blastos periféricos, visceromegalias ou sangramentos, ausentes nesse caso.",
+      "D": "Incorreta. A tomografia cervical apenas caracteriza a extensão anatômica das adenomegalias e não estabelece etiologia, sendo desnecessária antes de uma investigação laboratorial simples e de alto rendimento."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q076",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Taquiarritmia com pulso e instabilidade hemodinâmica no pós-angioplastia",
+    "subtema": "Cardioversão elétrica sincronizada imediata",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "cardioversão elétrica",
+      "taquicardia ventricular",
+      "instabilidade hemodinâmica",
+      "pós-infarto",
+      "ACLS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item depende do traçado do monitor cardíaco citado no enunciado, imagem não disponível no arquivo, sem a qual a arritmia não pode ser identificada apenas pelos dados textuais.",
+    "justificativas": {
+      "A": "Correta. Diante de taquiarritmia com pulso central presente acompanhada de sinal de instabilidade, como o rebaixamento súbito do nível de consciência, a conduta imediata é a cardioversão elétrica sincronizada, que restaura o ritmo e o débito cardíaco mais rapidamente que qualquer fármaco.",
+      "B": "Incorreta. Um novo estudo hemodinâmico não reverte a arritmia responsável pela hipoperfusão cerebral e só deve ser cogitado após a estabilização elétrica do paciente.",
+      "C": "Incorreta. O metoprolol endovenoso reduz a contratilidade e a frequência cardíaca, agravando o baixo débito, e é contraindicado no paciente hemodinamicamente instável.",
+      "D": "Incorreta. Antiarrítmicos endovenosos, como a lidocaína ou a amiodarona, aplicam-se às taquicardias com pulso e estabilidade hemodinâmica ou como terapia adjuvante após a cardioversão, jamais retardando a terapia elétrica."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q089",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Datação da idade gestacional na suspeita de restrição de crescimento fetal",
+    "subtema": "Comprimento cabeça-nádega no primeiro trimestre",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "idade gestacional",
+      "ultrassonografia obstétrica",
+      "restrição de crescimento fetal",
+      "pré-natal de alto risco",
+      "biometria fetal"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A data da última menstruação pressupõe ciclos regulares e ovulação no 14º dia, perdendo confiabilidade quando os ciclos são irregulares ou a paciente não recorda a data com precisão.",
+      "B": "Incorreta. A biometria do segundo trimestre já sofre influência da variabilidade individual do crescimento fetal, com margem de erro de cerca de dez a quatorze dias, o que a torna inadequada justamente quando se investiga restrição de crescimento.",
+      "C": "Correta. O comprimento cabeça-nádega obtido até a 12ª ou 13ª semana é o parâmetro mais fidedigno de datação, com erro de apenas cinco a sete dias, pois nessa fase o crescimento embrionário é praticamente uniforme e ainda não sofre influência de fatores patológicos.",
+      "D": "Incorreta. O diâmetro biparietal isolado entre 14 e 17 semanas é menos preciso que o comprimento cabeça-nádega e pode ser distorcido por variações da forma do polo cefálico."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q003",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Movimentos oculares oscilatórios no lactente: diagnóstico e encaminhamento",
+    "subtema": "Nistagmo infantil e triagem do reflexo vermelho",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_06",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "nistagmo",
+      "lactente",
+      "teste do reflexo vermelho",
+      "puericultura",
+      "encaminhamento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A catarata congênita manifesta-se por leucocoria e reflexo vermelho ausente ou assimétrico, e um teste do olhinho inconclusivo exige avaliação oftalmológica especializada com lâmpada de fenda, não a simples repetição do exame de triagem.",
+      "B": "Incorreta. O estrabismo corresponde a desalinhamento dos eixos visuais, e não a oscilação rítmica dos globos oculares; ademais, a conduta expectante retardaria o diagnóstico de causas potencialmente graves.",
+      "C": "Correta. A oscilação involuntária, rítmica e repetitiva dos globos oculares define nistagmo, que no lactente pode traduzir doença ocular com privação visual precoce ou afecção do sistema nervoso central, impondo avaliação conjunta pela oftalmologia e pela neuropediatria para não comprometer o desenvolvimento visual.",
+      "D": "Incorreta. A xeroftalmia decorre de hipovitaminose A e cursa com cegueira noturna, manchas de Bitot e xerose conjuntival e corneana, quadro incompatível com um lactente eutrófico de três meses em aleitamento."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q018",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Desconforto respiratório precoce no pré-termo tardio: conduta inicial",
+    "subtema": "Ventilação não invasiva na taquipneia transitória do recém-nascido",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "neonatologia",
+      "taquipneia transitória",
+      "CPAP nasal",
+      "pré-termo tardio",
+      "desconforto respiratório"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O capuz de oxigênio fornece fração inspirada elevada sem qualquer pressão de distensão das vias aéreas, sendo incapaz de reduzir o esforço respiratório; a fração de 40% é desnecessária diante de saturação de 95% em ar ambiente.",
+      "B": "Incorreta. O cateter de oxigênio em baixo fluxo não corrige a mecânica pulmonar do recém-nascido com retrações moderadas, e a hidratação venosa isolada com fisioterapia não modifica a evolução do quadro respiratório agudo.",
+      "C": "Incorreta. A estratégia de intubação, surfactante e extubação precoce pressupõe doença da membrana hialina com necessidade crescente de oxigênio, o que não ocorre em neonato que mantém saturação adequada em ar ambiente; intubar nesse contexto expõe a barotrauma e a infecção.",
+      "D": "Correta. A ventilação não invasiva com pressão positiva contínua mantém a capacidade residual funcional, favorece a reabsorção do líquido pulmonar residual e reduz o trabalho respiratório, enquanto a radiografia de tórax diferencia taquipneia transitória, doença da membrana hialina e pneumonia neonatal."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q031",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Anemia microcítica refratária ao ferro com nexo ocupacional",
+    "subtema": "Intoxicação por chumbo (saturnismo) e dosagem da plumbemia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_15",
+      "dcn2025_comp_03",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "saturnismo",
+      "chumbo",
+      "anemia microcítica",
+      "saúde do trabalhador",
+      "encefalopatia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O mielograma investiga doenças medulares primárias, como síndrome mielodisplásica, aplasia ou infiltração neoplásica, hipóteses que não explicariam o comprometimento neurológico associado nem o nexo ocupacional evidente.",
+      "B": "Incorreta. A haptoglobina rastreia hemólise intravascular, que cursa com anemia normocítica, reticulocitose e elevação de bilirrubina indireta e desidrogenase lática, padrão distinto do apresentado.",
+      "C": "Correta. Anemia hipocrômica e microcítica sem resposta à reposição de ferro, somada a manifestações neurocognitivas e a trabalho com reciclagem de baterias, indica intoxicação por chumbo, que inibe a ALA-desidratase e a ferroquelatase na síntese do heme; a plumbemia confirma o diagnóstico.",
+      "D": "Incorreta. O teste de Coombs avalia anemia hemolítica autoimune, cujo padrão morfológico é normocítico ou macrocítico com reticulocitose, e resultaria negativo na hemólise leve que acompanha o saturnismo."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q045",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Pneumonia adquirida na comunidade em idoso com comorbidades",
+    "subtema": "Definição do local de tratamento e do esquema antimicrobiano ambulatorial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "pneumonia comunitária",
+      "CURB-65",
+      "antibioticoterapia",
+      "atenção primária",
+      "idoso"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A monoterapia com macrolídeo só é aceitável em adulto previamente hígido, sem comorbidades nem uso recente de antimicrobianos, pois as taxas de resistência do pneumococo aos macrolídeos comprometem a cobertura nesse perfil de paciente.",
+      "B": "Incorreta. Não há critérios de internação: o paciente mantém bom estado geral, orientação preservada, saturação de 96%, frequência respiratória de 20 irpm e estabilidade pressórica, situação em que a hospitalização acrescenta risco de infecção relacionada à assistência e custo desnecessário.",
+      "C": "Incorreta. Ampicilina com sulbactam por via intravenosa destina-se à suspeita de broncoaspiração ou de infecção por anaeróbios em regime hospitalar, contexto ausente nesse caso de baixo risco.",
+      "D": "Correta. Trata-se de pneumonia comunitária de baixa gravidade em paciente com comorbidades relevantes (diabetes e hipertensão), situação em que o tratamento ambulatorial deve associar betalactâmico com inibidor de betalactamase a um macrolídeo, cobrindo pneumococo, Haemophilus influenzae e germes atípicos."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q059",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Terapia hormonal da menopausa em tabagista sintomática",
+    "subtema": "Escolha da via de administração e do progestagênio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "terapia hormonal",
+      "climatério",
+      "estradiol transdérmico",
+      "tabagismo",
+      "janela de oportunidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O estriol vaginal atua apenas sobre a síndrome geniturinária da menopausa e não controla fogachos, insônia e sintomas neuropsíquicos; além disso, o tabagismo não constitui contraindicação absoluta à terapia sistêmica.",
+      "B": "Incorreta. O estrogênio por via oral sofre primeira passagem hepática e aumenta a síntese de fatores procoagulantes e de proteína C reativa, elevando o risco tromboembólico, particularmente na tabagista; a noretindrona, progestagênio de perfil androgênico, piora o perfil lipídico.",
+      "C": "Incorreta. Não há contraindicação formal, pois inexistem antecedentes de tromboembolismo, hepatopatia, sangramento uterino anormal ou neoplasia hormônio-dependente, com mamografia BIRADS 1 e endométrio de 3 mm; negar tratamento a paciente muito sintomática dentro da janela de oportunidade seria conduta inadequada.",
+      "D": "Correta. A paciente tem menos de 60 anos e menos de 10 anos de menopausa, encontrando-se na janela de oportunidade; a via transdérmica evita o metabolismo hepático de primeira passagem e não eleva o risco trombótico, sendo a escolha preferencial na tabagista, e a progesterona micronizada oferece proteção endometrial com perfil metabólico e mamário favorável."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q072",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Antibioticoprofilaxia cirúrgica em herniorrafia eletiva de parede abdominal",
+    "subtema": "Dose, tempo de administração e redose intraoperatória da cefazolina",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_20",
+      "dcn2025_comp_10",
+      "dcn2025_comp_18",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "antibioticoprofilaxia",
+      "cefazolina",
+      "infecção de sítio cirúrgico",
+      "hérnia incisional",
+      "segurança do paciente"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas A e C apresentam corrupção tipográfica no texto (espaçamento quebrado dentro das palavras), o que prejudica a legibilidade e pode induzir erro de leitura pelo candidato.",
+    "justificativas": {
+      "A": "Correta. Em cirurgia limpa de parede abdominal, a profilaxia deve cobrir cocos gram-positivos da pele com cefazolina administrada nos 60 minutos que antecedem a incisão, com redose a cada 4 horas (cerca de duas meias-vidas) para manter concentração tecidual durante todo o ato operatório e suspensão ao fechamento da pele.",
+      "B": "Incorreta. O metronidazol destina-se à cobertura de anaeróbios do trato digestivo e não tem indicação em cirurgia limpa sem abertura de víscera; além disso, a ausência de previsão de redose expõe o paciente a níveis subterapêuticos em procedimentos prolongados.",
+      "C": "Incorreta. Prolongar o antimicrobiano por 72 horas após o fechamento da pele não reduz a incidência de infecção de sítio cirúrgico e aumenta a pressão seletiva por bactérias resistentes, o risco de colite por Clostridioides difficile e a toxicidade em paciente monorrenal.",
+      "D": "Incorreta. A administração imediatamente antes da incisão não permite atingir o pico de concentração tecidual no momento do corte, recomendando-se a infusão nos 60 minutos prévios; o metronidazol, novamente, é desnecessário nesse cenário."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q086",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Emergência hipertensiva com disfunção neurológica difusa",
+    "subtema": "Encefalopatia hipertensiva e papiledema à fundoscopia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "encefalopatia hipertensiva",
+      "emergência hipertensiva",
+      "papiledema",
+      "fundoscopia",
+      "desorientação"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A coriorretinite é lesão inflamatória ou infecciosa da coroide e da retina, sem relação com a crise hipertensiva; a hipertensão maligna, por sua vez, define-se pela associação de retinopatia grave com lesão renal rapidamente progressiva e necrose fibrinoide arteriolar, não descritas aqui.",
+      "B": "Correta. A elevação pressórica extrema com disfunção encefálica difusa e sem déficit focal caracteriza encefalopatia hipertensiva, decorrente da falência da autorregulação cerebral, hiperperfusão e edema vasogênico; a hipertensão intracraniana resultante traduz-se, à fundoscopia, por papiledema.",
+      "C": "Incorreta. O ataque isquêmico transitório manifesta-se por déficit neurológico focal de curta duração, e não por confusão global; as fibras nervosas meduladas constituem variante anatômica congênita benigna, sem significado patológico.",
+      "D": "Incorreta. O acidente vascular encefálico hemorrágico costuma cursar com cefaleia súbita e déficit focal ou rebaixamento profundo do nível de consciência; o pulso venoso espontâneo é achado fisiológico que, ao contrário, sugere ausência de hipertensão intracraniana."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q099",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Massa anexial: critérios ecográficos de suspeição para malignidade",
+    "subtema": "Projeção papilar como indicação de abordagem cirúrgica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "massa anexial",
+      "cisto ovariano",
+      "projeção papilar",
+      "câncer de ovário",
+      "ultrassonografia transvaginal"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O diâmetro isolado tem baixa acurácia para predizer malignidade; cistos simples volumosos na menacme podem ser acompanhados com segurança quando não apresentam componentes sólidos ou vascularização anômala.",
+      "B": "Incorreta. A idade apenas modifica a probabilidade pré-teste de neoplasia, mas não define, isoladamente, a indicação de exploração cirúrgica na ausência de achados morfológicos suspeitos.",
+      "C": "Correta. Projeções papilares na parede interna do cisto representam crescimento tecidual vascularizado e constituem critério ecográfico de malignidade nas regras IOTA e na classificação O-RADS, o que impõe abordagem cirúrgica para diagnóstico histopatológico e estadiamento.",
+      "D": "Incorreta. A irregularidade menstrual aos 45 anos é achado esperado da transição menopausal, decorrente de ciclos anovulatórios, e não configura indicação cirúrgica por si só."
+    }
+  }
+]

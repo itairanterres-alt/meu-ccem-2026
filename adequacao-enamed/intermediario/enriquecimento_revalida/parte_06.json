@@ -1,0 +1,407 @@
+[
+  {
+    "id_origem": "revalida2023_2_q007",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Trauma pélvico com suspeita de lesão uretral no politraumatizado",
+    "subtema": "Uretrocistografia retrógrada na avaliação do trauma genitourinário",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "trauma",
+      "urologia",
+      "fratura de pelve",
+      "lesão uretral",
+      "atendimento inicial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A uretrocistografia retrógrada é o exame padrão para o diagnóstico da lesão uretral: ao injetar contraste pelo meato, demonstra extravasamento e permite diferenciar lesão parcial (contraste alcança a bexiga) de lesão completa (interrupção total do fluxo), orientando a estratégia de derivação e reconstrução.",
+      "B": "Incorreta. A cistostomia suprapúbica é medida terapêutica de derivação urinária quando a uretra está lesada, mas não fornece informação anatômica sobre o sítio nem sobre a extensão da lesão, não servindo como método diagnóstico confirmatório.",
+      "C": "Incorreta. A tentativa de sondagem uretral diante de uretrorragia e hematoma perineal é contraindicada, pois pode transformar uma laceração parcial em secção completa, ampliar o hematoma e aumentar o risco de estenose e infecção.",
+      "D": "Incorreta. A tomografia pélvica caracteriza bem os traços de fratura, hematomas e lesões de vísceras associadas, porém tem baixa acurácia para a uretra membranosa e bulbar, que só é opacificada por contraste retrógrado."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q020",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Política Nacional de Práticas Integrativas e Complementares no SUS",
+    "subtema": "Organização das PICS nos níveis de atenção e caráter multiprofissional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "PICS",
+      "PNPIC",
+      "políticas públicas",
+      "atenção primária",
+      "SUS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A acupuntura é ofertada de forma prioritária na atenção primária, integrando o rol de procedimentos das equipes da APS e do e-Multi; restringi-la ao nível especializado com acesso regulado contraria a lógica de ampliação de acesso da política.",
+      "B": "Incorreta. A Organização Mundial da Saúde estimula a incorporação da medicina tradicional e complementar aos sistemas nacionais e publica estratégias orientadoras, mas não exerce função regulatória sobre quais práticas cada país adota — no Brasil essa definição cabe ao Ministério da Saúde por meio de portarias.",
+      "C": "Correta. A PNPIC define as práticas integrativas como ações de caráter transversal e multiprofissional, executadas por diferentes categorias habilitadas e adequadas à complexidade e aos recursos do nível de atenção em que estão implantadas, com inserção preferencial na atenção básica.",
+      "D": "Incorreta. A auriculoterapia tem inserção preferencial na atenção primária, onde é aplicada por profissionais capacitados em ações de baixo custo e alta capilaridade; não há evidência nem previsão normativa de melhores resultados na atenção terciária."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q034",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta na lesão intraepitelial escamosa de baixo grau no rastreamento do câncer do colo do útero",
+    "subtema": "Seguimento citológico segundo as diretrizes do INCA",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "rastreamento",
+      "colo do útero",
+      "HPV",
+      "citologia",
+      "LSIL"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A coilocitose traduz efeito citopático viral do HPV e, em mulheres com 25 anos ou mais, a LSIL tem elevada taxa de regressão espontânea; por isso as diretrizes do INCA recomendam repetir a citologia em 6 meses e só encaminhar à colposcopia se houver nova alteração.",
+      "B": "Incorreta. A colposcopia com biópsia dirigida está reservada a duas citologias consecutivas com LSIL, a citologias de maior gravidade (ASC-H, HSIL, AGC) ou a achados suspeitos ao exame do colo, situações não configuradas neste primeiro resultado alterado.",
+      "C": "Incorreta. A exérese da zona de transformação é procedimento terapêutico excisional indicado em NIC 2 ou 3 confirmadas histologicamente; aplicá-la a uma alteração citológica de baixo grau representa sobretratamento, com risco de estenose cervical e de prematuridade em gestações futuras.",
+      "D": "Incorreta. No algoritmo do Ministério da Saúde vigente para o caso, o teste de DNA-HPV não é a etapa que define a conduta após LSIL isolada em mulher já em rastreamento regular; a decisão se apoia na repetição da citologia."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q050",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem imediata da cetoacidose diabética no pronto-atendimento",
+    "subtema": "Reposição volêmica inicial com solução salina isotônica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "cetoacidose diabética",
+      "emergência metabólica",
+      "hidratação venosa",
+      "insulinoterapia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa A lista exames em boa parte pertinentes à avaliação inicial e só se torna incorreta pela inclusão da hemoglobina glicada, o que a deixa parcialmente plausível e reduz o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Incorreta. A hemoglobina glicada reflete o controle glicêmico dos últimos três meses e não interfere na conduta emergencial; além disso, a solicitação de exames não precede a reposição volêmica, que é a primeira intervenção terapêutica na cetoacidose.",
+      "B": "Incorreta. Na fase aguda utiliza-se insulina regular endovenosa em infusão contínua (ou bolus intramuscular horário), sempre após o início da expansão e com potássio acima de 3,3 mEq/L; insulina NPH e correções por glicemia capilar são inadequadas para reverter a cetogênese.",
+      "C": "Correta. O déficit volêmico é o distúrbio dominante: a infusão de soro fisiológico 0,9% na ordem de 15 a 20 mL/kg na primeira hora restaura a perfusão tecidual e a filtração glomerular, reduz a glicemia e os hormônios contrarreguladores, exigindo cautela em cardiopatas e nefropatas pelo risco de congestão.",
+      "D": "Incorreta. A cetoacidose é emergência que demanda transferência e tratamento imediatos; aguardar 24 horas ou o surgimento de convulsões e anúria expõe o paciente a edema cerebral, choque e óbito."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q064",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo da hemorragia pós-parto por atonia uterina",
+    "subtema": "Uso precoce de ácido tranexâmico associado a uterotônicos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hemorragia pós-parto",
+      "atonia uterina",
+      "ácido tranexâmico",
+      "uterotônicos",
+      "choque hipovolêmico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A histerectomia é recurso de exceção, reservado à falência das medidas farmacológicas, da massagem uterina, do balão de tamponamento e das técnicas conservadoras; indicá-la antes mesmo do uso de uterotônicos é desproporcional em uma multípara com atonia inicial.",
+      "B": "Correta. O útero amolecido e elevado acima da cicatriz umbilical caracteriza atonia; a conduta associa uterotônicos (ocitocina, ergometrina, misoprostol) à administração endovenosa de ácido tranexâmico o mais cedo possível, pois seu benefício sobre a mortalidade por sangramento é maior quando feito nas primeiras 3 horas.",
+      "C": "Incorreta. O ácido tranexâmico atua inibindo a fibrinólise e está indicado em toda hemorragia pós-parto, independentemente de a causa ser atonia ou trauma de trajeto; a ausência de lacerações não contraindica seu uso.",
+      "D": "Incorreta. Não existe recomendação de aguardar uma hora após a ocitocina nem de reservar o antifibrinolítico à falha dos uterotônicos; cada 15 minutos de atraso reduz progressivamente o efeito protetor do fármaco."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q079",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Avaliação da estática fetal e da altura uterina no pré-natal de risco habitual",
+    "subtema": "Manobras de Leopold e curva de altura uterina por idade gestacional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_06",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "pré-natal",
+      "manobras de Leopold",
+      "altura uterina",
+      "estática fetal",
+      "atenção primária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item é integralmente dependente de duas figuras (palpação obstétrica e curva de altura uterina) que não acompanham o texto, impossibilitando a resolução apenas pelo enunciado.",
+    "justificativas": {
+      "A": "Incorreta. Embora acerte a apresentação cefálica e a adequação da altura uterina, atribui o dorso à direita, o que não corresponde ao lado em que a palpação identifica a superfície plana e resistente do dorso fetal.",
+      "B": "Incorreta. A situação córmica (transversa) é incompatível com o feto longitudinal já afirmado no enunciado, e a medida de 31 cm às 34 semanas situa-se entre os percentis 10 e 90 da curva, não caracterizando altura diminuída.",
+      "C": "Incorreta. Repete o erro de classificar o feto como córmico, além de considerar reduzida uma altura uterina que se mantém dentro da faixa de normalidade para a idade gestacional.",
+      "D": "Correta. A palpação identifica o polo cefálico no estreito superior e o dorso fetal à esquerda, configurando situação longitudinal e apresentação cefálica; a altura uterina de 31 cm às 34 semanas fica entre os percentis 10 e 90, sendo adequada e dispensando investigação adicional."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q092",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação de hidrocele de instalação recente em homem jovem",
+    "subtema": "Suspeita de tumor germinativo de testículo e ultrassonografia escrotal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "urologia",
+      "câncer de testículo",
+      "hidrocele",
+      "ultrassonografia",
+      "diagnóstico precoce"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A orquiepididimite manifesta-se com dor escrotal, febre, sinais flogísticos e alívio à elevação do testículo (sinal de Prehn), quadro inflamatório agudo que não se compatibiliza com aumento indolor e progressivo em dois meses.",
+      "B": "Correta. Hidrocele reacional de aparecimento recente em homem entre 15 e 35 anos obriga a excluir neoplasia germinativa, que produz derrame secundário na túnica vaginal; a ultrassonografia escrotal com Doppler é o exame inicial por identificar massa sólida intratesticular e diferenciá-la de lesões extratesticulares.",
+      "C": "Incorreta. A torção do cordão espermático é emergência de dor súbita e intensa, com testículo elevado e horizontalizado e abolição do reflexo cremastérico, evoluindo em horas — incompatível com história de dois meses sem dor.",
+      "D": "Incorreta. Não há relato de trauma escrotal, e a tomografia computadorizada não avalia adequadamente o conteúdo escrotal, ficando reservada ao estadiamento retroperitoneal e torácico após a confirmação diagnóstica."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q006",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Atualização vacinal do adulto com comorbidades crônicas",
+    "subtema": "Indicação da vacina contra herpes-zóster após varicela prévia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "imunização",
+      "adulto",
+      "herpes-zóster",
+      "prevenção",
+      "calendário vacinal"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa nomeia a vacina como \"varicela-zóster\", sem distinguir a vacina de varicela (infantil) da vacina contra herpes-zóster do adulto, que não integra o calendário do SUS — ambiguidade que pode induzir erro por leitura literal.",
+    "justificativas": {
+      "A": "Incorreta. Não existe imunizante monovalente contra caxumba disponível no país, e o antecedente de doença natural confere imunidade duradoura, tornando a indicação desnecessária.",
+      "B": "Incorreta. A infecção prévia por hepatite A na infância deixa imunidade permanente mediada por anti-HAV IgG, de modo que a vacinação não traz benefício adicional.",
+      "C": "Incorreta. A tríplice viral não está indicada após os 59 anos no calendário nacional, e a paciente relata ter tido sarampo, caxumba e rubéola, já apresentando imunidade natural às três.",
+      "D": "Correta. Quem teve varicela mantém o vírus varicela-zóster latente nos gânglios sensitivos e, com a imunossenescência e o diabetes, tem risco aumentado de reativação; a vacinação contra o herpes-zóster está indicada a partir dos 50 anos para prevenir a doença e a neuralgia pós-herpética."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q021",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Polirradiculoneuropatia aguda ascendente após quadro exantemático febril",
+    "subtema": "Síndrome de Guillain-Barré e dissociação proteinocitológica no líquor",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "neurologia",
+      "Guillain-Barré",
+      "arbovirose",
+      "líquor",
+      "paralisia flácida"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A miastenia grave decorre de bloqueio pós-sináptico por anticorpos antirreceptor de acetilcolina e cursa com fraqueza flutuante e fatigável, predomínio ocular e bulbar, reflexos preservados, sensibilidade normal e líquor sem alterações.",
+      "B": "Correta. A fraqueza flácida ascendente simétrica com arreflexia distal, parestesias em bota e luva e disautonomia (obstipação), precedida em dias por síndrome exantemática febril, somada a proteinorraquia de 103 mg/dL sem pleocitose, define a dissociação albumino-citológica característica da polirradiculoneurite desmielinizante aguda pós-infecciosa.",
+      "C": "Incorreta. O acidente vascular cerebral produz déficit focal de instalação súbita, geralmente unilateral, com sinais de lesão do primeiro neurônio motor (hiper-reflexia e Babinski) e sem alteração liquórica desse padrão.",
+      "D": "Incorreta. A esclerose lateral amiotrófica evolui em meses a anos, combina sinais de primeiro e segundo neurônios motores, poupa a sensibilidade e não altera as proteínas do líquor."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q034",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Interpretação da sorologia para toxoplasmose no primeiro trimestre da gestação",
+    "subtema": "IgM reagente com IgG não reagente e profilaxia com espiramicina",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "toxoplasmose",
+      "pré-natal",
+      "sorologia",
+      "espiramicina",
+      "transmissão vertical"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Além de o teste de avidez não se aplicar a este perfil sorológico, a interpretação está invertida: avidez alta no primeiro trimestre indica infecção adquirida há mais de 12 a 16 semanas, ou seja, antiga.",
+      "B": "Incorreta. O teste de avidez avalia a força de ligação dos anticorpos IgG e só tem utilidade quando IgM e IgG estão simultaneamente reagentes; com IgG negativa não há substrato para o exame.",
+      "C": "Correta. IgM reagente com IgG não reagente sugere infecção muito recente ainda sem soroconversão da IgG (ou IgM residual/falso-positiva); inicia-se espiramicina de imediato para reduzir a transmissão placentária e repete-se o par sorológico em cerca de três semanas — a positivação da IgG confirma a infecção aguda.",
+      "D": "Incorreta. Adiar a profilaxia por seis a oito semanas mantém a gestante sem cobertura durante o período de maior risco de passagem transplacentária do parasito, contrariando a recomendação de tratar já na suspeita."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q048",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Doença de Kawasaki no lactente com febre prolongada e exantema",
+    "subtema": "Acometimento coronariano como principal complicação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "pediatria",
+      "doença de Kawasaki",
+      "vasculite",
+      "aneurisma coronariano",
+      "febre prolongada"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A orquiepididimite não faz parte do espectro da doença; a manifestação genitoperineal eventualmente descrita é o eritema com descamação precoce da região perineal, e não inflamação testicular.",
+      "B": "Incorreta. O padrão hematológico típico é de trombocitose acentuada a partir da segunda semana, junto de leucocitose e elevação de provas inflamatórias; plaquetopenia sugere outros diagnósticos, como sepse ou dengue.",
+      "C": "Incorreta. O acometimento orofaríngeo é caracteristicamente não exsudativo (hiperemia difusa, fissura labial e língua em framboesa); a presença de exsudato aponta para faringite estreptocócica ou mononucleose.",
+      "D": "Correta. Trata-se de vasculite sistêmica de vasos de médio calibre com tropismo pelas artérias coronárias; os aneurismas coronarianos, que ocorrem em cerca de 20 a 25% dos casos não tratados, constituem a principal complicação e justificam o ecocardiograma e a imunoglobulina endovenosa nos primeiros 10 dias."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q062",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta diante de nódulo pulmonar solitário calcificado em tabagista",
+    "subtema": "Critérios radiológicos de benignidade e seguimento ambulatorial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_25",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "pneumologia",
+      "nódulo pulmonar solitário",
+      "tabagismo",
+      "tomografia",
+      "conduta expectante"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado não especifica o padrão da calcificação (central, difusa, laminar ou em pipoca versus excêntrica), dado que altera substancialmente a probabilidade de malignidade e, portanto, a conduta.",
+    "justificativas": {
+      "A": "Incorreta. A ressecção em cunha é indicada em nódulos com alta probabilidade de malignidade ou crescimento documentado; submeter a toracotomia/videotoracoscopia uma lesão com padrão radiológico benigno acrescenta morbidade sem benefício.",
+      "B": "Incorreta. A broncoscopia com biópsia tem baixo rendimento diagnóstico em nódulos periféricos menores que 2 cm e não se justifica quando a imagem já caracteriza lesão de comportamento benigno.",
+      "C": "Correta. Nódulo solitário menor que 3 cm, de contornos regulares e calcificado apresenta padrão típico de benignidade — em geral granuloma residual —, sendo suficiente o seguimento clínico e radiológico ambulatorial, associado à orientação para cessação do tabagismo e ao rastreamento de câncer de pulmão conforme os critérios de risco.",
+      "D": "Incorreta. Métodos invasivos como a punção aspirativa por agulha fina expõem a pneumotórax e hemorragia e devem ser reservados a lesões indeterminadas ou suspeitas, o que não é o caso de um nódulo calcificado e regular."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q075",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Classificação do desenho de estudo dos inquéritos populacionais de saúde",
+    "subtema": "Pesquisa Nacional de Saúde como estudo transversal de base domiciliar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_10",
+      "dcn2025_comp_16"
+    ],
+    "tags": [
+      "epidemiologia",
+      "desenho de estudo",
+      "inquérito de saúde",
+      "prevalência",
+      "PNS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A coorte pressupõe seguimento longitudinal de grupos definidos pela exposição ao longo do tempo, permitindo calcular incidência e risco relativo, o que não ocorre em uma aferição pontual da população.",
+      "B": "Correta. O inquérito domiciliar coleta exposições e desfechos simultaneamente em uma amostra probabilística da população em um único momento, gerando estimativas de prevalência — definição do estudo observacional transversal ou seccional.",
+      "C": "Incorreta. Nos estudos experimentais o investigador aloca a intervenção aos participantes, preferencialmente por randomização; a pesquisa apenas observa e descreve condições já existentes.",
+      "D": "Incorreta. O caso-controle seleciona participantes pela presença ou ausência do desfecho e investiga retrospectivamente as exposições, lógica incompatível com a amostragem populacional geral do inquérito."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q089",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Seguimento de LSIL no Papanicolaou em mulher de 26 anos",
+    "subtema": "Repetição da citologia em seis meses conforme diretrizes do INCA",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "rastreamento",
+      "LSIL",
+      "INCA",
+      "HPV",
+      "colo do útero"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As informações sobre esquema vacinal incompleto e início recente da atividade sexual não modificam a conduta preconizada, funcionando como dados distratores no enunciado.",
+    "justificativas": {
+      "A": "Incorreta. A pesquisa de DNA-HPV não é a etapa definida pelo protocolo citado para conduzir uma LSIL isolada nessa faixa etária, na qual a prevalência de infecção transitória é muito alta e o teste teria baixa especificidade.",
+      "B": "Correta. Para mulheres com 25 anos ou mais, o INCA recomenda repetir a citologia em 6 meses diante de LSIL, pois a maioria dessas lesões regride espontaneamente com a depuração viral; dois exames consecutivos alterados é que indicam colposcopia.",
+      "C": "Incorreta. A biópsia do colo não é realizada às cegas: depende da identificação de achados anormais sob visão colposcópica, exame ainda não indicado neste momento do seguimento.",
+      "D": "Incorreta. A abordagem \"ver e tratar\" restringe-se a achados colposcópicos maiores, com zona de transformação tipo 1 ou 2 e suspeita de lesão de alto grau; aplicá-la à LSIL configura sobretratamento excisional desnecessário."
+    }
+  }
+]
