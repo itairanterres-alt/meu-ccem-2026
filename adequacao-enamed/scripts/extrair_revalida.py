@@ -78,6 +78,65 @@ def limpar_linhas(linhas):
     return [ln for ln in linhas if not any(r.match(ln) for r in RE_LIXO)]
 
 
+# --- correção de texto "espaçado" (tracking) vindo do PDF -------------------
+# Em ~14 linhas por caderno o PDF usa espaçamento entre caracteres para
+# justificar a linha, e o pypdf entrega "i n f e c ç ã o  u r i n á r i a".
+# Nesse regime o separador de PALAVRA é o espaço DUPLO e o separador de LETRA
+# é o espaço simples — é isso que permite desfazer o efeito sem adivinhação.
+MIN_RUN_TRACKING = 6  # 5 é baixo demais: "toxinas A e B e detecção" tem run 4
+
+
+def _maior_run_1char(linha):
+    """Maior sequência de tokens de 1 caractere separados por espaço SIMPLES.
+    O espaço duplo (separador de palavra no texto espaçado) zera a contagem."""
+    maior = atual = 0
+    for tok in linha.strip().split(" "):
+        if len(tok) == 1:
+            atual += 1
+            maior = max(maior, atual)
+        else:
+            atual = 0
+    return maior
+
+
+def _colapsa_runs(tokens):
+    """Junta sequências de >=3 tokens de 1 caractere (linha só parcialmente
+    espaçada, p.ex. '100 mmHg); HCO 3 d e')."""
+    saida, i = [], 0
+    while i < len(tokens):
+        j = i
+        while j < len(tokens) and len(tokens[j]) == 1:
+            j += 1
+        if j - i >= 3:
+            saida.append("".join(tokens[i:j]))
+            i = j
+        elif j > i:
+            saida.extend(tokens[i:j])
+            i = j
+        else:
+            saida.append(tokens[i])
+            i += 1
+    return " ".join(saida)
+
+
+def destravar(linha):
+    """Desfaz o espaçamento entre caracteres, se a linha estiver afetada."""
+    if _maior_run_1char(linha) < MIN_RUN_TRACKING:
+        return linha
+    partes = []
+    for pedaco in re.split(r"\s{2,}", linha.strip()):
+        tokens = [t for t in pedaco.split(" ") if t]
+        if not tokens:
+            continue
+        if len(tokens) >= 2 and all(len(t) == 1 for t in tokens):
+            partes.append("".join(tokens))          # palavra inteira espaçada
+        elif len(tokens) >= 3 and all(len(t) <= 2 for t in tokens):
+            partes.append("".join(tokens))          # espaçamento com pares colados
+        else:
+            partes.append(_colapsa_runs(tokens))    # linha mista
+    return " ".join(partes)
+
+
 def norm(texto):
     """Junta linhas num texto único, normalizando espaços."""
     texto = texto.replace("\xad", "")          # soft hyphen
@@ -124,18 +183,20 @@ def parse_bloco(linhas):
     """linhas = corpo da questão (depois de 'QUESTÃO n'). -> (enunciado, alts)"""
     idx = localizar_alternativas(linhas)
     if not idx:
-        return norm("\n".join(linhas)), {}
+        return norm("\n".join(destravar(ln) for ln in linhas)), {}
 
     ordenados = sorted(idx.items(), key=lambda kv: kv[1])
     inicio = ordenados[0][1]
-    enunciado = norm("\n".join(linhas[:inicio]))
+    enunciado = norm("\n".join(destravar(ln) for ln in linhas[:inicio]))
 
     alts = {}
     for pos, (letra, i) in enumerate(ordenados):
         fim = ordenados[pos + 1][1] if pos + 1 < len(ordenados) else len(linhas)
-        corpo = RE_ALTERNATIVA.match(linhas[i]).group(2)
-        corpo = "\n".join([corpo] + linhas[i + 1:fim])
-        alts[letra] = norm(corpo)
+        # o destravamento roda DEPOIS de tirar a letra da alternativa: senão
+        # "B S o l u ç ã o ..." viraria a palavra única "BSolução".
+        corpo = [destravar(RE_ALTERNATIVA.match(linhas[i]).group(2))]
+        corpo += [destravar(ln) for ln in linhas[i + 1:fim]]
+        alts[letra] = norm("\n".join(corpo))
     return enunciado, alts
 
 

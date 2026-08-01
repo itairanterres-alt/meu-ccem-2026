@@ -11,10 +11,12 @@
       "D": "ressonância magnética de crânio imediata e administrar ácido acetilsalicílico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q002",
@@ -28,10 +30,12 @@
       "D": "Demarcação da lateralidade (direita ou esquerda) do procedimento; avaliação de alergias conhecidas; e checagem da existência do termo de consentimento para o procedimento.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q003",
@@ -48,7 +52,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q004",
@@ -62,10 +68,12 @@
       "D": "realizar dosagem sérica do hormônio folículo estimulante e do estradiol e, caso seja confirmada a menopausa, fazer uso da terapia hormonal com estrógenos conjugados.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q005",
@@ -79,10 +87,12 @@
       "D": "Utilizar dados primários para a divisão do território em micro áreas, como bancos de dados do DATASUS e do IBGE, pois eles oferecem informações em níveis de desagregação suficientes para ajudar a estabelecer o diagnóstico situacional local.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q006",
@@ -96,10 +106,12 @@
       "D": "administrar corticoide tópico e oral e, caso persistam os sintomas por mais de 24 horas, iniciar corticoide endovenoso.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q007",
@@ -113,10 +125,12 @@
       "D": "tomografia pélvica.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q008",
@@ -130,10 +144,12 @@
       "D": "Deficiência de ferro e de vitaminas do complexo B.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q009",
@@ -147,10 +163,12 @@
       "D": "desenvolvimento puberal normal e que não há necessidade de exames complementares no momento.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q010",
@@ -164,10 +182,12 @@
       "D": "descartar suspeita de dengue, prescrever amoxicilina- clavulanato por 8 dias, associar analgésico em caso de dor, orientar sobre os sinais de alerta e reavaliar a paciente em 2 dias.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q011",
@@ -181,10 +201,12 @@
       "D": "Hipercalcemia.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q012",
@@ -198,10 +220,12 @@
       "D": "Ultrassonografia com Doppler colorido das artérias viscerais.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q013",
@@ -215,10 +239,12 @@
       "D": "Não há indicação de realização de TC e sim de radiografia simples de crânio, a fim de evidenciar fraturas que podem não ter sido observadas em exame físico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q014",
@@ -232,10 +258,12 @@
       "D": "estradiol 1 mg em gel, por via transdérmica, contínuo + progesterona natural micronizada 100 mg, por via vaginal, cíclico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q015",
@@ -249,16 +277,18 @@
       "D": "FSH, LH e prolactina; prescrição de diclofenaco sódico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q016",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 16,
-    "enunciado": "Uma mulher de 28 anos é avaliada em unidade básica de saúde com queixa de diarreia crônica. A paciente refere estar preocupada, pois sua mãe e irmã têm doença de Crohn. Ela relata que a diarreia tem 2 anos de evolução, sendo, às vezes, intercalada por períodos de constipação intestinal. Afirma, também, que nunca foi despertada do sono em função da diarreia e que há dor abdominal recorrente que sempre alivia com a evacuação. Refere que não notou emagrecimento ao longo desse período e afirma, ainda, que as fezes não flutuam no vaso sanitário nem contêm muco, pus ou sangue. Ao exame físico, a paciente revela-se eutrófica (índice de massa corporal de 25 kg/m 2), normocorada, acianótica, sem e d e m a s e c o m s i n a i s v i t a i s n o r m a i s . O r e s u l t a d o d e s u a colonoscopia está normal e ela ainda aguarda o resultado do exame histopatológico. Acerca do caso relatado, a principal hipótese diagnóstica é",
+    "enunciado": "Uma mulher de 28 anos é avaliada em unidade básica de saúde com queixa de diarreia crônica. A paciente refere estar preocupada, pois sua mãe e irmã têm doença de Crohn. Ela relata que a diarreia tem 2 anos de evolução, sendo, às vezes, intercalada por períodos de constipação intestinal. Afirma, também, que nunca foi despertada do sono em função da diarreia e que há dor abdominal recorrente que sempre alivia com a evacuação. Refere que não notou emagrecimento ao longo desse período e afirma, ainda, que as fezes não flutuam no vaso sanitário nem contêm muco, pus ou sangue. Ao exame físico, a paciente revela-se eutrófica (índice de massa corporal de 25 kg/m 2), normocorada, acianótica, sem edemas e com sinais vitais normais.O resultado de sua colonoscopia está normal e ela ainda aguarda o resultado do exame histopatológico. Acerca do caso relatado, a principal hipótese diagnóstica é",
     "alternativas": {
       "A": "doença de Crohn.",
       "B": "síndrome disabsortiva.",
@@ -266,10 +296,12 @@
       "D": "retocolite ulcerativa idiopática.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q017",
@@ -283,10 +315,12 @@
       "D": "Manometria esofágica.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q018",
@@ -300,10 +334,12 @@
       "D": "fimose fisiológica e sua responsável deve ser orientada sobre a necessidade de realizar manobras visando a acelerar a abertura do prepúcio.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q019",
@@ -317,10 +353,12 @@
       "D": "Realizar punção aspirativa por agulha fina (PAAF) da lesão.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q020",
@@ -334,10 +372,12 @@
       "D": "a auriculoterapia deve ser inserida em todos os níveis de atenção em saúde, com ênfase na atenção terciária, pois nesta, apresenta melhores resultados.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q021",
@@ -351,10 +391,12 @@
       "D": "pesquisa de anticorpos do tipo TRAB.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q022",
@@ -368,10 +410,12 @@
       "D": "Colecistite aguda; realizar colecistectomia com exploração de via biliar.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q023",
@@ -385,10 +429,12 @@
       "D": "Síndrome da rubéola congênita; traumatismo de parto; doenças desmielinizantes.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q024",
@@ -402,10 +448,12 @@
       "D": "Pílula de progestágeno isolado.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q025",
@@ -419,10 +467,12 @@
       "D": "aplicar o Index de Independência nas Atividades Básicas de Vida Diária e avaliar o desempenho funcional do idoso em termos de atividades instrumentais.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q026",
@@ -436,10 +486,12 @@
       "D": "Leishmaniose tegumentar; tratamento com antimoniato de N-metilglucamina.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q027",
@@ -453,10 +505,12 @@
       "D": "Carcinoma espinocelular.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q028",
@@ -473,7 +527,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q029",
@@ -487,10 +543,12 @@
       "D": "Chlamydia trachomatis.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q030",
@@ -504,16 +562,18 @@
       "D": "sugerir a internação do idoso em um serviço de cuidados paliativos para possibilitar que uma equipe de paliativismo preparada possa gerenciar o cuidado prestado.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q031",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 31,
-    "enunciado": "Um homem branco de 56 anos, sexualmente ativo, portador de síndrome metabólica, retorna ao ambulatório de referência 2 semanas após ter sido diagnosticado com artrite gotosa aguda em joelho direito, através de artrocentese com análise do líquido sinovial. Após o diagnóstico, o paciente manteve o uso de colchicina e interrompeu o tratamento com alopurinol. Segundo relato, apresentou melhora nos seus sintomas com o uso do anti-inflamatório não esteroidal prescrito. A o e x a m e f í s i c o , a a r t i c u l a ç ã o d o j o e l h o d i r e i t o r e v e l a - s e novamente bastante inflamada, com intenso rubor, calor e edema, além de impotência funcional. Realiza nova artrocentese, cujos resultados iniciais revelam 120 000 leucócitos/mm 3, com 95% de polimorfonucleares. Considerando a situação desse paciente, a melhor explicação para o quadro articular atual é",
+    "enunciado": "Um homem branco de 56 anos, sexualmente ativo, portador de síndrome metabólica, retorna ao ambulatório de referência 2 semanas após ter sido diagnosticado com artrite gotosa aguda em joelho direito, através de artrocentese com análise do líquido sinovial. Após o diagnóstico, o paciente manteve o uso de colchicina e interrompeu o tratamento com alopurinol. Segundo relato, apresentou melhora nos seus sintomas com o uso do anti-inflamatório não esteroidal prescrito. Ao exame físico, a articulação do joelho direito revela-se novamente bastante inflamada, com intenso rubor, calor e edema, além de impotência funcional. Realiza nova artrocentese, cujos resultados iniciais revelam 120 000 leucócitos/mm 3, com 95% de polimorfonucleares. Considerando a situação desse paciente, a melhor explicação para o quadro articular atual é",
     "alternativas": {
       "A": "artrite séptica bacteriana.",
       "B": "desenvolvimento de pseudogota local.",
@@ -521,10 +581,12 @@
       "D": "artrite secundária a infecção sexualmente transmissível.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q032",
@@ -538,10 +600,12 @@
       "D": "Infecção intra-abdominal; tomografia computadorizada de abdome e pelve.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q033",
@@ -555,10 +619,12 @@
       "D": "200 mL da solução de Ringer com lactato por 20 minutos.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q034",
@@ -572,10 +638,12 @@
       "D": "coleta para o teste de DNA-HPV.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q035",
@@ -589,10 +657,12 @@
       "D": "referenciar a criança para atenção especializada, para acompanhamento, investigação e planejamento terapêutico em conjunto com a atenção primária.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q036",
@@ -606,10 +676,12 @@
       "D": "Transtorno do deficit da atenção em adulto.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q037",
@@ -626,7 +698,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q038",
@@ -640,10 +714,12 @@
       "D": "considerar a prescrição de anticoncepção, visto que a menina já iniciou atividade sexual, aproveitando o momento, também, para abordar a prática sexual segura; ele deve comunicar a adolescente de que o assunto será tratado com seus pais, uma vez que os menores de 16 anos são classificados como “absolutamente incapazes de exercer pessoalmente os atos da vida civil\".",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q039",
@@ -657,10 +733,12 @@
       "D": "laparoscopia com ooforectomia.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q040",
@@ -674,16 +752,18 @@
       "D": "Aquisição de novas ambulâncias para facilitar as remoções de pacientes para os municípios vizinhos e os fluxos dos usuários nas urgências, ampliando o acesso à saúde.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q041",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 41,
-    "enunciado": "Uma mulher de 19 anos vai a uma consulta devido a edema de membros inferiores. Ela relata que teve gestação sem intercorrências, embora tenha feito apenas duas consultas de pré-natal. Contudo, 1 mês após o parto, procurou atendimento médico devido à persistência e piora progressiva do edema de membros inferiores, que, inicialmente, atribuiu à gravidez. Ao exame físico, apresenta edema depressível de membros inferiores e pressão arterial de 130 × 80 mmHg. Os exames laboratoriais apresentam urina de rotina com proteína positiva (4+/4+); proteinúria de 24h de 4g (valor de referência [VR]: < 150 mg/24h); colesterol total de 300 mg/dL (VR: < 200 mg/dL); colesterol HDL de 20 mg/dL (VR: > 35 mg/dL); triglicerídeos de 280 mg/dL (VR: < 150 mg/dL); glicemia de jejum de 201 mg/dL (VR: < 100 mg/dL); albumina de 1,8 g/dL ( V R : 3 , 5 a 5 , 2 g /d L ) ; p e s q u i s a d e a u t o a n t i c o r p o s F A N p o s i t i v a com padrão nuclear homogêneo e título de 1:640. O diagnóstico sindrômico e o diagnóstico etiológico mais prováveis são, respectivamente,",
+    "enunciado": "Uma mulher de 19 anos vai a uma consulta devido a edema de membros inferiores. Ela relata que teve gestação sem intercorrências, embora tenha feito apenas duas consultas de pré-natal. Contudo, 1 mês após o parto, procurou atendimento médico devido à persistência e piora progressiva do edema de membros inferiores, que, inicialmente, atribuiu à gravidez. Ao exame físico, apresenta edema depressível de membros inferiores e pressão arterial de 130 × 80 mmHg. Os exames laboratoriais apresentam urina de rotina com proteína positiva (4+/4+); proteinúria de 24h de 4g (valor de referência [VR]: < 150 mg/24h); colesterol total de 300 mg/dL (VR: < 200 mg/dL); colesterol HDL de 20 mg/dL (VR: > 35 mg/dL); triglicerídeos de 280 mg/dL (VR: < 150 mg/dL); glicemia de jejum de 201 mg/dL (VR: < 100 mg/dL); albumina de 1,8 g/dL (VR: 3,5 a 5,2 g/dL); pesquisa de autoanticorpos FAN positiva com padrão nuclear homogêneo e título de 1:640. O diagnóstico sindrômico e o diagnóstico etiológico mais prováveis são, respectivamente,",
     "alternativas": {
       "A": "síndrome nefrótica; diabetes mellitus.",
       "B": "síndrome nefrítica; síndrome de Sjögren.",
@@ -691,10 +771,12 @@
       "D": "síndrome nefrótica; lúpus eritematoso sistêmico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q042",
@@ -708,10 +790,12 @@
       "D": "Fístula uretero-vaginal.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q043",
@@ -725,10 +809,12 @@
       "D": "Vasculite por IgA.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q044",
@@ -742,10 +828,12 @@
       "D": "interromper o uso da medicação oral e prescrever terapia hormonal combinada com estradiol transdérmico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q045",
@@ -759,16 +847,18 @@
       "D": "extração do carvão (com poeira do carvão mineral).",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q046",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 46,
-    "enunciado": "Uma adolescente de 14 anos procura uma unidade básica d e s a ú d e c o m q u e i x a d e c e f a l e i a . E l a c o n t a q u e , d u r a n t e a prova de matemática, apresentou dificuldade para enxergar os enunciados; ela descreve que via “imagens brilhantes” e que, a seguir, a visão dela ficou como uma mancha escura e passou a ter dor de cabeça. Depois de 30 minutos, a visão se normalizou. A menina tentou continuar a prova, mas a dor na lateral da cabeça começou a latejar e piorou. Em seguida, teve vontade de vomitar e precisou sair da sala às pressas. Ela diz que nunca teve isso antes e que os sons mais fortes estão muito desconfortáveis. A paciente nega o uso de anticoncepcional oral. Ao exame físico, está pálida, sudoréica, nauseada e com dor. Com relação aos sinais vitais, apresenta pressão arterial de 110 × 70 mmHg; frequência cardíaca de 96 batimentos por minuto; frequência respiratória de 14 incursões respiratórias p o r m i n u t o ; e t e m p e r a t u r a a x i l a r d e 3 6 , 9 ° C . N ã o h á s i n a i s neurológicos focais, nem sinais meníngeos, e o exame de fundo de olho revela pulso venoso espontâneo presente. Em relação ao quadro clínico apresentado, a hipótese mais provável é de cefaleia causada por",
+    "enunciado": "Uma adolescente de 14 anos procura uma unidade básica de saúde com queixa de cefaleia.Ela conta que, durante a prova de matemática, apresentou dificuldade para enxergar os enunciados; ela descreve que via “imagens brilhantes” e que, a seguir, a visão dela ficou como uma mancha escura e passou a ter dor de cabeça. Depois de 30 minutos, a visão se normalizou. A menina tentou continuar a prova, mas a dor na lateral da cabeça começou a latejar e piorou. Em seguida, teve vontade de vomitar e precisou sair da sala às pressas. Ela diz que nunca teve isso antes e que os sons mais fortes estão muito desconfortáveis. A paciente nega o uso de anticoncepcional oral. Ao exame físico, está pálida, sudoréica, nauseada e com dor. Com relação aos sinais vitais, apresenta pressão arterial de 110 × 70 mmHg; frequência cardíaca de 96 batimentos por minuto; frequência respiratória de 14 incursões respiratórias por minuto; e temperatura axilar de 36,9 °C.Não há sinais neurológicos focais, nem sinais meníngeos, e o exame de fundo de olho revela pulso venoso espontâneo presente. Em relação ao quadro clínico apresentado, a hipótese mais provável é de cefaleia causada por",
     "alternativas": {
       "A": "tumor cerebral, havendo indicação de exame de imagem com urgência.",
       "B": "hemicrania com aura, havendo indicação de tratamento sintomático e acompanhamento.",
@@ -779,7 +869,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q047",
@@ -793,10 +885,12 @@
       "D": "irrigação abundante do olho afetado com solução cristaloide.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q048",
@@ -813,7 +907,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q049",
@@ -827,10 +923,12 @@
       "D": "examinar as mamas da paciente e orientar o controle clínico periódico a ela.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q050",
@@ -844,10 +942,12 @@
       "D": "promover a remoção do usuário para o hospital de referência após 24 horas, caso o paciente apresente convulsões ou caso não apresente diurese.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q051",
@@ -861,10 +961,12 @@
       "D": "intoxicação por organofosforados; administrar atropina.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q052",
@@ -878,10 +980,12 @@
       "D": "fratura vertebral.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q053",
@@ -895,16 +999,18 @@
       "D": "A paciente deve realizar hemograma completo e, caso o resultado indique neutrófilos < 1 000/mm³, a investigação deve prosseguir com hemocultura, com provas inflamatórias e com hemocultura de cateter central.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q054",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 54,
-    "enunciado": "Duas gestantes procuram atendimento na emergência da maternidade: Paciente X, de 17 anos, primigesta; realizou quatro consultas no pré-natal da unidade básica de saúde, onde não foi feita cultura para pesquisa do estreptococo do grupo B (EGB). A paciente comparece à maternidade com perda líquida desde o dia anterior; sem outras queixas. Sua idade gestacional calculada p e l a u l t r a s s o n o g r a f i a é d e 3 5 s e m a n a s e 5 d i a s e o o b s t e t r a confirmou amniorrexe no exame especular. Paciente Y, de 31 anos, tercigesta, com duas cesarianas anteriores; apresenta hipertensão crônica controlada com metildopa 1g/dia. A paciente realizou, no pré-natal de alto risco, cultura para EGB com 36 semanas e o resultado foi negativo. Ela comparece à maternidade sem queixas, pois foi encaminhada pela obstetra para cesariana eletiva com 39 semanas. Com relação aos casos apresentados, é correto afirmar que a antibioticoprofilaxia intraparto com a finalidade de prevenir a doença neonatal de início precoce por estreptococo do grupo B é obrigatória",
+    "enunciado": "Duas gestantes procuram atendimento na emergência da maternidade: Paciente X, de 17 anos, primigesta; realizou quatro consultas no pré-natal da unidade básica de saúde, onde não foi feita cultura para pesquisa do estreptococo do grupo B (EGB). A paciente comparece à maternidade com perda líquida desde o dia anterior; sem outras queixas. Sua idade gestacional calculada pela ultrassonografia é de 35 semanas e 5 dias e o obstetra confirmou amniorrexe no exame especular. Paciente Y, de 31 anos, tercigesta, com duas cesarianas anteriores; apresenta hipertensão crônica controlada com metildopa 1g/dia. A paciente realizou, no pré-natal de alto risco, cultura para EGB com 36 semanas e o resultado foi negativo. Ela comparece à maternidade sem queixas, pois foi encaminhada pela obstetra para cesariana eletiva com 39 semanas. Com relação aos casos apresentados, é correto afirmar que a antibioticoprofilaxia intraparto com a finalidade de prevenir a doença neonatal de início precoce por estreptococo do grupo B é obrigatória",
     "alternativas": {
       "A": "apenas na paciente Y, pois, apesar de a cultura realizada para EGB ser negativa, a paciente é multípara e hipertensa.",
       "B": "em ambas as pacientes, pois elas possuem fatores de risco para doença neonatal de início precoce por estreptococo do grupo B.",
@@ -912,10 +1018,12 @@
       "D": "em nenhuma das pacientes, pois ambas não possuem fatores de risco para doença neonatal de início precoce por estreptococo do grupo B.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q055",
@@ -929,16 +1037,18 @@
       "D": "universalidade e de coordenação do cuidado, uma vez que o paciente “menos doente” ou com menores necessidades de cuidados está no final da fila.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q056",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 56,
-    "enunciado": "Um homem de 65 anos, trabalhador rural, procura atendimento em uma unidade de atenção primária à saúde por queixa de dor n a r e g i ã o l o m b a r e s q u e r d a i n i c i a d a h á 1 m ê s . A d o r v e m piorando progressivamente e, nos últimos dias, tem impossibilitado o sono reparador do paciente. Sua esposa se queixa de que as calças do marido estão com cheiro de urina ultimamente. Ao exame, o paciente está lúcido, colaborativo e as mucosas estão úmidas e hipocoradas. Há retificação da coluna lombar, espasmo muscular localizado e dor à palpação delicada das apófises vertebrais de L2 e L3. As manobras de elevação do membro inferior esquerdo estendido (Lasègue) e do membro inferior direito estendido (Lasègue cruzado) não reproduzem a dor. Como o paciente se queixa de dor com o decúbito ventral, o sinal de Lasègue invertido (Wasserman) foi pesquisado em pé. A extensão das coxas com o paciente em ortostatismo também não provocaram dor. Em relação a essa situação, assinale a opção que apresenta, r e s p e c t i v a m e n t e , o d i a g n ó s t i c o c l í n i c o c o r r e t o e a c o n d u t a médica apropriada.",
+    "enunciado": "Um homem de 65 anos, trabalhador rural, procura atendimento em uma unidade de atenção primária à saúde por queixa de dor na região lombar esquerda iniciada há 1 mês.A dor vem piorando progressivamente e, nos últimos dias, tem impossibilitado o sono reparador do paciente. Sua esposa se queixa de que as calças do marido estão com cheiro de urina ultimamente. Ao exame, o paciente está lúcido, colaborativo e as mucosas estão úmidas e hipocoradas. Há retificação da coluna lombar, espasmo muscular localizado e dor à palpação delicada das apófises vertebrais de L2 e L3. As manobras de elevação do membro inferior esquerdo estendido (Lasègue) e do membro inferior direito estendido (Lasègue cruzado) não reproduzem a dor. Como o paciente se queixa de dor com o decúbito ventral, o sinal de Lasègue invertido (Wasserman) foi pesquisado em pé. A extensão das coxas com o paciente em ortostatismo também não provocaram dor. Em relação a essa situação, assinale a opção que apresenta, respectivamente, o diagnóstico clínico correto e a conduta médica apropriada.",
     "alternativas": {
       "A": "Dor lombar musculoesquelética; prescrever anti-inflamatórios.",
       "B": "Dor lombar por radiculopatia; encaminhar paciente para o neurocirurgião.",
@@ -946,10 +1056,12 @@
       "D": "Dor lombar postural relacionada à profissão; recomendar repouso e solicitar fisioterapia.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q057",
@@ -963,10 +1075,12 @@
       "D": "solicitar ultrassonografia de parede abdominal para confirmação diagnóstica e para planejamento cirúrgico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q058",
@@ -983,7 +1097,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q059",
@@ -997,10 +1113,12 @@
       "D": "otimizar a analgesia da paciente e mantê-la em observação para acompanhamento da sintomatologia e dos níveis pressóricos, até exclusão de alterações em seus exames complementares.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q060",
@@ -1014,10 +1132,12 @@
       "D": "solicitação de testes diagnósticos; e encaminhamento para atendimento especializado em centro de referência em doenças infecciosas se o teste confirmar alguma doença, sendo que a notificação será feita no centro de referência.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q061",
@@ -1031,10 +1151,12 @@
       "D": "tomografia computadorizada do pescoço.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q062",
@@ -1048,10 +1170,12 @@
       "D": "traqueostomia.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q063",
@@ -1065,10 +1189,12 @@
       "D": "taquipneia transitória do recém-nascido.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q064",
@@ -1082,10 +1208,12 @@
       "D": "O uso de ácido tranexâmico por via endovenosa pelo menos 1 hora após o início da ocitocina é indicado, sobretudo se não houver resposta às drogas uterotônicas.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q065",
@@ -1099,10 +1227,12 @@
       "D": "sem resistência à rifampicina e aguardar o resultado da cultura de escarro e encaminhar o paciente para a referência terciária para tratamento com esquema básico, devido à impossibilidade de realizar tratamento diretamente observado para a pessoa em situação de rua.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q066",
@@ -1116,10 +1246,12 @@
       "D": "febre amarela; sorologia IgM para febre amarela.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q067",
@@ -1136,7 +1268,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q068",
@@ -1150,10 +1284,12 @@
       "D": "realizar a vacinação das crianças nessa mesma visita, contrariando a opinião dos pais, pois, do ponto de vista da proteção à criança, negar-lhes a vacinação pode ser considerado negligência.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q069",
@@ -1167,10 +1303,12 @@
       "D": "É permitida a mudança de acompanhante ao longo do processo de trabalho de parto, do parto e do pós-parto.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q070",
@@ -1184,10 +1322,12 @@
       "D": "3 doses da pentavalente, 2 doses de febre amarela, 2 doses de tríplice viral, 2 doses de HPV e 2 doses de meningocócica C.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q071",
@@ -1201,10 +1341,12 @@
       "D": "mieloma múltiplo; mielograma.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q072",
@@ -1218,10 +1360,12 @@
       "D": "abscesso perianal com sinais flogísticos e drenagem de secreção local.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q073",
@@ -1238,7 +1382,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q074",
@@ -1252,10 +1398,12 @@
       "D": "prescrever antiespasmódico para a gestante e referenciá-la para uma avaliação de urgência no pronto socorro obstétrico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q075",
@@ -1266,13 +1414,15 @@
       "A": "Verificar os cuidados com o coto umbilical nas crianças menores de 28 dias de idade; identificar possíveis dificuldades em relação ao aleitamento materno; orientar pais sobre alimentação de crianças abaixo do percentil +3 no gráfico de peso para idade.",
       "B": "Verificar as condições de higiene e a presença de assaduras em menores de 28 dias de idade; oferecer orientações alimentares para pais de crianças obesas; orientar sobre uso de medicamentos para controle de sintomas leves após aplicação de vacinas.",
       "C": "Verificar se o teste do pezinho, a vacinação BCG e a vacinação contra hepatite B foram realizados em crianças até 28 dias de idade; avaliar sinais que indicam violência em crianças de todas as idades; verificar se a família está inscrita no Programa Bolsa Família.",
-      "D": "Verificar o peso e o comprimento das crianças de até 1 ano d e i d a d e e a n o t a r o s v a l o r e s n a c a d e r n e t a d e s a ú d e d a criança; encaminhar para a unidade básica de saúde as crianças sem a cicatriz da vacina BCG após 4 meses da aplicação da vacina; verificar se a família está inscrita no Programa Bolsa Família.",
+      "D": "Verificar o peso e o comprimento das crianças de até 1 ano de idade e anotar os valores na caderneta de saúde da criança; encaminhar para a unidade básica de saúde as crianças sem a cicatriz da vacina BCG após 4 meses da aplicação da vacina; verificar se a família está inscrita no Programa Bolsa Família.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q076",
@@ -1286,10 +1436,12 @@
       "D": "administrar lidocaína endovenosa.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q077",
@@ -1303,10 +1455,12 @@
       "D": "insuficiência venosa crônica.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q078",
@@ -1320,10 +1474,12 @@
       "D": "O enema opaco com retenção do bário, de 24 a 36 horas após o exame, sugere o diagnóstico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q079",
@@ -1337,16 +1493,18 @@
       "D": "cefálico, dorso à esquerda e altura uterina adequada para a idade gestacional.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q080",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 80,
-    "enunciado": "Um homem de 52 anos é atendido em uma unidade básica de saúde de uma área periférica de um município de médio porte. Há 4 dias, vem apresentando quadro de febre, calafrios, dores musculares e náuseas. No dia anterior à consulta, apresentou melhora dos sintomas, porém, há 12 horas, refere recrudescimento da febre, que chegou a 39,5 °C, acompanhada por náuseas, vômitos, diarreia, icterícia e por dois episódios de e p i s t a x e . A e s p o s a r e f e r e q u e e l e t e m o h á b i t o d e a l i m e n t a r macacos em uma mata perto da residência e que, nas últimas semanas, alguns haviam aparecido mortos. A vigilância epidemiológica havia divulgado informe de ocorrência de epizootia em primatas não humanos na região. O médico, diante disso, solicita a internação do paciente para investigação por suspeita de febre amarela. Com base nessas informações, é correto afirmar que, para conduzir a investigação epidemiológica de maneira adequada, deve-se realizar a notificação imediata de caso",
+    "enunciado": "Um homem de 52 anos é atendido em uma unidade básica de saúde de uma área periférica de um município de médio porte. Há 4 dias, vem apresentando quadro de febre, calafrios, dores musculares e náuseas. No dia anterior à consulta, apresentou melhora dos sintomas, porém, há 12 horas, refere recrudescimento da febre, que chegou a 39,5 °C, acompanhada por náuseas, vômitos, diarreia, icterícia e por dois episódios de epistaxe.A esposa refere que ele tem o hábito de alimentar macacos em uma mata perto da residência e que, nas últimas semanas, alguns haviam aparecido mortos. A vigilância epidemiológica havia divulgado informe de ocorrência de epizootia em primatas não humanos na região. O médico, diante disso, solicita a internação do paciente para investigação por suspeita de febre amarela. Com base nessas informações, é correto afirmar que, para conduzir a investigação epidemiológica de maneira adequada, deve-se realizar a notificação imediata de caso",
     "alternativas": {
       "A": "confirmado de febre amarela silvestre por vínculo epidemiológico, já que o paciente apresenta sinais e sintomas sugestivos em área com epizootia em primatas não humanos.",
       "B": "suspeito de febre amarela silvestre e pesquisar anticorpos IgM pela técnica de ELISA a partir do 7.º dia do início dos sintomas, se o paciente não for vacinado contra a doença.",
@@ -1354,10 +1512,12 @@
       "D": "suspeito de febre amarela silvestre e pesquisar anticorpos IgM pela técnica ELISA a partir do 10.º dia do início dos sintomas, independentemente de o paciente possuir vacinação prévia contra a doença.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q081",
@@ -1371,10 +1531,12 @@
       "D": "penicilina cristalina.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q082",
@@ -1388,16 +1550,18 @@
       "D": "fratura transversa do elemento posterior da segunda vértebra cervical (corpo do Axis) em sua parte interarticular.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q083",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 83,
-    "enunciado": "Um recém-nascido a termo, com 38 semanas e 3 dias de idade gestacional, com Apgar de 8/9, parto sem intercorrências, peso de nascimento de 3 200 g, com 18 horas de vida, ainda na maternidade, apresenta quadro de icterícia que acomete cabeça e tronco, estendendo-se até a raiz dos membros. A mãe tem tipo sanguíneo O negativo e a criança A negativo. Os exames colhidos mostram bilirrubina total de 19,4 mg/dL, c o m b i l i r r u b i n a d i r et a d e 0 , 9 m g /d L e i n d i r et a d e 1 8 , 5 m g /d L (valor de referência de bilirrubina total para a idade gestacional: < 10 mg/dL). A respeito desse quadro, assinale a opção que apresenta o diagnóstico e a conduta adequados.",
+    "enunciado": "Um recém-nascido a termo, com 38 semanas e 3 dias de idade gestacional, com Apgar de 8/9, parto sem intercorrências, peso de nascimento de 3 200 g, com 18 horas de vida, ainda na maternidade, apresenta quadro de icterícia que acomete cabeça e tronco, estendendo-se até a raiz dos membros. A mãe tem tipo sanguíneo O negativo e a criança A negativo. Os exames colhidos mostram bilirrubina total de 19,4 mg/dL, com bilirrubina direta de0,9 mg/dL eindireta de18,5 mg/dL (valor de referência de bilirrubina total para a idade gestacional: < 10 mg/dL). A respeito desse quadro, assinale a opção que apresenta o diagnóstico e a conduta adequados.",
     "alternativas": {
       "A": "Icterícia moderada; por ser um recém-nascido a termo e sem incompatibilidade sanguínea, deve ser colocado em fototerapia e deve ser colhida nova bilirrubina com 12 horas e, caso haja redução dos valores, é preciso avaliar a sua retirada da fototerapia e alta em 24 horas.",
       "B": "Icterícia grave; há indicação de exsanguineotransfusão; ele deve ser colocado imediatamente em fototerapia e é preciso solicitar nova bilirrubina em 2 a 3 horas, enquanto o material para exsanguineotransfusão é preparado.",
@@ -1405,10 +1569,12 @@
       "D": "Icterícia moderada, porém, sem incompatibilidade sanguínea; o risco de aumento nas próximas horas é baixo; ele deve ser colocado em fototerapia e nova bilirrubina deve ser colhida em 6 horas.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q084",
@@ -1422,10 +1588,12 @@
       "D": "incorreta, pois, nessa idade gestacional, pela imaturidade no equilíbrio dos sistemas simpático e parassimpático do feto, é alta a taxa de resultados falso-positivos.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q085",
@@ -1439,10 +1607,12 @@
       "D": "Núcleo de Saúde Coletiva — órgão consultivo — a fim de ampliar as ações coletivas de forma organizada e permanente, com impacto local de suas ações, tais como a organização da demanda por meio da implantação de uma nova equipe de saúde da família após a divisão do território de abrangência.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q086",
@@ -1456,10 +1626,12 @@
       "D": "Microalbuminúria com excreção de albumina superior a 30 mg por grama de creatinina.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q087",
@@ -1473,10 +1645,12 @@
       "D": "solicitar exame de imagem intracraniana, pois trata-se de suspeita de tumor que causa compressão retrorbitária.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q088",
@@ -1490,10 +1664,12 @@
       "D": "Ressonância magnética da coluna lombar.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q089",
@@ -1507,10 +1683,12 @@
       "D": "medida do diâmetro biparietal observada em ultrassonografia obstétrica realizada entre 14 e 17 semanas.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q090",
@@ -1524,10 +1702,12 @@
       "D": "Lombalgia inespecífica; indicar repouso e prescrever paracetamol ou anti-inflamatório não esteroidal.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q091",
@@ -1541,10 +1721,12 @@
       "D": "antibioticoterapia voltada basicamente à cobertura contra Gram-positivos multirresistentes.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q092",
@@ -1558,10 +1740,12 @@
       "D": "Trauma testicular; tomografia computadorizada da bolsa escrotal.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q093",
@@ -1578,13 +1762,15 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2023_2_q094",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 94,
-    "enunciado": "Uma paciente primigesta, de 33 anos, com idade gestacional de 29 semanas e 4 dias, está em tratamento para infecção u r i n á r i a e é a d m i t i d a e m t r a b a l h o d e p a r t o p r é - t e r m o . A paciente relata ser tabagista eventual e frequentar academia 3 vezes por semana com exercícios de Pilates e de hidroginástica desde os 30 anos. Em seu cartão de pré-natal, lê-se: índice de massa corporal de 30,4 kg/m 2, hemoglobina de 9 g/dL e hematócrito de 32%. A partir das informações coletadas acerca dessa paciente, quais são fatores de risco identificados para trabalho de parto pré-termo?",
+    "enunciado": "Uma paciente primigesta, de 33 anos, com idade gestacional de 29 semanas e 4 dias, está em tratamento para infecção urinária e é admitida em trabalho de parto pré-termo. A paciente relata ser tabagista eventual e frequentar academia 3 vezes por semana com exercícios de Pilates e de hidroginástica desde os 30 anos. Em seu cartão de pré-natal, lê-se: índice de massa corporal de 30,4 kg/m 2, hemoglobina de 9 g/dL e hematócrito de 32%. A partir das informações coletadas acerca dessa paciente, quais são fatores de risco identificados para trabalho de parto pré-termo?",
     "alternativas": {
       "A": "Tabagismo e prática de atividade física.",
       "B": "Infecção urinária e idade materna.",
@@ -1592,10 +1778,12 @@
       "D": "Idade materna e anemia.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q095",
@@ -1609,10 +1797,12 @@
       "D": "na assistência em clínica de operadora de plano de saúde ou em consultório particular, atuando no modelo assistencial com a coordenação de cuidados pela atenção primária à saúde, garantindo a integralidade e longitudinalidade do cuidado.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q096",
@@ -1626,27 +1816,31 @@
       "D": "Tuberculose pulmonar; aguardar resultado de cultura de M. tuberculosis.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q097",
     "fonte": "Revalida 2023.2 — Prova Objetiva",
     "num": 97,
-    "enunciado": "Uma paciente de 28 anos procura unidade básica de saúde solicitando encaminhamento a um serviço de cirurgia bariátrica. Ela relata que desistiu de tratamentos conservadores após tentar emagrecer, sem sucesso, por mais de 10 meses, utilizando métodos farmacológicos e restrição calórica. Também relata que sua vizinha foi submetida à cirurgia b a r i á t r i c a c o m m e n o s p e s o q u e e l a e q u e p e r d e u 3 0 k g em 6 meses, com grande ganho de qualidade de vida. A paciente tem 1,62 m de altura e peso de 112 kg. É portadora de hipertensão arterial sistêmica, a qual é controlada com losartana 100 mg/dia, e diabetes melittus tipo 2, com uso de dapagliflozina 10 mg/dia e de metformina 1 g/dia. Além disso, faz uso de rosuvastatina 20 mg/dia para tratamento de dispilidemia e apresenta amenorreia. Ela também é tabagista e sedentária e revela que sofre de depressão. Diante dessa demanda da paciente, assinale a opção que apresenta a conduta médica adequada.",
+    "enunciado": "Uma paciente de 28 anos procura unidade básica de saúde solicitando encaminhamento a um serviço de cirurgia bariátrica. Ela relata que desistiu de tratamentos conservadores após tentar emagrecer, sem sucesso, por mais de 10 meses, utilizando métodos farmacológicos e restrição calórica. Também relata que sua vizinha foi submetida à cirurgia bariátrica com menos peso que ela e que perdeu 30 kg em 6 meses, com grande ganho de qualidade de vida. A paciente tem 1,62 m de altura e peso de 112 kg. É portadora de hipertensão arterial sistêmica, a qual é controlada com losartana 100 mg/dia, e diabetes melittus tipo 2, com uso de dapagliflozina 10 mg/dia e de metformina 1 g/dia. Além disso, faz uso de rosuvastatina 20 mg/dia para tratamento de dispilidemia e apresenta amenorreia. Ela também é tabagista e sedentária e revela que sofre de depressão. Diante dessa demanda da paciente, assinale a opção que apresenta a conduta médica adequada.",
     "alternativas": {
       "A": "Orientar a paciente sobre a necessidade de acompanhamento multidisciplinar e encorajá-la a continuar com a abordagem conservadora, pois a indicação da cirurgia acontece após tentar emagrecer, sob supervisão médica, por 5 meses em um período de 2 anos.",
       "B": "Encaminhar a paciente ao serviço cirúrgico, o qual lhe esclarecerá sobre a necessidade de mudanças nos hábitos de vida e, considerando o impacto permanente da cirurgia, serão apresentadas e discutidas as técnicas cirúrgicas tanto com a paciente quanto com a família.",
-      "C": "Informar à paciente sobre os critérios de indicação de cirurgia bariátrica, como IMC > 40 Kg/m 2 e p r e s e n ç a d e comorbidades, e encaminhá-la à equipe multidisciplinar para traçar plano de cuidados individualizado e estratégia conservadora com acompanhamento semanal.",
+      "C": "Informar à paciente sobre os critérios de indicação de cirurgia bariátrica, como IMC > 40 Kg/m 2e presença de comorbidades, e encaminhá-la à equipe multidisciplinar para traçar plano de cuidados individualizado e estratégia conservadora com acompanhamento semanal.",
       "D": "Esclarecer à paciente que as comorbidades são fatores de contraindicação à cirurgia e encaminhá-la à equipe multidisciplinar para estabilização e adequação de medicações, além de elaboração de um plano individual de cuidados que inclua antidepressivo na abordagem farmacológica.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q098",
@@ -1660,10 +1854,12 @@
       "D": "eletroencefalograma em sono induzido.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q099",
@@ -1677,10 +1873,12 @@
       "D": "preciso realizar, ao menos, um teste diagnóstico imunocromático ou avaliação de cristalização do conteúdo vaginal ao microscópio para fazer o diagnóstico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2023_2_q100",
@@ -1694,10 +1892,12 @@
       "D": "repetir o TR para confirmar sífilis; oferecer sorologias para outras IST; repetir o TR para HIV em 30 dias; aconselhamento pós-teste, notificar e iniciar benzatina 2,4 milhões dose única associada à doxiciclina 100mg de 12/12h por 15 dias.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q001",
@@ -1711,10 +1911,12 @@
       "D": "Nefrolitíase complicada com ITU; iniciar antibiótico após resultado de urocultura.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q002",
@@ -1728,10 +1930,12 @@
       "D": "Ultrassonografia de abdome e pelve.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q003",
@@ -1745,10 +1949,12 @@
       "D": "Xeroftalmia; solicitar dosagem de vitamina A do paciente com urgência.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q004",
@@ -1762,10 +1968,12 @@
       "D": "Abortamento em evolução; explicar com linguagem acessível o quadro, orientando que pode optar por aspiração manual intrauterina (AMIU) / curetagem ou conduta expectante.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q005",
@@ -1779,10 +1987,12 @@
       "D": "Universalidade.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q006",
@@ -1796,10 +2006,12 @@
       "D": "Varicela-zóster.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q007",
@@ -1816,13 +2028,15 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2024_1_q008",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 8,
-    "enunciado": "Um menino com 2 anos é trazido à emergência com queixa de febre e de crise convulsiva tônico-clônica generalizada com liberação esfincteriana, a qual foi observada em domicílio. Segundo a mãe do paciente, a crise convulsiva durou cerca de 7 minutos. Ao chegar à emergência, o menino estava, ainda, com uma temperatura axilar de 38,5 °C. Depois de cerca de 1 hora do término da crise, verificou-se que a criança estava ativa e reativa, interagindo, com pupilas isocóricas e fotorreagentes, sem sinais meníngeos, eupneica, normocárdica e sem febre, após ministração de medicação antitérmica. A m ã e a l e g a q u e s e u f i l h o n u n c a t e v e p r o b l e m a s d e s a ú d e e nega crises anteriores. Diante do quadro descrito, assinale a opção que contém, respectivamente, o diagnóstico e a conduta médica apropriada para o caso.",
+    "enunciado": "Um menino com 2 anos é trazido à emergência com queixa de febre e de crise convulsiva tônico-clônica generalizada com liberação esfincteriana, a qual foi observada em domicílio. Segundo a mãe do paciente, a crise convulsiva durou cerca de 7 minutos. Ao chegar à emergência, o menino estava, ainda, com uma temperatura axilar de 38,5 °C. Depois de cerca de 1 hora do término da crise, verificou-se que a criança estava ativa e reativa, interagindo, com pupilas isocóricas e fotorreagentes, sem sinais meníngeos, eupneica, normocárdica e sem febre, após ministração de medicação antitérmica. A mãe alega que seu filho nunca teve problemas de saúde e nega crises anteriores. Diante do quadro descrito, assinale a opção que contém, respectivamente, o diagnóstico e a conduta médica apropriada para o caso.",
     "alternativas": {
       "A": "Convulsão febril simples; realizar, diante do quadro febril, tomografia computadorizada e punção lombar.",
       "B": "Convulsão febril complexa; realizar internação hospitalar e eletroencefalograma para investigar o quadro febril.",
@@ -1830,10 +2044,12 @@
       "D": "Convulsão febril complexa; realizar internação hospitalar e ressonância magnética para investigar o quadro febril.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q009",
@@ -1847,10 +2063,12 @@
       "D": "Complementação com ultrassonografia.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q010",
@@ -1864,10 +2082,12 @@
       "D": "monitorar pressão arterial, frequência cardíaca e saturação de oxigênio, ministrar 300 mg de ácido acetilsalicílico e encaminhar o paciente para o serviço de urgência imediatamente.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q011",
@@ -1881,10 +2101,12 @@
       "D": "teste de iodo radioativo mostrando elevada captação pela tireoide e cintilografia mostrando distribuição difusa de radiomarcador no parênquima da glândula.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q012",
@@ -1898,10 +2120,12 @@
       "D": "Orquiepididimite; exploração de bolsa escrotal.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q013",
@@ -1915,10 +2139,12 @@
       "D": "sigmoidectomia abdominoperineal com colostomia definitiva.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q014",
@@ -1932,10 +2158,12 @@
       "D": "a USG obstétrica morfológica do segundo trimestre foi solicitada no momento incorreto.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q015",
@@ -1949,10 +2177,12 @@
       "D": "Verruga viral; aplicação de ácido tricloroacético (ATA) 80% ou de nitrogênio líquido na UBS.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q016",
@@ -1966,10 +2196,12 @@
       "D": "Cefaleia por malformação vascular; encaminhar à neurologia.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q017",
@@ -1986,7 +2218,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2024_1_q018",
@@ -2000,10 +2234,12 @@
       "D": "realizar ventilação não invasiva com concentração de oxigênio necessária para manter saturação de O 2 igual ou acima de 95% e solicitar radiografia de tórax.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q019",
@@ -2017,10 +2253,12 @@
       "D": "A paciente deve ser orientada a retornar em 3 dias (41 semanas pela data da última menstruação), pois os exames mostram sinais de bem-estar fetal.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q020",
@@ -2034,10 +2272,12 @@
       "D": "orientar acerca de estilo de vida, pois a criança se encontra com sobrepeso, apesar de estar com estatura adequada.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q021",
@@ -2051,10 +2291,12 @@
       "D": "Esclerose Lateral Amiotrófica.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q022",
@@ -2068,16 +2310,18 @@
       "D": "Curativo e adaptação de calçado.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q023",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 23,
-    "enunciado": "Um lactente com 1 mês e 15 dias é trazido pela mãe ao pronto atendimento, a qual relata que seu filho vem apresentando vômitos intensos, em jato e de conteúdo leitoso. Ela nega haver febre associada ao quadro e alega que a criança sempre teve muito refluxo e que os sintomas se intensificaram há 2 semanas. A mãe tem ministrado sintomáticos nos últimos 10 dias, sem melhora, notando que o bebê tem perdido peso. Ao exame, o paciente encontra-se desidratado e sonolento, com abdome escavado, com redução de tecido subcutâneo e com presença de pequena massa móvel palpável em epigástrio. Seus exames laboratoriais revelam gasometria venosa com pH de 7,58 (valor de referência - VR: 7,35 a 7,45); PCO 2 d e 41 mmHg (VR: 35 a 45 mmHg); pO 2 de 48,4 mmHg (VR: 80 a 100 mmHg); HCO 3 d e 3 6 m E q / L ( V R : 2 2 a 2 8 m E q / L ) ; B E d e +13,5 (VR: -3 a +3); sódio de 138 mEq/L (VR: 135 a 145 mEq/L); potássio de 3,0 mEq/L (VR: 3,5 a 5 mEq/L); e cloro de 80 mEq/L (VR: 95 a 105 mEq/L). Acerca do caso apresentado e das condutas a serem adotadas, assinale a opção correta.",
+    "enunciado": "Um lactente com 1 mês e 15 dias é trazido pela mãe ao pronto atendimento, a qual relata que seu filho vem apresentando vômitos intensos, em jato e de conteúdo leitoso. Ela nega haver febre associada ao quadro e alega que a criança sempre teve muito refluxo e que os sintomas se intensificaram há 2 semanas. A mãe tem ministrado sintomáticos nos últimos 10 dias, sem melhora, notando que o bebê tem perdido peso. Ao exame, o paciente encontra-se desidratado e sonolento, com abdome escavado, com redução de tecido subcutâneo e com presença de pequena massa móvel palpável em epigástrio. Seus exames laboratoriais revelam gasometria venosa com pH de 7,58 (valor de referência - VR: 7,35 a 7,45); PCO 2 d e 41 mmHg (VR: 35 a 45 mmHg); pO 2 de 48,4 mmHg (VR: 80 a 100 mmHg); HCO 3de 36 mEq/L (VR: 22 a 28 mEq/L); BE de +13,5 (VR: -3 a +3); sódio de 138 mEq/L (VR: 135 a 145 mEq/L); potássio de 3,0 mEq/L (VR: 3,5 a 5 mEq/L); e cloro de 80 mEq/L (VR: 95 a 105 mEq/L). Acerca do caso apresentado e das condutas a serem adotadas, assinale a opção correta.",
     "alternativas": {
       "A": "O lactente deve ser estabilizado clinicamente e encaminhado para o procedimento de piloromiotomia.",
       "B": "O lactente deve ser estabilizado clinicamente e encaminhado para realização de cirurgia de fundoplicatura.",
@@ -2085,10 +2329,12 @@
       "D": "O lactente deve ter a alimentação complementada com fórmula de aminoácidos própria para idade e a mãe deve suspender leite e derivados da dieta do filho.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q024",
@@ -2102,10 +2348,12 @@
       "D": "Emergência hipertensiva; internar a paciente para prescrição de sulfato de magnésio e anti-hipertensivos de ação rápida e interromper a gestação assim que o quadro clínico for estabilizado",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q025",
@@ -2119,10 +2367,12 @@
       "D": "Administração de antibióticos via oral, prescrição de medicamentos para reduzir trânsito intestinal, indicação de dieta adequada, agendamento de retorno para o dia seguinte e notificação, caso a criança não melhore clinicamente.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q026",
@@ -2136,10 +2386,12 @@
       "D": "compressões torácicas de pelo menos 5 centímetros de profundidade, com frequência de 100 a 120 por minuto, seguidas de abertura das vias aéreas e ventilação.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q027",
@@ -2153,10 +2405,12 @@
       "D": "Radiografia de tórax para decisão de conduta e estabilização hemodinâmica.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q028",
@@ -2170,10 +2424,12 @@
       "D": "aplicar a vacina BCG e hepatite b.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q029",
@@ -2187,10 +2443,12 @@
       "D": "A prescrição de levotiroxina somente deverá se iniciar após as 12 semanas de gestação, pois, se administrada antes, a molécula atravessa a barreira placentária e pode inibir o desenvolvimento embriológico da tireoide fetal.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q030",
@@ -2204,10 +2462,12 @@
       "D": "Encaminhamento dos fumantes para o nível de maior densidade tecnológica, considerando o difícil controle do tabagismo e a necessidade de melhores estratégias para essa ação.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q031",
@@ -2221,10 +2481,12 @@
       "D": "Teste de Coombs.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q032",
@@ -2238,10 +2500,12 @@
       "D": "Não administrar dose de reforço de vacina antitetânica e não indicar o uso de soro antitetânico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q033",
@@ -2255,10 +2519,12 @@
       "D": "candidíase neonatal.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q034",
@@ -2272,16 +2538,18 @@
       "D": "não iniciar tratamento e solicitar nova sorologia (IGG e IGM) em seis a oito semanas e, se IGG positivar, iniciar espiramicina.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q035",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 35,
-    "enunciado": "Um homem com 47 anos vai à unidade básica de saúde r e l a t a n d o c a s o d e h e m a t ê m e s e e d e m e l e n a . E l e n e g a constipação, mas relata episódios de dor abdominal esporádica, com empachamento. O paciente é natural e procedente do interior da Bahia e exerce a profissão de marceneiro. Durante a consulta, relata que toma banho em rios onde habitam caramujos. Ao exame físico, nota-se que o paciente está em regular estado geral, hipocorado (2+/4+) e ictérico (1+/4+). Considerando a suspeita diagnóstica e a provável fase da doença em que o paciente se encontra, devem ser solicitados, inicialmente, quais exames complementares?",
+    "enunciado": "Um homem com 47 anos vai à unidade básica de saúde relatando caso de hematêmese e de melena.Ele nega constipação, mas relata episódios de dor abdominal esporádica, com empachamento. O paciente é natural e procedente do interior da Bahia e exerce a profissão de marceneiro. Durante a consulta, relata que toma banho em rios onde habitam caramujos. Ao exame físico, nota-se que o paciente está em regular estado geral, hipocorado (2+/4+) e ictérico (1+/4+). Considerando a suspeita diagnóstica e a provável fase da doença em que o paciente se encontra, devem ser solicitados, inicialmente, quais exames complementares?",
     "alternativas": {
       "A": "Endoscopia digestiva alta; reação intradérmica; e pesquisa de ovos do parasita nas fezes.",
       "B": "Ultrassonografia abdominal; endoscopia digestiva alta; e pesquisa de ovos do parasita nas fezes.",
@@ -2289,10 +2557,12 @@
       "D": "Radiografia de tórax; sorologia por ensaio imunoenzimático (Elisa); e PCR no sangue para a detecção do DNA do parasita.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q036",
@@ -2306,10 +2576,12 @@
       "D": "Leptospirose.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q037",
@@ -2323,10 +2595,12 @@
       "D": "punção percutânea de veia jugular para infusão endovenosa de solução isotônica aquecida.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q038",
@@ -2340,10 +2614,12 @@
       "D": "Hipotireoidismo com atraso de desenvolvimento; pedir exames de TSH e T4.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q039",
@@ -2357,10 +2633,12 @@
       "D": "indicar histerectomia total com anexectomia bilateral.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q040",
@@ -2368,16 +2646,18 @@
     "num": 40,
     "enunciado": "Uma gestante com 27 anos, G2PC1A0, com idade gestacional de 12 semanas, vai à consulta de pré-natal na unidade básica de saúde para mostrar os resultados dos exames de 1º trimestre, os quais podem ser vistos a seguir. Anti-HIV: não reagente; HBsAg: não reagente; anti-HCV: não reagente; teste treponêmico para sífilis: reagente com VDRL 1/32; toxoplasmose: IgG positivo e IgM negativo; glicemia de jejum: 76 mg/dL; tipagem sanguínea: A-; Hb = 10,5 mg/dL; Urocultura negativa. A paciente relatou para o médico que ainda não havia realizado a ultrassonografia de primeiro trimestre e que não possui sorologias prévias. Seu exame físico apresentou-se sem alterações. Diante dessas informações, assinale a opção que apresenta a conduta médica adequada para o caso dessa gestante.",
     "alternativas": {
-      "A": "Prescrever penicilina benzatina 2,4 milhões UI a cada 7 dias, por 3 semanas, e solicitar VDRL de controle mensalmente; iniciar sulfato ferroso com 4 comprimidos por dia e repetir hemograma em 60 dias; solicitar coombs i n d i r e t o mensalmente e, se negativo, realizar imunoglobulina anti-D no pós-parto, se recém-nascido Rh+.",
+      "A": "Prescrever penicilina benzatina 2,4 milhões UI a cada 7 dias, por 3 semanas, e solicitar VDRL de controle mensalmente; iniciar sulfato ferroso com 4 comprimidos por dia e repetir hemograma em 60 dias; solicitar coombs indireto mensalmente e, se negativo, realizar imunoglobulina anti-D no pós-parto, se recém-nascido Rh+.",
       "B": "Prescrever penicilina benzatina 2,4 milhões UI, dose única, e solicitar VDRL de controle trimestralmente; iniciar sulfato ferroso com 4 comprimidos por dia e repetir hemograma no 3º trimestre; solicitar coombs indireto no 2º e 3º trimestres e, se negativo, realizar imunoglobulina anti-D até 72 horas após o parto, se recém-nascido Rh-.",
-      "C": "Prescrever penicilina benzatina 2,4 milhões UI a cada 7 dias, por 3 semanas, e solicitar VDRL de controle trimestralmente; iniciar sulfato ferroso com 1 comprimido por dia profilático; solicitar teste de avidez para toxoplasmose IgG; solicitar coombs i n d i r e t o n o 3º trimestre para realizar imunoglobulina anti-D com 28 semanas de gestação.",
+      "C": "Prescrever penicilina benzatina 2,4 milhões UI a cada 7 dias, por 3 semanas, e solicitar VDRL de controle trimestralmente; iniciar sulfato ferroso com 1 comprimido por dia profilático; solicitar teste de avidez para toxoplasmose IgG; solicitar coombs indireto no 3º trimestre para realizar imunoglobulina anti-D com 28 semanas de gestação.",
       "D": "Prescrever penicilina benzatina 2,4 milhões UI a cada 7 dias, por 2 semanas, e solicitar VDRL de controle mensalmente; iniciar sulfato ferroso com 1 comprimido por dia profilático com 20 semanas de gestação; solicitar teste de tolerância à glicose; solicitar coombs indireto mensalmente e, se positivo, realizar imunoglobulina anti-D com 28 semanas de gestação.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q041",
@@ -2391,10 +2671,12 @@
       "D": "síndrome do intestino irritável.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q042",
@@ -2408,10 +2690,12 @@
       "D": "Prescrever penicilina benzatina 1.200.000 UI IM em cada glúteo.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q043",
@@ -2420,7 +2704,7 @@
     "enunciado": "Um lactente com 2 anos, previamente hígido, é levado à unidade de pronto atendimento com quadro de diarreia, com fezes líquidas sem muco ou sangue. Além disso, apresenta vômitos e febre há 48 horas. Ao exame físico, o paciente está sonolento, hipotônico, com olhos fundos, mucosas secas e ausência de lágrimas. O pulso está débil e o enchimento capilar é > 5 segundos. Nesse caso, qual tratamento inicial deve ser ministrado, segundo o fluxograma do Ministério da Saúde do Brasil de 2023?",
     "alternativas": {
       "A": "Solução de reidratação oral de 50 a 100 mL/kg por via oral, por um período de 4 a 6 horas.",
-      "B": "S o l u ç ã o d e r e i d r a t a ç ã o o r a l d e 5 0 a 1 0 0 m L / k g p o r gastróclise, por um período de 4 a 6 horas.",
+      "B": "Solução de reidratação oral de 50 a 100 mL/kg por gastróclise, por um período de 4 a 6 horas.",
       "C": "Soro fisiológico a 0,9% 30 mL/kg por via endovenosa; em 30 minutos, administrar + Ringer Lactato 30 mL/kg em 2 horas.",
       "D": "Soro fisiológico a 0,9% 20 mL/kg por via endovenosa; em 30 minutos, repetir essa quantidade até que a criança esteja hidratada.",
       "E": null
@@ -2428,7 +2712,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2024_1_q044",
@@ -2442,10 +2728,12 @@
       "D": "Rotura de cisto lúteo hemorrágico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q045",
@@ -2459,10 +2747,12 @@
       "D": "Iniciar uso de azitromicina 500 mg/dia e de amoxicilina + ácido clavulânico 875/125 mg de 12 em 12 horas, via oral, por 7 dias, em regime ambulatorial.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q046",
@@ -2476,10 +2766,12 @@
       "D": "manter o esquema de antibiótico e acompanhar a evolução clínica, considerando-se uma resposta lenta e favorável.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q047",
@@ -2493,10 +2785,12 @@
       "D": "apendicectomia laparoscópica; antibioticoterapia pré-operatória com cefazolina e metronidazol.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q048",
@@ -2510,10 +2804,12 @@
       "D": "aneurisma das artérias coronárias.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q049",
@@ -2527,10 +2823,12 @@
       "D": "prescrever ampicilina por via endovenosa para a gestante, se houver ruptura das membranas ovulares durante o trabalho de parto.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q050",
@@ -2547,7 +2845,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2024_1_q051",
@@ -2561,10 +2861,12 @@
       "D": "Manifestação cutânea de retocolite ulcerativa.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q052",
@@ -2578,10 +2880,12 @@
       "D": "cistite hemorrágica; ultrassonografia e urografia excretora.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q053",
@@ -2595,10 +2899,12 @@
       "D": "Coletar hemograma mensalmente e realizar acompanhamento com um hematologista pediátrico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q054",
@@ -2612,10 +2918,12 @@
       "D": "explicar que a família deve ser comunicada do ocorrido com a paciente e que, devido à idade, o tratamento é expectante, orientando que não serão necessários exames adicionais.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q055",
@@ -2629,16 +2937,18 @@
       "D": "O principal recurso de atenção à saúde da população indígena ainda é o sistema tradicional de saúde; já na população ribeirinha, as práticas tradicionais e os cuidadores locais foram abandonados e substituídos por medicina alopática.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q056",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 56,
-    "enunciado": "Durante uma visita domiciliar, o médico de família nota que a filha de 16 anos do casal visitado aparentava ser muito menor do que o vestido que usava. O casal concorda com a observação e afirma que a filha come pouco. A adolescente relata que não apresenta qualquer problema de saúde e que a p e n a s p r o c u r a s e c u i d a r f a z e n d o m u s c u l a ç ã o e c o r r i d a diariamente, além de seguir as dietas que estuda nas redes sociais. A mãe refere que, seguindo a dieta atual, a filha havia perdido 7 kg em 1 mês. A adolescente nega vomitar após as refeições ou quaisquer problemas, exceto o fato de não menstruar há 4 meses, negando também ser sexualmente ativa. Ao exame físico, verificam-se altura de 1,7 metros e peso de 45 kg. Observa-se ainda que o exame físico da adolescente não apresenta alterações, exceto aspecto emagrecido e palidez cutaneomucosa. Para esse caso clínico, o diagnóstico e o tratamento a serem considerados inicialmente são, respectivamente,",
+    "enunciado": "Durante uma visita domiciliar, o médico de família nota que a filha de 16 anos do casal visitado aparentava ser muito menor do que o vestido que usava. O casal concorda com a observação e afirma que a filha come pouco. A adolescente relata que não apresenta qualquer problema de saúde e que apenas procura se cuidar fazendo musculação e corrida diariamente, além de seguir as dietas que estuda nas redes sociais. A mãe refere que, seguindo a dieta atual, a filha havia perdido 7 kg em 1 mês. A adolescente nega vomitar após as refeições ou quaisquer problemas, exceto o fato de não menstruar há 4 meses, negando também ser sexualmente ativa. Ao exame físico, verificam-se altura de 1,7 metros e peso de 45 kg. Observa-se ainda que o exame físico da adolescente não apresenta alterações, exceto aspecto emagrecido e palidez cutaneomucosa. Para esse caso clínico, o diagnóstico e o tratamento a serem considerados inicialmente são, respectivamente,",
     "alternativas": {
       "A": "bulimia nervosa; bupropiona.",
       "B": "hipertireoidismo; propiltiuracil.",
@@ -2646,10 +2956,12 @@
       "D": "transtorno de purgação; metoclopramida.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q057",
@@ -2663,10 +2975,12 @@
       "D": "Cintilografia óssea da articulação coxofemoral; osteoartrose.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q058",
@@ -2680,10 +2994,12 @@
       "D": "glucagon e sódio.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q059",
@@ -2697,10 +3013,12 @@
       "D": "Sugerir terapia hormonal sistêmica com estradiol transdérmico e progesterona micronizada.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q060",
@@ -2714,10 +3032,12 @@
       "D": "80%.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q061",
@@ -2731,10 +3051,12 @@
       "D": "Transtorno depressivo com ataques de pânico.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q062",
@@ -2748,10 +3070,12 @@
       "D": "Biópsia cirúrgica ou aspiração por agulha fina.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q063",
@@ -2765,16 +3089,18 @@
       "D": "Oxigenioterapia, antibioticoterapia e broncodilatador.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q064",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 64,
-    "enunciado": "Uma mulher com 30 anos procura o médico na unidade básica de saúde e, em consulta, relata que, há 9 meses, parou de usar o anticoncepcional oral combinado e que não voltou a menstruar até o momento. Refere também uso desse método contraceptivo por 10 anos e aumento de pelos no corpo. O exame ginecológico, apresenta-se normal. No exame físico, verificam-se: índice de massa corporal de 27 kg/m 2; pressão arterial de 110 x 72 mmHg; cintura abdominal de 80 cm; acne e hirsutismo moderado. Os exames complementares apresentam os seguintes resultados: B e t a - h C G n e g a t i v o ; T S H = 2 , 5 m U I / L ( v a l o r d e r e f e r ê n c i a - V R : 0 , 3 a 4,0 UI/L); prolactina = 18 ng/mL (VR: < 31 ng/mL); FSH = 6 mUI/mL (VR: 2 a 30 mUI/mL). Diante do quadro clínico da paciente, o diagnóstico é de amenorreia secundária por",
+    "enunciado": "Uma mulher com 30 anos procura o médico na unidade básica de saúde e, em consulta, relata que, há 9 meses, parou de usar o anticoncepcional oral combinado e que não voltou a menstruar até o momento. Refere também uso desse método contraceptivo por 10 anos e aumento de pelos no corpo. O exame ginecológico, apresenta-se normal. No exame físico, verificam-se: índice de massa corporal de 27 kg/m 2; pressão arterial de 110 x 72 mmHg; cintura abdominal de 80 cm; acne e hirsutismo moderado. Os exames complementares apresentam os seguintes resultados: Beta-hCG negativo; TSH = 2,5 mUI/L (valor de referência - VR: 0,3 a 4,0 UI/L); prolactina = 18 ng/mL (VR: < 31 ng/mL); FSH = 6 mUI/mL (VR: 2 a 30 mUI/mL). Diante do quadro clínico da paciente, o diagnóstico é de amenorreia secundária por",
     "alternativas": {
       "A": "falência ovariana prematura.",
       "B": "hipogonadismo hipogonadotrófico.",
@@ -2782,10 +3108,12 @@
       "D": "anovulação crônica hiperandrogênica.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q065",
@@ -2799,16 +3127,18 @@
       "D": "inicie uso de antibiótico em domicilio, com visitas da equipe médica, e que mantenha o uso do emplastro.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q066",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 66,
-    "enunciado": "Um homem com 26 anos é levado por amigos para o pronto-socorro devido a palpitações, tonturas e mal-estar. Relata que a sintomatologia iniciou abruptamente há 2 horas. Os amigos c o n t a m q u e e s t a v a m c o m e l e e m u m a f e s t a e c o n f i r m a m consumo de bebida alcoólica, mas negam consumo de drogas ilícitas. O paciente nega episódios prévios ou comorbidades. Ao exame físico, apresenta-se com pulso irregular, com frequência cardíaca em torno de 123 bpm. A pressão arterial é de 118 x 68 mmHg e, à ausculta cardíaca, não apresenta sopros, mas verifica-se ritmo irregular, não se constatando outras alterações nesse exame. O eletrocardiograma mostra linha de base serrilhada, presença de onda F, intervalo RR irregular e frequência de 125 bpm. Nesse contexto, a abordagem desse paciente deve incluir",
+    "enunciado": "Um homem com 26 anos é levado por amigos para o pronto-socorro devido a palpitações, tonturas e mal-estar. Relata que a sintomatologia iniciou abruptamente há 2 horas. Os amigos contam que estavam com ele em uma festa e confirmam consumo de bebida alcoólica, mas negam consumo de drogas ilícitas. O paciente nega episódios prévios ou comorbidades. Ao exame físico, apresenta-se com pulso irregular, com frequência cardíaca em torno de 123 bpm. A pressão arterial é de 118 x 68 mmHg e, à ausculta cardíaca, não apresenta sopros, mas verifica-se ritmo irregular, não se constatando outras alterações nesse exame. O eletrocardiograma mostra linha de base serrilhada, presença de onda F, intervalo RR irregular e frequência de 125 bpm. Nesse contexto, a abordagem desse paciente deve incluir",
     "alternativas": {
       "A": "uso de betabloqueador.",
       "B": "desfibrilação ventricular.",
@@ -2816,10 +3146,12 @@
       "D": "administração de lidocaína endovenosa.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q067",
@@ -2833,10 +3165,12 @@
       "D": "Tomografia computadorizada.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q068",
@@ -2850,10 +3184,12 @@
       "D": "Tranquilizar os pais, uma vez que se trata de heterozigose.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q069",
@@ -2867,10 +3203,12 @@
       "D": "A linha de base está entre 100 e 150 bpm, a variabilidade é aumentada, as desacelerações são do tipo variável com características desfavoráveis, portanto, a conduta deve ser administração de oxigênio e estímulo sonoro.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q070",
@@ -2884,10 +3222,12 @@
       "D": "O DIU hormonal pode ser usado para controle de sangramento uterino anormal, para redução da dismenorreia e como método contraceptivo.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q071",
@@ -2901,10 +3241,12 @@
       "D": "contagem de CD4 e carga viral para HIV.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q072",
@@ -2918,10 +3260,12 @@
       "D": "2g de cefazolina (ev) e 1g de metronidazol (ev) imediatamente antes da incisão; repetir as doses (ev), de 4/4h, até fechar a pele; descontinuar no pós-operatório.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q073",
@@ -2935,10 +3279,12 @@
       "D": "Psoríase.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q074",
@@ -2952,10 +3298,12 @@
       "D": "Aguardar até se completarem três horas de evolução, por se tratar de primípara.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q075",
@@ -2969,16 +3317,18 @@
       "D": "caso-controle.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q076",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 76,
-    "enunciado": "Um médico do Programa de Saúde da Família realiza avaliação de u m h o m e m c o m 4 7 a n o s q u e a p r e s e n t a q u e i x a d e a l e r g i a medicamentosa. O paciente refere prurido, iniciado 2 dias depois que passou a tomar naproxeno para dor no ombro direito, receitado por esse mesmo médico que o avalia. O profissional, ao e x a m e f í s i c o , c o n s t a t a q u e o p a c i e n t e s e a p r e s e n t a b e m , c o r a d o , orientado, com sinais vitais normais. A ausculta pulmonar é normal. O médico também observa múltiplas lesões papuloeritematosas disseminadas pelo corpo do paciente. Quais são, respectivamente, o diagnóstico e a conduta mais adequados para esse caso?",
+    "enunciado": "Um médico do Programa de Saúde da Família realiza avaliação de um homem com 47 anos que apresenta queixa de alergia medicamentosa. O paciente refere prurido, iniciado 2 dias depois que passou a tomar naproxeno para dor no ombro direito, receitado por esse mesmo médico que o avalia. O profissional, ao exame físico, constata que o paciente se apresenta bem, corado, orientado, com sinais vitais normais. A ausculta pulmonar é normal. O médico também observa múltiplas lesões papuloeritematosas disseminadas pelo corpo do paciente. Quais são, respectivamente, o diagnóstico e a conduta mais adequados para esse caso?",
     "alternativas": {
       "A": "Doença do soro; manter uso de naproxeno e administrar hidrocortisona IV.",
       "B": "Anafilaxia; colocar o paciente em posição supina e administrar adrenalina IM.",
@@ -2986,10 +3336,12 @@
       "D": "Dermatite atópica; suspender uso de naproxeno e administrar anti-histamínico IV.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q077",
@@ -3003,10 +3355,12 @@
       "D": "Cirrose hepática; biópsia hepática e tratamento do etilismo.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q078",
@@ -3020,10 +3374,12 @@
       "D": "vasculite por imunoglobulina A.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q079",
@@ -3037,10 +3393,12 @@
       "D": "ingurgitamento mamário; aplicação de compressas frias, interrupção da amamentação e manutenção das mamas bem suspensas.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q080",
@@ -3054,10 +3412,12 @@
       "D": "uma dose e um reforço da vacina meningocócica C conjugada; duas doses e um reforço da vacina meningocócica C conjugada; e uma dose e um reforço da vacina meningocócica ACWY conjugada.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q081",
@@ -3071,16 +3431,18 @@
       "D": "Prolapso de valva mitral; embolia pulmonar.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q082",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 82,
-    "enunciado": "U m p i n t o r c o m 4 0 a n o s f o i e x p o s t o a c i d e n t a l m e n t e à c a l d e pintura em ambos os olhos. Após lavagem dos olhos com água corrente, o trabalhador relata dor, sensação de “areia” nos olhos e visão embaçada. Qual é a conduta imediata adequada para esse paciente?",
+    "enunciado": "Um pintor com 40 anos foi exposto acidentalmente à cal de pintura em ambos os olhos. Após lavagem dos olhos com água corrente, o trabalhador relata dor, sensação de “areia” nos olhos e visão embaçada. Qual é a conduta imediata adequada para esse paciente?",
     "alternativas": {
       "A": "Aplicação de colírio lubrificante e repouso domiciliar.",
       "B": "Avaliação por médico oftalmologista em pronto-socorro.",
@@ -3088,10 +3450,12 @@
       "D": "Avaliação e acompanhamento pelo médico na unidade básica de saúde.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q083",
@@ -3108,7 +3472,9 @@
     "gabarito": null,
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": true,
+    "motivo_descarte": "anulada no gabarito oficial do INEP"
   },
   {
     "id_origem": "revalida2024_1_q084",
@@ -3122,10 +3488,12 @@
       "D": "teste de azul de toluidina e indicar vulvectomia simples.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q085",
@@ -3139,10 +3507,12 @@
       "D": "Solicitar exame bacteriológico de escarro, testagem para HIV, para hepatites virais e para sífilis e, caso seja confirmada a presença de tuberculose, instituir tratamento diretamente observado.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q086",
@@ -3156,10 +3526,12 @@
       "D": "Acidente Vascular Encefálico Hemorrágico; pulso venoso espontâneo.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q087",
@@ -3173,10 +3545,12 @@
       "D": "Doença hemorroidária.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q088",
@@ -3190,10 +3564,12 @@
       "D": "corticoide inalatório, dar alta ao paciente e orientar seu retorno caso não melhore em 48 horas ou piore.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q089",
@@ -3207,10 +3583,12 @@
       "D": "solicitar colposcopia e \"ver e tratar\".",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q090",
@@ -3220,14 +3598,16 @@
     "alternativas": {
       "A": "O SUA é uma condição rara que afeta poucas mulheres no mundo, principalmente aquelas na pré-menopausa, seguidas por aquelas na perimenopausa e na pós-menopausa.",
       "B": "O SUA é uma afecção frequente que pode comprometer a qualidade da vida da mulher em vários aspectos, sendo recomendado, como terapêutica de primeira linha, a histerectomia.",
-      "C": "A presença de lesões vaginais e de colo deve ser d e s c a r t a d a p o r m e i o d o e x a m e f í s i c o e a h i p ó t e s e d e gestação deve ser excluída, considerando os principais diagnósticos relacionados ao SUA.",
+      "C": "A presença de lesões vaginais e de colo deve ser descartada por meio do exame físico e a hipótese de gestação deve ser excluída, considerando os principais diagnósticos relacionados ao SUA.",
       "D": "O exame complementar que fornece mais dados para a condução dos casos de SUA é a ultrassonografia da região pélvica, com baixa sensibilidade, porém alta especificidade para lesões endometriais em geral.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q091",
@@ -3241,10 +3621,12 @@
       "D": "Realizar angiotomografia de tórax e exame de anticoagulação.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q092",
@@ -3258,10 +3640,12 @@
       "D": "Diverticulite aguda com abscesso pélvico; tomografia com contraste.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q093",
@@ -3275,10 +3659,12 @@
       "D": "equipe de reforço pedagógico, a fim de realizar acompanhamento, uma vez que a criança não apresenta problemas aparentes.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": true
+    "requer_imagem": true,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q094",
@@ -3292,10 +3678,12 @@
       "D": "exame clínico anual e mamografia bienal após os 50 anos.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "D",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q095",
@@ -3309,10 +3697,12 @@
       "D": "Realizar prova do laço; solicitar hemograma; e prescrever hidratação parenteral com SF 0,9% à paciente, mantendo-a em observação por, pelo menos, 24 horas.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q096",
@@ -3326,16 +3716,18 @@
       "D": "pesquisa de antígenos ou exame direto para trofozoítas de Entamoeba hystolitica nas fezes.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q097",
     "fonte": "Revalida 2024.1 — Prova Objetiva",
     "num": 97,
-    "enunciado": "Um paciente com 44 anos, vítima de queda de um andaime de 4 metros de altura, é trazido ao serviço de emergência hospitalar por familiares. Durante a avaliação inicial na sala de emergência, o paciente se mantém em Glasgow 15 e com perda da sensibilidade tátil e dolorosa na região desde a cicatriz umbilical até os pés. Apresenta movimentos e sensibilidade normais em membros superiores, paralisia em ambos os membros inferiores, e os seguintes sinais vitais: frequência respiratória de 16 irpm; frequência cardíaca de 90 bpm; pressão arterial de 120 x 82 mmHg; saturação periférica de oxigênio de 100% em uso de oxigênio suplementar. Sabe-se que o paciente não ingeriu álcool ou drogas, era previamente saudável e não utiliza medicações. Q u a l é o n í v e l d e l e s ã o m e d u l a r r e l a t i v o à i n t e r p r e t a ç ã o compatível com o quadro clínico descrito?",
+    "enunciado": "Um paciente com 44 anos, vítima de queda de um andaime de 4 metros de altura, é trazido ao serviço de emergência hospitalar por familiares. Durante a avaliação inicial na sala de emergência, o paciente se mantém em Glasgow 15 e com perda da sensibilidade tátil e dolorosa na região desde a cicatriz umbilical até os pés. Apresenta movimentos e sensibilidade normais em membros superiores, paralisia em ambos os membros inferiores, e os seguintes sinais vitais: frequência respiratória de 16 irpm; frequência cardíaca de 90 bpm; pressão arterial de 120 x 82 mmHg; saturação periférica de oxigênio de 100% em uso de oxigênio suplementar. Sabe-se que o paciente não ingeriu álcool ou drogas, era previamente saudável e não utiliza medicações. Qual é o nível de lesão medular relativo à interpretação compatível com o quadro clínico descrito?",
     "alternativas": {
       "A": "L2.",
       "B": "T4.",
@@ -3343,10 +3735,12 @@
       "D": "T12.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q098",
@@ -3360,10 +3754,12 @@
       "D": "iniciar uso de risperidona e encaminhar o paciente para uma equipe multiprofissional.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "B",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q099",
@@ -3377,10 +3773,12 @@
       "D": "a irregularidade menstrual.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "C",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   },
   {
     "id_origem": "revalida2024_1_q100",
@@ -3394,9 +3792,11 @@
       "D": "síndrome de abstinência do álcool.",
       "E": null
     },
-    "gabarito": null,
+    "gabarito": "A",
     "justificativa_oficial": null,
     "n_alternativas": 4,
-    "requer_imagem": false
+    "requer_imagem": false,
+    "descartada": false,
+    "motivo_descarte": null
   }
 ]
