@@ -1,0 +1,439 @@
+[
+  {
+    "id_origem": "revalida2023_2_q005",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Territorialização e divisão em microáreas na Estratégia Saúde da Família",
+    "subtema": "Diagnóstico situacional e planejamento em território vulnerável",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_15",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "atencao-primaria",
+      "territorializacao",
+      "microareas",
+      "determinantes-sociais",
+      "planejamento-em-saude"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A escala de risco familiar (tipo Coelho-Savassi) serve para estratificar e priorizar o cuidado, não para redistribuir artificialmente famílias entre agentes; fragmentar famílias vulneráveis entre microáreas distintas rompe a lógica de adscrição por proximidade e dificulta a vigilância do território.",
+      "B": "Correta. A microárea deve ser delimitada por critério de homogeneidade de condições de vida e risco, ainda que o desenho geográfico resulte assimétrico, porque agrupar populações com necessidades semelhantes permite planejar intervenções sanitárias e intersetoriais dirigidas a cada perfil de vulnerabilidade.",
+      "C": "Incorreta. Mapas-base impressos são instrumento auxiliar e de baixo custo, mas o geoprocessamento oferece capacidade superior de sobreposição de camadas, análise espacial e atualização dinâmica dos dados do território.",
+      "D": "Incorreta. Bases do DATASUS e do IBGE são dados secundários, não primários, e sua desagregação por setor censitário costuma ser insuficiente para captar ocupações recentes e irregulares, como as descritas às margens do córrego."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q018",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diferenciação entre fimose fisiológica e patológica no escolar",
+    "subtema": "Indicação de postectomia eletiva",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "urologia-pediatrica",
+      "fimose",
+      "postectomia",
+      "exame-fisico",
+      "encaminhamento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A resolução espontânea é esperada apenas nas aderências balanoprepuciais fisiológicas, nas quais o prepúcio é elástico; a presença de anel fibrótico cicatricial elimina a possibilidade de retração progressiva com o crescimento.",
+      "B": "Correta. Anel prepucial cicatricial associado a episódios repetidos de balanopostite caracteriza fimose secundária (patológica), condição que não regride espontaneamente e cuja indicação é a postectomia eletiva em serviço de cirurgia pediátrica.",
+      "C": "Incorreta. A parafimose é uma urgência em que o prepúcio retraído fica preso atrás da glande, causando edema e estrangulamento agudo; aqui o prepúcio não retrai, ou seja, o mecanismo é oposto.",
+      "D": "Incorreta. Manobras forçadas de retração são contraindicadas porque produzem microfissuras que cicatrizam com fibrose, sendo justamente um dos mecanismos geradores da fimose patológica."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q032",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Febre persistente no pós-operatório de cirurgia colorretal de urgência",
+    "subtema": "Investigação de abscesso intra-abdominal por tomografia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "pos-operatorio",
+      "abscesso-intra-abdominal",
+      "diverticulite",
+      "tomografia",
+      "febre"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A ausculta apenas com murmúrio reduzido em bases, sem crepitações ou hipoxemia, e a ausência de expectoração purulenta tornam a pneumonia pouco provável; além disso, ela não explicaria a distensão e a dor abdominal difusa.",
+      "B": "Incorreta. Não há disúria, e o sinal de Giordano negativo somado à ausência de sintomas urinários afasta pielonefrite; infecção urinária baixa raramente cursa com febre de 39 °C e íleo persistente.",
+      "C": "Incorreta. Sepse é a síndrome de resposta desregulada à infecção, não um diagnóstico topográfico; identificá-la não dispensa localizar o foco, e a coleta isolada de culturas não orientaria a drenagem necessária.",
+      "D": "Correta. Febre a partir do quinto dia, íleo prolongado, leucocitose com desvio e dor difusa após perfuração colônica apontam coleção/abscesso residual intracavitário, cuja investigação de escolha é a tomografia de abdome e pelve com contraste, que localiza a coleção e viabiliza drenagem percutânea."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q047",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Conduta inicial na queimadura química ocular por agente ácido",
+    "subtema": "Irrigação copiosa como medida prioritária",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_14"
+    ],
+    "tags": [
+      "oftalmologia",
+      "queimadura-quimica",
+      "irrigacao-ocular",
+      "emergencia",
+      "acidente-ocupacional"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A oclusão mantém o agente cáustico em contato com a superfície ocular e prolonga a lesão epitelial e estromal, devendo ser considerada apenas após a descontaminação completa.",
+      "B": "Incorreta. Corticoide tópico pode ter papel adjuvante na fase inflamatória subsequente, sob supervisão oftalmológica, mas não remove o agente e retarda a reepitelização se usado precocemente sem irrigação prévia.",
+      "C": "Incorreta. Anestésico tópico apenas alivia a dor e facilita a abertura palpebral, sendo medida auxiliar; isoladamente não interrompe a agressão química e ainda é epiteliotóxico.",
+      "D": "Correta. A prioridade absoluta na queimadura química ocular é a irrigação imediata, abundante e prolongada com solução cristaloide (soro fisiológico ou Ringer lactato), que dilui e remove o agente, restaurando o pH da superfície ocular e limitando a extensão da necrose."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q062",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Via aérea definitiva no trauma craniofacial extenso com sangramento profuso",
+    "subtema": "Indicação de cricotireoidostomia de urgência",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_14"
+    ],
+    "tags": [
+      "atls",
+      "via-aerea-definitiva",
+      "cricotireoidostomia",
+      "trauma-de-face",
+      "glasgow"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Cânula orofaríngea e oxigênio sob máscara são medidas provisórias e insuficientes diante de Glasgow 6, que já indica via aérea definitiva; ademais, a cânula não protege contra broncoaspiração do sangramento ativo.",
+      "B": "Incorreta. A destruição anatômica da cavidade oral, a instabilidade do arco mandibular e o sangramento profuso impedem a visualização das cordas vocais, configurando via aérea difícil com falha previsível da laringoscopia.",
+      "C": "Correta. Diante da impossibilidade de via aérea orotraqueal em paciente com rebaixamento grave do sensório e trauma maxilofacial destrutivo, a cricotireoidostomia é a via aérea cirúrgica de escolha por ser rápida, superficial e realizável à beira do leito.",
+      "D": "Incorreta. A traqueostomia exige mais tempo, campo cirúrgico adequado e maior dissecção, com risco de sangramento; no cenário de emergência ela é reservada para situações eletivas ou para lesões laringotraqueais específicas."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q077",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico diferencial das úlceras de membros inferiores",
+    "subtema": "Úlcera isquêmica por doença arterial obstrutiva periférica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "cirurgia-vascular",
+      "ulcera-arterial",
+      "claudicacao-intermitente",
+      "tabagismo",
+      "diagnostico-diferencial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A localização maleolar medial e a coloração eritematovinhosa periulcerada são achados classicamente venosos, o que gera ambiguidade entre as alternativas C e D.",
+    "justificativas": {
+      "A": "Incorreta. O linfedema crônico cursa com edema duro, sinal de Stemmer positivo e paquidermia, produzindo lesões por linforreia ou erisipela de repetição, e não úlcera dolorosa com necrose e claudicação prévia.",
+      "B": "Incorreta. A úlcera neuropática, típica do pé diabético, localiza-se em pontos de pressão plantar, é indolor pela perda da sensibilidade protetora e apresenta halo hiperceratósico, o contrário do quadro hiperálgico descrito.",
+      "C": "Correta. Claudicação intermitente há um ano em tabagista, dor refratária a analgésicos, piora com a elevação do membro (que reduz ainda mais a perfusão) e úlcera pálida com necrose e sem tecido de granulação caracterizam isquemia crítica por doença arterial obstrutiva periférica.",
+      "D": "Incorreta. A úlcera venosa é rasa, exsudativa, com fundo granuloso e dor de leve intensidade que tipicamente melhora com a elevação do membro, padrão oposto ao relatado pela paciente."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q090",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem da lombalgia aguda sem sinais de alerta na atenção primária",
+    "subtema": "Tratamento conservador e uso racional de exames de imagem",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "lombalgia",
+      "red-flags",
+      "tratamento-conservador",
+      "uso-racional-de-exames",
+      "saude-do-trabalhador"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há sobreposição conceitual entre as alternativas A, B e D, pois todas descrevem lombalgia sem sinais de alerta, diferindo apenas na conduta explicitada.",
+    "justificativas": {
+      "A": "Correta. Dor lombar de menos de seis semanas, sem irradiação e sem sinais de alerta, configura lombalgia mecânico-postural, cujo manejo é conservador: analgesia simples, orientação para manutenção da atividade habitual, calor local e educação sobre o bom prognóstico.",
+      "B": "Incorreta. Dispensar exames é conduta apropriada, porém a alternativa se limita a uma medida negativa e não contempla o tratamento que efetivamente deve ser oferecido à paciente sintomática.",
+      "C": "Incorreta. Não há bandeiras vermelhas — ausência de febre, trauma, déficit neurológico, perda ponderal, idade extrema ou história neoplásica —, de modo que a ressonância precoce só aumentaria custos e achados incidentais sem impacto no desfecho.",
+      "D": "Incorreta. O repouso prolongado no leito é formalmente desaconselhado, pois retarda a recuperação funcional e aumenta o risco de cronificação da dor lombar."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q004",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abortamento em evolução: diagnóstico clínico e opções de conduta",
+    "subtema": "Decisão compartilhada entre AMIU, curetagem e conduta expectante",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_01",
+      "dcn2025_comp_08",
+      "dcn2025_comp_23"
+    ],
+    "tags": [
+      "abortamento",
+      "amiu",
+      "primeiro-trimestre",
+      "decisao-compartilhada",
+      "urgencia-obstetrica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Colo pérvio com eliminação de restos ovulares define perda gestacional inevitável; não há vitalidade a ser preservada, e a ultrassonografia não modificaria essa conclusão clínica.",
+      "B": "Incorreta. Na ameaça de abortamento o colo permanece fechado e não há eliminação de material ovular; além disso, repouso domiciliar não tem eficácia comprovada em alterar a evolução da gestação.",
+      "C": "Incorreta. A comunicação empática está adequada, mas a internação compulsória e a confirmação de útero vazio por ultrassonografia pélvica não são obrigatórias em paciente hemodinamicamente estável, para a qual a via transvaginal seria ainda mais precisa.",
+      "D": "Correta. Diante de abortamento em evolução em paciente estável, com útero de dez semanas, a conduta correta associa informação clara e acolhedora à oferta das alternativas legítimas de manejo — esvaziamento por AMIU (preferencial até doze semanas), curetagem ou conduta expectante —, respeitando a autonomia da mulher."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q019",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Interpretação da cardiotocografia anteparto na gestação a termo tardio",
+    "subtema": "Datação da gestação e conduta expectante com vitalidade preservada",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "cardiotocografia",
+      "vitalidade-fetal",
+      "idade-gestacional",
+      "gestacao-prolongada",
+      "conduta-expectante"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Linha de base de 150 bpm, variabilidade moderada (10 a 20 bpm), acelerações presentes e ausência de desacelerações caracterizam traçado categoria I, ou seja, sem qualquer indicador de hipóxia.",
+      "B": "Incorreta. Acelerações transitórias são marcador de integridade do sistema nervoso autônomo fetal e indicam bem-estar; interpretá-las como hipóxia inverte o significado fisiológico do achado, e não há indicação de cesariana.",
+      "C": "Incorreta. Taquicardia fetal exige frequência basal acima de 160 bpm por mais de dez minutos, o que não ocorre; picos de 165 bpm no ápice das acelerações fazem parte do próprio evento aceleratório.",
+      "D": "Correta. Quando há ultrassonografia precoce discordante, prevalece a datação mais confiável — neste caso a data da última menstruação com ciclos regulares, pois o exame foi feito tardiamente (27 semanas, margem de erro de cerca de duas semanas) —, e com vitalidade preservada e líquido normal a conduta é expectante com reavaliação em poucos dias."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q032",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Profilaxia antitetânica no grande queimado com esquema vacinal completo",
+    "subtema": "Indicação de reforço e de imunoglobulina/soro conforme intervalo vacinal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "queimaduras",
+      "profilaxia-antitetanica",
+      "imunizacao",
+      "ferida-de-alto-risco",
+      "protocolo-ms"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O reforço só é indicado, mesmo em ferimento de alto risco, quando a última dose ocorreu há mais de cinco anos; com três anos de intervalo os títulos protetores permanecem adequados.",
+      "B": "Incorreta. Além de o reforço ser desnecessário, o soro antitetânico destina-se a pacientes com imunização ausente, incompleta, desconhecida ou imunodeprimidos, o que não se aplica a este caso.",
+      "C": "Incorreta. Não há fundamento para administrar imunização passiva isolada em paciente com esquema básico completo e documentado; o soro traz risco de reação anafilática e de doença do soro sem benefício adicional.",
+      "D": "Correta. A queimadura é considerada ferida de alto risco tetanogênico, porém o paciente possui esquema básico completo com três doses e última aplicação há três anos, intervalo inferior a cinco anos, o que dispensa tanto o reforço vacinal quanto a imunização passiva."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q046",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Abscesso pulmonar refratário ao tratamento clínico prolongado",
+    "subtema": "Indicação de ressecção pulmonar após falha antimicrobiana",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "abscesso-pulmonar",
+      "pneumonia-aspirativa",
+      "cirurgia-toracica",
+      "falha-terapeutica",
+      "populacao-vulneravel"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado remete a uma radiografia de tórax que não acompanha o item, e a caracterização da lesão (tamanho, presença de nível hidroaéreo) é decisiva para a indicação cirúrgica.",
+    "justificativas": {
+      "A": "Incorreta. Trata-se de infecção adquirida na comunidade por aspiração, cujo agente típico é a flora anaeróbia orofaríngea já coberta pelo esquema em uso; escalonar empiricamente para multirresistentes sem isolamento microbiológico é inadequado e favorece seleção de resistência.",
+      "B": "Incorreta. O escarro fétido e a evolução subaguda favorecem etiologia anaeróbia, e o teste rápido molecular negativo reduz a probabilidade de tuberculose; iniciar RIPE empiricamente exporia o paciente a toxicidade sem sustentação diagnóstica.",
+      "C": "Correta. A persistência de febre, sintomas e alterações radiológicas após vinte dias de antibioticoterapia endovenosa adequada configura falha do tratamento clínico, situação em que se indica abordagem cirúrgica com ressecção do segmento pulmonar acometido.",
+      "D": "Incorreta. Embora a resolução radiológica do abscesso seja lenta, esperava-se melhora clínica sustentada e regressão parcial da imagem nesse intervalo; manter a mesma conduta perpetua o foco séptico e o risco de complicações como empiema e hemoptise maciça."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q060",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Cálculo do valor preditivo positivo de teste diagnóstico para hanseníase",
+    "subtema": "Influência da prevalência sobre a interpretação do resultado",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_21",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "epidemiologia",
+      "valor-preditivo-positivo",
+      "sensibilidade-especificidade",
+      "hanseniase",
+      "rastreamento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Em mil pessoas com prevalência de 10%, há 100 doentes e 900 sadios; a sensibilidade de 80% gera 80 verdadeiro-positivos e a taxa de falso-positivos de 20% gera 180 falso-positivos, resultando em VPP de 80/260, isto é, aproximadamente 31%.",
+      "B": "Incorreta. Valor dessa magnitude corresponderia ao valor preditivo negativo do teste nesse cenário (cerca de 96% a 97%), refletindo a boa capacidade de descartar a doença, e não de confirmá-la.",
+      "C": "Incorreta. Esse percentual inverte a relação entre verdadeiro-positivos e falso-positivos; ele expressaria a proporção de resultados positivos falsos (180/260), ou seja, o complemento do VPP.",
+      "D": "Incorreta. Confunde-se aqui sensibilidade com valor preditivo positivo: 80% é a probabilidade de o teste ser positivo dado que a pessoa é doente, cálculo que ignora completamente a prevalência e a especificidade."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q073",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico de dermatite atópica em lactente com história atópica familiar",
+    "subtema": "Distribuição das lesões e diagnóstico diferencial de eczemas na infância",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "dermatite-atopica",
+      "marcha-atopica",
+      "prurido",
+      "dermatologia-pediatrica",
+      "diagnostico-diferencial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Prurido intenso com perda do sono, eczema malar poupando o maciço central da face, liquenificação em fossa cubital e história familiar de rinite e asma preenchem os critérios clássicos de dermatite atópica no contexto da marcha atópica.",
+      "B": "Incorreta. A tinea corporis produz placas anulares com bordas eritematodescamativas de crescimento centrífugo e clareamento central, sem a distribuição flexural nem a associação com atopia familiar.",
+      "C": "Incorreta. A escabiose caracteriza-se por túneis e pápulas em espaços interdigitais, punhos, axilas e região genital, com prurido de predomínio noturno e, sobretudo, acometimento de outros contactantes domiciliares, o que a mãe nega.",
+      "D": "Incorreta. A psoríase infantil manifesta-se por placas eritematosas bem delimitadas com escamas prateadas em superfícies extensoras, couro cabeludo e região umbilical, sendo rara nessa faixa etária e pouco pruriginosa."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q087",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico diferencial das doenças inflamatórias intestinais em adulto jovem",
+    "subtema": "Retocolite ulcerativa com padrão disentérico e sangramento retal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "doenca-inflamatoria-intestinal",
+      "retocolite-ulcerativa",
+      "diarreia-cronica",
+      "hematoquezia",
+      "gastroenterologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Apesar da história familiar de neoplasia colorretal, o câncer é excepcional aos 25 anos e não explicaria o padrão de diarreia mucossanguinolenta com urgência e tenesmo de um ano de evolução com sangramento autolimitado.",
+      "B": "Incorreta. A doença de Crohn tem acometimento transmural e descontínuo, predomínio ileocecal, com dor em fossa ilíaca direita, massa palpável, doença perianal e fístulas, sendo o sangramento retal e o tenesmo menos característicos.",
+      "C": "Correta. Diarreia crônica com muco e sangue, urgência evacuatória e tenesmo traduzem inflamação contínua da mucosa retal e colônica, quadro típico da retocolite ulcerativa, que ainda cursa com sintomas sistêmicos como astenia, anemia e emagrecimento.",
+      "D": "Incorreta. A doença hemorroidária provoca sangramento vivo indolor ao evacuar, geralmente relacionado à constipação, e não justifica diarreia crônica, muco, perda ponderal e sintomas constitucionais."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q100",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diferenciação entre uso nocivo e dependência de álcool na prática ambulatorial",
+    "subtema": "Critérios CID para padrão de consumo com dano e ressaca sintomática",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_02",
+      "dcn2025_comp_12",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "alcool",
+      "uso-nocivo",
+      "dependencia-quimica",
+      "saude-mental",
+      "atencao-primaria"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O padrão de consumo episódico intenso vem causando dano concreto e recorrente há um ano — faltas ao trabalho e sofrimento após os episódios — sem que estejam presentes critérios de dependência, o que define uso nocivo (uso prejudicial) de álcool.",
+      "B": "Incorreta. A dependência exige achados como compulsão pelo consumo, perda do controle sobre a quantidade, tolerância, abstinência fisiológica, negligência progressiva de outras atividades e persistência apesar do dano, e o paciente mantém bom funcionamento laboral, acadêmico e familiar entre os episódios.",
+      "C": "Incorreta. Os sintomas depressivos duram apenas dois dias e surgem imediatamente após a intoxicação, remitindo espontaneamente; o episódio depressivo requer pelo menos duas semanas de sintomas persistentes na maior parte do dia.",
+      "D": "Incorreta. A síndrome de abstinência manifesta-se com hiperatividade autonômica — tremores, sudorese, taquicardia, ansiedade, náuseas e, nos casos graves, convulsões e delirium —, quadro ausente neste paciente com exame físico normal."
+    }
+  }
+]

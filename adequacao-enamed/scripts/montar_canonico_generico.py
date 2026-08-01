@@ -24,7 +24,7 @@ Uso:
       --saida canonico/revalida.canonico.json \
       [--manifesto imagens/manifesto_revalida.json] [--fonte-geracao "..."]
 """
-import argparse, glob, json, os, re, sys
+import argparse, glob, hashlib, json, os, re, sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE, "scripts"))
@@ -34,7 +34,7 @@ from montar_canonico_simulados import normalizar_texto  # noqa: E402
 CRIADA_EM = "2026-08-01T00:00:00Z"
 
 
-def montar(rec, e, imagens, fonte_geracao, cenario):
+def montar(rec, e, imagens, fonte_geracao, cenario, redistribuir=False):
     idg = rec["id_origem"]
     area = e["area_clinica"]
     if area not in AREA2UC:
@@ -65,6 +65,17 @@ def montar(rec, e, imagens, fonte_geracao, cenario):
         mantidas = presentes
     if len(mantidas) != 4:
         raise ValueError(f"{idg}: {len(mantidas)} alternativas após conversão")
+
+    # Algumas fontes (fichas NAPISUL/ABEM) escrevem SEMPRE a correta como "A":
+    # 175 de 176 questões dos .docx vinham assim. Num banco de treino isso deixa
+    # o item sem valor — "marcar A" acertaria quase sempre. A posição da correta
+    # é redistribuída de forma DETERMINÍSTICA (hash do id_origem), preservando a
+    # ordem relativa dos distratores e registrando o remapeamento.
+    if redistribuir:
+        alvo = int(hashlib.md5(idg.encode()).hexdigest(), 16) % 4
+        ordem = [x for x in mantidas if x != gab]
+        ordem.insert(alvo, gab)
+        mantidas = ordem
 
     remap = {orig: "ABCD"[i] for i, orig in enumerate(mantidas)}
     justs = e["justificativas"]
@@ -124,6 +135,7 @@ def montar(rec, e, imagens, fonte_geracao, cenario):
             "gabarito_novo": remap[gab],
             "problema_detectado": e.get("problema_detectado"),
             "justificativa_oficial_fonte": rec.get("justificativa_oficial"),
+            "posicao_correta_redistribuida": bool(redistribuir),
         },
     }
 
@@ -156,6 +168,8 @@ def main():
     ap.add_argument("--manifesto", default=None)
     ap.add_argument("--fonte-geracao", default="adequacao-enamed — extração + adequação assistida")
     ap.add_argument("--cenario", default="preparacao_enamed")
+    ap.add_argument("--redistribuir-correta", action="store_true",
+                    help="redistribui a posicao da correta (fontes que colocam sempre em A)")
     a = ap.parse_args()
 
     cam = lambda p: p if os.path.isabs(p) else os.path.join(BASE, p)
@@ -176,7 +190,8 @@ def main():
         if not e:
             continue
         try:
-            montadas.append(montar(r, e, imagens, a.fonte_geracao, a.cenario))
+            montadas.append(montar(r, e, imagens, a.fonte_geracao, a.cenario,
+                                   a.redistribuir_correta))
         except Exception as ex:
             erros.append(str(ex))
 
