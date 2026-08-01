@@ -97,7 +97,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -198,7 +199,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -283,7 +285,7 @@
       "fonte": "Simulado 01 — MED/ENAMED 2026",
       "id_origem": "simulado01_2026_q03",
       "questao_original": 3,
-      "requer_imagem": true,
+      "requer_imagem": false,
       "convertida_5_para_4": true,
       "alternativa_descartada": {
         "letra_original": "B",
@@ -298,7 +300,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -398,7 +401,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": "As alternativas B (Diversidade) e E (Heterogeneidade) são semanticamente redundantes entre si."
+      "problema_detectado": "As alternativas B (Diversidade) e E (Heterogeneidade) são semanticamente redundantes entre si.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -498,7 +502,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -599,7 +604,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -700,7 +706,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -801,7 +808,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -902,7 +910,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1003,7 +1012,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "O enunciado inicia descrevendo uma distribuição gráfica ('A distribuição da proporção de óbitos...') sem que o gráfico esteja disponível, ficando a primeira frase truncada em relação ao apoio visual original."
+      "problema_detectado": "O enunciado inicia descrevendo uma distribuição gráfica ('A distribuição da proporção de óbitos...') sem que o gráfico esteja disponível, ficando a primeira frase truncada em relação ao apoio visual original.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1087,7 +1097,7 @@
       "fonte": "Simulado 01 — MED/ENAMED 2026",
       "id_origem": "simulado01_2026_q11",
       "questao_original": 11,
-      "requer_imagem": true,
+      "requer_imagem": false,
       "convertida_5_para_4": true,
       "alternativa_descartada": {
         "letra_original": "E",
@@ -1102,7 +1112,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1202,7 +1213,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1302,7 +1314,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1402,7 +1415,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "B",
-      "problema_detectado": "As alternativas B e C são quase idênticas, diferindo apenas pela inclusão do termo 'privados', o que reduz a clareza técnica do item."
+      "problema_detectado": "As alternativas B e C são quase idênticas, diferindo apenas pela inclusão do termo 'privados', o que reduz a clareza técnica do item.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1503,7 +1517,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1604,7 +1619,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1704,7 +1720,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1803,7 +1820,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1903,7 +1921,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": "As alternativas B e C são idênticas, defeito de elaboração que reduz o item, na prática, a quatro opções distintas."
+      "problema_detectado": "As alternativas B e C são idênticas, defeito de elaboração que reduz o item, na prática, a quatro opções distintas.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2003,7 +2022,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "A afirmativa III é subconjunto da II (repete parte dos mesmos valores fundantes), gerando ambiguidade entre as alternativas; há ainda ruído de digitalização (“o 20”) ao final da alternativa E."
+      "problema_detectado": "A afirmativa III é subconjunto da II (repete parte dos mesmos valores fundantes), gerando ambiguidade entre as alternativas; há ainda ruído de digitalização (“o 20”) ao final da alternativa E.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2103,7 +2123,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2204,7 +2225,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2305,7 +2327,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "C",
-      "problema_detectado": "As alternativas A e C veiculam essencialmente a mesma ideia (contraindicar a vacina na gestação), configurando quase duplicata no item original."
+      "problema_detectado": "As alternativas A e C veiculam essencialmente a mesma ideia (contraindicar a vacina na gestação), configurando quase duplicata no item original.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2406,7 +2429,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": "A afirmação inicial de que cabe à APS 'integrar verticalmente os serviços' é ambígua diante da organização horizontal e poliárquica preconizada para as Redes de Atenção à Saúde."
+      "problema_detectado": "A afirmação inicial de que cabe à APS 'integrar verticalmente os serviços' é ambígua diante da organização horizontal e poliárquica preconizada para as Redes de Atenção à Saúde.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2506,7 +2530,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2608,7 +2633,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2708,7 +2734,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2808,7 +2835,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2908,7 +2936,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3009,7 +3038,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3110,7 +3140,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3211,7 +3242,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": "As alternativas C, D e E apresentam a mesma conduta (reavaliação semestral), reduzindo o poder discriminativo do item."
+      "problema_detectado": "As alternativas C, D e E apresentam a mesma conduta (reavaliação semestral), reduzindo o poder discriminativo do item.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3313,7 +3345,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3413,7 +3446,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3513,7 +3547,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": "O item depende do genograma referido no enunciado, que não é reproduzido no texto; sem a figura, as alternativas sobre relações conflituosas não podem ser avaliadas com segurança."
+      "problema_detectado": "O item depende do genograma referido no enunciado, que não é reproduzido no texto; sem a figura, as alternativas sobre relações conflituosas não podem ser avaliadas com segurança.",
+      "imagem_status": "ausente_na_origem"
     }
   },
   {
@@ -3613,7 +3648,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3713,7 +3749,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "As alternativas C, D e E são variações quase idênticas da mesma proposição, diferindo apenas pelo método de imagem, o que empobrece a discriminação do item."
+      "problema_detectado": "As alternativas C, D e E são variações quase idênticas da mesma proposição, diferindo apenas pelo método de imagem, o que empobrece a discriminação do item.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3798,7 +3835,7 @@
       "fonte": "Simulado 01 — MED/ENAMED 2026",
       "id_origem": "simulado01_2026_q38",
       "questao_original": 38,
-      "requer_imagem": true,
+      "requer_imagem": false,
       "convertida_5_para_4": true,
       "alternativa_descartada": {
         "letra_original": "B",
@@ -3813,7 +3850,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": "Todos os grupos citados são reconhecidos como populações de maior risco no Manual de Recomendações, de modo que o enunciado só se resolve pela magnitude relativa do risco, o que o torna parcialmente ambíguo; além disso, o item está marcado como exigindo imagem sem que haja recurso gráfico necessário à sua resolução."
+      "problema_detectado": "Todos os grupos citados são reconhecidos como populações de maior risco no Manual de Recomendações, de modo que o enunciado só se resolve pela magnitude relativa do risco, o que o torna parcialmente ambíguo; além disso, o item está marcado como exigindo imagem sem que haja recurso gráfico necessário à sua resolução.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3914,7 +3952,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "C",
-      "problema_detectado": "Item com defeito técnico: a alternativa E reproduz a definição operacional clássica de SRAG do Ministério da Saúde (síndrome gripal com dispneia, desconforto respiratório, pressão torácica persistente, dessaturação ou cianose), o que compete diretamente com o gabarito oficial D e exige revisão pela curadoria antes do uso."
+      "problema_detectado": "Item com defeito técnico: a alternativa E reproduz a definição operacional clássica de SRAG do Ministério da Saúde (síndrome gripal com dispneia, desconforto respiratório, pressão torácica persistente, dessaturação ou cianose), o que compete diretamente com o gabarito oficial D e exige revisão pela curadoria antes do uso.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4015,7 +4054,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4111,7 +4151,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4209,8 +4250,19 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "O item depende de um gráfico que não é reproduzido no enunciado, sendo referenciado apenas por link externo, o que compromete a resolução autônoma do item."
-    }
+      "problema_detectado": "O item depende de um gráfico que não é reproduzido no enunciado, sendo referenciado apenas por link externo, o que compromete a resolução autônoma do item.",
+      "imagem_status": "anexada"
+    },
+    "imagens_anexadas": [
+      {
+        "id_imagem": "med_unidavi_img_simulado02_2026_q02",
+        "posicao": "enunciado",
+        "ordem": 1,
+        "tipo": "grafico",
+        "legenda": "Cobertura de indicadores de saúde materno-infantil por quintil de riqueza, 1986–2013.",
+        "alt_text": "Gráfico de pontos ligados por linhas mostrando a cobertura (%) de quatro indicadores de saúde materno-infantil — uso de anticoncepcionais modernos, ao menos uma consulta de pré-natal, quatro ou mais consultas de pré-natal e primeira consulta no primeiro trimestre — nos anos de 1986, 1996, 2006 e 2013, segundo quintis de riqueza (Q1 mais pobres a Q5 mais ricos). Ao longo do tempo a cobertura sobe e a distância entre os quintis diminui, com aproximação dos mais pobres aos mais ricos."
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -4305,7 +4357,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4401,7 +4454,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4497,7 +4551,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4594,7 +4649,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": "Erro de digitação na alternativa A, que inicia com a letra 'A' duplicada antes do texto ('A a discussão')."
+      "problema_detectado": "Erro de digitação na alternativa A, que inicia com a letra 'A' duplicada antes do texto ('A a discussão').",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4691,7 +4747,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4788,7 +4845,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "O enunciado e as alternativas apresentam quebras indevidas de palavras e espaçamentos ('perceb e-se', 'alime ntar', 'deve -se', 'opositor -desafiador') decorrentes da extração do PDF, exigindo revisão tipográfica."
+      "problema_detectado": "O enunciado e as alternativas apresentam quebras indevidas de palavras e espaçamentos ('perceb e-se', 'alime ntar', 'deve -se', 'opositor -desafiador') decorrentes da extração do PDF, exigindo revisão tipográfica.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4885,7 +4943,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"gestant e\", \"s erá\"), que devem ser corrigidas na editoração."
+      "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"gestant e\", \"s erá\"), que devem ser corrigidas na editoração.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4982,7 +5041,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5067,7 +5127,7 @@
       "fonte": "Simulado 02 — MED/ENAMED 2026",
       "id_origem": "simulado02_2026_q11",
       "questao_original": 11,
-      "requer_imagem": true,
+      "requer_imagem": false,
       "convertida_5_para_4": false,
       "alternativa_descartada": null,
       "remapeamento": {
@@ -5078,7 +5138,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5175,7 +5236,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5271,7 +5333,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "Há erros de digitação com quebra indevida de palavras no enunciado (\"ansie dade\") e uso de maiúscula inicial fora do padrão na alternativa A, sem prejuízo para a compreensão do item."
+      "problema_detectado": "Há erros de digitação com quebra indevida de palavras no enunciado (\"ansie dade\") e uso de maiúscula inicial fora do padrão na alternativa A, sem prejuízo para a compreensão do item.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5369,7 +5432,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5466,7 +5530,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5563,7 +5628,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "O enunciado contém quebras de palavras oriundas da extração do PDF ('d istração', 'g erado'), demandando revisão tipográfica."
+      "problema_detectado": "O enunciado contém quebras de palavras oriundas da extração do PDF ('d istração', 'g erado'), demandando revisão tipográfica.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5659,7 +5725,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": "Enunciado apresenta quebra de palavra por espaçamento indevido (\"ou tras\") decorrente da extração do PDF."
+      "problema_detectado": "Enunciado apresenta quebra de palavra por espaçamento indevido (\"ou tras\") decorrente da extração do PDF.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5757,7 +5824,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5853,7 +5921,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": "O comando final do enunciado foi copiado de outro item (‘Assinale a opção que apresenta ações do processo de trabalho das eMulti’), tornando a instrução incoerente com o caso apresentado."
+      "problema_detectado": "O comando final do enunciado foi copiado de outro item (‘Assinale a opção que apresenta ações do processo de trabalho das eMulti’), tornando a instrução incoerente com o caso apresentado.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5949,7 +6018,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "Resíduo de digitalização ao final da alternativa D (“o 20”), que deve ser removido na revisão editorial."
+      "problema_detectado": "Resíduo de digitalização ao final da alternativa D (“o 20”), que deve ser removido na revisão editorial.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6045,7 +6115,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6142,7 +6213,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6239,7 +6311,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6337,7 +6410,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": "Há quebras de palavras provenientes da extração do PDF ('maus -tratos', 'configura -se'), que devem ser corrigidas na versão canônica."
+      "problema_detectado": "Há quebras de palavras provenientes da extração do PDF ('maus -tratos', 'configura -se'), que devem ser corrigidas na versão canônica.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6433,7 +6507,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6530,7 +6605,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6626,7 +6702,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6722,7 +6799,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6819,7 +6897,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "A alternativa C também descreve ações reconhecidas de controle do tabagismo em adolescentes, o que reduz a univocidade da chave e torna o item potencialmente ambíguo quanto à noção de prioridade."
+      "problema_detectado": "A alternativa C também descreve ações reconhecidas de controle do tabagismo em adolescentes, o que reduz a univocidade da chave e torna o item potencialmente ambíguo quanto à noção de prioridade.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6916,7 +6995,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7013,7 +7093,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7110,7 +7191,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": "O enunciado apresenta quebras de palavras da extração do PDF ('apresent a', 'v omitar', 'apr esenta', 'verificam -se'), que exigem revisão tipográfica."
+      "problema_detectado": "O enunciado apresenta quebras de palavras da extração do PDF ('apresent a', 'v omitar', 'apr esenta', 'verificam -se'), que exigem revisão tipográfica.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7207,7 +7289,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7303,7 +7386,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7399,7 +7483,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7495,7 +7580,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7591,7 +7677,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": "O enunciado contém erros de digitação com quebra de palavras (\"f azem\", \"c riança\") e a expressão \"alerta do desenvolvimento neuropsicomortor\" está grafada de modo incorreto, dificultando parcialmente a leitura."
+      "problema_detectado": "O enunciado contém erros de digitação com quebra de palavras (\"f azem\", \"c riança\") e a expressão \"alerta do desenvolvimento neuropsicomortor\" está grafada de modo incorreto, dificultando parcialmente a leitura.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7688,7 +7775,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7786,7 +7874,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7883,7 +7972,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": "A alternativa A apresenta erro de digitação e de concordância ('especia lizada', 'com a acesso regulado'), decorrente da extração do PDF."
+      "problema_detectado": "A alternativa A apresenta erro de digitação e de concordância ('especia lizada', 'com a acesso regulado'), decorrente da extração do PDF.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7969,7 +8059,7 @@
       "fonte": "Simulado 02 — MED/ENAMED 2026",
       "id_origem": "simulado02_2026_q41",
       "questao_original": 41,
-      "requer_imagem": false,
+      "requer_imagem": true,
       "convertida_5_para_4": false,
       "alternativa_descartada": null,
       "remapeamento": {
@@ -7980,8 +8070,19 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": "O enunciado remete a um ecomapa \"exibido a seguir\" que não acompanha o item, embora o campo requer_imagem esteja marcado como falso; além disso há quebras de palavra por espaçamento (\"fi lha\")."
-    }
+      "problema_detectado": "O enunciado remete a um ecomapa \"exibido a seguir\" que não acompanha o item, embora o campo requer_imagem esteja marcado como falso; além disso há quebras de palavra por espaçamento (\"fi lha\").",
+      "imagem_status": "anexada"
+    },
+    "imagens_anexadas": [
+      {
+        "id_imagem": "med_unidavi_img_simulado02_2026_q41",
+        "posicao": "texto_base",
+        "ordem": 1,
+        "tipo": "esquema",
+        "legenda": "Genograma e ecomapa elaborados pela equipe de Saúde da Família. NASF – Núcleo Ampliado de Saúde da Família; Amb. – Ambulatório; USF – Unidade de Saúde da Família.",
+        "alt_text": "Genograma com ecomapa. No círculo do domicílio: homem de 72 anos (quadrado) com HAS e HPB, unido a mulher de 68 anos (círculo) com depressão; abaixo, membro de 33 anos com drogadição e outro de 32 anos. As ligações com o de 33 anos são linhas em ziguezague (relação conflituosa). Vínculos externos: Ambulatório de Urologia ligado ao homem de 72 anos; Vizinhos por linha dupla; Igreja com seta espessa junto à mulher de 68 anos; e USF, ligada ao NASF, com seta para o domicílio."
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -8077,7 +8178,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8172,7 +8274,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8268,7 +8371,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8364,7 +8468,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": "Há erros de digitação com quebra indevida de palavras no enunciado e na alternativa A (\"aten ção\", \"unidade básica d e saúde\"), sem comprometer o entendimento."
+      "problema_detectado": "Há erros de digitação com quebra indevida de palavras no enunciado e na alternativa A (\"aten ção\", \"unidade básica d e saúde\"), sem comprometer o entendimento.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8461,7 +8566,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8558,8 +8664,20 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "O item depende integralmente de uma charge não reproduzida no texto do enunciado, o que impede a resolução isolada e exige a inclusão da imagem original na versão do banco."
-    }
+      "problema_detectado": "O item depende integralmente de uma charge não reproduzida no texto do enunciado, o que impede a resolução isolada e exige a inclusão da imagem original na versão do banco.",
+      "imagem_status": "anexada"
+    },
+    "imagens_anexadas": [
+      {
+        "id_imagem": "med_unidavi_img_simulado02_2026_q47",
+        "posicao": "enunciado",
+        "ordem": 1,
+        "tipo": "outro",
+        "legenda": "Charge de Duke. Jornal O Tempo, edição de 21 jan. 2013.",
+        "alt_text": "Charge em preto e branco: longa fila de pessoas à entrada de um posto com a placa 'SUS'. Uma pessoa na fila pergunta: 'Mas, se você não tem nada, por que tá na fila do SUS?'. Outra responde: 'É que, atééééé eu ser atendido, é provável que eu fique doente!'.",
+        "creditos_imagem": "Charge de Duke — Jornal O Tempo, 21 jan. 2013. Disponível em: otempo.com.br/charges. Acesso em 30 abr. 2023."
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -8656,7 +8774,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": "O item permite leitura ambígua entre a resposta pautada estritamente na obrigatoriedade legal e a conduta gradual de sensibilização, além de conter quebra de palavra na extração ('fam ília'); recomenda-se explicitar no enunciado a ancoragem no texto do ECA."
+      "problema_detectado": "O item permite leitura ambígua entre a resposta pautada estritamente na obrigatoriedade legal e a conduta gradual de sensibilização, além de conter quebra de palavra na extração ('fam ília'); recomenda-se explicitar no enunciado a ancoragem no texto do ECA.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8752,7 +8871,8 @@
       },
       "gabarito_original": "A",
       "gabarito_novo": "A",
-      "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"solicitado s\", \"no va\")."
+      "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"solicitado s\", \"no va\").",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8848,7 +8968,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -8948,7 +9069,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "B",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9048,7 +9170,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "B",
-      "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“Qu”), que deve ser removido na revisão editorial."
+      "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“Qu”), que deve ser removido na revisão editorial.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9148,7 +9271,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9249,7 +9373,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9349,7 +9474,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "A",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9451,7 +9577,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "D",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9551,7 +9678,8 @@
       },
       "gabarito_original": "E",
       "gabarito_novo": "D",
-      "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"ar ranjos\", \"realizar - se\", \"centraliz ados\", \"e scala\")."
+      "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"ar ranjos\", \"realizar - se\", \"centraliz ados\", \"e scala\").",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9652,7 +9780,8 @@
       },
       "gabarito_original": "D",
       "gabarito_novo": "C",
-      "problema_detectado": null
+      "problema_detectado": null,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9753,7 +9882,8 @@
       },
       "gabarito_original": "B",
       "gabarito_novo": "B",
-      "problema_detectado": "Além do gabarito oficial (B), a alternativa C também enuncia conteúdo tecnicamente defensável sobre a responsabilidade do CAPS diante da crise, configurando duplicidade de opções plausíveis que merece revisão da curadoria."
+      "problema_detectado": "Além do gabarito oficial (B), a alternativa C também enuncia conteúdo tecnicamente defensável sobre a responsabilidade do CAPS diante da crise, configurando duplicidade de opções plausíveis que merece revisão da curadoria.",
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -9853,7 +9983,8 @@
       },
       "gabarito_original": "C",
       "gabarito_novo": "C",
-      "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“tão 52”)."
+      "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“tão 52”).",
+      "imagem_status": "nao_requer"
     }
   }
 ]

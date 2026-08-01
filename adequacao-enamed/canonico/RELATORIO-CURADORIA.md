@@ -9,7 +9,7 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 
 ## ENAMED 2025 — Caderno 01
 
-90 questões · convertidas 5→4: 0 · dependem de imagem: 9 · com defeito sinalizado: 0
+90 questões · convertidas 5→4: 0 · dependem de imagem: 3 · com defeito sinalizado: 0
 
 
 ### 1. Insuficiência cardíaca com fração de ejeção reduzida  
@@ -70,6 +70,8 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 `med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
 *Origem: ENAMED 2025 — Caderno 01, questão 5*
 
+> ⚠️ **depende de imagem** (anexar na curadoria)
+
 **Enunciado:** Homem de 28 anos, estudante universitário, residente em zona urbana, comparece à Unidade Básica de Saúde (UBS) referindo aparecimento de lesão cutânea em região dorsal da mão, cerca de 1 mês após ter sofrido arranhadura de gato de rua. A lesão apresenta úlceras com presença de crostas além de nodulações próximas. Foi submetido à biópsia da lesão cutânea e cultura de material. Observou-se dermatite granulomatosa difusa, presença de corpos asteroides e material eosinofílico ao redor de células características. Qual é a principal hipótese diagnóstica e o respectivo tratamento para esse caso?
 
 - **(A)** Furunculose; cefalexina por 7 dias.  
@@ -87,8 +89,6 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 ### 5. Níveis de atenção e níveis de prevenção  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
 *Origem: ENAMED 2025 — Caderno 01, questão 6*
-
-> ⚠️ **depende de imagem** (anexar na curadoria)
 
 **Enunciado:** Observe o encaminhamento realizado por um médico de família. “À cardiologia, Encaminho o Sr. J. L. S., de 56 anos, com diagnóstico de cardiopatia isquêmica, que sofreu um infarto agudo do miocárdio há 3 meses. Tem orientação para o uso de antiagregantes plaquetários, mas tem história de úlcera péptica e teve reação alérgica ao clopidogrel e à ticlopidina. Desta forma, solicito orientação quanto à conduta preventiva.” Ao ser assistido pelo cardiologista, o paciente será atendido em qual nível de atenção e receberá que tipo de prevenção, respectivamente?
 
@@ -161,8 +161,6 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 ### 9. Transtorno de oposição desafiante  
 `med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: analise  
 *Origem: ENAMED 2025 — Caderno 01, questão 14*
-
-> ⚠️ **depende de imagem** (anexar na curadoria)
 
 **Enunciado:** Pais de um menino de 10 anos levam a criança para avaliação médica em Unidade Básica de Saúde (UBS). Relatam que seu filho se dá bem com a família até que não lhe seja permitido fazer algo que deseja. Quando isso ocorre, ele fica irritado, impulsivamente agressivo e agitado por várias horas. Assim que se acalma ou consegue o que quer, fica feliz e agradável novamente. Os pais entendem que o filho parece agir deliberadamente para aborrecer os outros e nunca assume a culpa por seus próprios erros ou mau comportamento. Relatam ainda que ele discute com adultos ou figuras de autoridade e em várias situações não aceita as regras de boa convivência com os familiares. Considerando o caso descrito, qual é o diagnóstico mais provável?
 
@@ -289,8 +287,6 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 ### 16. Anorexia nervosa com instabilidade clínica  
 `med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · dificil · Bloom: avaliacao  
 *Origem: ENAMED 2025 — Caderno 01, questão 21*
-
-> ⚠️ **depende de imagem** (anexar na curadoria)
 
 **Enunciado:** Mulher de 21 anos comparece à consulta médica em Unidade Básica de Saúde (UBS) para avaliação de amenorreia há 4 meses, sendo descartada gravidez. Paciente relata que há 10 meses iniciou dieta para perder peso, tendo emagrecido nesse período aproximadamente 30 kg. Há 2 dias relata desmaio durante prática de exercício físico e, por isso, realizou eletrocardiograma (ECG) que indicou alterações no segmento ST e na onda T. Paciente nega histórico de diagnóstico de transtorno mental, mora sozinha e sua família é de outra cidade. Afirma manter o padrão alimentar, pois ainda quer perder peso. Ao exame físico, apresenta palidez de mucosa e turgor cutâneo diminuído. Altura 2 = 1,63 m; peso = 39 kg (IMC = 14,7 kg/m ); pressão arterial = 80 x 60 mmHg; frequência cardíaca = 55 bpm e frequência respiratória = 15 irpm. Qual é a conduta adequada nesse momento?
 
@@ -438,8 +434,6 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 `med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · dificil · Bloom: analise  
 *Origem: ENAMED 2025 — Caderno 01, questão 29*
 
-> ⚠️ **depende de imagem** (anexar na curadoria)
-
 **Caso:** Homem de 68 anos, em tratamento crônico irregular de hipertensão arterial sistêmica, diabetes mellitus e fibrilação atrial, é admitido em Unidade de Pronto Atendimento (UPA) com quadro de rebaixamento do nível de consciência e déficit neurológico do lado esquerdo, de predomínio braquiofacial. Segundo o acompanhante, o paciente tinha ido se deitar havia 90 minutos, sem qualquer sintoma antes de ser encontrado com o transtorno observado. Foi levado ao hospital, onde deu entrada 30 minutos após constatado o déficit focal. Ao exame físico, paciente com 9 pontos na escala de coma de Glasgow modificada, exibindo hemiparesia acentuada à esquerda, pressão arterial de 170 x 100 mmHg em ambos os membros superiores, com ritmo cardíaco irregular, frequência cardíaca média de 96 bpm. Não há outras alterações expressivas ao exame físico. Glicemia capilar de 285 mg/dL; demais exames laboratoriais não revelam anormalidades. A tomografia computadorizada de crânio sem contraste revela área de atenuação de densidade em cerca de 40% do território da artéria cerebral média direita, cujo laudo é obtido cerca de 3 horas após o último momento em que o paciente foi visto sem déficits.
 
 **Enunciado:** O médico da unidade explica ao acompanhante que, apesar dos potenciais benefícios da terapia trombolítica em pacientes com acidente vascular encefálico isquêmico, o paciente apresenta contraindicação em função de
@@ -478,8 +472,6 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 `med_unidavi_f11_uc01_clinica_cirurgica` · fase 11 · cirurgia · dificil · Bloom: analise  
 *Origem: ENAMED 2025 — Caderno 01, questão 31*
 
-> ⚠️ **depende de imagem** (anexar na curadoria)
-
 **Enunciado:** Mulher de 72 anos foi atendida em hospital de médio porte. Relatava emagrecimento e dor abdominal com irradiação para região dorsal há 3 meses; há 1 mês a urina ficou mais escura, começou a apresentar prurido cutâneo intenso e icterícia em escleras. Ao exame físico, encontrava-se ictérica +++/4+, emagrecida; exame do abdome com fígado palpável abaixo da borda costal direita, assim como uma massa bem definida, de consistência cística, não dolorosa em hipocôndrio direito. Nesse caso, o mais adequado é solicitar
 
 - **(A)** ultrassonografia para avaliar colecistite crônica calculosa.  
@@ -515,8 +507,6 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 ### 28. Tuberculose com reingresso após abandono  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · dificil · Bloom: analise  
 *Origem: ENAMED 2025 — Caderno 01, questão 33*
-
-> ⚠️ **depende de imagem** (anexar na curadoria)
 
 **Enunciado:** Homem de 48 anos busca atendimento na Unidade Básica de Saúde (UBS) para reiniciar tratamento para tuberculose. Paciente refere que iniciou o tratamento poliquimioterápico há 6 meses, quando foi diagnosticado com tuberculose; porém, há 2 meses, interrompeu o acompanhamento na sua unidade de origem devido ao uso de substâncias psicoativas. Ele se mudou para o território da unidade há 15 dias e foi visitado pelo agente comunitário, que o orientou a procurar atendimento médico para avaliação e retomada do tratamento. Foram solicitados, inicialmente, o teste rápido molecular para tuberculose (TRM-TB), baciloscopia de escarro e radiografia de tórax. Qual a conduta adequada para esse caso?
 
@@ -1496,8 +1486,6 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 `med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: aplicacao  
 *Origem: ENAMED 2025 — Caderno 01, questão 91*
 
-> ⚠️ **depende de imagem** (anexar na curadoria)
-
 **Caso:** Homem de 56 anos, em acompanhamento médico por angina instável de início recente, diabetes mellitus tipo 2, hipertensão arterial sistêmica e dislipidemia, é internado em unidade coronariana de hospital de atenção terciária com quadro de dor torácica em aperto, de forte intensidade, irradiada para o membro superior esquerdo e mandíbula, iniciada há cerca de 2 horas. O paciente relata ter sofrido 3 episódios de dor com características similares, mas de menor duração, nas últimas 24 horas. Ele vem em uso crônico de losartana, hidroclorotiazida, ácido acetilsalicílico, dapagliflozina, metformina e atorvastatina. Ao exame físico, ausculta-se 4ª bulha, níveis pressóricos dentro da normalidade, sem congestão pulmonar. Um eletrocardiograma mostra novo infradesnivelamento segmento ST de 1 mm, com inversão de onda T, em parede anterior. O paciente evolui com elevação da troponina-I, fazendo curva enzimática. O escore de risco Grace é de 152 pontos, enquanto o TIMI risk score é de 5 pontos.
 
 **Enunciado:** A conduta indicada nesse caso é realizar
@@ -1667,7 +1655,7 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 
 ## Simulados MED/ENAMED 2026
 
-100 questões · convertidas 5→4: 50 · dependem de imagem: 7 · com defeito sinalizado: 35
+100 questões · convertidas 5→4: 50 · dependem de imagem: 4 · com defeito sinalizado: 35
 
 
 ### 1. Rede de Atenção à Saúde (RAS): conceito, pontos de atenção e objetivos  
@@ -1724,8 +1712,7 @@ Motivo: Distrator menos discriminativo: isola a afirmativa II, cuja correção �
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: conhecimento  
 *Origem: Simulado 01 — MED/ENAMED 2026, questão 3*
 
-> **convertida 5→4**  
-> ⚠️ **depende de imagem** (anexar na curadoria)
+> **convertida 5→4**
 
 **Caso:** Segundo a Portaria nº 198/2004, que institui a Política Nacional de Educação Permanente em Saúde como estratégia do Sistema Único de Saúde para a formação e o desenvolvimento de trabalhadores para o setor, a condução locorregional da Política Nacional de Educação Permanente em Saúde será efetivada mediante um Colegiado de Gestão configurado como polo de educação permanente em saúde para o SUS com as funções de I. identificar necessidades de formação e de desenvolvimento dos trabalhadores de saúde e construir estratégias e processos que qualifiquem a atenção e a gestão em saúde e fortaleçam o controle social no setor na perspectiva de produzir impacto positivo sobre a saúde individual e coletiva; II. mobilizar a formação de gestores de sistemas, ações e serviços para a integração da rede de atenção como cadeia de cuidados progressivos à saúde (rede única de atenção intercomplementar e de acesso ao conjunto das necessidades de saúde individuais e coletivas); III. articular e estimular a transformação das práticas de saúde e de educação na saúde no conjunto do SUS e das instituições de ensino, tendo em vista a implementação das diretrizes curriculares nacionais para o conjunto dos cursos da área da saúde e a transformação de toda a rede de serviços e de gestão em rede-escola.
 
@@ -1929,8 +1916,7 @@ Motivo: É quase sobreponível à alternativa E, pois ambas negam a associação
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: aplicacao  
 *Origem: Simulado 01 — MED/ENAMED 2026, questão 11*
 
-> **convertida 5→4**  
-> ⚠️ **depende de imagem** (anexar na curadoria)
+> **convertida 5→4**
 
 **Enunciado:** Um estudo desenvolvido para determinar a prevalência e os fatores sociodemográficos associados à depressão mostrou que, em uma amostra representativa da população da cidade com mais de 18 anos de idade (1.041 participantes), os episódios depressivos apresentavam maior prevalência no sexo feminino, maior prevalência nos mais velhos e maior prevalência entre aqueles que não estavam trabalhando. As determinações do episódio depressivo e da ocupação foram feitas simultaneamente. Vorcaro et al, (2001). Nesse caso, estamos diante de um estudo
 
@@ -2615,7 +2601,6 @@ Motivo: A radiografia craniana não tem qualquer utilidade nesse cenário e repr
 *Origem: Simulado 01 — MED/ENAMED 2026, questão 38*
 
 > **convertida 5→4**  
-> ⚠️ **depende de imagem** (anexar na curadoria)  
 > ⚠️ **defeito na origem:** Todos os grupos citados são reconhecidos como populações de maior risco no Manual de Recomendações, de modo que o enunciado só se resolve pela magnitude relativa do risco, o que o torna parcialmente ambíguo; além disso, o item está marcado como exigindo imagem sem que haja recurso gráfico necessário à sua resolução.
 
 **Enunciado:** Segundo o Manual de Recomendações e Controle da Tuberculose no Brasil 2ª ed., atualizado em 29/05/2024, a transmissão e adoecimento por TB são influenciados por fatores demográficos, sociais e econômicos. Dentre os fatores que contribuem para a manutenção e propagação da doença, destacam-se: urbanização crescente e desordenada, desigualdade na distribuição de renda, moradias precárias e superlotação, insegurança alimentar e baixa escolaridade, bem como dificuldade de acesso aos serviços e bens públicos. Dessa maneira, no Brasil, assim como em outros países que têm condições de vida semelhantes, alguns grupos populacionais apresentam maior vulnerabilidade para a TB. Pelo exposto acima, em comparação com a população em geral, o risco de adoecimento por tuberculose é maior no seguinte grupo:
@@ -2886,8 +2871,6 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 ### 51. Tratamento do tabagismo: abordagem cognitivo-comportamental e farmacoterapia  
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 11*
-
-> ⚠️ **depende de imagem** (anexar na curadoria)
 
 **Enunciado:** O tabaco, em seus múltiplos usos, configura-se como a principal causa evitável de morte no Brasil e no mundo. Estima-se que o tabagismo seja a causa para cerca de 40% das mortes por câncer; de 70 a 95% das mortes devido a câncer de pulmão e 75% dos óbitos decorrentes de doença pulmonar obstrutiva crônica. Para apoiar o seu enfrentamento pode -se adotar, isoladament e ou de forma combinada, diversos tipos de abordagens. Sobre o tratamento a pessoa tabagista, é correto afirmar que
 
@@ -3455,6 +3438,7 @@ Motivo: A sífilis não é doença imunoprevenível nem cursa com placas pseudom
 `med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: analise  
 *Origem: Simulado 02 — MED/ENAMED 2026, questão 41*
 
+> ⚠️ **depende de imagem** (anexar na curadoria)  
 > ⚠️ **defeito na origem:** O enunciado remete a um ecomapa "exibido a seguir" que não acompanha o item, embora o campo requer_imagem esteja marcado como falso; além disso há quebras de palavra por espaçamento ("fi lha").
 
 **Caso:** O caso de um homem de 72 anos é avaliado em reunião de equipe na unidade básica de saúde após uma visita domiciliar realizada pelo agente comunitário de saúde (ACS). A esposa, de 68 anos, ao perceber uma piora do quadro de incontinência urinária, associada à perda ponderal expressiva em 08 meses, levou o idoso ao urologista, do qual havia abandonado o seguimento do acompanhamento prévio da hiperplasia benigna prostática (HPB). A visita foi solicitada porque ao receber o diagnóstico de neoplasia de próstata avançado sem possibilidade de cura, a esposa percebeu o desinteresse do idoso em realizar tarefas cotidianas e para tomar banho, se levantar da cama e se vestir, além da falta de apoio, em relação aos cuidados com o pai, da filha do casal, uma mulher de 33 anos que dá muito trabalho, segundo a mãe. O ecomapa exibido a seguir foi construído pelos membros da equipe, considerando outras informações colhidas pelo ACS durante à visita domiciliar.

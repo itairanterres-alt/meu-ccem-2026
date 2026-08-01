@@ -80,7 +80,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 1,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -165,7 +166,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 3,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -249,7 +251,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 4,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -333,8 +336,19 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 5,
-      "requer_imagem": false
-    }
+      "requer_imagem": true,
+      "imagem_status": "anexada"
+    },
+    "imagens_anexadas": [
+      {
+        "id_imagem": "med_unidavi_img_enamed2025_caderno1_q05",
+        "posicao": "enunciado",
+        "ordem": 1,
+        "tipo": "dermatologia",
+        "legenda": "Lesão cutânea em dorso da mão, um mês após arranhadura de gato.",
+        "alt_text": "Fotografia clínica de lesão cutânea: úlcera central recoberta por crostas escuras e exsudato, circundada por nódulos e pápulas eritemato-violáceas agrupadas, algumas com pequena pústula central, distribuídas de forma linear ascendente sobre pele íntegra ao redor."
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -417,7 +431,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 6,
-      "requer_imagem": true
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -501,7 +516,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 8,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -585,7 +601,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 12,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -670,7 +687,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 13,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -752,7 +770,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 14,
-      "requer_imagem": true
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -836,7 +855,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 15,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -920,7 +940,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 16,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1005,7 +1026,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 17,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1087,7 +1109,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 18,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1172,7 +1195,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 19,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1256,7 +1280,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 20,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1340,7 +1365,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 21,
-      "requer_imagem": true
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1424,7 +1450,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 22,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1509,7 +1536,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 23,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1593,7 +1621,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 24,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1676,7 +1705,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 25,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1760,7 +1790,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 26,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1844,7 +1875,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 27,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -1928,7 +1960,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 28,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2013,7 +2046,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 29,
-      "requer_imagem": true
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2097,7 +2131,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 30,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2180,7 +2215,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 31,
-      "requer_imagem": true
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2264,7 +2300,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 32,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2348,7 +2385,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 33,
-      "requer_imagem": true
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2432,7 +2470,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 34,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2517,7 +2556,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 35,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2601,7 +2641,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 36,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2685,7 +2726,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 37,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2768,7 +2810,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 38,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2852,7 +2895,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 39,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -2936,7 +2980,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 41,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3020,7 +3065,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 42,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3104,7 +3150,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 44,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3189,7 +3236,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 45,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3272,7 +3320,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 46,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3356,7 +3405,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 47,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3440,7 +3490,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 48,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3525,7 +3576,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 49,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3609,7 +3661,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 50,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3692,7 +3745,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 51,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3774,7 +3828,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 52,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -3858,8 +3913,19 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 53,
-      "requer_imagem": true
-    }
+      "requer_imagem": true,
+      "imagem_status": "anexada"
+    },
+    "imagens_anexadas": [
+      {
+        "id_imagem": "med_unidavi_img_enamed2025_caderno1_q53",
+        "posicao": "enunciado",
+        "ordem": 1,
+        "tipo": "tomografia",
+        "legenda": "Tomografia computadorizada de crânio, corte axial, sem contraste.",
+        "alt_text": "Tomografia de crânio em corte axial, sem contraste, ao nível das cisternas da base. Volumosa coleção extra-axial hiperdensa (branca) na convexidade do hemisfério esquerdo do paciente (à direita na imagem), com efeito de massa e apagamento dos sulcos corticais adjacentes; cisternas da base com conteúdo hiperdenso e leve desvio das estruturas da linha média para o lado oposto. Reprodução em baixa resolução."
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -3942,7 +4008,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 54,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4027,7 +4094,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 55,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4111,7 +4179,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 56,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4196,7 +4265,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 57,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4280,7 +4350,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 58,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4363,7 +4434,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 59,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4447,7 +4519,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 60,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4531,7 +4604,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 61,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4615,7 +4689,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 62,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4699,7 +4774,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 63,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4783,7 +4859,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 64,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4867,7 +4944,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 65,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -4951,7 +5029,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 66,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5036,7 +5115,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 67,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5120,7 +5200,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 68,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5203,7 +5284,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 69,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5287,7 +5369,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 70,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5370,7 +5453,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 71,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5454,7 +5538,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 72,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5539,7 +5624,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 73,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5622,7 +5708,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 74,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5706,7 +5793,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 75,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5790,7 +5878,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 77,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5874,7 +5963,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 78,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -5958,7 +6048,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 79,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6042,7 +6133,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 80,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6125,7 +6217,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 81,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6208,7 +6301,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 82,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6292,7 +6386,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 83,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6376,7 +6471,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 84,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6460,7 +6556,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 85,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6545,7 +6642,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 86,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6629,7 +6727,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 87,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6714,7 +6813,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 89,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6798,7 +6898,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 90,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6882,7 +6983,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 91,
-      "requer_imagem": true
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -6966,7 +7068,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 92,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7051,7 +7154,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 93,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7135,7 +7239,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 94,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7219,7 +7324,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 95,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7303,8 +7409,19 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 96,
-      "requer_imagem": true
-    }
+      "requer_imagem": true,
+      "imagem_status": "anexada"
+    },
+    "imagens_anexadas": [
+      {
+        "id_imagem": "med_unidavi_img_enamed2025_caderno1_q96",
+        "posicao": "enunciado",
+        "ordem": 1,
+        "tipo": "dermatologia",
+        "legenda": "Lesão peniana do paciente, com três meses de evolução.",
+        "alt_text": "Fotografia clínica do pênis, com o prepúcio retraído manualmente, mostrando lesão ulcerada na glande e no sulco balanoprepucial, de bordas elevadas e endurecidas, limites bem definidos e fundo irregular de aspecto granuloso e brilhante, sem secreção purulenta abundante. Imagem em preto e branco."
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -7386,7 +7503,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 97,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7470,7 +7588,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 98,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   },
   {
@@ -7555,7 +7674,8 @@
     "_proveniencia": {
       "fonte": "ENAMED 2025 — Caderno 01",
       "questao_original": 99,
-      "requer_imagem": false
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
     }
   }
 ]
