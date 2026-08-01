@@ -95,6 +95,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "imunologia",
+      "especialidade_secundaria": "patologia",
+      "objeto_conhecimento": "Imunocomplexos glomerulares na hipersensibilidade tipo III",
+      "sistema_organico": "imune",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -193,6 +203,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "embriologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Meiose dos gametas e fecundação na tuba uterina",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -292,6 +312,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "patologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Nódulos regenerativos e septos fibrosos na cirrose",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -389,6 +419,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "biologia_celular_e_molecular",
+      "especialidade_secundaria": "patologia",
+      "objeto_conhecimento": "Hipermetilação de ilhas CpG em genes supressores de tumor",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -488,6 +528,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "farmacologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Inibição da COX-1 e perda da citoproteção gástrica",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -585,6 +635,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "fisiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Canais de sódio e potássio no potencial de ação",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -684,6 +744,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "farmacologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Ação dos glicocorticoides via receptor nuclear citoplasmático",
+      "sistema_organico": "imune",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -782,6 +852,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "fisiologia",
+      "especialidade_secundaria": "anatomia",
+      "objeto_conhecimento": "Nervos glossofaríngeo e vago no reflexo barorreceptor",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -881,6 +961,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "farmacologia",
+      "especialidade_secundaria": "imunologia",
+      "objeto_conhecimento": "Degranulação mastocitária não mediada por IgE pela vancomicina",
+      "sistema_organico": "imune",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -979,6 +1069,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "microbiologia_e_parasitologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Dimorfismo como fator de virulência de Candida spp.",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1078,6 +1178,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "genetica",
+      "especialidade_secundaria": "biologia_celular_e_molecular",
+      "objeto_conhecimento": "Perda da neurofibromina e ativação da via RAS/MAPK",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1177,6 +1287,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "microbiologia_e_parasitologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Migração larvária pulmonar do Ascaris na síndrome de Löffler",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1276,6 +1396,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "biologia_celular_e_molecular",
+      "especialidade_secundaria": "microbiologia_e_parasitologia",
+      "objeto_conhecimento": "Lesão dos microvilos do epitélio colunar pela E. coli",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1374,6 +1504,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "anatomia",
+      "especialidade_secundaria": "biologia_celular_e_molecular",
+      "objeto_conhecimento": "Planos teciduais no acesso cirúrgico à diáfise femoral",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1473,6 +1613,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "anatomia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Estabilizadores dinâmicos do joelho",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1570,6 +1720,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "embriologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Formação do tubo cardíaco e cronologia da septação",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1668,6 +1828,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "patologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hidrocarbonetos aromáticos policíclicos como carcinógenos indiretos",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1767,6 +1937,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intoxicacoes_e_acidentes_por_animais",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Formas cutânea e hemolítica do loxoscelismo e soroterapia",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1866,6 +2046,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "anatomia",
+      "especialidade_secundaria": "fisiologia",
+      "objeto_conhecimento": "Funções executivas do lobo frontal após AVC isquêmico",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1964,6 +2154,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "choque_e_sepse",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Resposta simpática compensatória ao choque hemorrágico",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2062,6 +2262,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Sequência craniocaudal dos marcos motores do lactente",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2160,6 +2370,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Pele, tônus e reflexos no exame físico do prematuro",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2260,6 +2480,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
+      "objeto_conhecimento": "Uso racional de exames após crise febril simples",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2359,6 +2589,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
+      "objeto_conhecimento": "Queda do C3 na glomerulonefrite pós-estreptocócica",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2458,6 +2698,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Técnica e periodicidade da aferição da PA na criança",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2557,6 +2807,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": "adolescencia",
+      "objeto_conhecimento": "Leptina na ativação do eixo hipotálamo-hipófise-gonadal",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2657,6 +2917,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Corticoide inalatório em dose baixa na asma persistente da criança",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2757,6 +3027,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Correção da pega e do posicionamento na fissura mamilar",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2857,6 +3137,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
+      "objeto_conhecimento": "Manejo de suporte da bronquiolite viral aguda",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2955,6 +3245,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "parada_cardiorrespiratoria",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Sequência C-A-B na parada cardiorrespiratória pediátrica",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3055,6 +3355,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "gastroenterologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
+      "objeto_conhecimento": "Hidratação venosa do plano C na desidratação grave",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3154,6 +3464,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Ultrassonografia após a primeira ITU febril do lactente",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3252,6 +3572,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia_pediatrica",
+      "especialidade_secundaria": "pneumologia_pediatrica",
+      "objeto_conhecimento": "Resfriado comum versus faringite estreptocócica na criança",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3351,6 +3681,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": "neurologia_pediatrica",
+      "objeto_conhecimento": "Sinaptogênese e mielinização no perímetro cefálico",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3450,6 +3790,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "transtornos_do_neurodesenvolvimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Diagnóstico diferencial do transtorno do espectro autista",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3550,6 +3900,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_pediatrica",
+      "especialidade_secundaria": "gastroenterologia_pediatrica",
+      "objeto_conhecimento": "Onda U e achatamento da onda T na hipocalemia",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3650,6 +4010,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": "infectologia_pediatrica",
+      "objeto_conhecimento": "Calcificações intracranianas difusas na toxoplasmose congênita",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3748,6 +4118,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "pH e bicarbonato no diagnóstico da cetoacidose diabética",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3847,6 +4227,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "adolescencia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Doença de Graves como causa de tireotoxicose na adolescência",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3946,6 +4336,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "imunizacao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Contraindicações da VOP e poliomielite vacinal",
+      "sistema_organico": "imune",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4045,6 +4445,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_do_trabalhador",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Nexo causal com agrotóxico na intoxicação exógena",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4144,6 +4554,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Dependência do valor preditivo em relação à prevalência",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4243,6 +4663,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "comunicacao_clinica",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Distinção entre espiritualidade e religiosidade na consulta",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4343,6 +4773,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Janela do NS1 versus sorologia IgM no diagnóstico da dengue",
+      "sistema_organico": "imune",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4443,6 +4883,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Cefaleia por infecção oportunista do SNC na AIDS",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4543,6 +4993,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "etica_e_bioetica",
+      "objeto_conhecimento": "Janela de 72 horas da PEP sexual no adolescente",
+      "sistema_organico": "imune",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4643,6 +5103,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Atribuições específicas do médico na equipe de Saúde da Família",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4742,6 +5212,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Acometimento dermatoneurológico e notificação da hanseníase",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4841,6 +5321,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Projeto terapêutico singular como prática colaborativa",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4941,6 +5431,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Séries históricas na análise da transição epidemiológica",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5041,6 +5541,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "epidemiologia",
+      "objeto_conhecimento": "Rastreamento de diabetes como prevenção secundária",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5139,6 +5649,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "epidemiologia",
+      "objeto_conhecimento": "Exemplos de prevenção terciária em Leavell & Clark",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5239,6 +5759,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "metodologia_cientifica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Intervalo de confiança do risco relativo na eficácia vacinal",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5338,6 +5868,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": "infeccoes_genitais_e_ist",
+      "objeto_conhecimento": "Penicilina benzatina após teste rápido reagente para sífilis",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5438,6 +5978,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Mamografia bienal dos 50 aos 69 anos pelo INCA",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5537,6 +6087,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+      "objeto_conhecimento": "Adscrição e vínculo da PNAB no cuidado ao hipertenso",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5635,6 +6195,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Regionalização e hierarquização propostas no Relatório Dawson",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5736,6 +6306,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidados_paliativos",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Comunicação e planejamento de cuidados centrado em valores",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5835,6 +6415,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Relação horizontal na Educação Popular em Saúde",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5935,6 +6525,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Intervenção breve após rastreio CAGE positivo",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6035,6 +6635,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "choque_e_sepse",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Duplo J na pielonefrite obstrutiva por cálculo ureteral",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6133,6 +6743,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Traqueostomia como cirurgia potencialmente contaminada",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6233,6 +6853,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Abertura da ferida na infecção superficial de sítio cirúrgico",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6332,6 +6962,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "ortopedia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Tipoia e remodelação na fratura de clavícula da criança",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6431,6 +7071,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "urologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Ressonância multiparamétrica antes da biópsia prostática",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6531,6 +7181,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_cardiovasculares",
+      "especialidade_secundaria": "choque_e_sepse",
+      "objeto_conhecimento": "Pneumatose intestinal e laparotomia de emergência",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6632,6 +7292,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Recusa informada de cirurgia por paciente capaz e conflito familiar",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6730,6 +7400,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "gastroenterologia_pediatrica",
+      "especialidade_secundaria": "neonatologia",
+      "objeto_conhecimento": "Alcalose hipoclorêmica na estenose hipertrófica do piloro",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6830,6 +7510,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Proteção ocular rígida no hipema traumático",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6928,6 +7618,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": "ortopedia",
+      "objeto_conhecimento": "Déficits da síndrome do cone medular em S3-S5",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7028,6 +7728,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_respiratorias",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Drenagem transoral do abscesso peritonsilar",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7127,6 +7837,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "otorrinolaringologia",
+      "especialidade_secundaria": "cirurgia_geral",
+      "objeto_conhecimento": "Investigação de massa cervical metastática em tabagista",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7225,6 +7945,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Prazo de retirada de pontos conforme a região anatômica",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7324,6 +8054,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Esplenectomia sem disseminação no cisto hidático esplênico",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7424,6 +8164,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "anestesiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Vasopressor alfa-agonista na hipotensão pós-propofol",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7524,6 +8274,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Eixo ADH-aldosterona na retenção hídrica pós-operatória",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7624,6 +8384,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "abdome_agudo",
+      "especialidade_secundaria": "cirurgia_geral",
+      "objeto_conhecimento": "Instabilidade hemodinâmica como contraindicação à videolaparoscopia",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7723,6 +8493,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "oncologia",
+      "especialidade_secundaria": "gastroenterologia",
+      "objeto_conhecimento": "Colonoscopia na anemia ferropriva com sangue oculto positivo",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7823,6 +8603,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Reabordagem no choque hemorrágico pós-bypass gástrico",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7922,6 +8712,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Fasciotomia na queimadura circunferencial de membro",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8021,6 +8821,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Controle pressórico antes da trombólise no AVCi",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8121,6 +8931,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "psicofarmacologia",
+      "especialidade_secundaria": "transtornos_do_humor",
+      "objeto_conhecimento": "Efeitos adversos precoces e latência de resposta dos ISRS",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8221,6 +9041,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Metotrexato inicial na artrite reumatoide soronegativa",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8318,6 +9148,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "dermatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Diagnóstico diferencial das manchas hipocrômicas",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8418,6 +9258,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Ferro oral e encaminhamento na anemia por sangramento uterino",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8515,6 +9365,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia",
+      "especialidade_secundaria": "infectologia",
+      "objeto_conhecimento": "Caracterização do sinal de Brudzinski",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8615,6 +9475,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "etica_e_bioetica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Aplicação dos quatro princípios da bioética na relação médico-paciente",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8714,6 +9584,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Corticoide inalatório com LABA na asma persistente moderada",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8812,6 +9692,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "gastroenterologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Endoscopia com biópsias na esofagite eosinofílica",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8912,6 +9802,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Red flags de compressão medular na lombalgia",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9012,6 +9912,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "VEF1/CVF pós-broncodilatador abaixo de 0,70 na DPOC",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9111,6 +10021,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Betabloqueador no controle sintomático da tireotoxicose",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9211,6 +10131,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Diagnóstico da uretrite gonocócica e manejo das parcerias",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9309,6 +10239,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Coarctação da aorta na hipertensão resistente do jovem",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9409,6 +10349,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Betabloqueador como anti-isquêmico de primeira linha na angina estável",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9508,6 +10458,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Efeito incretínico e supressão do glucagon pelo GLP-1",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9607,6 +10567,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "nefrologia",
+      "especialidade_secundaria": "medicina_intensiva",
+      "objeto_conhecimento": "Estadiamento KDIGO da injúria renal aguda pelo débito urinário",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "terapia_intensiva",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9707,6 +10677,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia",
+      "especialidade_secundaria": "cardiologia",
+      "objeto_conhecimento": "Anticoagulação na prevenção secundária do AVC cardioembólico",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9807,6 +10787,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Redução de peso como medida modificadora na osteoartrite",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9907,6 +10897,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": "neurologia",
+      "objeto_conhecimento": "VHS elevada no diagnóstico da arterite temporal",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10007,6 +11007,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "oncoginecologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Repetição do citopatológico no ASC-US após os 30 anos",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10105,6 +11115,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hiperandrogenismo e anovulação na síndrome dos ovários policísticos",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10206,6 +11226,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infeccoes_genitais_e_ist",
+      "especialidade_secundaria": "planejamento_familiar",
+      "objeto_conhecimento": "Profilaxia de IST e contracepção de emergência sem denúncia",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10306,6 +11336,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": "pre_natal",
+      "objeto_conhecimento": "Corticoide antenatal e tromboprofilaxia na COVID-19 grave",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10404,6 +11444,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "climaterio",
+      "especialidade_secundaria": "endocrinologia_ginecologica",
+      "objeto_conhecimento": "Perfil hormonal da transição menopausal",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10503,6 +11553,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hipótese de endometriose na dor pélvica crônica",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10603,6 +11663,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hipertensão materna como principal fator de risco do DPP",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10703,6 +11773,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Anti-TPO na decisão de levotiroxina no hipotireoidismo subclínico",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10803,6 +11883,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Sulfato de magnésio na iminência de eclâmpsia",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10902,6 +11992,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Neuroproteção e profilaxia para EGB na RUPREME pré-termo",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11002,6 +12102,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Quando investigar amenorreia primária pelo Tanner",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11101,6 +12211,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": "infeccoes_genitais_e_ist",
+      "objeto_conhecimento": "Dessensibilização à penicilina na sífilis da gestante",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11200,6 +12320,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Indicação de fertilização in vitro na endometriose profunda",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11300,6 +12430,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": "infeccoes_genitais_e_ist",
+      "objeto_conhecimento": "Via de parto pela carga viral e contraindicação à amamentação",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11400,6 +12540,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "uroginecologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Fisiopatologia da incontinência urinária de esforço",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11500,6 +12650,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "sangramento_uterino_anormal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Adenomiose na classificação PALM-COEIN",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11600,6 +12760,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Restrição ao estrogênio no lúpus pelo risco tromboembólico",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11699,6 +12869,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Altura uterina e BCF no exame físico de rotina do pré-natal",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11799,6 +12979,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Macrossomia e polidrâmnio no diabetes gestacional",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11898,6 +13088,16 @@
       "posicao_correta_redistribuida": false,
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "mastologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Core biopsy no diagnóstico do nódulo mamário suspeito",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   }
 ]

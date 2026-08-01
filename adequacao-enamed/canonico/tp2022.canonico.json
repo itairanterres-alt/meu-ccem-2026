@@ -98,6 +98,16 @@
       "justificativa_oficial_fonte": "Para aplicar um teste estatístico, o pesquisador começa levantando a hipótese de que o tratamento não tem efeito. É a hipótese da nulidade, que se indica por H0 (lê-se agá-zero). No entanto, o pesquisador acredita no contrário: acha que o novo tratamento tem efeito. Esta é a hipótese alternativa - que se indica por H1 (lê-se agá-um). Não são variáveis e devem ser passíveis de testes. Vieira, S. Bioestatística Tópicos Avançados. 4a. Ed., Elsevier Editora, Rio de Janeiro, 2018.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "metodologia_cientifica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Formulação da hipótese nula e da alternativa",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -199,6 +209,16 @@
       "justificativa_oficial_fonte": "A questão está relacionada a ocorrência de gametogênese anormal. A não disjunção de um par de cromossomos autossômicos corresponde a uma falha na meiose I da espermatogênese, onde um par de cromossomo não se separa durante a anáfase I do espermatócito primário. Essa falha resulta na formação de espermatócitos secundários geneticamente anormais: 50% contendo um cromossomo a mais (24) e 50% contendo um cromossomo a menos (22). Durante a meiose 2 ocorreu a separação das cromátides irmãs como esperado, levando a formação de um conjunto de espermátides defeituosas de forma similar ao ocorrido com os espermatócitos secundários (50% contendo 24 cromossomos e 50% contendo 22 cromossomos). Na questão a não disjunção afetou um par de cromossomos autossômicos, sem prejuízo na separação do par de cromossomos sexuais.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "genetica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Gametas aneuploides pela não disjunção na meiose I",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -302,6 +322,16 @@
       "justificativa_oficial_fonte": "A constipação na gestação decorre da atonia intestinal, em consequência da ação inibidora da progesterona sobre a contratilidade da fibra muscular lisa; e, na gestação avançada, da compressão das vísceras abdominais pelo útero gravídico. Deve ser tratada com aumento da ingestão de fibras (como laxantes volumosos - não trazidos nas opções das questões) e água. Os laxantes são comumente usados contra a constipação, para acelerar o movimento do alimento por meio do trato gastrointestinal. Esses fármacos podem ser classificados com base no seu mecanismo de ação em: irritantes/estimulantes; volumosos; salinos e osmóticos; amolecedores de fezes; lubrificantes e ativadores de canais de cloretos. O docusato - um laxante amolecedor - age como emulsificador das fezes, sendo usado contra constipação leve, inclusive na gravidez, embora seu efeito não seja imediato. A loperamida é usada contra a diarreia, não contra a constipação. O bisacodil - um laxante irritante/estimulante - é um potente estimulante do colo do intestino onde atua diretamente nas fibras nervosas na mucosa como purgativo. O óleo de rícino - um laxante irritante/estimulante - não deve ser usado na gravidez porque pode provocar contrações do útero. O óleo mineral - um laxante lubrificante - não deve ser usado em pacientes acamados ou com disfagia, devido à possibilidade de aspiração e uma potencial pneumonia lipoide.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Escolha de laxante seguro na constipação da gestante",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -404,6 +434,16 @@
       "justificativa_oficial_fonte": "As células da zona glomerulosa do córtex adrenal são secretoras de aldosterona. A deficiência de aldosterona provoca depleção renal de sódio e hipercalemia. A depleção de sódio pode levar à hipovolemia e redução do débito cardíaco, ocasionando a hipotensão postural.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "fisiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Aldosterona na hipotensão postural com hipercalemia",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -506,6 +546,16 @@
       "justificativa_oficial_fonte": "A Dilatação da arteríola eferente diminui a resistência à saída do sangue do glomérulo provocando diminuição da pressão glomerular.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "farmacologia",
+      "especialidade_secundaria": "fisiologia",
+      "objeto_conhecimento": "Vasodilatação da arteríola eferente pelos IECA",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -607,6 +657,16 @@
       "justificativa_oficial_fonte": "Como o nível de mRNA do fator de transcrição específico é semelhante nos dois tecidos, a diferença pode ser atribuída a atividade desta proteína, ou seja, ou modificações traducionais ou pós traducionais.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "biologia_celular_e_molecular",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Controle pós-transcricional de fator de transcrição",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -709,6 +769,16 @@
       "justificativa_oficial_fonte": "As espécies do gênero Bacteroides, ao digerirem diversos polissacarídeos complexos que não podem ser digeridos por enzimas do metabolismo humano, geram subprodutos como os ácidos graxos de cadeia curta (butirato, propionato e acetato) que podem ser absorvidos por enterócitos e utilizados como fonte de energia. Bacteroides também produzem substâncias vitais para o hospedeiro humano, como as menaquinonas (vitamina K) e fazem a deconjugação e de-hidroxilação de sais biliares, promovendo a reciclagem desses compostos.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "microbiologia_e_parasitologia",
+      "especialidade_secundaria": "bioquimica",
+      "objeto_conhecimento": "Ácidos graxos de cadeia curta e vitamina K pela microbiota",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -811,6 +881,16 @@
       "justificativa_oficial_fonte": "Na fase inicial da toxicidade da aspirina, os pacientes desenvolvem alcalose respiratória devido à estimulação direta do centro respiratório na medula oblonga. Na fase tardia da toxicidade da aspirina, que ocorre várias horas após a ingestão, os pacientes desenvolvem aicdose metabólica devido ao acúmulo de cetoácidos orgânicos, ácido lático e ácido salicílico.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intoxicacoes_e_acidentes_por_animais",
+      "especialidade_secundaria": "emergencias_metabolicas",
+      "objeto_conhecimento": "Distúrbio ácido-básico misto na intoxicação por salicilatos",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -912,6 +992,16 @@
       "justificativa_oficial_fonte": "Quando um paciente não tem ondas P e apresenta frequência cardíaca baixa, é provável que o impulso proveniente do nó sinoatrial esteja totalmente bloqueado antes de entrar no músculo atrial. Isto é chamado de bloqueio sinoatrial. Os ventrículos assumem um novo ritmo geralmente iniciado no nó A-V neste momento, o que resulta em uma frequência cardíaca de 40 a 60 bpm. Ao contrário, durante a bradicardia sinoatrial ainda se tem ondas P associadas com cada complexo QRS. No bloqueio cardíaco de primeiro, segundo e terceiro graus, se tem ondas P em cada um desses instantes, embora algumas não estejam associadas ao complexo QRS.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "fisiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Ritmo de escape juncional no bloqueio sinoatrial",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1013,6 +1103,16 @@
       "justificativa_oficial_fonte": "Na grande maioria das vezes, as infecções por anaeróbios são de origem endógena. A maioria dos casos de gangrena gasosa após trauma cirúrgico, por exemplo, tem origem na microbiota intestinal do próprio paciente. Contudo, algumas poucas infecções são exógenas, como, por exemplo, certas infecções por clostrídeo. Infecções nosocomiais podem ocorrer por contaminação com clostrídeos que ocasionalmente participam da microbiota intestinal e podem envolver intoxicação, assim como infecções. Exemplos de tais infecções podem ser as doenças associadas aoC. difficile, principalmente a colite pseudomembranosa relacionada com antibioticoterapia.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "microbiologia_e_parasitologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Colite pseudomembranosa por Clostridioides difficile",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1115,6 +1215,16 @@
       "justificativa_oficial_fonte": "As células B que expressam MHC classe II são ativadas por linfócitos TCD4+ e passam a produzir IgG que auxiliam os macrófagos no combate ao vírus. Os linfócitos TCD4+/Th1 é responsável pela produção da citocina IFN-y que ativa a destruição de macrófagos contendo vírus em suas vesículas endocíticas. As células Natural Killer são linfócitos que atuam na imunidade inata, elas liberam enzimas líticas que destroem células contaminadas ou partículas virais.Os linfócitos TCD8+ possuem função citotóxica para os vírus. Eles são ativados pelas células apresentadoras de antígenos que expressam MHC classe I.a.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "imunologia",
+      "especialidade_secundaria": "microbiologia_e_parasitologia",
+      "objeto_conhecimento": "Linfócitos T, células NK e complemento na resposta antiviral",
+      "sistema_organico": "imune",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1216,6 +1326,16 @@
       "justificativa_oficial_fonte": "A linha primitiva é responsável pela formação do endoderma e mesoderma. É formada a partir de células do Epiblasto, que por sua vez, dá origem ao ectoderma. Em meados da quarta semana diminui em tamanho e torna-se uma estrutura insignificante na região sacrococcígea do embrião. Desaparecendo completamente até o final da quarta semana. Sua persistência resulta na formação de um tumor que pode conter vestígios de diferentes tecidos, visto que suas células estão envolvidas no desenvolvimentos dos 3 folhetos embrionários.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "embriologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Persistência da linha primitiva e teratoma sacrococcígeo",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1318,6 +1438,16 @@
       "justificativa_oficial_fonte": "As infecções bacterianas desencadeiam uma resposta inflamatória aguda dominada por neutrófilos. Os neutrófilos extravasados tentam fagocitar e destruir as bactérias. Nesse processo, alguns neutrófilos morrem e a liberação de seu conteúdo de enzimas lisossômicas pode causar necrose liquefativa no tecido. Essa situação gera a formação do pus, ou exsudato purulento. Esse exsudato é típico de infecções bacterianas que envolvem cavidades corporais. Outro termo para um exsudato purulento ocorrendo no espaço pleural é empiema.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "patologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Exsudato neutrofílico na formação do empiema pleural",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1420,6 +1550,16 @@
       "justificativa_oficial_fonte": "O termo mediana refere-se à medida que específica a tendência central indicando exatamente o valor central de determinados dados. É importante ressaltar que quando temos uma quantidade ímpar de números, definimos a mediana como o número central dos números apresentados. Porém, quando se tem uma quantidade par de números, definimos a mediana destes da seguinte forma: Somam-se os dois números centrais e calcula-se a média entre eles. 17-18-20-21-27-32-32-33; (21+27) / 2= 24 anos mediana; Média =25 anos; moda = 32. Bioestatística - Princípios e Aplicações Callegarijacques,Sidia M.",
       "imagem_status": "ausente_na_origem",
       "requer_imagem": true
+    },
+    "classificacao_fina": {
+      "especialidade": "bioestatistica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Cálculo da mediana em série com número par de observações",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1523,6 +1663,16 @@
       "justificativa_oficial_fonte": "O acometimento do sistema linfoproliferativo, a lincocitose e a monocitose, falam a favor de monocucleose infeciosa.",
       "imagem_status": "ausente_na_origem",
       "requer_imagem": true
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": "hematologia",
+      "objeto_conhecimento": "Linfocitose com atipia na mononucleose infecciosa",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1624,6 +1774,16 @@
       "justificativa_oficial_fonte": "A síntese da Clorpromazina e do Haloperidol permitiu deduzir que o mecanismo comum desses fármacos era o antagonismo da dopamina, especificadamente em D2. A Clozapina deu origem aos antipsicóticos atípicos ou de segunda geração com ação preferencial em receptores serotominérgicos.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "psicofarmacologia",
+      "especialidade_secundaria": "psicoses",
+      "objeto_conhecimento": "Bloqueio de receptores D2 pelos antipsicóticos típicos",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1724,6 +1884,16 @@
       "justificativa_oficial_fonte": "As Micróglias são as únicas células imunes residentes no cérebro. Elas agem como a primeira linha de defesa imunológica no cérebro.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "biologia_celular_e_molecular",
+      "especialidade_secundaria": "imunologia",
+      "objeto_conhecimento": "Micróglia como célula imune residente do SNC",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1825,6 +1995,16 @@
       "justificativa_oficial_fonte": "Pacientes com distúrbios no ciclo da ureia apresentam dificuldades na eliminação de nitrogênio proveniente da oxidação de aminoácidos, levando ao acúmulo de amônia. Em jejum a oxidação de aminoácidos se torna maior e desta forma deve-se evitar jejum prolongado minimizando a oxidação de aminoácidos e com isso complicações neurológicas.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "bioquimica",
+      "especialidade_secundaria": "genetica",
+      "objeto_conhecimento": "Deficiência de argininosuccinato liase na hiperamonemia",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1928,6 +2108,16 @@
       "justificativa_oficial_fonte": "Não há imunização desenvolvida para enteroparasitoses causadas por helmintos e protozoários. Nem todas as parasitoses dependem da presença de um vetor para serem disseminadas. Nem sempre a água é veículo de disseminação de enteroparasitos. Além disso, o saneamento básico possui muita influência na redução da incidência de enteroparasitoses. Amaioria dos enteroparasitas causam anemia ferropriva e diarreia.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "microbiologia_e_parasitologia",
+      "especialidade_secundaria": "imunologia",
+      "objeto_conhecimento": "Tríade hospedeiro-parasita-ambiente nas enteroparasitoses",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2031,6 +2221,16 @@
       "justificativa_oficial_fonte": "Existem condições que justificam a quebra de sigilo, como, por exemplo, sério dano físico a pessoa identificável, quando houver benefício real dessa quebra, quando for o último recurso e quando for generalizável, ou seja, mesmo dilema, com outros atores, permite a mesma solução. Sempre é necessário que a equipe multiprofissional discuta e compreenda os papéis e limites éticos de cada um dos profissionais da equipe e tentem estabelecer um processo de trabalho que acolha todas as nuances. O prontuário médico é de responsabilidade de instituição que o gere, sendo somente autorizada a exposição de detalhes e confidencialidades do paciente se este autorizar a exposição. Nem todos os casos precisam ser discutidos com todos os membros da equipe, podendo ser, num primeiro momento, partilhado com profissionais que tenham compromisso com algum órgão de ética profissional.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "etica_e_bioetica",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Confidencialidade compartilhada na equipe multiprofissional",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2133,6 +2333,16 @@
       "justificativa_oficial_fonte": "A APS é responsável pela coordenação do cuidado, supervisionando as informações vindas de outros níveis de atenção (como no caso exemplificado pelo José), regulando os fluxos para garantir agilidade à atenção de problemas potencialmente graves e adequando todo esse cuidado à realidade das pessoas. Durante o fechamento (Lock down) dos serviços secundário como ambulatórios de especialidade coube à APS garantir o cuidado adequado e oportuno às pessoas como demonstrado no caso da Maria.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Coordenação do cuidado como atributo essencial da APS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2236,6 +2446,16 @@
       "justificativa_oficial_fonte": "Toda ESF deve ser territorializada, com responsabilidade sanitária do território adscrito. Em caso de alto risco ou vulnerabilidade, deve ter 1 ACS a cada 750 pessoas. É a ESF que deve ser considerada o modelo prioritário de organização da APS no Brasil. Quantitativo máximo previsto na PNAB de 3500 pessoas por equipe ESF.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Parâmetros de adscrição populacional das equipes na PNAB 2017",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2338,6 +2558,16 @@
       "justificativa_oficial_fonte": "Pela 1 a vez, a VIII Conferência Nacional de Saúde contou com uma expressiva participação popular em busca de uma reforma no sistema de saúde que atendesse a todos, bem como melhorias das condições de vida da população. Isso culminou em um novo conceito de saúde, mais abrangente e finalmente na implantação do SUS. Embora tenha ocorrido no período da reforma sanitária, não foi o marco que mudou o rumo da saúde no Brasil.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "VIII Conferência Nacional de Saúde e a Reforma Sanitária",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2440,6 +2670,16 @@
       "justificativa_oficial_fonte": "De acordo com a Lei Orgânica da Saúde, os fatores determinante e condicionantes de saúde são: a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, o transporte, o lazer e o aceso aos bens e serviços essenciais para a saúde.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Determinante social como fator de risco na Lei nº 8.080/1990",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2542,6 +2782,16 @@
       "justificativa_oficial_fonte": "E necessária uma interação de outros fatores como os individuais. No período da patogênese temos quatro níveis de evolução da doença e tem a morte como evolução da doença. A cronicidade pode ser reversível.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Pré-patogênese e patogênese na história natural da doença",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2645,6 +2895,16 @@
       "justificativa_oficial_fonte": "CNS é cadastro único nacional vinculado ao CPF. Ele é muito importante para as análises epidemiológicas dos gestores de saúde pública e privada, conforme site do CNS do MS: O CNS faz parte da política do e-Saúde, que utiliza essas bases de dados de pessoas, estabelecimentos, procedimentos, como forma de propor ações estratégicas para a formulação de políticas de saúde de forma integrada. Com isso, é possível organizar a rede de atenção à saúde e a gestão do SUS, facilitar o atendimento ao cidadão e qualificar o trabalho dos gestores e profissionais da área da Saúde. Diante disso, percebe-se o impacto e a amplitude do uso das tecnologias de informação e de telecomunicação na gestão da saúde pública. O nome social deve ser usado em todas as interações da pessoa com o SUS conforme portaria 1820 de 13 de agosto de 2009: Art. 4 o, Parágrafo Único, identificação pelo nome e sobrenome civil, devendo existir em todo documento do usuário e usuária um campo para se registrar o nome social, independente do registro civil sendo as- segurado o uso do nome de preferência, não podendo ser identificado por número, nome ou código da doença ou outras formas desrespeitosas ou preconceituosas. O prazo para que todos os beneficiários de planos de saúde tenham seu número de Cartão Nacional de Saúde informado à ANS pelas operadoras foi em junho de 2013. O beneficiário de plano de saúde terá acesso ao número do CNS quando solicitá-lo à operadora.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "gestao_em_saude",
+      "especialidade_secundaria": "politicas_publicas_e_sus",
+      "objeto_conhecimento": "Cartão Nacional de Saúde e registro do nome social",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2746,6 +3006,16 @@
       "justificativa_oficial_fonte": "Diabéticos que fazer exercícios, evitam complicações da doença. A coleta de citologia oncótica é prevenção secundária. A fonoaudiologia em pacientes com sequela de AVC é prevenção terciária. A reverificação de pressão arterial é prevenção secundária. A quimioprofilaxia é prevenção primária.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "epidemiologia",
+      "objeto_conhecimento": "Funções da medicina de Sigerist e níveis de prevenção",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2849,6 +3119,16 @@
       "justificativa_oficial_fonte": "A LEI dispões sobre os princípios do sistema e como os serviços complementares devem atuar.No caso nenhum serviço particular complementar ao SUS pode ter algum tipo de preconceito e deixar de atender a qualquer pessoa.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Participação complementar da iniciativa privada na Lei 8.080",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2951,6 +3231,16 @@
       "justificativa_oficial_fonte": "No modelo dialógico: o indivíduo é reconhecido sujeito portador de um saber, que embora distinto do saber técnico-científico não é deslegitimado pelos serviços. Em um modelo dialógico e participativo, todos, profissionais e usuários, atuam como iguais, ainda que com papéis diferenciados.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "abordagem_familiar_e_comunitaria",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Educação dialógica versus modelo transmissivo na ESF",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3054,6 +3344,16 @@
       "justificativa_oficial_fonte": "A PNAB 2017 passou a permitir que os ACSs façam procedimentos básicos de enfermagem, contanto que passem por capacitação para tais práticas. Essas capacitações devem ser oferecidas pela gestão do sistema de saúde.O estudo apresentado é um estudo individuado, observacional e longitudinal. O estudo parte de pacientes com testes positivos e negativos para o SARS-Cov-2 (infectados e não infectados) e buscase em algum momento do passado se esses pacientes foram ou não vacinados (expostos ou não expostos). Esse delineamento de estudo é característico dos estudos de caso-controle, para ser mais específico, dos estudos de caso-controle teste negativos. Os estudos de coorte partem da exposição para a doença (desfecho). Os estudos ecológicos são agregados e não individuados. Apesar de ter grupo controle o estudo não é randomizado. O estudo é longitudinal e não transversal.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Caso-controle teste-negativo na efetividade vacinal",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3155,6 +3455,16 @@
       "justificativa_oficial_fonte": "Os fatores de confusão em um estudo podem ser controlados em 2 momentos, no delineamento do estudo e na análise dos resultados (fase analítica). No delineamento podem ser feitos o cegamento, a randomização, o emparelhamento e a restrição. A estratificação consiste em estabelecer extratos (categorias homogêneas bem definidas das variáveis de confusão) para a análise dos resultados, portanto, feita na fase analítica.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "metodologia_cientifica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Estratificação como controle de confundimento na análise",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3257,6 +3567,16 @@
       "justificativa_oficial_fonte": "Desenvolvimento de habilidades individuais: Viabilizado por meio de estratégias educativas, são programas de formação e atualização que capacitam os indivíduos a participar, criar ambientes de apoio à promoção da saúde e desenvolver habilidades pessoais relacionadas à adoção de estilos de vida saudáveis.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Desenvolvimento de habilidades pessoais na Carta de Ottawa",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3358,6 +3678,16 @@
       "justificativa_oficial_fonte": "Odds ratio: É a divisão entre a probabilidade de um evento acontecer quando se está exposto ou não a um fator de risco. Risco relativo: É o cálculo que resulta em quantas vezes o risco de desenvolver uma doença é maior em um grupo comparado ao outro grupo. Razão de prevalência: é uma medida de associação que pode ser utilizada para verificar a probabilidade de o evento acontecer na população. Risco atribuível/Diferença de risco: é a diferença entre a incidência do evento em dois grupos, o do exposto ao fator de risco e do não exposto.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Risco atribuível versus razão de chances como medidas de efeito",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3460,6 +3790,16 @@
       "justificativa_oficial_fonte": "Como a paciente possui sintomas e forte suspeita de neoplasia maligna, necessitamos realizar um exame complementar com alta especificidade, que é a capacidade do teste diagnóstico detectar os verdadeiros negativos. Em exame com alta especificidade o resultado positivo aumenta consideravelmente as chances de ter a doença.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Escolha do teste confirmatório pela alta especificidade",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3562,6 +3902,16 @@
       "justificativa_oficial_fonte": "A Acupuntura, Homeopatia, Fitoterapia, Medicina Antroposófica e Termalismo social, foram regulamentadas pela Política Nacional de Práticas Integrativas e Complementares em Saúde (PNPICS) e inseridas na primeira edição da política.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Elenco original de práticas da PNPIC de 2006",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3665,6 +4015,16 @@
       "justificativa_oficial_fonte": "A forma virchowiana, é a mais contagiosa das formas da hanseníase, segundo a classificação de Madrid (1953), que tem outras 3 formas classificadas, e se caracteriza pela pele da face infiltrada, avermelhada, seca, com poros dilatados e com acometimento dos pelos, causando sua queda, principalmente em região de sobrancelhas (madarose). O suor esta diminuído ou ausente de forma generalizada, exceto nas áreas poupadas pela doença, onde fica mais intenso. Os nervos periféricos e seus ramos mais superficiais se tornam mais espessados simetricamente, o que dificulta sua comparação.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "dermatologia",
+      "especialidade_secundaria": "infectologia",
+      "objeto_conhecimento": "Achados clínicos da hanseníase virchowiana",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3767,6 +4127,16 @@
       "justificativa_oficial_fonte": "O quadro clínico e a epidemiológico é típico da malária, doença endêmica em nosso país na região da Amazônia Legal. Trata-se de uma situação relativamente comum em qualquer pronto socorro do país.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Paroxismos febris e procedência amazônica na malária",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3869,6 +4239,16 @@
       "justificativa_oficial_fonte": "Paciente com quadro clínico compatível com dermatite atópica (início dos sintomas no período de lactente, piora com mudanças ambientais, pele seca/ áspera e localização de lesão em superfície flexora). O tratamento consiste em 4 pilares: educação do paciente, hidratação da pele, controle dos desencadeantes e medicamentos tópicos ou orais.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hidratação cutânea e corticoide tópico na dermatite atópica",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3971,6 +4351,16 @@
       "justificativa_oficial_fonte": "A questão avalia os diagnósticos diferenciais de estridor respiratório, diferenciando o tratamento entre estridor laríngeo e broncoespasmo, cujo quadro clínico se diferencia principalmente pelos sintomas apresentados. Este quadro é comum nas emergências pediátricas e o tratamento correto prontamente iniciado evita as complicações potencialmente graves das obstruções de trato respiratório superior. A medicação de escolha para a laringite viral aguda leve/moderada, como é a situação do nosso paciente, é a dexametasona VO dose única. A inalação com epinefrina está indicada nos casos graves. A inalação com beta- 2-agonista está indicada na crise de broncoespasmo e a prednisolona para a laringite deve ser prescrita na dose de 1-2 mg/Kg/dia por 3 dias.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_pediatrica",
+      "especialidade_secundaria": "pneumologia_pediatrica",
+      "objeto_conhecimento": "Dexametasona oral em dose única no crupe leve",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4073,6 +4463,16 @@
       "justificativa_oficial_fonte": "Essa criança apresenta uma puberdade precoce heterossexual, portanto de causa periférica, e as causas mais comuns são: tumor ou hiperplasia adrenal congênita, exposição a androgênios. A adrenarca precoce não causa hipertrofia de clitóris nem avanço de idade óssea tão grande.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Virilização periférica na puberdade precoce heterossexual",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4176,6 +4576,16 @@
       "justificativa_oficial_fonte": "A obesidade na infância é de causa exógena em mais de 90% dos casos. O DM1 não é uma complicação da obesidade. A omissão do desjejum é um fator de risco de obesidade. O IMC acima do percentil 97 é definido como obesidade.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": "aleitamento_e_nutricao",
+      "objeto_conhecimento": "IMC por percentil e comorbidades da obesidade infantil",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4278,6 +4688,16 @@
       "justificativa_oficial_fonte": "O conhecimento das reais contraindicações das vacinas é fundamental para evitar hesitação ou atrasos desnecessários na administração de vacinas. A vacina da hepatite B deve ser aplicada nas primeiras horas de vida e caso a mãe seja portadora do vírus, deve-se realizar também imunoglobulina específica. Exposição vertical ao HIV não contraindica a vacina BCG. A vacina da febre amarela deve ser evitada em pacientes com anafilaxia ao ovo. Vacina do rotavírus não deve ser realizada em indivíduos com malformações do trato gastrointestinal devido ao risco de invaginarão intestinal.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "imunizacao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Contraindicações verdadeiras e falsas às vacinas infantis",
+      "sistema_organico": "imune",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4380,6 +4800,16 @@
       "justificativa_oficial_fonte": "O diagnóstico de rinite alérgica é essencialmente clínico, incluindo sintomas crônicos nasais e eventualmente oculares associados. O teste alérgico de leitura imediata ou dosagem de IgE específica sérica auxiliam na identificação dos alérgenos que possam estar envolvidos do desencadeamento de sintomas, mas não são essenciais. No exame físico estão presentes sinais de atopia como saudação alérgica, dupla prega de Dennie Morgan e edema de conchas nasais com palidez de mucosa associada. Não são necessários exames de imagem, que inclusive podem ser iatrogênicos para a criança, por emitirem radiação. Nasofibroscopia poderia afastar polipose nasal, mas é realizada na infância para casos mais graves ou refratários ao tratamento.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Caráter clínico do diagnóstico da rinite alérgica na infância",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4482,6 +4912,16 @@
       "justificativa_oficial_fonte": "Adenomegalias com características linfoproliferativas podem assumir aspecto indolor, grandes (maior de 2 cm), aderentes a planos profundos e imóveis. Geralmente de crescimento crônico, não associado a patologias infecciosas.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "hematologia",
+      "especialidade_secundaria": "oncologia",
+      "objeto_conhecimento": "Características do linfonodo suspeito de neoplasia",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4584,6 +5024,16 @@
       "justificativa_oficial_fonte": "As intoxicações exógenas, principalmente as na?o intencionais, constituem uma das principais causas de atendimento em emergência pediátrica, sendo portanto fundamental o conhecimento e tratamento inicial das principais síndromes tóxicas. O caso apresentado trata-se de uma provável intoxicação por organofosforado, que exige medidas imediatas devido à ampla distribuição deste agente tóxico no organismo e à sua ligação irreversível à acetilcolinesterase na fenda sináptica.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intoxicacoes_e_acidentes_por_animais",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Atropina na síndrome colinérgica por organofosforado",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4686,6 +5136,16 @@
       "justificativa_oficial_fonte": "A transposição dos grandes vasos da base é cardiopatia cianótica dependente de canal arterial e a manifestação clínica mais importante é cianose que ocorre algumas horas após o parto quando ocorre o fechamento do canal arterial. No tratamento dessa cardiopatia deve-se iniciar prostaglandina endovenosa contínua para manter o ducto arterial pérvio. Não deve ser usado oxigênio e o tratamento é cirúrgico. O mais interessante no caso é uma cianose que não responde ao oxigênio justamente porque o oxigênio faz uma constrição do ducto promovendo o seu fechamento e piora da cianose. Lembrar que neste tipo de cardiopatia a circulação é em paralelo. Na radiografia de tórax geralmente a área cardíaca é normal ou com discreta cardiomegalia. O parênquima pulmonar também é normal e algumas vezes pode apresentar discreta congestão. Na ausculta cardíaca geralmente não há sopros, podendo apresentar segunda bulha mais hiperfonética devido a posição da aorta anterior saindo do ventrículo direito. Portanto lembrar que paciente com cianose que não melhora com oxigenioterapia, com radiografia de tórax que se exclui alterações pulmonares que justifiquem a cianose, ausência de sopros importantes uma boa hipótese diagnóstica é transposição dos grandes vasos da base.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia_pediatrica",
+      "especialidade_secundaria": "neonatologia",
+      "objeto_conhecimento": "Cianose refratária ao O2 na transposição das grandes artérias",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4788,6 +5248,16 @@
       "justificativa_oficial_fonte": "A hipoglicemia acomete cerca de 8 a 10% dos bebês grandes para idade gestacional. Os sinais e sintomas incluem irritabilidade, recusa alimentar, sucção débil, letargia, apneia, hipotonia, hipotermia, crises de cianose, instabilidade vasomotora, dificuldade respiratória, convulsões. O diabetes gestacional é um fator de risco para hipoglicemia neonatal.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hipoglicemia neonatal no recém-nascido GIG de mãe diabética",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4891,6 +5361,16 @@
       "justificativa_oficial_fonte": "O reconhecimento do choque séptico é essencial e urgente. Na questão a paciente apresenta achados clínicos compatíveis com choque séptico e deve ser manejada de acordo com as diretrizes clínicas da Surviving Sepsis Campaing: monitorização, fornecimento de oxigênio e administração de volume através de cristaloides balanceados e tamponados, inicialmente 10-20 ml/kg. O início da antibioticoterapia deve ser, no caso do choque séptico, em até uma hora e a coleta de culturas não deve atrasar sua administração.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "choque_e_sepse",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Cristaloides e antibiótico na primeira hora do choque séptico",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4993,6 +5473,16 @@
       "justificativa_oficial_fonte": "Lactente com quadro de desidratação grave secundário à diarreia aguda. Neste caso, deve ser tratado desde a admissão com terapia de reidratação parenteral. Segundo proposto pelo Ministério da Saúde, deve receber Soro fisiológico 0,9%, 20ml/kg cada 30 minutos, até que esteja hidratada.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_pediatrica",
+      "especialidade_secundaria": "gastroenterologia_pediatrica",
+      "objeto_conhecimento": "Expansão volêmica do plano C na desidratação grave",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5096,6 +5586,16 @@
       "justificativa_oficial_fonte": "A percepção do estímulo tátil na face ocorre pelo nervo craniano trigêmeo, sendo a origem do reflexo.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
+      "objeto_conhecimento": "Origem no tronco encefálico do reflexo de voracidade",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5197,6 +5697,16 @@
       "justificativa_oficial_fonte": "O hábito de avaliar estruturas oculares no RN é essencial para o diagnóstico precoce da catarata congênita, devendo fazer parte da rotina do exame neonatal. A presença de leucocoria (pupila branca) ou a ausência do \"reflexo vermelho\"sugere a possibilidade de catarata.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Leucocoria no teste do reflexo vermelho",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5300,6 +5810,16 @@
       "justificativa_oficial_fonte": "Leucocitúria isolada não define infecção urinária, podendo ocorrer em outras patologias urinárias, como nefrolitíase, febre, nefrite intersticial. A esterase leucocitária não é um substituto adequado para a microscopia, mas pode refletir relação direta com a leucocitúria em alguns casos. Os leucócitos polimorfonucleares são o tipo histológico encontrado nas infecções urinárias; eosinófilos podem ser encontrados nas cistites intersticiais. Leucociúria em urina coletada por saco coletor não diagnostica infecção, ao passo que em urina coletada por punção suprapúbica sim.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "nefrologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Interpretação da leucocitúria estéril no exame de urina",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5402,6 +5922,16 @@
       "justificativa_oficial_fonte": "Deve ser realizado em todos os recém-nascidos. Momento da aferição entre 24 e 48 horas de vida, antes da alta hospitalar (não deve ser realizado antes de 24 horas de vida, período no qual ainda estão ocorrendo adaptações da circulação e fechamento do canal arterial). Local de aferição membro superior direito (antes de possível shunt pelo canal arterial) e em um dos membros inferiores. Resultado normal saturação periférica maior ou igual a 95% em ambas as medidas (membro superior direito e membro inferior) e diferença menor que 3% entre as medidas do membro superior direito e membro inferior. Este teste apresenta sensibilidade de 75% e especificidade de 99%. Sendo assim, algumas cardiopatias críticas podem não ser detectadas através dele, principalmente aquelas do tipo coartação de aorta.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": "cardiologia_pediatrica",
+      "objeto_conhecimento": "Oximetria de pulso na triagem de cardiopatia congênita crítica",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5503,6 +6033,16 @@
       "justificativa_oficial_fonte": "As alterações do número ou da função plaquetária se expressam por sangramentos mucosos e cutâneos de intensidade variável, como epistaxe, sangramento gengival e menorragia. A doença de von Willebrand caracteriza-se pela presença de sangramento cutâneo-mucoso. A Púrpura de Henoch-Schönlein ou vasculite por imunoglobulina A (IgA) é uma doença que envolve vasos predominantemente de pequeno calibre, com acometimento preferencial cutâneo, articular, gastrintestinal e renal. As manifestações clínicas das hemofilias são principalmente hemartroses e hematomas relacionados ou não a trauma. As manifestações clínicas são precoces desde o nascimento nos casos graves.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hemofilia A como causa de hematomas no recém-nascido",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5605,6 +6145,16 @@
       "justificativa_oficial_fonte": "os profissionais de saúde deverão receber imunoprofilaxia apenas se realizar procedimentos invasivos como intubação orotraqueal, caso não utilizar EPI adequado. O medicamento de escolha é a rifampicina, iniciado até 48 horas após a exposição ao doente, de forma simultânea a todos os contactantes.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Rifampicina para contatos de doença meningocócica",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5707,6 +6257,16 @@
       "justificativa_oficial_fonte": "A questão apresenta uma criança com febre baixa, evoluindo para exantema maculopapular em face e posteriormente em membros, em aspecto rendilhado. A descrição do exantema na face é do tipo \"face esbofeteada, sendo assim, devemos lembrar sempre do diagnóstico de eritema infeccioso. O eritema infeccioso é causado pelo parvovírus b19, apresentando um exantema que passa por 3 fases: a primeira é a face esbofeteada, a segunda é o aparecimento de um exantema maculopapular de aspecto rendilhado e a terceira fase que se caracteriza por uma recidiva do exantema 1 a 3 semanas após por sol, calor, estresse ou exercício.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Exantema rendilhado do eritema infeccioso",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5811,6 +6371,16 @@
       "justificativa_oficial_fonte": "Por ser menor de 14 anos, fica caracterizado o crime de estupro de vulnerável, pelo código penal (CP), que não faz distinção de estupro real e presumido. Como ela não aceita a gestação, é admissível sua interrupção, cabendo ao Estado o dever de garanti-la, sendo realizado de maneira ética, humanizada e segura.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": "intercorrencias_obstetricas",
+      "objeto_conhecimento": "Interrupção legal da gestação em estupro de vulnerável",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5915,6 +6485,16 @@
       "justificativa_oficial_fonte": "Avaliar se a paciente se já teve tratamento prévio e completo de sífilis anteriormente pois pode permanecer a cicatriz sorológica após o tratamento. Se sem histórico de tratamento, em sífilis tardia a titulação pode ficar baixa e tendo um teste treponemico positivo e um não treponemico positivo, considera-se infectada.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": "infeccoes_genitais_e_ist",
+      "objeto_conhecimento": "Cicatriz sorológica versus sífilis ativa na gestante",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6017,6 +6597,16 @@
       "justificativa_oficial_fonte": "A anticoncepção de emergência (AE) deve ser prescrita para todas as mulheres e adolescentes expostas à gravidez, através de contato certo ou duvidoso com sêmen, independente do período do ciclo menstrual que se encontrem, que tenham tido a primeira menstruação (ou que já apresentem sinais de puberdade) e que estejam antes da menopausa. A AE deve ser administrada o mais precocemente possível, dentro das primeiras 72 horas após o abuso. Porém entre o 4° e 5° dia da violência sexual a AE ainda oferece razoável proteção, embora com taxas de falha maiores. Sendo assim, a AE pode ser administrada até o 5o dia após a violência sexual.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": "infeccoes_genitais_e_ist",
+      "objeto_conhecimento": "Levonorgestrel após violência sexual em até 72 horas",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6120,6 +6710,16 @@
       "justificativa_oficial_fonte": "O tratamento da DIP pode ser ambulatorial ou hospitalar. São critérios de internação: ausência de resposta clínica após 72h do início do tratamento ambulatorial, presença de abscesso tubo-ovariano, estado geral grave (com presença de vômitos, febre persistente), sinais de peritonismo (abdome agudo infeccioso). A presença de massa palpável, secreção purulenta, comprovação laboratorial de Clamídia e Gonococo, PCR e VHS elevados, evidencia de endometrite são critérios para diagnóstico.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infeccoes_genitais_e_ist",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Critérios de internação na doença inflamatória pélvica",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6222,6 +6822,16 @@
       "justificativa_oficial_fonte": "As pacientes com síndrome de insensibilidade androgênica têm cariótipo masculino normal (46,XY), testículos que produzem testosterona e hormônio anti-mulleriano. Entretanto, uma mutação inativante do gene codificador do receptor androgênico intracelular resulta em insensibilidade dos órgãos às ações do androgênio que impede a masculinização normal interna e externa durante o desenvolvimento embrionário. Formando uma genitália feminina, ausência de orgãos internos e uma vagina curta em fundo cego.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Cariótipo 46,XY na insensibilidade androgênica completa",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6323,6 +6933,16 @@
       "justificativa_oficial_fonte": "O Teste RA endometriose tem como característica a menarca precoce, dismenorreia progressiva, dispareunia de profundidade, infertilidade. Para o diagnóstico definitivo é necessário a visualização dos focos endometrióticos, sendo a laparoscopia considerada padrão-ouro, mas o achado de cistos ovarianos com conteúdo espesso, homogêneo é fortemente sugestivo de endometrioma.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Endometrioma à ultrassonografia na dismenorreia progressiva",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6425,6 +7045,16 @@
       "justificativa_oficial_fonte": "Os critérios de Rotterdam é o mais utilizado no diagnóstico de SOP, que estabelece a presença de dois dos três critérios (anovulação crônica, hiperandrogenismo ou hiperandrogenemia, ovários policísticos ao ultrassom). Além disso, faz-se necessária a exclusão de outras causas de anovulação crônica e alteração androgênica.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Critérios de Rotterdam no diagnóstico da SOP",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6528,6 +7158,16 @@
       "justificativa_oficial_fonte": "A rigor, o enunciado não fornece dados suficientes para diagnóstico de DIPA, pois não descreve os três critérios maiores obrigatórios (dor pélvica, à mobilização de colo e de anexos). Os agentes presumidos são gonococo e clamídia respectivamente. Não há sinais de peritonite nem de instabilidade hemodinâmica, sendo desnecessária a internação neste momento.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infeccoes_genitais_e_ist",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Esquema ambulatorial de antibióticos na DIP",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6630,6 +7270,16 @@
       "justificativa_oficial_fonte": "No trabalho de parto a dinâmica uterina com 4 contrações em 10 minutos, bolsa rota, bossa serossangionolenta, edema de colo e parada de progressão caracterizam desproporção Céfalo-Pélvica e é indicação de Cesárea.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "parto_e_puerperio",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Distocia funcional versus desproporção cefalopélvica",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6733,6 +7383,16 @@
       "justificativa_oficial_fonte": "Em casos de mastite sem abscesso, o tratamento adequado é o uso de antibiótico de largo espectro e manter a amamentação. A amamentação deve ser suspensa somente nos casos de saída de pus pela mama. A drenagem cirúrgica se faz somente nos casos de abscesso mamário.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "parto_e_puerperio",
+      "especialidade_secundaria": "mastologia",
+      "objeto_conhecimento": "Manutenção da amamentação na mastite sem abscesso",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6834,6 +7494,16 @@
       "justificativa_oficial_fonte": "Pacientes que não respondem aos testes do estrógeno e progesterona, com altos níveis de hormônios gonadotróficos circulantes, tem como causa principal de amenorreia a falência ovariana. Isso porque, afastadas causas estruturais (improváveis, visto que a paciente menstruava anteriormente e, inclusive, tem 3 partos vaginais), a ausência de sangramento menstrual se dá pela insuficiência ovariana, que não tem mais folículos ovarianos para estímulo endometrial proliferativo e posterior descamação. Assim como, na ausência de produção endógeno de gonadrotrofinas, não há feedback negativo na produção de FSH e LH.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Falência ovariana na amenorreia secundária com FSH elevado",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6937,6 +7607,16 @@
       "justificativa_oficial_fonte": "O sistema cardiovascular da gestante totalmente diferente da mulher não gestante. Há aumento da frequência cardíaca basal, do volume sistólico e do débito cardíaco. Os níveis plaquetários estão diminuídos. Todos os fatores de coagulação aumentam, exceto os fatores XI e XIII. O volume plasmático aumenta mesmo, mas a produção de eritrócitos está aumentada também. A resistência vascular periférica diminui e o débito cardíaco aumenta.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Débito cardíaco e hipercoagulabilidade na adaptação gestacional",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7039,6 +7719,16 @@
       "justificativa_oficial_fonte": "A principal hipótese diagnóstica nesse caso é a Incompetência Istmo Cervical. Caracteriza-se por perda fetal recorrente no segundo trimestre da gravidez, em consequência de insuficiência do sistema de oclusão do colo uterino. O diagnóstico é clínico de incompetência cervical geralmente retrospectivo e depende fundamentalmente de uma cuidadosa anamnese obstétrica. Geralmente ocorre dilatação cervical indolor, ausência de sangramento, protrusão das membranas ovulares na vagina e posterior rotura de membranas, seguida de expulsão fetal, na maioria das vezes com produto conceptual ainda vivo. Responsável por 10 a 20",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Dilatação cervical indolor na incompetência istmocervical",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7140,6 +7830,16 @@
       "justificativa_oficial_fonte": "O aumento da produção de estrogênio causado pelo processo de gestação molar pode cursar com quadros severos de hiperêmese gravídica.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": "pre_natal",
+      "objeto_conhecimento": "Mola hidatiforme como causa de hiperêmese refratária",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7242,6 +7942,16 @@
       "justificativa_oficial_fonte": "A infertilidade por causa tubária é muito frequente em países em desenvolvimento e ocorre devido a migração de microrganismos pela endocérvice. Cerca de 10-40% destas infecções são causadas por Chlamydia trachomatis e Neisseria gonorrhoeae, sem dúvida os agentes etiológicos mais prevalentes. Estudos estimam que até 12% das mulheres acabam sendo inférteis após a primeira infecção, 25% após dois episódios e até 50% após a terceira doença inflamatória pélvica. Estas infecções tornam a paciente até 10x mais suscetível também a gravidez ectópica, pois nestes casos a motilidade tubária pode ser comprometida.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infeccoes_genitais_e_ist",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Clamídia e gonococo na obstrução tubária",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7344,6 +8054,16 @@
       "justificativa_oficial_fonte": "A grande maioria dos trabalhos científicos utilizam a idade com um excelente parâmetro para mensurar a reserva ovariana de uma paciente e orientá-la a buscar meios de preservar a fertilidade. Sem dúvidas, após os 35 anos, as pacientes experimentam um declínio importante da sua população folicular, com aumento significativo das taxas de aneuploidia em embriões produzidos por estes óvulos. O hormônio Anti-Mulleriano é produzido exclusivamente pelos folículos antrais e pré antrais, sofrendo mínima variação durante as fases do ciclo menstrual ou pela utilização de contraceptivos orais. Isso torna este marcador superior aos demais exames hormonais para mensurar a reserva ovariana da mulher. A CFA, realizada ultrassonograficamente com a paciente menstruada complementa a avaliação da reserva ovariana.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": "planejamento_familiar",
+      "objeto_conhecimento": "Hormônio antimülleriano e folículos antrais na reserva ovariana",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7446,6 +8166,16 @@
       "justificativa_oficial_fonte": "Baseado no último manual INCA 2016, o rastreamento para o câncer de colo uterino é feito através da colpocitologia oncológica cervical convencional que é iniciada aos 25 anos, nas pacientes que já iniciaram a vida sexual. Este exame deve ser feito anualmente por duas vezes consecutivas e, se normais, passa a ser trienal. O rastreamento pode ser suspenso aos 64 anos desde que os dois últimos exames estejam normais. Paciente histerectomizadas e com colo extirpado por doença benigna estão dispensadas do rastreamento, assim como as pacientes que nunca tiveram relação sexual por via vaginal.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "oncoginecologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Periodicidade do citopatológico no rastreamento do câncer de colo",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7549,6 +8279,16 @@
       "justificativa_oficial_fonte": "Além de aspectos relacionados à própria infecção pelo HPV (tipo e carga viral, infecção única ou múltipla), outros fatores ligados à imunidade, à genética e ao comportamento sexual parecem influenciar os mecanismos ainda incertos que determinam a regressão ou a persistência da infecção e também a progressão para lesões precursoras ou câncer. A idade também interfere nesse processo, sendo que a maioria das infecções por HPV em mulheres com menos de 30 anos regride espontaneamente, ao passo que acima dessa idade a persistência é mais frequente (IARC, 2007). O tabagismo aumenta o risco para o desenvolvimento do câncer do colo do útero, proporcionalmente ao número de cigarros fumados por dia e ao início em idade precoce.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "oncoginecologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Cofatores do HPV no câncer do colo do útero",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7651,6 +8391,16 @@
       "justificativa_oficial_fonte": "Iniciar com Espiramicina de forma contínua até a 16a semana de gestação. A partir da 18 a semana de gestação, substituir a espiramicina por esquema SPAF (Sulfadiazina, Pirimetamina e Ácido Folínico) até a 34a semana gestacional, substituindo o SPAF pela espiramicina. Por não atravessar a placenta, a espiramicina não pode ser usada para tratar infecções fetais.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Espiramicina e avidez de IgG na toxoplasmose gestacional",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7754,6 +8504,16 @@
       "justificativa_oficial_fonte": "O achado mamográfico de calcificações grosseiras, tipo pipoca, que são calcificações tipicamente benignas não exigem investigação adicional. Acontecem dentro dos fibroadenomas e na Classificação de BI-RADS (Breast Imaging Reporting and Data System) é classificada como BI-RADS 2.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "mastologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Calcificação em pipoca do fibroadenoma (BI-RADS 2)",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7855,6 +8615,16 @@
       "justificativa_oficial_fonte": "Diverticulite aguda, mais comum em mulheres, a partir dos 50 anos, o uso de AINES está associado a 70% casos de diverticulite. Localização predominante reto-sigmoide. Crises recorrentes podem fistulizar para bexiga e vagina.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "coloproctologia",
+      "especialidade_secundaria": "abdome_agudo",
+      "objeto_conhecimento": "Fístula colovaginal na diverticulite aguda complicada",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7956,6 +8726,16 @@
       "justificativa_oficial_fonte": "Com pico de incidência entre 45 e 60 anos de idade, tem como causa mais comum a doença pulmonar obstrutiva crônica.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "DPOC como causa mais comum do pneumotórax espontâneo secundário",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8058,6 +8838,16 @@
       "justificativa_oficial_fonte": "O objetivo é manter o oxigênio acima de 94%. A priorirade é para a ventilação, fazendo-se cricotireodostomia.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": "atendimento_pre_hospitalar",
+      "objeto_conhecimento": "Cricotireoidostomia na via aérea difícil por trauma facial",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8161,6 +8951,16 @@
       "justificativa_oficial_fonte": "Caso clínico de hiposfagma. Hiposfagma significa sangramento conjuntival. Existem várias causas para que este evento ocorra. O mais comum é após espirro, tosse ou vômitos. Outra coisa importante são aqueles pacientes que fazem uso de anticoagulante oral e possui os vasos capilares da esclera mais frágeis - que é o caso desta paciente da questão.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_cardiovasculares",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Conduta expectante no hiposfagma do paciente anticoagulado",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8263,6 +9063,16 @@
       "justificativa_oficial_fonte": "A presença de efusão na orelha média após um episódio de OMA (otite média aguda) é a regra. Independentemente de tratamentos, uso de medicações ou acompanhamento clínico, a resolução espontânea da OME (otite média com efusão) é favorável, ocorrendo em 75% a 90% das crianças após três meses. Apesar da história natural favorável, a taxa de recorrência é alta, ficando ao redor de 65% em dois anos. A maioria dos casos se resolve dentro de alguns meses, mas o prognóstico é inversamente relacionado ao tempo de evolução. A resolução espontânea é menor nos casos bilaterais e com persistência de três meses ou mais. Na maioria dos casos, a abordagem à OME é de observação por tempo determinado, acompanhando a sua história natural de resolução espontânea. Nesse período, cabe ao médico proteger o paciente de intervenções infundadas, ao mesmo tempo que deve estar atento para detectar problemas de desenvolvimento da criança e alterações otoscópicas que possam resultar em danos irreversíveis. As crianças com OME sem fatores de risco para dificuldades de desenvolvimento devem ser inicialmente observadas por três meses a partir do início da efusão (se conhecido) ou da data do diagnóstico. Em muitos casos, não é possível predizer quando iniciou a OME. Um episódio de OMA/IVAS ou audiometria/timpanometria recente podem auxiliar na estimativa de sua duração. Recomenda-se, nas crianças com OME crônica que realizaram avaliação auditiva, a seguinte abordagem, considerando-se o nível auditivo no melhor lado:1. Níveis menores ou iguais 20 dB (normal): repetir teste auditivo em 3 a 6 meses na persistência de OME.2. Níveis entre 21 e 39 dB (leve): abordagem individualizada de acordo com a duração da efusão, intensidade da perda auditiva e preferência dos pais.3. Níveis maiores ou iguais a 40 dB (moderado): recomenda-se cirurgia. Essas recomendações não contemplam OME crônica unilateral que provoca perda auditiva condutiva.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Tubo de ventilação na otite média com efusão persistente",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8366,6 +9176,16 @@
       "justificativa_oficial_fonte": "A ultrassonografia tem mostrado sensibilidade e especificidade excelentes. É um excelente método de triagem, pois evita as complicações associadas com exames invasivos, radiação e meio de contraste.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_vascular",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Ultrassonografia no rastreamento do aneurisma de aorta abdominal",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8469,6 +9289,16 @@
       "justificativa_oficial_fonte": "Todas as sociedades nacionais e internacionais de Urologia e Oncologia indicam rastreamento para câncer de próstata, com exame digital da próstata (toque) e dosagem do PSA sérico, sempre levando em consideração dados individuais como histórico familiar, raça, idade, presença de sintomas miccionais, desejo do paciente. A idade para início do rastreameanto pode diferir entre os \"guidelines\"das diferentes associações, alguns recomendando iniciar após os 50 anos, outros após os 55 anos.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Decisão compartilhada no rastreamento do câncer de próstata",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8572,6 +9402,16 @@
       "justificativa_oficial_fonte": "A Sociedade Americana de Anestesiologia classifica os pacientes que serão submetidos a cirurgia conforme suas comorbidades e risco cirúrgico fazendo uma graduação de I a VI. ASA I: Sem doença sistêmica/ASA II: Com doença sistêmica compensada/ASA III: Com doença sistêmica não compensadaASA IV: Com doença sistêmica grave com risco de morteASA V: Pouca probabilidade de sobreviver em 24 horas com ou sem cirurgia/ASA VI: Doador de órgãos.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "anestesiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Definição do paciente ASA III no pré-operatório",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8673,6 +9513,16 @@
       "justificativa_oficial_fonte": "A região inguinal é delimitada lateroinferiormente pelo ligamento inguinal (e trato iliopúbico), medialmente pelo músculo reto abdominal e superiormente por uma linha imaginária ligando as duas espinhas ilíacas.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hérnia inguinal direta e indireta e os vasos epigástricos",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8775,6 +9625,16 @@
       "justificativa_oficial_fonte": "Paciente submetida a colectomia esquerda apresentando no pós-operatório precoce quadro de náuseas, dor abdominal, febre e taquicardia; a principal suspeita diagnóstica é deiscência de anastomose. Além disso, não apresenta sintomas respiratórios ou alterações pulmonares no exame físico.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": "coloproctologia",
+      "objeto_conhecimento": "Deiscência de anastomose no 5º dia de pós-operatório",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8877,6 +9737,16 @@
       "justificativa_oficial_fonte": "Depois de algumas horas em jejum, os níveis de insulina caem enquanto os do glucagon aumentam, determinando uma rápida utilização dos recursos de glicogênio armazenados pelo organismo, especialmente no fígado (alternativa e). Os níveis séricos do hormônio de crescimento também se elevam caso haja hipoglicemia ou diminuição da circulação de ácidos graxos livres. Como a reserva de glicogênio é pequena e se acaba em poucas horas, a gliconeogênese passa a ser vital, pois o sistema nervoso central e as células sanguíneas são altamente dependentes da glicose para seu metabolismo durante o período inicial do jejum não adaptado. Assim, o fígado converterá aminoácidos e glicerol (resultantes da quebra dos triglicerídeos armazenados em glicerol e ácidos graxos) em glicose. Esse fenômeno parece ter regulação central envolvendo uma maior secreção de ACTH pela hipófise e consequente aumento da secreção de cortisol pela suprarrenal. O cortisol, associado à queda da insulina e ao aumento dos hormônios tireoidianos e adrenérgicos, determina uma mobilização das proteínas musculares que passam a fornecer, através das reações catabólicas, aminoácidos na corrente sanguínea (particularmente alanina e glutamina). A queda dos níveis de insulina, associado ao aumento do glucagon, leva a níveis aumentados de AMP cíclico no tecido adiposo, resultando em estímulo à lipase hormônio-sensitiva para quebrar a molécula do triglicerídeo em glicerol e ácido graxo. Esses ácidos graxos serão particularmente importantes no fornecimento de energia ao fígado para as reações da gliconeogênese hepática. Também serão a fonte de energia para os órgãos nesse processo de adaptação à escassez de glicose. Com o prolongamento do jejum, progressivamente o cérebro passa a consumir mais corpos cetônicos e menos glicose. Nessa fase, a excreção urinária de amônia formada no rim pela transaminação da glutamina aumenta e passa a ser a forma de excreção nitrogenada mais comum.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "bioquimica",
+      "especialidade_secundaria": "fisiologia",
+      "objeto_conhecimento": "Glicogenólise hepática nas primeiras horas de jejum",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8979,6 +9849,16 @@
       "justificativa_oficial_fonte": "Anemia em idosos é consequência frequente de perda sanguínea, geralmente de tubo digestivo. A imagem em \"mordida de maçã\"em enema opaco é bem característica de neoplasia de colon e para esta doença, o exame de sangue oculto nas fezes (FOBT, do inglês, fecal occult blood test) é uma estratégia utilizada como um primeiro teste de suspeição, que necessitará, nos casos positivos, de exame complementar ou confirmatório. Os exames endoscópicos, como retossigmoidoscopia e colonoscopia, além de poderem ser utilizados como teste de rastreamento alternativos, são os confirmatórios dos casos com rastreamento com exame de sangue oculto alterado ou com sinais e sintomas suspeitos, permitindo biopsiar achados suspeitos e retirar lesões prémalignas (HEWITSON et al., 2007). A Força Tarefa de Serviços Preventivos dos Estados Unidos, em 2021, referendado pelo INCA, recomendou o rastreamento em adultos de 50 a 75 anos (recomendação grau A), de 45 e 49 anos (recomendação grau B) e, seletivamente, entre 76 e 85 anos (recomendação grau C).",
       "imagem_status": "ausente_na_origem",
       "requer_imagem": true
+    },
+    "classificacao_fina": {
+      "especialidade": "oncologia",
+      "especialidade_secundaria": "gastroenterologia",
+      "objeto_conhecimento": "Sangue oculto nas fezes na detecção precoce do câncer colorretal",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9082,6 +9962,16 @@
       "justificativa_oficial_fonte": "O quadro clínico é muito sugestivo de lesão traqueobrônquica, onde a broncoscopia possui papel fundamental. É importante o aluno entender que o tratamento do trauma torácico envolve avaliação multidisciplinar e que a investigação não deve se restringir à tomografia.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Escape aéreo persistente e indicação de broncoscopia",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9183,6 +10073,16 @@
       "justificativa_oficial_fonte": "A dor presente em pacientes com insuficiência venosa, normalmente inicia-se no decorrer do dia, após períodos em posição ortostática, com piora no final do dia e a noite e apresenta melhora no repouso com membros elevados. A úlcera venosa (estase venosa) pode ser pequena ou estender-se por grandes áreas, apresenta leito raso e com tecido de granulação. Normalmente são indolores e tornam-se dolorosas quando apresentam infecção associada. A localização mais comum são nas regiões maleolares, principalmente maléolo medial. Nas úlceras de longa duração, a presença de bordos elevados deve levantar a suspeita de degeneração maligna.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_vascular",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Diferenciação entre úlcera venosa e úlcera arterial",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9286,6 +10186,16 @@
       "justificativa_oficial_fonte": "Correlação entre a técnica de biópsia realizada e a avaliação histopatológica do melanoma, avaliando o conhecimento frente as formas diagnósticas/prognósticas e de estadiamento do melanoma. Uma vez que o índice de Breslow é avaliado de forma adequada com a biópsia excisional da lesão, pois a retirada completa permite avaliar todas suas camadas e consequentemente o grau de profundida de invasão da lesão.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Perda do índice de Breslow na biópsia incisional",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9388,6 +10298,16 @@
       "justificativa_oficial_fonte": "Acompanhamento ou Vigilancia dos pólipos intestinais, segue a historia natural de seu processo de malignizacao, em especial a sequencia adenoma-carcinoma, pode-se estimar que esta formação leva no mínimo de 2 a 3 anos para formar um pólipo adenomatoso e cerca de 4 a 10 anos para a transformação maligna. Sabe-se, também, que quando existem mais do que três adenomas ou um adenoma maior que 10 mm ou componente viloso ou displasia de alto grau o risco para câncer colorretal é maior. Por isso da vigilancia da colonoscopia entre 2 a 3 anos apos a polipectomia. Apos uma polipectomia endoscópica de um pólipo maligno ou com displasia de alto grau, considera-se curado se o o exame histopatológico diagnosticar um pólipo adenomatoso com carcinoma intramucoso ou in situ, portanto sem invasão da sua camada muscular da mucosa. Já as indicações formais de follow-up para os achados na colonoscopia pela Associação Americana de Cirurgiões colorretais (ASCRS) são: 1) Não tiver pólipos: colonoscopia a cada 10 anos, não havendo história familiar relevante; 2) Pólipos hiperplásicos distais pequenos: a cada 10 anos, não havendo história familiar relevante; 3) 1-2 adenomas tubulares com menos de 1 cm: 5-10 anos, não havendo história familiar relevante; 4) 3-10 adenomas tubulares ou 1 adenoma maior que 1 cm ou qualquer tamanho se viloso ou com displasia de alto grau: colonoscopia a cada 3 anos, se todas as lesões foram removidas. Se o preparo estiver ruim ou se houver mais de 10 pólipos: repetir com menos de 3 anos; 5) Se mais de 10 adenomas: repetir em menos de 3 anos, considerar síndrome polipoide; 6) Adenoma séssil removido por piece meal (ou seja, removido em pedaços): colonoscopia dentro de 2 a 6 meses, pois pode haver pólipos residuais em até 14% dos pacientes.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "coloproctologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Intervalo de vigilância após polipectomia de adenoma com carcinoma in situ",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9489,6 +10409,16 @@
       "justificativa_oficial_fonte": "Avaliação do conhecimento de anatomia, noções de semiologia, neurologia e oftalmologia. Tumores de hipófise podem fazer compressão do quiasma ótico com conseqüente Hemianopsia Heterônima Bitemporal.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia",
+      "especialidade_secundaria": "endocrinologia",
+      "objeto_conhecimento": "Hemianopsia bitemporal por compressão do quiasma óptico",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9591,6 +10521,16 @@
       "justificativa_oficial_fonte": "De acordo com TMFC em caso de acidente leve (lesão superficial em perna) com o cão desaparecido, deve-se lavar ferida e iniciar vacinação.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Profilaxia antirrábica em acidente leve com cão desaparecido",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9693,6 +10633,16 @@
       "justificativa_oficial_fonte": "O hematoma epidural resulta em geral de um traumatismo craniano associado a uma fratura lateral do crânio e ruptura da artéria meníngea média. Os pacientes podem ou não perder a consciência inicialmente, Com frequência, existe um intervalo lúcido de várias horas antes do início do coma, durante o qual poder ocorrer cefaleia, vômitos, embotamento, convulsões e sinais neurológicos focais. O diagnóstico pode ser feito por meio de tomografia computadorizada de crânio que classicamente mostram uma massa biconvexa em forma de lente e radiodensa comprimindo o hemisfério cerebral.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": "trauma",
+      "objeto_conhecimento": "Intervalo lúcido e artéria meníngea média no hematoma extradural",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9796,6 +10746,16 @@
       "justificativa_oficial_fonte": "Devido à elevada prevalência, morbidade e mortalidade da Síndrome Coronariana Aguda, torna-se sempre necessário revisar e enfatizar seus critérios diagnósticos e de abordagem em emergência, que são de responsabilidade de médicos clínicos e não de especialistas. A Quarta Definição Universal de Infarto Agudo - definida por consenso de especialistas e amplamente divulgada a partir de novembro de 2018 reafirmou que; Síndrome isquêmica com supra-ST deve ter como critério dor típica e ECG com supra em duas ou mais derivações contíguas e deve ser tratado com reperfusão (mecânica - angioplastia primária ou química - trombólise) se em tempo hábil e na ausência de contra-indicações. Essa conduta se aplica por esse tipo de evento se tratar de uma oclusão completa do vaso culpado. A alteração de infra-ST no ECG não traduz oclusão do vaso, portanto não deve ser conduzida da mesma forma na fase aguda, devendo ser optado na grande maioria dos casos por tratamento conservador pleno. O aluno da graduação também precisa ter pleno conhecimento da utilização adequada dos marcadores de necrose miocárdica (enzimas), para não perder tempo em eventos com SUPRA-ST, e também ter conhecimento de que existem situações em que há elevação de troponinas sem significar infarto e sim injúria miocárdica.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_cardiovasculares",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Curva de troponina na 4ª Definição Universal do IAM",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -9899,6 +10859,16 @@
       "justificativa_oficial_fonte": "Todo médico deve ter pleno conhecimento do manejo em sala de emergência do Edema Agudo de Pulmão, porque a abordagem sistemática e rápida com as diversas intervenções evita a falência ventilatória plena e a necessidade de intubação. E de forma alguma, o paciente deve ter sua conduta definitiva definida por uma síndrome de EAP, que em um grande número de casos não está relacionada a quadros terminais de insuficiência cardíaca, e sim a eventos agudos que são passíveis de tratamento se identificados e manejados. Portando se houver falha na abordagem inicial, o paciente deve ser intubado e receber suporte ventilatório. Quanto à resposta correta, o uso de nitratos em fase inicial supera em rapidez farmacológica de ação o efeito das outras medicações, gerando um alívio mais efetivo da congestão e hipóxia, enquanto medicações com início de ação mais lento, como o diurético iniciam o efeito. A morfina e a ventilação não invasiva (VNI) são medidas já muito embasadas e de fácil utilização por equipes de emergência, constituindo primeira linha no tratamento do EAP.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_cardiovasculares",
+      "especialidade_secundaria": "emergencias_respiratorias",
+      "objeto_conhecimento": "Nitrato e ventilação não invasiva no edema agudo de pulmão",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10001,6 +10971,16 @@
       "justificativa_oficial_fonte": "A Doença Pulmonar Obstrutiva Crônica é classificada pelo sistema GOLD. Ela determina o tratamento farmacológico e não farmacológico ideal nos níveis A a D, baseados na VEF 1, dispneia basal e número de infecções anuais. Capacidade vital forçada e gasometria arterial não predizem gravidade.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "VEF1, dispneia e exacerbações na classificação GOLD do DPOC",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10104,6 +11084,16 @@
       "justificativa_oficial_fonte": "A dieta com baixo teor de carboidratos apresenta perda de peso mais rápida quando comparada a outras dietas com mesmo teor calórico, sem superioridade no longo prazo.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Déficit energético versus restrição de carboidratos na obesidade",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10206,6 +11196,16 @@
       "justificativa_oficial_fonte": "A neurotoxoplasmose é a principal responsável por lesões com efeito massa no SNC em imunocomprometidos por HIV. Além disso, apresenta quadro com alteração do nível de consciência e déficits focais em mais de 50% dos casos. A imagem típica é de lesão nodulares com realce ao contraste, principalmente em região de núcleos da base.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": "neurologia",
+      "objeto_conhecimento": "Realce anelar e neurotoxoplasmose no HIV avançado",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10308,6 +11308,16 @@
       "justificativa_oficial_fonte": "O histórico de paciente idoso com múltiplas internações e uso de antibióticos de amplo espectro favorecem seleção de bactérias da microbiota normal do intestino favorecendo o desenvolvimento deClostridium difficile e o diangóstico de colite pseudomembranosa.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": "geriatria",
+      "objeto_conhecimento": "Colite por Clostridioides difficile após antibioticoterapia",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10410,6 +11420,16 @@
       "justificativa_oficial_fonte": "A diferença da pressão arterial entre as medidas obtidas no consultório e fora dele é denominada Efeito do avental branco ou Efeito do mascaramento, quando seus valores são, respectivamente, positivos ou negativos. Com base em estudos de MRPA, diferenças iguais ou superiores a 15 mmHg na pressão arterial sistólica e/ou 9 mmHg na pressão arterial diastólica indicam Efeito do avental branco significativa, enquanto diferenças iguais ou inferiores a -1 mmHg na pressão arterial sistólica e/ou pressão arterial diastólica indicam efeito de mascaramento significativa. Com os dados disponibilizados no enunciado, não é possível fazer o diagnóstico de hipertensão.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Efeito do avental branco e monitorização residencial da pressão",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10513,6 +11533,16 @@
       "justificativa_oficial_fonte": "A malária é uma doença infecciosa causada por protozoários do gênero Plasmodium e transmitida ao homem por fêmeas de mosquitos do gênero Anopheles, produzindo febre, além de outros sintomas. Quatro espécies de plasmódio podem causar a doença: P. falciparum, P. vivax, P. malariae e P. ovale (essa, de transmissão natural apenas na África). O tratamento da malária visa atingir o parasito em pontos-chaves de seu ciclo evolutivo e é específico para as diferentes espécies do Plamodium.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Gota espessa na identificação da espécie de Plasmodium",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10615,6 +11645,16 @@
       "justificativa_oficial_fonte": "No manejo do paciente com suspeita de diabetes tipo 1, situação frequentemente encontrada nos serviços de pronto atendimento, é indicado o uso de duas insulinas, a basal e a ultra-rápida.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Insulinização basal-bolus no DM1 autoimune do adulto jovem",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10718,6 +11758,16 @@
       "justificativa_oficial_fonte": "Em paciente com mais de 50 anos, com dor temporal e alteração visual o diagnóstico de arterite temporal deve ser rapidamente investigado para evitar sequela visual. Outra característica comum é a piora ao mastigar e a fadiga e dores articulares associadas.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": "neurologia",
+      "objeto_conhecimento": "Arterite de células gigantes na cefaleia com amaurose fugaz",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10820,6 +11870,16 @@
       "justificativa_oficial_fonte": "Anemia hemolítica com anemia, icterícia (provavelmente crônica, pois já necessitou transfusão anterior), com sintomatologia aguda sugerindo quadro de síndrome torácica aguda, exames favorecendo diagnóstico de anemia falciforme (anemia normo/normo e presença de drepanócitos), porém necessita confirmação com exames complementares. Diagnóstico definitivo: comprovação da hemoglobina S (ou de outras Hb mutantes) pela eletroforese de hemoglobinas por Cromatografia Líquida de Alta Performance (HPLC) ou Eletroforese de hemoglobina com Focalização Isoelétrica (FIE). Os testes de falcização indicam apenas a presença da Hb S, portanto também são positivos para os casos de traço.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_pediatrica",
+      "especialidade_secundaria": "pneumologia_pediatrica",
+      "objeto_conhecimento": "Eletroforese de hemoglobina na doença falciforme",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -10923,6 +11983,16 @@
       "justificativa_oficial_fonte": "Na síndromes de lise tumoral por conta da lise das células patológicas ocasional aumento de purinas e consequentemente hiperuricemia, liberação de potássio e fosforo dessa forma hiperfosfatemia, hipercalemia e pelo excesso de fósforo depleção de cálcio.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_metabolicas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Distúrbios eletrolíticos da síndrome de lise tumoral",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11025,6 +12095,16 @@
       "justificativa_oficial_fonte": "O edema mole é facilmente depressível, observado em diferentes condições e significa que a retenção hídrica é de duração não muito longa, e o tecido celular subcutâneo está infiltrado de água. Edema duro indica cronicidade com existência de proliferação fibroblástica. Edema quente indica processo inflamatório subjacente. O edema renal é um edema generalizado, predominantemente facial, acumulando-se de modo particular nas regiões sub palpebrais, mais evidente no período matutino. Na trombose venosa profunda há edema mole e dor em panturrilha à dorsiflexão do pé (Sinal de Homans). Edema que piora ao final do dia e melhora com elevação do membro aponta para insuficiência venosa periférica ou edema postural. Edema quente com calafrios aponta para erisipela ou celulite; na tromboflebite o edema acompanha o trajeto venoso e não costuma dar sinais sistêmicos. Na insuficiência cardíaca o edema é generalizado, simétrico, mole e indolor. Edema assimétrico com hipoxemia aponta para trombose venosa profunda complicada com tromboembolismo pulmonar.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "clinica_geral",
+      "especialidade_secundaria": "nefrologia",
+      "objeto_conhecimento": "Semiologia do edema no diferencial entre TVP e nefrose",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11126,6 +12206,16 @@
       "justificativa_oficial_fonte": "Trata-se de um caso de tireotoxicose, em que é necessário se fazer o diagnóstico diferencial. Todas as alternativas apresentadas são possíveis causas de tireotoxicose. A paciente apresenta um nódulo palpável, o que poderia sugerir uma doença de Plummer (nódulo autônomo). Porém, a cintilografia de tireoide, exame mais adequado para diferenciação entre as causas, mostra um nódulo hipocaptante, com hipercaptação no restante da glândula, o que indica o diagnóstico de doença de Graves. O nódulo neste caso não é a causa da tireotoxicose (se fosse, ele apareceria hipercaptante com hipocaptação no restante da glândula). A tireoidite linfocítica subaguda resultaria em hipocaptação difusa na cintilografia. VILAR, Lucio (Ed.). Endocrinologia clínica. 7. ed. Rio de Janeiro: Guanabara Koogan, 2021.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Cintilografia na tireotoxicose com nódulo hipocaptante",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11228,6 +12318,16 @@
       "justificativa_oficial_fonte": "A dopamina é um neurotransmissor pertencente à família das catecolaminas. A hipótese da dopamina para o desenvolvimento da esquizofrenia pode ser causada por níveis elevados ou desregulados deste neurotransmissor.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "psicofarmacologia",
+      "especialidade_secundaria": "psicoses",
+      "objeto_conhecimento": "Hipótese dopaminérgica dos sintomas positivos da esquizofrenia",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11331,6 +12431,16 @@
       "justificativa_oficial_fonte": "Asma é uma condição inflamatória crônica das vias aéreas. Os pacientes devem iniciar o tratamento na etapa mais adequada à gravidade inicial. O uso de corticoide pode ser necessário a qualquer momento e em qualquer etapa.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Corticoterapia e encaminhamento na asma não controlada",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11433,6 +12543,16 @@
       "justificativa_oficial_fonte": "Os tumores de pequena célula, tem a capacidade de secretar hormônios neuroendócrinos como ADH, levando a um quadro de polaciúria e hiponatremia denominada síndrome da SIADH.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "oncologia",
+      "especialidade_secundaria": "endocrinologia",
+      "objeto_conhecimento": "Hiponatremia por SIADH no carcinoma pulmonar de pequenas células",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11536,6 +12656,16 @@
       "justificativa_oficial_fonte": "O ferro é absorvido pela borda em escova das células epiteliais dos vilos intestinais,principalmente do duodeno e parte proximal do jejuno. O transporte do lúmen intestinal até a circulação sanguínea ocorre em três fases principais: 1) captação e internalização na membrana apical do enterócito; 2) deslocamento intracelular, e 3) transporte para o plasma.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "fisiologia",
+      "especialidade_secundaria": "bioquimica",
+      "objeto_conhecimento": "Absorção duodenal de ferro após cirurgia bariátrica",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11637,6 +12767,16 @@
       "justificativa_oficial_fonte": "A pitiríase versicolor (PV) é uma infecção fúngica superficial comum, causada pelo fungo Malassezia furfur. Pacientes com PV geralmente apresentam múltiplas lesões no tronco, com regiões intercaladas de pele normal. As lesões podem também surgir no pescoço e extremidades superiores proximais. Sua distribuição normalmente é paralela à das glândulas sebáceas, com ocorrência maior no tórax, dorso e face. O tratamento é realizado com cetoconazol 200mg/ dia por 10 dias e xampu de sulfeto de selênio 2,5%.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "dermatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Sinal de Zileri na pitiríase versicolor",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -11741,6 +12881,16 @@
       "justificativa_oficial_fonte": "Dor de desenvolvimento agudo, monoarticular e de primeira metatarsofalangiana (podagra) é indicativo de gota. Outros locais de acometimento podem ser os joelhos, tornozelos e o cotovelo. O quadro agudo de gota é acompanhado de sinais flogísticos como dor, vermelhidão e edema. Em monoartrite aguda, sem diagnóstico, é obrigatório a indicação de artrocentese diagnóstica para exclusão de quadros infecciosos. Flutuações do ácido úrico são esperados com o início de terapia redutora, podendo atrasar o alívio sintomático bem como prolongar o tempo de crises agudas, dessa forma é recomendado o adiamento da terapia até o fim da crise aguda. O alvo de ácido úrico em pacientes com quadro tofáceo (como o do paciente acima) é indicativo de rigidez, sendo esperado menor que 5mg/dl.",
       "imagem_status": "nao_requer",
       "requer_imagem": false
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Artrocentese e início do alopurinol na gota tofácea",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   }
 ]

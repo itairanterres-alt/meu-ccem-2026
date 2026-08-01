@@ -523,6 +523,65 @@
           }
         }
       }
+    },
+    "classificacao_fina": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "description": "Camada de especificidade fina (além da grande área `area_clinica`), para blueprint por sub-área e treino por tópico. Opcional: questões anteriores a esta camada continuam válidas.",
+      "properties": {
+        "especialidade": {
+          "type": "string"
+        },
+        "especialidade_secundaria": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "objeto_conhecimento": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "sistema_organico": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contexto_atencao": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "conteudo_declarado_origem": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Classificação escrita pelo autor do item na ficha de origem."
+        },
+        "autor_declarado_origem": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "matriz_enamed_478_2025": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Código do objeto de conhecimento na Matriz de Referência da Portaria INEP 478/2025. Nulo enquanto a Portaria não estiver disponível."
+        }
+      },
+      "required": [
+        "especialidade",
+        "objeto_conhecimento"
+      ]
     }
   }
 }

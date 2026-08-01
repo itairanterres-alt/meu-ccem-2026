@@ -1,0 +1,618 @@
+[
+  {
+    "id_origem": "enamed2025_q003",
+    "especialidade": "trauma",
+    "especialidade_secundaria": "emergencias_neurologicas",
+    "objeto_conhecimento": "Indicação de TC de crânio no TCE leve",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "nervoso"
+  },
+  {
+    "id_origem": "enamed2025_q017",
+    "especialidade": "trauma",
+    "especialidade_secundaria": "atendimento_pre_hospitalar",
+    "objeto_conhecimento": "Descompressão por agulha no pneumotórax hipertensivo",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "enamed2025_q027",
+    "especialidade": "cuidado_longitudinal_e_coordenacao",
+    "especialidade_secundaria": "saude_do_trabalhador",
+    "objeto_conhecimento": "Manejo conservador da lombalgia aguda sem sinais de alerta",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "osteomuscular"
+  },
+  {
+    "id_origem": "enamed2025_q037",
+    "especialidade": "infectologia_pediatrica",
+    "especialidade_secundaria": "cardiologia_pediatrica",
+    "objeto_conhecimento": "Profilaxia secundária da febre reumática com penicilina benzatina",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "enamed2025_q049",
+    "especialidade": "planejamento_familiar",
+    "especialidade_secundaria": "sangramento_uterino_anormal",
+    "objeto_conhecimento": "Elegibilidade contraceptiva no lúpus com trombose prévia",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "enamed2025_q059",
+    "especialidade": "neurologia_pediatrica",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Espasmos infantis e manchas hipomelanóticas na esclerose tuberosa",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "nervoso"
+  },
+  {
+    "id_origem": "enamed2025_q069",
+    "especialidade": "dependencia_quimica",
+    "especialidade_secundaria": "saude_mental_na_aps",
+    "objeto_conhecimento": "Critérios do DSM-5 para transtorno por uso de álcool",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "psiquico"
+  },
+  {
+    "id_origem": "enamed2025_q080",
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": "urgencia_pediatrica",
+    "objeto_conhecimento": "Intubação imediata na hérnia diafragmática congênita",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "enamed2025_q091",
+    "especialidade": "cardiologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Escore GRACE e estratégia invasiva precoce na SCASSST",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "questoes_clm_q002",
+    "especialidade": "hematologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Teste da mistura na investigação do TTPA prolongado isolado",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "hematopoetico"
+  },
+  {
+    "id_origem": "questoes_clm_q012",
+    "especialidade": "reumatologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Padrão de poliartrite simétrica na artrite reumatoide",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "osteomuscular"
+  },
+  {
+    "id_origem": "questoes_clm_q022",
+    "especialidade": "oncologia",
+    "especialidade_secundaria": "hematologia",
+    "objeto_conhecimento": "Tromboembolismo venoso associado a câncer e cateter central",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "questoes_clm_q032",
+    "especialidade": "infectologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Sintomas persistentes da condição pós-COVID-19",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "questoes_clm_q042",
+    "especialidade": "choque_e_sepse",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Pacote da primeira hora na sepse de foco pulmonar",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "questoes_clm_q052",
+    "especialidade": "reumatologia",
+    "especialidade_secundaria": "neurologia",
+    "objeto_conhecimento": "Amaurose fugaz e VHS elevada na arterite temporal",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "questoes_clm_q062",
+    "especialidade": "cardiologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "AAS e redução de mortalidade no infarto sem supra de ST",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "questoes_clm_q072",
+    "especialidade": "infectologia",
+    "especialidade_secundaria": "hepatologia",
+    "objeto_conhecimento": "Prognóstico da superinfecção pelo vírus da hepatite Delta",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "digestorio"
+  },
+  {
+    "id_origem": "questoes_clm_q082",
+    "especialidade": "infectologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Síndrome retroviral aguda antes do início da PrEP",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "imune"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q005",
+    "especialidade": "imunologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Papel da IgE e dos mastócitos na hipersensibilidade tipo I",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "imune"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q015",
+    "especialidade": "emergencias_metabolicas",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Diferenciação laboratorial entre cetoacidose e estado hiperosmolar",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "endocrino_metabolico"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q025",
+    "especialidade": "cardiologia",
+    "especialidade_secundaria": "endocrinologia",
+    "objeto_conhecimento": "Associação de ezetimiba para meta de LDL em risco muito alto",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q035",
+    "especialidade": "endocrinologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Indicação de monitorização contínua de glicose no diabetes tipo 1",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "endocrino_metabolico"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q045",
+    "especialidade": "metodologia_cientifica",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Não maleficência e imperícia no Código de Ética Médica",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q055",
+    "especialidade": "neurologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Papiledema como sinal de alarme de cefaleia secundária",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "nervoso"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q065",
+    "especialidade": "endocrinologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Metimazol e propranolol no início do tratamento da doença de Graves",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "endocrino_metabolico"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q076",
+    "especialidade": "emergencias_neurologicas",
+    "especialidade_secundaria": "choque_e_sepse",
+    "objeto_conhecimento": "Ceftriaxona empírica imediata na suspeita de meningococcemia",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "nervoso"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q086",
+    "especialidade": "cardiologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Classificação CCS e terapia otimizada na angina estável",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "revalida2023_2_q008",
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Hipoglicemia reativa da síndrome de dumping tardio",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "digestorio"
+  },
+  {
+    "id_origem": "revalida2023_2_q018",
+    "especialidade": "puericultura_e_crescimento",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Indicação de postectomia na fimose patológica do escolar",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "revalida2023_2_q029",
+    "especialidade": "infeccoes_genitais_e_ist",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "pH vaginal e teste das aminas na candidíase vulvovaginal",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "revalida2023_2_q040",
+    "especialidade": "gestao_em_saude",
+    "especialidade_secundaria": "politicas_publicas_e_sus",
+    "objeto_conhecimento": "Priorização de investimentos pelo perfil epidemiológico municipal",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "revalida2023_2_q052",
+    "especialidade": "oncologia",
+    "especialidade_secundaria": "reumatologia",
+    "objeto_conhecimento": "Lesão lítica vertebral como sinal de alarme na lombalgia",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "osteomuscular"
+  },
+  {
+    "id_origem": "revalida2023_2_q063",
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Evolução radiológica da taquipneia transitória do recém-nascido",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "revalida2023_2_q075",
+    "especialidade": "aps_organizacao_e_acesso",
+    "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+    "objeto_conhecimento": "Atribuições do agente comunitário na saúde da criança",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "revalida2023_2_q085",
+    "especialidade": "politicas_publicas_e_sus",
+    "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+    "objeto_conhecimento": "Conselho Local de Saúde como instância de controle social",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "revalida2023_2_q096",
+    "especialidade": "pneumologia",
+    "especialidade_secundaria": "infectologia",
+    "objeto_conhecimento": "Antibioticoterapia empírica no abscesso pulmonar aspirativo",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "revalida2024_1_q006",
+    "especialidade": "promocao_e_prevencao",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Indicação da vacina contra herpes-zóster no adulto com comorbidades",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "imune"
+  },
+  {
+    "id_origem": "revalida2024_1_q018",
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "CPAP nasal na taquipneia transitória do pré-termo tardio",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "revalida2024_1_q028",
+    "especialidade": "imunizacao",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Contraindicação de vacinas atenuadas em corticoterapia imunossupressora",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "imune"
+  },
+  {
+    "id_origem": "revalida2024_1_q038",
+    "especialidade": "infectologia_pediatrica",
+    "especialidade_secundaria": "neonatologia",
+    "objeto_conhecimento": "Pseudoparalisia de Parrot e penicilina cristalina na sífilis congênita",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "osteomuscular"
+  },
+  {
+    "id_origem": "revalida2024_1_q049",
+    "especialidade": "parto_e_puerperio",
+    "especialidade_secundaria": "pre_natal",
+    "objeto_conhecimento": "Bacteriúria por estreptococo do grupo B e profilaxia intraparto",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "revalida2024_1_q060",
+    "especialidade": "epidemiologia",
+    "especialidade_secundaria": "bioestatistica",
+    "objeto_conhecimento": "Cálculo do valor preditivo positivo conforme a prevalência",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "revalida2024_1_q070",
+    "especialidade": "aps_organizacao_e_acesso",
+    "especialidade_secundaria": "promocao_e_prevencao",
+    "objeto_conhecimento": "Indicações e inserção do SIU de levonorgestrel na APS",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "revalida2024_1_q080",
+    "especialidade": "imunizacao",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Esquemas de meningocócica C e ACWY por faixa etária",
+    "contexto_atencao": "domiciliar",
+    "sistema_organico": "imune"
+  },
+  {
+    "id_origem": "revalida2024_1_q091",
+    "especialidade": "emergencias_cardiovasculares",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Tríade de Beck e pericardiocentese no tamponamento cardíaco",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "simulado01_2026_q01",
+    "especialidade": "politicas_publicas_e_sus",
+    "especialidade_secundaria": "gestao_em_saude",
+    "objeto_conhecimento": "Conceito e pontos de atenção da Rede de Atenção à Saúde",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "simulado01_2026_q11",
+    "especialidade": "epidemiologia",
+    "especialidade_secundaria": "bioestatistica",
+    "objeto_conhecimento": "Reconhecimento do estudo transversal pela medida de prevalência",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "simulado01_2026_q21",
+    "especialidade": "pneumologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Diagnóstico clínico de asma em adulto jovem",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "simulado01_2026_q31",
+    "especialidade": "cuidado_longitudinal_e_coordenacao",
+    "especialidade_secundaria": "promocao_e_prevencao",
+    "objeto_conhecimento": "Conduta no hipertenso com pressão na meta e baixo risco",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "simulado02_2026_q01",
+    "especialidade": "politicas_publicas_e_sus",
+    "especialidade_secundaria": "gestao_em_saude",
+    "objeto_conhecimento": "Requisitos da Lei 8.142/1990 para repasse de recursos",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "simulado02_2026_q11",
+    "especialidade": "promocao_e_prevencao",
+    "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+    "objeto_conhecimento": "Abordagem cognitivo-comportamental na cessação do tabagismo",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "psiquico"
+  },
+  {
+    "id_origem": "simulado02_2026_q21",
+    "especialidade": "epidemiologia",
+    "especialidade_secundaria": "gestao_em_saude",
+    "objeto_conhecimento": "Escolha do estudo transversal para estimar prevalência no território",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "simulado02_2026_q39",
+    "especialidade": "aps_organizacao_e_acesso",
+    "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+    "objeto_conhecimento": "Divisão em microáreas no planejamento de equipe de ESF",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "simulado02_2026_q57",
+    "especialidade": "cuidado_longitudinal_e_coordenacao",
+    "especialidade_secundaria": "aps_organizacao_e_acesso",
+    "objeto_conhecimento": "Interconsulta e clínica ampliada no apoio matricial",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "tp2022_q008",
+    "especialidade": "microbiologia_e_parasitologia",
+    "especialidade_secundaria": "bioquimica",
+    "objeto_conhecimento": "Ácidos graxos de cadeia curta e vitamina K pela microbiota",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "digestorio"
+  },
+  {
+    "id_origem": "tp2022_q018",
+    "especialidade": "biologia_celular_e_molecular",
+    "especialidade_secundaria": "imunologia",
+    "objeto_conhecimento": "Micróglia como célula imune residente do SNC",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nervoso"
+  },
+  {
+    "id_origem": "tp2022_q029",
+    "especialidade": "promocao_e_prevencao",
+    "especialidade_secundaria": "epidemiologia",
+    "objeto_conhecimento": "Funções da medicina de Sigerist e níveis de prevenção",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "tp2022_q039",
+    "especialidade": "infectologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Paroxismos febris e procedência amazônica na malária",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "hematopoetico"
+  },
+  {
+    "id_origem": "tp2022_q051",
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Hipoglicemia neonatal no recém-nascido GIG de mãe diabética",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "endocrino_metabolico"
+  },
+  {
+    "id_origem": "tp2022_q061",
+    "especialidade": "planejamento_familiar",
+    "especialidade_secundaria": "intercorrencias_obstetricas",
+    "objeto_conhecimento": "Interrupção legal da gestação em estupro de vulnerável",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "tp2022_q071",
+    "especialidade": "endocrinologia_ginecologica",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Falência ovariana na amenorreia secundária com FSH elevado",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "tp2022_q081",
+    "especialidade": "coloproctologia",
+    "especialidade_secundaria": "abdome_agudo",
+    "objeto_conhecimento": "Fístula colovaginal na diverticulite aguda complicada",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "digestorio"
+  },
+  {
+    "id_origem": "tp2022_q092",
+    "especialidade": "bioquimica",
+    "especialidade_secundaria": "fisiologia",
+    "objeto_conhecimento": "Glicogenólise hepática nas primeiras horas de jejum",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "endocrino_metabolico"
+  },
+  {
+    "id_origem": "tp2022_q102",
+    "especialidade": "emergencias_cardiovasculares",
+    "especialidade_secundaria": "emergencias_respiratorias",
+    "objeto_conhecimento": "Nitrato e ventilação não invasiva no edema agudo de pulmão",
+    "contexto_atencao": "urgencia_emergencia",
+    "sistema_organico": "cardiovascular"
+  },
+  {
+    "id_origem": "tp2022_q112",
+    "especialidade": "emergencias_metabolicas",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Distúrbios eletrolíticos da síndrome de lise tumoral",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "endocrino_metabolico"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q002",
+    "especialidade": "embriologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Meiose dos gametas e fecundação na tuba uterina",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q012",
+    "especialidade": "microbiologia_e_parasitologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Migração larvária pulmonar do Ascaris na síndrome de Löffler",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q022",
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Pele, tônus e reflexos no exame físico do prematuro",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q032",
+    "especialidade": "infectologia_pediatrica",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Ultrassonografia após a primeira ITU febril do lactente",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q042",
+    "especialidade": "epidemiologia",
+    "especialidade_secundaria": "bioestatistica",
+    "objeto_conhecimento": "Dependência do valor preditivo em relação à prevalência",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q052",
+    "especialidade": "promocao_e_prevencao",
+    "especialidade_secundaria": "epidemiologia",
+    "objeto_conhecimento": "Exemplos de prevenção terciária em Leavell & Clark",
+    "contexto_atencao": "nao_aplicavel",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q062",
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Traqueostomia como cirurgia potencialmente contaminada",
+    "contexto_atencao": "internacao_hospitalar",
+    "sistema_organico": "nao_aplicavel"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q072",
+    "especialidade": "otorrinolaringologia",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Investigação de massa cervical metastática em tabagista",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "respiratorio"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q082",
+    "especialidade": "psicofarmacologia",
+    "especialidade_secundaria": "transtornos_do_humor",
+    "objeto_conhecimento": "Efeitos adversos precoces e latência de resposta dos ISRS",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "psiquico"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q092",
+    "especialidade": "endocrinologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Betabloqueador no controle sintomático da tireotoxicose",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "endocrino_metabolico"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q102",
+    "especialidade": "endocrinologia_ginecologica",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Hiperandrogenismo e anovulação na síndrome dos ovários policísticos",
+    "contexto_atencao": "ambulatorial_especializado",
+    "sistema_organico": "geniturinario"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q112",
+    "especialidade": "pre_natal",
+    "especialidade_secundaria": "infeccoes_genitais_e_ist",
+    "objeto_conhecimento": "Dessensibilização à penicilina na sífilis da gestante",
+    "contexto_atencao": "atencao_primaria",
+    "sistema_organico": "geniturinario"
+  }
+]

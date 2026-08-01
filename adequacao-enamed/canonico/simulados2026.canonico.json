@@ -99,6 +99,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Conceito e pontos de atenção da Rede de Atenção à Saúde",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -201,6 +211,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Requisitos de infraestrutura e ambiência da UBS na PNAB",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -302,6 +322,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "gestao_em_saude",
+      "especialidade_secundaria": "politicas_publicas_e_sus",
+      "objeto_conhecimento": "Polos de educação permanente da Portaria GM/MS 198/2004",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -403,6 +433,16 @@
       "gabarito_novo": "D",
       "problema_detectado": "As alternativas B (Diversidade) e E (Heterogeneidade) são semanticamente redundantes entre si.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Transversalidade como princípio da Política Nacional de Humanização",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -504,6 +544,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "politicas_publicas_e_sus",
+      "objeto_conhecimento": "Definição de vigilância em saúde na Resolução CNS nº 588/2018",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -606,6 +656,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Composição mínima da equipe de Saúde da Família Ribeirinha",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -708,6 +768,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Registro das ações do Consultório na Rua no e-SUS APS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -810,6 +880,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "seguranca_do_paciente",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Conceito de evento adverso na RDC nº 36/2013",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -912,6 +992,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Definição da população de estudo e viés de seleção",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1014,6 +1104,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "O enunciado inicia descrevendo uma distribuição gráfica ('A distribuição da proporção de óbitos...') sem que o gráfico esteja disponível, ficando a primeira frase truncada em relação ao apoio visual original.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Falácia ecológica na correlação pobreza-mortalidade",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1114,6 +1214,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Reconhecimento do estudo transversal pela medida de prevalência",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1215,6 +1325,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Atribuições dos Conselhos e Conferências na Lei 8.142",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1316,6 +1436,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Transversalidade da Política Nacional de Humanização",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1417,6 +1547,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "As alternativas B e C são quase idênticas, diferindo apenas pela inclusão do termo 'privados', o que reduz a clareza técnica do item.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "seguranca_do_paciente",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Abrangência da RDC 36/2013 e Núcleo de Segurança do Paciente",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1519,6 +1659,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Conceitos legais do Decreto nº 7.508/2011 no SUS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1621,6 +1771,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Organização poliárquica das Redes de Atenção à Saúde",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1722,6 +1882,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+      "objeto_conhecimento": "Atributos da APS e coordenação do cuidado na RAS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1822,6 +1992,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Princípios doutrinários do SUS na Atenção Básica",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1923,6 +2103,16 @@
       "gabarito_novo": "D",
       "problema_detectado": "As alternativas B e C são idênticas, defeito de elaboração que reduz o item, na prática, a quatro opções distintas.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Apoio matricial no processo de trabalho das eMulti",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2024,6 +2214,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "A afirmativa III é subconjunto da II (repete parte dos mesmos valores fundantes), gerando ambiguidade entre as alternativas; há ainda ruído de digitalização (“o 20”) ao final da alternativa E.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Valores fundantes da PNPS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2125,6 +2325,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Diagnóstico clínico de asma em adulto jovem",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2227,6 +2437,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "epidemiologia",
+      "objeto_conhecimento": "Sorologia IgM na confirmação de caso suspeito de rubéola",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2329,6 +2549,16 @@
       "gabarito_novo": "C",
       "problema_detectado": "As alternativas A e C veiculam essencialmente a mesma ideia (contraindicar a vacina na gestação), configurando quase duplicata no item original.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Vacina influenza na gestante como grupo prioritário",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2431,6 +2661,16 @@
       "gabarito_novo": "A",
       "problema_detectado": "A afirmação inicial de que cabe à APS 'integrar verticalmente os serviços' é ambígua diante da organização horizontal e poliárquica preconizada para as Redes de Atenção à Saúde.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+      "objeto_conhecimento": "Distinção entre funções e atributos da APS na RAS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2532,6 +2772,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Monitoramento de caso de mpox com risco de gravidade",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2635,6 +2885,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_mental_na_aps",
+      "especialidade_secundaria": "psicoses",
+      "objeto_conhecimento": "Pactuação do cuidado na recusa terapêutica por delírio persecutório",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2736,6 +2996,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "geriatria",
+      "especialidade_secundaria": "clinica_geral",
+      "objeto_conhecimento": "Metas terapêuticas e desprescrição na demência avançada",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "domiciliar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2837,6 +3107,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Estágios de mudança na cessação do tabagismo",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2938,6 +3218,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Critério diagnóstico de hipertensão versus fator de risco",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3040,6 +3330,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Confirmação laboratorial no diagnóstico de diabetes",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3142,6 +3442,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Conduta no hipertenso com pressão na meta e baixo risco",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3244,6 +3554,16 @@
       "gabarito_novo": "A",
       "problema_detectado": "As alternativas C, D e E apresentam a mesma conduta (reavaliação semestral), reduzindo o poder discriminativo do item.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+      "objeto_conhecimento": "Periodicidade da reavaliação conforme risco do pé diabético",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3347,6 +3667,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_do_idoso",
+      "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+      "objeto_conhecimento": "PTS e sobrecarga da cuidadora na demência avançada",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "domiciliar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3448,6 +3778,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "abordagem_familiar_e_comunitaria",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Crise acidental no ciclo de vida familiar",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3549,6 +3889,16 @@
       "gabarito_novo": "A",
       "problema_detectado": "O item depende do genograma referido no enunciado, que não é reproduzido no texto; sem a figura, as alternativas sobre relações conflituosas não podem ser avaliadas com segurança.",
       "imagem_status": "ausente_na_origem"
+    },
+    "classificacao_fina": {
+      "especialidade": "abordagem_familiar_e_comunitaria",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Padrões transgeracionais identificados no genograma",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3650,6 +4000,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Distinção entre os campos S, O e A do registro SOAP",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3751,6 +4111,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "As alternativas C, D e E são variações quase idênticas da mesma proposição, diferindo apenas pelo método de imagem, o que empobrece a discriminação do item.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": "geriatria",
+      "objeto_conhecimento": "Razão de verossimilhança do VHS na arterite temporal",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3852,6 +4222,16 @@
       "gabarito_novo": "D",
       "problema_detectado": "Todos os grupos citados são reconhecidos como populações de maior risco no Manual de Recomendações, de modo que o enunciado só se resolve pela magnitude relativa do risco, o que o torna parcialmente ambíguo; além disso, o item está marcado como exigindo imagem sem que haja recurso gráfico necessário à sua resolução.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Populações vulnerabilizadas com maior risco de tuberculose",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3954,6 +4334,16 @@
       "gabarito_novo": "C",
       "problema_detectado": "Item com defeito técnico: a alternativa E reproduz a definição operacional clássica de SRAG do Ministério da Saúde (síndrome gripal com dispneia, desconforto respiratório, pressão torácica persistente, dessaturação ou cianose), o que compete diretamente com o gabarito oficial D e exige revisão pela curadoria antes do uso.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "epidemiologia",
+      "objeto_conhecimento": "Definição de caso de SRAG na vigilância de influenza",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4056,6 +4446,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia_pediatrica",
+      "especialidade_secundaria": "imunizacao",
+      "objeto_conhecimento": "Pseudomembrana e pescoço taurino na difteria",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4153,6 +4553,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Requisitos da Lei 8.142/1990 para repasse de recursos",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4262,7 +4672,17 @@
         "legenda": "Cobertura de indicadores de saúde materno-infantil por quintil de riqueza, 1986–2013.",
         "alt_text": "Gráfico de pontos ligados por linhas mostrando a cobertura (%) de quatro indicadores de saúde materno-infantil — uso de anticoncepcionais modernos, ao menos uma consulta de pré-natal, quatro ou mais consultas de pré-natal e primeira consulta no primeiro trimestre — nos anos de 1986, 1996, 2006 e 2013, segundo quintis de riqueza (Q1 mais pobres a Q5 mais ricos). Ao longo do tempo a cobertura sobe e a distância entre os quintis diminui, com aproximação dos mais pobres aos mais ricos."
       }
-    ]
+    ],
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "epidemiologia",
+      "objeto_conhecimento": "Equidade na redução de iniquidades materno-infantis",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
+    }
   },
   {
     "tipo": "questao",
@@ -4359,6 +4779,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Requisitos legais da laqueadura na Lei nº 9.263/1996",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4456,6 +4886,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "etica_e_bioetica",
+      "objeto_conhecimento": "Definição da causa básica na declaração de óbito",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "domiciliar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4553,6 +4993,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "AAS após AVC como prevenção secundária",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4651,6 +5101,16 @@
       "gabarito_novo": "D",
       "problema_detectado": "Erro de digitação na alternativa A, que inicia com a letra 'A' duplicada antes do texto ('A a discussão').",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Atribuições do Conselho Municipal de Saúde na Lei nº 8.142/1990",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4749,6 +5209,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+      "objeto_conhecimento": "Grupos do Programa Nacional de Controle do Tabagismo na UBS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4847,6 +5317,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "O enunciado e as alternativas apresentam quebras indevidas de palavras e espaçamentos ('perceb e-se', 'alime ntar', 'deve -se', 'opositor -desafiador') decorrentes da extração do PDF, exigindo revisão tipográfica.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "transtornos_do_neurodesenvolvimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Diferenciação entre TDAH e transtorno opositor-desafiador",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4945,6 +5425,16 @@
       "gabarito_novo": "D",
       "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"gestant e\", \"s erá\"), que devem ser corrigidas na editoração.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Óbito materno indireto e mortalidade neonatal precoce",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5043,6 +5533,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Diferença entre carve-out e acesso avançado",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5140,6 +5640,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+      "objeto_conhecimento": "Abordagem cognitivo-comportamental na cessação do tabagismo",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5238,6 +5748,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "etica_e_bioetica",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Sigilo e redução de danos diante de aborto inseguro",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5335,6 +5855,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "Há erros de digitação com quebra indevida de palavras no enunciado (\"ansie dade\") e uso de maiúscula inicial fora do padrão na alternativa A, sem prejuízo para a compreensão do item.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Reposição de nicotina e abordagem cognitivo-comportamental",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5434,6 +5964,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "violencia_e_maus_tratos",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Notificação compulsória na suspeita de violência sexual infantil",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5532,6 +6072,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": "intoxicacoes_e_acidentes_por_animais",
+      "objeto_conhecimento": "Benzodiazepínicos no delirium tremens",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5630,6 +6180,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "O enunciado contém quebras de palavras oriundas da extração do PDF ('d istração', 'g erado'), demandando revisão tipográfica.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "comunicacao_clinica",
+      "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+      "objeto_conhecimento": "Reconhecimento do estágio de contemplação na entrevista motivacional",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5727,6 +6287,16 @@
       "gabarito_novo": "A",
       "problema_detectado": "Enunciado apresenta quebra de palavra por espaçamento indevido (\"ou tras\") decorrente da extração do PDF.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_ambiental",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Poluição do ar e ondas de calor como risco cardiovascular",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5826,6 +6396,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "atendimento_pre_hospitalar",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Negligência na transferência de paciente instável",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5923,6 +6503,16 @@
       "gabarito_novo": "C",
       "problema_detectado": "O comando final do enunciado foi copiado de outro item (‘Assinale a opção que apresenta ações do processo de trabalho das eMulti’), tornando a instrução incoerente com o caso apresentado.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "abordagem_familiar_e_comunitaria",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Competência cultural no cuidado a ribeirinhos e indígenas",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6020,6 +6610,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "Resíduo de digitalização ao final da alternativa D (“o 20”), que deve ser removido na revisão editorial.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Autorização familiar para doação após morte encefálica",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "terapia_intensiva",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6117,6 +6717,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Escolha do estudo transversal para estimar prevalência no território",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6215,6 +6825,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "politicas_publicas_e_sus",
+      "objeto_conhecimento": "Sangue oculto nas fezes versus colonoscopia no rastreamento",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6313,6 +6933,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "imunizacao",
+      "especialidade_secundaria": "adolescencia",
+      "objeto_conhecimento": "Dose única da vacina HPV dos 9 aos 14 anos",
+      "sistema_organico": "imune",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6412,6 +7042,16 @@
       "gabarito_novo": "C",
       "problema_detectado": "Há quebras de palavras provenientes da extração do PDF ('maus -tratos', 'configura -se'), que devem ser corrigidas na versão canônica.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_do_idoso",
+      "especialidade_secundaria": "etica_e_bioetica",
+      "objeto_conhecimento": "Contenção mecânica e negligência no Estatuto da Pessoa Idosa",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "domiciliar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6509,6 +7149,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Conduta vacinal diante de epizootia de primatas",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6607,6 +7257,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Abordagem da hesitação vacinal e da desinformação na comunidade",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6704,6 +7364,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Valores preditivos de teste diagnóstico conforme a prevalência",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6802,6 +7472,16 @@
       "gabarito_novo": "C",
       "problema_detectado": "O enunciado apresenta quebras de palavras da extração do PDF ('apresent a', 'v omitar', 'apr esenta', 'verificam -se'), que exigem revisão tipográfica.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "transtornos_alimentares",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Diagnóstico e abordagem inicial da anorexia nervosa",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "domiciliar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6899,6 +7579,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "transtornos_do_humor",
+      "especialidade_secundaria": "transtornos_ansiosos",
+      "objeto_conhecimento": "Episódio depressivo com ataques de pânico no exame psíquico",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6996,6 +7686,16 @@
       "gabarito_novo": "A",
       "problema_detectado": "O enunciado contém erros de digitação com quebra de palavras (\"f azem\", \"c riança\") e a expressão \"alerta do desenvolvimento neuropsicomortor\" está grafada de modo incorreto, dificultando parcialmente a leitura.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
+      "objeto_conhecimento": "Avaliação inicial da dificuldade escolar aos 6 anos",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7095,6 +7795,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+      "objeto_conhecimento": "Divisão em microáreas no planejamento de equipe de ESF",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7193,6 +7903,16 @@
       "gabarito_novo": "C",
       "problema_detectado": "A alternativa A apresenta erro de digitação e de concordância ('especia lizada', 'com a acesso regulado'), decorrente da extração do PDF.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Oferta das PICS nos níveis de atenção do SUS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7302,7 +8022,17 @@
         "alt_text": "Charge em preto e branco: longa fila de pessoas à entrada de um posto com a placa 'SUS'. Uma pessoa na fila pergunta: 'Mas, se você não tem nada, por que tá na fila do SUS?'. Outra responde: 'É que, atééééé eu ser atendido, é provável que eu fique doente!'.",
         "creditos_imagem": "Charge de Duke — Jornal O Tempo, 21 jan. 2013. Disponível em: otempo.com.br/charges. Acesso em 30 abr. 2023."
       }
-    ]
+    ],
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "politicas_publicas_e_sus",
+      "objeto_conhecimento": "Barreiras de acessibilidade na Atenção Primária",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
+    }
   },
   {
     "tipo": "questao",
@@ -7399,6 +8129,16 @@
       "gabarito_novo": "A",
       "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"solicitado s\", \"no va\").",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Conselho Local de Saúde no processo de trabalho da equipe",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7500,6 +8240,16 @@
       "gabarito_novo": "B",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Transversalidade como diretriz da Política Nacional de Humanização",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7601,6 +8351,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“Qu”), que deve ser removido na revisão editorial.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "transtornos_do_humor",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Tríade do burnout e diferencial com episódio depressivo",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7702,6 +8462,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "gestao_em_saude",
+      "objeto_conhecimento": "Atribuições das equipes multiprofissionais (eMulti) na APS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7804,6 +8574,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aps_organizacao_e_acesso",
+      "especialidade_secundaria": "politicas_publicas_e_sus",
+      "objeto_conhecimento": "Atuação das equipes de Consultório na Rua",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7905,6 +8685,16 @@
       "gabarito_novo": "A",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+      "objeto_conhecimento": "Momentos de construção do Projeto Terapêutico Singular",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8008,6 +8798,16 @@
       "gabarito_novo": "D",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "clinica_geral",
+      "especialidade_secundaria": "geriatria",
+      "objeto_conhecimento": "Testamento vital como expressão da autonomia",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8109,6 +8909,16 @@
       "gabarito_novo": "D",
       "problema_detectado": "Há quebras de palavras por espaçamento indevido oriundas da extração do PDF (\"ar ranjos\", \"realizar - se\", \"centraliz ados\", \"e scala\").",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Interconsulta e clínica ampliada no apoio matricial",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8211,6 +9021,16 @@
       "gabarito_novo": "C",
       "problema_detectado": null,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "raps_e_politica_de_saude_mental",
+      "especialidade_secundaria": "saude_mental_na_aps",
+      "objeto_conhecimento": "Clínica ampliada e autonomia na Reforma Psiquiátrica",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8313,6 +9133,16 @@
       "gabarito_novo": "B",
       "problema_detectado": "Além do gabarito oficial (B), a alternativa C também enuncia conteúdo tecnicamente defensável sobre a responsabilidade do CAPS diante da crise, configurando duplicidade de opções plausíveis que merece revisão da curadoria.",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "raps_e_politica_de_saude_mental",
+      "especialidade_secundaria": "psicoses",
+      "objeto_conhecimento": "Acolhimento à crise e técnico de referência no CAPS",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -8414,6 +9244,16 @@
       "gabarito_novo": "C",
       "problema_detectado": "Resíduo de digitalização ao final da alternativa E (“tão 52”).",
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "raps_e_politica_de_saude_mental",
+      "especialidade_secundaria": "transtornos_do_neurodesenvolvimento",
+      "objeto_conhecimento": "Diagnóstico situacional no cuidado infantojuvenil do CAPSi",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   }
 ]

@@ -82,6 +82,16 @@
       "questao_original": 1,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Antagonista mineralocorticoide na ICFEr",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -168,6 +178,16 @@
       "questao_original": 3,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": "emergencias_neurologicas",
+      "objeto_conhecimento": "Indicação de TC de crânio no TCE leve",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -253,6 +273,16 @@
       "questao_original": 4,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Diagnóstico clínico da endometriose na dor pélvica crônica",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -348,7 +378,17 @@
         "legenda": "Lesão cutânea em dorso da mão, um mês após arranhadura de gato.",
         "alt_text": "Fotografia clínica de lesão cutânea: úlcera central recoberta por crostas escuras e exsudato, circundada por nódulos e pápulas eritemato-violáceas agrupadas, algumas com pequena pústula central, distribuídas de forma linear ascendente sobre pele íntegra ao redor."
       }
-    ]
+    ],
+    "classificacao_fina": {
+      "especialidade": "dermatologia",
+      "especialidade_secundaria": "infectologia",
+      "objeto_conhecimento": "Esporotricose cutânea após arranhadura de gato",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
+    }
   },
   {
     "tipo": "questao",
@@ -433,6 +473,16 @@
       "questao_original": 6,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Prevenção secundária e encaminhamento no pós-infarto",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -518,6 +568,16 @@
       "questao_original": 8,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Metotrexato como DMARD inicial na artrite reumatoide",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -603,6 +663,16 @@
       "questao_original": 12,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Rastreamentos indicados no homem adulto tabagista",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -689,6 +759,16 @@
       "questao_original": 13,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_do_trabalhador",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Notificação de intoxicação por agrotóxico no Sinan",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -772,6 +852,16 @@
       "questao_original": 14,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "transtornos_do_neurodesenvolvimento",
+      "especialidade_secundaria": "saude_mental_na_aps",
+      "objeto_conhecimento": "Diagnóstico do transtorno de oposição desafiante",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -857,6 +947,16 @@
       "questao_original": 15,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "nefrologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Critérios diagnósticos da síndrome nefrótica",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -942,6 +1042,16 @@
       "questao_original": 16,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Curvas de crescimento próprias da síndrome de Down",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1028,6 +1138,16 @@
       "questao_original": 17,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": "atendimento_pre_hospitalar",
+      "objeto_conhecimento": "Descompressão por agulha no pneumotórax hipertensivo",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1111,6 +1231,16 @@
       "questao_original": 18,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Insensibilidade androgênica na amenorreia primária 46,XY",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1197,6 +1327,16 @@
       "questao_original": 19,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_do_idoso",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Meta pressórica e conduta expectante na muito idosa",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1282,6 +1422,16 @@
       "questao_original": 20,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Indicação de PEP e transição para PrEP após exposição sexual",
+      "sistema_organico": "imune",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1367,6 +1517,16 @@
       "questao_original": 21,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_metabolicas",
+      "especialidade_secundaria": "emergencias_cardiovasculares",
+      "objeto_conhecimento": "Critérios de internação na anorexia nervosa com bradicardia",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1452,6 +1612,16 @@
       "questao_original": 22,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Levodopa como tratamento inicial da doença de Parkinson",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1538,6 +1708,16 @@
       "questao_original": 23,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "violencia_e_maus_tratos",
+      "especialidade_secundaria": "adolescencia",
+      "objeto_conhecimento": "Notificação de maus-tratos ao Conselho Tutelar",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1623,6 +1803,16 @@
       "questao_original": 24,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "abdome_agudo",
+      "especialidade_secundaria": "cirurgia_geral",
+      "objeto_conhecimento": "Confirmação ultrassonográfica da apendicite aguda",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1707,6 +1897,16 @@
       "questao_original": 25,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "parto_e_puerperio",
+      "especialidade_secundaria": "pre_natal",
+      "objeto_conhecimento": "Suspensão da insulina no puerpério imediato do DMG",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1792,6 +1992,16 @@
       "questao_original": 26,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "choque_e_sepse",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Hidratação parenteral na dengue do grupo C",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1877,6 +2087,16 @@
       "questao_original": 27,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "saude_do_trabalhador",
+      "objeto_conhecimento": "Manejo conservador da lombalgia aguda sem sinais de alerta",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -1962,6 +2182,16 @@
       "questao_original": 28,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "raps_e_politica_de_saude_mental",
+      "especialidade_secundaria": "dependencia_quimica",
+      "objeto_conhecimento": "Requisitos legais da internação involuntária na Lei 10.216",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2048,6 +2278,16 @@
       "questao_original": 29,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Contraindicação à trombólise por isquemia extensa na TC",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2133,6 +2373,16 @@
       "questao_original": 30,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Indicação de postectomia por balanopostite de repetição",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2217,6 +2467,16 @@
       "questao_original": 31,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Sinal de Courvoisier e TC na neoplasia periampular",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2302,6 +2562,16 @@
       "questao_original": 32,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": "intercorrencias_obstetricas",
+      "objeto_conhecimento": "Troca do enalapril por metildopa e AAS profilático na gestação",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2387,6 +2657,16 @@
       "questao_original": 33,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+      "objeto_conhecimento": "Interpretação do TRM-TB no retratamento após abandono",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2472,6 +2752,16 @@
       "questao_original": 34,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Efeito da baixa prevalência sobre o valor preditivo positivo",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2558,6 +2848,16 @@
       "questao_original": 35,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_mental_na_aps",
+      "especialidade_secundaria": "transtornos_do_humor",
+      "objeto_conhecimento": "Manejo do luto agudo não complicado na UBS",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2643,6 +2943,16 @@
       "questao_original": 36,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "geriatria",
+      "especialidade_secundaria": "clinica_geral",
+      "objeto_conhecimento": "Desprescrição na hipotensão ortostática iatrogênica",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2728,6 +3038,16 @@
       "questao_original": 37,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia_pediatrica",
+      "especialidade_secundaria": "cardiologia_pediatrica",
+      "objeto_conhecimento": "Profilaxia secundária da febre reumática com penicilina benzatina",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2812,6 +3132,16 @@
       "questao_original": 38,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "gastroenterologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Enzimas pancreáticas normais na pancreatite crônica agudizada",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2897,6 +3227,16 @@
       "questao_original": 39,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": "parto_e_puerperio",
+      "objeto_conhecimento": "Vigilância fetal e indução na gestação de 41 semanas",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -2982,6 +3322,16 @@
       "questao_original": 41,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_metabolicas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Reposição volêmica inicial na cetoacidose diabética",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3067,6 +3417,16 @@
       "questao_original": 42,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": "urgencia_pediatrica",
+      "objeto_conhecimento": "Choque séptico por onfalite no recém-nascido",
+      "sistema_organico": "imune",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3152,6 +3512,16 @@
       "questao_original": 44,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "parto_e_puerperio",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Tração controlada do cordão no manejo ativo da dequitação",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3238,6 +3608,16 @@
       "questao_original": 45,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Busca de sintomático respiratório em pessoa privada de liberdade",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3322,6 +3702,16 @@
       "questao_original": 46,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Lombalgia inflamatória e sacroileíte na espondilite anquilosante",
+      "sistema_organico": "osteomuscular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3407,6 +3797,16 @@
       "questao_original": 47,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "imunizacao",
+      "especialidade_secundaria": "adolescencia",
+      "objeto_conhecimento": "Vacinas indicadas aos 12 anos no calendário do PNI",
+      "sistema_organico": "imune",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3492,6 +3892,16 @@
       "questao_original": 48,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Toracocentese na investigação do derrame pleural",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3578,6 +3988,16 @@
       "questao_original": 49,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": "sangramento_uterino_anormal",
+      "objeto_conhecimento": "Elegibilidade contraceptiva no lúpus com trombose prévia",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3663,6 +4083,16 @@
       "questao_original": 50,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Insulinização basal com NPH noturna no DM2 descompensado",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3747,6 +4177,16 @@
       "questao_original": 51,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "hepatologia",
+      "especialidade_secundaria": "gastroenterologia",
+      "objeto_conhecimento": "Colangiorressonância na colangite esclerosante primária",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3830,6 +4270,16 @@
       "questao_original": 52,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": "neurologia_pediatrica",
+      "objeto_conhecimento": "Cronologia do desaparecimento dos reflexos primitivos",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -3925,7 +4375,17 @@
         "legenda": "Tomografia computadorizada de crânio, corte axial, sem contraste.",
         "alt_text": "Tomografia de crânio em corte axial, sem contraste, ao nível das cisternas da base. Volumosa coleção extra-axial hiperdensa (branca) na convexidade do hemisfério esquerdo do paciente (à direita na imagem), com efeito de massa e apagamento dos sulcos corticais adjacentes; cisternas da base com conteúdo hiperdenso e leve desvio das estruturas da linha média para o lado oposto. Reprodução em baixa resolução."
       }
-    ]
+    ],
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": "trauma",
+      "objeto_conhecimento": "Intervalo lúcido e anisocoria no hematoma epidural",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
+    }
   },
   {
     "tipo": "questao",
@@ -4010,6 +4470,16 @@
       "questao_original": 54,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Contraindicação ao combinado oral na enxaqueca com aura",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4096,6 +4566,16 @@
       "questao_original": 55,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "saude_do_idoso",
+      "objeto_conhecimento": "Calendário vacinal do idoso acamado em visita domiciliar",
+      "sistema_organico": "imune",
+      "contexto_atencao": "domiciliar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4181,6 +4661,16 @@
       "questao_original": 56,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "saude_ambiental",
+      "objeto_conhecimento": "Manejo integrado de vetores do Aedes como processo cíclico",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4267,6 +4757,16 @@
       "questao_original": 57,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
+      "objeto_conhecimento": "Vigilância de estatura, peso e PA no uso de metilfenidato",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4352,6 +4852,16 @@
       "questao_original": 58,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Captação de iodo reduzida na tireoidite subaguda",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4436,6 +4946,16 @@
       "questao_original": 59,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Espasmos infantis e manchas hipomelanóticas na esclerose tuberosa",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4521,6 +5041,16 @@
       "questao_original": 60,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "coloproctologia",
+      "especialidade_secundaria": "abdome_agudo",
+      "objeto_conhecimento": "Tomografia como exame de maior acurácia na diverticulite aguda",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4606,6 +5136,16 @@
       "questao_original": 61,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "infeccoes_genitais_e_ist",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Antifúngico tópico na candidíase vulvovaginal da diabética",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4691,6 +5231,16 @@
       "questao_original": 62,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "etica_e_bioetica",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Responsabilidade pelo preenchimento da declaração de óbito",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4776,6 +5326,16 @@
       "questao_original": 63,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "bioestatistica",
+      "objeto_conhecimento": "Reconhecimento de ensaio clínico não randomizado",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4861,6 +5421,16 @@
       "questao_original": 64,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_psiquiatrica",
+      "especialidade_secundaria": "transtornos_do_humor",
+      "objeto_conhecimento": "Indicação de internação na crise suicida de alto risco",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -4946,6 +5516,16 @@
       "questao_original": 65,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "hematologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Fator V de Leiden como causa de TVP recorrente",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5031,6 +5611,16 @@
       "questao_original": 66,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Reposição de potássio antes da insulina na cetoacidose",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5117,6 +5707,16 @@
       "questao_original": 67,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "atendimento_pre_hospitalar",
+      "especialidade_secundaria": "trauma",
+      "objeto_conhecimento": "Torniquete no controle de hemorragia externa pré-hospitalar",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5202,6 +5802,16 @@
       "questao_original": 68,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "oncoginecologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Colposcopia imediata diante de citologia ASC-H",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5286,6 +5896,16 @@
       "questao_original": 69,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "dependencia_quimica",
+      "especialidade_secundaria": "saude_mental_na_aps",
+      "objeto_conhecimento": "Critérios do DSM-5 para transtorno por uso de álcool",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5371,6 +5991,16 @@
       "questao_original": 70,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Bloqueio coletivo em surto de escabiose no sistema prisional",
+      "sistema_organico": "tegumentar",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5455,6 +6085,16 @@
       "questao_original": 71,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "transtornos_ansiosos",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Caracterização da obsessão com crítica preservada no TOC",
+      "sistema_organico": "psiquico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5540,6 +6180,16 @@
       "questao_original": 72,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "gastroenterologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Rifaximina no supercrescimento bacteriano do delgado",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5626,6 +6276,16 @@
       "questao_original": 73,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "neurologia_pediatrica",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Conduta expectante na crise febril simples",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5710,6 +6370,16 @@
       "questao_original": 74,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": "otorrinolaringologia",
+      "objeto_conhecimento": "Rouquidão por lesão do nervo laríngeo recorrente pós-tireoidectomia",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5795,6 +6465,16 @@
       "questao_original": 75,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": "endocrinologia_ginecologica",
+      "objeto_conhecimento": "Escolha do SIU-levonorgestrel na obesidade grave anovulatória",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5880,6 +6560,16 @@
       "questao_original": 77,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "abordagem_familiar_e_comunitaria",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Competência cultural no cuidado a ribeirinhos e indígenas",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -5965,6 +6655,16 @@
       "questao_original": 78,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cuidado_longitudinal_e_coordenacao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Acolhimento do homem trans na APS",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6050,6 +6750,16 @@
       "questao_original": 79,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "choque_e_sepse",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Antibiótico na primeira hora da sepse de foco urinário",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6135,6 +6845,16 @@
       "questao_original": 80,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": "urgencia_pediatrica",
+      "objeto_conhecimento": "Intubação imediata na hérnia diafragmática congênita",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6219,6 +6939,16 @@
       "questao_original": 81,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "coloproctologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Fissura anal com constipação e suspeita de doença de Crohn",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6303,6 +7033,16 @@
       "questao_original": 82,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": "pre_natal",
+      "objeto_conhecimento": "Progesterona vaginal na prevenção do parto prematuro",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6388,6 +7128,16 @@
       "questao_original": 83,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "cuidado_longitudinal_e_coordenacao",
+      "objeto_conhecimento": "Seguimento da lesão intraepitelial de baixo grau (LSIL)",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6473,6 +7223,16 @@
       "questao_original": 84,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "saude_do_idoso",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Notificação de violência contra a pessoa idosa em ILPI",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6558,6 +7318,16 @@
       "questao_original": 85,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "intoxicacoes_e_acidentes_por_animais",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Indicação do flumazenil na intoxicação por benzodiazepínicos",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6644,6 +7414,16 @@
       "questao_original": 86,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "reumatologia",
+      "especialidade_secundaria": "neurologia",
+      "objeto_conhecimento": "Arterite de células gigantes com amaurose fugaz e VHS elevado",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6729,6 +7509,16 @@
       "questao_original": 87,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "adolescencia",
+      "especialidade_secundaria": "aleitamento_e_nutricao",
+      "objeto_conhecimento": "Acantose nigricans como marcador de resistência insulínica",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6815,6 +7605,16 @@
       "questao_original": 89,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": "parto_e_puerperio",
+      "objeto_conhecimento": "Cesárea de urgência no descolamento prematuro de placenta",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6900,6 +7700,16 @@
       "questao_original": 90,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "promocao_e_prevencao",
+      "objeto_conhecimento": "Soro e vacina antirrábicos no acidente grave por felino",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -6985,6 +7795,16 @@
       "questao_original": 91,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Escore GRACE e estratégia invasiva precoce na SCASSST",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7070,6 +7890,16 @@
       "questao_original": 92,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "pneumologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
+      "objeto_conhecimento": "Corticoide sistêmico na crise asmática grave do lactente",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7156,6 +7986,16 @@
       "questao_original": 93,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "trauma",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Irrigação imediata na queimadura química ocular",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7241,6 +8081,16 @@
       "questao_original": 94,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "sangramento_uterino_anormal",
+      "especialidade_secundaria": "oncoginecologia",
+      "objeto_conhecimento": "Espessamento endometrial no sangramento pós-menopausa",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7326,6 +8176,16 @@
       "questao_original": 95,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "aleitamento_e_nutricao",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Ferro elementar e pico reticulocitário na ferropenia",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7421,7 +8281,17 @@
         "legenda": "Lesão peniana do paciente, com três meses de evolução.",
         "alt_text": "Fotografia clínica do pênis, com o prepúcio retraído manualmente, mostrando lesão ulcerada na glande e no sulco balanoprepucial, de bordas elevadas e endurecidas, limites bem definidos e fundo irregular de aspecto granuloso e brilhante, sem secreção purulenta abundante. Imagem em preto e branco."
       }
-    ]
+    ],
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Diagnóstico e tratamento do cancro mole na úlcera genital dolorosa",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
+    }
   },
   {
     "tipo": "questao",
@@ -7505,6 +8375,16 @@
       "questao_original": 97,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Baixa estatura familiar versus atraso constitucional do crescimento",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7590,6 +8470,16 @@
       "questao_original": 98,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "cirurgia_geral",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Colangiorressonância na síndrome colestática obstrutiva",
+      "sistema_organico": "digestorio",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   },
   {
@@ -7676,6 +8566,16 @@
       "questao_original": 99,
       "requer_imagem": false,
       "imagem_status": "nao_requer"
+    },
+    "classificacao_fina": {
+      "especialidade": "intercorrencias_obstetricas",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Conduta expectante na rotura prematura de membranas pré-termo",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": null
     }
   }
 ]
