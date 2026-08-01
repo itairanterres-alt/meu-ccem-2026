@@ -1,0 +1,287 @@
+[
+  {
+    "id_origem": "revalida2023_2_q001",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Emergência hipertensiva com encefalopatia hipertensiva",
+    "subtema": "Investigação por neuroimagem e anti-hipertensivo parenteral titulável",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["emergência hipertensiva", "encefalopatia hipertensiva", "nitroprussiato de sódio", "tomografia de crânio", "rebaixamento de consciência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A punção liquórica em paciente com rebaixamento progressivo do nível de consciência e sem neuroimagem prévia é contraindicada pelo risco de herniação cerebral; além disso, betabloqueadores orais isolados não permitem a titulação pressórica exigida em uma emergência hipertensiva.",
+      "B": "Correta. A neuroimagem afasta hemorragia intracraniana e infarto isquêmico extenso, que mudariam radicalmente as metas pressóricas; confirmada a encefalopatia hipertensiva, o nitroprussiato de sódio em bomba de infusão permite reduzir a pressão arterial média de forma controlada em cerca de 20% a 25% na primeira hora, revertendo a perda da autorregulação do fluxo cerebral e o edema vasogênico.",
+      "C": "Incorreta. Embora a tomografia esteja indicada, a furosemida não é a droga de escolha: na emergência hipertensiva sem congestão pulmonar há natriurese pressórica com depleção volêmica, e o diurético pode agravar a hipoperfusão cerebral e ativar ainda mais o sistema renina-angiotensina.",
+      "D": "Incorreta. A ressonância magnética tem menor disponibilidade e maior tempo de aquisição, sendo inadequada como exame inicial em paciente instável, e a antiagregação com ácido acetilsalicílico é perigosa antes de excluída hemorragia intracraniana."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q015",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Sangramento uterino anormal agudo com repercussão hemodinâmica",
+    "subtema": "Investigação inicial e hemostasia hormonal com progestágeno",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["sangramento uterino anormal", "PALM-COEIN", "medroxiprogesterona", "anemia aguda", "urgência ginecológica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A chave associa exames de rastreio ambulatorial (TSH) a um cenário de sangramento agudo com instabilidade hemodinâmica, tornando-a competitiva com a opção que prioriza coagulograma e gerando ambiguidade quanto ao que é 'primeiro exame'.",
+    "justificativas": {
+      "A": "Correta. O hemograma quantifica a perda sanguínea e a repercussão hematimétrica, o TSH investiga a disfunção tireoidiana como causa endócrina não estrutural de sangramento uterino anormal e a ultrassonografia transvaginal rastreia as causas estruturais do grupo PALM; a medroxiprogesterona em dose elevada estabiliza e decidualiza o endométrio, promovendo hemostasia rápida sem a via estrogênica.",
+      "B": "Incorreta. Transaminases não têm papel na abordagem inicial do sangramento uterino anormal, e o desogestrel de uso contínuo tem início de ação lento e costuma provocar sangramento irregular nos primeiros ciclos, sendo incapaz de conter uma hemorragia com instabilidade hemodinâmica.",
+      "C": "Incorreta. Ainda que o coagulograma seja razoável, o ácido mefenâmico é um anti-inflamatório não esteroidal que reduz o fluxo em cerca de um terço por inibição da síntese de prostaglandinas endometriais, efeito insuficiente diante de hipotensão e taquicardia.",
+      "D": "Incorreta. FSH, LH e prolactina avaliam o eixo hipotálamo-hipófise-ovário em amenorreia, infertilidade ou galactorreia, não em hemorragia aguda, e o diclofenaco não oferece controle hemostático adequado nesse contexto."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q029",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico diferencial dos corrimentos vaginais na atenção primária",
+    "subtema": "Candidíase vulvovaginal: pH, teste das aminas e aspecto do conteúdo",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_06", "dcn2025_comp_01"],
+    "tags": ["candidíase vulvovaginal", "corrimento vaginal", "pH vaginal", "teste de Whiff", "atenção primária"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado apresenta corrupção tipográfica com espaçamento irregular entre caracteres em vários trechos, além de erro de grafia no nome científico da alternativa C, o que prejudica a legibilidade do item.",
+    "justificativas": {
+      "A": "Correta. Conteúdo branco, grumoso e aderente às paredes vaginais, acompanhado de prurido intenso e hiperemia da mucosa, com pH mantido abaixo de 4,5 e teste das aminas negativo, é a assinatura clínica da candidíase vulvovaginal, na qual a flora lactobacilar acidificante permanece preservada.",
+      "B": "Incorreta. A vaginose bacteriana por Gardnerella cursa com corrimento acinzentado, homogêneo e fluido, pH acima de 4,5 e teste das aminas positivo pela liberação de aminas voláteis, além de habitualmente não provocar prurido nem inflamação da mucosa.",
+      "C": "Incorreta. A tricomoníase produz corrimento amarelo-esverdeado, bolhoso e abundante, com pH geralmente acima de 5, teste das aminas frequentemente positivo e colo com aspecto de framboesa por colpite focal.",
+      "D": "Incorreta. Chlamydia trachomatis causa cervicite mucopurulenta, muitas vezes oligossintomática, com friabilidade e sangramento ao toque do colo, e não determina corrimento grumoso aderente com pH normal."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q043",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Púrpura palpável com artrite e dor abdominal em pré-escolar",
+    "subtema": "Vasculite por IgA (púrpura de Henoch-Schönlein) e acometimento renal",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["vasculite por IgA", "púrpura de Henoch-Schönlein", "púrpura palpável", "hematúria", "vasculite de pequenos vasos"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A glomerulonefrite pós-estreptocócica surge uma a três semanas após piodermite ou faringoamigdalite estreptocócica, cursa com hipertensão arterial, edema e consumo de complemento C3, e não explica púrpura palpável nem artrite; o ASLO negativo reforça o afastamento.",
+      "B": "Incorreta. A síndrome hemolítico-urêmica exige a tríade anemia hemolítica microangiopática, plaquetopenia e lesão renal aguda, tipicamente após diarreia sanguinolenta; hemograma, ureia e creatinina normais excluem o diagnóstico.",
+      "C": "Incorreta. O lúpus eritematoso sistêmico é raro nessa faixa etária e demandaria acometimento multissistêmico com citopenias, hipocomplementemia e autoanticorpos, não sendo compatível com exames hematológicos inteiramente normais.",
+      "D": "Correta. A deposição de imunocomplexos de IgA em vasos de pequeno calibre produz a tétrade característica de púrpura palpável em membros inferiores e nádegas, artrite ou artralgia de grandes articulações, dor abdominal por vasculite mesentérica e nefrite com hematúria e proteinúria, com plaquetas e coagulograma normais."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q059",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Pré-eclâmpsia com sinal de gravidade no terceiro trimestre",
+    "subtema": "Indicação de internação e resolução da gestação com 35 semanas",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["pré-eclâmpsia", "iminência de eclâmpsia", "cefaleia refratária", "resolução da gestação", "síndrome hipertensiva gestacional"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item sustenta a indicação de interrupção da gestação apenas com cefaleia refratária e níveis pressóricos limítrofes (140 × 90 mmHg), sem informar proteinúria ou resultados laboratoriais, o que fragiliza a caracterização inequívoca de pré-eclâmpsia com sinais de gravidade.",
+    "justificativas": {
+      "A": "Incorreta. Liberar a gestante para seguimento ambulatorial ignora que a cefaleia intensa e refratária a analgésicos é sintoma de iminência de eclâmpsia, expondo-a a convulsão, acidente vascular encefálico e descolamento prematuro de placenta.",
+      "B": "Correta. A cefaleia que não cede à analgesia otimizada configura sinal de gravidade da síndrome hipertensiva gestacional, impondo internação, avaliação laboratorial de urgência (hemograma com plaquetas, transaminases, creatinina, desidrogenase láctica e proteinúria) e resolução da gestação, já viável com 35 semanas, pois a única terapêutica definitiva é o parto.",
+      "C": "Incorreta. A metildopa tem início de ação lento e serve à manutenção ambulatorial de hipertensão crônica ou gestacional leve; encaminhar a paciente sintomática para o pré-natal de alto risco posterga a única conduta resolutiva e mantém o risco materno.",
+      "D": "Incorreta. A conduta expectante apenas com observação e analgesia retarda a definição terapêutica em uma paciente que já apresenta critério clínico de gravidade, e a normalidade laboratorial não exclui pré-eclâmpsia com sinal de gravidade de expressão clínica."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q074",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Pielonefrite aguda na gestação diagnosticada na atenção primária",
+    "subtema": "Encaminhamento de urgência e manejo sintomático inicial",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["pielonefrite", "gestação", "infecção urinária alta", "encaminhamento de urgência", "trabalho de parto prematuro"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas C e D indicam a mesma conduta de encaminhamento urgente e se distinguem apenas pelo sintomático prescrito, deslocando a discriminação do item para um detalhe farmacológico secundário.",
+    "justificativas": {
+      "A": "Incorreta. Reavaliação ambulatorial em sete dias é inaceitável, pois a pielonefrite na gestação é a principal causa infecciosa de sepse obstétrica e de síndrome do desconforto respiratório do adulto no ciclo grávido-puerperal.",
+      "B": "Incorreta. O antiespasmódico trataria uma cólica renal, mas a febre alta associada a queda do estado geral aponta para infecção do trato urinário alto; a avaliação eletiva com infectologista retarda perigosamente o início da antibioticoterapia parenteral.",
+      "C": "Correta. A tríade febre, lombalgia e comprometimento do estado geral em gestante caracteriza pielonefrite aguda, condição que impõe internação e antibioticoterapia intravenosa; o antitérmico é o sintomático adequado, pois a hipertermia materna aumenta a irritabilidade uterina e o risco de trabalho de parto prematuro, evidenciado aqui pela taquicardia fetal de 158 bpm.",
+      "D": "Incorreta. Embora o encaminhamento urgente esteja correto, o antiespasmódico não atua sobre a febre nem sobre o processo infeccioso e pode mascarar a evolução do quadro álgico durante o transporte."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q087",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Olho vermelho doloroso crônico com escavação papilar aumentada",
+    "subtema": "Glaucoma e fármacos com efeito anticolinérgico",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_01"],
+    "tags": ["glaucoma", "pressão intraocular", "amitriptilina", "efeito anticolinérgico", "fundo de olho"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A retinopatia diabética manifesta-se por microaneurismas, hemorragias em chama de vela, exsudatos duros e neovasos, achados explicitamente ausentes; o aumento da escavação do disco óptico não pertence ao espectro dessa complicação.",
+      "B": "Incorreta. A suplementação com antioxidantes e zinco do estudo AREDS destina-se à degeneração macular relacionada à idade, que compromete a visão central e cursa com drusas maculares, e não com dor ocular e perda de campo periférico.",
+      "C": "Correta. Hiperemia ocular dolorosa e refratária, perda de campo visual periférico e escavação aumentada da papila compõem o quadro de glaucoma, tornando obrigatória a tonometria; a amitriptilina, por sua potente ação anticolinérgica, provoca midríase e espessamento da íris periférica, podendo bloquear o ângulo iridocorneano e elevar a pressão intraocular, devendo ser substituída.",
+      "D": "Incorreta. Lesões compressivas retro-orbitárias cursam com proptose, restrição da motricidade ocular extrínseca, defeito pupilar aferente e palidez ou edema de papila, e não com escavação glaucomatosa progressiva."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q001",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Cistite aguda não complicada em mulher jovem",
+    "subtema": "Escolha do antimicrobiano de primeira linha",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["infecção do trato urinário", "cistite não complicada", "nitrofurantoína", "antibioticoterapia empírica", "resistência bacteriana"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Disúria, polaciúria, urgência miccional e dor hipogástrica sem febre, calafrios ou dor lombar definem cistite aguda não complicada em mulher hígida; a nitrofurantoína é primeira linha por atingir altas concentrações urinárias com mínima pressão seletiva sobre a microbiota intestinal e por manter baixas taxas de resistência em Escherichia coli.",
+      "B": "Incorreta. A ausência de febre, calafrios, náuseas e dor lombar com sinal de Giordano afasta o comprometimento do trato urinário alto; além disso, as fluoroquinolonas foram desescalonadas da primeira linha em cistite por seus eventos adversos musculoesqueléticos e pelo dano ecológico à microbiota.",
+      "C": "Incorreta. Staphylococcus aureus é agente incomum no trato urinário e, quando presente, sugere disseminação hematogênica ou manipulação instrumental; a etiologia esperada é Escherichia coli em cerca de 80% dos casos, não justificando antibiótico de amplo espectro.",
+      "D": "Incorreta. Não há cólica lombar em cólica, hematúria macroscópica ou antecedente litiásico que sustentem nefrolitíase; em cistite não complicada o tratamento é empírico e imediato, sem necessidade de aguardar urocultura."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q015",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Lesão puntiforme com ponto central enegrecido em pé de criança de área rural",
+    "subtema": "Tungíase: diagnóstico clínico-epidemiológico e extração do parasita",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_15", "dcn2025_comp_06"],
+    "tags": ["tungíase", "Tunga penetrans", "dermatoses parasitárias", "saúde da criança", "atenção primária"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A larva migrans cutânea produz trajeto linear serpiginoso, eritematoso e migratório, resultante do deslocamento da larva de ancilostomídeo na epiderme, e não pápulas ceratóticas fixas com ponto central enegrecido.",
+      "B": "Incorreta. O eczema disidrótico caracteriza-se por vesículas profundas e recorrentes em palmas, plantas e faces laterais dos dedos, sem ponto central escuro, sem pustulização precoce e sem relação com exposição ao solo.",
+      "C": "Correta. A penetração da fêmea grávida de Tunga penetrans na pele de quem anda descalço em solo arenoso de área rural gera pápula ceratótica esbranquiçada com ponto central enegrecido correspondente ao abdome do parasita; a conduta é a extração completa com material estéril, seguida de antissepsia e verificação do esquema antitetânico.",
+      "D": "Incorreta. A verruga viral tem evolução crônica e insidiosa, é pouco pruriginosa, não pustuliza espontaneamente em poucos dias e não guarda relação com o contato com solo contaminado."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q029",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Hipotireoidismo na gestação e perda gestacional de repetição",
+    "subtema": "Interpretação do TSH elevado e papel do anti-TPO",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["hipotireoidismo gestacional", "TSH", "anti-TPO", "abortamento de repetição", "levotiroxina"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O metimazol é antitireoidiano indicado no hipertireoidismo; o TSH elevado com sintomas de fadiga, ganho de peso e pele ressecada aponta hipofunção tireoidiana, de modo que o fármaco agravaria o hipotireoidismo materno e fetal.",
+      "B": "Incorreta. O hiperestrogenismo gestacional de fato eleva a globulina ligadora de tiroxina e o T4 total, mas isso não aumenta o TSH; no primeiro trimestre a homologia entre hCG e TSH gera estímulo tireotrófico que tende a reduzir os níveis de TSH.",
+      "C": "Correta. Concentrações elevadas de TSH associam-se de forma independente a abortamento e perdas fetais, e a autoimunidade tireoidiana traduzida pela positividade do anti-TPO acrescenta risco adicional, com evolução mais frequente para hipotireoidismo franco ao longo da gestação, independentemente da presença de bócio.",
+      "D": "Incorreta. A reposição com levotiroxina deve ser iniciada imediatamente ao diagnóstico, pois até cerca da 12ª semana o feto depende integralmente do T4 materno transplacentário para o neurodesenvolvimento; postergar o tratamento é justamente o que compromete o desfecho."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q042",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Úlcera peniana crônica não cicatrizante em homem tabagista",
+    "subtema": "Suspeita de carcinoma epidermoide de pênis e confirmação histológica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["câncer de pênis", "carcinoma epidermoide", "biópsia incisional", "úlcera genital", "diagnóstico oncológico precoce"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Úlcera genital com mais de quatro semanas de evolução, refratária a tratamento tópico, de bordos elevados e fundo esbranquiçado, em homem com esmegma retido, má higiene do sulco balanoprepucial e tabagismo intenso, configura suspeita de carcinoma epidermoide de pênis; a biópsia incisional confirma o tipo histológico, o grau e a profundidade de invasão, orientando o estadiamento e a terapêutica.",
+      "B": "Incorreta. A ciprofloxacina em curso curto trata cancro mole, cuja úlcera é dolorosa, múltipla, de bordos irregulares solapados e fundo purulento, com evolução aguda incompatível com uma lesão estável de três meses.",
+      "C": "Incorreta. Higiene local e banhos antissépticos tratam balanopostite inespecífica, mas não modificam uma lesão neoplásica e apenas retardam o diagnóstico, período em que pode ocorrer disseminação linfonodal inguinal.",
+      "D": "Incorreta. O cancro duro sifilítico é indolor, de base endurecida e limpo, com cicatrização espontânea em três a seis semanas; ademais, a dose correta de penicilina benzatina para sífilis recente é de 2.400.000 UI."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q057",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Dor febril em coxa de paciente com osteossíntese prévia por fratura exposta",
+    "subtema": "Osteomielite crônica reagudizada e escolha da ressonância magnética",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_25", "dcn2025_comp_01"],
+    "tags": ["osteomielite", "fratura exposta", "ressonância magnética", "infecção de sítio cirúrgico", "diabetes mellitus"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Febre, edema, hiperemia e dor à percussão óssea da região proximal da coxa em diabético submetido a osteossíntese de fratura exposta caracterizam osteomielite crônica reagudizada; a ressonância magnética é o método de maior sensibilidade e melhor resolução para edema medular ósseo, sequestros, abscessos intraósseos e extensão para partes moles, definindo o planejamento do desbridamento.",
+      "B": "Incorreta. O acometimento é diafisário/metafisário proximal e não articular, sem derrame nem limitação em rotação do quadril; a radiografia simples permanece normal nas primeiras duas a três semanas, pois exige perda de 30% a 50% da matriz mineral para revelar alterações.",
+      "C": "Incorreta. A punção articular guiada destina-se à confirmação de artrite séptica; a tuberculose osteoarticular tem curso arrastado de meses, com sinais inflamatórios discretos e sintomas constitucionais, incompatível com evolução de três dias.",
+      "D": "Incorreta. A osteoartrose é degenerativa e não cursa com febre nem sinais flogísticos; a cintilografia óssea, além de inespecífica, apresenta captação persistente em osso previamente operado, o que compromete sua interpretação nesse contexto."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q070",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Dispositivo intrauterino na carteira de serviços da atenção primária",
+    "subtema": "Indicações do SIU de levonorgestrel e critérios de inserção",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_16", "dcn2025_comp_22"],
+    "tags": ["dispositivo intrauterino", "planejamento reprodutivo", "levonorgestrel", "contracepção de emergência", "atenção primária"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O Ministério da Saúde reconhece e estimula a inserção do DIU por enfermeiros devidamente capacitados, estratégia central para ampliar o acesso ao método na atenção primária e reduzir barreiras ao planejamento reprodutivo.",
+      "B": "Incorreta. A inserção imediata após abortamento não infectado é segura e recomendada, com taxas de expulsão aceitáveis, e aproveita uma janela de oportunidade contraceptiva decisiva para prevenir nova gestação não planejada.",
+      "C": "Incorreta. O DIU de cobre é o método contraceptivo de emergência mais eficaz, mas a janela para inserção é de até cinco dias após a relação desprotegida, e não sete.",
+      "D": "Correta. O sistema intrauterino liberador de levonorgestrel induz atrofia e decidualização endometrial, reduzindo drasticamente o volume do fluxo e a dismenorreia, ao mesmo tempo em que espessa o muco cervical e mantém eficácia contraceptiva de longa duração."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q084",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Lesão vulvar persistente refratária em mulher idosa com líquen escleroso",
+    "subtema": "Indicação de vulvoscopia e biópsia para excluir neoplasia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["neoplasia vulvar", "líquen escleroso", "biópsia vulvar", "vulvoscopia", "doença de Paget"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Lesão vulvar que persiste apesar de corticoterapia e antifúngico, em mulher na pós-menopausa com líquen escleroso, exige avaliação com vulvoscopia e biópsia dirigida, pois o HPV negativo desloca a suspeita para a neoplasia intraepitelial vulvar diferenciada, a doença de Paget extramamária ou o carcinoma escamoso invasor HPV-independente.",
+      "B": "Incorreta. Testes alérgicos e clobetasol repetem uma abordagem já comprovadamente insuficiente, e a resposta apenas parcial do prurido não autoriza a manutenção de conduta empírica em lesão suspeita.",
+      "C": "Incorreta. O fluconazol oral, de boa penetração tecidual, já falhou, o que torna improvável a etiologia micótica; insistir em antifúngico tópico apenas retarda o diagnóstico histológico.",
+      "D": "Incorreta. O azul de toluidina tem baixa especificidade, com frequentes falso-positivos em áreas apenas ulceradas ou inflamadas, e indicar vulvectomia sem confirmação histológica é conduta mutiladora e desproporcional."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q097",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Determinação do nível neurológico em trauma raquimedular por queda de altura",
+    "subtema": "Correlação entre dermátomos e nível de lesão medular",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_14", "dcn2025_comp_20"],
+    "tags": ["trauma raquimedular", "dermátomos", "nível neurológico", "paraplegia", "atendimento ao politraumatizado"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O dermátomo L2 corresponde à face anterior e proximal da coxa; uma lesão nesse nível pouparia toda a sensibilidade abdominal e produziria déficit motor restrito, incompatível com paraplegia completa e anestesia desde a cicatriz umbilical.",
+      "B": "Incorreta. O dermátomo T4 corresponde à linha intermamilar; nesse nível o déficit sensitivo se estenderia desde o tórax, bem acima do umbigo, e haveria comprometimento da musculatura intercostal com repercussão ventilatória.",
+      "C": "Correta. A cicatriz umbilical é o marco anatômico do dermátomo T10, de modo que a perda de sensibilidade tátil e dolorosa a partir desse ponto, associada a paraplegia e preservação integral de força e sensibilidade nos membros superiores, localiza a lesão medular no nível T10.",
+      "D": "Incorreta. O dermátomo T12 corresponde à região inguinal e à sínfise púbica; se esse fosse o nível, o limite superior da anestesia estaria vários centímetros abaixo da cicatriz umbilical."
+    }
+  }
+]

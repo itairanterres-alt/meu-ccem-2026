@@ -1,0 +1,419 @@
+[
+  {
+    "id_origem": "revalida2023_2_q011",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipocalcemia aguda como complicação da pancreatite aguda biliar",
+    "subtema": "Sinais de Trousseau e Chvostek e prolongamento do intervalo QT",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "hipocalcemia",
+      "pancreatite aguda",
+      "tetania",
+      "intervalo QT",
+      "distúrbio hidroeletrolítico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A depleção de potássio manifesta-se tipicamente por fraqueza muscular flácida, íleo e arritmias, com achatamento da onda T e surgimento de onda U ao eletrocardiograma, e não por tetania com espasmo carpal reprodutível pela isquemia do braço.",
+      "B": "Incorreta. A glicemia capilar de 138 mg/dL é apenas discretamente elevada, compatível com resposta de estresse, e a hiperglicemia não gera hiperexcitabilidade neuromuscular nem alarga o intervalo QT corrigido.",
+      "C": "Correta. A saponificação do cálcio pela gordura peripancreática necrosada reduz o cálcio ionizado, diminuindo o limiar de despolarização das fibras nervosas periféricas; daí a parestesia perioral, o espasmo carpal induzido pelo manguito (Trousseau), a resposta à percussão do nervo facial (Chvostek) e o alargamento do QTc por prolongamento da fase de platô do potencial de ação.",
+      "D": "Incorreta. O excesso de cálcio produz o quadro oposto — hipotonia, constipação, poliúria e confusão —, além de encurtar, e não prolongar, o intervalo QT corrigido."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q024",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Critérios de elegibilidade contraceptiva em lúpus com tromboembolismo prévio e útero didelfo",
+    "subtema": "Contracepção só de progestágeno em mulheres com risco trombótico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "contracepção",
+      "critérios de elegibilidade OMS",
+      "lúpus eritematoso sistêmico",
+      "tromboembolismo",
+      "malformação uterina"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado não informa a pesquisa de anticorpos antifosfolípides, dado que modificaria a categoria de elegibilidade dos métodos apenas com progestágeno nessa paciente com lúpus.",
+    "justificativas": {
+      "A": "Incorreta. Embora o levonorgestrel intrauterino fosse desejável para reduzir o fluxo menstrual, a duplicação da cavidade no útero didelfo distorce a anatomia uterina e configura contraindicação anatômica à inserção intrauterina, com risco de posicionamento inadequado, expulsão e perfuração.",
+      "B": "Incorreta. Além da mesma restrição anatômica imposta pelo útero didelfo, o dispositivo de cobre tende a intensificar o volume e a duração do sangramento menstrual, agravando a queixa de fluxo intenso já relatada.",
+      "C": "Incorreta. O componente estrogênico aumenta a síntese hepática de fatores procoagulantes e está formalmente contraindicado (categoria 4) diante de tromboembolismo venoso prévio e de lúpus eritematoso sistêmico, pelo risco de recorrência trombótica.",
+      "D": "Correta. O progestágeno isolado não eleva o risco tromboembólico, sendo aceitável na vigência de trombose prévia e de lúpus, e dispensa qualquer manipulação da cavidade uterina, o que o torna o único método listado compatível simultaneamente com o útero didelfo e com o antecedente trombótico."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q039",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem do cisto ovariano hemorrágico roto com dor pélvica aguda",
+    "subtema": "Diagnóstico diferencial de abdome agudo ginecológico e conduta expectante",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "dor pélvica aguda",
+      "cisto hemorrágico",
+      "ultrassonografia transvaginal",
+      "conduta expectante",
+      "abdome agudo"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A abordagem por laparotomia se reserva à instabilidade hemodinâmica com hemoperitônio volumoso, cenário oposto ao de uma paciente normotensa, afebril e com apenas lâmina de líquido no fundo de saco.",
+      "B": "Incorreta. Não há indicação de exploração cirúrgica: o fluxo periférico preservado ao Doppler afasta torção anexial, e a ressecção de um cisto funcional hemorrágico expõe a paciente a perda desnecessária de reserva ovariana e a aderências.",
+      "C": "Correta. O quadro corresponde a cisto funcional hemorrágico do corpo lúteo com pequena rotura, típico da fase lútea (cerca de 15 dias após a menstruação), com beta-hCG negativo e estabilidade hemodinâmica; o sangramento é autolimitado e a analgesia com observação seriada dos sinais vitais e do hematócrito é suficiente.",
+      "D": "Incorreta. A retirada do ovário é conduta mutilante e inaceitável em mulher jovem com lesão funcional benigna e sem sinais de necrose ou malignidade."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q054",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Indicação de antibioticoprofilaxia intraparto para estreptococo do grupo B",
+    "subtema": "Fatores de risco e exceção da cesariana eletiva com membranas íntegras",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "estreptococo do grupo B",
+      "profilaxia intraparto",
+      "rotura prematura de membranas",
+      "prematuridade",
+      "sepse neonatal precoce"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Multiparidade e hipertensão crônica não são fatores de risco para a doença neonatal precoce por estreptococo do grupo B; com cultura negativa nas últimas cinco semanas, membranas íntegras e ausência de trabalho de parto, a profilaxia não se aplica à cesariana eletiva.",
+      "B": "Incorreta. Apenas uma das gestantes reúne fatores de risco; estender a profilaxia à segunda representaria uso desnecessário de antimicrobiano, com risco de anafilaxia e pressão seletiva sobre a flora.",
+      "C": "Correta. Na ausência de rastreamento válido, a profilaxia é indicada quando há qualquer fator de risco, e essa gestante acumula dois: idade gestacional abaixo de 37 semanas e rotura de membranas com mais de 18 horas de evolução, condições que favorecem a colonização ascendente e a invasão bacteriana do feto.",
+      "D": "Incorreta. Desconsidera que a prematuridade associada à amniorrexe prolongada, em gestante sem cultura para estreptococo do grupo B, é justamente a situação clássica de indicação da profilaxia."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q069",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Direito a acompanhante no trabalho de parto, parto e pós-parto no SUS",
+    "subtema": "Lei do Acompanhante e livre indicação pela parturiente",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_23",
+      "dcn2025_comp_16",
+      "dcn2025_comp_04"
+    ],
+    "tags": [
+      "Lei do Acompanhante",
+      "humanização do parto",
+      "direitos do usuário do SUS",
+      "políticas públicas de saúde"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O registro em imagem depende de consentimento expresso da parturiente e da equipe assistente, por envolver direito de imagem, intimidade e confidencialidade; não é faculdade unilateral do acompanhante.",
+      "B": "Incorreta. A norma não impõe qualquer requisito de escolaridade ao acompanhante, cuja função é oferecer suporte emocional e não executar procedimentos assistenciais.",
+      "C": "Incorreta. A escolha é livre e de indicação exclusiva da parturiente, podendo recair sobre cônjuge, amigo, doula ou qualquer pessoa de sua confiança, sem exigência de vínculo de parentesco.",
+      "D": "Correta. Como a indicação cabe à parturiente e o período assistencial pode ser prolongado, admite-se a substituição do acompanhante ao longo do trabalho de parto, do parto e do pós-parto imediato, preservando-se a presença contínua de suporte de sua escolha."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q083",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Icterícia neonatal precoce grave por incompatibilidade ABO",
+    "subtema": "Indicação de exsanguineotransfusão e fototerapia intensiva",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "icterícia neonatal",
+      "incompatibilidade ABO",
+      "exsanguineotransfusão",
+      "fototerapia",
+      "encefalopatia bilirrubínica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Duas alternativas afirmam ausência de incompatibilidade sanguínea, contrariando explicitamente a tipagem descrita no enunciado, o que cria pista grosseira de eliminação e reduz o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Incorreta. Subestima a gravidade do quadro e nega uma incompatibilidade ABO evidente (mãe O e recém-nascido A); bilirrubina de 19,4 mg/dL com 18 horas de vida ultrapassa amplamente o limiar de troca e não comporta reavaliação apenas em 12 horas.",
+      "B": "Correta. Hiperbilirrubinemia indireta acima de 19 mg/dL nas primeiras 24 horas de vida, em hemólise por incompatibilidade ABO, situa o recém-nascido em zona de exsanguineotransfusão; institui-se fototerapia de alta intensidade de imediato e repete-se a dosagem em 2 a 3 horas enquanto se prepara o sangue, pois a resposta à fototerapia pode dispensar o procedimento.",
+      "C": "Incorreta. A fototerapia intensiva não é ineficaz e deve ser mantida durante todo o preparo da troca, pois isomeriza a bilirrubina não conjugada e pode reduzir os níveis abaixo do limiar; além disso, soro fisiológico não remove bilirrubina nem anticorpos maternos.",
+      "D": "Incorreta. Além de negar a incompatibilidade ABO existente, classifica erroneamente como moderado um valor em faixa de risco para encefalopatia bilirrubínica, cuja velocidade de ascensão na doença hemolítica é elevada."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q097",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Indicação de cirurgia bariátrica e decisão compartilhada na atenção primária",
+    "subtema": "Critérios de IMC, comorbidades e preparo multiprofissional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_01",
+      "dcn2025_comp_08",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "cirurgia bariátrica",
+      "obesidade grave",
+      "decisão compartilhada",
+      "encaminhamento",
+      "comorbidades metabólicas"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa C enuncia corretamente o critério de índice de massa corporal, mas o associa a conduta conservadora, exigindo que o candidato discrimine a intenção do item mais do que o critério clínico propriamente dito.",
+    "justificativas": {
+      "A": "Incorreta. O índice de massa corporal da paciente é de aproximadamente 42,7 kg/m², já suficiente para indicação cirúrgica, e o tempo de tratamento clínico documentado supera o mínimo exigido, de modo que postergar o encaminhamento apenas protela um tratamento indicado.",
+      "B": "Correta. Com obesidade grau III e múltiplas comorbidades metabólicas refratárias, a paciente preenche critérios de indicação; o papel do médico da atenção primária é encaminhá-la ao serviço especializado, onde a escolha da técnica, as exigências de mudança de estilo de vida e as repercussões permanentes serão discutidas com ela e com a família, sustentando a decisão compartilhada.",
+      "C": "Incorreta. Embora cite o critério de índice de massa corporal, conclui pela manutenção exclusiva da estratégia conservadora, o que contraria a indicação já estabelecida e nega à paciente o acesso ao tratamento de maior efetividade para sua condição.",
+      "D": "Incorreta. Hipertensão, diabetes tipo 2 e dislipidemia são justamente as comorbidades que reforçam o benefício da cirurgia, e não contraindicações; a depressão exige avaliação e compensação pré-operatória, mas não veta o procedimento."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q011",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Confirmação laboratorial e de imagem funcional da doença de Graves",
+    "subtema": "Captação de iodo radioativo e cintilografia tireoidiana no hipertireoidismo",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "doença de Graves",
+      "hipertireoidismo",
+      "cintilografia de tireoide",
+      "TRAb",
+      "captação de iodo radioativo"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A doença de Graves é autoimune e cursa com títulos elevados, e não reduzidos, de anticorpo estimulador do receptor de TSH, frequentemente acompanhados de antitireoperoxidase positivo.",
+      "B": "Incorreta. A ultrassonografia na doença de Graves mostra glândula difusamente aumentada, hipoecogênica e hipervascularizada ao Doppler; hiperecogenicidade e nódulos císticos difusos não caracterizam a doença nem confirmam a etiologia do hipertireoidismo.",
+      "C": "Incorreta. O padrão descrito é o do hipotireoidismo primário; no hipertireoidismo de Graves o TSH está suprimido por retroalimentação negativa, com tiroxina livre e tri-iodotironina elevadas.",
+      "D": "Correta. A estimulação autoimune contínua do receptor de TSH aumenta a captação de iodo por toda a glândula, resultando em índice de captação elevado e distribuição homogênea do radiotraçador à cintilografia, padrão que distingue a doença de Graves do bócio nodular tóxico e das tireoidites, nas quais a captação é heterogênea ou reduzida."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q025",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo e vigilância de diarreia aguda com suspeita de cólera na atenção primária",
+    "subtema": "Terapia de reidratação oral, notificação compulsória e investigação de comunicantes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_06",
+      "dcn2025_comp_15",
+      "dcn2025_comp_14"
+    ],
+    "tags": [
+      "cólera",
+      "diarreia aguda",
+      "reidratação oral",
+      "notificação compulsória",
+      "vigilância epidemiológica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A via endovenosa está reservada à desidratação grave, choque ou falha da via oral; em criança ativa e com desidratação leve, a hidratação parenteral é excessiva, e a notificação de doença de notificação imediata não depende de confirmar internação do contato.",
+      "B": "Incorreta. A quimioprofilaxia em massa de contatos não é recomendada, pois induz resistência sem interromper a transmissão, e não existe indicação de cordão ou isolamento sanitário domiciliar; o caso é leve e pode ser conduzido na própria unidade básica.",
+      "C": "Correta. Diarreia aquosa em criança com contato recente de área endêmica e domicílio sem esgotamento sanitário exige reidratação por via oral com sais de reidratação, manutenção da alimentação para preservar o trofismo intestinal, notificação imediata e desencadeamento das ações de vigilância epidemiológica, ambiental e sanitária, incluindo coleta de amostra e busca de comunicantes.",
+      "D": "Incorreta. Antidiarreicos que reduzem o trânsito intestinal são contraindicados em diarreia infecciosa aguda, os antimicrobianos só se justificam nas formas moderadas a graves com confirmação ou forte suspeita, e a notificação não pode ser condicionada à piora clínica."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q038",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Sífilis congênita tardiamente diagnosticada com pseudoparalisia de Parrot",
+    "subtema": "Osteocondrite e periostite ao raio X e tratamento com penicilina cristalina",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_24",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "sífilis congênita",
+      "pseudoparalisia de Parrot",
+      "penicilina cristalina",
+      "ausência de pré-natal",
+      "hepatoesplenomegalia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item remete a uma radiografia de membros inferiores que não acompanha o enunciado transcrito, tornando o achado osteoarticular decisivo indisponível ao candidato.",
+    "justificativas": {
+      "A": "Incorreta. A hepatite neonatal explicaria a icterícia e a hepatomegalia, mas não a recusa em mover os membros inferiores com dor à manipulação, achado que remete a acometimento ósseo específico e que exige investigação infecciosa dirigida.",
+      "B": "Correta. Gestação sem pré-natal, prematuridade, icterícia, anemia e hepatomegalia associadas à imobilidade dolorosa dos membros configuram pseudoparalisia de Parrot por osteocondrite e periostite treponêmica; impõe-se solicitar teste treponêmico e não treponêmico com liquor e hemograma e iniciar penicilina cristalina endovenosa por dez dias, além da notificação compulsória.",
+      "C": "Incorreta. O traumatismo craniano abusivo cursa com alteração do nível de consciência, hemorragias retinianas e lesões intracranianas; aqui o reflexo vermelho é normal, não há relato ou sinal externo de trauma, e os achados sistêmicos apontam infecção congênita.",
+      "D": "Incorreta. O hipotireoidismo congênito manifesta-se com hipotonia, macroglossia, hérnia umbilical e icterícia prolongada, mas não provoca dor à mobilização dos membros nem hepatomegalia com anemia; ademais, os marcos observados são compatíveis com a idade corrigida."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q053",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Seguimento em puericultura da criança com trissomia do 21",
+    "subtema": "Investigação de instabilidade do quadril e displasia do desenvolvimento",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_03",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "síndrome de Down",
+      "puericultura",
+      "displasia do desenvolvimento do quadril",
+      "hipotonia",
+      "linha de cuidado"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O ecocardiograma neonatal normal já cumpriu o rastreamento de cardiopatia congênita recomendado na síndrome de Down, e não há sinais clínicos, como sopro, taquipneia ou déficit ponderal, que motivem repetição do exame neste momento.",
+      "B": "Correta. A frouxidão ligamentar e a hipotonia da trissomia do 21 predispõem à instabilidade e à displasia do quadril; diante de achado ao exame físico, indica-se estudo de imagem do quadril e seguimento com ortopedia pediátrica, pois o diagnóstico e a intervenção precoces evitam subluxação, marcha claudicante e artrose precoce.",
+      "C": "Incorreta. A avaliação tireoidiana está normal e o protocolo prevê apenas repetição periódica das dosagens hormonais; a ultrassonografia da glândula não integra o rastreamento de rotina e não se justifica sem alteração funcional ou nódulo palpável.",
+      "D": "Incorreta. O hemograma recente é normal e o rastreamento hematológico na trissomia do 21 é anual, não mensal; a coleta mensal seria invasiva e desnecessária na ausência de citopenias, organomegalias ou sinais sugestivos de doença mieloproliferativa."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q066",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo agudo de taquiarritmia supraventricular estável associada ao álcool",
+    "subtema": "Controle de frequência com betabloqueador no flutter atrial de condução variável",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "flutter atrial",
+      "controle de frequência",
+      "betabloqueador",
+      "eletrocardiograma",
+      "arritmia supraventricular"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A descrição eletrocardiográfica mistura elementos de flutter atrial (linha serrilhada e ondas F) com intervalo RR irregular, o que gera ambiguidade quanto à arritmia exata, ainda que a conduta permaneça a mesma.",
+    "justificativas": {
+      "A": "Correta. Trata-se de taquiarritmia supraventricular de origem atrial em paciente hemodinamicamente estável, sem hipotensão, dor torácica ou sinais de baixo débito; a prioridade é o controle da resposta ventricular, obtido com betabloqueador, que aumenta o período refratário do nó atrioventricular e reduz a condução para os ventrículos.",
+      "B": "Incorreta. A desfibrilação não sincronizada destina-se a fibrilação ventricular e taquicardia ventricular sem pulso; aplicada a um ritmo organizado com pulso, pode incidir sobre o período vulnerável e induzir fibrilação ventricular.",
+      "C": "Incorreta. A manobra vagal pode desmascarar as ondas atriais ao lentificar transitoriamente a condução nodal, mas não reverte arritmias de circuito atrial, pois estas não dependem do nó atrioventricular para se sustentar.",
+      "D": "Incorreta. A lidocaína atua sobre canais de sódio do miocárdio ventricular e é indicada em arritmias ventriculares; não tem efeito sobre a condução nodal nem sobre circuitos de macrorreentrada atrial."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q079",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Diagnóstico e tratamento da mastite puerperal na atenção primária",
+    "subtema": "Manutenção do aleitamento e antibioticoterapia oral antiestafilocócica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "mastite puerperal",
+      "aleitamento materno",
+      "fissura mamilar",
+      "antibioticoterapia",
+      "puerpério"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A galactocele é coleção láctea de crescimento lento, indolor e sem sinais flogísticos ou febre, o que não corresponde ao quadro inflamatório localizado e febril descrito.",
+      "B": "Correta. A fissura mamilar funciona como porta de entrada para estafilococos, que colonizam ductos com estase láctea e produzem inflamação segmentar com hiperemia, calor, dor e febre; o tratamento associa analgesia, esvaziamento eficaz da mama com manutenção da amamentação e antibiótico oral com cobertura para Staphylococcus aureus.",
+      "C": "Incorreta. A ausência de flutuação, de massa amolecida e de toxemia afasta coleção purulenta organizada, de modo que drenagem e antibiótico intravenoso constituiriam intervenção desproporcional neste estágio.",
+      "D": "Incorreta. O ingurgitamento é bilateral, difuso e sem febre elevada persistente, e a interrupção do aleitamento é justamente contraindicada, pois a estase láctea perpetua e agrava o processo inflamatório."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q093",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta inicial diante de queixa escolar de dificuldade de aprendizagem",
+    "subtema": "Encaminhamento para avaliação psicopedagógica após exclusão de causas orgânicas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_22",
+      "dcn2025_comp_02",
+      "dcn2025_comp_19"
+    ],
+    "tags": [
+      "transtorno de aprendizagem",
+      "queixa escolar",
+      "coordenação do cuidado",
+      "saúde escolar",
+      "avaliação psicopedagógica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Excluídos déficits sensoriais, sinais dismórficos, intercorrências perinatais, atraso do desenvolvimento e vulnerabilidades familiares, a etapa seguinte é a avaliação psicopedagógica, que caracteriza o perfil cognitivo e o domínio acadêmico comprometido, permitindo definir o transtorno específico e a intervenção pedagógica dirigida.",
+      "B": "Incorreta. Aos 6 anos a criança já está em fase de alfabetização formal, existindo instrumentos padronizados para avaliação; postergar a investigação apenas prolonga o fracasso escolar e o sofrimento da criança.",
+      "C": "Incorreta. O encaminhamento ao neuropediatra se justificaria diante de sinais de alerta neurológicos, regressão de marcos, crises epilépticas ou dismorfismos, todos explicitamente ausentes, e a triagem inespecífica gera fila e custo sem alterar a conduta.",
+      "D": "Incorreta. Concluir que não há problema contraria a queixa objetiva e persistente da escola; o reforço pedagógico isolado, sem avaliação diagnóstica prévia, não identifica o mecanismo do déficit nem orienta estratégias específicas."
+    }
+  }
+]

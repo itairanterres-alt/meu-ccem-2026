@@ -1,0 +1,444 @@
+[
+  {
+    "id_origem": "revalida2023_2_q002",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Checklist de cirurgia segura da OMS: itens da etapa de identificação (sign in)",
+    "subtema": "Segurança do paciente no período pré-anestésico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_20",
+      "dcn2025_comp_10",
+      "dcn2025_comp_22"
+    ],
+    "tags": [
+      "cirurgia segura",
+      "checklist OMS",
+      "segurança do paciente",
+      "ortopedia",
+      "pré-operatório"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa C mistura item do sign out (contagem de compressas e instrumentais) com item que de fato pertence ao sign in (checagem do equipamento anestésico), o que gera ambiguidade parcial na discriminação.",
+    "justificativas": {
+      "A": "Incorreta. A apresentação nominal e funcional de cada integrante da equipe pertence à etapa de pausa cirúrgica (time out), imediatamente antes da incisão; reserva de leito de terapia intensiva não integra nenhuma etapa do checklist.",
+      "B": "Incorreta. O consentimento deve ser confirmado com o próprio paciente sempre que ele estiver lúcido e capaz, e não com familiares; a existência de equipe de acolhimento hospitalar não é item de verificação do protocolo de cirurgia segura.",
+      "C": "Incorreta. A contagem de instrumentais, compressas e agulhas pertence à etapa de saída (sign out), realizada antes de o paciente deixar a sala; a conferência da aparelhagem radiológica também não compõe a etapa de identificação.",
+      "D": "Correta. A etapa de identificação, conduzida antes da indução anestésica, exige confirmação da identidade, do procedimento e do sítio cirúrgico com demarcação da lateralidade, pesquisa de alergias e checagem do termo de consentimento assinado, medidas que previnem cirurgia em sítio errado e reações anafiláticas evitáveis."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q016",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diarreia crônica sem sinais de alarme: diagnóstico de síndrome do intestino irritável",
+    "subtema": "Critérios de Roma IV e sinais de alarme em gastroenterologia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "síndrome do intestino irritável",
+      "diarreia crônica",
+      "critérios de Roma IV",
+      "distúrbio funcional",
+      "gastroenterologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A doença de Crohn é inflamatória transmural e cursa com sintomas noturnos, perda ponderal, anemia, elevação de marcadores inflamatórios e lesões endoscópicas segmentares, achados ausentes neste caso; história familiar isolada não estabelece diagnóstico.",
+      "B": "Incorreta. Síndromes disabsortivas produzem esteatorreia com fezes volumosas e flutuantes, emagrecimento, anemia carencial e sinais de deficiência de vitaminas lipossolúveis, nenhum deles presente em paciente eutrófica e normocorada.",
+      "C": "Correta. Trata-se de distúrbio da interação intestino-cérebro, caracterizado por dor abdominal recorrente relacionada à defecação, com alternância do hábito intestinal, ausência de sinais de alarme e investigação estrutural normal, o que preenche os critérios de Roma IV.",
+      "D": "Incorreta. A retocolite ulcerativa cursa com diarreia mucossanguinolenta, urgência evacuatória e tenesmo, com achado colonoscópico de inflamação contínua a partir do reto, incompatível com colonoscopia normal."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q030",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem familiar com genograma e ecomapa em idoso com neoplasia avançada",
+    "subtema": "Ferramentas de avaliação da estrutura e da dinâmica familiar na Estratégia Saúde da Família",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_06",
+      "dcn2025_comp_12",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "abordagem familiar",
+      "ecomapa",
+      "cuidados paliativos",
+      "saúde do idoso",
+      "estratégia saúde da família"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado depende da leitura do genograma e do ecomapa citados, mas as figuras não estão reproduzidas no texto, o que obriga o candidato a responder apenas pela vinheta narrativa.",
+    "justificativas": {
+      "A": "Incorreta. O projeto terapêutico singular é construído de forma compartilhada com a pessoa cuidada e sua família, com metas pactuadas e reavaliações periódicas; por definição é dinâmico, jamais definitivo, e não pode ser dirigido exclusivamente à cuidadora.",
+      "B": "Incorreta. A internação compulsória é medida excepcional, restrita a situações previstas em lei e mediante laudo médico circunstanciado, e não há qualquer indicação clínica descrita para a filha; a proposta ainda viola sua autonomia.",
+      "C": "Correta. O ecomapa e o genograma permitem visualizar vínculos, sobrecarga da cuidadora e conexões frágeis com a rede de apoio, de modo que a equipe deve identificar as disfuncionalidades e intervir precocemente para reequilibrar o sistema familiar antes do agravamento da crise.",
+      "D": "Incorreta. Cuidados paliativos não implicam institucionalização; a diretriz é manter o cuidado no domicílio, com suporte da equipe de atenção primária e retaguarda especializada, preservando o convívio familiar e a preferência do paciente."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q044",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Terapia hormonal no climatério em mulher com antecedente de trombose venosa profunda",
+    "subtema": "Escolha da via de administração do estrogênio e proteção endometrial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "climatério",
+      "terapia hormonal",
+      "estradiol transdérmico",
+      "tromboembolismo venoso",
+      "sintomas vasomotores"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item é sinalizado como dependente de figura, embora os resultados estejam transcritos no enunciado, e não informa se a trombose prévia foi provocada ou não provocada, dado que altera substancialmente a análise de risco.",
+    "justificativas": {
+      "A": "Incorreta. Fitoterápicos não constituem terapia hormonal e carecem de evidência consistente de eficácia sobre fogachos moderados a intensos, de modo que a paciente permaneceria sintomática e com prejuízo da função sexual.",
+      "B": "Incorreta. O estrogênio por via oral sofre metabolismo de primeira passagem hepática, aumentando a síntese de fatores pró-coagulantes e os triglicerídeos, já elevados; o sistema intrauterino de levonorgestrel protege o endométrio, mas não anula o risco trombótico da via oral.",
+      "C": "Incorreta. Estrogênio isolado em mulher com útero íntegro induz hiperplasia e carcinoma endometrial; além disso, endométrio de 4 mm em usuária sem sangramento não indica histeroscopia com biópsia, e a via oral mantém o risco tromboembólico.",
+      "D": "Correta. O estradiol transdérmico evita a primeira passagem hepática, apresentando efeito neutro sobre fatores de coagulação e triglicerídeos, e a associação de progestagênio garante a proteção endometrial, sendo a alternativa de menor risco para controlar os sintomas vasomotores nessa paciente."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q060",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo clínico, notificação e ações de vigilância na febre de chikungunya",
+    "subtema": "Arboviroses urbanas e notificação compulsória a partir da suspeita",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_06",
+      "dcn2025_comp_01",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "chikungunya",
+      "arboviroses",
+      "notificação compulsória",
+      "vigilância epidemiológica",
+      "Aedes aegypti"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A notificação das arboviroses é feita a partir do caso suspeito, sem aguardar sorologia, e o quadro descrito é leve, sem sinais de alarme, não justificando internação em hospital de referência.",
+      "B": "Incorreta. Corticosteroides não são indicados na fase aguda da chikungunya, pois podem associar-se a rebote sintomático e mascarar dengue concomitante; postergar a notificação até a confirmação laboratorial atrasa a resposta de vigilância.",
+      "C": "Correta. O tratamento da fase aguda é sintomático, com analgésicos, hidratação e repouso, evitando-se anti-inflamatórios não esteroidais até afastar dengue; a notificação é imediata na suspeita e deve ser acompanhada de investigação laboratorial, busca ativa de casos e ações de controle vetorial no território.",
+      "D": "Incorreta. Casos sem sinais de gravidade são resolutivos na atenção primária, e a responsabilidade pela notificação é do serviço que atende o caso suspeito, não podendo ser transferida a um centro de referência."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q075",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Atribuições do agente comunitário de saúde no acompanhamento da saúde da criança",
+    "subtema": "Divisão de responsabilidades na equipe de saúde da família",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_22",
+      "dcn2025_comp_06",
+      "dcn2025_comp_09",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "agente comunitário de saúde",
+      "saúde da criança",
+      "atribuições profissionais",
+      "trabalho em equipe",
+      "visita domiciliar"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa A emprega descritor antropométrico incoerente (\"abaixo do percentil +3\"), faixa que abrange praticamente toda a população infantil, o que compromete a clareza da opção.",
+    "justificativas": {
+      "A": "Incorreta. Embora a verificação do coto umbilical e o apoio ao aleitamento estejam no escopo do agente, a orientação alimentar baseada em classificação antropométrica exige avaliação nutricional por profissional de nível superior.",
+      "B": "Incorreta. Orientação dietética para crianças com obesidade e recomendação de medicamentos, ainda que para sintomas pós-vacinais, são atos privativos de profissionais habilitados para prescrição e conduta clínica.",
+      "C": "Correta. Cabe ao agente comunitário verificar a realização do teste do pezinho e das vacinas BCG e hepatite B no período neonatal, identificar sinais sugestivos de violência para acionar a equipe e a rede de proteção, e checar a inserção da família nos programas de transferência de renda, ações de acompanhamento e vigilância que não envolvem procedimento clínico.",
+      "D": "Incorreta. A antropometria com registro na caderneta e a avaliação da ausência de cicatriz vacinal são procedimentos de avaliação clínica pertencentes à enfermagem e à medicina, extrapolando as competências do agente comunitário."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q088",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Escoliose idiopática do adolescente: exame complementar para confirmação diagnóstica",
+    "subtema": "Teste de Adams e mensuração do ângulo de Cobb",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "escoliose idiopática",
+      "teste de Adams",
+      "adolescente",
+      "ângulo de Cobb",
+      "ortopedia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A radiografia panorâmica da coluna em ortostatismo, nas incidências anteroposterior e perfil, permite confirmar a deformidade estruturada e quantificar o ângulo de Cobb, medida que define conduta expectante, uso de colete ou indicação cirúrgica.",
+      "B": "Incorreta. A escanometria investiga discrepância de comprimento dos membros inferiores como causa de escoliose postural compensatória, hipótese já afastada pela simetria de 98 cm bilateralmente e pela gibosidade fixa.",
+      "C": "Incorreta. A ultrassonografia não permite avaliação adequada das estruturas ósseas vertebrais nem a mensuração angular da curva escoliótica.",
+      "D": "Incorreta. A ressonância magnética fica reservada a curvas atípicas, de início precoce, rapidamente progressivas ou com achados neurológicos, situações não presentes neste caso, e não substitui a radiografia na quantificação da curva."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q002",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Trauma pélvico com suspeita de lesão uretral: método diagnóstico de escolha",
+    "subtema": "Avaliação do trato urinário no politraumatizado",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "trauma pélvico",
+      "lesão uretral",
+      "uretrocistografia retrógrada",
+      "politrauma",
+      "urologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Diante de instabilidade pélvica e hematoma perineal, sinais de alta suspeição para lesão uretral, o estudo contrastado retrógrado da uretra e da bexiga demonstra extravasamento e define o nível da lesão, devendo preceder qualquer tentativa de cateterismo vesical.",
+      "B": "Incorreta. A cistostomia suprapúbica é medida terapêutica de derivação urinária, indicada após a confirmação da lesão ou diante de falha do cateterismo, e não constitui método diagnóstico.",
+      "C": "Incorreta. A tomografia sem contraste identifica a fratura pélvica e coleções, mas não avalia integridade uretral nem vesical, o que exigiria fases contrastadas específicas.",
+      "D": "Incorreta. A ultrassonografia apresenta baixa sensibilidade para lesões da uretra e da bexiga, limitando-se à pesquisa de líquido livre na avaliação inicial do trauma."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q016",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Migrânea com aura: reconhecimento diagnóstico e tratamento da crise",
+    "subtema": "Cefaleias primárias e terapia abortiva específica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "migrânea",
+      "aura visual",
+      "triptano",
+      "cefaleia primária",
+      "neurologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O quadro preenche critérios de migrânea com aura, dor unilateral pulsátil de 4 a 72 horas, com fotofobia e fonofobia, precedida de sintomas visuais reversíveis e desencadeada por privação de sono; diante de resposta parcial ao analgésico simples, indica-se terapia específica com agonista dos receptores 5-HT1B/1D.",
+      "B": "Incorreta. A cefaleia tensional é bilateral, em aperto, de intensidade leve a moderada, sem aura, náuseas ou piora com atividade, e relaxantes musculares não constituem tratamento de escolha.",
+      "C": "Incorreta. A cefaleia em salvas é estritamente unilateral, periorbitária, de curta duração e alta frequência em surtos, acompanhada de sinais autonômicos ipsilaterais e agitação, predominando em homens.",
+      "D": "Incorreta. Padrão estável por dez anos, exame neurológico normal e ausência de sinais de alarme afastam causa secundária estrutural, tornando desnecessários neuroimagem e encaminhamento nesse momento."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q030",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Estratégias prioritárias de controle do tabagismo entre adolescentes no município",
+    "subtema": "Programa Nacional de Controle do Tabagismo e qualificação das equipes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_16",
+      "dcn2025_comp_13",
+      "dcn2025_comp_06",
+      "dcn2025_comp_19"
+    ],
+    "tags": [
+      "tabagismo",
+      "adolescentes",
+      "cessação do tabagismo",
+      "educação permanente",
+      "políticas públicas"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa C descreve ações intersetoriais de prevenção também recomendadas no controle do tabagismo, o que enfraquece a discriminação entre ela e a opção considerada correta.",
+    "justificativas": {
+      "A": "Incorreta. A farmacoterapia é adjuvante da abordagem cognitivo-comportamental e pressupõe motivação para cessar; prescrever a quem não manifestou tal desejo desconsidera o estágio motivacional e tende à baixa adesão.",
+      "B": "Correta. A qualificação das equipes de atenção primária para a abordagem mínima e intensiva e para o tratamento da cessação, conforme o Programa Nacional de Controle do Tabagismo, amplia de forma sustentável a capacidade resolutiva local e é a estratégia prioritária no SUS.",
+      "C": "Incorreta. A regulação da comercialização de produtos do tabaco decorre de legislação federal e da atuação de órgãos sanitários, não cabendo a comitês de bairro; ações pontuais em eventos têm efeito educativo limitado e não estruturam a linha de cuidado.",
+      "D": "Incorreta. O tratamento do tabagismo é atribuição resolutiva da atenção primária, e o encaminhamento indiscriminado a serviços de maior densidade tecnológica gera barreira de acesso e uso ineficiente de recursos."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q044",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Dor pélvica aguda febril com colo friável: diagnóstico de doença inflamatória pélvica",
+    "subtema": "Critérios diagnósticos mínimos e adicionais da DIP",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "doença inflamatória pélvica",
+      "dor pélvica aguda",
+      "infecção sexualmente transmissível",
+      "cervicite",
+      "emergência ginecológica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A gravidez ectópica rota pressupõe atraso menstrual e teste de gravidez positivo, cursando com instabilidade hemodinâmica e sinais de hemoperitônio, e não com febre alta e ectocérvice friável.",
+      "B": "Correta. A associação de dor à mobilização do colo e dos anexos, critérios mínimos do diagnóstico, com temperatura acima de 38,3 °C, sangramento pós-coito e cervicite mucopurulenta friável, critérios adicionais, caracteriza infecção ascendente do trato genital superior, cujo tratamento antimicrobiano empírico deve ser imediato.",
+      "C": "Incorreta. A torção anexial produz dor súbita, unilateral e intensa, com náuseas e vômitos e massa anexial dolorosa, sem cervicite associada; ademais, a ecografia prévia normal torna improvável cisto de volume suficiente para torcer.",
+      "D": "Incorreta. A rotura de cisto lúteo ocorre tipicamente na segunda fase do ciclo, cursa com dor súbita e irritação peritoneal sem febre significativa e não altera o aspecto do colo uterino."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q058",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cetoacidose diabética na infância: alterações hormonais e do potássio corporal total",
+    "subtema": "Fisiopatologia do déficit de insulina e da depleção de potássio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "cetoacidose diabética",
+      "diabetes tipo 1",
+      "potássio",
+      "insulina",
+      "distúrbio hidroeletrolítico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa que cita sódio é parcialmente defensável, pois há depleção do sódio corporal total pela diurese osmótica, o que reduz o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Correta. A cetoacidose decorre da deficiência absoluta de insulina, com lipólise e cetogênese descontroladas; a diurese osmótica e o hiperaldosteronismo secundário depletam o potássio corporal total, ainda que a caliemia sérica esteja normal ou elevada pelo desvio transcelular gerado pela acidose e pela falta de insulina.",
+      "B": "Incorreta. O cortisol é hormônio contrarregulador liberado em resposta ao estresse metabólico e à desidratação, encontrando-se elevado e contribuindo para a hiperglicemia.",
+      "C": "Incorreta. A natremia costuma estar apenas aparentemente reduzida pelo efeito osmótico da hiperglicemia, tendendo a valores normais ou altos após a correção, de modo que o distúrbio eletrolítico central do quadro é o do potássio.",
+      "D": "Incorreta. O glucagon está aumentado e é o principal responsável, junto com o déficit de insulina, pela glicogenólise, pela gliconeogênese e pela produção hepática de corpos cetônicos."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q071",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertensão intracraniana em pessoa vivendo com HIV: conduta diagnóstica inicial",
+    "subtema": "Contraindicação à punção lombar antes da neuroimagem",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hipertensão intracraniana",
+      "HIV",
+      "neuroimagem",
+      "papiledema",
+      "tríade de Cushing"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Papiledema bilateral e sinais de hipertensão intracraniana contraindicam a punção lombar imediata pelo risco de herniação cerebral; o procedimento só pode ser considerado após a exclusão de efeito de massa por neuroimagem.",
+      "B": "Incorreta. O eletroencefalograma avalia atividade epileptiforme e estado de mal não convulsivo, não sendo capaz de identificar lesão expansiva ou hidrocefalia, causas prováveis nesse contexto.",
+      "C": "Correta. A tríade de Cushing, hipertensão arterial, bradicardia e respiração irregular, somada a papiledema e rebaixamento do nível de consciência, indica hipertensão intracraniana, e a tomografia de crânio é o exame inicial para identificar lesão expansiva, como neurotoxoplasmose ou linfoma, e hidrocefalia, orientando a conduta imediata.",
+      "D": "Incorreta. A contagem de linfócitos T CD4 e a carga viral têm valor prognóstico e epidemiológico, mas não modificam a conduta emergencial diante de sinais de hipertensão intracraniana."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q085",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Investigação de tuberculose em pessoa em situação de rua na atenção primária",
+    "subtema": "Cultura com teste de sensibilidade e testagem para coinfecções em populações vulnerabilizadas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_24",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "tuberculose",
+      "população em situação de rua",
+      "teste de sensibilidade",
+      "coinfecção HIV",
+      "atenção primária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As opções A e D descrevem condutas muito próximas, diferindo essencialmente pela inclusão da cultura com teste de sensibilidade, o que exige discriminação bastante fina do candidato.",
+    "justificativas": {
+      "A": "Correta. Em populações vulnerabilizadas, como pessoas em situação de rua, o protocolo do Ministério da Saúde determina que a investigação bacteriológica do escarro seja sempre acompanhada de cultura com teste de sensibilidade, pelo maior risco de resistência, além da oferta de testagem para HIV, hepatites virais e sífilis pela elevada coinfecção.",
+      "B": "Incorreta. A radiografia de tórax é sensível, porém inespecífica, e não confirma o diagnóstico; iniciar esquema RIPE apenas com base em alteração radiológica dispensa indevidamente a confirmação bacteriológica.",
+      "C": "Incorreta. O encaminhamento a serviço de referência só se justifica após demonstração de resistência no teste de sensibilidade; a tuberculose sensível é tratada na própria atenção primária.",
+      "D": "Incorreta. Embora contemple as sorologias e o tratamento diretamente observado, omite a cultura com teste de sensibilidade, exame obrigatório nessa população e determinante para detectar resistência antes do início do esquema."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q098",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sinais precoces de alerta para transtorno do espectro autista em lactente de 9 meses",
+    "subtema": "Vigilância do desenvolvimento e estimulação precoce",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_03",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "transtorno do espectro autista",
+      "desenvolvimento infantil",
+      "estimulação precoce",
+      "puericultura",
+      "sinais de alerta"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O encaminhamento simultâneo a neuropediatria e genética nessa idade é precipitado diante de sinais ainda inespecíficos, gera ansiedade familiar e retarda o início das intervenções que a própria equipe pode oferecer.",
+      "B": "Correta. Redução do contato visual e ausência de gestos de solicitação, como estender os braços, são sinais de alerta que justificam iniciar imediatamente estimulação do desenvolvimento social e comunicativo, com orientação à família e reavaliação em curto intervalo, pois a intervenção precoce melhora o prognóstico independentemente da confirmação diagnóstica futura.",
+      "C": "Incorreta. Apenas tranquilizar a mãe e manter o intervalo habitual de puericultura desconsidera sinais de alerta legítimos e desperdiça a janela de neuroplasticidade dos primeiros anos de vida.",
+      "D": "Incorreta. A risperidona é reservada ao controle de irritabilidade e agressividade em crianças maiores com diagnóstico já estabelecido, não tendo qualquer indicação em lactente sob investigação."
+    }
+  }
+]

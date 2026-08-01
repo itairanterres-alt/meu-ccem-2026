@@ -1,0 +1,409 @@
+[
+  {
+    "id_origem": "revalida2023_2_q012",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Isquemia mesentérica aguda embólica em portador de fibrilação atrial",
+    "subtema": "Escolha do método de imagem para diagnóstico do abdome agudo vascular",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "isquemia mesentérica",
+      "fibrilação atrial",
+      "abdome agudo vascular",
+      "angiotomografia",
+      "tromboembolismo"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A radiografia simples só se altera em fases tardias, quando já há pneumatose intestinal, gás portal ou perfuração; nas primeiras horas costuma ser normal ou mostrar apenas distensão inespecífica, o que a torna incapaz de excluir oclusão arterial.",
+      "B": "Incorreta. A desidrogenase lática, assim como lactato e leucocitose, é marcador tardio e inespecífico de necrose tecidual, elevando-se quando o infarto intestinal já está estabelecido; não identifica o sítio nem a natureza da obstrução vascular.",
+      "C": "Correta. A angiotomografia de abdome com contraste em fases arterial e venosa demonstra diretamente a falha de enchimento na artéria mesentérica superior, além de sinais de sofrimento de alça, com sensibilidade e especificidade próximas de 95%, sendo o exame de escolha para confirmação diagnóstica.",
+      "D": "Incorreta. O Doppler das artérias viscerais tem sua janela acústica comprometida pela distensão gasosa das alças e avalia bem apenas a origem dos vasos, deixando escapar êmbolos distais; é útil na isquemia mesentérica crônica, não na apresentação aguda."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q025",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Avaliação do idoso com declínio funcional e sobrecarga do cuidador familiar",
+    "subtema": "Abordagem familiar na visita domiciliar e instrumentos de rastreio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_06",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "sobrecarga do cuidador",
+      "visita domiciliar",
+      "declínio cognitivo",
+      "avaliação funcional",
+      "abordagem familiar"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa D é clinicamente defensável — a avaliação funcional do idoso também está indicada —, o que gera ambiguidade quanto à conduta considerada prioritária.",
+    "justificativas": {
+      "A": "Incorreta. Escore de 25 no Mini Exame do Estado Mental em pessoa com alta escolaridade e perda restrita a atividades instrumentais, com autocuidado preservado, caracteriza quadro inicial e não demência avançada; o encaminhamento imediato desloca sem necessidade o cuidado longitudinal da atenção primária.",
+      "B": "Correta. A esposa é ela própria uma idosa que verbaliza sofrimento e assume o papel de cuidadora; aplicar instrumento de rastreio de sobrecarga, como a escala de Zarit, em entrevista reservada garante privacidade para relatar conflitos e exaustão, permitindo intervir sobre o binômio cuidador-cuidado antes que o arranjo de cuidado se rompa.",
+      "C": "Incorreta. O teste de Snellen mede acuidade visual e nada informa sobre autonomia ou funcionalidade global; usá-lo para essa finalidade confunde rastreio sensorial com avaliação funcional.",
+      "D": "Incorreta. Há incoerência entre instrumento e objetivo: o Índice de Katz mede atividades básicas de vida diária — justamente as preservadas neste caso —, enquanto o comprometimento relatado é de atividades instrumentais, que exigiriam a escala de Lawton-Brody."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q040",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Planejamento municipal de saúde a partir do perfil epidemiológico e da cobertura de APS",
+    "subtema": "Redes de atenção à saúde e priorização de investimentos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "planejamento em saúde",
+      "atenção primária",
+      "redes de atenção",
+      "gestão do SUS",
+      "doenças crônicas"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Com 30% da população descoberta e predomínio de condições crônicas, a expansão da Estratégia Saúde da Família aliada à integração com a atenção especializada estrutura a rede com a APS como porta de entrada e coordenadora do cuidado, ampliando resolubilidade e reduzindo internações por condições sensíveis à atenção primária.",
+      "B": "Incorreta. Congelar a cobertura em 70% mantém parcela relevante da população sem vínculo, e priorizar um serviço de urgência responde à demanda espontânea sem enfrentar a causa do adoecimento crônico, invertendo a lógica de organização da rede.",
+      "C": "Incorreta. Expandir o modelo de unidade básica tradicional, sem equipes de saúde da família, amplia acesso sem adscrição de clientela, longitudinalidade ou trabalho territorial, justamente os atributos necessários ao manejo de condições crônicas.",
+      "D": "Incorreta. Investir em ambulâncias para transferir usuários a municípios vizinhos reforça a dependência externa e a fragmentação do cuidado, sem produzir capacidade instalada local nem impactar os indicadores de morbimortalidade descritos."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q055",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Princípios e atributos do SUS e da APS aplicados a filas de espera por atendimento",
+    "subtema": "Acesso, financiamento e gestão dos serviços de saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16",
+      "dcn2025_comp_18"
+    ],
+    "tags": [
+      "acessibilidade",
+      "gestão em saúde",
+      "subfinanciamento",
+      "princípios do SUS",
+      "filas de espera"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item depende integralmente da leitura da charge, que não está reproduzida no enunciado textual, inviabilizando a interpretação pretendida.",
+    "justificativas": {
+      "A": "Incorreta. Descentralização diz respeito à distribuição de responsabilidades entre as esferas de governo e hierarquização à organização por níveis de complexidade; nenhuma delas se define pelo desejo simultâneo de atendimento em um mesmo ponto de atenção.",
+      "B": "Correta. A fila expressa barreira de acesso ao primeiro contato, cuja raiz está no financiamento insuficiente e na fragilidade da gestão da oferta e da agenda; acessibilidade e capacidade gestora são, portanto, as dimensões diretamente comprometidas.",
+      "C": "Incorreta. Resolubilidade se refere à capacidade do serviço de resolver o problema apresentado e integralidade à abordagem completa das necessidades; a ordem de chegada na fila não determina, por si, maior chance de resolução do caso.",
+      "D": "Incorreta. Universalidade garante o direito de acesso a todos, e não foi negada a ninguém na cena; coordenação do cuidado envolve a articulação do percurso do usuário na rede, o que não se confunde com a ordenação por gravidade dentro de uma fila."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q070",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Atualização vacinal de criança de 11 anos com situação vacinal desconhecida",
+    "subtema": "Calendário Nacional de Vacinação e esquemas de resgate",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "imunização",
+      "calendário vacinal",
+      "esquema de resgate",
+      "adolescente",
+      "atenção primária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Sem comprovação documental, considera-se o paciente como não vacinado: hepatite B em 3 doses (0-1-6 meses), dT em 3 doses com reforço decenal, febre amarela em dose única, tríplice viral em 2 doses por ter menos de 30 anos, HPV quadrivalente conforme o esquema vigente e meningocócica ACWY, indicada na faixa de 11 a 14 anos.",
+      "B": "Incorreta. Aos 11 anos são necessárias 2 doses de tríplice viral, não dose única, e a conjugada indicada nessa faixa etária é a ACWY, e não a meningocócica C, que se destina ao esquema do primeiro ano de vida.",
+      "C": "Incorreta. O esquema omite a vacina HPV, formalmente indicada nessa idade e componente essencial da atualização do adolescente.",
+      "D": "Incorreta. A pentavalente é licenciada apenas até os 6 anos e 11 meses, e a febre amarela passou a ser recomendada em dose única após os 5 anos; o esquema proposto é incompatível com a idade do paciente."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q084",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Indicação da cardiotocografia de repouso na avaliação da vitalidade fetal no segundo trimestre",
+    "subtema": "Maturação do sistema nervoso autônomo fetal e falso-positivos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "cardiotocografia",
+      "vitalidade fetal",
+      "diabetes gestacional",
+      "propedêutica obstétrica",
+      "prematuridade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O diabetes, longe de contraindicar o exame, é uma das principais indicações de vigilância fetal anteparto; oscilações glicêmicas não impedem a realização do traçado.",
+      "B": "Incorreta. Mesmo no diabetes descompensado, a cardiotocografia não é o método de escolha antes da viabilidade da interpretação reativa; nessa fase, o perfil biofísico fetal e a dopplervelocimetria oferecem informação mais confiável.",
+      "C": "Incorreta. A cardiotocografia isolada tem elevada sensibilidade porém baixa especificidade, e o rastreio de sofrimento fetal na 24ª semana não se inicia por ela; a afirmação também ignora a imaturidade autonômica do feto.",
+      "D": "Correta. Antes de aproximadamente 28 semanas o predomínio parassimpático ainda não está estabelecido, de modo que traçados não reativos são frequentes em fetos hígidos; isso eleva a taxa de exames falsamente alterados e pode motivar intervenções e interrupções desnecessárias."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q098",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação etiológica de deficiência intelectual com fenótipo sugestivo de síndrome do X frágil",
+    "subtema": "Diagnóstico molecular em doenças genéticas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "X frágil",
+      "deficiência intelectual",
+      "genética médica",
+      "macrorquidia",
+      "dismorfologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O termo genérico \"sequenciamento genético\" é impreciso para o X frágil, cuja confirmação se faz por análise molecular da expansão CGG do gene FMR1 (PCR e Southern blot), técnica que não é sequenciamento convencional.",
+    "justificativas": {
+      "A": "Correta. O conjunto de face alongada, orelhas proeminentes, prognatismo, macrorquidia pós-puberal, hiperfrouxidão ligamentar, deficiência intelectual, epilepsia e TDAH configura síndrome do X frágil, cuja confirmação exige estudo molecular do gene FMR1, no cromossomo X.",
+      "B": "Incorreta. A ressonância de sela túrcica investiga a região hipotálamo-hipofisária e se prestaria à suspeita de endocrinopatia central, hipótese incompatível com a macrorquidia e o padrão dismórfico descritos.",
+      "C": "Incorreta. A tomografia de crânio avalia alterações estruturais grosseiras do encéfalo e não identifica a causa genética; em síndromes monogênicas a imagem costuma ser normal ou inespecífica.",
+      "D": "Incorreta. O eletroencefalograma caracteriza o padrão eletrográfico das crises, já controladas com medicação, mas não esclarece a etiologia da deficiência intelectual nem o fenótipo somático."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q012",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Nódulo testicular endurecido em adulto jovem: diagnóstico e conduta inicial",
+    "subtema": "Tumor de testículo e orquiectomia radical",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "tumor de testículo",
+      "orquiectomia",
+      "massa escrotal",
+      "urologia",
+      "oncologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa correta não especifica a via inguinal radical, e a biópsia transescrotal é formalmente contraindicada por risco de disseminação linfática — detalhe que o item deixa implícito.",
+    "justificativas": {
+      "A": "Correta. Massa testicular sólida, indolor, de consistência endurecida e com transiluminação negativa em homem de 20 a 35 anos é tumor germinativo até prova em contrário; a conduta é orquiectomia radical por via inguinal com ligadura alta do cordão, que confirma o diagnóstico histológico e trata a lesão.",
+      "B": "Incorreta. A hidrocele é coleção líquida entre os folhetos da túnica vaginal, de consistência cística e com transiluminação positiva, achado ausente neste caso.",
+      "C": "Incorreta. A hérnia inguinoescrotal se manifesta como abaulamento redutível que aumenta com a manobra de Valsalva e com o esforço, comportamento explicitamente negado no exame físico.",
+      "D": "Incorreta. A orquiepididimite cursa com dor, calor, edema e frequentemente febre e sintomas urinários, quadro inflamatório agudo incompatível com nódulo endurecido indolor de 3 meses."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q026",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Suporte básico de vida na parada cardiorrespiratória extra-hospitalar em adulto",
+    "subtema": "Técnica das compressões torácicas de alta qualidade",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "parada cardiorrespiratória",
+      "suporte básico de vida",
+      "compressões torácicas",
+      "RCP",
+      "desfibrilador externo automático"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A ventilação assíncrona a cada 2 a 3 segundos corresponde à recomendação pediátrica com via aérea avançada; em adulto sem dispositivo avançado mantém-se a relação 30:2, com pausa para ventilar.",
+      "B": "Incorreta. Além de inverter a sequência atual, que prioriza compressões (C-A-B) sobre abertura de via aérea, a proporção descrita está trocada: são 30 compressões para 2 ventilações, e não o contrário.",
+      "C": "Incorreta. A checagem de pulso e o revezamento entre socorristas ocorrem a cada 2 minutos, ao fim de cada ciclo; intervalos de 5 minutos prolongam demais a fadiga do socorrista e retardam a identificação de retorno da circulação espontânea.",
+      "D": "Correta. Reproduz os parâmetros de compressão de alta qualidade no adulto — profundidade de pelo menos 5 cm sem ultrapassar 6 cm, frequência de 100 a 120 por minuto, retorno completo do tórax e mínima interrupção — seguidos das ventilações de resgate, já que o socorrista dispõe de máscara de barreira."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q039",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Sangramento uterino na pós-menopausa com espessamento endometrial à ultrassonografia",
+    "subtema": "Propedêutica da hiperplasia e do câncer de endométrio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "sangramento pós-menopausa",
+      "histeroscopia",
+      "câncer de endométrio",
+      "espessura endometrial",
+      "obesidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Endométrio de 8 mm e de contorno irregular em mulher na pós-menopausa sem terapia hormonal ultrapassa amplamente o limiar de 4 a 5 mm e, associado à obesidade — fonte de estrogênio periférico por aromatização —, exige histeroscopia com biópsia dirigida para excluir hiperplasia atípica ou carcinoma endometrial.",
+      "B": "Incorreta. Introduzir terapia hormonal diante de sangramento não investigado pode estimular ainda mais um endométrio potencialmente neoplásico e mascarar o sintoma sentinela.",
+      "C": "Incorreta. O ácido tranexâmico é antifibrinolítico de uso sintomático em sangramento uterino anormal do menacme; o controle citológico cervical não rastreia doença endometrial e adiaria o diagnóstico.",
+      "D": "Incorreta. Histerectomia com anexectomia é tratamento, não método diagnóstico; indicá-la sem confirmação histológica expõe a paciente a cirurgia de grande porte possivelmente desnecessária."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q054",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Autonomia e confidencialidade da paciente idosa capaz diante de sangramento pós-menopausa",
+    "subtema": "Bioética na atenção primária e investigação inicial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_04",
+      "dcn2025_comp_23"
+    ],
+    "tags": [
+      "autonomia do paciente",
+      "sigilo médico",
+      "saúde do idoso",
+      "sangramento pós-menopausa",
+      "ética médica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Transferir a comunicação diagnóstica à filha viola o sigilo profissional e trata a idade cronológica como incapacidade; além disso, dispensar exames diante de sangramento pós-menopausa retarda a investigação de neoplasia.",
+      "B": "Correta. A paciente está lúcida, orientada e se autogere, de modo que é a titular do direito à informação e ao sigilo, cabendo à filha participar apenas com o consentimento dela; simultaneamente, o sangramento na pós-menopausa impõe ultrassonografia transvaginal como primeiro passo da avaliação endometrial.",
+      "C": "Incorreta. Não existe exigência legal de acompanhante para o atendimento de idoso capaz, e o CA 125 não tem papel no rastreio ou na investigação inicial de sangramento uterino, gerando resultados falso-positivos e ansiedade.",
+      "D": "Incorreta. Conduta expectante justificada pela idade configura discriminação etária e desconsidera que o sangramento pós-menopausa é sinal de alarme para câncer de endométrio, exigindo investigação independentemente da faixa etária."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q067",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Icterícia colestática com padrão obstrutivo e suspeita de coledocolitíase",
+    "subtema": "Acurácia dos métodos de imagem da via biliar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "coledocolitíase",
+      "colangiorressonância",
+      "icterícia obstrutiva",
+      "via biliar",
+      "diagnóstico por imagem"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A ultrassonografia é o exame inicial e detecta bem cálculos na vesícula e dilatação de vias biliares, mas a interposição gasosa duodenal reduz muito sua sensibilidade para cálculos no colédoco distal, justamente o sítio suspeito aqui.",
+      "B": "Incorreta. A maioria dos cálculos biliares é radiotransparente, de modo que a radiografia simples praticamente não contribui para o diagnóstico de obstrução biliar.",
+      "C": "Correta. A colangiorressonância fornece imagem não invasiva de toda a árvore biliar com sensibilidade e especificidade superiores a 90% para coledocolitíase, sem radiação nem contraste iodado, permitindo selecionar quem realmente necessitará de CPRE terapêutica.",
+      "D": "Incorreta. A tomografia identifica dilatação de vias biliares e massas, mas tem baixa sensibilidade para cálculos de colesterol, que são frequentemente isodensos à bile."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q080",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Vacinação contra doença meningocócica no Calendário Nacional em diferentes faixas etárias",
+    "subtema": "Esquemas de meningocócica C conjugada e ACWY",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "imunização",
+      "meningocócica C",
+      "meningocócica ACWY",
+      "calendário vacinal",
+      "visita domiciliar"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Aos 9 meses a criança já deveria ter recebido as duas doses do esquema primário, aplicadas aos 3 e aos 5 meses, e não apenas uma; o reforço é que ainda não está devido, pois ocorre aos 12 meses.",
+      "B": "Correta. Aos 9 meses espera-se o esquema primário completo com duas doses de meningocócica C conjugada (3 e 5 meses), ainda sem o reforço dos 12 meses; aos 4 anos, as duas doses mais o reforço; e na adolescência, dose única de meningocócica ACWY conjugada, indicada dos 11 aos 14 anos.",
+      "C": "Incorreta. O esquema básico da meningocócica C no primeiro ano tem duas doses, não três, e a ACWY do adolescente é aplicada em dose única, sem repetição.",
+      "D": "Incorreta. O reforço da meningocócica C só é devido aos 12 meses, não podendo constar aos 9 meses; a criança de 4 anos não recebe dose adicional além do reforço, e a ACWY não prevê reforço nessa faixa."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q094",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Rastreamento do câncer de mama em mulher de risco habitual segundo o Ministério da Saúde",
+    "subtema": "Mastalgia cíclica e definição de risco elevado",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "rastreamento",
+      "câncer de mama",
+      "mamografia",
+      "mastalgia",
+      "prevenção quaternária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A ressonância anual é reservada a mulheres de alto risco, como portadoras de mutação em BRCA ou com irradiação torácica prévia na juventude; não se aplica a risco habitual e geraria achados incidentais e biópsias desnecessárias.",
+      "B": "Incorreta. A ultrassonografia não é método de rastreamento populacional; presta-se à avaliação complementar de achados palpáveis ou mamográficos, sobretudo em mamas densas.",
+      "C": "Incorreta. O Ministério da Saúde não recomenda mamografia anual nem exame clínico das mamas como estratégia de rastreio, por ausência de benefício demonstrado sobre mortalidade e aumento de resultados falso-positivos.",
+      "D": "Correta. Uma tia com câncer de mama aos 65 anos é parente de segundo grau e não caracteriza risco elevado; assim, a paciente segue a recomendação para risco habitual, com mamografia bienal dos 50 aos 69 anos, e a mastalgia cíclica no período pré-menstrual, com exame físico normal, é benigna e não indica antecipação do rastreio."
+    }
+  }
+]
