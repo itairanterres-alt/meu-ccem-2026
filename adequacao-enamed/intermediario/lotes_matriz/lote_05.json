@@ -1,0 +1,695 @@
+[
+  {
+    "id_origem": "enamed2025_q006",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "cuidado_longitudinal_e_coordenacao",
+    "objeto_conhecimento": "Prevenção secundária e encaminhamento no pós-infarto",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Níveis de atenção e níveis de prevenção",
+    "enunciado_inicio": "Observe o encaminhamento realizado por um médico de família. “À cardiologia, Encaminho o Sr. J. L. S., de 56 anos, com diagnóstico de cardiopatia isquêmica, que sofreu um infarto agudo do miocárdio há"
+  },
+  {
+    "id_origem": "enamed2025_q020",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "promocao_e_prevencao",
+    "objeto_conhecimento": "Indicação de PEP e transição para PrEP após exposição sexual",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Profilaxia do HIV (PEP e PrEP)",
+    "enunciado_inicio": "Mulher travesti de 28 anos, profissional do sexo, comparece à Unidade Básica de Saúde (UBS) em demanda espontânea. Relata relações sexuais frequentes com diferentes parceiros, com uso inconsistente de"
+  },
+  {
+    "id_origem": "enamed2025_q030",
+    "area_clinica": "pediatria",
+    "especialidade": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Indicação de postectomia por balanopostite de repetição",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Fimose na infância",
+    "enunciado_inicio": "Menino de 6 anos é levado à Unidade Básica de Saúde (UBS) com queixa de fimose. Mãe relata balanopostites frequentes, 2024. sendo o primeiro episódio com 1 ano de vida. Nega infecções do trato urinári"
+  },
+  {
+    "id_origem": "enamed2025_q041",
+    "area_clinica": "urgencia_emergencia",
+    "especialidade": "emergencias_metabolicas",
+    "objeto_conhecimento": "Reposição volêmica inicial na cetoacidose diabética",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Cetoacidose diabética",
+    "enunciado_inicio": "Homem de 21 anos, portador de diabetes mellitus tipo 1, diagnosticado há 5 anos, foi levado à Unidade de Pronto Atendimento (UPA) devido à dor abdominal, náuseas e vômitos. Familiares informam que est"
+  },
+  {
+    "id_origem": "enamed2025_q052",
+    "area_clinica": "pediatria",
+    "especialidade": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Cronologia do desaparecimento dos reflexos primitivos",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Reflexos primitivos do lactente",
+    "enunciado_inicio": "Mãe de menina de 11 meses em consulta de puericultura, relata que não há queixas específicas no momento e refere que a criança está começando a trocar passos de maneira independente. Apresenta marcos "
+  },
+  {
+    "id_origem": "enamed2025_q062",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "etica_e_bioetica",
+    "objeto_conhecimento": "Responsabilidade pelo preenchimento da declaração de óbito",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Preenchimento da declaração de óbito",
+    "enunciado_inicio": "Médica de família e comunidade foi solicitada para preencher a declaração de óbito de um paciente que acompanhava regularmente em sua área adstrita. O paciente era hipertenso há 30 anos, com histórico"
+  },
+  {
+    "id_origem": "enamed2025_q072",
+    "area_clinica": "clinica_medica",
+    "especialidade": "gastroenterologia",
+    "objeto_conhecimento": "Rifaximina no supercrescimento bacteriano do delgado",
+    "contexto_atencao": "internacao_hospitalar",
+    "tema": "Supercrescimento bacteriano do intestino delgado (SIBO)",
+    "enunciado_inicio": "Homem de 35 anos, índice de massa corporal de 15 kg/m², é internado devido à diarreia líquida, com produtos patológicos, acompanhada de flatulência e desconforto abdominal há 4 semanas. Apresentou ema"
+  },
+  {
+    "id_origem": "enamed2025_q083",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "promocao_e_prevencao",
+    "objeto_conhecimento": "Seguimento da lesão intraepitelial de baixo grau (LSIL)",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Rastreamento do câncer de colo uterino",
+    "enunciado_inicio": "Mulher de 32 anos, sexualmente ativa, comparece à consulta com o médico de família e comunidade para realização do seu primeiro exame preventivo. O médico realiza a coleta de citologia oncótica. Após "
+  },
+  {
+    "id_origem": "enamed2025_q094",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "sangramento_uterino_anormal",
+    "objeto_conhecimento": "Espessamento endometrial no sangramento pós-menopausa",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Sangramento uterino na pós-menopausa",
+    "enunciado_inicio": "Mulher de 72 anos, previamente hígida, com menopausa aos 53 anos, obesa, solteira e nulípara, nunca fez reposição hormonal. Chega à Unidade de Pronto Atendimento (UPA) com sangramento vaginal há dois "
+  },
+  {
+    "id_origem": "questoes_clm_q005",
+    "area_clinica": "clinica_medica",
+    "especialidade": "nefrologia",
+    "objeto_conhecimento": "Estadiamento KDIGO pelo débito urinário na lesão renal aguda",
+    "contexto_atencao": "terapia_intensiva",
+    "tema": "Lesão renal aguda",
+    "enunciado_inicio": "Paciente de 100kg e 1,60m, internado na Unidade de Terapia Intensiva, evoluiu com piora do quadro geral, acompanhado de 100 ml de diurese nas últimas 12 horas. Podemos afirmar que:"
+  },
+  {
+    "id_origem": "questoes_clm_q015",
+    "area_clinica": "clinica_medica",
+    "especialidade": "neurologia",
+    "objeto_conhecimento": "Manobra de Dix-Hallpike no diagnóstico da VPPB",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Vertigem",
+    "enunciado_inicio": "Mulher de 37 anos iniciou vertigem há cerca de 2 dias. Segundo seu relato, a vertigem relaciona-se aos movimentos de virar a cabeça para os lados, sendo muito fugaz (menos de 1 minuto de duração), ces"
+  },
+  {
+    "id_origem": "questoes_clm_q025",
+    "area_clinica": "clinica_medica",
+    "especialidade": "infectologia",
+    "objeto_conhecimento": "Incubação e transmissibilidade do SARS-CoV-2",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "COVID-19",
+    "enunciado_inicio": "A infecção pelo SARS- CoV-2 causou milhões de óbitos no mundo desde dezembro de 2019, sendo considerada uma emergência de saúde pública global. Sobre o SARS – CoV-2 assinale a alternativa verdadeira:"
+  },
+  {
+    "id_origem": "questoes_clm_q035",
+    "area_clinica": "clinica_medica",
+    "especialidade": "pneumologia",
+    "objeto_conhecimento": "Prova broncodilatadora na investigação da tosse crônica",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Asma",
+    "enunciado_inicio": "Um homem de 56 anos vem à consulta médica por queixa de tosse crônica há 3 anos e que está mais exacerbada há uma semana. A tosse é sempre seca, quase todos os dias, principalmente de noite e de manhã"
+  },
+  {
+    "id_origem": "questoes_clm_q045",
+    "area_clinica": "clinica_medica",
+    "especialidade": "hematologia",
+    "objeto_conhecimento": "Corticoterapia inicial na púrpura trombocitopênica imune",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Distúrbios da hemostasia",
+    "enunciado_inicio": "Mulher, 21 anos de idade, há 30 dias referindo epistaxe recorrente e aparecimento de equimoses em membros inferiores, que progrediram para abdome e tronco. Nega trauma ou dor local. Ao exame: púrpuras"
+  },
+  {
+    "id_origem": "questoes_clm_q055",
+    "area_clinica": "saude_mental",
+    "especialidade": "transtornos_ansiosos",
+    "objeto_conhecimento": "Critérios do transtorno de estresse pós-traumático",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Transtornos relacionados a trauma e estressores",
+    "enunciado_inicio": "Empresário de 27 anos, previamente hígido, foi sequestrado há cerca de 5 semanas, após agendar encontro em rede social, tendo passado cerca de 24 horas sob o controle dos criminosos, período no qual s"
+  },
+  {
+    "id_origem": "questoes_clm_q065",
+    "area_clinica": "clinica_medica",
+    "especialidade": "gastroenterologia",
+    "objeto_conhecimento": "Antitransglutaminase no diagnóstico da doença celíaca",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Síndromes disabsortivas",
+    "enunciado_inicio": "Mulher de 21 anos, iniciou há 02 meses com quadro de diarreia de característica disabsortiva, incluindo perda de peso, mas sem presença de sangue nas fezes, associado a episódios de dores abdominais. "
+  },
+  {
+    "id_origem": "questoes_clm_q075",
+    "area_clinica": "clinica_medica",
+    "especialidade": "endocrinologia",
+    "objeto_conhecimento": "Indicação de PAAF pelo risco ecográfico do nódulo tireoidiano",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Nódulo tireoidiano",
+    "enunciado_inicio": "Homem de 40 anos foi com ultrassonografia de tireoide (US) de rotina , que mostrou no Lobo esquerdo um nódulo de 1,2 cm hipoecogênico , sólido, com bordos precisos e focos de calcificação grosseira. A"
+  },
+  {
+    "id_origem": "questoes_clm_q085",
+    "area_clinica": "urgencia_emergencia",
+    "especialidade": "emergencias_respiratorias",
+    "objeto_conhecimento": "Tratamento da crise asmática grave segundo o GINA",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Exacerbação de asma",
+    "enunciado_inicio": "Paciente de 25 anos de idade, é trazido ao pronto atendimento com dificuldade respiratória há cerca de dois dias, com piora progressiva nas últimas horas. Familiar refere que o mesmo é portador de asm"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q008",
+    "area_clinica": "clinica_medica",
+    "especialidade": "pneumologia",
+    "objeto_conhecimento": "Indicações da imunoterapia alérgeno-específica na rinite",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Rinite alérgica",
+    "enunciado_inicio": "A rinite alérgica é caracterizada por prurido nasal, espirros, rinorreia e obstrução nasal. Em sua forma persistente moderada a grave, pode exigir terapias além do controle farmacológico sintomático. "
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q018",
+    "area_clinica": "clinica_medica",
+    "especialidade": "endocrinologia",
+    "objeto_conhecimento": "Reconhecimento do diabetes autoimune latente do adulto (LADA)",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Diabetes mellitus",
+    "enunciado_inicio": "Paciente com 30 anos foi diagnosticado recentemente com DM. Iniciou uso de hipoglicemiantes orais, porém persiste com as queixas de fraqueza, sede excessiva, perda de peso, além de visão turva. Relata"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q028",
+    "area_clinica": "ciclo_basico",
+    "especialidade": "microbiologia_e_parasitologia",
+    "objeto_conhecimento": "Enterococcus e ação dos beta-lactâmicos na parede celular",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Microbiologia clínica",
+    "enunciado_inicio": "Um homem de 65 anos apresenta febre e disúria após a realização de uma cistoscopia. As hemoculturas revelam o crescimento de cocos Gram-positivos em cadeias, catalase negativa e gama-hemolíticos. O ag"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q038",
+    "area_clinica": "clinica_medica",
+    "especialidade": "medicina_intensiva",
+    "objeto_conhecimento": "Diretiva antecipada de vontade na DPOC terminal",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Bioética",
+    "enunciado_inicio": "Um paciente de 68 anos, diagnosticado com uma doença pulmonar obstrutiva crônica (DPOC) em estágio terminal, é admitido na emergência com insuficiência respiratória aguda. Ele está consciente, orienta"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q048",
+    "area_clinica": "urgencia_emergencia",
+    "especialidade": "choque_e_sepse",
+    "objeto_conhecimento": "Conduta inicial na sepse por pielonefrite obstrutiva",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Sepse de foco urinário",
+    "enunciado_inicio": "Um homem de 67 anos, diabético há 10 anos, com histórico de cálculo renal, dá entrada no pronto-socorro com febre (38,8 °C), confusão mental, dor lombar esquerda e vômitos há 48 horas. Ao exame físico"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q058",
+    "area_clinica": "clinica_medica",
+    "especialidade": "hematologia",
+    "objeto_conhecimento": "Anemia macrocítica não megaloblástica do etilista",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Anemias",
+    "enunciado_inicio": "Homem de 58 anos, etilista crônico, apresenta fadiga progressiva. Hemograma: Hb 8,9 g/dL, VCM 112 fL, reticulócitos baixos. Ferritina elevada, saturação de transferrina normal, vitamina B12 normal, ác"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q068",
+    "area_clinica": "clinica_medica",
+    "especialidade": "nefrologia",
+    "objeto_conhecimento": "Inibidor de SGLT2 na nefroproteção da doença renal do diabetes",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Doença renal do diabetes",
+    "enunciado_inicio": "Mulher, 58 anos, DM2 há 12 anos, HbA1c 8,1%. Uso atual: metformina 2 g/dia e IECA. Exames: TFG: 58 ml/min Albuminúria: 420 mg/g PA: 134x82 mmHg Qual a melhor estratégia visando proteção renal e contro"
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q079",
+    "area_clinica": "clinica_medica",
+    "especialidade": "reumatologia",
+    "objeto_conhecimento": "Diagnóstico precoce da artrite reumatoide na poliartrite das mãos",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Reumatologia",
+    "enunciado_inicio": "Mulher de 45 anos procura atendimento médico por dor articular nas mãos há quatro meses, associada a rigidez matinal que dura aproximadamente uma hora. Ao exame físico observam-se edema e dor à palpaç"
+  },
+  {
+    "id_origem": "tp_2023_q002",
+    "area_clinica": "clinica_medica",
+    "especialidade": "clinica_geral",
+    "objeto_conhecimento": "Exceções éticas e legais à quebra do sigilo médico",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Ética médica",
+    "enunciado_inicio": "“Àquilo que no exercício ou fora do exercício da profissão e no convívio da sociedade, eu tiver visto ou ouvido, que não seja preciso divulgar, eu conservarei inteiramente secreto.” O trecho do jurame"
+  },
+  {
+    "id_origem": "revalida2023_2_q011",
+    "area_clinica": "clinica_medica",
+    "especialidade": "endocrinologia",
+    "objeto_conhecimento": "Sinais de Trousseau e Chvostek na hipocalcemia aguda",
+    "contexto_atencao": "internacao_hospitalar",
+    "tema": "Hipocalcemia aguda como complicação da pancreatite aguda biliar",
+    "enunciado_inicio": "Um médico é chamado para avaliar um homem internado por pancreatite aguda biliar. Ao chegar ao posto de enfermagem, a técnica narra que o paciente começou a se queixar de “uma cãibra” na mão, enquanto"
+  },
+  {
+    "id_origem": "revalida2023_2_q021",
+    "area_clinica": "clinica_medica",
+    "especialidade": "endocrinologia",
+    "objeto_conhecimento": "TRAb na confirmação etiológica da doença de Graves",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Investigação laboratorial do hipertireoidismo por doença de Graves",
+    "enunciado_inicio": "Uma mulher de 35 anos é encaminhada ao ambulatório de referência de um hospital de atenção secundária, em função de queixas de nervosismo, insônia e tremores. A paciente nega dor na região cervical, a"
+  },
+  {
+    "id_origem": "revalida2023_2_q032",
+    "area_clinica": "cirurgia",
+    "especialidade": "cirurgia_geral",
+    "objeto_conhecimento": "Tomografia na febre pós-operatória por abscesso intra-abdominal",
+    "contexto_atencao": "internacao_hospitalar",
+    "tema": "Febre persistente no pós-operatório de cirurgia colorretal de urgência",
+    "enunciado_inicio": "Um homem de 53 anos foi submetido à laparotomia de emergência devido à diverticulite perfurada e, em seu caso, realizadas sigmoidectomia com colostomia a Hartmann, há 7 dias. Desde o segundo dia de pó"
+  },
+  {
+    "id_origem": "revalida2023_2_q043",
+    "area_clinica": "pediatria",
+    "especialidade": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Acometimento renal na vasculite por IgA",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Púrpura palpável com artrite e dor abdominal em pré-escolar",
+    "enunciado_inicio": "Um menino de 3 anos encontra-se em consulta em serviço de especialidades com história de ter apresentado quadro autolimitado de rinofaringite há 9 dias. Na ocasião, foi realizado painel viral por meio"
+  },
+  {
+    "id_origem": "revalida2023_2_q055",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "politicas_publicas_e_sus",
+    "objeto_conhecimento": "Acesso e financiamento do SUS diante das filas de espera",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Princípios e atributos do SUS e da APS aplicados a filas de espera por atendimento",
+    "enunciado_inicio": "Observe a imagem a seguir. Jornal O Tempo, Edição de 21 jan. 2013. Disponível em: otempo.com.br/charges. Acesso em 30 abril de 2023. Em relação aos pressupostos e às características do Sistema Único d"
+  },
+  {
+    "id_origem": "revalida2023_2_q066",
+    "area_clinica": "clinica_medica",
+    "especialidade": "infectologia",
+    "objeto_conhecimento": "Microaglutinação no diagnóstico da síndrome de Weil",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Síndrome febril ictérica aguda com disfunção renal e diagnóstico laboratorial da leptospirose",
+    "enunciado_inicio": "Um homem de 50 anos vai ao ambulatório relatando 3 dias de febre e icterícia. Ele mora em área urbana com falta de saneamento básico e nega viagens recentes. Além de febre e de icterícia, apresenta ná"
+  },
+  {
+    "id_origem": "revalida2023_2_q078",
+    "area_clinica": "pediatria",
+    "especialidade": "gastroenterologia_pediatrica",
+    "objeto_conhecimento": "Enema opaco no megacólon congênito do recém-nascido",
+    "contexto_atencao": "internacao_hospitalar",
+    "tema": "Obstrução intestinal baixa no recém-nascido por doença de Hirschsprung",
+    "enunciado_inicio": "Um recém-nascido a termo, adequado para a idade gestacional, evoluiu sem eliminação de mecônio nas primeiras 48 horas de vida. Depois, desenvolveu quadro de vômitos, apresentando hipoatividade, com re"
+  },
+  {
+    "id_origem": "revalida2023_2_q088",
+    "area_clinica": "pediatria",
+    "especialidade": "adolescencia",
+    "objeto_conhecimento": "Ângulo de Cobb na confirmação da escoliose idiopática",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Escoliose idiopática do adolescente: exame complementar para confirmação diagnóstica",
+    "enunciado_inicio": "Um adolescente de 15 anos comparece à unidade básica de saúde. Ele relata lombalgia há 6 meses, com 3 episódios semanais. Nega trauma local e nega prática de atividades físicas, como musculação. Diari"
+  },
+  {
+    "id_origem": "revalida2023_2_q099",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "intercorrencias_obstetricas",
+    "objeto_conhecimento": "Exame especular no diagnóstico da rotura de membranas",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Diagnóstico de rotura prematura de membranas em gestação a termo",
+    "enunciado_inicio": "Uma paciente de 26 anos, com 39 semanas de gestação, comparece ao pronto-socorro da maternidade queixando-se de perda de líquido claro em abundante quantidade há 2 horas. Ela nega outras queixas e ref"
+  },
+  {
+    "id_origem": "revalida2024_1_q010",
+    "area_clinica": "urgencia_emergencia",
+    "especialidade": "emergencias_cardiovasculares",
+    "objeto_conhecimento": "Estabilização e transferência da síndrome coronariana aguda na UBS",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Emergência hipertensiva com dor torácica e rebaixamento de consciência na atenção primária",
+    "enunciado_inicio": "Um homem com 55 anos é levado pelo filho a uma unidade básica de saúde com quadro agudo de dor torácica, dispneia e alteração do nível de consciência. O paciente já estava, anteriormente, em acompanha"
+  },
+  {
+    "id_origem": "revalida2024_1_q021",
+    "area_clinica": "clinica_medica",
+    "especialidade": "neurologia",
+    "objeto_conhecimento": "Dissociação proteinocitológica na síndrome de Guillain-Barré",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Polirradiculoneuropatia aguda ascendente após quadro exantemático febril",
+    "enunciado_inicio": "Um homem com 38 anos relata, em consulta, exantema, prurido, febre e artralgia que se resolveu em 72 horas com o uso de sintomáticos. O paciente conta que, após 10 dias, passou a apresentar parestesia"
+  },
+  {
+    "id_origem": "revalida2024_1_q031",
+    "area_clinica": "clinica_medica",
+    "especialidade": "toxicologia",
+    "objeto_conhecimento": "Plumbemia na anemia microcítica por exposição ocupacional",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Anemia microcítica refratária ao ferro com nexo ocupacional",
+    "enunciado_inicio": "Um homem com 50 anos, casado, trabalhador de indústria de reciclagem de baterias, é encaminhado, acompanhado de familiares, a um ambulatório de hematologia para investigação de anemia hipocrômica e mi"
+  },
+  {
+    "id_origem": "revalida2024_1_q041",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "cuidado_longitudinal_e_coordenacao",
+    "objeto_conhecimento": "Critérios de Roma na síndrome do intestino irritável",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Dor abdominal crônica recorrente com alteração do hábito intestinal e investigação negativa",
+    "enunciado_inicio": "Uma mulher com 28 anos é atendida na unidade básica de saúde pela quarta vez nos últimos 6 meses. Há 4 anos, apresenta dores abdominais do tipo cólica, especialmente em flancos, mesogástrio e hipogást"
+  },
+  {
+    "id_origem": "revalida2024_1_q053",
+    "area_clinica": "pediatria",
+    "especialidade": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Rastreio da displasia do quadril na trissomia do 21",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Seguimento em puericultura da criança com trissomia do 21",
+    "enunciado_inicio": "Um paciente com Trissomia do 21 (T21) é atendido na unidade básica de saúde para realizar puericultura no 7. o mês de vida. Sua genitora apresenta alguns exames que são registrados no prontuário: ecoc"
+  },
+  {
+    "id_origem": "revalida2024_1_q063",
+    "area_clinica": "pediatria",
+    "especialidade": "pneumologia_pediatrica",
+    "objeto_conhecimento": "Suporte e uso racional de fármacos na bronquiolite",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Bronquiolite viral aguda no lactente jovem",
+    "enunciado_inicio": "Um bebê com 24 dias de vida é levado ao pronto atendimento devido a dificuldades respiratórias. Não houve intercorrências durante a gestação e o parto, o nascimento foi a termo, e o bebê pesou 3 quilo"
+  },
+  {
+    "id_origem": "revalida2024_1_q073",
+    "area_clinica": "pediatria",
+    "especialidade": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Distribuição das lesões no diagnóstico da dermatite atópica",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Diagnóstico de dermatite atópica em lactente com história atópica familiar",
+    "enunciado_inicio": "Uma lactente de 18 meses é levada a uma consulta em unidade básica de saúde por sua mãe, que faz queixa de lesões muito pruriginosas na pele da criança, as quais têm comprometido até o sono da criança"
+  },
+  {
+    "id_origem": "revalida2024_1_q084",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "oncoginecologia",
+    "objeto_conhecimento": "Biópsia vulvar na lesão refratária com líquen escleroso",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Lesão vulvar persistente refratária em mulher idosa com líquen escleroso",
+    "enunciado_inicio": "Uma mulher com 70 anos foi encaminhada para o ambulatório de patologia cervical/vulvar por causa de uma lesão avermelhada, pruriginosa, próxima ao clitóris. Fez uso de corticosteroides tópicos e sistê"
+  },
+  {
+    "id_origem": "revalida2024_1_q094",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "mastologia",
+    "objeto_conhecimento": "Faixa etária do rastreamento mamográfico de risco habitual",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Rastreamento do câncer de mama em mulher de risco habitual segundo o Ministério da Saúde",
+    "enunciado_inicio": "Uma mulher com 35 anos, nuligesta, em uso de anticoncepcional oral há 10 anos, queixa-se de mastalgia há 10 dias. Relata que a última menstruação foi há 25 dias. Na história familiar, refere uma tia c"
+  },
+  {
+    "id_origem": "simulado01_2026_q04",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "politicas_publicas_e_sus",
+    "objeto_conhecimento": "Transversalidade como princípio da Política Nacional de Humanização",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Política Nacional de Humanização: princípios norteadores",
+    "enunciado_inicio": "Assinale a opção que indica o princípio da Política Nacional de Humanização que visa ao aumento do grau de comunicação intra e intergrupos e à transformação dos modos de relação e de comunicação entre"
+  },
+  {
+    "id_origem": "simulado01_2026_q14",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "seguranca_do_paciente",
+    "objeto_conhecimento": "Abrangência da RDC 36/2013 e Núcleo de Segurança do Paciente",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Abrangência da RDC nº 36/2013 sobre segurança do paciente",
+    "enunciado_inicio": "Sobre a Resolução (RDC) nº 36/2013, que instituiu ações para a segurança do paciente em serviços de saúde, assinale a afirmativa correta."
+  },
+  {
+    "id_origem": "simulado01_2026_q24",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "aps_organizacao_e_acesso",
+    "objeto_conhecimento": "Distinção entre funções e atributos da APS na RAS",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Atenção Primária à Saúde: funções versus atributos",
+    "enunciado_inicio": "Em uma atenção primária de qualidade, é papel da APS integrar verticalmente os serviços. A APS, como parte integrante da rede de atenção à saúde, estrutura-se segundo atributos e funções. Além da reso"
+  },
+  {
+    "id_origem": "simulado01_2026_q34",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "abordagem_familiar_e_comunitaria",
+    "objeto_conhecimento": "Crise acidental no ciclo de vida familiar",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Ciclo de vida familiar: crises normativas e crises acidentais",
+    "enunciado_inicio": "Com queixa de dor de cabeça, Jéssica, 37 anos, diarista, vai pela primeira vez à unidade básica de saúde. Ela reporta: “Doutor, sinto essa dor há mais de 2 meses, desde que precisamos sair da nossa ca"
+  },
+  {
+    "id_origem": "simulado02_2026_q04",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "vigilancia_em_saude",
+    "objeto_conhecimento": "Definição da causa básica na declaração de óbito",
+    "contexto_atencao": "domiciliar",
+    "tema": "Preenchimento da Declaração de Óbito em morte natural domiciliar",
+    "enunciado_inicio": "Um homem de 78 anos é acompanhado por médico de família em visitas domiciliares, por ser acamado desde que ficou hemiplégico, em decorrência de acidente vascular cerebral (AVC ) aos 75 anos. É portado"
+  },
+  {
+    "id_origem": "simulado02_2026_q14",
+    "area_clinica": "pediatria",
+    "especialidade": "violencia_e_maus_tratos",
+    "objeto_conhecimento": "Notificação compulsória na suspeita de violência sexual infantil",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Conduta diante de suspeita de violência sexual contra criança na APS",
+    "enunciado_inicio": "Menina de 6 anos é paciente do mesmo médico na unidade básica de saúde (UBS) desde que nasceu. Sempre foi uma criança alegre, saudável e sociável. Na última consulta, há cerca de 15 dias, o pai a trou"
+  },
+  {
+    "id_origem": "simulado02_2026_q24",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "saude_do_idoso",
+    "objeto_conhecimento": "Contenção mecânica e negligência no Estatuto da Pessoa Idosa",
+    "contexto_atencao": "domiciliar",
+    "tema": "Violência institucional contra a pessoa idosa em ILPI",
+    "enunciado_inicio": "Mulher de 55 anos, ao visitar seu pai, de 82 anos, com Doença de Alzheimer, em uma instituição de longa permanência para idosos (ILPI), suspeita de maus -tratos, uma vez que o encontrou restrito ao le"
+  },
+  {
+    "id_origem": "simulado02_2026_q49",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "politicas_publicas_e_sus",
+    "objeto_conhecimento": "Conselho Local de Saúde no processo de trabalho da equipe",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Participação social na organização do processo de trabalho da equipe de saúde da família",
+    "enunciado_inicio": "Uma equipe de saúde da família tem enfrentado muitas reclamações de seus usuários — os quais são residentes de uma comunidade que fica em uma região periférica de um município de médio porte — pela di"
+  },
+  {
+    "id_origem": "simulado02_2026_q60",
+    "area_clinica": "saude_mental",
+    "especialidade": "raps_e_politica_de_saude_mental",
+    "objeto_conhecimento": "Diagnóstico situacional no cuidado infantojuvenil do CAPSi",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Clínica de saúde mental infantojuvenil na reforma psiquiátrica",
+    "enunciado_inicio": "É importante reconhecer que os transtornos mentais infantis e juvenis causam sofrimentos, prejuízos na sociabilidade e limitações no desenvolvimento. Eles po dem persistir na vida adulta, mas são pote"
+  },
+  {
+    "id_origem": "tp2022_q011",
+    "area_clinica": "ciclo_basico",
+    "especialidade": "microbiologia_e_parasitologia",
+    "objeto_conhecimento": "Colite pseudomembranosa por Clostridioides difficile",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Infecções por bactérias anaeróbias de origem endógena",
+    "enunciado_inicio": "Bactérias anaeróbias são dominantes na microbiota anfibiôntica humana. Na grande maioria das vezes, as infecções por bactérias anaeróbias são de origem endógena. A gangrena gasosa após trauma cirúrgic"
+  },
+  {
+    "id_origem": "tp2022_q021",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "etica_e_bioetica",
+    "objeto_conhecimento": "Confidencialidade compartilhada na equipe multiprofissional",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Dilemas bioéticos e sigilo profissional no trabalho em equipe na Atenção Primária",
+    "enunciado_inicio": "Os 4 princípios da bioética são a benevolência (fazer o bem), a não maleficência (não fazer o mal), a autonomia (a pessoa escolhe) e a justiça (priorizar com equidade). Na Atenção Primária à Saúde (AP"
+  },
+  {
+    "id_origem": "tp2022_q032",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "epidemiologia",
+    "objeto_conhecimento": "Caso-controle teste-negativo na efetividade vacinal",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Delineamentos epidemiológicos: identificação de estudo caso-controle teste-negativo",
+    "enunciado_inicio": "Estudo realizado por Ranzani et al., publicado em agosto de 2021, envolveu 43.774 adultos com idade maior ou igual a 70 anos no estado de São Paulo. Todos os pacientes foram testados por meio de RT-PC"
+  },
+  {
+    "id_origem": "tp2022_q043",
+    "area_clinica": "pediatria",
+    "especialidade": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Virilização periférica na puberdade precoce heterossexual",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Puberdade precoce heterossexual em menina de 7 anos",
+    "enunciado_inicio": "Menina de 7 anos é trazida à consulta por aparecimento de pelos pubianos há 6 meses. Nega doenças prévias, nasceu de parto vaginal a termo, com peso de 2800g. A mãe mede 155cm, e teve a menarca aos 11"
+  },
+  {
+    "id_origem": "tp2022_q054",
+    "area_clinica": "pediatria",
+    "especialidade": "neurologia_pediatrica",
+    "objeto_conhecimento": "Origem no tronco encefálico do reflexo de voracidade",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Origem neurológica do reflexo primitivo de voracidade no lactente",
+    "enunciado_inicio": "O reflexo primitivo do lactente de voracidade é aquele em que um estímulo tátil em torno da boca resulta em busca do estímulo. Qual é a origem no sistema nervoso desse reflexo?"
+  },
+  {
+    "id_origem": "tp2022_q064",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "infeccoes_genitais_e_ist",
+    "objeto_conhecimento": "Critérios de internação na doença inflamatória pélvica",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Doença inflamatória pélvica: critérios de internação hospitalar",
+    "enunciado_inicio": "A doença inflamatória pélvica (DIP), é uma inflamação que tem origem na vagina e que progride afetando o útero, as trompas e os ovários, se espalhando por uma grande área pélvica, acontecendo na maior"
+  },
+  {
+    "id_origem": "tp2022_q074",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "intercorrencias_obstetricas",
+    "objeto_conhecimento": "Mola hidatiforme como causa de hiperêmese refratária",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Hiperêmese gravídica refratária no primeiro trimestre e doença trofoblástica",
+    "enunciado_inicio": "Mulher de 23 anos, 07 semanas de gestação, G1P0, apresenta quadro de vômitos diários, vários episódios há 10 dias sem melhora com uso de medicações antieméticas por via oral. Apresenta emagrecimento 3"
+  },
+  {
+    "id_origem": "tp2022_q084",
+    "area_clinica": "urgencia_emergencia",
+    "especialidade": "emergencias_cardiovasculares",
+    "objeto_conhecimento": "Conduta expectante no hiposfagma do paciente anticoagulado",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Conduta na hemorragia subconjuntival (hiposfagma) em paciente anticoagulado",
+    "enunciado_inicio": "Paciente de 58 anos, usando anticoagulante oral, chega ao pronto-socorro referindo que após tossir, teve sangramento difuso (hiposfagma) na esclera. Está enxergando 20/20 pela tabela de Snellen e não "
+  },
+  {
+    "id_origem": "tp2022_q095",
+    "area_clinica": "cirurgia",
+    "especialidade": "cirurgia_vascular",
+    "objeto_conhecimento": "Diferenciação entre úlcera venosa e úlcera arterial",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Insuficiência venosa crônica e úlcera de estase",
+    "enunciado_inicio": "Homem de 65 anos, com história de varizes em membros inferiores desde os 20 anos, refere lesão ulcerada na perna direita há cerca de 5 anos, de difícil cicatrização. Faz acompanhamento no ambulatório "
+  },
+  {
+    "id_origem": "tp2022_q105",
+    "area_clinica": "clinica_medica",
+    "especialidade": "infectologia",
+    "objeto_conhecimento": "Realce anelar e neurotoxoplasmose no HIV avançado",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Lesões expansivas do sistema nervoso central em paciente com HIV e CD4 abaixo de 100",
+    "enunciado_inicio": "Uma paciente de 39 anos, portadora de HIV (vírus da imunodeficiência humana), deu entrada no pronto-socorro devido sonolência e cefaleia nas duas últimas semanas, com piora há 3 dias, quando também in"
+  },
+  {
+    "id_origem": "tp2022_q115",
+    "area_clinica": "saude_mental",
+    "especialidade": "psicofarmacologia",
+    "objeto_conhecimento": "Hipótese dopaminérgica dos sintomas positivos da esquizofrenia",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Neurotransmissores implicados na fisiopatologia da esquizofrenia",
+    "enunciado_inicio": "Um homem de 38 anos vem ao ambulatório de psiquiatria acompanhado por sua mãe, que aponta como motivo da consulta o fato de o paciente estar irritando-se facilmente e dormindo pouco. Mãe refere que el"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q005",
+    "area_clinica": "ciclo_basico",
+    "especialidade": "farmacologia",
+    "objeto_conhecimento": "Inibição da COX-1 e perda da citoproteção gástrica",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Mecanismo da gastrolesão induzida por anti-inflamatórios não esteroidais",
+    "enunciado_inicio": "Um paciente de 65 anos com osteoartrite é tratado com naproxeno para controle da dor. Após algumas semanas, ele apresenta episódios de pirose intensa e desconforto epigástrico. Qual é o mecanismo dess"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q015",
+    "area_clinica": "ciclo_basico",
+    "especialidade": "anatomia",
+    "objeto_conhecimento": "Estabilizadores dinâmicos do joelho",
+    "contexto_atencao": "nao_aplicavel",
+    "tema": "Estabilidade dinâmica do joelho",
+    "enunciado_inicio": "A estabilidade articular dos membros inferiores é garantida por estruturas anatômicas que atuam de forma estática e dinâmica para manter a postura e permitir mobilidade segura. Assinale a alternativa "
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q025",
+    "area_clinica": "pediatria",
+    "especialidade": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Técnica e periodicidade da aferição da PA na criança",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Aferição da pressão arterial na criança",
+    "enunciado_inicio": "A aferição da pressão arterial (PA) em crianças segue recomendações específicas para garantir uma medida precisa. Sobre a aferição da PA em crianças, assinale a alternativa correta."
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q035",
+    "area_clinica": "saude_mental",
+    "especialidade": "transtornos_do_neurodesenvolvimento",
+    "objeto_conhecimento": "Diagnóstico diferencial do transtorno do espectro autista",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Diagnóstico diferencial do Transtorno do Espectro Autista na infância",
+    "enunciado_inicio": "O diagnóstico diferencial de afecções psiquiátricas na infância e adolescência pode ser desafiador devido à sobreposição de sintomas e à influência de fatores do desenvolvimento. Considerando o caso d"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q045",
+    "area_clinica": "urgencia_emergencia",
+    "especialidade": "emergencias_neurologicas",
+    "objeto_conhecimento": "Cefaleia por infecção oportunista do SNC na AIDS",
+    "contexto_atencao": "urgencia_emergencia",
+    "tema": "Cefaleia progressiva em paciente com sinais de imunodeficiência avançada",
+    "enunciado_inicio": "O médico está em um Pronto Atendimento e recebe um paciente de 38 anos com queixa de emagrecimento de 7kg nos últimos 60 dias, dificuldade para deglutir e cefaleia holocraniana com piora progressiva h"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q055",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "promocao_e_prevencao",
+    "objeto_conhecimento": "Mamografia bienal dos 50 aos 69 anos pelo INCA",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Rastreamento do câncer de mama segundo INCA/Ministério da Saúde",
+    "enunciado_inicio": "Durante uma consulta de rotina na Unidade Básica de Saúde, mulher de 55 anos, sem histórico familiar de câncer de mama, sem comorbidades e assintomática, relata que realizou sua última mamografia há q"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q065",
+    "area_clinica": "cirurgia",
+    "especialidade": "urologia",
+    "objeto_conhecimento": "Ressonância multiparamétrica antes da biópsia prostática",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Investigação do PSA elevado com toque retal sem nódulos",
+    "enunciado_inicio": "Paciente com 55 anos, assintomático, sem medicação de uso regular. Refere na história familiar que seu pai teve câncer de próstata. Apresenta um PSA total de 5,2 ng/ml com exame de urina normal, repet"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q075",
+    "area_clinica": "cirurgia",
+    "especialidade": "anestesiologia",
+    "objeto_conhecimento": "Vasopressor alfa-agonista na hipotensão pós-propofol",
+    "contexto_atencao": "internacao_hospitalar",
+    "tema": "Manejo da hipotensão após indução anestésica com propofol",
+    "enunciado_inicio": "Um paciente de 45 anos, com histórico de hipertensão arterial controlada e obesidade grau II (IMC = 36), será submetido a uma colecistectomia laparoscópica. Durante a indução e manutenção da anestesia"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q085",
+    "area_clinica": "medicina_familia_comunidade",
+    "especialidade": "cuidado_longitudinal_e_coordenacao",
+    "objeto_conhecimento": "Ferro oral e encaminhamento na anemia por sangramento uterino",
+    "contexto_atencao": "atencao_primaria",
+    "tema": "Anemia ferropriva por sangramento uterino anormal em mulher de 45 anos",
+    "enunciado_inicio": "Mulher de 45 anos comparece à consulta referindo cansaço, sonolência diurna, queda de cabelo, unhas quebradiças e vontade de comer gelo há uns 4 meses. Refere que o fluxo menstrual está irregular, e à"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q095",
+    "area_clinica": "clinica_medica",
+    "especialidade": "cardiologia",
+    "objeto_conhecimento": "Betabloqueador como anti-isquêmico de primeira linha na angina estável",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Tratamento antianginoso na doença coronariana crônica",
+    "enunciado_inicio": "Homem de 58 anos, portador de hipertensão arterial e com diagnóstico recente de doença coronariana crônica, vem ao consultório para acompanhamento. Ele se queixa de dor torácica anginosa aos esforços "
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q105",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "climaterio",
+    "objeto_conhecimento": "Perfil hormonal da transição menopausal",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Alterações clínicas e hormonais do climatério",
+    "enunciado_inicio": "O climatério pode dividido em pré e pós menopáusico caracterizado por importante mudanças no estado de saúde e qualidade de vida das mulheres ocasionado pela redução da resposta ovariana às gonadotrof"
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q115",
+    "area_clinica": "ginecologia_obstetricia",
+    "especialidade": "uroginecologia",
+    "objeto_conhecimento": "Fisiopatologia da incontinência urinária de esforço",
+    "contexto_atencao": "ambulatorial_especializado",
+    "tema": "Epidemiologia e fisiopatologia da incontinência urinária e do prolapso genital",
+    "enunciado_inicio": "A incontinência urinária (IU) e os prolapsos dos órgãos pélvicos (POP) são condições frequentes em mulheres, especialmente com o avanço da idade. Sobre a epidemiologia e a fisiopatologia dessas condiç"
+  }
+]
