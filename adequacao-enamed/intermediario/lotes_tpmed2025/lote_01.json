@@ -1,0 +1,242 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q001",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 1,
+    "enunciado": "Mulher de 32 anos com diagnóstico de lúpus eritematoso sistêmico, apresenta edema em membros inferiores, hipertensão arterial e proteinúria significativa detectada em exames laboratoriais. Uma biópsia renal revelou características compatíveis com glomerulonefrite lúpica. Qual mecanismo imunológico é o principal responsável pelo dano renal observado nessa condição?",
+    "alternativas": {
+      "A": "Destruição direta de células epiteliais por linfócitos T citotóxicos.",
+      "B": "Estímulo excessivo da resposta humoral pela IL-10.",
+      "C": "Apoptose de células mesangiais mediada por TNF-alfa.",
+      "D": "Deposição de complexos imunes nos glomérulos."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Embora o LES tenha participação de linfócitos T auxiliares na amplificação da resposta autoimune, não há destruição direta das células epiteliais dos glomérulos pelos linfócitos T citotóxicos. No LES, o dano renal ocorre principalmente por deposição de complexos imunológicos e ativação do complemento, não por uma citotoxicidade mediada diretamente por linfócitos T. A IL-10 é uma citocina imunomoduladora que pode estimular a resposta humoral ao favorecer a diferenciação de linfócitos B e a produção de autoanticorpos, mas não é diretamente responsável pelo dano glomerular no LES. O TNF-alfa tem um papel pró-inflamatório e pode contribuir para o processo inflamatório no LES, mas não é o principal mediador do dano renal lúpico.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q009",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 9,
+    "enunciado": "Um paciente com infecção cutânea porStaphylococcus aureusresistente à meticilina (MRSA) é tratado com vancomicina. Após a infusão rápida do fármaco, ele desenvolve eritema difuso, rubor facial e prurido intenso. Qual é o mecanismo envolvido nessa reação adversa?",
+    "alternativas": {
+      "A": "Liberação de histamina por degranulação mastocitária independente de IgE.",
+      "B": "Ativação do sistema complemento, causando vasodilatação generalizada.",
+      "C": "Formação de imunocomplexos circulantes, desencadeando resposta inflamatória.",
+      "D": "Deposição do fármaco na derme, ativando macrófagos residentes."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A reação conhecida como ”Síndrome do Homem Vermelho”ocorre devido à liberação de histamina por degranulação mastocitária não mediada por IgE, frequentemente associada à infusão rápida de vancomicina. A ativação do complemento pode causar inflamação, mas não está diretamente envolvida nessa reação adversa. A formação de imunocomplexos está associada a reações imunomediadas, como doença do soro, o que não ocorre nesse caso. O fármaco não se deposita na derme, e a ativação de macrófagos não é a causa dessa reação adversa.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q017",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 17,
+    "enunciado": "Homem de 60 anos apresenta tosse, perda de peso e cansaço há 4 meses. Tabagista por 40 anos. Radiografia de tórax revelou massa de 10 cm no pulmão esquerdo, cuja biópsia demonstrou carcinoma de células escamosas de pulmão. Qual dos seguintes carcinógenos está envolvido na patogênese do câncer de pulmão deste paciente?",
+    "alternativas": {
+      "A": "Aflatoxina B1.",
+      "B": "Fenobarbital sódico.",
+      "C": "Hidrocarbonetos aromáticos.",
+      "D": "Asbestos."
+    },
+    "gabarito": "C",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A carcinogênese do fumo ocorre com a combustão do tabaco, originando os hidrocarbonetos aromáticos policíclicos. Trata-se de um cancerígeno indireto por precisar ser metabolizado para exercer seus efeitos.É uma das substâncias carcinogênicas mais estudadas. As demais alternativas se referem a carcinógenos hepáticos, ou de outros tipos de neoplasias.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q025",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 25,
+    "enunciado": "A aferição da pressão arterial (PA) em crianças segue recomendações específicas para garantir uma medida precisa. Sobre a aferição da PA em crianças, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O tamanho do manguito a ser utilizado deve ser escolhido com base na faixa etária da criança, pois há tamanhos padronizados para cada idade.",
+      "B": "A pressão arterial deve ser aferida preferencialmente no braço esquerdo, pois oferece valores mais fidedignos e evita subestimação da pressão arterial.",
+      "C": "A pressão arterial deve ser medida em todas as crianças, independentemente da idade, em todas as consultas médicas.",
+      "D": "Crianças maiores de 3 anos devem ter a PA aderidas pelo menos uma vez ao ano e as menores de 3 anos apenas em condições clínicas específicas."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Todas as crianças a partir dos 3 anos devem ter a pressão arterial aferida ao menos uma vez ao ano. Em crianças menores de 3 anos, a aferição da PA não é rotina, mas deve ser realizada na presença de condições especiais, como prematuridade extrema, doenças renais, cardiopatias congênitas, histórico de infecção do trato urinário recorrente, entre outras. A aferição da PA não é obrigatória em todas as consultas para todas as crianças, mas sim anualmente a partir dos 3 anos ou em casos específicos. A escolha do manguito não é baseada na faixa etária, mas sim na circunferência do braço da criança, garantindo medidas mais precisas. A PA deve ser aferida preferencialmente no braço direito, pois isso permite comparação com tabelas padronizadas e evita leituras falsamente baixas no caso de coarctação da aorta.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q033",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 33,
+    "enunciado": "Paciente de 6 anos, há dois dias iniciou quadro de obstrução nasal moderada, espirros, rinorreia hialina, leve dor na faringe, febre de 38,2º C. A história pregressa da criança é negativa para sintomas nasais crônicos. Uma rinoscopia anterior apresenta mucosa nasal hiperemiada e a oroscopia sugere faringe e amígdalas hiperemiadas. Assinale a alternativa que apresenta a hipótese diagnóstica.",
+    "alternativas": {
+      "A": "Faringite estreptocóccica.",
+      "B": "Rinite alérgica.",
+      "C": "Rinossinusite aguda bacteriana.",
+      "D": "Resfriado comum."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O resfriado comum apresenta uma grande variedade de manifestações e pode ser acompanhado de febre ou de mal-estar. A mucosa respiratória se encontra hiperemiada, e a pessoa acometida pode apresentar dor de garganta, rouquidão e tosse. Na faringite estreptocócica a febre é alta, acompanhada de exsudato purulento e adenomegalia jugular em 60% dos casos. Na Rinite Aguda tem história pregressa a sintomas pós exposição a alérgenos, hipertrofia e palidez de cornetos. A Rinossinusite Aguda Bacteriana aparece com piora dos sintomas do resfriado comum após o 5 º dia, secreção purulenta na rinofaringe e dor intensa local, geralmente unilateral.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q041",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 41,
+    "enunciado": "Mulher de 32 anos, procura Unidade Básica de Saúde com queixa de tontura, dor de cabeça, cansaço e náuseas. Trabalha diariamente em uma horta comunitária, onde um colega de trabalho apresenta sintomas semelhantes. A conduta será:",
+    "alternativas": {
+      "A": "realizar notificação de intoxicação crônica por hidrocarboneto e afastar do trabalho.",
+      "B": "solicitar exames complementares, afastar a paciente e investigar condições de trabalho e produtos utilizados.",
+      "C": "solicitar dosagem de eletrólitos, prescrever hidratação endovenosa e medidas para tratamento de insolação.",
+      "D": "receitar sintomáticos, afastar a paciente e encaminhar ao neurologista."
+    },
+    "gabarito": "B",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A paciente possui um quadro agudo (ao menos o que se entende pela leitura não é de uma história de longa data), havendo total nexo causal com o ambiente ocupacional (em virtude de outra pessoa da mesma atividade laboral desenvolver clínica semelhante). Dessa forma, pautados, pelo regimento de monitoramento da exposição ocupacional por meio da Norma Regulamentadora - NR-7, contida na Portaria SSST n º 24, de 29 de dezembro de 1994, é imprescindível afastamento do paciente com investigação por meio de exames complementares (laboratoriais, imagem, entre outros), além de investigar minuciosamente as condições de trabalho, incluindo produtos utilizados no cenário atual de trabalho, para buscar informações relevantes dentro da ceara do nexo causal com patologia e ambiente ocupacional.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q049",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 49,
+    "enunciado": "A interprofissionalidade na atenção primária a saúde (APS) é essencial para o enfrentamento das Doenças e Agravos não Transmissíveis (DANT). A atuação conjunta de médicos, enfermeiros, nutricionistas, profissionais de educação física e outros profissionais permite uma abordagem integral do cuidado. Qual das ações a seguir melhor exemplifica o trabalho interprofissional na APS para o manejo das DANT?",
+    "alternativas": {
+      "A": "Os profissionais da APS realizam reuniões periódicas para construção de planos terapêuticos singulares, com foco em estratégias de promoção da saúde e prevenção das complicações.",
+      "B": "A equipe de saúde realiza encontros interprofissionais para discussão de casos complexos, priorizando assistência individual para acompanhamento das DANT.",
+      "C": "O enfermeiro e o médico atuam de forma conjunta na prescrição e no acompanhamento dos pacientes com DANT, sendo os demais profissionais acionados apenas se houver necessidade.",
+      "D": "A UBS prioriza a distribuição de medicamentos para pacientes com doenças crônicas, pois mudanças no estilo de vida são de responsabilidade individual."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A interprofissionalidade na APS fortalece o cuidado integral e contínuo, promovendo a construção de planos terapêuticos singulares (PTS) de forma coletiva. Essa abordagem melhora o manejo das DANT, garantindo ações de promoção da saúde, prevenção de complicações e adesão ao tratamento. Segundo Peduzzi (2019), a interprofissionalidade é fundamental para um cuidado colaborativo, articulando diferentes saberes para atender às necessidades dos usuários.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q057",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 57,
+    "enunciado": "O Relatório Dawson, publicado em 1920, foi o marco da ideia de Atenção Primária à Saúde como forma de organização dos sistemas nacionais de saúde. Sobre este relatório e seu impacto, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Introduziu o conceito de territorialização em saúde, sendo que a porta de entrada do sistema de saúde seriam os hospitais-escola, como forma de melhorar a qualidade do ensino médico.",
+      "B": "O relatório não pode mais ser considerado atual, uma vez que os centros primários de saúde devem ser orientados para a comunidade, e os hospitais-escola devem resolver a maior parte dos problemas de saúde da população.",
+      "C": "Foi encomendado pelo governo inglês, no intuito de buscar formas de organizar a provisão de serviços de saúde à população de determinada região, garantindo acesso à saúde.",
+      "D": "As propostas de mudança trazidas pelo Relatório tinham o objetivo de organizar a provisão dos serviços de saúde, sem necessidade de articulação com sistemas de saúde pública, focadas no atendimento individual dos doentes nos hospitais."
+    },
+    "gabarito": "C",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A organização dos serviços de saúde deve estar orientada conforme as necessidades da comunidade, não corresponde ao conceito de territorialização. O conceito de territorialização considera a orientação do serviço de saúde com base nos centros de atenção primária, orientados para a comunidade, regionalizados, não tendo relação com fortalecimento do ensino médico segundo este documento (confusão comum relacionada ao documento ”Relatório Flexner”). O relatório ainda é considerado atual, e os centros de atenção primária devem resolver a maior parte dos problemas de saúde da população. As propostas trazidas pelo Relatório apontavam as necessidades de articulação da saúde pública, focando nas necessidades de saúde da comunidade e não em doenças específicas ou grupos de doentes.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q065",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 65,
+    "enunciado": "Paciente com 55 anos, assintomático, sem medicação de uso regular. Refere na história familiar que seu pai teve câncer de próstata. Apresenta um PSA total de 5,2 ng/ml com exame de urina normal, repetido em 60 dias com aumento para 5,6 ng/ml e exame de urina sem alteração. Ao toque retal apresenta discreto aumento da próstata com consistência fibro elástica e sem nódulos suspeitos. Qual exame seria a melhor opção para o caso?",
+    "alternativas": {
+      "A": "Cintilografia óssea.",
+      "B": "Tomografia computadorizada de pelve.",
+      "C": "RNM multiparamétrica da próstata.",
+      "D": "Ultrassonografia transretal da próstata."
+    },
+    "gabarito": "C",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A RNM é o exame de eleição para identificar áreas suspeitas de neoplasia prostática e orientação para biópsia.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q073",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 73,
+    "enunciado": "Parte rotineira da cirurgia ambulatorial é a realização da exérese de pequenas lesões cutâneas, sob anestesia local. Após a retirada dessas lesões, realiza-se uma sutura primária da pele com pontos simples separados com fio não absorvível e planeja-se posteriormente a retirada desses pontos. Estes se forem removidos muito tardiamente produzirão marcas e cicatrizes indesejadas e por outro lado, se removidos prematuramente, aumentarão o risco de deiscência da ferida. Assim, sobre o planejamento da retirada dos pontos da pele em suturas com fios não absorvíveis, em pacientes sem comorbidades, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Suturas na pele das articulações devem ser removidas em 7 dias.",
+      "B": "Suturas na pele da face são comumente removidas depois de 5 dias.",
+      "C": "Suturas na pele do corpo, em geral, devem ser removidas com 14 ou mais dias.",
+      "D": "Suturas na pele das mãos e pés devem ser removidas em 7 dias."
+    },
+    "gabarito": "B",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O período para retirada de pontos cirúrgicos pode variar dependendo da profundidade, extensão da ferida e também das características de cada pessoa como idade, obesidade, diabetes, alimentação adequada ou o uso de medicamentos como quimioterápicos, anti-inflamatórios e corticoides. Rosto e pescoço = 5 dias; Boca e gengiva = 7 dias; mãos e pés = após 14 dias; tronco = 21 dias; pele em geral = 7 a 10 dias.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q081",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 81,
+    "enunciado": "Uma paciente de 42 anos, em uso de ácido acetilsalicílico (AAS) 100mg devido a acidente vascular cerebral (A VC) isquêmico prévio há 8 meses, chega à emergência em janela (menor que 4,5h) para trombólise. Além disso, a paciente teve um episódio convulsivo antes de chegar ao hospital e apresenta agora pressão arterial (PA) de 210/120 mmHg. Assinale a alternativa que apresente uma contraindicação absoluta à trombólise.",
+    "alternativas": {
+      "A": "A PA maior que 185/110 mmHg.",
+      "B": "O uso de ácido acetilsalicílico (AAS).",
+      "C": "O A VC isquêmico prévio.",
+      "D": "O episódio de crise convulsiva."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Apenas a alternativa A (PA maior que 185/110 mmHg) apresenta uma contraindicação à trombólise. Relativa pois não foi tentado ainda anti-hipertensivo endovenoso para controle da pressão. O uso de antiagregante plaquetário não aumenta o risco de sangramento. O mesmo em relação à crise convulsiva prévia. O A VC isquêmico prévio contraindicaria se menor que 3 meses da nova trombólise. Como no caso foi há 8 meses, a paciente já pode ser trombolisada novamente. Então as outras alternativas não representam qualquer tipo de contraindicação.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q089",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 89,
+    "enunciado": "Rapaz de 19 anos, previamente hígido, procura atendimento com queixa de disfagia progressiva para alimentos sólidos há 6 meses. Relata que, inicialmente, sentia um ’engasgo leve’ ao ingerir carnes, mas agora sente que os alimentos ficam presos no meio do peito. Refere episódios intermitentes de impactação alimentar, necessitando beber grandes quantidades de água para engolir. Nega perda de peso significativa, pirose recorrente ou disfagia para líquidos. Não tem comorbidades, mas possui história de asma desde a infância. Com base nesse quadro, qual é o próximo passo mais adequado na investigação?",
+    "alternativas": {
+      "A": "Solicitar esofagomanometria de alta resolução, pois o quadro sugere um distúrbio motor do esôfago, como acalasia.",
+      "B": "Solicitar tomografia de tórax, para descartar tumores de mediastino fazendo compressão externa no esôfago distal.",
+      "C": "Solicitar esofagografia baritada, pois é o melhor exame para avaliar estreitamentos esofágicos e estenoses benignas.",
+      "D": "Solicitar endoscopia digestiva alta com biopsia esofágica, pois a apresentação clínica sugere esofagite eosinofílica."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O paciente apresenta disfagia progressiva para sólidos, sem perda de peso significativa, com história alérgica, fortemente sugestivo de esofagite eosinofílica (EEo). O exame inicial mais adequado é a endoscopia digestiva alta com biopsias múltiplas, pois a EEo pode ter um aspecto endoscópico normal e o diagnóstico depende da contagem de eosinófilos na mucosa esofágica (maior que 15 eosinófilos/campo de grande aumento). Embora IBPs sejam usados para tratamento da EEo, o diagnóstico precisa ser confirmado antes. A esofagomanometria é útil para distúrbios motores (ex.: acalasia), mas a disfagia progressiva para sólidos sem regurgitação sugere doença estrutural. A esofagografia pode auxiliar na avaliação de estenoses, mas não confirma esofagite eosinofílica. A falta de emagrecimento nao sugere tumores de mediastino.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q097",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 97,
+    "enunciado": "Paciente de 100kg e 1,60m, internado na Unidade de Terapia Intensiva, evoluiu com piora do quadro geral, acompanhado de 100 ml de diurese nas últimas 12 horas. Pode-se afirmar que:",
+    "alternativas": {
+      "A": "existe insuficiência renal, com indicação de hemodiálise nas próximas 24 horas pela gravidade do caso.",
+      "B": "existe injúria renal aguda, indicada pela diurese menor que 0,5 ml/kg por hora nas últimas 12 horas.",
+      "C": "o volume de diurese não é um bom marcador de insuficiência renal, devendo ser utilizado o valor da creatinina sérica.",
+      "D": "o volume de diurese apresentado caracteriza o quadro como insuficiência renal aguda estágio 3."
+    },
+    "gabarito": "B",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Segundo as diretrizes do KDIGO para diagnóstico e manejo da insuficiência renal aguda, a redução do volume de diurese a valores menores que 0,5mL por kg de peso por hora, por um período de 12 horas é critério para diagnosticar o quadro como INSUFICI ÊNCIA RENAL AGUDA EST ÁGIO 2. O valor absoluto de creatinina e/ou ureia séricos não podem ser utilizados isoladamente como critério diagnóstico. O uso da variação da creatinina em relação ao valor basal e/ou redução do volume de diurese são os critérios aceitos e normatizados através das diretrizes supracitadas.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q105",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 105,
+    "enunciado": "O climatério pode dividido em pré e pós menopáusico caracterizado por importante mudanças no estado de saúde e qualidade de vida das mulheres ocasionado pela redução da resposta ovariana às gonadotrofinas e depleção dos oócitos. Achados frequentes neste período de vida feminina são:",
+    "alternativas": {
+      "A": "sintomas frequentes como ondas de calor e suores noturno, aumento da gordura abdominal, elevação do FSH, a estrona torna se o principal estrogênio circulante.",
+      "B": "aumento da incidência de osteoporose, alterações da qualidade do sono, aumento nível do estradiol, redução nível do colesterol total.",
+      "C": "sintomas depressivos, atrofia urogenital, aumento da inibina beta, elevação no hormônio anti mulleriano.",
+      "D": "aumento no risco cardio vascular, piora na qualidade do sono, maior incidência do DM, redução estradiol, redução das gonodotrofinas."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A menor produção da inibina beta ocasionando redução da resposta ovariana às gonotrofinas com depleção do oócitos, esta menor formação de folículos antrais reduzirá os níveis do hormônio antimulleriano. O não desenvolvimento folicular reduzirá as secreções do estradiol permanecendo o ovário com a produção apenas de andrógenos e no tecido gorduroso se converterá em estrona (principal estrogênio circulante na pós menopausa).",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q113",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 113,
+    "enunciado": "Uma paciente de 35 anos, nuligesta, com histórico de dismenorreia severa e dispareunia profunda, tenta engravidar há 2 anos sem sucesso. Foi diagnosticada com endometriose ovariana e profunda através de ressonância magnética. Seu parceiro apresenta espermograma normal e os demais exames para investigação de infertilidade da paciente não apresentam alterações. Assinale a alternativa que representa a melhor estratégia terapêutica para essa paciente, visando uma gestação a curto prazo.",
+    "alternativas": {
+      "A": "Realizar estimulação ovariana com coito programado, pois ainda há chances de gestação espontânea.",
+      "B": "Indicar tratamento cirúrgico para remoção das lesões antes de qualquer tentativa de reprodução assistida.",
+      "C": "Prescrever contraceptivos hormonais para controle da progressão da endometriose antes de tentar engravidar.",
+      "D": "Encaminhar diretamente para fertilização in vitro (FIV), considerando o impacto da endometriose na fertilidade."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O coito programado tem baixa eficácia em pacientes com endometriose avançada e infertilidade prolongada. A cirurgia pode ser considerada para melhoria da qualidade de vida e sintomas, mas a FIV é a conduta mais indicada nesse caso para otimizar as chances de gravidez em casos de infertilidade relacionada à endometriose. Apesar da paciente poder se beneficiar da cirurgia para melhora dos sintomas, o tratamento indicado de maior eficácia para tratamento de endometriose e infertilidade é a FIV tornando a alternativa correta. O uso de contraceptivos não é adequado para uma paciente que deseja engravidar a curto prazo.",
+    "requer_imagem": false
+  }
+]

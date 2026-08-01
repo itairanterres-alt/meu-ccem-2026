@@ -1,0 +1,268 @@
+[
+  {
+    "id_origem": "revalida2023_2_q006",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Urticária aguda medicamentosa por anti-inflamatório não esteroidal na atenção primária",
+    "subtema": "Manejo ambulatorial da urticária sem sinais de anafilaxia",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_06"],
+    "tags": ["urticária", "reação adversa a medicamento", "anti-histamínico", "atenção primária", "nimesulida"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Trata-se de urticária aguda por hipersensibilidade a AINE, restrita à pele e sem comprometimento respiratório ou hemodinâmico; o tratamento de primeira linha é o anti-histamínico H1 de segunda geração, associado a cuidados de barreira cutânea e à suspensão definitiva do fármaco desencadeante.",
+      "B": "Incorreta. A epinefrina está indicada apenas na anafilaxia, definida por acometimento de dois ou mais sistemas ou por hipotensão; além disso, a via preconizada seria intramuscular em vasto lateral da coxa, e não subcutânea.",
+      "C": "Incorreta. Sem estridor, disfonia, dispneia, angioedema de vias aéreas ou instabilidade hemodinâmica, não há risco iminente de insuficiência respiratória que justifique encaminhamento a pronto-socorro; o quadro é plenamente resolutivo na atenção básica.",
+      "D": "Incorreta. O corticoide não é a base do tratamento da urticária aguda e o corticoide tópico tem eficácia irrelevante em lesões urticariformes disseminadas; escalonar para corticoide endovenoso em quadro cutâneo puro configura conduta desproporcional e iatrogênica."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q019",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação de nódulo mamário palpável com mamografia BI-RADS 0",
+    "subtema": "Conduta diagnóstica complementar no rastreamento e diagnóstico de câncer de mama no SUS",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_06", "dcn2025_comp_25"],
+    "tags": ["câncer de mama", "BI-RADS", "ultrassonografia mamária", "propedêutica", "SUS"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A biópsia é indicada após a categorização definitiva da lesão (BI-RADS 4 ou 5) obtida com a imagem complementar; indicá-la antes de completar a avaliação por imagem inverte a sequência propedêutica preconizada.",
+      "B": "Incorreta. Repetir a mamografia em 6 meses é conduta de seguimento para achados provavelmente benignos (BI-RADS 3) e é inaceitável diante de nódulo palpável de 3 cm, pois retardaria o diagnóstico de uma possível neoplasia.",
+      "C": "Correta. BI-RADS 0 significa exame inconclusivo que exige complementação; em mama com nódulo palpável, a ultrassonografia é o método complementar de escolha, pois diferencia lesão cística de sólida e caracteriza margens, permitindo a recategorização BI-RADS.",
+      "D": "Incorreta. A PAAF fornece material apenas citológico, com menor acurácia que a biópsia por agulha grossa para diagnóstico histológico e caracterização de invasão e perfil imuno-histoquímico, e igualmente pressupõe caracterização prévia por imagem."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q033",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Desidratação grave com choque hipovolêmico por gastroenterite aguda em lactente",
+    "subtema": "Plano C de hidratação venosa segundo protocolo da OMS/Ministério da Saúde",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["desidratação grave", "plano C", "reidratação venosa", "gastroenterite", "lactente"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O volume de 200 mL corresponde a 20 mL/kg, inferior à fase de expansão rápida preconizada de 30 mL/kg para crianças com desidratação grave acima de 12 meses, sendo insuficiente para restaurar a volemia deste caso.",
+      "B": "Correta. Trata-se de desidratação grave com sinais de choque, indicando o Plano C: para criança maior de 1 ano, a primeira etapa é 30 mL/kg de solução isotônica em 30 minutos, o que corresponde a 300 mL de cloreto de sódio a 0,9% no peso atual de 10 kg.",
+      "C": "Incorreta. Embora o volume esteja adequado, o tempo de 1 hora é o preconizado para lactentes menores de 12 meses; em criança de 15 meses com choque, a infusão lenta retarda a reversão da hipoperfusão.",
+      "D": "Incorreta. O volume de 200 mL fica aquém dos 30 mL/kg necessários na etapa rápida; a escolha do cristaloide balanceado é aceitável, mas a subdosagem compromete a restauração da perfusão."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q049",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento de câncer de mama em mulher de 35 anos sem critérios de alto risco",
+    "subtema": "Indicação etária da mamografia e prevenção quaternária",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["rastreamento", "câncer de mama", "prevenção quaternária", "mamografia", "risco familiar"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Solicitar mamografia e ultrassonografia fora da faixa etária de rastreamento em mulher assintomática e de risco habitual aumenta falsos-positivos, sobrediagnóstico e ansiedade, sem ganho de mortalidade.",
+      "B": "Incorreta. A mamografia de rastreamento no SUS está indicada a partir dos 50 anos (bienal até 69 anos) para risco habitual; aos 35 anos não há benefício demonstrado que justifique o exame.",
+      "C": "Incorreta. A pesquisa de BRCA1 exige critérios de risco hereditário, como câncer de mama ou ovário em parente de primeiro grau em idade jovem, múltiplos casos na mesma linhagem ou câncer de mama masculino; câncer de ovário aos 72 anos não preenche esses critérios.",
+      "D": "Correta. Trata-se de mulher de risco habitual e assintomática, em que a conduta apropriada é o exame clínico das mamas, o acompanhamento periódico e a abordagem dos fatores de risco modificáveis, como obesidade e tabagismo, evitando exames de imagem sem indicação."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q063",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico diferencial do desconforto respiratório no recém-nascido prematuro tardio",
+    "subtema": "Taquipneia transitória do recém-nascido e evolução radiológica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["neonatologia", "desconforto respiratório", "taquipneia transitória", "radiografia de tórax", "cesariana eletiva"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item depende integralmente das três radiografias sequenciais, que não estão descritas em texto no enunciado, inviabilizando a resolução sem a imagem.",
+    "justificativas": {
+      "A": "Incorreta. A pneumonia congênita cursa com infiltrado persistente ou progressivo, sinais de resposta inflamatória sistêmica e fatores de risco infecciosos, como corioamnionite ou bolsa rota prolongada, e não com resolução radiológica espontânea em 24 horas.",
+      "B": "Incorreta. A doença da membrana hialina decorre de deficiência de surfactante e apresenta padrão de infiltrado reticulogranular difuso com broncogramas aéreos e piora progressiva nas primeiras 48 a 72 horas, além de ser incomum com 36 semanas.",
+      "C": "Incorreta. A aspiração meconial pressupõe líquido amniótico meconial e sofrimento fetal, geralmente em pós-termo, com infiltrados grosseiros assimétricos e áreas de hiperinsuflação e atelectasia, quadro que não se resolve rapidamente.",
+      "D": "Correta. A cesariana sem trabalho de parto em prematuro tardio reduz a depuração do líquido pulmonar, gerando taquipneia precoce com trama vascular aumentada, líquido em cissuras e congestão peri-hilar, com resolução radiológica e clínica em torno de 24 a 72 horas."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q078",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Obstrução intestinal baixa no recém-nascido por doença de Hirschsprung",
+    "subtema": "Propedêutica com enema opaco e retenção de contraste",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_25"],
+    "tags": ["Hirschsprung", "megacólon congênito", "enema opaco", "atraso na eliminação de mecônio", "obstrução intestinal neonatal"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comando exige interpretação de radiografia de abdome que não é reproduzida nem descrita no texto, prejudicando a autossuficiência do item.",
+    "justificativas": {
+      "A": "Incorreta. A confirmação diagnóstica da aganglionose depende justamente da biópsia retal demonstrando ausência de células ganglionares nos plexos submucoso e mientérico; colonoscopia sem biópsia não estabelece o diagnóstico.",
+      "B": "Incorreta. O sinal da dupla bolha traduz obstrução duodenal, como atresia de duodeno ou pâncreas anular, incompatível com quadro de obstrução baixa com atraso na eliminação de mecônio e distensão abdominal difusa.",
+      "C": "Incorreta. A ultrassonografia abdominal não avalia adequadamente a zona de transição colônica nem a inervação intestinal, de modo que exame clínico e ultrassom não confirmam a doença.",
+      "D": "Correta. No megacólon congênito, o enema opaco evidencia zona de transição entre segmento agangliônico estreitado e cólon proximal dilatado, e a retenção do bário após 24 a 36 horas reforça a hipótese, orientando a biópsia retal confirmatória."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q091",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Choque séptico de foco urinário obstrutivo por litíase ureteral impactada",
+    "subtema": "Controle do foco infeccioso como medida terapêutica prioritária",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["sepse", "pielonefrite obstrutiva", "controle do foco", "nefrolitíase", "choque séptico"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A ressuscitação volêmica é parte do pacote inicial de sepse, mas isoladamente não reverte o quadro enquanto persistir a pionefrose sob pressão, e a expansão excessiva agrava congestão e disfunção orgânica.",
+      "B": "Correta. Na pielonefrite obstrutiva com sepse, o sistema coletor infectado sob pressão mantém a bacteremia; a descompressão urgente por cateter duplo J ou nefrostomia percutânea é o controle do foco, sem o qual antibiótico, volume e vasopressor não conseguem estabilizar a paciente.",
+      "C": "Incorreta. A noradrenalina é indicada para sustentar a PAM em choque refratário a volume, porém constitui suporte hemodinâmico e não elimina a causa da deterioração, que é a obstrução do trato urinário infectado.",
+      "D": "Incorreta. Os agentes das infecções urinárias complicadas são predominantemente bacilos Gram-negativos entéricos, sobretudo enterobactérias; cobertura dirigida a Gram-positivos multirresistentes é empiricamente inadequada."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q005",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Princípios doutrinários do SUS aplicados à priorização de visitas domiciliares",
+    "subtema": "Equidade na organização do processo de trabalho da Estratégia Saúde da Família",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_16", "dcn2025_comp_18", "dcn2025_comp_22"],
+    "tags": ["SUS", "equidade", "visita domiciliar", "Estratégia Saúde da Família", "gestão do cuidado"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Estabelecer critérios de priorização das visitas domiciliares significa oferecer mais recursos a quem tem maior necessidade e vulnerabilidade, o que traduz exatamente o princípio da equidade, isto é, tratar desigualmente os desiguais para reduzir iniquidades em saúde.",
+      "B": "Incorreta. A autonomia é princípio bioético relativo à autodeterminação do usuário sobre seu próprio cuidado, e não um princípio doutrinário do SUS voltado à organização de fluxos assistenciais.",
+      "C": "Incorreta. A integralidade refere-se à abordagem do sujeito em todas as dimensões e à articulação de ações de promoção, prevenção, tratamento e reabilitação nos diferentes níveis, e não à hierarquização de prioridades entre usuários.",
+      "D": "Incorreta. A universalidade garante o acesso de todos aos serviços de saúde sem discriminação; ela não orienta a decisão sobre quais usuários devem receber visita domiciliar prioritária."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q020",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Interpretação de curvas antropométricas em escore-z na puericultura",
+    "subtema": "Diagnóstico de sobrepeso em criança de 2 anos e orientação nutricional",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_06"],
+    "tags": ["puericultura", "escore-z", "sobrepeso infantil", "antropometria", "orientação nutricional"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Tranquilizar a mãe ignora que o IMC para a idade com escore-z de +2,8 ultrapassa o ponto de corte de +2 para menores de 5 anos, caracterizando sobrepeso que demanda intervenção precoce.",
+      "B": "Incorreta. A idade óssea por radiografia de punho e mão só se justifica na investigação de baixa estatura, situação que exigiria escore-z de estatura para idade abaixo de -2; o valor de -0,7 está dentro da normalidade.",
+      "C": "Incorreta. Não há baixa estatura a ser investigada e o sobrepeso isolado, sem sinais de endocrinopatia ou comorbidade, deve ser manejado na atenção primária, sem encaminhamento imediato ao especialista.",
+      "D": "Correta. Com estatura para idade adequada e IMC para idade acima de +2 escores-z, o diagnóstico é sobrepeso; a conduta inicial é a orientação sobre alimentação saudável, redução de ultraprocessados, atividade física e acompanhamento longitudinal do crescimento."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q033",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Dermatoses transitórias benignas do recém-nascido",
+    "subtema": "Eritema tóxico neonatal e seus diagnósticos diferenciais",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_03", "dcn2025_comp_06"],
+    "tags": ["neonatologia", "eritema tóxico", "dermatologia pediátrica", "lesões transitórias", "puericultura"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A miliária rubra resulta da obstrução dos ductos sudoríparos por calor excessivo e agasalhamento, manifestando-se por micropápulas e vesículas eritematosas em áreas de dobras e regiões cobertas, sem o halo eritematoso amplo característico.",
+      "B": "Correta. O eritema tóxico neonatal é dermatose benigna e autolimitada, com pápulas e pústulas de conteúdo eosinofílico circundadas por halo eritematoso, surgindo tipicamente entre o segundo e o quarto dia de vida em recém-nascido a termo hígido, com resolução espontânea em cerca de uma semana.",
+      "C": "Incorreta. A melanose pustulosa transitória já está presente ao nascimento, com pústulas superficiais frágeis que se rompem deixando colarete descamativo e mácula hiperpigmentada residual, sem halo eritematoso proeminente.",
+      "D": "Incorreta. A candidíase neonatal cursa com placas eritematosas confluentes, descamação e lesões satélites, com predileção por área de fralda e mucosa oral, e não é autolimitada, exigindo antifúngico."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q047",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Apendicite aguda não complicada: tratamento cirúrgico e antibioticoprofilaxia",
+    "subtema": "Apendicectomia videolaparoscópica e cobertura antimicrobiana perioperatória",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["apendicite aguda", "apendicectomia laparoscópica", "antibioticoprofilaxia", "abdome agudo", "cirurgia geral"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Com diagnóstico já estabelecido pela tomografia, a videolaparoscopia deve ser terapêutica, com ressecção do apêndice, e não meramente exploratória; o metronidazol isolado tampouco cobre os aeróbios Gram-negativos entéricos.",
+      "B": "Incorreta. A via aberta não é a preferencial quando há disponibilidade da laparoscopia, que reduz infecção de sítio cirúrgico, dor e tempo de internação; a gentamicina agrega nefrotoxicidade sem benefício em apendicite não complicada.",
+      "C": "Incorreta. A laparotomia exploratória é desnecessária diante de diagnóstico tomográfico definido, e antibioticoterapia por sete dias é indicada apenas em apendicite complicada com perfuração ou abscesso, e não no quadro não complicado.",
+      "D": "Correta. Na apendicite aguda não complicada, a apendicectomia videolaparoscópica é a técnica de escolha, e a profilaxia com cefazolina associada a metronidazol antes da incisão cobre adequadamente a flora aeróbia e anaeróbia colônica, dispensando manutenção pós-operatória prolongada."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q061",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diagnóstico diferencial do episódio depressivo maior com ataques de pânico",
+    "subtema": "Critérios diagnósticos e especificadores em transtornos do humor e de ansiedade",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_03", "dcn2025_comp_12"],
+    "tags": ["depressão", "ataque de pânico", "psiquiatria", "diagnóstico diferencial", "anedonia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O transtorno de pânico exige ataques recorrentes com preocupação persistente sobre novas crises ou mudança desadaptativa de comportamento, e a agorafobia requer medo de situações das quais a fuga seria difícil; o isolamento aqui decorre da anedonia, não de esquiva fóbica.",
+      "B": "Incorreta. O diagnóstico de transtorno bipolar depende da existência atual ou pregressa de episódio maníaco ou hipomaníaco, que não é relatado em nenhum momento da história do paciente.",
+      "C": "Incorreta. A ansiedade generalizada caracteriza-se por preocupação excessiva e difusa por pelo menos seis meses sobre múltiplos domínios da vida, o que não corresponde ao quadro de dois meses centrado em humor deprimido e anedonia.",
+      "D": "Correta. O paciente preenche critérios de episódio depressivo maior com anedonia, humor deprimido, perda ponderal, hipersonia, fadiga e prejuízo de concentração por mais de duas semanas; os ataques de pânico isolados configuram o especificador de sintomas de pânico, e não um transtorno independente."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q074",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Abreviação do período expulsivo por sofrimento fetal agudo",
+    "subtema": "Indicação de parto vaginal instrumentado com fórceps de alívio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_20"],
+    "tags": ["fórceps", "período expulsivo", "sofrimento fetal", "cardiotocografia", "parto vaginal assistido"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Com o polo cefálico já insinuado em De Lee +2 e dilatação total, a cesariana torna-se tecnicamente difícil e mais mórbida que o parto instrumentado, além de demandar tempo incompatível com a urgência da bradicardia fetal.",
+      "B": "Correta. Estão preenchidos todos os pré-requisitos para o fórceps de alívio: dilatação completa, membranas rotas, apresentação cefálica fletida em occipitopúbica, insinuada em +2, proporção cefalopélvica adequada, analgesia instalada e equipe experiente, permitindo a extração fetal imediata diante da bradicardia.",
+      "C": "Incorreta. Reforçar a ocitocina aumenta a atividade uterina e reduz ainda mais a perfusão útero-placentária durante as contrações, agravando a hipóxia fetal já evidenciada pela bradicardia.",
+      "D": "Incorreta. O limite de três horas para o período expulsivo em primípara com analgesia aplica-se apenas enquanto houver vitalidade fetal preservada; diante de bradicardia, a conduta expectante é inadmissível."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q088",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Laringotraqueíte viral aguda com estridor em repouso no lactente",
+    "subtema": "Tratamento do crupe moderado a grave com corticoide e adrenalina inalatória",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["crupe", "laringotraqueíte", "estridor", "adrenalina inalatória", "corticoterapia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Os agonistas beta-2 atuam na musculatura lisa brônquica e não têm efeito sobre o edema subglótico responsável pelo estridor inspiratório; a obstrução aqui é de via aérea alta, e não broncoespasmo.",
+      "B": "Correta. O quadro configura crupe moderado a grave, com estridor em repouso, tiragem e cianose ao esforço; a adrenalina nebulizada promove vasoconstrição e reduz rapidamente o edema subglótico, enquanto o corticoide sistêmico sustenta a resposta anti-inflamatória, exigindo observação hospitalar pelo risco de efeito rebote.",
+      "C": "Incorreta. A intubação orotraqueal é reservada à falência respiratória iminente, com exaustão, alteração do nível de consciência ou hipoxemia refratária, situação distinta de um paciente com saturação de 96% e boa entrada de ar bilateral.",
+      "D": "Incorreta. O corticoide inalatório é menos eficaz que o sistêmico no crupe, e a alta é contraindicada em criança com estridor em repouso e cianose ao esforço, pelo risco de deterioração rápida da via aérea."
+    }
+  }
+]

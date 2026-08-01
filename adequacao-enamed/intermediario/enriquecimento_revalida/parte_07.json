@@ -1,0 +1,268 @@
+[
+  {
+    "id_origem": "revalida2023_2_q008",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Complicações tardias da derivação gástrica em Y-de-Roux",
+    "subtema": "Síndrome de dumping tardio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["cirurgia bariátrica", "dumping", "hipoglicemia reativa", "pós-operatório"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A comunicação anômala entre a bolsa gástrica e o estômago excluso cursa com reganho de peso, dor epigástrica e doença ulcerosa marginal, sendo habitualmente identificada na endoscopia ou no estudo contrastado — exames aqui normais.",
+      "B": "Correta. A perda do mecanismo pilórico faz o carboidrato simples chegar rapidamente ao intestino delgado, gerando pico insulínico desproporcional e hipoglicemia reativa 1 a 3 horas após a refeição, com sintomas adrenérgicos e neuroglicopênicos, além do componente gastrointestinal, sem qualquer achado estrutural nos exames.",
+      "C": "Incorreta. Peritonite bacteriana produz quadro agudo e contínuo, com febre, dor abdominal intensa, defesa e sinais de resposta inflamatória sistêmica, incompatível com sintomas episódicos desencadeados pela alimentação e exame físico e bioquímica normais.",
+      "D": "Incorreta. As carências de ferro e de vitaminas do complexo B decorrentes da exclusão duodenojejunal manifestam-se como anemia, glossite ou neuropatia de instalação insidiosa, e não como crises pós-prandiais autolimitadas; ademais, a bioquímica encontra-se sem alterações."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q021",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Investigação laboratorial do hipertireoidismo por doença de Graves",
+    "subtema": "Anticorpo antirreceptor de TSH (TRAb)",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["endocrinologia", "doença de Graves", "tireotoxicose", "autoanticorpos"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A cintilografia com captação de radioiodo é reservada aos casos em que a etiologia permanece indefinida ou quando se suspeita de tireoidite ou nódulo autônomo, e é contraindicada na gestação e lactação; não é o exame confirmatório de escolha quando o quadro clínico já é típico.",
+      "B": "Incorreta. A ultrassonografia avalia morfologia, volume e nódulos, mas não distingue as causas de tireotoxicose nem confirma autoimunidade, sendo dispensável em bócio difuso pequeno sem nódulo palpável.",
+      "C": "Incorreta. A punção aspirativa é indicada para investigação citológica de nódulos tireoidianos com critérios de risco, situação ausente em glândula difusamente aumentada e não nodular.",
+      "D": "Correta. O anticorpo estimulador do receptor de TSH é o marcador etiológico da doença de Graves e confirma a natureza autoimune da tireotoxicose diante de oftalmopatia infiltrativa e bócio difuso, com alta sensibilidade e especificidade e sem exposição à radiação."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q035",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sinais de alerta do neurodesenvolvimento e encaminhamento no transtorno do espectro autista",
+    "subtema": "Coordenação do cuidado entre APS e atenção especializada",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_22"],
+    "tags": ["puericultura", "autismo", "desenvolvimento infantil", "atenção primária", "referenciamento"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Manter apenas a rotina de puericultura posterga o diagnóstico funcional e o plano terapêutico especializado, ainda que a estimulação precoce seja necessária; diante de sinais de alerta francos, a conduta expectante compromete a janela de neuroplasticidade.",
+      "B": "Incorreta. Instrumentos de rastreamento como o M-CHAT destinam-se a crianças assintomáticas para detectar risco; quando já existem sinais de alerta manifestos, o rastreamento não descarta a condição nem deve retardar o encaminhamento.",
+      "C": "Incorreta. Ausência de sorriso social, de contato visual, de resposta ao nome e de lalação em lactente de 6 meses configura exatamente os sinais de alerta descritos, já com déficit auditivo afastado, tornando inaceitável aguardar até os 16 meses.",
+      "D": "Correta. Diante de marcos de socialização e de linguagem ausentes e de causa auditiva excluída, cabe encaminhar à atenção especializada para avaliação diagnóstica e plano terapêutico, mantendo o vínculo longitudinal e a coordenação do cuidado pela equipe de saúde da família."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q051",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Síndrome colinérgica aguda por inseticidas organofosforados",
+    "subtema": "Antidoto e manejo inicial na emergência",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_14"],
+    "tags": ["toxicologia", "organofosforado", "atropina", "síndrome colinérgica", "emergência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A intoxicação por bloqueador de canal de cálcio cursa com bradicardia e hipotensão, porém sem miose, sialorreia, fasciculações ou incontinência; a fisostigmina, por inibir a colinesterase, agravaria fatalmente um quadro colinérgico.",
+      "B": "Incorreta. A intoxicação cumarínica manifesta-se por sangramentos e alargamento do tempo de protrombina, sem qualquer componente muscarínico ou nicotínico como o descrito.",
+      "C": "Incorreta. O excesso de agonista beta-2 provoca taquicardia, tremor, hipocalemia e hiperglicemia, o oposto do padrão apresentado; a fentolamina é antagonista alfa-adrenérgico, sem papel nesse contexto.",
+      "D": "Correta. A exposição rural a inseticidas anticolinesterásicos gera acúmulo de acetilcolina com síndrome muscarínica (miose, sialorreia, lacrimejamento, broncorreia, incontinência, bradicardia) e nicotínica (fasciculações); a atropina antagoniza os receptores muscarínicos e deve ser titulada até a reversão da secreção brônquica, associando-se pralidoxima."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q065",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Tuberculose pulmonar em pessoa em situação de rua e tratamento diretamente observado",
+    "subtema": "Interpretação do teste rápido molecular e organização do TDO",
+    "competencia_dcn_2025": ["dcn2025_comp_11", "dcn2025_comp_06", "dcn2025_comp_24", "dcn2025_comp_15"],
+    "tags": ["tuberculose", "consultório na rua", "TDO", "populações vulnerabilizadas", "TRM-TB"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado não explicita o resultado do teste rápido molecular, exigindo que o candidato infira a ausência de resistência à rifampicina a partir das alternativas.",
+    "justificativas": {
+      "A": "Incorreta. Havendo resistência à rifampicina, o esquema básico estaria contraindicado; além disso, dispensar o tratamento diretamente observado em população de alta vulnerabilidade favorece abandono e amplificação de resistência.",
+      "B": "Incorreta. O início do tratamento não deve aguardar a cultura, cujo resultado leva semanas, sob pena de manter a transmissão; a responsabilidade pelo acompanhamento também não se transfere integralmente ao nível terciário.",
+      "C": "Correta. Sem detecção de resistência à rifampicina, inicia-se de imediato o esquema básico RIPE, e o TDO pode ser realizado por pessoa com vínculo com o usuário e com o serviço, desde que supervisionada semanalmente pelo profissional responsável — estratégia prevista para garantir adesão em pessoas em situação de rua.",
+      "D": "Incorreta. Postergar o tratamento até a cultura e presumir a impossibilidade do TDO nessa população contraria as diretrizes do programa nacional e reproduz barreira de acesso, sendo o Consultório na Rua justamente o dispositivo que viabiliza o acompanhamento."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q080",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Vigilância epidemiológica e diagnóstico laboratorial da febre amarela silvestre",
+    "subtema": "Notificação imediata de caso suspeito e sorologia IgM",
+    "competencia_dcn_2025": ["dcn2025_comp_24", "dcn2025_comp_14", "dcn2025_comp_15", "dcn2025_comp_21"],
+    "tags": ["febre amarela", "notificação compulsória", "epizootia", "sorologia IgM", "arbovirose"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A confirmação exige critério laboratorial ou, excepcionalmente, vínculo epidemiológico com caso humano confirmado; a mera ocorrência de epizootia sustenta a suspeição, e a notificação imediata é feita como caso suspeito.",
+      "B": "Correta. Todo caso suspeito de febre amarela é de notificação imediata às vigilâncias municipal, estadual e federal; a pesquisa de IgM por ELISA (MAC-ELISA) torna-se positiva a partir do sétimo dia de sintomas, quando a viremia declina, e sua interpretação depende do antecedente vacinal, já que a vacina de vírus vivo atenuado também induz IgM.",
+      "C": "Incorreta. O ciclo urbano, transmitido por Aedes aegypti, não é presumível em exposição em mata com epizootia em primatas; a IgG isolada não confirma infecção aguda, pois apenas indica exposição prévia ou vacinação.",
+      "D": "Incorreta. A janela sorológica de IgM inicia-se por volta do sétimo dia, não do décimo, e o estado vacinal não pode ser desconsiderado, sob risco de resultado falso-positivo atribuível à vacinação recente."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q094",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Fatores de risco para trabalho de parto pré-termo",
+    "subtema": "Infecção do trato urinário e anemia na gestação",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["prematuridade", "pré-natal", "infecção urinária", "anemia gestacional"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O tabagismo é fator de risco reconhecido para prematuridade, o que gera sobreposição parcial com a alternativa A e reduz a discriminação do item.",
+    "justificativas": {
+      "A": "Incorreta. A prática regular de exercícios de baixo impacto como Pilates e hidroginástica é recomendada na gestação de baixo risco e não antecipa o parto, não podendo compor um par de fatores de risco.",
+      "B": "Incorreta. Ainda que a infecção urinária seja fator de risco, a idade de 33 anos não caracteriza idade materna avançada, cujo ponto de corte habitual é 35 anos ou mais.",
+      "C": "Correta. A bacteriúria e a pielonefrite desencadeiam liberação de citocinas e prostaglandinas com contratilidade uterina e ruptura de membranas, e a anemia materna (hemoglobina de 9 g/dL) associa-se de forma independente a hipóxia placentária, estresse oxidativo e maior incidência de parto pré-termo.",
+      "D": "Incorreta. Embora a anemia seja de fato fator de risco, a idade de 33 anos não configura fator etário de risco, o que invalida o par apresentado."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q008",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Crise convulsiva febril simples na infância",
+    "subtema": "Classificação e conduta na emergência pediátrica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["convulsão febril", "pediatria", "emergência", "neurologia infantil"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Embora a classificação como crise febril simples esteja correta, neuroimagem e punção lombar não são rotina nessa situação; a punção lombar reserva-se a sinais meníngeos, alteração persistente do sensório ou lactentes de risco, ausentes neste caso.",
+      "B": "Incorreta. Crise generalizada única, com duração inferior a 15 minutos e sem recorrência em 24 horas, não preenche critérios de crise febril complexa, e o eletroencefalograma não investiga a causa da febre nem altera a conduta.",
+      "C": "Correta. Trata-se de crise febril simples — tônico-clônica generalizada, com menos de 15 minutos, episódio único, em criança de 6 meses a 5 anos com exame neurológico normal na recuperação; a conduta é identificar e tratar o foco da febre, orientar a família sobre o bom prognóstico e dispensar exames complementares de rotina.",
+      "D": "Incorreta. Não há critérios de complexidade (crise focal, prolongada ou repetida no mesmo episódio febril), e a ressonância magnética não tem indicação na avaliação inicial nem esclarece a etiologia infecciosa da febre."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q022",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Tratamento da úlcera neuropática do pé diabético",
+    "subtema": "Alívio de pressão e cuidado da ferida",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["pé diabético", "úlcera neuropática", "diabetes mellitus tipo 1", "curativo"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A simpatectomia lombar visa vasodilatação em isquemia crítica não revascularizável e não tem papel em lesão de mecanismo neuropático com pulsos cheios e simétricos.",
+      "B": "Incorreta. O enxerto cutâneo pressupõe leito preparado e, sobretudo, remoção do fator causal; aplicado sobre área de carga sem alívio de pressão, tende à falência precoce, e a lesão já apresenta tecido de granulação com potencial de cicatrização.",
+      "C": "Incorreta. A compressão é o pilar do tratamento da úlcera venosa de perna, condição que cursa com edema, dermatite ocre e lipodermatosclerose, e pode ser deletéria em pé diabético.",
+      "D": "Correta. A úlcera plantar sobre proeminência metatarsal, indolor, com hiperqueratose e perfusão preservada, é neuropática por perda da sensibilidade protetora; o tratamento consiste em desbridamento da hiperqueratose, curativos e, essencialmente, alívio da pressão com calçado adaptado ou órtese de descarga, junto ao controle glicêmico."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q035",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Esquistossomose mansônica na forma hepatoesplênica com hipertensão portal",
+    "subtema": "Investigação complementar inicial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_15"],
+    "tags": ["esquistossomose", "hipertensão portal", "hemorragia digestiva alta", "doenças negligenciadas"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A intradermorreação tem baixa acurácia e não é utilizada na rotina diagnóstica da esquistossomose, além de não permitir avaliar a fibrose periportal característica da forma crônica.",
+      "B": "Correta. Diante de hemorragia digestiva alta em paciente com exposição a coleções de água com caramujos, a ultrassonografia abdominal identifica a fibrose periportal de Symmers e os sinais de hipertensão portal, a endoscopia digestiva alta define a presença de varizes e permite terapêutica, e a pesquisa de ovos nas fezes pelo método de Kato-Katz confirma a etiologia parasitária.",
+      "C": "Incorreta. A ressonância e a biópsia retal são recursos de exceção, reservados a casos com parasitológicos repetidamente negativos, e não constituem investigação inicial em quadro com sangramento ativo a ser esclarecido.",
+      "D": "Incorreta. Radiografia de tórax, ELISA e PCR sérica não avaliam a hipertensão portal nem a fonte do sangramento; a sorologia ainda apresenta reação cruzada e não distingue infecção ativa de contato pregresso."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q049",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Profilaxia intraparto da sepse neonatal precoce por estreptococo do grupo B",
+    "subtema": "Bacteriúria por Streptococcus agalactiae como indicação de profilaxia",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["estreptococo grupo B", "sepse neonatal", "profilaxia antibiótica", "trabalho de parto"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O teste rápido intraparto é alternativa apenas quando o estado de colonização é desconhecido e não há outro critério de indicação; aqui a bacteriúria já estabelece a indicação, e aguardar o teste retardaria a profilaxia.",
+      "B": "Incorreta. A conduta expectante expõe o recém-nascido ao risco de doença estreptocócica precoce, já que existe indicação formal de antibioticoprofilaxia.",
+      "C": "Correta. A presença de Streptococcus agalactiae na urocultura em qualquer contagem durante a gestação indica colonização materna maciça e dispensa a cultura de rastreamento, impondo profilaxia intraparto com penicilina G cristalina endovenosa, iniciada ao diagnóstico do trabalho de parto e mantida até o nascimento.",
+      "D": "Incorreta. A ampicilina é apenas alternativa à penicilina, que permanece o fármaco de escolha por menor espectro, e a indicação independe da ruptura das membranas, pois já está definida pela bacteriúria."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q063",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Bronquiolite viral aguda no lactente jovem",
+    "subtema": "Tratamento de suporte e uso racional de medicamentos",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["bronquiolite", "vírus sincicial respiratório", "lactente", "oxigenoterapia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. Não há evidência de infecção bacteriana, e os corticosteroides sistêmicos não reduzem tempo de internação nem gravidade na bronquiolite, sendo desaconselhados pelas diretrizes.",
+      "B": "Correta. A bronquiolite tem tratamento exclusivamente de suporte: manutenção da hidratação e da oferta nutricional, desobstrução das vias aéreas superiores com solução salina e oxigenoterapia quando a saturação está abaixo do alvo, como nos 91% em ar ambiente deste lactente.",
+      "C": "Incorreta. Broncodilatadores não são recomendados de rotina por ausência de benefício consistente, e corticoide e anti-histamínico não atuam sobre a obstrução por edema e debris celulares dos bronquíolos.",
+      "D": "Incorreta. Embora a oxigenoterapia esteja indicada, o antibiótico é desnecessário em quadro viral sem sinais de coinfecção bacteriana, e o broncodilatador carece de eficácia comprovada nessa faixa etária."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q076",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Reação cutânea a anti-inflamatório não esteroidal (farmacodermia)",
+    "subtema": "Diagnóstico diferencial e conduta ambulatorial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_01"],
+    "tags": ["farmacodermia", "reação adversa a medicamento", "AINE", "anti-histamínico"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A doença do soro cursa com febre, artralgias, linfadenopatia e urticária cerca de 1 a 3 semanas após a exposição, por deposição de imunocomplexos; ademais, jamais se mantém o fármaco suspeito.",
+      "B": "Incorreta. A anafilaxia exige acometimento sistêmico agudo, com comprometimento respiratório ou cardiovascular, ausente em paciente com sinais vitais normais, ausculta normal e lesões cutâneas isoladas de instalação em dias.",
+      "C": "Correta. O exantema papuloeritematoso disseminado surgido dias após a introdução do naproxeno caracteriza reação cutânea tardia ao medicamento; a conduta é suspender imediatamente o agente causal e prescrever anti-histamínico por via oral para controle do prurido, com orientação sobre sinais de gravidade.",
+      "D": "Incorreta. A dermatite atópica é doença crônica e recidivante, de distribuição flexural e com história pessoal ou familiar de atopia, não sendo desencadeada de forma aguda por fármaco; a via endovenosa também é desnecessária em paciente estável."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q090",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem inicial do sangramento uterino anormal na perimenopausa",
+    "subtema": "Exclusão de causas estruturais e de gestação",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["sangramento uterino anormal", "climatério", "perimenopausa", "propedêutica ginecológica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. O sangramento uterino anormal é queixa ginecológica de alta prevalência, acometendo cerca de um terço das mulheres em idade reprodutiva, com pico justamente na menacme e na transição menopausal.",
+      "B": "Incorreta. A histerectomia é recurso de última linha, reservado à falha do tratamento clínico ou a causas estruturais específicas; a primeira linha é medicamentosa, com antifibrinolíticos, anti-inflamatórios, progestagênios ou sistema intrauterino de levonorgestrel.",
+      "C": "Correta. A avaliação inicial exige exame especular e toque para afastar causas do trato genital inferior, como lesões vaginais e cervicais, e a exclusão de gestação em mulher em idade fértil, ainda que na perimenopausa, antes de atribuir o sangramento a disfunção ovulatória.",
+      "D": "Incorreta. A afirmação inverte as propriedades do método: a ultrassonografia transvaginal apresenta alta sensibilidade para alterações endometriais, com especificidade limitada, motivo pelo qual achados suspeitos demandam histeroscopia com biópsia para definição histológica."
+    }
+  }
+]

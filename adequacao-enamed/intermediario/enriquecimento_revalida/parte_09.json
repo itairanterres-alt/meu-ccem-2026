@@ -1,0 +1,410 @@
+[
+  {
+    "id_origem": "revalida2023_2_q010",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Otite média aguda complicada por mastoidite em lactente durante epidemia de dengue",
+    "subtema": "Diagnóstico diferencial de febre e indicação de antibioticoterapia parenteral",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "mastoidite",
+      "otite média aguda",
+      "ceftriaxona",
+      "febre em lactente",
+      "dengue"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item trata a prova do laço negativa como suficiente para 'descartar' dengue, o que é tecnicamente frágil, já que esse teste tem baixa sensibilidade e não exclui a doença.",
+    "justificativas": {
+      "A": "Incorreta. Manter a hipótese de dengue diante de um foco bacteriano evidente desvia a conduta; além disso, a sorologia (IgM) só se positiva a partir do sexto dia de doença e não orientaria a decisão terapêutica imediata.",
+      "B": "Correta. O abaulamento e a opacificação da membrana timpânica associados a hiperemia e dor retroauricular caracterizam mastoidite aguda, complicação supurativa que exige internação e antibioticoterapia parenteral de amplo espectro com boa penetração óssea e liquórica, como a ceftriaxona.",
+      "C": "Incorreta. Antibiótico oral ambulatorial é insuficiente para mastoidite, e manter a investigação de dengue posterga o tratamento de uma complicação com risco de abscesso subperiosteal, trombose de seio sigmoide e meningite.",
+      "D": "Incorreta. Embora afaste corretamente a dengue, propõe tratamento domiciliar com amoxicilina-clavulanato, incompatível com o comprometimento mastóideo e com o estado geral comprometido (prostração, sonolência, desidratação) do lactente."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q023",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Classificação das causas de mortalidade infantil evitáveis pela Lista Brasileira de Causas Evitáveis",
+    "subtema": "Indicadores de saúde e vigilância do óbito infantil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_24",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "mortalidade infantil",
+      "causas evitáveis",
+      "epidemiologia",
+      "indicadores de saúde"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As três condições são reduzíveis por ações dos serviços de saúde: a sífilis congênita, por diagnóstico e tratamento adequados no pré-natal; a desnutrição, por ações de promoção da saúde e atenção nutricional; e a asfixia ao nascer, por atenção qualificada ao parto e reanimação neonatal.",
+      "B": "Incorreta. Sarampo (imunoprevenível) e desnutrição são evitáveis, mas as malformações congênitas do sistema nervoso central são classificadas como causas não evitáveis ou não claramente reduzíveis pelas ações dos serviços de saúde.",
+      "C": "Incorreta. Tuberculose e anemias carenciais são reduzíveis por prevenção, diagnóstico e tratamento, porém a síndrome da morte súbita do lactente não integra o grupo de causas evitáveis, por não ter mecanismo causal plenamente controlável.",
+      "D": "Incorreta. A síndrome da rubéola congênita é imunoprevenível e o traumatismo de parto é reduzível por atenção adequada ao parto, mas as doenças desmielinizantes não são passíveis de prevenção pelos serviços de saúde."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q038",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Confidencialidade e prescrição de anticoncepção a adolescente sem anuência dos pais",
+    "subtema": "Bioética, ECA e Código de Ética Médica na atenção ao adolescente",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_04",
+      "dcn2025_comp_02",
+      "dcn2025_comp_05"
+    ],
+    "tags": [
+      "confidencialidade",
+      "adolescência",
+      "anticoncepção",
+      "ECA",
+      "ética médica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas são muito extensas e combinam vários julgamentos em um único bloco, o que amplia a carga de leitura e favorece a resolução por eliminação parcial.",
+    "justificativas": {
+      "A": "Incorreta. A procura espontânea por método contraceptivo não configura risco iminente à vida, único cenário que autorizaria a quebra do sigilo; recusar a prescrição e comunicar os responsáveis viola a autonomia progressiva e afasta a adolescente do serviço.",
+      "B": "Correta. A adolescente com capacidade de discernimento tem direito ao atendimento sigiloso e à prescrição contraceptiva; a busca ativa por orientação sinaliza maturidade, e negar a prescrição aumenta o risco de automedicação e gravidez não planejada, cabendo ainda estimular a dupla proteção e o diálogo familiar sem impô-lo.",
+      "C": "Incorreta. Embora acerte ao preservar o sigilo, nega o direito à contracepção com base em receio de responsabilização; a prescrição segue critérios de elegibilidade clínica e não exige aval dos responsáveis para adolescente com discernimento.",
+      "D": "Incorreta. A capacidade civil para atos patrimoniais não se confunde com a capacidade de consentir sobre a própria saúde; comunicar os pais contra a vontade da adolescente, sem risco grave, quebra indevidamente a confidencialidade."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q053",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Abordagem inicial da febre em criança com leucemia e cateter de longa permanência",
+    "subtema": "Neutropenia febril e propedêutica na emergência oncológica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "neutropenia febril",
+      "leucemia linfoide aguda",
+      "hemocultura",
+      "cateter venoso central",
+      "emergência oncológica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A antibioticoterapia empírica de amplo espectro é de fato prioritária, mas a retirada ou troca do cateter não é imediata: reserva-se a infecção de túnel, instabilidade hemodinâmica ou persistência de hemoculturas positivas apesar do tratamento.",
+      "B": "Incorreta. Em paciente quimiotratado há uma semana, a febre é o único sinal exigido para investigação, pois a neutropenia abole a resposta inflamatória e o exame físico normal não exclui bacteriemia grave.",
+      "C": "Correta. Quimioterapia recente para leucemia aguda coloca a criança no nadir medular e configura alto risco; a propedêutica inicial obrigatória inclui hemograma com contagem de neutrófilos, hemoculturas pareadas de sangue periférico e do cateter e provas inflamatórias, sem retardar o antibiótico empírico.",
+      "D": "Incorreta. Inverte a lógica assistencial ao condicionar as hemoculturas ao resultado do hemograma; as coletas devem ser simultâneas, já que aguardar o leucograma atrasa o diagnóstico microbiológico e o início do tratamento."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q068",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Conduta da equipe de Saúde da Família diante de recusa vacinal pelos pais",
+    "subtema": "ECA, obrigatoriedade vacinal e acionamento do Conselho Tutelar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_12",
+      "dcn2025_comp_05",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "recusa vacinal",
+      "ECA",
+      "Conselho Tutelar",
+      "imunização",
+      "saúde da família"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa apontada como correta e a que propõe sensibilizar a família antes de acionar o Conselho Tutelar são ambas defensáveis, o que torna o item passível de contestação quanto à conduta inicial.",
+    "justificativas": {
+      "A": "Incorreta. O poder familiar não é absoluto e cede diante do princípio da proteção integral; ademais, a eficácia e a segurança das vacinas do calendário são consenso científico, não matéria controversa.",
+      "B": "Incorreta. Restringir a atuação à sensibilização e postergar o acionamento do Conselho Tutelar para situações excepcionais contraria o caráter compulsório da vacinação infantil, que independe da concordância dos responsáveis.",
+      "C": "Correta. O artigo 14 do Estatuto da Criança e do Adolescente torna obrigatória a vacinação das crianças nos casos recomendados pelas autoridades sanitárias, de modo que a recusa dos pais configura descumprimento de dever legal e enseja comunicação ao Conselho Tutelar, sem que isso impeça a imunização imediata na visita.",
+      "D": "Incorreta. Vacinar contrariando os pais sem qualquer comunicação ao órgão de proteção deixa a equipe sem respaldo institucional e omite a notificação exigida diante de situação de negligência."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q082",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Determinação do nível neurológico em trauma raquimedular cervical por mergulho",
+    "subtema": "Correlação entre miótomos, dermátomos e nível da lesão vertebral",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "trauma raquimedular",
+      "nível neurológico",
+      "coluna cervical",
+      "tetraplegia",
+      "ATLS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A fratura de Jefferson resulta de carga axial sobre C1 e, quando cursa com lesão medular, o nível é altíssimo, com perda da função diafragmática e dos miótomos proximais dos membros superiores, o que não se observa aqui.",
+      "B": "Correta. A sensibilidade preservada nos dedos I a III (C6), abolida no IV e V dedos (C8), somada à extensão do cotovelo apenas grau 2 (tríceps, C7) e à ausência de flexão dos dedos (C8), define nível neurológico em C7, compatível com fratura de C7 e subluxação C7-T1.",
+      "C": "Incorreta. A fratura isolada de processo transverso de C3 com lesão da artéria vertebral produz síndrome isquêmica vertebrobasilar ou é assintomática, não um déficit sensitivo-motor segmentar com nível bem demarcado em C7.",
+      "D": "Incorreta. A fratura do enforcado (espondilolistese traumática do áxis) acomete a pars interarticular de C2 e, quando há lesão medular, o quadro é de tetraplegia alta com insuficiência ventilatória, incompatível com a preservação de C6 e a força residual do tríceps."
+    }
+  },
+  {
+    "id_origem": "revalida2023_2_q096",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Abscesso pulmonar por pneumonia aspirativa em paciente etilista e em situação de rua",
+    "subtema": "Diagnóstico radiológico e antibioticoterapia empírica de infecção pulmonar necrotizante",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "abscesso pulmonar",
+      "pneumonia aspirativa",
+      "etilismo",
+      "antibioticoterapia empírica",
+      "população vulnerabilizada"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O item depende da radiografia de tórax para a decisão diagnóstica, exigindo que a imagem seja obrigatoriamente reproduzida junto ao enunciado.",
+    "justificativas": {
+      "A": "Incorreta. O tromboembolismo pulmonar cursa com dispneia e dor pleurítica de instalação súbita, sem expectoração pútrida de semanas nem cavitação com nível hidroaéreo; anticoagular não trataria o processo infeccioso.",
+      "B": "Correta. Expectoração fétida e abundante, febre arrastada por semanas e rebaixamento do nível de consciência por álcool e crack favorecem a broncoaspiração de anaeróbios da orofaringe, gerando cavidade com nível hidroaéreo; o tratamento inicial é antibioticoterapia empírica com cobertura para anaeróbios, como clindamicina ou amoxicilina-clavulanato prolongada.",
+      "C": "Incorreta. A neoplasia primária pode escavar, mas raramente produz escarro pútrido com febre alta, e postergar a conduta aguardando broncoscopia deixaria sem tratamento uma infecção necrotizante ativa.",
+      "D": "Incorreta. A tuberculose entra no diferencial pelo curso subagudo, porém o escarro pútrido não é típico e, sobretudo, aguardar cultura, que leva semanas, é conduta inaceitável diante de quadro séptico tratável."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q010",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Emergência hipertensiva com dor torácica e rebaixamento de consciência na atenção primária",
+    "subtema": "Estabilização inicial e transferência para serviço de urgência",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "emergência hipertensiva",
+      "dor torácica",
+      "síndrome coronariana aguda",
+      "AAS",
+      "regulação assistencial"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A redução gradual em 24 a 48 horas com seguimento ambulatorial aplica-se à urgência hipertensiva sem lesão aguda de órgão-alvo, e não a um paciente com dor torácica, dispneia e alteração da consciência.",
+      "B": "Incorreta. Observar na unidade básica aguardando resposta a anti-hipertensivo oral retarda a reperfusão e a propedêutica de emergência, mantendo o paciente em ambiente sem suporte para monitorização e desfibrilação.",
+      "C": "Incorreta. Revisar adesão e ajustar o esquema anti-hipertensivo é conduta de manejo crônico e ignora a instabilidade aguda, que indica acometimento cardiovascular e/ou neurológico em curso.",
+      "D": "Correta. A tríade dor torácica, dispneia e rebaixamento do sensório com PA de 190x120 mmHg caracteriza emergência hipertensiva com lesão aguda de órgão-alvo; a conduta é monitorização de sinais vitais e oximetria, antiagregação com AAS pela suspeita de síndrome coronariana aguda e transferência imediata para serviço de urgência."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q024",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertensão de início tardio na gestação e critérios diagnósticos de pré-eclâmpsia",
+    "subtema": "Investigação de proteinúria e disfunção de órgão-alvo em gestante de 35 semanas",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "pré-eclâmpsia",
+      "síndrome hipertensiva gestacional",
+      "proteinúria",
+      "pré-natal",
+      "obesidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa considerada correta já rotula o quadro como pré-eclâmpsia enquanto propõe exames para confirmá-lo, gerando ambiguidade entre suspeita e diagnóstico estabelecido.",
+    "justificativas": {
+      "A": "Incorreta. Não há critérios de gravidade (PA ≥ 160x110 mmHg, sinais de iminência de eclâmpsia ou disfunção orgânica) que justifiquem interrupção; ademais, a avaliação de maturidade fetal não é mais parâmetro para decidir a via ou o momento do parto.",
+      "B": "Correta. Gestante previamente normotensa com PA ≥ 140x90 mmHg após 20 semanas exige investigação imediata de proteinúria significativa (≥ 300 mg/24 h ou relação proteína/creatinina ≥ 0,3) ou de disfunção de órgão-alvo, como plaquetopenia, elevação de transaminases, creatinina aumentada ou sintomas neurológicos, para firmar o diagnóstico.",
+      "C": "Incorreta. A hipertensão arterial crônica é definida por níveis elevados antes da gestação ou antes de 20 semanas, o que é afastado pelas medidas pressóricas normais registradas ao longo do pré-natal.",
+      "D": "Incorreta. Emergência hipertensiva pressupõe níveis pressóricos graves ou lesão aguda de órgão-alvo; com PA de 140x95 mmHg e paciente assintomática, sulfato de magnésio e interrupção da gestação são intervenções desproporcionais."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q037",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Acesso vascular e reposição volêmica no choque hipovolêmico do trauma pediátrico",
+    "subtema": "Atendimento inicial ao politraumatizado segundo o ATLS pediátrico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "trauma pediátrico",
+      "choque hipovolêmico",
+      "acesso venoso",
+      "reposição volêmica",
+      "ATLS"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A dissecção venosa é procedimento demorado, invasivo e de exceção; além disso, solução glicofisiológica não é fluido de ressuscitação, pois a glicose favorece hiperglicemia e diurese osmótica, agravando a hipovolemia.",
+      "B": "Incorreta. A punção de subclávia em criança chocada tem alto risco de pneumotórax e punção arterial, e o fluido proposto é inadequado para expansão volêmica no trauma.",
+      "C": "Correta. A prioridade é obter dois acessos venosos periféricos calibrosos por punção percutânea e infundir cristaloide isotônico aquecido em bólus de 20 mL/kg, prevenindo a hipotermia que agrava a coagulopatia e a acidose da tríade letal do trauma.",
+      "D": "Incorreta. Embora o fluido esteja correto, o acesso central em jugular é reservado à falha dos acessos periféricos e intraósseo, exigindo mais tempo e maior risco de complicações mecânicas na criança instável."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q052",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hematúria em idoso tabagista exposto a aminas aromáticas e investigação de neoplasia vesical",
+    "subtema": "Cistoscopia com biópsia como exame diagnóstico do tumor de bexiga",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "câncer de bexiga",
+      "hematúria",
+      "cistoscopia",
+      "tabagismo",
+      "exposição ocupacional"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A nefrolitíase costuma manifestar-se com dor lombar em cólica e hematúria episódica; o quadro descrito é indolor e a ressonância não é o método de escolha para litíase, papel da tomografia sem contraste.",
+      "B": "Correta. Hematúria com disúria persistente e infecções urinárias de repetição em homem idoso, tabagista de longa data e exposto a aminas aromáticas da indústria de tintas configura alto risco para carcinoma urotelial; a cistoscopia com biópsia é o exame padrão para visualizar e confirmar histologicamente a lesão.",
+      "C": "Incorreta. O adenocarcinoma prostático costuma ser assintomático nas fases iniciais e cursa com sintomas obstrutivos, não com hematúria como manifestação dominante; o toque retal sem nódulos torna a hipótese menos provável.",
+      "D": "Incorreta. Cistite hemorrágica é evento agudo e autolimitado, não explicando três meses de sintomas; a urografia excretora está em desuso e não permite o diagnóstico histológico necessário."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q065",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Competência intercultural no atendimento a criança indígena com pneumonia grave",
+    "subtema": "Negociação entre prática biomédica e medicina tradicional em distrito sanitário especial indígena",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_02",
+      "dcn2025_comp_08",
+      "dcn2025_comp_04"
+    ],
+    "tags": [
+      "saúde indígena",
+      "competência cultural",
+      "pneumonia grave",
+      "consentimento",
+      "DSEI"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa apontada como correta omite a menção explícita ao tratamento antimicrobiano, deixando o cuidado clínico implícito na indicação de internação.",
+    "justificativas": {
+      "A": "Correta. A criança apresenta sinais de gravidade (taquipneia, letargia e desidratação) que impõem internação, e a manutenção dos emplastros, por serem inócuos, respeita a cultura e a medicina tradicional do povo indígena, favorecendo a adesão da família ao tratamento sem prejuízo ao cuidado biomédico.",
+      "B": "Incorreta. Exigir a retirada dos emplastros como condição para o tratamento impõe a lógica biomédica sobre a prática tradicional, desnecessariamente, já que a intervenção cultural não interfere na terapia parenteral e sua proibição pode gerar recusa e abandono.",
+      "C": "Incorreta. Manter apenas o tratamento domiciliar com ervas e reavaliar em sete dias desconsidera sinais de gravidade que indicam risco de morte, configurando omissão de socorro travestida de respeito cultural.",
+      "D": "Incorreta. O tratamento ambulatorial é insuficiente diante de letargia e sinais de desidratação, que caracterizam pneumonia muito grave com indicação de terapia parenteral e monitorização hospitalar."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q078",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Púrpura palpável com artralgia e dor abdominal após infecção estreptocócica em escolar",
+    "subtema": "Diagnóstico da vasculite por IgA (púrpura de Henoch-Schönlein)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "vasculite por IgA",
+      "Henoch-Schönlein",
+      "púrpura palpável",
+      "enterorragia",
+      "reumatologia pediátrica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A poliarterite nodosa acomete artérias de médio calibre e cursa com nódulos subcutâneos, livedo, mononeurite múltipla, hipertensão e manifestações sistêmicas intensas, sem a púrpura palpável de distribuição gravitacional típica descrita.",
+      "B": "Incorreta. A arterite de Takayasu compromete a aorta e seus ramos, manifestando-se por claudicação de membros, assimetria de pulsos e sopros vasculares, quadro incompatível com púrpura cutânea e enterorragia.",
+      "C": "Incorreta. A doença de Kawasaki exige febre prolongada associada a conjuntivite não exsudativa, alterações de mucosa oral, exantema polimorfo, alterações de extremidades e linfadenopatia cervical, além de cursar tipicamente com trombocitose na segunda semana.",
+      "D": "Correta. Vasculite de pequenos vasos mediada por imunocomplexos de IgA desencadeada por infecção de via aérea prévia, expressa pela tétrade púrpura palpável em membros inferiores e nádegas, artralgia, dor abdominal com sangramento digestivo e possível nefrite, com plaquetas normais, o que exclui causas trombocitopênicas."
+    }
+  },
+  {
+    "id_origem": "revalida2024_1_q092",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diverticulite aguda complicada com abscesso pélvico em paciente com doença diverticular",
+    "subtema": "Tomografia de abdome com contraste na classificação de Hinchey",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "diverticulite aguda",
+      "abscesso pélvico",
+      "tomografia com contraste",
+      "abdome agudo inflamatório",
+      "Hinchey"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Incorreta. A hipótese diagnóstica está correta, mas a colonoscopia é formalmente contraindicada na fase aguda pelo risco de perfuração, sendo indicada apenas após 6 a 8 semanas para afastar neoplasia.",
+      "B": "Incorreta. A peritonite fecal (Hinchey IV) cursa com abdome em tábua, descompressão brusca dolorosa e sepse, ausentes no caso; a radiografia simples só evidencia pneumoperitônio e não define a extensão do processo.",
+      "C": "Incorreta. Embora a tomografia com contraste seja o exame adequado, o diagnóstico de peritonite fecal é incompatível com o abdome flácido, sem irritação peritoneal e com estabilidade hemodinâmica descritos.",
+      "D": "Correta. Dor persistente em fossa ilíaca esquerda, febrícula e plastrão suprapúbico em paciente com doença diverticular sugerem abscesso pélvico (Hinchey I-II); a tomografia de abdome e pelve com contraste é o padrão para confirmar, dimensionar a coleção e definir entre tratamento clínico e drenagem percutânea."
+    }
+  }
+]

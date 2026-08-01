@@ -1,0 +1,281 @@
+[
+  {
+    "id_origem": "questoes_clm_q010",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 10,
+    "enunciado": "Josué, 44 anos, trabalha em um “e- commerce\", em frente ao computador 8 horas dia. Saudável, sem uso de medicações. Para manter a forma física pratica corrida de rua com um grupo de seu bairro. Fumante ativo com 20 maços/ano. Percebeu nos últimos meses maior dificuldade para acompanhar seus pares na corrida. Sente mesmo, falta de ar nesta atividade. Escolha abaixo a resposta que melhor explica a história clínica de Josué",
+    "alternativas": {
+      "A": "O teste de caminhada de 6 minutos vai indicar uma redução da distância percorrida e uma leve dessaturação de oxigênio",
+      "B": "A destruição do parênquima aumenta a resistência do fluxo aéreo e a doença das pequenas vias aéreas reduz o recolhimento elástico dos pulmões",
+      "C": "Na espirometria encontramos uma relação VEF1/CVF abaixo de 70% do previsto e a gasometria com PaCO2 elevada",
+      "D": "Uma inflamação crônica que causa alterações estruturais nas vias aéreas e presença de exsudatos eosinofílicos intraluminais",
+      "E": "Um teste genético para deficiência de alfa-1 antitripsina deve ser solicitado e sua positividade caracteriza o DPOC"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A resposta correta é a letra A) O teste de caminhada de 6 minutos vai indicar uma redução da distância percorrida e uma leve dessaturação de oxigênio. A história clínica de Josué sugere que ele pode estar apresentando uma limitação funcional relacionada ao esforço físico, possivelmente associada ao tabagismo. Além disso, a dessaturação de oxigênio pode indicar uma possível doença pulmonar obstrutiva crônica (DPOC), que é comumente associada ao tabagismo. A inflamação crônica que causa alterações estruturais nas vias aéreas e a presença de exsudatos eosinofílicos intraluminais são características da asma, e não parecem ser o diagnóstico mais provável para o caso de Josué. A opção B não faz sentido, já que a inflamação do parênquima não reduz a resistência ao fluxo aéreo, e a doença das pequenas vias aéreas pode alterar os fluxos, incluindo o Fluxo Expiratório Forçado 25/75%. A opção C sugere um diagnóstico de DPOC, mas não há informações suficientes na história clínica para fazer essa afirmação. A relação VEF1/CVF abaixo de 70% do previsto e a gasometria com PaCO2 elevada são achados comuns em pacientes com DPOC",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q020",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 20,
+    "enunciado": "Paciente de 58 anos, sexo feminino, refere tosse produtiva com expectoração, porém mais abundante pela manhã, há 4 anos. Associado refere dispneia com piora progressiva, e atualmente, não consegue lavar pratos, sem se sentir cansada. Acorda, em média, 2x por semana à noite com falta de ar. Usa salbutamol todos os dias, para alívio dos sintomas diurnos. Relato de vários episódios de chiado e dispneia importantes nos últimos 5 meses, necessitando usar prednisona por 7 dias, em 4 ocasiões. Nega tabagismo. Relata ter crescido na zona rural, teve contato com mofo e fogão à lenha por 45 anos. Marido tabagista 100 a/m. Exame físico com sinais vitais normais, ausculta pulmonar com sibilos em bases, diminuição de murmúrios. Demais parâmetros normais. Pré-BD Pós-BD Previsto LIN CVF 3,50 (91%) 3,60 (93%) 3,84 3,30 VEF1 1,50 (50%) 1,55 (52%) 3,00 2,40 VEF1/CVF 0,42 0,43 0,78 0,70 (colocar legendas das siglas) RX de tórax normal Hemograma: Leucócitos 7.500/mm3 (VRl 4400-11000) Eosinófilos 150/mm3 (2%) (VRl 2-5%) Hemoglobina 19g/dL (VRl 13-18) Plaquetas 320.000/mm3 (VRl 150.000-450.00). Prick test negativo.(verifiar unidades) Qual o diagnóstico?",
+    "alternativas": {
+      "A": "DPOC GOLD E",
+      "B": "Asma não controlada",
+      "C": "DPOC GOLD D",
+      "D": "ACO (Overlap de asma e DPOC)",
+      "E": "Asma parcialmente controlada"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Paciente com história compatível, exposição ao fator de risco presente (fogão à lenha 45 anos), exame compatível. Espirometria DVO sem resposta ao broncodilatador. Muito sintomática, com 4 exacerbações nos últimos 12 meses, o que na classificação atual coloca a paciente como GOLD E",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q030",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 30,
+    "enunciado": "Mulher de 32 anos, natural e procedente de Corumbá - MT, trabalha para a prefeitura com higienização e limpeza de caixas de água, vem a Maringá para visitar a família. Após 3 dias na cidade, apresenta quadro de febre, cefaléia e dores musculares. Vai à UPA onde recebe diagnóstico de “virose” e alta com sintomáticos. Após alguns dias do início dos sintomas evolui com icterícia, além de pneumonite por sangramento pulmonar e insuficiência respiratória. Retorna à UPA e os exames laboratoriais mostram creatinina aumentada e leucocitose com desvio à esquerda. Sobre o quadro acima, ASSINALE a alternativa que apresenta o diagnóstico e tratamento corretos:",
+    "alternativas": {
+      "A": "Leptospirose, a indicação é iniciar Penicilina Cristalina EV",
+      "B": "Dengue hemorrágica, a indicação é introduzir hidratação vigorosa e transfusão sanguínea",
+      "C": "Malária grave e a indicação é utilizar primaquina por 14 dias",
+      "D": "Pneumonia por citomegalovírus, deve-se solicitar exame de HIV e iniciar ganciclovir EV",
+      "E": "Paracoccidioidomicose disseminada e deve-se iniciar Anfotericina B"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A síndrome de Weil é considerada um tipo de leptospirose, nomeada de forma íctero-hemorrágica. É uma forma grave, sendo constituída clinicamente por uma tríade típica: icterícia, insuficiência renal e hemorragias, sendo esta mais comumente pulmonar. Os exames laboratoriais mostram aumento de creatinina e leucocitose com desvio à esquerda. O tratamento é feito com medidas de suporte, diálise precoce e em caso de hemorragia pulmonar, uso de ventilação mecânica com baixo volume e alta PEEP. A antibioticoterapia é indicada e deve ter início precoce com uso de penicilina cristalina 50 a 100.000 UI por kg/dia, administrada em 4 a 6 doses; ou ampicilina 50 a 100 mg/dia, intravenosa, ou ceftriaxona 80 a 100 mg kg/dia em 1 ou 2 doses. Dengue hemorrágica apresenta anemia, leucopenia com linfocitose e plaquetopenia. Poderia pensar em malária por Plasmodium falciparum (doença grave) nesse caso, porém o hemograma apresentaria leucopenia e o tratamento deveria ser feito com Artemer + Lumefantrina associado a primaquina. Diagnóstico de Paracoco e Pneumonia por CMV não cabem no caso acima",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q040",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 40,
+    "enunciado": "Paciente masculino, 65 anos de idade, tabagista de 55 maços/ano, portador de Doença Pulmonar Obstrutiva crônica (DPOC), procura UPA por quadro de tosse produtiva, dispnéia piorada e secreção purulenta, iniciado há aproximadamente 3 dias.Nega febre, e outros sinais e sintomas. Relata acompanhar na UBS próximo a sua casa, porem não faz uso correto das medicações prescritas por sua médica. Pa: 130/80 FR: 20 T, 36.8, Fc 88 Sat 91% em ar ambiente Sobre o quadro assinale a alternativa correta",
+    "alternativas": {
+      "A": "Apresenta todos os critérios de exacerbação de DPOC, deve se iniciar ATB e Corticoide sistemico e ajustar os medicamentos continuos com B2 de ação longa e corticoide inalatorio",
+      "B": "Paciente deve ser internado imediatamente pois necessita de encaminhamento para CPAP",
+      "C": "Paciente com SAT% 91, indicativo de O2 domiciliar por apenas 6 horas ao dia",
+      "D": "Paciente deve ser encaminhado para uso de O2 domiciliar, pois tem grande carga tabágica, não importando outros critérios"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O PACIENTE APRESENTA CLASSICAMENTE A DEFINIÇÃO DE EXACERBAÇÃO DA DOENÇA PULMONAR OBSTRUTIVA CRÔNICA QUE SÃO: PIORA DA DISPNÉIA, AUMENTO DO CATARRO E MUDANÇA DA COR DO CATARRO. A INDICAÇÃO DE O2 DOMICILIAR É DE SAT MENOR QUE 88% E GASOMETRIA COM PO2 MENOR QUE 55",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q050",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 50,
+    "enunciado": "No contexto específico da Lei 12.845 de 2013, que dispõe sobre o atendimento obrigatório e integral de pessoas em situação de violência sexual, a violência sexual se conceitua como:",
+    "alternativas": {
+      "A": "Qualquer forma de atividade sexual não consentida",
+      "B": "Penetração vaginal sem preservativo",
+      "C": "Qualquer forma de trauma fisico na mulher",
+      "D": "Penetração vaginal ou anal não consentida",
+      "E": "Trauma pélvico por cópula não consentida"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O artigo segundo da Lei 12.845 de 2013 estabelece que: considera-se violência sexual, para os efeitos desta Lei, qualquer forma de atividade sexual não consentida",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q060",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 60,
+    "enunciado": "“Àquilo que no exercício ou fora do exercício da profissão e no convívio da sociedade, eu tiver visto ou ouvido, que não seja preciso divulgar, eu conservarei inteiramente secreto.” O trecho do juramento de Hipócrates traz um dos mais importantes princípios da profissão médica, que é o compromisso do sigilo. Entretanto, prevê situações de exceção aos fatos que precisam ser divulgados. Segundo o Código de Ética Médica vigente (Resolução CFM 2217/2018), o sigilo pode ser quebrado pelo médico se:",
+    "alternativas": {
+      "A": "Revelar informações do prontuário do paciente sob sua guarda em sua própria defesa",
+      "B": "Tratar-se de fato já de amplo conhecimento público",
+      "C": "O paciente já tenha falecido",
+      "D": "O paciente autorizar o uso de sua imagem em anúncios profissionais",
+      "E": "Estiver em depoimento como testemunha em investigação que exponha o paciente a processo penal por crime"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O Código de Ética Médica prevê as obrigações e exceções para revelação do sigilo. A afirmação da assertiva “a” está prevista no artigo 89 do C.E.M.. As demais assertivas estão expressamente vedadas nos artigos 73 e 75 do C.E.M",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q070",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 70,
+    "enunciado": "O diagnóstico de sífilis exige uma correlação entre dados clínicos, resultados de testes laboratoriais, histórico de infecções passadas e investigação de exposição recente. Apenas o conjunto de todas essas informações permitirá a correta avaliação diagnóstica de cada caso e, consequentemente, o tratamento adequado. Sobre o tema, identifique a proposição correta",
+    "alternativas": {
+      "A": "A análise isolada do título de um único resultado de VDRL é um equívoco frequente, pois a ideia de um ponto de corte acima do qual o resultado seria indicativo de doença ativa e, abaixo, indicativo de resultado falso reagente ou de inatividade da doença, leva a decisões terapêuticas inadequadas",
+      "B": "Considerando a epidemia de sífilis no Brasil e a sensibilidade dos fluxos de diagnóstico, recomenda-se iniciar a investigação pelo teste não treponêmico, que é o primeiro teste a ficar reagente",
+      "C": "Os títulos altos nos testes não treponêmicos jamais podem ser encontrados em pacientes adequadamente tratados",
+      "D": "Os títulos baixos nos testes treponêmicos podem ser encontrados em casos de pessoas adequadamente tratadas, e esse fenômeno é denominado cicatriz sorológica",
+      "E": "A pesquisa de IgM e IgG pelo método Elisa tem sensibilidade distintas do FTA-Abs, o que justifica sua escolha na sífilis tardia"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Considerando a epidemia de sífilis no Brasil e a sensibilidade dos fluxos de diagnóstico, recomenda-se iniciar a investigação pelo teste treponêmico, que é o primeiro teste a ficar reagente. A análise isolada do título de um único resultado de um teste não treponêmico (ex.: VDRL, RPR) é um equívoco frequente. Textos antigos mencionavam um ponto de corte acima do qual o resultado seria indicativo de doença ativa e, abaixo, indicativo de resultado falso reagente ou de inatividade da doença. Essa ideia leva a decisões terapêuticas inadequadas. Há que se incorporar definitivamente a ideia de que títulos altos nos testes não treponêmicos (em queda) podem ser encontrados em pacientes adequadamente tratados, e de que títulos baixos podem ser encontrados em três situações: - Infecção recente; - Estágios tardios da infecção (sífilis tardia); - Casos de pessoas adequadamente tratadas que não tenham atingido a negativação. Esse fenômeno pode ser temporário ou persistente e é denominado cicatriz sorológica. Os testes treponêmicos (ex.: testes rápidos, FTA-Abs, TPHA), por sua vez, permanecem quase sempre reagentes por toda a vida, apesar de tratamento adequado. Entretanto, frente a achados clínico-epidemiológicos, na ausência de tratamento, são indicativos de doença ativa. Ainda assim, os testes não treponêmicos devem ser solicitados para acompanhamento sorológico",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q080",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 80,
+    "enunciado": "Mulher, 22 anos, com queixa de diarreia, de início há 4 dias, evacuando 3-4 vezes ao dia, fezes líquidas, sem sangue ou muco, vômitos nos dois primeiros dias do quadro, sem febre, com diurese preservada. Chegou na unidade de saúde com olhos fundos e boca levemente seca. Sobre o manejo clínico de diarreia aguda do Ministério da Saúde, a conduta será:",
+    "alternativas": {
+      "A": "ofertar soro de reidratação oral, na média de 75 ml/kg, num período de 4-6 horas. Se o paciente apresentar vômitos persistentes durante a reidratação, administrar ondansetrona (antiemético) na dose de 8mg",
+      "B": "prescrever ciprofloxacino (antibiótico) na dose de 500mg de 12/12 horas por 3 dias, antiemético ondansetrona, uso de probiótico, antidiarreico e hidratação endovenosa",
+      "C": "prescrever zinco na dose de 20mg por 10 a 14 dias, reposição hidrolítica endovenosa e dosagem de sódio, potássio e magnésio a cada 6h por 3 dias",
+      "D": "utilizar antidiarreicos, caso a paciente seja o provedor da família, com afastamento do trabalho por 5 dias e controle de eletrólitos a cada 12h",
+      "E": "orientar uso de probiótico, a base de Saccharomyces boulradii por 5 dias, hidróxido de alumínio e magnésio, esomeprazol 20mg 1 vez ao dia pela manhã"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Trata-se de um caso de diarreia aguda não disenteriforme e o paciente encontra-se desidratado (sinais de desidratação: olhos fundos e boca levemente seca) O ministério da saúde recomenda, nessa situação clínica: 1. A estratégia inicial é reidratar o paciente, por via oral, com solução de sais de reidratação oral, na dose de 50-100ml/Kg. Associar ondansetrona, se apresentar vômitos persistentes durante o manejo no plabo B de reidratação 2. Não recomenda drogas antidiarreicas 3. Zinco em criança até 5 anos de idade 4. Não menciona uso de probióticos (sua indicação não é consensual nos guidelines)",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q003",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 3,
+    "enunciado": "Um paciente adulto apresenta asma com sintomas diurnos duas vezes por semana, despertares noturnos ocasionais (não semanais), sem limitação para atividades habituais e sem histórico de exacerbação grave.De acordo com a GINA 2025, considerando a estratégia terapêutica preferencial (Rota 1) para adultos com asma leve, e com o objetivo de reduzir o risco de exacerbações além de controlar os sintomas, assinale a alternativa que corresponde à conduta inicial de escolh",
+    "alternativas": {
+      "A": "Corticoide inalatório em baixa dose associado a formoterol, utilizado conforme necessidade como terapia de alívio",
+      "B": "SABA (agonista β2 de curta duração) sob demanda, reservando corticoide inalatório apenas se houver piora clínica",
+      "C": "LABA (agonista β2 de longa duração) isolado, diariamente, como tratamento de manutenção",
+      "D": "Corticoide inalatório em baixa dose, em regime fixo de manutenção, associado a SABA como medicação de alívio"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A) CORRETA:ICS–formoterol em baixa dose sob demanda (Rota 1), é a estratégia preferencial da GINA 2025 para adultos com asma leve. Reduz significativamente exacerbações graves, hospitalizações e risco de mortalidade. Além disso, oferece broncodilatação rápida e tratamento da inflamação desde a primeira dose.B) INCORRETASABA isolado. A GINA não recomenda mais o uso isolado de SABA em nenhum estágio da asma, pois está associado a maior risco de exacerbações e maior risco de morte relacionada à asma.C) INCORRETALABA isolado, é formalmente contraindicado. O LABA nunca deve ser usado sem corticoide inalatório, pois aumenta o risco de eventos fatais.D) INCORRETA Corresponde ao Track 2, que é uma opção válida, porém inferior ao Track 1 na prevenção de exacerbações. Como a questão exige a estratégia preferencial, esta alternativa não pode ser considerada correta",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q013",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 13,
+    "enunciado": "Uma mulher de 24 anos, previamente hígida, procura atendimento por disúria, polaciúria e urgência miccional há 2 dias. Nega febre, dor lombar, náuseas ou corrimento vaginal. Ao exame físico apresenta bom estado geral, afebril e sem dor à punho-percussão lombar. EAS mostra leucocitúria e nitrito positivo. Não há comorbidades nem uso recente de antibióticos. Considerando o diagnóstico mais provável e a conduta baseada em evidências, assinale a alternativa corret",
+    "alternativas": {
+      "A": "O quadro é compatível com cistite aguda não complicada, podendo ser iniciado tratamento empírico sem necessidade de urocultura",
+      "B": "Toda infecção urinária deve ser confirmada por urocultura antes do início de antibióticos",
+      "C": "A presença de nitrito positivo indica obrigatoriamente pielonefrite",
+      "D": "O tratamento deve ser intravenoso devido ao risco elevado de bacteremia"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Alternativa A — CORRETA O quadro clínico clássico (disúria, polaciúria, ausência de sinais sistêmicos) caracteriza cistite aguda não complicada. Em mulheres jovens saudáveis, o diagnóstico é essencialmente clínico, podendo-se iniciar tratamento empírico sem urocultura, conforme diretrizes internacionais.A urocultura é reservada para casos complicados, recorrentes, gestantes ou falha terapêutica. Alternativa B — Incorreta A urocultura não é obrigatória em casos típicos de cistite não complicada. Sua solicitação indiscriminada aumenta custos e não melhora desfechos clínicos. Alternativa C — Incorreta Nitrito positivo sugere bactéria redutora de nitrato (ex.: Escherichia coli), mas não diferencia cistite de pielonefrite. O diagnóstico de pielonefrite depende de sinais sistêmicos como febre e dor lombar. Alternativa D — Incorreta Tratamento intravenoso é reservado para pielonefrite grave, sepse ou incapacidade de ingestão oral. O caso descreve infecção baixa não complicada",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q023",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 23,
+    "enunciado": "A pancreatite é uma complicação que pode estar associada ao aumento dos níveis de triglicerídeos (TG) e exige medidas para sua redução, como dieta e medicação. Com base nestas informações, assinale a alternativa que apresenta a indicação formal de tratamento com base nos níveis de triglicerídeo sérico e a classe medicamentosa de escolha para evitar esta complicação:",
+    "alternativas": {
+      "A": "TG > 500mg/dl, fibrato",
+      "B": "TG > 500mg/dl, estatina",
+      "C": "TG > 250mg/dl, fibrato",
+      "D": "TG > 250mg/dl, estatina"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A hipertrigliceridemia grave é reconhecida pelas diretrizes brasileiras como um importante fator de risco para pancreatite aguda, particularmente quando os valores de triglicerídeos ultrapassam 500 mg/dL. Embora o risco aumente de forma mais acentuada acima de 1.000 mg/dL, o ponto de corte de 500 mg/dL é usado clinicamente como limiar para iniciar tratamento farmacológico com o objetivo explícito de prevenir pancreatite. Segundo o Protocolo Clínico e Diretrizes Terapêuticas da Dislipidemia do Ministério da Saúde (PCDT – 2020), os fibratos são os agentes de primeira escolha na redução rápida e efetiva dos triglicerídeos em níveis que representam risco pancreático. Esses fármacos atuam reduzindo a síntese hepática de VLDL e aumentando a oxidação de ácidos graxos, produzindo quedas significativas nos níveis de TG",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q033",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 33,
+    "enunciado": "Homem de 55 anos, assintomático, comparece à consulta para avaliação preventiva. Apresenta hipertensão arterial controlada e histórico familiar de doença cardiovascular precoce. Exames laboratoriais mostram discreta elevação do LDL-colesterol. O médico considera iniciar terapia hipolipemiante para prevenção primária de eventos cardiovasculares. De acordo com as diretrizes atuais de prevenção cardiovascular, qual é o principal critério utilizado para indicação de estatina nesse contexto?",
+    "alternativas": {
+      "A": "Estratificação do risco cardiovascular global",
+      "B": "Valor isolado de colesterol total",
+      "C": "Presença de hipertrigliceridemia leve",
+      "D": "Idade inferior a 30 anos"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A alternativa correta é estratificação do risco cardiovascular global, pois a indicação de estatina em prevenção primária não depende apenas de valores isolados de colesterol, mas da estimativa do risco cardiovascular total do paciente, considerando idade, pressão arterial, perfil lipídico, tabagismo, diabetes e histórico familiar. Essa abordagem permite identificar indivíduos com maior probabilidade de eventos cardiovasculares e direcionar o tratamento de forma individualizada. O colesterol total isolado não define indicação terapêutica, a hipertrigliceridemia leve não é critério principal para estatina e idade inferior a 30 anos, isoladamente, não orienta decisão clínica",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q043",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 43,
+    "enunciado": "Um homem de 28 anos, viajante internacional recém-chegado de uma área com surto de Mpox (clade Ib), procura atendimento com febre, cefaleia e o surgimento de lesões vesiculares dolorosas na face e palmas das mãos há dois dias. Ao exame, apresenta múltiplas pústulas umbilicadas e linfoadenopatia generalizada. Considerando a principal hipótese diagnóstica, a conduta para confirmação laboratorial mais adequada é:",
+    "alternativas": {
+      "A": "Coletar material das lesões cutâneas por esfregaço vigoroso para análise por Reação em Cadeia da Polimerase (PCR)",
+      "B": "Realizar sorologia para detecção de anticorpos IgM e IgG específicos para Orthopoxvirus",
+      "C": "Solicitar hemocultura para pesquisa de agentes virais, considerando a febre e o quadro sistêmico",
+      "D": "Efetuar biópsia de uma das lesões de pele para análise histopatológica e cultura viral em meio específico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A alternativa A está CORRETA. O método de escolha para o diagnóstico de Mpox é a detecção do DNA viral por meio da Reação em Cadeia da Polimerase (PCR). As amostras mais ricas em vírus e, portanto, as mais adequadas para o teste, são coletadas diretamente das lesões de pele (fluido ou crostas) por esfregaço vigoroso. Este método oferece alta sensibilidade e especificidade para a confirmação da infecção ativa. A alternativa B está INCORRETA porque os testes sorológicos para detecção de anticorpos não são recomendados para o diagnóstico agudo. Eles não conseguem distinguir entre os diferentes tipos de orthopoxvírus (como o da varíola, vaccinia e Mpox) devido à reatividade cruzada, além de não diferenciarem infecção atual de passada. A alternativa C está INCORRETA. A testagem do sangue (viremia) não é o método preferencial para o diagnóstico de Mpox. A quantidade de vírus no sangue pode ser baixa ou indetectável, tornando a hemocultura um método de baixa sensibilidade para este fim. A alternativa D está INCORRETA. Embora a cultura viral e a histopatologia possam, eventualmente, identificar o vírus, não são os métodos de primeira linha. A cultura viral é um processo mais lento e requer laboratórios com nível de biossegurança adequado, e a biópsia é um procedimento invasivo. O PCR é consideravelmente mais rápido, seguro e específico, sendo fundamental para uma resposta de saúde pública ágil",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q053",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 53,
+    "enunciado": "Paciente do sexo feminino, 32 anos, procura atendimento pelo fato de que há 8 meses não vem se sentindo bem. Alega que seu quadro teve início após sua casa ser assaltada e sua família ter ficado presa e amordaçada no banheiro da residência. Descreve que vem exibindo preocupações excessivas consigo e com seus familiares, bem como com questões financeiras - exibe receio de que ela ou seus familiares possam sofrer algum problema de saúde, bem como ela e seu marido poderão perder o emprego e não conseguir mais sustentar a família. Em virtude disto, informa se sentir tensa, com dificuldade em desligar e consequentemente dormir, irritada, inquieta, cansada e, ao longo do dia, com diversos sintomas físicos (sensação do coração estar mais acelerado, falta de ar, tremor e desconforto no peito). Frente a estas informações, qual o transtorno ansioso apresentado pela paciente?",
+    "alternativas": {
+      "A": "Transtorno de ansiedade generalizada",
+      "B": "Transtorno do estresse pós-traumático",
+      "C": "Transtorno do pânico",
+      "D": "Transtorno de ansiedade não especificado"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Apesar de a paciente apresentar início do quadro após um evento “traumático”, não há manifestações ansiosas compatíveis com TEPT (ex: revivescência do evento). Apesar de exibir sintomas físicos, estes não têm as características de um episódio e transtorno do pânico. Os sintomas são compatíveis com ansiedade generalizada o que acaba por excluir também a hipótese de um quadro não especificado",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q063",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 63,
+    "enunciado": "Paciente, masculino, 60 anos chega à UBS trazendo consigo alguns exames para avaliação semestral. Trata-se de paciente assintomático, porém com IMC: 35Kg/m2, DM com controle alimentar (SIC paciente), HAS controlada e medicamento crônico para doença de Chron, O médico da UBS, calculou mentalmente o risco cardiovascular do paciente e atribuiu a conduta terapêutica. A partir dos dados obtidos, o risco cardiovascular do paciente e a conduta serão:",
+    "alternativas": {
+      "A": "Muito alto risco cardiovascular. A terapêutica correta é mudança do estilo de vida, início de estatina de alta potência e controle dos outros fatores de risco",
+      "B": "Alto Risco cardiovascular. A terapêutica correta é mudança do estilo de vida e início de estatina de alta potência",
+      "C": "Muito alto risco cardiovascular. A terapêutica correta é mudança do estilo de vida",
+      "D": "Muito alto risco cardiovascular. A terapêutica correta é mudança do estilo de vida e dada a gravidade da doença já iniciar com os inibidos dos receptores PCSK9"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Trata-se de paciente de muito alto risco cardiovascular, pois é diabético, de qualquer idade, com pelo menos 1 fator de risco (HAS), o que já seria alto risco cardiovascular, porém com a presença de um fator agravante(condição inflamatória crônica – doença de Crohn) que eleva o nível para muito alto risco. Quanto a terapêutica instituída, todas tem que apresentar mudança do estilo de vida com controle adequado dos fatores de risco e estatina de alta potência. TESTE DE PROGRESSO Núcleo de Apoio Pedagógico Interinstitucional II - NAPISUL II TESTE DE PROGRESSO INSTITUIÇÃO (SIGLA): UEPG ÁREA DO CONHECIMENTO – CLÍNICA MÉDICA - DIABETES AUTOR: Profra Gianna Carla Alberti Schrut",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q073",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 73,
+    "enunciado": "Durante plantão noturno na enfermaria, você é chamada para avaliar paciente com dor e espasmos musculares de início recente. Ela foi submetida à tireoidectomia total por doença de Graves há dois dias. Ao exame físico, apresenta sinal de Trousseau positivo. Considerando o quadro clínico e os fatores de risco envolvidos, analise as alternativas e assinale a corret",
+    "alternativas": {
+      "A": "O quadro é compatível com hipocalcemia decorrente de lesão ou comprometimento vascular das paratireoides durante a tireoidectomia, o que é mais comum quando o procedimento é realizado por doença de Graves",
+      "B": "O sinal de Trousseau corresponde à contração do ângulo labial à percussão do nervo facial e apresenta elevada especificidade diagnóstica por ocorrer em pequena parcela de indivíduos sem hipocalcemia",
+      "C": "A conduta inicial deve priorizar a confirmação laboratorial da hipocalcemia antes de qualquer intervenção terapêutica, independentemente da presença de manifestações clínicas sugestivas",
+      "D": "O tratamento da hipocalcemia sintomática deve ser realizado com infusão contínua de citrato de cálcio, com cálculo da dose baseado no peso corporal da paciente. Deve-se monitorar o ritmo cardíaco com ECG durante a infusão"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "b. Incorreta. A descrição corresponde ao sinal de Chvostek, não ao sinal de Trousseau. O sinal de Trousseau é desencadeado pela insuflação do manguito de pressão arterial, provocando espasmo carpopedal em contexto de hipocalcemia. c. Incorreta. Na presença de sinais clínicos sugestivos de hipocalcemia sintomática, a reposição de cálcio endovenoso pode ser iniciada concomitantemente à investigação laboratorial, especialmente diante de manifestações neuromusculares evidentes. d. Incorreta. O tratamento de escolha é a administração endovenosa lenta de gluconato de cálcio a 10%, e não citrato de cálcio. A dose inicial não é calculada exclusivamente com base no peso corporal, mas conforme gravidade clínica e níveis séricos de cálcio",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q083",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 83,
+    "enunciado": "Uma mulher de 36 anos procura atendimento por dor torácica que piora ao inspirar profundamente e melhora ao sentar-se inclinada para frente. Ao exame físico, apresenta: PA: 118/72 mmHg - FR 25irpm - FC: 98 bpm - Membros inferiores com edema +/++++ - ausculta cardíaca com ruído áspero audível no bordo esternal esquerdo, que varia conforme a posição da paciente. Tais achados semiológicos descritos é mais sugestivo de qual das seguintes condições?",
+    "alternativas": {
+      "A": "Atrito pericárdico > pericardite aguda",
+      "B": "Sopro holossistólico irradiado para axila > prolapso de válvula mitral",
+      "C": "B3 em foco mitral > cardiomiopatia dilatada",
+      "D": "Sopro diastólico em foco aórtico > dissecção de aorta"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A) A dor torácica pleurítica que melhora ao inclinar-se para frente, associada a ruído raspante variável com posição, caracteriza o atrito pericárdico, achado clássico da pericardite aguda. B) Sopros são sons turbulentos do fluxo sanguíneo, não ruídos de fricção. Além disso, não explicam dor torácica pleurítica que melhora ao inclinar-se. C) Não produz som raspante, não está associado à dor torácica pleurítica e não varia tipicamente com posição D) Trata-se de sopro valvar, não de som de fricção. Além disso, não está associado à dor pleurítica típica da pericardite",
+    "requer_imagem": false
+  }
+]

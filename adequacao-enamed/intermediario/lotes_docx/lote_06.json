@@ -1,0 +1,300 @@
+[
+  {
+    "id_origem": "questoes_clm_q006",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 6,
+    "enunciado": "Dois pacientes foram atendidos no pronto socorro com queixa de redução de volume urinário e “inchaço” nas pernas. O primeiro era um homem de 26 anos, previamente hígido sem doença pregressa que iniciou o quadro há 3 dias. A outra paciente de 79 anos já era hipertensa e diabética há muitos anos, com início do quadro há 4 dias. A creatinina de ambas apresentava o mesmo valor de 1,2mg/dl. Podemos afirmar que:",
+    "alternativas": {
+      "A": "não há insuficiência renal aguda, pois não está descrita a variação de creatinina e volume urinário por período pré-determinado",
+      "B": "os dois pacientes apresentam a mesma função renal, pois o valor de creatinina sérica igual pressupõe a mesma taxa de filtração glomerular",
+      "C": "o homem jovem tem menor função renal, pois ele deveria ter uma creatinina muito mais baixa, por ser mais novo, do que a paciente idosa",
+      "D": "a idosa tem menor função renal pelo antecedente de diabetes e hipertensão arterial, condições que pressupõe injúria renal crônica",
+      "E": "como os valores estão normais, pressupondo função renal normal, as queixas devem estar relacionadas a outras doenças"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Segundo as diretrizes do KDIGO para diagnóstico e manejo da insuficiência renal aguda, a redução do volume de diurese a valores menores que 0,5mL por kg de peso por hora, por um período de 16, 12 ou 24 horas e/ ou a variação da creatinina em relação à basal, são critérios diagnósticos de INSUFICIENCIA RENAL AGUDA (IRA). O valor absoluto de creatinina e/ou ureia séricos não devem ser utilizados isoladamente como critério diagnostico de IRA",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q016",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 16,
+    "enunciado": "Homem, 73 anos, com história de hipertensão arterial sistêmica e diabetes tipo 2, ambos há mais de 15 anos, refere uso irregular de losartana e metformina. Iniciou há 1 dia com quadro súbito de hemiplegia direita proporcionada e afasia motora. Familiar refere episódio semelhante há 2 meses, com melhora espontânea em 30 minutos. Nega tabagismo. Ao exame PA: 200/100 mmHg , FC: irregular (80-100 bpm) Sat O2: 96% (ar ambiente) e FR: 12 irpm. ECG: fibrilação atrial. TAC de crânio: área hipodensa fronto-temporo-parietal esquerda. Angiotomografia de carótidas e vertebrais: sem estenoses significativas. (avaliar valor e qualidade de uma imagem de tomografia) Qual a classificação etiológica do AVE-I (Toast) e o tratamento profilático adequado para após a alta hospitalar?",
+    "alternativas": {
+      "A": "Cardioembólico. Anticoagulante oral",
+      "B": "Indeterminado. AAS + sinvastatina",
+      "C": "Grandes artérias. AAS + clopidogrel",
+      "D": "Indeterminado. Anticoagulante oral",
+      "E": "Cardioembólico. AAS + Clopidogrel"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "No caso em questão o paciente apresenta síndrome de circulação anterior total (hemiplegia + disfunção cortical- linguagem) que ocorre ao ter oclusão de artéria carótida interna. Na investigação etiológica apresenta Fibrilação atrial, fonte de êmbolos e principal causador de AVE cardioembólio. Paciente teve quadro de AIT prévio, com HAS, DM-2 com CHADSVASC2 = 5 com indicação de uso de anticoagulante oral para evitar novos episódios de AVE",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q026",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 26,
+    "enunciado": "Homem de 27 anos comparece para consulta devido a diagnóstico recente de tuberculose em seu irmão. Assintomático com exame físico normal. Na investigação diagnóstica, RX tórax normal e PPD de doze milímetros. A conduta recomendada é:",
+    "alternativas": {
+      "A": "tratar a infecção latente pelo Mycobacterium tuberculosis",
+      "B": "tratar a tuberculose com esquema RIPE",
+      "C": "coletar exame de escarro",
+      "D": "fazer novo RX de tórax caso tenha sintomas",
+      "E": "fazer o IGRA para confirmar o PPD"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Trata-se de paciente com Tb latente pois apresenta PPD > 10 mm, a indicação é iniciar quimioprofilaxia para tuberculose. ( evitar reativaçãoo da doença) Não há indicação de fazer mais exames",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q036",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 36,
+    "enunciado": "Paciente do sexo masculino, 22 anos, vem à consulta com queixa de “gripe”. Relata que há 6 dias está com muita tosse, sibilos, dispneia, febre, mialgias, dor de garganta, coriza e espirros. A tosse é seca, a dispneia ocorre mesmo em repouso e alivia com uso de salbutamol spray inalado. Consultou no pronto atendimento 2 dias antes, fez uma radiografia de tórax que foi normal, e um teste rápido para SARS-COV-2 e INFLUENZA que foram negativos. Liberado com antitérmico e prednisona, e recomendação de acompanhamento ambulatorial. Desde então relata discreta melhora do quadro. Tem histórico de crises de tosse com sibilos e dispneia desde a infância, com necessidade de inalação, mas que melhorou na adolescência e voltou a incomodar há 2 anos. Mesmo fora de crise tem dispneia aos grandes esforços (mMRC 1) e faz uso de salbutamol spray 400mcg 2 a 3 vezes ao dia, quase todos os dias no último ano. Tem sintomas de coriza, espirros, prurido nasal e obstrução nasal quase todos os dias, de forma contínua nos últimos anos. Ao exame apresenta sibilos expiratórios difusos bilateralmente e uma espirometria que demonstrou um distúrbio ventilatório obstrutivo moderado com variação de VEF1 significativa após o broncodilatador (BD). VEF1 pós BD de 65% e relação VEF1/CVF pós BD de 0,72. Prescrito corticoide inalado associado a broncodilatador beta-2 agonista de longa duração (formoterol 12mcg + budesonida 400mcg) 2 X ao dia e corticóide tópico nasal (mometasona 50mcg) 2 aplicações em cada narina a noite. Solicitados alguns exames e retorno em 3 semanas. No retorno, melhora quase completa dos sintomas tanto de asma quanto de rinite, ausculta pulmonar limpa, espirometria demonstrando VEF1 de 88% e relação VEF1/CVF normal. Dos exames que trouxe, uma IgE (imunoglobulina E) total de 797 UI/mL (valor de referência até 87 UI/mL) e um hemograma que demostra 550 eosinófilos por mm3. O diagnóstico correto é de: Obs: VEF1 = volume expiratório forçado no 1º segundo e CVF = capacidade vital forçada",
+    "alternativas": {
+      "A": "Asma fenótipo alérgico, endótipo T2 alto",
+      "B": "Asma fenótipo alérgico, endótipo T2 baixo",
+      "C": "Asma fenótipo não alérgico, endótipo T2 alto",
+      "D": "Asma fenótipo não alérgico, endótipo T2 baixo",
+      "E": "Asma fenóticpo não alérgico, endótipo eosinofílico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O quadro clínico descreve um típico caso de paciente com asma e rinite alérgica, desde a infância, com exacerbações frequentes e uso quase contínuo de BD de curta duração para alívio de sintomas, sem tratamento adequado e que exacerba por um quadro de provável infecção viral. A descrição de asma desde a infância acompanhada de rinite alérgica já faz menção do provável fenótipo asma alérgica e do endótipo T2 alto que é corroborado pelo achado de IgE total elevado e eosinofilia. Paciente teve excelente resposta ao tratamento com corticóide tópico tanto nasal quando inalado. Desta forma, trata- se asma alérgica com T2 alto",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q046",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 46,
+    "enunciado": "Mulher de 63 anos, diabética, hipertensa, obesa chega ao ambulatório com história de dispneia progressiva aos esforços nos últimos 2 meses. FC 105/min PA 160/110mmHg Ritmo cardíaco regular, dois tempos, sem sopros. ECG: Ritmo sinusal, sobrecarga de VE. Rx Tórax: congestão pulmonar e área cardíaca normal. Ultrassom Cardíaco: Fração de Ejeção VE 53%. Hipertrofia concêntrica do VE e aumento do diâmetro do AE. Disfunção diastólica. Peptídeo Natriurético B: normal. Qual é o grupo farmacológico que mostrou redução de desfechos primários combinados (hospitalização/mortalidade) e é atualmente indicado para o tratamento desta condição clínica?",
+    "alternativas": {
+      "A": "Inibidores do Co-transportador Sódio-Glicose",
+      "B": "Inibidores da Enzima Conversora da Angiotensina",
+      "C": "Inibidores dos Receptores Mineralocorticoides",
+      "D": "Inibidores dos Receptores Beta-adrenérgicos",
+      "E": "Inibidores da Angiotensina-Neprilisina"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Até o momento, apenas os SGLT-2 são recomendados (Nível I-A) no tratamento farmacológico da IC com Fração do VE Preservada. Embora, não haja evidência de redução da mortalidade, mas, apenas das hospitalizações por IC. Os demais grupos farmacológicos são indicados no tratamento da IC com FE Reduzida. O BNP pode estar normal em até 30% dos pacientes com ICFEp, especialmente nos obesos",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q056",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 56,
+    "enunciado": "O código de ética médica é um documento que determina os direitos e obrigações do médico e surgiu devido a necessidade de resguardar as atividades legalizadas e punir as condutas não autorizadas. Desse modo, de acordo com a Resolução CFM nº 2217, de 27/09/2019, no que diz respeito ao sigilo profissional, é vedado ao médico:",
+    "alternativas": {
+      "A": "Fazer referência a casos clínicos identificáveis, exibir pacientes ou imagens que os tornem reconhecíveis em anúncios profissionais ou na divulgação de assuntos médicos em meios de comunicação em geral, mesmo com autorização do paciente",
+      "B": "Revelar fato de que tenha conhecimento em virtude do exercício de sua profissão, salvo por motivo justo, dever legal, na investigação de suspeita de crime ou consentimento, por escrito, do paciente",
+      "C": "Revelar fato de que tenha conhecimento em virtude do exercício de sua profissão, salvo por motivo justo, dever legal, consentimento por escrito do paciente ou quando o fato já seja de conhecimento público",
+      "D": "Revelar sigilo profissional relacionado a paciente criança ou adolescente, desde que estes tenham capacidade de discernimento, inclusive a seus pais ou representantes legais, mesmo quando a não revelação possa acarretar dano ao paciente",
+      "E": "Prestar informações a empresas seguradoras sobre as circunstâncias da morte do paciente sob seus cuidados, além das contidas na declaração de óbito, mesmo com expresso consentimento do seu representante legal"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Segundo o artigo 75 da Resolução CFM nº 2217, de 27/09/2019, o médico não poderá fazer referência a casos clínicos identificáveis, exibir pacientes ou imagens que os tornem reconhecíveis em anúncios profissionais ou na divulgação de assuntos médicos em meios de comunicação em geral, mesmo com autorização do paciente",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q066",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 66,
+    "enunciado": "Homem de 28anos, tabagista, vem a consulta médica referindo dor epigástrica, tipo queimação, piora no período pós-prandial e melhora com uso de antiácidos ou alimentos alcalinos há 4 meses. Relata uso de ibuprofeno recente devido a quadro de cefaleia. Diante desse quadro, a qual a principal hipótese diagnóstico e a complicação mais comum dessa patologia:",
+    "alternativas": {
+      "A": "Doença ulcerosa / Hemorragia",
+      "B": "Gastropatia reativa ao antiinflamatório / Hemorragia",
+      "C": "Doença Ulcerosa/ Perfuração",
+      "D": "Colangiocarcinoma / Obstrução das vias biliares",
+      "E": "Doença celíaca / Linfoma"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Paciente com quadro clássico de doença ulcerosa, com presença de fatores ambientais como tabagismo e aines, que reduzem a formação de muoc/bicarbonato facilitando o desenvolvimento da úlcera. A complicação mais comum é de hemorragia (15%) seguida de perfuração (7%)",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q076",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 76,
+    "enunciado": "Mulher de 27 anos de idade procurou o ginecologista com queixas de taquicardia, irritação e ansiedade. Há 2 meses teve um filho por parto normal, sem intercorrências. Ao exame físico: tireoide palpável, indolor a palpação, ritmo cardíaco regular, FC= 110 bpm, PA= 120X80 mmHg, ausculta cardiopulmonar normal. Exames laboratoriais : T4L= 2,4 ng/dL( VR: 0,7 -1,7); T3= 245 ng/dL( VR: 60-190); TSH= 0,03 mcUI/ mL ( VR: 0,3-5 ); anticorpos anti-TPO= 340 UI/ mL( VR: Abaixo de 35); captação de iodo radioativo de 24 hs= 3% (VR: 15 A 40%); ultrassonografia da tireoide com nódulo de 6 mm no lobo direito da tireoide. Qual o diagnóstico?",
+    "alternativas": {
+      "A": "Tireoidite pós-parto",
+      "B": "Bócio nodular tóxico",
+      "C": "Tireoidite subaguda granulomatosa",
+      "D": "Tireoidite fibrosa",
+      "E": "Doença de Graves"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A paciente teve parto recente, com anti TPO positivo que está associado com doenças autoimunes como tireoidite pós-parto. Nas tireoidites subagudas a tireoide é dolorosa. Na doença de graves e bócio nodular tóxico a captação de iodo radioativo encontra-se elevada. A tireoidite fibrosa (de “Riedel”) não cursa com tireotoxicose",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q086",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 86,
+    "enunciado": "Segundo os critérios do Manual Diagnóstico e Estatístico de Transtornos Mentais ( DSM V), a duração de um episódio hipomaníaco no transtorno bipolar tipo II deve ser de, no mínimo, quantos dias consecutivos?",
+    "alternativas": {
+      "A": "04",
+      "B": "05",
+      "C": "06",
+      "D": "03",
+      "E": "07"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "No Episódio Hipomaníaco, um período distinto de humor anormal e persistentemente elevado, expansivo ou irritável e aumento anormal e persistente da atividade ou energia, com duração de pelo menos quatro dias consecutivos e presente na maior parte do dia, quase todos os dias",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q009",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 9,
+    "enunciado": "Um homem de 52 anos, hipertenso em uso de losartana, procura atendimento com odinofagia, congestão nasal, cefaleia, mialgia e perda parcial do olfato há 2 dias. Nega dispneia ou dor torácica. Relata contato domiciliar com caso confirmado de COVID-19 há 4 dias. Ao exame: bom estado geral, afebril, frequência respiratória de 16 irpm, saturação de O₂ de 98% em ar ambiente e ausculta pulmonar sem alterações. A classificação clínica e a conduta mais adequadas, segundo protocolos vigentes, são:",
+    "alternativas": {
+      "A": "Síndrome gripal com suspeita de COVID-19; orientar isolamento domiciliar, realizar teste diagnóstico e tratamento sintomático, com vigilância de sinais de gravidade",
+      "B": "Síndrome gripal sem suspeita de COVID-19; prescrever sintomáticos e liberar sem isolamento",
+      "C": "Síndrome Respiratória Aguda Grave; indicar internação hospitalar e iniciar corticoterapia sistêmica",
+      "D": "COVID-19 confirmado; iniciar anticoagulação profilática ambulatorial devido à presença de fator de risco cardiovascular"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Paciente com sintomas respiratórios leves, sinais vitais estáveis, ausência de hipoxemia e história epidemiológica positiva deve ser classificado como síndrome gripal com suspeita de COVID-19. A conduta preconizada inclui isolamento domiciliar, teste diagnóstico e tratamento sintomático, com orientação quanto a sinais de alarme. Não há indicação de corticoide, antibiótico, anticoagulação ou exames de imagem na ausência de critérios de gravidade",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q019",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 19,
+    "enunciado": "Paciente chega para consulta médica trazendo exames com HbA1C = 6,3%. Está acima do peso e é sedentária. O pai era portador de DM2 e faleceu de complicações renais. A conduta mais adequada neste caso é:",
+    "alternativas": {
+      "A": "Repetir o exame para confirmar diagnóstico de pré diabetes",
+      "B": "Iniciar Metformina devido ao diagnóstico de DM2",
+      "C": "Realizar o TOTG e se o resultado for > 200mg/dl confirma o diagnóstico de pré diabetes",
+      "D": "Realizar glicemia capilar em jejum para confirmar o diagnóstico de DM2"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "De acordo com a Diretriz da Sociedade Brasileira de Diabetes (SBD), a hemoglobina glicada entre 5,7 e 6,4% indica prédiabetes.O valor apresentado pela paciente (HbA1c = 6,3%) está claramente dentro da faixa de prédiabetes, e não configura diabetes mellitus, cujo diagnóstico exige HbA1c ≥ 6,5%. A SBD recomenda que, diante de resultados compatíveis com prédiabetes, o exame deve ser confirmado com nova dosagem ou com outro método diagnóstico válido (TOTG ou glicemia de jejum), especialmente em indivíduos com fatores de risco — como sedentarismo, excesso de peso e histórico familiar de DM2, que a paciente apresenta. Não se diagnostica DM2 com HbA1c de 6,3% Não se inicia metformina como primeira conduta obrigatória (embora possa ser considerada mais tarde conforme risco global) Não se usa glicemia capilar para diagnóstico O TOTG não diagnostica prédiabetes quando > 200 mg/dL — esse valor caracteriza diabetes Assim, a conduta mais adequada é repetir o exame (ou utilizar outro teste laboratorial formal) para confirmar o diagnóstico de prédiabetes, conforme recomendação oficial",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q029",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 29,
+    "enunciado": "Um paciente de 24 anos com diagnóstico recente de HIV inicia a terapia antirretroviral (TARV). Um dos fármacos prescritos atua impedindo a clivagem de poliproteínas precursoras, o que resulta na produção de partículas virais imaturas e não infecciosas. Em qual etapa do ciclo de replicação viral atua essa classe de fármacos (Inibidores da Protease)?",
+    "alternativas": {
+      "A": "Maturação",
+      "B": "Desnudamento",
+      "C": "Transcrição Reversa",
+      "D": "Integração ao DNA do hospedeiro"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Os inibidores da protease impedem a clivagem das poliproteínas Gag-Pol, o que bloqueia a maturação do vírus, resultando em partículas imaturas e não infecciosas. A adsorção é bloqueada por antagonistas de CCR5 (ex: Maraviroc). A transcrição reversa é o alvo dos ITRN/ITRNN (ex: Tenofovir). A integração é o alvo dos inibidores da integrase (ex: Dolutegravir)",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q039",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 39,
+    "enunciado": "Sepse é uma disfunção orgânica ameaçadora à vida, secundária à resposta desregulada do hospedeiro a uma infecção. Choque séptico passou a ser definido como presença de hipotensão com necessidade de vasopressores para manter pressão arterial média ≥____ associada a lactato ≥_____, após adequada ressuscitação volêmica. A alternativa que preenche, correta e sequencialmente, as lacunas do trecho acima é",
+    "alternativas": {
+      "A": "65 mmHg / 2 mmol/L",
+      "B": "70 mmHg / 20 mmol/L",
+      "C": "55 mmHg / 2 mmol/L",
+      "D": "65 mmHg / 0,2 mmol/L"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Alternativa A = CORRETA (65 mmHg / 2 mmol/L). A definição de choque séptico foi atualizada pelo Terceiro Consenso Internacional para Sepse e Choque Séptico (Sepsis-3), publicado em 2016. De acordo com essas diretrizes, o choque séptico é um subconjunto da sepse no qual as anormalidades circulatórias, celulares e metabólicas subjacentes são suficientemente profundas para aumentar substancialmente a mortalidade. Os critérios clínicos para identificar o choque séptico são a presença de sepse com: Hipotensão persistente que requer o uso de vasopressores para manter uma PAM ≥ 65 mmHg. Um nível de lactato sérico > 2 mmol/L (18 mg/dL). Esses critérios devem ser atendidos mesmo após uma adequada ressuscitação volêmica. Portanto, a alternativa A preenche corretamente as lacunas da afirmativa com os valores estabelecidos pelo consenso Sepsis-3, que é a referência fundamental para o diagnóstico, sendo seus critérios reforçados pelas diretrizes mais recentes da Surviving Sepsis Campaign de 2021 Alternativa B = INCORRETA (70 mmHg / 20 mmol/L). O valor da PAM está incorreto. Embora em algumas situações clínicas um alvo de PAM maior possa ser individualizado, o critério diagnóstico padrão do Sepsis-3 é 65 mmHg. Além disso, um valor de lactato de 20 mmol/L é extremamente elevado e, embora possa ocorrer em casos gravíssimos, não é o valor de corte para a definição diagnóstica. Alternativa C = INCORRETA (55 mmHg / 2 mmol/L). O valor do lactato está correto, mas o alvo da PAM está incorreto. Manter uma PAM de 55 mmHg seria insuficiente e indicaria hipotensão profunda, não um alvo terapêutico com vasopressores. O objetivo do vasopressor é justamente elevar a PAM para o mínimo de 65 mmHg. Alternativa D = INCORRETA (65 mmHg / 0,2 mmol/L). O valor da PAM está correto, mas o valor do lactato está drasticamente incorreto. Um lactato de 0,2 mmol/L é um valor normal ou baixo, indicando ausência de hipoperfusão tecidual significativa, o que contradiz a definição de choque. O valor correto para o critério diagnóstico é > 2 mmol/L",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q049",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 49,
+    "enunciado": "Homem de 47 anos, sem comorbidades conhecidas, comparece para check-up de rotina. Na primeira consulta apresenta pressão arterial de 152/ 94 mmHg. Após duas semanas retorna assintomático com pressão arterial de 128/ 82 mmHg, ambas aferidas com técnica adequada. De acordo com a Diretriz Brasileira de Hipertensão Arterial – 2025, qual a conduta mais apropriada?",
+    "alternativas": {
+      "A": "Solicitar MAPA ou MRPA para confirmar ou descartar hipertensão arterial",
+      "B": "Diagnosticar HAS, pois HAS ≥140/ 90 mmHg em uma consulta, é suficiente",
+      "C": "Considerar o paciente normotenso, pois a segunda medida apresentou valores normais",
+      "D": "Iniciar imediatamente tratamento farmacológico anti-hipertensivo sem mais avaliações"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Segundo a Diretriz Brasileira de Hipertensão Arterial – 2025, o diagnóstico de hipertensão arterial pode ser feito com valores de PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg em pelo menos duas consultas, desde que as medidas sejam concordantes, Quando há medidas discordantes entre consultas, como neste caso (uma medida acima do normal, e outra normal), não é possível confirmar nem excluir o diagnóstico apenas com medidas de consultório. Nessas situações, a diretriz recomenda o uso de medidas fora do consultório, por MRPA ou MAPA",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q059",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 59,
+    "enunciado": "Homem de 67 anos, obeso, internado por COVID-19, em oxigênio por cateter nasal (3 L/min), PCR elevada, D-dímero aumentado, sem sinais de trombose. Qual conduta farmacológica é mais apropriada?",
+    "alternativas": {
+      "A": "Dexametasona + anticoagulação profilática",
+      "B": "Dexametasona + anticoagulação plena",
+      "C": "Antiviral isolado",
+      "D": "Apenas suporte clínico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A (CORRETA): Corticoide reduz mortalidade em pacientes que necessitam oxigênio; anticoagulação profilática é recomendada. B: Anticoagulação plena sem trombose aumenta sangramento. C: Antivirais isolados não reduzem mortalidade nessa fase. D: Omissão de terapias comprovadas",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q069",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 69,
+    "enunciado": "Homem, 78 anos, trazido pela família por cansaço progressivo. Relatam que tem comido muito pouco nos últimos meses devido a uma redução importante do apetite e quando come opta por doces e alimentos pouco nutritivos. Exames:Hb: 8,9 g/dL VCM: 72 fL Ferritina: 12 ng/mL Saturação transferrina: 8% Qual a melhor conduta?",
+    "alternativas": {
+      "A": "Investigar sangramento do trato gastrointestinal",
+      "B": "Prescrever ferro oral e reavaliar em 6 meses",
+      "C": "Orientar melhora alimentar e prescrever estimuladores de apetite",
+      "D": "Transfundir hemácias e alta ambulatorial"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O hemograma evidencia anemia microcítica e hipocrômica, associada a ferritina reduzida e baixa saturação de transferrina, configurando anemia ferropriva. Em pacientes idosos, a anemia por deficiência de ferro deve ser considerada secundária a perda sanguínea crônica até prova em contrário. A principal etiologia nessa faixa etária é sangramento do trato gastrointestinal, frequentemente associado a neoplasias colorretais, gástricas ou lesões vasculares intestinais. Dessa forma, a conduta adequada consiste na investigação etiológica por meio de endoscopia digestiva alta e colonoscopia. O tratamento empírico com reposição de ferro, sem investigação da causa, é inadequado, pois pode retardar o diagnóstico de doenças potencialmente graves",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q079",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 79,
+    "enunciado": "Mulher de 45 anos procura atendimento médico por dor articular nas mãos há quatro meses, associada a rigidez matinal que dura aproximadamente uma hora. Ao exame físico observam-se edema e dor à palpação nas articulações metacarpofalângicas e interfalângicas proximais bilateralmente. Considerando o quadro clínico descrito, qual diagnóstico deve ser prioritariamente investigado?",
+    "alternativas": {
+      "A": "Artrite reumatoide",
+      "B": "Osteoartrite",
+      "C": "Gota",
+      "D": "Fibromialgia"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A artrite reumatoide é uma doença inflamatória crônica caracterizada por poliartrite simétrica, principalmente em pequenas articulações, associada a rigidez matinal prolongada. O reconhecimento precoce permite início oportuno de tratamento modificador da doença",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp_2023_q002",
+    "fonte": "Questoes teste de progresso 2023 (UNIDAVI)",
+    "num": 2,
+    "enunciado": "“Àquilo que no exercício ou fora do exercício da profissão e no convívio da sociedade, eu tiver visto ou ouvido, que não seja preciso divulgar, eu conservarei inteiramente secreto.” O trecho do juramento de Hipócrates nos traz um dos mais importantes princípios da profissão médica, que é o compromisso do sigilo, entretanto prevê situações de exceção aos fatos que precisam ser divulgados. Segundo o Código de Ética Médica vigente (Resolução CFM 2217/2018), o sigilo pode ser quebrado pelo médico se:",
+    "alternativas": {
+      "A": "Revelar informações do prontuário do paciente sob sua guarda em sua própria defesa",
+      "B": "Tratar-se de fato já de amplo conhecimento público",
+      "C": "O paciente já tenha falecido",
+      "D": "O paciente autorizar o uso de sua imagem em anúncios profissionais",
+      "E": "Estiver em depoimento como testemunha em investigação que exponha o paciente a processo penal por crime"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O Código de Ética Médica prevê as obrigações e exceções para revelação do sigilo. A afirmação da assertiva “a” está prevista no artigo 89 do C.E.M.. As demais assertivas estão expressamente vedadas nos artigos 73 e 75 do C.E.M",
+    "requer_imagem": false
+  }
+]

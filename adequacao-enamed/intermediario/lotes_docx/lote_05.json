@@ -1,0 +1,300 @@
+[
+  {
+    "id_origem": "questoes_clm_q005",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 5,
+    "enunciado": "Paciente de 100kg e 1,60m, internado na Unidade de Terapia Intensiva, evoluiu com piora do quadro geral, acompanhado de 100 ml de diurese nas últimas 12 horas. Podemos afirmar que:",
+    "alternativas": {
+      "A": "existe lesão renal aguda, pois o volume de diurese é menor que 0,5 ml/kg por hora nas últimas 12 horas",
+      "B": "está indicado o uso imediato da hemodiálise pois o paciente encontra-se em insuficiência renal grave",
+      "C": "o volume de diurese não é um bom marcador de insuficiência renal, devendo ser utilizado o valor da creatinina sérica",
+      "D": "o volume de diurese apresentado caracteriza o quadro como insuficiência renal aguda estágio 3",
+      "E": "o IMC de 39 deste paciente indica o uso do clearance de creatinina para o diagnóstico de insuficiência renal"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Segundo as diretrizes do KDIGO para diagnostico e manejo da insuficiência renal aguda, a redução do volume de diurese a valores menores que 0,5mL por kg de peso por hora, por um período de 12 horas é critério para diagnosticar o quadro como INSUFICIENCIA RENAL AGUDA ESTÁGIO 2. O valor absoluto de creatinina e/ou ureia séricos não podem ser utilizados isoladamente como critério diagnostico. O uso da variação da creatinina em relação ao valor basal e/ou redução do volume de diurese são os critérios aceitos e normatizados através das diretrizes supracitadas",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q015",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 15,
+    "enunciado": "Mulher de 37 anos iniciou vertigem há cerca de 2 dias. Segundo seu relato, a vertigem relaciona-se aos movimentos de virar a cabeça para os lados, sendo muito fugaz (menos de 1 minuto de duração), cessando com a cabeça parada. Durante o exame físico, na manobra de Dix-Hallpike ao lateralizar a cabeça para direita, observou-se, após latência de 5 segundos, nistagmo horizontal fatigável (parou após 15 segundos). Relatou episódio semelhante há cerca de 2 anos, quando também procurou atendimento médico. Sobre a situação clínica, assinale a correta",
+    "alternativas": {
+      "A": "É comumente atribuída à otocônios no interior do canal semicircular",
+      "B": "É uma forma rara de vertigem central",
+      "C": "O diagnóstico necessita videonistagmografia",
+      "D": "Devido ao caráter recorrente e persistente, indica-se betaistina em uso contínuo",
+      "E": "Frequentemente há alteração auditiva associada"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O caso representa um paciente com VPPB (Vertigem Posicional Paroxística Benigna). Correta. Errada. A VPPB é uma forma comum de vertigem, responsável por quase metade dos pacientes com disfunção vestibular periférica. A latência, a transitoriedade e a fatigabilidade, juntamente com a típica direção mista otimista/torcional, estabelecem isso como uma vertigem periférica. Errada. O diagnóstico de VPPB é feito em um paciente que apresenta episódios recorrentes e breves (<1 minuto) de vertigem provocados por tipos específicos de movimentos da cabeça e é confirmado pela observação do nistagmo durante uma manobra provocativa. Testes adicionais não são indicados na VPPB de canal posterior típica. A eletronistagmografia (ENG) ou videonistagmografia (VNG), que testa as respostas calóricas e registra outros movimentos oculares, geralmente é normal na VPPB. A ENG é indicada apenas se houver suspeita de uma doença vestibular alternativa pela história ou exame. Errada. A VPPB é tratada de forma eficaz na maioria dos casos usando manobras de reposicionamento vestibular auto-tratamento com exercícios. Embora a história natural da VPPB não seja bem estudada, é amplamente aceito que os episódios não tratados geralmente se resolvem espontaneamente em dias ou semanas, às vezes por mais tempo. Os medicamentos não são úteis para os breves episódios de vertigem associados à VPPB, exceto quando a frequência das crises é muito alta. Errada. A perda auditiva ou os sintomas geralmente estão ausentes",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q025",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 25,
+    "enunciado": "A infecção pelo SARS- CoV-2 causou milhões de óbitos no mundo desde dezembro de 2019, sendo considerada uma emergência de saúde pública global. Sobre o SARS – CoV-2 assinale a alternativa verdadeira:",
+    "alternativas": {
+      "A": "Embora o período entre a exposição ao vírus e o início dos sintomas seja em média 5 a 6 dias, as manifestações clínicas podem ocorrer do primeiro dia até o 14º dia após a exposição",
+      "B": "Pessoas infectadas que estão sem sintomas não são transmissoras, porque possuem uma baixa carga viral",
+      "C": "As novas variantes de preocupação do vírus (VOC), em especial a variante Ômicron, possuem uma menor transmissibilidade, mas são relacionadas a quadros clínicos mais graves",
+      "D": "Pessoas vacinadas podem se infectar, mas costumam evoluir com sintomas mais leves e não possuem capacidade de transmissão do vírus, por apresentarem carga viral mais baixa",
+      "E": "Embora possa ocorrer, a reinfecção pelo vírus é um fenômeno raro e geralmente associado a quadro clínico leve. Por esse motivo não há benefício na vacinação de pessoas que já apresentaram infecção comprovada, exceto imunodeprimidos"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Pessoas infectadas que estão sem sintomas não são transmissoras, porque possuem uma baixa carga viral. INCORRETO. A transmissão pode ocorrer no período pré-sintomático, a partir de 48 horas antes do início dos sintomas e mesmo por pessoas assintomáticas. As novas variantes de preocupação do vírus (VOC), em especial a variante Ômicron, possuem uma menor transmissibilidade, mas são relacionadas a quadros clínicos mais graves. INCORRETO. A variante Ômicron é relacionada a uma maior transmissibilidade e a sintomas de vias aéreas superiores com menor taxa de hospitalização. Pessoas vacinadas podem se infectar, mas costumam evoluir com sintomas mais leves e não possuem capacidade de transmissão do vírus, por apresentarem carga viral mais baixa. INCORRETO. A vacinação reduz o risco de contrair o vírus e de evoluir para forma grave, mas pessoas vacinadas podem se infectar, adoecer e transmitir o vírus. Embora o período entre a exposição ao vírus e o início dos sintomas seja em média 5 a 6 dias, as pessoas podem apresentar manifestações clínicas desde o primeiro dia até o 14º dia após a exposição. CORRETO. Embora possa ocorrer, a reinfecção pelo vírus é um fenômeno raro e geralmente associado a quadro clínico leve. Por esse motivo não há benefício na vacinação de pessoas que já apresentaram infecção comprovada, exceto imunodeprimidos. INCORRETO. A infecção não garante imunidade completa e duradoura e casos de reinfecção são descritos desde o início da pandemia, e ocorrendo inclusive em períodos menores de 90 dias. Por esse motivo segue a recomendação da vacinação, independente do tempo de infecção",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q035",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 35,
+    "enunciado": "Um homem de 56 anos vem à consulta médica por queixa de tosse crônica há 3 anos e que está mais exacerbada há uma semana. A tosse é sempre seca, quase todos os dias, principalmente de noite e de manhã, sendo que nesta última semana é mais constante o dia todo. Apresenta crises de dispnéia, acompanhada de sibilos, na média 1 ou 2 vezes por semana, que melhoram com broncodilatador inalado (4 doses de salbutamol 100mcg inalado). Nega dispneia aos esforços nas atividades do dia a dia ou mesmo quando sobe escadas ou ladeiras. É tabagista, ainda ativo, desde 16 anos, média de uma carteira ao dia. Apresenta espirros, coriza e prurido nasal frequentemente pela manhã há vários anos. Nega sintoma de pirose retroesternal ou queimação epigástrica, bem como nega pigarro crônico. De outros antecedentes tem hipertensão arterial sistêmica e dislipidemia e faz uso de anlodipino e sinvastatina. Traz uma radiografia de tórax realizada há dois dias durante atendimento em serviço de urgência / emergência que é normal. Ao exame físico: PA 125/80mmHg; FC 80 bpm, saturação por oxímetro digital = 98%, FR 14 irpm. Ausculta pulmonar com sibilos expiratórios esparsos bilateralmente. Realizou uma espirometria no mesmo dia e que demonstrou: volume expiratório forçado no primeiro segundo (VEF1) de 2,40 litros equivalente a 76% do valor previsto (limite inferior da normalidade = 2,60 litros); capacidade vital forçada (CVF) de 3,70 litros equivalente a 92% do valor previsto (limite inferior da normalidade = 3,25 litros) e uma relação VEF1/CVF de 0,64. Depois do broncodilatador: VEF1 de 2,90 litros equivalente a 90% do valor previsto; CVF de 3,80 litros equivalente a 95% do valor previsto e uma relação VEF1/CVF de 0,76. Levando em consideração o quadro clínico e exames acima, é possível inferir que o diagnóstico é:",
+    "alternativas": {
+      "A": "Asma",
+      "B": "Enfisema",
+      "C": "Bronquite crônica",
+      "D": "Doença pulmonar obstrutiva crônica",
+      "E": "Bronquiectasias"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "a) Asma: CORRETA – a tosse crônica é um dos sintomas principais da asma. Além disso, tem crises de dispneia com sibilos (broncoespasmo) que melhoram com inalação de broncodilatador (BD). Tem sintomas que remetem a diagnostico de rinite alérgica, frequentemente associados a asma. Tem uma espirometria com padrão obstrutivo que melhora muito seu VEF1 após o BD e uma relação VEF1/CVF que normaliza após o BD. Apesar de tabagista, só tem dispneia durante as crises de broncoespasmo e a relação VEF1/CVF melhorou e é normal após o BD. b) Enfisema: ERRADA – não há como afirmar a ausência de enfisema sem uma tomografia, mas os sintomas relatados são de asma. A presença de enfisema não explica os sintomas do paciente. A presença de enfisema não justifica a tosse crônica nem a dispneia que é intermitente. c) Bronquite crônica: ERRADA – a tosse é sempre seca. Poder-se-ia pensar neste diagnostico levando em consideração o tabagismo, mas sendo a tosse sem expectoração, torna esta hipótese improvável, pois a definição de BC leva em consideração a expectoração que aqui é ausente. d) DPOC: ERRADA – levando em consideração os argumentos da alternativa A (asma) e destacando que a relação VEF1/CVF é normal (e acima de 0,70) após o BD, apesar do tabagismo e de uma carga tabágica de 40 maços/ano. e) Bronquiectasias: ERRADA – a tosse é sempre seca e as bronquiectasias não se comportam com crises paroxísticas de dispneia e broncoespasmo",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q045",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 45,
+    "enunciado": "Mulher, 21 anos de idade, há 30 dias referindo epistaxe recorrente e aparecimento de equimoses em membros inferiores, que progrediram para abdome e tronco. Nega trauma ou dor local. Ao exame: púrpuras em membros inferiores bilateralmente e tronco, de tamanhos variáveis, planas e indolores, além de petéquias em face. Hemograma: Hb 11,5g/L, Ht 35%, Leucócitos 10.400/mm3 com diferencial normal, plaquetas 8.000/mm3. Previamente hígida e o restante da investigação laboratorial foi normal. Qual deve ser o diagnóstico e o que deve ser feito?",
+    "alternativas": {
+      "A": "púrpura trombocitopênica imune, prednisona 1 mg/ kg/dia",
+      "B": "púrpura trombocitopênica imune, transfusão de concentrado de plaquetas e imunoglobulina humana",
+      "C": "púrpura trombocitopênica trombótica, transfusão de concentrado de plaquetas e plasmaferese",
+      "D": "púrpura trombocitopênica trombótica, transfusão de concentrado de plaquetas",
+      "E": "púrpura trombocitopênica imune, transfusão de 2 bolsas de plasma fresco congelado"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Deve-se considerar púrpura trombocitopênica imune, na população adulta, a apresentação clínica da PTI se caracteriza por sangramento na presença de plaquetopenia, sendo as mais comuns petéquias, equimoses, epistaxe, gengivorragia e menorragia. Sangramentos do trato gastrointestinal e geniturinário são pouco frequentes; sangra mento intracraniano é raro. A gravidade dos sintomas também está associada com as contagens de plaquetas, sendo maior quando elas são abaixo de 10.000/mm3. Os pacientes assintomáticos e com contagem plaquetária acima de 30.000/mm3 tendem a seguir um curso clínico crônico, porem favorável, sendo o tratamento restrito aos poucos casos que evoluem para trombocitopenia grave (contagens abaixo de 20.000/mm3). O diagnóstico de PTT é menos provável pela ausência de sinais neurológicos, hemoglobina quase normal e ausência de esquizócitos à hematoscopia. O tratamento de primeira linha da PTI é a corticoterapia. A transfusão de plaquetas deve ser realizada apenas em caso de sangramento grave. Tratado de Hematologia , 2013. Marco Antonio Zago, Roberto Passeto Falcão, Ricardo Pasquini Núcleo de Apoio Pedagógico Interinstitucional II - NAPISUL II Associação Brasileira de Educação Médica - ABEM TESTE DE PROGRESSO INSTITUIÇÃO (SIGLA): UFSC Universidade Federal de Santa Catarina ÁREA DO CONHECIMENTO – CONTEÚDO - AUTOR: Departamento de Clínica Médica- Distúrbios da hemostasia e tromboses- Prof. David Cavalcanti Ferreira Paciente previamente hígida, 30 anos, submeteu-se a colecistectomia e evoluiu com infecção de ferida operatória. No hemograma foi detectada plaquetose (700.000/mm3). Em relação ao quadro clínico descrito, o mais provável é que: a) a alteração da contagem plaquetária seja secundária ao processo infeccioso. b) a paciente deve iniciar imediatamente AAS. c) a causa mais provável seja trombocitose essencial. d) a paciente deve realizar angiotomografia de tórax. e) a paciente deve iniciar imediatamente anticoagulação. RESPOSTA CORRETA: A COMENTÁRIOS SOBRE A RESPOSTA CORRETA E/OU SOBRE AS ALTERNATIVAS ERRADAS: A plaquetose é definida por valores > 450.000 plaquetas/mm3. Frequentemente pode ser identificada em exame de rotina. A trombocitose secundária é muito mais frequente que a trombocitemia essencial, ocorrendo principalmente devido ao aumento de trombopoetina, IL6 e catecolaminas em doenças inflamatórias, neoplásicas e infecciosos. Entre as causas secundárias de trombocitose, temos principalmente processos transitórios, que incluem perda de sangue, recuperação de trombocitopenia, pós esplenectomia, infecção aguda ou processos inflamatórios e resposta ao exercício. A trombocises primárias (clonais) ocorrem em patologias da medula óssea, sendo a Trombocitose Essencial a principal delas. Outras doenças mieloproliferativas crônicas como Leucemia Mielóide Crônica, Policitemia Vera e Mielofibrose podem cursar com plaquetose. A questão relata a presença de quadro infeccioso em um pós operatório de uma paciente jovem. Portanto, assim que instituído o tratamento com antibioticoterapia, a tendência é a normalização da plaquetometria",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q055",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 55,
+    "enunciado": "Empresário de 27 anos, previamente hígido, foi sequestrado há cerca de 5 semanas, após agendar encontro em rede social, tendo passado cerca de 24 horas sob o controle dos criminosos, período no qual sofreu ameaças quanto a sua integridade física. Durante atendimento médico referiu palpitações, angústia, pesadelos recorrentes e isolamento social. Qual é o diagnóstico mais provável nesse caso:",
+    "alternativas": {
+      "A": "Transtorno de estresse pós-traumático",
+      "B": "Transtorno depressivo",
+      "C": "Transtorno fóbico-ansioso",
+      "D": "Síndrome de Burnout",
+      "E": "Reação aguda ao estresse"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Transtorno de Estresse pós-traumático caracteriza-se por revivência do evento traumático, conduta de esquiva, sintomas de hipervigilância e alterações no sono, por mais de 1 mês",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q065",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 65,
+    "enunciado": "Mulher de 21 anos, iniciou há 02 meses com quadro de diarreia de característica disabsortiva, incluindo perda de peso, mas sem presença de sangue nas fezes, associado a episódios de dores abdominais. Foi avaliada pelo gastroenterologista, que ao realizar o exame físico percebeu presença de dermatite herpetiforme. Diante desse quadro, qual o diagnóstico mais provável e o teste mais sensível:",
+    "alternativas": {
+      "A": "Doença celíaca / Anti-transglutaminase IgA",
+      "B": "Retocolite Ulcerativa / Calprotectina fecal",
+      "C": "Doença de Crohn / Proteina C reativa",
+      "D": "Doença celíaca / Anti-gliadina IgA",
+      "E": "Retocolite Ulcerativa/ Colonoscopia"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Paciente com quadro clínico clássico de doença celíaca, reforçado o possível diagnóstico pelo achado de dermatite herpetiforme, após a suspeita o teste mais sensível para diagnóstico consitiui anti-transglutaminase Iga. Anti-gliadina também pode ser usado no diagnóstico, pórem não é o teste mais sensível para isso",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q075",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 75,
+    "enunciado": "Homem de 40 anos foi com ultrassonografia de tireoide (US) de rotina , que mostrou no Lobo esquerdo um nódulo de 1,2 cm hipoecogênico , sólido, com bordos precisos e focos de calcificação grosseira. Ao Doppler mostrou padrão vascular central. A avaliação da função tireoidiana (FT) mostrou : TSH =1,4 mcUI/ m L ( VR: 0,3-5 ); T4L= 1,1 ng/d L( VR: 0,7 -1,7); antiTPO= 100 UI/ m L( VR: Abaixo de 35). Qual é a conduta adequada para o caso:",
+    "alternativas": {
+      "A": "submeter o paciente a uma punção aspirativa com agulha fina devido à presença de alguns fatores de risco para malignidade (sexo masculino, nódulo hipoecegênico e padrão vascular central ao Doppler)",
+      "B": "repetir a FT e US após 12 meses, iniciar tratamento medicamentoso com hormônios tireoidianos e se não ocorrer regressão do nódulo em 6 meses, indicar ablação com iodo radioativo",
+      "C": "encaminhar o paciente para a cirurgia imediatamente, pois são achados sugestivos de malignidade paciente ser do sexo masculino contendo maior chance de metástases",
+      "D": "submeter o paciente a terapia supressiva com L-tiroxina e repetir o US após 6-12meses para avaliar se houve modificação significativa do tamanho do nódulo",
+      "E": "administrar L-tiroxina apenas se surgirem sintomas de hipotireoidismo, repetir ultrassonografia em 3 meses se mudança no padrão ultrassonográfico da lesão, indicar pulsão aspirativa com agulha fina"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Nódulos acima de 1 cm devem ser puncionados com as seguintes características ecográficas nódulo hipoecoico, com microcalcificações, margens irregulares, mais alto do que largo na visão transversal",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q085",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 85,
+    "enunciado": "Paciente de 25 anos de idade, é trazido ao pronto atendimento com dificuldade respiratória há cerca de dois dias, com piora progressiva nas últimas horas. Familiar refere que o mesmo é portador de asma e faz tratamento de forma irregular, usando apenas salbutamol inalatório. Paciente apresenta fala intercortada, tiragem intercostal e frequência respiratória de 35mr/min. Saturação de O2 é de 89%, frequência cardíaca de 125 bpm e paciente encontra-se um pouco agitado. Pico de fluxo expiratório encontra-se em 49% do esperado. Encontra-se febril. Na ausculta observa-se sibilos esparsos. Não observa-se edema de orofaringe ou estridor. Segundo GINA (Global Initiative for Asthma, 2022), qual das alternativas abaixo contempla a abordagem terapêutica mais adequada para esse paciente durante o atendimento na unidade de urgência/emergência?",
+    "alternativas": {
+      "A": "Uso de beta2 agonista inalatório de curta duração, corticoide sistêmico, brometo de ipratrópio e O²",
+      "B": "Uso de beta2 agonista inalatório de curta duração, corticoide sistêmico, epinefrina e O²",
+      "C": "Uso de beta2 agonista inalatório de longa duração, corticoide inalatório, epinefrina e O²",
+      "D": "Uso de beta2 agonista inalatório de longa duração, corticoide sistêmico, epinefrina e O²",
+      "E": "Uso de beta2 agonista inalatório de curta ou longa duração, corticoide sistêmico, aminofilina e O²"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Asma é uma doença inflamatória crônica que cursa com hiper-reatividade brônquica e obstrução reversível das vias aéreas, caracterizada por exacerbações de dispneia, tosse, opressão torácica e sibilos. A crise aguda de asma ocorre quando há uma piora significativa dos sintomas basais do paciente que usualmente requer mudança no tratamento habitual. Geralmente é desencadeada por infecções virais, exposição ocupacional ou a alérgenos ambientais",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q008",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 8,
+    "enunciado": "A rinite alérgica é caracterizada por prurido nasal, espirros, rinorreia e obstrução nasal. Em sua forma persistente moderada a grave, pode exigir terapias além do controle farmacológico sintomático. Considerando as estratégias capazes de modificar a história natural da doença e promover benefício clínico sustentado após o término do tratamento, indique a alternativa que está mais alinhada com as recomendações terapêuticas atuais:",
+    "alternativas": {
+      "A": "Imunoterapia específica (sublingual ou subcutânea), capaz de induzir tolerância imunológica e reduzir sintomas",
+      "B": "Antihistamínicos de primeira geração — preferidos pelo maior efeito anti-inflamatório sustentado",
+      "C": "Corticoides sistêmicos diários — recomendados como base terapêutica contínua",
+      "D": "Antibióticos de amplo espectro prolongados — indicados para controle inflamatório crônico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A) CORRETA. Imunoterapia é a única intervenção que modifica a resposta imune, reduz sintomas e mantém benefício após suspensão.B) INCORRETA: Anti-histamínicos de primeira geração tem pior perfil de segurança e não é terapia de escolha.C) INCORRETA: Corticoide sistêmico não é terapia de manutenção, uso só em resgate, não recomendado uso crônico, risco sistêmico.D) INCORRETA: Antibiótico não trata inflamação alérgica",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q018",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 18,
+    "enunciado": "Paciente com 30 anos foi diagnosticado recentemente com DM. Iniciou uso de hipoglicemiantes orais, porém persiste com as queixas de fraqueza, sede excessiva, perda de peso, além de visão turva. Relata que está urinando mais, inclusive à noite, chegando a comprometer o sono. O paciente não trouxe exames recentes, mas o quadro clínico faz você suspeitar de:",
+    "alternativas": {
+      "A": "DM auto-imune do adulto (LADA)",
+      "B": "DM tipo 2 com má aderência ao tratamento",
+      "C": "DM de causa secundária (Cushing)",
+      "D": "Efeito colateral dos hipoglicemiantes orais"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O quadro clínico apresentado é altamente sugestivo de LADA, pelos seguintes motivos: Idade < 50 anos (30 anos) — LADA ocorre tipicamente em adultos jovens e de meiaidade. Perda de peso, poliúria, polidipsia, visão turva e fraqueza, apesar do uso de hipoglicemiantes orais. Falha rápida ao tratamento com antidiabéticos orais, que é uma característica marcante da evolução clínica do LADA. Sintomas clássicos de hiperglicemia significativa, indicando insuficiência progressiva da secreção de insulina. Segundo a Diretriz da Sociedade Brasileira de Diabetes (SBD), o LADA é uma forma de diabetes autoimune de progressão lenta, caracterizada por: início na idade adulta, presença de autoanticorpos, e rápida falência das terapias orais, com necessidade precoce de insulina. Essa descrição é compatível com os sintomas persistentes apresentados pelo paciente. b) DM2 com má aderência ao tratamento— Nada no enunciado sugere falta de adesão; pelo contrário, mostra falha terapêutica incompatível com DM2 típico. c) DM por Cushing— Faltam sinais característicos como face em lua cheia, fraqueza proximal, estrias violáceas ou obesidade centrípeta. d) Efeito colateral dos hipoglicemiantes orais— Nenhum antidiabético oral causa poliúria, perda de peso e hiperglicemia persistente dessa magnitude; esses sintomas são da doença, não da medicação",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q028",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 28,
+    "enunciado": "Um homem de 65 anos apresenta febre e disúria após a realização de uma cistoscopia. As hemoculturas revelam o crescimento de cocos Gram-positivos em cadeias, catalase negativa e gama-hemolíticos. O agente isolado demonstra resistência intrínseca às cefalosporinas. Qual é o agente etiológico provável e o mecanismo de ação dos beta-lactâmicos contra ele?",
+    "alternativas": {
+      "A": "Enterococcus faecalis; inibição da transpeptidação da parede celular",
+      "B": "Streptococcus pyogenes; inibição da síntese de DNA",
+      "C": "Streptococcus pneumoniae; inibição da transcrição de RNA",
+      "D": "Enterococcus faecium; inibição da síntese de ácido fólico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O perfil laboratorial (cocos em cadeias, catalase negativa e gama-hemolíticos) identifica o gênero Enterococcus. Os beta-lactâmicos atuam ligando-se às PBPs e impedindo a transpeptidação (formação de pontes cruzadas no peptideoglicano). S. pyogenes é beta-hemolítico. A síntese de DNA é alvo de quinolonas. S. aureus é catalase positiva e coagulase positiva. O alvo das sulfas é o ácido fólico",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q038",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 38,
+    "enunciado": "Um paciente de 68 anos, diagnosticado com uma doença pulmonar obstrutiva crônica (DPOC) em estágio terminal, é admitido na emergência com insuficiência respiratória aguda. Ele está consciente, orientado e, em conversas anteriores com seu médico assistente, já havia expressado em documento de diretiva antecipada de vontade (DAV) seu desejo de não ser submetido à intubação orotraqueal e ventilação mecânica invasiva. A equipe médica, diante da gravidade do quadro, considera que a intubação poderia reverter a crise aguda e prolongar a vida do paciente por mais alguns meses. Neste cenário, o conflito ético central se estabelece entre os seguintes princípios da bioética:",
+    "alternativas": {
+      "A": "“Autonomia do paciente” e “Beneficência da equipe médica”",
+      "B": "“Justiça distributiva” e “Não maleficência”",
+      "C": "“Beneficência” e “Justiça distributiva”",
+      "D": "“Não maleficência” e “Autonomia do paciente”"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "CORRETA. A alternativa A é a correta. O princípio da Autonomia refere-se ao direito do paciente de tomar decisões sobre seu próprio corpo e tratamento, o que está claramente expresso em sua diretiva antecipada de vontade. Em contrapartida, o princípio da Beneficência impele a equipe médica a agir no melhor interesse do paciente, buscando preservar a vida e restaurar a saúde, o que, na visão técnica da equipe, seria alcançado com a intubação. O dilema surge exatamente da colisão entre o desejo do paciente e a ação que a equipe considera como o maior bem para ele. INCORRETA. A alternativa B é incorreta, pois a Justiça (distribuição de recursos) não é o foco principal do conflito, e a Não maleficência (não causar dano) se aplicaria mais à discussão sobre os malefícios de um tratamento fútil, mas não é o cerne do conflito principal. INCORRETA. A alternativa C exclui o pilar fundamental da decisão do paciente (Autonomia). INCORRETA. A alternativa D também é incorreta, pois embora a Não maleficência seja relevante, o impulso da equipe para agir (intubar) é motivado pela Beneficência, não apenas pela preocupação em não causar dano",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q048",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 48,
+    "enunciado": "Um homem de 67 anos, diabético há 10 anos, com histórico de cálculo renal, dá entrada no pronto-socorro com febre (38,8 °C), confusão mental, dor lombar esquerda e vômitos há 48 horas. Ao exame físico, apresenta PA 90/55 mmHg, FC 112 bpm e sinal de Giordano à esquerda. Exames laboratoriais iniciais mostram leucocitose, creatinina em 2,5mg/dL e extremidades frias. Com base em seu conhecimento, identifique a melhor conduta inicial",
+    "alternativas": {
+      "A": "Iniciar antibioticoterapia empírica intravenosa imediata, colher culturas e solicitar TC de abdome sem contraste",
+      "B": "Iniciar analgesia intravenosa e solicitar TC de abdome sem contraste para avaliar a posição do cálculo urinário",
+      "C": "Solicitar urocultura e aguardar o resultado para então escolher o antibiótico com a menor Concentração Inibitória Mínima (MIC)",
+      "D": "Tratar ambulatorialmente com terapia expulsiva de cálculo urinário oral após 24 horas de estabilização clínica no pronto-socorro"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Trata-se de pielonefrite aguda complicada com critérios de sepse (hipotensão, extremidades frias, alteração do sensório). A conduta correta é coletar culturas e iniciar antibiótico empírico IV imediatamente. O paciente deve ser referenciado UTI após estabilização clínica. Deve-se realizar TC de abdome sem contraste, devido à suspeita de complicações (obstrução urinaria pelo histórico de cálculo urinário, abscesso, pielonefrite enfisematosa)",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q058",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 58,
+    "enunciado": "Homem de 58 anos, etilista crônico, apresenta fadiga progressiva. Hemograma: Hb 8,9 g/dL, VCM 112 fL, reticulócitos baixos. Ferritina elevada, saturação de transferrina normal, vitamina B12 normal, ácido fólico normal. Esfregaço mostra macrocitose sem neutrófilos hipersegmentados. Qual o mecanismo fisiopatológico mais provável da anemia?",
+    "alternativas": {
+      "A": "Supressão medular por toxicidade direta do álcool",
+      "B": "Deficiência funcional de ferro",
+      "C": "Anemia megaloblástica subclínica",
+      "D": "Hemólise crônica compensada"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A (CORRETA): O álcool causa toxicidade direta na medula óssea, levando a anemia macrocítica não megaloblástica, com reticulocitopenia e sem alterações clássicas de B12/folato. B: Deficiência funcional de ferro cursa com VCM normal ou baixo. C: Anemia megaloblástica exige deficiência de B12 ou folato e neutrófilos hipersegmentados. D: Hemólise cursa com reticulocitose e LDH elevada",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q068",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 68,
+    "enunciado": "Mulher, 58 anos, DM2 há 12 anos, HbA1c 8,1%. Uso atual: metformina 2 g/dia e IECA. Exames: TFG: 58 ml/min Albuminúria: 420 mg/g PA: 134x82 mmHg Qual a melhor estratégia visando proteção renal e controle glicêmico?",
+    "alternativas": {
+      "A": "Associar inibidor de SGLT2",
+      "B": "Iniciar insulina basal",
+      "C": "Suspender metformina",
+      "D": "Acrescentar sulfoniluréia"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Paciente com: DM2 DRC (albuminúria significativa) Tratamento atual padrão (ADA + KDIGO):✔ SGLT2 inhibitor = terapia de primeira linha para proteção renal✔ IECA/BRA = reduzir progressão da nefropatia O benefício do SGLT2: reduz progressão da DRC reduz necessidade de diálise reduz mortalidade cardiovascular Insulina controla glicose, mas não protege rim",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q078",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 78,
+    "enunciado": "Mulher de 32 anos procura atendimento médico referindo fadiga progressiva, tontura e queda de cabelo. Relata menstruações intensas nos últimos meses. Ao exame físico apresenta palidez cutaneomucosa. Exames laboratoriais mostram hemoglobina de 9 g/dL, volume corpuscular médio reduzido e ferritina sérica diminuída. Considerando os achados clínicos e laboratoriais, qual é o diagnóstico mais provável?",
+    "alternativas": {
+      "A": "Anemia ferropriva",
+      "B": "Anemia hemolítica autoimune",
+      "C": "Anemia megaloblástica",
+      "D": "Anemia aplástica"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A anemia ferropriva é a causa mais comum de anemia no mundo. Caracteriza-se por microcitose, hipocromia e redução da ferritina, refletindo depleção das reservas de ferro. Em mulheres em idade reprodutiva, a perda sanguínea menstrual é uma causa frequente",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tp_2023_q001",
+    "fonte": "Questoes teste de progresso 2023 (UNIDAVI)",
+    "num": 1,
+    "enunciado": "O Sr. P., 61 anos, portador de esclerose lateral amiotrófica (ELA) há 5 anos, está acamado, recebendo dieta por gastrostomia e com importante disartria. Seu prognóstico é de menos de 6 meses de vida. Ele pediu para o seu médico, Dr. M., lhe prescrever medicações que ele pudesse utilizar para abreviar o seu sofrimento. Após confirmar a vontade do paciente e com a concordância dos familiares, o médico lhe prescreveu dose letal de barbitúricos, que o paciente se autoadministrou, morrendo poucos minutos após. Considerando a legislação e a normatização ética brasileira, o Dr. M:",
+    "alternativas": {
+      "A": "Ajudou o paciente a realizar suicídio assistido, prática considerada ilegal no País, e assim, também vedada pelo Código de Ética Médica",
+      "B": "Praticou eutanásia, prática considerada ilegal no País, e assim, também vedada pelo Código de Ética Médica",
+      "C": "Praticou ortotanásia, permitindo que a doença do paciente seguisse seu curso natural de forma digna, conforme recomendado pelo Código de Ética Médica",
+      "D": "Cometeu distanásia, ao alterar o curso natural da doença do paciente, acelerando o processo de morte, o que é vedado pelo Código de Ética Médica",
+      "E": "Somente poderia ter agido desta forma se o paciente assim solicitasse, através de Testamento Vital com suas diretivas antecipadas de vontade"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A questão versa sobre a terminalidade da vida e as práticas consideradas legais ou ilegais e éticas ou antiéticas no Brasil. A assertiva a) identifica o fato corretamente como suicídio assistido, em que o médico oferece os subsídios para o próprio paciente abreviar a vida, prática não aceita na legislação brasileira. Praticar atos médicos ilegais afronta também o Código de Ética Médica",
+    "requer_imagem": false
+  }
+]

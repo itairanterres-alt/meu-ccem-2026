@@ -1,0 +1,299 @@
+[
+  {
+    "id_origem": "questoes_clm_q002",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 2,
+    "enunciado": "Homem de 68 anos comparece à consulta devido ao aparecimento de hematomas espontâneos há 2 semanas. Nega trauma, uso de medicamentos, outros sangramentos atuais ou episódios semelhantes anteriormente. Exames laboratoriais mostram plaquetas de 160.000/mm3, TAP de 11 s (VR 10-14s), INR 1 (VR 0,8-1,2), TTPA 56s (VR 22-40s). Dentre as afirmativas a seguir, qual descreve o melhor teste para investigação do caso e sua correta interpretação?",
+    "alternativas": {
+      "A": "teste da mistura, pois a não correção do TTPA pode indicar a presença de um inibidor de fator da coagulação",
+      "B": "dosagem do fator IX, pois a ausência da correção do TTPA seria compatível com hemofilia A adquirida",
+      "C": "dosagem do fator VII, pois a presença do resultado diminuído é compatível com hemofilia A adquirida",
+      "D": "dosagem do fator VIII, pois caso tenha um resultado diminuído pode indicar inibidor do fator VII da coagulação",
+      "E": "dosagem do fator VI, pois a ocorrência da correção do TTPA é compatível com a presença de anticoagulante lúpico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A análise de testes básicos de coagulação implica em interpretar e investigar suas anormalidades. O teste da mistura é o principal teste para iniciar a investigação de alterações do TAP ou do TTPA. A correção indica deficiência de fator da coagulação e a não correção indica inibidor de fator da coagulação. A hemofilia A adquirida ocorre devido inibidor contra o fator VIII da coagulação. A dosagem do fator VII está associada ao prolongamento do TAP, mas não do TTPA. O anticoagulante lúpico é um inibidor inespecífico de fatores de coagulação",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q012",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 12,
+    "enunciado": "A Artrite Reumatóide (AR)é uma doença inflamatória sistêmica. É correto afirmar sobre a AR:",
+    "alternativas": {
+      "A": "As articulações inicialmente envolvidas são as das mãos e dos pés",
+      "B": "Os quadris e ombros são articulações envolvidas no início do processo",
+      "C": "A poliartrite periférica assimétrica é uma característica marcante da doença",
+      "D": "Afeta com frequência a coluna torácica e lombar",
+      "E": "É uma doença articular sem manifestações extra articulares"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "CERTA Não são envolvidos no início É Simétrica e não Assimétrica Raramente afeta coluna torácica e lombar É com manifestações extra articulares",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q022",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 22,
+    "enunciado": "Mulher de 54 anos, portadora de câncer gástrico, encontra-se em tratamento quimioterápico, com uso de cateter venoso central. Apresenta também grande dificuldade de mobilidade, pela desnutrição. Essa paciente evoluiu com quadro súbito de dispneia, com franca dificuldade respiratória. Qual a causa deste distúrbio agudo? Frequencia, falta de diagnóstico mais preciso",
+    "alternativas": {
+      "A": "Tromboembolismo venoso, tendo em visto os fatores de comorbidade",
+      "B": "Metástases para pulmão, principal sítio de implantes neoplásicos no câncer gástrico",
+      "C": "Síndrome da veia cava superior, complicação comum da quimioterapia para câncer gástrico",
+      "D": "Hipercalcemia secundária a hipoalbuminemia e síndrome paraneoplásica, que podem levar ao quadro clínico descrito",
+      "E": "Neutropenia febril, devido ao tratamento quimioterápico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Tromboembolismo venoso é uma das principais causas de mortalidade nos pacientes oncológicos. A patogêneses está relacionado com o estado de hipercoaguabilidade conferido pelas neoplasias, imobilização dos pacientes, uso de acesso venoso central e alguns quimioterápiucos. Outras complicações podem ser decorrentes de metástases (câncer gástrico mais comum é para fígado), síndrome da veia cava superior com quadro clínico de dispneia e edema em face (mais comum no câncer de pulmão e linfomas), hipercalcemia (que se apresenta com vômitos, alteração estado mental, polidipsia e poliuria) e neutropenia febril, caracterizado por febre aferida e contagem de neutrófilos abaixo de 1000, sem foco definido de infecção",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q032",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 32,
+    "enunciado": "Atualmente recomenda-se que o profissional da área de saúde informe aos pacientes, familiares e /ou cuidadores quanto aos sintomas novos ou persistentes mais comumente observados após manifestação aguda da Covid-19. ASSINALE a alternativa CORRETA referente ao esperado durante a recuperação da Covid-19",
+    "alternativas": {
+      "A": "A probabilidade de desenvolver condições pós-covid-19 ou síndrome pós covid-19 não está relacionada à gravidade do quadro agudo ou necessidade de hospitalização",
+      "B": "O tempo de recuperação é o mesmo em todas pessoas acometidas pelo covid-19, sendo que, na maioria dos casos, os sintomas desaparecem em tempo menor que em 12 semanas",
+      "C": "A ocorrência de novos sintomas ou condições pós covid-19 é previsível, afetando os indivíduos apenas com sintomas pulmonares e cardiovasculares",
+      "D": "A condição pós-covid é determinada após o surgimento ou a persistência de sintomas após 2 semanas da infecção aguda covid-19",
+      "E": "Não é recomendado o paciente procurar atendimento se apresentar sintomas de dispneia, taquicardia taquipneia inexplicada, visto ser sintomas esperados nas primeiras 12 semanas pós infecção aguda covid-19"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "- Alternativa A, correta. Todas as pessoas que apresentaram diagnóstico de infecção aguda COVID (sintomas leves, moderados ou graves) podem desenvolver sintomas compatíveis COVID longa, independente da gravidade dos sintomas apresentados na fase aguda da doença. Os pacientes com doenças/condições crônicas estão mais propensos a apresentarem sequelas pós-covid 19. - Alternativa B, incorreta. Na maioria dos casos, os sintomas persistentes e/ou os novos desaparecem nas primeiras 12 semanas, no entanto este tempo é distinto de uma pessoa para outra. - Alternativa C, incorreta. A ocorrência de novos sintomas ou condições pós-covid é IMPREVISÍVEL, afeta os indivíduos de maneiras distintas e em momentos diferentes com sintomas pulmonares, neurológicos, cardiovasculares, gastrointestinais, musculoesqueléticos, dermatológicos, dentre outros. - Alternativa D, incorreta. A condição pós-covid é descrita como ampla gama de manifestações clínicas novas, recorrentes ou persistentes presentes após quatro semanas da infecção aguda covid-19. - Alternativa E, incorreta. Paciente com indicação de investigação de causas para sintomas, pois os mesmos podem indicar doenças agudas cardiovasculares e ou pulmonares",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q042",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 42,
+    "enunciado": "Filho informa que foi visitar a pai que mora sozinho e é completamente independente.Percebeu que a pai estava descorado, confuso e lentificado. Informa tosse sem catarro evoluindo nesta ultima semana e vinha fazendo uso de um xarope e paracetamol. Na emergência: PA 90x50 FC 152 T 38,6 FR 26 GCS = 2+3+4 = 9 Quais suas medidas iniciais?",
+    "alternativas": {
+      "A": "Hidratação venosa vigorosa conforme tolerância + Antibioticoterapia de amplo espectro de forma endovenosa imediatamente Hidratação vigorosa conforme tolerância e aguardar hemoculturas para guiar a escolha da antibioticoterapia",
+      "B": "Intubação para proteção da via aérea + inicio de droga vasoativa",
+      "C": "RX torax e Hemograma para definição da conduta",
+      "D": "Hidratação vigorosa conforme tolerância e aguardar hemoculturas para guiar a escolha da antibioticoterapia",
+      "E": "Hidratação vigorosa conforme tolerância + amiodarona + Droga vasoativa para melhorar o nível de consciência"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O PACIENTE COM DOENÇA DE VIAS AÉREAS ESTÁ EVOLUINDO PARA SESPIS DE FOCO PULMONAR, DEVENDO SER INSTITÚIDO A ANTIBIOTICOTERAPIA INTRAVENOSA, RESPEITANDO A “GOLDEN HOUR”. PELO PROTOCOLO DE SESPIS, E TRATAMENTO DO POSSÍVEL CHOQUE DISTRIBUTIVO A HIDRATAÇÃO VIGOROSA",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q052",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 52,
+    "enunciado": "Mulher de 53 anos, refere quadro de uma semana de hipersensibilidade no couro cabeludo, cefaléia hemicraniana moderada e amaurose fugaz. Investigação laboratorial evidenciou velocidade de hemossedimentação de 100 mm/h. Neste caso, qual a hipótese diagnóstica mais provável?",
+    "alternativas": {
+      "A": "Arterite de células gigantes",
+      "B": "Cefaleia Tensional",
+      "C": "Migrânea",
+      "D": "Hemorragia intraparenquimatosa espontânea",
+      "E": "Cefaleia trigeminal autonômica"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A Arterite de células gigantes deve ser fortemente considerada em pacientes com mais de 50 anos, com elevação da VHS, apresentando nova cefaleia ou mudança nas características de cefaleia pre-existente, perda de visão transitória, claudicação mandibular, febre inexplicada ou sinais/sintomas de anormalidades vasculares ( claudicação de membro, assimetria de pressão arterial entre membros, dor durante palpação da artéria temporal, dentre outros). A medida terapêutica inicial para os casos com manifestações visuais é Metilprednisolona IV, de 500 a1000 mg/dia, por 3 dias, seguido por prednisona oral ( 40 a 60 mg/dia) ou prednisona oral 1mg/kg/dia caso o pulso intravenoso não possa ser realizado rapidamente",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q062",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 62,
+    "enunciado": "Homem, 65 anos, dislipidemico e diabético, chega ao pronto-socorro com queixa de dor torácica de forte intensidade há 2 horas, com duração de 20 minutos, sem melhora ao repouso, com irradiação para os membros superiores. Sem alterações ao exame físico e eletrocardiograma. Apresentou troponina com resultado positivo. A respeito do tratamento desse paciente, a medicação que apresenta alteração na mortalidade é:",
+    "alternativas": {
+      "A": "Ácido acetilsalicílico",
+      "B": "Nitrato",
+      "C": "Alteplase",
+      "D": "Morfina",
+      "E": "Oxigênio"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Questão que evidencia a importância na antiagregação plaquetária em um IAM sem supra de ST. Nitrato, morfina e O2 não alteram a mortalidade. Trombólise (alteplase) não tem indicação em IAM sem supra de ST",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q072",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 72,
+    "enunciado": "A infecção pelo vírus Delta pode ser simultânea ou posterior à infecção pelo vírus da Hepatite B. Denomina-se a infecção simultânea de coinfecção, e a infecção secundária de superinfecção. Sobre o tema, identifique a alternativa correta",
+    "alternativas": {
+      "A": "Na maioria dos casos, o quadro clínico da coinfecção HBV/HDV evolui com hepatite aguda benigna, e a coinfecção HBV/HDV resulta em completa recuperação em até 95% dos casos",
+      "B": "A coinfecção HBV/HDV se revela mais grave e de pior prognóstico",
+      "C": "O risco de desenvolvimento de infecção crônica torna-se significativamente maior na coinfecção (79,9%) quando comparado à superinfecção (3%)",
+      "D": "A evolução para a doença crônica é variável entre dois a seis anos, exceto em crianças, em que a evolução ocorre mais lentamente",
+      "E": "O diagnóstico de hepatite delta em regiões não endêmicas deve ser sempre acompanhado de titulação do anti-HDV"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A infecção simultânea HBV/HDV concorre com interferência viral e prejuízo da replicação do HBV. A coinfecção apresenta-se como hepatite aguda recidivante de curso clínico bifásico. Essa apresentação ocorre com maior frequência na coinfecção HBV/HDV do que na hepatite B aguda e se relaciona à expressão sequencial dos vírus B e D. Na maioria dos casos, o quadro clínico da coinfecção HBV/HDV evolui com hepatite aguda benigna. Excepcionalmente, a síntese mais intensa do HDV leva a formas fulminantes e crônicas de hepatite viral. A coinfecção HBV/HDV resulta em completa recuperação em até 95% dos casos. A superinfecção pelo HDV em portadores do HBsAg se revela mais grave e de pior prognóstico. A antigenemia pré-existente do HBsAg favorece uma replicação intensa do HDV e consequente grave dano hepático. O risco de desenvolvimento de infecção crônica torna-se significativamente maior na superinfecção (79,9%) quando comparado à coinfecção (3%) ou à hepatite B clássica. A evolução para a doença crônica é variável entre dois a seis anos. No entanto, em crianças, a evolução ocorre mais rapidamente (147,149)",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q082",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 82,
+    "enunciado": "Homem, 36 anos, com astenia, cefaléia, mialgia, artralgia e dor de garganta com início há 48 horas. Aguardando consulta no Serviço de IST/AIDS para início da profilaxia pré exposição (PREP) para HIV. Tem múltiplos parceiros e parceiras sexuais, com uso inconsistente de preservativos. Sua última atividade sexual foi há 2 semanas, sem preservativo. Ao exame: sinais vitais normais e presença de linfadenomegalia cervical anterior, occipital e supraclavicular. Realizado teste rápido para HIV de 4ª geração sendo negativo. A conduta apropriada no caso é?",
+    "alternativas": {
+      "A": "Realizar carga viral para HIV",
+      "B": "Iniciar tenofovir/lamivudine/dolutegravir",
+      "C": "Solicitar Western Blot para HIV",
+      "D": "Solicitar contagem de células CD4/CD8",
+      "E": "Iniciar a profilaxia pré exposição (PREP)"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Em pacientes apresentando sintomas compatíveis com infecção aguda pelo HIV mas com teste rápido negativo, o exame de carga viral para HIV deve ser realizado para confirmar o diagnóstico. Para iniciar a profilaxia pré exposição (PREP) é obrigatório descartar a presença de infecção pelo HIV",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q005",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 5,
+    "enunciado": "Um paciente de 22 anos procura atendimento relatando episódios recorrentes de espirros em salva, prurido nasal intenso, coriza hialina e obstrução nasal, principalmente ao limpar a casa ou ao contato com poeira. O exame físico mostra mucosa nasal pálida e edemaciada. Considerando o quadro clínico e o diagnóstico provável, qual das alternativas explica corretamente o mecanismo responsável pelos sintomas apresentados?",
+    "alternativas": {
+      "A": "Produção de IgE específica contra alérgenos inalados, com ligação aos mastócitos e posterior degranulação mediada por reexposição ao antígeno",
+      "B": "Ativação de linfócitos T CD8⁺ com liberação direta de citocinas citotóxicas, levando à destruição do epitélio nasal",
+      "C": "Deposição de imunocomplexos circulantes na mucosa nasal, ativando o sistema complemento e causando inflamação local crônica",
+      "D": "Predomínio de resposta imune Th1, com liberação de interferon-γ e ativação de macrófagos na mucosa nasal"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A rinite alérgica é uma reação de hipersensibilidade do tipo I, mediada por IgE. Em indivíduos sensibilizados, o primeiro contato com o alérgeno (poeira, ácaros, pólen) leva à produção de IgE específica, que se liga aos mastócitos da mucosa nasal.Na reexposição, o alérgeno faz a ligação cruzada dessas IgEs, provocando degranulação dos mastócitos e liberação de mediadores como histamina, leucotrienos e prostaglandinas, responsáveis por espirros em salva, prurido, coriza hialina e obstrução nasal — exatamente como descrito no caso clínico",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q015",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 15,
+    "enunciado": "Você está atendendo uma mulher, 42 anos que chega à unidade de emergência em regular estado geral, depletada, com histórico de DM. Você recebe os seguintes exames: Glicemia: 285 mg/dL, pH: 7,18, HCO₃: 13 mEq/L, Anion gap: 21. Qual critério você utiliza para diferenciar cetoacidose diabética de estado hiperosmolar?",
+    "alternativas": {
+      "A": "pH",
+      "B": "Glicemia",
+      "C": "HCO3",
+      "D": "Anion gap"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Para diferenciar Cetoacidose Diabética (CAD) de Estado Hiperglicêmico Hiperosmolar (EHH), o critério mais discriminatório entre os apresentados é o pH. Segundo a Diretriz da Sociedade Brasileira de Diabetes (2025), a CAD é definida pela presença de: Acidose metabólica: pH < 7,3, OU bicarbonato < 15 mEq/L, Associada à cetonemia/cetonúria Por outro lado, o EHH caracteriza-se por: Hiperglicemia muito elevada, Osmolaridade aumentada, pH geralmente > 7,30 e bicarbonato > 18 mEq/L, Cetose ausente ou discreta. Assim: pH reduzido (< 7,3) → sugere CAD pH normal (> 7,3) → sugere EHH No caso clínico apresentado, o pH 7,18 indica acidose metabólica, apontando fortemente para CAD, mesmo com glicemia inferior àquela tipicamente observada no EHH. Sobre as demais alternativas: b) Glicemia: CAD pode ocorrer com glicemia mais baixa, inclusive na forma euglicêmica.Portanto, glicemia não diferencia CAD de EHH. c) Bicarbonato: também faz parte dos critérios, mas pH é mais diretamente discriminatório e está mais consistentemente reduzido nas apresentações típicas da CAD. d) Anion gap: geralmente está elevado na CAD, mas não é critério diagnóstico obrigatório segundo o consenso mais recente. Portanto, dentre as opções oferecidas, o pH é o critério laboratorial mais útil para diferenciar CAD de EHH",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q025",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 25,
+    "enunciado": "Homem de 62 anos, diabético, com antecedente de infarto agudo do miocárdio, encontra-se em uso de atorvastatina 40 mg/dia. Seu LDL-colesterol atual é de 68 mg/dL, com boa adesão ao tratamento e ausência de efeitos adversos. Considerando as recomendações da Diretriz Brasileira de Dislipidemias 2025, qual é a conduta terapêutica mais apropriada?",
+    "alternativas": {
+      "A": "Intensificar o tratamento hipolipemiante, seja com aumento da dose da estatina ou associação de ezetimiba, visando LDL-colesterol < 50 mg/dL",
+      "B": "Manter a dose atual da estatina, pois o LDL-colesterol já se encontra em faixa aceitável",
+      "C": "Substituir a estatina por ezetimiba em monoterapia",
+      "D": "Priorizar apenas medidas não farmacológicas, uma vez que a redução adicional do LDL tem pouco impacto clínico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Pacientes com doença cardiovascular estabelecida associada ao diabetes pertencem ao grupo de risco cardiovascular muito alto, para o qual a diretriz recomenda LDL-colesterol < 50 mg/dL. Diante de LDL persistentemente acima da meta, a conduta indicada é intensificar a estatina até a dose máxima tolerada e/ou associar ezetimiba. A alternativa B reflete erro comum de interpretar valores “baixos” como valores “na meta”.A alternativa C é inadequada, pois a ezetimiba não substitui a estatina em prevenção secundária.A alternativa D contraria evidências robustas de benefício clínico da redução adicional do LDL-c",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q035",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 35,
+    "enunciado": "Mulher, 24 anos, com diagnóstico de Diabetes Tipo 1 há 10 anos, em esquema basal-bolus. Relata episódios frequentes de hipoglicemia inadvertida e alta variabilidade glicêmica. HbA1c atual de 7,9%. O paciente busca otimização do controle metabólico com foco na segurança. De acordo com as recomendações atuais para o manejo de adultos com DM1, a conduta prioritária é",
+    "alternativas": {
+      "A": "Iniciar o uso de sistema de monitoramento contínuo da glicose (CGM)",
+      "B": "Trocar a insulina análoga basal por insulina NPH em duas doses",
+      "C": "Reforçar o automonitoramento capilar de ponta de dedo oito vezes ao dia",
+      "D": "Prescrever inibidores da SGLT2 como terapia adjuvante ao tratamento"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O monitoramento contínuo da glicose (CGM) é atualmente o padrão de cuidado para DM1, superando o automonitoramento capilar por reduzir a variabilidade glicêmica e o risco de hipoglicemias graves",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q045",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 45,
+    "enunciado": "No artigo 1º do Código de Ética Médica, destaca-se que é vedado ao médico causar dano ao paciente, por ação ou omissão, caracterizável como imperícia, imprudência ou negligência. Identifique qual o princípio bioético, dentre as alternativas abaixo, que o referido artigo abrange:",
+    "alternativas": {
+      "A": "Não-maleficência",
+      "B": "Beneficência",
+      "C": "Autonomia",
+      "D": "Equidade"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A não-maleficência é um dos pilares da prática médica, orientando o médico a evitar condutas que possam trazer prejuízos físicos, psíquicos, morais ou sociais aos pacientes. Trata-se de um dos principais baluartes éticos preconizados pelo Código de Ética Médica do Conselho Federal de Medicina, juntamente com Beneficência, Autonomia e Justiça",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q055",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 55,
+    "enunciado": "O entendimento das cefaleias inclui a compreensão de que causas secundárias, embora nem sempre comuns, podem causar dor imitando cefaleias primárias, porém com o potencial de acarretar morbimortalidade para o paciente. Um exemplo clássico é o papiledema: qual das causas abaixo seria responsável por ele?",
+    "alternativas": {
+      "A": "Hidrocefalia por lesão expansiva causando estenose de aqueduto cerebral",
+      "B": "Sinusite etmoidal e esfenoidal simultânea",
+      "C": "Hipotensão liquórica por, por exemplo, fístula venoliquórica",
+      "D": "Arterite temporal associada a polimialgia reumática"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Avaliação do conhecimento de anatomia topográfica do andar superior do abdome, em particular das estruturas que formam o pedículo hepático e da disposição dos folhetos peritoneais originando mesos e ligamentos. Esta questão apresenta uma situação clínica freqüentemente encontrada nos serviços Médicos de Urgência",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q065",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 65,
+    "enunciado": "Sobre o caso clínico a seguir, assinale a alternativa correta: Mulher, 28 anos há 3 meses com taquicardia, tremores, agitação, emagrecimento de 8Kg. Ao exame físico com aumento de volume difuso da tireoide, frequência cardíaca de 112 batimentos por minuto, tremores finos de extremidades. Exames complementares com TSH = 0,01 m UI/L (VR = 0,4 a 4,0 ou 4,5 mUI/L), T4 livre = 5,2ng/dl (VR = 0,8 a 1,8 ng/Dl)",
+    "alternativas": {
+      "A": "Se esta paciente apresentar anticorpo anti-receptor do TSH positivo tem o diagnóstico de Doença de Graves e drogas como metimazol e propranolol devem ser iniciadas",
+      "B": "Para confirmar o diagnóstico de Doença de Graves esta paciente deve ter diminuição de captação de iodo radioativo em 24hs pela cintilografia de tireoide",
+      "C": "A presença de anticorpo anti-peroxidase positivo confirmaria o diagnóstico de Tireoidite de Hashimoto",
+      "D": "O diagnóstico provável seria tireoidite de de Quervain e o uso de corticoide estaria altamente indicado"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O diagnóstico seria doença e Graves, principalmente se confirmado com TRAB positivo e o tratamento indicado neste momento sera metimazol e propranolol b) Na Doença de Graves há aumento de captação à cintilografia c) O anticorpo anti-peroxidase pode estar presente na Doença de Graves d) na tireoidite de Quervain haveria dor e sinais mais sutis de hipertiroeidismo",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q075",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 75,
+    "enunciado": "Considerando os critérios diagnósticos do DSM-5-TR para transtorno depressivo maior, qual das alternativas descreve corretamente um requisito necessário para o diagnóstico?",
+    "alternativas": {
+      "A": "Presença de pelo menos cinco sintomas durante um período mínimo de duas semanas, incluindo obrigatoriamente humor deprimido ou perda de interesse ou prazer, associados a sofrimento clinicamente significativo ou prejuízo no funcionamento",
+      "B": "Presença de humor deprimido persistente por período mínimo de um mês, acompanhado de pelo menos três sintomas adicionais de natureza afetiva ou somática",
+      "C": "Ocorrência de humor deprimido e fadiga por pelo menos duas semanas, independentemente do número total de sintomas associados",
+      "D": "Presença de quatro sintomas depressivos por pelo menos duas semanas, desde que um deles seja alteração do sono ou do apetite"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O DSM-5-TR estabelece que o diagnóstico de episódio depressivo maior requer a presença de cinco ou mais sintomas durante um período mínimo de duas semanas, representando mudança em relação ao funcionamento prévio. Entre esses sintomas, pelo menos um deve ser humor deprimido ou perda de interesse ou prazer (anedonia). Além disso, os sintomas devem causar sofrimento clinicamente significativo ou prejuízo social, ocupacional ou em outras áreas importantes da vida, e não devem ser atribuídos a efeitos de substâncias ou condições médicas. A alternativa A descreve corretamente esses critérios diagnósticos. A alternativa B está incorreta porque o DSM-5-TR exige cinco sintomas, e não três, e o critério temporal mínimo é de duas semanas, não um mês. A alternativa C está incorreta porque o diagnóstico não pode ser estabelecido apenas com dois sintomas; é necessário atingir o número mínimo de cinco sintomas. A alternativa D está incorreta porque o DSM-5-TR não permite diagnóstico com apenas quatro sintomas, ainda que incluam alterações de sono ou apetite. A alternativa E está incorreta porque o diagnóstico requer sofrimento clinicamente significativo ou prejuízo funcional, critério que não pode estar ausente",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q085",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 85,
+    "enunciado": "Paciente de 68 anos, com diagnóstico de Insuficiência Cardíaca com Fração de Ejeção Reduzida (ICFEr - FE: 32%) de etiologia isquêmica, em acompanhamento ambulatorial. Atualmente em classe funcional NYHA II, faz uso de Enalapril 20mg 12/12h, Carvedilol 25mg 12/12h e Espironolactona 25mg/dia. Exames laboratoriais recentes mostram Creatinina: 1,1 mg/dL e Potássio: 4,2 mEq/L. De acordo com as diretrizes atuais para redução de mortalidade e hospitalização, qual a conduta farmacológica mais adequada a ser adicionada ao esquema terapêutico?",
+    "alternativas": {
+      "A": "Iniciar Inibidor do Cotransportador Sódio-Glicose 2 (iSGLT2), como a Dapagliflozina ou Empagliflozina",
+      "B": "Substituir Enalapril por Hidralazina e Nitrato de Isossorbida",
+      "C": "Adicionar Digoxina para controle de sintomas e redução de remodelamento",
+      "D": "Iniciar Varfarina devido à etiologia isquêmica e baixa fração de ejeção"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A questão avalia o conhecimento sobre a \"quadrupla terapia\" da ICFEr. Os iSGLT2 demonstraram redução de mortalidade cardiovascular e hospitalizações independentemente da presença de diabetes. A alternativa B só seria indicada em caso de intolerância a IECA/BRA ou em pacientes negros com sintomas persistentes. A Digoxina (C) não reduz mortalidade. A anticoagulação (D) não é rotina apenas pela baixa fração de ejeção, sem fibrilação atrial ou trombo intracavitário",
+    "requer_imagem": false
+  }
+]

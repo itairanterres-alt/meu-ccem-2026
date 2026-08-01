@@ -1,0 +1,299 @@
+[
+  {
+    "id_origem": "questoes_clm_q001",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 1,
+    "enunciado": "Mulher de 36 anos teve diagnóstico de trombose venosa profunda em membro inferior esquerdo há 1 mês, 1 semana após realizar uma cirurgia bariátrica. Está atualmente em uso de rivaroxabana. Nega outros problemas de saúde. Há 5 anos relata ter tido um episódio de aborto com 8 semanas de gestação. Qual a conduta adequada em relação à trombofilia?",
+    "alternativas": {
+      "A": "não realizar testes de trombofilia, pois a trombose foi provocada por um fator de risco maior transitório",
+      "B": "não realizar testes de trombofilia nesse momento, pois o uso da rivaroxabana pode deixar os resultados pouco confiáveis",
+      "C": "realizar testes de trombofilia devido ao episódio de aborto, considerando a necessidade de anticoagular no longo prazo",
+      "D": "realizar os testes genéticos de mutação (fator V Leiden e protrombina), pois são confiáveis mesmo em anticoagulação",
+      "E": "programar a realização dos testes de trombofilia após 3 meses de anticoagulação para definição da sua duração"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A realização de testes de trombofilia têm alto custo e devem ser realizadas de modo criterioso, principalmente em pacientes relativamente jovens (< 50 anos), recorrência de TEV, trombose em sítios pouco usuais (veias retinianas, veias intra-abdominais, membros superiores, sistema nervoso central, tromboflebite superficial), e história positiva de doença trombótica venosa. A presença de fator de risco maior transitório (cirurgia bariátrica, nesta questão) ou um único episódio de aborto com menos de 8 semanas não indica a realização dos testes (pesquisa do fator V Leiden e mutação do gene da protrombina), mesmo estes não sofrendo influência da anticoagulação. Quando indicado, a pesquisa deve ser realizada na fase aguda ou depois de pelo menos 3 meses de terapêutica anticoagulante",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q011",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 11,
+    "enunciado": "No acompanhamento de pacientes com câncer alguns marcadores tumorais podem ser úteis para avaliação de resposta ao tratamento proposto. Marque a alternativa que associa corretamente o tumor ao seu marcador:",
+    "alternativas": {
+      "A": "CA 19-9 – câncer de cólon",
+      "B": "CA-125 – câncer de próstata",
+      "C": "Alfa fetoproteína – mieloma múltiplo",
+      "D": "Calcitonina – câncer de pulmão",
+      "E": "Imunoglobulina monoclonal – melanoma"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A – CERTA B- CA-125 é ca ovariano e alguns linfomas C- Alfa fetoproteína é Carcinoma hepatocelular e tumor gonadal de células germinativas D- Calcitonina é Câncer medular da tireoide E - Imunoglobulina monoclonal é Mieloma múltiplo",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q021",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 21,
+    "enunciado": "Paciente vem a consulta com queixa de astenia. Ao exame apresenta dados vitais dentro da normalidade. Exame das mucosas revelou intensa palidez e restante do exame físico sem alterações. O hemograma revelou redução do número de hemácias, redução do hematócrito e redução da hemoglobina. Sobre as hipóteses diagnósticas, assinale a alternativa correta",
+    "alternativas": {
+      "A": "Reticulocitose sugere sangramento agudo ou hemólise",
+      "B": "Reticulocitopenia sugere origem microangiopática",
+      "C": "Reticulocitopenia com VCM alto sugere ferropenia",
+      "D": "Reticulocitopenia com VCM baixo sugere deficiência de Vit B12",
+      "E": "Reticulocitose sugere anemia aplástica ou mielodisplasia"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Nas anemias, a elevação dos reticulócitos indica um processo de aumento de degradação dos eritrócitos, como nos processos hemolíticos ou sangramento. Já a contagem de reticulócitos baixa indica alguma forma de falência na produção dos eritrócitos, como nas doenças da medula óssea e deficiência de vitaminas importantes para a eritropoiese. Nas anemias com baixa contagem de reticulócitos o VCM elevado pode indicar deficiência de vitamina B12, folato e as com VCM baixo deficiência de ferro, talassemia",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q031",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 31,
+    "enunciado": "Mulher de 58 anos, admitida em Pronto Atendimento com queixa de precordialgia do tipo queimação com irradiação cervical, acompanhada de sudorese e dispneia. Eletrocardiograma revelou supradesnivelamento do segmento ST em derivações anterolaterais (ver ECG). Após abordagem inicial, monitor evidenciou o traçado abaixo. Falta o traçado taquicardia ventricular ASSINALE a alternativa que descreve qual deve ser a conduta imediata:",
+    "alternativas": {
+      "A": "Checar pulso central para, só então, definir próximo passo no atendimento",
+      "B": "Desfibrilação 200J",
+      "C": "Cardioversão elétrica sincronizada 100J",
+      "D": "Amiodarona 300mg IV em bólus",
+      "E": "Cardioversão elétrica sincronizada 200J"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Conceito chave: “A primeira etapa na condução de uma taquicardia ventricular é checar o pulso”. A questão aborda o atendimento de um paciente com diagnóstico de Infarto Agudo do Miocárdio (dor torácica típica + supra desnivelamento de ST) que evolui com uma taquiarritmia de QRS largo (>120ms), RR regular, sustentada, sendo a Taquicardia Ventricular Monomórfica, a principal representante. Após a identificação de TVMS no monitor, a conduta imediata, de acordo com o ACLS, deve ser checar pulso central do paciente (carotídeo ou femoral), permitindo a diferenciação entre Taquicardia Ventricular COM PULSO ou Taquicardia Ventricular SEM PULSO (TVSP). Só assim, conseguiríamos proceder com o tratamento da arritmia. Na primeira situação, TV com pulso, deveríamos optar por cardioversão elétrica sincronizada (CVES) com carga inicial de 100J ou infusão de antiarrítmicos (amiodarona, principalmente), a depender da estabilidade do paciente; já na segunda, TVSP, teríamos um paciente em parada cardiorrespiratória (PCR), o que requer desfibrilação com carga máxima 200J seguida da administração de compressões torácicas de alta qualidade",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q041",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 41,
+    "enunciado": "Paciente feminina 75 anos de idade, sedentária, tabagista, hipertensa, com níveis médios de PA 160/90 mmHg, durante a refeição do café da manhã em casa, e iniciou quadro de cefaléia difusa, intensa, náuseas e evoluiu com dificuldade de fala e perda de força muscular em dimídio direito .Chamado SAMU, paciente foi levado a UPA. Deu entrada na unidade com PA 180/100, diagnosticado pelo médico emergencista com crise hipertensiva. Plegia em dimidio direito, afasia, desvio de rima labial para esquerda, cincinatti- 3 pontos Sobre o quadro assinale a alternativa corret",
+    "alternativas": {
+      "A": ") o quadro clinico inicial sugeria AVE, colocar em protocolo para trombólise se tempo do ictus de até 4,5h",
+      "B": "o quadro clinico inicial sugeria AVE, colocar em protocolo para trombólise se tempo do ictus ( inicio dos sintomas) de até 1,5h",
+      "C": "A conduta é fundamental nesses casos a redução rápida da hipertensão",
+      "D": "Fazer AAS 300 MG, heparina 1 ml EV, pois provavelmente é AVC isquemico",
+      "E": "Provavelmente deve ser AVC hemorragico pela padrao clinico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "IMPORTANTE RESSALTAR OS PROTOCOLOS DE TROMBÓLISE EXISTENTES NA REDE DE URGÊNCIA DOS MUNICÍPIOS SEGUINDO AS DIRETRIZES DA SOCIEDADE DE NEUROLOGIA QUE INDICA TEMPO DO ICTUS DE 4,5H.NÃO SE DEVE FAZER NENHUMA MEDICAÇÃO SEM O EXAME DE TOMOGRAFIA DE CRÂNIO",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q051",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 51,
+    "enunciado": "Paciente do sexo feminino, 28 anos, previamente hígida, sem qualquer história patológica pregressa, chega na emergência trazida por familiares, com história de disúria iniciada há cinco dias, febre iniciada há 48 h junto com dor lombar alta bilateral, e hoje iniciou com sintomas de fraqueza pois não consegue ficar em pé, ficando tonta e com sensação de desmaio. Tem pressão arterial sistêmica medida em decúbito dorsal de 80 / 30 mmHg, frequência cardíaca em decúbito dorsal = 124 batimentos por minuto, frequência respiratória = 26 incursões respiratórias por minuto, em decúbito dorsal. Tem sinal de Giordano positivo bilateralmente, enchimento capilar maior que quatro segundos, cianose de extremidades. Diante desses dados qual a conduta inicial dentro da primeira hora de tratamento, dentre as opções abaixo:",
+    "alternativas": {
+      "A": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + colher lactato plasmático + iniciar droga vasoativa endovenosa (noradrenalina)",
+      "B": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura iniciar antibiótico endovenoso de largo espectro",
+      "C": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura e iniciar antibiótico endovenoso de largo espectro",
+      "D": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + colher lactato plasmático + aguardar pelo menos 1 h para avaliar a resposta a infusão volêmica",
+      "E": "Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + aguardar pelo menos 1 h para avaliar a resposta a infusão volêmica"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Aborda a conduta inicial em paciente com quadro de infecção urinária alta (Pielonefrite aguda) que chega grave na Emergência. A conduta inicial correta na primeira hora é o fator mais importante na redução da morbimortalidade dessa condição",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q061",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 61,
+    "enunciado": "Mulher de 70 anos, hipertensa e diabética, com dispneia aos esforços, foi internada com quadro de dor torácica e síncope aos moderados esforços. História prévia de angioplastia coronariana, porém com cateterismo sem lesões coronarianas novas. Ao exame, apresentava PA 124/104 mmHg; FC 96 bpm e ritmo regular com ascensão lenta, sopro sistólico ejetivo com pico mesossistólico mais audível em 2º EIC próximo à borda esternal D e com irradiação para carótidas. Qual a valvopatia provável?",
+    "alternativas": {
+      "A": "Estenose aórtica",
+      "B": "Estenose mitral",
+      "C": "Insuficiência aórtica",
+      "D": "Insuficiência mitral",
+      "E": "Insuficiência tricúspide"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Questão que aborda as valvopatias mais comuns na prática clínica",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q071",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 71,
+    "enunciado": "A hepatite viral B é causada por um vírus DNA pertencente à família Hepadnaviridae. Os vírus dessa família têm características em comum, como fita dupla incompleta e replicação do genoma viral por enzima transcriptase reversa. Sobre a imunopatogênese e o seguimento dessa infecção viral, são feitas as seguintes afirmações: I – Para o acompanhamento da infecção, utilizam-se marcadores séricos de imunidade (anti-HBs), a avaliação da presença do antígeno de superfície do HBV (HBsAg) e a quantificação do vírus na corrente sanguínea (carga viral/HBV-DNA). II – A variabilidade de resultados no tratamento e na evolução da hepatite crônica poderia ser atribuída às características virais, o que justifica a escolha da terapêutica em função da genotipagem do HBV. III – A evolução para infecção crônica ocorre em menor proporção nos extremos de idade, e é definida como a persistência do vírus ou a presença do HBsAg por mais de seis meses, detectada por meio de testes sorológicos. Está correto o que se afirma em:",
+    "alternativas": {
+      "A": "I, apenas",
+      "B": "II, apenas",
+      "C": "I e II, apenas",
+      "D": "I e III, apenas",
+      "E": "II e III, apenas"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A hepatite viral B é causada por um vírus DNA pertencente à família Hepadnaviridae. Os vírus dessa família têm características em comum, como fita dupla incompleta e replicação do genoma viral por enzima transcriptase reversa. As partículas virais são compostas de envelope externo proteico que constitui o HBsAg. O glicocapsídeo é constituído pela proteína do core ou núcleo (HBcAg) e pelo genoma viral. É considerado um vírus oncogênico e apresenta dez genótipos, distintos entre si pela sequência de nucleotídeos no genoma, patogenicidade e distribuição geográfica. Entende-se que a variabilidade de resultados no tratamento e na evolução da hepatite crônica poderia ser atribuída às características virais. Alguns genótipos apresentariam melhor resposta ao tratamento com alfainterferona; outros genótipos aparentariam possuir maior potencial carcinogênico. Entretanto, até o momento, não há evidências que suportem a escolha da terapêutica em função da genotipagem do HBV. Para o acompanhamento da infecção, utilizam-se marcadores séricos de imunidade (anti-HBs), a avaliação da presença do antígeno de superfície do HBV (HBsAg) e a quantificação do vírus na corrente sanguínea (carga viral/HBV-DNA). O aparecimento do anti-HBs e o desaparecimento do HBsAg e da carga viral indicam resolução da infecção pelo HBV na maioria dos casos. Em raras situações, a doença pode evoluir para a forma crônica, mesmo com esse perfil sorológico e viral. Em indivíduos adultos expostos exclusivamente ao HBV, a cura espontânea se dá em cerca de 90% dos casos. A evolução para infecção crônica, por sua vez, ocorre em menor proporção – e é definida como a persistência do vírus ou a presença do HBsAg por mais de seis meses, detectada por meio de testes sorológicos. Os extremos de idade e outros fatores comportamentais e genéticos, características demográficas ou concomitância de substâncias tóxicas – incluindo álcool, fumo, história familiar de CHC e contato com carcinógenos como aflatoxinas, por exemplo – aumentam o risco de cirrose hepática e de CHC em pacientes portadores da hepatite B crônica",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q081",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 81,
+    "enunciado": "Para confirmação do diagnóstico de Hepatite C e indicação de tratamento é necessário:",
+    "alternativas": {
+      "A": "Detecção de HCV-RNA em sangue periférico",
+      "B": "Presença de sintomas (icterícia, colúria e acolia)",
+      "C": "Anti-HCV reagente em 2 exames com metodologias diferentes",
+      "D": "Anti-HCV reagente e presença de sintomas (icterícia, colúria e acolia)",
+      "E": "Detecção de HCV-RNA em sangue periférico em pacientes sintomáticos (icterícia, colúria e acolia)"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A hepatite C normalmente cursa de forma assintomática. A presença do Anticorpo contra o vírus da hepatite C pode permanecer após cura, portanto não define e presença de infecção ou necessidade de tratamento",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q004",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 4,
+    "enunciado": "João, 68 anos, aposentado, hipertenso e tabagista há 40 anos, é levado ao pronto atendimento após início súbito de fraqueza no braço e perna direita há 45 minutos, associada à disartria. Sua esposa relata que ele havia parado o uso de anti-hipertensivos há 3 meses “porque estava se sentindo bem”. Ao exame: PA = 170x90 mmHg, glicemia capilar = 104 mg/dL, ritmo cardíaco irregular. TC de crânio sem contraste não mostra sinais de sangramento. NIHSS 7. Indique a conduta inicial mais apropriada",
+    "alternativas": {
+      "A": "Iniciar trombólise venosa com alteplase",
+      "B": "Manter observação clínica e repetir TC em 24h",
+      "C": "Iniciar anticoagulação plena com heparina de baixo peso molecular",
+      "D": "Reduzir a PA rapidamente para valores dentro da faixa da normalidade"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A) Correta. A trombólise com alteplase é indicada em pacientes com AVC isquêmico confirmado, sem sinais de hemorragia na TC e dentro da janela terapêutica de até 4h30 após o início dos sintomas. B) Errada. O paciente está dentro da janela terapêutica para trombólise (<4h30). A simples observação atrasaria tratamento eficaz. C) Errada. A anticoagulação plena não é indicada na fase aguda de AVC isquêmico, especialmente antes de excluir hemorragia ou confirmar fonte cardioembólica. D) Errada. Reduzir a PA de forma abrupta pode comprometer a perfusão cerebral; o controle da pressão é cuidadoso e só é indicado se >185x110 mmHg antes da trombólise OU 220x120mmHg se não for trombolisar",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q014",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 14,
+    "enunciado": "Homem de 42 anos procura atendimento por edema progressivo em membros inferiores e ganho ponderal há 3 semanas. Refere urina espumosa, sem disúria ou febre. Possui antecedente de hepatite B crônica diagnosticada há 10 anos, sem seguimento regular. Ao exame físico apresenta edema ++/4+, pressão arterial de 130/80 mmHg. Exames laboratoriais mostram: Proteinúria: 6,2 g/24h Albumina sérica: 2,3 g/dL Creatinina: 1,1 mg/dL Sedimento urinário: sem hematúria significativa Complemento sérico: normal Considerando o quadro clínico e a associação etiológica mais provável, assinale a alternativa corret",
+    "alternativas": {
+      "A": "Nefropatia membranosa secundária à hepatite B, causada por deposição subepitelial de imunocomplexos na membrana basal glomerular",
+      "B": "Glomeruloesclerose segmentar e focal primária, caracterizada por deposição predominante de IgA mesangial",
+      "C": "Nefropatia por IgA, cuja manifestação típica é síndrome nefrótica pura sem hematúria",
+      "D": "Glomerulonefrite rapidamente progressiva, esperada pela ausência de consumo de complemento"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Alternativa A — CORRETA O paciente apresenta síndrome nefrótica do adulto (proteinúria >3,5 g/dia, hipoalbuminemia e edema). Em adultos, a nefropatia membranosa é uma das causas mais comuns de síndrome nefrótica e possui forte associação com infecções crônicas, especialmente hepatite B. Fisiopatologia: formação de imunocomplexos circulantes relacionados ao antígeno viral; deposição subepitelial na membrana basal glomerular; ativação do complemento local e aumento da permeabilidade glomerular. A ausência de hematúria importante e complemento normal reforçam o diagnóstico. Alternativa B — Incorreta A glomeruloesclerose segmentar e focal não é caracterizada por deposição de IgA; trata-se de lesão esclerosante podocitária. Deposição mesangial de IgA define outra entidade. Alternativa C — Incorreta A nefropatia por IgA tipicamente cursa com hematúria recorrente, frequentemente após infecções de vias aéreas superiores, e não síndrome nefrótica isolada. Alternativa D — Incorreta Glomerulonefrite rapidamente progressiva apresenta deterioração acelerada da função renal, hematúria e cilindros hemáticos, o que não está presente no caso",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q024",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 24,
+    "enunciado": "Paciente com 55 anos, masculino, tabagista e com IMC: 28Kg/m2. O paciente faz tratamento para hipertensão e não é portador de diabetes. Comparece para consulta médica trazendo dos seguintes resultados de exames: CT: 230mg/dl, HDLc:30mg/dl, TG: 150mg/dl. Considerando os fatores de risco apresentados pelo paciente, a sua interpretação dos exames em relação aos níveis de LDLc e sua conduta são respectivamente?",
+    "alternativas": {
+      "A": "LDLc elevado, iniciar estatina",
+      "B": "LDLc adequado, iniciar ômega 3",
+      "C": "LDLc elevado, reforçar mudança de estilo de vida",
+      "D": "LDLc adequado, iniciar fibrato"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O LDL-c estimado (≈145 mg/dL) está acima das metas recomendadas para pacientes de risco cardiovascular intermediário, cujo alvo é <100 mg/dL, conforme a Diretriz Brasileira de Dislipidemias de 2025. Além disso, o paciente possui vários fatores agravantes: tabagismo, hipertensão, HDL baixo e sobrepeso. A diretriz estabelece que: O LDL-c é o alvo primário da intervenção terapêutica; Pacientes com risco intermediário devem iniciar tratamento farmacológico quando o LDL-c está acima do alvo; Estatinas seguem como terapia de primeira linha na redução do LDL-c. Portanto, este paciente tem indicação clara de iniciar estatina, além de controle intensivo dos fatores de risco e mudanças no estilo de vida",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q034",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 34,
+    "enunciado": "Paciente de 29 anos realiza investigação sorológica após exposição ocupacional a material biológico potencialmente contaminado. A avaliação laboratorial inclui pesquisa de marcadores para o vírus da hepatite B (HBV), com o objetivo de identificar possível infecção em atividade. Considerando a interpretação dos marcadores sorológicos do HBV, qual resultado laboratorial indica presença de infecção ativa pelo vírus da hepatite B?",
+    "alternativas": {
+      "A": "HBsAg positivo",
+      "B": "Anti-HBs positivo isolado",
+      "C": "Anti-HBc IgG isolado",
+      "D": "Anti-HBe positivo isolado"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A alternativa correta é HBsAg positivo, pois a presença do antígeno de superfície da hepatite B indica infecção ativa pelo vírus, podendo corresponder tanto à fase aguda quanto à infecção crônica. Em relação ás demais alternativas, o Anti-HBs positivo isolado indica imunidade, geralmente por vacinação ou infecção prévia resolvida. O Anti-HBc IgG isolado sugere contato prévio com o vírus, sem necessariamente indicar replicação ativa. Já o Anti-HBe positivo isolado está relacionado à menor replicação viral, não sendo marcador de infecção ativa por si só",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q044",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 44,
+    "enunciado": "Uma profissional de saúde de 35 anos, sem histórico de vacinação prévia para varíola ou Mpox, atende um paciente confirmado para Mpox. Durante o exame físico, ocorre um contato acidental de sua pele íntegra com secreções de uma lesão ativa do paciente. O contato ocorreu há 24 horas. De acordo com as diretrizes atuais de saúde pública, a conduta mais apropriada para profilaxia pós-exposição (PEP) é:",
+    "alternativas": {
+      "A": "Indicar a vacinação o mais breve possível, idealmente dentro dos primeiros 4 dias após a exposição",
+      "B": "Iniciar imediatamente terapia antiviral com tecovirimat por 14 dias para prevenir o desenvolvimento da doença",
+      "C": "Recomendar apenas o monitoramento de sintomas por 21 dias, pois o contato com pele íntegra oferece baixo risco",
+      "D": "Administrar imunoglobulina humana específica para Orthopoxvirus para conferir imunidade passiva imediata"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A alternativa A está CORRETA. A vacinação é a principal estratégia de profilaxia pós-exposição (PEP) para Mpox. Quando administrada em até 4 dias após o primeiro contato com o vírus, a vacina pode prevenir o desenvolvimento da doença. Se administrada entre 4 e 14 dias, pode não prevenir a doença, mas tende a reduzir a gravidade dos sintomas. Portanto, a indicação é vacinar o mais rápido possível. A alternativa B está INCORRETA. Embora o tecovirimat seja um antiviral estudado para o tratamento de Mpox, seu uso principal é para pacientes com doença estabelecida, especialmente aqueles com quadros graves ou com risco de complicações. Não há, até o momento, evidência robusta que embase seu uso rotineiro como profilaxia pós-exposição em indivíduos assintomáticos. A alternativa C está INCORRETA. O contato com secreções de lesões ativas é considerado de alto risco para transmissão, independentemente de a pele exposta estar visivelmente lesionada ou não. A simples observação sem a oferta da vacinação seria uma conduta inadequada, perdendo a janela de oportunidade para prevenir a infecção ou atenuar sua gravidade. A alternativa D está INCORRETA. O uso de imunoglobulina específica (Vaccinia Immune Globulin - VIG) é reservado para situações muito específicas, como em pacientes com complicações graves da vacinação com vírus vivo (vaccinia) ou, em teoria, para profilaxia em indivíduos expostos com contraindicações absolutas à vacina. Não é a conduta padrão para PEP em um adulto saudável exposto",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q054",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 54,
+    "enunciado": "Uma paciente de 90 anos, com demência moderada, Insuficiência Cardíaca NYHA III, e em uso de O2 domiciliar por DPOC, desenvolve insuficiência respiratória grave. A equipe médica avalia a necessidade de ventilação mecânica invasiva, procedimento que pode estender a sobrevida, porém com possíveis repercussões sobre a capacidade funcional e a qualidade de vida. O hospital já enfrenta limitações de alocação de recursos e escassez de leito de UTI. Considerando os princípios da Bioética Principialista, é correto afirmar que:",
+    "alternativas": {
+      "A": "A decisão terapêutica neste caso, por se tratar de paciente com comorbidades graves e irreversíveis, leva em consideração a qualidade de vida e o princípio de não maleficência, sendo a opção de não intubar e não levar para UTI a mais correta",
+      "B": "Por se tratar de uma pessoa idosa, esta teria preferência na solicitação de leito de UTI e intubação, a fim de prevalecer o princípio da equidade, sendo que, caso não seja submetida aos procedimentos adequados, poderia ser considerado um caso de etarismo",
+      "C": "Caso a paciente não seja intubada e levada para UTI, pode-se considerar uma eutanásia e negligência médica, pois sem este tratamento a paciente encontrará um desfecho fatal, o que fere o princípio de justiça e beneficência",
+      "D": "Visto a autonomia estar comprometida pela demência, deve-se priorizar o princípio da beneficência e não realizar a intubação e transferência para UTI, desde que a paciente tenha previamente uma Diretiva Antecipada de Vontade que dê respaldo à equipe médica"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "b) A idade cronológica não deve ser marcador para tomada de decisão, e sim a funcionalidade. A equidade não prevê tratar todos da mesma maneira, mas sim tratar de forma individualizada os diferentes para que atinjam uma mesma meta. c) Eutanásia seria encurtar a vida e causar a morte através de um procedimento/medicamento, fato que não se enquadra neste caso. Aqui deveria ser considerado uma distanásia, que é prolongar de forma artificial a vida um paciente sem chance de cura. Também não seria negligência pois não houve omissão nem descuido por parte dos médicos, pois continuarão a cuidar da paciente mesmo sem os procedimentos invasivos. A paciente já teria um desfecho fatal em decorrência das próprias comorbidades, submetê-la a procedimentos invasivos não iriam reverter o quadro. d) a não intubação e não transferência para UTI se enquadra no princípio de não maleficência, e não é obrigatório DAV para respaldar uma decisão que poderia ocasionar uma distanásia na paciente",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q064",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 64,
+    "enunciado": "Mulher, 34 anos, branca, IMC = 24Kg/m2, irmão com DM1 há alguns anos, sem sintomas, fez exames de rotina e apresentou-se com glicemia = 114mg/dl, hemoglobina glicosilada = 5,9%, glicemia 2hs após 75h de glicose = 185mg/dl",
+    "alternativas": {
+      "A": "Esta paciente apresenta-se com disglicemia e em presença de anticorpo anti-GAD e anticorpo anti-insulina positivos tem diagnóstico de diabetes tipo 1 no estágio 2",
+      "B": "Esta paciente tem pré-diabetes e deve perder peso para que não haja evolução para diabetes tipo 2",
+      "C": "A ausência de sintomas não exclui o diagnóstico de diabetes tipo 2 nesta paciente",
+      "D": "O risco de evolução para diabetes estabelecido nesta paciente é mínimo"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O diagnóstico da paciente é diabetes melitus tipo 1 estágio 3ª de acordo com as diretrizes da Sociedade Brasileira de Diabetes publicadas em 24/11/2025",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q074",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 74,
+    "enunciado": "Homem com 82 anos de idade, lúcido e ativo, procura atendimento, queixando-se de fraqueza e fadiga, vômito com sangue e perda de peso não-intencional. Durante exames é detectado câncer de estômago em estágio avançado. Filha pede ao médico que não informe ao paciente o diagnóstico, pois “conhece bem o pai e sabe que a notícia vai apressar a morte dele”. Pergunta: Idoso capaz deve, obrigatoriamente, ser informado sobre diagnóstico de doença terminal? Qual a resposta que engloba os temas relevantes para reflexão:",
+    "alternativas": {
+      "A": "Autonomia e Paternalismo",
+      "B": "Direitos do Paciente e do Médico",
+      "C": "Justiça e Pluralidade",
+      "D": "Relação Médico-Paciente e Direitos do cônjuge e dos filhos"
+    },
+    "gabarito": "E",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A autonomia do idoso hoje tem um perfil plural e evita um olhar discriminatório baseada exclusivamente em critérios de incapacidade. A relação de cunho patriarcal ou paternal não tem mais espaço na sociedade contemporânea e que incluem filhos e profissionais da saúde. Tanto o paciente como o médico têm seus direitos: legais e sociais, muito bem definidos no âmbito do Direito e da Sociedade. O sentido de justiça não se esgota na construção dos sistemas jurídicos, principalmente nos momentos em que a sociedade questiona seus valores de uma forma plural e veloz como agora. Cabe ao profissional é estar atento às sinalizações do paciente, para captar o quanto de paternalismo ou de autonomia ele deseja, não lhe causando, assim, danos maiores que os provocados pela própria doença",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q084",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 84,
+    "enunciado": "Um homem trans de 18 anos procura serviço especializado solicitando início de terapia hormonal masculinizante. Durante a avaliação inicial, demonstra compreensão adequada dos efeitos esperados, riscos e necessidade de acompanhamento médico regular. Considerando os princípios bioéticos aplicáveis, qual é a conduta mais adequada?",
+    "alternativas": {
+      "A": "Avaliar critérios clínicos e iniciar tratamento após consentimento informado",
+      "B": "Recusar tratamento até que o paciente complete 25 anos",
+      "C": "Iniciar tratamento apenas após autorização de algum familiar ou responsável",
+      "D": "Solicitar obrigatoriamente laudo judicial para autorizar o tratamento"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A) Correta. O tratamento deve ser conduzido com avaliação clínica adequada e consentimento informado, respeitando a autonomia do paciente. B) Incorreta. Não existe idade mínima de 25 anos para início da terapia hormonal. C) Incorreta. Pacientes adultos têm autonomia para consentir tratamentos. D) Incorreta. Não há exigência de autorização judicial para terapia hormonal",
+    "requer_imagem": false
+  }
+]

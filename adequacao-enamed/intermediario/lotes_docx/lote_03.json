@@ -1,0 +1,299 @@
+[
+  {
+    "id_origem": "questoes_clm_q003",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 3,
+    "enunciado": "Segundo as Diretrizes Brasileiras para Diagnóstico e Tratamento da Hipertensão Arterial publicada em 2020, utilizando a técnica de mensuração correta da pressão arterial sistólica (PAS) e pressão arterial diastólica (PAD), o diagnóstico da hipertensão arterial caracteriza-se por:",
+    "alternativas": {
+      "A": "PAS maior ou igual a 140 mmHg e/ou PAD maior ou igual a 90 mmHg em pelo menos duas ocasiões diferentes, na ausência de medicação anti-hipertensiva",
+      "B": "PAS maior ou igual a 180 mmHg e/ou PAD maior ou igual a 120 mmHg (níveis muito elevados elevação da pressão arterial) em uma única ocasião",
+      "C": "PA sistólica (PAS) maior ou igual a 140 mmHg e/ou PAD maior ou igual a 90 mmHg, medida única mesmo com medicação anti-hipertensiva",
+      "D": "PAS maior ou igual a 120 mmHg e/ou PAD maior ou igual a 80 mmHg, em pelo menos duas ocasiões diferentes, na presença de medicação anti-hipertensiva",
+      "E": "PAS maior ou igual a 140 mmHg e/ou PAD maior ou igual a 90 mmHg em pelo menos duas ocasiões diferentes, independente de medicação anti-hipertensiva"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Baseado nas diretrizes brasileiras, o diagnóstico da hipertensão arterial deve obrigatoriamente ser realizado em pacientes com elevação da pressão arterial persistente, avaliada de forma correta em duas ocasiões, na ausência de medicamentos anti-hipertensivos. Os valores corretos para diagnóstico são PAS > 140mmHg e/ou PAD > 90mmHg",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q013",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 13,
+    "enunciado": "No “Global Strategy for Asthma Management and Prevention-2022” encontramos fenótipos da asma . Eles identificam alguns aspectos clínicos e laboratoriais e terapêuticos da doença. MARQUE A RESPOSTA CORRETA",
+    "alternativas": {
+      "A": "“Asma ocupacional,” particularmente em mulheres, deve ser identificada, relativamente refratária ao corticóide inalatório",
+      "B": "“Asma alérgica”, fenótipo mais reconhecido, iniciado na infância, o escarro induzido é pauci granulocítico",
+      "C": "”Asma com limitação persistente do fluxo aéreo”, asma de início recente, relacionada ao remodelamento das vias aéreas",
+      "D": "”Asma não alérgica” não associada com alergia, a celularidade do escarro é histiocítica e tem boa resposta ao corticóide inalatório",
+      "E": "“Asma com obesidade” caracterizada por sintomas respiratórios severos e eosinofilia intensa no lavado broncoalveolar"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A resposta correta é a letra A) “Asma ocupacional” mais encontrada em mulheres, e relativamente refratária ao corticoide inalatório. Comentário sobre as outras opções: B) Embora a asma alérgica seja um fenótipo comum, não é correto afirmar que o escarro induzido é sempre pauci granulocítico. . C) A asma com limitação persistente do fluxo aéreo é outro fenótipo reconhecido, mas não é necessariamente de início recente e nem sempre está relacionada ao remodelamento das vias aéreas",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q023",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 23,
+    "enunciado": "Mulher com 50 anos, com queixa de dor em joelhos bilateral, com início há 6 meses e piora progressiva. A dor é mais intensa no início dos movimentos e piora com esforço. Associado a dor tem rigidez articular menor que 10 minutos. Ao exame físico observa-se peso de 67kg e altura de 1,45m, nódulos de Heberden e crepitação em joelhos bilateral. Baseado no quadro acima, qual dos tratamentos abaixo é capaz de impedir a progressão da doença articular?",
+    "alternativas": {
+      "A": "Adotar medidas para redução de peso",
+      "B": "Uso de AINES nas crises de dor",
+      "C": "Uso de analgésico simples contínuo",
+      "D": "Suplementação com colágeno oral",
+      "E": "Infiltração intra-articular com corticosteróide"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Comentários: O aluno deve perceber pelo quadro clínico o diagnóstico de osteoartrite (artrose): dor crônica e protocinética, presença de crepitação e nódulos de heberden em mãos (osteoartrite de mãos). Além do fator de risco - obesidade. O tratamento farmacológico com AINE, analgésicos e colágeno é apenas sintomático. A infiltração com corticosteróides tem ação antiinflamatória local, com alívio sintomático transitório. O único capaz de impedir a progressão da doença é a perda de peso",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q033",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 33,
+    "enunciado": "Paciente masculino, 35 anos, relata histórico de gastroenterocolite bacteriana há três semanas, tratada com ciprofloxacino, tendo apresentado melhora completa do quadro. Procura atendimento médico com queixas articulares. O médico suspeita de artrite reativa. Assinale a alternativa abaixo que apresenta quadro clínico compatível com artrite reativ",
+    "alternativas": {
+      "A": "Artrite de joelhos e tornozelo direito e dactilite em segundo quirodáctilo esquerdo há cinco dias. Líquido sinovial com sinais inflamatórios e cultura bacteriana negativa",
+      "B": "Artrite de joelho direito há três semanas. Líquido sinovial séptico com cultura bacteriana positiva",
+      "C": "Artrite de joelhos, metacarpofalangeanas e interfalangeanas proximais bilateralmente há oito semanas. Elevação sérica de provas de atividade inflamatória e fator reumatoide negativo",
+      "D": "Episódios de monoartrites intermitentes em primeiros pododáctilos e tornozelos há sete meses. Apresenta obesidade, dislipidemia e diabetes mellitus",
+      "E": "Dor mecânica em joelhos há quatro meses e aumento de volume em joelho direito há quatro semanas. Ao exame físico, joelhos valgos e radiografia com osteófitos em compartimentos mediais dos joelhos"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A artrite reativa faz parte do grupo das espondiloartrites, que apresenta como característica comum o acometimento articular preferencialmente na forma de oligoartrite assimétrica de médias e grandes articulações. Entesite ou dactilite também podem acompanhar o quadro clínico. Por tratar-se de um processo imunológico, na ausência de micro-organismo intra[1]articular, a análise do líquido sinovial é compatível com processo inflamatório e a cultura bacteriana é negativa. Monoartrite aguda com líquido sinovial séptico e cultura bacteriana positiva é compatível com artrite infecciosa bacteriana (séptica). Artrite crônica simétrica de pequenas e médias articulações, ainda que com fator reumatoide negativo, é compatível com artrite reumatoide. Monoartrite intermitente crônica, associada a comorbidades metabólicas sugere gota como principal hipótese diagnóstica. Dor articular mecânica crônica em joelhos, com agudização inflamatória, associada a joelhos valgos sugere a possibilidade de osteoartrite, o que é confirmado pelos achados da radiografia",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q043",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 43,
+    "enunciado": "Homem de 51 anos, com diagnóstico de diabetes tipo 2 e hipertensão arterial sistêmica há 6 anos, em uso de metformina 2000 mg ao dia e enalapril 40 mg ao dia. A pressão arterial é de 118x74 mm/Hg. Traz exames realizados há 4 meses, com relação albumina/creatinina em amostra de urina 280 mg/g. Exames laboratoriais atuais mostram HbA1c 7,5%, creatinina 1,1 mg/dL (taxa de filtração glomerular estimada 81 mL/min/1,73 m2), relação albumina/creatinina em amostra de urina 269 mg/g (valor de referência <30 mg/g). Qual deve ser a próxima conduta em relação ao tratamento medicamentoso?",
+    "alternativas": {
+      "A": "Associar o uso de um inibidor de SGLT2",
+      "B": "Suspender a metformina",
+      "C": "Associar um bloqueador do receptor da angiotensina 2",
+      "D": "Associar um inibidor da DPP4",
+      "E": "Associar o uso de insulina NPH"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "O paciente apresenta doença renal do diabetes, diagnosticada por duas amostras de urina com relação albumina/creatinina alterada. Além disso, a HbA1c encontra-se fora da meta de controle glicêmico. No caso em questão, em que há doença renal do diabetes, é recomendado o uso de inibidores do SGLT2 para reduzir a progressão para doença renal terminal e morte. A alternativa B está incorreta porque não há motivo para suspender a metformina (nos indivíduos com TFG entre 30-45 mL/min/1,73 m2 é recomendada a redução de dose, e suspensão apenas se abaixo de 30 mL/min/1,73 m2). A alternativa C está incorreta porque a associação do inibidor da ECA (enalapril) a um BRA não é recomendada. As alternativas D e E estão incorretas porque o inibidor de DPP4 e a insulina NPH não demonstraram os benefícios renais do inibidor de SGLT2, portanto não devem ser a próxima escolha para este caso especificamente",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q053",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 53,
+    "enunciado": "Homem de 30 anos, trabalhador rural, previamente hígido, refere lesões no antebraço esquerdo que iniciaram há cerca de 3 semanas. Durante o exame, o médico do posto de saúde notou três nódulos eritematosos na região anterior do membro acometido, em conformação linear. O maior nódulo apresentava-se ulcerado e com flutuação. Tendo em vista a principal hipótese diagnóstica para o caso, marque a alternativa que consta exame padrão ouro para a confirmação",
+    "alternativas": {
+      "A": "Cultura da lesão",
+      "B": "ELISA",
+      "C": "Histopatológico",
+      "D": "teste genético",
+      "E": "PPD"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A principal hipótese diagnóstica para o caso descrito é esporotricose linfocutânea. A droga de escolha é o itraconazol na dose de 100 a 200 mg/dia. O exame padrão ouro para o diagnóstico é cultura no meio ágar Sabouraud dextrose a partir de amostra de fluido ou tecido",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q063",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 63,
+    "enunciado": "A Insuficiência cardíaca (IC) é uma síndrome clínica complexa, na qual o coração é incapaz de bombear sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento. Em relação a IC assinale a alternativa que corresponde às medicações que modificam a sobrevida do paciente com IC com fração de ejeção reduzid",
+    "alternativas": {
+      "A": "Enalapril + Bisoprolol + Espironolactona + Dapagliflozina",
+      "B": "Digoxina + Captopril + Furosemida + Empagliflozina",
+      "C": "Digoxina + Lisinopril + Carvedilol + Espironolactona",
+      "D": "Metoprolol + Enalapril + Furosemida + Dapagliflozina",
+      "E": "Ramipril + Metoprolol + Espironolactona + Furosemida"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A Insuficiência Cardíaca é assunto de grande relevância na saúde pública brasileira e mundial. A associação de IECA/BRA/INRA + BB + ARM + iSGLT2 é tão importante que passou a ser denominada de \"quarteto fantástico\". Conhecer as classes, bem como seus representantes é fundamental para uma terapia adequada",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q073",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 73,
+    "enunciado": "Na maioria das situações, o tratamento de doença diarreica em pessoas que vivem com HIV não difere de maneira significativa daqueles indivíduos imunocompetentes. As decisões de tratamento são baseadas no quadro clínico, elencando critérios como a gravidade da diarreia e a hidratação do paciente. Sobre a avaliação desses indivíduos e o manejo clínico, identifique a alternativa correta",
+    "alternativas": {
+      "A": "Quando o CD4 for inferior a 50 células/mm³, a hipótese de colite por citomegalovírus deve ser aventada na presença de emagrecimento, febre e dor abdominal",
+      "B": "Colher amostras de fezes e aguardar coprocultura para iniciar o tratamento específico é deve ser realizado independentemente da contagem de células CD4",
+      "C": "Pessoas com AIDS devem ser hospitalizadas quando apresentam diarreia líquida, mesmo na ausência de elementos patológicos ou febre, pelo risco de colite pseudomembranosa",
+      "D": "O consumo de gorduras, laticínios e carboidratos complexos deve ser estimulado nesses pacientes, tendo em vista o risco aumentado de depleção energética",
+      "E": "Os pacientes avaliados em pronto socorro com diarreia superior a seis semanas devem ser encaminhados para avaliação ambulatorial"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "Os pacientes devem ser informados sobre a importância de manter a hidratação, que pode ser fornecida por via oral ou endovenosa, quando indicado. Uma vez que a doença diarreica pode produzir má absorção transitória ou intolerância à lactose, o consumo de dieta branda, evitando gordura, laticínios e carboidratos complexos pode ser útil. Após obter amostras de fezes para a avaliação diagnóstica, o início e a duração da terapêutica antimicrobiana empírica depende na contagem de células CD4 do paciente na aparência clínica. Se amostras de fezes forem obtidas, testes de sensibilidade antimicrobiana devem ser realizados para nortear a escolha do antibiótico. Em pacientes com CD4 superior a 500 células/mm³, que apresentem 1 a 2 dias de fezes amolecidas, sem febre ou presença de sangue, não requerem exames adicionais e nenhum tratamento além de reidratação oral. Por outro lado, o uso curto de antimicrobianos pode ser indicado em PVHIV com CD4 entre 200 e 500 células/mm³ que apresentem diarreia severa o suficiente para comprometer a qualidade de vida ou com prejuízo ao trabalho. Pacientes com AIDS e diarreia clinicamente grave (6 ou mais eliminações de fezes líquidas ao dia ou presença de sangue ou febre) devem ser submetidos à avaliação diagnóstica para determinar a etiologia do quadro e receber tratamento antimicrobiano. O tratamento empírico com ciprofloxacino é razoável em quadros moderados; em casos mais graves, havendo instabilidade e hospitalização, a indicação é cefalosporina de 3ª geração",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "questoes_clm_q083",
+    "fonte": "Questoes CLM (TPMed 2023 - Clinica Medica)",
+    "num": 83,
+    "enunciado": "Um paciente masculino de 37 anos apresenta critérios para episódio depressivo maior. Além de outros sintomas, o paciente relata severa anedonia. Que outro sintoma dentre os listados abaixo sugere a ocorrência do subtipo melancólico de depressão?",
+    "alternativas": {
+      "A": "Piora dos sintomas pela manhã",
+      "B": "Catatonia",
+      "C": "Pensamentos obsessivos",
+      "D": "Hipersonolência",
+      "E": "Aumento de peso"
+    },
+    "gabarito": "A",
+    "n_alternativas": 5,
+    "justificativa_oficial": "A depressão melancólica é caracterizada pela perda do prazer por quase todas as atividades, além de ausência de resposta a estímulos agradáveis. Outras características nem sempre presentes são o humor deprimido mais intenso na parte da manhã, despertar durante a madrugada (insônia tardia), retardo ou agitação psicomotora, perda significativa do apetite e consequentemente do peso corporal, além de sentimento excessivo de culpa",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q006",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 6,
+    "enunciado": "Sobre as diretrizes atuais do rastreamento do câncer do colo de útero no Brasil, assinale a alternativa corret",
+    "alternativas": {
+      "A": "É recomendada a utilização de teste de DNA-HPV oncogênico com genotipagem parcial como método de rastreamento primário",
+      "B": "Homens transgênero não são contemplados na diretriz devido sua identidade biológica ao nascimento",
+      "C": "As recomendações das diretrizes são aplicáveis tanto para casos sintomáticos quanto para casos assintomáticos, aumentando sua sensibilidade diagnóstica e sua eficácia",
+      "D": "É recomendada a realização de citologia simultaneamente ao teste de DNA-HPV oncogênico"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A) CORRETA. Esta alternativa reflete a mudança mais recente e importante nas diretrizes brasileiras. A Portaria Conjunta SAES/SECTICS/MS nº 13, de 29 de julho de 2024, oficializou a incorporação do teste molecular (DNA-HPV) como método primário de rastreamento no SUS. A recomendação é para mulheres entre 25 e 64 anos, com o teste HPV sendo realizado a cada 5 anos. A citologia (Papanicolau) passa a ser usada como um teste de triagem para os casos HPV positivos. A menção à \"genotipagem parcial\" (que identifica ao menos os tipos 16 e 18 separadamente dos outros tipos de alto risco) está alinhada com as recomendações. B) INCORRETA. Pelo contrário, as diretrizes do INCA são explícitas ao afirmar que o rastreamento deve ser ofertado a toda pessoa com colo do útero, na faixa etária recomendada, o que inclui homens transgênero que não realizaram histerectomia total. A não inclusão seria uma falha grave na política de saúde. C) INCORRETA. O conceito fundamental de rastreamento é a aplicação de um teste em uma população assintomática para detectar a doença em fase precoce. Pacientes com sintomas (por exemplo, sangramento pós-coito, dor pélvica) não devem entrar no fluxo de rastreamento, mas sim em um fluxo de investigação diagnóstica, que é diferente e mais direto. Misturar os dois conceitos é um erro grave. D) INCORRETA. Esta prática, conhecida como co-teste, não é a estratégia primária recomendada no Brasil. A diretriz atual adota o teste de HPV como rastreio primário, e a citologia é realizada apenas se o teste de HPV for positivo (reflexa). O co-teste aumenta custos sem um benefício claro de sobrevida em programas organizados",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q016",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 16,
+    "enunciado": "Paciente com 25 anos de idade, dá entrada no serviço de emergência médica com quadro de Cetoacidose diabética (CAD). A glicemia está 480mg/dl, ph:7,05 e K:3,1mEq/L. O estagiário sugere a administração de insulina, pois os níveis de glicemia estão muito elevados. Você prontamente:",
+    "alternativas": {
+      "A": "Não concorda e orienta hidratação e K endovenoso",
+      "B": "Concorda e administra 10UI de insulina lenta EV",
+      "C": "Concorda e administra 10UI de insulina rápida EV",
+      "D": "Não concorda e orienta K endovenoso após a primeira hora de hidratação"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Segundo a Diretriz da Sociedade Brasileira de Diabetes (SBD), no tratamento da CAD: A insulinoterapia NÃO deve ser iniciada quando o potássio sérico está < 3,3 mEq/L, pois a insulina desloca potássio para dentro da célula, podendo precipitar arritmias fatais. A diretriz também reforça que: Antes da insulina, deve-se realizar hidratação vigorosa com solução isotônica para expansão volêmica. Em seguida, deve-se administrar potássio EV até que o K seja ≥ 3,3 mEq/L. Apenas depois disso, inicia-se insulina regular EV em infusão contínua",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q026",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 26,
+    "enunciado": "As dislipidemias estão intimamente relacionadas ao desenvolvimento da aterosclerose e da doença cardiovascular. Considerando os conceitos básicos do metabolismo lipídico, assinale a alternativa corret",
+    "alternativas": {
+      "A": "O LDL-colesterol é a principal lipoproteína responsável pelo transporte de colesterol do fígado para os tecidos periféricos e está diretamente envolvido na formação da placa aterosclerótica",
+      "B": "O HDL-colesterol apresenta associação inversa com o risco cardiovascular principalmente como marcador epidemiológico, sem participação direta nos mecanismos biológicos de proteção contra a aterosclerose",
+      "C": "Os triglicerídeos circulam no plasma predominantemente em forma livre, estando sua relevância clínica mais relacionada ao contexto metabólico em que se inserem do que a um papel aterogênico direto",
+      "D": "As lipoproteínas participam do transporte de lipídios tanto da dieta quanto da síntese endógena, sendo as partículas de origem dietética as mais diretamente relacionadas ao desenvolvimento da aterosclerose"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A alternativa correta descreve adequadamente o papel central do LDL-colesterol no transporte de colesterol aos tecidos periféricos e sua participação direta na aterogênese. A alternativa B reflete um erro conceitual comum ao reduzir o HDL-colesterol a um marcador epidemiológico, desconsiderando sua atuação no transporte reverso do colesterol e em mecanismos antiaterogênicos.A alternativa C é plausível, porém incorreta, pois os triglicerídeos circulam majoritariamente associados a lipoproteínas (quilomícrons e VLDL), e seus remanescentes têm participação no processo aterosclerótico.A alternativa D reconhece corretamente as vias exógena e endógena do metabolismo lipídico, mas erra ao atribuir maior relevância aterogênica às partículas de origem dietética, quando as lipoproteínas endógenas, especialmente o LDL, têm papel central",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q036",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 36,
+    "enunciado": "Mulher, 72 anos, trazida à UPA com quadro de diarreia profusa há 5 dias. Ao exame: letárgica, olhos muito encovados, pulso radial fino e rápido, e tempo de enchimento capilar de 5 segundos. Exames: Creatinina: 2,1 mg/dL; Potássio: 3,1 mEq/L; Ureia 96 mg/dL. Diante da gravidade do quadro clínico e laboratorial, a prioridade imediata é",
+    "alternativas": {
+      "A": "Expansão volêmica venosa rápida com cristaloides e monitorização da função renal e eletrólitos",
+      "B": "Oferta de solução de reidratação oral via sonda nasogástrica até a melhora da consciência",
+      "C": "Administração de gluconato de cálcio para proteção miocárdica antes da hidratação",
+      "D": "Início de antibioticoterapia de amplo espectro por via venosa devido à idade avançada"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A paciente apresenta sinais de desidratação grave/choque (letargia, pulso fino, enchimento capilar lento), o que impõe o Plano C (hidratação venosa imediata). A alteração renal sugere lesão renal pré-renal por hipovolemia. O Gluconato de cálcio tem essa indicação na hipercalemia. O uso de antibióticos não é recomendado de rotina, devendo ser reservado para casos específicos como disenteria grave, suspeita de cólera ou pacientes imunocomprometidos",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q046",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 46,
+    "enunciado": "Uma paciente de 65 anos, hipertensa e diabética há 20 anos, vem a consulta médica de rotina. Não apresenta queixas. Traz exames laboratoriais com creatinina estável em 1,8mg/dL, taxa de filtração glomerular (TFG) estimada de 38 mL/min/1,73 m², relação albumina/creatinina urinária (RACu) de 450 mg/g. De acordo com os critérios atuais, identifique qual alternativa classifica corretamente a condição renal dessa paciente",
+    "alternativas": {
+      "A": "DRC estágio 3b, com alto risco de progressão devido à RACu",
+      "B": "DRC estágio 3a, com aumento leve da RACu",
+      "C": "Lesão renal aguda, visto a paciente não apresentar queixas e a creatinina estar estável",
+      "D": "DRC estágio 4, devido TFG menor que 40 mL/min/1,73 m²"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "De acordo com o valor estável da creatinina, a TFG dessa paciente encontra-se em 38 mL/min/1,73 m², o que caracteriza DRC estágio 3b, e a sua relação albumina/creatinina urinária ≥300 mg/g indica alto risco cardiovascular e de progressão da DRC",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q056",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 56,
+    "enunciado": "Homem de 46 anos e sem doenças crônicas prévias, procura a Unidade de Saúde por lombalgia há 3 semanas, iniciada após carregar caixas durante uma mudança de residência. Refere dor localizada na região lombar, sem irradiação para membros inferiores. Nega febre, perda ponderal, trauma significativo ou história prévia de câncer. Também nega anestesia em sela, retenção urinária ou incontinência fecal. Relata preocupação de que a dor represente “um problema sério na coluna” e refere ter reduzido suas atividades físicas por medo de piorar a lesão. Ao exame físico apresenta dor à palpação paravertebral lombar, sem déficit neurológico, teste de elevação da perna estendida negativo e marcha preservada. Na avaliação com o STarT Back Screening Tool, apresenta pontuação total de 6/9 e 4/5 na subescala psicossocial, sendo classificado como alto risco de cronificação da dor. Considerando as recomendações atuais para manejo da lombalgia na atenção primária, qual é a conduta mais adequada neste momento?",
+    "alternativas": {
+      "A": "Não solicitar exame de imagem neste momento, orientar manutenção das atividades e iniciar anti-inflamatório não esteroidal por curto período associado a abordagem terapêutica multimodal",
+      "B": "Solicitar ressonância magnética da coluna lombar para investigar causa estrutural da dor, prescrever ciclo curto de anti-inflamatório não esteroidal e encaminhar para avaliação especializada após realização do exame",
+      "C": "Solicitar radiografia da coluna lombar considerando a duração dos sintomas, prescrever analgésicos simples e orientar redução temporária das atividades físicas até melhora do quadro",
+      "D": "Prescrever relaxante muscular associado a opioide fraco por curto período, recomendar repouso relativo e reavaliar necessidade de exames posteriormente"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A maioria dos casos de lombalgia atendidos na atenção primária corresponde à lombalgia inespecífica, condição em que exames de imagem não são indicados na ausência de sinais de alarme. Neste caso, o paciente apresenta lombalgia com três semanas de evolução, sem red flags como febre, perda ponderal, história prévia de câncer, trauma significativo, déficit neurológico ou sinais de síndrome da cauda equina. A avaliação com o STarT Back Screening Tool demonstra alto risco de cronificação, devido à pontuação elevada na subescala psicossocial. Nesses casos, recomenda-se uma abordagem terapêutica estratificada, que inclui educação do paciente, manutenção das atividades habituais, uso de anti-inflamatório não esteroidal por curto período quando necessário e intervenções multimodais com atenção aos fatores psicossociais associados à dor. A alternativa “a” está correta por contemplar essas recomendações. As alternativas “c” e “b” estão incorretas por indicarem exames de imagem sem presença de sinais de alarme ou déficit neurológico. A alternativa “d” está incorreta por indicar opioide precocemente e recomendar repouso relativo, condutas que não são recomendadas no manejo inicial da lombalgia inespecífica",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q066",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 66,
+    "enunciado": "Homem, 42 anos, procura consulta de rotina. Nega comorbidades, não fuma, pratica atividade física ocasionalmente. IMC: 26 kg/m². Sem história familiar de doença cardiovascular precoce. Pressão arterial medida corretamente em duas consultas: 138 x 84 mmHg 136 x 86 mmHg Exames laboratoriais normais. Risco cardiovascular global estimado: baixo. Qual a classificação e a conduta mais adequada?",
+    "alternativas": {
+      "A": "Pré-hipertensão e tratamento apenas com medidas de estilo de vida",
+      "B": "Pré-Hipertensão e iniciar IECA",
+      "C": "Hipertensão estágio 1 e iniciar diurético tiazídico",
+      "D": "Hipertensão mascarada e solicitar MAPA imediatamente"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A nova Diretriz Brasileira de Hipertensão Arterial (2025) define: PA 130–139 x 85–89 mmHg → Pré-hipertensão (ou PA elevada) Pacientes de baixo risco cardiovascular → NÃO recebem farmacoterapia inicial Conduta:intervenção não farmacológica isolada (MEV): redução de peso atividade física regular redução de sódio moderação alcoólica dieta DASH Quem deve iniciar fármaco? Hipertensos estágio 1 com risco cardiovascular moderado/alto Qualquer hipertensão estágio ≥2 Doença cardiovascular estabelecida Diabetes, DRC ou lesão de órgão-alvo",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q076",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 76,
+    "enunciado": "Um adolescente de 17 anos é levado ao pronto-socorro com história de febre alta há 12 horas, cefaleia intensa, náuseas e dois episódios de vômitos. Evoluiu com sonolência e surgimento de lesões petequiais em membros inferiores. Ao exame físico: T 39,5 °C, PA 90/60 mmHg, FC 120 bpm, rigidez de nuca presente, sinal de Kernig positivo. Considerando a principal hipótese diagnóstica, qual é a conduta imediata mais adequada?",
+    "alternativas": {
+      "A": "Iniciar antibioticoterapia intravenosa imediata com ceftriaxona após coleta de hemoculturas, sem aguardar resultado de exames complementares",
+      "B": "Solicitar tomografia de crânio antes de qualquer outra medida e aguardar o resultado para definir tratamento",
+      "C": "Realizar punção lombar imediatamente antes de iniciar antibióticos, mesmo na presença de instabilidade hemodinâmica",
+      "D": "Prescrever antibioticoterapia oral e observar evolução clínica por 24 horas"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A alternativa A é a correta. O quadro clínico descrito — febre alta de início súbito, cefaleia intensa, rigidez de nuca, sinais meníngeos e exantema petequial associado à instabilidade hemodinâmica — é altamente sugestivo de meningite meningocócica com meningococcemia causada por Neisseria meningitidis. A presença de hipotensão e taquicardia indica possível evolução para choque séptico, situação em que o tempo para início da antibioticoterapia é determinante para o prognóstico. As diretrizes recomendam que, diante de forte suspeita clínica de meningite bacteriana, especialmente com sinais de gravidade, deve-se: Coletar hemoculturas imediatamente (se possível). Iniciar antibioticoterapia intravenosa empírica sem aguardar exames complementares. A realização de tomografia de crânio está indicada apenas quando há sinais de hipertensão intracraniana ou déficit neurológico focal. Além disso, em paciente instável, a prioridade é estabilização hemodinâmica e início precoce do antibiótico. A punção lombar pode ser postergada temporariamente em casos de instabilidade clínica, mas o antibiótico não deve ser atrasado. As alternativas incorretas: B) Aguardar tomografia antes de iniciar antibiótico pode atrasar tratamento e aumentar mortalidade. C) A punção lombar não deve preceder estabilização hemodinâmica nem retardar o início da terapia. D) Meningite meningocócica é emergência médica e requer antibioticoterapia intravenosa imediata. A antibioticoterapia empírica recomendada em adolescentes inclui ceftriaxona ou cefotaxima intravenosa",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q086",
+    "fonte": "Clinica Medica - questoes selecionadas - NAPISUL 2 2026",
+    "num": 86,
+    "enunciado": "Homem, 62 anos, hipertenso e tabagista, queixa-se de dor retrosternal em aperto que surge ao subir dois lances de escada e melhora com o repouso após 5 minutos. O eletrocardiograma de repouso é normal. Durante o teste ergométrico, o paciente apresentou infradesnivelamento do segmento ST de 2,0 mm, com morfologia descendente, no esforço máximo (10 METs), acompanhado da dor habitual. Qual a classificação da angina e a conduta inicial recomendada?",
+    "alternativas": {
+      "A": "Angina Estável Classe II (CCS); iniciar terapia medicamentosa otimizada (Aspirina, Estatina, Betabloqueador)",
+      "B": "Angina Instável; encaminhamento imediato para Unidade de Dor Torácica e Cineangiocoronariografia em 24 horas",
+      "C": "Angina Estável Classe IV (CCS); indicação imediata de revascularização miocárdica cirúrgica",
+      "D": "Angina de Prinzmetal; iniciar bloqueadores de canais de cálcio e suspender betabloqueadores"
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O quadro clínico é típico de angina estável (dor desencadeada por esforço, previsível e que melhora com repouso). A classificação CCS II refere-se à limitação leve em atividades ordinárias. O tratamento inicial deve focar na prevenção de eventos controlede sintomas. A alternativa B está errada pois o quadro é crônico/estável. A C está erradapela classificação funcional. A D descreve angina vasoespástica, o que não condiz como desencadeamento por esforço físico",
+    "requer_imagem": false
+  }
+]

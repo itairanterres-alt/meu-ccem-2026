@@ -1,0 +1,242 @@
+[
+  {
+    "id_origem": "tpmed2025_gabarito_q003",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 3,
+    "enunciado": "Um homem de 58 anos, com histórico de hepatite C crônica, apresenta fadiga e aumento do volume abdominal. Exames de imagem revelam irregularidade na superfície hepática e presença de múltiplos nódulos regenerativos. A biópsia confirma a presença de tecido fibroso intercalado entre os nódulos regenerativos hepáticos. Esse quadro clínico representa um exemplo clássico de um processo em que há tentativa de regeneração hepática. Diante deste cenário, qual dos processos abaixo está envolvido nessa resposta tecidual?",
+    "alternativas": {
+      "A": "Proliferação de hepatócitos para tentar restaurar a estrutura e função hepática, embora o processo seja desorganizado devido à fibrose.",
+      "B": "Substituição do tecido hepático normal por tecido conjuntivo denso, promovendo a restauração completa da função hepática.",
+      "C": "Ativação de fibroblastos e formação de um arcabouço extracelular permanente, facilitando a regeneração ordenada do parênquima hepático.",
+      "D": "Deposição de colágeno e formação de tecido cicatricial sem recuperação funcional total, permitindo a reconstituição da arquitetura hepática original."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Em doenças hepáticas crônicas, como a cirrose, o fígado tenta regenerar-se por meio da proliferação de hepatócitos. No entanto, a fibrose impede a reestruturação adequada do órgão, resultando na formação de nódulos regenerativos desorganizados. Embora haja regeneração celular, a presença de septos fibróticos distorce a arquitetura hepática, comprometendo a função do fígado. A deposição de colágeno e a formação de tecido cicatricial fazem parte do processo de fibrose, que ocorre em resposta à lesão crônica. No entanto, ao contrário do que a alternativa sugere, esse processo não permite a reconstituição da arquitetura hepática original. Na verdade, a fibrose desorganiza a estrutura hepática e dificulta a regeneração eficiente, levando à disfunção progressiva do órgão. A substituição do tecido hepático normal por tecido conjuntivo denso ocorre na fibrose avançada e na cirrose, mas esse processo não restaura a função hepática, pelo contrário, prejudica ainda mais o funcionamento do órgão. A fibrose leva à formação de nódulos regenerativos sem organização funcional adequada, o que resulta na perda progressiva da capacidade do fígado de desempenhar suas funções metabólicas e desintoxicantes. A ativação de fibroblastos e a deposição da matriz extracelular são eventos característicos da fibrose hepática. Entretanto, esse arcabouço não facilita a regeneração ordenada do fígado, pelo contrário, ele forma barreiras físicas entre os hepatócitos, desorganizando a estrutura hepática e dificultando a recuperação funcional do órgão.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q011",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 11,
+    "enunciado": "Na neurofibromatose tipo 1, a deficiência da neurofibromina leva à ativação constante da via RAS. Marque a alternativa que indica a principal consequência dessa ativação sustentada nessa doença.",
+    "alternativas": {
+      "A": "Aumento da proliferação celular e predisposição ao desenvolvimento de tumores.",
+      "B": "Indução da apoptose, resultando em morte celular programada.",
+      "C": "Inibição do ciclo celular na fase G0, reduzindo a proliferação das células de Schwann.",
+      "D": "Redução da expressão de fatores de crescimento e limitação da angiogênese."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A neurofibromatose tipo 1 (NF1) resulta de mutações no gene NF1, que codifica a neurofibromina, uma proteína que inibe a via RAS/MAPK ao converter RAS ativo (RAS-GTP) em sua forma inativa (RAS-GDP). A perda da neurofibromina leva à ativação sustentada dessa via, promovendo proliferação celular descontrolada e predisposição ao desenvolvimento de neurofibromas e outros tumores. A ativação crônica de RAS não induz diretamente a apoptose, mas seu efeito varia conforme o contexto celular. Em células normais, pode desencadear senescência celular como defesa contra oncogênese. Já em pacientes com NF1, a ativação contínua da via RAS/MAPK favorece a proliferação celular e resistência à apoptose, contribuindo para o crescimento tumoral. Além disso, a via RAS/MAPK não bloqueia o ciclo celular na fase G0; pelo contrário, estimula sua progressão, especialmente nas transições G1/S e G2/M, aumentando a proliferação celular. A falta de neurofibromina desregula esse processo, tornando as células mais propensas ao crescimento descontrolado. Por fim, a ativação da via RAS/MAPK aumenta, e não reduz, a expressão de fatores de crescimento e angiogênese. Em tumores associados à NF1, ocorre superexpressão do VEGF (Vascular Endothelial Growth Factor), promovendo a vascularização tumoral e a progressão dos neurofibromas para formas mais agressivas. MCINNES, R. R.; WILLARD, H. F.; NUSSBAUM, R. Thompson & Thompson Genética Médica. 8. ed. [s.l.] Elsevier Editora Ltda, 2016. Alberts, B. et al. (Orgs.). Biologia Molecular da Célula - 6 ° Ed. 2017, Ed. Artes Médicas, Porto Alegre.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q019",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 19,
+    "enunciado": "Mulher de 35 anos, sofreu um acidente vascular cerebral (A VC) isquêmico. Desde o A VC, ela tem tido dificuldades em planejar e organizar tarefas, além de apresentar dificuldade em controlar suas emoções e comportamentos. Qual lobo cerebral foi afetado no A VC desta paciente?",
+    "alternativas": {
+      "A": "Occipital esquerdo.",
+      "B": "Frontal esquerdo.",
+      "C": "Temporal direito.",
+      "D": "Parietal direito."
+    },
+    "gabarito": "B",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O lobo frontal é responsável pelo planejamento, organização e controle de comportamentos e emoções. O A VC da paciente afetou o lobo frontal esquerdo, resultando em dificuldades em planejar e organizar tarefas, bem como em controlar suas emoções e comportamentos. As outras opções estão incorretas porque esses lobos cerebrais não estão diretamente relacionados às funções cognitivas afetadas por um A VC no lobo frontal esquerdo. O lobo occipital esquerdo é responsável pela percepção visual e reconhecimento de objetos (opção O lobo temporal direito está mais associado à memória de longo prazo e ao reconhecimento de rostos. O lobo parietal direito é mais associado à percepção sensorial e ao processamento de linguagem.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q027",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 27,
+    "enunciado": "Uma menina de 7 anos apresenta crises asmáticas frequentes, necessitando de uso de beta-agonistas de curta duração mais de quatro vezes por semana, além de apresentar despertares noturnos ocasionais. Seu exame clínico está normal fora das crises. O médico decide ajustar o plano terapêutico. Marque a medida recomendada como primeira escolha para o controle do caso a longo prazo.",
+    "alternativas": {
+      "A": "Uso contínuo de beta-agonistas de curta duração (salbutamol).",
+      "B": "Administração de corticosteroide oral por 7 dias.",
+      "C": "Introdução de corticoide inalatório em dose baixa diária.",
+      "D": "Uso diário de anti-histamínico para controle de alergias associadas."
+    },
+    "gabarito": "C",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A terapia de manutenção com corticoide inalatório é o tratamento de primeira linha em asma persistente leve. O uso contínuo de beta-agonistas não é adequado por aumentar o risco de efeitos adversos e piora do controle. Corticoides orais são reservados para crises graves, e anti-histamínicos não controlam a inflamação das vias aéreas associada à asma.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q035",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 35,
+    "enunciado": "O diagnóstico diferencial de afecções psiquiátricas na infância e adolescência pode ser desafiador devido à sobreposição de sintomas e à influência de fatores do desenvolvimento. Considerando o caso de uma criança de 8 anos com dificuldades de interação social, comportamentos repetitivos e atraso na linguagem. Qual das seguintes condições é mais comumente associada ao diagnóstico diferencial do Transtorno do Espectro Autista (TEA)?",
+    "alternativas": {
+      "A": "Transtorno de Ansiedade Social (Fobia Social).",
+      "B": "Transtorno Obsessivo-Compulsivo (TOC) com prejuízo funcional grave.",
+      "C": "Transtorno de Comunicação Social (Pragmático).",
+      "D": "Transtorno de Aprendizagem Específico com prejuízo na leitura."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Transtorno de Ansiedade Social pode apresentar dificuldades de interação social, mas não comportamentos repetitivos ou atraso na linguagem; TOC grave pode envolver comportamentos repetitivos, mas geralmente não está associado a atrasos na linguagem ou prejuízos na interação social típicos do TEA; Transtorno de Comunicação Social pode ser confundido com TEA, pois ambos envolvem prejuízos na comunicação social, mas o TEA inclui também comportamentos repetitivos e interesses restritos.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q043",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 43,
+    "enunciado": "Evidências embasam que a espiritualidade impacta aspectos da promoção da saúde e bem-estar biopsicossocial. Nesse sentido, é importante que os profissionais estejam atentos a abordagem do aspecto espiritual das pessoas que atendem, pois:",
+    "alternativas": {
+      "A": "apesar de a literatura descrever associação entre espiritualidade com menor prevalência de depressão e ansiedade, ainda inexistem estratégias terapêuticas que a utilizem.",
+      "B": "o limite entre espiritualidade e religiosidade é tênue, estando o primeiro conceito relacionado a uma dimensão formal de ligação a uma instituição e, o segundo, a um aspecto dinâmico e extrínseco, que independem de instituição religiosa.",
+      "C": "a abordagem da espiritualidade afasta a prática profissional do método clínico centrado na pessoa, pois muitos profissionais ainda observam conflitos na abordagem do tema.",
+      "D": "a compreensão da espiritualidade tem papel inclusivo no tocante à diversidade sociocultural e permite salientar a vivência pessoal do ser humano nos processos saúde/doença."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Muitos autores desenvolveram, instrumentos para a abordagem da espiritualidade na prática clínica, sendo utilizadas no âmbito da APS: FICA, HOPE; Spiritual History. A religiosidade está ligada a um conceito mais tradicional relacionado a uma instituição e um sistema organizado de práticas e simbolismos, ao passo que a espiritualidade tem caráter universal e intrínseco, não necessariamente ligado a instituições religiosas. Abordar a religiosidade é um dos caminhos para aplicar o método clínico centrado na pessoa, uma vez que está intimamente ligada à experiência pessoal dos entendimentos de saúde/doença.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q051",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 51,
+    "enunciado": "Em uma unidade de saúde da família, para identificar possíveis casos de diabetes mellitus, a equipe resolveu realizar exame de glicemia capilar em todos os pacientes hipertensos cadastrados em sua área de abrangência. Este tipo de ação é de prevenção:",
+    "alternativas": {
+      "A": "Primária, pois tem o objetivo de fazer diagnóstico precoce de diabetes, antes mesmo de o paciente apresentar sintomas.",
+      "B": "Secundária e não deve ser realizada nesse caso, pois gera um custo desnecessário para o sistema de saúde.",
+      "C": "Primária e deveria ser realizada em todos os pacientes cadastrados na unidade, independentemente de fatores de risco.",
+      "D": "Secundária e justifica-se pelo elevado custo do diabetes e suas complicações para o paciente e o sistema de saúde."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Prevenção primária se faz no período pré-patogênico, portanto antes do aparecimento da doença clínica. Inclui a promoção de saúde e a proteção específica. Prevenção secundária é realizada no indivíduo já sob a ação do agente patogênico e inclui o diagnóstico precoce, como no caso acima, tratamento precoce, e limitação das complicações. A DM não insulino-dependente é geralmente assintomática nas fases iniciais, e apresenta diversas complicações clínicas, geralmente com custo para a sociedade bastante elevado.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q059",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 59,
+    "enunciado": "Educação Popular não é o mesmo que ”educação informal”. Há muitas propostas educativas que se dão fora da escola, mas que utilizam métodos verticais de relação educador-educando (V ASCONCELLOS, 2004). Assinale a alternativa que contempla as características da Educação em Saúde na concepção dialogal.",
+    "alternativas": {
+      "A": "Os educadores/profissionais em saúde e educandos/usuários dos serviços, atuam como iguais, ainda que com papéis diferenciados.",
+      "B": "A comunicação tem caráter informativo, na qual os educadores/profissionais em saúde explicitam aos educandos/usuários dos serviços os hábitos saudáveis.",
+      "C": "Os movimentos sociais, representantes dos educandos/usuários dos serviços, são alijados por serem expressão da lógica dos setores subalternos da sociedade.",
+      "D": "As iniciativas dos educandos/usuários dos serviços são defraudadas por representarem o saber popular."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "As características apresentadas nas alternativas erradas se referem à concepção tradicional de educação em saúde, que grosso modo se caracteriza por um estilo de pensamento curativista/biológico, que apresenta uma relação profissional-paciente impositiva. Concepção essa que é criticada pela concepção dialógica.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q067",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 67,
+    "enunciado": "Um paciente de 68 anos, portador de doença pulmonar obstrutiva crônica avançada, é internado com quadro de obstrução intestinal secundária a um câncer colorretal. Após avaliação da equipe cirúrgica, é indicado um procedimento de grande porte com riscos elevados de morbimortalidade. O paciente, lúcido e orientado, após ser adequadamente informado sobre seu prognóstico e riscos, recusa a cirurgia, preferindo cuidados paliativos. A família, no entanto, insiste que o procedimento seja realizado, alegando que o paciente não sabe o que está fazendo e que desejam salvar sua vida a qualquer custo. Considerando os princípios da bioética em cirurgia, qual é a conduta mais apropriada da equipe médica?",
+    "alternativas": {
+      "A": "Convencer o paciente a mudar de opinião, explicando que a cirurgia é a única chance de sobreviver.",
+      "B": "Realizar a cirurgia, pois a preservação da vida é o princípio bioético mais importante.",
+      "C": "Respeitar a decisão do paciente, pois ele está em plena capacidade de autodeterminação e compreende as implicações da sua escolha.",
+      "D": "Solicitar uma avaliação psiquiátrica de rotina para confirmar se o paciente está apto a tomar essa decisão."
+    },
+    "gabarito": "C",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Respeitar a decisão do paciente, pois ele está em plena capacidade de autodeterminação e compreende as implicações da sua escolha. O princípio da autonomia garante ao paciente o direito de tomar decisões sobre sua própria saúde, incluindo a recusa de tratamentos, desde que esteja em plena capacidade mental e adequadamente informado.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q075",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 75,
+    "enunciado": "Um paciente de 45 anos, com histórico de hipertensão arterial controlada e obesidade grau II (IMC = 36), será submetido a uma colecistectomia laparoscópica. Durante a indução e manutenção da anestesia o paciente apresenta hipotensão arterial significativa (PA = 75/40 mmHg) após a administração de propofol. Qual é a melhor conduta?",
+    "alternativas": {
+      "A": "Manter a infusão de propofol e aguardar a estabilização espontânea da pressão arterial.",
+      "B": "Suspender imediatamente a infusão de propofol e iniciar fluidoterapia agressiva com cristaloides.",
+      "C": "Administrar vasopressina para aumentar a resistência vascular periférica e corrigir a hipotensão.",
+      "D": "Reduzir a dose de propofol e administrar pequenas doses de fenilefrina para corrigir a hipotensão."
+    },
+    "gabarito": "D",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Suspender abruptamente o propofol pode levar a uma recuperação inadequada da anestesia, e a fluidoterapia agressiva pode não ser suficiente para corrigir a hipotensão rapidamente; A vasopressina não é a primeira escolha para hipotensão aguda pós-indução anestésica, sendo mais utilizada em casos de choque séptico ou refratário; Manter a infusão de propofol sem corrigir a hipotensão pode levar a complicações graves, como hipoperfusão de órgãos vitais.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q083",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 83,
+    "enunciado": "Mulher de 47 anos comparece à consulta com queixa de dor e edema em articulações de mãos, punhos e joelho direito há 5 meses, associada a rigidez matinal de cerca de 3 horas. Tabagista. Nega outras doenças. Ao exame físico apresenta edema das articulações interfalangianas proximais do 2º e 3º dedos das mãos e da 1ª a 4ª metacarpofalangianas bilateralmente, edema e calor em punhos e em joelho direito. Exames laboratoriais evidenciam provas inflamatórias elevadas, com VHS: 105mm/h (referência menor que 15mm/h) e PCR: 6mg/dl (referência menor que 0,5mg/dl), além de fator reumatoide negativo. Assinale a alternativa correta.",
+    "alternativas": {
+      "A": "Deve-se considerar outros diagnósticos diferenciais uma vez que o fator reumatoide negativo exclui a possibilidade de artrite reumatoide.",
+      "B": "Trata-se de um caso clínico de osteoartrite generalizada, com quadro atual de agudização, sendo necessário o uso de anti-inflamatório e colágeno.",
+      "C": "Paciente preenche critérios para diagnóstico de artrite reumatoide e pode ser tratada inicialmente com corticosteroide e metotrexato.",
+      "D": "O quadro é sugestivo de febre reumática, portanto há necessidade de dosagem sérica do anticorpo ASLO e de realização de ecocardiograma"
+    },
+    "gabarito": "C",
+    "n_alternativas": 4,
+    "justificativa_oficial": "O diagnóstico de artrite reumatóide (AR) pode ser confirmado pelo envolvimento poliarticular, evidência ao exame físico de artrite, duração dos sintomas maior que 6 semanas e provas de atividade inflamatória elevadas. A negatividade do fator reumatoide não exclui o diagnóstico de AR uma vez que sua sensibilidade e especificidade giram em torno de 70-80%. Quadro de poliartrite simétrica crônica com rigidez matinal prolongada não corroboram para a hipótese de osteoartrite, além de que o uso de colágeno não tem mais indicação no tratamento de osteoartrite. Casos de febre reumática são raros após os 30 anos e a poliartrite acomete grandes articulações, com padrão migratório, assimétrico e autolimitado, com duração menor que 4 semanas.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q091",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 91,
+    "enunciado": "Durante a avaliação de um paciente de 65 anos com histórico de tabagismo intenso, sintomas respiratórios progressivos de dispneia, e tosse produtiva crônica, o médico suspeita de Doença Pulmonar Obstrutiva Crônica (DPOC). Qual dos seguintes procedimentos ou resultados diagnósticos é o mais indicativo para confirmar o diagnóstico de DPOC?",
+    "alternativas": {
+      "A": "Tomografia de tórax demonstrando áreas de enfisema pulmonar e excluindo doenças parenquimatosas.",
+      "B": "Presença de hipoxemia crônica associada a hipercapnia medida por gasometria arterial.",
+      "C": "Relação entre volume expiratório forçado no 1º segundo e a capacidade vital forçada (VEF1/CVF) menor que 70% após uso de broncodilatador.",
+      "D": "Radiografia de tórax mostrando hiperinsuflação pulmonar com aumento dos espaços aéreos e retificação do diafragma na incidência de perfil"
+    },
+    "gabarito": "C",
+    "n_alternativas": 4,
+    "justificativa_oficial": "Hipoxemia, com ou sem hipercapnia, pode ocorrer em DPOC avançada, mas não é específica para o diagnóstico. A tomografia de tórax é importante para avaliar extensão da doença e associação com doenças parenquimatosas ou mesmo neoplasia de pulmão, mas não é o teste indicado para o diagnóstico de DPOC. O diagnóstico de DPOC é confirmado por espirometria demonstrando VEF1/CVF ¡ 70% após uso de broncodilatador, indicando obstrução irreversível característica da DPOC. Embora radiografias possam mostrar sinais de hiperinsuflação, estas não são diagnósticas por si só para DPOC.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q099",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 99,
+    "enunciado": "Mulher de 50 anos, iniciou dor simétrica em joelhos há 6 meses e piora progressiva. A dor é mais intensa no início dos movimentos e piora com esforço. Associado tem rigidez articular menor que 10 minutos. Ao exame físico observa-se peso de 67kg e altura de 1,45m, nódulos de Heberden e crepitação nos dois joelhos. Baseado no quadro acima, qual dos tratamentos abaixo é capaz de impedir a progressão da doença articular?",
+    "alternativas": {
+      "A": "Uso de analgésico simples contínuo.",
+      "B": "Adotar medidas para redução de peso.",
+      "C": "Suplementação com colágeno oral.",
+      "D": "Infiltração intra-articular com corticosteróide."
+    },
+    "gabarito": "B",
+    "n_alternativas": 4,
+    "justificativa_oficial": "aluno deve perceber pelo quadro clínico o diagnóstico de osteoartrite (artrose): dor crônica e protocinética, presença de crepitação e nódulos de heberden em mãos (osteoartrite de mãos). Além do fator de risco - obesidade. O tratamento farmacológico com AINE, analgésicos e colágeno é apenas sintomático. A infiltração com corticosteróides tem ação antiinflamatória local, com alívio sintomático transitório. O único capaz de impedir a progressão da doença é a perda de peso.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q107",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 107,
+    "enunciado": "Gestante a termo chega no Centro Obstétrico com dor abdominal intensa, súbita, associada a sangramento vaginal e parada de movimentação fetal. Apresenta hipertonia uterina, ausência de batimentos fetais, colo impérvio e sangramento vaginal moderado. O fator de risco mais frequentemente associado a essa intercorrência obstétrica é:",
+    "alternativas": {
+      "A": "hipertensão arterial.",
+      "B": "cirurgia uterina prévia.",
+      "C": "obesidade.",
+      "D": "idade materna abaixo de 20 anos."
+    },
+    "gabarito": "A",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A principal causa do descolamento prematuro de placenta é desconhecida. Contudo, vários fatores de risco foram identificados, sendo a hipertensão arterial materna o principal fator etiológico ocorrendo em cerca de 44% de todos os casos.",
+    "requer_imagem": false
+  },
+  {
+    "id_origem": "tpmed2025_gabarito_q115",
+    "fonte": "TPMed 2025 (22/05) — caderno comentado",
+    "num": 115,
+    "enunciado": "A incontinência urinária (IU) e os prolapsos dos órgãos pélvicos (POP) são condições frequentes em mulheres, especialmente com o avanço da idade. Sobre a epidemiologia e a fisiopatologia dessas condições, assinale a alternativa correta.",
+    "alternativas": {
+      "A": "O prolapso de órgãos pélvicos é raro em mulheres multíparas e está mais associado a fatores genéticos do que a fatores mecânicos.",
+      "B": "A incontinência urinária de esforço (IUE) ocorre devido à fraqueza do suporte uretral e do assoalho pélvico, sendo mais comum em mulheres que tiveram partos vaginais.",
+      "C": "A incontinência urinária de urgência (IUU) ocorre exclusivamente devido a fatores mecânicos, sem relação com disfunções neuromusculares.",
+      "D": "O tratamento cirúrgico é indicado como primeira linha para todas as mulheres com prolapso de órgãos pélvicos, independentemente do grau dos sintomas."
+    },
+    "gabarito": "B",
+    "n_alternativas": 4,
+    "justificativa_oficial": "A IUE resulta da fraqueza do suporte do assoalho pélvico e do esfíncter uretral, frequentemente associada ao parto vaginal e à deficiência estrogênica.",
+    "requer_imagem": false
+  }
+]
