@@ -1,0 +1,495 @@
+[
+  {
+    "id_origem": "questoes_clm_q010",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Pneumologia",
+    "subtema": "DPOC — fisiopatologia e avaliação funcional no tabagista",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "DPOC",
+      "tabagismo",
+      "teste de caminhada de 6 minutos",
+      "dispneia aos esforços",
+      "espirometria"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível e de baixo poder discriminativo, pois afirma que a positividade do teste genético para deficiência de alfa-1 antitripsina caracterizaria o DPOC, erro grosseiro que nenhum candidato preparado assinalaria.",
+    "problema_detectado": "O comando pede a alternativa que 'melhor explica a história clínica', mas a chave descreve um achado esperado de teste funcional e não um mecanismo fisiopatológico, gerando ambiguidade com as demais opções.",
+    "justificativas": {
+      "A": "Correta. Josué é fumante ativo com 20 maços/ano e refere queda recente do desempenho aeróbico com dispneia ao esforço, quadro compatível com limitação funcional incipiente relacionada ao tabagismo; nesse cenário, o teste de caminhada de 6 minutos tende a mostrar redução da distância percorrida e leve dessaturação de oxigênio, traduzindo objetivamente a limitação ao exercício.",
+      "B": "Incorreta. A afirmação inverte os mecanismos: é a destruição do parênquima (enfisema) que reduz o recolhimento elástico pulmonar, enquanto a doença das pequenas vias aéreas é que aumenta a resistência ao fluxo aéreo, alterando fluxos como o FEF 25-75%.",
+      "C": "Incorreta. Embora a relação VEF1/CVF abaixo de 70% do previsto defina obstrução, não há espirometria descrita no caso para sustentar essa afirmação, e a PaCO2 elevada é achado de doença avançada, incompatível com um paciente que ainda pratica corrida de rua.",
+      "D": "Incorreta. Inflamação crônica com alterações estruturais das vias aéreas e exsudatos eosinofílicos intraluminais descreve a asma, hipótese que não é a mais provável diante de tabagismo ativo e dispneia progressiva aos esforços em adulto de 44 anos."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q020",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Pneumologia",
+    "subtema": "DPOC por exposição à biomassa — classificação GOLD",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_15"
+    ],
+    "tags": [
+      "DPOC",
+      "GOLD E",
+      "biomassa",
+      "espirometria",
+      "diagnóstico diferencial com asma"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator mais fraco por duplicar a família de respostas de 'asma' já representada pela alternativa B e por ser eliminado de imediato, já que a paciente é evidentemente sintomática e exacerbadora, jamais 'parcialmente controlada'.",
+    "problema_detectado": "O enunciado traz anotações editoriais não removidas ('colocar legendas das siglas', 'verificar unidades') e apresenta a tabela espirométrica em texto corrido, prejudicando a leitura dos dados.",
+    "justificativas": {
+      "A": "Correta. História compatível, fator de risco relevante (fogão à lenha e mofo por 45 anos), ausculta com sibilos e redução de murmúrio, espirometria com distúrbio ventilatório obstrutivo (VEF1/CVF 0,42, abaixo do LIN) sem resposta ao broncodilatador; paciente muito sintomática e com 4 exacerbações tratadas com prednisona nos últimos 12 meses, o que a classifica como GOLD E na classificação atual.",
+      "B": "Incorreta. Apesar dos sintomas noturnos e do uso diário de salbutamol, a obstrução é fixa (sem resposta ao broncodilatador), o prick test é negativo e os eosinófilos estão normais, o que afasta asma como diagnóstico principal e aponta para DPOC por exposição à biomassa.",
+      "C": "Incorreta. A classificação GOLD deixou de utilizar os grupos C e D; desde a atualização de 2023 os pacientes com exacerbações frequentes são agrupados na categoria E, tornando 'GOLD D' uma nomenclatura desatualizada.",
+      "D": "Incorreta. O diagnóstico de sobreposição asma-DPOC exigiria evidência de componente asmático, como resposta significativa ao broncodilatador, atopia ou eosinofilia, elementos ausentes neste caso (prick test negativo, eosinófilos 150/mm3, prova broncodilatadora negativa)."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q030",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Doenças infecciosas",
+    "subtema": "Leptospirose grave (síndrome de Weil) — diagnóstico e tratamento",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "leptospirose",
+      "síndrome de Weil",
+      "penicilina cristalina",
+      "hemorragia pulmonar",
+      "doença ocupacional"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, pois pneumonia por citomegalovírus não se manifesta com icterícia, insuficiência renal e hemorragia pulmonar de instalação aguda em paciente previamente hígida, sendo descartado sem raciocínio diferencial.",
+    "problema_detectado": "Há incoerência geográfica no enunciado, pois Corumbá é município do Mato Grosso do Sul e não do Mato Grosso, como consta na sigla apresentada.",
+    "justificativas": {
+      "A": "Correta. O quadro caracteriza a forma íctero-hemorrágica da leptospirose (síndrome de Weil), com a tríade típica de icterícia, insuficiência renal (creatinina aumentada) e hemorragia, aqui pulmonar; há ainda exposição ocupacional compatível (higienização de caixas d'água) e leucocitose com desvio à esquerda. O tratamento inclui suporte, diálise precoce e antibioticoterapia precoce com penicilina cristalina intravenosa (50.000 a 100.000 UI/kg/dia, em 4 a 6 doses), sendo ampicilina ou ceftriaxona alternativas.",
+      "B": "Incorreta. Na dengue grave o hemograma tipicamente mostra leucopenia com linfocitose e plaquetopenia, e não leucocitose com desvio à esquerda; além disso, hidratação vigorosa indiscriminada e transfusão sanguínea não constituem a conduta preconizada.",
+      "C": "Incorreta. Ainda que a malária grave por Plasmodium falciparum pudesse ser considerada, o hemograma cursaria com leucopenia e o tratamento seria feito com artemeter associado à lumefantrina; a primaquina por 14 dias destina-se à erradicação de hipnozoítos do P. vivax, não sendo tratamento de malária grave.",
+      "E": "Incorreta. A paracoccidioidomicose disseminada tem curso subagudo a crônico, com lesões mucocutâneas, adenomegalias e acometimento pulmonar intersticial, não explicando a instalação aguda de icterícia, insuficiência renal e hemorragia pulmonar em poucos dias."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q040",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Pneumologia",
+    "subtema": "Exacerbação de DPOC e critérios de oxigenoterapia domiciliar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "DPOC",
+      "exacerbação",
+      "oxigenoterapia domiciliar",
+      "corticoide sistêmico",
+      "antibioticoterapia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa correta é substancialmente mais longa e detalhada que as demais, o que funciona como pista formal de gabarito; o texto também apresenta erros de digitação e ausência de acentuação.",
+    "justificativas": {
+      "A": "Correta. O paciente preenche classicamente os três critérios de Anthonisen para exacerbação de DPOC — piora da dispneia, aumento do volume da secreção e mudança da cor do escarro (purulência) —, o que justifica antibioticoterapia associada a corticoide sistêmico, além do ajuste da terapia de manutenção com broncodilatador beta-2 de ação longa e corticoide inalatório, considerando a má adesão relatada.",
+      "B": "Incorreta. O paciente está hemodinamicamente estável, afebril, com frequência respiratória de 20 irpm e saturação de 91% em ar ambiente, sem sinais de insuficiência respiratória aguda ou de falência ventilatória que justifiquem internação imediata e suporte ventilatório não invasivo.",
+      "C": "Incorreta. A indicação de oxigenoterapia domiciliar exige saturação igual ou inferior a 88% ou PaO2 menor que 55 mmHg em estabilidade clínica, o que não se aplica a uma saturação de 91%; além disso, quando indicada, deve ser usada por no mínimo 15 horas diárias.",
+      "D": "Incorreta. A carga tabágica, por maior que seja, não é critério para oxigenoterapia domiciliar, que depende exclusivamente de parâmetros gasométricos ou de oximetria aferidos com o paciente estável."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q050",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Ética e legislação em saúde",
+    "subtema": "Lei 12.845/2013 — conceito legal de violência sexual",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_11",
+      "dcn2025_comp_23"
+    ],
+    "tags": [
+      "violência sexual",
+      "Lei 12.845/2013",
+      "atendimento integral",
+      "legislação em saúde"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator implausível, pois equiparar violência sexual a 'qualquer forma de trauma físico na mulher' desconsidera por completo o objeto da lei e é eliminado sem esforço analítico.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O artigo 2º da Lei 12.845/2013 estabelece expressamente que, para os efeitos dessa lei, considera-se violência sexual qualquer forma de atividade sexual não consentida, conceito amplo que fundamenta o atendimento obrigatório e integral nos serviços de saúde.",
+      "B": "Incorreta. A lei não condiciona o conceito à penetração vaginal nem ao uso ou não de preservativo; restringir a definição a esse ato específico contraria a amplitude do artigo 2º.",
+      "D": "Incorreta. A penetração vaginal ou anal não consentida é apenas uma das formas possíveis de violência sexual, mas a definição legal não se limita a atos com penetração.",
+      "E": "Incorreta. A lei não exige a ocorrência de trauma pélvico ou de qualquer lesão física para caracterizar a violência sexual, bastando a ausência de consentimento na atividade sexual."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q060",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Ética médica",
+    "subtema": "Sigilo profissional e suas exceções no Código de Ética Médica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_05",
+      "dcn2025_comp_04",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "sigilo médico",
+      "Código de Ética Médica",
+      "Resolução CFM 2217/2018",
+      "prontuário",
+      "confidencialidade"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator menos discriminativo, pois trata de publicidade médica e não de quebra de sigilo, desviando-se do eixo conceitual avaliado e sendo descartado de imediato.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O artigo 89 do Código de Ética Médica assegura ao médico o direito de utilizar informações do prontuário sob sua guarda em sua própria defesa, configurando uma das exceções legítimas ao dever de sigilo profissional.",
+      "B": "Incorreta. O artigo 73 é expresso ao manter a vedação de revelar fato de que se tenha conhecimento em razão do exercício profissional, proibição que persiste ainda que o fato seja de conhecimento público.",
+      "C": "Incorreta. O dever de sigilo não se extingue com o falecimento do paciente; o Código de Ética Médica mantém a proibição de revelação mesmo após a morte, conforme o artigo 73.",
+      "E": "Incorreta. Ao depor como testemunha, o médico deve comparecer perante a autoridade e declarar-se impedido de responder, valendo-se do sigilo profissional, justamente quando a revelação puder expor o paciente a processo penal, conforme o artigo 73."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q070",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Infectologia",
+    "subtema": "Diagnóstico sorológico da sífilis — testes treponêmicos e não treponêmicos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "sífilis",
+      "VDRL",
+      "testes treponêmicos",
+      "cicatriz sorológica",
+      "interpretação de exames"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator mais fraco por introduzir comparação técnica marginal entre ELISA e FTA-Abs, tema periférico ao eixo avaliado e sem sustentação nas diretrizes, o que o torna pouco discriminativo.",
+    "problema_detectado": "A alternativa correta é muito mais extensa que as demais, o que pode funcionar como pista formal de gabarito.",
+    "justificativas": {
+      "A": "Correta. Analisar isoladamente o título de um único resultado de teste não treponêmico é equívoco frequente; a antiga ideia de um ponto de corte acima do qual haveria doença ativa e abaixo do qual o resultado seria falso reagente ou indicaria inatividade leva a decisões terapêuticas inadequadas. A interpretação exige correlação com clínica, história de tratamento e exposição, além de acompanhamento seriado dos títulos.",
+      "B": "Incorreta. Considerando a epidemia de sífilis no Brasil e a sensibilidade dos fluxos diagnósticos, recomenda-se iniciar a investigação pelo teste treponêmico, que é o primeiro a se tornar reagente, e não pelo teste não treponêmico.",
+      "C": "Incorreta. Títulos altos em testes não treponêmicos, especialmente quando em queda, podem sim ser encontrados em pacientes adequadamente tratados, razão pela qual o seguimento sorológico seriado é indispensável.",
+      "D": "Incorreta. A cicatriz sorológica refere-se a títulos baixos persistentes nos testes NÃO treponêmicos em pessoas adequadamente tratadas; os testes treponêmicos permanecem quase sempre reagentes por toda a vida, independentemente do tratamento."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q080",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Gastroenterologia",
+    "subtema": "Manejo da diarreia aguda e planos de hidratação do Ministério da Saúde",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "diarreia aguda",
+      "terapia de reidratação oral",
+      "plano B",
+      "ondansetrona",
+      "Ministério da Saúde"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, pois condiciona a prescrição de antidiarreicos ao papel de provedora da família e adiciona afastamento laboral arbitrário, elementos sem qualquer respaldo clínico ou normativo.",
+    "problema_detectado": "A dose de sais de reidratação oral citada na chave (75 mL/kg) é apresentada como valor pontual, enquanto o protocolo do Ministério da Saúde trabalha com faixa de 50 a 100 mL/kg no plano B.",
+    "justificativas": {
+      "A": "Correta. Trata-se de diarreia aguda não disenteriforme com sinais de desidratação leve a moderada (olhos fundos e mucosa oral seca), o que corresponde ao plano B do Ministério da Saúde: reidratação oral com solução de sais de reidratação na faixa de 50 a 100 mL/kg administrada em 4 a 6 horas, na unidade de saúde, com uso de ondansetrona caso haja vômitos persistentes durante o processo.",
+      "B": "Incorreta. Diarreia aquosa, sem sangue, muco ou febre, não configura quadro disenteriforme e não tem indicação de antibioticoterapia empírica; antidiarreicos não são recomendados pelo Ministério da Saúde e a hidratação endovenosa está reservada ao plano C.",
+      "C": "Incorreta. A suplementação de zinco é recomendada para crianças menores de 5 anos com diarreia, não para adultos; além disso, a paciente tolera via oral, não havendo indicação de reposição endovenosa nem de dosagens seriadas de eletrólitos a cada 6 horas.",
+      "E": "Incorreta. O uso de probióticos não é consensual nos guidelines e não integra a recomendação do Ministério da Saúde; antiácidos e inibidor de bomba de prótons não têm qualquer papel no tratamento da diarreia aguda infecciosa."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q003",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Pneumologia",
+    "subtema": "Asma leve — estratégia terapêutica preferencial GINA 2025",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "asma",
+      "GINA 2025",
+      "CI-formoterol",
+      "SABA",
+      "terapia de alívio"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado está truncado ao final ('conduta inicial de escolh'), com perda da palavra final do comando.",
+    "justificativas": {
+      "A": "Correta. O corticoide inalatório em baixa dose associado ao formoterol, usado conforme necessidade (Rota/Track 1), é a estratégia preferencial da GINA 2025 para adultos com asma leve, pois reduz de forma significativa exacerbações graves, hospitalizações e mortalidade relacionada à asma, ao oferecer broncodilatação rápida e tratamento da inflamação desde a primeira dose.",
+      "B": "Incorreta. A GINA não recomenda mais o uso isolado de beta-2 agonista de curta duração em nenhum degrau do tratamento da asma, pois essa estratégia associa-se a maior risco de exacerbações e de morte relacionada à doença.",
+      "C": "Incorreta. O beta-2 agonista de longa duração isolado é formalmente contraindicado na asma; ele nunca deve ser usado sem corticoide inalatório associado, por aumentar o risco de eventos fatais.",
+      "D": "Incorreta. Corticoide inalatório em dose fixa de manutenção com beta-2 de curta duração de alívio corresponde ao Track 2, opção válida porém inferior ao Track 1 na prevenção de exacerbações; como o comando exige a estratégia preferencial, essa alternativa não atende ao solicitado."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q013",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Infectologia",
+    "subtema": "Cistite aguda não complicada em mulher jovem",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "infecção do trato urinário",
+      "cistite não complicada",
+      "urocultura",
+      "tratamento empírico",
+      "uso racional de recursos"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado está truncado ao final ('assinale a alternativa corret'), com perda da letra final do comando.",
+    "justificativas": {
+      "A": "Correta. O quadro clínico clássico de disúria, polaciúria e urgência miccional, sem febre, dor lombar ou sinais sistêmicos, em mulher jovem previamente hígida, caracteriza cistite aguda não complicada; nessa situação o diagnóstico é essencialmente clínico e o tratamento empírico pode ser iniciado sem urocultura, reservada a casos complicados, recorrentes, gestantes ou falha terapêutica.",
+      "B": "Incorreta. A urocultura não é obrigatória nos casos típicos de cistite não complicada; sua solicitação indiscriminada eleva custos e retarda o tratamento, sem melhorar desfechos clínicos.",
+      "C": "Incorreta. O nitrito positivo apenas sugere a presença de bactéria redutora de nitrato, como a Escherichia coli, mas não diferencia cistite de pielonefrite; o diagnóstico de pielonefrite depende de sinais sistêmicos como febre e dor lombar, ausentes no caso.",
+      "D": "Incorreta. A antibioticoterapia intravenosa é reservada à pielonefrite grave, sepse ou incapacidade de ingestão oral; trata-se aqui de infecção urinária baixa não complicada, com indicação de tratamento oral ambulatorial."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q023",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Endocrinologia e metabolismo",
+    "subtema": "Hipertrigliceridemia grave e prevenção de pancreatite aguda",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "hipertrigliceridemia",
+      "fibratos",
+      "pancreatite aguda",
+      "dislipidemia",
+      "PCDT"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As diretrizes brasileiras reconhecem a hipertrigliceridemia grave como importante fator de risco para pancreatite aguda, adotando o valor de triglicerídeos acima de 500 mg/dL como limiar clínico para início de tratamento farmacológico com essa finalidade; conforme o PCDT da Dislipidemia do Ministério da Saúde, os fibratos são os agentes de primeira escolha, por reduzirem a síntese hepática de VLDL e aumentarem a oxidação de ácidos graxos, promovendo queda rápida e efetiva dos triglicerídeos.",
+      "B": "Incorreta. O ponto de corte de 500 mg/dL está correto, mas as estatinas atuam preferencialmente sobre o LDL-colesterol e produzem redução apenas modesta dos triglicerídeos, não sendo a classe de escolha para prevenir pancreatite por hipertrigliceridemia.",
+      "C": "Incorreta. Embora o fibrato seja a classe adequada, o valor de 250 mg/dL não constitui indicação formal de tratamento farmacológico voltado à prevenção de pancreatite, situando-se na faixa de hipertrigliceridemia leve a moderada, manejada prioritariamente com medidas de estilo de vida.",
+      "D": "Incorreta. A alternativa erra tanto no limiar (250 mg/dL não é indicação formal para essa finalidade) quanto na classe medicamentosa, já que a estatina não é o fármaco de escolha para redução rápida dos triglicerídeos."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q033",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Cardiologia",
+    "subtema": "Prevenção primária cardiovascular e indicação de estatina",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "prevenção primária",
+      "risco cardiovascular global",
+      "estatina",
+      "estratificação de risco",
+      "LDL-colesterol"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O distrator D ('idade inferior a 30 anos') é implausível e não compete com a chave, reduzindo o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Correta. Em prevenção primária, a indicação de estatina não depende de valores isolados do perfil lipídico, mas da estimativa do risco cardiovascular global, que integra idade, pressão arterial, perfil lipídico, tabagismo, diabetes e história familiar; essa abordagem identifica os indivíduos com maior probabilidade de eventos e permite decisão terapêutica individualizada, como no paciente descrito, hipertenso e com história familiar de doença cardiovascular precoce.",
+      "B": "Incorreta. O colesterol total isolado não define indicação terapêutica, pois não distingue as frações aterogênicas do HDL-colesterol e não incorpora os demais fatores de risco necessários à decisão.",
+      "C": "Incorreta. A hipertrigliceridemia leve não é critério principal para indicação de estatina; quando relevante, a hipertrigliceridemia grave é manejada preferencialmente com fibratos e medidas de estilo de vida.",
+      "D": "Incorreta. A idade é apenas uma das variáveis do cálculo de risco global, e ter menos de 30 anos, isoladamente, não orienta a decisão de iniciar ou não terapia hipolipemiante."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q043",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infectologia",
+    "subtema": "Mpox — confirmação laboratorial por PCR de lesão cutânea",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_14",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "Mpox",
+      "PCR",
+      "diagnóstico laboratorial",
+      "emergência sanitária",
+      "viajante internacional"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O método de escolha para o diagnóstico de Mpox é a detecção do DNA viral por reação em cadeia da polimerase, e as amostras mais ricas em vírus são obtidas diretamente das lesões cutâneas (fluido vesicular ou crostas) por esfregaço vigoroso, técnica de alta sensibilidade e especificidade para confirmar infecção ativa.",
+      "B": "Incorreta. Os testes sorológicos não são recomendados para o diagnóstico agudo, pois apresentam reatividade cruzada entre os diferentes Orthopoxvirus (varíola, vaccinia e Mpox) e não distinguem infecção atual de infecção passada ou vacinação prévia.",
+      "C": "Incorreta. A pesquisa em sangue não é o método preferencial, uma vez que a viremia pode ser baixa ou indetectável no momento do quadro cutâneo, conferindo baixa sensibilidade; além disso, hemocultura destina-se a agentes bacterianos e fúngicos, não a vírus.",
+      "D": "Incorreta. Embora biópsia com histopatologia e cultura viral possam eventualmente identificar o agente, não são métodos de primeira linha: a cultura é lenta e exige laboratório com nível de biossegurança adequado, e a biópsia é invasiva, enquanto a PCR é mais rápida, segura e específica, essencial para resposta ágil em saúde pública."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q053",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Psiquiatria",
+    "subtema": "Transtorno de ansiedade generalizada — diagnóstico diferencial dos transtornos ansiosos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_12",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "transtorno de ansiedade generalizada",
+      "TEPT",
+      "transtorno do pânico",
+      "diagnóstico diferencial",
+      "saúde mental"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A paciente apresenta, há 8 meses, preocupações excessivas e difíceis de controlar sobre múltiplos domínios (saúde própria e da família, emprego, finanças), acompanhadas de tensão, irritabilidade, inquietação, fadiga, dificuldade de desligar-se e insônia, além de sintomas físicos persistentes, quadro que preenche os critérios de transtorno de ansiedade generalizada.",
+      "B": "Incorreta. Apesar de o quadro ter se iniciado após evento potencialmente traumático, não há manifestações nucleares de transtorno de estresse pós-traumático, como revivescência intrusiva do evento, evitação de estímulos associados e hiper-reatividade especificamente vinculada ao trauma.",
+      "C": "Incorreta. Os sintomas físicos relatados são contínuos e difusos ao longo do dia, e não paroxísticos; faltam os ataques de pânico com início súbito, pico em minutos e medo recorrente de novas crises que caracterizam o transtorno do pânico.",
+      "D": "Incorreta. A categoria de transtorno de ansiedade não especificado destina-se a quadros que não preenchem critérios de nenhuma síndrome definida; como o caso satisfaz plenamente os critérios de ansiedade generalizada, essa classificação residual fica excluída."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q063",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Cardiologia",
+    "subtema": "Estratificação de risco cardiovascular no diabético com fator agravante",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "risco cardiovascular",
+      "diabetes mellitus",
+      "estatina de alta potência",
+      "doença de Crohn",
+      "fator agravante"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado grafa incorretamente 'doença de Chron' (correto: Crohn) e não fornece os valores laboratoriais mencionados, exigindo que o candidato infira dados não apresentados.",
+    "justificativas": {
+      "A": "Correta. Trata-se de paciente de muito alto risco cardiovascular: diabético, de qualquer idade, com pelo menos um fator de risco associado (hipertensão arterial), o que já o colocaria em alto risco, elevado a muito alto risco pela presença de fator agravante representado por condição inflamatória crônica (doença de Crohn). A conduta contempla mudança do estilo de vida, início de estatina de alta potência e controle dos demais fatores de risco, incluindo a obesidade grau II.",
+      "B": "Incorreta. A classificação como alto risco subestima o quadro, pois desconsidera o fator agravante da doença inflamatória intestinal crônica, que reclassifica o paciente diabético com fator de risco para a categoria de muito alto risco.",
+      "C": "Incorreta. Ainda que a categorização de risco esteja correta, limitar a conduta à mudança do estilo de vida é insuficiente; pacientes de muito alto risco têm indicação formal de estatina de alta potência associada às medidas não farmacológicas.",
+      "D": "Incorreta. Os inibidores de PCSK9 não são terapia inicial; são reservados a pacientes que não atingem as metas de LDL-colesterol apesar de estatina de alta potência em dose máxima tolerada, eventualmente associada à ezetimiba."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q073",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Endocrinologia",
+    "subtema": "Hipocalcemia aguda pós-tireoidectomia total",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "hipocalcemia",
+      "tireoidectomia total",
+      "doença de Graves",
+      "sinal de Trousseau",
+      "gluconato de cálcio"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado está truncado ao final ('assinale a corret'), com perda da letra final do comando.",
+    "justificativas": {
+      "A": "Correta. Dor e espasmos musculares com sinal de Trousseau positivo no segundo dia de pós-operatório de tireoidectomia total traduzem hipocalcemia por lesão direta ou comprometimento vascular das paratireoides durante o procedimento, complicação mais frequente quando a cirurgia é realizada por doença de Graves, em razão da maior vascularização e friabilidade glandular.",
+      "B": "Incorreta. A descrição apresentada corresponde ao sinal de Chvostek (contração do ângulo labial à percussão do nervo facial), e não ao sinal de Trousseau, que é desencadeado pela insuflação do manguito de pressão arterial acima da pressão sistólica, provocando espasmo carpopedal.",
+      "C": "Incorreta. Diante de manifestações neuromusculares evidentes de hipocalcemia sintomática, a reposição de cálcio por via endovenosa deve ser iniciada concomitantemente à investigação laboratorial, sem aguardar a confirmação do cálcio sérico.",
+      "D": "Incorreta. O tratamento de escolha é a administração endovenosa lenta de gluconato de cálcio a 10%, e não de citrato de cálcio; a dose inicial não é calculada exclusivamente pelo peso corporal, mas conforme a gravidade clínica e os níveis séricos de cálcio, ainda que a monitorização eletrocardiográfica esteja de fato recomendada."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q083",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Cardiologia",
+    "subtema": "Semiologia cardiovascular — atrito pericárdico e pericardite aguda",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_02"
+    ],
+    "tags": [
+      "pericardite aguda",
+      "atrito pericárdico",
+      "dor pleurítica",
+      "ausculta cardíaca",
+      "semiologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas combinam achado semiológico e diagnóstico em pares ligados pelo símbolo '>', notação pouco convencional que compromete a padronização editorial do item.",
+    "justificativas": {
+      "A": "Correta. Dor torácica pleurítica, que piora à inspiração profunda e alivia ao inclinar o tronco para frente, associada a ruído áspero e raspante no bordo esternal esquerdo que varia com a posição, caracteriza o atrito pericárdico, achado clássico da pericardite aguda.",
+      "B": "Incorreta. Sopros resultam de turbulência do fluxo sanguíneo e não de fricção entre folhetos; além disso, o sopro holossistólico irradiado para a axila do prolapso ou da insuficiência mitral não explica dor pleurítica que melhora ao inclinar-se para frente.",
+      "C": "Incorreta. A terceira bulha em foco mitral é um som de baixa frequência ligado ao enchimento ventricular rápido, não produz ruído raspante, não se associa a dor torácica pleurítica e não varia tipicamente com a posição do paciente.",
+      "D": "Incorreta. Trata-se de sopro valvar diastólico, decorrente de regurgitação aórtica, e não de som de fricção; ademais, não se associa à dor pleurítica posicional típica da pericardite aguda."
+    }
+  }
+]

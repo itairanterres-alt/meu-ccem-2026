@@ -1,0 +1,325 @@
+[
+  {
+    "id_origem": "questoes_clm_q009",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Pneumologia",
+    "subtema": "Doença pulmonar obstrutiva crônica: diagnóstico diferencial das doenças obstrutivas",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["DPOC", "espirometria", "bronquite crônica", "tabagismo", "diagnóstico diferencial"],
+    "descartar": "C",
+    "motivo_descarte": "Alternativa não paralela às demais, pois enuncia uma afirmação genérica sobre fator de risco em vez de propor uma hipótese diagnóstica, além de ser factualmente falsa e facilmente eliminável.",
+    "problema_detectado": "O enunciado carrega instrução editorial residual ('retirar a caixa alta das alternativas'), as alternativas estão em caixa alta e o comentário oficial referencia letras trocadas em relação às alternativas apresentadas.",
+    "justificativas": {
+      "A": "Correta. A anamnese com sintomas respiratórios desde a infância e tosse produtiva recorrente, a exposição ocupacional a gases de diesel, o tabagismo de 11 maços/ano e a radiografia com trama broncovascular aumentada e hiperinsuflação compõem o quadro de bronquite crônica/enfisema, ambos integrantes do espectro da DPOC.",
+      "B": "Incorreta. Não há na história elementos consistentes de atopia, variabilidade dos sintomas ou resposta broncodilatadora significativa que sustentem asma com fenótipo alérgico.",
+      "D": "Incorreta. Conforme o comentário oficial, o rótulo pré-DPOC aplica-se ao paciente com sintomas respiratórios que ainda não preenche o critério espirométrico, não sendo a classificação atribuída pelo autor a este caso.",
+      "E": "Incorreta. O diagnóstico de bronquiectasia exige demonstração tomográfica de dilatação brônquica irreversível; o simples aumento da trama broncovascular na radiografia não a caracteriza."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q019",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Pneumologia",
+    "subtema": "Critérios diagnósticos e epidemiologia da DPOC",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["DPOC", "espirometria", "VEF1/CVF", "tabagismo"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível, pois imunossupressores não integram o tratamento da DPOC, sendo eliminada de imediato e contribuindo pouco para a discriminação do item.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O único critério espirométrico obrigatório para o diagnóstico de DPOC é a limitação fixa ao fluxo aéreo, definida pela relação VEF1/CVF pós-broncodilatador menor que 0,70.",
+      "B": "Incorreta. A DPOC é doença de alta prevalência na população, ainda que corretamente descrita como evitável e tratável.",
+      "C": "Incorreta. A fumaça do cigarro é de fato o principal fator de risco, mas menos de 50% dos tabagistas pesados desenvolvem a doença.",
+      "D": "Incorreta. A ausência de resposta ao broncodilatador não é critério diagnóstico; o que define a doença é a persistência da relação VEF1/CVF abaixo de 0,70 após o broncodilatador."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q029",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Infectologia na emergência",
+    "subtema": "Meningite bacteriana no idoso: antibioticoterapia empírica e profilaxia de contatos",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_24"],
+    "tags": ["meningite bacteriana", "Listeria monocytogenes", "ampicilina", "dexametasona", "quimioprofilaxia"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa truncada e com erro de digitação, além de redundante com a conduta já instituída no caso, o que a torna nula do ponto de vista discriminativo.",
+    "problema_detectado": "A alternativa E está incompleta e com erro de digitação ('INtroduzir ceftriaxona') e o comentário oficial discute um item 'e' de conteúdo diverso do apresentado.",
+    "justificativas": {
+      "A": "Correta. O perfil liquórico é compatível com meningite bacteriana e, pela idade acima de 50 anos e pela institucionalização, é obrigatória a cobertura para Listeria monocytogenes com ampicilina associada à ceftriaxona.",
+      "B": "Incorreta. As características do líquor apontam infecção bacteriana e não meningoencefalite herpética, não havendo motivo para suspender a ceftriaxona.",
+      "C": "Incorreta. A dexametasona só deve ser mantida até o término do tratamento quando se confirma Haemophilus influenzae ou Neisseria meningitidis como agente etiológico.",
+      "D": "Incorreta. A quimioprofilaxia de contatos com rifampicina, ceftriaxona ou ciprofloxacino está indicada na doença meningocócica, e não na infecção pneumocócica."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q039",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Pneumologia e imagem torácica",
+    "subtema": "Fisiopatologia da opacidade em vidro fosco na COVID-19",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["COVID-19", "vidro fosco", "tomografia de tórax", "edema intersticial", "SDRA"],
+    "descartar": "C",
+    "motivo_descarte": "Reproduz o mesmo mecanismo hidrostático já contemplado na alternativa B, funcionando como duplicata com acréscimo redundante da disfunção ventricular esquerda.",
+    "problema_detectado": "As alternativas são excessivamente longas e apresentam grande sobreposição textual entre si, sobrecarregando a leitura e reduzindo a clareza do item.",
+    "justificativas": {
+      "A": "Correta. A opacidade em vidro fosco decorre do aumento da permeabilidade capilar em resposta ao processo inflamatório, com edema predominantemente intersticial e preservação parcial da aeração alveolar, achado comum na COVID-19 grave mas também presente em outras condições infecciosas e não infecciosas.",
+      "B": "Incorreta. Não se trata de edema por aumento da pressão hidrostática gerado pelo esforço ventilatório; o mecanismo é o aumento da permeabilidade vascular de origem inflamatória.",
+      "D": "Incorreta. Quando o líquido ocupa o espaço alveolar e suprime a aeração, o padrão radiológico deixa de ser vidro fosco e passa a ser consolidação.",
+      "E": "Incorreta. O vidro fosco não é específico da COVID-19, sendo observado na influenza, na síndrome do desconforto respiratório agudo de outras causas e em doenças não infecciosas."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q049",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Ética médica",
+    "subtema": "Autonomia do paciente e consentimento no Código de Ética Médica",
+    "competencia_dcn_2025": ["dcn2025_comp_04", "dcn2025_comp_05", "dcn2025_comp_23"],
+    "tags": ["Código de Ética Médica", "autonomia", "consentimento informado", "risco iminente de morte"],
+    "descartar": "D",
+    "motivo_descarte": "Alternativa vaga e implausível, pois 'tratamentos genéticos' não constitui categoria prevista no Código de Ética Médica como exceção à autonomia.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Os artigos 22 e 31 do Código de Ética Médica excetuam expressamente o caso de iminente risco de morte, única situação em que o médico pode agir sem o consentimento do paciente ou de seu representante legal.",
+      "B": "Incorreta. O Código não estabelece restrição de autonomia específica para tratamentos oncológicos, que seguem a regra geral do consentimento esclarecido.",
+      "C": "Incorreta. Em doenças terminais prevalecem o respeito à vontade do paciente, as diretivas antecipadas e os cuidados paliativos, sem a exceção prevista para o risco iminente de morte em doença tratável.",
+      "E": "Incorreta. Não há no Código limitação da autonomia na escolha do tratamento de infecções sexualmente transmissíveis, cabendo apenas a notificação compulsória quando indicada."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q059",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Ética médica e terminalidade",
+    "subtema": "Suicídio assistido, eutanásia, ortotanásia e distanásia",
+    "competencia_dcn_2025": ["dcn2025_comp_04", "dcn2025_comp_05", "dcn2025_comp_01"],
+    "tags": ["terminalidade", "suicídio assistido", "eutanásia", "ortotanásia", "cuidados paliativos"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa não paralela às demais e implausível, pois nenhuma diretiva antecipada de vontade legitima o suicídio assistido no ordenamento brasileiro.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O médico forneceu os meios para que o próprio paciente abreviasse a vida, o que configura suicídio assistido, prática ilegal no Brasil e, por consequência, vedada pelo Código de Ética Médica.",
+      "B": "Incorreta. Na eutanásia é o próprio médico quem executa o ato que causa a morte, ao passo que aqui a dose letal foi autoadministrada pelo paciente.",
+      "C": "Incorreta. Ortotanásia é permitir que a doença siga seu curso natural sem obstinação terapêutica, sem antecipar deliberadamente a morte.",
+      "D": "Incorreta. Distanásia é o prolongamento fútil do processo de morrer com medidas desproporcionais, situação oposta à descrita no caso."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q069",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cirurgia vascular",
+    "subtema": "Úlceras crônicas de membros inferiores: caracterização clínica da úlcera neuropática",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["úlcera neuropática", "pé diabético", "neuropatia", "osteomielite", "exame físico"],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível e com erro de digitação, pois a neuropatia cursa com atrofia muscular e hiporreflexia, e não com hipertrofia e hiperreflexia.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A úlcera neuropática é sempre precedida por calosidade não dolorosa e se apresenta com anel hiperceratótico ao redor, formando borda calosa, com centro profundo e granuloso, podendo haver áreas hemorrágicas por traumatismo ou atrito local.",
+      "B": "Incorreta. O distúrbio dos nervos autonômicos gera pele seca e espessa, e não úmida e fina, sendo esse ressecamento o responsável pelas fissuras plantares.",
+      "C": "Incorreta. Nas úlceras neuropáticas exclusivas os pulsos são amplos e a coloração dos pés é normal ou eritematosa; palidez e cianose indicam componente isquêmico associado.",
+      "D": "Incorreta. Odor fétido, exsudato amarelo-esverdeado, dor local e esfacelo em excesso são sinais de infecção da úlcera, e não a apresentação específica da osteomielite, sendo as infecções cutâneas locais e a osteomielite as principais complicações."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q079",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Gastroenterologia",
+    "subtema": "Erradicação de Helicobacter pylori conforme o IV Consenso Brasileiro",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["Helicobacter pylori", "gastrite crônica", "inibidor de bomba de prótons", "claritromicina", "terapia tripla"],
+    "descartar": "B",
+    "motivo_descarte": "Duplica a alternativa C sem o acréscimo dos probióticos e ainda omite a duração do tratamento, sendo o distrator mais fraco do conjunto.",
+    "problema_detectado": "As alternativas D e E não respondem ao comando do enunciado ('qual o tratamento adequado'), quebrando o paralelismo lógico do item.",
+    "justificativas": {
+      "A": "Correta. O IV Consenso Brasileiro de Helicobacter pylori estabelece como primeira escolha o inibidor de bomba de prótons, preferencialmente esomeprazol ou rabeprazol, 2 vezes ao dia, associado a amoxicilina 1 g 2 vezes ao dia e claritromicina 500 mg 2 vezes ao dia, por 14 dias.",
+      "C": "Incorreta. Não há evidência suficiente para associar probióticos ao esquema de erradicação, e o inibidor de bomba de prótons preferencial é o esomeprazol ou o rabeprazol, não o omeprazol.",
+      "D": "Incorreta. No alérgico à penicilina o esquema recomendado é inibidor de bomba de prótons 2 vezes ao dia, claritromicina 500 mg 2 vezes ao dia e levofloxacino 500 mg 1 vez ao dia por 14 dias, e não tetraciclina.",
+      "E": "Incorreta. O teste rápido da urease não é indicado para controle de erradicação, que exige teste respiratório com ureia marcada ou análise histológica da mucosa gástrica."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q002",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hematologia",
+    "subtema": "Anemia da inflamação (doença crônica) e metabolismo do ferro",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["anemia de doença crônica", "hepcidina", "artrite reumatoide", "ferritina", "eritropoese"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O quadro é de anemia da inflamação, na qual o aumento da hepcidina reduz a absorção intestinal de ferro e bloqueia sua liberação pelos macrófagos, diminuindo a disponibilidade do metal para a eritropoese apesar de estoques normais ou elevados.",
+      "B": "Incorreta. A deficiência absoluta de ferro cursaria com ferro sérico e ferritina reduzidos, o que não condiz com a ferritina elevada descrita.",
+      "C": "Incorreta. A falha medular primária com substituição gordurosa corresponde à aplasia e cursaria com pancitopenia, ausente neste paciente.",
+      "D": "Incorreta. A anemia hemolítica autoimune por anticorpos quentes apresentaria marcadores laboratoriais de hemólise e icterícia, não observados no caso."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q012",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia",
+    "subtema": "Terapia modificadora de doença na insuficiência cardíaca com fração de ejeção reduzida",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["insuficiência cardíaca", "ICFEr", "inibidores de SGLT2", "DAPA-HF", "terapia quádrupla"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As diretrizes contemporâneas recomendam inibidores de SGLT2 (dapagliflozina ou empagliflozina) para todos os pacientes com ICFEr sintomática, independentemente de diabetes, com redução de hospitalizações e de mortalidade cardiovascular demonstrada nos estudos DAPA-HF e EMPEROR-Reduced.",
+      "B": "Incorreta. A furosemida alivia sintomas congestivos, mas não é terapia modificadora de doença e não reduz mortalidade.",
+      "C": "Incorreta. O verapamil é contraindicado na ICFEr pelo efeito inotrópico negativo e a digoxina, embora possa reduzir hospitalizações, não reduz mortalidade.",
+      "D": "Incorreta. Não há benefício em substituir o carvedilol, já em dose máxima tolerada, por metoprolol, pois ambos são betabloqueadores com evidência favorável."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q022",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Endocrinologia",
+    "subtema": "Farmacoterapia da obesidade e perfil de efeitos adversos",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["obesidade", "orlistate", "esteatorreia", "farmacovigilância", "lipase"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O orlistate inibe as lipases gástrica e pancreática, impedindo a hidrólise e a absorção de cerca de 30% da gordura ingerida; os lipídios não absorvidos no lúmen produzem esteatorreia, fezes oleosas, urgência fecal, flatulência com perda oleosa e desconforto abdominal, sobretudo após refeições gordurosas.",
+      "B": "Incorreta. A sibutramina inibe a recaptação de noradrenalina e serotonina, cursando com boca seca, insônia, constipação e elevação da pressão arterial e da frequência cardíaca, não com esteatorreia.",
+      "C": "Incorreta. A associação bupropiona/naltrexona provoca tipicamente náusea, cefaleia, constipação e insônia, sem má absorção de gorduras.",
+      "D": "Incorreta. A liraglutida causa náuseas, vômitos e diarreia por retardo do esvaziamento gástrico, mas não gera fezes com aspecto gorduroso por bloqueio da absorção lipídica."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q032",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Endocrinologia hospitalar",
+    "subtema": "Insulinoterapia basal-bolus-correção no paciente internado",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["hiperglicemia hospitalar", "insulinoterapia", "basal-bolus", "segurança do paciente", "diabetes"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O esquema basal-bolus-correção é o padrão-ouro no paciente internado com ingesta oral adequada, pois une a cobertura das necessidades basais, o bólus prandial proporcional à ingesta calórica e o componente corretivo para ajustes finos.",
+      "B": "Incorreta. Insulina rápida isolada antes das refeições não cobre a necessidade basal e associa-se a maior variabilidade glicêmica e pior controle.",
+      "C": "Incorreta. NPH em duas aplicações fixas sem doses de correção não permite ajuste às variações glicêmicas nem cobertura prandial adequada.",
+      "D": "Incorreta. Insulina basal exclusiva com correção apenas acima de 250 mg/dL deixa a demanda prandial descoberta e tolera hiperglicemia excessiva."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q042",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Psiquiatria",
+    "subtema": "Episódio depressivo maior: diagnóstico e escolha terapêutica inicial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_02"],
+    "tags": ["depressão", "DSM-5-TR", "ISRS", "psicoterapia", "insônia terminal"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa D é defensável à luz do DSM-5-TR, no qual um único episódio depressivo maior já configura transtorno depressivo maior, o que gera ambiguidade com o gabarito oficial.",
+    "justificativas": {
+      "A": "Correta. Trata-se de um primeiro episódio depressivo maior de gravidade leve a moderada, sem ideação suicida e com manutenção das atividades laborais, situação em que a psicoterapia isolada é opção de primeira linha; caso se opte por farmacoterapia, os ISRS são a escolha inicial padrão pela segurança e eficácia.",
+      "B": "Incorreta. A dificuldade de concentração é critério diagnóstico do próprio episódio depressivo no DSM-5-TR, não indicando por si avaliação para TDAH neste contexto.",
+      "C": "Incorreta. Agitação psicomotora e aumento do apetite são marcos da depressão com características atípicas, e não típicas.",
+      "D": "Incorreta. Segundo o autor, por se tratar do primeiro episódio o diagnóstico é de episódio depressivo, reservando-se o termo transtorno depressivo maior aos quadros recorrentes."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q052",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Psiquiatria",
+    "subtema": "Escolha do antidepressivo por perfil sintomático e comorbidade cardiológica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["depressão", "antidepressivo dual", "desvenlafaxina", "tricíclicos", "bloqueio de ramo esquerdo"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Os sintomas descritos envolvem tanto o circuito serotoninérgico (tristeza, ansiedade, irritabilidade, culpa) quanto o noradrenérgico/dopaminérgico (desatenção, desânimo, anedonia), justificando um antidepressivo dual como a desvenlafaxina, seguro do ponto de vista cardíaco.",
+      "B": "Incorreta. O escitalopram, ISRS, trataria apenas parcialmente o quadro, deixando descobertos os sintomas de baixa energia, anedonia e desatenção.",
+      "C": "Incorreta. A amitriptilina é contraindicada nesta paciente por conta do bloqueio de ramo esquerdo, pelo risco de agravar distúrbios de condução.",
+      "D": "Incorreta. A bupropiona atua sobre noradrenalina e dopamina e, isoladamente, não cobre os sintomas serotoninérgicos de ansiedade, irritabilidade e culpa."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q062",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Neurologia",
+    "subtema": "Investigação etiológica do AVC isquêmico criptogênico (ESUS)",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["AVC isquêmico", "ESUS", "fibrilação atrial paroxística", "monitorização cardíaca prolongada", "propedêutica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O padrão cortical com investigação inicial negativa caracteriza AVC criptogênico do subtipo ESUS, cuja principal causa oculta é a fibrilação atrial paroxística; a monitorização cardíaca prolongada (≥14–30 dias ou monitor implantável) aumenta significativamente a taxa de detecção em relação ao Holter de 24 horas.",
+      "B": "Incorreta. Repetir um Doppler carotídeo já normal em curto intervalo tem rendimento diagnóstico desprezível.",
+      "C": "Incorreta. A angiotomografia coronariana avalia doença arterial coronariana e não identifica a fonte embólica responsável pelo AVC.",
+      "D": "Incorreta. A pesquisa de trombofilia hereditária relaciona-se sobretudo a eventos venosos e apresenta baixo rendimento na investigação de AVC arterial neste contexto."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q072",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia de urgência",
+    "subtema": "Estratégia de reperfusão no IAM com supradesnivelamento de ST sem hemodinâmica disponível",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_06", "dcn2025_comp_10"],
+    "tags": ["IAMCSST", "trombólise", "alteplase", "tempo porta-agulha", "rede de atenção às urgências"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A alternativa C contém erro de digitação ('colchinha' em vez de colchicina).",
+    "justificativas": {
+      "A": "Correta. Diante de IAM com supradesnivelamento de ST com menos de 12 horas de evolução e serviço de hemodinâmica a mais de 120 minutos de distância, a trombólise com rt-PA/alteplase, precedida de AAS 300 mg, é mandatória e imediata, pois o tempo de artéria ocluída determina a mortalidade cardiovascular.",
+      "B": "Incorreta. Transferir para angioplastia primária com tempo de transporte de cerca de 4 horas retardaria excessivamente a reperfusão, aumentando a mortalidade.",
+      "C": "Incorreta. O quadro clínico e eletrocardiográfico é de infarto anterior extenso, e não de pericardite; anti-inflamatório e colchicina seriam conduta equivocada e potencialmente danosa.",
+      "D": "Incorreta. Atribuir o quadro à ansiedade e postergar a reperfusão configura erro grave, com perda de miocárdio viável e aumento da mortalidade."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q082",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Reumatologia",
+    "subtema": "Critérios laboratoriais classificatórios da síndrome do anticorpo antifosfolípide",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["síndrome antifosfolípide", "anticoagulante lúpico", "anticardiolipina", "trombose venosa profunda", "morbidade gestacional"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Os critérios laboratoriais da SAF exigem persistência do anticorpo, confirmada em duas ocasiões com intervalo mínimo de 12 semanas, condição preenchida pelo anticoagulante lúpico detectado em duas coletas.",
+      "B": "Incorreta. Títulos baixos de anticardiolipina em coleta única não preenchem os critérios, que exigem título médio ou alto e confirmação da persistência.",
+      "C": "Incorreta. Uma única detecção de anticardiolipina IgG não demonstra a persistência exigida pelo intervalo mínimo de 12 semanas.",
+      "D": "Incorreta. O TTPa prolongado é apenas achado de triagem e a dosagem isolada de anti-β2 glicoproteína I não comprova a persistência do anticorpo."
+    }
+  }
+]

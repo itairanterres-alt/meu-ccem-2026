@@ -1,0 +1,523 @@
+[
+  {
+    "id_origem": "questoes_clm_q006",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Nefrologia",
+    "subtema": "Injúria renal aguda — critérios diagnósticos do KDIGO",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "injúria renal aguda",
+      "KDIGO",
+      "creatinina",
+      "taxa de filtração glomerular",
+      "débito urinário"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator implausível, pois inverte de forma grosseira a relação entre idade e creatinina, sendo facilmente eliminado mesmo por quem desconhece o conteúdo.",
+    "problema_detectado": "O enunciado apresenta inconsistência de concordância ao tratar os dois pacientes ('a creatinina de ambas'), o que pode confundir a leitura.",
+    "justificativas": {
+      "A": "Correta. Pelos critérios do KDIGO, o diagnóstico de injúria renal aguda exige variação da creatinina em relação ao valor basal ou débito urinário inferior a 0,5 mL/kg/h por período pré-determinado (6, 12 ou 24 horas); nenhum desses dados foi informado, de modo que não se pode afirmar IRA.",
+      "B": "Incorreta. Creatininas séricas iguais não implicam a mesma taxa de filtração glomerular, pois a produção de creatinina depende de massa muscular, idade e sexo — 1,2 mg/dL representa filtração muito distinta em um homem jovem e em uma mulher de 79 anos.",
+      "D": "Incorreta. Diabetes e hipertensão de longa data elevam o risco de doença renal crônica, mas o antecedente isolado não autoriza afirmar menor função renal sem estimativa da filtração glomerular ou conhecimento da creatinina basal.",
+      "E": "Incorreta. O valor absoluto de creatinina não deve ser usado isoladamente para presumir função renal normal nem para afastar lesão renal, especialmente em idosos com baixa massa muscular."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q016",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Neurologia vascular",
+    "subtema": "AVC isquêmico — classificação TOAST e profilaxia secundária",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "AVC isquêmico",
+      "classificação TOAST",
+      "fibrilação atrial",
+      "anticoagulação oral",
+      "CHA2DS2-VASc"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator pouco discriminativo, por repetir a classificação 'indeterminado' já contemplada na alternativa B e associá-la ao tratamento correto.",
+    "problema_detectado": "O enunciado mantém uma instrução residual de elaboração ('avaliar valor e qualidade de uma imagem de tomografia') que não corresponde a nenhum estímulo apresentado ao estudante.",
+    "justificativas": {
+      "A": "Correta. Síndrome de circulação anterior total (hemiplegia proporcionada com afasia motora) em paciente com fibrilação atrial e sem estenoses carotídeas significativas caracteriza AVE isquêmico cardioembólico pela classificação TOAST; com AIT prévio, hipertensão e diabetes (CHA2DS2-VASc = 5), a profilaxia secundária indicada após a alta é o anticoagulante oral.",
+      "B": "Incorreta. A etiologia não é indeterminada, pois há fonte emboligênica definida pela fibrilação atrial; além disso, antiagregante com estatina não substitui a anticoagulação nesse contexto.",
+      "C": "Incorreta. A angiotomografia não demonstrou estenoses significativas de carótidas e vertebrais, o que afasta o mecanismo de doença de grandes artérias, e a dupla antiagregação não é a profilaxia da cardioembolia.",
+      "E": "Incorreta. A classificação etiológica está correta, mas o tratamento não: na cardioembolia por fibrilação atrial com escore CHA2DS2-VASc elevado a profilaxia é a anticoagulação oral, e não a associação de AAS com clopidogrel."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q026",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Infectologia",
+    "subtema": "Infecção latente pelo Mycobacterium tuberculosis em contato domiciliar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "tuberculose latente",
+      "prova tuberculínica",
+      "quimioprofilaxia",
+      "contato domiciliar",
+      "isoniazida"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, pois propõe conduta expectante que contraria frontalmente a indicação já estabelecida de tratamento da infecção latente.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Contato domiciliar assintomático, com radiografia de tórax normal e prova tuberculínica de 12 mm (≥ 10 mm), caracteriza infecção latente pelo Mycobacterium tuberculosis, cuja conduta é o tratamento da ILTB para evitar a reativação da doença.",
+      "B": "Incorreta. O esquema RIPE destina-se à tuberculose ativa; o paciente é assintomático e tem radiografia de tórax normal, não preenchendo critérios de doença.",
+      "C": "Incorreta. A pesquisa de bacilo no escarro só se justifica diante de suspeita de tuberculose pulmonar ativa, o que não ocorre em paciente assintomático com exame físico e radiografia normais.",
+      "E": "Incorreta. O IGRA é método alternativo ao PPD, e não teste confirmatório; com prova tuberculínica já positiva e indicação definida, exames adicionais apenas retardariam o tratamento."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q036",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Pneumologia",
+    "subtema": "Asma — fenótipos clínicos e endótipos inflamatórios",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "asma",
+      "endótipo T2 alto",
+      "IgE total",
+      "eosinofilia",
+      "rinite alérgica"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Duplicata conceitual da alternativa C, já que endótipo eosinofílico equivale a T2 alto, além de conter erro de digitação ('fenóticpo').",
+    "problema_detectado": "A vinheta é excessivamente longa e traz grande volume de dados irrelevantes para a decisão solicitada, sobrecarregando a leitura sem aumentar o raciocínio exigido.",
+    "justificativas": {
+      "A": "Correta. Asma iniciada na infância com rinite alérgica associada define o fenótipo alérgico, e a IgE total de 797 UI/mL, a eosinofilia de 550/mm3 e a excelente resposta ao corticoide inalado e tópico nasal caracterizam o endótipo T2 alto.",
+      "B": "Incorreta. O fenótipo alérgico está corretamente identificado, mas os biomarcadores elevados e a resposta ao corticoide inalado são incompatíveis com endótipo T2 baixo.",
+      "C": "Incorreta. O endótipo T2 alto está correto, porém a história de rinite alérgica e de sintomas desde a infância caracteriza fenótipo alérgico, e não não alérgico.",
+      "D": "Incorreta. Tanto o fenótipo quanto o endótipo estão equivocados: há atopia evidente e marcadores de inflamação tipo 2 claramente elevados."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q046",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia",
+    "subtema": "Insuficiência cardíaca com fração de ejeção preservada — tratamento farmacológico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "ICFEp",
+      "inibidores de SGLT2",
+      "disfunção diastólica",
+      "peptídeo natriurético",
+      "medicina baseada em evidências"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator menos discriminativo, pois a nomenclatura 'inibidores dos receptores beta-adrenérgicos' é imprecisa e destoa do padrão das demais alternativas.",
+    "problema_detectado": "O comando fala em redução de desfecho combinado incluindo mortalidade, enquanto a própria justificativa oficial reconhece que os iSGLT2 reduzem apenas as hospitalizações na ICFEp.",
+    "justificativas": {
+      "A": "Correta. O quadro configura insuficiência cardíaca com fração de ejeção preservada (FEVE 53%, hipertrofia concêntrica, aumento atrial esquerdo e disfunção diastólica, com BNP normal — o que ocorre em até 30% dos casos, sobretudo em obesos); os inibidores do cotransportador sódio-glicose são atualmente o único grupo com recomendação nível I-A nessa condição.",
+      "B": "Incorreta. Os inibidores da enzima conversora da angiotensina têm benefício demonstrado na insuficiência cardíaca com fração de ejeção reduzida, sem redução de desfechos na forma com fração preservada.",
+      "C": "Incorreta. Os antagonistas do receptor mineralocorticoide são indicados na insuficiência cardíaca com fração de ejeção reduzida, não configurando recomendação de primeira linha na ICFEp.",
+      "E": "Incorreta. O inibidor da angiotensina-neprilisina tem indicação consolidada na fração de ejeção reduzida, sem redução do desfecho primário combinado na ICFEp."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q056",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Ética médica",
+    "subtema": "Sigilo profissional no Código de Ética Médica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_04",
+      "dcn2025_comp_05",
+      "dcn2025_comp_23",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "sigilo profissional",
+      "Código de Ética Médica",
+      "CFM",
+      "confidencialidade",
+      "deontologia"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Duplicata quase literal da alternativa B, diferindo apenas na inclusão do fato de conhecimento público, o que gera sobreposição desnecessária.",
+    "problema_detectado": "A referência normativa está datada incorretamente: a Resolução CFM nº 2.217 é de 2018, tendo sido apenas alterada por resoluções posteriores de 2018 e 2019.",
+    "justificativas": {
+      "A": "Correta. O artigo 75 do Código de Ética Médica veda ao médico fazer referência a casos clínicos identificáveis, exibir pacientes ou imagens que os tornem reconhecíveis em anúncios profissionais ou na divulgação de assuntos médicos em meios de comunicação, mesmo com autorização do paciente.",
+      "B": "Incorreta. A redação reproduz as exceções legítimas previstas no artigo 73 (motivo justo, dever legal e consentimento por escrito), descrevendo portanto situação admitida, e não a conduta vedada solicitada pelo comando.",
+      "D": "Incorreta. A vedação do Código alcança a revelação do sigilo de criança ou adolescente com capacidade de discernimento, inclusive aos pais, exceto quando a não revelação possa acarretar dano ao paciente — ressalva que a alternativa inverte.",
+      "E": "Incorreta. É vedado prestar a seguradoras informações sobre as circunstâncias da morte além das contidas na declaração de óbito, salvo mediante expresso consentimento do representante legal, ressalva desconsiderada pela alternativa."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q066",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Gastroenterologia",
+    "subtema": "Doença ulcerosa péptica e suas complicações",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "doença ulcerosa péptica",
+      "anti-inflamatório não esteroidal",
+      "hemorragia digestiva",
+      "tabagismo",
+      "dispepsia"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, pois colangiocarcinoma com obstrução biliar não guarda relação com a dor epigástrica rítmica descrita em paciente de 28 anos.",
+    "problema_detectado": "A alternativa B é parcialmente defensável, pois os dados clínicos oferecidos não permitem separar com segurança doença ulcerosa de gastropatia reativa a AINE sem endoscopia.",
+    "justificativas": {
+      "A": "Correta. Dor epigástrica em queimação, com piora pós-prandial e alívio com antiácidos ou alimentos alcalinos, em tabagista com uso de anti-inflamatório, é quadro clássico de doença ulcerosa péptica, cuja complicação mais frequente é a hemorragia (cerca de 15%).",
+      "B": "Incorreta. A gastropatia reativa ao anti-inflamatório é diagnóstico endoscópico e histológico e não explica isoladamente quatro meses de dor rítmica, iniciada antes do uso recente de ibuprofeno.",
+      "C": "Incorreta. A hipótese diagnóstica está correta, mas a perfuração é complicação menos frequente (cerca de 7%) do que a hemorragia digestiva.",
+      "E": "Incorreta. A doença celíaca cursa tipicamente com diarreia, distensão e sinais de má absorção, e o linfoma é complicação tardia e rara, incompatíveis com o quadro descrito."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q076",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Endocrinologia",
+    "subtema": "Tireotoxicose no puerpério — diagnóstico diferencial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "tireoidite pós-parto",
+      "anti-TPO",
+      "captação de iodo radioativo",
+      "tireotoxicose",
+      "puerpério"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, pois a tireoidite fibrosa de Riedel é entidade rara que não cursa com tireotoxicose.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Tireotoxicose surgida dois meses após o parto, com tireoide indolor à palpação, anti-TPO elevado e captação de iodo radioativo baixa (3%), caracteriza tireoidite pós-parto, de natureza autoimune e destrutiva.",
+      "B": "Incorreta. O bócio nodular tóxico cursa com captação de iodo radioativo elevada e nódulo funcionante; o nódulo de 6 mm descrito não justifica a tireotoxicose.",
+      "C": "Incorreta. Na tireoidite subaguda granulomatosa a tireoide é tipicamente dolorosa e há pródromo viral, achados ausentes no caso.",
+      "E": "Incorreta. A doença de Graves cursa com captação de iodo radioativo elevada, incompatível com a captação de 3% apresentada pela paciente."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q086",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Psiquiatria",
+    "subtema": "Transtorno bipolar tipo II — critérios de episódio hipomaníaco",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "DSM-5",
+      "episódio hipomaníaco",
+      "transtorno bipolar tipo II",
+      "critérios diagnósticos"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator numérico arbitrário, sem correspondência a qualquer ponto de corte do DSM-5, sendo o menos discriminativo do conjunto.",
+    "problema_detectado": "Item de memorização pura de ponto de corte temporal, com baixo poder discriminativo e alternativas puramente numéricas.",
+    "justificativas": {
+      "A": "Correta. O DSM-5 define o episódio hipomaníaco como período distinto de humor anormal e persistentemente elevado, expansivo ou irritável, com aumento anormal da atividade ou energia, durando no mínimo quatro dias consecutivos e presente na maior parte do dia, quase todos os dias.",
+      "B": "Incorreta. Cinco dias excedem o critério mínimo estabelecido, que é de quatro dias consecutivos para a hipomania.",
+      "D": "Incorreta. Três dias são insuficientes para caracterizar o episódio hipomaníaco segundo os critérios do DSM-5.",
+      "E": "Incorreta. Sete dias correspondem à duração mínima do episódio maníaco, e não do hipomaníaco."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q009",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Infectologia",
+    "subtema": "COVID-19 — classificação clínica e manejo ambulatorial da síndrome gripal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_24",
+      "dcn2025_comp_14"
+    ],
+    "tags": [
+      "COVID-19",
+      "síndrome gripal",
+      "isolamento domiciliar",
+      "vigilância epidemiológica",
+      "sinais de alarme"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Sintomas respiratórios leves há dois dias, com hiposmia, sem hipoxemia (saturação de 98%) ou taquipneia, somados a contato domiciliar com caso confirmado, definem síndrome gripal com suspeita de COVID-19; a conduta é isolamento domiciliar, testagem diagnóstica, sintomáticos e orientação sobre sinais de gravidade.",
+      "B": "Incorreta. O contato domiciliar com caso confirmado há quatro dias e a perda parcial do olfato tornam obrigatória a suspeita de COVID-19, sendo o isolamento indispensável.",
+      "C": "Incorreta. Não há critérios de Síndrome Respiratória Aguda Grave — dispneia, desconforto respiratório, taquipneia ou saturação abaixo de 95% —, de modo que internação e corticoterapia sistêmica são inadequadas.",
+      "D": "Incorreta. O caso é apenas suspeito, ainda sem confirmação laboratorial, e a anticoagulação profilática ambulatorial não é recomendada em quadro leve pela simples presença de fator de risco cardiovascular."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q019",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Endocrinologia",
+    "subtema": "Critérios diagnósticos de pré-diabetes e diabetes mellitus tipo 2",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "hemoglobina glicada",
+      "pré-diabetes",
+      "diabetes mellitus tipo 2",
+      "TOTG",
+      "rastreamento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado omite idade e sexo do paciente, dados relevantes para a estratificação de risco e para a decisão terapêutica.",
+    "justificativas": {
+      "A": "Correta. Segundo a Diretriz da Sociedade Brasileira de Diabetes, hemoglobina glicada entre 5,7% e 6,4% indica pré-diabetes; o valor de 6,3% deve ser confirmado por nova dosagem ou por outro método laboratorial válido, sobretudo diante de excesso de peso, sedentarismo e história familiar de DM2.",
+      "B": "Incorreta. O diagnóstico de diabetes exige HbA1c ≥ 6,5%; com 6,3% não há DM2, e a metformina não é conduta obrigatória de primeira linha nesse momento.",
+      "C": "Incorreta. O TOTG é método diagnóstico válido, mas glicemia de 2 horas superior a 200 mg/dL caracteriza diabetes, e não pré-diabetes.",
+      "D": "Incorreta. A glicemia capilar é método de monitorização e não é aceita para o diagnóstico de diabetes mellitus."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q029",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Farmacologia e virologia",
+    "subtema": "Ciclo de replicação do HIV e alvos da terapia antirretroviral",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "HIV",
+      "inibidores de protease",
+      "terapia antirretroviral",
+      "replicação viral",
+      "maturação"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comando revela entre parênteses a classe farmacológica ('Inibidores da Protease'), reduzindo o desafio cognitivo do item.",
+    "justificativas": {
+      "A": "Correta. Os inibidores da protease impedem a clivagem das poliproteínas Gag-Pol, etapa final do ciclo viral, resultando em partículas imaturas e não infecciosas — ou seja, atuam na maturação.",
+      "B": "Incorreta. O desnudamento não é alvo dessa classe; as etapas iniciais de entrada viral são bloqueadas por antagonistas de CCR5, como o maraviroque, e por inibidores de fusão.",
+      "C": "Incorreta. A transcrição reversa é o alvo dos inibidores da transcriptase reversa análogos e não análogos de nucleosídeos, como o tenofovir.",
+      "D": "Incorreta. A integração do DNA proviral ao genoma do hospedeiro é bloqueada pelos inibidores da integrase, como o dolutegravir."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q039",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Sepse",
+    "subtema": "Definição de choque séptico pelo consenso Sepsis-3",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "sepse",
+      "choque séptico",
+      "Sepsis-3",
+      "lactato",
+      "pressão arterial média"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado escreve 'lactato ≥ 2 mmol/L', enquanto o consenso Sepsis-3 define o critério como lactato maior que 2 mmol/L.",
+    "justificativas": {
+      "A": "Correta. Pelo Terceiro Consenso Internacional para Sepse e Choque Séptico (Sepsis-3), o choque séptico é definido pela hipotensão persistente que exige vasopressor para manter pressão arterial média de 65 mmHg, associada a lactato acima de 2 mmol/L (18 mg/dL), após ressuscitação volêmica adequada.",
+      "B": "Incorreta. O alvo padronizado de pressão arterial média é 65 mmHg, e 20 mmol/L não é ponto de corte diagnóstico de lactato, correspondendo a hiperlactatemia extrema.",
+      "C": "Incorreta. Pressão arterial média de 55 mmHg está abaixo do alvo definido pelo consenso, que é de 65 mmHg.",
+      "D": "Incorreta. O limiar de lactato é 2 mmol/L; o valor de 0,2 mmol/L situa-se abaixo da faixa fisiológica normal."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q049",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia",
+    "subtema": "Diagnóstico de hipertensão arterial e medidas fora do consultório",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hipertensão arterial",
+      "MAPA",
+      "MRPA",
+      "hipertensão do avental branco",
+      "diretriz brasileira 2025"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Diante de medidas de consultório discordantes (152/94 mmHg e, duas semanas depois, 128/82 mmHg), a Diretriz Brasileira de Hipertensão Arterial 2025 recomenda medida fora do consultório, por MAPA ou MRPA, para confirmar ou descartar o diagnóstico.",
+      "B": "Incorreta. O diagnóstico exige pelo menos duas consultas com medidas concordantes de PAS ≥ 140 e/ou PAD ≥ 90 mmHg, o que não ocorreu neste caso.",
+      "C": "Incorreta. Uma única medida normal não exclui hipertensão, podendo tratar-se de hipertensão do avental branco ou mascarada, situações que exigem avaliação fora do consultório.",
+      "D": "Incorreta. Iniciar tratamento farmacológico sem diagnóstico firmado expõe o paciente a risco desnecessário e contraria a recomendação da diretriz."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q059",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infectologia",
+    "subtema": "COVID-19 hospitalar — corticoterapia e tromboprofilaxia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "COVID-19",
+      "dexametasona",
+      "anticoagulação profilática",
+      "D-dímero",
+      "oxigenoterapia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O corticoide sistêmico reduz mortalidade em pacientes com COVID-19 que necessitam de oxigênio suplementar, e a anticoagulação profilática é a recomendada em paciente internado sem sinais de trombose.",
+      "B": "Incorreta. A anticoagulação plena na ausência de evento trombótico documentado aumenta o risco de sangramento sem benefício comprovado, mesmo com D-dímero elevado.",
+      "C": "Incorreta. O antiviral isolado não reduz mortalidade nesta fase da doença e deixaria de contemplar corticoide e tromboprofilaxia.",
+      "D": "Incorreta. O suporte clínico isolado omite terapias com benefício comprovado em paciente hipoxêmico, configurando conduta insuficiente."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q069",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Hematologia",
+    "subtema": "Anemia ferropriva no idoso — investigação etiológica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "anemia ferropriva",
+      "ferritina",
+      "idoso",
+      "sangramento gastrointestinal",
+      "endoscopia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Anemia microcítica (VCM 72 fL) com ferritina de 12 ng/mL e saturação de transferrina de 8% configura anemia ferropriva; no idoso, ela deve ser considerada secundária a perda sanguínea crônica até prova em contrário, investigando-se o trato gastrointestinal com endoscopia digestiva alta e colonoscopia.",
+      "B": "Incorreta. Repor ferro sem investigar a causa retarda o diagnóstico de neoplasias colorretais ou gástricas, e a reavaliação apenas em seis meses é intervalo inaceitável.",
+      "C": "Incorreta. A baixa ingesta pode contribuir, mas raramente explica isoladamente a ferropenia nesta faixa etária, não dispensando a investigação de sangramento.",
+      "D": "Incorreta. Hemoglobina de 8,9 g/dL em paciente estável não indica transfusão, e a alta sem investigação etiológica é conduta inadequada."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q079",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Reumatologia",
+    "subtema": "Artrite reumatoide — diagnóstico diferencial da poliartrite das mãos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "artrite reumatoide",
+      "poliartrite simétrica",
+      "rigidez matinal",
+      "metacarpofalângicas",
+      "diagnóstico precoce"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Poliartrite simétrica de metacarpofalângicas e interfalângicas proximais, com quatro meses de evolução e rigidez matinal de cerca de uma hora, é o padrão típico da artrite reumatoide, cujo reconhecimento precoce permite iniciar oportunamente o tratamento modificador da doença.",
+      "B": "Incorreta. A osteoartrite das mãos acomete preferencialmente interfalângicas distais e a primeira carpometacarpiana, com rigidez matinal breve e dor de padrão mecânico.",
+      "C": "Incorreta. A gota manifesta-se classicamente como monoartrite aguda e intensa, com predileção pela primeira metatarsofalângica, e não como poliartrite simétrica crônica das mãos.",
+      "D": "Incorreta. A fibromialgia cursa com dor difusa e ausência de sinais inflamatórios articulares, sendo incompatível com o edema objetivo descrito."
+    }
+  },
+  {
+    "id_origem": "tp_2023_q002",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Ética médica",
+    "subtema": "Exceções à quebra do sigilo profissional",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_04",
+      "dcn2025_comp_05",
+      "dcn2025_comp_23",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "sigilo profissional",
+      "Código de Ética Médica",
+      "quebra de sigilo",
+      "prontuário",
+      "defesa do médico"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator implausível, pois o falecimento do paciente é situação que notoriamente não extingue o dever de sigilo, sendo eliminado com facilidade.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O artigo 89 do Código de Ética Médica autoriza o médico a utilizar informações do prontuário sob sua guarda quando em sua própria defesa, configurando exceção legítima ao dever de sigilo.",
+      "B": "Incorreta. O fato ser de amplo conhecimento público não autoriza o médico a confirmá-lo ou divulgá-lo, permanecendo a vedação do artigo 73.",
+      "D": "Incorreta. O artigo 75 veda exibir pacientes ou imagens que os tornem reconhecíveis em anúncios profissionais, mesmo havendo autorização do paciente.",
+      "E": "Incorreta. O Código veda ao médico depor como testemunha em processo no qual seu paciente seja acusado de crime, por expô-lo a processo penal em razão de fatos conhecidos no exercício profissional."
+    }
+  }
+]

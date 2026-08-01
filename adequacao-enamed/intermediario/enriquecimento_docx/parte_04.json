@@ -1,0 +1,506 @@
+[
+  {
+    "id_origem": "questoes_clm_q004",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Hipertensão arterial sistêmica",
+    "subtema": "Critérios diagnósticos e técnica de medida da pressão arterial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hipertensão arterial",
+      "medida da pressão arterial",
+      "diagnóstico",
+      "diretrizes brasileiras"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível, pois apresenta pontos de corte pressóricos inexistentes em qualquer diretriz, sendo eliminado de imediato por candidato minimamente preparado.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O diagnóstico de hipertensão arterial exige aferição da PA em duas ocasiões diferentes, seguindo a técnica preconizada pelas Diretrizes Brasileiras de Hipertensão Arterial: paciente sem bexiga cheia, sem exercício físico recente, sem ingestão de álcool, café ou alimentos e sem tabagismo nos 30 minutos anteriores, com três medidas separadas por 1 a 2 minutos, manguito adequado à circunferência do braço e registro da média das duas últimas leituras.",
+      "B": "Incorreta. Uma única aferição em ambiente de evento comunitário não permite rotular a paciente como hipertensa nem indicar investigação obrigatória de causa secundária; a confirmação diagnóstica em outra ocasião, com técnica padronizada, deve preceder qualquer propedêutica etiológica.",
+      "C": "Incorreta. PA de 145/95 mmHg em paciente assintomática não caracteriza emergência hipertensiva, que exige elevação pressórica acentuada com lesão aguda de órgão-alvo; o encaminhamento ao pronto-socorro e a medicação imediata são condutas desnecessárias e potencialmente iatrogênicas.",
+      "D": "Incorreta. Repetir a medida no mesmo momento, ainda que por profissional mais experiente, não substitui a exigência de avaliação em duas ocasiões diferentes; medidas adicionais na mesma visita servem apenas para refinar o valor da leitura, não para firmar o diagnóstico."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q014",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rinite alérgica",
+    "subtema": "Classificação ARIA e tratamento de primeira linha",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "rinite alérgica",
+      "ARIA",
+      "anti-histamínicos",
+      "hipersensibilidade tipo I"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível, uma vez que corticoterapia oral jamais é tratamento de escolha em rinite intermitente leve, ficando restrita a exacerbações graves e por curto período.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O caso corresponde a rinite alérgica intermitente leve pela classificação ARIA, com sintomas sazonais e sono e atividades diárias preservados, situação em que os anti-histamínicos de segunda geração, por via oral ou nasal, figuram como fármacos de primeira linha.",
+      "B": "Incorreta. Os alimentos raramente desencadeiam sintomas respiratórios de forma isolada; quando surgem, costumam integrar quadros mais graves e sistêmicos, como a anafilaxia, e não o padrão sazonal descrito.",
+      "C": "Incorreta. Segundo o ARIA, a higiene ambiental, com afastamento de alérgenos e irritantes, tem papel de destaque, e não secundário, integrando o tratamento junto à farmacoterapia.",
+      "D": "Incorreta. A associação com outras condições é frequente: asma, conjuntivite alérgica, rinossinusite aguda e crônica, otite média com efusão, alterações do desenvolvimento craniofacial em respiradores bucais e apneia e hipopneia obstrutiva do sono."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q024",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "dificil",
+    "tema": "Câncer de próstata",
+    "subtema": "Conduta expectante e risco de metástase em 10 anos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "câncer de próstata",
+      "conduta expectante",
+      "prognóstico",
+      "metástase"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível por superestimar grosseiramente o risco em tumor bem diferenciado de baixo risco, sendo descartado sem esforço de raciocínio.",
+    "problema_detectado": "Item de recordação de percentual numérico exato, com baixo poder discriminativo e escassa transferência para o raciocínio clínico.",
+    "justificativas": {
+      "A": "Correta. Homens com câncer de próstata bem diferenciado nos estágios T1 e T2 tratados de modo conservador apresentam risco de metástase em 10 anos de aproximadamente 19%, valor arredondado para 20% na casuística de Chodak e colaboradores.",
+      "B": "Incorreta. O valor de 5% subestima o risco descrito na literatura para o seguimento conservador por 10 anos, ainda que se trate de tumor bem diferenciado com PSA inferior a 10 ng/mL.",
+      "C": "Incorreta. Risco de 50% em 10 anos corresponderia a tumores pouco diferenciados e de alto risco, e não ao perfil bem diferenciado descrito no enunciado.",
+      "E": "Incorreta. O percentual de 10% aproxima-se da metade do risco efetivamente observado nas séries de conduta expectante para esse grupo prognóstico."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q034",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Anemias carenciais",
+    "subtema": "Perfil laboratorial da anemia ferropriva por sangramento uterino anormal",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "anemia ferropriva",
+      "cinética do ferro",
+      "sangramento uterino anormal",
+      "hemograma"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator internamente contraditório, pois combina ferro sérico e ferritina baixos com índice de saturação aumentado, padrão fisiologicamente inconsistente.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Trata-se de anemia ferropriva por sangramento uterino anormal, sem restrição alimentar ou queixas do trato gastrointestinal que sugiram outra etiologia; o esperado é anemia microcítica e hipocrômica, com vitamina B12 e ácido fólico normais e ferro sérico, ferritina e índice de saturação da transferrina reduzidos, acompanhados de capacidade total de ligação do ferro elevada.",
+      "B": "Incorreta. A macrocitose não se coaduna com a ferropenia por perda menstrual; além disso, na deficiência de ferro a capacidade total de ligação do ferro eleva-se, e não diminui.",
+      "C": "Incorreta. Acerta a morfologia microcítica e hipocrômica e os níveis normais de B12 e folato, mas erra ao afirmar redução da capacidade total de ligação do ferro, que se encontra aumentada na ferropenia.",
+      "D": "Incorreta. Descreve padrão de sobrecarga de ferro, com saturação elevada e capacidade total de ligação reduzida, e ainda associa queda de vitamina B12 e ácido fólico, incompatíveis com paciente sem restrição alimentar nem doença gástrica."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q044",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Lombalgia e radiculopatia",
+    "subtema": "Hérnia discal L5-S1 e semiologia da raiz de S1",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "radiculopatia",
+      "hérnia de disco",
+      "reflexo aquileu",
+      "exame neurológico"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator pouco discriminativo, pois a hipopalestesia traduz acometimento de fibras proprioceptivas em polineuropatias, tema alheio ao raciocínio radicular avaliado.",
+    "problema_detectado": "As alternativas foram abreviadas e perderam a localização topográfica dos pododáctilos presente no comentário oficial, o que torna o distrator B ambíguo.",
+    "justificativas": {
+      "A": "Correta. O quadro é de hérnia discal L5-S1 com radiculopatia de S1, muito comum em trabalhadores braçais atendidos na atenção primária: dor lombar e glútea irradiada pela face posterior da coxa e panturrilha até a borda lateral e plantar do pé; a hiporreflexia aquileia é, muitas vezes, o único sinal objetivo dessa radiculopatia.",
+      "B": "Incorreta. A hipossensibilidade dolorosa restrita ao primeiro e ao segundo pododáctilos caracteriza a radiculopatia de L5, e não a de S1 sugerida pela irradiação posterior e pela parestesia na face lateral do pé.",
+      "C": "Incorreta. A hiperreflexia patelar indica lesão do neurônio motor superior; na compressão radicular lombossacra espera-se hiporreflexia, e o reflexo patelar depende das raízes L2 a L4.",
+      "D": "Incorreta. O sinal de Babinski também traduz lesão do neurônio motor superior, incompatível com radiculopatia compressiva; sua presença, tal como alteração esfincteriana, obrigaria a investigar mielopatia."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q054",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Micoses profundas",
+    "subtema": "Cromoblastomicose: agente etiológico e células muriformes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "cromoblastomicose",
+      "Fonsecaea pedrosoi",
+      "micose profunda",
+      "dermatologia tropical"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator implausível, já que a hanseníase cursa com lesões hipocrômicas ou infiltradas com alteração de sensibilidade, jamais com células muriformes ao micológico direto.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A placa hiperceratótica e verrucosa de evolução crônica em paciente da região Norte, com corpúsculos arredondados e pigmentados (células muriformes) ao exame micológico direto, define cromoblastomicose, micose profunda prevalente em clima tropical cujo principal agente etiológico é o Fonsecaea pedrosoi; nas formas limitadas, a excisão cirúrgica é o tratamento de escolha.",
+      "B": "Incorreta. A leishmaniose tegumentar americana produz tipicamente úlcera de bordas elevadas e fundo granuloso, com amastigotas intracelulares na pesquisa direta, e não células muriformes.",
+      "D": "Incorreta. A paracoccidioidomicose apresenta lesões ulcerocrostosas e estomatite moriforme, com leveduras multibrotantes em roda de leme ao exame direto, achado distinto do descrito.",
+      "E": "Incorreta. A esporotricose evolui com nódulo de inoculação e disseminação linfangítica ascendente, tendo exame direto habitualmente pobre e diagnóstico firmado por cultura."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q064",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipotireoidismo primário",
+    "subtema": "Manifestações clínicas e distúrbio do sódio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "hipotireoidismo",
+      "hiponatremia",
+      "mixedema",
+      "manifestações clínicas"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator pouco discriminativo, por descrever achado tegumentar genérico e inespecífico que não mobiliza raciocínio fisiopatológico.",
+    "problema_detectado": "O comando é negativo e impreciso (\"assinale a alternativa que não possui relação com o enunciado\"), destoando do padrão ENAMED de comando direto e afirmativo.",
+    "justificativas": {
+      "A": "Correta. É a alternativa sem relação com o hipotireoidismo primário: o esperado é hiponatremia decorrente da redução na depuração de água livre, e não hipernatremia por aumento dessa depuração.",
+      "B": "Incorreta. Alterações menstruais como oligomenorreia e amenorreia são manifestações clássicas do hipotireoidismo em mulheres, guardando relação direta com o enunciado.",
+      "D": "Incorreta. Fadiga, lentificação dos movimentos e da fala, intolerância ao frio e constipação compõem o quadro clínico típico da deficiência de hormônios tireoidianos.",
+      "E": "Incorreta. O mixedema resulta da infiltração cutânea por glicosaminoglicanos com retenção hídrica associada, sendo achado característico do hipotireoidismo."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q074",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infecções de pele e partes moles",
+    "subtema": "Diagnóstico diferencial entre erisipela e celulite",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "erisipela",
+      "celulite",
+      "piodermites",
+      "diagnóstico diferencial"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator pouco discriminativo, pois a baixa positividade das culturas é conhecimento periférico que não diferencia as duas entidades avaliadas.",
+    "problema_detectado": "A redação da alternativa correta inclui o tecido subcutâneo superficial na definição de erisipela, formulação imprecisa frente à descrição clássica de acometimento da derme e dos linfáticos superficiais.",
+    "justificativas": {
+      "A": "Correta. A erisipela compromete a derme e os vasos linfáticos superficiais, plano mais superficial, enquanto a celulite atinge o tecido subcutâneo profundo, o que lhe confere maior gravidade; ambas são frequentes em consultórios dermatológicos, clínicos e geriátricos, além de enfermarias e serviços de emergência.",
+      "B": "Incorreta. A descrição está invertida: é a erisipela que exibe bordas nítidas e elevadas com eritema vivo e bem delimitado, ao passo que na celulite os limites são imprecisos e o eritema, menos exuberante.",
+      "C": "Incorreta. A formação de bolhas não é exclusiva da erisipela; a celulite também pode evoluir com bolhas, abscessos e áreas de necrose cutânea nas formas mais graves.",
+      "E": "Incorreta. Septicemia, fasciíte, miosite e abscessos subcutâneos são complicações esperadas e temidas quando ambos os processos não recebem tratamento adequado, não podendo ser rotuladas como incomuns."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q084",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "COVID-19",
+    "subtema": "Condição pós-COVID-19 e sintomas persistentes",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "COVID longa",
+      "condição pós-COVID-19",
+      "sintomas persistentes",
+      "seguimento"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator conceitualmente duplicado em relação à alternativa B, pois ambos negam o impacto de um fator epidemiológico sobre a incidência de sintomas persistentes.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A COVID-19 é doença sistêmica de apresentação muito variada, e os sintomas que mais comumente persistem, exigindo maior esforço terapêutico, são tosse, fraqueza, dispneia, dor torácica e problemas cognitivos, ao passo que alopecia, tontura, alterações olfativas e mialgia ocorrem de forma menos persistente e tendem a desaparecer com a evolução temporal.",
+      "B": "Incorreta. A vacinação prévia contra a COVID-19 associa-se à redução da incidência e da intensidade das sequelas pós-agudas, além de atenuar a gravidade do episódio agudo.",
+      "C": "Incorreta. A trombose venosa profunda associada à COVID-19 recebe abordagem antitrombótica análoga à das demais etiologias, sem divergência terapêutica que justifique conduta distinta.",
+      "D": "Incorreta. A maior parte das sequelas pós-COVID-19 é de avaliação clínica, devendo os exames laboratoriais ser solicitados de forma dirigida a hipóteses específicas, e não de modo indiscriminado."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q007",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Doença pulmonar obstrutiva crônica",
+    "subtema": "Critério diagnóstico espirométrico segundo o GOLD",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "DPOC",
+      "espirometria",
+      "GOLD",
+      "tabagismo"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado grafa de modo inconsistente os parâmetros espirométricos, ora VEF, ora VEF1, o que dificulta a leitura dos dados funcionais.",
+    "justificativas": {
+      "A": "Correta. O diagnóstico de DPOC pelo GOLD 2026 requer obrigatoriamente a demonstração de limitação persistente do fluxo aéreo, definida por VEF1/CVF < 0,70 após broncodilatador, em paciente com sintomas respiratórios compatíveis e exposição a fator de risco relevante, como a carga tabágica de 40 maços-ano descrita.",
+      "B": "Incorreta. O valor do VEF1 serve para classificar a gravidade da obstrução, e não para estabelecer isoladamente o diagnóstico, que depende da relação VEF1/CVF pós-broncodilatador.",
+      "C": "Incorreta. Sintomas respiratórios crônicos e exposição tabágica isolados não confirmam DPOC sem comprovação funcional por espirometria, sob risco de sobrediagnóstico.",
+      "D": "Incorreta. Achados clínicos sugestivos de hiperinsuflação, como tórax em tonel e murmúrio vesicular reduzido, apoiam a suspeita, mas não substituem a confirmação objetiva da limitação ao fluxo aéreo."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q017",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Diabetes mellitus tipo 2",
+    "subtema": "Indicação de análogos de GLP-1 segundo a SBD 2025",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "diabetes tipo 2",
+      "análogos de GLP-1",
+      "risco cardiovascular",
+      "diretrizes SBD"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas grafam a hemoglobina glicada de forma inconsistente (HbA1 e HbA1C), prejudicando a padronização do item.",
+    "justificativas": {
+      "A": "Correta. As Diretrizes da Sociedade Brasileira de Diabetes de 2025 retiram da metformina a condição de primeira escolha obrigatória para todos e, em pacientes com risco cardiovascular alto ou muito alto, indicam de início fármacos com benefício cardiovascular comprovado, entre eles os agonistas do receptor de GLP-1 e os inibidores de SGLT2.",
+      "B": "Incorreta. A indicação dos análogos de GLP-1 não fica condicionada a um limiar de HbA1c acima de 7,5% em associação à metformina, pois a escolha é estratificada por risco cardiovascular, peso e metas individualizadas.",
+      "C": "Incorreta. Relegar o GLP-1 a terceira escolha contraria a recomendação atual; na presença de doença renal do diabetes, inibidores de SGLT2 e agonistas de GLP-1 são priorizados precocemente.",
+      "D": "Incorreta. Restringir o uso a HbA1c acima de 9% em pacientes com obesidade ignora o benefício cardiovascular e ponderal reconhecido dessa classe também em faixas glicêmicas inferiores."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q027",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Dislipidemias",
+    "subtema": "Colesterol não-HDL e risco aterosclerótico residual",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "colesterol não-HDL",
+      "hipertrigliceridemia",
+      "risco residual",
+      "síndrome metabólica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O colesterol não-HDL engloba todas as lipoproteínas aterogênicas contendo apolipoproteína B e, em cenários de hipertrigliceridemia e resistência à insulina, correlaciona-se melhor com eventos cardiovasculares do que o LDL-c isolado, sendo recomendado pelas diretrizes atuais como alvo terapêutico secundário após o alcance da meta de LDL-c.",
+      "B": "Incorreta. A fórmula de Friedewald perde acurácia com triglicerídeos elevados, subestimando o LDL-c justamente neste paciente com 420 mg/dL, o que explica o valor calculado aparentemente dentro da meta.",
+      "C": "Incorreta. O colesterol total isolado agrega a fração HDL, não aterogênica, e por isso não discrimina o risco residual nem serve de alvo terapêutico.",
+      "D": "Incorreta. O HDL-c isolado é marcador de risco, mas não constitui alvo de tratamento nem quantifica a carga de partículas aterogênicas circulantes."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q037",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Condição pós-COVID-19",
+    "subtema": "Abordagem clínica e reabilitação da COVID longa",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "COVID longa",
+      "fadiga pós-viral",
+      "reabilitação",
+      "cuidado centrado na pessoa"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A síndrome pós-COVID-19 tem fisiopatologia multifatorial, com desregulação imunológica, disfunção endotelial e alterações do sistema nervoso autônomo, não se limitando a um único sistema orgânico; a abordagem recomendada combina reabilitação progressiva e manejo sintomático, validando as queixas do paciente.",
+      "B": "Incorreta. Ressonância magnética cerebral e ecocardiograma com estresse não integram a abordagem inicial padrão na ausência de sinais de alarme, ficando reservados a casos selecionados.",
+      "C": "Incorreta. Não há evidência que sustente antibioticoterapia de amplo espectro para fadiga pós-viral, conduta que apenas expõe o paciente a efeitos adversos e a pressão seletiva de resistência.",
+      "D": "Incorreta. Embora o suporte psicológico seja importante, encaminhar diretamente à psiquiatria atribuindo os sintomas a somatização reduz a condição a causa puramente psicossomática e invalida as bases fisiopatológicas já conhecidas."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q047",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Distúrbios da hemostasia",
+    "subtema": "Sangramento mucocutâneo por trombocitopenia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "trombocitopenia",
+      "petéquias",
+      "gengivorragia",
+      "hemostasia primária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Petéquias, púrpuras, equimoses e sangramento de mucosas, como epistaxe espontânea e gengivorragia, traduzem defeito da hemostasia primária por trombocitopenia; a contagem normal varia de 150.000 a 350.000/mm³, havendo tendência hemorrágica abaixo de 50.000/mm³ e sangramento espontâneo com valores inferiores a 20.000/mm³.",
+      "B": "Incorreta. A coagulação intravascular disseminada é fenômeno secundário a condições graves, como sepse, neoplasia ou complicação obstétrica, ausentes nesta mulher previamente hígida, e cursa com consumo de fatores e sangramento difuso associado a trombose microvascular.",
+      "C": "Incorreta. A deficiência de fator VIII compromete a hemostasia secundária e manifesta-se por hemartroses e hematomas musculares profundos, tipicamente em homens, e não por púrpura petequial e sangramento de mucosas.",
+      "D": "Incorreta. A deficiência de vitamina K reduz os fatores II, VII, IX e X e costuma decorrer de colestase, má absorção ou uso de antagonistas, situações não referidas, alargando o tempo de protrombina em vez de produzir petéquias."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q057",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Infecções oportunistas no HIV/aids",
+    "subtema": "Histoplasmose disseminada grave: indução terapêutica e toxicidade",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "histoplasmose disseminada",
+      "HIV",
+      "anfotericina B lipossomal",
+      "nefrotoxicidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A anfotericina B lipossomal é o tratamento de primeira linha na fase de indução, por 1 a 2 semanas, da histoplasmose disseminada grave, sobretudo em pessoas vivendo com HIV e imunodepressão avançada, pela maior eficácia e melhor perfil de segurança que a formulação desoxicolato; exige monitorização da função renal e de distúrbios eletrolíticos, como hipocalemia e hipomagnesemia.",
+      "B": "Incorreta. O itraconazol tem papel na consolidação e na manutenção, e não na indução das formas graves; sua absorção errática e as interações pela via CYP3A4 com antirretrovirais limitam ainda mais o uso inicial.",
+      "C": "Incorreta. Embora a anfotericina B desoxicolato seja alternativa quando a formulação lipossomal é indisponível, a toxicidade citada está trocada: espera-se hipomagnesemia e acidose tubular renal, e não hipermagnesemia.",
+      "D": "Incorreta. O fluconazol tem atividade insuficiente contra o Histoplasma capsulatum e não constitui opção de indução; a posologia e os efeitos adversos descritos também não correspondem ao fármaco."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q067",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Distúrbios hidroeletrolíticos",
+    "subtema": "Hipercalemia grave com repercussão eletrocardiográfica na doença renal crônica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "hipercalemia",
+      "doença renal crônica",
+      "gluconato de cálcio",
+      "emergência clínica"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Os dados laboratoriais aparecem aglutinados no enunciado, sem separação clara entre os valores, o que prejudica a legibilidade do caso.",
+    "justificativas": {
+      "A": "Correta. Potássio de 6,6 mEq/L com ondas T apiculadas configura emergência médica e, conforme o KDIGO, o manejo segue três eixos: estabilização de membrana com gluconato de cálcio endovenoso, deslocamento intracelular do potássio com insulina regular associada a glicose, opcionalmente com beta-agonista, e remoção corporal do potássio, sendo o ciclossilicato de zircônio sódico a opção atualmente preferida às resinas antigas.",
+      "B": "Incorreta. A insulina NPH tem início de ação lento e imprevisível, sendo inadequada para a translocação rápida do potássio; nessa emergência a escolha é a insulina regular com glicose.",
+      "C": "Incorreta. Furosemida e hidratação vigorosa têm efeito lento e limitado na doença renal crônica estágio 4, e a hemodiálise, ainda que possa ser necessária, não substitui as medidas imediatas de estabilização de membrana.",
+      "D": "Incorreta. O bicarbonato isolado não trata adequadamente a hipercalemia, sobretudo com pH de 7,31, e a resina de poliestirenossulfonato tem ação tardia e risco de complicações gastrointestinais."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q077",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença pulmonar obstrutiva crônica",
+    "subtema": "Terapia inalatória no grupo E com eosinofilia (GOLD 2025)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_03"
+    ],
+    "tags": [
+      "DPOC",
+      "terapia tripla",
+      "eosinófilos",
+      "exacerbação"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A paciente enquadra-se no grupo E do GOLD 2025, com duas exacerbações no último ano, uma delas com internação, e eosinófilos de 340 células/µL; nesse cenário, acrescentar corticoide inalatório ao LABA e ao LAMA reduz comprovadamente exacerbações e mortalidade.",
+      "B": "Incorreta. A monoterapia com um único broncodilatador de longa ação é insuficiente diante de exacerbações frequentes e obstrução grave, com VEF1 de 44% do previsto.",
+      "C": "Incorreta. Broncodilatador de curta duração é medicação de resgate e o mucolítico tem papel apenas adjuvante em casos selecionados; nenhum deles constitui terapia de manutenção nesse perfil de risco.",
+      "D": "Incorreta. A dupla broncodilatação com LABA e LAMA seria adequada no grupo E com eosinófilos abaixo de 300 células/µL, mas a eosinofilia aqui presente indica a inclusão do corticoide inalatório."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q087",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertensão arterial sistêmica",
+    "subtema": "Tratamento farmacológico inicial no estágio 2",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "hipertensão estágio 2",
+      "terapia combinada",
+      "bloqueador de canal de cálcio",
+      "diurético tiazídico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Para pacientes em estágio 2 que permanecem fora da meta após mudanças no estilo de vida, as Diretrizes Brasileiras de Hipertensão recomendam iniciar terapia combinada de dois fármacos em doses baixas; em pessoas de etnia negra, a resposta aos bloqueadores dos canais de cálcio e aos diuréticos tiazídicos é superior à dos IECA e BRA em monoterapia.",
+      "B": "Incorreta. A monoterapia com IECA é insuficiente para a magnitude de redução pressórica necessária no estágio 2 e, nesta paciente negra, associa-se a menor resposta anti-hipertensiva.",
+      "C": "Incorreta. Os betabloqueadores não são mais primeira linha na hipertensão sem comorbidades específicas, como insuficiência cardíaca ou pós-infarto, e a condição de perimenopausa não constitui indicação.",
+      "D": "Incorreta. Clonidina e hidralazina são fármacos de linhas posteriores, com perfil desfavorável de efeitos adversos e de adesão, reservados a casos refratários e não ao tratamento inicial."
+    }
+  }
+]

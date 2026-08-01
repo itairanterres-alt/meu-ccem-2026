@@ -1653,6 +1653,3901 @@ Todas com `status_curadoria: pendente`. As justificativas foram redigidas por IA
 
 ---
 
+## Bancos institucionais (.docx)
+
+175 questões · convertidas 5→4: 87 · dependem de imagem: 0 · com defeito sinalizado: 79
+
+
+### 1. Hematologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 1*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher de 36 anos teve diagnóstico de trombose venosa profunda em membro inferior esquerdo há 1 mês, 1 semana após realizar uma cirurgia bariátrica. Está atualmente em uso de rivaroxabana. Nega outros problemas de saúde. Há 5 anos relata ter tido um episódio de aborto com 8 semanas de gestação. Qual a conduta adequada em relação à trombofilia?
+
+- **(A)** não realizar testes de trombofilia nesse momento, pois o uso da rivaroxabana pode deixar os resultados pouco confiáveis.  
+  <sub>Incorreta. Embora anticoagulantes interfiram em testes funcionais, a pesquisa do fator V de Leiden e da mutação do gene da protrombina não sofre influência da anticoagulação; o motivo para não investigar é o fator de risco transitório, não a rivaroxabana.</sub>
+
+- **(B)** ✅ não realizar testes de trombofilia, pois a trombose foi provocada por um fator de risco maior transitório.  
+  <sub>Correta. Os testes de trombofilia têm alto custo e devem ser solicitados de modo criterioso; a presença de fator de risco maior transitório — no caso, a cirurgia bariátrica uma semana antes do evento — explica integralmente a trombose e não indica a investigação.</sub>
+
+- **(C)** realizar os testes genéticos de mutação (fator V Leiden e protrombina), pois são confiáveis mesmo em anticoagulação.  
+  <sub>Incorreta. É verdade que os testes genéticos permanecem confiáveis durante a anticoagulação, mas a conduta correta é não solicitá-los, pois o episódio foi provocado por fator de risco maior transitório.</sub>
+
+- **(D)** programar a realização dos testes de trombofilia após 3 meses de anticoagulação para definição da sua duração.  
+  <sub>Incorreta. Quando indicada, a pesquisa pode ser feita na fase aguda ou após pelo menos 3 meses de anticoagulação; neste caso, porém, não há indicação de investigar em nenhum momento.</sub>
+
+**Alternativa descartada** — era a (C): *realizar testes de trombofilia devido ao episódio de aborto, considerando a necessidade de anticoagular no longo prazo*  
+Motivo: Distrator implausível, pois acumula duas premissas erradas (aborto único de 8 semanas como critério de investigação e indicação automática de anticoagulação prolongada), tornando-o facilmente descartável.
+
+<sub>Renumeração: B→A, A→B, D→C, E→D · gabarito A → B</sub>
+
+### 2. Hematologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 2*
+
+> **convertida 5→4**
+
+**Enunciado:** Homem de 68 anos comparece à consulta devido ao aparecimento de hematomas espontâneos há 2 semanas. Nega trauma, uso de medicamentos, outros sangramentos atuais ou episódios semelhantes anteriormente. Exames laboratoriais mostram plaquetas de 160.000/mm3, TAP de 11 s (VR 10-14s), INR 1 (VR 0,8-1,2), TTPA 56s (VR 22-40s). Dentre as afirmativas a seguir, qual descreve o melhor teste para investigação do caso e sua correta interpretação?
+
+- **(A)** dosagem do fator IX, pois a ausência da correção do TTPA seria compatível com hemofilia A adquirida.  
+  <sub>Incorreta. A dosagem do fator IX investiga a hemofilia B; a hemofilia A adquirida decorre de inibidor dirigido contra o fator VIII, e não contra o fator IX.</sub>
+
+- **(B)** dosagem do fator VII, pois a presença do resultado diminuído é compatível com hemofilia A adquirida.  
+  <sub>Incorreta. A deficiência de fator VII prolonga o TAP e não o TTPA, além de não ter relação com a hemofilia A adquirida, que envolve o fator VIII.</sub>
+
+- **(C)** ✅ teste da mistura, pois a não correção do TTPA pode indicar a presença de um inibidor de fator da coagulação.  
+  <sub>Correta. Diante de TTPA prolongado isolado (TAP/INR e plaquetas normais), o teste da mistura é o exame inicial de escolha: a correção do TTPA indica deficiência de fator, enquanto a não correção aponta a presença de um inibidor de fator da coagulação, hipótese compatível com hematomas espontâneos de início recente em idoso.</sub>
+
+- **(D)** dosagem do fator VIII, pois caso tenha um resultado diminuído pode indicar inibidor do fator VII da coagulação.  
+  <sub>Incorreta. Embora o fator VIII seja o alvo da hemofilia A adquirida, a redução da sua atividade indicaria inibidor do próprio fator VIII (e não do fator VII), e a investigação deve começar pelo teste da mistura, que diferencia deficiência de inibidor.</sub>
+
+**Alternativa descartada** — era a (E): *dosagem do fator VI, pois a ocorrência da correção do TTPA é compatível com a presença de anticoagulante lúpico*  
+Motivo: Alternativa implausível, pois cita a dosagem de um 'fator VI', que não existe na cascata da coagulação, permitindo eliminação imediata sem raciocínio clínico.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 3. Hipertensão arterial sistêmica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 3*
+
+> **convertida 5→4**
+
+**Enunciado:** Segundo as Diretrizes Brasileiras para Diagnóstico e Tratamento da Hipertensão Arterial publicada em 2020, utilizando a técnica de mensuração correta da pressão arterial sistólica (PAS) e pressão arterial diastólica (PAD), o diagnóstico da hipertensão arterial caracteriza-se por:
+
+- **(A)** PAS maior ou igual a 180 mmHg e/ou PAD maior ou igual a 120 mmHg (níveis muito elevados elevação da pressão arterial) em uma única ocasião.  
+  <sub>Incorreta. Valores ≥ 180/120 mmHg em medida única caracterizam elevação muito acentuada da pressão arterial (crise hipertensiva), e não o critério diagnóstico padrão, que depende de confirmação em duas ocasiões.</sub>
+
+- **(B)** PA sistólica (PAS) maior ou igual a 140 mmHg e/ou PAD maior ou igual a 90 mmHg, medida única mesmo com medicação anti-hipertensiva.  
+  <sub>Incorreta. Os valores de corte estão certos, mas a medida única não confirma o diagnóstico e a vigência de anti-hipertensivo descaracteriza a avaliação diagnóstica inicial.</sub>
+
+- **(C)** PAS maior ou igual a 140 mmHg e/ou PAD maior ou igual a 90 mmHg em pelo menos duas ocasiões diferentes, independente de medicação anti-hipertensiva.  
+  <sub>Incorreta. Reproduz os valores corretos e a exigência de duas ocasiões, porém erra ao afirmar independência do uso de medicação: o diagnóstico deve ser firmado na ausência de anti-hipertensivos.</sub>
+
+- **(D)** ✅ PAS maior ou igual a 140 mmHg e/ou PAD maior ou igual a 90 mmHg em pelo menos duas ocasiões diferentes, na ausência de medicação anti-hipertensiva.  
+  <sub>Correta. O diagnóstico de hipertensão arterial exige PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, com técnica de mensuração adequada, confirmadas em pelo menos duas ocasiões distintas e na ausência de medicação anti-hipertensiva.</sub>
+
+**Alternativa descartada** — era a (D): *PAS maior ou igual a 120 mmHg e/ou PAD maior ou igual a 80 mmHg, em pelo menos duas ocasiões diferentes, na presença de medicação anti-hipertensiva*  
+Motivo: Distrator implausível: adota limiares de 120/80 mmHg, que não caracterizam hipertensão, somados à exigência ilógica de uso concomitante de anti-hipertensivo.
+
+<sub>Renumeração: B→A, C→B, E→C, A→D · gabarito A → D</sub>
+
+### 4. Hipertensão arterial sistêmica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 4*
+
+> **convertida 5→4**
+
+**Enunciado:** Estudante de medicina em evento de conscientização sobre hipertensão arterial encontrou uma pressão arterial (PA) de 145 / 95 mmHg em uma mulher de 21 anos e a encaminhou ao Pronto Socorro para avaliação. Em relação ao diagnóstico de hipertensão arterial e a conduta, é CORRETO afirmar:
+
+- **(A)** a paciente deve ser considerada hipertensa e ser obrigatoriamente investigada, pois, pela idade provavelmente há causa secundária como fator desencadeante para hipertensão observada.  
+  <sub>Incorreta. Uma única aferição em ambiente de evento comunitário não permite rotular a paciente como hipertensa nem indicar investigação obrigatória de causa secundária; a confirmação diagnóstica em outra ocasião, com técnica padronizada, deve preceder qualquer propedêutica etiológica.</sub>
+
+- **(B)** ✅ a aferição de PA deve ser realizada novamente, seguindo as orientações propostas nas diretrizes Brasileiras de Hipertensão arterial, para que o diagnóstico de hipertensão seja confirmado.  
+  <sub>Correta. O diagnóstico de hipertensão arterial exige aferição da PA em duas ocasiões diferentes, seguindo a técnica preconizada pelas Diretrizes Brasileiras de Hipertensão Arterial: paciente sem bexiga cheia, sem exercício físico recente, sem ingestão de álcool, café ou alimentos e sem tabagismo nos 30 minutos anteriores, com três medidas separadas por 1 a 2 minutos, manguito adequado à circunferência do braço e registro da média das duas últimas leituras.</sub>
+
+- **(C)** a conduta do estudante foi correta pois a paciente encontrava-se em emergência hipertensiva e deve ser prontamente atendida e medicada para controlar a pressão arterial.  
+  <sub>Incorreta. PA de 145/95 mmHg em paciente assintomática não caracteriza emergência hipertensiva, que exige elevação pressórica acentuada com lesão aguda de órgão-alvo; o encaminhamento ao pronto-socorro e a medicação imediata são condutas desnecessárias e potencialmente iatrogênicas.</sub>
+
+- **(D)** o encontro de valores elevados numa nova aferição realizada por um profissional mais experiente no mesmo momento pode confirmar o diagnóstico de hipertensão arterial.  
+  <sub>Incorreta. Repetir a medida no mesmo momento, ainda que por profissional mais experiente, não substitui a exigência de avaliação em duas ocasiões diferentes; medidas adicionais na mesma visita servem apenas para refinar o valor da leitura, não para firmar o diagnóstico.</sub>
+
+**Alternativa descartada** — era a (E): *não é hipertensão arterial, pois para o diagnóstico a PA sistólica deve ser > 150mmHg e/ou PA diastólica > 100mmHg, em duas ocasiões diferentes independente do uso de medicamentos anti-hipertensivos*  
+Motivo: Distrator implausível, pois apresenta pontos de corte pressóricos inexistentes em qualquer diretriz, sendo eliminado de imediato por candidato minimamente preparado.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 5. Lesão renal aguda  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 5*
+
+> **convertida 5→4**
+
+**Enunciado:** Paciente de 100kg e 1,60m, internado na Unidade de Terapia Intensiva, evoluiu com piora do quadro geral, acompanhado de 100 ml de diurese nas últimas 12 horas. Podemos afirmar que:
+
+- **(A)** está indicado o uso imediato da hemodiálise pois o paciente encontra-se em insuficiência renal grave.  
+  <sub>Incorreta. A constatação de oligúria por critério KDIGO não indica, por si só, terapia de substituição renal imediata; a hemodiálise é reservada a complicações refratárias como hipercalemia grave, acidose metabólica refratária, hipervolemia sintomática ou uremia.</sub>
+
+- **(B)** o volume de diurese não é um bom marcador de insuficiência renal, devendo ser utilizado o valor da creatinina sérica.  
+  <sub>Incorreta. O volume de diurese é um dos dois critérios normatizados pelo KDIGO, ao lado da variação da creatinina em relação ao valor basal; o valor absoluto de creatinina ou ureia séricas não pode ser utilizado isoladamente como critério diagnóstico.</sub>
+
+- **(C)** o volume de diurese apresentado caracteriza o quadro como insuficiência renal aguda estágio 3.  
+  <sub>Incorreta. A oligúria menor que 0,5 mL/kg/h por 12 horas corresponde ao estágio 2 do KDIGO; o estágio 3 exigiria débito urinário abaixo de 0,3 mL/kg/h por 24 horas ou anúria por 12 horas.</sub>
+
+- **(D)** ✅ existe lesão renal aguda, pois o volume de diurese é menor que 0,5 ml/kg por hora nas últimas 12 horas.  
+  <sub>Correta. Segundo as diretrizes KDIGO, a redução do débito urinário para valores inferiores a 0,5 mL/kg/h por período de 12 horas é critério diagnóstico de lesão renal aguda; o paciente de 100 kg apresentou apenas 100 mL em 12 horas, ou seja, cerca de 0,08 mL/kg/h.</sub>
+
+**Alternativa descartada** — era a (E): *o IMC de 39 deste paciente indica o uso do clearance de creatinina para o diagnóstico de insuficiência renal*  
+Motivo: Distrator implausível, pois relaciona o IMC ao uso do clearance de creatinina, tema alheio aos critérios diagnósticos em discussão.
+
+<sub>Renumeração: B→A, C→B, D→C, A→D · gabarito A → D</sub>
+
+### 6. Nefrologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 6*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado apresenta inconsistência de concordância ao tratar os dois pacientes ('a creatinina de ambas'), o que pode confundir a leitura.
+
+**Enunciado:** Dois pacientes foram atendidos no pronto socorro com queixa de redução de volume urinário e “inchaço” nas pernas. O primeiro era um homem de 26 anos, previamente hígido sem doença pregressa que iniciou o quadro há 3 dias. A outra paciente de 79 anos já era hipertensa e diabética há muitos anos, com início do quadro há 4 dias. A creatinina de ambas apresentava o mesmo valor de 1,2mg/dl. Podemos afirmar que:
+
+- **(A)** os dois pacientes apresentam a mesma função renal, pois o valor de creatinina sérica igual pressupõe a mesma taxa de filtração glomerular.  
+  <sub>Incorreta. Creatininas séricas iguais não implicam a mesma taxa de filtração glomerular, pois a produção de creatinina depende de massa muscular, idade e sexo — 1,2 mg/dL representa filtração muito distinta em um homem jovem e em uma mulher de 79 anos.</sub>
+
+- **(B)** ✅ não há insuficiência renal aguda, pois não está descrita a variação de creatinina e volume urinário por período pré-determinado.  
+  <sub>Correta. Pelos critérios do KDIGO, o diagnóstico de injúria renal aguda exige variação da creatinina em relação ao valor basal ou débito urinário inferior a 0,5 mL/kg/h por período pré-determinado (6, 12 ou 24 horas); nenhum desses dados foi informado, de modo que não se pode afirmar IRA.</sub>
+
+- **(C)** a idosa tem menor função renal pelo antecedente de diabetes e hipertensão arterial, condições que pressupõe injúria renal crônica.  
+  <sub>Incorreta. Diabetes e hipertensão de longa data elevam o risco de doença renal crônica, mas o antecedente isolado não autoriza afirmar menor função renal sem estimativa da filtração glomerular ou conhecimento da creatinina basal.</sub>
+
+- **(D)** como os valores estão normais, pressupondo função renal normal, as queixas devem estar relacionadas a outras doenças.  
+  <sub>Incorreta. O valor absoluto de creatinina não deve ser usado isoladamente para presumir função renal normal nem para afastar lesão renal, especialmente em idosos com baixa massa muscular.</sub>
+
+**Alternativa descartada** — era a (C): *o homem jovem tem menor função renal, pois ele deveria ter uma creatinina muito mais baixa, por ser mais novo, do que a paciente idosa*  
+Motivo: Distrator implausível, pois inverte de forma grosseira a relação entre idade e creatinina, sendo facilmente eliminado mesmo por quem desconhece o conteúdo.
+
+<sub>Renumeração: B→A, A→B, D→C, E→D · gabarito A → B</sub>
+
+### 7. Infecções do trato urinário  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 7*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher de 83 anos, professora aposentada, menopausa com 55 anos de idade, com antecedente de hipertensão arterial em uso de losartana, refere vários tratamentos antibióticos por infecção urinária assintomática diagnosticada por urocultura positiva. Na investigação apresentava ultrassonografia de aparelho urinário normal, com resíduo pós-miccional de 25 ml. Trouxe nova urocultura com Klebsiella pneumoniae 107 sensível somente a Imipenem, Meropenem, Ertapenem e Amicacina, não sendo testado o antibiótico Fosfomicina. Está novamente assintomática. Qual a conduta adequada?
+
+- **(A)** Internação com carbapenêmico, possivelmente Ertapenem pela praticidade.  
+  <sub>Incorreta. A internação para uso de carbapenêmico expõe a paciente a riscos desnecessários, pois não há indicação de tratar bacteriúria assintomática — paradoxalmente, tratá-la aumenta o risco de infecção urinária sintomática subsequente.</sub>
+
+- **(B)** ✅ Não iniciar tratamento com antibiótico.  
+  <sub>Correta. Trata-se de bacteriúria assintomática, condição frequente em mulheres na pós-menopausa e cuja incidência aumenta com a idade, o diabetes mellitus e a atividade sexual; o tratamento não está indicado, exceto na gestação e antes de procedimentos urológicos invasivos.</sub>
+
+- **(C)** Tratar com Ertapenem ou Amicacina em regime ambulatorial.  
+  <sub>Incorreta. Tratar com ertapeném ou amicacina em regime ambulatorial mantém o erro de tratar bacteriúria assintomática, com pressão seletiva adicional e perda da flora bacteriana que atua de forma protetora contra germes mais agressivos.</sub>
+
+- **(D)** Tratar com Fosfomicina via oral em dose única em regime ambulatorial.  
+  <sub>Incorreta. Além de a fosfomicina não ter sido testada no antibiograma, nenhum antibiótico está indicado em paciente assintomática, com ultrassonografia normal e resíduo pós-miccional desprezível.</sub>
+
+**Alternativa descartada** — era a (C): *Internação com Amicacina 1 grama endovenoso 1 vez ao dia por 7 dias*  
+Motivo: Duplica a estratégia de internação já contemplada na alternativa B, acrescentando apenas troca de antibiótico e, portanto, pouco poder discriminativo.
+
+<sub>Renumeração: B→A, A→B, D→C, E→D · gabarito A → B</sub>
+
+### 8. Infecção do trato urinário  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 8*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado contém erro de digitação por repetição ('iniciou há três dias iniciou quadro').
+
+**Enunciado:** Mulher de 58 anos iniciou há três dias iniciou quadro de disúria e polaciúria, sem febre, dor lombar ou vômitos. Hoje foi colhido exame de rotina de urina que evidenciou aumento dos leucócitos e nitrito positivo e a urocultura está em andamento. Gesta 2 Para 2, com menopausa aos 52 anos. Desde os 55 anos apresenta, em média, quatro infecções urinárias por ano, semelhantes ao quadro atual. Paciente refere ter de duas a três relações sexuais por semana desde o casamento há 30 anos, porém, nos últimos anos passou a ter eventualmente dor na relação sexual e um pouco de secura vaginal. Qual a melhor opção de tratamento da infecção urinária atual e da infecção urinária de repetição?
+
+- **(A)** Ciprofloxacino via oral por de 12 em 12 horas 3 dias e Nitrofurantoína 100 mg via oral pós relação sexual por 1 ano.  
+  <sub>Incorreta. Quinolonas não são primeira linha para cistite não complicada devido à resistência bacteriana e ao perfil de eventos adversos, e a profilaxia pós-coital isolada não corrige a atrofia geniturinária que sustenta as recorrências nesta paciente menopausada.</sub>
+
+- **(B)** ✅ Fosfomicina Trometamol 5,631 gramas (grânulo) via oral dose única e Promestrieno 10 mg creme vaginal todos os dias por 20 dias e posteriormente 2 vezes por semana por 8 meses.  
+  <sub>Correta. Pela resistência bacteriana crescente, fosfomicina trometamol em dose única é opção de primeira linha no tratamento empírico da cistite não complicada da mulher, e o estrogênio vaginal (promestrieno) é a medida recomendada para prevenir ITU de repetição na mulher menopausada com atrofia geniturinária, sugerida aqui pela dispareunia e secura vaginal.</sub>
+
+- **(C)** Ciprofloxacino 500 mg via oral de 12 em 12 horas por 7 dias e profilaxia com Extrato de Cranberry via oral por 1 ano.  
+  <sub>Incorreta. Além de empregar ciprofloxacino por tempo desnecessariamente prolongado em cistite não complicada, propõe extrato de cranberry, que tem baixa eficácia comprovada na profilaxia de ITU de repetição em mulheres menopausadas.</sub>
+
+- **(D)** Cefalexina 500 mg via oral de 6 em 6 horas por 7 dias e Nitrofurantoína 100 mg via oral após relação sexual por 1 ano.  
+  <sub>Incorreta. A cefalexina por 7 dias não é o esquema empírico preferencial para cistite não complicada, e a profilaxia pós-coital com nitrofurantoína não contempla o tratamento da atrofia geniturinária, principal fator de recorrência no caso.</sub>
+
+**Alternativa descartada** — era a (E): *Cefalexina 500 mg via oral de 6 em 6 horas por 3 dias e profilaxia com Extrato de Cranberry via oral por 1 ano*  
+Motivo: Duplica o erro conceitual da alternativa C (profilaxia com cranberry) apenas variando a duração da cefalexina, sendo o distrator menos discriminativo.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 9. Pneumologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 9*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado carrega instrução editorial residual ('retirar a caixa alta das alternativas'), as alternativas estão em caixa alta e o comentário oficial referencia letras trocadas em relação às alternativas apresentadas.
+
+**Enunciado:** Homem de 50 anos teve “bronquite” logo ao nascer, na vida adulta, quando resfriado, apresentava tosse produtiva por alguns dias e sibilos durante a noite. Trabalha como maquinista de locomotiva a diesel, fazendo longos percursos. Apresenta queixa de dispneia progressiva de esforço (escala mMRC grau II) , tosse produtiva por vários dias quando contraiu um resfriado. Foi tabagista de cigarro de papel , totalizando 11 maços/ano. Exame físico do tórax normal. Radiografia de tórax com trama bronco vascular aumentada e discreta hiperinsuflação. Espirometria com VEF1 (volume expiratório forçado no primeiro segundo) de 70% do previsto e VEF1/CVF (volume expiratório forçado no primeiro segundo /capacidade vital forçada) de 80%. Considerando o quadro, a alternativa CORRETA é: (retirar a caixa alta das alternativas):
+
+- **(A)** ASMA com fenótipo alérgico, visto ter apresentado “bronquite” na infância, episódios de sibilos e obstrução à espirometria.  
+  <sub>Incorreta. Não há na história elementos consistentes de atopia, variabilidade dos sintomas ou resposta broncodilatadora significativa que sustentem asma com fenótipo alérgico.</sub>
+
+- **(B)** ✅ BRONQUITE CRÔNICA/ ENFISEMA sugerido pelos achados de anamnese, radiológicos e espirométricos.  
+  <sub>Correta. A anamnese com sintomas respiratórios desde a infância e tosse produtiva recorrente, a exposição ocupacional a gases de diesel, o tabagismo de 11 maços/ano e a radiografia com trama broncovascular aumentada e hiperinsuflação compõem o quadro de bronquite crônica/enfisema, ambos integrantes do espectro da DPOC.</sub>
+
+- **(C)** PRÉ-DPOC definida quando valores espirométricos não atingem no VEF1/CVF o limiar de < 70% do previsto.  
+  <sub>Incorreta. Conforme o comentário oficial, o rótulo pré-DPOC aplica-se ao paciente com sintomas respiratórios que ainda não preenche o critério espirométrico, não sendo a classificação atribuída pelo autor a este caso.</sub>
+
+- **(D)** BRONQUIECTASIA devido a bronquite na infância, a tosse produtiva e escarro e o aumento da trama broncovascular na radiografia de tórax.  
+  <sub>Incorreta. O diagnóstico de bronquiectasia exige demonstração tomográfica de dilatação brônquica irreversível; o simples aumento da trama broncovascular na radiografia não a caracteriza.</sub>
+
+**Alternativa descartada** — era a (C): *BRONQUIOLITE na infância não caracteriza ser fator de desenvolvimento de uma DPOC futura*  
+Motivo: Alternativa não paralela às demais, pois enuncia uma afirmação genérica sobre fator de risco em vez de propor uma hipótese diagnóstica, além de ser factualmente falsa e facilmente eliminável.
+
+<sub>Renumeração: B→A, A→B, D→C, E→D · gabarito A → B</sub>
+
+### 10. Pneumologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 10*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O comando pede a alternativa que 'melhor explica a história clínica', mas a chave descreve um achado esperado de teste funcional e não um mecanismo fisiopatológico, gerando ambiguidade com as demais opções.
+
+**Enunciado:** Josué, 44 anos, trabalha em um “e- commerce", em frente ao computador 8 horas dia. Saudável, sem uso de medicações. Para manter a forma física pratica corrida de rua com um grupo de seu bairro. Fumante ativo com 20 maços/ano. Percebeu nos últimos meses maior dificuldade para acompanhar seus pares na corrida. Sente mesmo, falta de ar nesta atividade. Escolha abaixo a resposta que melhor explica a história clínica de Josué
+
+- **(A)** ✅ O teste de caminhada de 6 minutos vai indicar uma redução da distância percorrida e uma leve dessaturação de oxigênio.  
+  <sub>Correta. Josué é fumante ativo com 20 maços/ano e refere queda recente do desempenho aeróbico com dispneia ao esforço, quadro compatível com limitação funcional incipiente relacionada ao tabagismo; nesse cenário, o teste de caminhada de 6 minutos tende a mostrar redução da distância percorrida e leve dessaturação de oxigênio, traduzindo objetivamente a limitação ao exercício.</sub>
+
+- **(B)** A destruição do parênquima aumenta a resistência do fluxo aéreo e a doença das pequenas vias aéreas reduz o recolhimento elástico dos pulmões.  
+  <sub>Incorreta. A afirmação inverte os mecanismos: é a destruição do parênquima (enfisema) que reduz o recolhimento elástico pulmonar, enquanto a doença das pequenas vias aéreas é que aumenta a resistência ao fluxo aéreo, alterando fluxos como o FEF 25-75%.</sub>
+
+- **(C)** Na espirometria encontramos uma relação VEF1/CVF abaixo de 70% do previsto e a gasometria com PaCO2 elevada.  
+  <sub>Incorreta. Embora a relação VEF1/CVF abaixo de 70% do previsto defina obstrução, não há espirometria descrita no caso para sustentar essa afirmação, e a PaCO2 elevada é achado de doença avançada, incompatível com um paciente que ainda pratica corrida de rua.</sub>
+
+- **(D)** Uma inflamação crônica que causa alterações estruturais nas vias aéreas e presença de exsudatos eosinofílicos intraluminais.  
+  <sub>Incorreta. Inflamação crônica com alterações estruturais das vias aéreas e exsudatos eosinofílicos intraluminais descreve a asma, hipótese que não é a mais provável diante de tabagismo ativo e dispneia progressiva aos esforços em adulto de 44 anos.</sub>
+
+**Alternativa descartada** — era a (E): *Um teste genético para deficiência de alfa-1 antitripsina deve ser solicitado e sua positividade caracteriza o DPOC*  
+Motivo: Distrator implausível e de baixo poder discriminativo, pois afirma que a positividade do teste genético para deficiência de alfa-1 antitripsina caracterizaria o DPOC, erro grosseiro que nenhum candidato preparado assinalaria.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 11. Oncologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 11*
+
+> **convertida 5→4**
+
+**Enunciado:** No acompanhamento de pacientes com câncer alguns marcadores tumorais podem ser úteis para avaliação de resposta ao tratamento proposto. Marque a alternativa que associa corretamente o tumor ao seu marcador:
+
+- **(A)** CA-125 – câncer de próstata.  
+  <sub>Incorreta. O CA-125 está associado ao câncer de ovário e a alguns linfomas, e não ao câncer de próstata, cujo marcador é o PSA.</sub>
+
+- **(B)** Alfa fetoproteína – mieloma múltiplo.  
+  <sub>Incorreta. A alfafetoproteína associa-se ao carcinoma hepatocelular e aos tumores gonadais de células germinativas, não ao mieloma múltiplo.</sub>
+
+- **(C)** Calcitonina – câncer de pulmão.  
+  <sub>Incorreta. A calcitonina é o marcador do carcinoma medular da tireoide, e não do câncer de pulmão.</sub>
+
+- **(D)** ✅ CA 19-9 – câncer de cólon.  
+  <sub>Correta. O CA 19-9 é o marcador utilizado nos tumores do trato gastrointestinal, incluindo o câncer de cólon e, sobretudo, o adenocarcinoma de pâncreas, sendo útil no acompanhamento da resposta terapêutica.</sub>
+
+**Alternativa descartada** — era a (E): *Imunoglobulina monoclonal – melanoma*  
+Motivo: Associação mais implausível do conjunto (imunoglobulina monoclonal e melanoma), sem qualquer sobreposição clínica que a torne discriminativa.
+
+<sub>Renumeração: B→A, C→B, D→C, A→D · gabarito A → D</sub>
+
+### 12. Reumatologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 12*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Enunciado com comando genérico ('É correto afirmar') e alternativas construídas por negações absolutas, o que favorece a eliminação por pistas formais em vez de raciocínio clínico.
+
+**Enunciado:** A Artrite Reumatóide (AR)é uma doença inflamatória sistêmica. É correto afirmar sobre a AR:
+
+- **(A)** ✅ As articulações inicialmente envolvidas são as das mãos e dos pés.  
+  <sub>Correta. A artrite reumatoide inicia-se tipicamente pelas pequenas articulações das mãos e dos pés (metacarpofalangeanas, interfalangeanas proximais e metatarsofalangeanas), de forma simétrica e aditiva.</sub>
+
+- **(B)** Os quadris e ombros são articulações envolvidas no início do processo.  
+  <sub>Incorreta. Quadris e ombros são articulações de acometimento tardio na artrite reumatoide, não fazendo parte do quadro inicial.</sub>
+
+- **(C)** A poliartrite periférica assimétrica é uma característica marcante da doença.  
+  <sub>Incorreta. A marca da doença é a poliartrite periférica simétrica; o padrão assimétrico sugere outras artropatias, como as espondiloartrites.</sub>
+
+- **(D)** Afeta com frequência a coluna torácica e lombar.  
+  <sub>Incorreta. A artrite reumatoide raramente afeta as colunas torácica e lombar; quando há acometimento axial, ele se concentra na coluna cervical alta (subluxação atlantoaxial).</sub>
+
+**Alternativa descartada** — era a (E): *É uma doença articular sem manifestações extra articulares*  
+Motivo: Afirmação absoluta e claramente falsa ('doença articular sem manifestações extra-articulares'), sendo o distrator menos discriminativo do conjunto.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 13. Asma  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 13*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Enunciado com erros de digitação e comando redigido em caixa alta ('MARQUE A RESPOSTA CORRETA'), fora do padrão editorial.
+
+**Enunciado:** No “Global Strategy for Asthma Management and Prevention-2022” encontramos fenótipos da asma . Eles identificam alguns aspectos clínicos e laboratoriais e terapêuticos da doença. MARQUE A RESPOSTA CORRETA
+
+- **(A)** “Asma alérgica”, fenótipo mais reconhecido, iniciado na infância, o escarro induzido é pauci granulocítico.  
+  <sub>Incorreta. A asma alérgica é de fato o fenótipo mais reconhecido e de início na infância, mas o escarro induzido é tipicamente eosinofílico, e não pauci-granulocítico como afirmado.</sub>
+
+- **(B)** ”Asma com limitação persistente do fluxo aéreo”, asma de início recente, relacionada ao remodelamento das vias aéreas.  
+  <sub>Incorreta. A asma com limitação persistente do fluxo aéreo caracteriza-se por doença de longa data, não de início recente, e nem sempre está relacionada ao remodelamento das vias aéreas.</sub>
+
+- **(C)** ✅ “Asma ocupacional,” particularmente em mulheres, deve ser identificada, relativamente refratária ao corticóide inalatório.  
+  <sub>Correta. A asma ocupacional é identificada com maior frequência em mulheres e apresenta-se relativamente refratária ao corticoide inalatório, exigindo o reconhecimento e o afastamento do agente sensibilizante no ambiente de trabalho.</sub>
+
+- **(D)** ”Asma não alérgica” não associada com alergia, a celularidade do escarro é histiocítica e tem boa resposta ao corticóide inalatório.  
+  <sub>Incorreta. Na asma não alérgica a celularidade do escarro pode ser neutrofílica, eosinofílica ou pauci-granulocítica — nunca histiocítica — e a resposta ao corticoide inalatório costuma ser menos favorável.</sub>
+
+**Alternativa descartada** — era a (E): *“Asma com obesidade” caracterizada por sintomas respiratórios severos e eosinofilia intensa no lavado broncoalveolar*  
+Motivo: Distrator implausível: o fenótipo de asma associada à obesidade cursa justamente com sintomas respiratórios proeminentes e pouca inflamação eosinofílica, tornando o erro evidente demais.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 14. Rinite alérgica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 14*
+
+> **convertida 5→4**
+
+**Enunciado:** Paciente adulto jovem procura seu consultório com a queixa paroxística que ocorre uma vez ao ano em agosto/setembro, de espirros, prurido, rinorreia e obstrução nasal leve que neste momento se iniciaram há dois dias. Seu sono e atividades diárias estão normais. Ao exame de rinoscopia anterior percebe-se hipertrofia de conchas nasais inferiores ++/4 com palidez mucosa nasal ++/4 associado a rinorreia hialina ++/4 sem outras alterações no exame físico. Baseado na história e exame físico, você percebe que está diante de uma doença nasal tipicamente classificada como hipersensibilidade tipo I de Gell-Coombs, ou seja, mediada por IgE. Pode-se afirmar que:
+
+- **(A)** alimentos são os principais desencadeantes de sintomas respiratórios.  
+  <sub>Incorreta. Os alimentos raramente desencadeiam sintomas respiratórios de forma isolada; quando surgem, costumam integrar quadros mais graves e sistêmicos, como a anafilaxia, e não o padrão sazonal descrito.</sub>
+
+- **(B)** ✅ anti-histamínicos via oral ou nasal são considerados fármacos de primeira linha.  
+  <sub>Correta. O caso corresponde a rinite alérgica intermitente leve pela classificação ARIA, com sintomas sazonais e sono e atividades diárias preservados, situação em que os anti-histamínicos de segunda geração, por via oral ou nasal, figuram como fármacos de primeira linha.</sub>
+
+- **(C)** a higiene ambiental tem papel secundário no tratamento.  
+  <sub>Incorreta. Segundo o ARIA, a higiene ambiental, com afastamento de alérgenos e irritantes, tem papel de destaque, e não secundário, integrando o tratamento junto à farmacoterapia.</sub>
+
+- **(D)** é rara a associação com asma, conjuntivite alérgica e rinossinusite aguda.  
+  <sub>Incorreta. A associação com outras condições é frequente: asma, conjuntivite alérgica, rinossinusite aguda e crônica, otite média com efusão, alterações do desenvolvimento craniofacial em respiradores bucais e apneia e hipopneia obstrutiva do sono.</sub>
+
+**Alternativa descartada** — era a (E): *o tratamento de escolha é a corticoterapia via oral*  
+Motivo: Distrator implausível, uma vez que corticoterapia oral jamais é tratamento de escolha em rinite intermitente leve, ficando restrita a exacerbações graves e por curto período.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 15. Vertigem  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 15*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado descreve nistagmo horizontal na manobra de Dix-Hallpike, ao passo que a VPPB de canal semicircular posterior cursa tipicamente com nistagmo vertical superior e torcional.
+
+**Enunciado:** Mulher de 37 anos iniciou vertigem há cerca de 2 dias. Segundo seu relato, a vertigem relaciona-se aos movimentos de virar a cabeça para os lados, sendo muito fugaz (menos de 1 minuto de duração), cessando com a cabeça parada. Durante o exame físico, na manobra de Dix-Hallpike ao lateralizar a cabeça para direita, observou-se, após latência de 5 segundos, nistagmo horizontal fatigável (parou após 15 segundos). Relatou episódio semelhante há cerca de 2 anos, quando também procurou atendimento médico. Sobre a situação clínica, assinale a correta
+
+- **(A)** O diagnóstico necessita videonistagmografia.  
+  <sub>Incorreta. O diagnóstico da VPPB é clínico, firmado pela história de episódios recorrentes e breves desencadeados por movimentos da cabeça e confirmado pelo nistagmo na manobra provocativa; a videonistagmografia costuma ser normal e só se indica quando se suspeita de outra doença vestibular.</sub>
+
+- **(B)** ✅ É comumente atribuída à otocônios no interior do canal semicircular.  
+  <sub>Correta. O quadro é de vertigem posicional paroxística benigna, atribuída ao deslocamento de otocônios para o interior do canal semicircular, o que explica a latência, a brevidade (menos de 1 minuto), a fatigabilidade e o desencadeamento pelo movimento cefálico.</sub>
+
+- **(C)** Devido ao caráter recorrente e persistente, indica-se betaistina em uso contínuo.  
+  <sub>Incorreta. O tratamento de escolha são as manobras de reposicionamento canalicular, e a maioria dos episódios não tratados remite espontaneamente em dias ou semanas; fármacos como a betaistina não são úteis para as crises breves da VPPB, muito menos em uso contínuo.</sub>
+
+- **(D)** Frequentemente há alteração auditiva associada.  
+  <sub>Incorreta. Na VPPB a perda auditiva e demais sintomas cocleares estão caracteristicamente ausentes; sua presença apontaria para outros diagnósticos, como doença de Ménière ou labirintite.</sub>
+
+**Alternativa descartada** — era a (B): *É uma forma rara de vertigem central*  
+Motivo: Distrator mais fraco por acumular dois erros evidentes na mesma frase (raridade e origem central), o que o torna implausível diante da manobra descrita.
+
+<sub>Renumeração: C→A, A→B, D→C, E→D · gabarito A → B</sub>
+
+### 16. Neurologia vascular  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 16*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado mantém uma instrução residual de elaboração ('avaliar valor e qualidade de uma imagem de tomografia') que não corresponde a nenhum estímulo apresentado ao estudante.
+
+**Enunciado:** Homem, 73 anos, com história de hipertensão arterial sistêmica e diabetes tipo 2, ambos há mais de 15 anos, refere uso irregular de losartana e metformina. Iniciou há 1 dia com quadro súbito de hemiplegia direita proporcionada e afasia motora. Familiar refere episódio semelhante há 2 meses, com melhora espontânea em 30 minutos. Nega tabagismo. Ao exame PA: 200/100 mmHg , FC: irregular (80-100 bpm) Sat O2: 96% (ar ambiente) e FR: 12 irpm. ECG: fibrilação atrial. TAC de crânio: área hipodensa fronto-temporo-parietal esquerda. Angiotomografia de carótidas e vertebrais: sem estenoses significativas. (avaliar valor e qualidade de uma imagem de tomografia) Qual a classificação etiológica do AVE-I (Toast) e o tratamento profilático adequado para após a alta hospitalar?
+
+- **(A)** Indeterminado. AAS + sinvastatina.  
+  <sub>Incorreta. A etiologia não é indeterminada, pois há fonte emboligênica definida pela fibrilação atrial; além disso, antiagregante com estatina não substitui a anticoagulação nesse contexto.</sub>
+
+- **(B)** Grandes artérias. AAS + clopidogrel.  
+  <sub>Incorreta. A angiotomografia não demonstrou estenoses significativas de carótidas e vertebrais, o que afasta o mecanismo de doença de grandes artérias, e a dupla antiagregação não é a profilaxia da cardioembolia.</sub>
+
+- **(C)** ✅ Cardioembólico. Anticoagulante oral.  
+  <sub>Correta. Síndrome de circulação anterior total (hemiplegia proporcionada com afasia motora) em paciente com fibrilação atrial e sem estenoses carotídeas significativas caracteriza AVE isquêmico cardioembólico pela classificação TOAST; com AIT prévio, hipertensão e diabetes (CHA2DS2-VASc = 5), a profilaxia secundária indicada após a alta é o anticoagulante oral.</sub>
+
+- **(D)** Cardioembólico. AAS + Clopidogrel.  
+  <sub>Incorreta. A classificação etiológica está correta, mas o tratamento não: na cardioembolia por fibrilação atrial com escore CHA2DS2-VASc elevado a profilaxia é a anticoagulação oral, e não a associação de AAS com clopidogrel.</sub>
+
+**Alternativa descartada** — era a (D): *Indeterminado. Anticoagulante oral*  
+Motivo: Distrator pouco discriminativo, por repetir a classificação 'indeterminado' já contemplada na alternativa B e associá-la ao tratamento correto.
+
+<sub>Renumeração: B→A, C→B, A→C, E→D · gabarito A → C</sub>
+
+### 17. Reumatologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 17*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado traz numeração residual da ficha de origem ('1)') e erros de digitação nas alternativas ('interfalangicas', 'distas').
+
+**Enunciado:** 1) A anamnese e exame físico são fundamentais na elaboração de hipóteses diagnósticas e indicação de investigação complementar nas doenças reumatológicas. Sobre os padrões de acometimento articular, analise os casos abaixo e assinale a alternativa correta:
+
+- **(A)** Carlos, 58 anos, mecânico, refere dor lombar há 10 anos, que piora no final do dia e alivia com o repouso. Por se tratar de dor lombar com características inflamatórias, devo solicitar ressonância magnética de sacroilíacas.  
+  <sub>Incorreta. Dor lombar de dez anos que piora ao final do dia e alivia com o repouso tem características mecânicas, e não inflamatórias, não justificando ressonância magnética de sacroilíacas.</sub>
+
+- **(B)** Lúcia, 32 anos, iniciou há 4 dias com mialgia e artralgia difusa, associado a edema em mãos, punhos, joelhos e pés. Conta que sentiu calafrios com febre aferida. Viajou recentemente ao nordeste brasileiro, nega vacinas recentes. Solicito fator reumatoide porque penso nas poliartrites agudas.  
+  <sub>Incorreta. O quadro descrito é de poliartrite aguda febril após viagem ao Nordeste, cuja principal etiologia é viral (arboviroses); o fator reumatoide não é o exame indicado nesse cenário.</sub>
+
+- **(C)** ✅ Cláudio, 18 anos, vem encaminhado da oftalmologia por quadro de olho vermelho recorrente. Há 4 meses com quadro de dor e edema em joelhos e tornozelo direito, que pioram pela manhã e melhoram com uso de anti-inflamatório. Devo investigar também alterações cutâneas, intestinais e atividade sexual porque pode-se tratar de oligoartrites crônicas.  
+  <sub>Correta. Olho vermelho recorrente (uveíte) associado a oligoartrite crônica de padrão inflamatório — pior pela manhã e responsiva a anti-inflamatório — sugere espondiloartrite, sendo necessário investigar psoríase, doença inflamatória intestinal e uretrites relacionadas à atividade sexual.</sub>
+
+- **(D)** Camila, 22 anos, há 2 dias iniciou com dor, edema, calor e hiperemia importantes em joelho direito, dificultando seu caminhar. Relata que se sente cansada e febril. Frente ao caso de monoartrite aguda é mandatório a dosagem de ácido úrico sérico.  
+  <sub>Incorreta. Monoartrite aguda de joelho com sinais flogísticos exuberantes e febre em paciente jovem é sugestiva de artrite séptica, sendo mandatória a artrocentese com análise do líquido sinovial, e não a dosagem de ácido úrico sérico.</sub>
+
+**Alternativa descartada** — era a (D): *Maria, 62 anos, queixa-se de dor nas mãos, principalmente nas interfalangicas proximais e distas associado a percepção que os dedos começaram a ficar mais grossos há anos e que sua mãe tem o mesmo problema. Tem dificuldade para escovar os dentes pela manhã, pois acorda com os dedos duros e isso melhora após 10 minutos. Solicito fator reumatoide porque penso em poliartrite inflamatória crônica*  
+Motivo: Repete o mesmo erro de conduta da alternativa C (solicitar fator reumatoide), configurando duplicata de raciocínio dentro do conjunto.
+
+<sub>Renumeração: B→A, C→B, A→C, E→D · gabarito A → C</sub>
+
+### 18. Asma  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 18*
+
+> **convertida 5→4**
+
+**Enunciado:** A asma é uma doença comum, afetando até cerca de 20% da população, e representa uma causa importante de morbimortalidade. Sobre essa doença, podemos afirmar que:
+
+- **(A)** é definida por sintomas respiratórios variáveis com limitação ao fluxo aéreo fixa.  
+  <sub>Incorreta. Na asma os sintomas respiratórios associam-se a limitação ao fluxo aéreo variável, e não fixa; a limitação fixa caracteriza outras obstruções crônicas.</sub>
+
+- **(B)** pode ser dividida em dois fenótipos, restritivo ou obstrutivo.  
+  <sub>Incorreta. A asma é sempre doença de padrão obstrutivo; a divisão fenotípica reconhecida é entre formas alérgicas e não alérgicas, não entre restritiva e obstrutiva.</sub>
+
+- **(C)** ✅ tem como manifestações clínicas mais comuns dispneia, tosse, sibilância e opressão torácica.  
+  <sub>Correta. Dispneia, tosse, sibilância e opressão torácica são as manifestações clínicas mais comuns da asma, apresentando-se de forma variável em intensidade e ao longo do tempo.</sub>
+
+- **(D)** é caracterizada por presença de resposta ao broncodilatador, pré-requisito para o diagnóstico nas diversas fases da doença.  
+  <sub>Incorreta. A resposta ao broncodilatador reforça o diagnóstico, mas não é pré-requisito obrigatório, podendo estar ausente quando a doença está controlada.</sub>
+
+**Alternativa descartada** — era a (E): *os sintomas respondem mal ao uso de corticoides inalatórios, sendo necessário o uso frequentes de broncodilatadores*  
+Motivo: Afirmação francamente implausível, pois a boa resposta ao corticoide inalatório é conhecimento elementar sobre asma e não gera atratividade como distrator.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 19. Pneumologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 19*
+
+> **convertida 5→4**
+
+**Enunciado:** A Doença Pulmonar Obstrutiva Crônica (DPOC) é caracterizada por sintomas respiratórios persistentes e limitação ao fluxo aéreo decorrentes da exposição significativa a partículas nocivas ou gases. Sobre a DPOC, podemos afirmar que:
+
+- **(A)** ✅ é caracterizada por relação VEF1/CVF pós-broncodilatador menor do que 0,70.  
+  <sub>Correta. O único critério espirométrico obrigatório para o diagnóstico de DPOC é a limitação fixa ao fluxo aéreo, definida pela relação VEF1/CVF pós-broncodilatador menor que 0,70.</sub>
+
+- **(B)** é uma doença rara, evitável e tratável.  
+  <sub>Incorreta. A DPOC é doença de alta prevalência na população, ainda que corretamente descrita como evitável e tratável.</sub>
+
+- **(C)** tem como principal fator de risco a exposição à fumaça do cigarro, acometendo a maioria dos tabagistas.  
+  <sub>Incorreta. A fumaça do cigarro é de fato o principal fator de risco, mas menos de 50% dos tabagistas pesados desenvolvem a doença.</sub>
+
+- **(D)** tem como critério diagnóstico fundamental a ausência de resposta ao broncodilatador.  
+  <sub>Incorreta. A ausência de resposta ao broncodilatador não é critério diagnóstico; o que define a doença é a persistência da relação VEF1/CVF abaixo de 0,70 após o broncodilatador.</sub>
+
+**Alternativa descartada** — era a (E): *deve ser tratada com imunossupressores e, se necessário, corticoides inalatórios*  
+Motivo: Alternativa implausível, pois imunossupressores não integram o tratamento da DPOC, sendo eliminada de imediato e contribuindo pouco para a discriminação do item.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 20. Pneumologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 20*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado traz anotações editoriais não removidas ('colocar legendas das siglas', 'verificar unidades') e apresenta a tabela espirométrica em texto corrido, prejudicando a leitura dos dados.
+
+**Caso:** Paciente de 58 anos, sexo feminino, refere tosse produtiva com expectoração, porém mais abundante pela manhã, há 4 anos. Associado refere dispneia com piora progressiva, e atualmente, não consegue lavar pratos, sem se sentir cansada. Acorda, em média, 2x por semana à noite com falta de ar. Usa salbutamol todos os dias, para alívio dos sintomas diurnos. Relato de vários episódios de chiado e dispneia importantes nos últimos 5 meses, necessitando usar prednisona por 7 dias, em 4 ocasiões. Nega tabagismo. Relata ter crescido na zona rural, teve contato com mofo e fogão à lenha por 45 anos. Marido tabagista 100 a/m. Exame físico com sinais vitais normais, ausculta pulmonar com sibilos em bases, diminuição de murmúrios. Demais parâmetros normais. Pré-BD Pós-BD Previsto LIN CVF 3,50 (91%) 3,60 (93%) 3,84 3,30 VEF1 1,50 (50%) 1,55 (52%) 3,00 2,40 VEF1/CVF 0,42 0,43 0,78 0,70 (colocar legendas das siglas) RX de tórax normal Hemograma: Leucócitos 7.500/mm3 (VRl 4400-11000) Eosinófilos 150/mm3 (2%) (VRl 2-5%) Hemoglobina 19g/dL (VRl 13-18) Plaquetas 320.000/mm3 (VRl 150.000-450.00).
+
+**Enunciado:** Prick test negativo.(verifiar unidades) Qual o diagnóstico?
+
+- **(A)** ✅ DPOC GOLD E.  
+  <sub>Correta. História compatível, fator de risco relevante (fogão à lenha e mofo por 45 anos), ausculta com sibilos e redução de murmúrio, espirometria com distúrbio ventilatório obstrutivo (VEF1/CVF 0,42, abaixo do LIN) sem resposta ao broncodilatador; paciente muito sintomática e com 4 exacerbações tratadas com prednisona nos últimos 12 meses, o que a classifica como GOLD E na classificação atual.</sub>
+
+- **(B)** Asma não controlada.  
+  <sub>Incorreta. Apesar dos sintomas noturnos e do uso diário de salbutamol, a obstrução é fixa (sem resposta ao broncodilatador), o prick test é negativo e os eosinófilos estão normais, o que afasta asma como diagnóstico principal e aponta para DPOC por exposição à biomassa.</sub>
+
+- **(C)** DPOC GOLD D.  
+  <sub>Incorreta. A classificação GOLD deixou de utilizar os grupos C e D; desde a atualização de 2023 os pacientes com exacerbações frequentes são agrupados na categoria E, tornando 'GOLD D' uma nomenclatura desatualizada.</sub>
+
+- **(D)** ACO (Overlap de asma e DPOC).  
+  <sub>Incorreta. O diagnóstico de sobreposição asma-DPOC exigiria evidência de componente asmático, como resposta significativa ao broncodilatador, atopia ou eosinofilia, elementos ausentes neste caso (prick test negativo, eosinófilos 150/mm3, prova broncodilatadora negativa).</sub>
+
+**Alternativa descartada** — era a (E): *Asma parcialmente controlada*  
+Motivo: Distrator mais fraco por duplicar a família de respostas de 'asma' já representada pela alternativa B e por ser eliminado de imediato, já que a paciente é evidentemente sintomática e exacerbadora, jamais 'parcialmente controlada'.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 21. Hematologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 21*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A vinheta não informa a contagem de reticulócitos nem o VCM do paciente, de modo que o caso clínico é apenas decorativo e a questão se resolve exclusivamente por conhecimento teórico.
+
+**Enunciado:** Paciente vem a consulta com queixa de astenia. Ao exame apresenta dados vitais dentro da normalidade. Exame das mucosas revelou intensa palidez e restante do exame físico sem alterações. O hemograma revelou redução do número de hemácias, redução do hematócrito e redução da hemoglobina. Sobre as hipóteses diagnósticas, assinale a alternativa correta
+
+- **(A)** Reticulocitopenia sugere origem microangiopática.  
+  <sub>Incorreta. As anemias microangiopáticas são hemolíticas e cursam com reticulocitose, e não com reticulocitopenia.</sub>
+
+- **(B)** Reticulocitopenia com VCM baixo sugere deficiência de Vit B12.  
+  <sub>Incorreta. A inversão está no VCM: nas anemias hiporregenerativas, o VCM baixo aponta para ferropenia ou talassemia, enquanto a deficiência de vitamina B12 cursa com VCM elevado.</sub>
+
+- **(C)** Reticulocitose sugere anemia aplástica ou mielodisplasia.  
+  <sub>Incorreta. Anemia aplástica e síndromes mielodisplásicas são causas de falência medular e cursam com reticulocitopenia, não com reticulocitose.</sub>
+
+- **(D)** ✅ Reticulocitose sugere sangramento agudo ou hemólise.  
+  <sub>Correta. A elevação dos reticulócitos indica medula óssea responsiva, com aumento da destruição ou perda de eritrócitos, como ocorre nos processos hemolíticos e no sangramento agudo.</sub>
+
+**Alternativa descartada** — era a (C): *Reticulocitopenia com VCM alto sugere ferropenia*  
+Motivo: Duplicata estrutural invertida da alternativa D (ambas trocam VCM alto/baixo entre ferropenia e deficiência de B12), sendo redundante mantê-las juntas.
+
+<sub>Renumeração: B→A, D→B, E→C, A→D · gabarito A → D</sub>
+
+### 22. Oncologia clínica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 22*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado traz, ao final, um trecho residual de anotação editorial ('Frequencia, falta de diagnóstico mais preciso') que não pertence ao caso clínico.
+
+**Enunciado:** Mulher de 54 anos, portadora de câncer gástrico, encontra-se em tratamento quimioterápico, com uso de cateter venoso central. Apresenta também grande dificuldade de mobilidade, pela desnutrição. Essa paciente evoluiu com quadro súbito de dispneia, com franca dificuldade respiratória. Qual a causa deste distúrbio agudo? Frequencia, falta de diagnóstico mais preciso
+
+- **(A)** Metástases para pulmão, principal sítio de implantes neoplásicos no câncer gástrico.  
+  <sub>Incorreta. O sítio metastático mais comum do câncer gástrico é o fígado, e as metástases pulmonares produzem dispneia de instalação progressiva, e não súbita.</sub>
+
+- **(B)** Síndrome da veia cava superior, complicação comum da quimioterapia para câncer gástrico.  
+  <sub>Incorreta. A síndrome da veia cava superior cursa com dispneia associada a edema de face e pescoço e circulação colateral, sendo mais frequente em câncer de pulmão e linfomas, não sendo complicação habitual da quimioterapia para câncer gástrico.</sub>
+
+- **(C)** Neutropenia febril, devido ao tratamento quimioterápico.  
+  <sub>Incorreta. A neutropenia febril define-se por febre aferida com neutrófilos abaixo de 500-1.000/mm³ sem foco definido, e não se manifesta como dispneia súbita isolada, ausente qualquer relato de febre no caso.</sub>
+
+- **(D)** ✅ Tromboembolismo venoso, tendo em visto os fatores de comorbidade.  
+  <sub>Correta. O tromboembolismo venoso é uma das principais causas de morbimortalidade em pacientes oncológicos e reúne, neste caso, todos os fatores de risco descritos: estado de hipercoagulabilidade da neoplasia, imobilidade por desnutrição, cateter venoso central e quimioterapia, justificando a dispneia de início súbito.</sub>
+
+**Alternativa descartada** — era a (D): *Hipercalcemia secundária a hipoalbuminemia e síndrome paraneoplásica, que podem levar ao quadro clínico descrito*  
+Motivo: Distrator implausível por erro conceitual explícito, já que a hipoalbuminemia reduz o cálcio total e não causa hipercalcemia, além de a hipercalcemia não cursar com dispneia súbita.
+
+<sub>Renumeração: B→A, C→B, E→C, A→D · gabarito A → D</sub>
+
+### 23. Osteoartrite  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 23*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher com 50 anos, com queixa de dor em joelhos bilateral, com início há 6 meses e piora progressiva. A dor é mais intensa no início dos movimentos e piora com esforço. Associado a dor tem rigidez articular menor que 10 minutos. Ao exame físico observa-se peso de 67kg e altura de 1,45m, nódulos de Heberden e crepitação em joelhos bilateral. Baseado no quadro acima, qual dos tratamentos abaixo é capaz de impedir a progressão da doença articular?
+
+- **(A)** Uso de AINES nas crises de dor.  
+  <sub>Incorreta. Os AINEs nas crises de dor promovem apenas alívio sintomático, sem qualquer efeito sobre a progressão estrutural da osteoartrite.</sub>
+
+- **(B)** Uso de analgésico simples contínuo.  
+  <sub>Incorreta. O analgésico simples contínuo atua exclusivamente sobre a dor, não interferindo na degradação da cartilagem nem na evolução da doença.</sub>
+
+- **(C)** Infiltração intra-articular com corticosteróide.  
+  <sub>Incorreta. A infiltração intra-articular com corticosteroide tem ação anti-inflamatória local e alívio sintomático transitório, sem efeito modificador de doença.</sub>
+
+- **(D)** ✅ Adotar medidas para redução de peso.  
+  <sub>Correta. O quadro é de osteoartrite (dor protocinética, rigidez inferior a 30 minutos, crepitação e nódulos de Heberden) em paciente com obesidade; a redução de peso é a única medida capaz de impedir a progressão da doença articular.</sub>
+
+**Alternativa descartada** — era a (D): *Suplementação com colágeno oral*  
+Motivo: Distrator pouco discriminativo: a suplementação de colágeno oral não tem respaldo em diretrizes e é eliminada de imediato pelo estudante.
+
+<sub>Renumeração: B→A, C→B, E→C, A→D · gabarito A → D</sub>
+
+### 24. Câncer de próstata  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 24*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Item de recordação de percentual numérico exato, com baixo poder discriminativo e escassa transferência para o raciocínio clínico.
+
+**Enunciado:** Homem de 76 anos, com diagnóstico de câncer de próstata bem diferenciado, colocado em conduta expectante por possuir uma expectativa de vida aproximadamente de 10 anos ou menos, com PSA abaixo de 10 no diagnóstico inicial, tem uma chance de desenvolver metástase nos primeiros 10 anos da conduta expectante de aproximadamente de:
+
+- **(A)** ✅ 20%.  
+  <sub>Correta. Homens com câncer de próstata bem diferenciado nos estágios T1 e T2 tratados de modo conservador apresentam risco de metástase em 10 anos de aproximadamente 19%, valor arredondado para 20% na casuística de Chodak e colaboradores.</sub>
+
+- **(B)** 5%.  
+  <sub>Incorreta. O valor de 5% subestima o risco descrito na literatura para o seguimento conservador por 10 anos, ainda que se trate de tumor bem diferenciado com PSA inferior a 10 ng/mL.</sub>
+
+- **(C)** 50%.  
+  <sub>Incorreta. Risco de 50% em 10 anos corresponderia a tumores pouco diferenciados e de alto risco, e não ao perfil bem diferenciado descrito no enunciado.</sub>
+
+- **(D)** 10%.  
+  <sub>Incorreta. O percentual de 10% aproxima-se da metade do risco efetivamente observado nas séries de conduta expectante para esse grupo prognóstico.</sub>
+
+**Alternativa descartada** — era a (D): *75%*  
+Motivo: Distrator implausível por superestimar grosseiramente o risco em tumor bem diferenciado de baixo risco, sendo descartado sem esforço de raciocínio.
+
+<sub>Renumeração: A→A, B→B, C→C, E→D · gabarito A → A</sub>
+
+### 25. COVID-19  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 25*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O conteúdo é datado ao contexto pandêmico de 2022 (variante Ômicron), exigindo revisão de atualidade antes do reaproveitamento.
+
+**Enunciado:** A infecção pelo SARS- CoV-2 causou milhões de óbitos no mundo desde dezembro de 2019, sendo considerada uma emergência de saúde pública global. Sobre o SARS – CoV-2 assinale a alternativa verdadeira:
+
+- **(A)** Pessoas infectadas que estão sem sintomas não são transmissoras, porque possuem uma baixa carga viral.  
+  <sub>Incorreta. A transmissão ocorre no período pré-sintomático, a partir de cerca de 48 horas antes do início dos sintomas, e também por pessoas que permanecem assintomáticas, pois a carga viral em vias aéreas pode ser elevada mesmo sem sintomas.</sub>
+
+- **(B)** ✅ Embora o período entre a exposição ao vírus e o início dos sintomas seja em média 5 a 6 dias, as manifestações clínicas podem ocorrer do primeiro dia até o 14º dia após a exposição.  
+  <sub>Correta. O período médio entre a exposição ao SARS-CoV-2 e o início dos sintomas é de 5 a 6 dias, mas as manifestações clínicas podem surgir desde o primeiro até o 14º dia após a exposição, intervalo que fundamenta os prazos de quarentena.</sub>
+
+- **(C)** As novas variantes de preocupação do vírus (VOC), em especial a variante Ômicron, possuem uma menor transmissibilidade, mas são relacionadas a quadros clínicos mais graves.  
+  <sub>Incorreta. A variante Ômicron associou-se a maior transmissibilidade e a predomínio de sintomas de vias aéreas superiores, com menor taxa de hospitalização, e não a menor transmissibilidade com quadros mais graves.</sub>
+
+- **(D)** Pessoas vacinadas podem se infectar, mas costumam evoluir com sintomas mais leves e não possuem capacidade de transmissão do vírus, por apresentarem carga viral mais baixa.  
+  <sub>Incorreta. A vacinação reduz o risco de infecção e, sobretudo, de evolução para formas graves, mas pessoas vacinadas podem se infectar, adoecer e transmitir o vírus.</sub>
+
+**Alternativa descartada** — era a (E): *Embora possa ocorrer, a reinfecção pelo vírus é um fenômeno raro e geralmente associado a quadro clínico leve. Por esse motivo não há benefício na vacinação de pessoas que já apresentaram infecção comprovada, exceto imunodeprimidos*  
+Motivo: Alternativa composta e muito mais longa que as demais, o que quebra o paralelismo e fornece pista formal ao candidato.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 26. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 26*
+
+> **convertida 5→4**
+
+**Enunciado:** Homem de 27 anos comparece para consulta devido a diagnóstico recente de tuberculose em seu irmão. Assintomático com exame físico normal. Na investigação diagnóstica, RX tórax normal e PPD de doze milímetros. A conduta recomendada é:
+
+- **(A)** tratar a tuberculose com esquema RIPE.  
+  <sub>Incorreta. O esquema RIPE destina-se à tuberculose ativa; o paciente é assintomático e tem radiografia de tórax normal, não preenchendo critérios de doença.</sub>
+
+- **(B)** ✅ tratar a infecção latente pelo Mycobacterium tuberculosis.  
+  <sub>Correta. Contato domiciliar assintomático, com radiografia de tórax normal e prova tuberculínica de 12 mm (≥ 10 mm), caracteriza infecção latente pelo Mycobacterium tuberculosis, cuja conduta é o tratamento da ILTB para evitar a reativação da doença.</sub>
+
+- **(C)** coletar exame de escarro.  
+  <sub>Incorreta. A pesquisa de bacilo no escarro só se justifica diante de suspeita de tuberculose pulmonar ativa, o que não ocorre em paciente assintomático com exame físico e radiografia normais.</sub>
+
+- **(D)** fazer o IGRA para confirmar o PPD.  
+  <sub>Incorreta. O IGRA é método alternativo ao PPD, e não teste confirmatório; com prova tuberculínica já positiva e indicação definida, exames adicionais apenas retardariam o tratamento.</sub>
+
+**Alternativa descartada** — era a (D): *fazer novo RX de tórax caso tenha sintomas*  
+Motivo: Distrator implausível, pois propõe conduta expectante que contraria frontalmente a indicação já estabelecida de tratamento da infecção latente.
+
+<sub>Renumeração: B→A, A→B, C→C, E→D · gabarito A → B</sub>
+
+### 27. Doença pulmonar obstrutiva crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 27*
+
+> **convertida 5→4**
+
+**Enunciado:** De acordo com a nova diretriz do “GOLD” 2023 para DPOC, qual alternativa abaixo engloba as melhores alternativas terapêuticas para tratamento de pacientes portadores de DPOC do grupo “B”
+
+- **(A)** Inibidor da fosfodiesterase 4 oral e beta agonista de longa ação inalatório.  
+  <sub>Incorreta. O inibidor da fosfodiesterase-4 é reservado a pacientes exacerbadores com bronquite crônica e obstrução acentuada, não compondo o esquema inicial do grupo B.</sub>
+
+- **(B)** Inibidor da fosfodiesterase 4 oral, corticoide inalatório, beta agonista de longa ação via inalatória , antagonista muscarínico de longa ação via inalatória.  
+  <sub>Incorreta. Esquema quádruplo com inibidor da fosfodiesterase-4 e corticoide inalatório é desproporcional para o grupo B, no qual, por não haver exacerbações, o corticoide inalatório não está indicado.</sub>
+
+- **(C)** ✅ Beta agonista de longa ação inalatório e antagonista muscarínico de longa ação inalatório.  
+  <sub>Correta. Conforme o GOLD 2023, o paciente do grupo B (sintomático e não exacerbador) tem como terapia inicial recomendada a dupla broncodilatação, com beta-agonista de longa ação associado a antimuscarínico de longa ação.</sub>
+
+- **(D)** Antagonista muscarínico de longa ação inalatório e beta agonista de longa ação inalatório e corticosteróide inalatório.  
+  <sub>Incorreta. A terapia tripla com corticoide inalatório destina-se a exacerbadores, especialmente com eosinofilia; em pacientes não exacerbadores basta a associação LABA + LAMA.</sub>
+
+**Alternativa descartada** — era a (B): *Xantina oral e antagonista muscarínico de longa ação inalatório*  
+Motivo: A xantina oral é opção obsoleta e não figura em nenhum braço terapêutico do GOLD para o grupo B, tornando o distrator implausível.
+
+<sub>Renumeração: C→A, D→B, A→C, E→D · gabarito A → C</sub>
+
+### 28. Ventilação mecânica  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 28*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Enunciado com formatação e pontuação irregulares e uso da forma negativa 'exceto', que reduz a clareza do comando.
+
+**Enunciado:** Um paciente em insuficiência respiratória aguda onde se detecta presença de Síndrome do Desconforto Respiratório Agudo , em ventilação mecânica , ao aumentarmos a Pressão Positiva Expiratória Final “PEEP” , de 5 cm H20 considerada fisiológica para 15 cm de H2O, teremos então os seguintes efeitos exceto:
+
+- **(A)** Redução do “shunt”.  
+  <sub>Incorreta. A redução do shunt intrapulmonar é efeito esperado da PEEP, decorrente do recrutamento de unidades alveolares colapsadas e da melhora da relação ventilação-perfusão.</sub>
+
+- **(B)** ✅ Aumento do edema alveolar.  
+  <sub>Correta. O aumento da PEEP promove recrutamento e redistribuição do líquido alveolar, não elevando o edema alveolar; portanto é o único efeito não esperado entre os listados.</sub>
+
+- **(C)** Aumento do espaço morto fisiológico.  
+  <sub>Incorreta. O aumento do espaço morto fisiológico ocorre de fato com PEEP elevada, por hiperdistensão de alvéolos ventilados com perfusão comprometida.</sub>
+
+- **(D)** Redução do retorno venoso ao tórax.  
+  <sub>Incorreta. A redução do retorno venoso ao tórax é efeito hemodinâmico clássico da PEEP elevada, pelo aumento da pressão intratorácica média.</sub>
+
+**Alternativa descartada** — era a (B): *Aumento da capacidade residual funcional*  
+Motivo: O aumento da capacidade residual funcional é o efeito mais óbvio e imediatamente reconhecível da PEEP, funcionando como distrator de baixo poder discriminativo.
+
+<sub>Renumeração: C→A, A→B, D→C, E→D · gabarito A → B</sub>
+
+### 29. Infectologia na emergência  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 29*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A alternativa E está incompleta e com erro de digitação ('INtroduzir ceftriaxona') e o comentário oficial discute um item 'e' de conteúdo diverso do apresentado.
+
+**Caso:** A.A., 69 anos, mulher, é trazida à emergência devido à "sonolência e febre” pelo cuidador do asilo onde reside há três anos. Hipertensa e diabética, sob controle com Captopril e Metformina. Nunca foi internada ou submetida a cirurgias e não há relato de uso de antibioticoterapia recente. Seu quadro vacinal está atrasado, sendo suas últimas vacinas contra pneumonia e gripe em 2018. Nos últimos 3 dias ela encontrava-se sonolenta e confusa, reclamando de uma dor de cabeça que “nunca havia apresentado antes”. Hoje apresentou temperatura de 38ºC aferida na instituição e um vômito não precedido por náusea. Acompanhante não sabe acrescentar nenhuma outra informação. Ao exame físico, a Escala de Coma de Glasgow é de 12 pontos (Abertura Ocular 3 pontos, Resposta Verbal 4 pontos, Resposta Motora 5 pontos). Nervos cranianos, normais. Exames de cabeça e pescoço demonstram rigidez de nuca com Brudzinski positivo. Sem nenhuma outra alteração no exame físico. Na admissão, os sinais vitais estavam estáveis, com uma glicemia de 120mg/dL. Foi levada a um quarto de isolamento respiratório para gotículas e feito Dexametasona. Sua Tomografia de Crânio de entrada estava normal, exames laboratoriais pendentes e o líquido cefalorraquidiano (líquor) retornou com o seguinte resultado: Celularidade 1700 (predomínio de neutrófilos: 90%), 5 hemácias, Lactato elevado, proteínas totais: 120mg/dL, glicose de 20mg/dL, Tinta da china (Látex) negativo. Culturas e sorologias pendentes.
+
+**Enunciado:** Avalie o caso e ASSINALE a alternativa que representa a melhor conduta a ser tomada para a paciente
+
+- **(A)** Provavelmente o caso em questão é uma meningoencefalite herpética, considerando a alteração do nível de consciência e as características do líquor, sendo necessária a suspensão da ceftriaxona e introdução de aciclovir. introduzir aciclovir.  
+  <sub>Incorreta. As características do líquor apontam infecção bacteriana e não meningoencefalite herpética, não havendo motivo para suspender a ceftriaxona.</sub>
+
+- **(B)** ✅ Devido às características do líquor e a epidemiologia do paciente, seria apropriado acrescentar ceftriaxona + ampicilina à antibioticoterapia.  
+  <sub>Correta. O perfil liquórico é compatível com meningite bacteriana e, pela idade acima de 50 anos e pela institucionalização, é obrigatória a cobertura para Listeria monocytogenes com ampicilina associada à ceftriaxona.</sub>
+
+- **(C)** O uso de dexametasona deve ser mantido até o término do tratamento independente do agente etiológico.  
+  <sub>Incorreta. A dexametasona só deve ser mantida até o término do tratamento quando se confirma Haemophilus influenzae ou Neisseria meningitidis como agente etiológico.</sub>
+
+- **(D)** Caso o agente etiológico seja um pneumococo, os moradores do asilo precisarão receber profilaxia com antibióticos como rifampicina, ceftriaxona ou ciprofloxacino.  
+  <sub>Incorreta. A quimioprofilaxia de contatos com rifampicina, ceftriaxona ou ciprofloxacino está indicada na doença meningocócica, e não na infecção pneumocócica.</sub>
+
+**Alternativa descartada** — era a (E): *INtroduzir ceftriaxona*  
+Motivo: Alternativa truncada e com erro de digitação, além de redundante com a conduta já instituída no caso, o que a torna nula do ponto de vista discriminativo.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 30. Doenças infecciosas  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 30*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Há incoerência geográfica no enunciado, pois Corumbá é município do Mato Grosso do Sul e não do Mato Grosso, como consta na sigla apresentada.
+
+**Enunciado:** Mulher de 32 anos, natural e procedente de Corumbá - MT, trabalha para a prefeitura com higienização e limpeza de caixas de água, vem a Maringá para visitar a família. Após 3 dias na cidade, apresenta quadro de febre, cefaléia e dores musculares. Vai à UPA onde recebe diagnóstico de “virose” e alta com sintomáticos. Após alguns dias do início dos sintomas evolui com icterícia, além de pneumonite por sangramento pulmonar e insuficiência respiratória. Retorna à UPA e os exames laboratoriais mostram creatinina aumentada e leucocitose com desvio à esquerda. Sobre o quadro acima, ASSINALE a alternativa que apresenta o diagnóstico e tratamento corretos:
+
+- **(A)** ✅ Leptospirose, a indicação é iniciar Penicilina Cristalina EV.  
+  <sub>Correta. O quadro caracteriza a forma íctero-hemorrágica da leptospirose (síndrome de Weil), com a tríade típica de icterícia, insuficiência renal (creatinina aumentada) e hemorragia, aqui pulmonar; há ainda exposição ocupacional compatível (higienização de caixas d'água) e leucocitose com desvio à esquerda. O tratamento inclui suporte, diálise precoce e antibioticoterapia precoce com penicilina cristalina intravenosa (50.000 a 100.000 UI/kg/dia, em 4 a 6 doses), sendo ampicilina ou ceftriaxona alternativas.</sub>
+
+- **(B)** Dengue hemorrágica, a indicação é introduzir hidratação vigorosa e transfusão sanguínea.  
+  <sub>Incorreta. Na dengue grave o hemograma tipicamente mostra leucopenia com linfocitose e plaquetopenia, e não leucocitose com desvio à esquerda; além disso, hidratação vigorosa indiscriminada e transfusão sanguínea não constituem a conduta preconizada.</sub>
+
+- **(C)** Malária grave e a indicação é utilizar primaquina por 14 dias.  
+  <sub>Incorreta. Ainda que a malária grave por Plasmodium falciparum pudesse ser considerada, o hemograma cursaria com leucopenia e o tratamento seria feito com artemeter associado à lumefantrina; a primaquina por 14 dias destina-se à erradicação de hipnozoítos do P. vivax, não sendo tratamento de malária grave.</sub>
+
+- **(D)** Paracoccidioidomicose disseminada e deve-se iniciar Anfotericina B.  
+  <sub>Incorreta. A paracoccidioidomicose disseminada tem curso subagudo a crônico, com lesões mucocutâneas, adenomegalias e acometimento pulmonar intersticial, não explicando a instalação aguda de icterícia, insuficiência renal e hemorragia pulmonar em poucos dias.</sub>
+
+**Alternativa descartada** — era a (D): *Pneumonia por citomegalovírus, deve-se solicitar exame de HIV e iniciar ganciclovir EV*  
+Motivo: Distrator implausível, pois pneumonia por citomegalovírus não se manifesta com icterícia, insuficiência renal e hemorragia pulmonar de instalação aguda em paciente previamente hígida, sendo descartado sem raciocínio diferencial.
+
+<sub>Renumeração: A→A, B→B, C→C, E→D · gabarito A → A</sub>
+
+### 31. Emergências cardiovasculares  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 31*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O item depende de duas imagens (ECG com supradesnivelamento de ST e traçado do monitor) que não foram incluídas, e o próprio enunciado admite a ausência do traçado, inviabilizando a aplicação sem recuperação das figuras.
+
+**Enunciado:** Mulher de 58 anos, admitida em Pronto Atendimento com queixa de precordialgia do tipo queimação com irradiação cervical, acompanhada de sudorese e dispneia. Eletrocardiograma revelou supradesnivelamento do segmento ST em derivações anterolaterais (ver ECG). Após abordagem inicial, monitor evidenciou o traçado abaixo. Falta o traçado taquicardia ventricular ASSINALE a alternativa que descreve qual deve ser a conduta imediata:
+
+- **(A)** Desfibrilação 200J.  
+  <sub>Incorreta. A desfibrilação com carga máxima seria a conduta apenas se confirmada a ausência de pulso, ou seja, parada cardiorrespiratória em taquicardia ventricular sem pulso.</sub>
+
+- **(B)** Cardioversão elétrica sincronizada 100J.  
+  <sub>Incorreta. A cardioversão elétrica sincronizada com 100 J é o tratamento da taquicardia ventricular COM pulso e instável, o que só pode ser definido após a checagem do pulso.</sub>
+
+- **(C)** ✅ Checar pulso central para, só então, definir próximo passo no atendimento.  
+  <sub>Correta. Diante de taquicardia de QRS largo, regular e sustentada em paciente com infarto, a primeira etapa segundo o ACLS é checar o pulso central (carotídeo ou femoral), pois é isso que diferencia a taquicardia ventricular com pulso da sem pulso e define todo o passo seguinte.</sub>
+
+- **(D)** Amiodarona 300mg IV em bólus.  
+  <sub>Incorreta. A amiodarona é opção na taquicardia ventricular com pulso e estável, jamais como primeira medida antes de determinar a presença de pulso.</sub>
+
+**Alternativa descartada** — era a (E): *Cardioversão elétrica sincronizada 200J*  
+Motivo: Duplicata da alternativa C, diferindo apenas na carga da cardioversão sincronizada, o que não acrescenta poder discriminativo.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 32. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 32*
+
+> **convertida 5→4**
+
+**Enunciado:** Atualmente recomenda-se que o profissional da área de saúde informe aos pacientes, familiares e /ou cuidadores quanto aos sintomas novos ou persistentes mais comumente observados após manifestação aguda da Covid-19. ASSINALE a alternativa CORRETA referente ao esperado durante a recuperação da Covid-19
+
+- **(A)** O tempo de recuperação é o mesmo em todas pessoas acometidas pelo covid-19, sendo que, na maioria dos casos, os sintomas desaparecem em tempo menor que em 12 semanas.  
+  <sub>Incorreta. Embora na maioria dos casos os sintomas persistentes ou novos desapareçam nas primeiras 12 semanas, o tempo de recuperação é individual e variável de pessoa para pessoa.</sub>
+
+- **(B)** A ocorrência de novos sintomas ou condições pós covid-19 é previsível, afetando os indivíduos apenas com sintomas pulmonares e cardiovasculares.  
+  <sub>Incorreta. A ocorrência de novos sintomas ou condições pós-COVID é imprevisível e acomete os indivíduos de modos e em momentos distintos, com manifestações pulmonares, neurológicas, cardiovasculares, gastrointestinais, musculoesqueléticas e dermatológicas, entre outras.</sub>
+
+- **(C)** A condição pós-covid é determinada após o surgimento ou a persistência de sintomas após 2 semanas da infecção aguda covid-19.  
+  <sub>Incorreta. A condição pós-COVID é descrita como o conjunto de manifestações clínicas novas, recorrentes ou persistentes presentes após quatro semanas da infecção aguda, e não após duas semanas.</sub>
+
+- **(D)** ✅ A probabilidade de desenvolver condições pós-covid-19 ou síndrome pós covid-19 não está relacionada à gravidade do quadro agudo ou necessidade de hospitalização.  
+  <sub>Correta. Qualquer pessoa que teve infecção aguda pela COVID-19, com sintomas leves, moderados ou graves, pode desenvolver a condição pós-COVID, cuja probabilidade não guarda relação direta com a gravidade do quadro agudo ou com a necessidade de hospitalização, ainda que portadores de doenças crônicas apresentem maior risco de sequelas.</sub>
+
+**Alternativa descartada** — era a (E): *Não é recomendado o paciente procurar atendimento se apresentar sintomas de dispneia, taquicardia taquipneia inexplicada, visto ser sintomas esperados nas primeiras 12 semanas pós infecção aguda covid-19*  
+Motivo: Distrator implausível, pois orienta explicitamente a não procurar atendimento diante de sinais de alarme, o que qualquer estudante descarta de imediato.
+
+<sub>Renumeração: B→A, C→B, D→C, A→D · gabarito A → D</sub>
+
+### 33. Espondiloartrites  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 33*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Enunciado truncado ao final ('quadro clínico compatível com artrite reativ'), sem fechamento da palavra e da frase.
+
+**Enunciado:** Paciente masculino, 35 anos, relata histórico de gastroenterocolite bacteriana há três semanas, tratada com ciprofloxacino, tendo apresentado melhora completa do quadro. Procura atendimento médico com queixas articulares. O médico suspeita de artrite reativa. Assinale a alternativa abaixo que apresenta quadro clínico compatível com artrite reativ
+
+- **(A)** Artrite de joelho direito há três semanas. Líquido sinovial séptico com cultura bacteriana positiva.  
+  <sub>Incorreta. Monoartrite com líquido sinovial séptico e cultura bacteriana positiva caracteriza artrite infecciosa bacteriana, e não artrite reativa.</sub>
+
+- **(B)** Artrite de joelhos, metacarpofalangeanas e interfalangeanas proximais bilateralmente há oito semanas. Elevação sérica de provas de atividade inflamatória e fator reumatoide negativo.  
+  <sub>Incorreta. Poliartrite crônica e simétrica de pequenas e médias articulações, ainda que com fator reumatoide negativo, é compatível com artrite reumatoide soronegativa.</sub>
+
+- **(C)** ✅ Artrite de joelhos e tornozelo direito e dactilite em segundo quirodáctilo esquerdo há cinco dias. Líquido sinovial com sinais inflamatórios e cultura bacteriana negativa.  
+  <sub>Correta. A artrite reativa integra o grupo das espondiloartrites e manifesta-se como oligoartrite assimétrica de médias e grandes articulações, podendo cursar com dactilite ou entesite; por ser processo imunológico sem micro-organismo intra-articular, o líquido sinovial é inflamatório com cultura bacteriana negativa.</sub>
+
+- **(D)** Episódios de monoartrites intermitentes em primeiros pododáctilos e tornozelos há sete meses. Apresenta obesidade, dislipidemia e diabetes mellitus.  
+  <sub>Incorreta. Monoartrites intermitentes em primeiros pododáctilos e tornozelos, associadas a obesidade, dislipidemia e diabetes, apontam a gota como principal hipótese diagnóstica.</sub>
+
+**Alternativa descartada** — era a (E): *Dor mecânica em joelhos há quatro meses e aumento de volume em joelho direito há quatro semanas. Ao exame físico, joelhos valgos e radiografia com osteófitos em compartimentos mediais dos joelhos*  
+Motivo: Distrator pouco discriminativo: dor mecânica com joelhos valgos e osteófitos configura osteoartrite de forma tão evidente que se afasta sem esforço do cenário proposto.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 34. Anemias carenciais  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 34*
+
+> **convertida 5→4**
+
+**Enunciado:** Paciente feminina, 50 anos, sem comorbidades prévias, vem em consulta ambulatorial com queixa de cansaço, fraqueza e dispnéia de início há 1 mês com piora progressiva. Está em investigação ginecológica por sangramento uterino anormal. Tem apresentado sangramento cerca de 2 vezes ao mês com duração de mais de 10 dias com necessidade de várias trocas de absorvente. Nega restrições alimentares, não possui queixas de trato gastrointestinal. O que é esperado encontrar em seus exames laboratoriais?
+
+- **(A)** ✅ Hemograma com anemia microcítica e hipocrômica, vitamina B12 e ácido fólico normais, ferro sérico, ferritina e índice de saturação do ferro diminuídos.  
+  <sub>Correta. Trata-se de anemia ferropriva por sangramento uterino anormal, sem restrição alimentar ou queixas do trato gastrointestinal que sugiram outra etiologia; o esperado é anemia microcítica e hipocrômica, com vitamina B12 e ácido fólico normais e ferro sérico, ferritina e índice de saturação da transferrina reduzidos, acompanhados de capacidade total de ligação do ferro elevada.</sub>
+
+- **(B)** Hemograma com anemia macrocítica, vitamina B12 e ácido fólico normais, ferro sérico, ferritina e capacidade total de ligação do ferro diminuídos.  
+  <sub>Incorreta. A macrocitose não se coaduna com a ferropenia por perda menstrual; além disso, na deficiência de ferro a capacidade total de ligação do ferro eleva-se, e não diminui.</sub>
+
+- **(C)** Hemograma com anemia microcítica e hipocrômica, vitamina B12 e ácido fólico normais, ferro sérico, ferritina e capacidade total de ligação do ferro diminuídos.  
+  <sub>Incorreta. Acerta a morfologia microcítica e hipocrômica e os níveis normais de B12 e folato, mas erra ao afirmar redução da capacidade total de ligação do ferro, que se encontra aumentada na ferropenia.</sub>
+
+- **(D)** Hemograma com anemia, microcítica e hipocrômica, vitamina B12 e ácido fólico diminuídos, aumento do índice de saturação e diminuição da capacidade total de ligação do ferro.  
+  <sub>Incorreta. Descreve padrão de sobrecarga de ferro, com saturação elevada e capacidade total de ligação reduzida, e ainda associa queda de vitamina B12 e ácido fólico, incompatíveis com paciente sem restrição alimentar nem doença gástrica.</sub>
+
+**Alternativa descartada** — era a (E): *Hemograma com anemia normocítica e normocrômica, vitamina B12 e ácido fólico diminuídos, ferro sérico, ferritina diminuídos e índice de saturação do ferro aumentado*  
+Motivo: Distrator internamente contraditório, pois combina ferro sérico e ferritina baixos com índice de saturação aumentado, padrão fisiologicamente inconsistente.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 35. Asma  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 35*
+
+> **convertida 5→4**
+
+**Caso:** Um homem de 56 anos vem à consulta médica por queixa de tosse crônica há 3 anos e que está mais exacerbada há uma semana. A tosse é sempre seca, quase todos os dias, principalmente de noite e de manhã, sendo que nesta última semana é mais constante o dia todo. Apresenta crises de dispnéia, acompanhada de sibilos, na média 1 ou 2 vezes por semana, que melhoram com broncodilatador inalado (4 doses de salbutamol 100mcg inalado). Nega dispneia aos esforços nas atividades do dia a dia ou mesmo quando sobe escadas ou ladeiras. É tabagista, ainda ativo, desde 16 anos, média de uma carteira ao dia. Apresenta espirros, coriza e prurido nasal frequentemente pela manhã há vários anos. Nega sintoma de pirose retroesternal ou queimação epigástrica, bem como nega pigarro crônico. De outros antecedentes tem hipertensão arterial sistêmica e dislipidemia e faz uso de anlodipino e sinvastatina. Traz uma radiografia de tórax realizada há dois dias durante atendimento em serviço de urgência / emergência que é normal. Ao exame físico: PA 125/80mmHg; FC 80 bpm, saturação por oxímetro digital = 98%, FR 14 irpm. Ausculta pulmonar com sibilos expiratórios esparsos bilateralmente. Realizou uma espirometria no mesmo dia e que demonstrou: volume expiratório forçado no primeiro segundo (VEF1) de 2,40 litros equivalente a 76% do valor previsto (limite inferior da normalidade = 2,60 litros); capacidade vital forçada (CVF) de 3,70 litros equivalente a 92% do valor previsto (limite inferior da normalidade = 3,25 litros) e uma relação VEF1/CVF de 0,64. Depois do broncodilatador: VEF1 de 2,90 litros equivalente a 90% do valor previsto; CVF de 3,80 litros equivalente a 95% do valor previsto e uma relação VEF1/CVF de 0,76.
+
+**Enunciado:** Levando em consideração o quadro clínico e exames acima, é possível inferir que o diagnóstico é:
+
+- **(A)** Enfisema.  
+  <sub>Incorreta. O enfisema não explica a tosse crônica seca nem a dispneia estritamente intermitente do paciente, e sua caracterização exigiria tomografia; além disso, a obstrução do enfisema não reverte plenamente após broncodilatador.</sub>
+
+- **(B)** ✅ Asma.  
+  <sub>Correta. A tosse crônica seca de predomínio noturno, as crises intermitentes de dispneia com sibilos que respondem ao broncodilatador e os sintomas de rinite alérgica associada compõem o quadro de asma, confirmado pela espirometria com distúrbio obstrutivo e resposta broncodilatadora significativa, com normalização da relação VEF1/CVF para 0,76.</sub>
+
+- **(C)** Bronquite crônica.  
+  <sub>Incorreta. Embora o tabagismo favoreça a hipótese, a definição de bronquite crônica exige tosse produtiva por pelo menos três meses ao ano em dois anos consecutivos, e neste caso a tosse é sempre seca.</sub>
+
+- **(D)** Doença pulmonar obstrutiva crônica.  
+  <sub>Incorreta. O diagnóstico de DPOC requer obstrução persistente, com relação VEF1/CVF abaixo de 0,70 após o broncodilatador; aqui a relação normalizou para 0,76, afastando a doença apesar da carga tabágica de 40 maços-ano.</sub>
+
+**Alternativa descartada** — era a (E): *Bronquiectasias*  
+Motivo: Distrator mais fraco por ser o menos discriminativo, já que bronquiectasias não cursam com tosse seca nem com crises paroxísticas reversíveis de broncoespasmo.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 36. Pneumologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 36*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A vinheta é excessivamente longa e traz grande volume de dados irrelevantes para a decisão solicitada, sobrecarregando a leitura sem aumentar o raciocínio exigido.
+
+**Caso:** Paciente do sexo masculino, 22 anos, vem à consulta com queixa de “gripe”. Relata que há 6 dias está com muita tosse, sibilos, dispneia, febre, mialgias, dor de garganta, coriza e espirros. A tosse é seca, a dispneia ocorre mesmo em repouso e alivia com uso de salbutamol spray inalado. Consultou no pronto atendimento 2 dias antes, fez uma radiografia de tórax que foi normal, e um teste rápido para SARS-COV-2 e INFLUENZA que foram negativos. Liberado com antitérmico e prednisona, e recomendação de acompanhamento ambulatorial. Desde então relata discreta melhora do quadro. Tem histórico de crises de tosse com sibilos e dispneia desde a infância, com necessidade de inalação, mas que melhorou na adolescência e voltou a incomodar há 2 anos. Mesmo fora de crise tem dispneia aos grandes esforços (mMRC 1) e faz uso de salbutamol spray 400mcg 2 a 3 vezes ao dia, quase todos os dias no último ano. Tem sintomas de coriza, espirros, prurido nasal e obstrução nasal quase todos os dias, de forma contínua nos últimos anos. Ao exame apresenta sibilos expiratórios difusos bilateralmente e uma espirometria que demonstrou um distúrbio ventilatório obstrutivo moderado com variação de VEF1 significativa após o broncodilatador (BD). VEF1 pós BD de 65% e relação VEF1/CVF pós BD de 0,72. Prescrito corticoide inalado associado a broncodilatador beta-2 agonista de longa duração (formoterol 12mcg + budesonida 400mcg) 2 X ao dia e corticóide tópico nasal (mometasona 50mcg) 2 aplicações em cada narina a noite. Solicitados alguns exames e retorno em 3 semanas. No retorno, melhora quase completa dos sintomas tanto de asma quanto de rinite, ausculta pulmonar limpa, espirometria demonstrando VEF1 de 88% e relação VEF1/CVF normal. Dos exames que trouxe, uma IgE (imunoglobulina E) total de 797 UI/mL (valor de referência até 87 UI/mL) e um hemograma que demostra 550 eosinófilos por mm3. O diagnóstico correto é de: Obs:
+
+**Enunciado:** VEF1 = volume expiratório forçado no 1º segundo e CVF = capacidade vital forçada
+
+- **(A)** Asma fenótipo alérgico, endótipo T2 baixo.  
+  <sub>Incorreta. O fenótipo alérgico está corretamente identificado, mas os biomarcadores elevados e a resposta ao corticoide inalado são incompatíveis com endótipo T2 baixo.</sub>
+
+- **(B)** ✅ Asma fenótipo alérgico, endótipo T2 alto.  
+  <sub>Correta. Asma iniciada na infância com rinite alérgica associada define o fenótipo alérgico, e a IgE total de 797 UI/mL, a eosinofilia de 550/mm3 e a excelente resposta ao corticoide inalado e tópico nasal caracterizam o endótipo T2 alto.</sub>
+
+- **(C)** Asma fenótipo não alérgico, endótipo T2 alto.  
+  <sub>Incorreta. O endótipo T2 alto está correto, porém a história de rinite alérgica e de sintomas desde a infância caracteriza fenótipo alérgico, e não não alérgico.</sub>
+
+- **(D)** Asma fenótipo não alérgico, endótipo T2 baixo.  
+  <sub>Incorreta. Tanto o fenótipo quanto o endótipo estão equivocados: há atopia evidente e marcadores de inflamação tipo 2 claramente elevados.</sub>
+
+**Alternativa descartada** — era a (E): *Asma fenóticpo não alérgico, endótipo eosinofílico*  
+Motivo: Duplicata conceitual da alternativa C, já que endótipo eosinofílico equivale a T2 alto, além de conter erro de digitação ('fenóticpo').
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 37. Doença pulmonar obstrutiva crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 37*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A justificativa oficial é internamente contraditória, pois afirma que 'a alternativa A está completamente errada' e, em seguida, aponta a alternativa A como correta.
+
+**Enunciado:** Uma mulher de 69 anos procura atendimento médico por queixa de dispnéia. Apresenta dispnéia há cerca de 6 anos, com piora progressiva sendo que no último ano apresenta dispneia para caminhadas curtas de poucos metros e mesmo para as atividades básicas do dia a dia como tomar banho e vestir-se). Fumante desde 18 anos, média de 30 cigarros ao dia. Nega tosse crônica, emagrecimento ou exacerbações com necessidade de antibiótico ou corticoterapia sistêmica no último ano. Ao exame físico apresenta aumento do diâmetro anteroposterior do tórax. Radiografia de tórax demonstra hiperinsuflação. Espirometria demonstra distúrbio ventilatório obstrutivo moderado com um VEF1 pós broncodilatador (BD) de 55% e uma relação VEF1/CVF pós BD de 0,50. Qual medicamento deve ser prescrito para uso contínuo? Obs: VEF1 = volume expiratório forçado no 1º segundo e CVF = capacidade vital forçada
+
+- **(A)** Olodaterol (beta agonista de ação prolongada de uso inalado).  
+  <sub>Incorreta. Olodaterol isolado corresponde ao uso de um único broncodilatador de longa duração, conduta desaconselhada pelo GOLD 2023, que reforça a dupla broncodilatação.</sub>
+
+- **(B)** Brometo de tiotrópio (antimuscarínico de ação prolongada de uso inalado).  
+  <sub>Incorreta. Tiotrópio isolado também representa monoterapia broncodilatadora, inferior à associação LABA + LAMA para o controle sintomático desta paciente.</sub>
+
+- **(C)** ✅ Brometo de tiotrópio + olodaterol (antimuscarínico de ação prolongada + beta agonista de ação prolongada).  
+  <sub>Correta. Paciente com DPOC classificada como GOLD B (sintomas intensos, dispneia mMRC elevada e ausência de exacerbações no último ano), situação em que se busca a máxima broncodilatação com LAMA associado a LABA — tiotrópio mais olodaterol.</sub>
+
+- **(D)** Beclometasona + formoterol (beta 2 agonista de ação prolongada).  
+  <sub>Incorreta. A associação de corticoide inalatório com LABA não está indicada em paciente sem exacerbações no último ano e ainda deixa de contemplar o antimuscarínico de longa ação.</sub>
+
+**Alternativa descartada** — era a (B): *Beclometasona (corticoide de uso inalado)*  
+Motivo: Corticoide inalatório isolado não é opção terapêutica reconhecida na DPOC, configurando o distrator mais implausível do conjunto.
+
+<sub>Renumeração: C→A, D→B, A→C, E→D · gabarito A → C</sub>
+
+### 38. Doença pulmonar obstrutiva crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 38*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O hemograma traz 'HB 18%', unidade incorreta para hemoglobina, que deveria ser expressa em g/dL.
+
+**Caso:** O senhor João, 72 anos, vem à consulta após ter recebido alta do último internamento há cerca de 30 dias. Ele é fumante desde 18 anos, ainda ativo, com uma carga tabágica de 80 maços ano. Apresenta dispneia aos mínimos esforços, mMRC 4, tosse crônica, produtiva, com expectoração amarelada, principalmente matinal, edema de membros inferiores e cianose de extremidades. Nos últimos 6 meses esteve internado 3 vezes, todas na enfermaria, por exacerbação da doença pulmonar. Em todos os internamentos apresentava piora acentuada da dispneia com aumento da tosse e aumento da expectoração que se tornara mais purulenta. Na última internação ficou hospitalizado por 7 dias. Na alta foi prescrito formoterol 12mcg inalado a cada 12 horas + salbutamol inalado conforme a necessidade e orientado a parar de fumar. Relata pouca melhora com a medicação prescrita e ainda não parou de fumar, mas reduziu em 50% o consumo. Tem atualmente 92kg com uma altura de 1,63m e nega perda de peso nos últimos meses. Além do problema pulmonar tem diabete melitus diagnosticado há 3 anos para o qual usa metformina e hipertensão arterial sistêmica para a qual usa enalapril. Ao exame apresenta edema de membros inferiores com cacifo, ++/4; cianose de extremidades, SpO2 de 82%, PA 130/70mmHg, FC 112 bpm e FR 24 irpm. Ritmo cardíaco regular sem sopros audíveis, campos pulmonares com estertores grossos difusos e sibilos expiratórios esparsos. Prescrito LABA + LAMA (indacaterol + glicopirrônio) e solicitado alguns exames para retorno em poucos dias. No retorno temos os seguintes resultados; espirometria, valores após o broncodilatador (BD): volume expiratório forçado no primeiro segundo (VEF1) de 0,70 litros equivalente a 26% do valor previsto; capacidade vital forçada (CVF) de 1,70 litros equivalente a 45% do valor previsto e uma relação VEF1/CVF de 0,41; gasometria arterial em ar ambiente: pH 7,40; pCO2 50 mmHg; pO2 45 mmHg; SaO2 84%, HCO3 30,9 mmol/L; hemograma: HB 18%; leucócitos 10.000 com 4% de eosinófilos (400 células/mm3). Com base no caso clínico acima, escolha a alternativa correta: Obs:
+
+**Enunciado:** LABA = Long-Acting Beta2-Agonist; LAMA = Long Acting Muscarinic Antagonist
+
+- **(A)** DPOC GOLD B. Tem indicação de oxigenioterapia domiciliar e terapia inalatória com LABA + LAMA.  
+  <sub>Incorreta. A classificação GOLD B pressupõe baixo risco de exacerbações, incompatível com as três internações por exacerbação grave em seis meses, e omite o corticoide inalatório indicado pela eosinofilia e pelo perfil exacerbador.</sub>
+
+- **(B)** ✅ DPOC GOLD E. Tem indicação de oxigenioterapia domiciliar e terapia inalatória com LABA + LAMA + corticóide inalatório.  
+  <sub>Correta. Paciente com sintomas intensos (mMRC 4) e múltiplas exacerbações graves configura GOLD E; a hipoxemia acentuada (pO2 45 mmHg, SpO2 82%) com cor pulmonale indica oxigenoterapia domiciliar, e a eosinofilia de 400 células/mm³ com fenótipo bronquítico exacerbador sustenta a associação de corticoide inalatório ao LABA + LAMA.</sub>
+
+- **(C)** DPOC GOLD D. Tem indicação de oxigenioterapia domiciliar e terapia inalatória com LABA + LAMA + corticóide inalatório.  
+  <sub>Incorreta. Embora acerte a conduta terapêutica, utiliza a categoria GOLD D, substituída pela categoria E na atual classificação, que mantém apenas GOLD A, B e E.</sub>
+
+- **(D)** DPOC GOLD E. Sem indicação de oxigenioterapia domiciliar e terapia inalatória com LABA + LAMA.  
+  <sub>Incorreta. Classifica corretamente como GOLD E, mas nega a oxigenoterapia domiciliar apesar da hipoxemia grave com cor pulmonale e deixa de incluir o corticoide inalatório indicado pela eosinofilia.</sub>
+
+**Alternativa descartada** — era a (E): *DPOC GOLD D. Sem indicação de oxigenioterapia domiciliar e terapia inalatória com LABA + LAMA + corticóide inalatório*  
+Motivo: Acumula dois erros evidentes ao mesmo tempo (nomenclatura GOLD D já abandonada e negação da oxigenoterapia em paciente com pO2 de 45 mmHg), tornando-se implausível.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 39. Pneumologia e imagem torácica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 39*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** As alternativas são excessivamente longas e apresentam grande sobreposição textual entre si, sobrecarregando a leitura e reduzindo a clareza do item.
+
+**Enunciado:** Durante a pandemia de COVID-19 tornou-se muito comum o achado de opacidades em vidro fosco nas tomografias de tórax de pacientes acometidos da doença. A respeito deste achado, escolha a alternativa correta que melhor esclarece a respeito destas opacidades
+
+- **(A)** Ocorre por aumento da pressão hidrostática no leito capilar, fruto do esforço ventilatório gerando pressão negativa intratorácica, fazendo com que o líquido saia do capilar e preencha o espaço intersticial, mas preservando parcialmente a aeração alveolar.  
+  <sub>Incorreta. Não se trata de edema por aumento da pressão hidrostática gerado pelo esforço ventilatório; o mecanismo é o aumento da permeabilidade vascular de origem inflamatória.</sub>
+
+- **(B)** Ocorre por aumento da permeabilidade vascular devido ao processo inflamatório fazendo com que o líquido preencha o espaço alveolar, o que gera a imagem em vidro fosco. É muito comum nos pacientes com COVID-19 grave, e raramente encontrada em outras infecções virais ou condições inflamatórias.  
+  <sub>Incorreta. Quando o líquido ocupa o espaço alveolar e suprime a aeração, o padrão radiológico deixa de ser vidro fosco e passa a ser consolidação.</sub>
+
+- **(C)** Ocorre por aumento da permeabilidade vascular devido ao processo inflamatório fazendo com que o líquido preencha o espaço intersticial, mas preservando parcialmente a aeração alveolar, o que gera a imagem em vidro fosco. É muito específica nos pacientes com COVID-19 grave, e raramente é encontrada em outras infecções virais.  
+  <sub>Incorreta. O vidro fosco não é específico da COVID-19, sendo observado na influenza, na síndrome do desconforto respiratório agudo de outras causas e em doenças não infecciosas.</sub>
+
+- **(D)** ✅ Ocorre por aumento da permeabilidade vascular devido ao processo inflamatório fazendo com que o líquido preencha o espaço intersticial, mas preservando parcialmente a aeração alveolar, o que gera a imagem em vidro fosco. É muito comum nos pacientes com COVID-19 grave, mas também é encontrada em outras infecções virais e outras condições inflamatórias.  
+  <sub>Correta. A opacidade em vidro fosco decorre do aumento da permeabilidade capilar em resposta ao processo inflamatório, com edema predominantemente intersticial e preservação parcial da aeração alveolar, achado comum na COVID-19 grave mas também presente em outras condições infecciosas e não infecciosas.</sub>
+
+**Alternativa descartada** — era a (C): *Ocorre por aumento da pressão hidrostática no leito capilar, fruto do esforço ventilatório gerando pressão negativa intratorácica, associada a disfunção do ventrículo esquerdo, fazendo com que o líquido saia do capilar e preencha o espaço intersticial, mas preservando parcialmente a aeração alveolar*  
+Motivo: Reproduz o mesmo mecanismo hidrostático já contemplado na alternativa B, funcionando como duplicata com acréscimo redundante da disfunção ventricular esquerda.
+
+<sub>Renumeração: B→A, D→B, E→C, A→D · gabarito A → D</sub>
+
+### 40. Pneumologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 40*
+
+> ⚠️ **defeito na origem:** A alternativa correta é substancialmente mais longa e detalhada que as demais, o que funciona como pista formal de gabarito; o texto também apresenta erros de digitação e ausência de acentuação.
+
+**Enunciado:** Paciente masculino, 65 anos de idade, tabagista de 55 maços/ano, portador de Doença Pulmonar Obstrutiva crônica (DPOC), procura UPA por quadro de tosse produtiva, dispnéia piorada e secreção purulenta, iniciado há aproximadamente 3 dias.Nega febre, e outros sinais e sintomas. Relata acompanhar na UBS próximo a sua casa, porem não faz uso correto das medicações prescritas por sua médica. Pa: 130/80 FR: 20 T, 36.8, Fc 88 Sat 91% em ar ambiente Sobre o quadro assinale a alternativa correta
+
+- **(A)** Paciente deve ser internado imediatamente pois necessita de encaminhamento para CPAP.  
+  <sub>Incorreta. O paciente está hemodinamicamente estável, afebril, com frequência respiratória de 20 irpm e saturação de 91% em ar ambiente, sem sinais de insuficiência respiratória aguda ou de falência ventilatória que justifiquem internação imediata e suporte ventilatório não invasivo.</sub>
+
+- **(B)** ✅ Apresenta todos os critérios de exacerbação de DPOC, deve se iniciar ATB e Corticoide sistemico e ajustar os medicamentos continuos com B2 de ação longa e corticoide inalatorio.  
+  <sub>Correta. O paciente preenche classicamente os três critérios de Anthonisen para exacerbação de DPOC — piora da dispneia, aumento do volume da secreção e mudança da cor do escarro (purulência) —, o que justifica antibioticoterapia associada a corticoide sistêmico, além do ajuste da terapia de manutenção com broncodilatador beta-2 de ação longa e corticoide inalatório, considerando a má adesão relatada.</sub>
+
+- **(C)** Paciente com SAT% 91, indicativo de O2 domiciliar por apenas 6 horas ao dia.  
+  <sub>Incorreta. A indicação de oxigenoterapia domiciliar exige saturação igual ou inferior a 88% ou PaO2 menor que 55 mmHg em estabilidade clínica, o que não se aplica a uma saturação de 91%; além disso, quando indicada, deve ser usada por no mínimo 15 horas diárias.</sub>
+
+- **(D)** Paciente deve ser encaminhado para uso de O2 domiciliar, pois tem grande carga tabágica, não importando outros critérios.  
+  <sub>Incorreta. A carga tabágica, por maior que seja, não é critério para oxigenoterapia domiciliar, que depende exclusivamente de parâmetros gasométricos ou de oximetria aferidos com o paciente estável.</sub>
+
+### 41. Neurologia de urgência  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · facil · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 41*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O item apresenta erros graves de digitação e formatação (enunciado truncado em "corret", alternativa A iniciando com parêntese solto e ausência de pontuação), exigindo revisão editorial antes do uso.
+
+**Enunciado:** Paciente feminina 75 anos de idade, sedentária, tabagista, hipertensa, com níveis médios de PA 160/90 mmHg, durante a refeição do café da manhã em casa, e iniciou quadro de cefaléia difusa, intensa, náuseas e evoluiu com dificuldade de fala e perda de força muscular em dimídio direito .Chamado SAMU, paciente foi levado a UPA. Deu entrada na unidade com PA 180/100, diagnosticado pelo médico emergencista com crise hipertensiva. Plegia em dimidio direito, afasia, desvio de rima labial para esquerda, cincinatti- 3 pontos Sobre o quadro assinale a alternativa corret
+
+- **(A)** o quadro clinico inicial sugeria AVE, colocar em protocolo para trombólise se tempo do ictus ( inicio dos sintomas) de até 1,5h.  
+  <sub>Incorreta. A janela terapêutica reconhecida para a trombólise endovenosa é de 4,5 horas do início dos sintomas, e não de 1,5 hora, restrição que excluiria indevidamente pacientes elegíveis.</sub>
+
+- **(B)** Fazer AAS 300 MG, heparina 1 ml EV, pois provavelmente é AVC isquemico.  
+  <sub>Incorreta. Nenhuma medicação antitrombótica deve ser administrada antes da tomografia de crânio, e a anticoagulação plena não é conduta da fase aguda do AVC isquêmico.</sub>
+
+- **(C)** ✅ ) o quadro clinico inicial sugeria AVE, colocar em protocolo para trombólise se tempo do ictus de até 4,5h.  
+  <sub>Correta. O quadro de déficit focal súbito com afasia, hemiplegia e Cincinnati 3/3 sugere acidente vascular encefálico, devendo o paciente ser incluído em protocolo de trombólise se o tempo do ictus for de até 4,5 horas, conforme as diretrizes da Sociedade Brasileira de Doenças Cerebrovasculares.</sub>
+
+- **(D)** Provavelmente deve ser AVC hemorragico pela padrao clinico.  
+  <sub>Incorreta. O padrão clínico descrito não permite distinguir AVC hemorrágico de isquêmico à beira do leito; essa definição depende obrigatoriamente da tomografia de crânio.</sub>
+
+**Alternativa descartada** — era a (C): *A conduta é fundamental nesses casos a redução rápida da hipertensão*  
+Motivo: Redação truncada e agramatical, além de conduta francamente implausível, o que a torna o distrator mais fraco do conjunto.
+
+<sub>Renumeração: B→A, D→B, A→C, E→D · gabarito A → C</sub>
+
+### 42. Sepse e choque séptico  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 42*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A alternativa A traz colado ao seu final o texto completo da alternativa D, gerando duplicidade e ambiguidade entre as opções.
+
+**Enunciado:** Filho informa que foi visitar a pai que mora sozinho e é completamente independente.Percebeu que a pai estava descorado, confuso e lentificado. Informa tosse sem catarro evoluindo nesta ultima semana e vinha fazendo uso de um xarope e paracetamol. Na emergência: PA 90x50 FC 152 T 38,6 FR 26 GCS = 2+3+4 = 9 Quais suas medidas iniciais?
+
+- **(A)** Intubação para proteção da via aérea + inicio de droga vasoativa.  
+  <sub>Incorreta. Não há indicação imediata de intubação, pois o paciente mantém drive respiratório e a prioridade inicial é volume e antibiótico; vasopressor só se indica após ressuscitação volêmica adequada com hipotensão persistente.</sub>
+
+- **(B)** RX torax e Hemograma para definição da conduta.  
+  <sub>Incorreta. Radiografia de tórax e hemograma auxiliam a definir o foco, mas aguardar exames para iniciar o tratamento atrasa o antibiótico e a expansão volêmica, aumentando a mortalidade.</sub>
+
+- **(C)** ✅ Hidratação venosa vigorosa conforme tolerância + Antibioticoterapia de amplo espectro de forma endovenosa imediatamente Hidratação vigorosa conforme tolerância e aguardar hemoculturas para guiar a escolha da antibioticoterapia.  
+  <sub>Correta. O idoso com foco respiratório, hipotensão, taquicardia, febre e rebaixamento do nível de consciência (ECG 9) preenche critérios de sepse com choque distributivo, impondo ressuscitação volêmica vigorosa conforme tolerância e antibioticoterapia empírica de amplo espectro por via endovenosa dentro da primeira hora ('golden hour'), após coleta de culturas.</sub>
+
+- **(D)** Hidratação vigorosa conforme tolerância + amiodarona + Droga vasoativa para melhorar o nível de consciência.  
+  <sub>Incorreta. A taquicardia é sinusal e reativa à hipovolemia e à febre, não havendo indicação de amiodarona, e a droga vasoativa não é a medida para 'melhorar o nível de consciência', que decorre da hipoperfusão.</sub>
+
+**Alternativa descartada** — era a (D): *Hidratação vigorosa conforme tolerância e aguardar hemoculturas para guiar a escolha da antibioticoterapia*  
+Motivo: Duplicata: o texto integral da alternativa D aparece repetido dentro da alternativa A, tornando as opções sobrepostas.
+
+<sub>Renumeração: B→A, C→B, A→C, E→D · gabarito A → C</sub>
+
+### 43. Doença renal do diabetes  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 43*
+
+> **convertida 5→4**
+
+**Enunciado:** Homem de 51 anos, com diagnóstico de diabetes tipo 2 e hipertensão arterial sistêmica há 6 anos, em uso de metformina 2000 mg ao dia e enalapril 40 mg ao dia. A pressão arterial é de 118x74 mm/Hg. Traz exames realizados há 4 meses, com relação albumina/creatinina em amostra de urina 280 mg/g. Exames laboratoriais atuais mostram HbA1c 7,5%, creatinina 1,1 mg/dL (taxa de filtração glomerular estimada 81 mL/min/1,73 m2), relação albumina/creatinina em amostra de urina 269 mg/g (valor de referência <30 mg/g). Qual deve ser a próxima conduta em relação ao tratamento medicamentoso?
+
+- **(A)** ✅ Associar o uso de um inibidor de SGLT2.  
+  <sub>Correta. O paciente tem doença renal do diabetes documentada por duas relações albumina/creatinina alteradas e HbA1c fora da meta; nesse contexto recomenda-se associar inibidor de SGLT2, que reduz a progressão para doença renal terminal e a mortalidade.</sub>
+
+- **(B)** Suspender a metformina.  
+  <sub>Incorreta. Não há motivo para suspender a metformina: com TFG entre 30 e 45 mL/min/1,73 m² recomenda-se redução de dose e a suspensão só é indicada abaixo de 30, enquanto o paciente apresenta 81 mL/min/1,73 m².</sub>
+
+- **(C)** Associar um bloqueador do receptor da angiotensina 2.  
+  <sub>Incorreta. A associação de bloqueador do receptor de angiotensina 2 ao inibidor da ECA (enalapril) não é recomendada, pelo risco de hipercalemia e lesão renal sem benefício adicional.</sub>
+
+- **(D)** Associar um inibidor da DPP4.  
+  <sub>Incorreta. Os inibidores da DPP4 não demonstraram os benefícios renais dos inibidores de SGLT2, não devendo ser a próxima escolha neste caso específico.</sub>
+
+**Alternativa descartada** — era a (E): *Associar o uso de insulina NPH*  
+Motivo: Distrator implausível: a insulina NPH não tem lugar como próximo passo em paciente com HbA1c de 7,5% e sem qualquer benefício renal demonstrado.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 44. Lombalgia e radiculopatia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 44*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** As alternativas foram abreviadas e perderam a localização topográfica dos pododáctilos presente no comentário oficial, o que torna o distrator B ambíguo.
+
+**Enunciado:** Homem de 38 anos de idade, pedreiro, há 8 meses vem se queixando de lombalgia irradiando para a região posterior do seu membro inferior direito com parestesia na face lateral do pé. Funções esfincterianas normais. Que alteração no membro inferior direito é compatível com o quadro?
+
+- **(A)** ✅ Hiporreflexia do aquileu.  
+  <sub>Correta. O quadro é de hérnia discal L5-S1 com radiculopatia de S1, muito comum em trabalhadores braçais atendidos na atenção primária: dor lombar e glútea irradiada pela face posterior da coxa e panturrilha até a borda lateral e plantar do pé; a hiporreflexia aquileia é, muitas vezes, o único sinal objetivo dessa radiculopatia.</sub>
+
+- **(B)** Hipossensibilidade dolorosa.  
+  <sub>Incorreta. A hipossensibilidade dolorosa restrita ao primeiro e ao segundo pododáctilos caracteriza a radiculopatia de L5, e não a de S1 sugerida pela irradiação posterior e pela parestesia na face lateral do pé.</sub>
+
+- **(C)** Hiperreflexia patelar.  
+  <sub>Incorreta. A hiperreflexia patelar indica lesão do neurônio motor superior; na compressão radicular lombossacra espera-se hiporreflexia, e o reflexo patelar depende das raízes L2 a L4.</sub>
+
+- **(D)** Sinal de Babinski.  
+  <sub>Incorreta. O sinal de Babinski também traduz lesão do neurônio motor superior, incompatível com radiculopatia compressiva; sua presença, tal como alteração esfincteriana, obrigaria a investigar mielopatia.</sub>
+
+**Alternativa descartada** — era a (E): *Hipopalestesia*  
+Motivo: Distrator pouco discriminativo, pois a hipopalestesia traduz acometimento de fibras proprioceptivas em polineuropatias, tema alheio ao raciocínio radicular avaliado.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 45. Distúrbios da hemostasia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 45*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado expressa a hemoglobina em g/L quando o valor corresponde a g/dL, e a justificativa oficial vem contaminada com o texto de outra questão (sobre trombocitose), exigindo limpeza editorial.
+
+**Enunciado:** Mulher, 21 anos de idade, há 30 dias referindo epistaxe recorrente e aparecimento de equimoses em membros inferiores, que progrediram para abdome e tronco. Nega trauma ou dor local. Ao exame: púrpuras em membros inferiores bilateralmente e tronco, de tamanhos variáveis, planas e indolores, além de petéquias em face. Hemograma: Hb 11,5g/L, Ht 35%, Leucócitos 10.400/mm3 com diferencial normal, plaquetas 8.000/mm3. Previamente hígida e o restante da investigação laboratorial foi normal. Qual deve ser o diagnóstico e o que deve ser feito?
+
+- **(A)** púrpura trombocitopênica imune, transfusão de concentrado de plaquetas e imunoglobulina humana.  
+  <sub>Incorreta. O diagnóstico está correto, mas a transfusão de concentrado de plaquetas na PTI só se justifica diante de sangramento grave ou com risco de vida, e a imunoglobulina humana é reservada a situações de urgência ou refratariedade, não sendo a conduta inicial padrão.</sub>
+
+- **(B)** ✅ púrpura trombocitopênica imune, prednisona 1 mg/ kg/dia.  
+  <sub>Correta. Em adulta previamente hígida, com sangramento cutaneomucoso (petéquias, equimoses e epistaxe), plaquetopenia grave isolada e restante da investigação normal, o diagnóstico é púrpura trombocitopênica imune, cujo tratamento de primeira linha é a corticoterapia com prednisona 1 mg/kg/dia.</sub>
+
+- **(C)** púrpura trombocitopênica trombótica, transfusão de concentrado de plaquetas e plasmaferese.  
+  <sub>Incorreta. A púrpura trombocitopênica trombótica é menos provável pela ausência de sinais neurológicos, hemoglobina praticamente normal e ausência de esquizócitos à hematoscopia; ademais, a transfusão de plaquetas é potencialmente deletéria na PTT.</sub>
+
+- **(D)** púrpura trombocitopênica trombótica, transfusão de concentrado de plaquetas.  
+  <sub>Incorreta. Além de o diagnóstico de PTT não se sustentar neste caso, a transfusão isolada de plaquetas não é o tratamento da PTT, cuja base terapêutica é a plasmaférese precoce.</sub>
+
+**Alternativa descartada** — era a (E): *púrpura trombocitopênica imune, transfusão de 2 bolsas de plasma fresco congelado*  
+Motivo: Distrator implausível, pois plasma fresco congelado não tem qualquer papel no tratamento da púrpura trombocitopênica imune.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 46. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 46*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O comando fala em redução de desfecho combinado incluindo mortalidade, enquanto a própria justificativa oficial reconhece que os iSGLT2 reduzem apenas as hospitalizações na ICFEp.
+
+**Enunciado:** Mulher de 63 anos, diabética, hipertensa, obesa chega ao ambulatório com história de dispneia progressiva aos esforços nos últimos 2 meses. FC 105/min PA 160/110mmHg Ritmo cardíaco regular, dois tempos, sem sopros. ECG: Ritmo sinusal, sobrecarga de VE. Rx Tórax: congestão pulmonar e área cardíaca normal. Ultrassom Cardíaco: Fração de Ejeção VE 53%. Hipertrofia concêntrica do VE e aumento do diâmetro do AE. Disfunção diastólica. Peptídeo Natriurético B: normal. Qual é o grupo farmacológico que mostrou redução de desfechos primários combinados (hospitalização/mortalidade) e é atualmente indicado para o tratamento desta condição clínica?
+
+- **(A)** Inibidores da Enzima Conversora da Angiotensina.  
+  <sub>Incorreta. Os inibidores da enzima conversora da angiotensina têm benefício demonstrado na insuficiência cardíaca com fração de ejeção reduzida, sem redução de desfechos na forma com fração preservada.</sub>
+
+- **(B)** ✅ Inibidores do Co-transportador Sódio-Glicose.  
+  <sub>Correta. O quadro configura insuficiência cardíaca com fração de ejeção preservada (FEVE 53%, hipertrofia concêntrica, aumento atrial esquerdo e disfunção diastólica, com BNP normal — o que ocorre em até 30% dos casos, sobretudo em obesos); os inibidores do cotransportador sódio-glicose são atualmente o único grupo com recomendação nível I-A nessa condição.</sub>
+
+- **(C)** Inibidores dos Receptores Mineralocorticoides.  
+  <sub>Incorreta. Os antagonistas do receptor mineralocorticoide são indicados na insuficiência cardíaca com fração de ejeção reduzida, não configurando recomendação de primeira linha na ICFEp.</sub>
+
+- **(D)** Inibidores da Angiotensina-Neprilisina.  
+  <sub>Incorreta. O inibidor da angiotensina-neprilisina tem indicação consolidada na fração de ejeção reduzida, sem redução do desfecho primário combinado na ICFEp.</sub>
+
+**Alternativa descartada** — era a (D): *Inibidores dos Receptores Beta-adrenérgicos*  
+Motivo: Distrator menos discriminativo, pois a nomenclatura 'inibidores dos receptores beta-adrenérgicos' é imprecisa e destoa do padrão das demais alternativas.
+
+<sub>Renumeração: B→A, A→B, C→C, E→D · gabarito A → B</sub>
+
+### 47. Hipertensão arterial sistêmica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 47*
+
+> **convertida 5→4**
+
+**Enunciado:** A HAS é um agravo da saúde de alta prevalência na população geral. Recentemente, com base em estudos controlados randomizados, as diretrizes internacionais passaram a recomendar metas de pressão arterial sistêmica mais baixas do que anteriormente. Sobre este tópico, qual é a alternativa correta?
+
+- **(A)** ✅ Diuréticos tiazídicos devem ser usados como base do tratamento.  
+  <sub>Correta. Estudos controlados randomizados confirmam que os diuréticos tiazídicos devem estar presentes na prescrição da maioria dos hipertensos da população geral, constituindo a base do tratamento.</sub>
+
+- **(B)** O controle da HAS com monoterapia ocorre em >30% dos pacientes.  
+  <sub>Incorreta. O controle pressórico com meta de PAS abaixo de 130 mmHg é infrequente com monoterapia nos estágios 1 e 2, ficando muito aquém do percentual proposto.</sub>
+
+- **(C)** Bloqueadores dos Canais do Cálcio são fármacos de segunda linha.  
+  <sub>Incorreta. Os bloqueadores dos canais de cálcio são fármacos de primeira linha, ao lado dos IECA, dos BRA e dos tiazídicos.</sub>
+
+- **(D)** A combinação de IECA + BRA é segura e bem tolerada.  
+  <sub>Incorreta. A combinação de IECA com BRA não é segura nem bem tolerada, pois eleva o risco de hipercalemia, hipotensão e disfunção renal, razão pela qual não deve ser utilizada.</sub>
+
+**Alternativa descartada** — era a (E): *Bloqueadores dos Receptores da Angiotensina são superiores aos IECA*  
+Motivo: IECA e BRA são classes intercambiáveis sem superioridade demonstrada entre si, e a afirmação é o distrator menos discriminativo do conjunto.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 48. Síndrome coronariana aguda  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 48*
+
+> **convertida 5→4**
+
+**Enunciado:** Homem de 58 anos, tabagista, hipertenso, dislipidêmico e sedentário foi atendido na Emergência com queixa de dor precordial constritiva iniciada em repouso há uma hora. Irradiação para mandíbula e membro superior esquerdo. FC 105/min PA 85/55mmHg SpO2 91% (ar ambiente). Pálido, sudorético e com extremidades frias. ECG: Supra-desnível do segmento ST de 4 mm nas derivações V1 a V5. Hemodinâmica mais próxima está há 30 minutos por via terrestre. Qual é a conduta indicada neste caso?
+
+- **(A)** ✅ Transporte para hemodinâmica e angioplastia primária.  
+  <sub>Correta. Na vigência de IAM com supradesnivelamento de ST associado a choque cardiogênico, a angioplastia primária é o tratamento de escolha e deve ser realizada sempre que o transporte ao serviço de hemodinâmica ocorra em menos de duas horas, como no caso (30 minutos).</sub>
+
+- **(B)** Fibrinólise endovenosa e transporte para hemodinâmica.  
+  <sub>Incorreta. A fibrinólise é alternativa apenas quando o tempo de transporte até a hemodinâmica excede duas horas, e seus resultados são inferiores aos da angioplastia primária, sobretudo no choque cardiogênico.</sub>
+
+- **(C)** Anti-plaquetários, enoxaparina e admissão na UTI.  
+  <sub>Incorreta. Antiagregantes e enoxaparina são terapias adjuvantes, mas não substituem a reperfusão mecânica imediata; retardar a angioplastia para admissão em UTI aumenta a mortalidade.</sub>
+
+- **(D)** Admissão na UTI e tratamento do choque cardiogênico.  
+  <sub>Incorreta. Tratar o choque cardiogênico sem reperfundir a artéria culpada não corrige a causa do quadro, uma vez que a revascularização precoce é a intervenção que reduz mortalidade nesse cenário.</sub>
+
+**Alternativa descartada** — era a (B): *Aguardar resultado da Troponina I para decisão*  
+Motivo: Aguardar troponina diante de supradesnivelamento de ST típico é conduta francamente implausível e nenhum candidato minimamente preparado a selecionaria.
+
+<sub>Renumeração: A→A, C→B, D→C, E→D · gabarito A → A</sub>
+
+### 49. Ética médica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 49*
+
+> **convertida 5→4**
+
+**Enunciado:** O Código de Ética Médica brasileiro promove o exercício da autonomia do paciente nas escolhas de tratamento. Em qual contexto clínico o Código explicitamente limita o exercício da autonomia do paciente na escolha do tratamento?
+
+- **(A)** Tratamentos oncológicos.  
+  <sub>Incorreta. O Código não estabelece restrição de autonomia específica para tratamentos oncológicos, que seguem a regra geral do consentimento esclarecido.</sub>
+
+- **(B)** Risco iminente de morrer em doenças terminais.  
+  <sub>Incorreta. Em doenças terminais prevalecem o respeito à vontade do paciente, as diretivas antecipadas e os cuidados paliativos, sem a exceção prevista para o risco iminente de morte em doença tratável.</sub>
+
+- **(C)** Tratamento de doenças sexualmente transmissíveis.  
+  <sub>Incorreta. Não há no Código limitação da autonomia na escolha do tratamento de infecções sexualmente transmissíveis, cabendo apenas a notificação compulsória quando indicada.</sub>
+
+- **(D)** ✅ Risco iminente de morrer em doenças tratáveis.  
+  <sub>Correta. Os artigos 22 e 31 do Código de Ética Médica excetuam expressamente o caso de iminente risco de morte, única situação em que o médico pode agir sem o consentimento do paciente ou de seu representante legal.</sub>
+
+**Alternativa descartada** — era a (D): *Tratamentos genéticos*  
+Motivo: Alternativa vaga e implausível, pois 'tratamentos genéticos' não constitui categoria prevista no Código de Ética Médica como exceção à autonomia.
+
+<sub>Renumeração: B→A, C→B, E→C, A→D · gabarito A → D</sub>
+
+### 50. Ética e legislação em saúde  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 50*
+
+> **convertida 5→4**
+
+**Enunciado:** No contexto específico da Lei 12.845 de 2013, que dispõe sobre o atendimento obrigatório e integral de pessoas em situação de violência sexual, a violência sexual se conceitua como:
+
+- **(A)** Penetração vaginal sem preservativo.  
+  <sub>Incorreta. A lei não condiciona o conceito à penetração vaginal nem ao uso ou não de preservativo; restringir a definição a esse ato específico contraria a amplitude do artigo 2º.</sub>
+
+- **(B)** Penetração vaginal ou anal não consentida.  
+  <sub>Incorreta. A penetração vaginal ou anal não consentida é apenas uma das formas possíveis de violência sexual, mas a definição legal não se limita a atos com penetração.</sub>
+
+- **(C)** Trauma pélvico por cópula não consentida.  
+  <sub>Incorreta. A lei não exige a ocorrência de trauma pélvico ou de qualquer lesão física para caracterizar a violência sexual, bastando a ausência de consentimento na atividade sexual.</sub>
+
+- **(D)** ✅ Qualquer forma de atividade sexual não consentida.  
+  <sub>Correta. O artigo 2º da Lei 12.845/2013 estabelece expressamente que, para os efeitos dessa lei, considera-se violência sexual qualquer forma de atividade sexual não consentida, conceito amplo que fundamenta o atendimento obrigatório e integral nos serviços de saúde.</sub>
+
+**Alternativa descartada** — era a (C): *Qualquer forma de trauma fisico na mulher*  
+Motivo: Distrator implausível, pois equiparar violência sexual a 'qualquer forma de trauma físico na mulher' desconsidera por completo o objeto da lei e é eliminado sem esforço analítico.
+
+<sub>Renumeração: B→A, D→B, E→C, A→D · gabarito A → D</sub>
+
+### 51. Sepse e choque séptico  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 51*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** As alternativas são excessivamente longas e repetitivas, diferindo apenas por acréscimos ao final, o que sobrecarrega a leitura e favorece a resposta pela extensão do texto.
+
+**Enunciado:** Paciente do sexo feminino, 28 anos, previamente hígida, sem qualquer história patológica pregressa, chega na emergência trazida por familiares, com história de disúria iniciada há cinco dias, febre iniciada há 48 h junto com dor lombar alta bilateral, e hoje iniciou com sintomas de fraqueza pois não consegue ficar em pé, ficando tonta e com sensação de desmaio. Tem pressão arterial sistêmica medida em decúbito dorsal de 80 / 30 mmHg, frequência cardíaca em decúbito dorsal = 124 batimentos por minuto, frequência respiratória = 26 incursões respiratórias por minuto, em decúbito dorsal. Tem sinal de Giordano positivo bilateralmente, enchimento capilar maior que quatro segundos, cianose de extremidades. Diante desses dados qual a conduta inicial dentro da primeira hora de tratamento, dentre as opções abaixo:
+
+- **(A)** Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura iniciar antibiótico endovenoso de largo espectro.  
+  <sub>Incorreta. Omite a dosagem do lactato e o início da droga vasoativa, condutas indispensáveis diante de pressão de 80/30 mmHg com sinais de hipoperfusão.</sub>
+
+- **(B)** ✅ Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + colher lactato plasmático + iniciar droga vasoativa endovenosa (noradrenalina).  
+  <sub>Correta. Trata-se de choque séptico de foco urinário (pielonefrite aguda), e o pacote da primeira hora — reposição volêmica de 30 mL/kg com cristaloide isotônico, coleta de culturas, lactato, antibiótico de largo espectro e início precoce de noradrenalina diante da hipotensão persistente — é o principal fator de redução da morbimortalidade.</sub>
+
+- **(C)** Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura e iniciar antibiótico endovenoso de largo espectro.  
+  <sub>Incorreta. Além de omitir lactato e vasopressor, deixa de coletar hemoculturas, essenciais na sepse com repercussão sistêmica.</sub>
+
+- **(D)** Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + colher lactato plasmático + aguardar pelo menos 1 h para avaliar a resposta a infusão volêmica.  
+  <sub>Incorreta. Aguardar uma hora para avaliar a resposta volêmica antes de iniciar noradrenalina retarda a restauração da perfusão em paciente já com hipotensão grave, cianose e enchimento capilar acima de quatro segundos.</sub>
+
+**Alternativa descartada** — era a (E): *Iniciar reposição volêmica endovenosa rápida, 30 ml/Kg, com cristaloide isotônico + colher urocultura + hemocultura + iniciar antibiótico endovenoso de largo espectro + aguardar pelo menos 1 h para avaliar a resposta a infusão volêmica*  
+Motivo: Duplicata da alternativa D, da qual difere apenas pela omissão do lactato, mantendo o mesmo erro conceitual de postergar a droga vasoativa.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 52. Reumatologia e neurologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 52*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher de 53 anos, refere quadro de uma semana de hipersensibilidade no couro cabeludo, cefaléia hemicraniana moderada e amaurose fugaz. Investigação laboratorial evidenciou velocidade de hemossedimentação de 100 mm/h. Neste caso, qual a hipótese diagnóstica mais provável?
+
+- **(A)** Cefaleia Tensional.  
+  <sub>Incorreta. A cefaleia tensional é bilateral, em aperto, de intensidade leve a moderada, sem sintomas visuais e sem elevação de provas inflamatórias.</sub>
+
+- **(B)** Migrânea.  
+  <sub>Incorreta. A migrânea pode cursar com aura visual, mas é recorrente desde a juventude, não provoca hipersensibilidade do couro cabeludo persistente nem eleva a VHS a 100 mm/h.</sub>
+
+- **(C)** Cefaleia trigeminal autonômica.  
+  <sub>Incorreta. As cefaleias trigêmino-autonômicas caracterizam-se por crises breves, estritamente unilaterais, com sinais autonômicos ipsilaterais (lacrimejamento, rinorreia, ptose), sem amaurose fugaz ou alteração das provas inflamatórias.</sub>
+
+- **(D)** ✅ Arterite de células gigantes.  
+  <sub>Correta. A arterite de células gigantes deve ser fortemente considerada em pacientes acima de 50 anos com cefaleia nova, hipersensibilidade do couro cabeludo, perda visual transitória e VHS elevada; o tratamento deve ser imediato, com metilprednisolona intravenosa (500 a 1.000 mg/dia por 3 dias) nos casos com manifestação visual, seguida de prednisona oral.</sub>
+
+**Alternativa descartada** — era a (D): *Hemorragia intraparenquimatosa espontânea*  
+Motivo: Distrator implausível, pois a hemorragia intraparenquimatosa espontânea cursa com déficit neurológico focal agudo, incompatível com um quadro subagudo de uma semana com VHS de 100 mm/h.
+
+<sub>Renumeração: B→A, C→B, E→C, A→D · gabarito A → D</sub>
+
+### 53. Micoses subcutâneas  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 53*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Comando do enunciado com redação truncada e pouco clara ('marque a alternativa que consta exame padrão ouro para a confirmação').
+
+**Enunciado:** Homem de 30 anos, trabalhador rural, previamente hígido, refere lesões no antebraço esquerdo que iniciaram há cerca de 3 semanas. Durante o exame, o médico do posto de saúde notou três nódulos eritematosos na região anterior do membro acometido, em conformação linear. O maior nódulo apresentava-se ulcerado e com flutuação. Tendo em vista a principal hipótese diagnóstica para o caso, marque a alternativa que consta exame padrão ouro para a confirmação
+
+- **(A)** ELISA.  
+  <sub>Incorreta. O ELISA é método sorológico auxiliar, sem padronização e sem desempenho suficiente para ser considerado padrão-ouro na esporotricose.</sub>
+
+- **(B)** Histopatológico.  
+  <sub>Incorreta. O exame histopatológico pode ser sugestivo (reação granulomatosa, corpos asteroides), mas raramente evidencia o fungo, permanecendo complementar à cultura.</sub>
+
+- **(C)** ✅ Cultura da lesão.  
+  <sub>Correta. O quadro de nódulos eritematosos em conformação linear ascendente, com ulceração, em trabalhador rural corresponde à esporotricose linfocutânea, cujo padrão-ouro diagnóstico é a cultura em meio ágar Sabouraud dextrose a partir de fluido ou tecido da lesão.</sub>
+
+- **(D)** PPD.  
+  <sub>Incorreta. O PPD avalia a resposta imune ao Mycobacterium tuberculosis e não tem qualquer papel na confirmação da esporotricose.</sub>
+
+**Alternativa descartada** — era a (D): *teste genético*  
+Motivo: Distrator vago e implausível: 'teste genético' não corresponde a exame definido para a esporotricose e é descartado de imediato.
+
+<sub>Renumeração: B→A, C→B, A→C, E→D · gabarito A → C</sub>
+
+### 54. Micoses profundas  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 54*
+
+> **convertida 5→4**
+
+**Enunciado:** Fernanda, 41 anos, natural do Pará, apresenta, há cerca de 2 anos, placa hiperceratótica e verrucosa no dorso da mão direita . O exame micológico direto realizado a apartir de amostra tecidual revelou corpúsculos arredondados , pigmentados, conhecidos como células muriformes. Haja vista as informações descritas no caso, marque a opção que consta o principal agente etiológico suspeito:
+
+- **(A)** Leishmania amazonensis.  
+  <sub>Incorreta. A leishmaniose tegumentar americana produz tipicamente úlcera de bordas elevadas e fundo granuloso, com amastigotas intracelulares na pesquisa direta, e não células muriformes.</sub>
+
+- **(B)** ✅ Fonsecaea pedrosoi.  
+  <sub>Correta. A placa hiperceratótica e verrucosa de evolução crônica em paciente da região Norte, com corpúsculos arredondados e pigmentados (células muriformes) ao exame micológico direto, define cromoblastomicose, micose profunda prevalente em clima tropical cujo principal agente etiológico é o Fonsecaea pedrosoi; nas formas limitadas, a excisão cirúrgica é o tratamento de escolha.</sub>
+
+- **(C)** Paracoccidioides brasiliensis.  
+  <sub>Incorreta. A paracoccidioidomicose apresenta lesões ulcerocrostosas e estomatite moriforme, com leveduras multibrotantes em roda de leme ao exame direto, achado distinto do descrito.</sub>
+
+- **(D)** Sporothrix brasiliensis.  
+  <sub>Incorreta. A esporotricose evolui com nódulo de inoculação e disseminação linfangítica ascendente, tendo exame direto habitualmente pobre e diagnóstico firmado por cultura.</sub>
+
+**Alternativa descartada** — era a (C): *Mycobacterium leprae*  
+Motivo: Distrator implausível, já que a hanseníase cursa com lesões hipocrômicas ou infiltradas com alteração de sensibilidade, jamais com células muriformes ao micológico direto.
+
+<sub>Renumeração: B→A, A→B, D→C, E→D · gabarito A → B</sub>
+
+### 55. Transtornos relacionados a trauma e estressores  
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · facil · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 55*
+
+> **convertida 5→4**
+
+**Enunciado:** Empresário de 27 anos, previamente hígido, foi sequestrado há cerca de 5 semanas, após agendar encontro em rede social, tendo passado cerca de 24 horas sob o controle dos criminosos, período no qual sofreu ameaças quanto a sua integridade física. Durante atendimento médico referiu palpitações, angústia, pesadelos recorrentes e isolamento social. Qual é o diagnóstico mais provável nesse caso:
+
+- **(A)** Transtorno depressivo.  
+  <sub>Incorreta. O transtorno depressivo exigiria humor deprimido persistente ou anedonia como sintomas nucleares, o que não é descrito; aqui os sintomas estão diretamente ancorados na revivência do evento traumático.</sub>
+
+- **(B)** ✅ Transtorno de estresse pós-traumático.  
+  <sub>Correta. O transtorno de estresse pós-traumático caracteriza-se por revivência do evento traumático (pesadelos recorrentes), conduta de esquiva e isolamento social, hiperativação autonômica com palpitações e alterações do sono, com duração superior a um mês após o trauma, como nas cinco semanas relatadas.</sub>
+
+- **(C)** Transtorno fóbico-ansioso.  
+  <sub>Incorreta. Os transtornos fóbico-ansiosos caracterizam-se por medo desproporcional e esquiva de situações ou objetos específicos, sem o vínculo com a revivência de um trauma definido e sem os pesadelos recorrentes descritos.</sub>
+
+- **(D)** Reação aguda ao estresse.  
+  <sub>Incorreta. A reação aguda ao estresse é transitória e se resolve em horas a poucos dias após o evento; o critério temporal de sintomas persistentes por mais de um mês, satisfeito neste caso, define o transtorno de estresse pós-traumático.</sub>
+
+**Alternativa descartada** — era a (D): *Síndrome de Burnout*  
+Motivo: Distrator implausível, já que a síndrome de burnout decorre de estresse ocupacional crônico e não guarda relação com o evento traumático agudo descrito.
+
+<sub>Renumeração: B→A, A→B, C→C, E→D · gabarito A → B</sub>
+
+### 56. Ética médica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 56*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A referência normativa está datada incorretamente: a Resolução CFM nº 2.217 é de 2018, tendo sido apenas alterada por resoluções posteriores de 2018 e 2019.
+
+**Enunciado:** O código de ética médica é um documento que determina os direitos e obrigações do médico e surgiu devido a necessidade de resguardar as atividades legalizadas e punir as condutas não autorizadas. Desse modo, de acordo com a Resolução CFM nº 2217, de 27/09/2019, no que diz respeito ao sigilo profissional, é vedado ao médico:
+
+- **(A)** Revelar fato de que tenha conhecimento em virtude do exercício de sua profissão, salvo por motivo justo, dever legal, na investigação de suspeita de crime ou consentimento, por escrito, do paciente.  
+  <sub>Incorreta. A redação reproduz as exceções legítimas previstas no artigo 73 (motivo justo, dever legal e consentimento por escrito), descrevendo portanto situação admitida, e não a conduta vedada solicitada pelo comando.</sub>
+
+- **(B)** Revelar sigilo profissional relacionado a paciente criança ou adolescente, desde que estes tenham capacidade de discernimento, inclusive a seus pais ou representantes legais, mesmo quando a não revelação possa acarretar dano ao paciente.  
+  <sub>Incorreta. A vedação do Código alcança a revelação do sigilo de criança ou adolescente com capacidade de discernimento, inclusive aos pais, exceto quando a não revelação possa acarretar dano ao paciente — ressalva que a alternativa inverte.</sub>
+
+- **(C)** ✅ Fazer referência a casos clínicos identificáveis, exibir pacientes ou imagens que os tornem reconhecíveis em anúncios profissionais ou na divulgação de assuntos médicos em meios de comunicação em geral, mesmo com autorização do paciente.  
+  <sub>Correta. O artigo 75 do Código de Ética Médica veda ao médico fazer referência a casos clínicos identificáveis, exibir pacientes ou imagens que os tornem reconhecíveis em anúncios profissionais ou na divulgação de assuntos médicos em meios de comunicação, mesmo com autorização do paciente.</sub>
+
+- **(D)** Prestar informações a empresas seguradoras sobre as circunstâncias da morte do paciente sob seus cuidados, além das contidas na declaração de óbito, mesmo com expresso consentimento do seu representante legal.  
+  <sub>Incorreta. É vedado prestar a seguradoras informações sobre as circunstâncias da morte além das contidas na declaração de óbito, salvo mediante expresso consentimento do representante legal, ressalva desconsiderada pela alternativa.</sub>
+
+**Alternativa descartada** — era a (C): *Revelar fato de que tenha conhecimento em virtude do exercício de sua profissão, salvo por motivo justo, dever legal, consentimento por escrito do paciente ou quando o fato já seja de conhecimento público*  
+Motivo: Duplicata quase literal da alternativa B, diferindo apenas na inclusão do fato de conhecimento público, o que gera sobreposição desnecessária.
+
+<sub>Renumeração: B→A, D→B, A→C, E→D · gabarito A → C</sub>
+
+### 57. Semiologia médica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 57*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A justificativa oficial é genérica e não discrimina o erro de cada alternativa incorreta.
+
+**Enunciado:** O processo semiológico tem sequência na anamnese, exame físico e exames complementares. A escuta criteriosa e aplicação de adequada semiotécnica em uma anamnese, fornecerá as bases para decisões diagnósticas e terapêuticas bem-sucedidas. Dentro deste contexto, assinale a alternativa correta:
+
+- **(A)** ✅ A identificação demonstra o perfil sociodemográfico do paciente que permite a interpretação de dados individuais e coletivos.  
+  <sub>Correta. A identificação registra o perfil sociodemográfico do paciente e permite a interpretação tanto dos dados individuais quanto de padrões coletivos de adoecimento.</sub>
+
+- **(B)** A história da doença atual, elemento fundamental da anamnese, consiste na narrativa dos problemas correntes e deve ser construída inicialmente com perguntas dirigidas.  
+  <sub>Incorreta. A história da doença atual deve ser construída inicialmente com perguntas abertas, que preservam a narrativa do paciente; as perguntas dirigidas ficam para o detalhamento posterior.</sub>
+
+- **(C)** Perguntas abertas devem ser aplicadas para colher informações novas ou complementares durante o interrogatório sintomatológico ou revisão dos sistemas.  
+  <sub>Incorreta. No interrogatório sintomatológico ou revisão de sistemas predominam perguntas dirigidas e fechadas, destinadas ao rastreamento sistemático dos aparelhos.</sub>
+
+- **(D)** No item “QP” registra-se, em poucas palavras, o que levou o paciente a procurar o médico. As expressões usadas pelo paciente devem ser traduzidas em termos médicos, nesse momento.  
+  <sub>Incorreta. Na queixa principal registram-se, em poucas palavras, as próprias expressões do paciente; a tradução para termos médicos não deve ser feita nesse momento.</sub>
+
+**Alternativa descartada** — era a (D): *A técnica de sumarização durante a entrevista tem como objetivo acelerar o tempo disponibilizado para a consulta médica*  
+Motivo: Atribui à sumarização uma finalidade puramente cronométrica, afirmação implausível e facilmente eliminada por qualquer candidato.
+
+<sub>Renumeração: A→A, B→B, C→C, E→D · gabarito A → A</sub>
+
+### 58. Hipertensão arterial sistêmica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 58*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher, 68 anos, vem para reavaliação clínica de quadro de hipertensão arterial sistêmica, dislipidemia e diabetes mellitus em uso de enalapril 20 mg/d, hidroclorotiazida 25 mg/d, atorvastatina 40 mg/d e metformina 2 g/dia. Queixa-se de tonturas e cefaleia. Sua pressão arterial medida na consulta foi de 144x94 mmHg e a FC 64 bpm/min. Exames complementares demonstram glicemia de jejum 145 mg/dl, hemoglobina glicada 7,6 %, LDL-c 122 mg/dl, HDL-c 51 mg/dl, triglicerídeos 124 mg/dl, Na 130 mmol/l, K 4,1 mmol/l, creatinina 1,2 mg/dl e relação albumina/creatinina de amostra de 180 mg/g. A conduta conveniente para esta paciente, quanto à sua hipertensão arterial:
+
+- **(A)** Suspender a hidroclorotiazida e associar losartana 50 mg/d.  
+  <sub>Incorreta. Embora acerte ao suspender a hidroclorotiazida, associa losartana ao enalapril, e o duplo bloqueio do sistema renina-angiotensina com IECA e BRA é contraindicado pelo risco de hipercalemia e piora da função renal.</sub>
+
+- **(B)** ✅ Suspender a hidroclorotiazida e associar anlodipino 5 mg/d.  
+  <sub>Correta. A hiponatremia (Na 130 mmol/L) e os sintomas de tontura e cefaleia apontam efeito adverso do tiazídico, que deve ser suspenso; a associação de um bloqueador de canal de cálcio ao IECA é a combinação apropriada para controle pressórico nesta paciente com nefropatia diabética incipiente.</sub>
+
+- **(C)** Manter a dose de hidroclorotiazida e associar atenolol 50 mg/d.  
+  <sub>Incorreta. Mantém o tiazídico responsável pela hiponatremia e acrescenta betabloqueador, que não é fármaco de primeira linha nesta paciente sem indicação cardíaca específica e com frequência cardíaca já em 64 bpm.</sub>
+
+- **(D)** Manter a dose de hidroclorotiazida e aumentar a dose de enalapril para 40 mg/d.  
+  <sub>Incorreta. Mantém a hidroclorotiazida implicada na hiponatremia sintomática e apenas eleva a dose do IECA, estratégia menos eficaz do que a associação de fármacos de classes complementares.</sub>
+
+**Alternativa descartada** — era a (D): *Manter a dose de hidroclorotiazida e associar losartana 50 mg/d*  
+Motivo: Repete o mesmo erro conceitual da alternativa B (associação de IECA com BRA), configurando duplicata de raciocínio entre distratores.
+
+<sub>Renumeração: B→A, A→B, C→C, E→D · gabarito A → B</sub>
+
+### 59. Ética médica e terminalidade  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 59*
+
+> **convertida 5→4**
+
+**Enunciado:** Homem de 61 anos, portador de esclerose lateral amiotrófica (ELA) há 5 anos, está acamado, recebendo dieta por gastrostomia e com importante disartria. Seu prognóstico é de menos de 6 meses de vida. Ele pediu ao seu médico medicações que pudessem abreviar o seu sofrimento. Após confirmar a vontade do paciente e com a concordância dos familiares, o médico lhe prescreveu dose letal de barbitúricos, que o paciente auto-administrou, morrendo poucos minutos após. Considerando a legislação e a normatização ética brasileira vigente, o médico:
+
+- **(A)** praticou eutanásia, prática considerada ilegal no País, e assim, também vedada pelo Código de Ética Médica.  
+  <sub>Incorreta. Na eutanásia é o próprio médico quem executa o ato que causa a morte, ao passo que aqui a dose letal foi autoadministrada pelo paciente.</sub>
+
+- **(B)** praticou ortotanásia, permitindo que a doença do paciente seguisse seu curso natural de forma digna, conforme recomendado pelo Código de Ética Médica.  
+  <sub>Incorreta. Ortotanásia é permitir que a doença siga seu curso natural sem obstinação terapêutica, sem antecipar deliberadamente a morte.</sub>
+
+- **(C)** ✅ ajudou o paciente a realizar suicídio assistido, prática considerada ilegal no País, e assim, também vedada pelo Código de Ética Médica.  
+  <sub>Correta. O médico forneceu os meios para que o próprio paciente abreviasse a vida, o que configura suicídio assistido, prática ilegal no Brasil e, por consequência, vedada pelo Código de Ética Médica.</sub>
+
+- **(D)** cometeu distanásia, ao alterar o curso natural da doença do paciente, acelerando o processo de morte, o que é vedado pelo Código de Ética Médica.  
+  <sub>Incorreta. Distanásia é o prolongamento fútil do processo de morrer com medidas desproporcionais, situação oposta à descrita no caso.</sub>
+
+**Alternativa descartada** — era a (E): *Somente poderia ter agido desta forma se o paciente assim solicitasse, através de Testamento Vital com suas diretivas antecipadas de vontade*  
+Motivo: Alternativa não paralela às demais e implausível, pois nenhuma diretiva antecipada de vontade legitima o suicídio assistido no ordenamento brasileiro.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 60. Ética médica  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 60*
+
+> **convertida 5→4**
+
+**Enunciado:** “Àquilo que no exercício ou fora do exercício da profissão e no convívio da sociedade, eu tiver visto ou ouvido, que não seja preciso divulgar, eu conservarei inteiramente secreto.” O trecho do juramento de Hipócrates traz um dos mais importantes princípios da profissão médica, que é o compromisso do sigilo. Entretanto, prevê situações de exceção aos fatos que precisam ser divulgados. Segundo o Código de Ética Médica vigente (Resolução CFM 2217/2018), o sigilo pode ser quebrado pelo médico se:
+
+- **(A)** Tratar-se de fato já de amplo conhecimento público.  
+  <sub>Incorreta. O artigo 73 é expresso ao manter a vedação de revelar fato de que se tenha conhecimento em razão do exercício profissional, proibição que persiste ainda que o fato seja de conhecimento público.</sub>
+
+- **(B)** O paciente já tenha falecido.  
+  <sub>Incorreta. O dever de sigilo não se extingue com o falecimento do paciente; o Código de Ética Médica mantém a proibição de revelação mesmo após a morte, conforme o artigo 73.</sub>
+
+- **(C)** Estiver em depoimento como testemunha em investigação que exponha o paciente a processo penal por crime.  
+  <sub>Incorreta. Ao depor como testemunha, o médico deve comparecer perante a autoridade e declarar-se impedido de responder, valendo-se do sigilo profissional, justamente quando a revelação puder expor o paciente a processo penal, conforme o artigo 73.</sub>
+
+- **(D)** ✅ Revelar informações do prontuário do paciente sob sua guarda em sua própria defesa.  
+  <sub>Correta. O artigo 89 do Código de Ética Médica assegura ao médico o direito de utilizar informações do prontuário sob sua guarda em sua própria defesa, configurando uma das exceções legítimas ao dever de sigilo profissional.</sub>
+
+**Alternativa descartada** — era a (D): *O paciente autorizar o uso de sua imagem em anúncios profissionais*  
+Motivo: Distrator menos discriminativo, pois trata de publicidade médica e não de quebra de sigilo, desviando-se do eixo conceitual avaliado e sendo descartado de imediato.
+
+<sub>Renumeração: B→A, C→B, E→C, A→D · gabarito A → D</sub>
+
+### 61. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 61*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher de 70 anos, hipertensa e diabética, com dispneia aos esforços, foi internada com quadro de dor torácica e síncope aos moderados esforços. História prévia de angioplastia coronariana, porém com cateterismo sem lesões coronarianas novas. Ao exame, apresentava PA 124/104 mmHg; FC 96 bpm e ritmo regular com ascensão lenta, sopro sistólico ejetivo com pico mesossistólico mais audível em 2º EIC próximo à borda esternal D e com irradiação para carótidas. Qual a valvopatia provável?
+
+- **(A)** ✅ Estenose aórtica.  
+  <sub>Correta. A tríade angina, síncope aos esforços e dispneia, somada a pulso de ascensão lenta e sopro sistólico ejetivo com pico mesossistólico no 2º espaço intercostal direito irradiado para as carótidas, caracteriza a estenose aórtica, a valvopatia mais prevalente no idoso.</sub>
+
+- **(B)** Estenose mitral.  
+  <sub>Incorreta. A estenose mitral produz sopro diastólico em ruflar no foco mitral, com reforço pré-sistólico e estalido de abertura, e não sopro sistólico ejetivo em foco aórtico.</sub>
+
+- **(C)** Insuficiência aórtica.  
+  <sub>Incorreta. A insuficiência aórtica cursa com sopro diastólico aspirativo em foco aórtico acessório e pulso amplo e célere, o oposto da ascensão lenta descrita.</sub>
+
+- **(D)** Insuficiência mitral.  
+  <sub>Incorreta. A insuficiência mitral gera sopro holossistólico em ponta com irradiação para a axila, e não sopro mesossistólico irradiado para as carótidas.</sub>
+
+**Alternativa descartada** — era a (E): *Insuficiência tricúspide*  
+Motivo: Distrator menos discriminativo, pois a insuficiência tricúspide não compõe o diagnóstico diferencial de sopro ejetivo em foco aórtico com irradiação para carótidas.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 62. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 62*
+
+> **convertida 5→4**
+
+**Enunciado:** Homem, 65 anos, dislipidemico e diabético, chega ao pronto-socorro com queixa de dor torácica de forte intensidade há 2 horas, com duração de 20 minutos, sem melhora ao repouso, com irradiação para os membros superiores. Sem alterações ao exame físico e eletrocardiograma. Apresentou troponina com resultado positivo. A respeito do tratamento desse paciente, a medicação que apresenta alteração na mortalidade é:
+
+- **(A)** Nitrato.  
+  <sub>Incorreta. O nitrato alivia a dor anginosa por venodilatação e redução da pré-carga, mas não altera a mortalidade.</sub>
+
+- **(B)** Alteplase.  
+  <sub>Incorreta. A alteplase não tem indicação no infarto sem supradesnivelamento de ST, no qual a fibrinólise não traz benefício e aumenta o risco hemorrágico; a estratégia é antitrombótica associada a estratificação invasiva.</sub>
+
+- **(C)** ✅ Ácido acetilsalicílico.  
+  <sub>Correta. O ácido acetilsalicílico é a medida com benefício comprovado em redução de mortalidade no infarto agudo do miocárdio sem supradesnivelamento de ST, pela antiagregação plaquetária, devendo ser administrado precocemente.</sub>
+
+- **(D)** Morfina.  
+  <sub>Incorreta. A morfina é apenas analgésica nos casos refratários, sem impacto em mortalidade, podendo inclusive retardar a absorção dos antiagregantes orais.</sub>
+
+**Alternativa descartada** — era a (E): *Oxigênio*  
+Motivo: Distrator pouco discriminativo e redundante com nitrato e morfina no grupo de medidas sintomáticas, sendo o oxigênio nem sequer indicado na ausência de hipoxemia.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 63. Insuficiência cardíaca  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 63*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Enunciado truncado ao final ('fração de ejeção reduzid').
+
+**Enunciado:** A Insuficiência cardíaca (IC) é uma síndrome clínica complexa, na qual o coração é incapaz de bombear sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento. Em relação a IC assinale a alternativa que corresponde às medicações que modificam a sobrevida do paciente com IC com fração de ejeção reduzid
+
+- **(A)** Digoxina + Lisinopril + Carvedilol + Espironolactona.  
+  <sub>Incorreta. A digoxina reduz internações, mas não modifica a mortalidade, o que descaracteriza a associação como esquema modificador de sobrevida.</sub>
+
+- **(B)** Metoprolol + Enalapril + Furosemida + Dapagliflozina.  
+  <sub>Incorreta. A furosemida é medicação sintomática, atuando sobre a congestão sem impacto na sobrevida, e o esquema ainda deixa de contemplar o antagonista mineralocorticoide.</sub>
+
+- **(C)** Ramipril + Metoprolol + Espironolactona + Furosemida.  
+  <sub>Incorreta. Inclui novamente a furosemida, sem efeito sobre a mortalidade, e omite o inibidor de SGLT2, componente essencial do quarteto.</sub>
+
+- **(D)** ✅ Enalapril + Bisoprolol + Espironolactona + Dapagliflozina.  
+  <sub>Correta. Enalapril (IECA), bisoprolol (betabloqueador), espironolactona (antagonista mineralocorticoide) e dapagliflozina (iSGLT2) compõem o chamado 'quarteto fantástico', associação com benefício comprovado de sobrevida na IC com fração de ejeção reduzida.</sub>
+
+**Alternativa descartada** — era a (B): *Digoxina + Captopril + Furosemida + Empagliflozina*  
+Motivo: Distrator mais fraco por acumular dois fármacos apenas sintomáticos (digoxina e furosemida), tornando-se redundante em relação às demais opções.
+
+<sub>Renumeração: C→A, D→B, E→C, A→D · gabarito A → D</sub>
+
+### 64. Hipotireoidismo primário  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 64*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O comando é negativo e impreciso ("assinale a alternativa que não possui relação com o enunciado"), destoando do padrão ENAMED de comando direto e afirmativo.
+
+**Enunciado:** Podemos definir hipotireoidismo como um estado clínico resultante da quantidade insuficiente de hormônios circulantes da tireóide para suprir uma função orgânica normal. A forma mais prevalente é a doença tireoidiana primária, mas também pode ocorrer hipotireoidismo devido a doença hipotalâmica ou hipofisária (denominado hipotireoidismo central). Sobre as manifestações clínicas do hipotireoidismo primário, assinale a alternativa que não possui relação com o enunciado
+
+- **(A)** Mulheres com hipotireoidismo podem apresentar alterações no ciclo menstrual como oligomenorréia ou amenorreia.  
+  <sub>Incorreta. Alterações menstruais como oligomenorreia e amenorreia são manifestações clássicas do hipotireoidismo em mulheres, guardando relação direta com o enunciado.</sub>
+
+- **(B)** Fadiga, movimentos e fala lenta, intolerância ao frio e constipação são sintomas esperados.  
+  <sub>Incorreta. Fadiga, lentificação dos movimentos e da fala, intolerância ao frio e constipação compõem o quadro clínico típico da deficiência de hormônios tireoidianos.</sub>
+
+- **(C)** Mixedema ocorre como resultado da infiltração da pele com glicosaminoglicanos com retenção hídrica associada.  
+  <sub>Incorreta. O mixedema resulta da infiltração cutânea por glicosaminoglicanos com retenção hídrica associada, sendo achado característico do hipotireoidismo.</sub>
+
+- **(D)** ✅ Hipernatremia é esperada pelo aumento na depuração da água livre.  
+  <sub>Correta. É a alternativa sem relação com o hipotireoidismo primário: o esperado é hiponatremia decorrente da redução na depuração de água livre, e não hipernatremia por aumento dessa depuração.</sub>
+
+**Alternativa descartada** — era a (C): *A perda de cabelo é comum e as unhas se tornam quebradiças*  
+Motivo: Distrator pouco discriminativo, por descrever achado tegumentar genérico e inespecífico que não mobiliza raciocínio fisiopatológico.
+
+<sub>Renumeração: B→A, D→B, E→C, A→D · gabarito A → D</sub>
+
+### 65. Síndromes disabsortivas  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 65*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher de 21 anos, iniciou há 02 meses com quadro de diarreia de característica disabsortiva, incluindo perda de peso, mas sem presença de sangue nas fezes, associado a episódios de dores abdominais. Foi avaliada pelo gastroenterologista, que ao realizar o exame físico percebeu presença de dermatite herpetiforme. Diante desse quadro, qual o diagnóstico mais provável e o teste mais sensível:
+
+- **(A)** Retocolite Ulcerativa / Calprotectina fecal.  
+  <sub>Incorreta. A retocolite ulcerativa cursa tipicamente com diarreia com sangue e muco e não com síndrome disabsortiva; a calprotectina fecal apenas indica inflamação intestinal, sem especificidade diagnóstica, e não explica a dermatite herpetiforme.</sub>
+
+- **(B)** Doença de Crohn / Proteina C reativa.  
+  <sub>Incorreta. Embora a doença de Crohn possa cursar com disabsorção, a dermatite herpetiforme é marcador cutâneo da doença celíaca, e a proteína C reativa é marcador inflamatório inespecífico, sem valor diagnóstico definidor.</sub>
+
+- **(C)** ✅ Doença celíaca / Anti-transglutaminase IgA.  
+  <sub>Correta. A diarreia disabsortiva com perda de peso, sem sangue nas fezes, associada à dermatite herpetiforme configura quadro clássico de doença celíaca, cujo teste sorológico mais sensível para rastreamento diagnóstico é o anticorpo antitransglutaminase tecidual IgA.</sub>
+
+- **(D)** Doença celíaca / Anti-gliadina IgA.  
+  <sub>Incorreta. O diagnóstico está correto, mas o anticorpo antigliadina, embora possa ser utilizado, apresenta sensibilidade e especificidade inferiores às do antitransglutaminase IgA, não sendo o teste mais sensível.</sub>
+
+**Alternativa descartada** — era a (E): *Retocolite Ulcerativa/ Colonoscopia*  
+Motivo: Distrator redundante, pois repete a mesma hipótese diagnóstica da alternativa B, reduzindo o poder discriminativo do conjunto.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 66. Gastroenterologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 66*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A alternativa B é parcialmente defensável, pois os dados clínicos oferecidos não permitem separar com segurança doença ulcerosa de gastropatia reativa a AINE sem endoscopia.
+
+**Enunciado:** Homem de 28anos, tabagista, vem a consulta médica referindo dor epigástrica, tipo queimação, piora no período pós-prandial e melhora com uso de antiácidos ou alimentos alcalinos há 4 meses. Relata uso de ibuprofeno recente devido a quadro de cefaleia. Diante desse quadro, a qual a principal hipótese diagnóstico e a complicação mais comum dessa patologia:
+
+- **(A)** Gastropatia reativa ao antiinflamatório / Hemorragia.  
+  <sub>Incorreta. A gastropatia reativa ao anti-inflamatório é diagnóstico endoscópico e histológico e não explica isoladamente quatro meses de dor rítmica, iniciada antes do uso recente de ibuprofeno.</sub>
+
+- **(B)** Doença Ulcerosa/ Perfuração.  
+  <sub>Incorreta. A hipótese diagnóstica está correta, mas a perfuração é complicação menos frequente (cerca de 7%) do que a hemorragia digestiva.</sub>
+
+- **(C)** ✅ Doença ulcerosa / Hemorragia.  
+  <sub>Correta. Dor epigástrica em queimação, com piora pós-prandial e alívio com antiácidos ou alimentos alcalinos, em tabagista com uso de anti-inflamatório, é quadro clássico de doença ulcerosa péptica, cuja complicação mais frequente é a hemorragia (cerca de 15%).</sub>
+
+- **(D)** Doença celíaca / Linfoma.  
+  <sub>Incorreta. A doença celíaca cursa tipicamente com diarreia, distensão e sinais de má absorção, e o linfoma é complicação tardia e rara, incompatíveis com o quadro descrito.</sub>
+
+**Alternativa descartada** — era a (D): *Colangiocarcinoma / Obstrução das vias biliares*  
+Motivo: Distrator implausível, pois colangiocarcinoma com obstrução biliar não guarda relação com a dor epigástrica rítmica descrita em paciente de 28 anos.
+
+<sub>Renumeração: B→A, C→B, A→C, E→D · gabarito A → C</sub>
+
+### 67. Prevenção cardiovascular  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 67*
+
+> **convertida 5→4**
+
+**Enunciado:** Paciente masculino de 59 anos, teve infarto agudo do miocárdio há 10 anos, evoluiu com insuficiência cardíaca congestivo com fração de ejeção do Ventrículo Esquerdo aferida em 29%. Foi submetido a cineangiocoronariografia há 1 mês que mostrou lesões estenóticas ateroscleróticas de grau acentuado em terço proximal da Coronária Circunflexa e do ramo Descendente Anterior da Coronária Esquerda. Para este paciente, a meta de LDL colesterol deve ser abaixo de:
+
+- **(A)** 70 mg%.  
+  <sub>Incorreta. LDL abaixo de 70 mg/dL corresponde à meta de pacientes de alto risco, insuficiente diante do perfil de risco muito alto aqui descrito.</sub>
+
+- **(B)** 100 mg%.  
+  <sub>Incorreta. LDL abaixo de 100 mg/dL é meta de risco intermediário, muito acima do recomendado em prevenção secundária com disfunção ventricular.</sub>
+
+- **(C)** ✅ 50 mg%.  
+  <sub>Correta. Paciente com doença aterosclerótica coronariana estabelecida, disfunção ventricular grave e lesões multiarteriais é classificado como de risco muito alto; segundo a Atualização da Diretriz de Prevenção Cardiovascular da Sociedade Brasileira de Cardiologia (2019), a meta é LDL-colesterol abaixo de 50 mg/dL.</sub>
+
+- **(D)** 130 mg%.  
+  <sub>Incorreta. LDL abaixo de 130 mg/dL aplica-se a indivíduos de baixo risco, sendo inadequado para doença coronariana estabelecida.</sub>
+
+**Alternativa descartada** — era a (E): *160 mg%*  
+Motivo: Meta de 160 mg/dL é clinicamente implausível para qualquer estrato de risco cardiovascular, funcionando como distrator inoperante.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 68. Infecções bacterianas de pele  
+`med_unidavi_f09_uc01_saude_crianca` · fase 9 · pediatria · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 68*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado da alternativa A está truncado ('após é de 18-21 dias'), faltando o complemento do período latente.
+
+**Enunciado:** Criança do sexo masculino, 6 anos, apresenta quadro de febre, mal estar, hiporexia, associada a eritema e crostas amareladas ao redor do nariz e boca. De acordo com o caso e sua principal hipótese diagnóstica, assinale a alternativa correta
+
+- **(A)** Não se encontra outro agente além do Staphylococos aureus.  
+  <sub>Incorreta. Além do Staphylococcus aureus, o Streptococcus pyogenes é agente etiológico frequente do impetigo crostoso, sendo justamente ele o responsável pelo risco de nefrite.</sub>
+
+- **(B)** A febre reumática é uma complicação temida.  
+  <sub>Incorreta. A febre reumática decorre de infecção estreptocócica de orofaringe; o impetigo estreptocócico associa-se a glomerulonefrite, mas não desencadeia febre reumática.</sub>
+
+- **(C)** As lesões podem coalescer e curam deixando cicatrizes.  
+  <sub>Incorreta. As lesões podem de fato coalescer, porém são superficiais e curam sem deixar cicatrizes, diferentemente do ectima, que atinge a derme.</sub>
+
+- **(D)** ✅ O período latente para o desenvolvimento de nefrite após é de 18-21 dias.  
+  <sub>Correta. O impetigo crostoso é a principal causa cutânea de glomerulonefrite difusa aguda pós-estreptocócica, cujo período de latência entre a infecção de pele e a nefrite é de aproximadamente 18 a 21 dias.</sub>
+
+**Alternativa descartada** — era a (E): *É uma doença comum em crianças, com etiologia viral e cura espontânea em 2-3 semanas*  
+Motivo: Atribuir etiologia viral e resolução espontânea contraria de forma grosseira o quadro descrito de crostas melicéricas, tornando o distrator implausível.
+
+<sub>Renumeração: B→A, C→B, D→C, A→D · gabarito A → D</sub>
+
+### 69. Cirurgia vascular  
+`med_unidavi_f11_uc01_clinica_cirurgica` · fase 11 · cirurgia · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 69*
+
+> **convertida 5→4**
+
+**Enunciado:** As úlceras crônicas dos membros inferiores afetam grande parcela da população adulta e causam impactos social e econômico significativos, relacionados a cuidados ambulatoriais e hospitalares, ausência ao trabalho, gastos previdenciários e redução da qualidade vida. O diagnóstico correto e a abordagem terapêutica são fundamentais para uma evolução favorável. As etiologias mais comuns são as venosas, arteriais e neuropáticas, que correspondem a 90% das causas. Em relação às úlceras neuropáticas, as causas mais prevalentes são as neuropatias diabética, hansênica e alcoólica. Identifique a alternativa que apresenta corretamente as características clínicas que auxiliam no diagnóstico dessas úlceras
+
+- **(A)** Os distúrbios dos nervos autonômicos acarretam alterações cutâneas como pele úmida e fina e, como consequência, surgem fissuras nas regiões plantares.  
+  <sub>Incorreta. O distúrbio dos nervos autonômicos gera pele seca e espessa, e não úmida e fina, sendo esse ressecamento o responsável pelas fissuras plantares.</sub>
+
+- **(B)** Nas úlceras neuropáticas exclusivas, a coloração dos pés é pálida e cianótica, por distúrbio autonômico.  
+  <sub>Incorreta. Nas úlceras neuropáticas exclusivas os pulsos são amplos e a coloração dos pés é normal ou eritematosa; palidez e cianose indicam componente isquêmico associado.</sub>
+
+- **(C)** ✅ A úlcera sempre é precedida por calosidade não dolorosa, e se apresenta com um anel hiperceratótico ao seu redor, formando uma borda calosa; o centro é profundo e granuloso.  
+  <sub>Correta. A úlcera neuropática é sempre precedida por calosidade não dolorosa e se apresenta com anel hiperceratótico ao redor, formando borda calosa, com centro profundo e granuloso, podendo haver áreas hemorrágicas por traumatismo ou atrito local.</sub>
+
+- **(D)** A principal complicação das úlceras neuropáticas é a osteomielite, que se apresenta com odor fétido, presença de exsudato amarelo‐esverdeado, surgimento de dor local e esfacelo em excesso.  
+  <sub>Incorreta. Odor fétido, exsudato amarelo-esverdeado, dor local e esfacelo em excesso são sinais de infecção da úlcera, e não a apresentação específica da osteomielite, sendo as infecções cutâneas locais e a osteomielite as principais complicações.</sub>
+
+**Alternativa descartada** — era a (E): *Alterações tróficas normalmente se apresentam como hipertrofia muscular. Pode haver presença de hiperrrelexia na avaliação neurológica*  
+Motivo: Alternativa implausível e com erro de digitação, pois a neuropatia cursa com atrofia muscular e hiporreflexia, e não com hipertrofia e hiperreflexia.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 70. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 70*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A alternativa correta é muito mais extensa que as demais, o que pode funcionar como pista formal de gabarito.
+
+**Enunciado:** O diagnóstico de sífilis exige uma correlação entre dados clínicos, resultados de testes laboratoriais, histórico de infecções passadas e investigação de exposição recente. Apenas o conjunto de todas essas informações permitirá a correta avaliação diagnóstica de cada caso e, consequentemente, o tratamento adequado. Sobre o tema, identifique a proposição correta
+
+- **(A)** Considerando a epidemia de sífilis no Brasil e a sensibilidade dos fluxos de diagnóstico, recomenda-se iniciar a investigação pelo teste não treponêmico, que é o primeiro teste a ficar reagente.  
+  <sub>Incorreta. Considerando a epidemia de sífilis no Brasil e a sensibilidade dos fluxos diagnósticos, recomenda-se iniciar a investigação pelo teste treponêmico, que é o primeiro a se tornar reagente, e não pelo teste não treponêmico.</sub>
+
+- **(B)** Os títulos altos nos testes não treponêmicos jamais podem ser encontrados em pacientes adequadamente tratados.  
+  <sub>Incorreta. Títulos altos em testes não treponêmicos, especialmente quando em queda, podem sim ser encontrados em pacientes adequadamente tratados, razão pela qual o seguimento sorológico seriado é indispensável.</sub>
+
+- **(C)** ✅ A análise isolada do título de um único resultado de VDRL é um equívoco frequente, pois a ideia de um ponto de corte acima do qual o resultado seria indicativo de doença ativa e, abaixo, indicativo de resultado falso reagente ou de inatividade da doença, leva a decisões terapêuticas inadequadas.  
+  <sub>Correta. Analisar isoladamente o título de um único resultado de teste não treponêmico é equívoco frequente; a antiga ideia de um ponto de corte acima do qual haveria doença ativa e abaixo do qual o resultado seria falso reagente ou indicaria inatividade leva a decisões terapêuticas inadequadas. A interpretação exige correlação com clínica, história de tratamento e exposição, além de acompanhamento seriado dos títulos.</sub>
+
+- **(D)** Os títulos baixos nos testes treponêmicos podem ser encontrados em casos de pessoas adequadamente tratadas, e esse fenômeno é denominado cicatriz sorológica.  
+  <sub>Incorreta. A cicatriz sorológica refere-se a títulos baixos persistentes nos testes NÃO treponêmicos em pessoas adequadamente tratadas; os testes treponêmicos permanecem quase sempre reagentes por toda a vida, independentemente do tratamento.</sub>
+
+**Alternativa descartada** — era a (E): *A pesquisa de IgM e IgG pelo método Elisa tem sensibilidade distintas do FTA-Abs, o que justifica sua escolha na sífilis tardia*  
+Motivo: Distrator mais fraco por introduzir comparação técnica marginal entre ELISA e FTA-Abs, tema periférico ao eixo avaliado e sem sustentação nas diretrizes, o que o torna pouco discriminativo.
+
+<sub>Renumeração: B→A, C→B, A→C, D→D · gabarito A → C</sub>
+
+### 71. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 71*
+
+> **convertida 5→4**
+
+**Caso:** A hepatite viral B é causada por um vírus DNA pertencente à família Hepadnaviridae. Os vírus dessa família têm características em comum, como fita dupla incompleta e replicação do genoma viral por enzima transcriptase reversa. Sobre a imunopatogênese e o seguimento dessa infecção viral, são feitas as seguintes afirmações: I – Para o acompanhamento da infecção, utilizam-se marcadores séricos de imunidade (anti-HBs), a avaliação da presença do antígeno de superfície do HBV (HBsAg) e a quantificação do vírus na corrente sanguínea (carga viral/HBV-DNA). II – A variabilidade de resultados no tratamento e na evolução da hepatite crônica poderia ser atribuída às características virais, o que justifica a escolha da terapêutica em função da genotipagem do HBV. III – A evolução para infecção crônica ocorre em menor proporção nos extremos de idade, e é definida como a persistência do vírus ou a presença do HBsAg por mais de seis meses, detectada por meio de testes sorológicos.
+
+**Enunciado:** Está correto o que se afirma em:
+
+- **(A)** ✅ I, apenas.  
+  <sub>Correta. Apenas a afirmativa I procede: o seguimento da infecção pelo HBV baseia-se nos marcadores séricos de imunidade (anti-HBs), na pesquisa do antígeno de superfície (HBsAg) e na quantificação do HBV-DNA, cujo desaparecimento acompanhado do surgimento do anti-HBs indica resolução da infecção.</sub>
+
+- **(B)** II, apenas.  
+  <sub>Incorreta. A afirmativa II é falsa: embora a variabilidade de resposta possa ser atribuída a características virais e alguns genótipos respondam melhor à alfainterferona, não há, até o momento, evidência que sustente escolher a terapêutica com base na genotipagem do HBV.</sub>
+
+- **(C)** I e II, apenas.  
+  <sub>Incorreta. Ainda que a afirmativa I esteja correta, a II é falsa, pois a genotipagem não orienta a escolha terapêutica na prática atual.</sub>
+
+- **(D)** I e III, apenas.  
+  <sub>Incorreta. A afirmativa III é falsa: a cronificação é mais frequente, e não menos, nos extremos de idade, sobretudo na transmissão vertical e na primeira infância, embora a definição por HBsAg persistente por mais de seis meses esteja correta.</sub>
+
+**Alternativa descartada** — era a (E): *II e III, apenas*  
+Motivo: Combina as duas afirmativas falsas (II e III), sendo a opção menos plausível e de baixo poder discriminativo.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 72. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 72*
+
+> **convertida 5→4**
+
+**Enunciado:** A infecção pelo vírus Delta pode ser simultânea ou posterior à infecção pelo vírus da Hepatite B. Denomina-se a infecção simultânea de coinfecção, e a infecção secundária de superinfecção. Sobre o tema, identifique a alternativa correta
+
+- **(A)** ✅ Na maioria dos casos, o quadro clínico da coinfecção HBV/HDV evolui com hepatite aguda benigna, e a coinfecção HBV/HDV resulta em completa recuperação em até 95% dos casos.  
+  <sub>Correta. Na coinfecção HBV/HDV há interferência viral com prejuízo da replicação do HBV, e o curso costuma ser de hepatite aguda benigna, muitas vezes bifásica, com recuperação completa em até 95% dos casos; formas fulminantes são excepcionais.</sub>
+
+- **(B)** A coinfecção HBV/HDV se revela mais grave e de pior prognóstico.  
+  <sub>Incorreta. É a superinfecção pelo HDV em portador do HBsAg que se revela mais grave e de pior prognóstico, pois a antigenemia pré-existente favorece replicação intensa do HDV e dano hepático acentuado.</sub>
+
+- **(C)** O risco de desenvolvimento de infecção crônica torna-se significativamente maior na coinfecção (79,9%) quando comparado à superinfecção (3%).  
+  <sub>Incorreta. Os percentuais estão invertidos: o risco de cronificação é maior na superinfecção (cerca de 79,9%) do que na coinfecção (cerca de 3%).</sub>
+
+- **(D)** A evolução para a doença crônica é variável entre dois a seis anos, exceto em crianças, em que a evolução ocorre mais lentamente.  
+  <sub>Incorreta. A evolução para doença crônica varia de dois a seis anos, porém em crianças ela ocorre mais rapidamente, e não mais lentamente.</sub>
+
+**Alternativa descartada** — era a (E): *O diagnóstico de hepatite delta em regiões não endêmicas deve ser sempre acompanhado de titulação do anti-HDV*  
+Motivo: Distrator pouco discriminativo e alheio ao eixo da questão (coinfecção versus superinfecção), tratando de conduta diagnóstica não abordada na justificativa oficial.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 73. HIV/aids  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 73*
+
+> **convertida 5→4**
+
+**Enunciado:** Na maioria das situações, o tratamento de doença diarreica em pessoas que vivem com HIV não difere de maneira significativa daqueles indivíduos imunocompetentes. As decisões de tratamento são baseadas no quadro clínico, elencando critérios como a gravidade da diarreia e a hidratação do paciente. Sobre a avaliação desses indivíduos e o manejo clínico, identifique a alternativa correta
+
+- **(A)** ✅ Quando o CD4 for inferior a 50 células/mm³, a hipótese de colite por citomegalovírus deve ser aventada na presença de emagrecimento, febre e dor abdominal.  
+  <sub>Correta. Com CD4 inferior a 50 células/mm³ há risco de infecções oportunistas avançadas, e a colite por citomegalovírus deve ser aventada diante de emagrecimento, febre e dor abdominal.</sub>
+
+- **(B)** Colher amostras de fezes e aguardar coprocultura para iniciar o tratamento específico é deve ser realizado independentemente da contagem de células CD4.  
+  <sub>Incorreta. O início e a duração da terapia antimicrobiana empírica dependem da contagem de CD4 e da apresentação clínica, não sendo correto aguardar a coprocultura nem agir independentemente do status imunológico.</sub>
+
+- **(C)** Pessoas com AIDS devem ser hospitalizadas quando apresentam diarreia líquida, mesmo na ausência de elementos patológicos ou febre, pelo risco de colite pseudomembranosa.  
+  <sub>Incorreta. Diarreia líquida sem elementos patológicos, sangue ou febre não impõe hospitalização; a internação reserva-se aos quadros graves, com repercussão hemodinâmica ou seis ou mais evacuações líquidas ao dia.</sub>
+
+- **(D)** O consumo de gorduras, laticínios e carboidratos complexos deve ser estimulado nesses pacientes, tendo em vista o risco aumentado de depleção energética.  
+  <sub>Incorreta. Como a doença diarreica pode causar má absorção transitória e intolerância à lactose, recomenda-se justamente evitar gorduras, laticínios e carboidratos complexos, adotando dieta branda.</sub>
+
+**Alternativa descartada** — era a (E): *Os pacientes avaliados em pronto socorro com diarreia superior a seis semanas devem ser encaminhados para avaliação ambulatorial*  
+Motivo: Distrator pouco discriminativo: fixa prazo arbitrário de seis semanas e conduta genérica de encaminhamento, sem relação direta com os critérios de manejo discutidos.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 74. Infecções de pele e partes moles  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 74*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A redação da alternativa correta inclui o tecido subcutâneo superficial na definição de erisipela, formulação imprecisa frente à descrição clássica de acometimento da derme e dos linfáticos superficiais.
+
+**Enunciado:** A erisipela e a celulite são duas piodermites que dividem semelhanças e diferenças entre si. A respeito deste paralelo, pode-se dizer que:
+
+- **(A)** semiologicamente, a celulite possui bordas elevadas e eritema vivo enquanto na erisipela as bordas são planas e o eritema é menos vivo.  
+  <sub>Incorreta. A descrição está invertida: é a erisipela que exibe bordas nítidas e elevadas com eritema vivo e bem delimitado, ao passo que na celulite os limites são imprecisos e o eritema, menos exuberante.</sub>
+
+- **(B)** ✅ a erisipela é a infecção da derme e tecido subcutâneo superficial enquanto a celulite é a infecção do tecido subcutâneo mais profundo.  
+  <sub>Correta. A erisipela compromete a derme e os vasos linfáticos superficiais, plano mais superficial, enquanto a celulite atinge o tecido subcutâneo profundo, o que lhe confere maior gravidade; ambas são frequentes em consultórios dermatológicos, clínicos e geriátricos, além de enfermarias e serviços de emergência.</sub>
+
+- **(C)** a erisipela pode evoluir com a formação de bolhas, o que não ocorre com a celulite.  
+  <sub>Incorreta. A formação de bolhas não é exclusiva da erisipela; a celulite também pode evoluir com bolhas, abscessos e áreas de necrose cutânea nas formas mais graves.</sub>
+
+- **(D)** septicemia, fasciíte, miosite e abscessos subcutâneos são complicações incomuns caso ambos os processos não sejam tratados.  
+  <sub>Incorreta. Septicemia, fasciíte, miosite e abscessos subcutâneos são complicações esperadas e temidas quando ambos os processos não recebem tratamento adequado, não podendo ser rotuladas como incomuns.</sub>
+
+**Alternativa descartada** — era a (D): *em ambos os processos as culturas do material de biópsia apresenta alto índice de positividade*  
+Motivo: Distrator pouco discriminativo, pois a baixa positividade das culturas é conhecimento periférico que não diferencia as duas entidades avaliadas.
+
+<sub>Renumeração: B→A, A→B, C→C, E→D · gabarito A → B</sub>
+
+### 75. Nódulo tireoidiano  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 75*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O caso descreve bordos precisos e calcificação grosseira, achados de baixa suspeição, enquanto a justificativa oficial fundamenta a punção em microcalcificações e margens irregulares, gerando incoerência entre a vinheta e o argumento.
+
+**Enunciado:** Homem de 40 anos foi com ultrassonografia de tireoide (US) de rotina , que mostrou no Lobo esquerdo um nódulo de 1,2 cm hipoecogênico , sólido, com bordos precisos e focos de calcificação grosseira. Ao Doppler mostrou padrão vascular central. A avaliação da função tireoidiana (FT) mostrou : TSH =1,4 mcUI/ m L ( VR: 0,3-5 ); T4L= 1,1 ng/d L( VR: 0,7 -1,7); antiTPO= 100 UI/ m L( VR: Abaixo de 35). Qual é a conduta adequada para o caso:
+
+- **(A)** ✅ submeter o paciente a uma punção aspirativa com agulha fina devido à presença de alguns fatores de risco para malignidade (sexo masculino, nódulo hipoecegênico e padrão vascular central ao Doppler).  
+  <sub>Correta. Nódulos maiores que 1 cm com características de suspeição devem ser submetidos à punção aspirativa por agulha fina; aqui coexistem hipoecogenicidade, vascularização central ao Doppler e sexo masculino, e a função tireoidiana normal afasta nódulo hiperfuncionante, tornando a citologia o próximo passo.</sub>
+
+- **(B)** repetir a FT e US após 12 meses, iniciar tratamento medicamentoso com hormônios tireoidianos e se não ocorrer regressão do nódulo em 6 meses, indicar ablação com iodo radioativo.  
+  <sub>Incorreta. A conduta expectante por 12 meses posterga a avaliação citológica de um nódulo suspeito; além disso, hormônio tireoidiano não promove regressão nodular e o iodo radioativo se destina ao hipertireoidismo, não a nódulo com função normal.</sub>
+
+- **(C)** encaminhar o paciente para a cirurgia imediatamente, pois são achados sugestivos de malignidade paciente ser do sexo masculino contendo maior chance de metástases.  
+  <sub>Incorreta. A indicação cirúrgica não deve preceder a definição citológica; o encaminhamento imediato ao centro cirúrgico sem PAAF expõe o paciente a procedimento potencialmente desnecessário, já que a maioria dos nódulos é benigna.</sub>
+
+- **(D)** submeter o paciente a terapia supressiva com L-tiroxina e repetir o US após 6-12meses para avaliar se houve modificação significativa do tamanho do nódulo.  
+  <sub>Incorreta. A terapia supressiva com L-tiroxina foi abandonada para nódulos tireoidianos por ineficácia e risco de tireotoxicose iatrogênica, com efeitos ósseos e cardiovasculares, e apenas retardaria o diagnóstico.</sub>
+
+**Alternativa descartada** — era a (E): *administrar L-tiroxina apenas se surgirem sintomas de hipotireoidismo, repetir ultrassonografia em 3 meses se mudança no padrão ultrassonográfico da lesão, indicar pulsão aspirativa com agulha fina*  
+Motivo: Distrator mais fraco por ser prolixo, internamente contraditório e conter erro de digitação, o que compromete sua plausibilidade.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 76. Endocrinologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 76*
+
+> **convertida 5→4**
+
+**Enunciado:** Mulher de 27 anos de idade procurou o ginecologista com queixas de taquicardia, irritação e ansiedade. Há 2 meses teve um filho por parto normal, sem intercorrências. Ao exame físico: tireoide palpável, indolor a palpação, ritmo cardíaco regular, FC= 110 bpm, PA= 120X80 mmHg, ausculta cardiopulmonar normal. Exames laboratoriais : T4L= 2,4 ng/dL( VR: 0,7 -1,7); T3= 245 ng/dL( VR: 60-190); TSH= 0,03 mcUI/ mL ( VR: 0,3-5 ); anticorpos anti-TPO= 340 UI/ mL( VR: Abaixo de 35); captação de iodo radioativo de 24 hs= 3% (VR: 15 A 40%); ultrassonografia da tireoide com nódulo de 6 mm no lobo direito da tireoide. Qual o diagnóstico?
+
+- **(A)** Bócio nodular tóxico.  
+  <sub>Incorreta. O bócio nodular tóxico cursa com captação de iodo radioativo elevada e nódulo funcionante; o nódulo de 6 mm descrito não justifica a tireotoxicose.</sub>
+
+- **(B)** Tireoidite subaguda granulomatosa.  
+  <sub>Incorreta. Na tireoidite subaguda granulomatosa a tireoide é tipicamente dolorosa e há pródromo viral, achados ausentes no caso.</sub>
+
+- **(C)** ✅ Tireoidite pós-parto.  
+  <sub>Correta. Tireotoxicose surgida dois meses após o parto, com tireoide indolor à palpação, anti-TPO elevado e captação de iodo radioativo baixa (3%), caracteriza tireoidite pós-parto, de natureza autoimune e destrutiva.</sub>
+
+- **(D)** Doença de Graves.  
+  <sub>Incorreta. A doença de Graves cursa com captação de iodo radioativo elevada, incompatível com a captação de 3% apresentada pela paciente.</sub>
+
+**Alternativa descartada** — era a (D): *Tireoidite fibrosa*  
+Motivo: Distrator implausível, pois a tireoidite fibrosa de Riedel é entidade rara que não cursa com tireotoxicose.
+
+<sub>Renumeração: B→A, C→B, A→C, E→D · gabarito A → C</sub>
+
+### 77. Dislipidemia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 77*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** O enunciado apresenta erros de digitação nos exames laboratoriais ('LD145mg/dL') e alterna o gênero da paciente ao referir-se a 'o paciente'.
+
+**Enunciado:** Mulher de 48 anos de idade diabética tipo 2, hipertensa submeteu- se à angioplastia há 12 meses. Esta em uso metformina 850mg 2 cp ao dia, dapagliflozina 10mg dia, AAS 100mg dia, losartana 50mg 2 cp ao dia e sinvastatina 40mg dia. Ao exame físico : IMC= 26kg/m2 , ritmo cardíaco regular , FC= 88 bpm, PA= 140X80 mmHg, ausculta cardio pulmonar normal. Exames laboratoriais : TSH normal, glicemia 120 mg/d L, HbA1c=7,7%, colesterol total= 234mg/d L, HDL=35mg/d L, LD145mg/ d L, triglicerídeo=170mg/d L. Qual a conduta a ser tomada para atingir as metas terapêuticas :
+
+- **(A)** Adicionar fenofibrato para o paciente.  
+  <sub>Incorreta. Os fibratos são fármacos de escolha para hipertrigliceridemia e pouco contribuem para a redução do LDL até a meta pretendida.</sub>
+
+- **(B)** ✅ Trocar sinvastatina por rosuvastatina 40mg/dia.  
+  <sub>Correta. Trata-se de prevenção secundária em paciente diabética e hipertensa, com meta de LDL abaixo de 50 mg/dL; a substituição da sinvastatina por rosuvastatina 40 mg/dia fornece a alta potência necessária para alcançá-la.</sub>
+
+- **(C)** Aumentar a sinvastatina para 80 mg/dia.  
+  <sub>Incorreta. Elevar a sinvastatina de 40 para 80 mg/dia acrescentaria redução máxima em torno de 10% do LDL, insuficiente para a meta e com aumento do risco de miopatia.</sub>
+
+- **(D)** Adicionar ácido nicotínico de liberação extendida.  
+  <sub>Incorreta. O ácido nicotínico de liberação estendida não demonstrou benefício em desfechos cardiovasculares quando associado à estatina e não é estratégia adequada para atingir a meta de LDL.</sub>
+
+**Alternativa descartada** — era a (E): *Adicionar ciprofibrato de 100mg/dia*  
+Motivo: Ciprofibrato repete o conteúdo da alternativa B, que já testa a adição de fibrato, sem acrescentar poder discriminativo.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 78. Cetoacidose diabética  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 78*
+
+**Enunciado:** Adolescente portador de diabetes mellitus tipo 1 há 3 anos, com queixa de dor abdominal e vômitos há 12h. Ele saiu com os amigos na noite anterior e esqueceu de aplicar insulina. Ao exame, apresenta temperatura de 37,5 °C, FC= 140bpm, FR= 36, PA 80/45mmHg, com taquipneia profunda e mucosas secas. Ausculta pulmonar sem ruídos adventícios. Sobre este caso, a conduta inicial indicada é solicitar:
+
+- **(A)** gasometria arterial, glicemia, hemograma e hemocultura, e iniciar Antibioticoterapia e hidratação EV.  
+  <sub>Incorreta. Não há sinais de foco infeccioso que justifiquem hemocultura e antibioticoterapia empírica, e a gasometria arterial é desnecessária, pois a venosa é suficiente para o diagnóstico e o acompanhamento.</sub>
+
+- **(B)** ✅ gasometria venosa, glicemia, potássio e iniciar hidratação EV.  
+  <sub>Correta. O quadro é de cetoacidose diabética após omissão de insulina; a confirmação diagnóstica é feita com gasometria, que pode ser venosa, e glicemia, a dosagem de potássio orienta a reposição eletrolítica e o tratamento inicial é a hidratação venosa, seguida de insulinoterapia.</sub>
+
+- **(C)** gasometria arterial, glicemia, hemograma e ecografia de abdome por suspeita de abdome agudo.  
+  <sub>Incorreta. A dor abdominal e os vômitos são manifestações da própria cetoacidose; investigar abdome agudo com ecografia retarda a hidratação venosa, que é a prioridade terapêutica imediata.</sub>
+
+- **(D)** gasometria venosa, glicemia, potássio e hemograma e iniciar reposição de bicarbonato.  
+  <sub>Incorreta. Acerta os exames, mas a reposição de bicarbonato não está indicada de rotina, sendo reservada a situações de acidose extrema com pH inferior a 6,9.</sub>
+
+### 79. Gastroenterologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 79*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** As alternativas D e E não respondem ao comando do enunciado ('qual o tratamento adequado'), quebrando o paralelismo lógico do item.
+
+**Enunciado:** Homem de 45 anos, com queixa de epigastralgia e plenitude pós prandial, na frequência de três vezes na semana, nos últimos 8 meses. A endoscopia digestiva alta revelou pangastrite enantematosa com erosões elevadas no antro; a análise histopatológica identificou gastrite crônica, ativa, com presença de Helicobacter pyilori em antro e corpo e metaplasia antral completa. Qual o tratamento adequado?
+
+- **(A)** Inibidor da bomba de prótons, preferencialmente omeprazol, 2x dia amoxicilina 1g 2x dia, claritromicina 500mg 2 x dia e probióticos 2x dia por 14 dias.  
+  <sub>Incorreta. Não há evidência suficiente para associar probióticos ao esquema de erradicação, e o inibidor de bomba de prótons preferencial é o esomeprazol ou o rabeprazol, não o omeprazol.</sub>
+
+- **(B)** Se o paciente for alérgico a amoxicilina, utilizar inibidor da bomba de prótons 2x dia, claritomicina 500mg 2x dia e tetraciclina 500mg 4 x ao dia por 14 dias.  
+  <sub>Incorreta. No alérgico à penicilina o esquema recomendado é inibidor de bomba de prótons 2 vezes ao dia, claritromicina 500 mg 2 vezes ao dia e levofloxacino 500 mg 1 vez ao dia por 14 dias, e não tetraciclina.</sub>
+
+- **(C)** Para controle da erradicação do Helicobacter pylori, é necessário realizar biópsia de 1 fragmento do antro e outro do corpo para teste rápido da urease.  
+  <sub>Incorreta. O teste rápido da urease não é indicado para controle de erradicação, que exige teste respiratório com ureia marcada ou análise histológica da mucosa gástrica.</sub>
+
+- **(D)** ✅ Inibidor da bomba de prótons, preferencialmente rabeprazol ou esomeprazol 2x dia, amoxicilina 1g 2 x dia e claritromicina 500mg 2 x dia por 14 dias.  
+  <sub>Correta. O IV Consenso Brasileiro de Helicobacter pylori estabelece como primeira escolha o inibidor de bomba de prótons, preferencialmente esomeprazol ou rabeprazol, 2 vezes ao dia, associado a amoxicilina 1 g 2 vezes ao dia e claritromicina 500 mg 2 vezes ao dia, por 14 dias.</sub>
+
+**Alternativa descartada** — era a (B): *Inibidor da bomba de prótons, preferencialmente omeprazol, 2x dia amoxicilina 1g 2x dia, claritromicina 500mg 2 x dia*  
+Motivo: Duplica a alternativa C sem o acréscimo dos probióticos e ainda omite a duração do tratamento, sendo o distrator mais fraco do conjunto.
+
+<sub>Renumeração: C→A, D→B, E→C, A→D · gabarito A → D</sub>
+
+### 80. Gastroenterologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 80*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A dose de sais de reidratação oral citada na chave (75 mL/kg) é apresentada como valor pontual, enquanto o protocolo do Ministério da Saúde trabalha com faixa de 50 a 100 mL/kg no plano B.
+
+**Enunciado:** Mulher, 22 anos, com queixa de diarreia, de início há 4 dias, evacuando 3-4 vezes ao dia, fezes líquidas, sem sangue ou muco, vômitos nos dois primeiros dias do quadro, sem febre, com diurese preservada. Chegou na unidade de saúde com olhos fundos e boca levemente seca. Sobre o manejo clínico de diarreia aguda do Ministério da Saúde, a conduta será:
+
+- **(A)** prescrever ciprofloxacino (antibiótico) na dose de 500mg de 12/12 horas por 3 dias, antiemético ondansetrona, uso de probiótico, antidiarreico e hidratação endovenosa.  
+  <sub>Incorreta. Diarreia aquosa, sem sangue, muco ou febre, não configura quadro disenteriforme e não tem indicação de antibioticoterapia empírica; antidiarreicos não são recomendados pelo Ministério da Saúde e a hidratação endovenosa está reservada ao plano C.</sub>
+
+- **(B)** ✅ ofertar soro de reidratação oral, na média de 75 ml/kg, num período de 4-6 horas. Se o paciente apresentar vômitos persistentes durante a reidratação, administrar ondansetrona (antiemético) na dose de 8mg.  
+  <sub>Correta. Trata-se de diarreia aguda não disenteriforme com sinais de desidratação leve a moderada (olhos fundos e mucosa oral seca), o que corresponde ao plano B do Ministério da Saúde: reidratação oral com solução de sais de reidratação na faixa de 50 a 100 mL/kg administrada em 4 a 6 horas, na unidade de saúde, com uso de ondansetrona caso haja vômitos persistentes durante o processo.</sub>
+
+- **(C)** prescrever zinco na dose de 20mg por 10 a 14 dias, reposição hidrolítica endovenosa e dosagem de sódio, potássio e magnésio a cada 6h por 3 dias.  
+  <sub>Incorreta. A suplementação de zinco é recomendada para crianças menores de 5 anos com diarreia, não para adultos; além disso, a paciente tolera via oral, não havendo indicação de reposição endovenosa nem de dosagens seriadas de eletrólitos a cada 6 horas.</sub>
+
+- **(D)** orientar uso de probiótico, a base de Saccharomyces boulradii por 5 dias, hidróxido de alumínio e magnésio, esomeprazol 20mg 1 vez ao dia pela manhã.  
+  <sub>Incorreta. O uso de probióticos não é consensual nos guidelines e não integra a recomendação do Ministério da Saúde; antiácidos e inibidor de bomba de prótons não têm qualquer papel no tratamento da diarreia aguda infecciosa.</sub>
+
+**Alternativa descartada** — era a (D): *utilizar antidiarreicos, caso a paciente seja o provedor da família, com afastamento do trabalho por 5 dias e controle de eletrólitos a cada 12h*  
+Motivo: Distrator implausível, pois condiciona a prescrição de antidiarreicos ao papel de provedora da família e adiciona afastamento laboral arbitrário, elementos sem qualquer respaldo clínico ou normativo.
+
+<sub>Renumeração: B→A, A→B, C→C, E→D · gabarito A → B</sub>
+
+### 81. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 81*
+
+> **convertida 5→4**
+
+**Enunciado:** Para confirmação do diagnóstico de Hepatite C e indicação de tratamento é necessário:
+
+- **(A)** Presença de sintomas (icterícia, colúria e acolia).  
+  <sub>Incorreta. A hepatite C cursa habitualmente de forma assintomática; exigir icterícia, colúria e acolia retardaria ou impediria o diagnóstico na maioria dos casos.</sub>
+
+- **(B)** ✅ Detecção de HCV-RNA em sangue periférico.  
+  <sub>Correta. A confirmação diagnóstica da hepatite C e a indicação de tratamento dependem da detecção do HCV-RNA em sangue periférico, único marcador que comprova infecção ativa.</sub>
+
+- **(C)** Anti-HCV reagente em 2 exames com metodologias diferentes.  
+  <sub>Incorreta. O anti-HCV pode permanecer reagente após a cura espontânea ou tratada, de modo que sua positividade, mesmo repetida em metodologias distintas, não define infecção ativa nem indica tratamento.</sub>
+
+- **(D)** Detecção de HCV-RNA em sangue periférico em pacientes sintomáticos (icterícia, colúria e acolia).  
+  <sub>Incorreta. O HCV-RNA detectável confirma a infecção independentemente de sintomas; condicionar a conduta à presença de icterícia, colúria e acolia é indevido.</sub>
+
+**Alternativa descartada** — era a (D): *Anti-HCV reagente e presença de sintomas (icterícia, colúria e acolia)*  
+Motivo: Distrator redundante, pois apenas combina os erros já contemplados nas alternativas B e C (sintomas e anti-HCV reagente).
+
+<sub>Renumeração: B→A, A→B, C→C, E→D · gabarito A → B</sub>
+
+### 82. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 82*
+
+> **convertida 5→4**
+
+**Enunciado:** Homem, 36 anos, com astenia, cefaléia, mialgia, artralgia e dor de garganta com início há 48 horas. Aguardando consulta no Serviço de IST/AIDS para início da profilaxia pré exposição (PREP) para HIV. Tem múltiplos parceiros e parceiras sexuais, com uso inconsistente de preservativos. Sua última atividade sexual foi há 2 semanas, sem preservativo. Ao exame: sinais vitais normais e presença de linfadenomegalia cervical anterior, occipital e supraclavicular. Realizado teste rápido para HIV de 4ª geração sendo negativo. A conduta apropriada no caso é?
+
+- **(A)** Iniciar tenofovir/lamivudine/dolutegravir.  
+  <sub>Incorreta. O início de terapia antirretroviral com tenofovir/lamivudina/dolutegravir só se justifica após a confirmação diagnóstica da infecção, que ainda não foi estabelecida.</sub>
+
+- **(B)** Solicitar Western Blot para HIV.  
+  <sub>Incorreta. O Western blot foi retirado do fluxograma diagnóstico brasileiro e, sendo teste sorológico, também seria negativo durante a janela imunológica.</sub>
+
+- **(C)** Iniciar a profilaxia pré exposição (PREP).  
+  <sub>Incorreta. É obrigatório descartar infecção pelo HIV antes de iniciar a PrEP; iniciá-la em quadro de infecção aguda expõe o paciente a monoterapia funcional e seleção de resistência.</sub>
+
+- **(D)** ✅ Realizar carga viral para HIV.  
+  <sub>Correta. O quadro é altamente sugestivo de síndrome retroviral aguda com exposição de risco há duas semanas e teste rápido de 4ª geração negativo (janela imunológica); nessa situação, a carga viral do HIV é o exame indicado para confirmar o diagnóstico.</sub>
+
+**Alternativa descartada** — era a (D): *Solicitar contagem de células CD4/CD8*  
+Motivo: Distrator implausível, pois a contagem de CD4/CD8 é exame de estadiamento imunológico e não tem qualquer papel no diagnóstico da infecção aguda pelo HIV.
+
+<sub>Renumeração: B→A, C→B, E→C, A→D · gabarito A → D</sub>
+
+### 83. Transtorno depressivo maior  
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 83*
+
+> **convertida 5→4**
+
+**Enunciado:** Um paciente masculino de 37 anos apresenta critérios para episódio depressivo maior. Além de outros sintomas, o paciente relata severa anedonia. Que outro sintoma dentre os listados abaixo sugere a ocorrência do subtipo melancólico de depressão?
+
+- **(A)** Catatonia.  
+  <sub>Incorreta. A catatonia constitui especificador próprio ('com catatonia') do episódio depressivo, não integrando os critérios do subtipo melancólico.</sub>
+
+- **(B)** ✅ Piora dos sintomas pela manhã.  
+  <sub>Correta. A piora do humor deprimido na parte da manhã, somada à anedonia intensa e à ausência de reatividade a estímulos agradáveis, caracteriza o subtipo melancólico da depressão.</sub>
+
+- **(C)** Pensamentos obsessivos.  
+  <sub>Incorreta. Pensamentos obsessivos sugerem comorbidade com transtorno obsessivo-compulsivo e não têm valor para caracterizar a melancolia.</sub>
+
+- **(D)** Hipersonolência.  
+  <sub>Incorreta. Na melancolia predomina a insônia tardia, com despertar durante a madrugada; a hipersonolência é característica do subtipo atípico.</sub>
+
+**Alternativa descartada** — era a (E): *Aumento de peso*  
+Motivo: Distrator redundante com a alternativa D: ganho de peso e hipersonolência são ambos marcadores do subtipo atípico, duplicando a mesma ideia.
+
+<sub>Renumeração: B→A, A→B, C→C, D→D · gabarito A → B</sub>
+
+### 84. COVID-19  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 84*
+
+> **convertida 5→4**
+
+**Enunciado:** Após o quadro agudo de COVID 19, os pacientes podem apresentar sintomas amplos até sua recuperação total. Esses sintomas são encontrados sob os termos de “COVID 19 longo ou persistente”, “Condição pós COVID 19” e “Sequelas de COVID 19”. Embora alguns aspectos sejam exclusivos da doença, outros são similares a síndromes de recuperação de outras doenças virais, ou mesmo pós cuidados intensivos. Sobre esse assunto:
+
+- **(A)** A realização de vacina contra COVID 19 não parece alterar a incidência de suas sequelas.  
+  <sub>Incorreta. A vacinação prévia contra a COVID-19 associa-se à redução da incidência e da intensidade das sequelas pós-agudas, além de atenuar a gravidade do episódio agudo.</sub>
+
+- **(B)** Em caso de trombose venosa profunda associada à COVID 19, a abordagem terapêutica diverge em relação a outras etiologias de trombose.  
+  <sub>Incorreta. A trombose venosa profunda associada à COVID-19 recebe abordagem antitrombótica análoga à das demais etiologias, sem divergência terapêutica que justifique conduta distinta.</sub>
+
+- **(C)** É necessário realizar exames laboratoriais após a COVID 19 para avaliação da maioria das suas sequelas.  
+  <sub>Incorreta. A maior parte das sequelas pós-COVID-19 é de avaliação clínica, devendo os exames laboratoriais ser solicitados de forma dirigida a hipóteses específicas, e não de modo indiscriminado.</sub>
+
+- **(D)** ✅ os sintomas mais persistentes costumam incluir tosse, fraqueza, dispneia e problemas cognitivos, enquanto alopecia, tontura e alterações olfativas costumam persistir em menor proporção.  
+  <sub>Correta. A COVID-19 é doença sistêmica de apresentação muito variada, e os sintomas que mais comumente persistem, exigindo maior esforço terapêutico, são tosse, fraqueza, dispneia, dor torácica e problemas cognitivos, ao passo que alopecia, tontura, alterações olfativas e mialgia ocorrem de forma menos persistente e tendem a desaparecer com a evolução temporal.</sub>
+
+**Alternativa descartada** — era a (E): *A reinfecção pelo vírus não afeta a incidência de sintomas persistentes de COVID 19*  
+Motivo: Distrator conceitualmente duplicado em relação à alternativa B, pois ambos negam o impacto de um fator epidemiológico sobre a incidência de sintomas persistentes.
+
+<sub>Renumeração: B→A, C→B, D→C, A→D · gabarito A → D</sub>
+
+### 85. Exacerbação de asma  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 85*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** A justificativa oficial apenas descreve a fisiopatologia da asma e não fundamenta a escolha terapêutica nem comenta as alternativas.
+
+**Enunciado:** Paciente de 25 anos de idade, é trazido ao pronto atendimento com dificuldade respiratória há cerca de dois dias, com piora progressiva nas últimas horas. Familiar refere que o mesmo é portador de asma e faz tratamento de forma irregular, usando apenas salbutamol inalatório. Paciente apresenta fala intercortada, tiragem intercostal e frequência respiratória de 35mr/min. Saturação de O2 é de 89%, frequência cardíaca de 125 bpm e paciente encontra-se um pouco agitado. Pico de fluxo expiratório encontra-se em 49% do esperado. Encontra-se febril. Na ausculta observa-se sibilos esparsos. Não observa-se edema de orofaringe ou estridor. Segundo GINA (Global Initiative for Asthma, 2022), qual das alternativas abaixo contempla a abordagem terapêutica mais adequada para esse paciente durante o atendimento na unidade de urgência/emergência?
+
+- **(A)** ✅ Uso de beta2 agonista inalatório de curta duração, corticoide sistêmico, brometo de ipratrópio e O².  
+  <sub>Correta. Na exacerbação grave de asma, com fala entrecortada, tiragem, taquipneia, saturação de 89% e pico de fluxo expiratório em 49% do previsto, o GINA recomenda oxigenoterapia titulada, beta2-agonista inalatório de curta duração repetido, brometo de ipratrópio e corticoide sistêmico precoce.</sub>
+
+- **(B)** Uso de beta2 agonista inalatório de curta duração, corticoide sistêmico, epinefrina e O².  
+  <sub>Incorreta. A epinefrina não faz parte do tratamento da crise asmática, ficando reservada à anafilaxia e ao angioedema; o caso não apresenta edema de orofaringe nem estridor que justificassem seu uso.</sub>
+
+- **(C)** Uso de beta2 agonista inalatório de longa duração, corticoide sistêmico, epinefrina e O².  
+  <sub>Incorreta. Além de incluir indevidamente a epinefrina, o beta2-agonista de longa duração não tem início de ação e titulação adequados ao resgate na crise, que exige broncodilatador de curta duração repetido.</sub>
+
+- **(D)** Uso de beta2 agonista inalatório de curta ou longa duração, corticoide sistêmico, aminofilina e O².  
+  <sub>Incorreta. A aminofilina não é recomendada nas exacerbações de asma pelo GINA, por eficácia limitada e estreita margem terapêutica, com risco de arritmias e toxicidade; o broncodilatador de resgate deve ser de curta duração.</sub>
+
+**Alternativa descartada** — era a (C): *Uso de beta2 agonista inalatório de longa duração, corticoide inalatório, epinefrina e O²*  
+Motivo: Distrator implausível por acumular três erros na mesma opção (beta2 de longa duração, corticoide inalatório e epinefrina), sendo o menos discriminativo do conjunto.
+
+<sub>Renumeração: A→A, B→B, D→C, E→D · gabarito A → A</sub>
+
+### 86. Psiquiatria  
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · facil · Bloom: conhecimento  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 86*
+
+> **convertida 5→4**  
+> ⚠️ **defeito na origem:** Item de memorização pura de ponto de corte temporal, com baixo poder discriminativo e alternativas puramente numéricas.
+
+**Enunciado:** Segundo os critérios do Manual Diagnóstico e Estatístico de Transtornos Mentais ( DSM V), a duração de um episódio hipomaníaco no transtorno bipolar tipo II deve ser de, no mínimo, quantos dias consecutivos?
+
+- **(A)** 05.  
+  <sub>Incorreta. Cinco dias excedem o critério mínimo estabelecido, que é de quatro dias consecutivos para a hipomania.</sub>
+
+- **(B)** 03.  
+  <sub>Incorreta. Três dias são insuficientes para caracterizar o episódio hipomaníaco segundo os critérios do DSM-5.</sub>
+
+- **(C)** 07.  
+  <sub>Incorreta. Sete dias correspondem à duração mínima do episódio maníaco, e não do hipomaníaco.</sub>
+
+- **(D)** ✅ 04.  
+  <sub>Correta. O DSM-5 define o episódio hipomaníaco como período distinto de humor anormal e persistentemente elevado, expansivo ou irritável, com aumento anormal da atividade ou energia, durando no mínimo quatro dias consecutivos e presente na maior parte do dia, quase todos os dias.</sub>
+
+**Alternativa descartada** — era a (C): *06*  
+Motivo: Distrator numérico arbitrário, sem correspondência a qualquer ponto de corte do DSM-5, sendo o menos discriminativo do conjunto.
+
+<sub>Renumeração: B→A, D→B, E→C, A→D · gabarito A → D</sub>
+
+### 87. Arboviroses  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: compreensao  
+*Origem: Questoes CLM (TPMed 2023 - Clinica Medica), questão 87*
+
+> **convertida 5→4**
+
+**Enunciado:** O Aedes aegypti é o mosquito transmissor da dengue e da febre amarela urbana. Pode-se afirmar que são doenças:
+
+- **(A)** ✅ Causadas por vírus e existe vacina apenas para a febre amarela até o momento.  
+  <sub>Correta. Dengue e febre amarela são arboviroses causadas por vírus transmitidos por artrópodes, e até o momento há vacina disponibilizada pelo SUS apenas para a febre amarela.</sub>
+
+- **(B)** Provocam febre intensa, que deve ser tratada com AAS (ácido acetilsalicílico).  
+  <sub>Incorreta. O ácido acetilsalicílico é contraindicado na suspeita de dengue por aumentar o risco de sangramento; o tratamento sintomático emprega paracetamol ou dipirona.</sub>
+
+- **(C)** O vetor Aedes aegypti também pode transmitir a malária e a elefantíase às pessoas.  
+  <sub>Incorreta. A malária é transmitida por mosquitos do gênero Anopheles e a filariose linfática (elefantíase) por culicídeos do gênero Culex, e não pelo Aedes aegypti.</sub>
+
+- **(D)** Causadas por bactérias e existe vacina apenas para a dengue até o momento.  
+  <sub>Incorreta. Ambas são doenças virais, e não bacterianas, e a afirmação ainda inverte a disponibilidade da vacina, que existe para a febre amarela.</sub>
+
+**Alternativa descartada** — era a (E): *Causam febre devido à liberação de merozoítos na circulação*  
+Motivo: A liberação de merozoítos é fenômeno próprio da malária e não guarda relação com o eixo do item, tornando o distrator implausível.
+
+<sub>Renumeração: A→A, B→B, C→C, D→D · gabarito A → A</sub>
+
+### 88. Artrites inflamatórias  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 1*
+
+> ⚠️ **defeito na origem:** O comando pede 'hipótese diagnóstica mais provável e o tratamento inicial mais adequado', mas as alternativas trazem apenas o diagnóstico, sem a conduta.
+
+**Enunciado:** Paciente masculino, 42 anos, procura atendimento médico por queixa de dores articulares em mãos e calcâneos. Relata piora da dor pela manhã, associada a rigidez articular matinal superior a 2 horas. Ao exame físico, observam-se lesões eritemato-descamativas crônicas em região retroauricular direita, pitting ungueal, sinovite em articulações interfalangianas proximais da mão esquerda, além de dor à palpação do tendão de Aquiles direito. Exames laboratoriais: FAN 1:80, padrão nuclear pontilhado fino denso (VR: negativo até 1:80); proteína C reativa (PCR) 5,6 mg/L (VR < 5,0 mg/L); velocidade de hemossedimentação (VHS) 42 mm/h (VR < 20 mm/h); fator reumatoide 18 (VR < 20 UI/mL). Assinale a hipótese diagnóstica mais provável e o tratamento inicial mais adequado:
+
+- **(A)** artrite reumatoide.  
+  <sub>Incorreta. A artrite reumatoide não explica o pitting ungueal, as lesões psoriasiformes nem a entesite calcaneana, e cursa habitualmente com fator reumatoide positivo, o que não ocorre neste paciente.</sub>
+
+- **(B)** osteoartrite de mãos e pés.  
+  <sub>Incorreta. A osteoartrite tem padrão mecânico, com rigidez matinal breve (inferior a 30 minutos) e sem sinovite ou elevação de provas inflamatórias, ao contrário do descrito.</sub>
+
+- **(C)** lúpus eritematoso sistêmico.  
+  <sub>Incorreta. O FAN 1:80 com padrão nuclear pontilhado fino denso é achado sem significado clínico de autoimunidade sistêmica, e faltam critérios clínicos e laboratoriais de lúpus eritematoso sistêmico.</sub>
+
+- **(D)** ✅ artrite psoriásica.  
+  <sub>Correta. A associação de artrite inflamatória periférica com rigidez matinal superior a duas horas, lesões eritemato-descamativas retroauriculares, pitting ungueal e entesite do tendão de Aquiles, com fator reumatoide negativo e marcadores inflamatórios elevados, define artrite psoriásica, cujo tratamento inicial é a droga modificadora do curso da doença.</sub>
+
+### 89. Hematologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 2*
+
+**Enunciado:** Paciente de 72 anos, com artrite reumatoide em atividade há vários anos, em uso irregular de anti-inflamatórios não hormonais e corticoides, procura atendimento por fadiga progressiva e redução da tolerância ao esforço. Ao exame físico, apresenta-se hipocorado (+/4), sem icterícia ou sinais de sangramento ativo. Exames laboratoriais mostram anemia normocítica e normocrômica, com ferritina elevada, ferro normal e saturação de transferrina reduzida. Função renal preservada. Com base nesse quadro clínico, qual é o mecanismo fisiopatológico mais provável responsável pela anemia apresentada por esse paciente?
+
+- **(A)** Deficiência absoluta de ferro secundária à perda gastrointestinal crônica induzida por anti-inflamatórios.  
+  <sub>Incorreta. A deficiência absoluta de ferro cursaria com ferro sérico e ferritina reduzidos, o que não condiz com a ferritina elevada descrita.</sub>
+
+- **(B)** ✅ Aumento da produção de hepcidina, levando à redução da disponibilidade de ferro para a eritropoese.  
+  <sub>Correta. O quadro é de anemia da inflamação, na qual o aumento da hepcidina reduz a absorção intestinal de ferro e bloqueia sua liberação pelos macrófagos, diminuindo a disponibilidade do metal para a eritropoese apesar de estoques normais ou elevados.</sub>
+
+- **(C)** Falha primária da medula óssea com substituição gordurosa progressiva.  
+  <sub>Incorreta. A falha medular primária com substituição gordurosa corresponde à aplasia e cursaria com pancitopenia, ausente neste paciente.</sub>
+
+- **(D)** Redução da sobrevida eritrocitária mediada por autoanticorpos quentes.  
+  <sub>Incorreta. A anemia hemolítica autoimune por anticorpos quentes apresentaria marcadores laboratoriais de hemólise e icterícia, não observados no caso.</sub>
+
+### 90. Pneumologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 3*
+
+> ⚠️ **defeito na origem:** O enunciado está truncado ao final ('conduta inicial de escolh'), com perda da palavra final do comando.
+
+**Enunciado:** Um paciente adulto apresenta asma com sintomas diurnos duas vezes por semana, despertares noturnos ocasionais (não semanais), sem limitação para atividades habituais e sem histórico de exacerbação grave.De acordo com a GINA 2025, considerando a estratégia terapêutica preferencial (Rota 1) para adultos com asma leve, e com o objetivo de reduzir o risco de exacerbações além de controlar os sintomas, assinale a alternativa que corresponde à conduta inicial de escolh
+
+- **(A)** SABA (agonista β2 de curta duração) sob demanda, reservando corticoide inalatório apenas se houver piora clínica.  
+  <sub>Incorreta. A GINA não recomenda mais o uso isolado de beta-2 agonista de curta duração em nenhum degrau do tratamento da asma, pois essa estratégia associa-se a maior risco de exacerbações e de morte relacionada à doença.</sub>
+
+- **(B)** LABA (agonista β2 de longa duração) isolado, diariamente, como tratamento de manutenção.  
+  <sub>Incorreta. O beta-2 agonista de longa duração isolado é formalmente contraindicado na asma; ele nunca deve ser usado sem corticoide inalatório associado, por aumentar o risco de eventos fatais.</sub>
+
+- **(C)** Corticoide inalatório em baixa dose, em regime fixo de manutenção, associado a SABA como medicação de alívio.  
+  <sub>Incorreta. Corticoide inalatório em dose fixa de manutenção com beta-2 de curta duração de alívio corresponde ao Track 2, opção válida porém inferior ao Track 1 na prevenção de exacerbações; como o comando exige a estratégia preferencial, essa alternativa não atende ao solicitado.</sub>
+
+- **(D)** ✅ Corticoide inalatório em baixa dose associado a formoterol, utilizado conforme necessidade como terapia de alívio.  
+  <sub>Correta. O corticoide inalatório em baixa dose associado ao formoterol, usado conforme necessidade (Rota/Track 1), é a estratégia preferencial da GINA 2025 para adultos com asma leve, pois reduz de forma significativa exacerbações graves, hospitalizações e mortalidade relacionada à asma, ao oferecer broncodilatação rápida e tratamento da inflamação desde a primeira dose.</sub>
+
+### 91. Neurologia de urgência  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 4*
+
+**Enunciado:** João, 68 anos, aposentado, hipertenso e tabagista há 40 anos, é levado ao pronto atendimento após início súbito de fraqueza no braço e perna direita há 45 minutos, associada à disartria. Sua esposa relata que ele havia parado o uso de anti-hipertensivos há 3 meses “porque estava se sentindo bem”. Ao exame: PA = 170x90 mmHg, glicemia capilar = 104 mg/dL, ritmo cardíaco irregular. TC de crânio sem contraste não mostra sinais de sangramento. NIHSS 7. Indique a conduta inicial mais apropriada
+
+- **(A)** Manter observação clínica e repetir TC em 24h.  
+  <sub>Incorreta. O paciente encontra-se dentro da janela terapêutica, e a simples observação com repetição da tomografia em 24 horas retardaria um tratamento comprovadamente eficaz.</sub>
+
+- **(B)** Iniciar anticoagulação plena com heparina de baixo peso molecular.  
+  <sub>Incorreta. A anticoagulação plena não está indicada na fase aguda do AVC isquêmico, especialmente antes de definir a fonte cardioembólica, e aumenta o risco de transformação hemorrágica.</sub>
+
+- **(C)** Reduzir a PA rapidamente para valores dentro da faixa da normalidade.  
+  <sub>Incorreta. A redução abrupta da pressão arterial compromete a perfusão cerebral na área de penumbra; o alvo antes da trombólise é apenas manter valores abaixo de 185x110 mmHg (ou 220x120 mmHg se não houver trombólise).</sub>
+
+- **(D)** ✅ Iniciar trombólise venosa com alteplase.  
+  <sub>Correta. A trombólise com alteplase é indicada no AVC isquêmico sem sinais de hemorragia na tomografia e dentro da janela de até 4h30 do início dos sintomas; o paciente está com 45 minutos de evolução, glicemia normal e NIHSS 7.</sub>
+
+### 92. Imunologia  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 5*
+
+**Enunciado:** Um paciente de 22 anos procura atendimento relatando episódios recorrentes de espirros em salva, prurido nasal intenso, coriza hialina e obstrução nasal, principalmente ao limpar a casa ou ao contato com poeira. O exame físico mostra mucosa nasal pálida e edemaciada. Considerando o quadro clínico e o diagnóstico provável, qual das alternativas explica corretamente o mecanismo responsável pelos sintomas apresentados?
+
+- **(A)** Ativação de linfócitos T CD8⁺ com liberação direta de citocinas citotóxicas, levando à destruição do epitélio nasal.  
+  <sub>Incorreta. A citotoxicidade mediada por linfócitos T CD8+ caracteriza respostas antivirais e de hipersensibilidade tardia celular, não explicando os sintomas imediatos após o contato com poeira.</sub>
+
+- **(B)** Deposição de imunocomplexos circulantes na mucosa nasal, ativando o sistema complemento e causando inflamação local crônica.  
+  <sub>Incorreta. A deposição de imunocomplexos com ativação do complemento corresponde à hipersensibilidade do tipo III, mecanismo de doenças como vasculites e doença do soro, e não da rinite alérgica.</sub>
+
+- **(C)** Predomínio de resposta imune Th1, com liberação de interferon-γ e ativação de macrófagos na mucosa nasal.  
+  <sub>Incorreta. A rinite alérgica cursa com predomínio de resposta Th2 (IL-4, IL-5, IL-13) que estimula a produção de IgE e o recrutamento eosinofílico; o padrão Th1 com interferon-gama ativa macrófagos em respostas intracelulares.</sub>
+
+- **(D)** ✅ Produção de IgE específica contra alérgenos inalados, com ligação aos mastócitos e posterior degranulação mediada por reexposição ao antígeno.  
+  <sub>Correta. A rinite alérgica é uma reação de hipersensibilidade do tipo I mediada por IgE: o primeiro contato com o alérgeno induz produção de IgE específica que se fixa aos mastócitos da mucosa nasal e, na reexposição, o antígeno faz a ligação cruzada dessas IgEs, provocando degranulação com liberação de histamina, leucotrienos e prostaglandinas, responsáveis pelos espirros em salva, prurido, coriza hialina e obstrução nasal.</sub>
+
+### 93. Rastreamento do câncer do colo do útero  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 6*
+
+> ⚠️ **defeito na origem:** Enunciado truncado ao final ('assinale a alternativa corret').
+
+**Enunciado:** Sobre as diretrizes atuais do rastreamento do câncer do colo de útero no Brasil, assinale a alternativa corret
+
+- **(A)** ✅ É recomendada a utilização de teste de DNA-HPV oncogênico com genotipagem parcial como método de rastreamento primário.  
+  <sub>Correta. A Portaria Conjunta SAES/SECTICS/MS nº 13, de 29 de julho de 2024, incorporou o teste molecular de DNA-HPV oncogênico com genotipagem parcial (identificação dos tipos 16 e 18) como método primário de rastreamento no SUS, para pessoas de 25 a 64 anos, a cada cinco anos, com a citologia usada como triagem dos casos positivos.</sub>
+
+- **(B)** Homens transgênero não são contemplados na diretriz devido sua identidade biológica ao nascimento.  
+  <sub>Incorreta. As diretrizes do INCA são explícitas ao estender o rastreamento a toda pessoa com colo do útero na faixa etária recomendada, o que inclui homens transgênero não submetidos a histerectomia total.</sub>
+
+- **(C)** As recomendações das diretrizes são aplicáveis tanto para casos sintomáticos quanto para casos assintomáticos, aumentando sua sensibilidade diagnóstica e sua eficácia.  
+  <sub>Incorreta. Rastreamento aplica-se, por definição, a população assintomática; pessoas com sintomas como sangramento pós-coito ou dor pélvica entram em fluxo de investigação diagnóstica, distinto e mais direto.</sub>
+
+- **(D)** É recomendada a realização de citologia simultaneamente ao teste de DNA-HPV oncogênico.  
+  <sub>Incorreta. O co-teste (citologia simultânea ao DNA-HPV) não é a estratégia primária no Brasil: a citologia é reflexa, realizada apenas quando o teste de HPV é positivo, evitando custos sem benefício claro.</sub>
+
+### 94. Doença pulmonar obstrutiva crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 7*
+
+> ⚠️ **defeito na origem:** O enunciado grafa de modo inconsistente os parâmetros espirométricos, ora VEF, ora VEF1, o que dificulta a leitura dos dados funcionais.
+
+**Enunciado:** Homem de 62 anos, tabagista ativo com carga tabágica de 40 maços-ano, refere dispneia progressiva aos esforços há cerca de três anos, associada a tosse crônica com expectoração esbranquiçada diária. Relata piora recente da tolerância ao exercício. Ao exame físico, apresenta tórax em tonel, uso de musculatura acessória em esforço e murmúrio vesicular globalmente diminuído. A espirometria pós-broncodilatador mostra VEF/CVF = 0,62 e VEF = 58% do previsto e o valor absoluto em litros menor que o limite inferior da normalidade. Com base nas diretrizes do GOLD 2026, o critério fundamental para o diagnóstico de DPOC nesse paciente é:
+
+- **(A)** A redução isolada do VEF1 para valores abaixo de 60% do previsto, independentemente da relação VEF/CVF.  
+  <sub>Incorreta. O valor do VEF1 serve para classificar a gravidade da obstrução, e não para estabelecer isoladamente o diagnóstico, que depende da relação VEF1/CVF pós-broncodilatador.</sub>
+
+- **(B)** ✅ A presença de limitação persistente do fluxo aéreo caracterizada por VEF/CVF < 0,70 após broncodilatador, associada a sintomas respiratórios e fator de risco relevante.  
+  <sub>Correta. O diagnóstico de DPOC pelo GOLD 2026 requer obrigatoriamente a demonstração de limitação persistente do fluxo aéreo, definida por VEF1/CVF < 0,70 após broncodilatador, em paciente com sintomas respiratórios compatíveis e exposição a fator de risco relevante, como a carga tabágica de 40 maços-ano descrita.</sub>
+
+- **(C)** A presença de sintomas respiratórios crônicos em indivíduo tabagista, mesmo na ausência de alteração espirométrica pós-broncodilatador.  
+  <sub>Incorreta. Sintomas respiratórios crônicos e exposição tabágica isolados não confirmam DPOC sem comprovação funcional por espirometria, sob risco de sobrediagnóstico.</sub>
+
+- **(D)** A identificação de sinais clínicos sugestivos de hiperinsuflação pulmonar associados a história tabágica significativa.  
+  <sub>Incorreta. Achados clínicos sugestivos de hiperinsuflação, como tórax em tonel e murmúrio vesicular reduzido, apoiam a suspeita, mas não substituem a confirmação objetiva da limitação ao fluxo aéreo.</sub>
+
+### 95. Rinite alérgica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 8*
+
+> ⚠️ **defeito na origem:** Os distratores C e D são pouco plausíveis para o nível esperado, o que reduz o poder discriminativo do item.
+
+**Enunciado:** A rinite alérgica é caracterizada por prurido nasal, espirros, rinorreia e obstrução nasal. Em sua forma persistente moderada a grave, pode exigir terapias além do controle farmacológico sintomático. Considerando as estratégias capazes de modificar a história natural da doença e promover benefício clínico sustentado após o término do tratamento, indique a alternativa que está mais alinhada com as recomendações terapêuticas atuais:
+
+- **(A)** ✅ Imunoterapia específica (sublingual ou subcutânea), capaz de induzir tolerância imunológica e reduzir sintomas.  
+  <sub>Correta. A imunoterapia específica, sublingual ou subcutânea, é a única intervenção capaz de modificar a resposta imune na rinite alérgica persistente moderada a grave, induzindo tolerância imunológica, reduzindo sintomas e mantendo benefício clínico após a suspensão do tratamento.</sub>
+
+- **(B)** Antihistamínicos de primeira geração — preferidos pelo maior efeito anti-inflamatório sustentado.  
+  <sub>Incorreta. Os anti-histamínicos de primeira geração têm pior perfil de segurança, com sedação e efeitos anticolinérgicos, não são terapia de escolha e atuam apenas no controle sintomático, sem modificar a história natural da doença.</sub>
+
+- **(C)** Corticoides sistêmicos diários — recomendados como base terapêutica contínua.  
+  <sub>Incorreta. O corticoide sistêmico não é terapia de manutenção na rinite alérgica; seu uso restringe-se a resgate por curtos períodos, sendo o uso crônico contraindicado pelo risco de eventos adversos sistêmicos.</sub>
+
+- **(D)** Antibióticos de amplo espectro prolongados — indicados para controle inflamatório crônico.  
+  <sub>Incorreta. Os antibióticos não tratam a inflamação alérgica e não têm indicação na rinite alérgica, além de o uso prolongado de amplo espectro favorecer resistência antimicrobiana.</sub>
+
+### 96. Infectologia  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 9*
+
+**Enunciado:** Um homem de 52 anos, hipertenso em uso de losartana, procura atendimento com odinofagia, congestão nasal, cefaleia, mialgia e perda parcial do olfato há 2 dias. Nega dispneia ou dor torácica. Relata contato domiciliar com caso confirmado de COVID-19 há 4 dias. Ao exame: bom estado geral, afebril, frequência respiratória de 16 irpm, saturação de O₂ de 98% em ar ambiente e ausculta pulmonar sem alterações. A classificação clínica e a conduta mais adequadas, segundo protocolos vigentes, são:
+
+- **(A)** Síndrome gripal sem suspeita de COVID-19; prescrever sintomáticos e liberar sem isolamento.  
+  <sub>Incorreta. O contato domiciliar com caso confirmado há quatro dias e a perda parcial do olfato tornam obrigatória a suspeita de COVID-19, sendo o isolamento indispensável.</sub>
+
+- **(B)** Síndrome Respiratória Aguda Grave; indicar internação hospitalar e iniciar corticoterapia sistêmica.  
+  <sub>Incorreta. Não há critérios de Síndrome Respiratória Aguda Grave — dispneia, desconforto respiratório, taquipneia ou saturação abaixo de 95% —, de modo que internação e corticoterapia sistêmica são inadequadas.</sub>
+
+- **(C)** COVID-19 confirmado; iniciar anticoagulação profilática ambulatorial devido à presença de fator de risco cardiovascular.  
+  <sub>Incorreta. O caso é apenas suspeito, ainda sem confirmação laboratorial, e a anticoagulação profilática ambulatorial não é recomendada em quadro leve pela simples presença de fator de risco cardiovascular.</sub>
+
+- **(D)** ✅ Síndrome gripal com suspeita de COVID-19; orientar isolamento domiciliar, realizar teste diagnóstico e tratamento sintomático, com vigilância de sinais de gravidade.  
+  <sub>Correta. Sintomas respiratórios leves há dois dias, com hiposmia, sem hipoxemia (saturação de 98%) ou taquipneia, somados a contato domiciliar com caso confirmado, definem síndrome gripal com suspeita de COVID-19; a conduta é isolamento domiciliar, testagem diagnóstica, sintomáticos e orientação sobre sinais de gravidade.</sub>
+
+### 97. Doença arterial coronariana crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 10*
+
+**Enunciado:** Homem de 62 anos, com diagnóstico prévio de doença arterial coronariana, apresenta angina CCS III apesar de uso regular de betabloqueador e nitrato. Teste ergométrico mostra infra de ST de 2 mm em múltiplas derivações com baixa carga de esforço. Ecocardiograma revela FE 55%.Qual exame complementar é mais adequado para definir necessidade de revascularização?
+
+- **(A)** Ajustar tratamento via oral com outros anti-anginosos e repetir teste ergométrico em 3 meses.  
+  <sub>Incorreta. Postergar por três meses com apenas ajuste de anti-anginosos mantém um paciente sintomático e de alto risco sem definição anatômica.</sub>
+
+- **(B)** ✅ Cineangiocoronariografia diagnóstica.  
+  <sub>Correta. Angina estável CCS III persistente apesar de tratamento otimizado, somada a teste ergométrico de alto risco (infra de ST de 2 mm em múltiplas derivações com baixa carga), indica estratificação anatômica invasiva com cineangiocoronariografia para definir a necessidade de revascularização.</sub>
+
+- **(C)** Ajustar nitrato via oral e solicitar cintilografia de perfusão miocárdica para confirmação diagnóstica.  
+  <sub>Incorreta. Testes funcionais adicionais, como a cintilografia de perfusão miocárdica, não são prioritários quando o alto risco já está documentado pelo teste ergométrico.</sub>
+
+- **(D)** Solicitar RMN de perfusão miocárdica, antes de otimizar tratamento.  
+  <sub>Incorreta. A ressonância de perfusão é outro teste funcional, redundante nesse contexto, e a proposta de realizá-la antes de otimizar o tratamento inverte a sequência recomendada.</sub>
+
+### 98. Hipertensão arterial e risco cardiovascular  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 11*
+
+> ⚠️ **defeito na origem:** Erro de digitação no enunciado, com ausência de espaço entre as frases ('(VR <100). Microalbuminúria').
+
+**Enunciado:** Homem de 45 anos, IMC 33 kg/m², PA 150/92 mmHg confirmada por MAPA. Glicemia de jejum 118 mg/dL (VR <100). Microalbuminúria 120 mg/g (VR <30).Qual estratégia terapêutica inicial reduz risco cardiovascular e progressão de lesão renal?
+
+- **(A)** Prescrever dieta hipossódica, iniciar diurético tiazídico e reavaliar em 30 dias.  
+  <sub>Incorreta. O diurético tiazídico não oferece a nefroproteção específica necessária diante da microalbuminúria e pode agravar a intolerância à glicose já presente neste paciente com pré-diabetes.</sub>
+
+- **(B)** Iniciar betabloqueador e metformina. Reavaliar em 2 semanas.  
+  <sub>Incorreta. O betabloqueador não é anti-hipertensivo de primeira linha neste contexto e não confere nefroproteção, e a metformina não está indicada como estratégia inicial isolada para o controle pressórico e renal.</sub>
+
+- **(C)** Indicar modificação intensiva no estilo de vida e reavaliar em 30 dias.  
+  <sub>Incorreta. Postergar a farmacoterapia por mais 30 dias é inadequado, pois a presença de lesão de órgão-alvo renal impõe início imediato do bloqueio do sistema renina-angiotensina junto às medidas comportamentais.</sub>
+
+- **(D)** ✅ Iniciar bloqueador do sistema renina-angiotensina associado a mudanças intensivas de estilo de vida.  
+  <sub>Correta. O paciente tem hipertensão confirmada por MAPA associada a obesidade, pré-diabetes e microalbuminúria, caracterizando lesão renal de órgão-alvo precoce; os bloqueadores do sistema renina-angiotensina são a primeira escolha por reduzirem a progressão da doença renal e o risco cardiovascular, devendo ser iniciados junto às mudanças intensivas de estilo de vida.</sub>
+
+### 99. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 12*
+
+**Enunciado:** Homem de 60 anos, com diagnóstico de insuficiência cardíaca com fração de ejeção reduzida (30%), em ritmo sinusal, frequência cardíaca 84 bpm, em uso de carvedilol em dose máxima tolerada, IECA e antagonista mineralocorticoide. Mantém sintomas leves (NYHA II) e teve uma hospitalização no último ano. Creatinina 1,0 mg/dL (VR:0,7–1,3), K+4,3mEq/L.Qual estratégia adicional baseada em evidências reduz hospitalizações e mortalidade nesse contexto?
+
+- **(A)** ✅ Introduzir inibidor de SGLT2.  
+  <sub>Correta. As diretrizes contemporâneas recomendam inibidores de SGLT2 (dapagliflozina ou empagliflozina) para todos os pacientes com ICFEr sintomática, independentemente de diabetes, com redução de hospitalizações e de mortalidade cardiovascular demonstrada nos estudos DAPA-HF e EMPEROR-Reduced.</sub>
+
+- **(B)** Introduzir furosemida.  
+  <sub>Incorreta. A furosemida alivia sintomas congestivos, mas não é terapia modificadora de doença e não reduz mortalidade.</sub>
+
+- **(C)** Associar verapamil e digoxina.  
+  <sub>Incorreta. O verapamil é contraindicado na ICFEr pelo efeito inotrópico negativo e a digoxina, embora possa reduzir hospitalizações, não reduz mortalidade.</sub>
+
+- **(D)** Substituir carvedilol por metoprolol.  
+  <sub>Incorreta. Não há benefício em substituir o carvedilol, já em dose máxima tolerada, por metoprolol, pois ambos são betabloqueadores com evidência favorável.</sub>
+
+### 100. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 13*
+
+> ⚠️ **defeito na origem:** O enunciado está truncado ao final ('assinale a alternativa corret'), com perda da letra final do comando.
+
+**Enunciado:** Uma mulher de 24 anos, previamente hígida, procura atendimento por disúria, polaciúria e urgência miccional há 2 dias. Nega febre, dor lombar, náuseas ou corrimento vaginal. Ao exame físico apresenta bom estado geral, afebril e sem dor à punho-percussão lombar. EAS mostra leucocitúria e nitrito positivo. Não há comorbidades nem uso recente de antibióticos. Considerando o diagnóstico mais provável e a conduta baseada em evidências, assinale a alternativa corret
+
+- **(A)** Toda infecção urinária deve ser confirmada por urocultura antes do início de antibióticos.  
+  <sub>Incorreta. A urocultura não é obrigatória nos casos típicos de cistite não complicada; sua solicitação indiscriminada eleva custos e retarda o tratamento, sem melhorar desfechos clínicos.</sub>
+
+- **(B)** ✅ O quadro é compatível com cistite aguda não complicada, podendo ser iniciado tratamento empírico sem necessidade de urocultura.  
+  <sub>Correta. O quadro clínico clássico de disúria, polaciúria e urgência miccional, sem febre, dor lombar ou sinais sistêmicos, em mulher jovem previamente hígida, caracteriza cistite aguda não complicada; nessa situação o diagnóstico é essencialmente clínico e o tratamento empírico pode ser iniciado sem urocultura, reservada a casos complicados, recorrentes, gestantes ou falha terapêutica.</sub>
+
+- **(C)** A presença de nitrito positivo indica obrigatoriamente pielonefrite.  
+  <sub>Incorreta. O nitrito positivo apenas sugere a presença de bactéria redutora de nitrato, como a Escherichia coli, mas não diferencia cistite de pielonefrite; o diagnóstico de pielonefrite depende de sinais sistêmicos como febre e dor lombar, ausentes no caso.</sub>
+
+- **(D)** O tratamento deve ser intravenoso devido ao risco elevado de bacteremia.  
+  <sub>Incorreta. A antibioticoterapia intravenosa é reservada à pielonefrite grave, sepse ou incapacidade de ingestão oral; trata-se aqui de infecção urinária baixa não complicada, com indicação de tratamento oral ambulatorial.</sub>
+
+### 101. Nefrologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 14*
+
+**Enunciado:** Homem de 42 anos procura atendimento por edema progressivo em membros inferiores e ganho ponderal há 3 semanas. Refere urina espumosa, sem disúria ou febre. Possui antecedente de hepatite B crônica diagnosticada há 10 anos, sem seguimento regular. Ao exame físico apresenta edema ++/4+, pressão arterial de 130/80 mmHg. Exames laboratoriais mostram: Proteinúria: 6,2 g/24h Albumina sérica: 2,3 g/dL Creatinina: 1,1 mg/dL Sedimento urinário: sem hematúria significativa Complemento sérico: normal Considerando o quadro clínico e a associação etiológica mais provável, assinale a alternativa corret
+
+- **(A)** ✅ Nefropatia membranosa secundária à hepatite B, causada por deposição subepitelial de imunocomplexos na membrana basal glomerular.  
+  <sub>Correta. O paciente apresenta síndrome nefrótica do adulto (proteinúria de 6,2 g/24h, albumina de 2,3 g/dL e edema), e a nefropatia membranosa é uma das principais causas nessa faixa etária, com forte associação à hepatite B crônica por deposição subepitelial de imunocomplexos na membrana basal glomerular; a ausência de hematúria significativa e o complemento normal reforçam o diagnóstico.</sub>
+
+- **(B)** Glomeruloesclerose segmentar e focal primária, caracterizada por deposição predominante de IgA mesangial.  
+  <sub>Incorreta. A glomeruloesclerose segmentar e focal é uma lesão esclerosante de origem podocitária e não se caracteriza por deposição mesangial de IgA, que define outra entidade.</sub>
+
+- **(C)** Nefropatia por IgA, cuja manifestação típica é síndrome nefrótica pura sem hematúria.  
+  <sub>Incorreta. A nefropatia por IgA manifesta-se tipicamente por hematúria recorrente, frequentemente após infecções de vias aéreas superiores, e não por síndrome nefrótica pura sem hematúria.</sub>
+
+- **(D)** Glomerulonefrite rapidamente progressiva, esperada pela ausência de consumo de complemento.  
+  <sub>Incorreta. A glomerulonefrite rapidamente progressiva cursa com deterioração acelerada da função renal, hematúria e cilindros hemáticos, achados ausentes neste caso, no qual a creatinina é de 1,1 mg/dL.</sub>
+
+### 102. Endocrinologia  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 15*
+
+> ⚠️ **defeito na origem:** Há sobreposição parcial entre as alternativas 'pH' e 'HCO3', ambos componentes do mesmo critério de acidose metabólica, o que reduz o poder discriminativo do item.
+
+**Enunciado:** Você está atendendo uma mulher, 42 anos que chega à unidade de emergência em regular estado geral, depletada, com histórico de DM. Você recebe os seguintes exames: Glicemia: 285 mg/dL, pH: 7,18, HCO₃: 13 mEq/L, Anion gap: 21. Qual critério você utiliza para diferenciar cetoacidose diabética de estado hiperosmolar?
+
+- **(A)** ✅ pH.  
+  <sub>Correta. O pH é o critério mais discriminativo entre os apresentados: a cetoacidose diabética exige acidose metabólica com pH < 7,3 associada a cetonemia/cetonúria, enquanto no estado hiperglicêmico hiperosmolar o pH costuma ser > 7,30; no caso, o pH de 7,18 confirma a cetoacidose.</sub>
+
+- **(B)** Glicemia.  
+  <sub>Incorreta. A glicemia não diferencia as duas condições, pois a cetoacidose pode ocorrer com glicemias mais baixas, inclusive na forma euglicêmica, como sugere o valor de 285 mg/dL deste caso.</sub>
+
+- **(C)** HCO3.  
+  <sub>Incorreta. O bicarbonato integra os critérios de acidose (< 15 mEq/L na cetoacidose e > 18 mEq/L no estado hiperosmolar), mas é menos diretamente discriminativo que o pH, que se mostra consistentemente reduzido nas apresentações típicas.</sub>
+
+- **(D)** Anion gap.  
+  <sub>Incorreta. O ânion-gap costuma estar elevado na cetoacidose, porém não é critério diagnóstico obrigatório nos consensos mais recentes, podendo também elevar-se por outras causas de acidose.</sub>
+
+### 103. Cetoacidose diabética  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 16*
+
+**Enunciado:** Paciente com 25 anos de idade, dá entrada no serviço de emergência médica com quadro de Cetoacidose diabética (CAD). A glicemia está 480mg/dl, ph:7,05 e K:3,1mEq/L. O estagiário sugere a administração de insulina, pois os níveis de glicemia estão muito elevados. Você prontamente:
+
+- **(A)** Concorda e administra 10UI de insulina lenta EV.  
+  <sub>Incorreta. Além de a insulina estar contraindicada com K de 3,1 mEq/L, o tratamento da cetoacidose emprega insulina regular em infusão contínua, e não insulina de ação lenta por via venosa.</sub>
+
+- **(B)** ✅ Não concorda e orienta hidratação e K endovenoso.  
+  <sub>Correta. Com potássio de 3,1 mEq/L, abaixo do limiar de 3,3 mEq/L, a insulinoterapia deve ser postergada: a prioridade é a hidratação vigorosa com solução isotônica associada à reposição de potássio endovenoso, pois a insulina desloca potássio para o intracelular e pode precipitar arritmias fatais.</sub>
+
+- **(C)** Concorda e administra 10UI de insulina rápida EV.  
+  <sub>Incorreta. Embora a insulina regular endovenosa seja a formulação adequada na cetoacidose, iniciá-la com potássio de 3,1 mEq/L agrava a hipocalemia e expõe o paciente a arritmias graves.</sub>
+
+- **(D)** Não concorda e orienta K endovenoso após a primeira hora de hidratação.  
+  <sub>Incorreta. Postergar o potássio para depois da primeira hora de hidratação atrasa a correção da hipocalemia; a reposição deve acompanhar a expansão volêmica até o potássio atingir ao menos 3,3 mEq/L.</sub>
+
+### 104. Diabetes mellitus tipo 2  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 17*
+
+> ⚠️ **defeito na origem:** As alternativas grafam a hemoglobina glicada de forma inconsistente (HbA1 e HbA1C), prejudicando a padronização do item.
+
+**Enunciado:** Segundo as diretrizes da Sociedade Brasileira de Diabetes de 2025, a indicação do uso de análogos GLP1 no tratamento do diabetes está indicado na seguinte situação:
+
+- **(A)** Adjuvante ao tratamento com Metformina apenas se HbA1 > 7,5%.  
+  <sub>Incorreta. A indicação dos análogos de GLP-1 não fica condicionada a um limiar de HbA1c acima de 7,5% em associação à metformina, pois a escolha é estratificada por risco cardiovascular, peso e metas individualizadas.</sub>
+
+- **(B)** Como terceira escolha se HbA1C > 8% e presença de doença renal.  
+  <sub>Incorreta. Relegar o GLP-1 a terceira escolha contraria a recomendação atual; na presença de doença renal do diabetes, inibidores de SGLT2 e agonistas de GLP-1 são priorizados precocemente.</sub>
+
+- **(C)** Apenas se HbA1C > 9% em pacientes com obesidade.  
+  <sub>Incorreta. Restringir o uso a HbA1c acima de 9% em pacientes com obesidade ignora o benefício cardiovascular e ponderal reconhecido dessa classe também em faixas glicêmicas inferiores.</sub>
+
+- **(D)** ✅ Primeira escolha em pacientes com risco cardiovascular elevado.  
+  <sub>Correta. As Diretrizes da Sociedade Brasileira de Diabetes de 2025 retiram da metformina a condição de primeira escolha obrigatória para todos e, em pacientes com risco cardiovascular alto ou muito alto, indicam de início fármacos com benefício cardiovascular comprovado, entre eles os agonistas do receptor de GLP-1 e os inibidores de SGLT2.</sub>
+
+### 105. Diabetes mellitus  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 18*
+
+> ⚠️ **defeito na origem:** O enunciado não informa o tempo decorrido desde o início dos hipoglicemiantes orais nem dados antropométricos, elementos necessários para sustentar a falência terapêutica precoce que fundamenta a resposta.
+
+**Enunciado:** Paciente com 30 anos foi diagnosticado recentemente com DM. Iniciou uso de hipoglicemiantes orais, porém persiste com as queixas de fraqueza, sede excessiva, perda de peso, além de visão turva. Relata que está urinando mais, inclusive à noite, chegando a comprometer o sono. O paciente não trouxe exames recentes, mas o quadro clínico faz você suspeitar de:
+
+- **(A)** DM tipo 2 com má aderência ao tratamento.  
+  <sub>Incorreta. Nada no enunciado sugere falta de adesão ao tratamento; ao contrário, o quadro descreve falha terapêutica com sintomas catabólicos incompatíveis com o diabetes tipo 2 típico recém-tratado.</sub>
+
+- **(B)** DM de causa secundária (Cushing).  
+  <sub>Incorreta. O diabetes secundário à síndrome de Cushing exigiria manifestações características, como fácies em lua cheia, obesidade centrípeta, estrias violáceas e fraqueza muscular proximal, ausentes no caso.</sub>
+
+- **(C)** ✅ DM auto-imune do adulto (LADA).  
+  <sub>Correta. Adulto jovem, com sintomas clássicos de hiperglicemia significativa (poliúria, polidipsia, perda de peso, fraqueza e visão turva) que persistem apesar do uso de hipoglicemiantes orais, configura falência precoce da terapia oral, característica do diabetes autoimune latente do adulto, forma de diabetes autoimune de progressão lenta com necessidade precoce de insulina.</sub>
+
+- **(D)** Efeito colateral dos hipoglicemiantes orais.  
+  <sub>Incorreta. Nenhum antidiabético oral provoca poliúria, perda de peso e hiperglicemia sintomática dessa magnitude; os sintomas decorrem da própria doença descompensada, e não da medicação.</sub>
+
+### 106. Endocrinologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 19*
+
+> ⚠️ **defeito na origem:** O enunciado omite idade e sexo do paciente, dados relevantes para a estratificação de risco e para a decisão terapêutica.
+
+**Enunciado:** Paciente chega para consulta médica trazendo exames com HbA1C = 6,3%. Está acima do peso e é sedentária. O pai era portador de DM2 e faleceu de complicações renais. A conduta mais adequada neste caso é:
+
+- **(A)** Iniciar Metformina devido ao diagnóstico de DM2.  
+  <sub>Incorreta. O diagnóstico de diabetes exige HbA1c ≥ 6,5%; com 6,3% não há DM2, e a metformina não é conduta obrigatória de primeira linha nesse momento.</sub>
+
+- **(B)** ✅ Repetir o exame para confirmar diagnóstico de pré diabetes.  
+  <sub>Correta. Segundo a Diretriz da Sociedade Brasileira de Diabetes, hemoglobina glicada entre 5,7% e 6,4% indica pré-diabetes; o valor de 6,3% deve ser confirmado por nova dosagem ou por outro método laboratorial válido, sobretudo diante de excesso de peso, sedentarismo e história familiar de DM2.</sub>
+
+- **(C)** Realizar o TOTG e se o resultado for > 200mg/dl confirma o diagnóstico de pré diabetes.  
+  <sub>Incorreta. O TOTG é método diagnóstico válido, mas glicemia de 2 horas superior a 200 mg/dL caracteriza diabetes, e não pré-diabetes.</sub>
+
+- **(D)** Realizar glicemia capilar em jejum para confirmar o diagnóstico de DM2.  
+  <sub>Incorreta. A glicemia capilar é método de monitorização e não é aceita para o diagnóstico de diabetes mellitus.</sub>
+
+### 107. Obesidade  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 20*
+
+**Enunciado:** Uma mulher de 44 anos apresenta IMC de 29 kg/m², circunferência da cintura de 92 cm, além de presença documentada de doença hepática gordurosa associada à disfunção metabólica (MASLD). Segundo as Diretrizes ABESO e o Protocolo Clínico Brasileiro de Sobrepeso e Obesidade (2024–2025), qual é o diagnóstico mais apropriado?
+
+- **(A)** Sobrepeso sem risco metabólico.  
+  <sub>Incorreta. A presença de MASLD e de cintura elevada caracteriza risco metabólico significativo, contrariando a classificação de sobrepeso 'sem risco'.</sub>
+
+- **(B)** Obesidade apenas por IMC.  
+  <sub>Incorreta. O diagnóstico não deve ser baseado apenas no IMC, que pode subestimar a adiposidade e o risco cardiometabólico do paciente.</sub>
+
+- **(C)** Sobrepeso isolado, sem indicação de intervenção médica.  
+  <sub>Incorreta. Há comorbidade metabólica documentada, o que impõe intervenção médica, e não apenas acompanhamento sem conduta.</sub>
+
+- **(D)** ✅ Obesidade, considerando excesso de adiposidade corporal com comorbidade associada.  
+  <sub>Correta. As Diretrizes ABESO e o Protocolo Clínico Brasileiro (2024-2025) definem obesidade pela adiposidade corporal excessiva associada a comorbidades — aqui, MASLD documentada e circunferência de cintura aumentada —, mesmo com IMC entre 25 e 29,9 kg/m².</sub>
+
+### 108. Obesidade  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 21*
+
+> ⚠️ **defeito na origem:** As alternativas B e C omitem a unidade kg/m² presente nas demais, gerando falta de homogeneidade entre as opções.
+
+**Enunciado:** Paciente de 52 anos, IMC 28 kg/m², hipertensão controlada e esteatose hepática metabólica (MASLD) documentada. Após três meses de intervenção no estilo de vida com acompanhamento nutricional e exercício supervisionado, apresenta perda ponderal mínima (<2%). Segundo as diretrizes brasileiras (ABESO, SBEM/ABESO e PCDT Obesidade 2024–2025), qual é a indicação formal para início de tratamento farmacológico da obesidade neste caso?
+
+- **(A)** IMC ≥ 24 sem comorbidades.  
+  <sub>Incorreta. IMC de 24 kg/m² situa-se na faixa de eutrofia e, sem comorbidades, não configura qualquer indicação formal de tratamento medicamentoso da obesidade.</sub>
+
+- **(B)** ✅ IMC ≥ 27 kg/m² com comorbidades.  
+  <sub>Correta. Segundo o posicionamento SBEM/ABESO e o PCDT/diretriz brasileira de tratamento farmacológico da obesidade, a farmacoterapia está indicada com IMC ≥ 30 kg/m² independentemente de comorbidades ou com IMC ≥ 27 kg/m² associado a pelo menos uma comorbidade; o paciente tem IMC 28 kg/m², hipertensão e MASLD, além de falha comprovada da abordagem comportamental.</sub>
+
+- **(C)** IMC ≥ 25 independentemente de comorbidades.  
+  <sub>Incorreta. IMC ≥ 25 kg/m² caracteriza sobrepeso, mas isoladamente, sem comorbidade associada, não preenche o critério formal de indicação de farmacoterapia.</sub>
+
+- **(D)** Apenas IMC 30 possui indicação para tratamento farmacológico.  
+  <sub>Incorreta. Restringir a indicação ao IMC ≥ 30 kg/m² desconsidera o critério de IMC ≥ 27 kg/m² com comorbidade, que é exatamente a situação deste paciente.</sub>
+
+### 109. Endocrinologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 22*
+
+**Enunciado:** Paciente, 28 anos, com quadro de obesidade e hipertrigliceridemia, começou a utilizar medicação para perda peso há 4 semanas. Relata que 2 dias após uma festa de aniversário, passou a apresentar dor abdominal tipo cólica, com episódios de diarreia. Relata ainda que as fezes são liquidas e com aspecto gorduroso no vaso sanitário. Pela descrição dos efeitos adversos apresentados pela paciente, a sua suposição é de que ela esteja em uso de:
+
+- **(A)** ✅ Orlistate.  
+  <sub>Correta. O orlistate inibe as lipases gástrica e pancreática, impedindo a hidrólise e a absorção de cerca de 30% da gordura ingerida; os lipídios não absorvidos no lúmen produzem esteatorreia, fezes oleosas, urgência fecal, flatulência com perda oleosa e desconforto abdominal, sobretudo após refeições gordurosas.</sub>
+
+- **(B)** Sibutramina.  
+  <sub>Incorreta. A sibutramina inibe a recaptação de noradrenalina e serotonina, cursando com boca seca, insônia, constipação e elevação da pressão arterial e da frequência cardíaca, não com esteatorreia.</sub>
+
+- **(C)** Bupropiona + Naltrexona.  
+  <sub>Incorreta. A associação bupropiona/naltrexona provoca tipicamente náusea, cefaleia, constipação e insônia, sem má absorção de gorduras.</sub>
+
+- **(D)** Liraglutida.  
+  <sub>Incorreta. A liraglutida causa náuseas, vômitos e diarreia por retardo do esvaziamento gástrico, mas não gera fezes com aspecto gorduroso por bloqueio da absorção lipídica.</sub>
+
+### 110. Endocrinologia e metabolismo  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 23*
+
+**Enunciado:** A pancreatite é uma complicação que pode estar associada ao aumento dos níveis de triglicerídeos (TG) e exige medidas para sua redução, como dieta e medicação. Com base nestas informações, assinale a alternativa que apresenta a indicação formal de tratamento com base nos níveis de triglicerídeo sérico e a classe medicamentosa de escolha para evitar esta complicação:
+
+- **(A)** ✅ TG > 500mg/dl, fibrato.  
+  <sub>Correta. As diretrizes brasileiras reconhecem a hipertrigliceridemia grave como importante fator de risco para pancreatite aguda, adotando o valor de triglicerídeos acima de 500 mg/dL como limiar clínico para início de tratamento farmacológico com essa finalidade; conforme o PCDT da Dislipidemia do Ministério da Saúde, os fibratos são os agentes de primeira escolha, por reduzirem a síntese hepática de VLDL e aumentarem a oxidação de ácidos graxos, promovendo queda rápida e efetiva dos triglicerídeos.</sub>
+
+- **(B)** TG > 500mg/dl, estatina.  
+  <sub>Incorreta. O ponto de corte de 500 mg/dL está correto, mas as estatinas atuam preferencialmente sobre o LDL-colesterol e produzem redução apenas modesta dos triglicerídeos, não sendo a classe de escolha para prevenir pancreatite por hipertrigliceridemia.</sub>
+
+- **(C)** TG > 250mg/dl, fibrato.  
+  <sub>Incorreta. Embora o fibrato seja a classe adequada, o valor de 250 mg/dL não constitui indicação formal de tratamento farmacológico voltado à prevenção de pancreatite, situando-se na faixa de hipertrigliceridemia leve a moderada, manejada prioritariamente com medidas de estilo de vida.</sub>
+
+- **(D)** TG > 250mg/dl, estatina.  
+  <sub>Incorreta. A alternativa erra tanto no limiar (250 mg/dL não é indicação formal para essa finalidade) quanto na classe medicamentosa, já que a estatina não é o fármaco de escolha para redução rápida dos triglicerídeos.</sub>
+
+### 111. Cardiologia preventiva  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 24*
+
+> ⚠️ **defeito na origem:** O valor de LDL-c citado na justificativa oficial (≈145 mg/dL) diverge do resultado obtido pela fórmula de Friedewald com os dados do enunciado (≈170 mg/dL), embora a conduta indicada não se altere.
+
+**Enunciado:** Paciente com 55 anos, masculino, tabagista e com IMC: 28Kg/m2. O paciente faz tratamento para hipertensão e não é portador de diabetes. Comparece para consulta médica trazendo dos seguintes resultados de exames: CT: 230mg/dl, HDLc:30mg/dl, TG: 150mg/dl. Considerando os fatores de risco apresentados pelo paciente, a sua interpretação dos exames em relação aos níveis de LDLc e sua conduta são respectivamente?
+
+- **(A)** LDLc adequado, iniciar ômega 3.  
+  <sub>Incorreta. O LDL-c não está adequado para o risco do paciente, e o ômega-3 não é terapia de primeira linha para redução do LDL-c, alvo primário da intervenção.</sub>
+
+- **(B)** LDLc elevado, reforçar mudança de estilo de vida.  
+  <sub>Incorreta. As mudanças de estilo de vida são obrigatórias, mas insuficientes isoladamente: pacientes de risco intermediário com LDL-c acima da meta devem iniciar tratamento farmacológico.</sub>
+
+- **(C)** LDLc adequado, iniciar fibrato.  
+  <sub>Incorreta. O LDL-c está elevado, e os fibratos atuam sobre os triglicerídeos, que estão no limite superior da normalidade, não sobre o alvo primário deste paciente.</sub>
+
+- **(D)** ✅ LDLc elevado, iniciar estatina.  
+  <sub>Correta. O LDL-c estimado pela fórmula de Friedewald está acima da meta recomendada para risco cardiovascular intermediário (<100 mg/dL) pela Diretriz Brasileira de Dislipidemias; somados os agravantes tabagismo, hipertensão, HDL baixo e sobrepeso, há indicação clara de iniciar estatina, terapia de primeira linha, além das mudanças de estilo de vida.</sub>
+
+### 112. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 25*
+
+**Enunciado:** Homem de 62 anos, diabético, com antecedente de infarto agudo do miocárdio, encontra-se em uso de atorvastatina 40 mg/dia. Seu LDL-colesterol atual é de 68 mg/dL, com boa adesão ao tratamento e ausência de efeitos adversos. Considerando as recomendações da Diretriz Brasileira de Dislipidemias 2025, qual é a conduta terapêutica mais apropriada?
+
+- **(A)** Manter a dose atual da estatina, pois o LDL-colesterol já se encontra em faixa aceitável.  
+  <sub>Incorreta. Reflete o erro comum de interpretar um valor 'baixo' como valor 'na meta': 68 mg/dL está acima do alvo de < 50 mg/dL para esse estrato de risco.</sub>
+
+- **(B)** Substituir a estatina por ezetimiba em monoterapia.  
+  <sub>Incorreta. A ezetimiba em monoterapia não substitui a estatina na prevenção secundária, já que a estatina é a base do tratamento com maior evidência de redução de eventos.</sub>
+
+- **(C)** ✅ Intensificar o tratamento hipolipemiante, seja com aumento da dose da estatina ou associação de ezetimiba, visando LDL-colesterol < 50 mg/dL.  
+  <sub>Correta. Paciente com doença cardiovascular estabelecida e diabetes pertence ao grupo de risco cardiovascular muito alto, cuja meta é LDL-colesterol < 50 mg/dL; com LDL de 68 mg/dL, a conduta é intensificar o tratamento, elevando a estatina até a dose máxima tolerada e/ou associando ezetimiba.</sub>
+
+- **(D)** Priorizar apenas medidas não farmacológicas, uma vez que a redução adicional do LDL tem pouco impacto clínico.  
+  <sub>Incorreta. Medidas não farmacológicas são complementares e insuficientes isoladamente, contrariando evidências robustas de que a redução adicional do LDL-c traz benefício clínico neste perfil de risco.</sub>
+
+### 113. Metabolismo lipídico  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · medio · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 26*
+
+> ⚠️ **defeito na origem:** Enunciado truncado ao final ('assinale a alternativa corret').
+
+**Enunciado:** As dislipidemias estão intimamente relacionadas ao desenvolvimento da aterosclerose e da doença cardiovascular. Considerando os conceitos básicos do metabolismo lipídico, assinale a alternativa corret
+
+- **(A)** O HDL-colesterol apresenta associação inversa com o risco cardiovascular principalmente como marcador epidemiológico, sem participação direta nos mecanismos biológicos de proteção contra a aterosclerose.  
+  <sub>Incorreta. Reduzir o HDL-colesterol a mero marcador epidemiológico é erro conceitual: ele atua no transporte reverso do colesterol e em mecanismos antiaterogênicos e anti-inflamatórios.</sub>
+
+- **(B)** Os triglicerídeos circulam no plasma predominantemente em forma livre, estando sua relevância clínica mais relacionada ao contexto metabólico em que se inserem do que a um papel aterogênico direto.  
+  <sub>Incorreta. Ainda que plausível, os triglicerídeos circulam majoritariamente associados a lipoproteínas (quilomícrons e VLDL), e seus remanescentes têm participação direta no processo aterosclerótico.</sub>
+
+- **(C)** As lipoproteínas participam do transporte de lipídios tanto da dieta quanto da síntese endógena, sendo as partículas de origem dietética as mais diretamente relacionadas ao desenvolvimento da aterosclerose.  
+  <sub>Incorreta. Reconhece corretamente as vias exógena e endógena, mas erra ao atribuir maior relevância aterogênica às partículas de origem dietética, quando são as lipoproteínas endógenas, sobretudo o LDL, que ocupam papel central.</sub>
+
+- **(D)** ✅ O LDL-colesterol é a principal lipoproteína responsável pelo transporte de colesterol do fígado para os tecidos periféricos e está diretamente envolvido na formação da placa aterosclerótica.  
+  <sub>Correta. O LDL-colesterol é a principal lipoproteína de transporte de colesterol do fígado para os tecidos periféricos e participa diretamente da aterogênese, ao se depositar e sofrer oxidação na parede arterial, formando a placa aterosclerótica.</sub>
+
+### 114. Dislipidemias  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 27*
+
+**Enunciado:** Homem de 52 anos, com obesidade abdominal e resistência à insulina, apresenta triglicerídeos de 420 mg/dL, HDL-c de 34 mg/dL e LDL-c calculado dentro da meta. Nessa situação, qual parâmetro lipídico é mais apropriado para avaliação do risco aterosclerótico residual?
+
+- **(A)** LDL-colesterol calculado pela fórmula de Friedewald.  
+  <sub>Incorreta. A fórmula de Friedewald perde acurácia com triglicerídeos elevados, subestimando o LDL-c justamente neste paciente com 420 mg/dL, o que explica o valor calculado aparentemente dentro da meta.</sub>
+
+- **(B)** Colesterol total isoladamente.  
+  <sub>Incorreta. O colesterol total isolado agrega a fração HDL, não aterogênica, e por isso não discrimina o risco residual nem serve de alvo terapêutico.</sub>
+
+- **(C)** HDL-colesterol isoladamente.  
+  <sub>Incorreta. O HDL-c isolado é marcador de risco, mas não constitui alvo de tratamento nem quantifica a carga de partículas aterogênicas circulantes.</sub>
+
+- **(D)** ✅ Colesterol não-HDL.  
+  <sub>Correta. O colesterol não-HDL engloba todas as lipoproteínas aterogênicas contendo apolipoproteína B e, em cenários de hipertrigliceridemia e resistência à insulina, correlaciona-se melhor com eventos cardiovasculares do que o LDL-c isolado, sendo recomendado pelas diretrizes atuais como alvo terapêutico secundário após o alcance da meta de LDL-c.</sub>
+
+### 115. Microbiologia clínica  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 28*
+
+> ⚠️ **defeito na origem:** A justificativa oficial comenta o Staphylococcus aureus, microrganismo que não figura em nenhuma das alternativas.
+
+**Enunciado:** Um homem de 65 anos apresenta febre e disúria após a realização de uma cistoscopia. As hemoculturas revelam o crescimento de cocos Gram-positivos em cadeias, catalase negativa e gama-hemolíticos. O agente isolado demonstra resistência intrínseca às cefalosporinas. Qual é o agente etiológico provável e o mecanismo de ação dos beta-lactâmicos contra ele?
+
+- **(A)** Streptococcus pyogenes; inibição da síntese de DNA.  
+  <sub>Incorreta. O Streptococcus pyogenes é beta-hemolítico, e não gama-hemolítico, e é sensível às cefalosporinas; ademais, a inibição da síntese de DNA é o mecanismo das quinolonas, não dos beta-lactâmicos.</sub>
+
+- **(B)** Streptococcus pneumoniae; inibição da transcrição de RNA.  
+  <sub>Incorreta. O Streptococcus pneumoniae é alfa-hemolítico, apresenta-se em diplococos e não tem resistência intrínseca às cefalosporinas; a inibição da transcrição de RNA corresponde à rifampicina.</sub>
+
+- **(C)** ✅ Enterococcus faecalis; inibição da transpeptidação da parede celular.  
+  <sub>Correta. Cocos gram-positivos em cadeias, catalase-negativos, gama-hemolíticos e com resistência intrínseca às cefalosporinas, em infecção urinária após instrumentação, identificam Enterococcus faecalis; os beta-lactâmicos ligam-se às PBPs e impedem a transpeptidação, bloqueando as ligações cruzadas do peptideoglicano da parede celular.</sub>
+
+- **(D)** Enterococcus faecium; inibição da síntese de ácido fólico.  
+  <sub>Incorreta. Ainda que o gênero esteja correto, o E. faecium é menos frequente em infecções urinárias após instrumentação do que o E. faecalis, e a inibição da síntese de ácido fólico é o mecanismo das sulfonamidas, não dos beta-lactâmicos.</sub>
+
+### 116. Farmacologia e virologia  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 29*
+
+> ⚠️ **defeito na origem:** O comando revela entre parênteses a classe farmacológica ('Inibidores da Protease'), reduzindo o desafio cognitivo do item.
+
+**Enunciado:** Um paciente de 24 anos com diagnóstico recente de HIV inicia a terapia antirretroviral (TARV). Um dos fármacos prescritos atua impedindo a clivagem de poliproteínas precursoras, o que resulta na produção de partículas virais imaturas e não infecciosas. Em qual etapa do ciclo de replicação viral atua essa classe de fármacos (Inibidores da Protease)?
+
+- **(A)** Desnudamento.  
+  <sub>Incorreta. O desnudamento não é alvo dessa classe; as etapas iniciais de entrada viral são bloqueadas por antagonistas de CCR5, como o maraviroque, e por inibidores de fusão.</sub>
+
+- **(B)** Transcrição Reversa.  
+  <sub>Incorreta. A transcrição reversa é o alvo dos inibidores da transcriptase reversa análogos e não análogos de nucleosídeos, como o tenofovir.</sub>
+
+- **(C)** Integração ao DNA do hospedeiro.  
+  <sub>Incorreta. A integração do DNA proviral ao genoma do hospedeiro é bloqueada pelos inibidores da integrase, como o dolutegravir.</sub>
+
+- **(D)** ✅ Maturação.  
+  <sub>Correta. Os inibidores da protease impedem a clivagem das poliproteínas Gag-Pol, etapa final do ciclo viral, resultando em partículas imaturas e não infecciosas — ou seja, atuam na maturação.</sub>
+
+### 117. Farmacologia dos antimicrobianos  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · facil · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 30*
+
+**Enunciado:** Uma mulher de 22 anos procura atendimento com tosse seca persistente. O raio-X de tórax demonstra infiltrado intersticial bilateral e há suspeita clínica de pneumonia por Mycoplasma pneumoniae. Qual é o mecanismo de ação do antibiótico de primeira escolha (Macrolídeo) para este caso?
+
+- **(A)** ✅ Ligação à subunidade 50S do ribossomo.  
+  <sub>Correta. Os macrolídeos inibem a síntese proteica bacteriana ao se ligarem à subunidade 50S do ribossomo, impedindo a translocação do peptídeo — mecanismo pertinente à pneumonia por Mycoplasma pneumoniae.</sub>
+
+- **(B)** Inibição da síntese da parede celular.  
+  <sub>Incorreta. A inibição da síntese da parede celular é o mecanismo dos betalactâmicos, como penicilinas e cefalosporinas.</sub>
+
+- **(C)** Inibição da enzima DNA-girase.  
+  <sub>Incorreta. A inibição da DNA-girase corresponde ao mecanismo das quinolonas, como a ciprofloxacina.</sub>
+
+- **(D)** Rutura da membrana citoplasmática bacteriana.  
+  <sub>Incorreta. A ruptura da membrana citoplasmática bacteriana é a ação da daptomicina e das polimixinas.</sub>
+
+### 118. Infecções sexualmente transmissíveis  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 31*
+
+**Enunciado:** Um homem de 30 anos apresenta um exantema maculopapular que atinge as palmas das mãos e as plantas dos pés. Ele relata ter apresentado uma úlcera genital indolor que cicatrizou espontaneamente há cerca de 2 meses. O teste VDRL atual é de 1:64. Qual é a classificação correta desta fase da infecção e o tratamento recomendado?
+
+- **(A)** Sífilis Primária; Penicilina Cristalina em dose única.  
+  <sub>Incorreta. A fase primária caracteriza-se pela presença do cancro ativo, já cicatrizado neste paciente, e a penicilina cristalina não é o esquema indicado para essa fase.</sub>
+
+- **(B)** Sífilis Latente; Penicilina Benzatínica 7,2M UI (3 doses semanais).  
+  <sub>Incorreta. O esquema de 7,2 milhões de UI em três doses semanais destina-se à sífilis latente tardia ou de duração indeterminada, e o quadro exantemático atual caracteriza fase secundária.</sub>
+
+- **(C)** ✅ Sífilis Secundária; Penicilina Benzatínica 2,4M UI em dose única.  
+  <sub>Correta. O exantema maculopapular com acometimento palmoplantar surgido após a cicatrização espontânea de úlcera genital indolor define a sífilis secundária, cujo tratamento preconizado é penicilina benzatina 2,4 milhões de UI em dose única.</sub>
+
+- **(D)** Sífilis Secundária; Penicilina Cristalina por via intravenosa.  
+  <sub>Incorreta. Acerta o estadiamento, mas a penicilina cristalina intravenosa é reservada à neurossífilis, não sendo o tratamento da sífilis secundária sem acometimento neurológico.</sub>
+
+### 119. Endocrinologia hospitalar  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 32*
+
+**Enunciado:** Paciente de 68 anos, internado por insuficiência cardíaca descompensada, apresenta hiperglicemia persistente (médias de 200 mg/dL). A equipe assistente opta por iniciar esquema de insulinoterapia basal-bolus. O paciente tem função renal preservada e ingesta oral adequada. A composição correta do esquema de insulinoterapia programada para este perfil de paciente deve incluir
+
+- **(A)** ✅ insulina basal associada a doses fixas de insulina rápida/ultrarrápida nas refeições e doses de correção.  
+  <sub>Correta. O esquema basal-bolus-correção é o padrão-ouro no paciente internado com ingesta oral adequada, pois une a cobertura das necessidades basais, o bólus prandial proporcional à ingesta calórica e o componente corretivo para ajustes finos.</sub>
+
+- **(B)** apenas insulina de ação rápida antes das refeições principais.  
+  <sub>Incorreta. Insulina rápida isolada antes das refeições não cobre a necessidade basal e associa-se a maior variabilidade glicêmica e pior controle.</sub>
+
+- **(C)** doses fixas de insulina NPH em duas aplicações diárias, sem necessidade de correções.  
+  <sub>Incorreta. NPH em duas aplicações fixas sem doses de correção não permite ajuste às variações glicêmicas nem cobertura prandial adequada.</sub>
+
+- **(D)** insulina basal exclusiva e correção com insulina regular apenas se glicemia > 250 mg/dL.  
+  <sub>Incorreta. Insulina basal exclusiva com correção apenas acima de 250 mg/dL deixa a demanda prandial descoberta e tolera hiperglicemia excessiva.</sub>
+
+### 120. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 33*
+
+> ⚠️ **defeito na origem:** O distrator D ('idade inferior a 30 anos') é implausível e não compete com a chave, reduzindo o poder discriminativo do item.
+
+**Enunciado:** Homem de 55 anos, assintomático, comparece à consulta para avaliação preventiva. Apresenta hipertensão arterial controlada e histórico familiar de doença cardiovascular precoce. Exames laboratoriais mostram discreta elevação do LDL-colesterol. O médico considera iniciar terapia hipolipemiante para prevenção primária de eventos cardiovasculares. De acordo com as diretrizes atuais de prevenção cardiovascular, qual é o principal critério utilizado para indicação de estatina nesse contexto?
+
+- **(A)** Valor isolado de colesterol total.  
+  <sub>Incorreta. O colesterol total isolado não define indicação terapêutica, pois não distingue as frações aterogênicas do HDL-colesterol e não incorpora os demais fatores de risco necessários à decisão.</sub>
+
+- **(B)** ✅ Estratificação do risco cardiovascular global.  
+  <sub>Correta. Em prevenção primária, a indicação de estatina não depende de valores isolados do perfil lipídico, mas da estimativa do risco cardiovascular global, que integra idade, pressão arterial, perfil lipídico, tabagismo, diabetes e história familiar; essa abordagem identifica os indivíduos com maior probabilidade de eventos e permite decisão terapêutica individualizada, como no paciente descrito, hipertenso e com história familiar de doença cardiovascular precoce.</sub>
+
+- **(C)** Presença de hipertrigliceridemia leve.  
+  <sub>Incorreta. A hipertrigliceridemia leve não é critério principal para indicação de estatina; quando relevante, a hipertrigliceridemia grave é manejada preferencialmente com fibratos e medidas de estilo de vida.</sub>
+
+- **(D)** Idade inferior a 30 anos.  
+  <sub>Incorreta. A idade é apenas uma das variáveis do cálculo de risco global, e ter menos de 30 anos, isoladamente, não orienta a decisão de iniciar ou não terapia hipolipemiante.</sub>
+
+### 121. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 34*
+
+**Enunciado:** Paciente de 29 anos realiza investigação sorológica após exposição ocupacional a material biológico potencialmente contaminado. A avaliação laboratorial inclui pesquisa de marcadores para o vírus da hepatite B (HBV), com o objetivo de identificar possível infecção em atividade. Considerando a interpretação dos marcadores sorológicos do HBV, qual resultado laboratorial indica presença de infecção ativa pelo vírus da hepatite B?
+
+- **(A)** Anti-HBs positivo isolado.  
+  <sub>Incorreta. O anti-HBs positivo isolado indica imunidade, geralmente por vacinação ou por infecção prévia resolvida, e não infecção em atividade.</sub>
+
+- **(B)** ✅ HBsAg positivo.  
+  <sub>Correta. A presença do antígeno de superfície (HBsAg) indica infecção ativa pelo vírus da hepatite B, podendo corresponder tanto à fase aguda quanto à infecção crônica.</sub>
+
+- **(C)** Anti-HBc IgG isolado.  
+  <sub>Incorreta. O anti-HBc IgG isolado sugere contato prévio com o vírus, sem necessariamente indicar replicação viral ativa.</sub>
+
+- **(D)** Anti-HBe positivo isolado.  
+  <sub>Incorreta. O anti-HBe positivo isolado relaciona-se a menor replicação viral e, por si só, não caracteriza infecção ativa.</sub>
+
+### 122. Endocrinologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 35*
+
+> ⚠️ **defeito na origem:** Falha de concordância no enunciado, que alterna entre 'Mulher, 24 anos' e 'O paciente'.
+
+**Enunciado:** Mulher, 24 anos, com diagnóstico de Diabetes Tipo 1 há 10 anos, em esquema basal-bolus. Relata episódios frequentes de hipoglicemia inadvertida e alta variabilidade glicêmica. HbA1c atual de 7,9%. O paciente busca otimização do controle metabólico com foco na segurança. De acordo com as recomendações atuais para o manejo de adultos com DM1, a conduta prioritária é
+
+- **(A)** ✅ Iniciar o uso de sistema de monitoramento contínuo da glicose (CGM).  
+  <sub>Correta. O monitoramento contínuo da glicose é hoje o padrão de cuidado no diabetes tipo 1 e é a conduta prioritária diante de hipoglicemias inadvertidas e alta variabilidade glicêmica, por permitir alertas, análise de tendências e redução do risco de hipoglicemia grave.</sub>
+
+- **(B)** Trocar a insulina análoga basal por insulina NPH em duas doses.  
+  <sub>Incorreta. A substituição do análogo basal por NPH aumenta o risco de hipoglicemia, sobretudo noturna, por seu pico de ação e maior variabilidade de absorção, agravando o problema apresentado.</sub>
+
+- **(C)** Reforçar o automonitoramento capilar de ponta de dedo oito vezes ao dia.  
+  <sub>Incorreta. A intensificação da glicemia capilar não detecta as hipoglicemias entre as medidas nem fornece tendências, sendo inferior ao CGM justamente nos casos de hipoglicemia inadvertida.</sub>
+
+- **(D)** Prescrever inibidores da SGLT2 como terapia adjuvante ao tratamento.  
+  <sub>Incorreta. Os inibidores de SGLT2 não são terapia prioritária no diabetes tipo 1 e aumentam o risco de cetoacidose diabética euglicêmica, o que contraria o foco em segurança.</sub>
+
+### 123. Desidratação grave e choque hipovolêmico  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 36*
+
+**Enunciado:** Mulher, 72 anos, trazida à UPA com quadro de diarreia profusa há 5 dias. Ao exame: letárgica, olhos muito encovados, pulso radial fino e rápido, e tempo de enchimento capilar de 5 segundos. Exames: Creatinina: 2,1 mg/dL; Potássio: 3,1 mEq/L; Ureia 96 mg/dL. Diante da gravidade do quadro clínico e laboratorial, a prioridade imediata é
+
+- **(A)** Oferta de solução de reidratação oral via sonda nasogástrica até a melhora da consciência.  
+  <sub>Incorreta. A reidratação oral, mesmo por sonda nasogástrica, é insuficiente e insegura diante de rebaixamento do nível de consciência e sinais de choque, pelo risco de broncoaspiração e pela lentidão da reposição.</sub>
+
+- **(B)** ✅ Expansão volêmica venosa rápida com cristaloides e monitorização da função renal e eletrólitos.  
+  <sub>Correta. Letargia, olhos encovados, pulso fino e enchimento capilar de 5 segundos configuram desidratação grave com choque, impondo o Plano C — expansão volêmica venosa rápida com cristaloides — com monitorização da função renal e dos eletrólitos, já que a elevação de ureia e creatinina traduz lesão renal pré-renal.</sub>
+
+- **(C)** Administração de gluconato de cálcio para proteção miocárdica antes da hidratação.  
+  <sub>Incorreta. O gluconato de cálcio destina-se à proteção miocárdica na hipercalemia com repercussão eletrocardiográfica; a paciente apresenta potássio de 3,1 mEq/L, ou seja, hipocalemia.</sub>
+
+- **(D)** Início de antibioticoterapia de amplo espectro por via venosa devido à idade avançada.  
+  <sub>Incorreta. A antibioticoterapia não é recomendada de rotina na diarreia aguda, ficando reservada a situações específicas como disenteria grave, suspeita de cólera ou imunocomprometidos, e jamais precede a estabilização hemodinâmica.</sub>
+
+### 124. Condição pós-COVID-19  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 37*
+
+**Enunciado:** Paciente masculino, 45 anos, previamente hígido e atleta amador, procura atendimento seis meses após um quadro moderado de COVID-19 que não necessitou de hospitalização. Ele queixa-se de fadiga incapacitante que o impede de retomar suas atividades físicas, "névoa mental" com dificuldade de concentração no trabalho e palpitações esporádicas. O exame físico e os exames laboratoriais de rotina, incluindo hemograma, função tireoidiana e renal, são normais. Eletrocardiograma de repouso sem alterações. Considerando o quadro clínico, a abordagem mais adequada para o seguimento deste paciente envolve:
+
+- **(A)** A solicitação imediata de uma ressonância magnética cerebral e um ecocardiograma com estresse para descartar sequelas estruturais graves como causa primária dos sintomas.  
+  <sub>Incorreta. Ressonância magnética cerebral e ecocardiograma com estresse não integram a abordagem inicial padrão na ausência de sinais de alarme, ficando reservados a casos selecionados.</sub>
+
+- **(B)** A prescrição de um curso de antibioticoterapia de amplo espectro, considerando a possibilidade de uma infecção bacteriana secundária não resolvida como causa da fadiga persistente.  
+  <sub>Incorreta. Não há evidência que sustente antibioticoterapia de amplo espectro para fadiga pós-viral, conduta que apenas expõe o paciente a efeitos adversos e a pressão seletiva de resistência.</sub>
+
+- **(C)** ✅ O reconhecimento de que a condição é multifatorial, envolvendo desregulação imunológica, disfunção endotelial e alterações do sistema nervoso autônomo, indicando-se reabilitação gradual e manejo sintomático.  
+  <sub>Correta. A síndrome pós-COVID-19 tem fisiopatologia multifatorial, com desregulação imunológica, disfunção endotelial e alterações do sistema nervoso autônomo, não se limitando a um único sistema orgânico; a abordagem recomendada combina reabilitação progressiva e manejo sintomático, validando as queixas do paciente.</sub>
+
+- **(D)** O encaminhamento direto para avaliação psiquiátrica, atribuindo os sintomas a um quadro de somatização ou transtorno de ansiedade generalizada desencadeado pelo estresse da pandemia.  
+  <sub>Incorreta. Embora o suporte psicológico seja importante, encaminhar diretamente à psiquiatria atribuindo os sintomas a somatização reduz a condição a causa puramente psicossomática e invalida as bases fisiopatológicas já conhecidas.</sub>
+
+### 125. Bioética  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 38*
+
+**Enunciado:** Um paciente de 68 anos, diagnosticado com uma doença pulmonar obstrutiva crônica (DPOC) em estágio terminal, é admitido na emergência com insuficiência respiratória aguda. Ele está consciente, orientado e, em conversas anteriores com seu médico assistente, já havia expressado em documento de diretiva antecipada de vontade (DAV) seu desejo de não ser submetido à intubação orotraqueal e ventilação mecânica invasiva. A equipe médica, diante da gravidade do quadro, considera que a intubação poderia reverter a crise aguda e prolongar a vida do paciente por mais alguns meses. Neste cenário, o conflito ético central se estabelece entre os seguintes princípios da bioética:
+
+- **(A)** “Justiça distributiva” e “Não maleficência”.  
+  <sub>Incorreta. A justiça distributiva, relativa à alocação equitativa de recursos, não é o foco do caso, e a não maleficência ocupa posição acessória, aplicando-se à discussão sobre os danos de um tratamento potencialmente fútil.</sub>
+
+- **(B)** “Beneficência” e “Justiça distributiva”.  
+  <sub>Incorreta. A opção exclui a autonomia, que é justamente o pilar central da decisão registrada na diretiva antecipada, e insere a justiça distributiva, que não está em disputa na situação descrita.</sub>
+
+- **(C)** “Não maleficência” e “Autonomia do paciente”.  
+  <sub>Incorreta. Embora a não maleficência seja relevante, o impulso da equipe para intubar é motivado pela beneficência, isto é, pela busca de prolongar a vida, e não apenas pela preocupação em não causar dano.</sub>
+
+- **(D)** ✅ “Autonomia do paciente” e “Beneficência da equipe médica”.  
+  <sub>Correta. O princípio da autonomia expressa o direito do paciente lúcido de decidir sobre o próprio corpo e tratamento, registrado na diretiva antecipada de vontade, e colide com a beneficência, que impele a equipe a agir no que considera o melhor interesse do paciente ao propor a intubação para reverter a crise.</sub>
+
+### 126. Sepse  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · facil · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 39*
+
+> ⚠️ **defeito na origem:** O enunciado escreve 'lactato ≥ 2 mmol/L', enquanto o consenso Sepsis-3 define o critério como lactato maior que 2 mmol/L.
+
+**Enunciado:** Sepse é uma disfunção orgânica ameaçadora à vida, secundária à resposta desregulada do hospedeiro a uma infecção. Choque séptico passou a ser definido como presença de hipotensão com necessidade de vasopressores para manter pressão arterial média ≥____ associada a lactato ≥_____, após adequada ressuscitação volêmica. A alternativa que preenche, correta e sequencialmente, as lacunas do trecho acima é
+
+- **(A)** ✅ 65 mmHg / 2 mmol/L.  
+  <sub>Correta. Pelo Terceiro Consenso Internacional para Sepse e Choque Séptico (Sepsis-3), o choque séptico é definido pela hipotensão persistente que exige vasopressor para manter pressão arterial média de 65 mmHg, associada a lactato acima de 2 mmol/L (18 mg/dL), após ressuscitação volêmica adequada.</sub>
+
+- **(B)** 70 mmHg / 20 mmol/L.  
+  <sub>Incorreta. O alvo padronizado de pressão arterial média é 65 mmHg, e 20 mmol/L não é ponto de corte diagnóstico de lactato, correspondendo a hiperlactatemia extrema.</sub>
+
+- **(C)** 55 mmHg / 2 mmol/L.  
+  <sub>Incorreta. Pressão arterial média de 55 mmHg está abaixo do alvo definido pelo consenso, que é de 65 mmHg.</sub>
+
+- **(D)** 65 mmHg / 0,2 mmol/L.  
+  <sub>Incorreta. O limiar de lactato é 2 mmol/L; o valor de 0,2 mmol/L situa-se abaixo da faixa fisiológica normal.</sub>
+
+### 127. Síndrome coronariana aguda  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · facil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 40*
+
+> ⚠️ **defeito na origem:** O comentário oficial da alternativa B refere-se a 'administrar trombolítico antes da transferência', cenário que não consta do texto da alternativa.
+
+**Enunciado:** Homem de 59 anos, diabético e tabagista, procura emergência com dor torácica em aperto há 40 minutos, irradiando para mandíbula. ECG mostra supra de ST em V2–V5. Hospital com hemodinâmica disponível. A conduta mais adequada é:
+
+- **(A)** Administrar trombolítico.  
+  <sub>Incorreta. A fibrinólise é reservada às situações em que a angioplastia primária não está disponível ou não pode ser realizada em tempo hábil (em geral até 120 minutos do primeiro contato médico).</sub>
+
+- **(B)** Solicitar troponina antes de qualquer medida.  
+  <sub>Incorreta. O diagnóstico de IAMCSST é clínico e eletrocardiográfico; aguardar a troponina retarda a reperfusão e amplia a necrose miocárdica.</sub>
+
+- **(C)** Prescrever analgésico e observar evolução.  
+  <sub>Incorreta. A analgesia é apenas medida de suporte; observar a evolução permite a progressão da necrose, com risco de insuficiência cardíaca, arritmias fatais e morte.</sub>
+
+- **(D)** ✅ Encaminhar imediatamente para angioplastia primária.  
+  <sub>Correta. Dor torácica típica com supradesnível de ST em V2–V5 há 40 minutos caracteriza IAMCSST em janela ideal de reperfusão; havendo hemodinâmica no próprio serviço, a angioplastia primária é a estratégia de escolha, com maior redução de mortalidade.</sub>
+
+### 128. Cefaleia na emergência  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · dificil · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 41*
+
+> ⚠️ **defeito na origem:** O comando 'analise as alternativas' é vago e não explicita que se busca a conduta correta, além de haver falha de concordância na alternativa A.
+
+**Enunciado:** Paciente de 30 anos, feminino, procura atendimento na unidade de emergência de hospital terciário com quadro de cefaleia. Apresenta crises de dor de cabeça desde os 14 anos de idade, com padrão pulsátil em região bitemporal, associadas a náuseas e fotofobia. Vem fazendo uso de topiramato 75mg/dia como tratamento profilático nos últimos 2 anos, com crises a cada 2 meses em média. No dia do atendimento ela referiu dor de intensidade 9/10 na escala visual de dor, com pico da dor ocorrendo em 1 minuto. Foi submetida a Tomografia de Crânio sem contraste na admissão, com resultado normal. Após analgesia com dipirona e tramadol endovenosos, apresentou melhora importante da cefaleia, permanecendo com dor 2/10 e caráter holocraniano em aperto. Sobre a conduta subsequente, analise as alternativas:
+
+- **(A)** O exame de imagem normal, associado a melhora com analgesia, indicam que se trata de cefaleia primária, sendo indicado aumento da dose de topiramato.  
+  <sub>Incorreta. Tomografia normal e melhora com analgesia não descartam cefaleia secundária diante de cefaleia em trovoada, e ajustar o topiramato antes de concluir a investigação é conduta imprudente.</sub>
+
+- **(B)** A conduta adequada seria realizar ressonância magnética de crânio, por ser um exame mais adequado para avaliar o parênquima cerebral.  
+  <sub>Incorreta. A ressonância magnética avalia bem o parênquima, mas não substitui a punção lombar na investigação de hemorragia subaracnóidea após tomografia normal, sendo reservada a etapas posteriores.</sub>
+
+- **(C)** ✅ Deve-se proceder com punção lombar para que a possibilidade de cefaleia secundária ser adequadamente descartada.  
+  <sub>Correta. O pico de dor em um minuto configura cefaleia em trovoada, sinal de alarme que obriga a excluir hemorragia subaracnóidea; como a sensibilidade da tomografia cai após as primeiras seis horas, a punção lombar em busca de xantocromia ou hemácias não decrescentes é o passo mandatório seguinte.</sub>
+
+- **(D)** A paciente possui longo histórico de cefaleia e a mudança de padrão não indica uma piora do quadro, mas controle profilático inadequado.  
+  <sub>Incorreta. A mudança de padrão da dor, sobretudo com instalação abrupta, é justamente um dos principais sinais de alarme (critérios SNOOP), e minimizá-la como falha profilática configura erro grave de avaliação de risco.</sub>
+
+### 129. Psiquiatria  
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 42*
+
+> ⚠️ **defeito na origem:** A alternativa D é defensável à luz do DSM-5-TR, no qual um único episódio depressivo maior já configura transtorno depressivo maior, o que gera ambiguidade com o gabarito oficial.
+
+**Enunciado:** Paciente masculino, casado, com 30 anos de idade. Está há 1 mês sentindo tristeza a maior parte do dia, sem sentir prazer nos hobbies habituais. Começou a ter dificuldade para dormir mesmo sentindo sono e cansaço, acordando muito cedo pela manhã e não conseguindo voltar a dormir. Tem sentido cansaço o tempo todo e com dificuldade em se concentrar nas atividades diárias. Apesar disso, consegue por hora manter as atividades laborais. Nega ideação suicida quando questionado. Nunca apresentou outros episódios semelhantes, nem outros quadros psiquiátricos constatados. Não apresenta história familiar de outros quadros psiquiátricos. Com base no caso descrito, assinale a alternativa correta
+
+- **(A)** ✅ Considerando a gravidade atual do quadro, o paciente pode ser tratado apenas com psicoterapia no momento, mas caso se inicie uma medicação em algum momento, a primeira escolha seria um Inibidor Seletivo da Recaptação da Serotonina (ISRS).  
+  <sub>Correta. Trata-se de um primeiro episódio depressivo maior de gravidade leve a moderada, sem ideação suicida e com manutenção das atividades laborais, situação em que a psicoterapia isolada é opção de primeira linha; caso se opte por farmacoterapia, os ISRS são a escolha inicial padrão pela segurança e eficácia.</sub>
+
+- **(B)** A dificuldade de concentração constatada, não costuma aparecer conjuntamente aos outros sintomas descritos pelo paciente, sendo fundamental fazer uma avaliação para Transtorno do Déficit de Atenção e Hiperatividade (TDAH).  
+  <sub>Incorreta. A dificuldade de concentração é critério diagnóstico do próprio episódio depressivo no DSM-5-TR, não indicando por si avaliação para TDAH neste contexto.</sub>
+
+- **(C)** Caso o paciente apresentasse agitação psicomotora e aumento do apetite, a definição diagnóstica seria de um episódio depressivo com características típicas.  
+  <sub>Incorreta. Agitação psicomotora e aumento do apetite são marcos da depressão com características atípicas, e não típicas.</sub>
+
+- **(D)** Trata-se de um caso de Transtorno Depressivo Maior.  
+  <sub>Incorreta. Segundo o autor, por se tratar do primeiro episódio o diagnóstico é de episódio depressivo, reservando-se o termo transtorno depressivo maior aos quadros recorrentes.</sub>
+
+### 130. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 43*
+
+**Enunciado:** Um homem de 28 anos, viajante internacional recém-chegado de uma área com surto de Mpox (clade Ib), procura atendimento com febre, cefaleia e o surgimento de lesões vesiculares dolorosas na face e palmas das mãos há dois dias. Ao exame, apresenta múltiplas pústulas umbilicadas e linfoadenopatia generalizada. Considerando a principal hipótese diagnóstica, a conduta para confirmação laboratorial mais adequada é:
+
+- **(A)** Realizar sorologia para detecção de anticorpos IgM e IgG específicos para Orthopoxvirus.  
+  <sub>Incorreta. Os testes sorológicos não são recomendados para o diagnóstico agudo, pois apresentam reatividade cruzada entre os diferentes Orthopoxvirus (varíola, vaccinia e Mpox) e não distinguem infecção atual de infecção passada ou vacinação prévia.</sub>
+
+- **(B)** Solicitar hemocultura para pesquisa de agentes virais, considerando a febre e o quadro sistêmico.  
+  <sub>Incorreta. A pesquisa em sangue não é o método preferencial, uma vez que a viremia pode ser baixa ou indetectável no momento do quadro cutâneo, conferindo baixa sensibilidade; além disso, hemocultura destina-se a agentes bacterianos e fúngicos, não a vírus.</sub>
+
+- **(C)** Efetuar biópsia de uma das lesões de pele para análise histopatológica e cultura viral em meio específico.  
+  <sub>Incorreta. Embora biópsia com histopatologia e cultura viral possam eventualmente identificar o agente, não são métodos de primeira linha: a cultura é lenta e exige laboratório com nível de biossegurança adequado, e a biópsia é invasiva, enquanto a PCR é mais rápida, segura e específica, essencial para resposta ágil em saúde pública.</sub>
+
+- **(D)** ✅ Coletar material das lesões cutâneas por esfregaço vigoroso para análise por Reação em Cadeia da Polimerase (PCR).  
+  <sub>Correta. O método de escolha para o diagnóstico de Mpox é a detecção do DNA viral por reação em cadeia da polimerase, e as amostras mais ricas em vírus são obtidas diretamente das lesões cutâneas (fluido vesicular ou crostas) por esfregaço vigoroso, técnica de alta sensibilidade e especificidade para confirmar infecção ativa.</sub>
+
+### 131. Saúde coletiva e biossegurança  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 44*
+
+**Enunciado:** Uma profissional de saúde de 35 anos, sem histórico de vacinação prévia para varíola ou Mpox, atende um paciente confirmado para Mpox. Durante o exame físico, ocorre um contato acidental de sua pele íntegra com secreções de uma lesão ativa do paciente. O contato ocorreu há 24 horas. De acordo com as diretrizes atuais de saúde pública, a conduta mais apropriada para profilaxia pós-exposição (PEP) é:
+
+- **(A)** Iniciar imediatamente terapia antiviral com tecovirimat por 14 dias para prevenir o desenvolvimento da doença.  
+  <sub>Incorreta. O tecovirimat destina-se principalmente ao tratamento de casos estabelecidos, graves ou de risco, não havendo evidência robusta que sustente seu uso rotineiro como profilaxia em assintomáticos.</sub>
+
+- **(B)** Recomendar apenas o monitoramento de sintomas por 21 dias, pois o contato com pele íntegra oferece baixo risco.  
+  <sub>Incorreta. O contato com secreções de lesões ativas é considerado de alto risco independentemente da integridade da pele exposta, e apenas monitorar sintomas desperdiçaria a janela de oportunidade da vacinação.</sub>
+
+- **(C)** Administrar imunoglobulina humana específica para Orthopoxvirus para conferir imunidade passiva imediata.  
+  <sub>Incorreta. A imunoglobulina específica para Orthopoxvirus (VIG) é reservada a situações muito restritas, como complicações graves da vacinação com vírus vivo, não sendo a conduta de rotina nesta exposição.</sub>
+
+- **(D)** ✅ Indicar a vacinação o mais breve possível, idealmente dentro dos primeiros 4 dias após a exposição.  
+  <sub>Correta. A vacinação é a principal estratégia de profilaxia pós-exposição para Mpox: administrada em até 4 dias do contato, pode prevenir a doença; entre 4 e 14 dias, tende a reduzir a gravidade dos sintomas.</sub>
+
+### 132. Bioética e ética médica  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 45*
+
+**Enunciado:** No artigo 1º do Código de Ética Médica, destaca-se que é vedado ao médico causar dano ao paciente, por ação ou omissão, caracterizável como imperícia, imprudência ou negligência. Identifique qual o princípio bioético, dentre as alternativas abaixo, que o referido artigo abrange:
+
+- **(A)** Beneficência.  
+  <sub>Incorreta. A beneficência impõe agir ativamente em benefício do paciente, ao passo que o dispositivo em questão trata de abster-se de causar dano.</sub>
+
+- **(B)** Autonomia.  
+  <sub>Incorreta. A autonomia refere-se ao respeito à vontade e às decisões informadas do paciente, tema de outros dispositivos do Código, e não da vedação ao dano.</sub>
+
+- **(C)** Equidade.  
+  <sub>Incorreta. A equidade, ligada ao princípio da justiça, diz respeito à distribuição justa de recursos e ao atendimento das necessidades diferenciadas, sem relação direta com o artigo citado.</sub>
+
+- **(D)** ✅ Não-maleficência.  
+  <sub>Correta. Ao vedar ao médico causar dano ao paciente por ação ou omissão caracterizável como imperícia, imprudência ou negligência, o artigo 1º expressa a não-maleficência, pilar que orienta a evitar prejuízos físicos, psíquicos, morais ou sociais.</sub>
+
+### 133. Doença renal crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 46*
+
+**Enunciado:** Uma paciente de 65 anos, hipertensa e diabética há 20 anos, vem a consulta médica de rotina. Não apresenta queixas. Traz exames laboratoriais com creatinina estável em 1,8mg/dL, taxa de filtração glomerular (TFG) estimada de 38 mL/min/1,73 m², relação albumina/creatinina urinária (RACu) de 450 mg/g. De acordo com os critérios atuais, identifique qual alternativa classifica corretamente a condição renal dessa paciente
+
+- **(A)** DRC estágio 3a, com aumento leve da RACu.  
+  <sub>Incorreta. O estágio 3a corresponde a TFG entre 45 e 59 mL/min/1,73 m², e a RACu de 450 mg/g configura aumento grave (A3), não leve.</sub>
+
+- **(B)** Lesão renal aguda, visto a paciente não apresentar queixas e a creatinina estar estável.  
+  <sub>Incorreta. A creatinina estável há longo período e a ausência de evento agudo afastam lesão renal aguda; trata-se de doença renal crônica em paciente hipertensa e diabética de longa data.</sub>
+
+- **(C)** DRC estágio 4, devido TFG menor que 40 mL/min/1,73 m².  
+  <sub>Incorreta. O estágio 4 exige TFG entre 15 e 29 mL/min/1,73 m²; o valor de 38 mL/min/1,73 m² permanece na faixa do estágio 3b.</sub>
+
+- **(D)** ✅ DRC estágio 3b, com alto risco de progressão devido à RACu.  
+  <sub>Correta. Com creatinina estável e TFG de 38 mL/min/1,73 m², a paciente enquadra-se no estágio 3b da DRC; a relação albumina/creatinina urinária de 450 mg/g (categoria A3, ≥ 300 mg/g) indica alto risco cardiovascular e de progressão da doença renal.</sub>
+
+### 134. Distúrbios da hemostasia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 47*
+
+**Enunciado:** Mulher, 30 anos, previamente hígida, procurou atendimento após apresentar sangramento nasal espontâneo e gengivorragia ao escovar os dentes. Não havia história de uso de anticoagulantes ou antiagregantes plaquetários. O exame físico revelou petéquias nos membros inferiores. Assinale a alternativa cujo mecanismo fisiopatológico justifica o quadro apresentado
+
+- **(A)** Coagulação intravascular disseminada.  
+  <sub>Incorreta. A coagulação intravascular disseminada é fenômeno secundário a condições graves, como sepse, neoplasia ou complicação obstétrica, ausentes nesta mulher previamente hígida, e cursa com consumo de fatores e sangramento difuso associado a trombose microvascular.</sub>
+
+- **(B)** Deficiência de fator VIII.  
+  <sub>Incorreta. A deficiência de fator VIII compromete a hemostasia secundária e manifesta-se por hemartroses e hematomas musculares profundos, tipicamente em homens, e não por púrpura petequial e sangramento de mucosas.</sub>
+
+- **(C)** ✅ Trombocitopenia.  
+  <sub>Correta. Petéquias, púrpuras, equimoses e sangramento de mucosas, como epistaxe espontânea e gengivorragia, traduzem defeito da hemostasia primária por trombocitopenia; a contagem normal varia de 150.000 a 350.000/mm³, havendo tendência hemorrágica abaixo de 50.000/mm³ e sangramento espontâneo com valores inferiores a 20.000/mm³.</sub>
+
+- **(D)** Deficiência de vitamina K.  
+  <sub>Incorreta. A deficiência de vitamina K reduz os fatores II, VII, IX e X e costuma decorrer de colestase, má absorção ou uso de antagonistas, situações não referidas, alargando o tempo de protrombina em vez de produzir petéquias.</sub>
+
+### 135. Sepse de foco urinário  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 48*
+
+**Enunciado:** Um homem de 67 anos, diabético há 10 anos, com histórico de cálculo renal, dá entrada no pronto-socorro com febre (38,8 °C), confusão mental, dor lombar esquerda e vômitos há 48 horas. Ao exame físico, apresenta PA 90/55 mmHg, FC 112 bpm e sinal de Giordano à esquerda. Exames laboratoriais iniciais mostram leucocitose, creatinina em 2,5mg/dL e extremidades frias. Com base em seu conhecimento, identifique a melhor conduta inicial
+
+- **(A)** Iniciar analgesia intravenosa e solicitar TC de abdome sem contraste para avaliar a posição do cálculo urinário.  
+  <sub>Incorreta. Restringir a conduta à analgesia e à imagem retarda o antibiótico em paciente séptico, situação em que cada hora de atraso aumenta a mortalidade; a analgesia é medida adjuvante, jamais a prioridade inicial.</sub>
+
+- **(B)** ✅ Iniciar antibioticoterapia empírica intravenosa imediata, colher culturas e solicitar TC de abdome sem contraste.  
+  <sub>Correta. Trata-se de pielonefrite aguda complicada com critérios de sepse (hipotensão, extremidades frias e alteração do sensório): a conduta é coletar culturas e iniciar antibioticoterapia empírica intravenosa imediata, associada à reposição volêmica, e solicitar tomografia de abdome sem contraste para investigar obstrução, abscesso ou pielonefrite enfisematosa, com encaminhamento à UTI após estabilização.</sub>
+
+- **(C)** Solicitar urocultura e aguardar o resultado para então escolher o antibiótico com a menor Concentração Inibitória Mínima (MIC).  
+  <sub>Incorreta. Aguardar o resultado da urocultura para escolher o antimicrobiano é inaceitável na sepse; o tratamento empírico deve ser iniciado logo após a coleta das culturas e depois descalonado conforme o antibiograma.</sub>
+
+- **(D)** Tratar ambulatorialmente com terapia expulsiva de cálculo urinário oral após 24 horas de estabilização clínica no pronto-socorro.  
+  <sub>Incorreta. O manejo ambulatorial com terapia expulsiva está contraindicado, pois o paciente apresenta instabilidade hemodinâmica, disfunção renal e provável obstrução infectada, condição que pode exigir desobstrução urgente da via urinária.</sub>
+
+### 136. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 49*
+
+**Enunciado:** Homem de 47 anos, sem comorbidades conhecidas, comparece para check-up de rotina. Na primeira consulta apresenta pressão arterial de 152/ 94 mmHg. Após duas semanas retorna assintomático com pressão arterial de 128/ 82 mmHg, ambas aferidas com técnica adequada. De acordo com a Diretriz Brasileira de Hipertensão Arterial – 2025, qual a conduta mais apropriada?
+
+- **(A)** Diagnosticar HAS, pois HAS ≥140/ 90 mmHg em uma consulta, é suficiente.  
+  <sub>Incorreta. O diagnóstico exige pelo menos duas consultas com medidas concordantes de PAS ≥ 140 e/ou PAD ≥ 90 mmHg, o que não ocorreu neste caso.</sub>
+
+- **(B)** ✅ Solicitar MAPA ou MRPA para confirmar ou descartar hipertensão arterial.  
+  <sub>Correta. Diante de medidas de consultório discordantes (152/94 mmHg e, duas semanas depois, 128/82 mmHg), a Diretriz Brasileira de Hipertensão Arterial 2025 recomenda medida fora do consultório, por MAPA ou MRPA, para confirmar ou descartar o diagnóstico.</sub>
+
+- **(C)** Considerar o paciente normotenso, pois a segunda medida apresentou valores normais.  
+  <sub>Incorreta. Uma única medida normal não exclui hipertensão, podendo tratar-se de hipertensão do avental branco ou mascarada, situações que exigem avaliação fora do consultório.</sub>
+
+- **(D)** Iniciar imediatamente tratamento farmacológico anti-hipertensivo sem mais avaliações.  
+  <sub>Incorreta. Iniciar tratamento farmacológico sem diagnóstico firmado expõe o paciente a risco desnecessário e contraria a recomendação da diretriz.</sub>
+
+### 137. Insuficiência cardíaca  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 50*
+
+> ⚠️ **defeito na origem:** O valor de E/e' de 9 é apresentado sem esclarecer que o critério de elevação das pressões de enchimento é preenchido pelo BNP elevado, o que pode gerar ambiguidade com a alternativa D.
+
+**Enunciado:** Mulher de 63 anos procura atendimento por dispneia progressiva aos esforços e ortopneia há 2 meses. Ao exame físico apresenta estertores bibasais e edema maleolar bilateral. O ecocardiograma mostra fração de ejeção do ventrículo esquerdo de 45%, e relação E/e’ 9. A dosagem de BNP encontra-se elevada. Segundo esses dados fornecidos, qual é a melhor interpretação diagnóstica?
+
+- **(A)** Insuficiência cardíaca com fração de ejeção reduzida (ICFER).  
+  <sub>Incorreta. A insuficiência cardíaca com fração de ejeção reduzida exige fração de ejeção igual ou inferior a 40%.</sub>
+
+- **(B)** ✅ Insuficiência cardíaca com fração de ejeção levemente reduzida (ICFElr / HFmrEF).  
+  <sub>Correta. Fração de ejeção de 45%, dentro da faixa de 41% a 49%, associada a evidência de elevação das pressões de enchimento — representada pelo BNP elevado e pelo quadro congestivo — define insuficiência cardíaca com fração de ejeção levemente reduzida, conforme o guideline AHA/ACC/HFSA 2022.</sub>
+
+- **(C)** Insuficiência cardíaca com fração de ejeção preservada (ICFEP).  
+  <sub>Incorreta. A insuficiência cardíaca com fração de ejeção preservada requer fração de ejeção igual ou superior a 50%.</sub>
+
+- **(D)** Não é possível diagnosticar insuficiência cardíaca apenas com esses dados.  
+  <sub>Incorreta. O quadro clínico congestivo, o BNP elevado e a fração de ejeção mensurada são suficientes para firmar o diagnóstico sindrômico e classificá-lo.</sub>
+
+### 138. Semiologia neurológica  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · facil · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 51*
+
+**Enunciado:** Joseph Félix François Babinski, em 22 de fevereiro de 1896, descreveu um dos sinais semiológicos mais clássicos da medicina: o estímulo da borda lateral da planta do pé com um objeto rombo, do calcanhar em direção aos dedos, resulta em dorsiflexão do hálux e abertura em leque dos outros dedos. Identifique, dentre as alternativas abaixo, qual a topografia acometida que justifica o aparecimento do Sinal de Babinski
+
+- **(A)** Junção neuromuscular.  
+  <sub>Incorreta. Lesões da junção neuromuscular, como a miastenia gravis, cursam com fraqueza fatigável e reflexos preservados, sem resposta plantar em extensão.</sub>
+
+- **(B)** Gânglio da raiz dorsal.  
+  <sub>Incorreta. O comprometimento do gânglio da raiz dorsal produz alterações sensitivas e arreflexia por lesão do neurônio sensitivo periférico, e não sinal de liberação piramidal.</sub>
+
+- **(C)** Cerebelo.  
+  <sub>Incorreta. As lesões cerebelares manifestam-se por ataxia, dismetria e disdiadococinesia, sem alteração da resposta cutâneo-plantar.</sub>
+
+- **(D)** ✅ Trato corticoespinhal.  
+  <sub>Correta. O reflexo cutâneo-plantar em extensão, ou sinal de Babinski, traduz lesão da via piramidal, isto é, do trato corticoespinhal, em qualquer ponto do seu trajeto.</sub>
+
+### 139. Psiquiatria  
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 52*
+
+**Enunciado:** Paciente do sexo feminino, 43 anos, com bloqueio de ramo esquerdo cardíaco e sem outras comorbidades procura atendimento pois há 4 meses vem apresentando sintomas depressivos. Em sua anamnese a paciente descreve os seguintes sintomas: tristeza, ansiedade, irritabilidade, choro fácil, sentimento exacerbado de culpa, desatenção, desânimo (falta de energia), perda da capacidade de sentir alegria, interesse e prazer. Com as informações clínicas e uma abordagem baseada em sintomas (neurotransmissores – circuitos neuronais – sintomas), qual o antidepressivo mais recomendado para esta paciente?
+
+- **(A)** Escitalopram.  
+  <sub>Incorreta. O escitalopram, ISRS, trataria apenas parcialmente o quadro, deixando descobertos os sintomas de baixa energia, anedonia e desatenção.</sub>
+
+- **(B)** Amitriptilina.  
+  <sub>Incorreta. A amitriptilina é contraindicada nesta paciente por conta do bloqueio de ramo esquerdo, pelo risco de agravar distúrbios de condução.</sub>
+
+- **(C)** Bupropiona.  
+  <sub>Incorreta. A bupropiona atua sobre noradrenalina e dopamina e, isoladamente, não cobre os sintomas serotoninérgicos de ansiedade, irritabilidade e culpa.</sub>
+
+- **(D)** ✅ Desvenlafaxina.  
+  <sub>Correta. Os sintomas descritos envolvem tanto o circuito serotoninérgico (tristeza, ansiedade, irritabilidade, culpa) quanto o noradrenérgico/dopaminérgico (desatenção, desânimo, anedonia), justificando um antidepressivo dual como a desvenlafaxina, seguro do ponto de vista cardíaco.</sub>
+
+### 140. Psiquiatria  
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 53*
+
+**Enunciado:** Paciente do sexo feminino, 32 anos, procura atendimento pelo fato de que há 8 meses não vem se sentindo bem. Alega que seu quadro teve início após sua casa ser assaltada e sua família ter ficado presa e amordaçada no banheiro da residência. Descreve que vem exibindo preocupações excessivas consigo e com seus familiares, bem como com questões financeiras - exibe receio de que ela ou seus familiares possam sofrer algum problema de saúde, bem como ela e seu marido poderão perder o emprego e não conseguir mais sustentar a família. Em virtude disto, informa se sentir tensa, com dificuldade em desligar e consequentemente dormir, irritada, inquieta, cansada e, ao longo do dia, com diversos sintomas físicos (sensação do coração estar mais acelerado, falta de ar, tremor e desconforto no peito). Frente a estas informações, qual o transtorno ansioso apresentado pela paciente?
+
+- **(A)** Transtorno do estresse pós-traumático.  
+  <sub>Incorreta. Apesar de o quadro ter se iniciado após evento potencialmente traumático, não há manifestações nucleares de transtorno de estresse pós-traumático, como revivescência intrusiva do evento, evitação de estímulos associados e hiper-reatividade especificamente vinculada ao trauma.</sub>
+
+- **(B)** Transtorno do pânico.  
+  <sub>Incorreta. Os sintomas físicos relatados são contínuos e difusos ao longo do dia, e não paroxísticos; faltam os ataques de pânico com início súbito, pico em minutos e medo recorrente de novas crises que caracterizam o transtorno do pânico.</sub>
+
+- **(C)** Transtorno de ansiedade não especificado.  
+  <sub>Incorreta. A categoria de transtorno de ansiedade não especificado destina-se a quadros que não preenchem critérios de nenhuma síndrome definida; como o caso satisfaz plenamente os critérios de ansiedade generalizada, essa classificação residual fica excluída.</sub>
+
+- **(D)** ✅ Transtorno de ansiedade generalizada.  
+  <sub>Correta. A paciente apresenta, há 8 meses, preocupações excessivas e difíceis de controlar sobre múltiplos domínios (saúde própria e da família, emprego, finanças), acompanhadas de tensão, irritabilidade, inquietação, fadiga, dificuldade de desligar-se e insônia, além de sintomas físicos persistentes, quadro que preenche os critérios de transtorno de ansiedade generalizada.</sub>
+
+### 141. Bioética e cuidados paliativos  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: avaliacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 54*
+
+**Enunciado:** Uma paciente de 90 anos, com demência moderada, Insuficiência Cardíaca NYHA III, e em uso de O2 domiciliar por DPOC, desenvolve insuficiência respiratória grave. A equipe médica avalia a necessidade de ventilação mecânica invasiva, procedimento que pode estender a sobrevida, porém com possíveis repercussões sobre a capacidade funcional e a qualidade de vida. O hospital já enfrenta limitações de alocação de recursos e escassez de leito de UTI. Considerando os princípios da Bioética Principialista, é correto afirmar que:
+
+- **(A)** ✅ A decisão terapêutica neste caso, por se tratar de paciente com comorbidades graves e irreversíveis, leva em consideração a qualidade de vida e o princípio de não maleficência, sendo a opção de não intubar e não levar para UTI a mais correta.  
+  <sub>Correta. Diante de comorbidades graves e irreversíveis, a decisão terapêutica deve ponderar qualidade de vida e prognóstico: a ventilação invasiva não reverteria o quadro de base e imporia sofrimento adicional, de modo que a não intubação e a não admissão em UTI amparam-se no princípio da não maleficência.</sub>
+
+- **(B)** Por se tratar de uma pessoa idosa, esta teria preferência na solicitação de leito de UTI e intubação, a fim de prevalecer o princípio da equidade, sendo que, caso não seja submetida aos procedimentos adequados, poderia ser considerado um caso de etarismo.  
+  <sub>Incorreta. A idade cronológica não é marcador para a tomada de decisão, e sim a funcionalidade; equidade não significa tratar todos da mesma maneira, mas individualizar o cuidado conforme as necessidades de cada um.</sub>
+
+- **(C)** Caso a paciente não seja intubada e levada para UTI, pode-se considerar uma eutanásia e negligência médica, pois sem este tratamento a paciente encontrará um desfecho fatal, o que fere o princípio de justiça e beneficência.  
+  <sub>Incorreta. Eutanásia seria abreviar a vida por ato ou medicamento, o que não ocorre aqui; o risco real é a distanásia, isto é, prolongar artificialmente a vida sem chance de cura. Também não há negligência, pois a equipe segue cuidando da paciente sem os procedimentos invasivos.</sub>
+
+- **(D)** Visto a autonomia estar comprometida pela demência, deve-se priorizar o princípio da beneficência e não realizar a intubação e transferência para UTI, desde que a paciente tenha previamente uma Diretiva Antecipada de Vontade que dê respaldo à equipe médica.  
+  <sub>Incorreta. A não intubação enquadra-se na não maleficência, e não na beneficência, e a existência prévia de Diretiva Antecipada de Vontade não é condição obrigatória para respaldar a decisão de evitar a distanásia.</sub>
+
+### 142. Neurologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 55*
+
+> ⚠️ **defeito na origem:** A justificativa oficial não corresponde ao item, pois discute anatomia do andar superior do abdome e do pedículo hepático, tema alheio ao enunciado sobre papiledema.
+
+**Enunciado:** O entendimento das cefaleias inclui a compreensão de que causas secundárias, embora nem sempre comuns, podem causar dor imitando cefaleias primárias, porém com o potencial de acarretar morbimortalidade para o paciente. Um exemplo clássico é o papiledema: qual das causas abaixo seria responsável por ele?
+
+- **(A)** Sinusite etmoidal e esfenoidal simultânea.  
+  <sub>Incorreta. A sinusite etmoidal e esfenoidal provoca cefaleia secundária de origem rinogênica, mas não eleva a pressão intracraniana nem produz papiledema, salvo em complicações como trombose de seio venoso.</sub>
+
+- **(B)** Hipotensão liquórica por, por exemplo, fístula venoliquórica.  
+  <sub>Incorreta. A hipotensão liquórica cursa com cefaleia ortostática e achados opostos, como realce paquimeníngeo e descenso de estruturas encefálicas, sem papiledema.</sub>
+
+- **(C)** ✅ Hidrocefalia por lesão expansiva causando estenose de aqueduto cerebral.  
+  <sub>Correta. A lesão expansiva que causa estenose do aqueduto cerebral gera hidrocefalia obstrutiva e hipertensão intracraniana, mecanismo clássico de edema bilateral de papila (papiledema) associado a cefaleia secundária.</sub>
+
+- **(D)** Arterite temporal associada a polimialgia reumática.  
+  <sub>Incorreta. A arterite temporal pode causar perda visual por neuropatia óptica isquêmica anterior, com edema pálido de disco geralmente unilateral, e não papiledema por hipertensão intracraniana.</sub>
+
+### 143. Lombalgia inespecífica  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 56*
+
+**Caso:** Homem de 46 anos e sem doenças crônicas prévias, procura a Unidade de Saúde por lombalgia há 3 semanas, iniciada após carregar caixas durante uma mudança de residência. Refere dor localizada na região lombar, sem irradiação para membros inferiores. Nega febre, perda ponderal, trauma significativo ou história prévia de câncer. Também nega anestesia em sela, retenção urinária ou incontinência fecal. Relata preocupação de que a dor represente “um problema sério na coluna” e refere ter reduzido suas atividades físicas por medo de piorar a lesão. Ao exame físico apresenta dor à palpação paravertebral lombar, sem déficit neurológico, teste de elevação da perna estendida negativo e marcha preservada. Na avaliação com o STarT Back Screening Tool, apresenta pontuação total de 6/9 e 4/5 na subescala psicossocial, sendo classificado como alto risco de cronificação da dor.
+
+**Enunciado:** Considerando as recomendações atuais para manejo da lombalgia na atenção primária, qual é a conduta mais adequada neste momento?
+
+- **(A)** ✅ Não solicitar exame de imagem neste momento, orientar manutenção das atividades e iniciar anti-inflamatório não esteroidal por curto período associado a abordagem terapêutica multimodal.  
+  <sub>Correta. Trata-se de lombalgia inespecífica de três semanas, sem sinais de alarme (febre, perda ponderal, câncer prévio, trauma, déficit neurológico ou síndrome da cauda equina); não há indicação de imagem, e o alto risco de cronificação pelo STarT Back impõe abordagem estratificada com educação, manutenção das atividades, AINE por curto período e intervenções multimodais sobre os fatores psicossociais.</sub>
+
+- **(B)** Solicitar ressonância magnética da coluna lombar para investigar causa estrutural da dor, prescrever ciclo curto de anti-inflamatório não esteroidal e encaminhar para avaliação especializada após realização do exame.  
+  <sub>Incorreta. A ressonância magnética não está indicada na ausência de red flags ou déficit neurológico; solicitá-la gera achados incidentais, reforça as crenças de gravidade do paciente e favorece a cronificação.</sub>
+
+- **(C)** Solicitar radiografia da coluna lombar considerando a duração dos sintomas, prescrever analgésicos simples e orientar redução temporária das atividades físicas até melhora do quadro.  
+  <sub>Incorreta. Três semanas de dor sem sinais de alarme não justificam radiografia, e a orientação de reduzir atividades físicas contraria a recomendação de manter as atividades habituais.</sub>
+
+- **(D)** Prescrever relaxante muscular associado a opioide fraco por curto período, recomendar repouso relativo e reavaliar necessidade de exames posteriormente.  
+  <sub>Incorreta. O opioide fraco não é indicado no manejo inicial da lombalgia inespecífica, e o repouso relativo é desaconselhado por retardar a recuperação funcional.</sub>
+
+### 144. Infecções oportunistas no HIV/aids  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 57*
+
+**Enunciado:** Paciente masculino, 34 anos de idade, vivendo com HIV (LT-CD4+<150 células/mm3), natural do interior do Ceará, apresenta febre diária, perda ponderal de 8 kg em um mês, dispneia progressiva e lesões cutâneas pápulo-umbilicadas difusas. Ao exame físico, apresenta hepatoesplenomegalia. Exames laboratoriais revelam pancitopenia acentuada. A pesquisa de antígeno urinário é positiva para Histoplasma capsulatum. Diante da gravidade do quadro e do diagnóstico de histoplasmose disseminada grave, qual é a conduta terapêutica de indução preconizada e a principal toxicidade farmacológica a ser monitorada no esquema de escolha?
+
+- **(A)** ✅ Anfotericina B lipossomal por 1 a 2 semanas; monitorar hipocalemia e nefrotoxicidade.  
+  <sub>Correta. A anfotericina B lipossomal é o tratamento de primeira linha na fase de indução, por 1 a 2 semanas, da histoplasmose disseminada grave, sobretudo em pessoas vivendo com HIV e imunodepressão avançada, pela maior eficácia e melhor perfil de segurança que a formulação desoxicolato; exige monitorização da função renal e de distúrbios eletrolíticos, como hipocalemia e hipomagnesemia.</sub>
+
+- **(B)** Itraconazol 200 mg, via oral, 1 vez ao dia por 14 dias; monitorar prolongamento do intervalo QT e interações via CYP3A4.  
+  <sub>Incorreta. O itraconazol tem papel na consolidação e na manutenção, e não na indução das formas graves; sua absorção errática e as interações pela via CYP3A4 com antirretrovirais limitam ainda mais o uso inicial.</sub>
+
+- **(C)** Anfotericina B desoxicolato por 14 dias; monitorar hipermagnesemia e acidose metabólica hiperclorêmica.  
+  <sub>Incorreta. Embora a anfotericina B desoxicolato seja alternativa quando a formulação lipossomal é indisponível, a toxicidade citada está trocada: espera-se hipomagnesemia e acidose tubular renal, e não hipermagnesemia.</sub>
+
+- **(D)** Fluconazol 800 mg, via oral, 2 vezes ao dia por 7 dias; monitorar hepatotoxicidade e alopecia.  
+  <sub>Incorreta. O fluconazol tem atividade insuficiente contra o Histoplasma capsulatum e não constitui opção de indução; a posologia e os efeitos adversos descritos também não correspondem ao fármaco.</sub>
+
+### 145. Anemias  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 58*
+
+**Enunciado:** Homem de 58 anos, etilista crônico, apresenta fadiga progressiva. Hemograma: Hb 8,9 g/dL, VCM 112 fL, reticulócitos baixos. Ferritina elevada, saturação de transferrina normal, vitamina B12 normal, ácido fólico normal. Esfregaço mostra macrocitose sem neutrófilos hipersegmentados. Qual o mecanismo fisiopatológico mais provável da anemia?
+
+- **(A)** ✅ Supressão medular por toxicidade direta do álcool.  
+  <sub>Correta. O álcool exerce toxicidade direta sobre a medula óssea, produzindo anemia macrocítica não megaloblástica, com reticulocitopenia, ausência de neutrófilos hipersegmentados e níveis normais de vitamina B12 e ácido fólico, exatamente o padrão descrito.</sub>
+
+- **(B)** Deficiência funcional de ferro.  
+  <sub>Incorreta. A deficiência funcional de ferro cursa com VCM normal ou reduzido e não explica macrocitose de 112 fL; ademais, a ferritina está elevada e a saturação de transferrina é normal.</sub>
+
+- **(C)** Anemia megaloblástica subclínica.  
+  <sub>Incorreta. A anemia megaloblástica pressupõe deficiência de vitamina B12 ou de folato e cursa com neutrófilos hipersegmentados no esfregaço, achados expressamente ausentes no caso.</sub>
+
+- **(D)** Hemólise crônica compensada.  
+  <sub>Incorreta. A hemólise crônica cursa com reticulocitose, elevação de LDH e bilirrubina indireta e queda da haptoglobina, ao passo que aqui os reticulócitos estão baixos, indicando anemia hipoproliferativa.</sub>
+
+### 146. Infectologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 59*
+
+**Enunciado:** Homem de 67 anos, obeso, internado por COVID-19, em oxigênio por cateter nasal (3 L/min), PCR elevada, D-dímero aumentado, sem sinais de trombose. Qual conduta farmacológica é mais apropriada?
+
+- **(A)** Dexametasona + anticoagulação plena.  
+  <sub>Incorreta. A anticoagulação plena na ausência de evento trombótico documentado aumenta o risco de sangramento sem benefício comprovado, mesmo com D-dímero elevado.</sub>
+
+- **(B)** Antiviral isolado.  
+  <sub>Incorreta. O antiviral isolado não reduz mortalidade nesta fase da doença e deixaria de contemplar corticoide e tromboprofilaxia.</sub>
+
+- **(C)** ✅ Dexametasona + anticoagulação profilática.  
+  <sub>Correta. O corticoide sistêmico reduz mortalidade em pacientes com COVID-19 que necessitam de oxigênio suplementar, e a anticoagulação profilática é a recomendada em paciente internado sem sinais de trombose.</sub>
+
+- **(D)** Apenas suporte clínico.  
+  <sub>Incorreta. O suporte clínico isolado omite terapias com benefício comprovado em paciente hipoxêmico, configurando conduta insuficiente.</sub>
+
+### 147. Acidente vascular cerebral isquêmico  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 60*
+
+**Enunciado:** Paciente de 78 anos, NIHSS 16, TC sem sangramento, angioTC mostra oclusão de artéria cerebral média proximal. Início dos sintomas há 7 horas. Perfusão cerebral demonstra mismatch favorável. Qual a conduta mais adequada?
+
+- **(A)** Trombólise endovenosa.  
+  <sub>Incorreta. Com sete horas de evolução, o paciente está fora da janela de 4,5 horas preconizada para a trombólise endovenosa.</sub>
+
+- **(B)** Anticoagulação plena imediata.  
+  <sub>Incorreta. A anticoagulação plena imediata não é terapia de reperfusão no AVC isquêmico agudo e aumenta o risco de transformação hemorrágica.</sub>
+
+- **(C)** ✅ Trombectomia mecânica.  
+  <sub>Correta. Oclusão proximal da artéria cerebral média, NIHSS 16, tomografia sem sangramento e mismatch favorável na perfusão colocam o paciente dentro da janela estendida (até 24 horas) para trombectomia mecânica.</sub>
+
+- **(D)** Tratamento clínico exclusivo.  
+  <sub>Incorreta. Limitar-se ao tratamento clínico desperdiça a oportunidade de reperfusão em paciente com tecido cerebral viável demonstrado por imagem de perfusão.</sub>
+
+### 148. Anemias hemolíticas  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 61*
+
+**Enunciado:** Homem de 34 anos apresenta icterícia leve, fadiga e urina escura após infecção viral recente. Hemograma: Hb 9,5 g/dL, VCM normal, reticulócitos elevados, LDH aumentada, haptoglobina indetectável. Coombs direto negativo. Qual é o diagnóstico mais provável?
+
+- **(A)** ✅ Deficiência de G6PD.  
+  <sub>Correta. Hemólise episódica desencadeada por estresse oxidativo (infecção viral recente), com Coombs direto negativo, urina escura, reticulocitose, LDH elevada e haptoglobina indetectável, é o quadro clássico da deficiência de G6PD.</sub>
+
+- **(B)** Anemia hemolítica autoimune quente.  
+  <sub>Incorreta. Na anemia hemolítica autoimune por anticorpos quentes o teste de Coombs direto seria positivo, o que não ocorre neste paciente.</sub>
+
+- **(C)** Esferocitose hereditária.  
+  <sub>Incorreta. A esferocitose hereditária costuma cursar com história familiar, esplenomegalia e esferócitos no esfregaço, achados não descritos no caso.</sub>
+
+- **(D)** Hemoglobinúria paroxística noturna.  
+  <sub>Incorreta. A hemoglobinúria paroxística noturna associa-se a trombose e citopenias, com hemólise crônica intravascular, e não a episódio agudo isolado após infecção.</sub>
+
+### 149. Neurologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 62*
+
+**Enunciado:** Homem de 56 anos sofre AVC isquêmico em território cortical. Investigação mostra: Doppler carotídeo normal, ecocardiograma transtorácico normal, Holter 24h sem FA. Qual investigação adicional tem maior rendimento diagnóstico?
+
+- **(A)** Repetir Doppler carotídeo.  
+  <sub>Incorreta. Repetir um Doppler carotídeo já normal em curto intervalo tem rendimento diagnóstico desprezível.</sub>
+
+- **(B)** ✅ Monitorização cardíaca prolongada.  
+  <sub>Correta. O padrão cortical com investigação inicial negativa caracteriza AVC criptogênico do subtipo ESUS, cuja principal causa oculta é a fibrilação atrial paroxística; a monitorização cardíaca prolongada (≥14–30 dias ou monitor implantável) aumenta significativamente a taxa de detecção em relação ao Holter de 24 horas.</sub>
+
+- **(C)** Angiotomografia coronariana.  
+  <sub>Incorreta. A angiotomografia coronariana avalia doença arterial coronariana e não identifica a fonte embólica responsável pelo AVC.</sub>
+
+- **(D)** Pesquisa de trombofilia hereditária.  
+  <sub>Incorreta. A pesquisa de trombofilia hereditária relaciona-se sobretudo a eventos venosos e apresenta baixo rendimento na investigação de AVC arterial neste contexto.</sub>
+
+### 150. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 63*
+
+> ⚠️ **defeito na origem:** O enunciado grafa incorretamente 'doença de Chron' (correto: Crohn) e não fornece os valores laboratoriais mencionados, exigindo que o candidato infira dados não apresentados.
+
+**Enunciado:** Paciente, masculino, 60 anos chega à UBS trazendo consigo alguns exames para avaliação semestral. Trata-se de paciente assintomático, porém com IMC: 35Kg/m2, DM com controle alimentar (SIC paciente), HAS controlada e medicamento crônico para doença de Chron, O médico da UBS, calculou mentalmente o risco cardiovascular do paciente e atribuiu a conduta terapêutica. A partir dos dados obtidos, o risco cardiovascular do paciente e a conduta serão:
+
+- **(A)** Alto Risco cardiovascular. A terapêutica correta é mudança do estilo de vida e início de estatina de alta potência.  
+  <sub>Incorreta. A classificação como alto risco subestima o quadro, pois desconsidera o fator agravante da doença inflamatória intestinal crônica, que reclassifica o paciente diabético com fator de risco para a categoria de muito alto risco.</sub>
+
+- **(B)** ✅ Muito alto risco cardiovascular. A terapêutica correta é mudança do estilo de vida, início de estatina de alta potência e controle dos outros fatores de risco.  
+  <sub>Correta. Trata-se de paciente de muito alto risco cardiovascular: diabético, de qualquer idade, com pelo menos um fator de risco associado (hipertensão arterial), o que já o colocaria em alto risco, elevado a muito alto risco pela presença de fator agravante representado por condição inflamatória crônica (doença de Crohn). A conduta contempla mudança do estilo de vida, início de estatina de alta potência e controle dos demais fatores de risco, incluindo a obesidade grau II.</sub>
+
+- **(C)** Muito alto risco cardiovascular. A terapêutica correta é mudança do estilo de vida.  
+  <sub>Incorreta. Ainda que a categorização de risco esteja correta, limitar a conduta à mudança do estilo de vida é insuficiente; pacientes de muito alto risco têm indicação formal de estatina de alta potência associada às medidas não farmacológicas.</sub>
+
+- **(D)** Muito alto risco cardiovascular. A terapêutica correta é mudança do estilo de vida e dada a gravidade da doença já iniciar com os inibidos dos receptores PCSK9.  
+  <sub>Incorreta. Os inibidores de PCSK9 não são terapia inicial; são reservados a pacientes que não atingem as metas de LDL-colesterol apesar de estatina de alta potência em dose máxima tolerada, eventualmente associada à ezetimiba.</sub>
+
+### 151. Endocrinologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · dificil · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 64*
+
+> ⚠️ **defeito na origem:** Faltam o comando e a instrução de resposta ao final do enunciado, e a justificativa oficial menciona "estágio 3", divergindo do estágio indicado na alternativa apontada como oficialmente correta.
+
+**Enunciado:** Mulher, 34 anos, branca, IMC = 24Kg/m2, irmão com DM1 há alguns anos, sem sintomas, fez exames de rotina e apresentou-se com glicemia = 114mg/dl, hemoglobina glicosilada = 5,9%, glicemia 2hs após 75h de glicose = 185mg/dl
+
+- **(A)** Esta paciente tem pré-diabetes e deve perder peso para que não haja evolução para diabetes tipo 2.  
+  <sub>Incorreta. A rotulagem como pré-diabetes tipo 2 e a orientação centrada na perda de peso desconsideram o fenótipo da paciente (IMC de 24 kg/m², história familiar de DM1) e a possibilidade de autoimunidade pancreática.</sub>
+
+- **(B)** A ausência de sintomas não exclui o diagnóstico de diabetes tipo 2 nesta paciente.  
+  <sub>Incorreta. Embora seja verdade que a ausência de sintomas não exclua diabetes, o contexto aponta para etiologia autoimune, e não para diabetes tipo 2.</sub>
+
+- **(C)** O risco de evolução para diabetes estabelecido nesta paciente é mínimo.  
+  <sub>Incorreta. O risco de evolução para diabetes franco não é mínimo: a disglicemia já instalada em portadora de autoimunidade e história familiar confere risco elevado de progressão.</sub>
+
+- **(D)** ✅ Esta paciente apresenta-se com disglicemia e em presença de anticorpo anti-GAD e anticorpo anti-insulina positivos tem diagnóstico de diabetes tipo 1 no estágio 2.  
+  <sub>Correta. Conforme as diretrizes da Sociedade Brasileira de Diabetes, a paciente apresenta disglicemia (glicemia de jejum de 114 mg/dL, HbA1c de 5,9% e glicemia de 185 mg/dL 2 horas após sobrecarga) e, na presença de autoanticorpos anti-GAD e anti-insulina positivos em pessoa com irmão portador de DM1, caracteriza-se diabetes tipo 1 em fase pré-clínica com alteração glicêmica e sem sintomas.</sub>
+
+### 152. Endocrinologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 65*
+
+**Enunciado:** Sobre o caso clínico a seguir, assinale a alternativa correta: Mulher, 28 anos há 3 meses com taquicardia, tremores, agitação, emagrecimento de 8Kg. Ao exame físico com aumento de volume difuso da tireoide, frequência cardíaca de 112 batimentos por minuto, tremores finos de extremidades. Exames complementares com TSH = 0,01 m UI/L (VR = 0,4 a 4,0 ou 4,5 mUI/L), T4 livre = 5,2ng/dl (VR = 0,8 a 1,8 ng/Dl)
+
+- **(A)** Para confirmar o diagnóstico de Doença de Graves esta paciente deve ter diminuição de captação de iodo radioativo em 24hs pela cintilografia de tireoide.  
+  <sub>Incorreta. Na doença de Graves a captação de iodo radioativo em 24 horas está aumentada e difusa; captação reduzida sugere tireoidites ou tireotoxicose factícia.</sub>
+
+- **(B)** A presença de anticorpo anti-peroxidase positivo confirmaria o diagnóstico de Tireoidite de Hashimoto.  
+  <sub>Incorreta. O anticorpo antiperoxidase é inespecífico e pode estar presente também na doença de Graves, não confirmando isoladamente o diagnóstico de tireoidite de Hashimoto, que ademais cursa tipicamente com hipotireoidismo.</sub>
+
+- **(C)** ✅ Se esta paciente apresentar anticorpo anti-receptor do TSH positivo tem o diagnóstico de Doença de Graves e drogas como metimazol e propranolol devem ser iniciadas.  
+  <sub>Correta. O quadro de tireotoxicose com bócio difuso, TSH suprimido e T4 livre elevado é compatível com doença de Graves, confirmada pelo anticorpo antirreceptor do TSH (TRAB) positivo; o tratamento inicial associa metimazol, para bloquear a síntese hormonal, e propranolol, para controle adrenérgico dos sintomas.</sub>
+
+- **(D)** O diagnóstico provável seria tireoidite de de Quervain e o uso de corticoide estaria altamente indicado.  
+  <sub>Incorreta. A tireoidite de De Quervain cursa com dor cervical intensa, febre e tireotoxicose transitória e discreta, o que não corresponde ao quadro de três meses com emagrecimento de 8 kg e T4 livre muito elevado.</sub>
+
+### 153. Pré-hipertensão  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 66*
+
+**Enunciado:** Homem, 42 anos, procura consulta de rotina. Nega comorbidades, não fuma, pratica atividade física ocasionalmente. IMC: 26 kg/m². Sem história familiar de doença cardiovascular precoce. Pressão arterial medida corretamente em duas consultas: 138 x 84 mmHg 136 x 86 mmHg Exames laboratoriais normais. Risco cardiovascular global estimado: baixo. Qual a classificação e a conduta mais adequada?
+
+- **(A)** ✅ Pré-hipertensão e tratamento apenas com medidas de estilo de vida.  
+  <sub>Correta. Medidas de 138x84 e 136x86 mmHg situam-se na faixa de 130–139 x 85–89 mmHg, definida como pré-hipertensão (PA elevada) pela Diretriz Brasileira de Hipertensão Arterial de 2025; em paciente de baixo risco cardiovascular, a conduta é exclusivamente não farmacológica, com redução de peso, atividade física regular, restrição de sódio, moderação alcoólica e dieta DASH.</sub>
+
+- **(B)** Pré-Hipertensão e iniciar IECA.  
+  <sub>Incorreta. A classificação está certa, mas não se inicia IECA em pré-hipertensão de baixo risco; a farmacoterapia é reservada a hipertensos estágio 1 com risco moderado/alto, estágio ≥ 2, doença cardiovascular estabelecida, diabetes, DRC ou lesão de órgão-alvo.</sub>
+
+- **(C)** Hipertensão estágio 1 e iniciar diurético tiazídico.  
+  <sub>Incorreta. Hipertensão estágio 1 corresponde a PA de 140–159 x 90–99 mmHg, valores não alcançados por este paciente, o que também afasta a prescrição de tiazídico.</sub>
+
+- **(D)** Hipertensão mascarada e solicitar MAPA imediatamente.  
+  <sub>Incorreta. Hipertensão mascarada define-se por PA normal no consultório com valores elevados fora dele; aqui as medidas de consultório já estão na faixa de pré-hipertensão, não havendo indicação de MAPA imediata.</sub>
+
+### 154. Distúrbios hidroeletrolíticos  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 67*
+
+> ⚠️ **defeito na origem:** Os dados laboratoriais aparecem aglutinados no enunciado, sem separação clara entre os valores, o que prejudica a legibilidade do caso.
+
+**Enunciado:** Homem, 63 anos, DRC estágio 4, chega ao pronto atendimento com fraqueza muscular.ECG: ondas T apiculadas difusas. Laboratório: K⁺ = 6,6 mEq/L Creatinina = 3,2 mg/dL pH = 7,31 Qual a melhor abordagem terapêutica inicial?
+
+- **(A)** Gluconato de cálcio EV, insulina NPH com glicose e beta-agonista inalatório.  
+  <sub>Incorreta. A insulina NPH tem início de ação lento e imprevisível, sendo inadequada para a translocação rápida do potássio; nessa emergência a escolha é a insulina regular com glicose.</sub>
+
+- **(B)** Furosemida EV, hidratação venosa vigorosa e hemodiálise.  
+  <sub>Incorreta. Furosemida e hidratação vigorosa têm efeito lento e limitado na doença renal crônica estágio 4, e a hemodiálise, ainda que possa ser necessária, não substitui as medidas imediatas de estabilização de membrana.</sub>
+
+- **(C)** Bicarbonato de sódio EV isoladamente, Resina de troca catiônica oral e restrição de potássio.  
+  <sub>Incorreta. O bicarbonato isolado não trata adequadamente a hipercalemia, sobretudo com pH de 7,31, e a resina de poliestirenossulfonato tem ação tardia e risco de complicações gastrointestinais.</sub>
+
+- **(D)** ✅ Gluconato de cálcio EV, insulina Regular com glicose e ciclossilicato de zircônio sódico.  
+  <sub>Correta. Potássio de 6,6 mEq/L com ondas T apiculadas configura emergência médica e, conforme o KDIGO, o manejo segue três eixos: estabilização de membrana com gluconato de cálcio endovenoso, deslocamento intracelular do potássio com insulina regular associada a glicose, opcionalmente com beta-agonista, e remoção corporal do potássio, sendo o ciclossilicato de zircônio sódico a opção atualmente preferida às resinas antigas.</sub>
+
+### 155. Doença renal do diabetes  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 68*
+
+> ⚠️ **defeito na origem:** Os dados laboratoriais estão apresentados em linha corrida, sem formatação em lista, o que prejudica a legibilidade do enunciado.
+
+**Enunciado:** Mulher, 58 anos, DM2 há 12 anos, HbA1c 8,1%. Uso atual: metformina 2 g/dia e IECA. Exames: TFG: 58 ml/min Albuminúria: 420 mg/g PA: 134x82 mmHg Qual a melhor estratégia visando proteção renal e controle glicêmico?
+
+- **(A)** Iniciar insulina basal.  
+  <sub>Incorreta. A insulina basal melhora o controle glicêmico, mas não confere nefroproteção; além disso, com HbA1c de 8,1% há alternativas orais com benefício de desfecho renal antes da insulinização.</sub>
+
+- **(B)** Suspender metformina.  
+  <sub>Incorreta. A metformina pode ser mantida com TFG de 58 mL/min, sendo sua suspensão indicada apenas abaixo de 30 mL/min, com ajuste de dose entre 30 e 45 mL/min; retirá-la pioraria o controle glicêmico sem qualquer ganho renal.</sub>
+
+- **(C)** ✅ Associar inibidor de SGLT2.  
+  <sub>Correta. Em paciente com DM2, TFG de 58 mL/min e albuminúria de 420 mg/g já em uso de IECA, as diretrizes ADA e KDIGO recomendam associar inibidor de SGLT2, que reduz a progressão da doença renal crônica e a necessidade de diálise, diminui a mortalidade cardiovascular e ainda contribui para o controle glicêmico.</sub>
+
+- **(D)** Acrescentar sulfoniluréia.  
+  <sub>Incorreta. As sulfonilureias não oferecem proteção renal ou cardiovascular e acrescentam risco de hipoglicemia e ganho de peso, sobretudo em paciente com função renal reduzida.</sub>
+
+### 156. Hematologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 69*
+
+**Enunciado:** Homem, 78 anos, trazido pela família por cansaço progressivo. Relatam que tem comido muito pouco nos últimos meses devido a uma redução importante do apetite e quando come opta por doces e alimentos pouco nutritivos. Exames:Hb: 8,9 g/dL VCM: 72 fL Ferritina: 12 ng/mL Saturação transferrina: 8% Qual a melhor conduta?
+
+- **(A)** Prescrever ferro oral e reavaliar em 6 meses.  
+  <sub>Incorreta. Repor ferro sem investigar a causa retarda o diagnóstico de neoplasias colorretais ou gástricas, e a reavaliação apenas em seis meses é intervalo inaceitável.</sub>
+
+- **(B)** Orientar melhora alimentar e prescrever estimuladores de apetite.  
+  <sub>Incorreta. A baixa ingesta pode contribuir, mas raramente explica isoladamente a ferropenia nesta faixa etária, não dispensando a investigação de sangramento.</sub>
+
+- **(C)** Transfundir hemácias e alta ambulatorial.  
+  <sub>Incorreta. Hemoglobina de 8,9 g/dL em paciente estável não indica transfusão, e a alta sem investigação etiológica é conduta inadequada.</sub>
+
+- **(D)** ✅ Investigar sangramento do trato gastrointestinal.  
+  <sub>Correta. Anemia microcítica (VCM 72 fL) com ferritina de 12 ng/mL e saturação de transferrina de 8% configura anemia ferropriva; no idoso, ela deve ser considerada secundária a perda sanguínea crônica até prova em contrário, investigando-se o trato gastrointestinal com endoscopia digestiva alta e colonoscopia.</sub>
+
+### 157. Hemorragia digestiva alta  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 70*
+
+**Enunciado:** Homem, 55 anos, dor lombar crônica em uso diário de diclofenaco.Procura emergência por melena e tontura. PA: 106x60 mmHg FC: 112 bpm Boa perfusão periférica Qual a conduta inicial mais adequada?
+
+- **(A)** Suspender AINE e observar.  
+  <sub>Incorreta. Suspender o anti-inflamatório é necessário, mas insuficiente diante de sangramento com repercussão hemodinâmica.</sub>
+
+- **(B)** ✅ Reposição volêmica + IBP EV + endoscopia precoce.  
+  <sub>Correta. Diante de hemorragia digestiva alta suspeita por úlcera relacionada a AINE, com taquicardia e pressão limítrofe, a conduta inicial é ressuscitação volêmica, inibidor de bomba de prótons endovenoso (bolus seguido de infusão) e endoscopia precoce em até 24 horas.</sub>
+
+- **(C)** Apenas transfundir sangue.  
+  <sub>Incorreta. A transfusão é indicada apenas com hemoglobina abaixo de 7 g/dL ou instabilidade persistente, não sendo a medida inicial isolada.</sub>
+
+- **(D)** Colonoscopia urgente.  
+  <sub>Incorreta. A melena aponta para fonte alta do sangramento; a colonoscopia não é o exame inicial nesse cenário.</sub>
+
+### 158. Dor torácica aguda  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · facil · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 71*
+
+> ⚠️ **defeito na origem:** Faltam unidades e pontuação final no enunciado ('PA 180x100 em membro superior direito', comando sem interrogação).
+
+**Enunciado:** Paciente de 55 anos, hipertenso, tabagista. Procura pronto socorro com dor precordial súbita com irradiação para dorso, de forte intensidade. Ao exame PA 180x100 em membro superior direito e 110x70 em MSE. Qual a principal hipótese diagnóstica
+
+- **(A)** Infarto Agudo do Miocárdio.  
+  <sub>Incorreta. O infarto agudo do miocárdio não explica a assimetria pressórica entre os membros superiores nem a irradiação dorsal com dor de início abrupto e máxima intensidade inicial.</sub>
+
+- **(B)** ✅ Dissecção aguda de aorta torácica.  
+  <sub>Correta. Dor precordial súbita e intensa com irradiação para o dorso em hipertenso tabagista, somada a diferença de pressão arterial entre os membros superiores maior que 20 mmHg, sugere dissecção aguda de aorta com extensão ao arco aórtico e emergência da subclávia esquerda da falsa luz.</sub>
+
+- **(C)** Tromboembolismo Pulmonar.  
+  <sub>Incorreta. O tromboembolismo pulmonar cursa tipicamente com dor pleurítica, dispneia e hipoxemia, sem diferença de pressão arterial entre os membros superiores.</sub>
+
+- **(D)** Pneumotórax hipertensivo.  
+  <sub>Incorreta. O pneumotórax hipertensivo manifesta-se com desconforto respiratório grave, hipotensão, timpanismo e abolição do murmúrio vesicular, achados ausentes no caso.</sub>
+
+### 159. Cardiologia de urgência  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 72*
+
+> ⚠️ **defeito na origem:** A alternativa C contém erro de digitação ('colchinha' em vez de colchicina).
+
+**Enunciado:** Você se encontra de plantão em Unidade de Pronto Atendimento, com serviço de hemodinâmica mais próximo a pelo menos 4 horas de distância. Recebe paciente de 48 anos, masculino, com dor precordial tipo aperto há 3 horas, taquicárdico, taquipneico, sudorese fria. Eletrocardiograma com supra desnivelamento do segmento ST em toda parede anterior maior que 2mm. Qual a conduta mais adequada?
+
+- **(A)** Morfina e solicitar transferência para angioplastia primária em serviço de hemodinâmica mais próximo.  
+  <sub>Incorreta. Transferir para angioplastia primária com tempo de transporte de cerca de 4 horas retardaria excessivamente a reperfusão, aumentando a mortalidade.</sub>
+
+- **(B)** Ibuprofeno e colchinha já que supra desnivelamento de toda parede anterior deve ser consequente a pericardite.  
+  <sub>Incorreta. O quadro clínico e eletrocardiográfico é de infarto anterior extenso, e não de pericardite; anti-inflamatório e colchicina seriam conduta equivocada e potencialmente danosa.</sub>
+
+- **(C)** ✅ AAS 300mg e trombólise com rt-PA/ Alteplase.  
+  <sub>Correta. Diante de IAM com supradesnivelamento de ST com menos de 12 horas de evolução e serviço de hemodinâmica a mais de 120 minutos de distância, a trombólise com rt-PA/alteplase, precedida de AAS 300 mg, é mandatória e imediata, pois o tempo de artéria ocluída determina a mortalidade cardiovascular.</sub>
+
+- **(D)** Benzodiazepínico para diminuir os sintomas de ansiedade e reavaliar quando o paciente estiver mais calmo.  
+  <sub>Incorreta. Atribuir o quadro à ansiedade e postergar a reperfusão configura erro grave, com perda de miocárdio viável e aumento da mortalidade.</sub>
+
+### 160. Endocrinologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 73*
+
+> ⚠️ **defeito na origem:** O enunciado está truncado ao final ('assinale a corret'), com perda da letra final do comando.
+
+**Enunciado:** Durante plantão noturno na enfermaria, você é chamada para avaliar paciente com dor e espasmos musculares de início recente. Ela foi submetida à tireoidectomia total por doença de Graves há dois dias. Ao exame físico, apresenta sinal de Trousseau positivo. Considerando o quadro clínico e os fatores de risco envolvidos, analise as alternativas e assinale a corret
+
+- **(A)** ✅ O quadro é compatível com hipocalcemia decorrente de lesão ou comprometimento vascular das paratireoides durante a tireoidectomia, o que é mais comum quando o procedimento é realizado por doença de Graves.  
+  <sub>Correta. Dor e espasmos musculares com sinal de Trousseau positivo no segundo dia de pós-operatório de tireoidectomia total traduzem hipocalcemia por lesão direta ou comprometimento vascular das paratireoides durante o procedimento, complicação mais frequente quando a cirurgia é realizada por doença de Graves, em razão da maior vascularização e friabilidade glandular.</sub>
+
+- **(B)** O sinal de Trousseau corresponde à contração do ângulo labial à percussão do nervo facial e apresenta elevada especificidade diagnóstica por ocorrer em pequena parcela de indivíduos sem hipocalcemia.  
+  <sub>Incorreta. A descrição apresentada corresponde ao sinal de Chvostek (contração do ângulo labial à percussão do nervo facial), e não ao sinal de Trousseau, que é desencadeado pela insuflação do manguito de pressão arterial acima da pressão sistólica, provocando espasmo carpopedal.</sub>
+
+- **(C)** A conduta inicial deve priorizar a confirmação laboratorial da hipocalcemia antes de qualquer intervenção terapêutica, independentemente da presença de manifestações clínicas sugestivas.  
+  <sub>Incorreta. Diante de manifestações neuromusculares evidentes de hipocalcemia sintomática, a reposição de cálcio por via endovenosa deve ser iniciada concomitantemente à investigação laboratorial, sem aguardar a confirmação do cálcio sérico.</sub>
+
+- **(D)** O tratamento da hipocalcemia sintomática deve ser realizado com infusão contínua de citrato de cálcio, com cálculo da dose baseado no peso corporal da paciente. Deve-se monitorar o ritmo cardíaco com ECG durante a infusão.  
+  <sub>Incorreta. O tratamento de escolha é a administração endovenosa lenta de gluconato de cálcio a 10%, e não de citrato de cálcio; a dose inicial não é calculada exclusivamente pelo peso corporal, mas conforme a gravidade clínica e os níveis séricos de cálcio, ainda que a monitorização eletrocardiográfica esteja de fato recomendada.</sub>
+
+### 161. Psiquiatria  
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` · fase 6 · saude_mental · medio · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 75*
+
+> ⚠️ **defeito na origem:** A justificativa oficial comenta uma 'alternativa E' inexistente, indicando item originalmente redigido com cinco opções.
+
+**Enunciado:** Considerando os critérios diagnósticos do DSM-5-TR para transtorno depressivo maior, qual das alternativas descreve corretamente um requisito necessário para o diagnóstico?
+
+- **(A)** ✅ Presença de pelo menos cinco sintomas durante um período mínimo de duas semanas, incluindo obrigatoriamente humor deprimido ou perda de interesse ou prazer, associados a sofrimento clinicamente significativo ou prejuízo no funcionamento.  
+  <sub>Correta. O DSM-5-TR exige cinco ou mais sintomas em período mínimo de duas semanas, representando mudança em relação ao funcionamento prévio, sendo obrigatório que ao menos um deles seja humor deprimido ou perda de interesse/prazer (anedonia), com sofrimento clinicamente significativo ou prejuízo funcional e sem atribuição a substâncias ou condição médica.</sub>
+
+- **(B)** Presença de humor deprimido persistente por período mínimo de um mês, acompanhado de pelo menos três sintomas adicionais de natureza afetiva ou somática.  
+  <sub>Incorreta. São exigidos cinco sintomas, e não três, e o critério temporal mínimo é de duas semanas, e não de um mês.</sub>
+
+- **(C)** Ocorrência de humor deprimido e fadiga por pelo menos duas semanas, independentemente do número total de sintomas associados.  
+  <sub>Incorreta. O diagnóstico não se estabelece apenas com humor deprimido e fadiga: é indispensável atingir o número mínimo de cinco sintomas.</sub>
+
+- **(D)** Presença de quatro sintomas depressivos por pelo menos duas semanas, desde que um deles seja alteração do sono ou do apetite.  
+  <sub>Incorreta. Quatro sintomas não bastam para o diagnóstico, ainda que incluam alteração do sono ou do apetite, pois o limiar do DSM-5-TR é de cinco sintomas.</sub>
+
+### 162. Meningite bacteriana  
+`med_unidavi_f08_uc01_emergencias` · fase 8 · urgencia_emergencia · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 76*
+
+**Enunciado:** Um adolescente de 17 anos é levado ao pronto-socorro com história de febre alta há 12 horas, cefaleia intensa, náuseas e dois episódios de vômitos. Evoluiu com sonolência e surgimento de lesões petequiais em membros inferiores. Ao exame físico: T 39,5 °C, PA 90/60 mmHg, FC 120 bpm, rigidez de nuca presente, sinal de Kernig positivo. Considerando a principal hipótese diagnóstica, qual é a conduta imediata mais adequada?
+
+- **(A)** Solicitar tomografia de crânio antes de qualquer outra medida e aguardar o resultado para definir tratamento.  
+  <sub>Incorreta. A tomografia de crânio só se justifica diante de sinais de hipertensão intracraniana ou déficit neurológico focal, e aguardá-la retarda o antibiótico, aumentando a mortalidade.</sub>
+
+- **(B)** Realizar punção lombar imediatamente antes de iniciar antibióticos, mesmo na presença de instabilidade hemodinâmica.  
+  <sub>Incorreta. A punção lombar não deve preceder a estabilização hemodinâmica nem atrasar a antibioticoterapia, podendo ser postergada com segurança no paciente instável.</sub>
+
+- **(C)** ✅ Iniciar antibioticoterapia intravenosa imediata com ceftriaxona após coleta de hemoculturas, sem aguardar resultado de exames complementares.  
+  <sub>Correta. Febre alta de início súbito, cefaleia, rigidez de nuca, Kernig positivo e exantema petequial com instabilidade hemodinâmica indicam meningite meningocócica com meningococcemia; após coleta de hemoculturas, a ceftriaxona intravenosa empírica deve ser iniciada de imediato, sem aguardar exames complementares, pois o tempo até o antibiótico determina o prognóstico.</sub>
+
+- **(D)** Prescrever antibioticoterapia oral e observar evolução clínica por 24 horas.  
+  <sub>Incorreta. A meningite meningocócica é emergência médica que exige antibiótico intravenoso imediato; a via oral e a observação por 24 horas configuram conduta potencialmente fatal.</sub>
+
+### 163. Doença pulmonar obstrutiva crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 77*
+
+**Enunciado:** Uma mulher de 67 anos procurou a unidade básica de saúde relatando piora progressiva da dispneia aos esforços nos últimos 3 anos. Ela refere cansaço já ao lavar louça, tosse crônica com escarro branco, relata emagrecimento não intencional de 4 kg nesse período. Nega história de asma na infância, mas iniciou tabagismo aos 20 anos, mantendo 2 maços/dia até os 65 anos. Relata duas exacerbações com necessidade de corticoterapia oral e antibiótico nos últimos 12 meses, sendo uma evoluindo com internação hospitalar. Ao exame, PA 124x76 mmHg, FR 20 ipm, SpO₂ 90%. Ausculta com murmúrio vesicular diminuído, sibilos expiratórios e roncos difusos. Espirometria: VEF1/CVF 0,59 (pós-broncodilatador), VEF1 44% do previsto. Eosinófilos: 340 células/µL. Em relação à atualização do GOLD 2025, qual a conduta medicamentosa inalatória mais adequada para essa paciente? *Obs. LABA= β2-agonista de longa duração; LAMA= anticolinérgico de longa ação
+
+- **(A)** ✅ Terapia tripla com corticoide inalatório LABA e LAMA.  
+  <sub>Correta. A paciente enquadra-se no grupo E do GOLD 2025, com duas exacerbações no último ano, uma delas com internação, e eosinófilos de 340 células/µL; nesse cenário, acrescentar corticoide inalatório ao LABA e ao LAMA reduz comprovadamente exacerbações e mortalidade.</sub>
+
+- **(B)** Monoterapia com broncodilatador de longa ação (LABA ou LAMA).  
+  <sub>Incorreta. A monoterapia com um único broncodilatador de longa ação é insuficiente diante de exacerbações frequentes e obstrução grave, com VEF1 de 44% do previsto.</sub>
+
+- **(C)** Broncodilatador de curta duração e mucolítico.  
+  <sub>Incorreta. Broncodilatador de curta duração é medicação de resgate e o mucolítico tem papel apenas adjuvante em casos selecionados; nenhum deles constitui terapia de manutenção nesse perfil de risco.</sub>
+
+- **(D)** Terapia dupla combinando LABA e LAMA.  
+  <sub>Incorreta. A dupla broncodilatação com LABA e LAMA seria adequada no grupo E com eosinófilos abaixo de 300 células/µL, mas a eosinofilia aqui presente indica a inclusão do corticoide inalatório.</sub>
+
+### 164. Anemias  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 78*
+
+**Enunciado:** Mulher de 32 anos procura atendimento médico referindo fadiga progressiva, tontura e queda de cabelo. Relata menstruações intensas nos últimos meses. Ao exame físico apresenta palidez cutaneomucosa. Exames laboratoriais mostram hemoglobina de 9 g/dL, volume corpuscular médio reduzido e ferritina sérica diminuída. Considerando os achados clínicos e laboratoriais, qual é o diagnóstico mais provável?
+
+- **(A)** ✅ Anemia ferropriva.  
+  <sub>Correta. A anemia ferropriva é a causa mais comum de anemia no mundo e caracteriza-se por microcitose, hipocromia e ferritina reduzida, que reflete depleção das reservas de ferro; em mulher em idade reprodutiva com menstruações intensas, a perda sanguínea menstrual é a etiologia mais frequente.</sub>
+
+- **(B)** Anemia hemolítica autoimune.  
+  <sub>Incorreta. A anemia hemolítica autoimune cursa com VCM normal ou elevado, reticulocitose, aumento de LDH e bilirrubina indireta, queda da haptoglobina e teste de Coombs direto positivo, sem redução da ferritina.</sub>
+
+- **(C)** Anemia megaloblástica.  
+  <sub>Incorreta. A anemia megaloblástica, por deficiência de vitamina B12 ou folato, cursa com macrocitose e neutrófilos hipersegmentados, padrão oposto ao VCM reduzido descrito no caso.</sub>
+
+- **(D)** Anemia aplástica.  
+  <sub>Incorreta. A anemia aplástica manifesta-se por pancitopenia com anemia normocítica e hipocelularidade medular, sem microcitose isolada nem redução da ferritina.</sub>
+
+### 165. Reumatologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 79*
+
+**Enunciado:** Mulher de 45 anos procura atendimento médico por dor articular nas mãos há quatro meses, associada a rigidez matinal que dura aproximadamente uma hora. Ao exame físico observam-se edema e dor à palpação nas articulações metacarpofalângicas e interfalângicas proximais bilateralmente. Considerando o quadro clínico descrito, qual diagnóstico deve ser prioritariamente investigado?
+
+- **(A)** ✅ Artrite reumatoide.  
+  <sub>Correta. Poliartrite simétrica de metacarpofalângicas e interfalângicas proximais, com quatro meses de evolução e rigidez matinal de cerca de uma hora, é o padrão típico da artrite reumatoide, cujo reconhecimento precoce permite iniciar oportunamente o tratamento modificador da doença.</sub>
+
+- **(B)** Osteoartrite.  
+  <sub>Incorreta. A osteoartrite das mãos acomete preferencialmente interfalângicas distais e a primeira carpometacarpiana, com rigidez matinal breve e dor de padrão mecânico.</sub>
+
+- **(C)** Gota.  
+  <sub>Incorreta. A gota manifesta-se classicamente como monoartrite aguda e intensa, com predileção pela primeira metatarsofalângica, e não como poliartrite simétrica crônica das mãos.</sub>
+
+- **(D)** Fibromialgia.  
+  <sub>Incorreta. A fibromialgia cursa com dor difusa e ausência de sinais inflamatórios articulares, sendo incompatível com o edema objetivo descrito.</sub>
+
+### 166. COVID-19  
+`med_unidavi_f02_uc02_mecanismos_agressao_defesa` · fase 2 · ciclo_basico · facil · Bloom: compreensao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 80*
+
+**Enunciado:** Homem de 55 anos procura atendimento médico com febre, tosse seca e perda súbita do olfato iniciadas há três dias. Teste molecular para SARS-CoV-2 confirma a infecção. Durante a evolução da doença, alguns pacientes podem desenvolver quadro respiratório grave. Qual mecanismo fisiopatológico está mais associado à forma grave da COVID-19?
+
+- **(A)** Destruição direta dos eritrócitos pelo vírus.  
+  <sub>Incorreta. O SARS-CoV-2 não causa destruição direta dos eritrócitos como mecanismo de gravidade da doença.</sub>
+
+- **(B)** ✅ Resposta inflamatória sistêmica exacerbada com liberação de citocinas pró-inflamatórias.  
+  <sub>Correta. As formas graves da COVID-19 associam-se a resposta inflamatória sistêmica exacerbada, com liberação maciça de citocinas pró-inflamatórias (tempestade de citocinas), lesão pulmonar difusa e síndrome do desconforto respiratório agudo.</sub>
+
+- **(C)** Produção excessiva de anticorpos neutralizantes.  
+  <sub>Incorreta. Os anticorpos neutralizantes conferem proteção contra o vírus; sua produção não explica a evolução para a forma grave.</sub>
+
+- **(D)** Supressão completa da resposta imune inata.  
+  <sub>Incorreta. Não ocorre supressão completa da imunidade inata, e sim uma resposta inata desregulada e exagerada.</sub>
+
+### 167. Doença pulmonar obstrutiva crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 81*
+
+> ⚠️ **defeito na origem:** Questão de baixo poder discriminativo, pois os distratores são fatores notoriamente irrelevantes para a etiologia da DPOC.
+
+**Enunciado:** Homem de 65 anos, tabagista há 40 anos, apresenta tosse crônica produtiva e dispneia progressiva aos esforços. Espirometria evidencia limitação persistente ao fluxo aéreo com relação VEF1/CVF reduzida. Qual fator de risco é o principal responsável pelo desenvolvimento da doença pulmonar obstrutiva crônica?
+
+- **(A)** Infecção viral aguda.  
+  <sub>Incorreta. Infecções virais agudas podem desencadear exacerbações em portadores de DPOC, mas não são causa do desenvolvimento da doença.</sub>
+
+- **(B)** Exposição ocasional a poeira doméstica.  
+  <sub>Incorreta. A exposição ocasional a poeira doméstica tem impacto desprezível; relevantes são exposições ocupacionais intensas e prolongadas ou a queima de biomassa em ambiente fechado.</sub>
+
+- **(C)** ✅ Tabagismo crônico.  
+  <sub>Correta. O tabagismo crônico é o principal fator de risco para DPOC, induzindo inflamação persistente das vias aéreas, bronquite crônica e enfisema pulmonar, com limitação persistente ao fluxo aéreo.</sub>
+
+- **(D)** Sedentarismo.  
+  <sub>Incorreta. O sedentarismo agrava o descondicionamento e a dispneia em pacientes já doentes, porém não constitui fator causal da obstrução crônica ao fluxo aéreo.</sub>
+
+### 168. Reumatologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 82*
+
+**Enunciado:** Paciente feminina de 30 anos procura atendimento para avaliação devido histórico de um parto prematuro devido eclampsia grave com 32 semanas, uma segunda gestação com abortamento com 16 semanas. Relata ainda um episódio de trombose venosa profunda aos 23 anos 3 meses após ter iniciado uso de anticoncepcional oral combinado e recorrência do quadro sem fator de risco definido aos 28 anos. Foram solicitados exames para pesquisa de anticorpos antifosfolípides. Considerando os critérios classificatórios da síndrome do anticorpo antifosfolípide (SAF), qual das alternativas abaixo preenche corretamente os critérios laboratoriais necessários para o diagnóstico?
+
+- **(A)** ✅ Presença de anticoagulante lúpico detectado em duas ocasiões com intervalo mínimo de 12 semanas entre os exames.  
+  <sub>Correta. Os critérios laboratoriais da SAF exigem persistência do anticorpo, confirmada em duas ocasiões com intervalo mínimo de 12 semanas, condição preenchida pelo anticoagulante lúpico detectado em duas coletas.</sub>
+
+- **(B)** Presença simultânea de anticorpos anticardiolipina IgM e IgG em títulos baixos em uma única coleta.  
+  <sub>Incorreta. Títulos baixos de anticardiolipina em coleta única não preenchem os critérios, que exigem título médio ou alto e confirmação da persistência.</sub>
+
+- **(C)** Presença de anticorpos anticardiolipina IgG em título moderado detectado em apenas uma coleta.  
+  <sub>Incorreta. Uma única detecção de anticardiolipina IgG não demonstra a persistência exigida pelo intervalo mínimo de 12 semanas.</sub>
+
+- **(D)** Presença de anticorpos anti-β2 glicoproteína I IgG detectados uma única vez associados a TTPa prolongado.  
+  <sub>Incorreta. O TTPa prolongado é apenas achado de triagem e a dosagem isolada de anti-β2 glicoproteína I não comprova a persistência do anticorpo.</sub>
+
+### 169. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · facil · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 83*
+
+> ⚠️ **defeito na origem:** As alternativas combinam achado semiológico e diagnóstico em pares ligados pelo símbolo '>', notação pouco convencional que compromete a padronização editorial do item.
+
+**Enunciado:** Uma mulher de 36 anos procura atendimento por dor torácica que piora ao inspirar profundamente e melhora ao sentar-se inclinada para frente. Ao exame físico, apresenta: PA: 118/72 mmHg - FR 25irpm - FC: 98 bpm - Membros inferiores com edema +/++++ - ausculta cardíaca com ruído áspero audível no bordo esternal esquerdo, que varia conforme a posição da paciente. Tais achados semiológicos descritos é mais sugestivo de qual das seguintes condições?
+
+- **(A)** Sopro holossistólico irradiado para axila > prolapso de válvula mitral.  
+  <sub>Incorreta. Sopros resultam de turbulência do fluxo sanguíneo e não de fricção entre folhetos; além disso, o sopro holossistólico irradiado para a axila do prolapso ou da insuficiência mitral não explica dor pleurítica que melhora ao inclinar-se para frente.</sub>
+
+- **(B)** B3 em foco mitral > cardiomiopatia dilatada.  
+  <sub>Incorreta. A terceira bulha em foco mitral é um som de baixa frequência ligado ao enchimento ventricular rápido, não produz ruído raspante, não se associa a dor torácica pleurítica e não varia tipicamente com a posição do paciente.</sub>
+
+- **(C)** ✅ Atrito pericárdico > pericardite aguda.  
+  <sub>Correta. Dor torácica pleurítica, que piora à inspiração profunda e alivia ao inclinar o tronco para frente, associada a ruído áspero e raspante no bordo esternal esquerdo que varia com a posição, caracteriza o atrito pericárdico, achado clássico da pericardite aguda.</sub>
+
+- **(D)** Sopro diastólico em foco aórtico > dissecção de aorta.  
+  <sub>Incorreta. Trata-se de sopro valvar diastólico, decorrente de regurgitação aórtica, e não de som de fricção; ademais, não se associa à dor pleurítica posicional típica da pericardite aguda.</sub>
+
+### 170. Bioética e saúde da população trans  
+`med_unidavi_f12_uc02_saude_familia_comunidade` · fase 12 · medicina_familia_comunidade · facil · Bloom: avaliacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 84*
+
+**Enunciado:** Um homem trans de 18 anos procura serviço especializado solicitando início de terapia hormonal masculinizante. Durante a avaliação inicial, demonstra compreensão adequada dos efeitos esperados, riscos e necessidade de acompanhamento médico regular. Considerando os princípios bioéticos aplicáveis, qual é a conduta mais adequada?
+
+- **(A)** Recusar tratamento até que o paciente complete 25 anos.  
+  <sub>Incorreta. Não existe idade mínima de 25 anos para o início da terapia hormonal; recusar o atendimento com esse argumento configura barreira de acesso sem respaldo técnico.</sub>
+
+- **(B)** Iniciar tratamento apenas após autorização de algum familiar ou responsável.  
+  <sub>Incorreta. Pacientes adultos têm plena autonomia para consentir tratamentos, não sendo exigível autorização de familiar ou responsável.</sub>
+
+- **(C)** ✅ Avaliar critérios clínicos e iniciar tratamento após consentimento informado.  
+  <sub>Correta. O cuidado deve ser conduzido com avaliação clínica adequada e consentimento informado, respeitando a autonomia do paciente, que é maior de idade e demonstra compreensão dos efeitos esperados, dos riscos e da necessidade de seguimento regular.</sub>
+
+- **(D)** Solicitar obrigatoriamente laudo judicial para autorizar o tratamento.  
+  <sub>Incorreta. Não há exigência de laudo ou autorização judicial para a terapia hormonal, tratando-se de decisão clínica compartilhada entre médico e paciente.</sub>
+
+### 171. Cardiologia  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 85*
+
+**Enunciado:** Paciente de 68 anos, com diagnóstico de Insuficiência Cardíaca com Fração de Ejeção Reduzida (ICFEr - FE: 32%) de etiologia isquêmica, em acompanhamento ambulatorial. Atualmente em classe funcional NYHA II, faz uso de Enalapril 20mg 12/12h, Carvedilol 25mg 12/12h e Espironolactona 25mg/dia. Exames laboratoriais recentes mostram Creatinina: 1,1 mg/dL e Potássio: 4,2 mEq/L. De acordo com as diretrizes atuais para redução de mortalidade e hospitalização, qual a conduta farmacológica mais adequada a ser adicionada ao esquema terapêutico?
+
+- **(A)** Substituir Enalapril por Hidralazina e Nitrato de Isossorbida.  
+  <sub>Incorreta. A associação de hidralazina com nitrato substitui o IECA apenas em caso de intolerância a IECA/BRA ou como adjuvante em pacientes negros com sintomas persistentes, o que não se aplica a este caso.</sub>
+
+- **(B)** Adicionar Digoxina para controle de sintomas e redução de remodelamento.  
+  <sub>Incorreta. A digoxina pode reduzir hospitalizações e melhorar sintomas, mas não reduz mortalidade, não sendo a melhor escolha quando o objetivo é impacto prognóstico.</sub>
+
+- **(C)** Iniciar Varfarina devido à etiologia isquêmica e baixa fração de ejeção.  
+  <sub>Incorreta. A anticoagulação com varfarina não é rotina na ICFEr apenas pela baixa fração de ejeção ou etiologia isquêmica, exigindo indicação específica como fibrilação atrial ou trombo intracavitário.</sub>
+
+- **(D)** ✅ Iniciar Inibidor do Cotransportador Sódio-Glicose 2 (iSGLT2), como a Dapagliflozina ou Empagliflozina.  
+  <sub>Correta. O paciente já usa IECA, betabloqueador e antagonista mineralocorticoide, faltando o quarto pilar da terapia da ICFEr: os inibidores do cotransportador sódio-glicose 2, que reduzem mortalidade cardiovascular e hospitalizações independentemente da presença de diabetes, com função renal e potássio adequados para o início.</sub>
+
+### 172. Doença coronariana crônica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 86*
+
+**Enunciado:** Homem, 62 anos, hipertenso e tabagista, queixa-se de dor retrosternal em aperto que surge ao subir dois lances de escada e melhora com o repouso após 5 minutos. O eletrocardiograma de repouso é normal. Durante o teste ergométrico, o paciente apresentou infradesnivelamento do segmento ST de 2,0 mm, com morfologia descendente, no esforço máximo (10 METs), acompanhado da dor habitual. Qual a classificação da angina e a conduta inicial recomendada?
+
+- **(A)** ✅ Angina Estável Classe II (CCS); iniciar terapia medicamentosa otimizada (Aspirina, Estatina, Betabloqueador).  
+  <sub>Correta. A dor retrosternal previsível, desencadeada pelo esforço e aliviada pelo repouso, caracteriza angina estável, e a limitação leve às atividades ordinárias corresponde à classe II da CCS; a conduta inicial é a terapia medicamentosa otimizada, com antiagregante, estatina e betabloqueador, visando prevenção de eventos e controle sintomático.</sub>
+
+- **(B)** Angina Instável; encaminhamento imediato para Unidade de Dor Torácica e Cineangiocoronariografia em 24 horas.  
+  <sub>Incorreta. Angina instável pressupõe dor em repouso, de início recente ou em padrão progressivo; aqui o quadro é crônico e estável, não exigindo cineangiocoronariografia em 24 horas.</sub>
+
+- **(C)** Angina Estável Classe IV (CCS); indicação imediata de revascularização miocárdica cirúrgica.  
+  <sub>Incorreta. A classe IV da CCS implica angina ao mínimo esforço ou em repouso, incompatível com um paciente que atinge 10 METs; a revascularização cirúrgica imediata não está indicada.</sub>
+
+- **(D)** Angina de Prinzmetal; iniciar bloqueadores de canais de cálcio e suspender betabloqueadores.  
+  <sub>Incorreta. A angina de Prinzmetal é vasoespástica, tipicamente em repouso e com supradesnivelamento transitório do ST, o que não condiz com sintomas desencadeados por esforço físico.</sub>
+
+### 173. Hipertensão arterial sistêmica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: aplicacao  
+*Origem: Clinica Medica - questoes selecionadas - NAPISUL 2 2026, questão 87*
+
+**Enunciado:** Paciente feminina, 54 anos, negra, obesa, com diagnóstico de Hipertensão Arterial Estágio 2. Não apresenta outras comorbidades conhecidas. Após 3 meses de mudanças no estilo de vida, mantém níveis pressóricos de 162/98 mmHg. Segundo as Diretrizes Brasileiras de Hipertensão, qual a recomendação inicial para o tratamento farmacológico desta paciente?
+
+- **(A)** Monoterapia com Inibidor da Enzima Conversora de Angiotensina (IECA).  
+  <sub>Incorreta. A monoterapia com IECA é insuficiente para a magnitude de redução pressórica necessária no estágio 2 e, nesta paciente negra, associa-se a menor resposta anti-hipertensiva.</sub>
+
+- **(B)** ✅ Início imediato de combinação de dois fármacos em doses baixas, preferencialmente um bloqueador dos canais de cálcio e um diurético tiazídico.  
+  <sub>Correta. Para pacientes em estágio 2 que permanecem fora da meta após mudanças no estilo de vida, as Diretrizes Brasileiras de Hipertensão recomendam iniciar terapia combinada de dois fármacos em doses baixas; em pessoas de etnia negra, a resposta aos bloqueadores dos canais de cálcio e aos diuréticos tiazídicos é superior à dos IECA e BRA em monoterapia.</sub>
+
+- **(C)** Início de betabloqueador isolado como primeira escolha por ser paciente em idade perimenopausa.  
+  <sub>Incorreta. Os betabloqueadores não são mais primeira linha na hipertensão sem comorbidades específicas, como insuficiência cardíaca ou pós-infarto, e a condição de perimenopausa não constitui indicação.</sub>
+
+- **(D)** Prescrição de clonidina associada a hidralazina para controle rápido da resistência periférica.  
+  <sub>Incorreta. Clonidina e hidralazina são fármacos de linhas posteriores, com perfil desfavorável de efeitos adversos e de adesão, reservados a casos refratários e não ao tratamento inicial.</sub>
+
+### 174. Ética médica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: analise  
+*Origem: Questoes teste de progresso 2023 (UNIDAVI), questão 1*
+
+> **convertida 5→4**
+
+**Enunciado:** O Sr. P., 61 anos, portador de esclerose lateral amiotrófica (ELA) há 5 anos, está acamado, recebendo dieta por gastrostomia e com importante disartria. Seu prognóstico é de menos de 6 meses de vida. Ele pediu para o seu médico, Dr. M., lhe prescrever medicações que ele pudesse utilizar para abreviar o seu sofrimento. Após confirmar a vontade do paciente e com a concordância dos familiares, o médico lhe prescreveu dose letal de barbitúricos, que o paciente se autoadministrou, morrendo poucos minutos após. Considerando a legislação e a normatização ética brasileira, o Dr. M:
+
+- **(A)** ✅ Ajudou o paciente a realizar suicídio assistido, prática considerada ilegal no País, e assim, também vedada pelo Código de Ética Médica.  
+  <sub>Correta. Ao prescrever a dose letal para que o próprio paciente a autoadministrasse, o médico forneceu os meios para a abreviação da vida, o que caracteriza suicídio assistido, prática ilegal no Brasil e, por isso, também vedada pelo Código de Ética Médica.</sub>
+
+- **(B)** Praticou eutanásia, prática considerada ilegal no País, e assim, também vedada pelo Código de Ética Médica.  
+  <sub>Incorreta. Na eutanásia é o médico quem executa diretamente o ato que provoca a morte; no caso, a autoadministração pelo paciente desloca a conduta para o suicídio assistido, embora ambas sejam igualmente ilegais e antiéticas no país.</sub>
+
+- **(C)** Praticou ortotanásia, permitindo que a doença do paciente seguisse seu curso natural de forma digna, conforme recomendado pelo Código de Ética Médica.  
+  <sub>Incorreta. A ortotanásia consiste em não instituir ou em suspender medidas fúteis, permitindo que a doença siga seu curso natural com cuidados paliativos; aqui houve intervenção ativa que antecipou a morte, o oposto da ortotanásia.</sub>
+
+- **(D)** Somente poderia ter agido desta forma se o paciente assim solicitasse, através de Testamento Vital com suas diretivas antecipadas de vontade.  
+  <sub>Incorreta. As diretivas antecipadas de vontade permitem recusar tratamentos fúteis, mas não autorizam o médico a fornecer meios para abreviar a vida; nenhum documento torna lícito o suicídio assistido no ordenamento brasileiro.</sub>
+
+**Alternativa descartada** — era a (D): *Cometeu distanásia, ao alterar o curso natural da doença do paciente, acelerando o processo de morte, o que é vedado pelo Código de Ética Médica*  
+Motivo: Distrator mais fraco por empregar definição frontalmente invertida de distanásia, tornando a opção implausível.
+
+<sub>Renumeração: A→A, B→B, C→C, E→D · gabarito A → A</sub>
+
+### 175. Ética médica  
+`med_unidavi_f12_uc01_clinica_medica` · fase 12 · clinica_medica · medio · Bloom: conhecimento  
+*Origem: Questoes teste de progresso 2023 (UNIDAVI), questão 2*
+
+> **convertida 5→4**
+
+**Enunciado:** “Àquilo que no exercício ou fora do exercício da profissão e no convívio da sociedade, eu tiver visto ou ouvido, que não seja preciso divulgar, eu conservarei inteiramente secreto.” O trecho do juramento de Hipócrates nos traz um dos mais importantes princípios da profissão médica, que é o compromisso do sigilo, entretanto prevê situações de exceção aos fatos que precisam ser divulgados. Segundo o Código de Ética Médica vigente (Resolução CFM 2217/2018), o sigilo pode ser quebrado pelo médico se:
+
+- **(A)** ✅ Revelar informações do prontuário do paciente sob sua guarda em sua própria defesa.  
+  <sub>Correta. O artigo 89 do Código de Ética Médica autoriza o médico a utilizar informações do prontuário sob sua guarda quando em sua própria defesa, configurando exceção legítima ao dever de sigilo.</sub>
+
+- **(B)** Tratar-se de fato já de amplo conhecimento público.  
+  <sub>Incorreta. O fato ser de amplo conhecimento público não autoriza o médico a confirmá-lo ou divulgá-lo, permanecendo a vedação do artigo 73.</sub>
+
+- **(C)** O paciente autorizar o uso de sua imagem em anúncios profissionais.  
+  <sub>Incorreta. O artigo 75 veda exibir pacientes ou imagens que os tornem reconhecíveis em anúncios profissionais, mesmo havendo autorização do paciente.</sub>
+
+- **(D)** Estiver em depoimento como testemunha em investigação que exponha o paciente a processo penal por crime.  
+  <sub>Incorreta. O Código veda ao médico depor como testemunha em processo no qual seu paciente seja acusado de crime, por expô-lo a processo penal em razão de fatos conhecidos no exercício profissional.</sub>
+
+**Alternativa descartada** — era a (C): *O paciente já tenha falecido*  
+Motivo: Distrator implausível, pois o falecimento do paciente é situação que notoriamente não extingue o dever de sigilo, sendo eliminado com facilidade.
+
+<sub>Renumeração: A→A, B→B, D→C, E→D · gabarito A → A</sub>
+
+
+---
+
 ## Revalida — Provas Objetivas (2023.2 e 2024.1)
 
 186 questões · convertidas 5→4: 0 · dependem de imagem: 15 · com defeito sinalizado: 60
@@ -12295,4 +16190,4 @@ Motivo: É quase-duplicata da alternativa que também propõe artrite reumatoide
 
 ---
 
-**Total: 595 questões para curadoria.**
+**Total: 770 questões para curadoria.**
