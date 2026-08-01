@@ -1,0 +1,344 @@
+[
+  {
+    "id_origem": "questoes_clm_q003",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Hipertensão arterial sistêmica",
+    "subtema": "Critérios diagnósticos e técnica de medida da pressão arterial",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["hipertensão arterial", "diagnóstico", "diretrizes brasileiras", "pressão arterial"],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível: adota limiares de 120/80 mmHg, que não caracterizam hipertensão, somados à exigência ilógica de uso concomitante de anti-hipertensivo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O diagnóstico de hipertensão arterial exige PAS ≥ 140 mmHg e/ou PAD ≥ 90 mmHg, com técnica de mensuração adequada, confirmadas em pelo menos duas ocasiões distintas e na ausência de medicação anti-hipertensiva.",
+      "B": "Incorreta. Valores ≥ 180/120 mmHg em medida única caracterizam elevação muito acentuada da pressão arterial (crise hipertensiva), e não o critério diagnóstico padrão, que depende de confirmação em duas ocasiões.",
+      "C": "Incorreta. Os valores de corte estão certos, mas a medida única não confirma o diagnóstico e a vigência de anti-hipertensivo descaracteriza a avaliação diagnóstica inicial.",
+      "E": "Incorreta. Reproduz os valores corretos e a exigência de duas ocasiões, porém erra ao afirmar independência do uso de medicação: o diagnóstico deve ser firmado na ausência de anti-hipertensivos."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q013",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Asma",
+    "subtema": "Fenótipos clínicos e resposta terapêutica (GINA 2022)",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["asma", "fenótipos", "GINA", "pneumologia", "corticoide inalatório"],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível: o fenótipo de asma associada à obesidade cursa justamente com sintomas respiratórios proeminentes e pouca inflamação eosinofílica, tornando o erro evidente demais.",
+    "problema_detectado": "Enunciado com erros de digitação e comando redigido em caixa alta ('MARQUE A RESPOSTA CORRETA'), fora do padrão editorial.",
+    "justificativas": {
+      "A": "Correta. A asma ocupacional é identificada com maior frequência em mulheres e apresenta-se relativamente refratária ao corticoide inalatório, exigindo o reconhecimento e o afastamento do agente sensibilizante no ambiente de trabalho.",
+      "B": "Incorreta. A asma alérgica é de fato o fenótipo mais reconhecido e de início na infância, mas o escarro induzido é tipicamente eosinofílico, e não pauci-granulocítico como afirmado.",
+      "C": "Incorreta. A asma com limitação persistente do fluxo aéreo caracteriza-se por doença de longa data, não de início recente, e nem sempre está relacionada ao remodelamento das vias aéreas.",
+      "D": "Incorreta. Na asma não alérgica a celularidade do escarro pode ser neutrofílica, eosinofílica ou pauci-granulocítica — nunca histiocítica — e a resposta ao corticoide inalatório costuma ser menos favorável."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q023",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Osteoartrite",
+    "subtema": "Tratamento modificador de doença e controle de fatores de risco",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["osteoartrite", "reumatologia", "obesidade", "nódulos de Heberden", "tratamento"],
+    "descartar": "D",
+    "motivo_descarte": "Distrator pouco discriminativo: a suplementação de colágeno oral não tem respaldo em diretrizes e é eliminada de imediato pelo estudante.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O quadro é de osteoartrite (dor protocinética, rigidez inferior a 30 minutos, crepitação e nódulos de Heberden) em paciente com obesidade; a redução de peso é a única medida capaz de impedir a progressão da doença articular.",
+      "B": "Incorreta. Os AINEs nas crises de dor promovem apenas alívio sintomático, sem qualquer efeito sobre a progressão estrutural da osteoartrite.",
+      "C": "Incorreta. O analgésico simples contínuo atua exclusivamente sobre a dor, não interferindo na degradação da cartilagem nem na evolução da doença.",
+      "E": "Incorreta. A infiltração intra-articular com corticosteroide tem ação anti-inflamatória local e alívio sintomático transitório, sem efeito modificador de doença."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q033",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Espondiloartrites",
+    "subtema": "Artrite reativa: quadro clínico e análise do líquido sinovial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["artrite reativa", "espondiloartrites", "dactilite", "líquido sinovial", "diagnóstico diferencial"],
+    "descartar": "E",
+    "motivo_descarte": "Distrator pouco discriminativo: dor mecânica com joelhos valgos e osteófitos configura osteoartrite de forma tão evidente que se afasta sem esforço do cenário proposto.",
+    "problema_detectado": "Enunciado truncado ao final ('quadro clínico compatível com artrite reativ'), sem fechamento da palavra e da frase.",
+    "justificativas": {
+      "A": "Correta. A artrite reativa integra o grupo das espondiloartrites e manifesta-se como oligoartrite assimétrica de médias e grandes articulações, podendo cursar com dactilite ou entesite; por ser processo imunológico sem micro-organismo intra-articular, o líquido sinovial é inflamatório com cultura bacteriana negativa.",
+      "B": "Incorreta. Monoartrite com líquido sinovial séptico e cultura bacteriana positiva caracteriza artrite infecciosa bacteriana, e não artrite reativa.",
+      "C": "Incorreta. Poliartrite crônica e simétrica de pequenas e médias articulações, ainda que com fator reumatoide negativo, é compatível com artrite reumatoide soronegativa.",
+      "D": "Incorreta. Monoartrites intermitentes em primeiros pododáctilos e tornozelos, associadas a obesidade, dislipidemia e diabetes, apontam a gota como principal hipótese diagnóstica."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q043",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença renal do diabetes",
+    "subtema": "Escolha terapêutica com inibidores de SGLT2 na albuminúria persistente",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["diabetes mellitus tipo 2", "doença renal do diabetes", "iSGLT2", "albuminúria", "nefroproteção"],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível: a insulina NPH não tem lugar como próximo passo em paciente com HbA1c de 7,5% e sem qualquer benefício renal demonstrado.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O paciente tem doença renal do diabetes documentada por duas relações albumina/creatinina alteradas e HbA1c fora da meta; nesse contexto recomenda-se associar inibidor de SGLT2, que reduz a progressão para doença renal terminal e a mortalidade.",
+      "B": "Incorreta. Não há motivo para suspender a metformina: com TFG entre 30 e 45 mL/min/1,73 m² recomenda-se redução de dose e a suspensão só é indicada abaixo de 30, enquanto o paciente apresenta 81 mL/min/1,73 m².",
+      "C": "Incorreta. A associação de bloqueador do receptor de angiotensina 2 ao inibidor da ECA (enalapril) não é recomendada, pelo risco de hipercalemia e lesão renal sem benefício adicional.",
+      "D": "Incorreta. Os inibidores da DPP4 não demonstraram os benefícios renais dos inibidores de SGLT2, não devendo ser a próxima escolha neste caso específico."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q053",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Micoses subcutâneas",
+    "subtema": "Esporotricose linfocutânea: confirmação diagnóstica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["esporotricose", "infectologia", "cultura", "trabalhador rural", "dermatologia"],
+    "descartar": "D",
+    "motivo_descarte": "Distrator vago e implausível: 'teste genético' não corresponde a exame definido para a esporotricose e é descartado de imediato.",
+    "problema_detectado": "Comando do enunciado com redação truncada e pouco clara ('marque a alternativa que consta exame padrão ouro para a confirmação').",
+    "justificativas": {
+      "A": "Correta. O quadro de nódulos eritematosos em conformação linear ascendente, com ulceração, em trabalhador rural corresponde à esporotricose linfocutânea, cujo padrão-ouro diagnóstico é a cultura em meio ágar Sabouraud dextrose a partir de fluido ou tecido da lesão.",
+      "B": "Incorreta. O ELISA é método sorológico auxiliar, sem padronização e sem desempenho suficiente para ser considerado padrão-ouro na esporotricose.",
+      "C": "Incorreta. O exame histopatológico pode ser sugestivo (reação granulomatosa, corpos asteroides), mas raramente evidencia o fungo, permanecendo complementar à cultura.",
+      "E": "Incorreta. O PPD avalia a resposta imune ao Mycobacterium tuberculosis e não tem qualquer papel na confirmação da esporotricose."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q063",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Insuficiência cardíaca",
+    "subtema": "Terapia modificadora de sobrevida na IC com fração de ejeção reduzida",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["insuficiência cardíaca", "quarteto fantástico", "iSGLT2", "betabloqueador", "cardiologia"],
+    "descartar": "B",
+    "motivo_descarte": "Distrator mais fraco por acumular dois fármacos apenas sintomáticos (digoxina e furosemida), tornando-se redundante em relação às demais opções.",
+    "problema_detectado": "Enunciado truncado ao final ('fração de ejeção reduzid').",
+    "justificativas": {
+      "A": "Correta. Enalapril (IECA), bisoprolol (betabloqueador), espironolactona (antagonista mineralocorticoide) e dapagliflozina (iSGLT2) compõem o chamado 'quarteto fantástico', associação com benefício comprovado de sobrevida na IC com fração de ejeção reduzida.",
+      "C": "Incorreta. A digoxina reduz internações, mas não modifica a mortalidade, o que descaracteriza a associação como esquema modificador de sobrevida.",
+      "D": "Incorreta. A furosemida é medicação sintomática, atuando sobre a congestão sem impacto na sobrevida, e o esquema ainda deixa de contemplar o antagonista mineralocorticoide.",
+      "E": "Incorreta. Inclui novamente a furosemida, sem efeito sobre a mortalidade, e omite o inibidor de SGLT2, componente essencial do quarteto."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q073",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "HIV/aids",
+    "subtema": "Abordagem da doença diarreica em pessoas vivendo com HIV",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["HIV", "diarreia", "citomegalovírus", "contagem de CD4", "infectologia"],
+    "descartar": "E",
+    "motivo_descarte": "Distrator pouco discriminativo: fixa prazo arbitrário de seis semanas e conduta genérica de encaminhamento, sem relação direta com os critérios de manejo discutidos.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Com CD4 inferior a 50 células/mm³ há risco de infecções oportunistas avançadas, e a colite por citomegalovírus deve ser aventada diante de emagrecimento, febre e dor abdominal.",
+      "B": "Incorreta. O início e a duração da terapia antimicrobiana empírica dependem da contagem de CD4 e da apresentação clínica, não sendo correto aguardar a coprocultura nem agir independentemente do status imunológico.",
+      "C": "Incorreta. Diarreia líquida sem elementos patológicos, sangue ou febre não impõe hospitalização; a internação reserva-se aos quadros graves, com repercussão hemodinâmica ou seis ou mais evacuações líquidas ao dia.",
+      "D": "Incorreta. Como a doença diarreica pode causar má absorção transitória e intolerância à lactose, recomenda-se justamente evitar gorduras, laticínios e carboidratos complexos, adotando dieta branda."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q083",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Transtorno depressivo maior",
+    "subtema": "Especificador melancólico e diagnóstico diferencial com o subtipo atípico",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["depressão", "melancolia", "anedonia", "psiquiatria", "DSM-5"],
+    "descartar": "E",
+    "motivo_descarte": "Distrator redundante com a alternativa D: ganho de peso e hipersonolência são ambos marcadores do subtipo atípico, duplicando a mesma ideia.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A piora do humor deprimido na parte da manhã, somada à anedonia intensa e à ausência de reatividade a estímulos agradáveis, caracteriza o subtipo melancólico da depressão.",
+      "B": "Incorreta. A catatonia constitui especificador próprio ('com catatonia') do episódio depressivo, não integrando os critérios do subtipo melancólico.",
+      "C": "Incorreta. Pensamentos obsessivos sugerem comorbidade com transtorno obsessivo-compulsivo e não têm valor para caracterizar a melancolia.",
+      "D": "Incorreta. Na melancolia predomina a insônia tardia, com despertar durante a madrugada; a hipersonolência é característica do subtipo atípico."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q006",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento do câncer do colo do útero",
+    "subtema": "Teste de DNA-HPV como rastreamento primário no SUS",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_11", "dcn2025_comp_16"],
+    "tags": ["rastreamento", "câncer de colo do útero", "DNA-HPV", "INCA", "saúde coletiva"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Enunciado truncado ao final ('assinale a alternativa corret').",
+    "justificativas": {
+      "A": "Correta. A Portaria Conjunta SAES/SECTICS/MS nº 13, de 29 de julho de 2024, incorporou o teste molecular de DNA-HPV oncogênico com genotipagem parcial (identificação dos tipos 16 e 18) como método primário de rastreamento no SUS, para pessoas de 25 a 64 anos, a cada cinco anos, com a citologia usada como triagem dos casos positivos.",
+      "B": "Incorreta. As diretrizes do INCA são explícitas ao estender o rastreamento a toda pessoa com colo do útero na faixa etária recomendada, o que inclui homens transgênero não submetidos a histerectomia total.",
+      "C": "Incorreta. Rastreamento aplica-se, por definição, a população assintomática; pessoas com sintomas como sangramento pós-coito ou dor pélvica entram em fluxo de investigação diagnóstica, distinto e mais direto.",
+      "D": "Incorreta. O co-teste (citologia simultânea ao DNA-HPV) não é a estratégia primária no Brasil: a citologia é reflexa, realizada apenas quando o teste de HPV é positivo, evitando custos sem benefício claro."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q016",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cetoacidose diabética",
+    "subtema": "Sequência terapêutica e reposição de potássio antes da insulina",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["cetoacidose diabética", "hipocalemia", "insulinoterapia", "emergência", "SBD"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Com potássio de 3,1 mEq/L, abaixo do limiar de 3,3 mEq/L, a insulinoterapia deve ser postergada: a prioridade é a hidratação vigorosa com solução isotônica associada à reposição de potássio endovenoso, pois a insulina desloca potássio para o intracelular e pode precipitar arritmias fatais.",
+      "B": "Incorreta. Além de a insulina estar contraindicada com K de 3,1 mEq/L, o tratamento da cetoacidose emprega insulina regular em infusão contínua, e não insulina de ação lenta por via venosa.",
+      "C": "Incorreta. Embora a insulina regular endovenosa seja a formulação adequada na cetoacidose, iniciá-la com potássio de 3,1 mEq/L agrava a hipocalemia e expõe o paciente a arritmias graves.",
+      "D": "Incorreta. Postergar o potássio para depois da primeira hora de hidratação atrasa a correção da hipocalemia; a reposição deve acompanhar a expansão volêmica até o potássio atingir ao menos 3,3 mEq/L."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q026",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Metabolismo lipídico",
+    "subtema": "Lipoproteínas e aterogênese nas dislipidemias",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["dislipidemia", "LDL-colesterol", "aterosclerose", "lipoproteínas", "risco cardiovascular"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Enunciado truncado ao final ('assinale a alternativa corret').",
+    "justificativas": {
+      "A": "Correta. O LDL-colesterol é a principal lipoproteína de transporte de colesterol do fígado para os tecidos periféricos e participa diretamente da aterogênese, ao se depositar e sofrer oxidação na parede arterial, formando a placa aterosclerótica.",
+      "B": "Incorreta. Reduzir o HDL-colesterol a mero marcador epidemiológico é erro conceitual: ele atua no transporte reverso do colesterol e em mecanismos antiaterogênicos e anti-inflamatórios.",
+      "C": "Incorreta. Ainda que plausível, os triglicerídeos circulam majoritariamente associados a lipoproteínas (quilomícrons e VLDL), e seus remanescentes têm participação direta no processo aterosclerótico.",
+      "D": "Incorreta. Reconhece corretamente as vias exógena e endógena, mas erra ao atribuir maior relevância aterogênica às partículas de origem dietética, quando são as lipoproteínas endógenas, sobretudo o LDL, que ocupam papel central."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q036",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Desidratação grave e choque hipovolêmico",
+    "subtema": "Plano C de hidratação e lesão renal pré-renal",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["desidratação", "diarreia", "choque hipovolêmico", "hidratação venosa", "lesão renal aguda"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Letargia, olhos encovados, pulso fino e enchimento capilar de 5 segundos configuram desidratação grave com choque, impondo o Plano C — expansão volêmica venosa rápida com cristaloides — com monitorização da função renal e dos eletrólitos, já que a elevação de ureia e creatinina traduz lesão renal pré-renal.",
+      "B": "Incorreta. A reidratação oral, mesmo por sonda nasogástrica, é insuficiente e insegura diante de rebaixamento do nível de consciência e sinais de choque, pelo risco de broncoaspiração e pela lentidão da reposição.",
+      "C": "Incorreta. O gluconato de cálcio destina-se à proteção miocárdica na hipercalemia com repercussão eletrocardiográfica; a paciente apresenta potássio de 3,1 mEq/L, ou seja, hipocalemia.",
+      "D": "Incorreta. A antibioticoterapia não é recomendada de rotina na diarreia aguda, ficando reservada a situações específicas como disenteria grave, suspeita de cólera ou imunocomprometidos, e jamais precede a estabilização hemodinâmica."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q046",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença renal crônica",
+    "subtema": "Classificação KDIGO por TFG e albuminúria",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["doença renal crônica", "KDIGO", "albuminúria", "taxa de filtração glomerular", "nefrologia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Com creatinina estável e TFG de 38 mL/min/1,73 m², a paciente enquadra-se no estágio 3b da DRC; a relação albumina/creatinina urinária de 450 mg/g (categoria A3, ≥ 300 mg/g) indica alto risco cardiovascular e de progressão da doença renal.",
+      "B": "Incorreta. O estágio 3a corresponde a TFG entre 45 e 59 mL/min/1,73 m², e a RACu de 450 mg/g configura aumento grave (A3), não leve.",
+      "C": "Incorreta. A creatinina estável há longo período e a ausência de evento agudo afastam lesão renal aguda; trata-se de doença renal crônica em paciente hipertensa e diabética de longa data.",
+      "D": "Incorreta. O estágio 4 exige TFG entre 15 e 29 mL/min/1,73 m²; o valor de 38 mL/min/1,73 m² permanece na faixa do estágio 3b."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q056",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Lombalgia inespecífica",
+    "subtema": "Manejo estratificado na atenção primária e uso racional de imagem",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_06", "dcn2025_comp_25"],
+    "tags": ["lombalgia", "atenção primária", "STarT Back", "sinais de alarme", "uso racional de exames"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Trata-se de lombalgia inespecífica de três semanas, sem sinais de alarme (febre, perda ponderal, câncer prévio, trauma, déficit neurológico ou síndrome da cauda equina); não há indicação de imagem, e o alto risco de cronificação pelo STarT Back impõe abordagem estratificada com educação, manutenção das atividades, AINE por curto período e intervenções multimodais sobre os fatores psicossociais.",
+      "B": "Incorreta. A ressonância magnética não está indicada na ausência de red flags ou déficit neurológico; solicitá-la gera achados incidentais, reforça as crenças de gravidade do paciente e favorece a cronificação.",
+      "C": "Incorreta. Três semanas de dor sem sinais de alarme não justificam radiografia, e a orientação de reduzir atividades físicas contraria a recomendação de manter as atividades habituais.",
+      "D": "Incorreta. O opioide fraco não é indicado no manejo inicial da lombalgia inespecífica, e o repouso relativo é desaconselhado por retardar a recuperação funcional."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q066",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Pré-hipertensão",
+    "subtema": "Classificação da pressão arterial e indicação de terapia não farmacológica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
+    "tags": ["pré-hipertensão", "risco cardiovascular", "mudança de estilo de vida", "diretriz brasileira", "prevenção"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Medidas de 138x84 e 136x86 mmHg situam-se na faixa de 130–139 x 85–89 mmHg, definida como pré-hipertensão (PA elevada) pela Diretriz Brasileira de Hipertensão Arterial de 2025; em paciente de baixo risco cardiovascular, a conduta é exclusivamente não farmacológica, com redução de peso, atividade física regular, restrição de sódio, moderação alcoólica e dieta DASH.",
+      "B": "Incorreta. A classificação está certa, mas não se inicia IECA em pré-hipertensão de baixo risco; a farmacoterapia é reservada a hipertensos estágio 1 com risco moderado/alto, estágio ≥ 2, doença cardiovascular estabelecida, diabetes, DRC ou lesão de órgão-alvo.",
+      "C": "Incorreta. Hipertensão estágio 1 corresponde a PA de 140–159 x 90–99 mmHg, valores não alcançados por este paciente, o que também afasta a prescrição de tiazídico.",
+      "D": "Incorreta. Hipertensão mascarada define-se por PA normal no consultório com valores elevados fora dele; aqui as medidas de consultório já estão na faixa de pré-hipertensão, não havendo indicação de MAPA imediata."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q076",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Meningite bacteriana",
+    "subtema": "Meningococcemia: antibioticoterapia empírica precoce",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_24"],
+    "tags": ["meningite meningocócica", "meningococcemia", "ceftriaxona", "choque séptico", "emergência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Febre alta de início súbito, cefaleia, rigidez de nuca, Kernig positivo e exantema petequial com instabilidade hemodinâmica indicam meningite meningocócica com meningococcemia; após coleta de hemoculturas, a ceftriaxona intravenosa empírica deve ser iniciada de imediato, sem aguardar exames complementares, pois o tempo até o antibiótico determina o prognóstico.",
+      "B": "Incorreta. A tomografia de crânio só se justifica diante de sinais de hipertensão intracraniana ou déficit neurológico focal, e aguardá-la retarda o antibiótico, aumentando a mortalidade.",
+      "C": "Incorreta. A punção lombar não deve preceder a estabilização hemodinâmica nem atrasar a antibioticoterapia, podendo ser postergada com segurança no paciente instável.",
+      "D": "Incorreta. A meningite meningocócica é emergência médica que exige antibiótico intravenoso imediato; a via oral e a observação por 24 horas configuram conduta potencialmente fatal."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q086",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença coronariana crônica",
+    "subtema": "Classificação CCS da angina estável e terapia medicamentosa otimizada",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["angina estável", "classificação CCS", "teste ergométrico", "cardiologia", "terapia otimizada"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A dor retrosternal previsível, desencadeada pelo esforço e aliviada pelo repouso, caracteriza angina estável, e a limitação leve às atividades ordinárias corresponde à classe II da CCS; a conduta inicial é a terapia medicamentosa otimizada, com antiagregante, estatina e betabloqueador, visando prevenção de eventos e controle sintomático.",
+      "B": "Incorreta. Angina instável pressupõe dor em repouso, de início recente ou em padrão progressivo; aqui o quadro é crônico e estável, não exigindo cineangiocoronariografia em 24 horas.",
+      "C": "Incorreta. A classe IV da CCS implica angina ao mínimo esforço ou em repouso, incompatível com um paciente que atinge 10 METs; a revascularização cirúrgica imediata não está indicada.",
+      "D": "Incorreta. A angina de Prinzmetal é vasoespástica, tipicamente em repouso e com supradesnivelamento transitório do ST, o que não condiz com sintomas desencadeados por esforço físico."
+    }
+  }
+]

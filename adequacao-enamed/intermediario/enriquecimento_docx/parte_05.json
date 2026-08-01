@@ -1,0 +1,508 @@
+[
+  {
+    "id_origem": "questoes_clm_q005",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Lesão renal aguda",
+    "subtema": "Critérios diagnósticos e estadiamento KDIGO",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "lesão renal aguda",
+      "KDIGO",
+      "débito urinário",
+      "terapia intensiva"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível, pois relaciona o IMC ao uso do clearance de creatinina, tema alheio aos critérios diagnósticos em discussão.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Segundo as diretrizes KDIGO, a redução do débito urinário para valores inferiores a 0,5 mL/kg/h por período de 12 horas é critério diagnóstico de lesão renal aguda; o paciente de 100 kg apresentou apenas 100 mL em 12 horas, ou seja, cerca de 0,08 mL/kg/h.",
+      "B": "Incorreta. A constatação de oligúria por critério KDIGO não indica, por si só, terapia de substituição renal imediata; a hemodiálise é reservada a complicações refratárias como hipercalemia grave, acidose metabólica refratária, hipervolemia sintomática ou uremia.",
+      "C": "Incorreta. O volume de diurese é um dos dois critérios normatizados pelo KDIGO, ao lado da variação da creatinina em relação ao valor basal; o valor absoluto de creatinina ou ureia séricas não pode ser utilizado isoladamente como critério diagnóstico.",
+      "D": "Incorreta. A oligúria menor que 0,5 mL/kg/h por 12 horas corresponde ao estágio 2 do KDIGO; o estágio 3 exigiria débito urinário abaixo de 0,3 mL/kg/h por 24 horas ou anúria por 12 horas."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q015",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Vertigem",
+    "subtema": "Vertigem posicional paroxística benigna",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "VPPB",
+      "Dix-Hallpike",
+      "nistagmo",
+      "otoneurologia"
+    ],
+    "descartar": "B",
+    "motivo_descarte": "Distrator mais fraco por acumular dois erros evidentes na mesma frase (raridade e origem central), o que o torna implausível diante da manobra descrita.",
+    "problema_detectado": "O enunciado descreve nistagmo horizontal na manobra de Dix-Hallpike, ao passo que a VPPB de canal semicircular posterior cursa tipicamente com nistagmo vertical superior e torcional.",
+    "justificativas": {
+      "A": "Correta. O quadro é de vertigem posicional paroxística benigna, atribuída ao deslocamento de otocônios para o interior do canal semicircular, o que explica a latência, a brevidade (menos de 1 minuto), a fatigabilidade e o desencadeamento pelo movimento cefálico.",
+      "C": "Incorreta. O diagnóstico da VPPB é clínico, firmado pela história de episódios recorrentes e breves desencadeados por movimentos da cabeça e confirmado pelo nistagmo na manobra provocativa; a videonistagmografia costuma ser normal e só se indica quando se suspeita de outra doença vestibular.",
+      "D": "Incorreta. O tratamento de escolha são as manobras de reposicionamento canalicular, e a maioria dos episódios não tratados remite espontaneamente em dias ou semanas; fármacos como a betaistina não são úteis para as crises breves da VPPB, muito menos em uso contínuo.",
+      "E": "Incorreta. Na VPPB a perda auditiva e demais sintomas cocleares estão caracteristicamente ausentes; sua presença apontaria para outros diagnósticos, como doença de Ménière ou labirintite."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q025",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "COVID-19",
+    "subtema": "História natural, transmissibilidade e vacinação",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_14",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "SARS-CoV-2",
+      "período de incubação",
+      "transmissão",
+      "vacinação"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa composta e muito mais longa que as demais, o que quebra o paralelismo e fornece pista formal ao candidato.",
+    "problema_detectado": "O conteúdo é datado ao contexto pandêmico de 2022 (variante Ômicron), exigindo revisão de atualidade antes do reaproveitamento.",
+    "justificativas": {
+      "A": "Correta. O período médio entre a exposição ao SARS-CoV-2 e o início dos sintomas é de 5 a 6 dias, mas as manifestações clínicas podem surgir desde o primeiro até o 14º dia após a exposição, intervalo que fundamenta os prazos de quarentena.",
+      "B": "Incorreta. A transmissão ocorre no período pré-sintomático, a partir de cerca de 48 horas antes do início dos sintomas, e também por pessoas que permanecem assintomáticas, pois a carga viral em vias aéreas pode ser elevada mesmo sem sintomas.",
+      "C": "Incorreta. A variante Ômicron associou-se a maior transmissibilidade e a predomínio de sintomas de vias aéreas superiores, com menor taxa de hospitalização, e não a menor transmissibilidade com quadros mais graves.",
+      "D": "Incorreta. A vacinação reduz o risco de infecção e, sobretudo, de evolução para formas graves, mas pessoas vacinadas podem se infectar, adoecer e transmitir o vírus."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q035",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Asma",
+    "subtema": "Diagnóstico diferencial de tosse crônica e interpretação da espirometria",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "asma",
+      "espirometria",
+      "prova broncodilatadora",
+      "tosse crônica"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator mais fraco por ser o menos discriminativo, já que bronquiectasias não cursam com tosse seca nem com crises paroxísticas reversíveis de broncoespasmo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A tosse crônica seca de predomínio noturno, as crises intermitentes de dispneia com sibilos que respondem ao broncodilatador e os sintomas de rinite alérgica associada compõem o quadro de asma, confirmado pela espirometria com distúrbio obstrutivo e resposta broncodilatadora significativa, com normalização da relação VEF1/CVF para 0,76.",
+      "B": "Incorreta. O enfisema não explica a tosse crônica seca nem a dispneia estritamente intermitente do paciente, e sua caracterização exigiria tomografia; além disso, a obstrução do enfisema não reverte plenamente após broncodilatador.",
+      "C": "Incorreta. Embora o tabagismo favoreça a hipótese, a definição de bronquite crônica exige tosse produtiva por pelo menos três meses ao ano em dois anos consecutivos, e neste caso a tosse é sempre seca.",
+      "D": "Incorreta. O diagnóstico de DPOC requer obstrução persistente, com relação VEF1/CVF abaixo de 0,70 após o broncodilatador; aqui a relação normalizou para 0,76, afastando a doença apesar da carga tabágica de 40 maços-ano."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q045",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Distúrbios da hemostasia",
+    "subtema": "Púrpura trombocitopênica imune",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "PTI",
+      "plaquetopenia",
+      "corticoterapia",
+      "hematologia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível, pois plasma fresco congelado não tem qualquer papel no tratamento da púrpura trombocitopênica imune.",
+    "problema_detectado": "O enunciado expressa a hemoglobina em g/L quando o valor corresponde a g/dL, e a justificativa oficial vem contaminada com o texto de outra questão (sobre trombocitose), exigindo limpeza editorial.",
+    "justificativas": {
+      "A": "Correta. Em adulta previamente hígida, com sangramento cutaneomucoso (petéquias, equimoses e epistaxe), plaquetopenia grave isolada e restante da investigação normal, o diagnóstico é púrpura trombocitopênica imune, cujo tratamento de primeira linha é a corticoterapia com prednisona 1 mg/kg/dia.",
+      "B": "Incorreta. O diagnóstico está correto, mas a transfusão de concentrado de plaquetas na PTI só se justifica diante de sangramento grave ou com risco de vida, e a imunoglobulina humana é reservada a situações de urgência ou refratariedade, não sendo a conduta inicial padrão.",
+      "C": "Incorreta. A púrpura trombocitopênica trombótica é menos provável pela ausência de sinais neurológicos, hemoglobina praticamente normal e ausência de esquizócitos à hematoscopia; ademais, a transfusão de plaquetas é potencialmente deletéria na PTT.",
+      "D": "Incorreta. Além de o diagnóstico de PTT não se sustentar neste caso, a transfusão isolada de plaquetas não é o tratamento da PTT, cuja base terapêutica é a plasmaférese precoce."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q055",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Transtornos relacionados a trauma e estressores",
+    "subtema": "Transtorno de estresse pós-traumático",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_02",
+      "dcn2025_comp_12"
+    ],
+    "tags": [
+      "TEPT",
+      "trauma",
+      "psiquiatria",
+      "diagnóstico diferencial"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, já que a síndrome de burnout decorre de estresse ocupacional crônico e não guarda relação com o evento traumático agudo descrito.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O transtorno de estresse pós-traumático caracteriza-se por revivência do evento traumático (pesadelos recorrentes), conduta de esquiva e isolamento social, hiperativação autonômica com palpitações e alterações do sono, com duração superior a um mês após o trauma, como nas cinco semanas relatadas.",
+      "B": "Incorreta. O transtorno depressivo exigiria humor deprimido persistente ou anedonia como sintomas nucleares, o que não é descrito; aqui os sintomas estão diretamente ancorados na revivência do evento traumático.",
+      "C": "Incorreta. Os transtornos fóbico-ansiosos caracterizam-se por medo desproporcional e esquiva de situações ou objetos específicos, sem o vínculo com a revivência de um trauma definido e sem os pesadelos recorrentes descritos.",
+      "E": "Incorreta. A reação aguda ao estresse é transitória e se resolve em horas a poucos dias após o evento; o critério temporal de sintomas persistentes por mais de um mês, satisfeito neste caso, define o transtorno de estresse pós-traumático."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q065",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndromes disabsortivas",
+    "subtema": "Doença celíaca e sorologia diagnóstica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "doença celíaca",
+      "dermatite herpetiforme",
+      "antitransglutaminase",
+      "diarreia crônica"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator redundante, pois repete a mesma hipótese diagnóstica da alternativa B, reduzindo o poder discriminativo do conjunto.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A diarreia disabsortiva com perda de peso, sem sangue nas fezes, associada à dermatite herpetiforme configura quadro clássico de doença celíaca, cujo teste sorológico mais sensível para rastreamento diagnóstico é o anticorpo antitransglutaminase tecidual IgA.",
+      "B": "Incorreta. A retocolite ulcerativa cursa tipicamente com diarreia com sangue e muco e não com síndrome disabsortiva; a calprotectina fecal apenas indica inflamação intestinal, sem especificidade diagnóstica, e não explica a dermatite herpetiforme.",
+      "C": "Incorreta. Embora a doença de Crohn possa cursar com disabsorção, a dermatite herpetiforme é marcador cutâneo da doença celíaca, e a proteína C reativa é marcador inflamatório inespecífico, sem valor diagnóstico definidor.",
+      "D": "Incorreta. O diagnóstico está correto, mas o anticorpo antigliadina, embora possa ser utilizado, apresenta sensibilidade e especificidade inferiores às do antitransglutaminase IgA, não sendo o teste mais sensível."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q075",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Nódulo tireoidiano",
+    "subtema": "Estratificação de risco ecográfico e indicação de PAAF",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_25",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "tireoide",
+      "nódulo",
+      "PAAF",
+      "endocrinologia"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator mais fraco por ser prolixo, internamente contraditório e conter erro de digitação, o que compromete sua plausibilidade.",
+    "problema_detectado": "O caso descreve bordos precisos e calcificação grosseira, achados de baixa suspeição, enquanto a justificativa oficial fundamenta a punção em microcalcificações e margens irregulares, gerando incoerência entre a vinheta e o argumento.",
+    "justificativas": {
+      "A": "Correta. Nódulos maiores que 1 cm com características de suspeição devem ser submetidos à punção aspirativa por agulha fina; aqui coexistem hipoecogenicidade, vascularização central ao Doppler e sexo masculino, e a função tireoidiana normal afasta nódulo hiperfuncionante, tornando a citologia o próximo passo.",
+      "B": "Incorreta. A conduta expectante por 12 meses posterga a avaliação citológica de um nódulo suspeito; além disso, hormônio tireoidiano não promove regressão nodular e o iodo radioativo se destina ao hipertireoidismo, não a nódulo com função normal.",
+      "C": "Incorreta. A indicação cirúrgica não deve preceder a definição citológica; o encaminhamento imediato ao centro cirúrgico sem PAAF expõe o paciente a procedimento potencialmente desnecessário, já que a maioria dos nódulos é benigna.",
+      "D": "Incorreta. A terapia supressiva com L-tiroxina foi abandonada para nódulos tireoidianos por ineficácia e risco de tireotoxicose iatrogênica, com efeitos ósseos e cardiovasculares, e apenas retardaria o diagnóstico."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q085",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Exacerbação de asma",
+    "subtema": "Tratamento da crise asmática grave na urgência (GINA)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "asma",
+      "crise asmática",
+      "GINA",
+      "broncodilatador"
+    ],
+    "descartar": "C",
+    "motivo_descarte": "Distrator implausível por acumular três erros na mesma opção (beta2 de longa duração, corticoide inalatório e epinefrina), sendo o menos discriminativo do conjunto.",
+    "problema_detectado": "A justificativa oficial apenas descreve a fisiopatologia da asma e não fundamenta a escolha terapêutica nem comenta as alternativas.",
+    "justificativas": {
+      "A": "Correta. Na exacerbação grave de asma, com fala entrecortada, tiragem, taquipneia, saturação de 89% e pico de fluxo expiratório em 49% do previsto, o GINA recomenda oxigenoterapia titulada, beta2-agonista inalatório de curta duração repetido, brometo de ipratrópio e corticoide sistêmico precoce.",
+      "B": "Incorreta. A epinefrina não faz parte do tratamento da crise asmática, ficando reservada à anafilaxia e ao angioedema; o caso não apresenta edema de orofaringe nem estridor que justificassem seu uso.",
+      "D": "Incorreta. Além de incluir indevidamente a epinefrina, o beta2-agonista de longa duração não tem início de ação e titulação adequados ao resgate na crise, que exige broncodilatador de curta duração repetido.",
+      "E": "Incorreta. A aminofilina não é recomendada nas exacerbações de asma pelo GINA, por eficácia limitada e estreita margem terapêutica, com risco de arritmias e toxicidade; o broncodilatador de resgate deve ser de curta duração."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q008",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Rinite alérgica",
+    "subtema": "Imunoterapia alérgeno-específica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "rinite alérgica",
+      "imunoterapia",
+      "alergia",
+      "tratamento"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Os distratores C e D são pouco plausíveis para o nível esperado, o que reduz o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Correta. A imunoterapia específica, sublingual ou subcutânea, é a única intervenção capaz de modificar a resposta imune na rinite alérgica persistente moderada a grave, induzindo tolerância imunológica, reduzindo sintomas e mantendo benefício clínico após a suspensão do tratamento.",
+      "B": "Incorreta. Os anti-histamínicos de primeira geração têm pior perfil de segurança, com sedação e efeitos anticolinérgicos, não são terapia de escolha e atuam apenas no controle sintomático, sem modificar a história natural da doença.",
+      "C": "Incorreta. O corticoide sistêmico não é terapia de manutenção na rinite alérgica; seu uso restringe-se a resgate por curtos períodos, sendo o uso crônico contraindicado pelo risco de eventos adversos sistêmicos.",
+      "D": "Incorreta. Os antibióticos não tratam a inflamação alérgica e não têm indicação na rinite alérgica, além de o uso prolongado de amplo espectro favorecer resistência antimicrobiana."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q018",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Diabetes mellitus",
+    "subtema": "Diabetes autoimune latente do adulto (LADA)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "LADA",
+      "diabetes",
+      "classificação",
+      "endocrinologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O enunciado não informa o tempo decorrido desde o início dos hipoglicemiantes orais nem dados antropométricos, elementos necessários para sustentar a falência terapêutica precoce que fundamenta a resposta.",
+    "justificativas": {
+      "A": "Correta. Adulto jovem, com sintomas clássicos de hiperglicemia significativa (poliúria, polidipsia, perda de peso, fraqueza e visão turva) que persistem apesar do uso de hipoglicemiantes orais, configura falência precoce da terapia oral, característica do diabetes autoimune latente do adulto, forma de diabetes autoimune de progressão lenta com necessidade precoce de insulina.",
+      "B": "Incorreta. Nada no enunciado sugere falta de adesão ao tratamento; ao contrário, o quadro descreve falha terapêutica com sintomas catabólicos incompatíveis com o diabetes tipo 2 típico recém-tratado.",
+      "C": "Incorreta. O diabetes secundário à síndrome de Cushing exigiria manifestações características, como fácies em lua cheia, obesidade centrípeta, estrias violáceas e fraqueza muscular proximal, ausentes no caso.",
+      "D": "Incorreta. Nenhum antidiabético oral provoca poliúria, perda de peso e hiperglicemia sintomática dessa magnitude; os sintomas decorrem da própria doença descompensada, e não da medicação."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q028",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Microbiologia clínica",
+    "subtema": "Cocos gram-positivos e mecanismo de ação dos beta-lactâmicos",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_21",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "Enterococcus",
+      "beta-lactâmicos",
+      "antibioticoterapia",
+      "infecção urinária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A justificativa oficial comenta o Staphylococcus aureus, microrganismo que não figura em nenhuma das alternativas.",
+    "justificativas": {
+      "A": "Correta. Cocos gram-positivos em cadeias, catalase-negativos, gama-hemolíticos e com resistência intrínseca às cefalosporinas, em infecção urinária após instrumentação, identificam Enterococcus faecalis; os beta-lactâmicos ligam-se às PBPs e impedem a transpeptidação, bloqueando as ligações cruzadas do peptideoglicano da parede celular.",
+      "B": "Incorreta. O Streptococcus pyogenes é beta-hemolítico, e não gama-hemolítico, e é sensível às cefalosporinas; ademais, a inibição da síntese de DNA é o mecanismo das quinolonas, não dos beta-lactâmicos.",
+      "C": "Incorreta. O Streptococcus pneumoniae é alfa-hemolítico, apresenta-se em diplococos e não tem resistência intrínseca às cefalosporinas; a inibição da transcrição de RNA corresponde à rifampicina.",
+      "D": "Incorreta. Ainda que o gênero esteja correto, o E. faecium é menos frequente em infecções urinárias após instrumentação do que o E. faecalis, e a inibição da síntese de ácido fólico é o mecanismo das sulfonamidas, não dos beta-lactâmicos."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q038",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Bioética",
+    "subtema": "Diretivas antecipadas de vontade e conflito de princípios",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_04",
+      "dcn2025_comp_02",
+      "dcn2025_comp_27"
+    ],
+    "tags": [
+      "bioética",
+      "autonomia",
+      "diretiva antecipada de vontade",
+      "cuidados paliativos"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O princípio da autonomia expressa o direito do paciente lúcido de decidir sobre o próprio corpo e tratamento, registrado na diretiva antecipada de vontade, e colide com a beneficência, que impele a equipe a agir no que considera o melhor interesse do paciente ao propor a intubação para reverter a crise.",
+      "B": "Incorreta. A justiça distributiva, relativa à alocação equitativa de recursos, não é o foco do caso, e a não maleficência ocupa posição acessória, aplicando-se à discussão sobre os danos de um tratamento potencialmente fútil.",
+      "C": "Incorreta. A opção exclui a autonomia, que é justamente o pilar central da decisão registrada na diretiva antecipada, e insere a justiça distributiva, que não está em disputa na situação descrita.",
+      "D": "Incorreta. Embora a não maleficência seja relevante, o impulso da equipe para intubar é motivado pela beneficência, isto é, pela busca de prolongar a vida, e não apenas pela preocupação em não causar dano."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q048",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sepse de foco urinário",
+    "subtema": "Pielonefrite aguda complicada e conduta inicial",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_20",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "pielonefrite",
+      "sepse",
+      "antibioticoterapia empírica",
+      "urolitíase"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Trata-se de pielonefrite aguda complicada com critérios de sepse (hipotensão, extremidades frias e alteração do sensório): a conduta é coletar culturas e iniciar antibioticoterapia empírica intravenosa imediata, associada à reposição volêmica, e solicitar tomografia de abdome sem contraste para investigar obstrução, abscesso ou pielonefrite enfisematosa, com encaminhamento à UTI após estabilização.",
+      "B": "Incorreta. Restringir a conduta à analgesia e à imagem retarda o antibiótico em paciente séptico, situação em que cada hora de atraso aumenta a mortalidade; a analgesia é medida adjuvante, jamais a prioridade inicial.",
+      "C": "Incorreta. Aguardar o resultado da urocultura para escolher o antimicrobiano é inaceitável na sepse; o tratamento empírico deve ser iniciado logo após a coleta das culturas e depois descalonado conforme o antibiograma.",
+      "D": "Incorreta. O manejo ambulatorial com terapia expulsiva está contraindicado, pois o paciente apresenta instabilidade hemodinâmica, disfunção renal e provável obstrução infectada, condição que pode exigir desobstrução urgente da via urinária."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q058",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Anemias",
+    "subtema": "Anemia macrocítica não megaloblástica no etilismo",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "anemia macrocítica",
+      "etilismo",
+      "medula óssea",
+      "hematologia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O álcool exerce toxicidade direta sobre a medula óssea, produzindo anemia macrocítica não megaloblástica, com reticulocitopenia, ausência de neutrófilos hipersegmentados e níveis normais de vitamina B12 e ácido fólico, exatamente o padrão descrito.",
+      "B": "Incorreta. A deficiência funcional de ferro cursa com VCM normal ou reduzido e não explica macrocitose de 112 fL; ademais, a ferritina está elevada e a saturação de transferrina é normal.",
+      "C": "Incorreta. A anemia megaloblástica pressupõe deficiência de vitamina B12 ou de folato e cursa com neutrófilos hipersegmentados no esfregaço, achados expressamente ausentes no caso.",
+      "D": "Incorreta. A hemólise crônica cursa com reticulocitose, elevação de LDH e bilirrubina indireta e queda da haptoglobina, ao passo que aqui os reticulócitos estão baixos, indicando anemia hipoproliferativa."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q068",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença renal do diabetes",
+    "subtema": "Nefroproteção com inibidores de SGLT2",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "DM2",
+      "doença renal crônica",
+      "SGLT2",
+      "albuminúria"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Os dados laboratoriais estão apresentados em linha corrida, sem formatação em lista, o que prejudica a legibilidade do enunciado.",
+    "justificativas": {
+      "A": "Correta. Em paciente com DM2, TFG de 58 mL/min e albuminúria de 420 mg/g já em uso de IECA, as diretrizes ADA e KDIGO recomendam associar inibidor de SGLT2, que reduz a progressão da doença renal crônica e a necessidade de diálise, diminui a mortalidade cardiovascular e ainda contribui para o controle glicêmico.",
+      "B": "Incorreta. A insulina basal melhora o controle glicêmico, mas não confere nefroproteção; além disso, com HbA1c de 8,1% há alternativas orais com benefício de desfecho renal antes da insulinização.",
+      "C": "Incorreta. A metformina pode ser mantida com TFG de 58 mL/min, sendo sua suspensão indicada apenas abaixo de 30 mL/min, com ajuste de dose entre 30 e 45 mL/min; retirá-la pioraria o controle glicêmico sem qualquer ganho renal.",
+      "D": "Incorreta. As sulfonilureias não oferecem proteção renal ou cardiovascular e acrescentam risco de hipoglicemia e ganho de peso, sobretudo em paciente com função renal reduzida."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q078",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Anemias",
+    "subtema": "Anemia ferropriva",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "anemia ferropriva",
+      "ferritina",
+      "microcitose",
+      "menorragia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A anemia ferropriva é a causa mais comum de anemia no mundo e caracteriza-se por microcitose, hipocromia e ferritina reduzida, que reflete depleção das reservas de ferro; em mulher em idade reprodutiva com menstruações intensas, a perda sanguínea menstrual é a etiologia mais frequente.",
+      "B": "Incorreta. A anemia hemolítica autoimune cursa com VCM normal ou elevado, reticulocitose, aumento de LDH e bilirrubina indireta, queda da haptoglobina e teste de Coombs direto positivo, sem redução da ferritina.",
+      "C": "Incorreta. A anemia megaloblástica, por deficiência de vitamina B12 ou folato, cursa com macrocitose e neutrófilos hipersegmentados, padrão oposto ao VCM reduzido descrito no caso.",
+      "D": "Incorreta. A anemia aplástica manifesta-se por pancitopenia com anemia normocítica e hipocelularidade medular, sem microcitose isolada nem redução da ferritina."
+    }
+  },
+  {
+    "id_origem": "tp_2023_q001",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Ética médica",
+    "subtema": "Terminalidade da vida: suicídio assistido, eutanásia e ortotanásia",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_04",
+      "dcn2025_comp_05",
+      "dcn2025_comp_23",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "suicídio assistido",
+      "eutanásia",
+      "ortotanásia",
+      "Código de Ética Médica"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator mais fraco por empregar definição frontalmente invertida de distanásia, tornando a opção implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Ao prescrever a dose letal para que o próprio paciente a autoadministrasse, o médico forneceu os meios para a abreviação da vida, o que caracteriza suicídio assistido, prática ilegal no Brasil e, por isso, também vedada pelo Código de Ética Médica.",
+      "B": "Incorreta. Na eutanásia é o médico quem executa diretamente o ato que provoca a morte; no caso, a autoadministração pelo paciente desloca a conduta para o suicídio assistido, embora ambas sejam igualmente ilegais e antiéticas no país.",
+      "C": "Incorreta. A ortotanásia consiste em não instituir ou em suspender medidas fúteis, permitindo que a doença siga seu curso natural com cuidados paliativos; aqui houve intervenção ativa que antecipou a morte, o oposto da ortotanásia.",
+      "E": "Incorreta. As diretivas antecipadas de vontade permitem recusar tratamentos fúteis, mas não autorizam o médico a fornecer meios para abreviar a vida; nenhum documento torna lícito o suicídio assistido no ordenamento brasileiro."
+    }
+  }
+]

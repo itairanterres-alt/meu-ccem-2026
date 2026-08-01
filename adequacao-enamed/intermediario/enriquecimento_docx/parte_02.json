@@ -1,0 +1,516 @@
+[
+  {
+    "id_origem": "questoes_clm_q002",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Hematologia",
+    "subtema": "Investigação de TTPA prolongado isolado e hemofilia A adquirida",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "coagulação",
+      "TTPA prolongado",
+      "teste da mistura",
+      "inibidor de fator",
+      "hemofilia adquirida"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Alternativa implausível, pois cita a dosagem de um 'fator VI', que não existe na cascata da coagulação, permitindo eliminação imediata sem raciocínio clínico.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Diante de TTPA prolongado isolado (TAP/INR e plaquetas normais), o teste da mistura é o exame inicial de escolha: a correção do TTPA indica deficiência de fator, enquanto a não correção aponta a presença de um inibidor de fator da coagulação, hipótese compatível com hematomas espontâneos de início recente em idoso.",
+      "B": "Incorreta. A dosagem do fator IX investiga a hemofilia B; a hemofilia A adquirida decorre de inibidor dirigido contra o fator VIII, e não contra o fator IX.",
+      "C": "Incorreta. A deficiência de fator VII prolonga o TAP e não o TTPA, além de não ter relação com a hemofilia A adquirida, que envolve o fator VIII.",
+      "D": "Incorreta. Embora o fator VIII seja o alvo da hemofilia A adquirida, a redução da sua atividade indicaria inibidor do próprio fator VIII (e não do fator VII), e a investigação deve começar pelo teste da mistura, que diferencia deficiência de inibidor."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q012",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Reumatologia",
+    "subtema": "Artrite reumatoide: padrão de acometimento articular",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "artrite reumatoide",
+      "poliartrite simétrica",
+      "doença autoimune",
+      "semiologia articular"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Afirmação absoluta e claramente falsa ('doença articular sem manifestações extra-articulares'), sendo o distrator menos discriminativo do conjunto.",
+    "problema_detectado": "Enunciado com comando genérico ('É correto afirmar') e alternativas construídas por negações absolutas, o que favorece a eliminação por pistas formais em vez de raciocínio clínico.",
+    "justificativas": {
+      "A": "Correta. A artrite reumatoide inicia-se tipicamente pelas pequenas articulações das mãos e dos pés (metacarpofalangeanas, interfalangeanas proximais e metatarsofalangeanas), de forma simétrica e aditiva.",
+      "B": "Incorreta. Quadris e ombros são articulações de acometimento tardio na artrite reumatoide, não fazendo parte do quadro inicial.",
+      "C": "Incorreta. A marca da doença é a poliartrite periférica simétrica; o padrão assimétrico sugere outras artropatias, como as espondiloartrites.",
+      "D": "Incorreta. A artrite reumatoide raramente afeta as colunas torácica e lombar; quando há acometimento axial, ele se concentra na coluna cervical alta (subluxação atlantoaxial)."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q022",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Oncologia clínica",
+    "subtema": "Tromboembolismo venoso no paciente oncológico",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "tromboembolismo venoso",
+      "câncer gástrico",
+      "dispneia súbita",
+      "cateter venoso central",
+      "hipercoagulabilidade"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível por erro conceitual explícito, já que a hipoalbuminemia reduz o cálcio total e não causa hipercalcemia, além de a hipercalcemia não cursar com dispneia súbita.",
+    "problema_detectado": "O enunciado traz, ao final, um trecho residual de anotação editorial ('Frequencia, falta de diagnóstico mais preciso') que não pertence ao caso clínico.",
+    "justificativas": {
+      "A": "Correta. O tromboembolismo venoso é uma das principais causas de morbimortalidade em pacientes oncológicos e reúne, neste caso, todos os fatores de risco descritos: estado de hipercoagulabilidade da neoplasia, imobilidade por desnutrição, cateter venoso central e quimioterapia, justificando a dispneia de início súbito.",
+      "B": "Incorreta. O sítio metastático mais comum do câncer gástrico é o fígado, e as metástases pulmonares produzem dispneia de instalação progressiva, e não súbita.",
+      "C": "Incorreta. A síndrome da veia cava superior cursa com dispneia associada a edema de face e pescoço e circulação colateral, sendo mais frequente em câncer de pulmão e linfomas, não sendo complicação habitual da quimioterapia para câncer gástrico.",
+      "E": "Incorreta. A neutropenia febril define-se por febre aferida com neutrófilos abaixo de 500-1.000/mm³ sem foco definido, e não se manifesta como dispneia súbita isolada, ausente qualquer relato de febre no caso."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q032",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infectologia",
+    "subtema": "Condição pós-COVID-19 (COVID longa)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_08"
+    ],
+    "tags": [
+      "COVID-19",
+      "síndrome pós-COVID",
+      "orientação ao paciente",
+      "seguimento clínico"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator implausível, pois orienta explicitamente a não procurar atendimento diante de sinais de alarme, o que qualquer estudante descarta de imediato.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Qualquer pessoa que teve infecção aguda pela COVID-19, com sintomas leves, moderados ou graves, pode desenvolver a condição pós-COVID, cuja probabilidade não guarda relação direta com a gravidade do quadro agudo ou com a necessidade de hospitalização, ainda que portadores de doenças crônicas apresentem maior risco de sequelas.",
+      "B": "Incorreta. Embora na maioria dos casos os sintomas persistentes ou novos desapareçam nas primeiras 12 semanas, o tempo de recuperação é individual e variável de pessoa para pessoa.",
+      "C": "Incorreta. A ocorrência de novos sintomas ou condições pós-COVID é imprevisível e acomete os indivíduos de modos e em momentos distintos, com manifestações pulmonares, neurológicas, cardiovasculares, gastrointestinais, musculoesqueléticas e dermatológicas, entre outras.",
+      "D": "Incorreta. A condição pós-COVID é descrita como o conjunto de manifestações clínicas novas, recorrentes ou persistentes presentes após quatro semanas da infecção aguda, e não após duas semanas."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q042",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sepse e choque séptico",
+    "subtema": "Medidas iniciais do pacote da primeira hora na sepse de foco pulmonar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "sepse",
+      "choque séptico",
+      "antibioticoterapia precoce",
+      "ressuscitação volêmica",
+      "idoso"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Duplicata: o texto integral da alternativa D aparece repetido dentro da alternativa A, tornando as opções sobrepostas.",
+    "problema_detectado": "A alternativa A traz colado ao seu final o texto completo da alternativa D, gerando duplicidade e ambiguidade entre as opções.",
+    "justificativas": {
+      "A": "Correta. O idoso com foco respiratório, hipotensão, taquicardia, febre e rebaixamento do nível de consciência (ECG 9) preenche critérios de sepse com choque distributivo, impondo ressuscitação volêmica vigorosa conforme tolerância e antibioticoterapia empírica de amplo espectro por via endovenosa dentro da primeira hora ('golden hour'), após coleta de culturas.",
+      "B": "Incorreta. Não há indicação imediata de intubação, pois o paciente mantém drive respiratório e a prioridade inicial é volume e antibiótico; vasopressor só se indica após ressuscitação volêmica adequada com hipotensão persistente.",
+      "C": "Incorreta. Radiografia de tórax e hemograma auxiliam a definir o foco, mas aguardar exames para iniciar o tratamento atrasa o antibiótico e a expansão volêmica, aumentando a mortalidade.",
+      "E": "Incorreta. A taquicardia é sinusal e reativa à hipovolemia e à febre, não havendo indicação de amiodarona, e a droga vasoativa não é a medida para 'melhorar o nível de consciência', que decorre da hipoperfusão."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q052",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Reumatologia e neurologia",
+    "subtema": "Arterite de células gigantes (arterite temporal)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "arterite de células gigantes",
+      "cefaleia secundária",
+      "amaurose fugaz",
+      "VHS elevada",
+      "vasculite"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, pois a hemorragia intraparenquimatosa espontânea cursa com déficit neurológico focal agudo, incompatível com um quadro subagudo de uma semana com VHS de 100 mm/h.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A arterite de células gigantes deve ser fortemente considerada em pacientes acima de 50 anos com cefaleia nova, hipersensibilidade do couro cabeludo, perda visual transitória e VHS elevada; o tratamento deve ser imediato, com metilprednisolona intravenosa (500 a 1.000 mg/dia por 3 dias) nos casos com manifestação visual, seguida de prednisona oral.",
+      "B": "Incorreta. A cefaleia tensional é bilateral, em aperto, de intensidade leve a moderada, sem sintomas visuais e sem elevação de provas inflamatórias.",
+      "C": "Incorreta. A migrânea pode cursar com aura visual, mas é recorrente desde a juventude, não provoca hipersensibilidade do couro cabeludo persistente nem eleva a VHS a 100 mm/h.",
+      "E": "Incorreta. As cefaleias trigêmino-autonômicas caracterizam-se por crises breves, estritamente unilaterais, com sinais autonômicos ipsilaterais (lacrimejamento, rinorreia, ptose), sem amaurose fugaz ou alteração das provas inflamatórias."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q062",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia",
+    "subtema": "Síndrome coronariana aguda sem supradesnivelamento de ST: terapêutica com impacto em mortalidade",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "infarto sem supra de ST",
+      "antiagregação plaquetária",
+      "AAS",
+      "troponina",
+      "mortalidade"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator pouco discriminativo e redundante com nitrato e morfina no grupo de medidas sintomáticas, sendo o oxigênio nem sequer indicado na ausência de hipoxemia.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O ácido acetilsalicílico é a medida com benefício comprovado em redução de mortalidade no infarto agudo do miocárdio sem supradesnivelamento de ST, pela antiagregação plaquetária, devendo ser administrado precocemente.",
+      "B": "Incorreta. O nitrato alivia a dor anginosa por venodilatação e redução da pré-carga, mas não altera a mortalidade.",
+      "C": "Incorreta. A alteplase não tem indicação no infarto sem supradesnivelamento de ST, no qual a fibrinólise não traz benefício e aumenta o risco hemorrágico; a estratégia é antitrombótica associada a estratificação invasiva.",
+      "D": "Incorreta. A morfina é apenas analgésica nos casos refratários, sem impacto em mortalidade, podendo inclusive retardar a absorção dos antiagregantes orais."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q072",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "dificil",
+    "tema": "Infectologia",
+    "subtema": "Coinfecção e superinfecção pelo vírus da hepatite Delta",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_21",
+      "dcn2025_comp_24"
+    ],
+    "tags": [
+      "hepatite B",
+      "hepatite delta",
+      "coinfecção",
+      "superinfecção",
+      "prognóstico"
+    ],
+    "descartar": "E",
+    "motivo_descarte": "Distrator pouco discriminativo e alheio ao eixo da questão (coinfecção versus superinfecção), tratando de conduta diagnóstica não abordada na justificativa oficial.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Na coinfecção HBV/HDV há interferência viral com prejuízo da replicação do HBV, e o curso costuma ser de hepatite aguda benigna, muitas vezes bifásica, com recuperação completa em até 95% dos casos; formas fulminantes são excepcionais.",
+      "B": "Incorreta. É a superinfecção pelo HDV em portador do HBsAg que se revela mais grave e de pior prognóstico, pois a antigenemia pré-existente favorece replicação intensa do HDV e dano hepático acentuado.",
+      "C": "Incorreta. Os percentuais estão invertidos: o risco de cronificação é maior na superinfecção (cerca de 79,9%) do que na coinfecção (cerca de 3%).",
+      "D": "Incorreta. A evolução para doença crônica varia de dois a seis anos, porém em crianças ela ocorre mais rapidamente, e não mais lentamente."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q082",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infectologia",
+    "subtema": "Infecção aguda pelo HIV e pré-requisitos da PrEP",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "HIV",
+      "síndrome retroviral aguda",
+      "janela imunológica",
+      "carga viral",
+      "PrEP"
+    ],
+    "descartar": "D",
+    "motivo_descarte": "Distrator implausível, pois a contagem de CD4/CD8 é exame de estadiamento imunológico e não tem qualquer papel no diagnóstico da infecção aguda pelo HIV.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O quadro é altamente sugestivo de síndrome retroviral aguda com exposição de risco há duas semanas e teste rápido de 4ª geração negativo (janela imunológica); nessa situação, a carga viral do HIV é o exame indicado para confirmar o diagnóstico.",
+      "B": "Incorreta. O início de terapia antirretroviral com tenofovir/lamivudina/dolutegravir só se justifica após a confirmação diagnóstica da infecção, que ainda não foi estabelecida.",
+      "C": "Incorreta. O Western blot foi retirado do fluxograma diagnóstico brasileiro e, sendo teste sorológico, também seria negativo durante a janela imunológica.",
+      "E": "Incorreta. É obrigatório descartar infecção pelo HIV antes de iniciar a PrEP; iniciá-la em quadro de infecção aguda expõe o paciente a monoterapia funcional e seleção de resistência."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q005",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Imunologia",
+    "subtema": "Hipersensibilidade tipo I na rinite alérgica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "rinite alérgica",
+      "hipersensibilidade tipo I",
+      "IgE",
+      "mastócitos",
+      "histamina"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A rinite alérgica é uma reação de hipersensibilidade do tipo I mediada por IgE: o primeiro contato com o alérgeno induz produção de IgE específica que se fixa aos mastócitos da mucosa nasal e, na reexposição, o antígeno faz a ligação cruzada dessas IgEs, provocando degranulação com liberação de histamina, leucotrienos e prostaglandinas, responsáveis pelos espirros em salva, prurido, coriza hialina e obstrução nasal.",
+      "B": "Incorreta. A citotoxicidade mediada por linfócitos T CD8+ caracteriza respostas antivirais e de hipersensibilidade tardia celular, não explicando os sintomas imediatos após o contato com poeira.",
+      "C": "Incorreta. A deposição de imunocomplexos com ativação do complemento corresponde à hipersensibilidade do tipo III, mecanismo de doenças como vasculites e doença do soro, e não da rinite alérgica.",
+      "D": "Incorreta. A rinite alérgica cursa com predomínio de resposta Th2 (IL-4, IL-5, IL-13) que estimula a produção de IgE e o recrutamento eosinofílico; o padrão Th1 com interferon-gama ativa macrófagos em respostas intracelulares."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q015",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Endocrinologia",
+    "subtema": "Diferenciação entre cetoacidose diabética e estado hiperglicêmico hiperosmolar",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "cetoacidose diabética",
+      "estado hiperosmolar",
+      "acidose metabólica",
+      "emergência diabética"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Há sobreposição parcial entre as alternativas 'pH' e 'HCO3', ambos componentes do mesmo critério de acidose metabólica, o que reduz o poder discriminativo do item.",
+    "justificativas": {
+      "A": "Correta. O pH é o critério mais discriminativo entre os apresentados: a cetoacidose diabética exige acidose metabólica com pH < 7,3 associada a cetonemia/cetonúria, enquanto no estado hiperglicêmico hiperosmolar o pH costuma ser > 7,30; no caso, o pH de 7,18 confirma a cetoacidose.",
+      "B": "Incorreta. A glicemia não diferencia as duas condições, pois a cetoacidose pode ocorrer com glicemias mais baixas, inclusive na forma euglicêmica, como sugere o valor de 285 mg/dL deste caso.",
+      "C": "Incorreta. O bicarbonato integra os critérios de acidose (< 15 mEq/L na cetoacidose e > 18 mEq/L no estado hiperosmolar), mas é menos diretamente discriminativo que o pH, que se mostra consistentemente reduzido nas apresentações típicas.",
+      "D": "Incorreta. O ânion-gap costuma estar elevado na cetoacidose, porém não é critério diagnóstico obrigatório nos consensos mais recentes, podendo também elevar-se por outras causas de acidose."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q025",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia",
+    "subtema": "Metas de LDL-colesterol em prevenção secundária de risco muito alto",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "dislipidemia",
+      "LDL-colesterol",
+      "estatina",
+      "ezetimiba",
+      "prevenção secundária"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Paciente com doença cardiovascular estabelecida e diabetes pertence ao grupo de risco cardiovascular muito alto, cuja meta é LDL-colesterol < 50 mg/dL; com LDL de 68 mg/dL, a conduta é intensificar o tratamento, elevando a estatina até a dose máxima tolerada e/ou associando ezetimiba.",
+      "B": "Incorreta. Reflete o erro comum de interpretar um valor 'baixo' como valor 'na meta': 68 mg/dL está acima do alvo de < 50 mg/dL para esse estrato de risco.",
+      "C": "Incorreta. A ezetimiba em monoterapia não substitui a estatina na prevenção secundária, já que a estatina é a base do tratamento com maior evidência de redução de eventos.",
+      "D": "Incorreta. Medidas não farmacológicas são complementares e insuficientes isoladamente, contrariando evidências robustas de que a redução adicional do LDL-c traz benefício clínico neste perfil de risco."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q035",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Endocrinologia",
+    "subtema": "Monitorização contínua de glicose no diabetes mellitus tipo 1",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_07",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "diabetes tipo 1",
+      "CGM",
+      "hipoglicemia",
+      "variabilidade glicêmica",
+      "segurança do paciente"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Falha de concordância no enunciado, que alterna entre 'Mulher, 24 anos' e 'O paciente'.",
+    "justificativas": {
+      "A": "Correta. O monitoramento contínuo da glicose é hoje o padrão de cuidado no diabetes tipo 1 e é a conduta prioritária diante de hipoglicemias inadvertidas e alta variabilidade glicêmica, por permitir alertas, análise de tendências e redução do risco de hipoglicemia grave.",
+      "B": "Incorreta. A substituição do análogo basal por NPH aumenta o risco de hipoglicemia, sobretudo noturna, por seu pico de ação e maior variabilidade de absorção, agravando o problema apresentado.",
+      "C": "Incorreta. A intensificação da glicemia capilar não detecta as hipoglicemias entre as medidas nem fornece tendências, sendo inferior ao CGM justamente nos casos de hipoglicemia inadvertida.",
+      "D": "Incorreta. Os inibidores de SGLT2 não são terapia prioritária no diabetes tipo 1 e aumentam o risco de cetoacidose diabética euglicêmica, o que contraria o foco em segurança."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q045",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Bioética e ética médica",
+    "subtema": "Princípios bioéticos e o Código de Ética Médica",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_04",
+      "dcn2025_comp_05",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "bioética",
+      "não-maleficência",
+      "Código de Ética Médica",
+      "erro médico"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Ao vedar ao médico causar dano ao paciente por ação ou omissão caracterizável como imperícia, imprudência ou negligência, o artigo 1º expressa a não-maleficência, pilar que orienta a evitar prejuízos físicos, psíquicos, morais ou sociais.",
+      "B": "Incorreta. A beneficência impõe agir ativamente em benefício do paciente, ao passo que o dispositivo em questão trata de abster-se de causar dano.",
+      "C": "Incorreta. A autonomia refere-se ao respeito à vontade e às decisões informadas do paciente, tema de outros dispositivos do Código, e não da vedação ao dano.",
+      "D": "Incorreta. A equidade, ligada ao princípio da justiça, diz respeito à distribuição justa de recursos e ao atendimento das necessidades diferenciadas, sem relação direta com o artigo citado."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q055",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Neurologia",
+    "subtema": "Cefaleias secundárias e hipertensão intracraniana com papiledema",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "cefaleia secundária",
+      "papiledema",
+      "hipertensão intracraniana",
+      "hidrocefalia",
+      "sinais de alarme"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A justificativa oficial não corresponde ao item, pois discute anatomia do andar superior do abdome e do pedículo hepático, tema alheio ao enunciado sobre papiledema.",
+    "justificativas": {
+      "A": "Correta. A lesão expansiva que causa estenose do aqueduto cerebral gera hidrocefalia obstrutiva e hipertensão intracraniana, mecanismo clássico de edema bilateral de papila (papiledema) associado a cefaleia secundária.",
+      "B": "Incorreta. A sinusite etmoidal e esfenoidal provoca cefaleia secundária de origem rinogênica, mas não eleva a pressão intracraniana nem produz papiledema, salvo em complicações como trombose de seio venoso.",
+      "C": "Incorreta. A hipotensão liquórica cursa com cefaleia ortostática e achados opostos, como realce paquimeníngeo e descenso de estruturas encefálicas, sem papiledema.",
+      "D": "Incorreta. A arterite temporal pode causar perda visual por neuropatia óptica isquêmica anterior, com edema pálido de disco geralmente unilateral, e não papiledema por hipertensão intracraniana."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q065",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Endocrinologia",
+    "subtema": "Diagnóstico e tratamento inicial da doença de Graves",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "hipertireoidismo",
+      "doença de Graves",
+      "TRAB",
+      "metimazol",
+      "propranolol"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O quadro de tireotoxicose com bócio difuso, TSH suprimido e T4 livre elevado é compatível com doença de Graves, confirmada pelo anticorpo antirreceptor do TSH (TRAB) positivo; o tratamento inicial associa metimazol, para bloquear a síntese hormonal, e propranolol, para controle adrenérgico dos sintomas.",
+      "B": "Incorreta. Na doença de Graves a captação de iodo radioativo em 24 horas está aumentada e difusa; captação reduzida sugere tireoidites ou tireotoxicose factícia.",
+      "C": "Incorreta. O anticorpo antiperoxidase é inespecífico e pode estar presente também na doença de Graves, não confirmando isoladamente o diagnóstico de tireoidite de Hashimoto, que ademais cursa tipicamente com hipotireoidismo.",
+      "D": "Incorreta. A tireoidite de De Quervain cursa com dor cervical intensa, febre e tireotoxicose transitória e discreta, o que não corresponde ao quadro de três meses com emagrecimento de 8 kg e T4 livre muito elevado."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q075",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Psiquiatria",
+    "subtema": "Critérios diagnósticos do transtorno depressivo maior (DSM-5-TR)",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "depressão maior",
+      "DSM-5-TR",
+      "critérios diagnósticos",
+      "anedonia"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "A justificativa oficial comenta uma 'alternativa E' inexistente, indicando item originalmente redigido com cinco opções.",
+    "justificativas": {
+      "A": "Correta. O DSM-5-TR exige cinco ou mais sintomas em período mínimo de duas semanas, representando mudança em relação ao funcionamento prévio, sendo obrigatório que ao menos um deles seja humor deprimido ou perda de interesse/prazer (anedonia), com sofrimento clinicamente significativo ou prejuízo funcional e sem atribuição a substâncias ou condição médica.",
+      "B": "Incorreta. São exigidos cinco sintomas, e não três, e o critério temporal mínimo é de duas semanas, e não de um mês.",
+      "C": "Incorreta. O diagnóstico não se estabelece apenas com humor deprimido e fadiga: é indispensável atingir o número mínimo de cinco sintomas.",
+      "D": "Incorreta. Quatro sintomas não bastam para o diagnóstico, ainda que incluam alteração do sono ou do apetite, pois o limiar do DSM-5-TR é de cinco sintomas."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q085",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia",
+    "subtema": "Terapia quádrupla na insuficiência cardíaca com fração de ejeção reduzida",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "insuficiência cardíaca",
+      "ICFEr",
+      "iSGLT2",
+      "terapia quádrupla",
+      "redução de mortalidade"
+    ],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O paciente já usa IECA, betabloqueador e antagonista mineralocorticoide, faltando o quarto pilar da terapia da ICFEr: os inibidores do cotransportador sódio-glicose 2, que reduzem mortalidade cardiovascular e hospitalizações independentemente da presença de diabetes, com função renal e potássio adequados para o início.",
+      "B": "Incorreta. A associação de hidralazina com nitrato substitui o IECA apenas em caso de intolerância a IECA/BRA ou como adjuvante em pacientes negros com sintomas persistentes, o que não se aplica a este caso.",
+      "C": "Incorreta. A digoxina pode reduzir hospitalizações e melhorar sintomas, mas não reduz mortalidade, não sendo a melhor escolha quando o objetivo é impacto prognóstico.",
+      "D": "Incorreta. A anticoagulação com varfarina não é rotina na ICFEr apenas pela baixa fração de ejeção ou etiologia isquêmica, exigindo indicação específica como fibrilação atrial ou trombo intracavitário."
+    }
+  }
+]

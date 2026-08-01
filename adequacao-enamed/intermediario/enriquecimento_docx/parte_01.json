@@ -1,0 +1,344 @@
+[
+  {
+    "id_origem": "questoes_clm_q001",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Hematologia",
+    "subtema": "Tromboembolismo venoso e investigação de trombofilia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["trombose venosa profunda", "trombofilia", "rivaroxabana", "fator de risco transitório"],
+    "descartar": "C",
+    "motivo_descarte": "Distrator implausível, pois acumula duas premissas erradas (aborto único de 8 semanas como critério de investigação e indicação automática de anticoagulação prolongada), tornando-o facilmente descartável.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Os testes de trombofilia têm alto custo e devem ser solicitados de modo criterioso; a presença de fator de risco maior transitório — no caso, a cirurgia bariátrica uma semana antes do evento — explica integralmente a trombose e não indica a investigação.",
+      "B": "Incorreta. Embora anticoagulantes interfiram em testes funcionais, a pesquisa do fator V de Leiden e da mutação do gene da protrombina não sofre influência da anticoagulação; o motivo para não investigar é o fator de risco transitório, não a rivaroxabana.",
+      "D": "Incorreta. É verdade que os testes genéticos permanecem confiáveis durante a anticoagulação, mas a conduta correta é não solicitá-los, pois o episódio foi provocado por fator de risco maior transitório.",
+      "E": "Incorreta. Quando indicada, a pesquisa pode ser feita na fase aguda ou após pelo menos 3 meses de anticoagulação; neste caso, porém, não há indicação de investigar em nenhum momento."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q011",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Oncologia",
+    "subtema": "Marcadores tumorais no seguimento oncológico",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["marcadores tumorais", "CA 19-9", "oncologia", "seguimento"],
+    "descartar": "E",
+    "motivo_descarte": "Associação mais implausível do conjunto (imunoglobulina monoclonal e melanoma), sem qualquer sobreposição clínica que a torne discriminativa.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O CA 19-9 é o marcador utilizado nos tumores do trato gastrointestinal, incluindo o câncer de cólon e, sobretudo, o adenocarcinoma de pâncreas, sendo útil no acompanhamento da resposta terapêutica.",
+      "B": "Incorreta. O CA-125 está associado ao câncer de ovário e a alguns linfomas, e não ao câncer de próstata, cujo marcador é o PSA.",
+      "C": "Incorreta. A alfafetoproteína associa-se ao carcinoma hepatocelular e aos tumores gonadais de células germinativas, não ao mieloma múltiplo.",
+      "D": "Incorreta. A calcitonina é o marcador do carcinoma medular da tireoide, e não do câncer de pulmão."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q021",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hematologia",
+    "subtema": "Investigação das anemias pela contagem de reticulócitos e VCM",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["anemia", "reticulócitos", "VCM", "raciocínio diagnóstico"],
+    "descartar": "C",
+    "motivo_descarte": "Duplicata estrutural invertida da alternativa D (ambas trocam VCM alto/baixo entre ferropenia e deficiência de B12), sendo redundante mantê-las juntas.",
+    "problema_detectado": "A vinheta não informa a contagem de reticulócitos nem o VCM do paciente, de modo que o caso clínico é apenas decorativo e a questão se resolve exclusivamente por conhecimento teórico.",
+    "justificativas": {
+      "A": "Correta. A elevação dos reticulócitos indica medula óssea responsiva, com aumento da destruição ou perda de eritrócitos, como ocorre nos processos hemolíticos e no sangramento agudo.",
+      "B": "Incorreta. As anemias microangiopáticas são hemolíticas e cursam com reticulocitose, e não com reticulocitopenia.",
+      "D": "Incorreta. A inversão está no VCM: nas anemias hiporregenerativas, o VCM baixo aponta para ferropenia ou talassemia, enquanto a deficiência de vitamina B12 cursa com VCM elevado.",
+      "E": "Incorreta. Anemia aplástica e síndromes mielodisplásicas são causas de falência medular e cursam com reticulocitopenia, não com reticulocitose."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q031",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Emergências cardiovasculares",
+    "subtema": "Taquicardia ventricular no infarto agudo do miocárdio (ACLS)",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["taquicardia ventricular", "ACLS", "infarto agudo do miocárdio", "parada cardiorrespiratória"],
+    "descartar": "E",
+    "motivo_descarte": "Duplicata da alternativa C, diferindo apenas na carga da cardioversão sincronizada, o que não acrescenta poder discriminativo.",
+    "problema_detectado": "O item depende de duas imagens (ECG com supradesnivelamento de ST e traçado do monitor) que não foram incluídas, e o próprio enunciado admite a ausência do traçado, inviabilizando a aplicação sem recuperação das figuras.",
+    "justificativas": {
+      "A": "Correta. Diante de taquicardia de QRS largo, regular e sustentada em paciente com infarto, a primeira etapa segundo o ACLS é checar o pulso central (carotídeo ou femoral), pois é isso que diferencia a taquicardia ventricular com pulso da sem pulso e define todo o passo seguinte.",
+      "B": "Incorreta. A desfibrilação com carga máxima seria a conduta apenas se confirmada a ausência de pulso, ou seja, parada cardiorrespiratória em taquicardia ventricular sem pulso.",
+      "C": "Incorreta. A cardioversão elétrica sincronizada com 100 J é o tratamento da taquicardia ventricular COM pulso e instável, o que só pode ser definido após a checagem do pulso.",
+      "D": "Incorreta. A amiodarona é opção na taquicardia ventricular com pulso e estável, jamais como primeira medida antes de determinar a presença de pulso."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q041",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Neurologia de urgência",
+    "subtema": "Acidente vascular encefálico agudo e janela para trombólise",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["AVC", "trombólise", "janela terapêutica", "escala de Cincinnati"],
+    "descartar": "C",
+    "motivo_descarte": "Redação truncada e agramatical, além de conduta francamente implausível, o que a torna o distrator mais fraco do conjunto.",
+    "problema_detectado": "O item apresenta erros graves de digitação e formatação (enunciado truncado em \"corret\", alternativa A iniciando com parêntese solto e ausência de pontuação), exigindo revisão editorial antes do uso.",
+    "justificativas": {
+      "A": "Correta. O quadro de déficit focal súbito com afasia, hemiplegia e Cincinnati 3/3 sugere acidente vascular encefálico, devendo o paciente ser incluído em protocolo de trombólise se o tempo do ictus for de até 4,5 horas, conforme as diretrizes da Sociedade Brasileira de Doenças Cerebrovasculares.",
+      "B": "Incorreta. A janela terapêutica reconhecida para a trombólise endovenosa é de 4,5 horas do início dos sintomas, e não de 1,5 hora, restrição que excluiria indevidamente pacientes elegíveis.",
+      "D": "Incorreta. Nenhuma medicação antitrombótica deve ser administrada antes da tomografia de crânio, e a anticoagulação plena não é conduta da fase aguda do AVC isquêmico.",
+      "E": "Incorreta. O padrão clínico descrito não permite distinguir AVC hemorrágico de isquêmico à beira do leito; essa definição depende obrigatoriamente da tomografia de crânio."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q051",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sepse e choque séptico",
+    "subtema": "Pacote da primeira hora na pielonefrite aguda com choque",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["choque séptico", "pielonefrite", "pacote de 1 hora", "noradrenalina"],
+    "descartar": "E",
+    "motivo_descarte": "Duplicata da alternativa D, da qual difere apenas pela omissão do lactato, mantendo o mesmo erro conceitual de postergar a droga vasoativa.",
+    "problema_detectado": "As alternativas são excessivamente longas e repetitivas, diferindo apenas por acréscimos ao final, o que sobrecarrega a leitura e favorece a resposta pela extensão do texto.",
+    "justificativas": {
+      "A": "Correta. Trata-se de choque séptico de foco urinário (pielonefrite aguda), e o pacote da primeira hora — reposição volêmica de 30 mL/kg com cristaloide isotônico, coleta de culturas, lactato, antibiótico de largo espectro e início precoce de noradrenalina diante da hipotensão persistente — é o principal fator de redução da morbimortalidade.",
+      "B": "Incorreta. Omite a dosagem do lactato e o início da droga vasoativa, condutas indispensáveis diante de pressão de 80/30 mmHg com sinais de hipoperfusão.",
+      "C": "Incorreta. Além de omitir lactato e vasopressor, deixa de coletar hemoculturas, essenciais na sepse com repercussão sistêmica.",
+      "D": "Incorreta. Aguardar uma hora para avaliar a resposta volêmica antes de iniciar noradrenalina retarda a restauração da perfusão em paciente já com hipotensão grave, cianose e enchimento capilar acima de quatro segundos."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q061",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Cardiologia",
+    "subtema": "Semiologia das valvopatias",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["estenose aórtica", "sopro sistólico", "semiologia cardiovascular", "síncope"],
+    "descartar": "E",
+    "motivo_descarte": "Distrator menos discriminativo, pois a insuficiência tricúspide não compõe o diagnóstico diferencial de sopro ejetivo em foco aórtico com irradiação para carótidas.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A tríade angina, síncope aos esforços e dispneia, somada a pulso de ascensão lenta e sopro sistólico ejetivo com pico mesossistólico no 2º espaço intercostal direito irradiado para as carótidas, caracteriza a estenose aórtica, a valvopatia mais prevalente no idoso.",
+      "B": "Incorreta. A estenose mitral produz sopro diastólico em ruflar no foco mitral, com reforço pré-sistólico e estalido de abertura, e não sopro sistólico ejetivo em foco aórtico.",
+      "C": "Incorreta. A insuficiência aórtica cursa com sopro diastólico aspirativo em foco aórtico acessório e pulso amplo e célere, o oposto da ascensão lenta descrita.",
+      "D": "Incorreta. A insuficiência mitral gera sopro holossistólico em ponta com irradiação para a axila, e não sopro mesossistólico irradiado para as carótidas."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q071",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Infectologia",
+    "subtema": "Imunopatogênese e seguimento da hepatite B",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["hepatite B", "HBsAg", "carga viral", "genotipagem"],
+    "descartar": "E",
+    "motivo_descarte": "Combina as duas afirmativas falsas (II e III), sendo a opção menos plausível e de baixo poder discriminativo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Apenas a afirmativa I procede: o seguimento da infecção pelo HBV baseia-se nos marcadores séricos de imunidade (anti-HBs), na pesquisa do antígeno de superfície (HBsAg) e na quantificação do HBV-DNA, cujo desaparecimento acompanhado do surgimento do anti-HBs indica resolução da infecção.",
+      "B": "Incorreta. A afirmativa II é falsa: embora a variabilidade de resposta possa ser atribuída a características virais e alguns genótipos respondam melhor à alfainterferona, não há, até o momento, evidência que sustente escolher a terapêutica com base na genotipagem do HBV.",
+      "C": "Incorreta. Ainda que a afirmativa I esteja correta, a II é falsa, pois a genotipagem não orienta a escolha terapêutica na prática atual.",
+      "D": "Incorreta. A afirmativa III é falsa: a cronificação é mais frequente, e não menos, nos extremos de idade, sobretudo na transmissão vertical e na primeira infância, embora a definição por HBsAg persistente por mais de seis meses esteja correta."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q081",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Infectologia",
+    "subtema": "Diagnóstico laboratorial da hepatite C",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_24"],
+    "tags": ["hepatite C", "HCV-RNA", "anti-HCV", "diagnóstico laboratorial"],
+    "descartar": "D",
+    "motivo_descarte": "Distrator redundante, pois apenas combina os erros já contemplados nas alternativas B e C (sintomas e anti-HCV reagente).",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A confirmação diagnóstica da hepatite C e a indicação de tratamento dependem da detecção do HCV-RNA em sangue periférico, único marcador que comprova infecção ativa.",
+      "B": "Incorreta. A hepatite C cursa habitualmente de forma assintomática; exigir icterícia, colúria e acolia retardaria ou impediria o diagnóstico na maioria dos casos.",
+      "C": "Incorreta. O anti-HCV pode permanecer reagente após a cura espontânea ou tratada, de modo que sua positividade, mesmo repetida em metodologias distintas, não define infecção ativa nem indica tratamento.",
+      "E": "Incorreta. O HCV-RNA detectável confirma a infecção independentemente de sintomas; condicionar a conduta à presença de icterícia, colúria e acolia é indevido."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q004",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Neurologia de urgência",
+    "subtema": "Trombólise no acidente vascular cerebral isquêmico agudo",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["AVC isquêmico", "alteplase", "NIHSS", "janela terapêutica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A trombólise com alteplase é indicada no AVC isquêmico sem sinais de hemorragia na tomografia e dentro da janela de até 4h30 do início dos sintomas; o paciente está com 45 minutos de evolução, glicemia normal e NIHSS 7.",
+      "B": "Incorreta. O paciente encontra-se dentro da janela terapêutica, e a simples observação com repetição da tomografia em 24 horas retardaria um tratamento comprovadamente eficaz.",
+      "C": "Incorreta. A anticoagulação plena não está indicada na fase aguda do AVC isquêmico, especialmente antes de definir a fonte cardioembólica, e aumenta o risco de transformação hemorrágica.",
+      "D": "Incorreta. A redução abrupta da pressão arterial compromete a perfusão cerebral na área de penumbra; o alvo antes da trombólise é apenas manter valores abaixo de 185x110 mmHg (ou 220x120 mmHg se não houver trombólise)."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q014",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Nefrologia",
+    "subtema": "Síndrome nefrótica e nefropatia membranosa secundária",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["síndrome nefrótica", "nefropatia membranosa", "hepatite B", "glomerulopatias"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O paciente apresenta síndrome nefrótica do adulto (proteinúria de 6,2 g/24h, albumina de 2,3 g/dL e edema), e a nefropatia membranosa é uma das principais causas nessa faixa etária, com forte associação à hepatite B crônica por deposição subepitelial de imunocomplexos na membrana basal glomerular; a ausência de hematúria significativa e o complemento normal reforçam o diagnóstico.",
+      "B": "Incorreta. A glomeruloesclerose segmentar e focal é uma lesão esclerosante de origem podocitária e não se caracteriza por deposição mesangial de IgA, que define outra entidade.",
+      "C": "Incorreta. A nefropatia por IgA manifesta-se tipicamente por hematúria recorrente, frequentemente após infecções de vias aéreas superiores, e não por síndrome nefrótica pura sem hematúria.",
+      "D": "Incorreta. A glomerulonefrite rapidamente progressiva cursa com deterioração acelerada da função renal, hematúria e cilindros hemáticos, achados ausentes neste caso, no qual a creatinina é de 1,1 mg/dL."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q024",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cardiologia preventiva",
+    "subtema": "Dislipidemia, estratificação de risco e indicação de estatina",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["dislipidemia", "LDL-c", "estatina", "risco cardiovascular"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O valor de LDL-c citado na justificativa oficial (≈145 mg/dL) diverge do resultado obtido pela fórmula de Friedewald com os dados do enunciado (≈170 mg/dL), embora a conduta indicada não se altere.",
+    "justificativas": {
+      "A": "Correta. O LDL-c estimado pela fórmula de Friedewald está acima da meta recomendada para risco cardiovascular intermediário (<100 mg/dL) pela Diretriz Brasileira de Dislipidemias; somados os agravantes tabagismo, hipertensão, HDL baixo e sobrepeso, há indicação clara de iniciar estatina, terapia de primeira linha, além das mudanças de estilo de vida.",
+      "B": "Incorreta. O LDL-c não está adequado para o risco do paciente, e o ômega-3 não é terapia de primeira linha para redução do LDL-c, alvo primário da intervenção.",
+      "C": "Incorreta. As mudanças de estilo de vida são obrigatórias, mas insuficientes isoladamente: pacientes de risco intermediário com LDL-c acima da meta devem iniciar tratamento farmacológico.",
+      "D": "Incorreta. O LDL-c está elevado, e os fibratos atuam sobre os triglicerídeos, que estão no limite superior da normalidade, não sobre o alvo primário deste paciente."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q034",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Infectologia",
+    "subtema": "Interpretação dos marcadores sorológicos da hepatite B",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_24"],
+    "tags": ["hepatite B", "HBsAg", "sorologia", "exposição ocupacional"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A presença do antígeno de superfície (HBsAg) indica infecção ativa pelo vírus da hepatite B, podendo corresponder tanto à fase aguda quanto à infecção crônica.",
+      "B": "Incorreta. O anti-HBs positivo isolado indica imunidade, geralmente por vacinação ou por infecção prévia resolvida, e não infecção em atividade.",
+      "C": "Incorreta. O anti-HBc IgG isolado sugere contato prévio com o vírus, sem necessariamente indicar replicação viral ativa.",
+      "D": "Incorreta. O anti-HBe positivo isolado relaciona-se a menor replicação viral e, por si só, não caracteriza infecção ativa."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q044",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Saúde coletiva e biossegurança",
+    "subtema": "Profilaxia pós-exposição para Mpox",
+    "competencia_dcn_2025": ["dcn2025_comp_14", "dcn2025_comp_20", "dcn2025_comp_24"],
+    "tags": ["Mpox", "profilaxia pós-exposição", "vacinação", "saúde do trabalhador"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A vacinação é a principal estratégia de profilaxia pós-exposição para Mpox: administrada em até 4 dias do contato, pode prevenir a doença; entre 4 e 14 dias, tende a reduzir a gravidade dos sintomas.",
+      "B": "Incorreta. O tecovirimat destina-se principalmente ao tratamento de casos estabelecidos, graves ou de risco, não havendo evidência robusta que sustente seu uso rotineiro como profilaxia em assintomáticos.",
+      "C": "Incorreta. O contato com secreções de lesões ativas é considerado de alto risco independentemente da integridade da pele exposta, e apenas monitorar sintomas desperdiçaria a janela de oportunidade da vacinação.",
+      "D": "Incorreta. A imunoglobulina específica para Orthopoxvirus (VIG) é reservada a situações muito restritas, como complicações graves da vacinação com vírus vivo, não sendo a conduta de rotina nesta exposição."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q054",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Bioética e cuidados paliativos",
+    "subtema": "Bioética principialista na limitação de suporte avançado de vida",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_04", "dcn2025_comp_18", "dcn2025_comp_23"],
+    "tags": ["bioética principialista", "não maleficência", "distanásia", "cuidados paliativos"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Diante de comorbidades graves e irreversíveis, a decisão terapêutica deve ponderar qualidade de vida e prognóstico: a ventilação invasiva não reverteria o quadro de base e imporia sofrimento adicional, de modo que a não intubação e a não admissão em UTI amparam-se no princípio da não maleficência.",
+      "B": "Incorreta. A idade cronológica não é marcador para a tomada de decisão, e sim a funcionalidade; equidade não significa tratar todos da mesma maneira, mas individualizar o cuidado conforme as necessidades de cada um.",
+      "C": "Incorreta. Eutanásia seria abreviar a vida por ato ou medicamento, o que não ocorre aqui; o risco real é a distanásia, isto é, prolongar artificialmente a vida sem chance de cura. Também não há negligência, pois a equipe segue cuidando da paciente sem os procedimentos invasivos.",
+      "D": "Incorreta. A não intubação enquadra-se na não maleficência, e não na beneficência, e a existência prévia de Diretiva Antecipada de Vontade não é condição obrigatória para respaldar a decisão de evitar a distanásia."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q064",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Endocrinologia",
+    "subtema": "Estadiamento do diabetes mellitus tipo 1 e disglicemia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["diabetes tipo 1", "estadiamento", "autoanticorpos", "pré-diabetes"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Faltam o comando e a instrução de resposta ao final do enunciado, e a justificativa oficial menciona \"estágio 3\", divergindo do estágio indicado na alternativa apontada como oficialmente correta.",
+    "justificativas": {
+      "A": "Correta. Conforme as diretrizes da Sociedade Brasileira de Diabetes, a paciente apresenta disglicemia (glicemia de jejum de 114 mg/dL, HbA1c de 5,9% e glicemia de 185 mg/dL 2 horas após sobrecarga) e, na presença de autoanticorpos anti-GAD e anti-insulina positivos em pessoa com irmão portador de DM1, caracteriza-se diabetes tipo 1 em fase pré-clínica com alteração glicêmica e sem sintomas.",
+      "B": "Incorreta. A rotulagem como pré-diabetes tipo 2 e a orientação centrada na perda de peso desconsideram o fenótipo da paciente (IMC de 24 kg/m², história familiar de DM1) e a possibilidade de autoimunidade pancreática.",
+      "C": "Incorreta. Embora seja verdade que a ausência de sintomas não exclua diabetes, o contexto aponta para etiologia autoimune, e não para diabetes tipo 2.",
+      "D": "Incorreta. O risco de evolução para diabetes franco não é mínimo: a disglicemia já instalada em portadora de autoimunidade e história familiar confere risco elevado de progressão."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q074",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Bioética e comunicação clínica",
+    "subtema": "Revelação diagnóstica ao idoso capaz e conspiração do silêncio",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_04", "dcn2025_comp_08", "dcn2025_comp_23"],
+    "tags": ["autonomia", "paternalismo", "comunicação de más notícias", "idoso"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O gabarito oficial registra a letra \"E\", inexistente entre as alternativas extraídas (A a D); a justificativa oficial comenta favoravelmente os quatro temas, sugerindo que a alternativa E original (provavelmente do tipo \"todas as anteriores\") se perdeu na conversão do documento e precisa ser recuperada antes do uso.",
+    "justificativas": {
+      "A": "Incorreta. Autonomia e paternalismo são de fato os eixos centrais da reflexão — a autonomia do idoso capaz é plural e não admite olhar discriminatório baseado em presunção de incapacidade —, mas, isoladamente, não esgotam os temas que a justificativa oficial considera relevantes.",
+      "B": "Incorreta. Direitos do paciente e do médico estão bem definidos no âmbito jurídico e social e integram a discussão, porém, tomados isoladamente, não abrangem a totalidade dos temas envolvidos.",
+      "C": "Incorreta. Justiça e pluralidade são pertinentes, pois o sentido de justiça não se esgota nos sistemas jurídicos em uma sociedade que revê seus valores de forma plural e veloz, mas essa dupla, sozinha, não responde ao comando.",
+      "D": "Incorreta. A relação médico-paciente é central e cabe ao profissional captar quanto de paternalismo ou de autonomia o paciente deseja; contudo, não existem \"direitos do cônjuge e dos filhos\" que se sobreponham à vontade do idoso capaz, e o recorte proposto é incompleto."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q084",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Bioética e saúde da população trans",
+    "subtema": "Autonomia e consentimento na terapia hormonal masculinizante",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_04", "dcn2025_comp_11", "dcn2025_comp_23"],
+    "tags": ["saúde da população trans", "autonomia", "consentimento informado", "hormonioterapia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O cuidado deve ser conduzido com avaliação clínica adequada e consentimento informado, respeitando a autonomia do paciente, que é maior de idade e demonstra compreensão dos efeitos esperados, dos riscos e da necessidade de seguimento regular.",
+      "B": "Incorreta. Não existe idade mínima de 25 anos para o início da terapia hormonal; recusar o atendimento com esse argumento configura barreira de acesso sem respaldo técnico.",
+      "C": "Incorreta. Pacientes adultos têm plena autonomia para consentir tratamentos, não sendo exigível autorização de familiar ou responsável.",
+      "D": "Incorreta. Não há exigência de laudo ou autorização judicial para a terapia hormonal, tratando-se de decisão clínica compartilhada entre médico e paciente."
+    }
+  }
+]

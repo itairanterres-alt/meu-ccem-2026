@@ -1,0 +1,325 @@
+[
+  {
+    "id_origem": "questoes_clm_q007",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infecções do trato urinário",
+    "subtema": "Bacteriúria assintomática na mulher idosa",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["bacteriúria assintomática", "uso racional de antimicrobianos", "geriatria", "Klebsiella pneumoniae"],
+    "descartar": "C",
+    "motivo_descarte": "Duplica a estratégia de internação já contemplada na alternativa B, acrescentando apenas troca de antibiótico e, portanto, pouco poder discriminativo.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Trata-se de bacteriúria assintomática, condição frequente em mulheres na pós-menopausa e cuja incidência aumenta com a idade, o diabetes mellitus e a atividade sexual; o tratamento não está indicado, exceto na gestação e antes de procedimentos urológicos invasivos.",
+      "B": "Incorreta. A internação para uso de carbapenêmico expõe a paciente a riscos desnecessários, pois não há indicação de tratar bacteriúria assintomática — paradoxalmente, tratá-la aumenta o risco de infecção urinária sintomática subsequente.",
+      "D": "Incorreta. Tratar com ertapeném ou amicacina em regime ambulatorial mantém o erro de tratar bacteriúria assintomática, com pressão seletiva adicional e perda da flora bacteriana que atua de forma protetora contra germes mais agressivos.",
+      "E": "Incorreta. Além de a fosfomicina não ter sido testada no antibiograma, nenhum antibiótico está indicado em paciente assintomática, com ultrassonografia normal e resíduo pós-miccional desprezível."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q017",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Reumatologia",
+    "subtema": "Padrões de acometimento articular e investigação dirigida",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["espondiloartrite", "uveíte", "oligoartrite", "raciocínio diagnóstico", "artrite séptica"],
+    "descartar": "D",
+    "motivo_descarte": "Repete o mesmo erro de conduta da alternativa C (solicitar fator reumatoide), configurando duplicata de raciocínio dentro do conjunto.",
+    "problema_detectado": "O enunciado traz numeração residual da ficha de origem ('1)') e erros de digitação nas alternativas ('interfalangicas', 'distas').",
+    "justificativas": {
+      "A": "Correta. Olho vermelho recorrente (uveíte) associado a oligoartrite crônica de padrão inflamatório — pior pela manhã e responsiva a anti-inflamatório — sugere espondiloartrite, sendo necessário investigar psoríase, doença inflamatória intestinal e uretrites relacionadas à atividade sexual.",
+      "B": "Incorreta. Dor lombar de dez anos que piora ao final do dia e alivia com o repouso tem características mecânicas, e não inflamatórias, não justificando ressonância magnética de sacroilíacas.",
+      "C": "Incorreta. O quadro descrito é de poliartrite aguda febril após viagem ao Nordeste, cuja principal etiologia é viral (arboviroses); o fator reumatoide não é o exame indicado nesse cenário.",
+      "E": "Incorreta. Monoartrite aguda de joelho com sinais flogísticos exuberantes e febre em paciente jovem é sugestiva de artrite séptica, sendo mandatória a artrocentese com análise do líquido sinovial, e não a dosagem de ácido úrico sérico."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q027",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença pulmonar obstrutiva crônica",
+    "subtema": "Tratamento farmacológico inicial conforme grupos GOLD",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["DPOC", "GOLD 2023", "LABA", "LAMA", "broncodilatação dupla"],
+    "descartar": "B",
+    "motivo_descarte": "A xantina oral é opção obsoleta e não figura em nenhum braço terapêutico do GOLD para o grupo B, tornando o distrator implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Conforme o GOLD 2023, o paciente do grupo B (sintomático e não exacerbador) tem como terapia inicial recomendada a dupla broncodilatação, com beta-agonista de longa ação associado a antimuscarínico de longa ação.",
+      "C": "Incorreta. O inibidor da fosfodiesterase-4 é reservado a pacientes exacerbadores com bronquite crônica e obstrução acentuada, não compondo o esquema inicial do grupo B.",
+      "D": "Incorreta. Esquema quádruplo com inibidor da fosfodiesterase-4 e corticoide inalatório é desproporcional para o grupo B, no qual, por não haver exacerbações, o corticoide inalatório não está indicado.",
+      "E": "Incorreta. A terapia tripla com corticoide inalatório destina-se a exacerbadores, especialmente com eosinofilia; em pacientes não exacerbadores basta a associação LABA + LAMA."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q037",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença pulmonar obstrutiva crônica",
+    "subtema": "Classificação GOLD e escolha do broncodilatador de manutenção",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["DPOC", "espirometria", "tiotrópio", "olodaterol", "GOLD B"],
+    "descartar": "B",
+    "motivo_descarte": "Corticoide inalatório isolado não é opção terapêutica reconhecida na DPOC, configurando o distrator mais implausível do conjunto.",
+    "problema_detectado": "A justificativa oficial é internamente contraditória, pois afirma que 'a alternativa A está completamente errada' e, em seguida, aponta a alternativa A como correta.",
+    "justificativas": {
+      "A": "Correta. Paciente com DPOC classificada como GOLD B (sintomas intensos, dispneia mMRC elevada e ausência de exacerbações no último ano), situação em que se busca a máxima broncodilatação com LAMA associado a LABA — tiotrópio mais olodaterol.",
+      "C": "Incorreta. Olodaterol isolado corresponde ao uso de um único broncodilatador de longa duração, conduta desaconselhada pelo GOLD 2023, que reforça a dupla broncodilatação.",
+      "D": "Incorreta. Tiotrópio isolado também representa monoterapia broncodilatadora, inferior à associação LABA + LAMA para o controle sintomático desta paciente.",
+      "E": "Incorreta. A associação de corticoide inalatório com LABA não está indicada em paciente sem exacerbações no último ano e ainda deixa de contemplar o antimuscarínico de longa ação."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q047",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertensão arterial sistêmica",
+    "subtema": "Escolha de anti-hipertensivos e metas pressóricas",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["hipertensão arterial", "diuréticos tiazídicos", "terapia combinada", "IECA", "BRA"],
+    "descartar": "E",
+    "motivo_descarte": "IECA e BRA são classes intercambiáveis sem superioridade demonstrada entre si, e a afirmação é o distrator menos discriminativo do conjunto.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Estudos controlados randomizados confirmam que os diuréticos tiazídicos devem estar presentes na prescrição da maioria dos hipertensos da população geral, constituindo a base do tratamento.",
+      "B": "Incorreta. O controle pressórico com meta de PAS abaixo de 130 mmHg é infrequente com monoterapia nos estágios 1 e 2, ficando muito aquém do percentual proposto.",
+      "C": "Incorreta. Os bloqueadores dos canais de cálcio são fármacos de primeira linha, ao lado dos IECA, dos BRA e dos tiazídicos.",
+      "D": "Incorreta. A combinação de IECA com BRA não é segura nem bem tolerada, pois eleva o risco de hipercalemia, hipotensão e disfunção renal, razão pela qual não deve ser utilizada."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q057",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Semiologia médica",
+    "subtema": "Semiotécnica da anamnese do adulto",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_08", "dcn2025_comp_02", "dcn2025_comp_27"],
+    "tags": ["anamnese", "entrevista clínica", "queixa principal", "comunicação clínica"],
+    "descartar": "D",
+    "motivo_descarte": "Atribui à sumarização uma finalidade puramente cronométrica, afirmação implausível e facilmente eliminada por qualquer candidato.",
+    "problema_detectado": "A justificativa oficial é genérica e não discrimina o erro de cada alternativa incorreta.",
+    "justificativas": {
+      "A": "Correta. A identificação registra o perfil sociodemográfico do paciente e permite a interpretação tanto dos dados individuais quanto de padrões coletivos de adoecimento.",
+      "B": "Incorreta. A história da doença atual deve ser construída inicialmente com perguntas abertas, que preservam a narrativa do paciente; as perguntas dirigidas ficam para o detalhamento posterior.",
+      "C": "Incorreta. No interrogatório sintomatológico ou revisão de sistemas predominam perguntas dirigidas e fechadas, destinadas ao rastreamento sistemático dos aparelhos.",
+      "E": "Incorreta. Na queixa principal registram-se, em poucas palavras, as próprias expressões do paciente; a tradução para termos médicos não deve ser feita nesse momento."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q067",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Prevenção cardiovascular",
+    "subtema": "Metas de LDL-colesterol no risco muito alto",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["dislipidemia", "LDL-colesterol", "prevenção secundária", "doença arterial coronariana"],
+    "descartar": "E",
+    "motivo_descarte": "Meta de 160 mg/dL é clinicamente implausível para qualquer estrato de risco cardiovascular, funcionando como distrator inoperante.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Paciente com doença aterosclerótica coronariana estabelecida, disfunção ventricular grave e lesões multiarteriais é classificado como de risco muito alto; segundo a Atualização da Diretriz de Prevenção Cardiovascular da Sociedade Brasileira de Cardiologia (2019), a meta é LDL-colesterol abaixo de 50 mg/dL.",
+      "B": "Incorreta. LDL abaixo de 70 mg/dL corresponde à meta de pacientes de alto risco, insuficiente diante do perfil de risco muito alto aqui descrito.",
+      "C": "Incorreta. LDL abaixo de 100 mg/dL é meta de risco intermediário, muito acima do recomendado em prevenção secundária com disfunção ventricular.",
+      "D": "Incorreta. LDL abaixo de 130 mg/dL aplica-se a indivíduos de baixo risco, sendo inadequado para doença coronariana estabelecida."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q077",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Dislipidemia",
+    "subtema": "Intensificação da estatina em prevenção secundária",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["rosuvastatina", "prevenção secundária", "diabetes tipo 2", "meta de LDL", "fibratos"],
+    "descartar": "E",
+    "motivo_descarte": "Ciprofibrato repete o conteúdo da alternativa B, que já testa a adição de fibrato, sem acrescentar poder discriminativo.",
+    "problema_detectado": "O enunciado apresenta erros de digitação nos exames laboratoriais ('LD145mg/dL') e alterna o gênero da paciente ao referir-se a 'o paciente'.",
+    "justificativas": {
+      "A": "Correta. Trata-se de prevenção secundária em paciente diabética e hipertensa, com meta de LDL abaixo de 50 mg/dL; a substituição da sinvastatina por rosuvastatina 40 mg/dia fornece a alta potência necessária para alcançá-la.",
+      "B": "Incorreta. Os fibratos são fármacos de escolha para hipertrigliceridemia e pouco contribuem para a redução do LDL até a meta pretendida.",
+      "C": "Incorreta. Elevar a sinvastatina de 40 para 80 mg/dia acrescentaria redução máxima em torno de 10% do LDL, insuficiente para a meta e com aumento do risco de miopatia.",
+      "D": "Incorreta. O ácido nicotínico de liberação estendida não demonstrou benefício em desfechos cardiovasculares quando associado à estatina e não é estratégia adequada para atingir a meta de LDL."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q087",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Arboviroses",
+    "subtema": "Dengue e febre amarela: agente, vetor e prevenção",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_24", "dcn2025_comp_15"],
+    "tags": ["dengue", "febre amarela", "Aedes aegypti", "vacinação", "vigilância em saúde"],
+    "descartar": "E",
+    "motivo_descarte": "A liberação de merozoítos é fenômeno próprio da malária e não guarda relação com o eixo do item, tornando o distrator implausível.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Dengue e febre amarela são arboviroses causadas por vírus transmitidos por artrópodes, e até o momento há vacina disponibilizada pelo SUS apenas para a febre amarela.",
+      "B": "Incorreta. O ácido acetilsalicílico é contraindicado na suspeita de dengue por aumentar o risco de sangramento; o tratamento sintomático emprega paracetamol ou dipirona.",
+      "C": "Incorreta. A malária é transmitida por mosquitos do gênero Anopheles e a filariose linfática (elefantíase) por culicídeos do gênero Culex, e não pelo Aedes aegypti.",
+      "D": "Incorreta. Ambas são doenças virais, e não bacterianas, e a afirmação ainda inverte a disponibilidade da vacina, que existe para a febre amarela."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q010",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença arterial coronariana crônica",
+    "subtema": "Estratificação de risco e indicação de coronariografia",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["angina estável", "teste ergométrico", "cineangiocoronariografia", "revascularização"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Angina estável CCS III persistente apesar de tratamento otimizado, somada a teste ergométrico de alto risco (infra de ST de 2 mm em múltiplas derivações com baixa carga), indica estratificação anatômica invasiva com cineangiocoronariografia para definir a necessidade de revascularização.",
+      "B": "Incorreta. Postergar por três meses com apenas ajuste de anti-anginosos mantém um paciente sintomático e de alto risco sem definição anatômica.",
+      "C": "Incorreta. Testes funcionais adicionais, como a cintilografia de perfusão miocárdica, não são prioritários quando o alto risco já está documentado pelo teste ergométrico.",
+      "D": "Incorreta. A ressonância de perfusão é outro teste funcional, redundante nesse contexto, e a proposta de realizá-la antes de otimizar o tratamento inverte a sequência recomendada."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q020",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Obesidade",
+    "subtema": "Critérios diagnósticos além do IMC (ABESO e PCDT 2024-2025)",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_06"],
+    "tags": ["obesidade", "IMC", "MASLD", "risco cardiometabólico", "ABESO"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As Diretrizes ABESO e o Protocolo Clínico Brasileiro (2024-2025) definem obesidade pela adiposidade corporal excessiva associada a comorbidades — aqui, MASLD documentada e circunferência de cintura aumentada —, mesmo com IMC entre 25 e 29,9 kg/m².",
+      "B": "Incorreta. A presença de MASLD e de cintura elevada caracteriza risco metabólico significativo, contrariando a classificação de sobrepeso 'sem risco'.",
+      "C": "Incorreta. O diagnóstico não deve ser baseado apenas no IMC, que pode subestimar a adiposidade e o risco cardiometabólico do paciente.",
+      "D": "Incorreta. Há comorbidade metabólica documentada, o que impõe intervenção médica, e não apenas acompanhamento sem conduta."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q030",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Farmacologia dos antimicrobianos",
+    "subtema": "Mecanismo de ação dos macrolídeos",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["macrolídeos", "Mycoplasma pneumoniae", "subunidade 50S", "pneumonia atípica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Os macrolídeos inibem a síntese proteica bacteriana ao se ligarem à subunidade 50S do ribossomo, impedindo a translocação do peptídeo — mecanismo pertinente à pneumonia por Mycoplasma pneumoniae.",
+      "B": "Incorreta. A inibição da síntese da parede celular é o mecanismo dos betalactâmicos, como penicilinas e cefalosporinas.",
+      "C": "Incorreta. A inibição da DNA-girase corresponde ao mecanismo das quinolonas, como a ciprofloxacina.",
+      "D": "Incorreta. A ruptura da membrana citoplasmática bacteriana é a ação da daptomicina e das polimixinas."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q040",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Síndrome coronariana aguda",
+    "subtema": "Estratégia de reperfusão no IAM com supradesnível de ST",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["IAMCSST", "angioplastia primária", "trombolítico", "eletrocardiograma", "reperfusão"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comentário oficial da alternativa B refere-se a 'administrar trombolítico antes da transferência', cenário que não consta do texto da alternativa.",
+    "justificativas": {
+      "A": "Correta. Dor torácica típica com supradesnível de ST em V2–V5 há 40 minutos caracteriza IAMCSST em janela ideal de reperfusão; havendo hemodinâmica no próprio serviço, a angioplastia primária é a estratégia de escolha, com maior redução de mortalidade.",
+      "B": "Incorreta. A fibrinólise é reservada às situações em que a angioplastia primária não está disponível ou não pode ser realizada em tempo hábil (em geral até 120 minutos do primeiro contato médico).",
+      "C": "Incorreta. O diagnóstico de IAMCSST é clínico e eletrocardiográfico; aguardar a troponina retarda a reperfusão e amplia a necrose miocárdica.",
+      "D": "Incorreta. A analgesia é apenas medida de suporte; observar a evolução permite a progressão da necrose, com risco de insuficiência cardíaca, arritmias fatais e morte."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q050",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Insuficiência cardíaca",
+    "subtema": "Classificação pela fração de ejeção (AHA/ACC/HFSA 2022)",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["insuficiência cardíaca", "ICFElr", "BNP", "ecocardiograma", "fração de ejeção"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O valor de E/e' de 9 é apresentado sem esclarecer que o critério de elevação das pressões de enchimento é preenchido pelo BNP elevado, o que pode gerar ambiguidade com a alternativa D.",
+    "justificativas": {
+      "A": "Correta. Fração de ejeção de 45%, dentro da faixa de 41% a 49%, associada a evidência de elevação das pressões de enchimento — representada pelo BNP elevado e pelo quadro congestivo — define insuficiência cardíaca com fração de ejeção levemente reduzida, conforme o guideline AHA/ACC/HFSA 2022.",
+      "B": "Incorreta. A insuficiência cardíaca com fração de ejeção reduzida exige fração de ejeção igual ou inferior a 40%.",
+      "C": "Incorreta. A insuficiência cardíaca com fração de ejeção preservada requer fração de ejeção igual ou superior a 50%.",
+      "D": "Incorreta. O quadro clínico congestivo, o BNP elevado e a fração de ejeção mensurada são suficientes para firmar o diagnóstico sindrômico e classificá-lo."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q060",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Acidente vascular cerebral isquêmico",
+    "subtema": "Trombectomia mecânica em janela estendida",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["AVC isquêmico", "trombectomia mecânica", "NIHSS", "mismatch de perfusão", "oclusão de grande vaso"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Oclusão proximal da artéria cerebral média, NIHSS 16, tomografia sem sangramento e mismatch favorável na perfusão colocam o paciente dentro da janela estendida (até 24 horas) para trombectomia mecânica.",
+      "B": "Incorreta. Com sete horas de evolução, o paciente está fora da janela de 4,5 horas preconizada para a trombólise endovenosa.",
+      "C": "Incorreta. A anticoagulação plena imediata não é terapia de reperfusão no AVC isquêmico agudo e aumenta o risco de transformação hemorrágica.",
+      "D": "Incorreta. Limitar-se ao tratamento clínico desperdiça a oportunidade de reperfusão em paciente com tecido cerebral viável demonstrado por imagem de perfusão."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q070",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hemorragia digestiva alta",
+    "subtema": "Conduta inicial na úlcera péptica associada a AINE",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["melena", "AINE", "inibidor de bomba de prótons", "endoscopia precoce", "reposição volêmica"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Diante de hemorragia digestiva alta suspeita por úlcera relacionada a AINE, com taquicardia e pressão limítrofe, a conduta inicial é ressuscitação volêmica, inibidor de bomba de prótons endovenoso (bolus seguido de infusão) e endoscopia precoce em até 24 horas.",
+      "B": "Incorreta. Suspender o anti-inflamatório é necessário, mas insuficiente diante de sangramento com repercussão hemodinâmica.",
+      "C": "Incorreta. A transfusão é indicada apenas com hemoglobina abaixo de 7 g/dL ou instabilidade persistente, não sendo a medida inicial isolada.",
+      "D": "Incorreta. A melena aponta para fonte alta do sangramento; a colonoscopia não é o exame inicial nesse cenário."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q080",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "COVID-19",
+    "subtema": "Fisiopatologia das formas graves",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_01", "dcn2025_comp_14"],
+    "tags": ["COVID-19", "tempestade de citocinas", "SDRA", "resposta inflamatória", "SARS-CoV-2"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. As formas graves da COVID-19 associam-se a resposta inflamatória sistêmica exacerbada, com liberação maciça de citocinas pró-inflamatórias (tempestade de citocinas), lesão pulmonar difusa e síndrome do desconforto respiratório agudo.",
+      "B": "Incorreta. O SARS-CoV-2 não causa destruição direta dos eritrócitos como mecanismo de gravidade da doença.",
+      "C": "Incorreta. Os anticorpos neutralizantes conferem proteção contra o vírus; sua produção não explica a evolução para a forma grave.",
+      "D": "Incorreta. Não ocorre supressão completa da imunidade inata, e sim uma resposta inata desregulada e exagerada."
+    }
+  }
+]

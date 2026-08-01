@@ -1,0 +1,325 @@
+[
+  {
+    "id_origem": "questoes_clm_q008",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infecção do trato urinário",
+    "subtema": "ITU não complicada e ITU de repetição na mulher pós-menopausa",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["cistite", "fosfomicina", "estrogênio vaginal", "atrofia geniturinária", "profilaxia"],
+    "descartar": "E",
+    "motivo_descarte": "Duplica o erro conceitual da alternativa C (profilaxia com cranberry) apenas variando a duração da cefalexina, sendo o distrator menos discriminativo.",
+    "problema_detectado": "O enunciado contém erro de digitação por repetição ('iniciou há três dias iniciou quadro').",
+    "justificativas": {
+      "A": "Correta. Pela resistência bacteriana crescente, fosfomicina trometamol em dose única é opção de primeira linha no tratamento empírico da cistite não complicada da mulher, e o estrogênio vaginal (promestrieno) é a medida recomendada para prevenir ITU de repetição na mulher menopausada com atrofia geniturinária, sugerida aqui pela dispareunia e secura vaginal.",
+      "B": "Incorreta. Quinolonas não são primeira linha para cistite não complicada devido à resistência bacteriana e ao perfil de eventos adversos, e a profilaxia pós-coital isolada não corrige a atrofia geniturinária que sustenta as recorrências nesta paciente menopausada.",
+      "C": "Incorreta. Além de empregar ciprofloxacino por tempo desnecessariamente prolongado em cistite não complicada, propõe extrato de cranberry, que tem baixa eficácia comprovada na profilaxia de ITU de repetição em mulheres menopausadas.",
+      "D": "Incorreta. A cefalexina por 7 dias não é o esquema empírico preferencial para cistite não complicada, e a profilaxia pós-coital com nitrofurantoína não contempla o tratamento da atrofia geniturinária, principal fator de recorrência no caso."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q018",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Asma",
+    "subtema": "Definição, manifestações clínicas e diagnóstico",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["asma", "sibilância", "limitação variável ao fluxo aéreo", "corticoide inalatório"],
+    "descartar": "E",
+    "motivo_descarte": "Afirmação francamente implausível, pois a boa resposta ao corticoide inalatório é conhecimento elementar sobre asma e não gera atratividade como distrator.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Dispneia, tosse, sibilância e opressão torácica são as manifestações clínicas mais comuns da asma, apresentando-se de forma variável em intensidade e ao longo do tempo.",
+      "B": "Incorreta. Na asma os sintomas respiratórios associam-se a limitação ao fluxo aéreo variável, e não fixa; a limitação fixa caracteriza outras obstruções crônicas.",
+      "C": "Incorreta. A asma é sempre doença de padrão obstrutivo; a divisão fenotípica reconhecida é entre formas alérgicas e não alérgicas, não entre restritiva e obstrutiva.",
+      "D": "Incorreta. A resposta ao broncodilatador reforça o diagnóstico, mas não é pré-requisito obrigatório, podendo estar ausente quando a doença está controlada."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q028",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Ventilação mecânica",
+    "subtema": "Efeitos fisiológicos da PEEP na SDRA",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_20"],
+    "tags": ["SDRA", "PEEP", "shunt", "capacidade residual funcional", "retorno venoso"],
+    "descartar": "B",
+    "motivo_descarte": "O aumento da capacidade residual funcional é o efeito mais óbvio e imediatamente reconhecível da PEEP, funcionando como distrator de baixo poder discriminativo.",
+    "problema_detectado": "Enunciado com formatação e pontuação irregulares e uso da forma negativa 'exceto', que reduz a clareza do comando.",
+    "justificativas": {
+      "A": "Correta. O aumento da PEEP promove recrutamento e redistribuição do líquido alveolar, não elevando o edema alveolar; portanto é o único efeito não esperado entre os listados.",
+      "C": "Incorreta. A redução do shunt intrapulmonar é efeito esperado da PEEP, decorrente do recrutamento de unidades alveolares colapsadas e da melhora da relação ventilação-perfusão.",
+      "D": "Incorreta. O aumento do espaço morto fisiológico ocorre de fato com PEEP elevada, por hiperdistensão de alvéolos ventilados com perfusão comprometida.",
+      "E": "Incorreta. A redução do retorno venoso ao tórax é efeito hemodinâmico clássico da PEEP elevada, pelo aumento da pressão intratorácica média."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q038",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Doença pulmonar obstrutiva crônica",
+    "subtema": "Classificação GOLD, oxigenoterapia domiciliar e terapia inalatória tripla",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["DPOC", "GOLD E", "oxigenoterapia domiciliar", "eosinofilia", "cor pulmonale"],
+    "descartar": "E",
+    "motivo_descarte": "Acumula dois erros evidentes ao mesmo tempo (nomenclatura GOLD D já abandonada e negação da oxigenoterapia em paciente com pO2 de 45 mmHg), tornando-se implausível.",
+    "problema_detectado": "O hemograma traz 'HB 18%', unidade incorreta para hemoglobina, que deveria ser expressa em g/dL.",
+    "justificativas": {
+      "A": "Correta. Paciente com sintomas intensos (mMRC 4) e múltiplas exacerbações graves configura GOLD E; a hipoxemia acentuada (pO2 45 mmHg, SpO2 82%) com cor pulmonale indica oxigenoterapia domiciliar, e a eosinofilia de 400 células/mm³ com fenótipo bronquítico exacerbador sustenta a associação de corticoide inalatório ao LABA + LAMA.",
+      "B": "Incorreta. A classificação GOLD B pressupõe baixo risco de exacerbações, incompatível com as três internações por exacerbação grave em seis meses, e omite o corticoide inalatório indicado pela eosinofilia e pelo perfil exacerbador.",
+      "C": "Incorreta. Embora acerte a conduta terapêutica, utiliza a categoria GOLD D, substituída pela categoria E na atual classificação, que mantém apenas GOLD A, B e E.",
+      "D": "Incorreta. Classifica corretamente como GOLD E, mas nega a oxigenoterapia domiciliar apesar da hipoxemia grave com cor pulmonale e deixa de incluir o corticoide inalatório indicado pela eosinofilia."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q048",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndrome coronariana aguda",
+    "subtema": "IAM com supradesnivelamento de ST e choque cardiogênico",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["IAM com supra de ST", "angioplastia primária", "choque cardiogênico", "tempo porta-balão"],
+    "descartar": "B",
+    "motivo_descarte": "Aguardar troponina diante de supradesnivelamento de ST típico é conduta francamente implausível e nenhum candidato minimamente preparado a selecionaria.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Na vigência de IAM com supradesnivelamento de ST associado a choque cardiogênico, a angioplastia primária é o tratamento de escolha e deve ser realizada sempre que o transporte ao serviço de hemodinâmica ocorra em menos de duas horas, como no caso (30 minutos).",
+      "C": "Incorreta. A fibrinólise é alternativa apenas quando o tempo de transporte até a hemodinâmica excede duas horas, e seus resultados são inferiores aos da angioplastia primária, sobretudo no choque cardiogênico.",
+      "D": "Incorreta. Antiagregantes e enoxaparina são terapias adjuvantes, mas não substituem a reperfusão mecânica imediata; retardar a angioplastia para admissão em UTI aumenta a mortalidade.",
+      "E": "Incorreta. Tratar o choque cardiogênico sem reperfundir a artéria culpada não corrige a causa do quadro, uma vez que a revascularização precoce é a intervenção que reduz mortalidade nesse cenário."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q058",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertensão arterial sistêmica",
+    "subtema": "Combinação de anti-hipertensivos e efeitos adversos",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["hidroclorotiazida", "hiponatremia", "IECA", "bloqueador de canal de cálcio", "nefropatia diabética"],
+    "descartar": "D",
+    "motivo_descarte": "Repete o mesmo erro conceitual da alternativa B (associação de IECA com BRA), configurando duplicata de raciocínio entre distratores.",
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. A hiponatremia (Na 130 mmol/L) e os sintomas de tontura e cefaleia apontam efeito adverso do tiazídico, que deve ser suspenso; a associação de um bloqueador de canal de cálcio ao IECA é a combinação apropriada para controle pressórico nesta paciente com nefropatia diabética incipiente.",
+      "B": "Incorreta. Embora acerte ao suspender a hidroclorotiazida, associa losartana ao enalapril, e o duplo bloqueio do sistema renina-angiotensina com IECA e BRA é contraindicado pelo risco de hipercalemia e piora da função renal.",
+      "C": "Incorreta. Mantém o tiazídico responsável pela hiponatremia e acrescenta betabloqueador, que não é fármaco de primeira linha nesta paciente sem indicação cardíaca específica e com frequência cardíaca já em 64 bpm.",
+      "E": "Incorreta. Mantém a hidroclorotiazida implicada na hiponatremia sintomática e apenas eleva a dose do IECA, estratégia menos eficaz do que a associação de fármacos de classes complementares."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q068",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Infecções bacterianas de pele",
+    "subtema": "Impetigo crostoso e suas complicações",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["impetigo", "Streptococcus pyogenes", "glomerulonefrite pós-estreptocócica", "pediatria"],
+    "descartar": "E",
+    "motivo_descarte": "Atribuir etiologia viral e resolução espontânea contraria de forma grosseira o quadro descrito de crostas melicéricas, tornando o distrator implausível.",
+    "problema_detectado": "O enunciado da alternativa A está truncado ('após é de 18-21 dias'), faltando o complemento do período latente.",
+    "justificativas": {
+      "A": "Correta. O impetigo crostoso é a principal causa cutânea de glomerulonefrite difusa aguda pós-estreptocócica, cujo período de latência entre a infecção de pele e a nefrite é de aproximadamente 18 a 21 dias.",
+      "B": "Incorreta. Além do Staphylococcus aureus, o Streptococcus pyogenes é agente etiológico frequente do impetigo crostoso, sendo justamente ele o responsável pelo risco de nefrite.",
+      "C": "Incorreta. A febre reumática decorre de infecção estreptocócica de orofaringe; o impetigo estreptocócico associa-se a glomerulonefrite, mas não desencadeia febre reumática.",
+      "D": "Incorreta. As lesões podem de fato coalescer, porém são superficiais e curam sem deixar cicatrizes, diferentemente do ectima, que atinge a derme."
+    }
+  },
+  {
+    "id_origem": "questoes_clm_q078",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cetoacidose diabética",
+    "subtema": "Investigação inicial e hidratação no adolescente com DM1",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["cetoacidose diabética", "diabetes tipo 1", "gasometria venosa", "hidratação venosa", "potássio"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O quadro é de cetoacidose diabética após omissão de insulina; a confirmação diagnóstica é feita com gasometria, que pode ser venosa, e glicemia, a dosagem de potássio orienta a reposição eletrolítica e o tratamento inicial é a hidratação venosa, seguida de insulinoterapia.",
+      "B": "Incorreta. Não há sinais de foco infeccioso que justifiquem hemocultura e antibioticoterapia empírica, e a gasometria arterial é desnecessária, pois a venosa é suficiente para o diagnóstico e o acompanhamento.",
+      "C": "Incorreta. A dor abdominal e os vômitos são manifestações da própria cetoacidose; investigar abdome agudo com ecografia retarda a hidratação venosa, que é a prioridade terapêutica imediata.",
+      "D": "Incorreta. Acerta os exames, mas a reposição de bicarbonato não está indicada de rotina, sendo reservada a situações de acidose extrema com pH inferior a 6,9."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q001",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Artrites inflamatórias",
+    "subtema": "Artrite psoriásica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["artrite psoriásica", "entesite", "pitting ungueal", "rigidez matinal", "reumatologia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comando pede 'hipótese diagnóstica mais provável e o tratamento inicial mais adequado', mas as alternativas trazem apenas o diagnóstico, sem a conduta.",
+    "justificativas": {
+      "A": "Correta. A associação de artrite inflamatória periférica com rigidez matinal superior a duas horas, lesões eritemato-descamativas retroauriculares, pitting ungueal e entesite do tendão de Aquiles, com fator reumatoide negativo e marcadores inflamatórios elevados, define artrite psoriásica, cujo tratamento inicial é a droga modificadora do curso da doença.",
+      "B": "Incorreta. A artrite reumatoide não explica o pitting ungueal, as lesões psoriasiformes nem a entesite calcaneana, e cursa habitualmente com fator reumatoide positivo, o que não ocorre neste paciente.",
+      "C": "Incorreta. A osteoartrite tem padrão mecânico, com rigidez matinal breve (inferior a 30 minutos) e sem sinovite ou elevação de provas inflamatórias, ao contrário do descrito.",
+      "D": "Incorreta. O FAN 1:80 com padrão nuclear pontilhado fino denso é achado sem significado clínico de autoimunidade sistêmica, e faltam critérios clínicos e laboratoriais de lúpus eritematoso sistêmico."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q011",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Hipertensão arterial e risco cardiovascular",
+    "subtema": "Lesão renal precoce e bloqueio do sistema renina-angiotensina",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["microalbuminúria", "IECA", "obesidade", "pré-diabetes", "prevenção cardiovascular"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Erro de digitação no enunciado, com ausência de espaço entre as frases ('(VR <100). Microalbuminúria').",
+    "justificativas": {
+      "A": "Correta. O paciente tem hipertensão confirmada por MAPA associada a obesidade, pré-diabetes e microalbuminúria, caracterizando lesão renal de órgão-alvo precoce; os bloqueadores do sistema renina-angiotensina são a primeira escolha por reduzirem a progressão da doença renal e o risco cardiovascular, devendo ser iniciados junto às mudanças intensivas de estilo de vida.",
+      "B": "Incorreta. O diurético tiazídico não oferece a nefroproteção específica necessária diante da microalbuminúria e pode agravar a intolerância à glicose já presente neste paciente com pré-diabetes.",
+      "C": "Incorreta. O betabloqueador não é anti-hipertensivo de primeira linha neste contexto e não confere nefroproteção, e a metformina não está indicada como estratégia inicial isolada para o controle pressórico e renal.",
+      "D": "Incorreta. Postergar a farmacoterapia por mais 30 dias é inadequado, pois a presença de lesão de órgão-alvo renal impõe início imediato do bloqueio do sistema renina-angiotensina junto às medidas comportamentais."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q021",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Obesidade",
+    "subtema": "Indicação formal de tratamento farmacológico",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["obesidade", "IMC", "MASLD", "farmacoterapia", "diretrizes brasileiras"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "As alternativas B e C omitem a unidade kg/m² presente nas demais, gerando falta de homogeneidade entre as opções.",
+    "justificativas": {
+      "A": "Correta. Segundo o posicionamento SBEM/ABESO e o PCDT/diretriz brasileira de tratamento farmacológico da obesidade, a farmacoterapia está indicada com IMC ≥ 30 kg/m² independentemente de comorbidades ou com IMC ≥ 27 kg/m² associado a pelo menos uma comorbidade; o paciente tem IMC 28 kg/m², hipertensão e MASLD, além de falha comprovada da abordagem comportamental.",
+      "B": "Incorreta. IMC de 24 kg/m² situa-se na faixa de eutrofia e, sem comorbidades, não configura qualquer indicação formal de tratamento medicamentoso da obesidade.",
+      "C": "Incorreta. IMC ≥ 25 kg/m² caracteriza sobrepeso, mas isoladamente, sem comorbidade associada, não preenche o critério formal de indicação de farmacoterapia.",
+      "D": "Incorreta. Restringir a indicação ao IMC ≥ 30 kg/m² desconsidera o critério de IMC ≥ 27 kg/m² com comorbidade, que é exatamente a situação deste paciente."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q031",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Infecções sexualmente transmissíveis",
+    "subtema": "Estadiamento e tratamento da sífilis",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_24"],
+    "tags": ["sífilis secundária", "penicilina benzatina", "exantema palmoplantar", "VDRL"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O exantema maculopapular com acometimento palmoplantar surgido após a cicatrização espontânea de úlcera genital indolor define a sífilis secundária, cujo tratamento preconizado é penicilina benzatina 2,4 milhões de UI em dose única.",
+      "B": "Incorreta. A fase primária caracteriza-se pela presença do cancro ativo, já cicatrizado neste paciente, e a penicilina cristalina não é o esquema indicado para essa fase.",
+      "C": "Incorreta. O esquema de 7,2 milhões de UI em três doses semanais destina-se à sífilis latente tardia ou de duração indeterminada, e o quadro exantemático atual caracteriza fase secundária.",
+      "D": "Incorreta. Acerta o estadiamento, mas a penicilina cristalina intravenosa é reservada à neurossífilis, não sendo o tratamento da sífilis secundária sem acometimento neurológico."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q041",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Cefaleia na emergência",
+    "subtema": "Cefaleia em trovoada e investigação de hemorragia subaracnóidea",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["cefaleia em trovoada", "hemorragia subaracnóidea", "punção lombar", "xantocromia", "sinais de alarme"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "O comando 'analise as alternativas' é vago e não explicita que se busca a conduta correta, além de haver falha de concordância na alternativa A.",
+    "justificativas": {
+      "A": "Correta. O pico de dor em um minuto configura cefaleia em trovoada, sinal de alarme que obriga a excluir hemorragia subaracnóidea; como a sensibilidade da tomografia cai após as primeiras seis horas, a punção lombar em busca de xantocromia ou hemácias não decrescentes é o passo mandatório seguinte.",
+      "B": "Incorreta. Tomografia normal e melhora com analgesia não descartam cefaleia secundária diante de cefaleia em trovoada, e ajustar o topiramato antes de concluir a investigação é conduta imprudente.",
+      "C": "Incorreta. A ressonância magnética avalia bem o parênquima, mas não substitui a punção lombar na investigação de hemorragia subaracnóidea após tomografia normal, sendo reservada a etapas posteriores.",
+      "D": "Incorreta. A mudança de padrão da dor, sobretudo com instalação abrupta, é justamente um dos principais sinais de alarme (critérios SNOOP), e minimizá-la como falha profilática configura erro grave de avaliação de risco."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q051",
+    "area_clinica": "ciclo_basico",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Semiologia neurológica",
+    "subtema": "Sinal de Babinski e via piramidal",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["sinal de Babinski", "trato corticoespinhal", "reflexo cutâneo-plantar", "neuroanatomia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. O reflexo cutâneo-plantar em extensão, ou sinal de Babinski, traduz lesão da via piramidal, isto é, do trato corticoespinhal, em qualquer ponto do seu trajeto.",
+      "B": "Incorreta. Lesões da junção neuromuscular, como a miastenia gravis, cursam com fraqueza fatigável e reflexos preservados, sem resposta plantar em extensão.",
+      "C": "Incorreta. O comprometimento do gânglio da raiz dorsal produz alterações sensitivas e arreflexia por lesão do neurônio sensitivo periférico, e não sinal de liberação piramidal.",
+      "D": "Incorreta. As lesões cerebelares manifestam-se por ataxia, dismetria e disdiadococinesia, sem alteração da resposta cutâneo-plantar."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q061",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Anemias hemolíticas",
+    "subtema": "Deficiência de G6PD",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["hemólise", "G6PD", "Coombs direto", "haptoglobina", "hematologia"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": null,
+    "justificativas": {
+      "A": "Correta. Hemólise episódica desencadeada por estresse oxidativo (infecção viral recente), com Coombs direto negativo, urina escura, reticulocitose, LDH elevada e haptoglobina indetectável, é o quadro clássico da deficiência de G6PD.",
+      "B": "Incorreta. Na anemia hemolítica autoimune por anticorpos quentes o teste de Coombs direto seria positivo, o que não ocorre neste paciente.",
+      "C": "Incorreta. A esferocitose hereditária costuma cursar com história familiar, esplenomegalia e esferócitos no esfregaço, achados não descritos no caso.",
+      "D": "Incorreta. A hemoglobinúria paroxística noturna associa-se a trombose e citopenias, com hemólise crônica intravascular, e não a episódio agudo isolado após infecção."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q071",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Dor torácica aguda",
+    "subtema": "Dissecção aguda de aorta",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["dissecção de aorta", "dor torácica", "assimetria de pulsos", "hipertensão", "emergência"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Faltam unidades e pontuação final no enunciado ('PA 180x100 em membro superior direito', comando sem interrogação).",
+    "justificativas": {
+      "A": "Correta. Dor precordial súbita e intensa com irradiação para o dorso em hipertenso tabagista, somada a diferença de pressão arterial entre os membros superiores maior que 20 mmHg, sugere dissecção aguda de aorta com extensão ao arco aórtico e emergência da subclávia esquerda da falsa luz.",
+      "B": "Incorreta. O infarto agudo do miocárdio não explica a assimetria pressórica entre os membros superiores nem a irradiação dorsal com dor de início abrupto e máxima intensidade inicial.",
+      "C": "Incorreta. O tromboembolismo pulmonar cursa tipicamente com dor pleurítica, dispneia e hipoxemia, sem diferença de pressão arterial entre os membros superiores.",
+      "D": "Incorreta. O pneumotórax hipertensivo manifesta-se com desconforto respiratório grave, hipotensão, timpanismo e abolição do murmúrio vesicular, achados ausentes no caso."
+    }
+  },
+  {
+    "id_origem": "clm_napisul2_2026_q081",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "facil",
+    "tema": "Doença pulmonar obstrutiva crônica",
+    "subtema": "Fatores de risco",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_15"],
+    "tags": ["DPOC", "tabagismo", "espirometria", "prevenção", "enfisema"],
+    "descartar": null,
+    "motivo_descarte": null,
+    "problema_detectado": "Questão de baixo poder discriminativo, pois os distratores são fatores notoriamente irrelevantes para a etiologia da DPOC.",
+    "justificativas": {
+      "A": "Correta. O tabagismo crônico é o principal fator de risco para DPOC, induzindo inflamação persistente das vias aéreas, bronquite crônica e enfisema pulmonar, com limitação persistente ao fluxo aéreo.",
+      "B": "Incorreta. Infecções virais agudas podem desencadear exacerbações em portadores de DPOC, mas não são causa do desenvolvimento da doença.",
+      "C": "Incorreta. A exposição ocasional a poeira doméstica tem impacto desprezível; relevantes são exposições ocupacionais intensas e prolongadas ou a queima de biomassa em ambiente fechado.",
+      "D": "Incorreta. O sedentarismo agrava o descondicionamento e a dispneia em pacientes já doentes, porém não constitui fator causal da obstrução crônica ao fluxo aéreo."
+    }
+  }
+]
