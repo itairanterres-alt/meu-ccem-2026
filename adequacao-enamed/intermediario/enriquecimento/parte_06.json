@@ -1,0 +1,242 @@
+[
+  {
+    "num": 8,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Artrite reumatoide",
+    "subtema": "Poliartrite simétrica de pequenas articulações e primeira linha terapêutica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["artrite_reumatoide", "poliartrite", "fator_reumatoide", "metotrexato", "reumatologia"],
+    "justificativas": {
+      "A": "Incorreta. A esclerose sistêmica cursa com espessamento cutâneo, fenômeno de Raynaud e envolvimento visceral, não com poliartrite simétrica erosiva; a elevação de creatina quinase é típica das miopatias inflamatórias, e prednisona não é a primeira linha do quadro descrito.",
+      "B": "Correta. Poliartrite simétrica aditiva de pequenas articulações das mãos (IFP, MCF) e punhos com rigidez matinal prolongada (> 1 hora) por mais de 6 semanas caracteriza artrite reumatoide; espera-se fator reumatoide positivo e o metotrexato é a droga modificadora do curso da doença de primeira linha.",
+      "C": "Incorreta. Embora o lúpus possa cursar com artrite, o padrão erosivo com rigidez matinal muito prolongada e o quadro descrito favorecem AR; o padrão de FAN pontilhado fino denso (anti-DFS70) tipicamente ocorre em indivíduos sem doença autoimune sistêmica, e a cloroquina não seria a monoterapia de escolha para uma poliartrite ativa dessa magnitude.",
+      "D": "Incorreta. A doença mista do tecido conjuntivo associa-se a anti-U1-RNP em títulos elevados com padrão FAN pontilhado grosso e sobreposição de manifestações; a azatioprina não é a primeira linha para o controle da artrite descrita."
+    }
+  },
+  {
+    "num": 17,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Pneumotórax hipertensivo",
+    "subtema": "Descompressão torácica no atendimento pré-hospitalar do trauma",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_14"],
+    "tags": ["pneumotorax_hipertensivo", "trauma", "toracocentese", "descompressao", "atls"],
+    "justificativas": {
+      "A": "Incorreta. Embora exista hipotensão, ela decorre da obstrução ao retorno venoso pelo pneumotórax hipertensivo; a reposição volêmica isolada não trata a causa e a descompressão é prioritária e imediata.",
+      "B": "Incorreta. A cricotireoidostomia é indicada para obstrução de via aérea alta com impossibilidade de intubação, situação não descrita; a hipoxemia aqui é causada pelo colapso pulmonar hipertensivo.",
+      "C": "Incorreta. A pericardiocentese trataria tamponamento cardíaco, cuja tríade não se completa aqui; o desvio traqueal contralateral e a ausência de murmúrio à esquerda apontam para pneumotórax hipertensivo, não tamponamento.",
+      "D": "Correta. O quadro (desvio de traqueia para a direita, turgência jugular, hipofonese de bulhas, abolição do murmúrio vesicular à esquerda com hipoxemia e choque) é pneumotórax hipertensivo à esquerda; a conduta salvadora imediata é a descompressão por toracocentese (punção com agulha) do hemitórax acometido."
+    }
+  },
+  {
+    "num": 23,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Violência contra adolescente",
+    "subtema": "Notificação ao Conselho Tutelar e sinais de maus-tratos",
+    "competencia_dcn_2025": ["dcn2025_comp_11", "dcn2025_comp_24", "dcn2025_comp_05"],
+    "tags": ["violencia", "adolescente", "conselho_tutelar", "notificacao", "maus_tratos"],
+    "justificativas": {
+      "A": "Incorreta. Petéquias que evoluem para púrpura com febre, vômitos e rigidez de nuca configuram doença meningocócica (meningite/meningococcemia), uma emergência infecciosa de notificação sanitária, não sinal de violência para o Conselho Tutelar.",
+      "B": "Correta. Equimoses em face, pernas e coxas em vários estágios de evolução, associadas ao comportamento de evitar falar sobre o fato, são sinais indiretos de violência física contra a adolescente e configuram suspeita de maus-tratos, cuja notificação ao Conselho Tutelar é obrigatória (ECA).",
+      "C": "Incorreta. Febre, dor retro-orbitária, mialgia, sangramento gengival e petéquias sugerem dengue, quadro infeccioso, e não violência.",
+      "D": "Incorreta. Suores noturnos, febre inexplicada, perda de peso e linfonodomegalia generalizada (cervical, supraclavicular e inguinal) apontam para doença linfoproliferativa/neoplásica, não para violência que exija notificação ao Conselho Tutelar."
+    }
+  },
+  {
+    "num": 29,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "AVC isquêmico agudo",
+    "subtema": "Contraindicações à trombólise por extensão da isquemia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_01"],
+    "tags": ["avc_isquemico", "trombolise", "contraindicacao", "tomografia", "neurologia"],
+    "justificativas": {
+      "A": "Correta. A tomografia revela hipoatenuação em cerca de 40% do território da artéria cerebral média, ou seja, sinais precoces de isquemia extensa (> 1/3 do território da ACM); esse achado indica grande área já infartada e é contraindicação ao trombolítico pelo alto risco de transformação hemorrágica.",
+      "B": "Incorreta. O horário de instalação do déficit é incerto (paciente encontrado ao acordar / wake-up stroke), mas mesmo assumindo o último momento assintomático, o tempo até a avaliação não excede o limite; a contraindicação decisiva no caso é a extensão radiológica da isquemia, não a janela temporal.",
+      "C": "Incorreta. A glicemia de 285 mg/dL não constitui contraindicação à trombólise; os limites glicêmicos relevantes são hipoglicemia (< 50 mg/dL) ou hiperglicemia muito acentuada, e o valor apresentado não impede o tratamento.",
+      "D": "Incorreta. A pressão arterial de 170 x 100 mmHg está abaixo do limite máximo permitido (185 x 110 mmHg) para trombólise, portanto não é a contraindicação em questão."
+    }
+  },
+  {
+    "num": 35,
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Luto",
+    "subtema": "Manejo do luto agudo não complicado na atenção primária",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_06", "dcn2025_comp_12"],
+    "tags": ["luto", "atencao_primaria", "acolhimento", "saude_mental", "acompanhamento_longitudinal"],
+    "justificativas": {
+      "A": "Incorreta. O quadro corresponde a reação de luto agudo (3 dias após a perda), fisiológico e esperado, sem critérios para transtorno depressivo maior; a prescrição precoce de antidepressivo não está indicada e pode medicalizar um processo natural.",
+      "B": "Incorreta. Não há risco de suicídio, sintomas psicóticos ou sofrimento grave incapacitante que justifiquem seguimento intensivo em CAPS; o encaminhamento é desproporcional à necessidade.",
+      "C": "Incorreta. O luto recente não complicado deve ser acompanhado na própria atenção primária; o encaminhamento imediato à psicologia especializada não é a conduta inicial adequada nesse momento.",
+      "D": "Correta. Diante de luto agudo não complicado, sem risco de autoextermínio, a conduta adequada é o acolhimento e o acompanhamento longitudinal pela equipe da UBS, oferecendo apoio e observando a evolução para identificar eventual luto complicado."
+    }
+  },
+  {
+    "num": 42,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Sepse neonatal",
+    "subtema": "Choque séptico (distributivo) por onfalite no recém-nascido",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["sepse_neonatal", "choque_distributivo", "onfalite", "antibiotico", "neonatologia"],
+    "justificativas": {
+      "A": "Incorreta. Não há sinais de cardiopatia dependente de canal arterial nem de disfunção cardíaca primária; o foco infeccioso umbilical (halo de hiperemia e edema periumbilical) aponta para sepse, e a restrição rígida de volume com prostaglandina não é a conduta.",
+      "B": "Incorreta. O choque neurogênico decorre de lesão medular com vasoplegia e bradicardia, contexto ausente; o corticoide endovenoso não é o pilar do tratamento do quadro descrito.",
+      "C": "Incorreta. O choque obstrutivo (ex.: pneumotórax hipertensivo, tamponamento) exigiria descompressão, mas o quadro é de foco infeccioso umbilical com má perfusão sistêmica; não há indicação de toracocentese.",
+      "D": "Correta. RN de 14 dias, sem pré-natal e parto domiciliar, com onfalite (halo de hiperemia e edema periumbilical), hipoperfusão, taquipneia, taquicardia e hipotensão caracteriza choque séptico (distributivo); a conduta inclui suporte ventilatório, expansão volêmica com cristaloide isotônico, manutenção, antibioticoterapia e fármacos vasoativos."
+    }
+  },
+  {
+    "num": 49,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Contracepção em condições de risco",
+    "subtema": "Critérios de elegibilidade da OMS no LES com trombose",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_02"],
+    "tags": ["contracepcao", "diu_levonorgestrel", "les", "trombofilia", "criterios_elegibilidade"],
+    "justificativas": {
+      "A": "Incorreta. O DIU de cobre é uma opção sem risco trombótico, mas tende a aumentar o volume e a duração do sangramento menstrual, o que agravaria a menorragia e a dismenorreia já relatadas pela paciente.",
+      "B": "Correta. Diante de LES com trombose venosa recente (contraindicando estrogênio) associada a sangramento menstrual intenso e prolongado, o DIU de levonorgestrel é a melhor opção: é altamente eficaz, seguro quanto ao risco trombótico e reduz o fluxo menstrual, tratando também a menorragia.",
+      "C": "Incorreta. O injetável mensal combinado contém estrogênio, contraindicado (categoria 4) na presença de trombose venosa e no LES com anticorpos antifosfolípides pelo risco tromboembólico.",
+      "D": "Incorreta. A pílula combinada contínua contém estrogênio, contraindicado nesse contexto de trombose recente e LES pelo elevado risco de recorrência tromboembólica."
+    }
+  },
+  {
+    "num": 55,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Imunização do idoso",
+    "subtema": "Calendário vacinal do idoso e abordagem familiar na hesitação vacinal",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_12"],
+    "tags": ["imunizacao", "idoso", "calendario_vacinal", "hesitacao_vacinal", "visita_domiciliar"],
+    "justificativas": {
+      "A": "Correta. As vacinas listadas (pneumocócica 23-valente com reforço em 5 anos, dupla adulto dT a cada 10 anos, influenza e covid-19 anuais e hepatite B em 3 doses) integram o calendário nacional do idoso; e a abordagem centrada na família, agendando nova visita domiciliar com mais membros para dialogar, respeita o vínculo e favorece a adesão vacinal.",
+      "B": "Incorreta. Embora as vacinas citadas façam parte do calendário, denunciar a família ao Conselho Municipal do Idoso é uma abordagem punitiva e inadequada como conduta inicial diante de hesitação vacinal, que deve ser trabalhada pelo diálogo.",
+      "C": "Incorreta. A vacina pneumocócica indicada rotineiramente ao idoso no calendário é a 23-valente, não a 10-valente (esta é do calendário infantil); além disso, exigir termo de responsabilidade é abordagem coercitiva e imprópria.",
+      "D": "Incorreta. Além do erro de indicar a pneumocócica 10-valente, simplesmente respeitar a recusa da cuidadora sem oferecer educação em saúde e diálogo não cumpre o dever de promover a imunização do idoso vulnerável."
+    }
+  },
+  {
+    "num": 61,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Candidíase vulvovaginal",
+    "subtema": "Diagnóstico etiológico e tratamento com antifúngico tópico",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["candidiase", "corrimento_vaginal", "miconazol", "antifungico", "vulvovaginite"],
+    "justificativas": {
+      "A": "Correta. Prurido genital, edema e hiperemia vulvar, fissura, corrimento esbranquiçado (grumoso) e teste das aminas negativo, em diabética após uso de antibiótico, caracterizam candidíase vulvovaginal; o tratamento adequado é antifúngico como o miconazol tópico vaginal por 7 noites.",
+      "B": "Incorreta. A cefalexina é antibacteriana e trataria infecção bacteriana; não tem ação contra Candida, agente do quadro descrito.",
+      "C": "Incorreta. A azitromicina é indicada para infecções bacterianas (ex.: clamídia), sem efeito sobre a candidíase apresentada.",
+      "D": "Incorreta. O metronidazol trata vaginose bacteriana e tricomoníase, situações em que o teste das aminas costuma ser positivo e o corrimento é distinto; não é o tratamento da candidíase."
+    }
+  },
+  {
+    "num": 67,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Controle de hemorragia externa no trauma",
+    "subtema": "Compressão, torniquete e reposição volêmica pré-hospitalar",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_14"],
+    "tags": ["hemorragia", "torniquete", "trauma", "choque_hemorragico", "reposicao_volemica"],
+    "justificativas": {
+      "A": "Incorreta. A dissecção e o pinçamento cego do vaso no pré-hospitalar não são recomendados por risco de lesão de estruturas nobres; além disso, a albumina não é o fluido de escolha inicial na reanimação do trauma.",
+      "B": "Incorreta. A dissecção com pinçamento cego do vaso é conduta inadequada no ambiente pré-hospitalar, e o soro glicofisiológico não é o cristaloide de escolha para reposição no choque hemorrágico.",
+      "C": "Correta. No controle da hemorragia externa exsanguinante de extremidade, a sequência correta é compressão direta da ferida e, se insuficiente, aplicação de torniquete proximal à lesão e fora de articulação, associada à reposição volêmica com cristaloide (soro fisiológico).",
+      "D": "Incorreta. A conduta de compressão e torniquete está correta, mas a albumina não é o fluido indicado para reposição volêmica inicial no trauma, tornando a alternativa inadequada frente à opção com soro fisiológico."
+    }
+  },
+  {
+    "num": 73,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Crise febril",
+    "subtema": "Crise febril simples e conduta expectante",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_02"],
+    "tags": ["crise_febril", "convulsao_febril", "puericultura", "pediatria", "orientacao"],
+    "justificativas": {
+      "A": "Incorreta. Na crise febril simples, com exame neurológico normal, o eletroencefalograma não está indicado, pois não altera a conduta nem tem valor prognóstico nesse contexto.",
+      "B": "Incorreta. A profilaxia contínua com barbitúricos não é recomendada na crise febril simples devido aos efeitos adversos e ao caráter benigno e autolimitado do quadro.",
+      "C": "Correta. Crise tônico-clônica generalizada, única, com menos de 15 minutos, sem recorrência em 24 horas, em vigência de febre e com exame neurológico normal em criança de 2 anos configura crise febril simples; a conduta é tranquilizar a família e manter a puericultura de rotina.",
+      "D": "Incorreta. Exames laboratoriais e de imagem não estão indicados de rotina na crise febril simples com exame normal; devem ser reservados a sinais de infecção do SNC ou crises complexas."
+    }
+  },
+  {
+    "num": 80,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Hérnia diafragmática congênita",
+    "subtema": "Reanimação neonatal com intubação e contraindicação à ventilação com máscara",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["hernia_diafragmatica", "reanimacao_neonatal", "intubacao", "sala_de_parto", "neonatologia"],
+    "justificativas": {
+      "A": "Correta. Ruídos hidroaéreos no hemitórax esquerdo, ictus desviado à direita e abdome escavado indicam hérnia diafragmática congênita; nesse caso a ventilação com máscara é contraindicada (distende as alças no tórax), sendo necessária intubação traqueal imediata, associada à massagem cardíaca externa diante de apneia e bradicardia persistentes.",
+      "B": "Incorreta. Embora o cateterismo umbilical seja útil no manejo, a drenagem torácica não corrige a hérnia diafragmática (não há ar livre a drenar, e sim vísceras herniadas); a prioridade na sala de parto é a via aérea avançada.",
+      "C": "Incorreta. O óxido nítrico e o surfactante não são os procedimentos iniciais na sala de parto para esse quadro; a conduta imediata frente à apneia e bradicardia é intubação e suporte circulatório.",
+      "D": "Incorreta. A ventilação com balão e máscara (autoinflável) é justamente contraindicada na hérnia diafragmática congênita, pois insufla o estômago e as alças intestinais herniadas, piorando a compressão pulmonar; deve-se intubar."
+    }
+  },
+  {
+    "num": 86,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Arterite temporal",
+    "subtema": "Cefaleia secundária na arterite de células gigantes e VHS",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_10"],
+    "tags": ["arterite_temporal", "cefaleia_secundaria", "vhs", "amaurose", "arterite_celulas_gigantes"],
+    "justificativas": {
+      "A": "Incorreta. A cefaleia tensional não cursa com sintomas visuais (amaurose fugaz, diplopia), sensibilidade do couro cabeludo, perda de peso e artralgias; esses sinais de alarme afastam cefaleia primária benigna e exigem investigação.",
+      "B": "Incorreta. A hemorragia subaracnóidea manifesta-se como cefaleia súbita e intensa (thunderclap), muitas vezes com rigidez de nuca e rebaixamento; o quadro subagudo e sistêmico descrito não é compatível.",
+      "C": "Incorreta. A migrânea é cefaleia primária, tipicamente com fotofobia, fonofobia e náuseas, aqui negadas; além disso, os sinais sistêmicos e a idade favorecem causa secundária, não migrânea.",
+      "D": "Correta. Mulher acima de 50 anos com cefaleia, hipersensibilidade do couro cabeludo, sintomas visuais (amaurose fugaz, diplopia), perda de peso e artralgias sugere arterite temporal (de células gigantes), uma cefaleia secundária; a velocidade de hemossedimentação (VHS), tipicamente muito elevada, é o exame útil na investigação preliminar."
+    }
+  },
+  {
+    "num": 93,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Queimadura química ocular",
+    "subtema": "Irrigação imediata e encaminhamento ao oftalmologista",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_06"],
+    "tags": ["queimadura_quimica", "trauma_ocular", "irrigacao", "oftalmologia", "emergencia_ocular"],
+    "justificativas": {
+      "A": "Incorreta. Analgésico tópico e lubrificante não removem o agente cáustico nem interrompem a lesão em curso; a queimadura química ocular exige irrigação imediata e avaliação especializada.",
+      "B": "Incorreta. A irrigação deve ser feita com solução fisiológica (ou água limpa) em abundância, e o curativo oclusivo não é a prioridade; a água boricada e a oclusão retardam o tratamento correto e a avaliação do especialista.",
+      "C": "Correta. Na queimadura química ocular, a conduta imediata e prioritária é a irrigação copiosa com solução fisiológica para remover o agente e neutralizar o pH, seguida de avaliação imediata pelo oftalmologista, dada a opacidade corneana e a gravidade da lesão.",
+      "D": "Incorreta. Embora o encaminhamento ao especialista seja necessário, prescrever corticoide tópico antes da irrigação e da avaliação não é o manejo inicial correto; a lavagem ocular imediata é a primeira e indispensável medida."
+    }
+  },
+  {
+    "num": 99,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Ruptura prematura de membranas pré-termo",
+    "subtema": "Conduta expectante com internação e monitoramento na RPMO pré-termo",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["rpmo", "amniorrexe_prematura", "conduta_expectante", "corticoterapia", "obstetricia"],
+    "justificativas": {
+      "A": "Correta. Na ruptura prematura de membranas pré-termo com 33 semanas, sem trabalho de parto, infecção ou sofrimento fetal, após antibiótico e corticoterapia a conduta é expectante com internação hospitalar e monitoramento materno-fetal diário, buscando prolongar a gestação e vigiar complicações.",
+      "B": "Incorreta. A indução imediata do parto não está indicada com 33 semanas na ausência de infecção, descolamento ou comprometimento fetal, pois a prematuridade traria mais risco que a conduta expectante monitorada.",
+      "C": "Incorreta. Diante de amniorrexe prematura pré-termo, a paciente deve permanecer internada para vigilância de infecção e do bem-estar fetal; alta com acompanhamento ambulatorial é insegura.",
+      "D": "Incorreta. Além de a alta ser inadequada nesse contexto, o monitoramento apenas semanal é insuficiente para detectar precocemente corioamnionite ou sofrimento fetal na RPMO pré-termo."
+    }
+  }
+]

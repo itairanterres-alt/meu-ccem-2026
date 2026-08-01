@@ -1,0 +1,242 @@
+[
+  {
+    "num": 4,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Endometriose",
+    "subtema": "Diagnóstico clínico da dor pélvica crônica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["endometriose", "dismenorreia", "dispareunia", "dor_pelvica", "ginecologia"],
+    "justificativas": {
+      "A": "Incorreta. A doença inflamatória pélvica cursa com quadro agudo/subagudo infeccioso (febre, corrimento, dor pélvica aguda), e não com dismenorreia progressiva e dispareunia de profundidade de curso crônico como o descrito.",
+      "B": "Incorreta. A miomatose uterina tende a aumentar o volume uterino e causar sangramento uterino anormal, não sendo característica a dispareunia de profundidade progressiva com útero de volume normal.",
+      "C": "Incorreta. O cisto hemorrágico manifesta-se tipicamente como dor pélvica aguda, unilateral e autolimitada, e não como dismenorreia progressiva crônica associada a dispareunia profunda.",
+      "D": "Correta. A tríade de dismenorreia progressiva, dispareunia de profundidade e dor à mobilização do colo, em útero retroversofletido, é altamente sugestiva de endometriose."
+    }
+  },
+  {
+    "num": 14,
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Transtorno de oposição desafiante",
+    "subtema": "Diagnóstico diferencial de transtornos disruptivos na infância",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["transtorno_opositor_desafiante", "psiquiatria_infantil", "comportamento_disruptivo", "diagnostico"],
+    "justificativas": {
+      "A": "Incorreta. Não há descrição de episódios de mania ou depressão maior sustentados; o humor normaliza rapidamente após o gatilho, o que afasta transtorno afetivo bipolar.",
+      "B": "Correta. O padrão persistente de humor raivoso/irritável, comportamento questionador e desafiante a figuras de autoridade, recusa de regras e tendência a culpar os outros, com bom funcionamento fora dos gatilhos, caracteriza o transtorno de oposição desafiante.",
+      "C": "Incorreta. O transtorno disruptivo da desregulação do humor exige irritabilidade persistente e humor negativo crônico entre os acessos de raiva, e não retorno a estado feliz e agradável como descrito.",
+      "D": "Incorreta. O núcleo do quadro é a oposição e o desafio, e não desatenção, hiperatividade e impulsividade pervasivas que definem o TDAH."
+    }
+  },
+  {
+    "num": 20,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Profilaxia do HIV (PEP e PrEP)",
+    "subtema": "Sequência PEP após exposição recente e início de PrEP",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_11"],
+    "tags": ["pep", "prep", "hiv", "prevencao", "populacoes_vulneraveis"],
+    "justificativas": {
+      "A": "Incorreta. Inverte a lógica de prevenção: diante de exposição de risco há apenas 2 dias, a prioridade é a PEP; a PrEP não é indicada como primeira medida e a sequência descrita é inadequada.",
+      "B": "Incorreta. A PrEP de início imediato não protege contra a exposição de risco já ocorrida há 2 dias; nesse contexto o correto é iniciar a PEP.",
+      "C": "Correta. Diante de exposição sexual desprotegida há 2 dias (dentro das 72 horas), testa-se HIV e sífilis, prescreve-se PEP com resultado não reagente e programa-se o início da PrEP após o término da PEP.",
+      "D": "Incorreta. PEP e PrEP não são prescritas de forma concomitante; a PrEP deve ser iniciada somente após a conclusão da PEP."
+    }
+  },
+  {
+    "num": 26,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Dengue com sinais de alarme",
+    "subtema": "Classificação de risco (grupo C) e manejo",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["dengue", "sinais_de_alarme", "grupo_c", "hidratacao_parenteral", "ns1"],
+    "justificativas": {
+      "A": "Incorreta. A presença de vômitos incontroláveis e dor abdominal (sinais de alarme) classifica o caso como grupo C, e não B, sendo inadequado o acompanhamento domiciliar.",
+      "B": "Incorreta. Embora classifique corretamente como grupo C, o manejo do grupo C exige hidratação parenteral e observação em leito, não hidratação oral e acompanhamento ambulatorial; o NS1 é o exame de escolha na fase precoce.",
+      "C": "Correta. Vômitos incontroláveis e dor abdominal são sinais de alarme (grupo C), indicando hidratação parenteral, sintomáticos, solicitação de hemograma/plaquetas e antígeno NS1 (doença com 3 dias) e observação em leito até estabilização.",
+      "D": "Incorreta. Classifica erroneamente como grupo B; ainda que proponha hidratação parenteral, a classificação de risco está incorreta frente aos sinais de alarme presentes."
+    }
+  },
+  {
+    "num": 32,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Hipertensão crônica na gestação",
+    "subtema": "Anti-hipertensivo seguro e prevenção de pré-eclâmpsia",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["hipertensao_cronica", "gestacao", "metildopa", "aas", "pre-eclampsia"],
+    "justificativas": {
+      "A": "Incorreta. O captopril (IECA) é teratogênico e contraindicado na gestação, assim como a varfarina, pelo risco fetal.",
+      "B": "Incorreta. A furosemida não é anti-hipertensivo de escolha na gestação e a varfarina é teratogênica e contraindicada.",
+      "C": "Incorreta. A losartana (BRA) é contraindicada na gravidez pelo risco fetal e não há indicação de enoxaparina na ausência de trombofilia/trombose.",
+      "D": "Correta. A alfa-metildopa é anti-hipertensivo de primeira escolha na gestação e, pelo antecedente de pré-eclâmpsia, indicam-se ácido acetilsalicílico em baixa dose e suplementação de carbonato de cálcio para prevenção."
+    }
+  },
+  {
+    "num": 38,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Pancreatite crônica",
+    "subtema": "Dor abdominal em etilista com enzimas pancreáticas normais",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["pancreatite_cronica", "etilismo", "dor_epigastrica", "amilase", "lipase"],
+    "justificativas": {
+      "A": "Incorreta. A colangite aguda cursa com a tríade de Charcot (febre, icterícia e dor em hipocôndrio direito); aqui não há icterícia e bilirrubina/fosfatase alcalina estão normais.",
+      "B": "Incorreta. A colecistite aguda manifesta-se com dor em hipocôndrio direito e sinal de Murphy, o que não corresponde ao quadro epigástrico irradiado ao dorso descrito.",
+      "C": "Incorreta. Apesar da dor epigástrica pós-prandial, o contexto de etilismo pesado, as crises recorrentes ao longo do ano e a dor irradiada ao dorso apontam para acometimento pancreático em vez de doença ulcerosa péptica.",
+      "D": "Correta. Etilista crônico com episódios recorrentes de dor epigástrica em faixa irradiada ao dorso e amilase/lipase dentro da normalidade caracteriza pancreatite crônica, na qual a fibrose glandular pode manter as enzimas normais."
+    }
+  },
+  {
+    "num": 46,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Espondilite anquilosante",
+    "subtema": "Lombalgia inflamatória e HLA-B27",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["espondilite_anquilosante", "hla_b27", "sacroileite", "lombalgia_inflamatoria", "reumatologia"],
+    "justificativas": {
+      "A": "Incorreta. A artrite reativa costuma ser precedida por infecção gastrointestinal ou geniturinária, antecedente ausente no caso.",
+      "B": "Incorreta. A artrite psoriática exige manifestações cutâneas/ungueais de psoríase ou dactilite, não descritas no paciente.",
+      "C": "Correta. Homem jovem com lombalgia inflamatória (piora matinal, melhora com movimento, rigidez > 30 min), sacroileíte e HLA-B27 positivo, com FR e anti-CCP negativos, é o quadro típico de espondilite anquilosante.",
+      "D": "Incorreta. O ANA em título baixo (1:80) é inespecífico e o anti-DNA dupla hélice é negativo; o acometimento axial inflamatório não é característico do lúpus eritematoso sistêmico."
+    }
+  },
+  {
+    "num": 52,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Reflexos primitivos do lactente",
+    "subtema": "Cronologia de desaparecimento dos reflexos aos 11 meses",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["reflexos_primitivos", "puericultura", "desenvolvimento_neuropsicomotor", "lactente"],
+    "justificativas": {
+      "A": "Correta. Aos 11 meses os reflexos primitivos já desapareceram; o reflexo plantar (cutâneo-plantar/Babinski) ainda pode ser eliciado fisiologicamente nessa faixa etária.",
+      "B": "Incorreta. O reflexo de Moro desaparece por volta dos 4 a 6 meses, não estando presente aos 11 meses.",
+      "C": "Incorreta. O reflexo de procura (busca/rooting) desaparece por volta dos 3 a 4 meses de idade.",
+      "D": "Incorreta. O reflexo tônico cervical assimétrico desaparece em torno dos 4 a 6 meses, não sendo esperado aos 11 meses."
+    }
+  },
+  {
+    "num": 58,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Tireoidite subaguda de De Quervain",
+    "subtema": "Confirmação por captação de iodo e tratamento sintomático",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["tireoidite_subaguda", "de_quervain", "tireotoxicose", "captacao_de_iodo", "betabloqueador"],
+    "justificativas": {
+      "A": "Correta. Quadro pós-viral com tireoide dolorosa, tireotoxicose transitória e VHS/PCR elevadas indica tireoidite subaguda, que cursa com captação reduzida de iodo radioativo; o tratamento é sintomático com betabloqueador e anti-inflamatório.",
+      "B": "Incorreta. Não há nódulo quente à cintilografia (a captação está difusamente reduzida) e a tireoidectomia subtotal não está indicada nesse quadro autolimitado.",
+      "C": "Incorreta. Na tireotoxicose o TSH está suprimido, não aumentado; o TRAb é marcador de doença de Graves e a ablação com iodo não trata a tireoidite destrutiva.",
+      "D": "Incorreta. O TSH encontra-se suprimido na fase tireotóxica; oseltamivir e metimazol não têm papel no tratamento da tireoidite destrutiva subaguda."
+    }
+  },
+  {
+    "num": 64,
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Risco de suicídio",
+    "subtema": "Indicação de internação em crise suicida de alto risco",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02"],
+    "tags": ["risco_de_suicidio", "depressao", "internacao", "emergencia_psiquiatrica", "seguranca_do_paciente"],
+    "justificativas": {
+      "A": "Incorreta. O encaminhamento à UBS é insuficiente diante de risco suicida iminente, com plano estruturado e acesso a meio letal.",
+      "B": "Incorreta. A psicoterapia na atenção primária não garante a proteção imediata necessária em situação de risco iminente de suicídio.",
+      "C": "Incorreta. O acompanhamento ambulatorial em CAPS I não oferece a contenção e vigilância necessárias frente a risco suicida grave e imediato.",
+      "D": "Correta. Ideação suicida persistente com plano estruturado, acesso ao meio, isolamento e ausência de rede de apoio configura risco iminente, indicando internação em enfermaria de saúde mental em hospital geral."
+    }
+  },
+  {
+    "num": 70,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Surto de escabiose em ambiente prisional",
+    "subtema": "Bloqueio coletivo e vigilância em saúde",
+    "competencia_dcn_2025": ["dcn2025_comp_14", "dcn2025_comp_24"],
+    "tags": ["escabiose", "surto", "sistema_prisional", "bloqueio_coletivo", "vigilancia_em_saude"],
+    "justificativas": {
+      "A": "Incorreta. O isolamento e o tratamento individual são insuficientes em um surto coletivo com superlotação; o controle exige tratamento simultâneo (bloqueio) de todos os expostos.",
+      "B": "Correta. Em surto de escabiose em ambiente coletivo superlotado, as ações prioritárias são o bloqueio coletivo com tratamento simultâneo, a notificação ao serviço de vigilância, a reorganização de fluxos com a administração e medidas educativas e estruturais.",
+      "C": "Incorreta. Restringir o tratamento apenas aos casos confirmados perpetua a cadeia de transmissão no ambiente coletivo, sendo inadequado no controle de surto.",
+      "D": "Incorreta. Focar em transferência de casos graves e folhetos informativos não controla o surto nem enfrenta os determinantes estruturais (superlotação)."
+    }
+  },
+  {
+    "num": 77,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Competência cultural no cuidado a populações tradicionais",
+    "subtema": "Cuidado a ribeirinhos e indígenas na Amazônia",
+    "competencia_dcn_2025": ["dcn2025_comp_11", "dcn2025_comp_02"],
+    "tags": ["competencia_cultural", "populacoes_tradicionais", "indigenas", "cuidado_centrado", "diversidade"],
+    "justificativas": {
+      "A": "Incorreta. A padronização de rotinas e a comunicação puramente técnica desconsideram a diversidade cultural das populações atendidas e podem afastar o vínculo.",
+      "B": "Correta. Promover espaços formativos que reconheçam os saberes e práticas das populações ribeirinhas e indígenas é a abordagem culturalmente competente e centrada na pessoa.",
+      "C": "Incorreta. Reforçar apenas a autonomia profissional e condutas baseadas em evidências, ignorando o contexto cultural, compromete o cuidado e o vínculo.",
+      "D": "Incorreta. Rotinas uniformes e padronizadas desconsideram as especificidades culturais de ribeirinhos e indígenas, sendo inadequadas nesse contexto."
+    }
+  },
+  {
+    "num": 83,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento do câncer de colo uterino",
+    "subtema": "Conduta em lesão intraepitelial de baixo grau (LSIL)",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["citologia_oncotica", "lsil", "rastreamento", "colo_uterino", "seguimento"],
+    "justificativas": {
+      "A": "Incorreta. A ultrassonografia transvaginal não avalia lesões intraepiteliais do colo uterino e não tem papel na conduta do resultado citológico descrito.",
+      "B": "Correta. Para lesão intraepitelial de baixo grau (LSIL) em mulher com 25 anos ou mais, a conduta recomendada é repetir o exame citopatológico em 6 meses.",
+      "C": "Incorreta. O encaminhamento imediato à colposcopia não é a conduta inicial para LSIL isolada nessa faixa etária; a colposcopia fica reservada à persistência da alteração.",
+      "D": "Incorreta. O intervalo preconizado para repetição do citopatológico na LSIL é de 6 meses, e não imediato."
+    }
+  },
+  {
+    "num": 90,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Profilaxia da raiva humana",
+    "subtema": "Acidente grave por felino com esquema vacinal e imunoglobulina",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_14"],
+    "tags": ["raiva", "profilaxia_pos_exposicao", "mordida_de_gato", "imunoglobulina", "vacina_antirrabica"],
+    "justificativas": {
+      "A": "Incorreta. Feridas por mordida não devem ser suturadas, o soro isolado não constitui esquema adequado e a penicilina benzatina não faz profilaxia antirrábica.",
+      "B": "Incorreta. Não se deve aguardar a busca do animal, que fugiu e é não passível de observação, sobretudo com raiva confirmada na cidade; a profilaxia deve ser imediata.",
+      "C": "Correta. Diante de acidente grave por felino não passível de observação em área com raiva confirmada, a conduta é lavar os ferimentos com água corrente abundante e sabão, aplicar imunoglobulina humana antirrábica e o esquema vacinal.",
+      "D": "Incorreta. Contraindicar as doses subsequentes por reação adversa e apoiar-se apenas no soro constitui conduta inadequada e insuficiente para a profilaxia antirrábica."
+    }
+  },
+  {
+    "num": 96,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Cancro mole (cancroide)",
+    "subtema": "Diagnóstico e tratamento de úlcera genital dolorosa",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["cancro_mole", "haemophilus_ducreyi", "ist", "ulcera_genital", "azitromicina"],
+    "justificativas": {
+      "A": "Incorreta. O linfogranuloma venéreo (Chlamydia trachomatis) cursa com úlcera indolor e transitória seguida de bubão, e não com úlcera dolorosa de base mole como a descrita.",
+      "B": "Incorreta. A biópsia com pesquisa de bacilos álcool-ácido resistentes e esquema para tuberculose não corresponde ao quadro de úlcera genital dolorosa por IST.",
+      "C": "Incorreta. O cancro sifilítico (VDRL reagente, tratado com penicilina benzatina) é úlcera indolor de base endurecida, enquanto a lesão descrita é dolorosa e de base mole.",
+      "D": "Correta. Úlcera genital dolorosa, rasa, de base mole com bordas elevadas e linfonodomegalia inflamatória sugere cancro mole por Haemophilus ducreyi; a microscopia revela bacilos Gram-negativos agrupados em correntes e o tratamento é azitromicina 500 mg, 2 comprimidos em dose única."
+    }
+  }
+]

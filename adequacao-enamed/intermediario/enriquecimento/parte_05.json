@@ -1,0 +1,242 @@
+[
+  {
+    "num": 6,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Níveis de atenção e níveis de prevenção",
+    "subtema": "Prevenção secundária no pós-infarto",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_01"],
+    "tags": ["prevencao_secundaria", "atencao_secundaria", "iam", "cardiologia", "niveis_atencao"],
+    "justificativas": {
+      "A": "Incorreta. O atendimento pelo cardiologista, mediante encaminhamento da APS, ocorre na atenção secundária (especializada), e não primária; além disso, a conduta em paciente já infartado é prevenção secundária, não primária.",
+      "B": "Correta. O cardiologista atende em nível de atenção secundária (assistência especializada acessada por encaminhamento) e, tratando-se de paciente que já teve IAM, a antiagregação visa evitar novo evento em doença já instalada, caracterizando prevenção secundária.",
+      "C": "Incorreta. A atenção terciária corresponde a procedimentos de alta complexidade e a prevenção terciária refere-se à reabilitação e à redução de sequelas; o caso é de consulta especializada ambulatorial com foco em evitar recorrência, não em reabilitar incapacidade estabelecida.",
+      "D": "Incorreta. Prevenção quaternária é a proteção contra intervenções médicas excessivas/desnecessárias e não corresponde ao nível de atenção; o cenário descreve atenção secundária com prevenção secundária."
+    }
+  },
+  {
+    "num": 16,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Acompanhamento do crescimento na síndrome de Down",
+    "subtema": "Curvas de crescimento específicas",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["sindrome_de_down", "puericultura", "curvas_crescimento", "crescimento", "pediatria"],
+    "justificativas": {
+      "A": "Incorreta. As curvas da OMS destinam-se a crianças sem condições que alterem o padrão de crescimento; na síndrome de Down o padrão pôndero-estatural difere, tornando as curvas gerais inadequadas para o seguimento.",
+      "B": "Correta. Crianças com síndrome de Down possuem padrão de crescimento próprio, devendo ser acompanhadas em curvas específicas para a síndrome desde o nascimento, o que permite avaliação e interpretação adequadas do crescimento.",
+      "C": "Incorreta. Não há fator de correção de peso e comprimento a ser aplicado sobre as curvas da OMS na síndrome de Down; a conduta correta é usar curvas específicas, não corrigir dados nas curvas gerais.",
+      "D": "Incorreta. Não se troca de curva aos 2 anos; o acompanhamento deve ser feito em curvas específicas para síndrome de Down desde o nascimento, e não apenas a partir dessa idade."
+    }
+  },
+  {
+    "num": 22,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença de Parkinson",
+    "subtema": "Tratamento farmacológico inicial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["parkinson", "levodopa", "bradicinesia", "tremor_repouso", "neurologia"],
+    "justificativas": {
+      "A": "Correta. O quadro (bradicinesia, tremor de repouso assimétrico, rigidez em roda dentada, marcha em pequenos passos e fácies em máscara) é típico de doença de Parkinson, cujo tratamento sintomático mais eficaz é a levodopa associada à carbidopa, especialmente em idosos.",
+      "B": "Incorreta. Donepezila e memantina são indicadas na doença de Alzheimer/demência; a paciente nega alterações de memória e cognição, não havendo demência a tratar.",
+      "C": "Incorreta. Propranolol trata tremor essencial (postural/de ação), incompatível com o tremor de repouso descrito; a associação não é o tratamento inicial recomendado do parkinsonismo desse caso.",
+      "D": "Incorreta. Atorvastatina (hipolipemiante) e baclofeno (relaxante para espasticidade) não tratam a doença de Parkinson e não abordam a bradicinesia e o tremor de repouso apresentados."
+    }
+  },
+  {
+    "num": 28,
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "conhecimento",
+    "dificuldade_editorial": "medio",
+    "tema": "Internação involuntária em saúde mental",
+    "subtema": "Legislação (Lei 10.216/2001)",
+    "competencia_dcn_2025": ["dcn2025_comp_05", "dcn2025_comp_23"],
+    "tags": ["internacao_involuntaria", "saude_mental", "lei_10216", "legislacao", "ministerio_publico"],
+    "justificativas": {
+      "A": "Incorreta. A internação involuntária não depende de determinação judicial; ela é solicitada por terceiro e autorizada por médico, diferentemente da internação compulsória, esta sim determinada pela Justiça.",
+      "B": "Correta. Conforme a Lei 10.216/2001, a internação involuntária ocorre sem o consentimento do paciente e a pedido de terceiro, sendo autorizada por médico devidamente registrado no Conselho Regional de Medicina do respectivo estado.",
+      "C": "Incorreta. A comunicação ao Ministério Público Estadual deve ser feita em até 72 horas, e não em 15 dias nem ao Ministério Público Federal.",
+      "D": "Incorreta. O término da internação involuntária dá-se por solicitação escrita do familiar/responsável ou por determinação do médico responsável, não por solicitação do Ministério Público Municipal (inexistente para o tema)."
+    }
+  },
+  {
+    "num": 34,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Testes diagnósticos e epidemiologia",
+    "subtema": "Valor preditivo e prevalência",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["sensibilidade", "especificidade", "valor_preditivo", "prevalencia", "hanseniase"],
+    "justificativas": {
+      "A": "Incorreta. Alta sensibilidade não garante alto valor preditivo positivo; em baixa prevalência e com especificidade de apenas 65%, muitos positivos serão falsos, reduzindo a probabilidade de doença entre os testados positivos.",
+      "B": "Correta. A especificidade de 65% gera muitos falsos-positivos, efeito ainda amplificado pela baixa prevalência da doença na população, situação que reduz o valor preditivo positivo e eleva o número absoluto de falsos-positivos.",
+      "C": "Incorreta. A alta sensibilidade (92%) implica poucos falsos-negativos e boa capacidade de detectar casos reais; o problema do teste está nos falsos-positivos, não nos falsos-negativos.",
+      "D": "Incorreta. Testes com alta sensibilidade são úteis para triagem/rastreamento (excluir doença), não para confirmação diagnóstica, que exige alta especificidade."
+    }
+  },
+  {
+    "num": 41,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cetoacidose diabética",
+    "subtema": "Diagnóstico e reposição volêmica inicial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["cetoacidose_diabetica", "dm1", "hidratacao", "insulina", "emergencia"],
+    "justificativas": {
+      "A": "Incorreta. Não há dados de pancreatite (amilase/lipase, etiologia biliar/alcoólica); a dor abdominal aqui é manifestação da própria cetoacidose, e a conduta central não é dieta zero.",
+      "B": "Incorreta. O estado hiperosmolar cursa com glicemias muito mais elevadas, ausência de acidose significativa e sem cetose importante; o paciente tem pH 7,2, bicarbonato baixo e hálito cetótico, definindo cetoacidose, não EHH.",
+      "C": "Correta. Hiperglicemia, acidose metabólica (pH 7,2; HCO3 10), cetose e desidratação em DM1 sem insulina definem cetoacidose diabética; a conduta inicial é a reposição volêmica com soro fisiológico 0,9%, antes da insulina, sobretudo com potássio de 3,0 mEq/L.",
+      "D": "Incorreta. A creatinina discretamente elevada reflete desidratação (lesão renal pré-renal), não insuficiência renal primária; e bicarbonato de sódio não é a conduta inicial, sendo reservado a acidoses muito graves (pH < 6,9)."
+    }
+  },
+  {
+    "num": 48,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Derrame pleural",
+    "subtema": "Investigação e toracocentese",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["derrame_pleural", "toracocentese", "ultrassonografia", "tuberculose", "pneumologia"],
+    "justificativas": {
+      "A": "Incorreta. A ressonância magnética não é o exame de escolha para caracterizar derrame pleural, e a programação cirúrgica não é a conduta inicial diante de líquido pleural a ser investigado.",
+      "B": "Incorreta. A tomografia auxilia, mas a lobectomia segmentar não se aplica: o achado (murmúrio diminuído e macicez em base) indica derrame pleural, cuja conduta é a punção diagnóstica, não a ressecção pulmonar.",
+      "C": "Incorreta. A drenagem de tórax é indicada em derrames complicados/empiema ou pneumotórax, não como primeira abordagem de um derrame a esclarecer; a etapa inicial é a análise do líquido por toracocentese.",
+      "D": "Correta. O quadro (tosse, febre vespertina, emagrecimento, macicez e murmúrio diminuído em base) sugere derrame pleural (possível etiologia tuberculosa); a ultrassonografia confirma e guia a toracocentese, exame diagnóstico e conduta iniciais adequados."
+    }
+  },
+  {
+    "num": 54,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Contracepção hormonal e critérios de elegibilidade",
+    "subtema": "Contraindicação do combinado na enxaqueca com aura",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["contracepcao", "enxaqueca_com_aura", "avc", "criterios_oms", "estrogenio"],
+    "justificativas": {
+      "A": "Incorreta. O antecedente familiar de câncer de mama na avó não contraindica o contraceptivo combinado; não é o motivo da contraindicação nesta paciente.",
+      "B": "Incorreta. Diabetes na irmã é antecedente familiar e não contraindica o método; o combinado não está contraindicado por risco de diabetes neste caso.",
+      "C": "Correta. A enxaqueca com aura é categoria 4 (contraindicação absoluta) para contraceptivos combinados, pois o estrogênio aumenta significativamente o risco de acidente vascular cerebral isquêmico nessas pacientes.",
+      "D": "Incorreta. Embora o combinado possa elevar a pressão arterial, a hipertensão da mãe é apenas antecedente familiar; o fator determinante da contraindicação absoluta aqui é a enxaqueca com aura pelo risco de AVC."
+    }
+  },
+  {
+    "num": 60,
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Doença diverticular complicada",
+    "subtema": "Diverticulite aguda - exame de maior acurácia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["diverticulite", "tomografia", "fossa_iliaca_esquerda", "abdome_agudo", "cirurgia"],
+    "justificativas": {
+      "A": "Incorreta. A radiografia em três posições avalia perfuração/obstrução, mas tem baixa acurácia para diagnosticar diverticulite e estadiar complicações como abscesso/plastrão.",
+      "B": "Incorreta. A colonoscopia é contraindicada na fase aguda pelo risco de perfuração; é reservada para reavaliação após 4-6 semanas, para excluir neoplasia, não para o diagnóstico agudo.",
+      "C": "Correta. O quadro (dor em FIE, febre, leucocitose com desvio, plastrão e antecedente de hematoquezia) sugere diverticulite aguda complicada; a tomografia de abdome com contraste é o exame de maior acurácia para o diagnóstico e a classificação da gravidade.",
+      "D": "Incorreta. A ultrassonografia é operador-dependente e menos acurada que a tomografia para diverticulite e suas complicações, especialmente em paciente obeso (IMC 30,5)."
+    }
+  },
+  {
+    "num": 66,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Cetoacidose diabética na infância",
+    "subtema": "Reposição de potássio antes da insulina",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["cetoacidose_diabetica", "potassio", "pediatria", "fluidoterapia", "emergencia"],
+    "justificativas": {
+      "A": "Correta. Na cetoacidose diabética, após a fluidoterapia, deve-se garantir a reposição/correção do potássio, pois a insulinoterapia desloca o potássio para o intracelular e pode causar hipocalemia grave; assegurar o potássio é passo essencial antes/junto da insulina.",
+      "B": "Incorreta. A correção da glicemia com insulina não deve ser o próximo passo isolado sem antes assegurar o potássio, sob risco de hipocalemia; ademais a queda glicêmica deve ser gradual e controlada.",
+      "C": "Incorreta. O bicarbonato de sódio não é rotina na cetoacidose e é reservado a acidose extrema (pH < 6,9); o pH de 7,15 não indica seu uso.",
+      "D": "Incorreta. O manitol é utilizado no tratamento do edema cerebral, uma complicação eventual da cetoacidose, e não como próximo passo de rotina após a fluidoterapia."
+    }
+  },
+  {
+    "num": 72,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Supercrescimento bacteriano do intestino delgado (SIBO)",
+    "subtema": "Antibioticoterapia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["sibo", "rifaximina", "diarreia_cronica", "teste_respiratorio", "gastroenterologia"],
+    "justificativas": {
+      "A": "Correta. Diarreia crônica com perda ponderal, flatulência, endoscopias e histologia normais e teste respiratório com lactulose positivo caracterizam supercrescimento bacteriano do intestino delgado (SIBO), cujo tratamento é antibioticoterapia com rifaximina (ou neomicina) para reduzir a carga bacteriana.",
+      "B": "Incorreta. Loperamida e escopolamina apenas controlam sintomas (diarreia e cólica) e não tratam a causa; não abordam o supercrescimento bacteriano evidenciado.",
+      "C": "Incorreta. Dieta sem glúten e sem lactose trataria doença celíaca ou intolerância à lactose, mas a histologia do delgado é normal e o achado positivo é o teste respiratório, apontando SIBO.",
+      "D": "Incorreta. Probióticos e inibidores da bomba de prótons não são o tratamento do SIBO; os IBP inclusive favorecem o supercrescimento por reduzir a barreira ácida gástrica."
+    }
+  },
+  {
+    "num": 79,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Sepse",
+    "subtema": "Antibioticoterapia precoce na primeira hora",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["sepse", "itu", "antibiotico", "primeira_hora", "diabetes"],
+    "justificativas": {
+      "A": "Incorreta. Antitérmico e hidratação oral com observação são insuficientes: a paciente diabética com foco urinário, febre, taquicardia, taquipneia e leucocitose com desvio apresenta sepse, que exige antibiótico intravenoso precoce.",
+      "B": "Correta. O quadro configura sepse de foco urinário; conforme os pacotes de tratamento (Surviving Sepsis), a antibioticoterapia empírica de amplo espectro deve ser iniciada ainda na primeira hora, junto de coletas de culturas e ressuscitação volêmica.",
+      "C": "Incorreta. Não há indicação de cobertura antifúngica empírica para Candida apenas por ITU de repetição em diabética; a abordagem inicial é antibiótico de amplo espectro, com posterior descalonamento conforme culturas.",
+      "D": "Incorreta. Não se deve manter amplo espectro por todo o tratamento independentemente das culturas; após os resultados, o esquema deve ser descalonado (antibiótico guiado), princípio do uso racional de antimicrobianos."
+    }
+  },
+  {
+    "num": 85,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Intoxicação por benzodiazepínicos",
+    "subtema": "Antídoto - flumazenil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["intoxicacao", "benzodiazepinico", "flumazenil", "clonazepam", "antidoto"],
+    "justificativas": {
+      "A": "Incorreta. N-acetilcisteína é o antídoto da intoxicação por paracetamol, não tendo ação sobre a intoxicação por benzodiazepínico descrita.",
+      "B": "Correta. A ingestão de dose elevada de clonazepam com rebaixamento do nível de consciência, hipotensão e depressão respiratória caracteriza intoxicação por benzodiazepínico, cujo antídoto específico é o flumazenil, antagonista dos receptores GABA-benzodiazepínicos.",
+      "C": "Incorreta. A naloxona é o antídoto da intoxicação por opioides; não reverte os efeitos dos benzodiazepínicos.",
+      "D": "Incorreta. A atropina é usada em intoxicações por organofosforados/carbamatos e em bradicardias, não sendo indicada na intoxicação por benzodiazepínico."
+    }
+  },
+  {
+    "num": 92,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Crise asmática grave na infância",
+    "subtema": "Corticoide sistêmico endovenoso",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["asma", "crise_asmatica", "corticoide", "metilprednisolona", "pediatria"],
+    "justificativas": {
+      "A": "Correta. Na crise asmática grave (sonolência, taquidispneia, uso de musculatura acessória, resposta insuficiente ao broncodilatador), além de oxigênio e broncodilatador, indica-se corticoide sistêmico; na criança que já usava prednisolona oral e será internada, a metilprednisolona endovenosa é a conduta adequada.",
+      "B": "Incorreta. A VNI com sedação não é a conduta de primeira escolha e a sedação é perigosa na criança com rebaixamento e risco de parada respiratória iminente, podendo precipitar necessidade de intubação sem tratar a inflamação.",
+      "C": "Incorreta. Salbutamol endovenoso em infusão contínua é medida de exceção em crise refratária e não é o próximo passo padrão; a base do tratamento inclui broncodilatador inalatório e corticoide sistêmico.",
+      "D": "Incorreta. O sulfato de magnésio pode ser considerado em crise grave refratária, mas em dose única (bolus) e não em infusão contínua; não é a conduta prioritária frente à corticoterapia sistêmica indicada."
+    }
+  },
+  {
+    "num": 98,
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Coledocolitíase e síndrome colestática",
+    "subtema": "Diagnóstico sindrômico e colangiorressonância",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["coledocolitiase", "colestase", "colangiorressonancia", "icterica", "cirurgia"],
+    "justificativas": {
+      "A": "Incorreta. O diagnóstico sindrômico está correto (colestase sem colangite, pois há febrícula sem tríade de Charcot completa e sem leucocitose), mas a tomografia é inferior à colangiorressonância para avaliar cálculos e vias biliares.",
+      "B": "Incorreta. Não há colangite: a paciente está sem febre significativa (37,4 °C), sem leucocitose (9.000) e sem instabilidade; portanto o diagnóstico sindrômico proposto está incorreto.",
+      "C": "Correta. O quadro (icterícia, colúria, acolia, padrão colestático com FA e GGT muito elevadas, dilatação de vias biliares e cálculos ao US), sem febre alta nem leucocitose, define síndrome colestática sem colangite; a colangiorressonância é o exame não invasivo mais indicado para investigar a coledocolitíase.",
+      "D": "Incorreta. Não há colangite estabelecida que justifique a CPRE de imediato; a CPRE é terapêutica/invasiva e, na ausência de colangite, prefere-se antes a colangiorressonância para caracterizar as vias biliares."
+    }
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "num": 3,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Traumatismo cranioencefálico leve com amnésia e perda de consciência",
+    "subtema": "Indicação de neuroimagem e observação no TCE",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_20"],
+    "tags": ["tce", "trauma", "tomografia", "coluna_cervical", "observacao"],
+    "justificativas": {
+      "A": "Correta. Paciente com TCE, perda de consciência de duração indeterminada, amnésia do evento e mecanismo de queda de escada tem indicação de TC de crânio, face e coluna cervical (avaliação de trauma craniofacial e imobilização/investigação cervical) e radiografia de membros pelas escoriações, mantendo observação por 12 horas devido ao risco de deterioração neurológica.",
+      "B": "Incorreta. A radiografia simples de crânio não substitui a tomografia na avaliação de TCE com perda de consciência e amnésia, pois não avalia adequadamente lesões intracranianas; a conduta subestima o risco.",
+      "C": "Incorreta. Embora indique tomografia de crânio e face, omite a avaliação da coluna cervical (obrigatória diante do mecanismo e das escoriações cervicais) e libera para observação domiciliar, o que é inseguro sem acompanhante confiável e com histórico desconhecido.",
+      "D": "Incorreta. Baseia a investigação craniana apenas em radiografia simples, insuficiente para excluir lesão intracraniana, e não contempla a avaliação por tomografia indicada nesse quadro."
+    }
+  },
+  {
+    "num": 13,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Intoxicação aguda por agrotóxicos em trabalhadora rural",
+    "subtema": "Notificação, tratamento e articulação em saúde do trabalhador",
+    "competencia_dcn_2025": ["dcn2025_comp_24", "dcn2025_comp_01", "dcn2025_comp_15"],
+    "tags": ["agrotoxicos", "intoxicacao", "sinan", "saude_do_trabalhador", "notificacao"],
+    "justificativas": {
+      "A": "Incorreta. O encaminhamento ao centro de referência pode compor a rede de cuidado, mas a conduta imediata da UBS inclui tratar, notificar e solicitar matriciamento; formalizar denúncia ao Ministério Público do Trabalho não é a atribuição assistencial prioritária nesse momento.",
+      "B": "Incorreta. O diagnóstico de intoxicação aguda por agrotóxicos é clínico-epidemiológico e a notificação não deve aguardar a confirmação por exames complementares; condicionar a conduta ao nexo laboratorial atrasa a assistência e a notificação compulsória.",
+      "C": "Correta. Diante de intoxicação aguda por agrotóxicos, a conduta assistencial na UBS abrange tratar os sintomas, solicitar exames complementares, notificar o caso no Sinan (agravo de notificação compulsória), conceder atestado e solicitar matriciamento à Vigilância em Saúde do Trabalhador, integrando cuidado e vigilância.",
+      "D": "Incorreta. O médico da APS é corresponsável pela assistência, notificação e, quando cabível, pela CAT; eximir-se alegando atribuição exclusiva da medicina do trabalho contraria a responsabilidade sanitária e a integralidade do cuidado."
+    }
+  },
+  {
+    "num": 19,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Avaliação de pressão arterial limítrofe em idosa muito idosa",
+    "subtema": "Metas pressóricas e conduta expectante no idoso",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["hipertensao", "idoso", "conduta_expectante", "pressao_arterial", "aps"],
+    "justificativas": {
+      "A": "Incorreta. Não há indicação de referenciar ao cardiologista um caso de aferições limítrofes assintomáticas passível de manejo na atenção primária, sem sinais de gravidade ou lesão de órgão-alvo.",
+      "B": "Incorreta. Holter de 24 horas e ecocardiograma não são exames de rotina para investigação inicial desse quadro, não sendo necessários para conduzir aferições pressóricas discretamente elevadas e assintomáticas.",
+      "C": "Incorreta. Em mulher de 82 anos assintomática, com valores próximos ao limite, o início imediato de anti-hipertensivo não está indicado sem confirmação diagnóstica e diante do risco de hipotensão e eventos adversos nessa faixa etária, na qual metas são mais permissivas.",
+      "D": "Correta. Em paciente muito idosa, assintomática, com valores pressóricos discretamente elevados e metas mais tolerantes para a idade, a conduta adequada é expectante, sem medicamento, com monitoramento da pressão arterial na unidade antes de firmar diagnóstico e decidir tratamento."
+    }
+  },
+  {
+    "num": 25,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Manejo da insulina no puerpério imediato de gestante com DMG",
+    "subtema": "Suspensão da insulinoterapia após o parto no diabetes gestacional",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["diabetes_gestacional", "puerperio", "insulina", "obstetricia"],
+    "justificativas": {
+      "A": "Correta. No diabetes mellitus gestacional, a resistência insulínica cai abruptamente com a dequitação da placenta; assim, no puerpério imediato a conduta é suspender a insulinoterapia, com posterior reclassificação glicêmica após o parto.",
+      "B": "Incorreta. Não se inicia hipoglicemiante oral no puerpério imediato de DMG, pois a hiperglicemia induzida pela gestação tende a resolver com a saída da placenta; a reavaliação glicêmica é feita antes de qualquer nova terapia.",
+      "C": "Incorreta. Manter insulina NPH, ainda que em dose reduzida, é inadequado, já que a necessidade de insulina despenca após o parto no DMG, com risco de hipoglicemia.",
+      "D": "Incorreta. Manter a dose de insulina do pré-natal no puerpério imediato expõe a puérpera a hipoglicemia grave, pois a demanda insulínica reduz drasticamente com a dequitação."
+    }
+  },
+  {
+    "num": 31,
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Icterícia obstrutiva indolor com sinal de Courvoisier",
+    "subtema": "Investigação de neoplasia periampular por tomografia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["ictericia_obstrutiva", "courvoisier", "neoplasia_pancreatica", "tomografia"],
+    "justificativas": {
+      "A": "Incorreta. O quadro de icterícia progressiva, emagrecimento, colúria, prurido e vesícula palpável indolor (sinal de Courvoisier) aponta para obstrução biliar por neoplasia periampular, não para colecistite crônica calculosa; a ultrassonografia é insuficiente para estadiar e caracterizar a lesão.",
+      "B": "Correta. Diante da icterícia obstrutiva indolor com vesícula palpável (Courvoisier positivo), emagrecimento e dor dorsal, a suspeita é de neoplasia de cabeça de pâncreas/via biliar; a tomografia computadorizada é o exame mais adequado para avaliar vias biliares, pâncreas e estadiamento.",
+      "C": "Incorreta. A colangiopancreatografia por ressonância avalia bem a árvore biliar, mas o quadro sugere massa neoplásica periampular e não coledocolitíase; a TC oferece melhor avaliação do parênquima pancreático e do estadiamento tumoral.",
+      "D": "Incorreta. A biópsia percutânea não é o primeiro passo diante desse quadro; a caracterização por imagem (tomografia) precede a definição de conduta, e a punção da via biliar/massa tem riscos e não é o exame inicial indicado."
+    }
+  },
+  {
+    "num": 37,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Febre reumática com poliartrite migratória e cardite",
+    "subtema": "Etiologia estreptocócica e profilaxia com penicilina benzatina",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["febre_reumatica", "streptococcus_pyogenes", "artrite_migratoria", "cardite", "penicilina"],
+    "justificativas": {
+      "A": "Incorreta. A doença de Lyme (Borrelia burgdorferi) cursa tipicamente com eritema migratório e história de exposição a carrapatos, não explicando a poliartrite migratória com sopro de cardite e antecedente de faringite; a doxiciclina não é o tratamento indicado aqui.",
+      "B": "Incorreta. A artrite séptica por Staphylococcus aureus costuma ser monoarticular, aditiva e sem caráter migratório autolimitado, e não justifica o sopro cardíaco novo associado à faringite prévia; oxacilina não trata a condição em questão.",
+      "C": "Incorreta. A sífilis (Treponema pallidum) não explica o quadro de artrite migratória com cardite após faringite; embora a penicilina benzatina seja usada na sífilis, a etiologia está incorreta.",
+      "D": "Correta. O quadro de poliartrite migratória, cardite (sopro sistólico), febre e faringite três semanas antes preenche critérios de febre reumática, cujo agente desencadeante é o Streptococcus pyogenes; o tratamento/erradicação e a profilaxia são feitos com penicilina G benzatina."
+    }
+  },
+  {
+    "num": 45,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Rastreamento de tuberculose em população privada de liberdade",
+    "subtema": "Sintomático respiratório em presídio e investigação diagnóstica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_11"],
+    "tags": ["tuberculose", "presidio", "sintomatico_respiratorio", "baciloscopia", "populacao_vulneravel"],
+    "justificativas": {
+      "A": "Incorreta. A internação clínica não é a conduta de rotina para investigar tuberculose; o diagnóstico e o tratamento ambulatorial são a regra, reservando-se internação para complicações ou situações específicas.",
+      "B": "Correta. Em população privada de liberdade, o limiar para investigar tuberculose é menor; diante de tosse há duas semanas, deve-se solicitar radiografia de tórax e pesquisa laboratorial de Mycobacterium tuberculosis (baciloscopia/teste molecular) e garantir o tratamento em caso de positividade.",
+      "C": "Incorreta. Não se indica internação social para tratar; o tratamento diretamente observado por seis meses é feito de forma ambulatorial/comunitária, e a conduta prioritária é a investigação diagnóstica.",
+      "D": "Incorreta. Em pessoa privada de liberdade, grupo de alto risco, não se deve aguardar a tosse completar três semanas; a investigação de tuberculose é iniciada precocemente diante do sintoma respiratório."
+    }
+  },
+  {
+    "num": 51,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Colangite esclerosante primária associada à retocolite ulcerativa",
+    "subtema": "Padrão colestático e achados na colangiorressonância",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["colangite_esclerosante", "retocolite_ulcerativa", "colestase", "colangiorressonancia"],
+    "justificativas": {
+      "A": "Incorreta. A elevação predominante de fosfatase alcalina e gama-GT em paciente com retocolite ulcerativa sugere colangite esclerosante primária, e a TC de abdome não é o exame de escolha nem o achado esperado é lesão tumoral no hilo.",
+      "B": "Incorreta. A colangiopancreatografia retrógrada endoscópica é invasiva e não é o primeiro exame; o quadro colestático crônico associado à RCU não corresponde a litíase impactada no colédoco, mas a estenoses biliares.",
+      "C": "Correta. O padrão colestático (elevação de FA e gama-GT) em paciente com retocolite ulcerativa sugere colangite esclerosante primária; a colangiorressonância é o exame indicado e revela múltiplas estenoses intercaladas na árvore biliar com áreas normais ou dilatadas de permeio (aspecto em contas de rosário).",
+      "D": "Incorreta. A ultrassonografia com espessamento parietal e nodulação vesicular não corresponde ao diagnóstico esperado; o quadro aponta para acometimento dos ductos biliares (colangite esclerosante), mais bem avaliado por colangiorressonância."
+    }
+  },
+  {
+    "num": 57,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Monitoramento do uso crônico de metilfenidato no TDAH",
+    "subtema": "Vigilância de estatura, peso e pressão arterial no estimulante",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_06"],
+    "tags": ["tdah", "metilfenidato", "monitoramento", "crescimento", "pressao_arterial"],
+    "justificativas": {
+      "A": "Incorreta. O metilfenidato costuma reduzir o apetite e o ganho ponderal, não gerando aumento de peso; além disso, dislipidemia não é o efeito clássico monitorado, e o seguimento pode ser conduzido na APS sem necessidade obrigatória de neuropediatra.",
+      "B": "Incorreta. Testes psicodinâmicos não são os instrumentos de monitoramento da segurança e eficácia do metilfenidato; a avaliação do desempenho e dos efeitos é clínica e não depende desse tipo de teste.",
+      "C": "Incorreta. Hemograma e hormônios tireoidianos anuais não são exames de rotina para monitorar o metilfenidato, e prescrever antipsicóticos para efeitos colaterais é inadequado e sem indicação.",
+      "D": "Correta. O acompanhamento do uso crônico de metilfenidato inclui consultas periódicas com verificação de estatura, peso (risco de impacto no crescimento e apetite) e pressão arterial (efeito estimulante cardiovascular), com reavaliação da necessidade de manutenção do fármaco."
+    }
+  },
+  {
+    "num": 63,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Desenho de estudo para avaliar intervenção coletiva na ESF",
+    "subtema": "Ensaio clínico não randomizado em saúde coletiva",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["epidemiologia", "desenho_de_estudo", "ensaio_clinico", "intervencao", "esf"],
+    "justificativas": {
+      "A": "Incorreta. O estudo de caso-controle aninhado é observacional e parte do desfecho para a exposição; não avalia o impacto de uma intervenção aplicada pela equipe, como proposto.",
+      "B": "Correta. A equipe planeja aplicar uma intervenção (orientação nutricional e atividade física) e avaliar seu impacto sobre uma população definida sem alocação aleatória dos participantes, o que caracteriza um ensaio clínico não randomizado (estudo de intervenção sem randomização).",
+      "C": "Incorreta. A coorte retrospectiva é observacional e olha exposições passadas em relação a desfechos já ocorridos, não correspondendo à avaliação prospectiva do efeito de uma intervenção implementada pela equipe.",
+      "D": "Incorreta. Embora seja um estudo de intervenção, não há descrição de alocação aleatória (randomização) dos participantes; assim, o desenho corresponde a ensaio clínico não randomizado, e não randomizado."
+    }
+  },
+  {
+    "num": 69,
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Critérios diagnósticos do transtorno por uso de álcool (DSM-5)",
+    "subtema": "Tempo despendido para obter e recuperar-se da substância",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["alcool", "dsm5", "dependencia", "transtorno_por_uso_de_substancia"],
+    "justificativas": {
+      "A": "Incorreta. Tolerância cruzada entre substâncias não é um dos critérios definidores do transtorno por uso de substâncias no DSM-5, não sendo o ponto central a investigar para caracterizar o padrão de dependência.",
+      "B": "Incorreta. A aceitação e a adesão à proposta de abstinência dizem respeito ao plano terapêutico e à motivação, não constituindo critério diagnóstico do DSM-5 para o transtorno por uso de substâncias.",
+      "C": "Correta. Entre os critérios do DSM-5 para transtorno por uso de substâncias está o grande tempo gasto em atividades para obter a substância, usá-la ou recuperar-se de seus efeitos; investigar esse item ajuda a caracterizar o padrão de dependência.",
+      "D": "Incorreta. Diferenciar se a substância é lícita ou ilícita não é critério diagnóstico do padrão de dependência no DSM-5; os critérios baseiam-se em comportamento, controle, prejuízo e fenômenos farmacológicos."
+    }
+  },
+  {
+    "num": 75,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Contracepção em obesidade grave pré-bariátrica",
+    "subtema": "Endoceptivo (SIU) e proteção endometrial na anovulação",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["contracepcao", "obesidade", "bariatrica", "diu_hormonal", "anovulacao"],
+    "justificativas": {
+      "A": "Correta. Em mulher com obesidade grave, ciclos irregulares sugestivos de anovulação e programação de cirurgia bariátrica, o endoceptivo (sistema intrauterino de levonorgestrel) oferece contracepção altamente eficaz e proteção endometrial, sendo indicado antes da operação e não dependendo de absorção intestinal.",
+      "B": "Incorreta. Métodos hormonais não estão totalmente contraindicados; embora estrogênios combinados devam ser evitados pelo risco trombótico na obesidade, métodos apenas com progestagênio, como o endoceptivo, são seguros e recomendados.",
+      "C": "Incorreta. Embora haja anovulação crônica, orientar apenas preservativo masculino oferece contracepção de menor eficácia e não confere proteção endometrial necessária diante da irregularidade menstrual; o endoceptivo é preferível.",
+      "D": "Incorreta. Está correto evitar gravidez na fase de perda de peso, mas o adesivo transdérmico combinado tem estrogênio e maior risco tromboembólico na obesidade e pós-bariátrica, além de eficácia reduzida em obesas, não sendo a melhor escolha."
+    }
+  },
+  {
+    "num": 82,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Prevenção de parto prematuro com colo curto e história prévia",
+    "subtema": "Progesterona vaginal na insuficiência istmocervical/colo curto",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["parto_prematuro", "colo_curto", "progesterona_vaginal", "prevencao"],
+    "justificativas": {
+      "A": "Incorreta. A pesquisa de estreptococo do grupo B na 35ª a 37ª semana visa profilaxia intraparto de sepse neonatal e não previne o parto prematuro nem maneja o colo curto detectado nesta gestação.",
+      "B": "Incorreta. Atosiban é tocolítico para trabalho de parto prematuro em curso, não profilaxia; a paciente está assintomática, com colo curto, situação em que a conduta é preventiva e não a inibição intravenosa prolongada.",
+      "C": "Incorreta. Nifedipina é tocolítico de uso agudo no trabalho de parto prematuro instalado, não sendo indicada de forma contínua e prolongada como profilaxia do parto prematuro em paciente assintomática com colo curto.",
+      "D": "Correta. Diante de colo uterino curto (1,5 cm) e história de parto prematuro prévio, está indicada a progesterona micronizada via vaginal 200 mg ao dia para reduzir o risco de prematuridade, mantida até cerca de 36 semanas."
+    }
+  },
+  {
+    "num": 89,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Descolamento prematuro de placenta associado ao uso de cocaína",
+    "subtema": "Cesárea de urgência e útero de Couvelaire",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_14"],
+    "tags": ["dpp", "cocaina", "hipertonia_uterina", "cesarea", "couvelaire"],
+    "justificativas": {
+      "A": "Correta. Sangramento vaginal intenso, hipertonia uterina, sofrimento fetal (bradicardia) e uso de cocaína configuram descolamento prematuro de placenta; a conduta é a cesárea de urgência, e a complicação possível é a apoplexia uteroplacentária (útero de Couvelaire).",
+      "B": "Incorreta. A rotura de vasa prévia cursa com sangramento após amniorrexe e sofrimento fetal, mas sem hipertonia uterina e sem a associação com cocaína; amniotomia não é a conduta e o quadro não corresponde.",
+      "C": "Incorreta. Trabalho de parto não explica o sangramento intenso com hipertonia e sofrimento fetal; inibir o trabalho de parto seria conduta inadequada e perigosa diante de um descolamento de placenta.",
+      "D": "Incorreta. Os níveis pressóricos não caracterizam pré-eclâmpsia como diagnóstico principal, e o quadro agudo com hipertonia, sangramento e uso de cocaína aponta para descolamento de placenta, não para rotura uterina como complicação central."
+    }
+  },
+  {
+    "num": 95,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Anemia ferropriva em escolar",
+    "subtema": "Tratamento com ferro elementar e resposta reticulocitária",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["anemia_ferropriva", "ferro_elementar", "reticulocitos", "microcitose", "pediatria"],
+    "justificativas": {
+      "A": "Incorreta. O ferro sérico isolado não é sensível nem específico e sofre variação circadiana e por inflamação; o diagnóstico de anemia ferropriva pode ser conduzido pelo quadro clínico e pelo hemograma microcítico e hipocrômico com RDW elevado, sem necessidade dessa dosagem isolada.",
+      "B": "Correta. O hemograma mostra anemia microcítica (VCM 62), hipocrômica (HCM/CHCM reduzidos) com RDW alto, compatível com anemia ferropriva; pode-se iniciar tratamento com ferro elementar (cerca de 3 a 6 mg/kg/dia, aqui 4 mg/kg/dia), esperando-se elevação de reticulócitos em torno de 4 a 7 dias como resposta.",
+      "C": "Incorreta. Com VCM de 62 fL a anemia é microcítica, e não normocítica; a classificação baseada no HCM/VCM aponta microcitose, incompatível com a afirmação.",
+      "D": "Incorreta. A discreta eosinofilia e a trombocitose reativa não justificam encaminhamento ao hematologista; o quadro é típico de anemia ferropriva, que deve ser tratada e acompanhada na atenção primária."
+    }
+  }
+]

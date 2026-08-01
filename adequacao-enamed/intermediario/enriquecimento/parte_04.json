@@ -1,0 +1,242 @@
+[
+  {
+    "num": 5,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Esporotricose cutânea",
+    "subtema": "Micose subcutânea de inoculação por arranhadura de gato",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["esporotricose", "itraconazol", "corpos_asteroides", "micose", "zoonose"],
+    "justificativas": {
+      "A": "Incorreta. A furunculose é infecção bacteriana estafilocócica dos folículos pilosos, com pústulas dolorosas, e não cursa com dermatite granulomatosa nem corpos asteroides; a cefalexina não trata micose de inoculação.",
+      "B": "Incorreta. O herpes-zoster produz vesículas agrupadas com distribuição dermatomérica e não forma úlceras nodulares linfangíticas nem granuloma com corpos asteroides; o aciclovir é antiviral, sem ação sobre fungos.",
+      "C": "Correta. O quadro linfocutâneo nodular após arranhadura de gato, com dermatite granulomatosa e corpos asteroides (material eosinofílico de Splendore-Hoeppli ao redor do Sporothrix), define esporotricose, cujo tratamento de escolha é itraconazol por período prolongado (cerca de 3 a 6 meses / 120 dias).",
+      "D": "Incorreta. A paracoccidioidomicose acomete tipicamente pulmões e mucosa orofaríngea de trabalhadores rurais, com fungos em 'roda de leme', não com corpos asteroides pós-arranhadura; a anfotericina B fica reservada a formas graves e não é a escolha para esporotricose cutânea localizada."
+    }
+  },
+  {
+    "num": 15,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Síndrome nefrótica",
+    "subtema": "Critérios diagnósticos: proteinúria e hipoalbuminemia",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["sindrome_nefrotica", "proteinuria", "hipoalbuminemia", "edema", "nefrologia"],
+    "justificativas": {
+      "A": "Correta. A definição da síndrome nefrótica exige proteinúria maciça (> 3,5 g/24h) associada à hipoalbuminemia (< 3,0 g/dL); a proteinúria de 3,6 g/24h e a albumina de 1,8 g/dL são os achados que definem a síndrome neste paciente.",
+      "B": "Incorreta. Embora a proteinúria seja critério definidor, a hipertrigliceridemia é apenas achado acompanhante (consequência da hipoalbuminemia) e não integra os critérios obrigatórios de definição da síndrome.",
+      "C": "Incorreta. A hematúria discreta não define síndrome nefrótica (é mais típica de padrão nefrítico) e a hipertrigliceridemia é achado secundário, não critério diagnóstico.",
+      "D": "Incorreta. A hematúria não é critério de síndrome nefrótica; apenas a albumina compõe a definição, faltando o par com a proteinúria maciça para caracterizá-la corretamente."
+    }
+  },
+  {
+    "num": 21,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Anorexia nervosa com instabilidade clínica",
+    "subtema": "Indicação de internação por complicações clínicas graves",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["anorexia_nervosa", "internacao", "bradicardia", "alteracao_eletrocardiografica", "risco_clinico"],
+    "justificativas": {
+      "A": "Correta. IMC de 14,7 kg/m², hipotensão (80x60 mmHg), bradicardia (55 bpm), alterações de ST-T no ECG, síncope ao esforço e sinais de desidratação configuram instabilidade clínica com risco de morte, exigindo internação em clínica médica para estabilização hemodinâmica, correção hidroeletrolítica e prevenção de síndrome de realimentação.",
+      "B": "Incorreta. Embora haja transtorno alimentar de base, a prioridade imediata é a instabilidade clínica potencialmente fatal; a internação em enfermaria de saúde mental não oferece o suporte clínico necessário neste momento agudo.",
+      "C": "Incorreta. Manter a investigação ambulatorial da amenorreia na UBS ignora a gravidade dos sinais de instabilidade cardiovascular e o risco iminente, sendo conduta insegura.",
+      "D": "Incorreta. O acompanhamento ambulatorial no CAPS é adequado para a abordagem do transtorno mental em fase estável, mas não resolve a emergência clínica atual que demanda internação hospitalar."
+    }
+  },
+  {
+    "num": 27,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "tema": "Lombalgia inespecífica aguda",
+    "subtema": "Manejo conservador na APS sem sinais de alerta",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["lombalgia", "dor_lombar", "sinais_de_alerta", "aps", "manejo_conservador"],
+    "justificativas": {
+      "A": "Incorreta. Na ausência de sinais de alerta (red flags), a solicitação de ressonância e o encaminhamento à ortopedia são desnecessários, geram custo e não alteram o manejo inicial da lombalgia inespecífica.",
+      "B": "Incorreta. A radiografia não está indicada na lombalgia aguda inespecífica sem red flags, e o corticoide oral não tem benefício estabelecido nesse contexto.",
+      "C": "Incorreta. O repouso prolongado é contraindicado por retardar a recuperação, e o antidepressivo tricíclico não é a analgesia de primeira linha na lombalgia aguda inespecífica.",
+      "D": "Correta. Trata-se de lombalgia mecânica inespecífica sem sinais de alerta; a conduta apropriada é tranquilizar sobre a natureza benigna e autolimitada, otimizar analgesia, orientar manutenção de atividade física leve e reavaliar em 4 a 6 semanas."
+    }
+  },
+  {
+    "num": 33,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Tuberculose com reingresso após abandono",
+    "subtema": "Interpretação de TRM-TB e baciloscopia e conduta terapêutica",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["tuberculose", "trm_tb", "baciloscopia", "abandono", "cultura_sensibilidade"],
+    "justificativas": {
+      "A": "Incorreta. Em caso de retratamento por abandono, mesmo com TRM-TB positivo sem resistência à rifampicina e baciloscopia negativa, recomenda-se solicitar cultura com teste de sensibilidade; além disso, a baciloscopia negativa não é o cenário que define a conduta descrita como adequada.",
+      "B": "Incorreta. Reiniciar o esquema básico condicionado à resistência à rifampicina positiva é contraditório, pois a detecção de resistência à rifampicina exige esquema específico para tuberculose resistente, não o esquema básico.",
+      "C": "Correta. Em paciente com reingresso após abandono e baciloscopia positiva (mesmo com TRM-TB negativo), a conduta correta é solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda o resultado, ajustando-o conforme o perfil de sensibilidade.",
+      "D": "Incorreta. Se o TRM-TB detecta resistência à rifampicina, não se deve reiniciar o esquema básico; nesse caso está indicado o encaminhamento para esquema de tuberculose resistente, tornando a conduta descrita inadequada."
+    }
+  },
+  {
+    "num": 39,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Gestação de 41 semanas (pós-datismo)",
+    "subtema": "Vigilância de bem-estar fetal e programação da indução",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["pos_datismo", "41_semanas", "inducao_parto", "cardiotocografia", "perfil_biofisico"],
+    "justificativas": {
+      "A": "Incorreta. Aguardar até 42 semanas para induzir aumenta o risco de morbimortalidade perinatal (insuficiência placentária, oligoâmnio, mecônio); a indução deve ser programada até 41 semanas e 6 dias.",
+      "B": "Incorreta. A dopplervelocimetria isolada não é o método de escolha para vigilância de bem-estar fetal na gestação prolongada de risco habitual, sendo preferíveis perfil biofísico e cardiotocografia seriados.",
+      "C": "Incorreta. A amnioscopia não é recomendada como método de rotina para decisão de manejo no pós-datismo, tendo baixa acurácia e utilidade limitada.",
+      "D": "Correta. Com 41 semanas, indica-se vigilância intensiva do bem-estar fetal com perfil biofísico e cardiotocografia a cada 2 a 3 dias, associada ao planejamento da indução do parto até 41 semanas e 6 dias, reduzindo os riscos da gestação prolongada."
+    }
+  },
+  {
+    "num": 47,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Calendário vacinal do adolescente",
+    "subtema": "Vacinas aos 12 anos: HPV, meningocócica ACWY e reforço de febre amarela",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["vacinacao", "adolescente", "hpv", "meningococica_acwy", "febre_amarela"],
+    "justificativas": {
+      "A": "Incorreta. Não há reforço de hepatite B previsto nessa idade (esquema completado na infância) nem indicação de dT aos 12 anos fora da rotina, o que torna o conjunto inadequado.",
+      "B": "Incorreta. Não há reforço de hepatite B nesta faixa etária, e a SCR/tríplice viral já teria sido contemplada na infância, não sendo a indicação prioritária desta consulta.",
+      "C": "Correta. Aos 12 anos, o calendário do adolescente contempla a vacina HPV, a meningocócica ACWY e o reforço da febre amarela (segunda dose, já que recebeu apenas uma dose aos 9 meses), completando as imunizações preconizadas.",
+      "D": "Incorreta. Embora febre amarela e meningocócica ACWY estejam corretas, a SCR não é a prioridade nesta consulta (esquema já completado), faltando a indicação da HPV; portanto o conjunto está incompleto."
+    }
+  },
+  {
+    "num": 53,
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Traumatismo cranioencefálico com hematoma epidural",
+    "subtema": "Intervalo lúcido e herniação com anisocoria; drenagem cirúrgica de emergência",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["tce", "hematoma_epidural", "intervalo_lucido", "anisocoria", "cirurgia_emergencia"],
+    "justificativas": {
+      "A": "Incorreta. O hematoma subdural agudo tem imagem em crescente (côncava), diferente do padrão descrito; ademais, a hidantalização e conduta expectante são inadequadas diante de deterioração neurológica com sinais de herniação.",
+      "B": "Incorreta. A contusão cerebral não apresenta o padrão clássico de intervalo lúcido seguido de deterioração rápida com lente biconvexa, e a descrição imagética não corresponde a esse diagnóstico.",
+      "C": "Correta. O quadro de trauma com intervalo lúcido, seguido de rebaixamento do nível de consciência e anisocoria por dilatação pupilar (herniação uncal), com imagem tomográfica em lente biconvexa (hiperdensa e limitada por suturas), caracteriza hematoma epidural, que exige craniotomia de emergência para drenagem e controle da hipertensão intracraniana.",
+      "D": "Incorreta. O hematoma intraparenquimatoso tem localização e morfologia distintas do padrão epidural; e a conduta de apenas hidantalizar e aguardar é inadequada frente à deterioração neurológica aguda com sinais de herniação."
+    }
+  },
+  {
+    "num": 59,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Esclerose tuberosa",
+    "subtema": "Espasmos infantis, manchas hipomelanóticas e astrocitomas subependimários (SEGA)",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["esclerose_tuberosa", "sindrome_west", "espasmos_infantis", "manchas_hipomelanoticas", "neurocutanea"],
+    "justificativas": {
+      "A": "Incorreta. A neurofibromatose cursa com manchas café com leite, neurofibromas e efélides axilares, e não com manchas hipomelanóticas e astrocitomas de células gigantes subependimários.",
+      "B": "Correta. A tríade de espasmos em flexão (síndrome de West), manchas hipomelanóticas (em folha de freixo) e astrocitomas subependimários de células gigantes (SEGA) na RM é característica da esclerose tuberosa, facomatose com hamartomas em múltiplos órgãos.",
+      "C": "Incorreta. A síndrome de Sturge-Weber caracteriza-se por angioma facial (mancha em vinho do porto no território trigeminal) e angiomatose leptomeníngea, não pelos achados descritos.",
+      "D": "Incorreta. A doença de von Hippel-Lindau cursa com hemangioblastomas de retina e SNC e cistos viscerais, sem manchas hipomelanóticas nem espasmos infantis com astrocitomas subependimários."
+    }
+  },
+  {
+    "num": 65,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Trombofilia hereditária",
+    "subtema": "Fator V de Leiden como causa de hipercoagulabilidade primária",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["trombofilia", "fator_v_leiden", "tvp", "hipercoagulabilidade", "hematologia"],
+    "justificativas": {
+      "A": "Correta. A presença do Fator V de Leiden, mutação que confere resistência à proteína C ativada, é a trombofilia hereditária mais prevalente e é compatível com TVP recorrente e forte história familiar de trombose.",
+      "B": "Incorreta. A trombofilia associa-se à deficiência (níveis reduzidos) de proteína S, e não a níveis aumentados; o aumento não gera estado pró-trombótico.",
+      "C": "Incorreta. É a deficiência (níveis reduzidos) de antitrombina III que causa trombofilia hereditária; níveis aumentados não conferem risco trombótico.",
+      "D": "Incorreta. A redução do Fator de Von Willebrand associa-se a distúrbio hemorrágico (doença de von Willebrand), não a estado de hipercoagulabilidade."
+    }
+  },
+  {
+    "num": 71,
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Psicopatologia do pensamento",
+    "subtema": "Obsessão no transtorno obsessivo-compulsivo",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["obsessao", "toc", "psicopatologia", "pensamento_intrusivo", "critica_preservada"],
+    "justificativas": {
+      "A": "Incorreta. O delírio é uma crença falsa, irredutível e vivida com convicção absoluta, sem crítica; o paciente, ao reconhecer que os pensamentos não têm fundamento, apresenta crítica preservada, o que exclui delírio.",
+      "B": "Correta. Pensamentos recorrentes, indesejados e intrusivos, que geram angústia e sofrimento, com o paciente reconhecendo sua irracionalidade (crítica preservada), definem obsessão, sintoma nuclear do transtorno obsessivo-compulsivo.",
+      "C": "Incorreta. Hipertimia refere-se a alteração do humor (exaltação afetiva, como na mania), e não a um distúrbio do conteúdo do pensamento como o descrito.",
+      "D": "Incorreta. A compulsão é o comportamento ou ato mental repetitivo realizado para aliviar a ansiedade das obsessões; o enunciado descreve o pensamento intrusivo em si (obsessão), não o ato de neutralização."
+    }
+  },
+  {
+    "num": 78,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Saúde da população trans na APS",
+    "subtema": "Acolhimento e acompanhamento longitudinal do homem trans",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_11"],
+    "tags": ["pessoa_trans", "afirmacao_genero", "aps", "acolhimento", "despatologizacao"],
+    "justificativas": {
+      "A": "Incorreta. A identidade trans não é transtorno mental e não requer avaliação psiquiátrica prévia para diagnóstico de disforia como condição para acompanhamento na UBS; tal exigência é estigmatizante e cria barreira de acesso.",
+      "B": "Incorreta. Iniciar imediatamente terapia hormonal na UBS sem a avaliação e o fluxo adequados não é a conduta apropriada neste momento, em que a paciente ainda busca informações e apenas cogita a hormonização no futuro.",
+      "C": "Incorreta. A APS é porta de entrada e coordenadora do cuidado, devendo acolher e acompanhar longitudinalmente a pessoa trans; encaminhar exclusivamente ao especialista, delegando todo o seguimento, fragmenta o cuidado e contraria os princípios do SUS.",
+      "D": "Correta. A conduta adequada é esclarecer que a identidade trans não é transtorno mental (despatologização), oferecer acompanhamento contínuo e integral na UBS e orientar sobre cuidados gerais de saúde, respeitando a autonomia e a integralidade do cuidado."
+    }
+  },
+  {
+    "num": 84,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Violência institucional contra a pessoa idosa",
+    "subtema": "Notificação compulsória e ação intersetorial na ILPI",
+    "competencia_dcn_2025": ["dcn2025_comp_24", "dcn2025_comp_05"],
+    "tags": ["violencia_institucional", "idoso", "notificacao_compulsoria", "ilpi", "intersetorialidade"],
+    "justificativas": {
+      "A": "Incorreta. Contenção física indevida e lesões por pressão em contexto de agressões configuram violência e negligência que exigem intervenção clínica e proteção; naturalizar esses achados como inerentes à institucionalização é inadequado e omisso.",
+      "B": "Incorreta. Oferecer apenas apoio clínico pontual e sugerir adequações respeitando a autonomia da ILPI subestima a gravidade da violência institucional, que demanda notificação e articulação com órgãos de proteção.",
+      "C": "Correta. Diante de sinais de violência institucional contra idosos, a conduta correta é registrar a notificação compulsória de violência, articular ação intersetorial com os órgãos de controle e proteção (Ministério Público, Vigilância Sanitária, Conselho do Idoso) e elaborar plano de ação conjunta, garantindo proteção e cuidado integral.",
+      "D": "Incorreta. Restringir a resposta a reuniões de educação permanente, sem notificação nem envolvimento de instâncias legais e sociais, é insuficiente frente à violência e negligência identificadas, deixando os idosos desprotegidos."
+    }
+  },
+  {
+    "num": 91,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Síndrome coronariana aguda sem supra de ST",
+    "subtema": "Estratificação de risco (GRACE/TIMI) e estratégia invasiva precoce",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["scasst", "iamssst", "escore_grace", "cateterismo", "estrategia_invasiva"],
+    "justificativas": {
+      "A": "Incorreta. A angiotomografia de coronárias é útil em pacientes de baixo risco para excluir doença; neste caso de alto risco com troponina positiva, indica-se coronariografia invasiva, não angiotomografia.",
+      "B": "Correta. Trata-se de SCA sem supra de ST de alto risco (troponina em curva, alteração dinâmica de ST-T, GRACE 152 e TIMI 5); nesse cenário a estratégia invasiva precoce, com cateterismo cardíaco nas primeiras 24 horas, é a conduta indicada.",
+      "C": "Incorreta. Cateterismo em até 3 dias corresponde à estratégia invasiva de risco intermediário; o alto risco (GRACE > 140) determina abordagem mais precoce, em até 24 horas.",
+      "D": "Incorreta. O ecocardiograma de estresse é teste funcional para pacientes de baixo risco e estáveis; não é adequado neste paciente de alto risco com isquemia em curso, que requer estratégia invasiva."
+    }
+  },
+  {
+    "num": 97,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Baixa estatura na infância",
+    "subtema": "Baixa estatura familiar versus atraso constitucional",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["baixa_estatura", "crescimento", "idade_ossea", "alvo_genetico", "pediatria"],
+    "justificativas": {
+      "A": "Incorreta. A acondroplasia é displasia esquelética com encurtamento rizomélico dos membros, macrocefalia e desproporção corporal marcante; o exame físico normal e as proporções descritas não são compatíveis.",
+      "B": "Incorreta. A síndrome de Turner deve ser considerada em meninas com baixa estatura, mas costuma cursar com estigmas fenotípicos e desaceleração desproporcional; aqui o crescimento acompanha o canal com estatura coerente com o alvo genético baixo, favorecendo causa familiar.",
+      "C": "Correta. A criança cresce de forma estável em um canal abaixo da média porém compatível com o alvo genético (alvo em z -2), com proporções corporais normais e idade óssea próxima da cronológica, caracterizando baixa estatura familiar (variante normal do crescimento).",
+      "D": "Incorreta. No atraso constitucional do crescimento a idade óssea está significativamente atrasada em relação à cronológica e a puberdade/estirão são tardios; aqui a idade óssea está apenas discretamente reduzida e a estatura acompanha o alvo familiar, tornando essa hipótese menos provável."
+    }
+  }
+]

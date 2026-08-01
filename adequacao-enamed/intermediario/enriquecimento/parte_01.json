@@ -1,0 +1,242 @@
+[
+  {
+    "num": 1,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Insuficiencia cardiaca com fracao de ejecao reduzida",
+    "subtema": "Terapia farmacologica que modifica prognostico na ICFEr",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["insuficiencia_cardiaca", "icfer", "espironolactona", "antagonista_mineralocorticoide", "prognostico"],
+    "justificativas": {
+      "A": "Correta. A paciente apresenta ICFEr (FE 38%, B3, congestao pulmonar, BNP elevado); o antagonista do receptor mineralocorticoide (espironolactona) reduz mortalidade e hospitalizacoes na ICFEr, integrando o quadruplo pilar terapeutico junto ao IECA ja mantido.",
+      "B": "Incorreta. A clortalidona e um diuretico tiazidico util no controle da HAS e para alivio congestivo, mas nao possui evidencia de reducao de mortalidade na insuficiencia cardiaca, nao sendo a escolha para melhorar o prognostico.",
+      "C": "Incorreta. A hidralazina (associada a nitrato) so demonstra beneficio prognostico em subgrupos especificos, sobretudo afrodescendentes ja em terapia otimizada ou com contraindicacao a IECA/BRA, nao sendo a associacao de escolha neste contexto.",
+      "D": "Incorreta. A clonidina e um agente simpaticolitico de acao central usado como anti-hipertensivo de terceira linha, sem impacto favoravel sobre a sobrevida e potencialmente deleterio na insuficiencia cardiaca."
+    }
+  },
+  {
+    "num": 12,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento em saude do homem adulto tabagista",
+    "subtema": "Recomendacoes de prevencao baseadas em evidencia na APS",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["rastreamento", "prevencao", "tabagismo", "aps", "saude_do_homem"],
+    "justificativas": {
+      "A": "Incorreta. Inclui rastreios sem respaldo para este perfil, como PSA e toque retal de rotina, radiografia de torax e colonoscopia antes da faixa etaria recomendada, configurando sobre-rastreamento e potencial iatrogenia.",
+      "B": "Incorreta. Mantem exames desnecessarios como PSA e toque retal em paciente assintomatico e sem historia familiar de cancer de prostata, alem de pesquisa de sangue oculto fora da faixa etaria preconizada.",
+      "C": "Incorreta. Abordar estilo de vida e cessacao do tabagismo e adequado, mas postergar todos os exames complementares e insuficiente, pois um homem de 52 anos tabagista tem indicacao de rastreios lipidico, glicemico e de ISTs.",
+      "D": "Correta. Contempla rastreios com evidencia para o perfil: perfil lipidico, glicemia de jejum, pesquisa de sangue oculto nas fezes (rastreio de cancer colorretal), oferta de testes rapidos para HIV, sifilis e hepatites B e C, e abordagem da cessacao do tabagismo, evitando exames sem beneficio."
+    }
+  },
+  {
+    "num": 18,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Amenorreia primaria com cariotipo 46 XY",
+    "subtema": "Sindrome de insensibilidade androgenica",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["amenorreia_primaria", "insensibilidade_androgenica", "cariotipo_46xy", "diferenciacao_sexual"],
+    "justificativas": {
+      "A": "Incorreta. Na disgenesia gonadal as gonadas sao disfuncionais, cursando com hipogonadismo hipergonadotrofico (FSH elevado) e testosterona baixa, o que nao corresponde ao FSH normal e a testosterona em nivel masculino da paciente.",
+      "B": "Incorreta. A malformacao Mulleriana (agenesia mulleriana) ocorre em individuos 46 XX com testosterona feminina; o cariotipo 46 XY e a testosterona masculina afastam essa hipotese.",
+      "C": "Incorreta. Na obstrucao do trato genital ha desenvolvimento uterino com criptomenorreia e dor ciclica; aqui ha ausencia de utero e testosterona masculina, incompativeis com obstrucao.",
+      "D": "Correta. Fenotipo feminino com pelos esparsos, ausencia de utero (hormonio antimulleriano testicular presente), testosterona em nivel masculino e cariotipo 46 XY caracterizam a sindrome de insensibilidade androgenica por resistencia periferica aos androgenos."
+    }
+  },
+  {
+    "num": 24,
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Abdome agudo inflamatorio em mulher jovem",
+    "subtema": "Apendicite aguda - confirmacao por imagem e avaliacao cirurgica",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["apendicite", "abdome_agudo", "fossa_iliaca_direita", "ultrassonografia", "parecer_cirurgico"],
+    "justificativas": {
+      "A": "Incorreta. Iniciar antibioticoterapia empirica visando infeccao urinaria ignora o quadro de abdome agudo com dor migratoria e irritacao peritoneal em fossa iliaca direita, retardando a conduta cirurgica adequada.",
+      "B": "Incorreta. Metotrexato trata gestacao ectopica, ja excluida pelo beta-hCG negativo; a conduta proposta e incoerente com o diagnostico de apendicite.",
+      "C": "Incorreta. Tratamento antibiotico ambulatorial isolado nao e apropriado diante de quadro clinico e laboratorial sugestivo de apendicite aguda com peritonite, que demanda avaliacao cirurgica hospitalar.",
+      "D": "Correta. O quadro migratorio de epigastrio para fossa iliaca direita, febre, descompressao dolorosa e leucocitose com desvio a esquerda sugere apendicite aguda; a conduta correta e confirmar por ultrassonografia de abdome e solicitar parecer cirurgico para eventual apendicectomia."
+    }
+  },
+  {
+    "num": 30,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Fimose na infancia",
+    "subtema": "Indicacao cirurgica por balanopostite recorrente e fibrose",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["fimose", "balanopostite", "postectomia", "anel_fibrotico", "pediatria"],
+    "justificativas": {
+      "A": "Incorreta. A presenca de anel fibrotico prepucial e de balanopostites recorrentes caracteriza fimose patologica, e nao fisiologica; exercicios e higiene isolados sao insuficientes.",
+      "B": "Incorreta. A exposicao do meato uretral a tracao nao afasta a fimose patologica nem justifica postergar a conduta para a adolescencia, pois ja ha indicacao cirurgica pelas complicacoes de repeticao.",
+      "C": "Correta. Balanopostites de repeticao associadas a anel fibrotico prepucial configuram fimose patologica com indicacao de tratamento cirurgico (postectomia), independentemente da idade.",
+      "D": "Incorreta. Corticoide topico e opcao para fimose fisiologica sem complicacoes; na presenca de fibrose e infeccoes recorrentes o tratamento clinico topico tende a falhar, sendo indicada a cirurgia."
+    }
+  },
+  {
+    "num": 36,
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "tema": "Quedas no idoso e polifarmacia",
+    "subtema": "Hipotensao ortostatica iatrogenica e desprescricao",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["quedas", "idoso", "polifarmacia", "hipotensao_ortostatica", "desprescricao"],
+    "justificativas": {
+      "A": "Incorreta. Embora a avaliacao oftalmologica seja relevante na abordagem multifatorial das quedas, ela nao contempla a causa principal evidenciada, que e a hipotensao postural relacionada aos multiplos anti-hipertensivos.",
+      "B": "Incorreta. O encaminhamento ao neurologista para disautonomia e precoce e desnecessario antes de corrigir a causa iatrogenica mais provavel, a polifarmacia com efeito hipotensor.",
+      "C": "Correta. A queda ortostatica documentada (138x92 deitada para 110x70 sentada) e o uso concomitante de losartana, hidroclorotiazida e atenolol indicam hipotensao induzida por farmacos; rever a polifarmacia para reduzir agentes hipotensores e a conduta prioritaria.",
+      "D": "Incorreta. Adicionar fludrocortisona para elevar a pressao aumentaria a carga medicamentosa e o risco em idosa hipertensa, agravando a polifarmacia em vez de corrigi-la."
+    }
+  },
+  {
+    "num": 44,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Terceiro periodo do parto (dequitacao)",
+    "subtema": "Manejo ativo com tracao controlada do cordao",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["dequitacao", "terceiro_periodo", "tracao_controlada_cordao", "manejo_ativo", "parto"],
+    "justificativas": {
+      "A": "Incorreta. A conduta puramente expectante nao corresponde ao manejo ativo do terceiro periodo, recomendado para reduzir hemorragia pos-parto, sobretudo apos sinais de descolamento placentario.",
+      "B": "Correta. Passados cerca de 10 minutos, dentro do manejo ativo do terceiro periodo, a conduta e a tracao controlada do cordao umbilical com contra-tracao suprapubica do utero, que auxilia a dequitacao com seguranca.",
+      "C": "Incorreta. A curagem (extracao manual) e reservada para retencao placentaria prolongada ou hemorragia, nao estando indicada em paciente estavel apenas 10 minutos apos o desprendimento fetal.",
+      "D": "Incorreta. Massagem uterina vigorosa antes da dequitacao e uterotonico adicional isolado nao substituem a tracao controlada do cordao e podem favorecer inversao uterina se aplicados de modo inadequado."
+    }
+  },
+  {
+    "num": 50,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Diabetes mellitus tipo 2 descompensado",
+    "subtema": "Insulinizacao basal (NPH noturna) associada a antidiabeticos orais",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["diabetes_tipo_2", "insulinizacao", "nph", "hemoglobina_glicada", "aps"],
+    "justificativas": {
+      "A": "Incorreta. Suspender os orais e iniciar esquema pleno de insulina NPH em duas doses altas de imediato e excessivo; a metformina deve ser mantida e a insulinizacao iniciada de forma escalonada com dose basal noturna.",
+      "B": "Incorreta. Apenas aumentar as doses dos orais em paciente ja em doses proximas das maximas com HbA1c de 9,5% e insuficiente; a insulinizacao basal ja esta indicada e nao deve ser adiada.",
+      "C": "Correta. Com HbA1c de 9,5% apesar de metformina e gliclazida em doses adequadas, mantem-se os orais e inicia-se insulina NPH basal noturna (cerca de 10 UI) com monitorizacao da glicemia de jejum e titulacao de 2 a 3 UI a cada 2 a 3 dias ate a meta.",
+      "D": "Incorreta. A troca por glibenclamida, sulfonilureia com maior risco de hipoglicemia, e a manutencao apenas de orais nao contemplam a insulinizacao necessaria neste grau de descontrole."
+    }
+  },
+  {
+    "num": 56,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "tema": "Controle vetorial de arboviroses (Chikungunya)",
+    "subtema": "Manejo integrado de vetores como processo ciclico",
+    "competencia_dcn_2025": ["dcn2025_comp_14", "dcn2025_comp_15"],
+    "tags": ["chikungunya", "aedes", "manejo_integrado_vetores", "vigilancia", "arbovirose"],
+    "justificativas": {
+      "A": "Incorreta. Descreve acoes isoladas de monitoramento entomologico e notificacao, sem representar o ciclo completo de planejamento, execucao e avaliacao que define o manejo integrado de vetores.",
+      "B": "Incorreta. Elenca atividades operacionais pontuais (treinamento, inseticida, mutiroes), mas nao expressa o processo ciclico e integrado de gestao proposto pela estrategia.",
+      "C": "Incorreta. Refere-se a acoes de vigilancia virologica e notificacao de casos, componentes da vigilancia epidemiologica, e nao ao ciclo de manejo integrado do vetor.",
+      "D": "Correta. O manejo integrado de vetores e um processo ciclico que compreende analise situacional baseada em dados epidemiologicos e entomologicos, desenho das operacoes, planificacao, implementacao, monitoramento e avaliacao."
+    }
+  },
+  {
+    "num": 62,
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "tema": "Preenchimento da declaracao de obito",
+    "subtema": "Responsabilidade do medico assistente e cadeia causal",
+    "competencia_dcn_2025": ["dcn2025_comp_24", "dcn2025_comp_27"],
+    "tags": ["declaracao_de_obito", "causa_mortis", "morte_natural", "atestado", "documentacao"],
+    "justificativas": {
+      "A": "Incorreta. Trata-se de morte natural de paciente com causa conhecida e acompanhado; nao cabe ao IML, que atua em mortes violentas ou suspeitas.",
+      "B": "Correta. Sendo morte natural de paciente assistido, cabe a medica preencher a declaracao, encadeando na Parte I a causa terminal (insuficiencia respiratoria), a intermediaria (pneumonia) e a basica (sindrome gripal), e na Parte II as condicoes contribuintes (AVE e HAS).",
+      "C": "Incorreta. O SAMU nao preenche declaracao de obito de paciente com causa conhecida acompanhado na APS, e a ordem da cadeia causal apresentada esta invertida.",
+      "D": "Incorreta. O servico de verificacao de obitos destina-se a mortes naturais sem assistencia ou de causa mal definida; alem disso a sequencia causal proposta esta incorreta."
+    }
+  },
+  {
+    "num": 68,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Rastreamento e seguimento de citologia cervical alterada",
+    "subtema": "Conduta na citologia ASC-H",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["citologia_oncotica", "asc_h", "colposcopia", "cancer_de_colo", "rastreamento"],
+    "justificativas": {
+      "A": "Incorreta. A conizacao e procedimento diagnostico-terapeutico indicado apos confirmacao de lesao de alto grau, nao sendo a conduta inicial diante apenas do resultado citologico de ASC-H.",
+      "B": "Correta. O laudo ASC-H tem risco elevado de lesao de alto grau subjacente; a conduta preconizada e o encaminhamento para colposcopia com eventual biopsia dirigida.",
+      "C": "Incorreta. A cirurgia de alta frequencia (exerese da zona de transformacao) e terapeutica e depende da confirmacao histologica previa por colposcopia e biopsia, nao sendo o passo inicial.",
+      "D": "Incorreta. Repetir a citologia em 6 meses e conduta reservada a ASC-US de baixo risco; em ASC-H a colposcopia imediata e obrigatoria pelo risco de neoplasia."
+    }
+  },
+  {
+    "num": 74,
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "tema": "Complicacoes da tireoidectomia",
+    "subtema": "Lesao do nervo laringeo recorrente",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["tireoidectomia", "nervo_laringeo_recorrente", "rouquidao", "complicacao_cirurgica"],
+    "justificativas": {
+      "A": "Correta. A rouquidao persistente apos tireoidectomia total decorre da lesao do nervo laringeo recorrente, que inerva a maioria dos musculos intrinsecos da laringe e cursa intimamente relacionado a glandula tireoide.",
+      "B": "Incorreta. O nervo glossofaringeo esta ligado a sensibilidade e a musculatura faringea, sem relacao anatomica com o campo cirurgico da tireoide nem com a rouquidao descrita.",
+      "C": "Incorreta. O nervo hipoglosso e responsavel pela motricidade da lingua; sua lesao causa disartria e desvio lingual, e nao rouquidao por disfuncao das cordas vocais.",
+      "D": "Incorreta. Embora o laringeo recorrente seja ramo do vago, a lesao especifica que causa rouquidao e a do proprio recorrente; a resposta que designa o tronco do vago nao e a esperada para este quadro localizado."
+    }
+  },
+  {
+    "num": 81,
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "tema": "Doenca orificial anal",
+    "subtema": "Fissura anal em paciente com constipacao e doenca de Crohn",
+    "competencia_dcn_2025": ["dcn2025_comp_03"],
+    "tags": ["fissura_anal", "sangramento_anal", "constipacao", "doenca_de_crohn", "proctologia"],
+    "justificativas": {
+      "A": "Incorreta. O abscesso perianal cursa com dor pulsatil intensa, tumoracao flutuante e sinais flogisticos, ausentes no caso, que nega tumoracao perianal.",
+      "B": "Incorreta. A fistula perianal manifesta-se por drenagem cronica de secrecao purulenta por orificio externo, e nao pelo quadro de dor e sangramento vivo ao evacuar aqui descrito.",
+      "C": "Incorreta. O cisto pilonidal localiza-se na regiao sacrococcigea e nao no canal anal, nao explicando dor e sangramento a evacuacao.",
+      "D": "Correta. Dor e ardor anal com sangramento vivo em pequena quantidade apos evacuacao de fezes endurecidas, em paciente com constipacao cronica e doenca de Crohn, caracteriza fissura anal."
+    }
+  },
+  {
+    "num": 87,
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "tema": "Obesidade e resistencia insulinica na adolescencia",
+    "subtema": "Acantose nigricans e investigacao de comorbidades metabolicas",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["acantose_nigricans", "obesidade", "resistencia_insulinica", "perfil_lipidico", "adolescente"],
+    "justificativas": {
+      "A": "Incorreta. A acantose nigricans e diagnostico clinico ligado a resistencia insulinica, dispensando biopsia; a hemoglobina glicada nao e o exame de rastreio metabolico de primeira escolha proposto neste contexto de investigacao ampla.",
+      "B": "Correta. Diante de obesidade com acantose nigricans e adiposidade central, a investigacao das comorbidades metabolicas com perfil lipidico e ultrassonografia de abdome (avaliacao de esteatose hepatica) e a conduta complementar adequada.",
+      "C": "Incorreta. As lesoes nao sao inflamatorias nem fotossensiveis; corticoide topico e restricao solar nao tratam a acantose nigricans, que melhora com controle da resistencia insulinica.",
+      "D": "Incorreta. A acantose nigricans nao e infeccao fungica, portanto antifungico e inutil; embora a investigacao de disglicemia seja pertinente, a associacao proposta esta ancorada em premissa diagnostica incorreta."
+    }
+  },
+  {
+    "num": 94,
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "tema": "Sangramento uterino na pos-menopausa",
+    "subtema": "Espessamento endometrial e hiperplasia endometrial",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["sangramento_pos_menopausa", "hiperplasia_endometrial", "espessamento_endometrial", "obesidade", "leiomioma"],
+    "justificativas": {
+      "A": "Correta. Sangramento pos-menopausa em mulher obesa, nulipara e sem reposicao hormonal, com endometrio espessado em 8 mm ao ultrassom, aponta a hiperplasia endometrial como principal hipotese, exigindo investigacao histologica do endometrio.",
+      "B": "Incorreta. Embora haja lesao polipoide cervical, o quadro dominante e o espessamento endometrial com fator de risco para hiperplasia; a lesao cervical descrita e sugestiva de polipo, nao caracterizando de imediato cancer de colo.",
+      "C": "Incorreta. Os leiomiomas descritos, incluindo o submucoso, sao achados frequentes, mas nao explicam preferencialmente o sangramento na pos-menopausa nem o endometrio de 8 mm, que direciona para patologia endometrial.",
+      "D": "Incorreta. Endometrio de 8 mm com sangramento afasta o padrao de endometrio atrofico, que se apresenta fino (habitualmente ate 4 a 5 mm) na pos-menopausa."
+    }
+  }
+]
