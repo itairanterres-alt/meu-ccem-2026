@@ -6,9 +6,11 @@ ancorado em uc_slug/fase_alvo/competencia_dcn_2025) para o formato de
 
 Todo campo que não tem correspondência determinística no banco de origem é
 inferido por heurística e MARCADO em provenance.mapeamento.baixa_confianca —
-nada é adivinhado silenciosamente. Um humano revisor precisa aprovar cada item
-antes de status='human_reviewed' (exigência do próprio treino-enamed, ver
-supabase/schema.sql: RLS só libera leitura ao estudante nesse status).
+nada é adivinhado silenciosamente. As questões entram como status='auto_verified':
+o treino-enamed foi desenhado para expor esse status ao estudante por padrão
+(ver supabase/migrations/20260722000000_auto_verified_training.sql e o toggle
+"Somente revisão humana" em src/App.tsx), com o disclaimer explícito de que não
+houve revisão docente — não ficam escondidas atrás de aprovação humana.
 """
 import json
 import re
@@ -508,12 +510,14 @@ def convert(q):
         "origem": "adequacao-enamed / MED-UNIDAVI — importação direta de banco pré-classificado",
         "source_policy": "publishable",
         "disclaimer": (
-            "Este item não passou pelo pipeline de geração/revisão automática do "
-            "treino-enamed (sem chamada de IA nesta importação). A classificação no "
-            "blueprint (área/subárea/ciclo de vida/tipo de decisão/cenário de cuidado) "
-            "foi feita por regras determinísticas e heurísticas de texto a partir da "
-            "curadoria já existente. Revisão humana editorial (review_question) é "
-            "obrigatória antes de status='human_reviewed'."
+            "Verificação automática — não houve revisão humana docente. Este item vem "
+            "da curadoria/adequação assistida do banco MED-UNIDAVI (não do pipeline de "
+            "geração/revisão automática do treino-enamed em si): gabarito auditado na "
+            "fonte original, justificativa própria em cada alternativa. A classificação "
+            "no blueprint (área/subárea/ciclo de vida/tipo de decisão/cenário de cuidado) "
+            "foi feita por regras determinísticas e heurísticas de texto a partir dessa "
+            "curadoria. Revisão humana editorial (review_question) continua disponível "
+            "para promover a 'human_reviewed'."
         ),
         "mapeamento": {
             "baixa_confianca": warnings,
@@ -533,7 +537,7 @@ def convert(q):
         "estimated_cost_usd": 0,
     }
 
-    question_row = {"status": "draft", "current_version": 1}
+    question_row = {"status": "auto_verified", "current_version": 1}
     question_version_row = {"version": 1, "body": body, "provenance": provenance}
     return question_row, question_version_row, warnings
 

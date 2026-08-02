@@ -11,11 +11,13 @@ Uso:
     pip install requests   # se ainda não tiver
     python3 carregar_treino_enamed.py
 
-Todas as questões entram com status='draft' — NÃO ficam visíveis a
-estudantes (a política de RLS do treino-enamed só libera leitura em
-status='human_reviewed', que exige revisão humana real via review_question()).
-Este script é idempotente por natureza não (recria linhas a cada execução);
-rode uma única vez, ou ajuste a lógica de dedupe se for reexecutar.
+Todas as questões entram com status='auto_verified' — JÁ ficam visíveis ao
+estudante no modo padrão do treino-enamed ("all_verified"), com o disclaimer
+de que não houve revisão docente (o app tem um toggle "Somente revisão
+humana" para quem quiser restringir). Revisão editorial continua disponível
+depois para promover item a item para 'human_reviewed'.
+Este script não é idempotente (recria linhas a cada execução); rode uma
+única vez, ou ajuste a lógica de dedupe se for reexecutar.
 """
 import json
 import os
