@@ -55,11 +55,15 @@ HEADERS = {
 }
 
 
+TIMEOUT = 30  # segundos por request — falha alto e claro em vez de travar para sempre
+
+
 def insert_question(status):
     r = requests.post(
         f"{SUPABASE_URL}/rest/v1/questions",
         headers=HEADERS,
         json={"status": status, "current_version": 1},
+        timeout=TIMEOUT,
     )
     r.raise_for_status()
     return r.json()[0]["id"]
@@ -70,17 +74,36 @@ def insert_question_version(question_id, version, body, provenance):
         f"{SUPABASE_URL}/rest/v1/question_versions",
         headers=HEADERS,
         json={"question_id": question_id, "version": version, "body": body, "provenance": provenance},
+        timeout=TIMEOUT,
     )
     if not r.ok:
         # limpa a questão órfã se a versão falhar, mesma lógica do database.ts deles
-        requests.delete(f"{SUPABASE_URL}/rest/v1/questions?id=eq.{question_id}", headers=HEADERS)
+        requests.delete(f"{SUPABASE_URL}/rest/v1/questions?id=eq.{question_id}", headers=HEADERS, timeout=TIMEOUT)
         r.raise_for_status()
 
 
 def main():
     items = json.loads(IMPORT_FILE.read_text(encoding="utf-8"))
-    ok, falhas = 0, []
-    for item in items:
+    print(f"Lidas {len(items)} questões de {IMPORT_FILE.name}. Conectando em {SUPABASE_URL} ...", flush=True)
+
+    # testa a conexão com 1 item antes de sair inserindo tudo, para falhar rápido e claro
+    try:
+        primeiro = items[0]
+        question_id = insert_question(primeiro["question"]["status"])
+        insert_question_version(
+            question_id, primeiro["question_version"]["version"],
+            primeiro["question_version"]["body"], primeiro["question_version"]["provenance"],
+        )
+    except requests.exceptions.Timeout:
+        sys.exit("Não consegui conectar ao Supabase em 30s. Confira sua internet e o SUPABASE_URL.")
+    except requests.exceptions.ConnectionError as e:
+        sys.exit(f"Falha de conexão com o Supabase. Confira SUPABASE_URL. Detalhe: {e}")
+    except requests.exceptions.HTTPError as e:
+        sys.exit(f"O Supabase recusou a requisição (provável SUPABASE_SECRET_KEY errada/incompleta). Detalhe: {e}")
+    ok, falhas = 1, []
+    print(f"1/{len(items)} inseridas...", flush=True)
+
+    for item in items[1:]:
         q = item["question"]
         qv = item["question_version"]
         try:
@@ -89,8 +112,8 @@ def main():
             ok += 1
         except Exception as e:
             falhas.append({"origem_indice": item["origem_indice"], "erro": str(e)})
-        if ok % 50 == 0 and ok:
-            print(f"{ok}/{len(items)} inseridas...")
+        if ok % 25 == 0:
+            print(f"{ok}/{len(items)} inseridas...", flush=True)
 
     print(f"\nConcluído: {ok} inseridas, {len(falhas)} falhas.")
     if falhas:
