@@ -78,7 +78,7 @@ def insert_question_version(question_id, version, body, provenance):
 
 
 def main():
-    items = json.loads(IMPORT_FILE.read_text())
+    items = json.loads(IMPORT_FILE.read_text(encoding="utf-8"))
     ok, falhas = 0, []
     for item in items:
         q = item["question"]
@@ -94,7 +94,7 @@ def main():
 
     print(f"\nConcluído: {ok} inseridas, {len(falhas)} falhas.")
     if falhas:
-        Path("falhas_import.json").write_text(json.dumps(falhas, ensure_ascii=False, indent=2))
+        Path("falhas_import.json").write_text(json.dumps(falhas, ensure_ascii=False, indent=2), encoding="utf-8")
         print("Detalhe das falhas em falhas_import.json")
 
 
