@@ -26,7 +26,17 @@ from pathlib import Path
 
 import requests
 
-IMPORT_FILE = Path(__file__).resolve().parent.parent / "canonico" / "treino-enamed-import.json"
+SCRIPT_DIR = Path(__file__).resolve().parent
+_CANDIDATOS = [
+    SCRIPT_DIR / "treino-enamed-import.json",  # os dois arquivos soltos na mesma pasta
+    SCRIPT_DIR.parent / "canonico" / "treino-enamed-import.json",  # dentro do repositório clonado
+]
+IMPORT_FILE = next((p for p in _CANDIDATOS if p.exists()), None)
+if IMPORT_FILE is None:
+    sys.exit(
+        "Não achei treino-enamed-import.json. Coloque esse arquivo na mesma pasta "
+        f"deste script ({SCRIPT_DIR})."
+    )
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_KEY = os.environ.get("SUPABASE_SECRET_KEY") or os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
