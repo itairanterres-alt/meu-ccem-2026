@@ -5,6 +5,728 @@
   "cobertura": "fases 1 a 8 (PBL); fases 9-12 internato seguem em 2026.1 e fora do banco (formato APC/Ten Cate, sem SPs)",
   "aviso_migracao": "O slug de OA é posicional. NÃO reaproveite slug de 2026.1 sem consultar mapa_migracao_2026_1_para_2026_2.json: SP renumerada e OA deslocado mantêm um slug válido apontando para outro objetivo.",
   "fases": {
+    "f01": {
+      "uc01": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f01_uc01_sp01",
+            "numero": 1,
+            "titulo": "Louis Pasteur: Quando o invisível mudou o destino da medicina",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc01_sp01_oa01",
+                "numero": 1,
+                "texto": "Identificar os principais eventos que influenciaram a história da medicina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp01_oa02",
+                "numero": 2,
+                "texto": "Reconhecer a evolução científica e das práticas médicas no cuidado à saúde no contexto histórico e social."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp01_oa03",
+                "numero": 3,
+                "texto": "Refletir sobre o que significa ‘Ser Médico’, enfatizando a motivação pessoal para fazer medicina e o papel social desta profissão."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp01_oa04",
+                "numero": 4,
+                "texto": "Caracterizar as fases da história natural das doenças."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever os passos do método científico e a sua importância na prática médica."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp01_oa06",
+                "numero": 6,
+                "texto": "Definir medicina baseada em evidências, seus recursos e limitações para a prática médica."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp01_oa07",
+                "numero": 7,
+                "texto": "Definir promoção, prevenção e recuperação de saúde e relacionar o impacto destas ações com a qualidade de vida da população."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f01_uc01_sp02",
+            "numero": 2,
+            "titulo": "Você não me ouviu, doutor…",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa01",
+                "numero": 1,
+                "texto": "Discutir os fatores que influenciam a escolha da carreira médica e a construção da identidade profissional."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa02",
+                "numero": 2,
+                "texto": "Caracterizar os diferentes modelos de relação médico-paciente."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa03",
+                "numero": 3,
+                "texto": "Refletir sobre as condições de trabalho dos profissionais de saúde e seus impactos na qualidade do cuidado."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa04",
+                "numero": 4,
+                "texto": "Compreender a importância da comunicação efetiva na prática médica."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa05",
+                "numero": 5,
+                "texto": "Diferenciar queixa, demanda e necessidade de saúde."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa06",
+                "numero": 6,
+                "texto": "Conceituar e diferenciar doença de adoecimento e relacionar com o cuidado à saúde nas duas perspectivas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa07",
+                "numero": 7,
+                "texto": "Conhecer o Método Clínico Centrado na Pessoa."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa08",
+                "numero": 8,
+                "texto": "Reconhecer a importância da abordagem biopsicossocial e espiritual no cuidado em saúde."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa09",
+                "numero": 9,
+                "texto": "Conceituar humanização e refletir sobre sua aplicação nos serviços de saúde."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp02_oa10",
+                "numero": 10,
+                "texto": "Conceituar cuidados paliativos e suas abordagens."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f01_uc01_sp03",
+            "numero": 3,
+            "titulo": "Por que ela foi para tão longe?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa01",
+                "numero": 1,
+                "texto": "Contextualizar historicamente a criação do Sistema Único de Saúde (SUS)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa02",
+                "numero": 2,
+                "texto": "Identificar a influência dos movimentos sociais e da Reforma Sanitária Brasileira na construção do SUS."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa03",
+                "numero": 3,
+                "texto": "Caracterizar os princípios doutrinários do SUS: Universalidade, Equidade e Integralidade."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa04",
+                "numero": 4,
+                "texto": "Descrever as diretrizes organizativas do SUS: Descentralização, Regionalização, Hierarquização e Participação Social."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa05",
+                "numero": 5,
+                "texto": "Compreender a organização da Rede de Atenção à Saúde e os diferentes níveis de atenção."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa06",
+                "numero": 6,
+                "texto": "Discutir os mecanismos de referência e contrarreferência dentro do sistema de saúde."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa07",
+                "numero": 7,
+                "texto": "Reconhecer a importância da equipe multiprofissional na atenção às necessidades de saúde da população."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa08",
+                "numero": 8,
+                "texto": "Avaliar a adaptabilidade das políticas públicas de saúde de acordo com as necessidades da população, com foco nos indicadores epidemiológicos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa09",
+                "numero": 9,
+                "texto": "Refletir sobre os desafios operacionais, financeiros e sociais enfrentados pelo SUS."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp03_oa10",
+                "numero": 10,
+                "texto": "Discutir o papel social do médico e do estudante de Medicina na defesa do direito à saúde."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f01_uc01_sp04",
+            "numero": 4,
+            "titulo": "Mas a decisão é dela…",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa01",
+                "numero": 1,
+                "texto": "Diferenciar moral, ética e bioética."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa02",
+                "numero": 2,
+                "texto": "Compreender os princípios fundamentais da bioética (autonomia, beneficência, não maleficência e justiça)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa03",
+                "numero": 3,
+                "texto": "Discutir a influência dos aspectos socioculturais, religiosos e familiares nas decisões relacionadas à saúde."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa04",
+                "numero": 4,
+                "texto": "Refletir sobre a autonomia do paciente e o processo de tomada de decisão compartilhada."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa05",
+                "numero": 5,
+                "texto": "Reconhecer a importância da comunicação efetiva em situações complexas e emocionalmente desafiadoras."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa06",
+                "numero": 6,
+                "texto": "Discutir humanização, empatia, vínculo e escuta qualificada na prática médica."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa07",
+                "numero": 7,
+                "texto": "Identificar os direitos dos pacientes e os deveres dos profissionais de saúde."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa08",
+                "numero": 8,
+                "texto": "Conhecer o papel do Conselho Federal de Medicina (CFM), dos Conselhos Regionais de Medicina (CRM), do Código de Ética Médica e do Código de Ética do Estudante de Medicina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa09",
+                "numero": 9,
+                "texto": "Refletir sobre os limites éticos da atuação profissional diante de conflitos entre valores pessoais, familiares e institucionais."
+              },
+              {
+                "slug": "med_unidavi_f01_uc01_sp04_oa10",
+                "numero": 10,
+                "texto": "Discutir o papel social do médico na promoção do cuidado integral à saúde."
+              }
+            ]
+          }
+        }
+      },
+      "uc02": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f01_uc02_sp01",
+            "numero": 1,
+            "titulo": "Entre o tempo do corpo e o tempo da vida",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa01",
+                "numero": 1,
+                "texto": "Caracterizar o sistema reprodutor masculino do ponto de vista morfofuncional."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa02",
+                "numero": 2,
+                "texto": "Definir adolescência e puberdade."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa03",
+                "numero": 3,
+                "texto": "Caracterizar as fases da puberdade masculina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa04",
+                "numero": 4,
+                "texto": "Caracterizar as mudanças físicas e psicológicas da puberdade masculina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever o processo de maturação do eixo hipotálamo-hipofisário-gonadal masculino."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa06",
+                "numero": 6,
+                "texto": "Descrever os métodos clínicos utilizados para avaliação do desenvolvimento da puberdade masculina (escala de TANNER, medida das dimensões gonadais, etc.)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa07",
+                "numero": 7,
+                "texto": "Descrever o processo de gametogênese masculina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp01_oa08",
+                "numero": 8,
+                "texto": "Definir Bullying e identificar suas consequências."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f01_uc02_sp02",
+            "numero": 2,
+            "titulo": "Meninas mães ou mães meninas?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa01",
+                "numero": 1,
+                "texto": "Caracterizar o sistema reprodutor feminino do ponto de vista morfofuncional."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa02",
+                "numero": 2,
+                "texto": "Analisar o processo de maturação do eixo hipotálamo-hipofisário-gonadal feminino."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa03",
+                "numero": 3,
+                "texto": "Caracterizar as mudanças físicas e psicológicas da puberdade feminina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa04",
+                "numero": 4,
+                "texto": "Definir menarca, pubarca e telarca e caracterizar os eventos que ocorrem nestas fases."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa05",
+                "numero": 5,
+                "texto": "Explicar os métodos clínicos utilizados para avaliação do desenvolvimento da puberdade feminina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa06",
+                "numero": 6,
+                "texto": "Relacionar o processo de gametogênese feminina ao eixo hipotálamo-hipofisário-gonadal feminino."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa07",
+                "numero": 7,
+                "texto": "Relacionar o ciclo menstrual à maturação do eixo hipotálamo-hipófise-gonadal."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa08",
+                "numero": 8,
+                "texto": "Investigar a influência dos aspectos religiosos, legais e éticos com o início da prática sexual e os fatores causais associados à gravidez na adolescência e suas consequências para a adolescente."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa09",
+                "numero": 9,
+                "texto": "Caracterizar os métodos contraceptivos, de acordo com sua indicação e eficácia."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa10",
+                "numero": 10,
+                "texto": "Identificar as principais IST."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp02_oa11",
+                "numero": 11,
+                "texto": "Analisar a influência dos aspectos socioculturais da gravidez não desejada e aspectos legais e éticos do aborto no Brasil."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f01_uc02_sp03",
+            "numero": 3,
+            "titulo": "Vamos tentar mais uma vez?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc02_sp03_oa01",
+                "numero": 1,
+                "texto": "Descrever o processo de fertilização natural."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp03_oa02",
+                "numero": 2,
+                "texto": "Citar os principais métodos de reprodução assistida."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp03_oa03",
+                "numero": 3,
+                "texto": "Descrever os eventos que ocorrem desde a formação do zigoto até o fim do período embrionário, caracterizando as principais mudanças ocorridas a cada semana."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp03_oa04",
+                "numero": 4,
+                "texto": "Conceituar infertilidade e citar as principais causas de infertilidade feminina e masculina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp03_oa05",
+                "numero": 5,
+                "texto": "Descrever o processo de diferenciação sexual."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp03_oa06",
+                "numero": 6,
+                "texto": "Caracterizar os diferentes tipos de células-tronco e suas potencialidades (bancos de sangue do cordão umbilical)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp03_oa07",
+                "numero": 7,
+                "texto": "Definir planejamento familiar e reconhecer os instrumentos e seus propósitos."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f01_uc02_sp04",
+            "numero": 4,
+            "titulo": "Não tenho tempo…",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa01",
+                "numero": 1,
+                "texto": "Descrever o desenvolvimento dos principais sistemas do período fetal."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa02",
+                "numero": 2,
+                "texto": "Caracterizar os anexos fetais, o período de surgimento de cada um deles e suas funções."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa03",
+                "numero": 3,
+                "texto": "Caracterizar sofrimento fetal."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa04",
+                "numero": 4,
+                "texto": "Caracterizar o uso de corticosteróides na prematuridade."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa05",
+                "numero": 5,
+                "texto": "Caracterizar os diferentes tipos do transporte placentário."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa06",
+                "numero": 6,
+                "texto": "Caracterizar o pré-natal no SUS e a importância de sua realização."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa07",
+                "numero": 7,
+                "texto": "Citar os métodos de avaliação do desenvolvimento embrionário e fetal."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp04_oa08",
+                "numero": 8,
+                "texto": "Conceituar gestação a termo, pré-termo e pós-termo."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f01_uc02_sp05",
+            "numero": 5,
+            "titulo": "Grávida? Eu?...",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc02_sp05_oa01",
+                "numero": 1,
+                "texto": "Caracterizar gestação de alto risco e suas causas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp05_oa02",
+                "numero": 2,
+                "texto": "Identificar as políticas públicas para o cuidado da gestação de risco."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp05_oa03",
+                "numero": 3,
+                "texto": "Caracterizar o diagnóstico clínico laboratorial associado ao rastreamento de cromossomopatias no período fetal."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp05_oa04",
+                "numero": 4,
+                "texto": "Definir teratogênese, classificar os agentes teratogênicos e suas consequências."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp05_oa05",
+                "numero": 5,
+                "texto": "Conceituar e caracterizar: síndromes genéticas, hereditárias e congênitas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp05_oa06",
+                "numero": 6,
+                "texto": "Caracterizar modificações epigenéticas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc02_sp05_oa07",
+                "numero": 7,
+                "texto": "Avaliar eticamente a postura do médico em relação à gestante e aos familiares na situação problema."
+              }
+            ]
+          }
+        }
+      },
+      "uc03": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f01_uc03_sp01",
+            "numero": 1,
+            "titulo": "Comer, comer… é o melhor para poder viver!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa01",
+                "numero": 1,
+                "texto": "Definir metabolismo (anabolismo e catabolismo)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa02",
+                "numero": 2,
+                "texto": "Citar e caracterizar os macro e micronutrientes, relacionando ao Guia Alimentar para a população brasileira (Ministério da Saúde)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa03",
+                "numero": 3,
+                "texto": "Definir e classificar carboidratos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa04",
+                "numero": 4,
+                "texto": "Descrever o processo de digestão, absorção e transporte de carboidratos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever o processo de obtenção de energia pela degradação de carboidratos (glicólise anaeróbica e aeróbica, ciclo de Krebs, cadeia respiratória e fosforilação oxidativa)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa06",
+                "numero": 6,
+                "texto": "Descrever o processo de síntese e utilização de glicogênio hepática e muscular."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa07",
+                "numero": 7,
+                "texto": "Caracterizar a utilização de glicose pela via das pentoses e de que forma essa via contribui para o armazenamento do excedente de glicose em gordura de reserva."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa08",
+                "numero": 8,
+                "texto": "Relacionar o desequilíbrio entre ingestão e gasto energético como fator responsável pelo ganho ou perda de massa."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp01_oa09",
+                "numero": 9,
+                "texto": "Caracterizar e calcular o IMC."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f01_uc03_sp02",
+            "numero": 2,
+            "titulo": "O bar do Zé!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa01",
+                "numero": 1,
+                "texto": "Caracterizar lipídios, seus tipos e funções."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa02",
+                "numero": 2,
+                "texto": "Descrever o processo de digestão e absorção de lipídios."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa03",
+                "numero": 3,
+                "texto": "Caracterizar o mecanismo de transporte de lipídios através do sistema linfático e sangue, diferenciando os tipos de lipoproteínas (quilomícrons, HDL, LDL, VLDL)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa04",
+                "numero": 4,
+                "texto": "Descrever o processo de obtenção de energia a partir da degradação de lipídios, bem como a síntese dos corpos cetônicos (utilização por tecidos extra-hepáticos)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa05",
+                "numero": 5,
+                "texto": "Descrever o processo de síntese e armazenamento de lipídios, relacionando com a via das pentoses."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa06",
+                "numero": 6,
+                "texto": "Caracterizar o colesterol quanto às suas origens e destinos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa07",
+                "numero": 7,
+                "texto": "Caracterizar a ação da sinvastatina no controle dos níveis de colesterol."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa08",
+                "numero": 8,
+                "texto": "Discutir as consequências biopsicossociais da obesidade na infância, adolescência e na vida adulta."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp02_oa09",
+                "numero": 9,
+                "texto": "Conhecer as políticas públicas para prevenção e controle da obesidade e da hipertensão arterial."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f01_uc03_sp03",
+            "numero": 3,
+            "titulo": "Malhar e comer proteína: o segredo do corpão!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa01",
+                "numero": 1,
+                "texto": "Caracterizar aminoácidos e proteínas, seus tipos e funções."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa02",
+                "numero": 2,
+                "texto": "Descrever o processo de digestão e absorção de proteínas e AA."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa03",
+                "numero": 3,
+                "texto": "Descrever o processo de síntese de proteínas, evidenciando que não há armazenamento no organismo."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa04",
+                "numero": 4,
+                "texto": "Descrever o processo de obtenção de energia pela degradação de proteínas e AA."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa05",
+                "numero": 5,
+                "texto": "Discutir o destino dos aminoácidos na formação de compostos nitrogenados não protéicos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa06",
+                "numero": 6,
+                "texto": "Conceituar icterícia, seus tipos, suas causas e consequências."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa07",
+                "numero": 7,
+                "texto": "Relacionar o excesso da ingestão de proteínas e AA com o aumento de tecido adiposo."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa08",
+                "numero": 8,
+                "texto": "Discutir o uso de esteroides anabolizantes e suplementos alimentares para mudança da imagem corporal e suas consequências para outros órgãos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp03_oa09",
+                "numero": 9,
+                "texto": "Definir balanço nitrogenado e exemplificar."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f01_uc03_sp04",
+            "numero": 4,
+            "titulo": "A coisa está ficando difícil",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa01",
+                "numero": 1,
+                "texto": "Discutir o destino dos aminoácidos na formação de compostos nitrogenados não protéicos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa02",
+                "numero": 2,
+                "texto": "Caracterizar a estrutura e funções das porfirinas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa03",
+                "numero": 3,
+                "texto": "Caracterizar o metabolismo de síntese e degradação das porfirinas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa04",
+                "numero": 4,
+                "texto": "Caracterizar a estrutura e funções das bases nitrogenadas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa05",
+                "numero": 5,
+                "texto": "Caracterizar o metabolismo de síntese e degradação das bases nitrogenadas."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa06",
+                "numero": 6,
+                "texto": "Conceituar e caracterizar o processo da gota úrica."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa07",
+                "numero": 7,
+                "texto": "Discutir o mecanismo de ação da Colchicina e Alopurinol (Zyloric)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa08",
+                "numero": 8,
+                "texto": "Discutir o metabolismo do álcool."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp04_oa09",
+                "numero": 9,
+                "texto": "Discutir os mecanismos de regulação metabólica associados ao jejum (ressaltando a importância da gliconeogênese) e à ingestão de álcool."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f01_uc03_sp05",
+            "numero": 5,
+            "titulo": "Muito açúcar no sangue?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa01",
+                "numero": 1,
+                "texto": "Discutir as alterações metabólicas e hormonais no: a. Diabetes do tipo I; b. Identificar os tecidos insulino-dependentes e insulino- independentes; c. Caracterizar as causas da hiperglicemia e da cetoacidose; d. Reconhecer sua epidemiologia."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa02",
+                "numero": 2,
+                "texto": "Discutir as alterações metabólicas e hormonais no: a. Diabetes do tipo II; b. Relacionar obesidade e hiperinsulinemia; c. Relacionar hiperinsulinemia e resistência periférica à insulina."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa03",
+                "numero": 3,
+                "texto": "Reconhecer as principais complicações decorrentes da hiperglicemia crônica no diabetes."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa04",
+                "numero": 4,
+                "texto": "Comparar as alterações observadas no diabetes com o estado de jejum prolongado, ressaltando: a. Ação dos hormônios glucagon e glicocorticóides. b. Importância da gliconeogênese hepática e renal. c. O aumento da proteólise muscular (ciclo da alanina-glicose); d. O aumento da lipólise e da cetogênese (cetoacidose)."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa05",
+                "numero": 5,
+                "texto": "Citar o tratamento associado a pacientes diabéticos."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa06",
+                "numero": 6,
+                "texto": "Definir Síndrome metabólica e suas consequências."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa07",
+                "numero": 7,
+                "texto": "Discutir a necessidade de conscientização do paciente diabético e seus familiares quanto às mudanças de hábitos de vida."
+              },
+              {
+                "slug": "med_unidavi_f01_uc03_sp05_oa08",
+                "numero": 8,
+                "texto": "Identificar as políticas públicas relacionadas à promoção, prevenção e tratamento do Diabetes."
+              }
+            ]
+          }
+        }
+      }
+    },
     "f02": {
       "uc01": {
         "sps": {
@@ -2701,6 +3423,1797 @@
                 "slug": "med_unidavi_f05_uc03_sp05_oa12",
                 "numero": 12,
                 "texto": "Descrever as indicações de profilaxia antirretroviral pós exposição ao HIV."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f06": {
+      "uc01": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f06_uc01_sp01",
+            "numero": 1,
+            "titulo": "Memórias",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa01",
+                "numero": 1,
+                "texto": "Conceituar a depressão como manifestação psicopatológica, identificando os mecanismos fisiopatológicos envolvidos na sua gênese e evolução."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa02",
+                "numero": 2,
+                "texto": "Explicar o processo diagnóstico das depressões, realizando o diagnóstico diferencial."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa03",
+                "numero": 3,
+                "texto": "Identificar os tipos clínicos de depressão e sua epidemiologia."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa04",
+                "numero": 4,
+                "texto": "Identificar as complicações da depressão."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever o tratamento medicamentoso da depressão: mecanismos de ação, usos terapêuticos e efeitos colaterais dos fármacos antidepressivos."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa06",
+                "numero": 6,
+                "texto": "Citar outras modalidades terapêuticas nas manifestações depressivas, explicitando os envolvidos no processo."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa07",
+                "numero": 7,
+                "texto": "Identificar o paciente potencialmente suicida."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa08",
+                "numero": 8,
+                "texto": "Descrever o luto fisiológico, suas fases, e diferenciá-lo daquele associado ao transtorno depressivo."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp01_oa09",
+                "numero": 9,
+                "texto": "Discutir a importância do vínculo familiar e social na conduta terapêutica desses pacientes."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f06_uc01_sp02",
+            "numero": 2,
+            "titulo": "Estou morrendo",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc01_sp02_oa01",
+                "numero": 1,
+                "texto": "Identificar os principais transtornos de ansiedade."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp02_oa02",
+                "numero": 2,
+                "texto": "Caracterizar as manifestações clínicas, correlacionando-as com a fisiopatologia, o diagnóstico e os fatores desencadeantes dos principais tipos de transtornos de ansiedade."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp02_oa03",
+                "numero": 3,
+                "texto": "Reconhecer os diagnósticos diferenciais de quadros ansiosos."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp02_oa04",
+                "numero": 4,
+                "texto": "Discutir a complexidade do diagnóstico e do tratamento usual dos transtornos de ansiedade, gerando desnecessariamente custos ao sistema."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp02_oa05",
+                "numero": 5,
+                "texto": "Compreender o tratamento farmacológico dos transtornos de ansiedade."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp02_oa06",
+                "numero": 6,
+                "texto": "Justificar a importância de tratamentos não medicamentoso nos quadros ansiosos."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp02_oa07",
+                "numero": 7,
+                "texto": "Identificar as emergências psiquiátricas e seu encaminhamento no âmbito do SUS em seus níveis de atenção à saúde mental (CAPS, ambulatórios e outros)."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f06_uc01_sp03",
+            "numero": 3,
+            "titulo": "A escolhida",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc01_sp03_oa01",
+                "numero": 1,
+                "texto": "Caracterizar fisiopatológica e clinicamente a esquizofrenia, valorizando o quadro clínico e os principais sintomas observados."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp03_oa02",
+                "numero": 2,
+                "texto": "Descrever a “personalidade pré-mórbida”, no contexto das manifestações relacionadas à esquizofrenia, na história de vida do paciente."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp03_oa03",
+                "numero": 3,
+                "texto": "Analisar os tipos e a epidemiologia dos quadros psicóticos."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp03_oa04",
+                "numero": 4,
+                "texto": "Realizar os diagnósticos diferenciais das psicoses."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp03_oa05",
+                "numero": 5,
+                "texto": "Identificar os fármacos antipsicóticos, seu mecanismo de ação, usos terapêuticos e efeitos colaterais."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp03_oa06",
+                "numero": 6,
+                "texto": "Discutir outras formas de terapia não farmacológica para o tratamento das psicoses."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp03_oa07",
+                "numero": 7,
+                "texto": "Justificar a necessidade de psicoeducação da família de pacientes com distúrbios psicóticos."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f06_uc01_sp04",
+            "numero": 4,
+            "titulo": "Extremos",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc01_sp04_oa01",
+                "numero": 1,
+                "texto": "Caracterizar o transtorno bipolar, seus tipos (I e II) e sua história natural."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp04_oa02",
+                "numero": 2,
+                "texto": "Caracterizar as manifestações típicas dos episódios de mania e de depressão apresentados pelo paciente bipolar, realizando corretamente o diagnóstico diferencial com outras afecções mentais."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp04_oa03",
+                "numero": 3,
+                "texto": "Reconhecer a necessidade de encaminhamento de pacientes com transtorno bipolar para o psiquiatra."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp04_oa04",
+                "numero": 4,
+                "texto": "Discutir o tratamento medicamentoso dos transtornos bipolares, bem como outras opções terapêuticas adequadas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp04_oa05",
+                "numero": 5,
+                "texto": "Caracterizar o papel da atenção primária em saúde frente a casos possíveis e iniciais de transtornos bipolares, realizando corretamente o encaminhamento do paciente."
+              },
+              {
+                "slug": "med_unidavi_f06_uc01_sp04_oa06",
+                "numero": 6,
+                "texto": "Discutir a importância da participação familiar no tratamento dos casos de transtorno bipolar, bem como a atuação multiprofissional."
+              }
+            ]
+          }
+        }
+      },
+      "uc02": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f06_uc02_sp01",
+            "numero": 1,
+            "titulo": "Se beber…",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa01",
+                "numero": 1,
+                "texto": "Conceituar hemorragia, em traumatismos corporais abertos e fechados."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa02",
+                "numero": 2,
+                "texto": "Conceituar choque e discutir a sua classificação."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa03",
+                "numero": 3,
+                "texto": "Caracterizar e classificar o choque hemorrágico quanto à sua epidemiologia e fisiopatologia, dando ênfase às manifestações decorrentes de fenômenos circulatórios compensatórios."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa04",
+                "numero": 4,
+                "texto": "Citar os parâmetros clínicos que auxiliam na identificação da gravidade do choque hemorrágico e sua relação com a reposição volêmica."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever o tratamento de choque hemorrágico."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa06",
+                "numero": 6,
+                "texto": "Definir hemoderivados e como são empregados na prática clínica."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa07",
+                "numero": 7,
+                "texto": "Descrever os mecanismos vasculares envolvidos na formação e dissolução de coágulos, bem como sua manifestação clínica."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp01_oa08",
+                "numero": 8,
+                "texto": "Caracterizar o politraumatismo secundário a acidentes de trânsito quanto ao protocolo dedicado a guiar o primeiro atendimento na sala de estabilização (ATLS), à sua epidemiologia, aos custos para a sociedade, à faixa etária envolvida, assim como custos familiares, sequelas e responsabilidade no trânsito, de acordo com as normas legais."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f06_uc02_sp02",
+            "numero": 2,
+            "titulo": "Queda? Infarto?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc02_sp02_oa01",
+                "numero": 1,
+                "texto": "Relacionar hipertensão arterial sistêmica, diabetes e dislipidemia com o desenvolvimento de placas de ateroma e suas possíveis complicações."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp02_oa02",
+                "numero": 2,
+                "texto": "Descrever como ocorre a formação do trombo arterial, quais os seus componentes e os fatores predisponentes."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp02_oa03",
+                "numero": 3,
+                "texto": "Explicar fisiopatologicamente as alterações clínicas do caso apresentado."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp02_oa04",
+                "numero": 4,
+                "texto": "Explicar a gênese de distúrbios hemostáticos relacionados a placas de ateroma."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp02_oa05",
+                "numero": 5,
+                "texto": "Diferenciar trombo e êmbolo."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp02_oa06",
+                "numero": 6,
+                "texto": "Caracterizar a importância e a indicação da realização da necropsia médico-legal nos casos semelhantes ao do paciente apresentado."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp02_oa07",
+                "numero": 7,
+                "texto": "Compreender a importância do desenvolvimento de competências clínicas e educativas do médico, para pacientes com doenças crônicas não transmissíveis (DCNT/OMS), especialmente as cardiovasculares, com vistas à redução da morbidade e da mortalidade."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f06_uc02_sp03",
+            "numero": 3,
+            "titulo": "Uma longa viagem",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa01",
+                "numero": 1,
+                "texto": "Caracterizar fisiopatologicamente os quadros de trombose venosa profunda."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa02",
+                "numero": 2,
+                "texto": "Identificar os elementos da cascata de coagulação, descrevendo as vias intrínseca e extrínseca da coagulação sanguínea."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa03",
+                "numero": 3,
+                "texto": "Explicar o papel da estase e de outros fatores envolvidos na ativação da cascata de coagulação."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa04",
+                "numero": 4,
+                "texto": "Caracterizar clínica e fisiopatologicamente a Trombose Venosa Profunda (TVP), incluindo seus fatores predisponentes e o papel dos exames laboratoriais e dos algoritmos que estudam o problema."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa05",
+                "numero": 5,
+                "texto": "Caracterizar, do ponto da fisiopatologia e do diagnóstico diferencial, o Tromboembolismo Pulmonar (TEP)."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa06",
+                "numero": 6,
+                "texto": "Compreender a correlação entre a TVP e o TEP, como componentes da Síndrome do Tromboembolismo Venoso (TEV), incluindo seus fatores causais comuns, bem como identificar seus principais fatores de risco e medidas preventivas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa07",
+                "numero": 7,
+                "texto": "Identificar o tratamento do TEP, citando suas indicações e contra indicações mais importantes."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp03_oa08",
+                "numero": 8,
+                "texto": "Reconhecer o mecanismo de ação dos anticoagulantes injetáveis e orais, a importância do seu uso correto e os efeitos adversos."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f06_uc02_sp04",
+            "numero": 4,
+            "titulo": "Febres tropicais",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc02_sp04_oa01",
+                "numero": 1,
+                "texto": "Explicar a fisiopatologia da púrpura nas doenças infecciosas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp04_oa02",
+                "numero": 2,
+                "texto": "Explicar e diferenciar a fisiopatologia e a clínica dos choques hemorrágico, distributivo e séptico."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp04_oa03",
+                "numero": 3,
+                "texto": "Diferenciar, com fundamentos fisiopatológicos, o choque das doenças infecciosas daquele causado por outros fatores (anafilaxia, hipovolemia, dentre outros)."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp04_oa04",
+                "numero": 4,
+                "texto": "Discutir estratégias e medidas preventivas de dengue na comunidade e na Atenção Primária em Saúde."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f06_uc02_sp05",
+            "numero": 5,
+            "titulo": "Sangue, suor e lágrimas",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc02_sp05_oa01",
+                "numero": 1,
+                "texto": "Caracterizar as leucemias, relacionando sua prevalência com a faixa etária dos pacientes acometidos."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp05_oa02",
+                "numero": 2,
+                "texto": "Caracterizar as alterações dos exames laboratoriais relacionadas às leucoses."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp05_oa03",
+                "numero": 3,
+                "texto": "Descrever fisiopatologicamente os mecanismos pelos quais as leucoses podem interferir na coagulação sanguínea."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp05_oa04",
+                "numero": 4,
+                "texto": "Identificar as situações indicadoras de reposição com concentrado de plaquetas, a durabilidade funcional dessas e o cálculo da quantidade a ser infundida."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp05_oa05",
+                "numero": 5,
+                "texto": "Explicar a indicação do mielograma e os dados evidenciados por esse exame relacionados à coagulação."
+              },
+              {
+                "slug": "med_unidavi_f06_uc02_sp05_oa06",
+                "numero": 6,
+                "texto": "Valorizar a atuação multiprofissional no cuidado integral de pacientes como Matheus, bem como de seus pais."
+              }
+            ]
+          }
+        }
+      },
+      "uc03": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f06_uc03_sp01",
+            "numero": 1,
+            "titulo": "Um idoso frágil",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa01",
+                "numero": 1,
+                "texto": "Definir caquexia no paciente adulto."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa02",
+                "numero": 2,
+                "texto": "Reconhecer os principais processos consumptivos que acometem o ser humano, associando-os com fatores etiológicos relacionados à faixa etária, gênero e condição social, dentre outros."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa03",
+                "numero": 3,
+                "texto": "Relacionar as manifestações clínicas possíveis da síndrome da caquexia."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa04",
+                "numero": 4,
+                "texto": "Caracterizar o processo de diagnóstico diferencial da caquexia, utilizando-se de dados clínicos e de exames complementares."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever um algoritmo de investigação diagnóstica (utilizando a regra mnemônica dos “9 D’s”)."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa06",
+                "numero": 6,
+                "texto": "Compreender as medidas terapêuticas da caquexia."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa07",
+                "numero": 7,
+                "texto": "Conceituar a síndrome do idoso frágil e suas repercussões na qualidade de vida das pessoas susceptíveis."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp01_oa08",
+                "numero": 8,
+                "texto": "Reconhecer a importância da atuação multidisciplinar nas doenças consumptivas, bem como o papel dos grupos de pacientes no tratamento a longo prazo e na manutenção da qualidade de vida dos participantes."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f06_uc03_sp02",
+            "numero": 2,
+            "titulo": "Quem disse que emagrecer é bom?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc03_sp02_oa01",
+                "numero": 1,
+                "texto": "Relacionar os sinais e sintomas do caso da SP com um distúrbio fisiopatológico da glândula tireóide (tireotoxicose)."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp02_oa02",
+                "numero": 2,
+                "texto": "Elaborar outros diagnósticos diferenciais possíveis das síndromes consumptivas relacionadas com o sistema endócrino."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp02_oa03",
+                "numero": 3,
+                "texto": "Descrever os exames complementares (laboratoriais e de imagem) que podem ser solicitados pelo médico, para diagnóstico da síndrome tireoidiana apresentada pela paciente e os resultados esperados, no caso apresentado."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp02_oa04",
+                "numero": 4,
+                "texto": "Descrever o tratamento indicado, especificando os mecanismos de ação dos medicamentos utilizados."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp02_oa05",
+                "numero": 5,
+                "texto": "Discutir a indicação de outras modalidades terapêuticas para a paciente (clínicas e cirúrgicas)."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f06_uc03_sp03",
+            "numero": 3,
+            "titulo": "Até quando?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc03_sp03_oa01",
+                "numero": 1,
+                "texto": "Relacionar os sinais e sintomas sistêmicos secundários à evolução das doenças neoplásicas malignas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp03_oa02",
+                "numero": 2,
+                "texto": "Caracterizar a perda de peso relacionada ao desenvolvimento de neoplasias malignas, do ponto de vista fisiopatológico."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp03_oa03",
+                "numero": 3,
+                "texto": "Identificar os mecanismos envolvidos na perda do apetite em pacientes com câncer, sobretudo quando sob quimioterapia."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp03_oa04",
+                "numero": 4,
+                "texto": "Caracterizar os exames complementares gerais a serem solicitados para um paciente com caquexia secundária a doenças neoplásicas, no âmbito do atendimento pelo generalista, bem como seus prováveis resultados."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp03_oa05",
+                "numero": 5,
+                "texto": "Definir cuidados paliativos e a oportunidade de indicação destes, envolvendo familiares e os demais membros da equipe de cuidados à saúde."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f06_uc03_sp04",
+            "numero": 4,
+            "titulo": "Triste realidade",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa01",
+                "numero": 1,
+                "texto": "Relacionar processos consumptivos com dependência de substâncias químicas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa02",
+                "numero": 2,
+                "texto": "Definir os diferentes graus de envolvimento de usuários com a droga: uso, abuso, dependência, abstinência e tolerância."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa03",
+                "numero": 3,
+                "texto": "Descrever a fisiopatologia dos efeitos agudos e da dependência de substâncias químicas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa04",
+                "numero": 4,
+                "texto": "Discutir os aspectos sociais envolvidos no caso das dependências de substâncias químicas, principalmente quando há complicações clínicas superpostas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa05",
+                "numero": 5,
+                "texto": "Descrever o quadro clínico e a epidemiologia da tuberculose pulmonar."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa06",
+                "numero": 6,
+                "texto": "Caracterizar o tratamento da tuberculose no contexto do caso, explanando quais as estratégias que aumentam o sucesso terapêutico no SUS."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa07",
+                "numero": 7,
+                "texto": "Descrever a transcendência da epidemia de drogas sob aspectos antropológicos e sociais."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp04_oa08",
+                "numero": 8,
+                "texto": "Reconhecer que as drogas inalatórias impõem riscos a outras doenças, como IST (infecções sexualmente transmissíveis) e hepatites virais, sendo de grande relevância em países em desenvolvimento."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f06_uc03_sp05",
+            "numero": 5,
+            "titulo": "O que vem primeiro? A fadiga ou a anemia?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f06_uc03_sp05_oa01",
+                "numero": 1,
+                "texto": "Caracterizar o sintoma “fadiga” e realizar o diagnóstico diferencial de suas principais causas."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp05_oa02",
+                "numero": 2,
+                "texto": "Caracterizar as anemias, correlacionando hipóteses diagnósticas etiológicas com a investigação laboratorial."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp05_oa03",
+                "numero": 3,
+                "texto": "Conceituar abdome agudo e caracterizar situações de falso abdome agudo."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp05_oa04",
+                "numero": 4,
+                "texto": "Realizar o diagnóstico diferencial das anemias não carenciais."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp05_oa05",
+                "numero": 5,
+                "texto": "Caracterizar fisiopatológica e clinicamente as manifestações da anemia falciforme."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp05_oa06",
+                "numero": 6,
+                "texto": "Descrever e correlacionar exames específicos para o estudo da hemoglobina."
+              },
+              {
+                "slug": "med_unidavi_f06_uc03_sp05_oa07",
+                "numero": 7,
+                "texto": "Caracterizar a importância do aconselhamento genético em doenças familiares e da atuação multiprofissional na condução de tais situações."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f07": {
+      "uc01": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f07_uc01_sp01",
+            "numero": 1,
+            "titulo": "Ai como dói a dor",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc01_sp01_oa01",
+                "numero": 1,
+                "texto": "Relacionar as principais causas de dor torácica aguda, correlacionando-as com a semiologia (história e exame físico) de cada uma delas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp01_oa02",
+                "numero": 2,
+                "texto": "Reconhecer a investigação complementar das principais situações de dor torácica aguda."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp01_oa03",
+                "numero": 3,
+                "texto": "Elaborar um algoritmo de condutas diagnósticas frente a quadros de dor torácica aguda."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp01_oa04",
+                "numero": 4,
+                "texto": "Situar a pericardite no algoritmo de possibilidades diagnósticas de dor torácica aguda."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp01_oa05",
+                "numero": 5,
+                "texto": "Quanto à pericardite, citar suas principais etiologias, quadro clínico (correlacionando os achados do exame físico com a fisiopatologia da doença), investigação complementar e possíveis intervenções terapêuticas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp01_oa06",
+                "numero": 6,
+                "texto": "Levantar dados a respeito do diagnóstico incorreto de situações de dor torácica aguda e suas consequências."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f07_uc01_sp02",
+            "numero": 2,
+            "titulo": "Corridinha na praia",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc01_sp02_oa01",
+                "numero": 1,
+                "texto": "Caracterizar a circulação coronariana e seus principais acometimentos patológicos;"
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp02_oa02",
+                "numero": 2,
+                "texto": "Relacionar fatores de risco com o desenvolvimento de doença aterosclerótica coronariana;"
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp02_oa03",
+                "numero": 3,
+                "texto": "Correlacionar fisiopatologicamente a dor torácica anginosa com as diversas formas de acometimento miocárdico isquêmico;"
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp02_oa04",
+                "numero": 4,
+                "texto": "Identificar os recursos propedêuticos (clínicos e complementares) no diagnóstico das doenças isquêmicas coronarianas;"
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp02_oa05",
+                "numero": 5,
+                "texto": "Caracterizar as doenças isquêmicas cardíacas do ponto de vista epidemiológico;"
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp02_oa06",
+                "numero": 6,
+                "texto": "Avaliar a indicação das diferentes possibilidades terapêuticas (clínicas e cirúrgicas) na insuficiência coronariana;"
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp02_oa07",
+                "numero": 7,
+                "texto": "Identificar as políticas públicas de prevenção e promoção de saúde em relação às doenças cardiológicas, nas diferentes faixas etárias e perfis sociodemográficos."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f07_uc01_sp03",
+            "numero": 3,
+            "titulo": "Dói quando eu respiro",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc01_sp03_oa01",
+                "numero": 1,
+                "texto": "Aprofundar o diagnóstico diferencial das causas de dor torácica."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp03_oa02",
+                "numero": 2,
+                "texto": "Relacionar as causas infecciosas (como pneumonias) mais prevalentes como fatores desencadeantes de dor torácica aguda e caracterizar clinicamente a dor típica associada às mesmas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp03_oa03",
+                "numero": 3,
+                "texto": "Identificar os recursos propedêuticos no diagnóstico das doenças respiratórias."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp03_oa04",
+                "numero": 4,
+                "texto": "Caracterizar as pneumonias do ponto de vista epidemiológico."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp03_oa05",
+                "numero": 5,
+                "texto": "Aplicar os critérios de diagnóstico e de conduta dos principais protocolos (“scores”) aplicáveis."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp03_oa06",
+                "numero": 6,
+                "texto": "Identificar as políticas públicas de prevenção e promoção de saúde em relação às doenças respiratórias, nas diferentes faixas etárias e perfis sociodemográficos."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f07_uc01_sp04",
+            "numero": 4,
+            "titulo": "Não resolveu. Piora no quadro!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc01_sp04_oa01",
+                "numero": 1,
+                "texto": "Definir insuficiência respiratória aguda e crônica e descrever os parâmetros clínicos e laboratoriais observados nas duas situações."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp04_oa02",
+                "numero": 2,
+                "texto": "Descrever os sinais clínicos de hipóxia na insuficiência respiratória e relacioná-los à fisiopatologia."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp04_oa03",
+                "numero": 3,
+                "texto": "Caracterizar os escores utilizados para prognósticos de pneumonias: PSI; CURB-65, CRB-65 e diretrizes atualizadas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp04_oa04",
+                "numero": 4,
+                "texto": "Caracterizar os protocolos de tratamento dos quadros de insuficiência respiratória aguda e crônica."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp04_oa05",
+                "numero": 5,
+                "texto": "Reconhecer a forma de elaboração e aplicação dos algoritmos de investigação diagnóstica do DPOC e suas complicações, identificando sua importância na solicitação criteriosa dos exames complementares."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp04_oa06",
+                "numero": 6,
+                "texto": "Descrever os mecanismos fisiopatológicos das complicações cardiocirculatórias decorrentes da DPOC (edema pulmonar, hipertensão pulmonar e cor pulmonale)."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp04_oa07",
+                "numero": 7,
+                "texto": "Identificar a importância da mudança do estilo de vida e ambiente de trabalho como fatores de prevenção, promoção e reabilitação em relação ao tabagismo e suas complicações."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f07_uc01_sp05",
+            "numero": 5,
+            "titulo": "Criança incha?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc01_sp05_oa01",
+                "numero": 1,
+                "texto": "Definir edema, identificando suas diferentes causas e mecanismos fisiopatológicos: relações entre as variáveis tais como pressões hidrostática e coloidosmótica capilar e intersticial, permeabilidade capilar e drenagem linfática."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp05_oa02",
+                "numero": 2,
+                "texto": "Relacionar as causas de edema (renais, cardíacas, vasculares, inflamatórias, hepáticas, endócrinas e nutricionais) com os mecanismos fisiopatológicos envolvidos."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp05_oa03",
+                "numero": 3,
+                "texto": "Sistematizar as condutas diagnósticas e terapêuticas adequadas para pacientes apresentando edema."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp05_oa04",
+                "numero": 4,
+                "texto": "Descrever o diagnóstico de hipóxia no edema pulmonar, explicando-a fisiopatologicamente."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp05_oa05",
+                "numero": 5,
+                "texto": "Identificar a síndrome nefrítica, relacionando suas principais causas e possíveis processos fisiopatológicos implicados e diferenciá-la da síndrome nefrótica."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp05_oa06",
+                "numero": 6,
+                "texto": "Relacionar as principais doenças que podem evoluir com insuficiência renal, relacionando-as às condutas diagnósticas e terapêuticas apropriadas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc01_sp05_oa07",
+                "numero": 7,
+                "texto": "Reconhecer a importância da aderência ao tratamento para prevenção de eventos adversos relacionados à corticoterapia."
+              }
+            ]
+          }
+        }
+      },
+      "uc02": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f07_uc02_sp01",
+            "numero": 1,
+            "titulo": "Sonho Interrompido",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa01",
+                "numero": 1,
+                "texto": "Caracterizar os componentes das articulações sinoviais e suas funções."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa02",
+                "numero": 2,
+                "texto": "Definir unidade motora, considerando as estruturas músculo-articulares relacionadas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa03",
+                "numero": 3,
+                "texto": "Descrever a osteoartrite, quanto aos aspectos epidemiológico e fisiopatológico, salientando seu caráter inflamatório, comprometendo a remodelação cartilagínea e diminuindo a performance articular."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa04",
+                "numero": 4,
+                "texto": "Descrever a classificação da osteoartrite (primária e secundária)."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa05",
+                "numero": 5,
+                "texto": "Caracterizar o quadro clínico, as articulações mais frequentemente acometidas e como as alterações fisiopatológicas levam aos sintomas clínicos."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa06",
+                "numero": 6,
+                "texto": "Distinguir a osteoartrite da artrite reumatoide."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa07",
+                "numero": 7,
+                "texto": "Identificar as condutas diagnósticas e terapêuticas, incluindo as medidas farmacológicas e seus efeitos colaterais, tomando como modelo a artrite reumatoide juvenil."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa08",
+                "numero": 8,
+                "texto": "Relacionar o excesso de exercício físico à presença da doença."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp01_oa09",
+                "numero": 9,
+                "texto": "Identificar as limitações das doenças articulares no cotidiano dos pacientes e de seus familiares, valorizando o caráter multiprofissional da equipe de cuidados."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f07_uc02_sp02",
+            "numero": 2,
+            "titulo": "O custo de Enter",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa01",
+                "numero": 1,
+                "texto": "Definir o que é doença ocupacional causada ou agravada pelo trabalho e identificar as DORT mais prevalentes."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa02",
+                "numero": 2,
+                "texto": "Descrever a fisiopatologia das DORT, as condições anti-ergonômicas e os fatores predisponentes individuais e ambientais."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa03",
+                "numero": 3,
+                "texto": "Descrever os sinais, os sintomas e a evolução clínica das DORT."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa04",
+                "numero": 4,
+                "texto": "Identificar os achados de exames complementares que auxiliam no diagnóstico das DORT."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa05",
+                "numero": 5,
+                "texto": "Descrever as possibilidades e limitações do tratamento medicamentoso das DORT: tipo de medicamentos, contra indicações e efeitos colaterais mais comuns; tratamento fisioterápico: eficiência, custos, disponibilidade aos pacientes; tratamento integrativo/complementar: acupuntura (por exemplo) e tratamento ergonômico: modificação do ambiente de trabalho."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa06",
+                "numero": 6,
+                "texto": "Relacionar as profissões com DORTs específicas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa07",
+                "numero": 7,
+                "texto": "Listar as políticas públicas de prevenção e amparo às DORT, e o impacto da legislação sobre trabalhadores informais."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp02_oa08",
+                "numero": 8,
+                "texto": "Identificar as implicações psicossociais do afastamento do trabalho."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f07_uc02_sp03",
+            "numero": 3,
+            "titulo": "Eu não posso mais correr?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc02_sp03_oa01",
+                "numero": 1,
+                "texto": "Caracterizar o sistema nervoso somático e as regiões nervosas relacionadas à locomoção."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp03_oa02",
+                "numero": 2,
+                "texto": "Caracterizar a placa motora e descrever o mecanismo de contração muscular esquelética."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp03_oa03",
+                "numero": 3,
+                "texto": "Descrever a morfologia dos músculos estriados esqueléticos (ventre muscular, tendões, aponeuroses e fáscias de revestimento) e integração deles com o sistema nervoso."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp03_oa04",
+                "numero": 4,
+                "texto": "Descrever a fisiopatologia, o quadro clínico, o diagnóstico diferencial e o tratamento muscular das enfermidades neuromusculares (modelo: distrofia)."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp03_oa05",
+                "numero": 5,
+                "texto": "Integrar a anamnese e o exame físico na avaliação clínica da locomoção e preensão."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp03_oa06",
+                "numero": 6,
+                "texto": "Identificar a postura profissional adequada para a relação médico-paciente e médico-família nas enfermidades que afetam a função motora e casos crônicos de doenças da motilidade."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp03_oa07",
+                "numero": 7,
+                "texto": "Reconhecer a atuação da equipe multiprofissional em saúde na condução dos casos relacionados à redução da motilidade e a importância das entidades civis de apoio."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f07_uc02_sp04",
+            "numero": 4,
+            "titulo": "Eu escondo minhas mãos",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc02_sp04_oa01",
+                "numero": 1,
+                "texto": "Caracterizar a marcha normal e seus métodos de avaliação."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp04_oa02",
+                "numero": 2,
+                "texto": "Citar e caracterizar os tipos de alterações da marcha."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp04_oa03",
+                "numero": 3,
+                "texto": "Explicar a relação dos sistemas: esquelético, muscular, articular e nervoso; e os mecanismos de coordenação destes, para a realização da marcha."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp04_oa04",
+                "numero": 4,
+                "texto": "Caracterizar, do ponto de vista neurofisiológico, o mecanismo de reflexo, controle e coordenação motora."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp04_oa05",
+                "numero": 5,
+                "texto": "Caracterizar o tremor essencial e diferenciá-lo do tremor de doença de Parkinson, do ponto de vista fisiopatológico e clínico."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp04_oa06",
+                "numero": 6,
+                "texto": "Explicar a ação dos medicamentos utilizados para o tratamento de Parkinson, bem como os fármacos, drogas ou agentes químicos que provocam parkinsonismo secundário."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f07_uc02_sp05",
+            "numero": 5,
+            "titulo": "Um ano novo e uma nova vida",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc02_sp05_oa01",
+                "numero": 1,
+                "texto": "Caracterizar a medula espinhal longitudinalmente e transversalmente."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp05_oa02",
+                "numero": 2,
+                "texto": "Caracterizar as raízes dorsais e ventrais e os ramos anteriores e posteriores dos nervos espinhais."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp05_oa03",
+                "numero": 3,
+                "texto": "Relacionar as estruturas anatômicas dos nervos espinhais às suas funções e aos testes do exame neurológico que verificam a sua integridade."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp05_oa04",
+                "numero": 4,
+                "texto": "Diferenciar choque medular de choque neurogênico."
+              },
+              {
+                "slug": "med_unidavi_f07_uc02_sp05_oa05",
+                "numero": 5,
+                "texto": "Descrever o atendimento a um paciente politraumatizado e traumatizado medular."
+              }
+            ]
+          }
+        }
+      },
+      "uc03": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f07_uc03_sp01",
+            "numero": 1,
+            "titulo": "De novo não!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa01",
+                "numero": 1,
+                "texto": "Definir crise epiléptica e epilepsia."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa02",
+                "numero": 2,
+                "texto": "Classificar as síndromes epilépticas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa03",
+                "numero": 3,
+                "texto": "Identificar o quadro epiléptico do ponto de vista clínico."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa04",
+                "numero": 4,
+                "texto": "Relacionar o quadro clínico com os mecanismos que desencadeiam as manifestações motoras, sensoriais e da consciência dos quadros epilépticos."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa05",
+                "numero": 5,
+                "texto": "Identificar os possíveis fatores etiológicos das epilepsias através da propedêutica clínica e complementar."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa06",
+                "numero": 6,
+                "texto": "Justificar a necessidade de investigação e realização de diagnóstico diferencial de quadros epilépticos de início tardio."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa07",
+                "numero": 7,
+                "texto": "Relacionar a fisiopatologia da doença com as indicações farmacológicas apresentadas no problema."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa08",
+                "numero": 8,
+                "texto": "Descrever a ação farmacológica dos medicamentos mencionados no problema, reconhecendo seus efeitos anticonvulsivantes (isoladamente e em combinação), as doses terapêuticas e a monitorização terapêutica, bem como os efeitos adversos e as possíveis interações medicamentosas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa09",
+                "numero": 9,
+                "texto": "Identificar as alterações sensoriais, motoras e da consciência relacionadas à epilepsia e diferenciá-las dos efeitos colaterais decorrentes do tratamento farmacológico."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp01_oa10",
+                "numero": 10,
+                "texto": "Reconhecer as consequências da epilepsia no cotidiano da vida dos pacientes, em suas relações, bem como os mitos e o desconhecimento geral da população acerca da conduta correta a ser tomada no caso das convulsões."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f07_uc03_sp02",
+            "numero": 2,
+            "titulo": "Há alternativas",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc03_sp02_oa01",
+                "numero": 1,
+                "texto": "Identificar as principais causas de cefaleia."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp02_oa02",
+                "numero": 2,
+                "texto": "Descrever os mecanismos fisiopatológicos das principais causas de cefaleia."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp02_oa03",
+                "numero": 3,
+                "texto": "Descrever e diferenciar as apresentações clínicas das diferentes causas de cefaleia."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp02_oa04",
+                "numero": 4,
+                "texto": "Descrever a farmacologia do dipirona, metoclopramida, diidroergotamina, sumatriptano: doses terapêuticas, efeitos da hiperdosagem e reações adversas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp02_oa05",
+                "numero": 5,
+                "texto": "Reconhecer a relação das cefaleias com alterações psicológicas e sociais, bem como a importância das cefaleias como possíveis causas de limitação à capacidade funcional."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp02_oa06",
+                "numero": 6,
+                "texto": "Reconhecer as terapias complementares (ex.: acupuntura) no tratamento de diversas doenças."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f07_uc03_sp03",
+            "numero": 3,
+            "titulo": "Bomba-relógio",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc03_sp03_oa01",
+                "numero": 1,
+                "texto": "Explicar como as repercussões do AVE levam a alterações motoras, sensoriais e da consciência."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp03_oa02",
+                "numero": 2,
+                "texto": "Identificar os fatores de risco do AVE, sua fisiopatologia e tipos."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp03_oa03",
+                "numero": 3,
+                "texto": "Identificar os possíveis diagnósticos diferenciais para alterações motoras, sensoriais e da consciência."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp03_oa04",
+                "numero": 4,
+                "texto": "Definir e graduar o coma e os demais níveis de consciência, utilizando as escalas disponíveis."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp03_oa05",
+                "numero": 5,
+                "texto": "Reconhecer as manifestações clínicas de um AVE e descrever as escalas utilizadas para avaliação clínica."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp03_oa06",
+                "numero": 6,
+                "texto": "Diferenciar AVE isquêmico e hemorrágico e descrever o protocolo de tratamento atual, incluindo a descrição dos fármacos utilizados."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp03_oa07",
+                "numero": 7,
+                "texto": "Explicar o mecanismo de ação dos fármacos mencionados no problema."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f07_uc03_sp04",
+            "numero": 4,
+            "titulo": "Esqueci de quem eu era…",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f07_uc03_sp04_oa01",
+                "numero": 1,
+                "texto": "Descrever as principais funções cognitivas."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp04_oa02",
+                "numero": 2,
+                "texto": "Definir síndrome demencial."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp04_oa03",
+                "numero": 3,
+                "texto": "Elencar as síndromes demenciais secundárias e descrever os exames complementares importantes para identificá-las."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp04_oa04",
+                "numero": 4,
+                "texto": "Caracterizar e diferenciar a demência do tipo Alzheimer e a demência vascular."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp04_oa05",
+                "numero": 5,
+                "texto": "Indicar as alterações sugestivas de cada um desses tipos de demência em exames de imagem."
+              },
+              {
+                "slug": "med_unidavi_f07_uc03_sp04_oa06",
+                "numero": 6,
+                "texto": "Citar os medicamentos mais utilizados para as síndromes demenciais, os seus mecanismos de ação e as principais contraindicações."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "f08": {
+      "uc01": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f08_uc01_sp01",
+            "numero": 1,
+            "titulo": "Com a mão no coração",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc01_sp01_oa01",
+                "numero": 1,
+                "texto": "Descrever os mecanismos fisiopatológicos que estão envolvidos nos quadros de síndromes coronarianas agudas: os fatores de risco, etiológicos e agravantes;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp01_oa02",
+                "numero": 2,
+                "texto": "Descrever o quadro clínico habitual do infarto agudo do miocárdio e os algoritmos de diagnóstico e tratamento de emergência;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp01_oa03",
+                "numero": 3,
+                "texto": "Identificar as complicações hemodinâmicas decorrentes do IAM e relacioná-las com as situações de emergência geradas por elas;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp01_oa04",
+                "numero": 4,
+                "texto": "Diagnosticar e tratar corretamente as alterações do ritmo cardíaco nas emergências coronarianas;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever a farmacologia das drogas citadas no texto, justificando a sua utilização."
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp01_oa06",
+                "numero": 6,
+                "texto": "Descrever as medidas preventivas da isquemia miocárdica, bem como as de reabilitação após a síndrome de obstrução coronariana aguda."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f08_uc01_sp02",
+            "numero": 2,
+            "titulo": "Parada Obrigatória",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc01_sp02_oa01",
+                "numero": 1,
+                "texto": "O que diferencia uma urgência hipertensiva e emergência hipertensiva?"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp02_oa02",
+                "numero": 2,
+                "texto": "Quais achados da história, exame físico e exames complementares corroboram para o diagnóstico de encefalopatia hipertensiva?"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp02_oa03",
+                "numero": 3,
+                "texto": "Quais os principais diagnósticos diferenciais para este caso?"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp02_oa04",
+                "numero": 4,
+                "texto": "De forma geral, quais as principais diferenças no manejo de uma urgência hipertensiva e de uma emergência hipertensiva?"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp02_oa05",
+                "numero": 5,
+                "texto": "Como o paciente do caso deve ser manejado?"
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f08_uc01_sp03",
+            "numero": 3,
+            "titulo": "Moto é muito perigoso",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa01",
+                "numero": 1,
+                "texto": "Compreender a importância das lesões causadas por veículos automotores, sua repercussão sobre a sociedade e sistema de saúde, assim como sua abordagem terapêutica;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa02",
+                "numero": 2,
+                "texto": "Reconhecer os aspectos epidemiológicos do trauma;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa03",
+                "numero": 3,
+                "texto": "Conhecer o conceito de distribuição trimodal do trauma;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa04",
+                "numero": 4,
+                "texto": "Relacionar e explicar as etapas para atendimento pré-hospitalar do paciente traumatizado; PHTLS;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa05",
+                "numero": 5,
+                "texto": "Relacionar e explicar as etapas para avaliação do paciente traumatizado em sua entrada no PS; ATLS;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa06",
+                "numero": 6,
+                "texto": "Caracterizar os aspectos semiológicos, clínicos e terapêuticos dos quadros hipotensivos, associando os processos fisiopatológicos que resultam em choque e parada cardiorrespiratória."
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa07",
+                "numero": 7,
+                "texto": "Caracterizar transfusão maciça de hemoderivados e suas consequências."
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa08",
+                "numero": 8,
+                "texto": "Descrever a fisiopatologia e o tratamento da CIVD, compreendendo sua elevada letalidade."
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa09",
+                "numero": 9,
+                "texto": "Identificar as políticas públicas de regulação de vagas e de desencadeamento de remoção (SAMU e Resgate)."
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa10",
+                "numero": 10,
+                "texto": "Reconhecer os aspectos legais e a importância do boletim de ocorrência policial nas unidades de emergência."
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp03_oa11",
+                "numero": 11,
+                "texto": "Reconhecer os aspectos legais e a importância do encaminhamento para o IML e SVO."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f08_uc01_sp04",
+            "numero": 4,
+            "titulo": "É só um resfriado?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa01",
+                "numero": 1,
+                "texto": "Reconhecer a pneumonia como uma urgência pediátrica importante e compreender os protocolos e diretrizes para a abordagem de urgência em crianças."
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa02",
+                "numero": 2,
+                "texto": "Descrever os passos iniciais de atendimento a uma criança em estado grave e agudo; PALS (Pediatric Advanced Life Support);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa03",
+                "numero": 3,
+                "texto": "Reconhecer os sinais precoces de choque séptico no paciente pediátrico, ressaltando suas peculiaridades, em comparação com o choque no paciente adulto;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa04",
+                "numero": 4,
+                "texto": "Descrever o protocolo de atendimento ao choque no paciente pediátrico;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa05",
+                "numero": 5,
+                "texto": "Descrever os mecanismos de formação dos derrames pleurais;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa06",
+                "numero": 6,
+                "texto": "Diferenciar exsudato de transudato;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa07",
+                "numero": 7,
+                "texto": "Nomear os agentes etiológicos mais comuns de derrame pleural na faixa etária pediátrica;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa08",
+                "numero": 8,
+                "texto": "Descrever o mecanismo de ação dos fármacos citados no texto, justificando a sua utilização;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa09",
+                "numero": 9,
+                "texto": "Justificar a importância da análise do líquido pleural;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp04_oa10",
+                "numero": 10,
+                "texto": "Explicar a escolha de antibioticoterapia empírica e discutir resistência antimicrobiana."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f08_uc01_sp05",
+            "numero": 5,
+            "titulo": "Mãe e bebê passam bem?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc01_sp05_oa01",
+                "numero": 1,
+                "texto": "Descrever clínica e fisiopatologicamente a pré-eclâmpsia e a eclâmpsia;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp05_oa02",
+                "numero": 2,
+                "texto": "Citar a correlação de morbi-mortalidade materna e fetal associada à pré-eclâmpsia;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp05_oa03",
+                "numero": 3,
+                "texto": "Descrever o fluxo de atendimento de pacientes com doenças hipertensivas e suas complicações;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp05_oa04",
+                "numero": 4,
+                "texto": "Reconhecer as principais complicações associadas à hipertensão na gestação (descolamento prematuro de placenta, restrição de crescimento fetal intrauterino, convulsões, AVE, IRA, hematomas, entre outros);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp05_oa05",
+                "numero": 5,
+                "texto": "Caracterizar a síndrome Hellp, descrevendo seu mecanismo fisiopatológico, evolução e complicações;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc01_sp05_oa06",
+                "numero": 6,
+                "texto": "Descrever os principais fármacos utilizados atualmente para acompanhamento dos casos de hipertensão na gestação (ex.: sulfato de magnésio, hidralazina, alfametildopa, anlodipino, AAS, carbonato de cálcio e etc) justificando a sua utilização."
+              }
+            ]
+          }
+        }
+      },
+      "uc02": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f08_uc02_sp01",
+            "numero": 1,
+            "titulo": "Infância feliz",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa01",
+                "numero": 1,
+                "texto": "Caracterizar os mecanismos de manutenção do equilíbrio hidroeletrolítico e ácido-básico do organismo;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa02",
+                "numero": 2,
+                "texto": "Relacionar distúrbios metabólicos como causa de distúrbios hidroelectrolíticos e ácido-básicos;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa03",
+                "numero": 3,
+                "texto": "Identificar os critérios diagnósticos (laboratoriais e clínicos) para diabetes mellitus;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa04",
+                "numero": 4,
+                "texto": "Caracterizar as alterações metabólicas presentes nos pacientes com os diferentes tipos de diabetes mellitus;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa05",
+                "numero": 5,
+                "texto": "Descrever as complicações a curto e a longo prazos do diabetes mellitus;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa06",
+                "numero": 6,
+                "texto": "Descrever a epidemiologia, quadro clínico, história natural, diagnóstico, diagnóstico diferencial e tratamento da cetoacidose diabética;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa07",
+                "numero": 7,
+                "texto": "Descrever os tipos de insulina e suas características farmacológicas;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa08",
+                "numero": 8,
+                "texto": "Identificar o programa do SUS para orientação, controle e apoio ao paciente diabético;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp01_oa09",
+                "numero": 9,
+                "texto": "Identificar a necessidade de conscientização junto ao paciente diabético e de seus familiares quanto ao controle da doença."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f08_uc02_sp02",
+            "numero": 2,
+            "titulo": "Até a última gota!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc02_sp02_oa01",
+                "numero": 1,
+                "texto": "Caracterizar e definir os critérios diagnósticos da síndrome metabólica (SM);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp02_oa02",
+                "numero": 2,
+                "texto": "Descrever os processos desencadeantes e a fisiopatologia da SM;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp02_oa03",
+                "numero": 3,
+                "texto": "Descrever a evolução da disfunção, citando as consequências para o organismo das principais doenças relacionadas à evolução da SM;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp02_oa04",
+                "numero": 4,
+                "texto": "Relacionar o estilo de vida com o aparecimento de distúrbios nutricionais e metabólicos;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp02_oa05",
+                "numero": 5,
+                "texto": "Caracterizar a gota, correlacionando os hábitos de vida e a alimentação com sua ocorrência;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp02_oa06",
+                "numero": 6,
+                "texto": "Discutir o tratamento e prevenção da SM, em seus aspectos medicamentosos, nutricionais e relativos ao estilo de vida do paciente;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp02_oa07",
+                "numero": 7,
+                "texto": "Descrever a farmacologia dos medicamentos citados no problema."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f08_uc02_sp03",
+            "numero": 3,
+            "titulo": "Cólicas mais stress",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa01",
+                "numero": 1,
+                "texto": "Conceituar a síndrome do intestino curto, discutindo seu diagnóstico diferencial etiológico mais significativo;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa02",
+                "numero": 2,
+                "texto": "Definir síndrome de má absorção (SMA) tomando como modelo a doença de Crohn e seu tratamento cirúrgico;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa03",
+                "numero": 3,
+                "texto": "Caracterizar as manifestações clínicas que conduzem à hipótese diagnóstica de síndrome de má absorção;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa04",
+                "numero": 4,
+                "texto": "Relacionar as manifestações clínicas da SMA com a sua fisiopatologia;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa05",
+                "numero": 5,
+                "texto": "Discutir a propedêutica armada para a investigação da SMA;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa06",
+                "numero": 6,
+                "texto": "Relacionar as alterações laboratoriais, imagenológicas e anatomopatológicas com a SMA;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa07",
+                "numero": 7,
+                "texto": "Explicar a necessidade de dieta e reeducação alimentar nos casos de SMA;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa08",
+                "numero": 8,
+                "texto": "Correlacionar a cirurgia de redução intestinal com a má absorção intestinal e as alterações metabólicas dela decorrente;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp03_oa09",
+                "numero": 9,
+                "texto": "Discutir sobre a influência do meio e da qualidade de vida na etiologia e agravamento das doenças inflamatórias intestinais, enfatizando a necessidade do cuidado integral dos pacientes."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f08_uc02_sp04",
+            "numero": 4,
+            "titulo": "Deixa eu me esconder aqui",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa01",
+                "numero": 1,
+                "texto": "Definir desnutrição, caracterizando as situações de subnutrição e obesidade;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa02",
+                "numero": 2,
+                "texto": "Reconhecer a importância da educação alimentar como prevenção dos distúrbios nutricionais e metabólicos;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa03",
+                "numero": 3,
+                "texto": "Discutir os aspectos epidemiológicos e o processo de diagnóstico da obesidade nas crianças;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa04",
+                "numero": 4,
+                "texto": "Citar os critérios clínicos e antropométricos de avaliação de obesidade na infância (Curvas de crescimento, IMC, circunferência abdominal);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa05",
+                "numero": 5,
+                "texto": "Descrever uma dieta saudável e os erros alimentares;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa06",
+                "numero": 6,
+                "texto": "Descrever as complicações médicas da obesidade;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa07",
+                "numero": 7,
+                "texto": "Descrever os aspectos psicossociais envolvidos (autoestima, bullying etc.);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa08",
+                "numero": 8,
+                "texto": "Discutir o tratamento multidisciplinar da obesidade infantil (dieta e exercícios sob orientação profissional adequados);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa09",
+                "numero": 9,
+                "texto": "Descrever a prevenção e tratamento da obesidade como medidas de saúde pública;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp04_oa10",
+                "numero": 10,
+                "texto": "Discutir medidas voltadas para o reconhecimento e a prevenção do bullying por educadores."
+              }
+            ]
+          },
+          "sp05": {
+            "slug": "med_unidavi_f08_uc02_sp05",
+            "numero": 5,
+            "titulo": "Olha o meu pezinho!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc02_sp05_oa01",
+                "numero": 1,
+                "texto": "Caracterizar os mecanismos de manutenção do equilíbrio hidroeletrolítico do organismo; Identificar as causas dos distúrbios hidroeletrolíticos e como elas atuam alterando este equilíbrio;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp05_oa02",
+                "numero": 2,
+                "texto": "Descrever a produção de esteroides pelas adrenais e as suas repercussões metabólicas e nutricionais;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp05_oa03",
+                "numero": 3,
+                "texto": "Descrever as vias de biossíntese dos esteroides no córtex adrenal, associando as vias mineralocorticoide e glicocorticoide com a homeostase corporal;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp05_oa04",
+                "numero": 4,
+                "texto": "Descrever a hiperplasia adrenal congênita: a sua epidemiologia, tipos, quadro clínico, diagnóstico e tratamento;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp05_oa05",
+                "numero": 5,
+                "texto": "Explicar o diagnóstico diferencial entre síndrome séptica e crise adrenal;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp05_oa06",
+                "numero": 6,
+                "texto": "Descrever a classificação, o mecanismo de ação e espectro da oxacilina e amicacina;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc02_sp05_oa07",
+                "numero": 7,
+                "texto": "Descrever as características farmacológicas da hidrocortisona e fludrocortisona e suas indicações no tratamento da hiperplasia congênita de suprarrenal."
+              }
+            ]
+          }
+        }
+      },
+      "uc03": {
+        "sps": {
+          "sp01": {
+            "slug": "med_unidavi_f08_uc03_sp01",
+            "numero": 1,
+            "titulo": "Quando eu quiser parar, eu paro!",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc03_sp01_oa01",
+                "numero": 1,
+                "texto": "Explicar como distúrbios metabólicos podem levar a alterações cutâneas;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp01_oa02",
+                "numero": 2,
+                "texto": "Relacionar as manifestações clínicas da evolução das hepatopatias com as manifestações cutâneas;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp01_oa03",
+                "numero": 3,
+                "texto": "Classificar e descrever a fisiopatologia das icterícias;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp01_oa04",
+                "numero": 4,
+                "texto": "Relacionar os achados clínicos do caso apresentado com a fisiopatologia da hepatopatia alcoólica (ginecomastia, edema, telangectasias, equimoses, alterações abdominais etc);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp01_oa05",
+                "numero": 5,
+                "texto": "Explicar fatores de piora da função hepática em pacientes cirróticos (ex.: hepatocarcinoma);"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp01_oa06",
+                "numero": 6,
+                "texto": "Discutir a relação médico-paciente envolvendo equipe multiprofissional (psicologia, serviço social) no tratamento do alcoolismo;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp01_oa07",
+                "numero": 7,
+                "texto": "Descrever o impacto da hepatopatia alcoólica na vida do cidadão, da família, da sociedade e no serviço público de saúde (SUS)."
+              }
+            ]
+          },
+          "sp02": {
+            "slug": "med_unidavi_f08_uc03_sp02",
+            "numero": 2,
+            "titulo": "Preconceito e saúde",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc03_sp02_oa01",
+                "numero": 1,
+                "texto": "Correlacionar a ocorrência de lesões cutâneas com doenças infecciosas sistêmicas, tomando como modelo a hanseníase;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp02_oa02",
+                "numero": 2,
+                "texto": "Descrever, em relação à hanseníase: ➢ diagnósticos diferenciais (pitiríase, eczemátide e lúpus, dentre outras); ➢ dados epidemiológicos internacionais e nacionais; ➢ formas de manifestação clínica; ➢ classificações clínicas e baciloscópica; ➢ comprometimentos sistêmicos; ➢ protocolos e indicações de tratamento, incluindo a farmacologia da rifampicina, da dapsona e da clofazimina; ➢ formas de prevenção; ➢ compulsoriedade da notificação; ➢ aspectos sócio psicológicos relacionados ao estigma da doença; ➢ relacionar os desafios do SUS para o controle da hanseníase."
+              }
+            ]
+          },
+          "sp03": {
+            "slug": "med_unidavi_f08_uc03_sp03",
+            "numero": 3,
+            "titulo": "Catapora? Não lembro",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc03_sp03_oa01",
+                "numero": 1,
+                "texto": "Reconhecer as diversas relações entre um agente infeccioso e o ser humano, incluindo a da tolerância, por longos períodos de tempo;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp03_oa02",
+                "numero": 2,
+                "texto": "Correlacionar os fatores que resultam em queda da imunidade com o reaparecimento de doenças, ocasionalmente com apresentações clínicas diferentes do original;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp03_oa03",
+                "numero": 3,
+                "texto": "Correlacionar dados epidemiológicos de herpes zóster com a população acometida;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp03_oa04",
+                "numero": 4,
+                "texto": "Realizar o diagnóstico diferencial das lesões causadas pelo herpes zóster;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp03_oa05",
+                "numero": 5,
+                "texto": "Reconhecer as formas de prevenção, inclusive vacina;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp03_oa06",
+                "numero": 6,
+                "texto": "Diagnosticar e tratar adequadamente as consequências do herpes zóster, destacando-se a neurite pós-herpética."
+              }
+            ]
+          },
+          "sp04": {
+            "slug": "med_unidavi_f08_uc03_sp04",
+            "numero": 4,
+            "titulo": "Precisa internar?",
+            "objetivos_aprendizagem": [
+              {
+                "slug": "med_unidavi_f08_uc03_sp04_oa01",
+                "numero": 1,
+                "texto": "Discutir como a prática médica pode desencadear complicações e até o óbito dos pacientes;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp04_oa02",
+                "numero": 2,
+                "texto": "Correlacionar com prevenção quaternária"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp04_oa03",
+                "numero": 3,
+                "texto": "Correlacionar procedimentos de magnitude maior do que o necessário, para a evolução desfavorável de pacientes;"
+              },
+              {
+                "slug": "med_unidavi_f08_uc03_sp04_oa04",
+                "numero": 4,
+                "texto": "Valorizar a pesquisa de estudos baseados em evidências na conduta de pacientes."
               }
             ]
           }
