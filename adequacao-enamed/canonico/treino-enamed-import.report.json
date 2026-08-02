@@ -1,0 +1,16 @@
+{
+  "total_origem": 914,
+  "convertidos": 914,
+  "excluidos": 0,
+  "excluidos_detalhe": [],
+  "avisos_baixa_confianca_por_tipo": {
+    "decision_type_heuristico": 293,
+    "ciclo_vida_heuristico": 742,
+    "especialidade_sem_mapeamento_confiavel": 48,
+    "care_setting_fallback": 120,
+    "rede_atencao_fallback": 123,
+    "subarea_via_sistema_organico": 24,
+    "subarea_fallback_ciencia_basica_sem_sistema_organico": 5
+  },
+  "sem_avisos": 123
+}

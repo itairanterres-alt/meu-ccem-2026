@@ -1,0 +1,90 @@
+#!/usr/bin/env python3
+"""Carrega adequacao-enamed/canonico/treino-enamed-import.json (914 questões
+já convertidas para o schema do treino-enamed) diretamente nas tabelas
+`questions` e `question_versions` do Supabase, via API REST (service_role).
+
+Rode isto ONDE você tiver as credenciais — não precisa ser nesta sessão.
+
+Uso:
+    export SUPABASE_URL="https://ggjxbumtnizaeomioves.supabase.co"
+    export SUPABASE_SECRET_KEY="<sua service_role key, Settings > API>"
+    pip install requests   # se ainda não tiver
+    python3 carregar_treino_enamed.py
+
+Todas as questões entram com status='draft' — NÃO ficam visíveis a
+estudantes (a política de RLS do treino-enamed só libera leitura em
+status='human_reviewed', que exige revisão humana real via review_question()).
+Este script é idempotente por natureza não (recria linhas a cada execução);
+rode uma única vez, ou ajuste a lógica de dedupe se for reexecutar.
+"""
+import json
+import os
+import sys
+from pathlib import Path
+
+import requests
+
+IMPORT_FILE = Path(__file__).resolve().parent.parent / "canonico" / "treino-enamed-import.json"
+
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
+SUPABASE_KEY = os.environ.get("SUPABASE_SECRET_KEY") or os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+
+if not SUPABASE_URL or not SUPABASE_KEY:
+    sys.exit(
+        "Defina SUPABASE_URL e SUPABASE_SECRET_KEY (ou SUPABASE_SERVICE_ROLE_KEY) "
+        "como variável de ambiente antes de rodar."
+    )
+
+HEADERS = {
+    "apikey": SUPABASE_KEY,
+    "Authorization": f"Bearer {SUPABASE_KEY}",
+    "Content-Type": "application/json",
+    "Prefer": "return=representation",
+}
+
+
+def insert_question(status):
+    r = requests.post(
+        f"{SUPABASE_URL}/rest/v1/questions",
+        headers=HEADERS,
+        json={"status": status, "current_version": 1},
+    )
+    r.raise_for_status()
+    return r.json()[0]["id"]
+
+
+def insert_question_version(question_id, version, body, provenance):
+    r = requests.post(
+        f"{SUPABASE_URL}/rest/v1/question_versions",
+        headers=HEADERS,
+        json={"question_id": question_id, "version": version, "body": body, "provenance": provenance},
+    )
+    if not r.ok:
+        # limpa a questão órfã se a versão falhar, mesma lógica do database.ts deles
+        requests.delete(f"{SUPABASE_URL}/rest/v1/questions?id=eq.{question_id}", headers=HEADERS)
+        r.raise_for_status()
+
+
+def main():
+    items = json.loads(IMPORT_FILE.read_text())
+    ok, falhas = 0, []
+    for item in items:
+        q = item["question"]
+        qv = item["question_version"]
+        try:
+            question_id = insert_question(q["status"])
+            insert_question_version(question_id, qv["version"], qv["body"], qv["provenance"])
+            ok += 1
+        except Exception as e:
+            falhas.append({"origem_indice": item["origem_indice"], "erro": str(e)})
+        if ok % 50 == 0 and ok:
+            print(f"{ok}/{len(items)} inseridas...")
+
+    print(f"\nConcluído: {ok} inseridas, {len(falhas)} falhas.")
+    if falhas:
+        Path("falhas_import.json").write_text(json.dumps(falhas, ensure_ascii=False, indent=2))
+        print("Detalhe das falhas em falhas_import.json")
+
+
+if __name__ == "__main__":
+    main()
