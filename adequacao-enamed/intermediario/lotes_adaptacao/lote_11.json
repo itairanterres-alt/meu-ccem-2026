@@ -1,0 +1,234 @@
+[
+  {
+    "id_origem": "simulado_nacional_enamed2025_q025",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Uma mulher de 45 anos de idade comparece à UBS para rotina ginecológica. Deseja fazer mamografia. Refere que a sua cunhada de 53 anos de idade “acabou de descobrir que está com câncer”. Nega antecedentes familiares de neoplasias malignas. Ao exame físico ginecológico não foram encontradas anormalidades. Mamas sem nódulos, axilas livres. A respeito do caso acima, assinale a alternativa correta sobre o rastreamento do câncer de mama, considerando a diretriz do Ministério da Saúde / INCA.",
+    "alternativas_origem": {
+      "A": "Deve-se solicitar mamografia anual para a paciente a partir dos 40 anos de idade.",
+      "B": "Deve-se solicitar mamografia a cada dois anos para a paciente, a partir dos 40 anos de idade.",
+      "C": "Deve-se solicitar ultrassonografia anual para a paciente a partir dos 30 anos de idade.",
+      "D": "Deve-se solicitar mamografia anual para a paciente a partir dos 50 anos de idade.",
+      "E": "Deve-se solicitar mamografia a cada dois anos para a paciente a partir dos 50 anos de idade."
+    },
+    "chave_consenso": "E",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q028",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Primigesta, 25 anos, inicia pré-natal com 18 semanas. Após realizar os exames solicitados na primeira consulta, gestante retorna para checar os resultados, em que consta sorologia para toxoplasmose IgG reagente e IgM reagente. Paciente nega sintomas e nega ter realizado exames anteriormente. Diante do exposto, assinale a alternativa que indica a conduta correta para a gestante.",
+    "alternativas_origem": {
+      "A": "Solicitar teste de avidez e prescrever espiramicina",
+      "B": "Prescrever espiramicina e repetir sorologia em 3 semanas.",
+      "C": "Solicitar amniocentese para pesquisa de infecção fetal e prescrever esquema tríplice.",
+      "D": "Prescrever esquema tríplice intercalado com espiramicina a cada 3 semanas",
+      "E": "Solicitar ultrassonografia morfológica e, se houver alterações, prescrever esquema tríplice."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "baixa",
+    "problemas_apontados": [
+      "Com 18 semanas o teste de avidez já tem valor limitado (útil sobretudo até 16 semanas), o que torna a alternativa A tecnicamente imperfeita, ainda que seja a única coerente com o protocolo oficial.",
+      "Item ambíguo: com 18 semanas o teste de avidez já perde valor discriminatório (útil até cerca de 16 semanas), o que torna a alternativa C (investigação de infecção fetal) também defensável; nenhuma alternativa reproduz integralmente o fluxograma do Ministério da Saúde.",
+      "Com 18 semanas o teste de avidez perde valor discriminatório (útil apenas até 16 semanas), o que enfraquece a chave e aproxima a alternativa C; item com gabarito discutível."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q029",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Gestante, 42 anos, parda, 3G2PC, vem a consulta de pré-natal com 11 semanas. Nega comorbidades. Refere descolamento prematuro de placenta na última gestação. Nega queixas atuais. PA 120 x 70 mmHg, IMC 24 kg/m2. Diante do exposto, qual é a conduta indicada nesta consulta de pré-natal?",
+    "alternativas_origem": {
+      "A": "Realizar ultrassonografia transvaginal para avaliar a placenta.",
+      "B": "Realizar amniocentese para pesquisa de cromossomopatias.",
+      "C": "Realizar teste oral de tolerância a glicose 75g.",
+      "D": "Introduzir cálcio e ácido acetilsalicílico.",
+      "E": "Introduzir enoxaparina."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q030",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Primigesta, 17 anos, sem comorbidades, vem à primeira consulta de pré-natal com 14 semanas pela data da última menstruação. Tem registradas no prontuário médico vacinas realizadas adequadamente durante a infância, sendo a última vacinação realizada com 10 anos de idade. Diante dos dados fornecidos, assinale a alternativa que apresenta as vacinas indicadas nesta gestação.",
+    "alternativas_origem": {
+      "A": "Hepatite B, Influenza, Covid-19 e dTpa.",
+      "B": "Influenza, Covid-19 e dTpa.",
+      "C": "Dengue, Influenza, dT e dTpa.",
+      "D": "dTPa, dT, Hepatite B e Covid-19.",
+      "E": "dT, Influenza, Covid-19 e Dengue."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q031",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Pedro tem 8 anos e vem apresentando ao longo das últimas 5 semanas um quadro de tosse seca persistente, febre vespertina e perda involuntária de peso. Buscou atendimento em UBS acompanhado pela mãe, que iniciou tratamento para tuberculose pulmonar há 10 dias. Ao exame físico, paciente em bom estado geral, FR 23 irpm, sem sinais de desconforto respiratório, estável hemodinamicamente, ausculta reduzida em base de hemitórax direito e estertores nessa topografia. Em investigação, apresentou radiografia de tórax com consolidação em lobo inferior direito e derrame pleural laminar ipsilateral. Realizou uma prova tuberculínica que resultou em 6 mm. Pesquisa de escarro com TRM-TB e baciloscopia negativas. Qual é a conduta mais adequada para Pedro?",
+    "alternativas_origem": {
+      "A": "Iniciar tratamento para tuberculose pulmonar com ataque de 2 meses de RIP , e completar com mais 2 meses de RI na fase de manutenção.",
+      "B": "Iniciar tratamento para tuberculose pulmonar com ataque de 2 meses de RIP , e completar com mais 4 meses de RI na fase de manutenção.",
+      "C": "Não podemos indicar o tratamento contra tuberculose pulmonar sem o diagnóstico microbiológico, e devemos complementar a investigação com pesquisa de Mycobacterium tuberculosis em lavado broncoalveolar.",
+      "D": "Iniciar tratamento para tuberculose pulmonar com ataque de 2 meses de RIPE, e completar com mais 4 meses de RI na fase de manutenção.",
+      "E": "Fazer tratamento empírico para pneumonia bacteriana típica. Caso não haja resposta, considerar iniciar tratamento para tuberculose."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q032",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Adriana tem 7 anos. É trazida à consulta da UBS pela mãe com queixa de surgimento de pilificação em região pubiana há poucas semanas. Além disso, a mãe notou necessidade de uso de desodorantes para evitar odor axilar. Nega outras queixas. Em avaliação, você nota uma criança no estadiamento M1P2 de Tanner, estatura atual no p58 (alvo genético p60), velocidade de crescimento de 7 cm/ano no último ano, genitália típica do sexo feminino de aspecto pré-púbere. Em investigação, você notou que a idade óssea da paciente é de 8 anos e 2 meses. Qual é a principal hipótese diagnóstica e conduta?",
+    "alternativas_origem": {
+      "A": "Puberdade precoce central. Encaminhar para endocrinologista sugerindo avaliar bloqueio do eixo-HHO.",
+      "B": "Puberdade precoce periférica. Investigar tumores produtores de androgênios com TC de abdome e hiperplasia adrenal congênita, forma não clássica, com dosagem de 17-OH-progesterona.",
+      "C": "Pubarca precoce isolada. Orientar sobre a benignidade do quadro e manter acompanhamento clínico.",
+      "D": "Pubarca precoce isolada. Confirmar o diagnóstico com dosagem de SDHEA e ultrassonografia de adrenal.",
+      "E": "Desenvolvimento puberal normal. Manter acompanhamento clínico."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Ponto discutível: a velocidade de crescimento de 7 cm/ano é acima do esperado para a fase pré-puberal, o que alguns examinadores usariam para justificar investigação laboratorial (alternativa D/B).",
+      "O leve avanço de idade óssea e a velocidade de crescimento de 7 cm/ano tornam a investigação laboratorial (alternativa D) parcialmente sustentável para alguns autores.",
+      "A fronteira entre 'apenas acompanhar' e 'triar HAC não clássica' é matéria de debate, o que torna C e D parcialmente competitivas."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q033",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Regina, paciente de 8 anos, comparece à Unidade Básica de Saúde (UBS) acompanhada de sua genitora, relatando frustração por não conseguir manter o ritmo das aulas de dança devido à sensação de cansaço. A paciente apresenta histórico de crises de tosse seca e dispneia esporádicas desde a infância, contudo, nota um agravamento recente, com episódios ocorrendo quase diariamente, e interrupções noturnas do sono por tais sintomas aproximadamente uma vez por semana. Não faz uso de nenhuma medicação. Diante da principal hipótese diagnóstica, foi solicitada espirometria, a qual revelou distúrbio obstrutivo leve com resposta satisfatória ao broncodilatador e função pulmonar preservada. Dentre as opções abaixo, qual seria a conduta terapêutica preferencial, em adição às recomendações de higiene ambiental?",
+    "alternativas_origem": {
+      "A": "Corticoide inalatório em dose baixa diária + SABA se necessário.",
+      "B": "Corticoide inalatório em dose baixa somente quando SABA for necessário, antes das aulas de dança.",
+      "C": "Uso diário de corticoide inalatório em dose baixa associado a LABA + SABA se necessário.",
+      "D": "Uso diário de corticoide inalatório em dose média associado a LABA, para manutenção e resgate.",
+      "E": "Uso diário de corticoide inalatório em dose média + LABA se necessário."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Na faixa de 6-11 anos a GINA aceita como equivalente ao Step 3 o CI em dose média isolado, e parte das bancas classificaria o caso como Step 2 (alternativa A) — há duas leituras defensáveis.",
+      "A fronteira entre etapa 2 (CI em dose baixa isolado) e etapa 3 pode gerar divergência conforme a leitura da frequência dos sintomas."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q034",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Menina de 6 meses, previamente hígida, comparece à consulta pediátrica de puericultura acompanhada da mãe, que relata amamentação materna exclusiva desde o nascimento. Ela expressa dúvidas e anseios acerca do início da introdução alimentar. O DNPM da criança é adequado para a idade. Considerando as recomendações do Ministério da Saúde, diante desse cenário, a orientação mais apropriada a ser fornecida à mãe é:",
+    "alternativas_origem": {
+      "A": "Manter aleitamento materno exclusivo.",
+      "B": "Inicialmente, sugere-se oferecer suco de frutas previamente ao fornecimento de frutas in natura, com o propósito de adaptar o paladar da criança e avaliar a aceitação. Recomenda-se a manutenção do aleitamento materno complementar.",
+      "C": "Oferecer comida amassada e manter aleitamento materno complementar. Caso a aceitação da criança seja baixa, considerar adição de sal ou mel como um estímulo ao paladar.",
+      "D": "Introduzir uma refeição principal ao longo do dia e uma porção de frutas amassadas, mantendo aleitamento materno complementar.",
+      "E": "Iniciar a introdução alimentar com alimentos doces, como bolachas e iogurtes, para facilitar a aceitação nos primeiros meses. Manter aleitamento materno."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q035",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Valentina, 11 anos de idade, comparece ao serviço de saúde queixando-se de dor abdominal, artrite em grandes articulações e surgimento de lesões purpúricas em nádegas e membros inferiores há 4 dias. Também notou que a urina está avermelhada. Os exames de hemograma e coagulograma apresentaram-se sem alterações. Ao exame físico, não foram observadas outras anormalidades além das lesões cutâneas. A paciente relatou histórico de infecção amigdaliana há 17 dias, confirmada por teste rápido para estreptococo em orofaringe, que foi tratada com amoxicilina. Em relação à principal hipótese diagnóstica, é correto afirmar que:",
+    "alternativas_origem": {
+      "A": "Trata-se de uma farmacodermia leve provocada pela amoxicilina.",
+      "B": "Trata-se de uma complicação não supurativa da infecção pelo estreptococo do grupo A. Devemos solicitar um ecocardiograma para investigar a presença de cardite subclínica.",
+      "C": "Trata-se de uma complicação não supurativa da infecção pelo estreptococo do grupo A. O consumo do complemento C3 e a presença de hipertensão favorecem esse diagnóstico.",
+      "D": "Trata-se de um fenômeno imunológico possivelmente relacionado a infecção pelo estreptococo do grupo A. Deve-se ter atenção ao risco de hemorragias digestivas e disfunção renal.",
+      "E": "Trata-se de um fenômeno imunológico possivelmente relacionado a infecção pelo estreptococo do grupo A. Devemos dosar FAN, e investigar a presença de uveíte anterior crônica."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q036",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "O teste do olhinho tem fundamental importância no período neonatal e deve ser repetido ao longo dos primeiros anos de vida da criança. Sobre esse teste, é correto afirmar:",
+    "alternativas_origem": {
+      "A": "O teste só pode ser considerado alterado quando o reflexo é branco bilateralmente.",
+      "B": "Com exceção do período neonatal, deve ser realizado apenas pelo oftalmologista.",
+      "C": "Pela Sociedade Brasileira de Pediatria, a periodicidade deve ser de duas a três vezes por ano nas consultas de rotina da criança.",
+      "D": "Deve ser realizado com a ajuda de um colírio midriático.",
+      "E": "Ele tria para doenças oculares, como retinoblastoma, catarata e erros de refração."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "A alternativa E é parcialmente defensável, já que documentos da SBP citam a detecção de erros refracionais elevados (reflexo de Brückner) entre as alterações rastreáveis.",
+      "A alternativa E é parcialmente verdadeira, pois diversas fontes (inclusive da SBP) citam a detecção de altas ametropias entre os achados do teste, criando sobreposição com a alternativa C."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q037",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Cinco crianças estão aguardando na Unidade de Saúde para aplicar a vacina contra influenza. Qual delas não poderá ser imunizada nesse momento?",
+    "alternativas_origem": {
+      "A": "Criança A, 5 meses de idade, apresenta coriza e tosse de início há 24 horas, mas sem febre.",
+      "B": "Criança B, 8 meses de idade, em investigação para imunodeficiência primária.",
+      "C": "Criança C, 1 ano de idade, em uso de prednisona 3mg/kg/dia, há 30 dias, para doença autoimune.",
+      "D": "Criança D, 7 meses, filha de mãe HIV positivo, assintomática no momento.",
+      "E": "Criança E, 9 meses de idade, aplicou vacina contra febre amarela no dia de hoje."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "O distrator principal da alternativa A é a doença respiratória leve, mas o motivo real da contraindicação é a idade, o que pode confundir o examinando."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q038",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Uma mãe chega no pronto atendimento infantil com seu bebê de 2 meses referindo que o menor “ficou molinho e não respondia ao chamado” há, aproximadamente, 20 minutos. Ao examinar, ele já está assintomático. A mãe diz que aplicou as vacinas da idade ontem a tarde. Considerando o quadro, qual o principal componente vacinal associado a ele e qual orientação deve ser dada a essa mãe com relação a vacinação subsequente?",
+    "alternativas_origem": {
+      "A": "Pertussis de células inteiras. Aplicar a vacina DTPa em doses subsequentes.",
+      "B": "Hepatite B. Aplicar a vacina tetravalente bacteriana em doses subsequentes.",
+      "C": "Pneumocócica 10-valente. Dar preferência a pneumocócica 13-valente.",
+      "D": "Pertussis acelular. Utilizar a vacina DT aos 4 meses de idade.",
+      "E": "Haemophilus influenzae B. Realizar a dessensibilização antes da próxima dose."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  }
+]

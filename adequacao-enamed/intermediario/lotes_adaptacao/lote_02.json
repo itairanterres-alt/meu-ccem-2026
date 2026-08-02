@@ -1,0 +1,210 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q013",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma criança de 6 meses é levada à consulta de puericultura na atenção primária. Nasceu a termo, com peso adequado, apresenta bom crescimento e desenvolvimento, e iniciou alimentação complementar adequada para a idade. Não há sinais clínicos de anemia. Durante a consulta, o profissional orienta sobre a profilaxia da anemia ferropriva com sulfato ferroso. 10. Qual é a orientação mais adequada, de acordo com as últimas recomendações do Ministério da Saúde e da Sociedade Brasileira de Pediatria?",
+    "alternativas_origem": {
+      "A": "Iniciar sulfato ferroso na dose de 1 mg/kg/dia até 24 meses, sem interrupções.",
+      "B": "Prescrever 10 a 12,5 mg de ferro elementar ao dia, em uso contínuo até 24 meses.",
+      "C": "Prescrever 10 a 12,5 mg de ferro elementar ao dia, em dois ciclos de 3 meses, com intervalo de 3 meses entre eles.",
+      "D": "Não iniciar suplementação, pois a criança está em alimentação complementar adequada."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "As alternativas B e C usam a dose fixa de 10-12,5 mg/dia da OMS (inclusive em ciclos), o que também pode ser defendido como recomendação vigente e gera ambiguidade sobre qual referência a banca adotou.",
+      "As alternativas com 10 a 12,5 mg/dia remetem à recomendação da OMS, o que pode gerar divergência de gabarito conforme a fonte adotada como \"última recomendação\".",
+      "Enunciado com numeração residual ('10.') colada no meio do texto."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q014",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Adolescente de 16 anos procura a Unidade Básica de Saúde para ser atendido só. Durante a consulta, demonstra boa capacidade de compreensão e participa ativamente das decisões sobre sua saúde, sendo sua autonomia respeitada pela equipe. Ao longo do atendimento, compartilha diferentes aspectos de sua vida e pede que as informações não sejam repassadas a outras pessoas. A médica responsável, porém, identifica uma situação relatada pelo jovem em que será necessária a quebra de sigilo. Qual situação poderia ter sido?",
+    "alternativas_origem": {
+      "A": "Ele está namorando e gostaria de orientações sobre o uso de preservativo.",
+      "B": "Comenta que tem experimentado bebidas alcoólicas em encontros sociais com amigos.",
+      "C": "Menciona pensamentos recorrentes de que “a vida não vale a pena” e admite já ter pensado em se machucar.",
+      "D": "Relata conflitos familiares frequentes, mas sem relato de violência ou risco à integridade."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q015",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Paciente com 10 dias de vida é levada pela primeira vez para consulta com pediatra. Nasceu com 38 semanas de idade gestacional, parto domiciliar sem intercorrências. A genitora explica que realizou apenas 4 consultas de pré-natal. Nega intercorrências na gestação e parto. Ao exame, a profissional de saúde responsável pelo atendimento percebeu epicanto, prega palmar única, prega nucal redundante e distância aumentada entre hálux e segundo pododáctilo, sem outras alterações. Diante da principal hipótese diagnóstica, qual conduta deveria ser tomada?",
+    "alternativas_origem": {
+      "A": "Explicar em linguagem acessível sobre o fenótipo identificado, solicitar cariótipo, ecocardiograma, hemograma e função tireoidiana",
+      "B": "Explicar em linguagem acessível sobre o genótipo identificado, resgatar o teste do pezinho e solicitar perfil lipídico",
+      "C": "Realizar teste do coraçãozinho e eletrocardiograma, coleta de cariótipo e recomendar que os pais não tenham outros filhos",
+      "D": "Realizar radiografia de mãos e punhos, resgatar teste do pezinho, solicitar hemograma e acolher família devido ao mau prognóstico"
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q016",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Paciente de 1 ano e 4 meses, e comparece ao posto de saúde para atualizar o calendário vacinal. Cartão vacinal atualizado até o momento das vacinas de 1 ano de idade, inclusive para COVID e Influenza. Que vacinas ele deverá tomar hoje?",
+    "alternativas_origem": {
+      "A": "Hepatite A, Reforço VIP, Tetraviral, 1º Reforço DTP.",
+      "B": "Febre Amarela, Reforço VIP, Hepatite A, 1º Reforço DTP.",
+      "C": "Tetraviral, Reforço ACWY, Reforço VOP, Reforço Pneumo",
+      "D": "Reforço VIP, Tríplice viral, Reforço Pneumo 10, Reforço ACWY."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q017",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Criança de 4 anos de idade é levada à unidade de pronto atendimento com história de febre alta há 4 dias, associada a dor abdominal contínua e episódios de vômitos nas últimas 12 horas. A responsável relata que a criança está mais irritada e com menor aceitação de líquidos. Residem em área com abastecimento irregular de água, mantendo recipientes para armazenamento domiciliar, e há relato de vizinhos com quadros febris recentes. Ao exame físico, encontra-se prostrada, com dor à palpação abdominal difusa e fígado palpável a 3 cm do rebordo costal direito. Sinais vitais estáveis, sem hipotensão. Considerando a principal hipótese diagnóstica e a classificação de risco, qual é a conduta imediata mais adequada?",
+    "alternativas_origem": {
+      "A": "Hidratação oral domiciliar, com retorno em 48 a 72 horas.",
+      "B": "Hidratação oral na unidade, coleta de hemograma e liberação após resultado.",
+      "C": "Iniciar reposição volêmica com Soro Fisiológico 0,9% e internação hospitalar.",
+      "D": "Iniciar hidratação venosa rápida e encaminhar para unidade de terapia intensiva."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q018",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Criança de 18 meses é levada a uma unidade de saúde com história de diarreia aquosa há dois dias. Ao exame, apresenta-se irritada e intranquila, com olhos fundos, mucosas secas e sede intensa, bebendo líquidos rapidamente quando oferecidos. O sinal da prega abdominal desaparece lentamente. Pulsos periféricos estão cheios. Considerando o cartaz de manejo do paciente com diarreia do Ministério da Saúde, como deve ser classificado o estado de hidratação dessa criança?",
+    "alternativas_origem": {
+      "A": "Sem desidratação.",
+      "B": "Desidratado.",
+      "C": "Desidratado grave.",
+      "D": "Choque hipovolêmico."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q020",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Gestante com 40 semanas de idade gestacional dá entrada na maternidade com em trabalho de parto. Necessitou tratar sífilis gestacional durante o pré-natal, tendo realizado 3 doses semanais de penicilina benzatina, iniciadas 25 dias antes do parto. Evoluiu com parto normal, sem intercorrências. Criança com boas condições de vitalidade e exame físico normal. Qual conduta imediata indicada para o recém-nascido (RN), de acordo com as recomendações do Ministério da Saúde?",
+    "alternativas_origem": {
+      "A": "Colher VDRL em amostra oriunda do cordão umbilical.",
+      "B": "Parear VDRL sérico do recém-nascido com o da genitora.",
+      "C": "Prescrever Penicilina Benzatina intramuscular em dose única.",
+      "D": "Realizar radiografia de ossos longos, coleta de LCR e exames séricos."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q021",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Lactente de 6 meses é levado à consulta por episódios recorrentes de contrações abruptas seguidas de componente tônico, com flexão do tronco e do pescoço e movimentos dos membros superiores em adução. Os eventos duram poucos segundos, ocorrem em salvas, principalmente ao despertar. Ao eletroencefalograma, observa-se padrão de ondas lentas de amplitude elevada a muito elevada, associadas a atividade epileptiforme desorganizada, variando em amplitude, duração, morfologia e localização. Qual é o diagnóstico mais provável?",
+    "alternativas_origem": {
+      "A": "Espasmos epilépticos.",
+      "B": "Crise de ausência.",
+      "C": "Crise tônico-clônica generalizada.",
+      "D": "Crise focal motora."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q022",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Adolescente de 14 anos é levado à consulta por queda no rendimento escolar e dificuldade de cumprir tarefas no tempo esperado. Familiares relatam que ele demora excessivamente para finalizar atividades simples, como organizar o material escolar ou tomar banho, pois frequentemente reinicia essas ações. Refere que durante a infância, não possuía dificuldade de concentração ou prejuízos no rendimento escolar. Quando questionado, diz que “sente que não está certo” e que precisa repetir algumas etapas, com receio de que algum ruim aconteça. Embora reconheça que isso o atrapalha, sente-se muito ansioso com a perspectiva de não finalizar essas atividades. Evita comentar sobre esses comportamentos com colegas, pois se sente envergonhado. Qual é o diagnóstico mais provável?",
+    "alternativas_origem": {
+      "A": "Transtorno de ansiedade generalizada (TAG).",
+      "B": "Transtorno do espectro autista (TEA).",
+      "C": "Transtorno de déficit de atenção e hiperatividade (TDAH).",
+      "D": "Transtorno obsessivo-compulsivo (TOC)."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q023",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Lactente de 18 meses é levado ao pronto-socorro após episódio de crise convulsiva associada a febre (39°C), iniciada há poucas horas. Segundo o cuidador, apresentou abalos generalizados, com duração aproximada de 3 minutos, seguidos de sonolência por alguns minutos, com recuperação completa. É o primeiro episódio. Ao exame, encontra-se em bom estado geral, ativo, sem déficits neurológicos, com sinais de infecção de vias aéreas superiores. Qual é a conduta mais adequada neste momento?",
+    "alternativas_origem": {
+      "A": "Realizar eletroencefalograma.",
+      "B": "Solicitar tomografia de crânio.",
+      "C": "Investigar a causa da febre.",
+      "D": "Iniciar anticonvulsivante."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q024",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Paciente com 6 dias de vida é admitido na urgência com icterícia às custas de bilirrubina indireta, em nível de fototerapia. Não apresentou intercorrências durante o parto e recebeu alta da maternidade assintomático. No momento, a genitora refere dificuldade para amamentar, com pega inadequada e fissura nas mamas. O menor apresentou ainda uma perda de peso superior a 10% do peso do nascimento. Genitora com classificação sanguínea A+ e recém-nascido, O+. Qual é a provável etiologia da icterícia deste paciente?",
+    "alternativas_origem": {
+      "A": "Icterícia fisiológica.",
+      "B": "Icterícia do leite materno.",
+      "C": "Icterícia associada ao aleitamento.",
+      "D": "Incompatibilidade materno fetal ABO."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q025",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Lactente de 12 meses é levado ao serviço de urgência com história de febre alta (39,5º C) e irritabilidade associada a coriza. Durante o exame físico, a pediatra realiza otoscopia e decide iniciar antibioticoterapia. Qual achado foi determinante para essa conduta?",
+    "alternativas_origem": {
+      "A": "Dor à manipulação.",
+      "B": "Abaulamento.",
+      "C": "Opacidade.",
+      "D": "Hiperemia."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  }
+]

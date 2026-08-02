@@ -1,0 +1,219 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q039",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 38 anos, com lesão melanocítica em parede torácica de 1cm de diâmetro. Relata crescimento progressivo no último ano. Submetida à dermatoscopia, com achado de lesão assimétrica, de bordas irregulares, com coloração heterogênea. Qual a próxima conduta para o caso?",
+    "alternativas_origem": {
+      "A": "Biópsia incisional para confirmação diagnóstica.",
+      "B": "Biópsia excisional com espessura total e margens mínimas.",
+      "C": "Exérese de lesão com margem de 1cm, por apresentar Breslow de 1cm.",
+      "D": "Exérese de lesão com margem de 1cm e pesquisa de linfonodo sentinela."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q040",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 46 anos, previamente hígido, admitido em serviço de emergência com dor em região inguinal direita há 6 horas, associada a abaulamento local e náuseas e vômitos. Refere abaulamento previamente redutível, com dor súbita após esforço físico, sem redução do conteúdo à manipulação, como previamente acontecia. Ao exame físico, FC 96bpm, abdome distendido, doloroso à palpação em hipogástrio, com abaulamento irredutível em região inguinal direita, com hiperemia de parede abdominal. Qual a próxima conduta para o caso?",
+    "alternativas_origem": {
+      "A": "Inguinotomia exploradora de emergência.",
+      "B": "Tomografia computadorizada de abdome total.",
+      "C": "Redução do conteúdo sob sedoanalgesia leve.",
+      "D": "Encaminhamento para cirurgia eletiva."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q041",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 75 anos, encaminhado de serviço de atenção primária após realização de ultrassonografia de abdome para avaliação de hiperplasia prostática benigna, por achado de hérnia inguinal direta à direita. Paciente assintomático, nega abaulamento ou dor em região inguinal. Qual a melhor conduta para o paciente?",
+    "alternativas_origem": {
+      "A": "Solicitar exames pré-operatórios, incluindo parecer cardiológico e exames laboratoriais para realização de hernioplastia inguinal direita.",
+      "B": "Adotar estratégia de observação (watchful waiting), mediante ausência de sintomas e índice de conversão para cirurgia em ⅓ dos casos em 3 anos.",
+      "C": "Não valorizar achado do exame de imagem, uma vez que a ultrassonografia é operador dependente, liberando o paciente sem necessidade de seguimento.",
+      "D": "Transferência para serviço de cirurgia geral de urgência para avaliação e descartar necessidade de abordagem cirúrgica de urgência."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q042",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 31 anos, com queixa de dor anal intensa ao evacuar, associada a presença de sangue em papel higiênico após episódios de evacuação. Refere quadro de início há aproximadamente 4 semanas. Apresenta constipação crônica e nega comorbidades. Ao exame físico, nota-se papila anal hipertrófica e solução de continuidade perianal. Não foi realizado toque retal, por queixa de dor intensa da paciente. Qual o tratamento adequado para a condição da paciente?",
+    "alternativas_origem": {
+      "A": "Hemorroidectomia à Milligan-Morgan.",
+      "B": "Esfincterotomia lateral interna.",
+      "C": "Exérese de papila anal hipertrófica.",
+      "D": "Banhos de assento e corticóide tópico."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Evolução de apenas 4 semanas fica no limite da definição de cronicidade (6-8 semanas) e nenhuma alternativa oferece a primeira linha correta de tratamento clínico (nitrato ou bloqueador de canal de cálcio tópico + medidas higienodietéticas), o que torna a opção D parcialmente sustentável.",
+      "As 4 semanas de evolução são limítrofes para o critério clássico de cronicidade (6 a 8 semanas), e o item não oferece a opção de terapia clínica adequada (nitrato ou bloqueador de canal de cálcio tópico).",
+      "A duração de apenas 4 semanas é inferior ao usual para definir cronicidade, e a alternativa conservadora foi redigida com terapia incorreta, o que artificialmente favorece a cirurgia."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q043",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 30 anos, submetido à hernioplastia inguinal à Lichtenstein há 2 meses, retorna em consulta no ambulatório apresentando hiperemia e dor em topografia de ferida operatória há 3 dias, associada a febre. Ao exame físico, febril ao toque, FC 98bpm e abaulamento em topografia de ferida operatória, com calor e dor locais, sem saída de secreção. Com base na hipótese diagnóstica principal, qual a conduta?",
+    "alternativas_origem": {
+      "A": "Antibioticoterapia e exploração em bloco cirúrgico por infecção de sítio cirúrgico.",
+      "B": "Compressas mornas e drenagem percutânea de seroma guiada por ultrassonografia.",
+      "C": "Internamento hospitalar e desbridamento amplo de ferida por fasceíte necrotizante.",
+      "D": "Retirada de tela de polipropileno por reação a corpo estranho imunomediada"
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Sem imagem ou punção documentada, parte dos avaliadores defenderia a drenagem guiada por ultrassonografia (alternativa B) como passo inicial menos invasivo, embora febre e sinais flogísticos apontem infecção."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q044",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 40 anos, vítima de colisão carro-anteparo fixo em alta velocidade, submetido à laparotomia exploradora para controle de danos há aproximadamente 24 horas. Em vigência de protocolo de transfusão maciça. Em cuidados intensivos, intubado, em ventilação mecânica, com necessidade de suporte com drogas vasoativas. Quais são as alterações metabólicas mediante o trauma e medidas de suporte que poderão ocorrer?",
+    "alternativas_origem": {
+      "A": "Hipercalcemia mediada por múltiplas transfusões de concentrados de hemácias, pelo citrato presente.",
+      "B": "Hipoglicemia desencadeada por hormônios proinsulínicos, como resposta ao mecanismo de luta e fuga.",
+      "C": "Risco aumentado de tromboembolismo venoso, por estado de hipercoagulabilidade causado pelo trauma.",
+      "D": "Oligúria funcional por aumento na liberação de catecolaminas e hormônio antidiurético, com retenção hídrica."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "A alternativa C também é verdadeira isoladamente (o trauma induz hipercoagulabilidade e eleva o risco de TEV); o item só se resolve pelo recorte de 'alterações metabólicas' do comando, que é impreciso e mal redigido.",
+      "A alternativa C traz afirmação parcialmente verdadeira (risco de TEV no trauma) e compete com a chave se o comando 'alterações metabólicas' não for lido de forma estrita."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q045",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Neonato, com 2 semanas de vida, encaminhado para serviço de cirurgia pediátrica com quadro de vômitos após amamentação e perda de peso após o parto. O aspecto dos vômitos é semelhante ao leite materno e em jato. Ao exame, apresenta-se hipoativo e desidratado, com massa abdominal palpável em epigástrio. Após os exames laboratoriais, qual o distúrbio hidroeletrolítico que mais comumente é encontrado?",
+    "alternativas_origem": {
+      "A": "Acidose metabólica hipercalêmica e hiperclorêmica.",
+      "B": "Alcalose metabólica hipoclorêmica e hipocalêmica.",
+      "C": "Alcalose metabólica hipofosfatêmica e hipercalcêmica.",
+      "D": "Acidose mista hipoclorêmica, hipocalcêmica e hipercalêmica."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q046",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 62 anos, procura o serviço de emergência por quadro de dor abdominal intensa em fossa ilíaca esquerda há 7 dias, com piora nas últimas 24h, associada a constipação e febre. Ao exame físico, sudoreico, temperatura axilar de 38,5ºC, frequência cardíaca de 98bpm, PA 118x72mmHg, abdome doloroso à palpação difusa, com defesa em quadrante inferior esquerdo. Exames laboratoriais com leucocitose e desvio a esquerda importantes e elevação de proteína C reativa. realizada tomografia de abdome total com contraste. Qual a melhor conduta definitiva para o paciente?",
+    "alternativas_origem": {
+      "A": "Antibioticoterapia com cobertura para gram negativos.",
+      "B": "Laparoscopia para toalete cavitário e colostomia em alça.",
+      "C": "Ulcerorrafia gástrica com patch omental de Graham.",
+      "D": "Retossigmoidectomia por via convencional."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "A tomografia citada no enunciado não foi apresentada, e o estadiamento de Hinchey (abscesso drenável x peritonite purulenta/fecal) muda radicalmente a conduta.",
+      "A tomografia mencionada não é apresentada, e é justamente ela que define o estadiamento de Hinchey — em Hinchey I/II a conduta seria clínica/drenagem percutânea, e não ressecção.",
+      "A tomografia mencionada não foi reproduzida, e a classificação de Hinchey — que determina entre antibiótico, drenagem percutânea e cirurgia — depende dela."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q047",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 56 anos, admitido em serviço de emergência por quadro de hematêmese volumosa, com múltiplos episódios eméticos, de início há aproximadamente 2 horas. Relata etilismo social. Ao exame físico, FC 108bpm, PA 98x51mmHg, abdome flácido, indolor à palpação. Após hidratação, solicitado exames laboratoriais, com hemoglobina 7,8, sem disfunção renal. Endoscopia digestiva alta com evidência de lesão ulcerada com sangramento em babação contínuo em antro gástrico, região pré-pilórica. Mediante achados clínicos e endoscópicos, qual a conduta?",
+    "alternativas_origem": {
+      "A": "Laparotomia exploradora para antrectomia com vagotomia e piloroplastia.",
+      "B": "Inibidor de bomba de prótons em dose de ataque e nova endoscopia em 12 horas.",
+      "C": "Ácido tranexâmico, inibidor de bomba de prótons e hemotransfusão com alvo de 9g/dL.",
+      "D": "Terapia endoscópica combinada, com adesão de dois métodos hemostáticos."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q048",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 28 anos, 70kg, resgatado pelo corpo de bombeiros após incêndio em armazém, encontrado desacordado e trazido ao serviço de emergência. Paciente consciente e orientado, em respiração espontânea, com queimaduras em membros superiores em espessura total, sem dor, e queimaduras em tórax com flictenas e dor intensa à manipulação. Apresenta tosse com escarro carbonáceo. Qual a conduta imediata?",
+    "alternativas_origem": {
+      "A": "Escarotomia longitudinal de ambos membros superiores.",
+      "B": "Encaminhamento para Unidade de Terapia de Queimados.",
+      "C": "Intubação orotraqueal assistida por drogas.",
+      "D": "Reposição volêmica intensa, com 6.720mL nas próximas 24h."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q049",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 37 anos, procura o serviço de emergência por quadro de dor abdominal pós-alimentar intermitente, localizada em hipocôndrio esquerdo, associada a náuseas e vômitos. Em pós-operatório tardio de bypass gástrico em Y-de-Roux, com perda de 30kg em 7 meses, referindo início da dor após perda de peso. Ao exame físico, normocárdica, abdome doloroso à palpação em hipocôndrio esquerdo, sem sinais de peritonite. Solicitados exames laboratoriais. Exame Resultado Valor de Referência Hemoglobina (g/dL) 10.8 11,5-15.5 Hematócrito (%) 32.7 35-46 Leucócitos totais (cél/mm³) 14.000 4.000-11.000 Sódio (mEq/L) 127 135-145 Potássio (mEq/L) 3,1 3,5-5,1 Amilase (U/L) 55 20-96 Lipase (U/L) 38 4-43 LDH (U/L) 156 100-190 Tomografia de abdome total com contraste evidencia ingurgitamento do mesentério, com torção dos vasos mesentéricos e espessamento e dilatação com níveis hidroaéreos de alças de delgado localizadas em hipocôndrio esquerdo. Com base nos achados clínicos e radiológicos, qual a conduta para o caso?",
+    "alternativas_origem": {
+      "A": "Uso de vasodilatadores arteriais, por vasoespasmo mesentérico.",
+      "B": "Laparotomia exploradora para ressecção de alças intestinais.",
+      "C": "Laparoscopia diagnóstica e correção de hérnia interna.",
+      "D": "Reposição de sódio e potássio para tratamento de íleo metabólico."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q050",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 59 anos, previamente hígida, admitida em serviço de urgência por quadro de icterícia progressiva e distensão abdominal pós-prandial há 3 semanas. Nega prurido. Relata perda de peso não intencional no mesmo período de aproximadamente 8kg. Ao exame, FC 84bpm, abdome com massa abdominal palpável em hipocôndrio direito, indolor e móvel. Solicitados exames laboratoriais Exame Resultado Valor de Referência Hemoglobina (g/dL) 12,2 11,5-15.5 Hematócrito (%) 37,6 35-46 Leucócitos totais (cél/mm³) 8.900 4.000-11.000 Bilirrubina total (mg/dL) 8,8 0,2-1,2 Bilirrubina direta (mg/dL) 7,9 0,1-0,8 Amilase (U/L) 55 20-96 Lipase (U/L) 38 4-43 LDH (U/L) 156 100-190 Tomografia computadorizada de abdome total com contraste com evidência de lesão periampular de 1,1cm em seu maior diâmetro, com dilatação de vias biliares intra e extra-hepáticas à montante. Ausência de comprometimento vascular ao exame. Qual a conduta adequada para acompanhamento do caso?",
+    "alternativas_origem": {
+      "A": "Colangiopancreatografia retrógrada endoscópica para tratamento de colangite.",
+      "B": "Biópsia percutânea e terapia paliativa por lesão ser irressecável e palpável.",
+      "C": "Estadiamento e encaminhamento para avaliar ressecção cirúrgica primária.",
+      "D": "Drenagem transparietohepática para tratamento da icterícia."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q051",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Você atende na Unidade Básica de Saúde um homem de 45 anos com queixa de manchas na pele há dois dias, sem prurido. O paciente relata que as lesões apareceram subitamente em tronco, membros superiores e inferiores, algumas dolorosas, acompanhadas de febre (37,9°C) e mal-estar. No exame físico, não há novos déficits neurológicos ou dor em trajetos nervosos. Há lesões de pele eritematosas, disseminadas em tronco e nos quatro membros sem disestesias, além de algumas lesões em região pré-tibial eritematosas, dolorosas, mais palpáveis que visíveis. O prontuário indica que o paciente concluiu o tratamento para Hanseníase Multibacilar (PQT-MB) há 14 meses, com alta por cura. Qual é a conduta terapêutica inicial mais adequada para este paciente?",
+    "alternativas_origem": {
+      "A": "Novo ciclo de Poliquimioterapia Multibacilar (PQT-MB)",
+      "B": "Naproxeno 550mg de 12/12h por 1 semana",
+      "C": "Prednisona na dose de 1 mg/kg/dia",
+      "D": "Talidomida 400 mg/dia"
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q052",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 24 anos é atendida por você no Centro de Atenção Psicossocial (CAPS). A irmã que a acompanha relata que, nas últimas duas semanas, a paciente está extremamente falante, dorme apenas 3 horas por noite sem sentir fadiga e realizou compras excessivas comprometendo a renda da família. Ao exame psíquico, nota-se humor expansivo, pressa para falar, irritabilidade, fuga de ideias e planos grandiosos. A irmã relata que a paciente teve um período de profunda tristeza há dois anos, que durou 4 meses, com incapacidade funcional. Não há evidência de sintomas psicóticos, agressividade e, embora o funcionamento social esteja alterado, a paciente mantém os cuidados pessoais. Você pensa imediatamente em transtorno bipolar, mas precisa diferenciar o tipo. Qual característica é fundamental para distinguir o diagnóstico de Transtorno Bipolar Tipo II do Tipo I neste caso?",
+    "alternativas_origem": {
+      "A": "Ocorrência do episódio depressivo maior no histórico.",
+      "B": "Intensidade dos sintomas e o grau de prejuízo funcional da paciente.",
+      "C": "Duração de 2 semanas dos sintomas de elevação do humor.",
+      "D": "Presença de irritabilidade em associação com o humor expansivo."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q053",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 62 anos, professor do ensino médio, hipertenso e diabético, procura atendimento ambulatorial para seguimento após episódios mensais de arritmia cardíaca sintomática, o último revertido quimicamente em unidade de emergência há duas semanas. Traz o ECG abaixo e um ecocardiograma transtorácico recente demonstrando átrio esquerdo de 42 mm e fração de ejeção do ventrículo esquerdo (FEVE) de 38%, com hipertrofia ventricular esquerda leve. O paciente mantém-se em ritmo sinusal no momento, mas está muito preocupado com a possibilidade de novos episódios de palpitação que prejudicam sua atividade docente. Qual é a terapia farmacológica antiarrítmica mais indicada para a manutenção do ritmo sinusal em longo prazo?",
+    "alternativas_origem": {
+      "A": "Amiodarona",
+      "B": "Propafenona",
+      "C": "Sotalol.",
+      "D": "Adenosina."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "O enunciado remete a 'o ECG abaixo', que não foi transcrito; a resposta, contudo, é determinada pela FEVE reduzida.",
+      "O enunciado remete a um ECG não disponível, embora a resposta não dependa dele.",
+      "Enunciado remete a 'ECG abaixo' e a um traçado que não é fornecido."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q054",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 72 anos, ex-tabagista (50 maços/ano) e portador de Doença Pulmonar Obstrutiva Crônica (DPOC), é admitido na emergência com quadro de rebaixamento da consciência, dispneia intensa e tosse produtiva. Após os exames complementares, foi diagnosticado com pneumonia adquirida na comunidade grave. Apesar da antibioticoterapia e suporte ventilatório, o paciente apresentou piora progressiva, evoluindo com insuficiência respiratória aguda e óbito após 48 horas de internação. No preenchimento da Declaração de Óbito (DO), conforme as normas do Ministério da Saúde para o correto encadeamento das causas de morte (Parte I), qual deve ser a sequência mais correta de preenchimento de cima para baixo?",
+    "alternativas_origem": {
+      "A": "Linha (a): Insuficiência respiratória aguda; Linha (b): Pneumonia; Linha (c): DPOC.",
+      "B": "Linha (a): Parada cardiorrespiratória; Linha (b): Pneumonia; Linha (c): DPOC.",
+      "C": "Linha (a): DPOC; Linha (b): Pneumonia; Linha (c): Insuficiência respiratória aguda.",
+      "D": "Linha (a): Insuficiência respiratória aguda; Linha (b): Pneumonia; Linha (c): Tabagismo."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q055",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 52 anos comparece à Unidade Básica de Saúde para consulta de rotina. É tabagista ativo e nega outras comorbidades conhecidas. Ao exame físico, você constata uma pressão arterial (PA) de 144/92 mmHg, confirmada em duas ocasiões distintas. O índice de massa corporal (IMC) é de 28 kg/m². Os exames laboratoriais revelam LDL-colesterol de 165mg/dL, glicemia de jejum de 102 mg/dL e uma taxa de filtração glomerular estimada de 85 mL/min/1,73m². De acordo com os escores de risco recomendados, o paciente foi estratificado como possuindo Risco Cardiovascular Global Médio/Moderado. Considerando a classificação da pressão arterial e a estratificação de risco cardiovascular deste paciente, qual é a abordagem inicial mais recomendada, de acordo com a Diretriz Brasileira de Hipertensão Arterial (2025)?",
+    "alternativas_origem": {
+      "A": "Monoterapia com Clortalidona.",
+      "B": "Combinação de Enalapril e Anlodipino.",
+      "C": "Iniciar nebivolol por ser betabloqueador de 3a geração.",
+      "D": "Prescrever mudanças no estilo de vida por 6 meses antes do tratamento farmacológico."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q056",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 38 anos, em situação de rua, é admitido no serviço de urgência com quadro de hemoptise de moderado volume. Relata que apresenta tosse produtiva, febre vespertina e perda ponderal não quantificada há cerca de um mês. Ao exame físico, apresenta-se emagrecido, hipocorado (2+/4+) e com estertores crepitantes em ápice de hemitórax direito. A radiografia de tórax é mostrada abaixo. O paciente nega tratamentos anteriores para tuberculose. Qual é o exame laboratorial prioritário a ser solicitado para este paciente?",
+    "alternativas_origem": {
+      "A": "Baciloscopia direta do escarro (Pesquisa de BAAR), com coleta de duas amostras.",
+      "B": "Teste Rápido Molecular para Tuberculose (TRM-TB).",
+      "C": "Cultura para micobactéria em meio líquido com teste de sensibilidade.",
+      "D": "Teste de liberação de Interferon-gama (IGRA)."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "A radiografia de tórax mencionada não foi reproduzida, embora não seja necessária para a resposta.",
+      "A radiografia mencionada não está reproduzida, embora não seja necessária para a resposta.",
+      "Radiografia referida no enunciado não foi reproduzida, embora não altere a resposta."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q057",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Você atende no ambulatório de clínica médica uma mulher de 42 anos, assintomática e sem antecedentes mórbidos, que traz exames laboratoriais solicitados por outro médico, cujas únicas alterações são duas dosagens de ferritina sérica elevadas (340µg/L e 410µg/L, com 4 semanas de intervalo). Considerando que o índice de saturação de transferrina (IST) é elevado (52%), qual seria o exame mais importante para a sequência de investigação da paciente?",
+    "alternativas_origem": {
+      "A": "Biópsia hepática",
+      "B": "Ressonância cardíaca",
+      "C": "Dosagem de ceruloplasmina",
+      "D": "Pesquisa de mutações no gene HFE"
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q058",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 64 anos, com histórico de hipertensão arterial de longa data, é acompanhado em ambulatório de nefrologia devido a doença renal crônica (DRC) estágio 4 (Taxa de Filtração Glomerular estimada de 22 mL/min/1,73 m²). O paciente não está em diálise. Em sua consulta de rotina, os exames laboratoriais revelam: cálcio sérico total de 8,8 mg/dL e fósforo sérico de 5,4 mg/dL (valor de referência: 2,5 a 4,5 mg/dL). De acordo com as evidências atuais para o manejo de pacientes com DRC não dialíticos (estágios 3 a 5), qual é a conduta mais recomendada para o controle da hiperfosfatemia neste caso?",
+    "alternativas_origem": {
+      "A": "Iniciar precocemente o uso de quelantes de fósforo à base de cálcio para atingir níveis de fósforo abaixo de 4,0 mg/dL.",
+      "B": "Priorizar a restrição dietética de fosfatos e considerar o início de quelantes se os níveis de fósforo estiverem persistentemente elevados.",
+      "C": "Prescrever quelantes à base de alumínio como terapia de primeira linha para evitar a calcificação vascular.",
+      "D": "Iniciar imediatamente o uso de tenapanor em combinação com restrição proteica rigorosa."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q059",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Você realiza o atendimento de uma mulher de 78 anos, levada ao serviço de urgência por familiares devido a quadro de confusão mental e sonolência nas últimas 12 horas. Não há registro de tosse, dispneia, diarreia ou queixas urinárias evidentes. A paciente é portadora de hipertensão e diabetes tipo 2, em uso regular de metformina, dapagliflozina, losartana e anlodipino. Apresenta-se desorientada, com Glasgow de 13. PA= 118/68 mmHg, Frequência Cardíaca= 105 bpm, Frequência Respiratória= 24 irpm, Temperatura axilar= 38,4°C e SpO2= 93% no ar ambiente. Não tem sinais de irritação peritoneal ou alterações na ausculta cardiopulmonar. O lactato venoso inicial é de 2,2 mmol/L. Qual é a conduta prioritária a ser instituída para esta paciente na primeira hora de atendimento?",
+    "alternativas_origem": {
+      "A": "Infusão rápida de 30 mL/kg de cristaloides antes de qualquer medida diagnóstica.",
+      "B": "Identificação do foco infeccioso por exames de imagem (TC de crânio e abdome).",
+      "C": "Coletar hemoculturas e iniciar antibioticoterapia de amplo espectro.",
+      "D": "Punção lombar antes de administrar a primeira dose de antimicrobiano."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q060",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 22 anos, com diagnóstico de asma desde a infância, comparece à consulta ambulatorial de clínica médica. Atualmente, utiliza budesonida em dose baixa fixa, uma vez ao dia, e salbutamol apenas quando apresenta sintomas. Relata que nos últimos 30 dias vem apresentando sintomas diurnos três vezes por semana, teve um despertar noturno devido à tosse e necessidade de usar o salbutamol para alívio quase diariamente. Nega limitação em suas atividades físicas habituais. De acordo com os critérios de avaliação de controle e as recomendações de tratamento da estratégia GINA 2025, qual é a classificação correta do controle da asma deste paciente e a conduta recomendada para o ajuste terapêutico?",
+    "alternativas_origem": {
+      "A": "Asma bem controlada; manter a dose do CI atual e substituir o salbutamol por formoterol isolado para alívio.",
+      "B": "Asma parcialmente controlada; dobrar as doses de budesonida e salbutamol e reforçar a técnica inalatória.",
+      "C": "Asma não controlada; associar a budesonida em dose baixa com o formoterol para manutenção e resgate.",
+      "D": "Asma em exacerbação; prednisona por 5 dias, manter budesonida e salbutamol como atualmente."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q061",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 54 anos, com diagnóstico de cirrose hepática por álcool (Child-Pugh B), foi admitido na unidade de emergência com hematêmese volumosa há 2 horas. Ao exame físico, apresentava-se pálido, com tempo de enchimento capilar de 4 segundos e ascite moderada. Sinais vitais: PA 90/50 mmHg e FC 115 bpm. Os exames laboratoriais da admissão revelaram Hemoglobina de 8,2 g/dL, Plaquetas de 58.000/mm³ e INR de 2,1. O paciente recebeu cristaloides e concentrado de hemácias. Enquanto aguarda a Endoscopia Digestiva Alta (EDA), qual é a conduta terapêutica inicial mais adequada para o quadro hemorrágico?",
+    "alternativas_origem": {
+      "A": "Instalar TIPS preemptivo.",
+      "B": "Iniciar a terlipressina imediatamente.",
+      "C": "Indicar vitamina K em dose de ataque.",
+      "D": "Administrar plasma fresco congelado transfusão de plaquetas."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "A alternativa D apresenta erro de redação ('plasma fresco congelado transfusão de plaquetas'), com conectivo ausente.",
+      "Alternativa D com erro de redação (falta conjunção entre plasma e transfusão de plaquetas)."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q062",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 56 anos, diagnosticado com diabetes há seis anos, vem mantendo o uso de Metformina 850 mg duas vezes ao dia desde o diagnóstico, associado a caminhadas regulares. Ele retorna para consulta de rotina queixando-se de parestesias leves em extremidades e cansaço aos esforços. O exame físico é normal, exceto por uma discreta redução da sensibilidade vibratória em hálux bilateral. Com base nas recomendações de monitoramento de longo prazo para pacientes em uso de metformina, qual deve ser a conduta prioritária para as queixas deste paciente?",
+    "alternativas_origem": {
+      "A": "Solicitar dosagem de vitamina B12.",
+      "B": "Suspender a metformina imediatamente.",
+      "C": "Solicitar eletroneuromiografia de membros inferiores.",
+      "D": "Iniciar suplementação empírica de ácido fólico."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  }
+]

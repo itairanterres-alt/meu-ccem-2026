@@ -1,0 +1,232 @@
+[
+  {
+    "id_origem": "simulado_nacional_enamed2025_q039",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Uma menina nasceu de 34 semanas de idade gestacional e 1500g. Ao exame físico, o pediatra percebe que ela apresenta icterícia precoce e hepatoesplenomegalia. Ao realizar uma tomografia de crânio, o laudo apresenta calcificações intracranianas periventriculares. A mãe não fez pré-natal. Qual é a infecção congênita mais provável associada ao caso?",
+    "alternativas_origem": {
+      "A": "Toxoplasmose congênita.",
+      "B": "Sífilis congênita.",
+      "C": "Citomegalovirose congênita.",
+      "D": "HIV congênito.",
+      "E": "Rubéola congênita."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q040",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Uma menina de 4 anos chega para consulta na pediatria da UBS, pois a mãe acredita que ela está muito “gordinha”. Seus hábitos alimentares incluem salgadinhos e bebidas açucaradas e não gosta de verduras, legumes e frutas. Não pratica exercícios físicos e passa a maior parte do dia jogando no tablet. Seu exame físico é normal e os dados antropométricos obtidos da consulta revelam peso de 26 Kg e estatura de 110cm. De acordo com os dados fornecidos e utilizando o gráfico abaixo, indique o diagnóstico nutricional da criança em relação ao IMC:",
+    "alternativas_origem": {
+      "A": "Eutrófica.",
+      "B": "Obesidade.",
+      "C": "Obesidade grave.",
+      "D": "Risco de sobrepeso.",
+      "E": "Sobrepeso."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O enunciado remete a 'gráfico abaixo' que não está disponível; a resposta depende de qual curva (0–5 ou 5–10 anos) foi impressa.",
+      "O item remete a 'gráfico abaixo' que não está reproduzido no enunciado; a resposta só é recuperável por cálculo e memória das curvas da OMS.",
+      "O grafico referido no enunciado ('gráfico abaixo') nao esta reproduzido no item."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q041",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "O sarampo é uma doença viral altamente contagiosa, cuja prevenção se dá principalmente pela vacinação com a tríplice viral. É uma doença grave que pode levar a complicações sérias, incluindo pneumonia, encefalite e, em casos raros, morte, especialmente em crianças. A doença é altamente contagiosa, transmitida por contato com secreções respiratórias de pessoas infectadas. Olhe o gráfico a seguir retirado da avaliação de cobertura vacinal em crianças de até 5 anos, retirado do material realizado pela Confederação Nacional de Municípios. Fonte: https://cnm.org.br/storage/biblioteca/2024/Estudos_tecnicos/202407_ET_SAU_ Avaliacao_coberturas_vacinais_municipios_criancas_cinco_anos.pdf Considerando as informações apresentadas e recomendações do Ministério da Saúde, interprete as afirmativas a seguir: I. A meta de cobertura para sarampo com a tríplice viral é 90%. II. Em 2024, cinco anos após perder o certificado de eliminação do sarampo, em 2019, o Brasil voltou a receber da Organização Pan-Americana da Saúde (Opas) o status de país livre da doença. III. O último registro de sarampo no Brasil, sem ser por caso importado de outro país, de acordo com o Ministério da Saúde, aconteceu em junho de 2024. IV. Uma das razões para a queda de cobertura vacinal vem do desconhecimento da gravidade da doença, da eficácia da vacina para proteção e baixa taxa de efeitos adversos. Assinale as alternativas com todas as afirmativas corretas:",
+    "alternativas_origem": {
+      "A": "I, II e IV.",
+      "B": "II e IV.",
+      "C": "Todas estão corretas.",
+      "D": "Apenas a IV está correta.",
+      "E": "II e III."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "O gráfico citado no enunciado não foi reproduzido, embora as quatro afirmativas possam ser julgadas apenas por conhecimento epidemiológico.",
+      "O gráfico citado no enunciado não está reproduzido, embora as afirmativas possam ser julgadas sem ele.",
+      "Gráfico referido no enunciado não foi reproduzido, embora não seja necessário para julgar as afirmativas."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q042",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Paciente de 59 anos, morador de região de fronteira entre municípios, apresenta quadro de dor torácica sugestiva de Síndrome Coronariana Aguda. O paciente foi até a Unidade Básica de Saúde do município de fronteira do seu, mas, ao chegar, foi informado que não havia vaga disponível e que deveria procurar atendimento na sua cidade, pois a UBS só poderia atender pacientes do próprio município. Em relação aos princípios do Sistema Único de Saúde (SUS) aplicáveis a esse caso, assinale a alternativa CORRETA:",
+    "alternativas_origem": {
+      "A": "A recusa de atendimento foi justificada, pois a regionalização preconiza que cada município seja responsável apenas por seus munícipes.",
+      "B": "O caso exemplifica adequada aplicação da descentralização, em que cada município define critérios próprios de acesso ao seu sistema de saúde.",
+      "C": "A hierarquização dos serviços determina que pacientes de outros municípios só podem ser atendidos após autorização formal da secretaria municipal de saúde de origem.",
+      "D": "O paciente deveria ser atendido independentemente de seu município de origem, respeitando os princípios da universalidade e integralidade.",
+      "E": "O princípio da equidade foi corretamente aplicado, ao priorizar residentes do município onde o serviço está instalado."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q043",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Às 9h da manhã, médico plantonista em UPA é chamado para constatar óbito de homem de 98 anos encontrado em sua residência pelo filho durante a manhã, que o trouxe imediatamente ao pronto-socorro. Ao exame, identifica ausência de pulso e discreta rigidez do corpo. Segundo familiares, o paciente tinha “problema no coração”, e havia relatado mal-estar leve no dia anterior que não sabiam descrever, no entanto, ele não quis ir ao pronto-socorro. Não há sinais de violência ou circunstâncias suspeitas; família parecia dar um bom suporte ao idoso e estava muito triste. Há Instituto Médico Legal e Serviço de Verificação de Óbito. Quanto ao preenchimento do atestado de óbito neste caso, é CORRETO afirmar que:",
+    "alternativas_origem": {
+      "A": "O médico deve se recusar a fornecer o atestado e encaminhar o corpo ao Instituto Médico Legal (IML), por tratar-se de morte sem assistência médica.",
+      "B": "Na parte I do atestado, deve-se indicar \"causa indeterminada\" na linha A e deixar as demais linhas em branco, por não haver diagnóstico definitivo.",
+      "C": "O médico pode fornecer o atestado, considerando as patologias preexistentes na parte I e indicando \"morte natural\" na parte II.",
+      "D": "O médico deve preencher \"morte sem assistência médica\" como causa básica e encaminhar uma via do documento à autoridade policial.",
+      "E": "O médico não deve fornecer o atestado de óbito, e deve encaminhar o corpo para o Serviço de Verificação de Óbito."
+    },
+    "chave_consenso": "E",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q044",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Durante plantão em um pronto-socorro, médica atende paciente de 17 anos com intoxicação exógena voluntária por ingestão de medicamentos psiquiátricos. Após estabilização do quadro, o paciente revela à médica que tentou suicídio e solicita expressamente que essa informação não seja compartilhada com seus pais e familiares, que aguardam na sala de espera. Refere que se sente envergonhado e que a família não entenderia sua decisão. A médica observa que o paciente está lúcido, orientado e sem alterações cognitivas no momento, mas identifica sinais de depressão grave e risco de nova tentativa de autoextermínio após a alta. Considerando o Código de Ética Médica e os aspectos ético-legais relacionados ao sigilo médico em situações de risco de suicídio, assinale a alternativa CORRETA:",
+    "alternativas_origem": {
+      "A": "O sigilo médico é absoluto nesse caso, devendo a médica respeitar integralmente a vontade do paciente de não informar aos familiares sobre a tentativa de suicídio, mesmo identificando risco de nova tentativa.",
+      "B": "A médica deve comunicar imediatamente às autoridades policiais sobre a tentativa de suicídio, pois trata-se de evento de notificação compulsória que sobrepõe o dever de sigilo.",
+      "C": "A quebra do sigilo médico justifica-se nesse caso, pois o risco de nova tentativa de suicídio caracteriza situação de risco à vida do paciente, devendo a médica informar a familiares e solicitar avaliação psiquiátrica.",
+      "D": "A médica deve preservar o sigilo e apenas notificar a tentativa de suicídio à vigilância epidemiológica, sem necessidade de comunicação aos familiares, uma vez que o paciente é adulto e se encontra lúcido.",
+      "E": "A médica deve condicionar o tratamento à autorização do paciente para revelar a informação aos familiares, caso contrário, não poderá prestar assistência devido à ausência de responsável legal presente."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q045",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Durante consulta de rotina na Unidade Básica de Saúde, homem de 55 anos, assintomático, sem comorbidades ou histórico familiar relevante, solicita exames de rastreamento para câncer de próstata, incluindo PSA (Antígeno Prostático Específico) e toque retal. Refere que um colega de trabalho foi diagnosticado recentemente com essa neoplasia. Considerando as recomendações do Ministério da Saúde e os princípios do rastreamento populacional, a conduta mais adequada é:",
+    "alternativas_origem": {
+      "A": "Solicitar o PSA anualmente e realizar o toque retal, pois o rastreamento universal para câncer de próstata reduz significativamente a mortalidade específica.",
+      "B": "Explicar duvidosos benefícios e os potenciais riscos do rastreamento para câncer de próstata, incluindo resultados falso-positivos e sobrediagnóstico, permitindo decisão compartilhada.",
+      "C": "Negar a solicitação, pois esses exames para detectar câncer de próstata são contraindicados em qualquer circunstância, pela elevada taxa de complicações do tratamento.",
+      "D": "Solicitar apenas o PSA trimestralmente, dispensando o toque retal, por ser procedimento invasivo com baixa aceitabilidade.",
+      "E": "Encaminhar diretamente ao urologista, pois a idade acima de 50 anos é critério absoluto para especialização do cuidado em saúde do homem."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q046",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Médica da Família e Comunidade da Unidade Básica de Saúde recebe resultado de biópsia confirmando diagnóstico de adenocarcinoma pancreático metastático em paciente de 67 anos. A paciente comparece à consulta acompanhada da filha. A filha já viu o resultado do exame e solicita reservadamente que a mãe não seja informada sobre o diagnóstico de câncer, alegando fragilidade emocional e histórico de depressão. Atualmente, a paciente não apresenta sinais de fragilidade ou alteração no exame psíquico. Considerando os aspectos éticos e o protocolo SPIKES para comunicação de más notícias, assinale a alternativa que apresenta a conduta mais adequada:",
+    "alternativas_origem": {
+      "A": "Atender à solicitação da filha, comunicando apenas a ela o diagnóstico e prognóstico, preservando a paciente de sofrimento psicológico adicional.",
+      "B": "Informar detalhadamente o diagnóstico, prognóstico e opções terapêuticas à paciente, independentemente do pedido da filha.",
+      "C": "Avaliar a capacidade de compreensão e o desejo da paciente em receber informações sobre sua condição, oferecendo-as de forma gradual e adequada às suas necessidades, respeitando sua autonomia.",
+      "D": "Utilizar termos técnicos e eufemismos ao comunicar o diagnóstico, evitando mencionar a palavra \"câncer\" e focando apenas nas possibilidades terapêuticas.",
+      "E": "Encaminhar a paciente ao oncologista para comunicação do diagnóstico, eximindo-se da responsabilidade direta pela notificação da má notícia."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q047",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Em um determinado município, observou-se uma elevada taxa de mortalidade infantil. Análises demonstraram que a maior parte dos óbitos estava relacionada à mortalidade neonatal precoce. Diversas medidas foram implementadas, resultando em uma melhora significativa tanto na mortalidade neonatal precoce quanto na tardia. Atualmente, o componente neonatal representa menos de 10% dos óbitos em crianças menores de 1 ano. Apesar dessa redução expressiva, a mortalidade infantil como um todo permanece elevada. Considerando esse cenário, assinale a alternativa CORRETA:",
+    "alternativas_origem": {
+      "A": "A principal intervenção no cenário atual deve estar voltada à assistência pré-natal na Atenção Primária e ao cuidado no parto.",
+      "B": "A principal medida responsável pela redução da mortalidade neonatal deve ter sido a vacinação infantil.",
+      "C": "A proporção atual de mortalidade neonatal está dentro das variações esperadas e independe de intervenções específicas.",
+      "D": "O componente predominante da mortalidade infantil nesse cenário não é passível de redução por meio de ações do sistema de saúde.",
+      "E": "Uma possível intervenção atual deve estar focada na identificação de falhas no cuidado e no acompanhamento da puericultura na Atenção Primária e locais de urgência e emergência que recebem as crianças abaixo de 1 ano."
+    },
+    "chave_consenso": "E",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q048",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Em estudo sobre novo teste para diagnóstico precoce de tuberculose pulmonar, foram avaliados 500 pacientes sintomáticos respiratórios. Todos realizaram o novo teste e, como padrão-ouro, cultura de escarro. Os resultados estão apresentados na tabela abaixo: Cultura Cultura Positiva Negativa Total Novo Teste Positivo 90 60 150 Novo Teste Negativo 10 340 350 Total 100 400 500 A partir desses dados, assinale a alternativa que apresenta CORRETAMENTE a estimação do valor preditivo positivo (VPP) do novo teste e sua interpretação clínica:",
+    "alternativas_origem": {
+      "A": "VPP = 60%, indicando que 60% dos pacientes com resultado positivo no novo teste realmente têm tuberculose pulmonar, o que sugere moderada utilidade para confirmação diagnóstica.",
+      "B": "VPP = 90%, indicando que 90% dos pacientes com tuberculose pulmonar terão resultado positivo no novo teste, o que justifica seu uso como teste de triagem.",
+      "C": "Não há como calcular o VPP , pois não há a prevalência da tuberculose.",
+      "D": "VPP = 90%, indicando que 90% dos pacientes com tuberculose pulmonar terão resultado positivo no novo teste, o que justifica seu uso como exame confirmatório.",
+      "E": "VPP = 60%, indicando que entre todos os pacientes testados, 60% dos pacientes com tuberculose terão o resultado positivo."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Tabela apresentada em texto corrido, com formatação degradada."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q049",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Médico de família atende gestante de 16 anos, no segundo trimestre de gravidez, que refere não ter realizado nenhuma consulta pré-natal até o momento. Mora em ocupação irregular sem saneamento básico, abandonou a escola no ano anterior, não possui renda própria e relata insegurança alimentar no domicílio. Durante o atendimento, mostra-se ansiosa quanto ao futuro e menciona não ter apoio do pai da criança. Considerando o modelo de Determinantes Sociais de Saúde adotado pela Comissão Nacional sobre os Determinantes Sociais da Saúde (CNDSS), assinale a alternativa CORRETA:",
+    "alternativas_origem": {
+      "A": "O principal determinante social no caso é a gravidez na adolescência, sendo os demais apenas fatores secundários nessa condição, exigindo abordagem centrada no planejamento familiar.",
+      "B": "A insegurança alimentar representa um determinante social, devendo ser tratada exclusivamente por meio de encaminhamento aos programas de transferência de renda.",
+      "C": "O caso exemplifica determinantes sociais de natureza individual e sociais, não havendo influência significativa de fatores estruturais ou políticas públicas em sua condição de saúde.",
+      "D": "Para abordagem dos determinantes sociais precisa-se de multidisciplinaridade, em que essa responsabilidade é de assistentes sociais. A abordagem médica deve focar nos aspectos clínicos da gestação, pois os determinantes sociais estão fora do escopo de atuação da equipe de saúde.",
+      "E": "Os determinantes sociais presentes nesse caso atuam em diferentes níveis (individual, social e estrutural), interagem entre si e ampliam vulnerabilidades, demandando abordagem intersetorial para promoção da saúde."
+    },
+    "chave_consenso": "E",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q050",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Médica de Família e Comunidade recém-contratada para atuar em uma Unidade Básica de Saúde (UBS) que atende território com presença significativa das comunidades quilombola, LGBT+ e indígenas aldeados, observa a necessidade de capacitação da equipe para melhor atendimento a esses grupos. Durante reunião com a coordenação municipal de saúde, ela sugere a implementação de ações baseadas nas políticas nacionais específicas para essas populações. Considerando as características específicas das políticas nacionais de saúde voltadas para populações vulnerabilizadas, analise as afirmativas abaixo: I. A Política Nacional de Atenção à Saúde dos Povos Indígenas (PNASPI) é operacionalizada por meio dos Distritos Sanitários Especiais Indígenas (DSEI), que possuem delimitação geográfica baseada em critérios epidemiológicos, geográficos e etnográficos, não se limitando às divisões administrativas estaduais e municipais. II. A Política Nacional de Saúde Integral da População Negra (PNSIPN) reconhece haver agravos de maior prevalência nesse grupo populacional, recomendando ações específicas de prevenção, diagnóstico e tratamento. III. A Política Nacional de Saúde Integral LGBT, junto a leis, encoraja os profissionais, respeitando autonomia à opção de utilização do nome social dos usuários nos serviços de saúde, para respeitar a identidade de gênero dos usuários. IV. As três políticas citadas integram como ação comum o combate ao racismo institucional e outras formas de discriminação, reconhecendo-os como determinantes sociais que afetam diretamente as condições de saúde dessas populações. V. A implementação da Política Nacional de Saúde Integral da População Negra ocorre principalmente por meio da criação de serviços exclusivos para essa população, comunidades de saúde específicas para atendimento especializado em áreas periféricas e comunidades quilombolas. Assinale a alternativa que contém apenas afirmativas CORRETAS:",
+    "alternativas_origem": {
+      "A": "I, II e IV.",
+      "B": "I, III e IV.",
+      "C": "II, III e IV.",
+      "D": "I, II e V.",
+      "E": "III, IV e V."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "A afirmativa III é defensável como correta em leitura menos rigorosa, o que tornaria B e C também elegíveis — item com chave dependente de nuance de redação.",
+      "A afirmativa III (uso do nome social) também é substancialmente correta, de modo que a chave depende de leitura restritiva do verbo 'encoraja/opção'; a resposta só se sustenta por eliminação.",
+      "Afirmativa III de redacao ambigua; se lida como verdadeira, A e B se tornariam ambas defensaveis."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  }
+]

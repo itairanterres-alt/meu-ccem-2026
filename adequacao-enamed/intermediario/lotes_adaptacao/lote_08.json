@@ -1,0 +1,217 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q088",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Gestante de 19 anos, primigesta (G1P0A0), com 29 semanas de idade gestacional, comparece à consulta pré-natal de rotina na Unidade Básica de Saúde apresentando resultado de VDRL reagente com titulação de 1:8 realizado há 8 dias. O Teste Rápido (TR) realizado na primeira consulta (8 semanas) e o VDRL do primeiro trimestre foram ambos não reagentes. A paciente é assintomática e o exame físico é normal. Ela refere parceiro sexual fixo nos últimos 12 meses, que é assintomático e não possui histórico de tratamento para infecções sexualmente transmissíveis. De acordo com as diretrizes do Ministério da Saúde do Brasil, qual a conduta mais adequada para garantir o tratamento materno e a prevenção da sífilis congênita?",
+    "alternativas_origem": {
+      "A": "Iniciar Penicilina G Benzatina 2,4 milhões UI (dose única) para a gestante; para o parceiro, realizar teste rápido e tratá-lo com 2,4 milhões UI (dose única) se o teste for reagente.",
+      "B": "Iniciar Penicilina G Benzatina 2,4 milhões UI (3 doses semanais) para a gestante; o parceiro deve ser tratado imediatamente com 2,4 milhões UI (dose única).",
+      "C": "Iniciar Penicilina G Benzatina 2,4 milhões UI (total de 3 doses semanais) para a gestante; para o parceiro, solicitar VDRL e aguardar o resultado para definir o esquema terapêutico.",
+      "D": "Solicitar teste treponêmico (como FTA-Abs ou Teste Rápido) para a gestante e aguardar a confirmação diagnóstica; o parceiro deve ser tratado somente após a confirmação materna."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Pelo PCDT-IST do MS a parceria deve receber tratamento presuntivo mesmo com teste não reagente, o que torna imprecisa a condicional 'tratar apenas se reagente' da alternativa A; a alternativa B acerta o parceiro mas erra o esquema materno (3 doses para sífilis recente) — item com duas opções parcialmente defensáveis.",
+      "A conduta com a parceria é imperfeita: o PCDT-IST recomenda tratamento presuntivo da parceria sexual de gestante com sífilis independentemente do resultado dos testes, o que não é contemplado por nenhuma alternativa que traga o esquema materno correto.",
+      "A alternativa restringe o tratamento da parceria ao teste reagente, enquanto o PCDT admite tratamento presuntivo por exposição, o que torna a chave imperfeita."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q089",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma adolescente de 15 anos, menarca há 1 ano, sem vida sexual ativa, procura atendimento ambulatorial com queixa de irregularidade menstrual desde a menarca, apresentando ciclos com intervalos que variam de 30 até 90 dias. Refere também aumento de pelos em face e abdome e acne persistente. Ao exame físico, IMC de 27 kg/m², presença de acne inflamatória moderada e índice de Ferriman-Gallwey igual a 9. Exames laboratoriais mostram elevação de testosterona total. Ultrassonografia pélvica evidencia útero e ovários de aspecto normal para idade. Com base nos critérios de Rotterdam e considerando o caso clínico apresentado, qual é a interpretação mais adequada?",
+    "alternativas_origem": {
+      "A": "A paciente não pode ser diagnosticada com SOP, pois preenche apenas 1 critério menor.",
+      "B": "A paciente apresenta critérios suficientes para diagnóstico de SOP.",
+      "C": "A paciente não pode ser diagnosticada com SOP, pois a menarca foi a apenas 1 ano.",
+      "D": "A paciente não pode ser diagnosticada com SOP, pois a ultrassonografia foi normal para idade."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q090",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 47 anos, G2P2 (dois partos vaginais), comparece à consulta ginecológica queixando-se de aumento do fluxo menstrual e episódios de irregularidade nos últimos 6 meses. O exame físico revela útero discretamente aumentado de volume, indolor e móvel. A ultrassonografia transvaginal demonstra a presença de um nódulo sólido, hipoecoico, com 4,5 cm no maior eixo, localizado na parede anterior, ocupando mais de 50% da espessura miometrial, mas sem atingir a serosa nem distorcer a cavidade endometrial (Classificação FIGO 5). O endométrio possui aspecto normal e a citologia oncótica cervical está normal. A paciente não deseja novas gestações e solicita encaminhamento para cirurgia. Qual a conduta imediata mais adequada para este caso?",
+    "alternativas_origem": {
+      "A": "Indicar de histerectomia total abdominal, visto que a paciente já possui prole constituída e apresenta sintomas hemorrágicos com útero aumentado.",
+      "B": "Realizar de miomectomia por via laparoscópica, visando a preservação do órgão e controle dos sintomas, devido à localização intramural do nódulo (FIGO 5).",
+      "C": "Manter manejo clínico com expectação e uso de sintomáticos, considerando a sintomatologia leve e a proximidade da menopausa.",
+      "D": "Encaminhar para embolização das artérias uterinas (EAU), por ser o tratamento de escolha para miomas intramurais sintomáticos em mulheres acima de 45 anos."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Inconsistência na classificação: o texto descreve nódulo intramural que não atinge a serosa nem distorce a cavidade (FIGO 3–4), mas o rotula como FIGO 5 (subseroso com ≥50% intramural).",
+      "Inconsistência técnica: a descrição (mais de 50% intramural, sem atingir a serosa, sem distorcer a cavidade) corresponde ao tipo 4 da FIGO, e não ao tipo 5 declarado no enunciado.",
+      "Incoerencia na vinheta: nodulo descrito sem atingir a serosa e sem distorcer a cavidade corresponde a FIGO 4 (intramural), nao FIGO 5 (subseroso com componente intramural maior que 50%)."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q091",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 48 anos, empresária, procura atendimento médico com queixas de fogachos intensos, calores noturnos que prejudicam o sono (insônia secundária), irritabilidade e diminuição da libido. No histórico obstétrico, é G2P2A0. Relata ter sido submetida a uma histerectomia total com preservação de anexos há 10 anos, devido a uma miomatose uterina sintomática. O exame físico revela IMC de 23 kg/m², pressão arterial de 120/80 mmHg e ausência de nódulos mamários à palpação. Não apresenta antecedentes pessoais ou familiares de câncer de mama ou eventos tromboembólicos. A paciente deseja TH, mas apresenta-se preocupada com os riscos associados. Qual a conduta mais adequada para o início da terapia hormonal nesta paciente?",
+    "alternativas_origem": {
+      "A": "Prescrever Terapia Hormonal com testosterona transdérmica, visando o melhor controle dos sintomas vasomotores e da libido.",
+      "B": "Iniciar Estrogenioterapia isolada por via oral ou transdérmica, uma vez que a paciente é histerectomizada.",
+      "C": "Indicar o uso isolado de Progestagênio, Acetato de Medroxiprogesterona intramuscular ou implante subcutâneo de etonogestrel, pois possuem menos efeitos adversos.",
+      "D": "Recomendar apenas Estriol intravaginal, pois o tratamento local é suficiente para os sintomas descritos e apresenta menores riscos associados."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q092",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "O rastreamento do câncer do colo do útero no Brasil e no mundo passa por uma transição tecnológica com a substituição progressiva da citologia oncótica pelos testes de biologia molecular (DNA-HPV). Essa mudança fundamenta-se nas propriedades diagnósticas e no impacto desses testes na história natural da doença. Considerando as diretrizes da Organização Mundial da Saúde (OMS) qual a principal vantagem do rastreio primário com DNA-HPV?",
+    "alternativas_origem": {
+      "A": "Especificidade superior à da citologia, o que reduz drasticamente a necessidade de colposcopias desnecessárias em mulheres jovens (abaixo de 25 anos).",
+      "B": "O alto valor preditivo negativo do teste permite que o intervalo entre os exames de rastreio seja ampliado com segurança para 5 anos.",
+      "C": "Dispensa a necessidade de triagem citológica posterior, uma vez que qualquer resultado positivo para HPV de alto risco indica diretamente a realização de colposcopia.",
+      "D": "Por ser um teste automatizado e de alta sensibilidade, o DNA-HPV elimina a influência da vacinação contra o HPV nos protocolos de rastreamento."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q093",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma paciente de 26 anos comparece à consulta ginecológica relatando corrimento vaginal abundante, de odor fétido, que se intensificou após o último período menstrual. Refere parceiro sexual único e início da vida sexual há 8 meses, utilizando anticoncepcional oral combinado como método de planejamento familiar. Ao exame especular observa-se conteúdo vaginal fluido, amarelo-esverdeado e bolhoso e colo com múltiplas petéquias. O teste do pH vaginal é de 5,5 e o teste das aminas (Whiff test) é positivo. Diante da principal hipótese diagnóstica, qual é a conduta mais adequada para este caso?",
+    "alternativas_origem": {
+      "A": "Prescrever Metronidazol 2g, via oral, em dose única para a paciente e orientar o tratamento do parceiro apenas se este apresentar sintomas uretrais evidentes.",
+      "B": "Prescrever Metronidazol 500mg, via oral, de 12 em 12 horas por 7 dias para a paciente e tratar obrigatoriamente o parceiro sexual com o mesmo esquema ou dose única.",
+      "C": "Indicar o uso de Metronidazol em creme vaginal por 10 dias, sem necessidade de tratar o parceiro.",
+      "D": "Realizar o tratamento do casal com dose única de Tinidazol 2g e Metronidazol em creme vaginal por 10 dias."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q094",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 21 anos, com início de vida sexual há 2 anos, procura atendimento de urgência com queixa de dor abdominal baixa intensa há 4 dias, febre (38,8°C), náuseas e piora progressiva do quadro. Refere corrimento vaginal recente que iniciou após a última menstruação. Ao exame físico, apresenta dor à palpação de hipogástrio e fossas ilíacas, além de dor à mobilização do colo uterino durante o toque vaginal. Ao exame especular, observa-se secreção purulenta. Exames laboratoriais mostram leucocitose e elevação de PCR. Ultrassonografia transvaginal evidencia massa anexial complexa com conteúdo heterogêneo e septações, medindo 5,5 cm no maior eixo. Diante da principal hipótese diagnóstica, qual é a conduta mais adequada?",
+    "alternativas_origem": {
+      "A": "Prescrever anti-inflamatórios e analgésicos, com orientação de abstinência sexual até melhora dos sintomas, sem necessidade de internação ou tratamento do parceiro",
+      "B": "Iniciar antibioticoterapia oral ambulatorial e reavaliar em 72 horas, sem necessidade de internação ou tratamento do parceiro.",
+      "C": "Internar a paciente para antibioticoterapia venosa de amplo espectro, com cobertura para germes anaeróbios, e indicar tratamento do parceiro sexual.",
+      "D": "Indicar abordagem cirúrgica imediata com laparotomia e salpingo-ooforectomia, seguida de antibioticoterapia, e indicar tratamento do parceiro sexual."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q095",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 37 anos, sem comorbidades, comparece à Unidade Básica de Saúde para consulta de rotina. Nega sintomas mamários e não possui antecedentes familiares de câncer de mama. Questiona sobre a melhor forma de realizar o rastreamento para câncer de mama. Com base nas recomendações atuais de rastreamento populacional, qual é a orientação mais adequada para esta paciente?",
+    "alternativas_origem": {
+      "A": "Realizar mamografia anual até completar 70 anos.",
+      "B": "Realizar mamografia bienal entre 50 e 69 anos.",
+      "C": "Realizar exame clínico das mamas até 49 anos seguido de mamografia anual até 70 anos.",
+      "D": "Realizar ultrassonografia mamária anual até 49 anos seguida de mamografia bienal entre 50 e 69 anos."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q096",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma paciente de 21 anos, Gesta 1 Para 1 (parto vaginal há 6 meses), comparece à consulta na Unidade Básica de Saúde manifestando o desejo de realizar contracepção cirúrgica definitiva (laqueadura tubária). Ela afirma não desejar novas gestações e refere que o uso de métodos reversíveis não lhe traz segurança emocional. Informa que não tem parceiro fixo e reside e depende financeiramente da mãe. Com base na Lei nº 14.443/2022 e nas recomendações do Ministério da Saúde, qual a conduta adequada para este caso?",
+    "alternativas_origem": {
+      "A": "O procedimento não pode ser realizado, uma vez que a legislação brasileira exige idade mínima de 25 anos para mulheres com menos de dois filhos vivos.",
+      "B": "O procedimento é contraindicado por se tratar de paciente jovem, com apenas 1 filho e sem parceiro fixo.",
+      "C": "A cirurgia está condicionada à autorização expressa da mãe, visto que a paciente depende financeiramente dela.",
+      "D": "A laqueadura pode ser realizada, sendo necessário aguardar o prazo de 60 dias entre a manifestação da vontade e o ato cirúrgico."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q097",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma paciente de 38 anos, G3P3 (partos vaginais), comparece à consulta ginecológica buscando contracepção de alta eficácia. Ao exame e anamnese, apresenta: IMC de 34 kg/m² (Obesidade Grau I), hipertensão arterial sistêmica controlada com enalapril (130x85 mmHg) e Diabetes Mellitus tipo 2 diagnosticado há 22 anos, com sinais de nefropatia diabética em estágio inicial. A paciente nega tabagismo. Refere fluxo menstrual moderado a forte. Considerando os Critérios Médicos de Elegibilidade da Organização Mundial da Saúde (OMS) e as melhores evidências científicas, qual a conduta mais adequada?",
+    "alternativas_origem": {
+      "A": "Prescrever o sistema intrauterino liberador de levonorgestrel (SIU-LNG)",
+      "B": "Iniciar anticoncepcional combinado oral de baixa dosagem",
+      "C": "Indicar o uso de anticoncepcional injetável trimestral de acetato de medroxiprogesterona",
+      "D": "Recomendar o dispositivo intrauterino de cobre (DIU TCu 380A)"
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q098",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 28 anos comparece à Unidade Básica de Saúde para consulta de rotina. Durante a anamnese, a médica assistente nota equimoses em diferentes estágios de evolução nos braços e tronco, além de um comportamento esquivo e hipervigilante da paciente. Ao ser questionada em ambiente privativo, ela confirma sofrer agressões físicas recorrentes do parceiro, mas solicita expressamente que a polícia não seja acionada, pois ele é uma boa pessoa e só a agride quando está embriagado. Diante das diretrizes atuais do Ministério da Saúde e do Conselho Federal de Medicina sobre o fluxo de notificação e atendimento, qual a conduta correta?",
+    "alternativas_origem": {
+      "A": "Realizar a notificação compulsória em formulário específico (VIVA/SINAN) em até 24 horas, informando obrigatoriamente às autoridades policiais e ao Ministério Público sobre o ocorrido, mesmo contra a vontade da paciente.",
+      "B": "Respeitar a autonomia da paciente e não realizar a notificação epidemiológica no SINAN, visto que o sigilo médico é absoluto em casos de violência doméstica contra adultos com capacidade civil plena, salvo se houver risco de morte iminente.",
+      "C": "Efetuar a notificação compulsória para fins epidemiológicos (VIVA/SINAN), que deve ser preenchida pelo profissional de saúde que prestou o atendimento, sem a necessidade de comunicação policial imediata, respeitando o sigilo e a autonomia da mulher.",
+      "D": "Encaminhar a paciente obrigatoriamente para a Delegacia da Mulher para que o escrivão realize a notificação no sistema de saúde, uma vez que a notificação de violência doméstica é um ato administrativo-policial e não uma atribuição do médico assistente."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Há tensão normativa com a Lei 13.931/2019, que prevê comunicação à autoridade policial em até 24 h nos casos de violência contra a mulher atendidos em serviços de saúde, o que torna o item discutível.",
+      "A Lei 13.931/2019 determina comunicação à autoridade policial em 24 horas nos casos de violência contra a mulher, o que conflita parcialmente com a alternativa apontada como correta."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q099",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma adolescente de 15 anos comparece à Unidade Básica de Saúde para consulta de rotina. Durante a anamnese, em um momento a sós com o médico, ela revela ter iniciado a vida sexual há dois meses com um parceiro fixo e deseja iniciar contracepção com implante subdérmico, pois leu que tem alta eficácia. Ela solicita expressamente que o médico não informe sua mãe sobre esse fato, pois teme represálias familiares. Ao exame físico, apresenta-se em bom estado geral, com desenvolvimento puberal completo e exame ginecológico sem alterações. De acordo com o Código de Ética Médica e as diretrizes do Ministério da Saúde do Brasil, qual deve ser a conduta do médico em relação ao sigilo e à assistência?",
+    "alternativas_origem": {
+      "A": "O sigilo deve ser mantido, pois a adolescente demonstra capacidade de discernimento e a revelação sem seu consentimento rompe a relação de confiança.",
+      "B": "O médico deve informar a mãe, obrigatoriamente, por tratar-se de uma menor de idade, mas pode manter o sigilo sobre o método contraceptivo prescrito.",
+      "C": "O médico deve quebrar o sigilo visto que a prescrição de implantes subdérmicos em menores de idade exige autorização expressa de um responsável.",
+      "D": "O médico deve convencer a adolescente a trazer a mãe para a consulta, pois o atendimento ginecológico de menores de 16 anos sem o acompanhante legal configura infração ética."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q001",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Menina de 9 anos com diagnóstico de diabetes melito tipo I há cerca de dois anos, com acompanhamento irregular e má adesão à terapêutica com insulina. Apresentou sintomas gripais e febre, iniciado há dois dias, e hoje, passou a apresentar episódios de dor abdominal, vômito, poliúria e polidipsia. Chega ao serviço levemente agitada, porém colaborativa, taquipneica, porém sem alterações na ausculta respiratória. SatO2 = 98% em ar ambiente. Glicemia capilar: 391 mg/dL. Considerando a principal hipótese diagnóstica, qual o achado esperado na gasometria desta paciente?",
+    "alternativas_origem": {
+      "A": "Acidose metabólica, ânion GAP elevado, hipocalemia.",
+      "B": "Acidose metabólica sem elevação de ânion gap, hipercalemia.",
+      "C": "Acidose respiratória, ânion GAP elevado, hipocalemia.",
+      "D": "Alcalose metabólica, sem elevação de ânion GAP, hipercalemia."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Tecnicamente impreciso: na CAD o potássio sérico inicial costuma estar normal ou elevado apesar do déficit corporal total; nenhuma alternativa oferece \"acidose metabólica com AG elevado e calemia normal/alta\", forçando a escolha por eliminação.",
+      "O descritor 'hipocalemia' é discutível: na admissão da CAD o potássio sérico costuma estar normal ou elevado (apesar do déficit corporal total), tornando a alternativa imprecisa.",
+      "A hipocalemia citada em A não é o achado sérico mais típico na admissão da CAD (potássio costuma estar normal ou elevado apesar da depleção corporal total), embora as demais alternativas tenham defeitos maiores."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q002",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Menino de 1 ano e 9 meses, hígido, é levado para consulta de puericultura. Genitora encontra-se preocupada, ele não se interessa nem nos familiares, nem em outras crianças. Sempre brinca sozinho e, quando é tentada interação, se interessa mais no brinquedo do que na pessoa com quem está brincando. Além disso, não responde quando chamado pelo nome, nem aponta para objetos indicando o que deseja. Quanto aos marcos do desenvolvimento para a idade, ele empilha três cubos, remove peças de roupa e chuta uma bola, porém não aponta duas figuras em um grupo de 5. Aplicado instrumento M-CHAT, com pontuado 4 (risco moderado para o transtorno do espectro autista). A partir desse achado, qual a primeira conduta, de acordo com a caderneta da Criança do Ministério da Saúde?",
+    "alternativas_origem": {
+      "A": "Reaplicar o M-CHAT após aniversário de 2 anos.",
+      "B": "Aplicar a entrevista de seguimento para obter informações adicionais sobre as respostas que indicam risco.",
+      "C": "Encaminhar para avaliação diagnóstica e intervenção precoce, acionando rede de atenção especializada.",
+      "D": "Orientar a mãe sobre a estimulação da criança e marcar retorno com 30 dias."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q003",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Criança de 8 anos, dá entrada em hospital de referência com história de febre e dor nas articulações, iniciados na última semana. “Teve dor de garganta” há aproximadamente 20 dias, sem tratamento. Ao exame, estava afebril. Apresentava dor e edema em articulações de joelhos, tornozelos e punhos. Ausculta cardíaca com sopro holossistólico em foco mitral 3/6+. Realizados exames complementares, que evidenciaram: radiografia com discreto aumento de área cardíaca e sinais de congestão pulmonar. Ecocardiograma com aumento de câmaras cardíacas esquerdas. Títulos elevados de ASLO. Quais medicações estão indicadas?",
+    "alternativas_origem": {
+      "A": "Penicilina benzatina e naproxeno.",
+      "B": "Penicilina benzatina e prednisona.",
+      "C": "Naproxeno e prednisona.",
+      "D": "Ibuprofeno e penicilina benzatina."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q004",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Adolescente de 12 anos é levado para unidade de pronto atendimento devido a cefaleia, urina escurecida e edema nos membros inferiores iniciados na última semana. Recentemente, realizou tratamento para impetigo em unidade de atenção primária. Ao exame: Estado geral regular, colaborativo, hipocorado, eupneico. Presença de edema em ambos os membros inferiores. Sinais vitais: frequência cardíaca 98 bpm; Frequência respiratória 20 ipm; SatO2 98%; PA: 113x80 mmHg (acima do percentil 90 para a idade, sexo e estatura). Fita reagente de urina evidenciou hemácias +++; traços de proteína e nitrito negativo. Qual achado laboratorial poderia corroborar com a principal hipótese diagnóstica?",
+    "alternativas_origem": {
+      "A": "Hipoalbuminemia.",
+      "B": "Redução do complemento C3.",
+      "C": "Aumento do nível sérico de creatinina.",
+      "D": "Aumento da relação proteína/creatinina urinária."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q005",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Observe a notícia a seguir: “SUS passa a oferecer imunobiológico para proteger bebês e crianças com comorbidades contra a bronquiolite O nirsevimabe oferece proteção imediata contra o vírus sincicial respiratório, sem a necessidade de estimular o organismo a produzir anticorpos” Qual dentre os exemplos a seguir teria indicação de receber esse imunológico pelo SUS, de acordo com o Ministério da Saúde?",
+    "alternativas_origem": {
+      "A": "Menor com 4 anos de idade e quadro de Síndrome de Down.",
+      "B": "Paciente com 6 meses e história de pneumonia aos 3 meses de idade.",
+      "C": "Bebê com 15 dias de vida, prematuro com 36 semanas de idade gestacional.",
+      "D": "Criança de 1 ano, com comunicação interatrial sem repercussão hemodinâmica."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Depende de nota técnica recente do MS cujos pontos de corte (idade gestacional e faixa etária) não são explicitados no enunciado."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q006",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Paciente de 6 meses é atendida em consulta de rotina na Unidade de Atenção Primária e é calculado seu IMC: 18,8 kg/m2. Como classificar essa criança, de acordo com o gráfico da caderneta?",
+    "alternativas_origem": {
+      "A": "Sobrepeso.",
+      "B": "Risco de sobrepeso.",
+      "C": "Peso normal para a idade.",
+      "D": "Pelo elevado para a idade."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O valor cai exatamente sobre a linha de corte +2, tornando a distinção entre \"risco de sobrepeso\" e \"sobrepeso\" dependente de convenção de arredondamento; além disso, o gráfico da caderneta é citado mas não apresentado.",
+      "O gráfico da caderneta referido no enunciado não é apresentado e o sexo só se infere pela flexão ('atendida'), exigindo memorização de valores de corte.",
+      "Alternativa D com erro de digitação ('Pelo elevado') e mistura índices (peso-para-idade em vez de IMC-para-idade)."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q007",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Criança com 37 semanas de idade gestacional, nascida após indicada cesárea de urgência por batimentos cardiofetais ausentes. À extração, o paciente encontrava-se hipotônico e sem respirar. Foi realizado clampeamento imediato do cordão umbilical e o menor foi conduzido à mesa de reanimação. Após medidas iniciais, seguia sem respirar e com frequência cardíaca de 31 bpm. Qual o próximo passo indicado para essa criança?",
+    "alternativas_origem": {
+      "A": "Aspiração das vias aéreas superiores.",
+      "B": "Ventilação com pressão positiva.",
+      "C": "Realizar intubação orotraqueal.",
+      "D": "Iniciar massagem cardíaca."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q008",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Lactente de 6 meses é levado à consulta de rotina pela mãe, que relata aumento do volume da bolsa escrotal direita percebido há cerca de 2 meses. Nega dor, irritabilidade, febre ou episódios de vômitos. Ao exame físico, observa-se aumento de volume escrotal à direita, de consistência cística, indolor à palpação, sem sinais flogísticos. Transiluminação escrotal positiva. Não há redução do volume à compressão manual durante o exame. Com base no quadro clínico, qual é a conduta mais adequada?",
+    "alternativas_origem": {
+      "A": "Indicar cirurgia imediata.",
+      "B": "Solicitar ultrassonografia escrotal.",
+      "C": "Acompanhar clinicamente até 1 ano de idade.",
+      "D": "Realizar punção aspirativa do conteúdo escrotal."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q009",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Criança de 3 anos é levada ao ambulatório para investigar episódios recorrentes de pneumonia desde o primeiro ano de vida, além de tosse persistente. De antecedentes familiares, é o primeiro filho de ambos os pais, que são saudáveis e consanguíneos. Não realizou teste do pezinho ao nascer. Ao exame, apresentou quadro de tosse durante a consulta, e trazia roncos e estertores difusos à ausculta. A aparência geral era emagrecida, sendo que na curva de peso para idade encontrava-se abaixo do escore Z -3 e, na de estatura para a idade, abaixo do escore Z -2. Realizou iontoforese, com dosagem de cloreto no suor de 72 mEq/L (Valor de referência <30). Qual o provável diagnóstico?",
+    "alternativas_origem": {
+      "A": "Fibrose cística.",
+      "B": "Asma brônquica.",
+      "C": "Doença granulomatosa crônica.",
+      "D": "Imunodeficiência comum variada."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q010",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um lactente de 4 meses é levado à emergência com história de rinorreia e febre baixa há quatro dias, evoluindo com piora progressiva do padrão respiratório, incluindo dificuldade para mamar e episódios de “chiado no peito”. Ao exame físico, encontra-se em regular estado geral, com taquipneia, tiragem inter e subcostal leve e sibilos difusos à ausculta pulmonar, além de tempo expiratório prolongado. Genitor refere que “nunca cansou” antes. Considerando a principal hipótese diagnóstica, qual o mecanismo fisiopatogênico relacionado ao quadro?",
+    "alternativas_origem": {
+      "A": "Incremento da depuração mucociliar nas vias aéreas.",
+      "B": "Broncodilatação sustentada com aumento do fluxo aéreo.",
+      "C": "Redução acentuada da permeabilidade vascular pulmonar.",
+      "D": "Obstrução de vias aéreas inferiores por atividade inflamatória."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q011",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Criança de 8 anos previamente hígida é levada ao atendimento de urgência por dor intensa no joelho direito iniciada há 3 dias, com piora progressiva e dificuldade para deambular, evoluindo também com febre alta (até 39 ºC) e prostração. Refere ferimento recente próximo ao joelho acometido enquanto andava de bicicleta. Ao exame físico, apresenta joelho direito em posição antálgica, com aumento de volume, calor e rubor local e importante limitação à mobilização passiva. Demais articulações sem alterações. Qual o provável agente etiológico envolvido neste quadro?",
+    "alternativas_origem": {
+      "A": "Staphylococcus aureus.",
+      "B": "Streptococcus pyogenes.",
+      "C": "Pseudomonas aeruginosa.",
+      "D": "Streptococcus agalactiae."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q012",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Recém-nascido-nascido termo, com 30 horas de vida, é submetido ao teste do coraçãozinho no alojamento conjunto. A aferição mostra uma saturação de oxigênio (SpO2) de 87% na mão direita e de 87% em um dos pés. Considerando a correta interpretação do teste, qual cardiopatia congênita deve estar presente?",
+    "alternativas_origem": {
+      "A": "Atresia Pulmonar.",
+      "B": "Persistência do canal arterial.",
+      "C": "Comunicação interventricular.",
+      "D": "Defeito total do septo atrioventricular."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  }
+]

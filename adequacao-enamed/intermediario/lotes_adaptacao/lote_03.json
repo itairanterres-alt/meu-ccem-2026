@@ -1,0 +1,234 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q026",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 27 anos, encaminhado para serviço hospitalar com quadro de dor abdominal em fossa ilíaca direita, com irradiação para flanco direito, há 2 dias. Relata náuseas e vômitos associados. Ao exame físico, taquicárdico, temperatura axilar 39,1ºC, com sinais de defesa abdominal em região de fossa ilíaca direita. Traz consigo exames laboratoriais externos: Exame Resultado Valor de Referência Hemoglobina (g/dL) 12,5 12-16 Hematócrito (%) 39 36-48 Leucócitos totais (cél/mm³) 14.100 4.000-11.000 Neutrófilos (%) 87 40-80 Proteína C Reativa (mg/L) 42 < 5 Diante do caso descrito, qual a conduta inicial?",
+    "alternativas_origem": {
+      "A": "Encaminhar ao bloco cirúrgico, para apendicectomia videolaparoscópica.",
+      "B": "Solicitar ultrassonografia de abdome total para elucidação diagnóstica.",
+      "C": "Solicitar tomografia computadorizada de abdome total de baixa dose.",
+      "D": "Tratamento para apendicite complicada, com apendicectomia de intervalo."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Discutível: parte das diretrizes ainda recomenda imagem em todos os adultos, o que torna a TC de baixa dose (C) defensável como \"conduta inicial\".",
+      "Com 2 dias de evolução e febre de 39,1 °C, diretrizes como a da WSES admitem tomografia (inclusive de baixa dose em jovens) antes da cirurgia, tornando a alternativa C parcialmente defensável.",
+      "A alternativa C (TC de baixa dose) é defensável pelas diretrizes que recomendam imagem antes da cirurgia, o que reduz a univocidade do item."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q027",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Paciente do sexo masculino, 17 anos, submetido à apendicectomia videolaparoscópica no dia anterior por apendicite aguda. Achados cirúrgicos descreviam apêndice cecal hiperemiado, sem necrose ou perfuração e ausência de líquido livre. No pré-operatório, estava em uso de ceftriaxona e metronidazol. Em sua evolução, apresenta-se sem queixas. Qual a conduta apropriada para o caso?",
+    "alternativas_origem": {
+      "A": "Alta hospitalar com antibioticoterapia por 3 dias com ciprofloxacino e metronidazol orais.",
+      "B": "Alta hospitalar sem antibioticoterapia, com prescrição de sintomáticos orais.",
+      "C": "Manter sob internação para antibioticoterapia, pois ceftriaxona não apresenta formulação oral.",
+      "D": "Suspender antibioticoterapia e manter sob internação, com avaliação laboratorial em 48h."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q028",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher, 42 anos, com quadro de dor abdominal em região epigástrica, com irradiação para hipocôndrio direito e região dorsal, associada a náuseas e múltiplos episódios eméticos. Relata início da dor há aproximadamente 36 horas. Ao exame físico, dor abdominal à palpação em hipocôndrio direito, sinal de Murphy positivo. Ultrassonografia com vesícula biliar de paredes espessadas, com cálculos de até 0,5cm em seu interior. Demais estruturas não foram avaliadas por interposição gasosa. Realizado exames laboratoriais: Exame Resultado Valor de Referência Hemoglobina (g/dL) 11.3 11,5-15.5 Hematócrito (%) 34.6 35-46 Leucócitos totais (cél/mm³) 12.350 4.000-11.000 Bilirrubina total (mg/dL) 1,6 0,2-1,2 Fosfatase Alcalina (U/L) 122 33-96 Gama-Glutamiltransferase (U/L) 143 7-60 Amilase (U/L) 380 20-96 Lipase (U/L) 633 4-43 Glicose (mg/dL) 122 70-99 LDH (U/L) 136 100-190 Com base nos exames realizados, qual a conduta inicial indicada para essa paciente?",
+    "alternativas_origem": {
+      "A": "Colangiopancreatografia retrógrada endoscópica, por apresentar colangite aguda.",
+      "B": "Colecistectomia videolaparoscópica, mediante quadro de colecistite aguda litiásica.",
+      "C": "Realização de tomografia computadorizada com contraste, para diagnóstico adequado.",
+      "D": "Tratamento clínico para pancreatite aguda, com colecistectomia no mesmo internamento."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q029",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 78 anos, diabético, acamado por antecedente de AVE isquêmico há 2 anos, em uso de ácido acetilssalicílico e insulina de longa duração, é admitido em serviço hospitalar com familiares por baixa ingesta alimentar e dor referida em região subcostal direita, com piora após alimentação há 2 dias. Após analgesia, houve persistência do quadro, com paciente evoluindo com obnubilação. Há o relato de redução de volume urinário. Traz exames externos do mesmo dia da avaliação, com evidência de leucocitose com desvio à esquerda e elevação de escórias nitrogenadas. Não há diagnóstico prévio de doença renal crônica. Submetido à ultrassonografia de abdome total, com achado abaixo: Com base nos dados clínicos e exames complementares, qual a conduta?",
+    "alternativas_origem": {
+      "A": "Antibioticoterapia de largo espectro isolado, por 7 dias.",
+      "B": "Colecistectomia laparoscópica em caráter de emergência.",
+      "C": "Colecistostomia percutânea guiada por ultrassonografia.",
+      "D": "Encaminhamento para nefrologia, por dor secundária à uremia."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O enunciado remete a 'achado abaixo' da ultrassonografia, mas a imagem não está disponível — a resposta depende de inferência pelo quadro clínico.",
+      "O enunciado remete a 'achado abaixo' da ultrassonografia, mas a imagem não é reproduzida no item; o raciocínio clínico ainda permite a resposta.",
+      "O enunciado remete a imagem ultrassonográfica ('achado abaixo') que não está disponível no texto."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q030",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 48 anos, vítima de atropelamento há 45 minutos, encontrado em via pública desacordado por serviço de atendimento móvel de urgência, encaminhado para serviço hospitalar. Admitido em prancha rígida e colar cervical, intubação orotraqueal na cena, acoplado em ventilação mecânica. Estável hemodinamicamente, não responsivo a estímulos externos, com anisocoria. Restante da avaliação primária sem alterações. Solicitado tomografia de corpo inteiro, com achado de hematoma epidural e ausência de alterações nos demais segmentos avaliados. No retorno para a sala vermelha, paciente apresentou dessaturação. EtCO2 em 19mmHg, SatO2 81% em FiO2 80%. Sistema ventilatório acoplado. Realizado E-FAST na sala vermelha, com sinal do código de barras presente à direita e deslizamento pleural à esquerda. Com base na evolução do paciente, quais a principal hipótese diagnóstica e conduta?",
+    "alternativas_origem": {
+      "A": "Contusão pulmonar com tórax instável. Encaminhamento para UTI e avaliação da neurocirurgia.",
+      "B": "Intubação seletiva após movimentação do paciente. Reposicionamento do tubo orotraqueal.",
+      "C": "Pneumotórax simples com repercussão clínica. Drenagem torácica imediata na emergência.",
+      "D": "Intubação esofágica acidental. Laringoscopia e nova intubação sob visualização direta."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "A descrição clínica (dessaturação grave com EtCO2 de 19) sugere pneumotórax hipertensivo, e a alternativa o rotula como 'simples', gerando imprecisão terminológica na chave.",
+      "A lateralidade torna a alternativa de intubação seletiva parcialmente atraente (a migração habitual do tubo é para o brônquio direito, o que aboliria o deslizamento à esquerda), exigindo leitura cuidadosa do achado ultrassonográfico.",
+      "A alternativa rotula 'pneumotorax simples' um quadro com hipoxemia e queda de EtCO2, sugestivo de hipertensivo."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q031",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 28 anos, vítima de ferimento por arma branca em região de hipocôndrio direito e parede lateral do abdome há 30 minutos, trazido à emergência por transeuntes. Paciente sonolento, respondendo ao chamado, apresentando frequência cardíaca de 136bpm, pressão arterial de 83x46mmHg. Abdome doloroso à palpação próximo aos ferimentos, sem sinais de peritonite. Realizada punção de dois jelcos calibrosos em fossa cubital, com realização de 500mL de solução cristalóide aquecida. Realizado FAST na sala de trauma: Após reavaliação, paciente com FC 122bpm, PA 91x50mmHg. Realizada sondagem vesical de demora, apresentando hematúria macroscópica. Qual a próxima conduta a ser realizada?",
+    "alternativas_origem": {
+      "A": "Laparotomia exploradora.",
+      "B": "Tomografia de abdome com triplo contraste.",
+      "C": "Exploração digital da ferida.",
+      "D": "Videolaparoscopia diagnóstica."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "A imagem do FAST referida no enunciado não foi reproduzida, embora a conduta não dependa dela.",
+      "A imagem do FAST citada no enunciado não é apresentada, embora a decisão se sustente pela instabilidade hemodinâmica.",
+      "Imagem do FAST referida no enunciado não foi reproduzida."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q032",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 59 anos, com queixa de dor retroesternal, regurgitação e eructação há 6 meses, com piora no período noturno. Nega perda de peso, náuseas ou vômitos. Relata acompanhamento em serviço de atenção primária, adepta às mudanças de estilo de vida e em uso diário há 3 meses com omeprazol 20mg pela manhã, em jejum. Ao exame físico, pesa 71kg, 1,56m de altura, orofaringe e exame abdominal sem alterações. Endoscopia digestiva alta com achado de esofagite erosiva grau C de Los Angeles. Com base nos dados clínicos, qual a conduta?",
+    "alternativas_origem": {
+      "A": "Encaminhamento para cirurgia bariátrica, por indicação de bypass gástrico em Y-de-Roux.",
+      "B": "Realização de manometria esofágica de alta resolução para descartar distúrbios de motilidade esofágica.",
+      "C": "Indicação de cirurgia para refluxo gastroesofágico, com cardiomiotomia à Heller e fundoplicatura à Nissen.",
+      "D": "Teste de pepsina salivar para confirmação de DRGE e uso de procinéticos para esvaziamento gástrico à noite."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Discutível: uma etapa intermediária razoável seria otimizar o IBP (dose dobrada/2 tomadas) antes de rotular refratariedade, conduta que não figura entre as alternativas.",
+      "A otimização do IBP (dose dobrada / ajuste de horário) antes da propedêutica invasiva não é oferecida entre as alternativas.",
+      "A opção de otimizar o IBP (dose dobrada/ajuste de horário) antes de escalonar não é oferecida, o que força a resposta cirúrgica."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q033",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 65 anos, apresentando dor abdominal em epigástrio e perda de peso não intencional de 15kg em 3 meses. Relata sensação de empachamento após as refeições, mas nega dor abdominal. Nega antecedentes familiares relevantes. Endoscopia digestiva alta com moderada quantidade de resíduo alimentar em câmara gástrica e achado de lesão ulceroinfiltrativa em antro gástrico, submetida a múltiplas biópsias. A lesão permite a passagem do endoscópio até o duodeno. Histopatológico: Adenocarcinoma gástrico com padrão intestinal. Submetida à tomografia de tórax, sem evidência de doença oncológica, e de abdome, com achado de linfonodos de artéria gástrica esquerda aumentados de tamanho, sugestivos de acometimento por doença neoplásica. Qual a conduta inicial para essa paciente?",
+    "alternativas_origem": {
+      "A": "Terapia nutricional, laparoscopia diagnóstica e encaminhamento para oncologia para quimioterapia perioperatória.",
+      "B": "Encaminhamento para cirurgia e realização de gastrectomia subtotal com linfadenectomia à D2",
+      "C": "Prescrição de quimioterapia paliativa, mediante a presença de metástases linfonodais.",
+      "D": "Realização de gastrojejunostomia à Billroth II para melhor aceitação de dieta por via oral durante o tratamento oncológico."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Contradição interna: o enunciado afirma dor epigástrica e, logo em seguida, que a paciente 'nega dor abdominal'."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q034",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 55 anos, em 3º dia pós-operatório de esofagectomia em 3 campos (abordagens abdominal, torácica e cervical) por carcinoma escamocelular de esôfago médio, evoluindo com rouquidão e dispneia durante a fala. Não apresenta outros sintomas. Durante a cirurgia, identificados linfonodos aumentados ao longo do nervo vago, com difícil ressecção. Mediante os dados clínicos e informação referente a cirurgia, qual a justificativa para os sintomas aprresentados pela paciente?",
+    "alternativas_origem": {
+      "A": "Lesão traqueal durante a abordagem cervical.",
+      "B": "Secção do nervo vago durante linfadenectomia.",
+      "C": "Fístula quilosa por lesão de ducto torácico.",
+      "D": "Paralisia de nervo laríngeo recorrente."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q036",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 35 anos, admitido em serviço de urgência com dor lombar com irradiação para região inguinal à direita de forte intensidade, de início súbito e associada a náuseas e vômitos. Refere hematúria macroscópica e nega febre. Tomografia de abdome total sem contraste com evidência de cálculo em junção ureterovesical de 6mm em seu maior eixo. Não há dilatação ureteropielocalicinal ou densificação da gordura perirrenal. Exames laboratoriais sem alteração da função renal. Qual a conduta para o paciente?",
+    "alternativas_origem": {
+      "A": "Prescrição de tansulosina por 28 dias e anti-inflamatórios.",
+      "B": "Aumento da ingesta hídrica e antiespasmódicos.",
+      "C": "Ureterorrenolitotripsia flexível para extração do cálculo.",
+      "D": "Litotripsia extracorpórea com ondas de choque."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q037",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Mulher de 68 anos, admitida com quadro de dor abdominal difusa associada a parada de eliminação de fezes e flatos há 3 dias. Nega febre. Sem colonoscopia prévia. Ao exame físico, FC 104bpm, abdome distendido, doloroso à palpação difusa, sem sinais de peritonite. Exames laboratoriais com elevação discreta de escórias nitrogenadas. Tomografia de abdome total com contraste com achado de lesão em transição retossigmóidea, com distensão de cólon à montante até válvula ileocecal e ausência de fezes ou gás em reto. Qual a conduta para a paciente?",
+    "alternativas_origem": {
+      "A": "Retossigmoidectomia.",
+      "B": "Colostomia em alça.",
+      "C": "Colonoscopia descompressiva.",
+      "D": "Colectomia total."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "baixa",
+    "problemas_apontados": [
+      "Alternativa A (retossigmoidectomia, à Hartmann) é defensável em serviço com retaguarda cirúrgica, e o enunciado não especifica disponibilidade de stent nem condições do ceco.",
+      "Item ambíguo: a retossigmoidectomia (Hartmann) é conduta igualmente defensável em paciente estável com lesão de junção retossigmoidea, e o enunciado não define a distância da margem anal nem o estadiamento.",
+      "Não há opção de cirurgia de Hartmann nem de stent como ponte para cirurgia, condutas igualmente aceitas, o que empobrece o item."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q038",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Homem de 32 anos, em acompanhamento em serviço de atenção primária por quadro de melena intermitente. Nega dor abdominal ou perda de peso. Ao exame, abdome indolor, sem alteração ao exame anorretal, sem massas palpáveis ao toque retal. Antecedente de pai e irmão que faleceram por câncer de cólon aos 45 e 39 anos, respectivamente, após cirurgia de urgência. Solicitado colonoscopia para investigação de melena. Colonoscopia: Incontáveis pólipos em todo o cólon e reto, sem outras lesões. Realizado biópsias. Mediante história clínica e antecedentes familiares, qual o diagnóstico mais provável?",
+    "alternativas_origem": {
+      "A": "Síndrome de Lynch, com mutação de MLH1, MLH2, MSH6 e PMS2.",
+      "B": "Síndrome de Cronkhite-Canadá, com mutação do gene MUTYH.",
+      "C": "Polipose adenomatosa familiar, com mutação do gene APC.",
+      "D": "Síndrome de Lynch, com mutação dos genes STK11 e KRAS."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "A alternativa A grafa 'MLH2' em lugar de MSH2."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  }
+]

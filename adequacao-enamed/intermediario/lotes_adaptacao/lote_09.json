@@ -1,0 +1,243 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q100",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma gestante de 15 anos, primigesta, comparece à Unidade Básica de Saúde para sua primeira consulta de pré-natal. A gestação foi confirmada por teste de farmácia e a data da última menstruação indica 6 semanas de idade gestacional. Ela refere estar bem, não apresenta comorbidades prévias. Ao exame físico: PA 110x70 mmHg, IMC 21 kg/m² e desenvolvimento puberal compatível com a idade. Com base no Protocolo de Pré-Natal de Baixo Risco do Ministério da Saúde, qual a conduta adequada quanto ao acompanhamento e parto desta paciente?",
+    "alternativas_origem": {
+      "A": "A paciente deve ser encaminhada imediatamente ao Pré-Natal de Alto Risco (PNAR), visto que a gestação na adolescência (menor de 16 anos) é classificada como fator de risco, mas o parto poderá ser acompanhado em serviço de baixa complexidade.",
+      "B": "A gestante deve ser encaminhada para o serviço especializado de forma compartilhada, mantendo consultas na UBS bimensalmente e o parto deverá ser acompanhado em serviço de alta complexidade, independentemente da existência de complicações gestacionais.",
+      "C": "O encaminhamento ao Pré-Natal de Alto Risco só será necessário se a adolescente apresentar complicações gestacionais, mas o parto deverá ser obrigatoriamente acompanhado em serviço de alta complexidade.",
+      "D": "O acompanhamento deve ser mantido na Unidade Básica de Saúde e o parto poderá ser acompanhado em serviço de baixa complexidade, pois a idade isolada não é critério de alto risco para encaminhamento se a gestante não apresentar outras intercorrências clínicas."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Ponto sensível a versões: manuais anteriores listavam idade <15 anos como fator de risco, o que pode gerar divergência com bancas que adotem a referência antiga."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q001",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Um paciente de 74 anos, com história de hipertensão arterial e insuficiência cardíaca com fração de ejeção preservada, procura o pronto-socorro após início súbito de palpitações há 3 horas. Encontra-se hemodinamicamente estável, sem dor torácica, dispneia ou síncope. Ao exame físico, apresenta-se taquicárdico (frequência de 158 bpm), pressão arterial de 134 x 82 mmHg, ausculta cardíaca com ritmo irregular e sem sopros, e ausculta pulmonar sem estertores. O eletrocardiograma mostra ritmo irregular com QRS estreito, ausência de ondas P visíveis e resposta ventricular rápida. Qual é a conduta inicial mais adequada?",
+    "alternativas_origem": {
+      "A": "Cardioversão elétrica sincronizada com 100J.",
+      "B": "Administração de betabloqueador venoso e anticoagulação plena.",
+      "C": "Infusão de amiodarona venosa para reversão do ritmo.",
+      "D": "Tentativa de manobra vagal e administração subsequente de adenosina.",
+      "E": "Administração de digital endovenoso apenas."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q002",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Relacione as doenças da Coluna 1 com as características clínicas correspondentes da Coluna 2, preenchendo os parênteses. Escolha a alternativa que apresenta a sequência correta, de cima para baixo. Coluna 1 – Doenças: 1. Doença Celíaca. 2. Síndrome do Intestino Irritável. 3. Doença de Crohn. 4. Intolerância à Lactose. Coluna 2 – Características: ( ) Presença de anticorpos antitransglutaminase e atrofia de vilosidades intestinais. ( ) Pode cursar com lesões transmurais, fístulas e acometimento de todo o trato gastrointestinal. ( ) Diarreia e distensão abdominal após ingestão de queijos e derivados de leite. ( ) Diarreia recorrente associada à dor abdominal que melhora com a evacuação, sem alterações estruturais intestinais.",
+    "alternativas_origem": {
+      "A": "1-3-4-2",
+      "B": "3-1-4-2",
+      "C": "1-3-2-4",
+      "D": "1-4-3-2",
+      "E": "3-1-4-2"
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Alternativas B e E são idênticas ('3-1-4-2'), duplicação que reduz o item a 4 opções efetivas.",
+      "Alternativas B e E são idênticas (3-1-4-2), o que reduz o item a quatro opções efetivas.",
+      "Alternativas B e E são idênticas ('3-1-4-2'), o que reduz o item a quatro opções efetivas e configura falha de construção."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q003",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Um paciente com 58 anos de idade, com dez anos de escolaridade, apresenta há cerca de 12 meses alterações comportamentais caracterizadas por labilidade do humor, episódios de agressividade, irritação e comportamentos “bizarros”. Segundo a filha, há cerca de 1 semana, em uma festa de família, o paciente retirou toda a roupa e urinou em público. Os familiares mostram grande preocupação com o quadro, enquanto o paciente nega quaisquer sintomas. Contudo, desde que passou a apresentar tais sintomas, não cuida mais de afazeres do dia a dia como pagamento de contas, fazer compras do dia a dia ou mesmo dirigir sozinho. No MiniExame do Estado Mental (MiniMental), obteve 30/30 pontos. Os exames laboratoriais da paciente: hemograma, funções renal, hepática e tireoidiana, dosagem de sódio e de vitamina B12 apresentaram-se todos sem alterações. O resultado das sorologias para HIV, hepatites B e C e teste treponêmico foram negativos. Considerando-se esse caso, assinale a alternativa correta.",
+    "alternativas_origem": {
+      "A": "A normalidade do exame de minimental afasta o diagnóstico de demência.",
+      "B": "O exame de LCR é imprescindível na investigação do quadro.",
+      "C": "O diagnóstico mais provável é de demência por corpúsculos de Lewy.",
+      "D": "A afasia primária progressiva pode ser um subfenótipo dessa condição.",
+      "E": "O diagnóstico de demência vascular é o mais provável."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Enunciado alterna o gênero do paciente ('do paciente' e depois 'da paciente')."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q004",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Paciente em tratamento de neoplasia de pulmão do tipo pequenas células dá entrada no pronto atendimento com quadro de crise convulsiva. Realizou tomografia de crânio, sem alterações. Ao exame, apresenta-se afebril, normotensa, normocárdica, boa perfusão periférica, extremidades sem edemas. Coletados exames laboratoriais que identificaram: Creatinina 0,9mg/dL – Ureia 27mg/dL – Sódio 119mEq/L – Potássio 3,8mEq/L – Glicemia 112mg/dL – Osmolaridade sérica 264mOsm/L – Osmolaridade urinária 350mOsm/L. Qual o tratamento indicado para o manejo da hiponatremia?",
+    "alternativas_origem": {
+      "A": "Infusão da solução NaCI 3% 1mL/kg/h e reavaliar sódio de 6/6h.",
+      "B": "Infusão da solução NaCI 3% em bolus 150mL até 2 vezes, com 20-30 minutos de intervalo, até melhora dos sintomas ou elevação 4-6mEq/L.",
+      "C": "Infusão da solução NaCI 3% 1mL/kg/h até melhora dos sintomas e manter infusão da solução 0,5mL/kg/h por mais 24h.",
+      "D": "Infusão da solução NaCI 3% em bolus 50mL até 30/30 minutos, e reavaliar sódio de 2/2h.",
+      "E": "Infusão da solução NaCI 3% em bolus 200mL em 30 minutos, e manter infusão da solução 0,5mL/kg/h por mais 24h."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q005",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Homem de 36 anos, previamente hígido, procura atendimento médico após episódio de dor torácica ventilatório-dependente e dispneia de início súbito. Relata que há cerca de 2 dias fez um voo internacional de longa duração. Ao exame físico, apresenta-se eupneico em repouso, frequência respiratória de 22 irpm, frequência cardíaca de 105 bpm, pressão arterial de 128 × 78 mmHg, saturação de O₂ de 94% em ar ambiente. Ausculta pulmonar revela murmúrio vesicular diminuído em base pulmonar direita, sem estertores ou sibilos. O exame complementar solicitado mostra gasometria arterial com PaO₂ = 68 mmHg, pH = 7,44, PaCO₂ = 32 mmHg, HCO₃⁻ = 22 mmol/L. O eletrocardiograma evidencia taquicardia sinusal e padrão S1Q3T3. A angiotomografia pulmonar confirma a presença de tromboembolismo pulmonar em ramo segmentar direito, sem sinais de disfunção ventricular direita. O ecocardiograma é normal. Com base nesse caso, a conduta inicial mais adequada é:",
+    "alternativas_origem": {
+      "A": "Anticoagulação com heparina não fracionada e trombólise sistêmica imediata.",
+      "B": "Anticoagulação com heparina de baixo peso molecular e observação hospitalar.",
+      "C": "Alta hospitalar com prescrição apenas de analgesia e reavaliação ambulatorial em 7 dias.",
+      "D": "Iniciar anticoagulação oral imediata com varfarina.",
+      "E": "Inserção de filtro de veia cava inferior e anticoagulação oral."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q007",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Uma mulher de 27 anos, portadora de anemia falciforme (HbSS), apresenta-se no pronto-socorro com febre, dor torácica ventilatório-dependente e dispneia progressiva. Relata início dos sintomas há três dias, após um episódio de infecção de vias aéreas superiores. O exame físico revela taquipneia, estertores crepitantes na base direita e saturação de oxigênio de 86% em ar ambiente. A radiografia de tórax evidencia opacidade em lobo inferior direito. Laboratorialmente: Hb = 6,8 g/dL (redução de 3 g/dL em relação à basal), leucocitose neutrofílica e elevação de proteína C reativa. Com base no quadro, qual das condutas abaixo seria INADEQUADA?",
+    "alternativas_origem": {
+      "A": "Iniciar antibioticoterapia de amplo espectro com cobertura para germes típicos e atípicos.",
+      "B": "Iniciar oxigenoterapia suplementar.",
+      "C": "Indicar transfusão de concentrado de hemácias para melhorar a oxigenação tecidual.",
+      "D": "Priorizar anticoagulação plena para prevenção de tromboembolismo pulmonar.",
+      "E": "Manter vigilância em UTI para necessidade de suporte ventilatório."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q008",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Homem de 56 anos, previamente hígido, relata quadro de febre, mialgia intensa e poliartralgia que teve início há cerca de 2 meses, quando o diagnóstico de febre Chikungunya foi confirmado por sorologia IgM positiva. A febre cessou espontaneamente em poucos dias, mas o paciente evoluiu com persistência de dor articular intensa, principalmente em punhos e tornozelos, além de rigidez matinal prolongada, que limita suas atividades diárias. Nega sinais de infecção ativa no momento. Na consulta atual na unidade básica de saúde, o exame físico mostra dor à palpação e discreto edema em punhos, sem sinais flogísticos exuberantes. Diante do quadro clínico e do tempo de evolução, qual é a conduta terapêutica mais adequada neste momento?",
+    "alternativas_origem": {
+      "A": "Iniciar antibiótico por suspeita de artrite séptica subaguda.",
+      "B": "Solicitar novo exame de sorologia (IgG) para Chikungunya e aguardar resultado antes de tratar.",
+      "C": "Iniciar analgesia com dipirona.",
+      "D": "Iniciar tratamento com hidroxicloroquina.",
+      "E": "Encaminhar imediatamente para reumatologia por suspeita de artrite reumatoide, sem iniciar nenhum tratamento."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O protocolo do MS também prevê corticoide em curso curto na fase subaguda, opção não ofertada, o que torna a escolha por exclusão."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q009",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Paciente do sexo masculino, 19 anos, refere aparecimento de manchas hipocrômicas em tronco, principalmente após exposição solar. As lesões são discretamente escamosas, em prurido. Ao estiramento da pele, nota-se descamação fina. Qual é o agente causador e o tratamento indicado?",
+    "alternativas_origem": {
+      "A": "Candida albicans.",
+      "B": "Malassezia furfur.",
+      "C": "Trichophyton rubrum.",
+      "D": "Staphylococcus aureus.",
+      "E": "Mycobacterium leprae."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "O comando pede 'o agente causador E o tratamento indicado', mas todas as alternativas trazem apenas o agente etiológico — comando incongruente com as opções.",
+      "O comando pede 'o agente causador e o tratamento indicado', mas as alternativas trazem apenas o agente etiológico; o enunciado também diz 'em prurido' (provável erro de digitação de 'sem prurido').",
+      "O enunciado pede 'o agente causador e o tratamento indicado', mas nenhuma alternativa menciona tratamento — descasamento entre comando e opções."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q010",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Paciente de 45 anos comparece à UBS no início da tarde em consulta de acolhimento devido uma queixa de cefaleia. Ao entrar na sala de triagem, a médica nota prontamente o cheiro de cigarro que acompanha o paciente e aproveita sua ida à unidade para uma sondagem sobre sua motivação em parar de fumar. O homem conta que é tabagista desde os 20 anos de idade, fuma 1 carteira por dia de “cigarro light” e já tentou abandonar o vício algumas vezes nos últimos 2 ou 3 anos, mas, atualmente, sente-se bem com seu hábito, pois considera que “ainda é muito novo para ter qualquer problema”. Ele demonstra inclusive desconfiar das informações médicas relacionadas aos inúmeros malefícios causados pelo tabagismo. A profissional, insistente, busca uma explicação mais aprofundada sobre a compreensão do paciente em relação ao tabagismo, mas, subitamente, é interrompida por ele, dizendo de forma ríspida que “fumar é problema dele” e que não estava ali para ouvir sermão. De acordo com a escala motivacional de Prochaska e DiClemente, o paciente encontra-se na fase de:",
+    "alternativas_origem": {
+      "A": "Ação.",
+      "B": "Contemplação.",
+      "C": "Preparação.",
+      "D": "Pré-contemplação.",
+      "E": "Recaída. CIRURGIA GERAL"
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Alternativa E traz texto residual de formatação colado ao final ('Recaída. CIRURGIA GERAL').",
+      "Ruído de digitalização: a alternativa E traz o texto residual 'CIRURGIA GERAL' (cabeçalho de seção do caderno original).",
+      "Fragmento residual de cabecalho ('CIRURGIA GERAL') colado ao final da alternativa E."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q011",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Criança com 6 anos de idade, peso de 16 kg, vítima de atropelamento por motocicleta, é admitido na emergência em prancha rígida e com colar cervical. Ao exame físico, apresenta MV presente bilateralmente, sem ruídos adventícios, FC de 130 bpm, pressão arterial 90 x 50 mmHg; saturação de O₂ de 95%, Glasgow de 07, anisocoria, abdome com escoriações no flanco esquerdo, deformidade do antebraço esquerdo, hematoma subgaleal frontal esquerdo. Com relação ao caso clínico apresentado, a conduta prioritária é:",
+    "alternativas_origem": {
+      "A": "Imobilizar o antebraço esquerdo.",
+      "B": "Tomografia de crânio.",
+      "C": "Reposição volêmica com solução cristaloide 20 mL/kg em acesso venoso periférico.",
+      "D": "Pré-oxigenação seguida de intubação orotraqueal utilizando tubo com cuff, sob sedação com etomidato (0,1 mg/kg) e paralisação com succinilcolina (1mg/kg).",
+      "E": "EIntubação orotraqueal utilizando tubo sem cuff, sob sedação com etomidato (0,3 mg/kg) e paralisação com succinilcolina (2 mg/kg)."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Alternativa D traz etomidato 0,1 mg/kg (subdose para indução, embora aceitável em hipotensão relativa) e a alternativa E tem erro de digitação (\"EIntubação\"); o item mistura o acerto conceitual com doses imprecisas.",
+      "A dose de etomidato na alternativa correta (0,1 mg/kg) está abaixo da usual para indução (0,2-0,3 mg/kg); a alternativa E contém erro de digitação ('EIntubação').",
+      "A dose de etomidato em D (0,1 mg/kg) é subterapêutica (usual 0,2–0,3 mg/kg), enquanto E traz as doses corretas mas o dispositivo errado — nenhuma alternativa está integralmente correta."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q012",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "enunciado_origem": "Paciente de 35 anos, gestante de 34 semanas, admitida no pronto-socorro com queixa de dor abdominal, inicialmente em região mesogástrica que se irradiou para o flanco direito há 2 dias, associada a náuseas e vômitos desde o início do quadro. Ao exame: regular estado geral, corada, hidratada, febril, eupneica. PA: 110 x 70 mmHg, FC: 82 bpm, FR: 20 irpm. Abdome globoso, gravídico, doloroso em flanco direito, sem sinais de peritonite. Exames laboratoriais: Hb: 11,0 g/dL; Leuco: 17,50 mil/mm³ (3% de bastões); PCR: 42 mg/dL; Creatinina: 1,01 mg/dl; Ureia: 30 mg/dl. Realizada ultrassonografia de abdome que não visualizou o apêndice cecal, ausência de líquido livre na pelve e útero gravídico com feto vivo único. Em relação ao caso, qual é a principal hipótese diagnóstica e a conduta?",
+    "alternativas_origem": {
+      "A": "Linfadenite mesentérica / tratamento clínico com sintomáticos.",
+      "B": "Apendicite aguda / tratamento cirúrgico por laparoscopia.",
+      "C": "Apendicite aguda / solicitar ressonância magnética do abdome.",
+      "D": "Apendicite aguda / tratamento clínico com antibioticoterapia e sintomáticos.",
+      "E": "Diverticulite aguda de cólon direito / tomografia de abdome."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Defensável também a alternativa B (laparoscopia direta), já que o quadro clínico-laboratorial de 2 dias com febre, leucocitose 17.500 e PCR 42 sustenta indicação cirúrgica sem novo exame; o comando não define se o cenário tem RM disponível.",
+      "Como a paciente está febril, com leucocitose e quadro de 2 dias, a indicação cirúrgica direta (alternativa B) é parcialmente defensável; PCR informada em mg/dL parece erro de unidade.",
+      "Item discutível: com quadro clínico-laboratorial já muito sugestivo, parte das bancas aceitaria indicação cirúrgica direta, o que cria disputa entre B e C."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  }
+]

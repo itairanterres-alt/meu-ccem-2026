@@ -22,6 +22,7 @@ consenso), a classificação fina já atribuída e a ancoragem na matriz da Port
 
 Saída: intermediario/lotes_adaptacao/lote_XX.json
 """
+import hashlib
 import json
 import os
 from collections import Counter
@@ -31,7 +32,7 @@ APUR = os.path.join(BASE, "intermediario", "consenso", "apuracao.json")
 LOTES = os.path.join(BASE, "intermediario", "lotes_consenso")
 FINA = os.path.join(BASE, "canonico", "classificacao-fina.json")
 OUT = os.path.join(BASE, "intermediario", "lotes_adaptacao")
-TAM = 15
+TAM = 12
 
 
 def main():
@@ -69,6 +70,11 @@ def main():
             "confianca_min": r["confianca_min"],
             "problemas_apontados": r["problemas_apontados"],
             "classificacao_fina": fina.get(r["id_origem"]),
+            # Posição da correta fixada por hash do id: quem reescreve não escolhe
+            # onde pôr a resposta. Sem isso o banco herda o viés de quem escreve —
+            # nos .docx do NAPISUL, 175 de 176 questões tinham a correta em A.
+            "posicao_correta_alvo": "ABCD"[
+                int(hashlib.md5(r["id_origem"].encode()).hexdigest(), 16) % 4],
         })
 
     os.makedirs(OUT, exist_ok=True)

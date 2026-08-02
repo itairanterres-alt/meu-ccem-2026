@@ -1,0 +1,213 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q063",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 68 anos, com diagnóstico de AVC isquêmico agudo em território de artéria cerebral média direita, iniciou infusão de alteplase intravenosa 3 horas após o início dos sintomas (NIHSS inicial = 12). A tomografia (TC) de crânio inicial não apresentava sinais de hemorragia. Aos 40 minutos de infusão do trombolítico, a paciente apresenta cefaleia súbita intensa, náuseas e piora do déficit motor, com o NIHSS progredindo para 17. Diante do quadro, qual é a sequência de condutas imediatas recomendada?",
+    "alternativas_origem": {
+      "A": "Concluir a infusão de alteplase em uma hora e solicitar uma TC de crânio de controle em 24 horas.",
+      "B": "Interromper a alteplase, realizar TC de crânio de urgência e, se houver hemorragia, iniciar a reversão da trombólise.",
+      "C": "Administrar imediatamente ácido acetilsalicílico (AAS) e clopidogrel e solicitar TC de crânio.",
+      "D": "Trocar a alteplase por tenecteplase e solicitar ressonância magnética de crânio de urgência."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q064",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 32 anos, com diagnóstico recente de Lúpus Eritematoso Sistêmico (LES) com atividade hematológica e articular, iniciará tratamento com Prednisona na dose de 40 mg/dia (dose imunossupressora), com previsão de manutenção por pelo menos 4 semanas. A paciente discute com você a necessidade de atualização do calendário vacinal antes e durante o período de imunossupressão. Qual das seguintes vacinas pode ser administrada com segurança na paciente acima, conforme as recomendações da Sociedade Brasileira de Imunizações (SBIm)?",
+    "alternativas_origem": {
+      "A": "Vacina recombinante contra o Herpes Zoster.",
+      "B": "Vacina contra a Febre Amarela.",
+      "C": "Vacina Tríplice Viral.",
+      "D": "Vacina contra o rotavírus."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q065",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 68 anos, portadora de Doença Pulmonar Obstrutiva Crônica (DPOC) grave, é admitida na Unidade de Terapia Intensiva com quadro de insuficiência respiratória aguda e choque séptico de foco abdominal. Ao exame físico, apresenta-se torporosa, com perfusão periférica lentificada e uso de musculatura acessória. A gasometria arterial e os eletrólitos séricos colhidos na admissão revelam os seguintes valores: VARIÁVEIS/ RESULTADOS pH: 7,12 pO2: 53 mmHg HCO₃⁻: 19 mmol/L pCO₂: 60 mmHg Sódio (Na⁺): 140 mmol/L Cloro (Cl⁻): 102 mmol/L Albumina: 4,0 g/dL De acordo com o método de Henderson-Hasselbalch, qual é o diagnóstico acidobásico completo desta paciente?",
+    "alternativas_origem": {
+      "A": "Acidose respiratória aguda compensada.",
+      "B": "Acidose respiratória crônica e acidose metabólica hiperclorêmica.",
+      "C": "Acidose metabólica com ânion gap elevado e acidose respiratória.",
+      "D": "Dist. tríplice: acidose metabólica c/ ânion gap elevado, hiperclorêmica e respiratória."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q066",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 54 anos foi trazida ao pronto-socorro com queixa de dispneia súbita e dor torácica pleurítica à direita há 2 horas. Ela foi submetida a uma artroplastia total de joelho há 10 dias. Ao exame físico, apresenta-se ansiosa, com frequência respiratória de 28 irpm e saturação de oxigênio de 88% em ar ambiente. Sua pressão arterial é de 82/50 mmHg, com frequência cardíaca de 125 bpm. A avaliação inicial mostra estase jugular, ritmo cardíaco regular com bulhas normofonéticas e ausculta respiratória limpa. Não há evidências de sangramento ativo ou histórico de cirurgias recentes. Foi solicitada uma tomografia de tórax, mostrada abaixo: De acordo com os critérios de estratificação de risco, qual é a conduta inicial imediata mais adequada para esta paciente?",
+    "alternativas_origem": {
+      "A": "Início de anticoagulação com heparina de baixo peso molecular.",
+      "B": "Realização de trombólise sistêmica com alteplase (100 mg).",
+      "C": "Encaminhamento para embolectomia cirúrgica de urgência.",
+      "D": "Inserção de filtro de veia cava inferior."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "A tomografia citada não é apresentada, ainda que a estratificação se apoie nos parâmetros clínicos descritos.",
+      "O enunciado é internamente contraditório: afirma não haver cirurgias recentes logo após relatar artroplastia de joelho há 10 dias, dado que altera a análise de contraindicação à trombólise."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q067",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Você evolui na enfermaria um homem de 67 anos internado para tratamento de pielonefrite aguda. Na admissão, apresentava-se febril (38,8 °C), taquicárdico (112 bpm) e hipotenso (85/55 mmHg), respondendo adequadamente à reposição volêmica inicial. Foi iniciado tratamento empírico Piperacilina/Tazobactam e Vancomicina. Após 48 horas, o paciente está afebril e hemodinamicamente estável. O laboratório de microbiologia comunica que as hemoculturas da admissão (2/2 pares) apresentam crescimento de bacilos gram negativos. O foco infeccioso urinário foi confirmado por imagem e urocultura. O paciente não é imunossuprimido e não possui dispositivos invasivos além do cateter periférico para medicação. Considerando a estabilidade clínica do paciente e as evidências atuais sobre o tratamento de bacteremia por Enterobacterales, qual é a conduta mais adequada neste momento?",
+    "alternativas_origem": {
+      "A": "Manter o esquema de Piperacilina/Tazobactam Vancomicina por 14 dias para garantir a esterilização da corrente sanguínea.",
+      "B": "Suspender a Vancomicina e considerar o ajuste do tratamento após o resultado da espécie bacteriana e do antibiograma.",
+      "C": "Trocar imediatamente o tratamento para Cefepima devido ao risco de produção de AmpC ou ESBL pelo Bacilo Gram-negativo.",
+      "D": "Manter o esquema atual até completar 7 dias e, caso as hemoculturas de controle sejam negativas, suspender os antibióticos."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q068",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 72 anos, hipertenso e ex-tabagista, procura atendimento ambulatorial com queixa de cansaço progressivo aos esforços e necessidade de usar três travesseiros para conseguir dormir há três semanas. Ao exame físico, apresenta frequência cardíaca de 106 bpm, pressão arterial de 150/90 mmHg e saturação periférica de oxigênio de 94% no ar ambiente. À ausculta, observa-se a presença de uma terceira bulha (B3) e estertores finos nas bases pulmonares. Há edema de membros inferiores (2+/4+). Qual dos sinais descritos no paciente possui a maior especificidade para o diagnóstico de IC?",
+    "alternativas_origem": {
+      "A": "Edema de membros inferiores.",
+      "B": "Presença de terceira bulha (B3).",
+      "C": "Estertores crepitantes pulmonares.",
+      "D": "Presença de taquicardia em repouso."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q069",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 24 anos com diagnóstico de lúpus eritematoso sistêmico (LES) há 2 anos, apresenta-se na urgência edema de membros inferiores e urina espumosa. Até então, só tinha manifestações cutâneas e articulares. Exames laboratoriais revelaram creatinina de 2,1 mg/dL (valor basal era de 0,8 mg/dL há três meses), albumina sérica de 2,6 g/dL e exame de urina tipo 1 mostrando hematúria dismórfica e proteinúria de 3,5 g/dia. Foi internada para realização de biópsia renal, que revelou glomerulonefrite proliferativa difusa (Classe IV-G) com índice de atividade elevado e presença de crescentes em 25% dos glomérulos. Qual é a terapia de indução inicial mais adequada para esta paciente, de acordo com as recomendações atuais?",
+    "alternativas_origem": {
+      "A": "Prednisona em altas doses associada a Azatioprina.",
+      "B": "Ciclofosfamida endovenosa associada a pulsoterapia com Metilprednisolona.",
+      "C": "Micofenolato de mofetila isolado em baixas doses.",
+      "D": "Ciclosporina associada a Rituximabe."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q070",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 58 anos, tabagista e hipertenso em uso de anlodipino, comparece à consulta de rotina sem queixas clínicas. Ao exame físico, apresenta-se em bom estado geral, corado e com sinais vitais estáveis. Traz consigo resultado de hemograma coletado em exame admissional, que revela os seguintes valores: Hemoglobina: 10,0 g/dL; Hematócrito: 30%; Volume Corpuscular Médio (VCM): 89 fL; Reticulócitos: 1,5%; Leucócitos: 5.800/mm3 (contagem diferencial normal); Plaquetas: 298.000/mm3. Qual é o próximo passo mais adequado na investigação diagnóstica deste paciente?",
+    "alternativas_origem": {
+      "A": "Endoscopia digestiva alta e colonoscopia.",
+      "B": "Dosagem de ferritina, saturação de transferrina e creatinina.",
+      "C": "Dosagem de haptoglobina, desidrogenase láctica (DHL) e bilirrubinas.",
+      "D": "Realização de teste da antiglobulina direta (Coombs direto)."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q071",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 55 anos, assintomática, é atendida por você na Unidade Básica de Saúde (UBS) em consulta de rotina. Ela é ex-tabagista (parou há 5 anos, com carga tabágica de 10 maços-anos) e não possui antecedentes pessoais ou familiares de neoplasias. Durante a consulta, ela questiona o médico sobre a necessidade de realizar exames para \"check-up\", expressando preocupação específica com a possibilidade de câncer. Considerando as recomendações atuais de rastreamento para pacientes assintomáticos e sem fatores de risco genéticos, qual orientação você deve fornecer a esta paciente?",
+    "alternativas_origem": {
+      "A": "Colonoscopia para rastreio de câncer colorretal.",
+      "B": "Ultrassonografia de tireoide para rastreio de nódulos.",
+      "C": "Tomografia de tórax de baixa dose para rastreio de câncer de pulmão.",
+      "D": "Ultrassonografia transvaginal para rastreio de câncer de endométrio."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q072",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 29 anos, que se identifica como homem que faz sexo com homens (HSH), procura seu atendimento na Unidade Básica de Saúde interessado em iniciar a Profilaxia Pré-Exposição (PrEP) para o HIV. Ele relata parcerias sexuais casuais e uso inconsistente de preservativos. Nega comorbidades, uso de medicações contínuas ou sintomas de infecção aguda. Você solicitou um teste rápido para HIV, que resultou não reagente. Além da confirmação da soronegatividade para o HIV, qual é o cuidado laboratorial essencial que deve preceder a prescrição do esquema padrão de PrEP (Tenofovir + Entricitabina), de acordo com o protocolo do SUS?",
+    "alternativas_origem": {
+      "A": "Avaliação da função renal por meio da creatinina sérica.",
+      "B": "Dosagem de transaminases (ALT/AST) para avaliar hepatotoxicidade.",
+      "C": "Realização de carga viral para HIV por técnica de PCR.",
+      "D": "Dosagem de CPK (creatina fosfoquinase) para monitorar miopatia."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q073",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Você está no plantão da Unidade de Pronto Atendimento (UPA) e atende um homem de 55 anos com dor retroesternal em aperto de forte intensidade há 90 minutos, irradiada para o ombro esquerdo, associada a náuseas e sudorese. Foi realizado o seguinte eletrocardiograma na admissão: A UPA não possui serviço de hemodinâmica, e o hospital de referência com capacidade para intervenção coronariana percutânea (ICP) está localizado a 30 minutos de distância. Considerando o diagnóstico e a logística para reperfusão, qual é a conduta medicamentosa imediata e a estratégia de transferência mais adequada para este paciente?",
+    "alternativas_origem": {
+      "A": "Administrar dose de ataque de AAS e clopidogrel, iniciar anticoagulação e providenciar transferência imediata para ICP primária.",
+      "B": "Administrar AAS e aguardar a chegada ao serviço de hemodinâmica para iniciar o segundo antiagregante plaquetário e a anticoagulação.",
+      "C": "Realizar trombólise química na UPA imediatamente e encaminhar para o hospital de referência para ICP.",
+      "D": "Administrar AAS (mastigado), manter o paciente na UPA até o resultado da troponina e, se positiva, transferir para cineangiocoronariografia em até 24 horas."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O ECG citado no enunciado não foi transcrito; o diagnóstico de IAMCSST fica implícito pelo quadro clínico e pelas alternativas.",
+      "O eletrocardiograma citado no enunciado não está disponível; a resposta depende de assumir supradesnivelamento do segmento ST.",
+      "O eletrocardiograma citado no enunciado não é apresentado; o diagnóstico depende de inferência clínica."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q074",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Um homem de 62 anos, tabagista ativo e com diagnóstico recente de carcinoma de células escamosas de pulmão, foi trazido à emergência por familiares devido a quadro de letargia progressiva, confusão mental e constipação intestinal. Ao exame físico, apresentava-se desidratado e sonolento. Uma cintilografia óssea realizada na semana anterior foi negativa para lesões blásticas ou líticas. Os exames laboratoriais da admissão revelam: cálcio total: 14,2 mg/dL (Referência: 8,5 a 10,5 mg/dL); fósforo sérico: 2,2 mg/dL (Referência: 2,5 a 4,5 mg/dL); paratormônio (PTH) intacto: 4 pg/mL (Referência: 10 a 65 pg/mL); creatinina: 1,8 mg/dL. Qual é o mecanismo fisiopatológico mais provável da hipercalcemia neste paciente?",
+    "alternativas_origem": {
+      "A": "Secreção sistêmica de proteína relacionada ao paratormônio.",
+      "B": "Reabsorção óssea direta causada por hipoparatireoidismo.",
+      "C": "Aumento da absorção intestinal de cálcio mediada por calcitriol.",
+      "D": "Hiperparatireoidismo primário coexistente com a neoplasia."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  }
+]

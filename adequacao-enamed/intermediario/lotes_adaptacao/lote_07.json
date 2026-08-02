@@ -1,0 +1,217 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q075",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 68 anos comparece à consulta de rotina na Unidade Básica de Saúde. Ela é hipertensa controlada com enalapril e nega sintomas como fadiga, ganho de peso ou intolerância ao frio. Traz exames laboratoriais realizados há duas semanas que mostram: TSH: 7,2 mU/L (Referência: 0,45 a 4,5 mU/L); T4 livre: 1,1 ng/dL (Referência: 0,9 a 1,7 ng/dL); Colesterol Total: 210 mg/dL. Qual é a conduta inicial mais adequada para esta paciente neste momento?",
+    "alternativas_origem": {
+      "A": "Iniciar reposição com levotiroxina 25 mcg/dia.",
+      "B": "Solicitar dosagem de anticorpos anti-peroxidase tireoidiana (anti-TPO).",
+      "C": "Repetir a dosagem de TSH e T4 livre em três meses.",
+      "D": "Solicitar ultrassonografia de tireoide para avaliar bócio."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "A dosagem de anti-TPO (alternativa B) é frequentemente recomendada em conjunto na avaliação inicial, o que a torna parcialmente defensável."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q076",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 28 anos, primigesta, com 5 semanas de gestação confirmada, comparece à consulta de pré-natal relatando uso contínuo de escitalopram 20 mg/dia para tratamento de transtorno de ansiedade generalizada, com bom controle dos sintomas. Demonstra preocupação com possíveis riscos ao embrião e questiona se deve suspender a medicação. Com base nas melhores evidências atuais sobre uso de psicofármacos na gestação, qual a orientação mais adequada?",
+    "alternativas_origem": {
+      "A": "Suspender imediatamente o escitalopram devido ao alto risco teratogênico no primeiro trimestre e encaminhar para psicoterapia.",
+      "B": "Manter o escitalopram na dose atual, considerando que os inibidores seletivos da recaptação de serotonina apresentam baixo risco teratogênico.",
+      "C": "Substituir o escitalopram por benzodiazepínico, que apresenta melhor perfil de segurança no primeiro trimestre da gestação.",
+      "D": "Reduzir gradualmente a dose até suspensão completa e encaminhar ao psiquiatra pra revisão terapêutica."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q077",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 35 anos, GII/IA0, com 14 semanas de gestação confirmada por DUM e USG, comparece à consulta de pré-natal em uma Unidade Básica de Saúde. Apresenta cartão da gestação anterior, ocorrida há 11 anos, no qual consta registro de esquema vacinal completo contra tétano, com duas doses de vacina dupla adulto (dT) e uma dose de vacina tríplice bacteriana acelular do tipo adulto (dTpa), realizadas durante o pré-natal anterior. Não recebeu doses adicionais desde então. Com base nas recomendações atuais sobre imunização na gestação, qual é a conduta mais adequada em relação à profilaxia antitetânica na gestação atual?",
+    "alternativas_origem": {
+      "A": "Iniciar novo esquema completo com três doses de vacina antitetânica durante a gestação atual.",
+      "B": "Não administrar nenhuma dose, pois possui o esquema vacinal completo anterior.",
+      "C": "Administrar uma dose de dTpa a partir da 20ª semana da gestação atual.",
+      "D": "Administrar uma dose de reforço da vacina dupla adulto (dT)."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q078",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma adolescente de 14 anos, primigesta, na 39ª semana de gestação, é admitida em maternidade de alta complexidade, encaminhada da atenção básica. Encontra-se em trabalho de parto ativo, com 6 cm de dilatação cervical, contrações regulares e boa vitalidade fetal. Informa que está há cerca de 10 horas sem se alimentar, pois foi orientada no serviço de origem a permanecer em jejum devido ao risco de necessidade de cesariana. Queixa-se de muita fome e cansaço. Qual é a conduta mais adequada em relação à alimentação dessa parturiente?",
+    "alternativas_origem": {
+      "A": "Manter jejum absoluto",
+      "B": "Liberar dieta completa irrestrita",
+      "C": "Permitir apenas ingestão de líquidos claros",
+      "D": "Permitir ingestão de líquidos claros e alimentos leves"
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q079",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Múltipara (G4/P3/A0; 3 partos vaginais) de 34 anos, obesa grau 3 e hipertensa crônica em uso de Metildopa (2g/dia), evolui com parto vaginal a termo em maternidade de referência. Após o nascimento, foi realizada administração de 10 UI de ocitocina intramuscular no terceiro período do parto, associada à dequitação ativa sem intercorrências. Cerca de 30 minutos após o parto, a paciente apresenta sangramento vaginal abundante, com sinais de instabilidade hemodinâmica. Ao exame, o útero encontra-se flácido e aumentado. A equipe inicia imediatamente massagem uterina bimanual, com resposta parcial e transitória. Considerando as recomendações mais atuais, qual o próximo passo terapêutico mais adequado?",
+    "alternativas_origem": {
+      "A": "Iniciar infusão intravenosa de ocitocina em dose terapêutica, associando outros uterotônicos conforme resposta e mantendo suporte hemodinâmico.",
+      "B": "Realizar revisão imediata da cavidade uterina para exclusão de restos placentários, associada a antibioticoprofilaxia e suporte volêmico.",
+      "C": "Administrar ácido tranexâmico associado a reposição volêmica, seguido de revisão da cavidade uterina.",
+      "D": "Indicar histerectomia de urgência, associada à reposição volêmica, antibioticoprofilaxia e estabilização clínica."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O ácido tranexâmico (alternativa C) também é recomendado precocemente pela OMS, o que torna C parcialmente defensável, embora ela substitua os uterotônicos por revisão de cavidade.",
+      "A alternativa C é parcialmente correta (ácido tranexâmico é recomendado nas primeiras 3 horas), o que reduz a nitidez da discriminação."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q080",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 28 anos, primigesta, obesa e portadora de hipertensão arterial crônica não controlada, realizou pré-natal irregular na atenção básica. Na 28ª semana de gestação, apresentou episódio de cefaleia intensa, associada a escotomas e edema. Procurou unidade básica de saúde, onde foi medicada com sintomáticos e liberada para casa. Dois dias depois, evoluiu com crise convulsiva em domicílio, sendo levada por familiares à UPA do bairro, onde houve demora no atendimento inicial e indisponibilidade de sulfato de magnésio. Após transferência tardia para serviço de alta complexidade, já em estado grave, evoluiu com novas convulsões, instabilidade hemodinâmica e óbito. Como deve ser classificado o caso descrito?",
+    "alternativas_origem": {
+      "A": "O caso configura near miss materno, pois houve complicações graves relacionadas à gestação, independentemente do desfecho final.",
+      "B": "Trata-se de morte materna direta, com presença dos três atrasos: atraso na busca por atendimento, atraso no acesso ao serviço adequado e atraso na qualidade do cuidado prestado.",
+      "C": "Trata-se de morte materna indireta, associada a condição clínica pré-existente agravada pela gestação, sem relação com falhas assistenciais.",
+      "D": "Trata-se de morte materna evitável, atribuída à gravidade clínica da eclampsia, complicada pelas comorbidades, sem caracterização dos três atrasos."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q081",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 23 anos, primigesta, encontra-se no 5º dia pós-parto vaginal sem intercorrências de seu primeiro filho. Procura atendimento relatando dor intensa durante a amamentação e dificuldade para manter as mamadas. Ao exame físico, observa-se turgência mamária bilateral e presença de fissuras nos mamilos, sem sinais de abscesso ou infecção. O recém-nascido apresenta sucção frequente, porém com pega aparentemente inadequada. Com base nas recomendações atuais, qual é a conduta terapêutica mais adequada?",
+    "alternativas_origem": {
+      "A": "Manter a amamentação, iniciar antibiótico profilático e realizar ordenha manual, oferecendo o leite em seringa ao recém-nascido até cicatrização das fissuras.",
+      "B": "Manter a amamentação, corrigir a técnica de pega, orientar ordenha para alívio da turgência e aplicar leite materno nas fissuras mamilares.",
+      "C": "Interromper a amamentação bilateralmente, iniciar fórmula infantil e prescrever pomadas cicatrizantes tópicas até cicatrização das fissuras.",
+      "D": "Prescrever anti-inflamatórios, realizar ordenha manual e suspendender a amamentação até resolução completa do quadro."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "A alternativa D contém erro de digitação ('suspendender')."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q082",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma jovem de 21 anos, encontra-se no 18º dia pós-cesárea de seu primeiro filho e procura a Unidade Básica de Saúde acompanhada da mãe. Apresenta-se muito chorosa, referindo cansaço intenso, insônia, perda de apetite, sentimento de incapacidade para cuidar do bebê e falta de prazer nas atividades diárias. Relata que os sintomas iniciaram na primeira semana após o parto, mas têm piorado progressivamente, dificultando o vínculo com o recém-nascido. Nega ideação suicida no momento, porém refere pensamentos frequentes de culpa e inadequação, tem medo de “não ser uma boa mãe”. Nega uso de medicamentos. Ao exame, encontra-se lúcida e orientada, com humor deprimido e fala discretamente lentificada. Ferida operatória de cesárea bem cicatrizada. Demais parâmetros sem anormalidades. Considerando os principais diagnósticos diferenciais, qual é a conduta mais adequada?",
+    "alternativas_origem": {
+      "A": "Tranquilizar a paciente e orientar que se trata de blues puerperal, condição autolimitada, sem necessidade de intervenção específica.",
+      "B": "Diagnosticar blues puerperal e prescrever benzodiazepínico, mantendo acompanhamento de eventual piora dos sintomas.",
+      "C": "Suspeitar de depressão pós-parto, oferecer acolhimento, avaliar risco e encaminhar para acompanhamento em saúde mental.",
+      "D": "Diagnosticar depressão pós-parto grave e encaminhar para urgência psiquiátrica."
+    },
+    "chave_consenso": "C",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "D"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q083",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Gestante de 25 anos, G2P1A0, com antecedente de parto prematuro na 33ª semana após amniorrexe espontânea, encontra-se atualmente com 32 semanas de gestação, em acompanhamento pré-natal regular, sem intercorrências. Relata boa evolução clínica e não apresenta queixas. Ultrassonografias prévias não evidenciaram encurtamento cervical significativo. Considerando a prevenção de recorrência de parto prematuro, qual é a conduta mais adequada neste momento gestacional?",
+    "alternativas_origem": {
+      "A": "Iniciar progesterona vaginal imediatamente, mantendo até a 37ª semana de gestação.",
+      "B": "Manter acompanhamento clínico e vigilância obstétrica.",
+      "C": "Indicar cerclagem tardia associada ao uso de tocolíticos profiláticos até o termo.",
+      "D": "Prescrever antibióticos profiláticos associados à restrição de atividades físicas."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "B"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q084",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma mulher de 37 anos, primigesta, comparece à segunda consulta de pré-natal com 12 semanas de gestação. Apresenta exame de rotina com glicemia de jejum de 94 mg/dL. Nega história prévia de diabetes e encontra-se assintomática. Demais exames sem alterações. Qual é a conduta mais adequada?",
+    "alternativas_origem": {
+      "A": "Considerar o exame normal e repetir o rastreamento entre 24–28 semanas com teste oral de tolerância à glicose.",
+      "B": "Solicitar hemoglobina glicada para confirmação diagnóstica",
+      "C": "Diagnosticar diabetes mellitus prévio e iniciar metformina imediatamente.",
+      "D": "Diagnosticar diabetes gestacional e iniciar orientações dietéticas e acompanhamento glicêmico."
+    },
+    "chave_consenso": "D",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q085",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma gestante de 35 anos, primigesta, com índice de massa corporal (IMC) de 28,5 kg/m², comparece à sua segunda consulta de pré-natal na 14ª semana de gestação confirmada por DUM e USG corrigida. Ela não possui diagnóstico prévio de patologias e não utiliza medicamentos. Traz exames laboratoriais solicitados na primeira consulta que evidenciam glicemia de jejum de 136mg/dL e Hemoglobina Glicada (HbA1c) de 6,5%. Diante do quadro clínico e laboratorial apresentado, qual é a conduta terapêutica imediata mais adequada para este caso?",
+    "alternativas_origem": {
+      "A": "Diagnosticar Diabetes Mellitus Gestacional e iniciar terapia nutricional associada à atividade física, com reavaliação do perfil glicêmico em duas semanas.",
+      "B": "Diagnosticar Diabetes Mellitus Pré-gestacional e instituir imediatamente mudanças no estilo de vida associadas à insulinoterapia, visando controle rigoroso.",
+      "C": "Diagnosticar Diabetes Mellitus Pré-gestacional e prescrever Metformina 500 mg duas vezes ao dia, por ser a droga de primeira escolha para pacientes obesas.",
+      "D": "Solicitar teste de tolerância oral à glicose (TOTG 75g) para confirmar o diagnóstico de diabetes antes de iniciar qualquer intervenção farmacológica."
+    },
+    "chave_consenso": "B",
+    "consenso": "3/3",
+    "confianca_min": "alta",
+    "problemas_apontados": null,
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "A"
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q087",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "enunciado_origem": "Uma gestante de 21 anos, primigesta (G1P0A0), com 35,5 semanas de gestação é admitida na emergência obstétrica com queixa de cefaleia frontal persistente e \"visão embaçada\" há mais ou menos 6 horas. Ao exame físico, apresenta-se consciente, orientada, com pressão arterial de 170/120 mmHg e 160/110 mmHg após repouso em decúbito lateral esquerdo. Ao exame obstétrico, os batimentos cardiofetais são de 144bpm com boa variabilidade. O toque vaginal revela: colo centralizado, com 3 cm de dilatação, 40% de apagamento, apresentação cefálica no plano 0 de De Lee, bolsa íntegra. Os exames laboratoriais revelam creatinina de 1,3 mg/dL e plaquetas de 85.000. Diante do diagnóstico, qual a conduta imediata mais adequada?",
+    "alternativas_origem": {
+      "A": "Iniciar Sulfato de Magnésio, realizar controle pressórico agudo e proceder com a indução do parto após estabilização materna, visto o cenário favorável.",
+      "B": "Realizar a estabilização pressórica com Hidralazina IV e iniciar Sulfato de Magnésio (esquema Pritchard ou Zuspan), seguido de interrupção da gestação por via alta.",
+      "C": "Iniciar Sulfato de Magnésio, administrar Betametasona para aceleração da maturidade pulmonar fetal e aguardar 48 horas para a interrupção da gestação.",
+      "D": "Iniciar Sulfato de Magnésio e prescrever furosemida para redução dos níveis pressóricos e prevenção de edema agudo de pulmão."
+    },
+    "chave_consenso": "A",
+    "consenso": "3/3",
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Plaquetopenia de 85.000 leva parte dos examinadores a preferir a alternativa B (cesárea imediata), tornando o item defensável em duas direções.",
+      "A alternativa correta embute a justificativa ('visto o cenário favorável'), o que entrega parte da resposta.",
+      "A alternativa A não explicita anti-hipertensivo específico e a B, embora com via de parto discutível, descreve corretamente as demais medidas, o que gera alguma disputa entre as duas."
+    ],
+    "classificacao_fina": null,
+    "posicao_correta_alvo": "C"
+  }
+]
