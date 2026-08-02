@@ -8,8 +8,14 @@
 
 ## Resposta curta
 
-**A fábrica é grande demais — mas não é o tamanho que gera as falhas.** São três
-causas distintas, e só uma delas tem a ver com tamanho:
+**A fábrica é grande demais — mas não é o tamanho que gera as falhas.** E o
+problema maior nem está dentro dela: **existem três fábricas**, em branches
+diferentes, com **3.892 questões brutas** e **sobreposição zero** entre si. Nenhuma
+sabe da existência das outras, e os dois validadores do ecossistema têm **sinais
+invertidos** — o que um bloqueia, o outro usa como prova de qualidade.
+
+Dentro da fábrica principal, são três causas distintas, e só uma tem a ver com
+tamanho:
 
 1. **Deriva de contrato.** O pipeline evoluiu uma camada de classificação que o
    schema nunca absorveu. Resultado: **100% das 914 questões eram formalmente
@@ -24,6 +30,11 @@ causas distintas, e só uma delas tem a ver com tamanho:
    uma única questão**, e nunca terão, porque nenhuma área mapeia para elas.
 
 Diminuir a fábrica resolve o custo de manutenção. **Não resolve nenhuma das três.**
+
+E há um encaixe feliz: as fases 4 e 5, que aparecem como vazio estrutural no banco
+principal, **já têm 560 questões prontas no acervo do app de sessões** — 97,5% delas
+passam no validador canônico assim que trocam de envelope. O buraco de cobertura e
+o acervo órfão são o mesmo problema visto de dois lados.
 
 ---
 
@@ -220,7 +231,102 @@ mais concreta de ter N caminhos em vez de um com normalização única.
 
 ---
 
-## 7. O que **não** é problema
+## 7. Não é uma fábrica — são três, e elas não se conhecem
+
+A auditoria dos acervos paralelos mudou o diagnóstico. Existem **três bancos de
+questões vivos no ecossistema**, em branches diferentes, e nenhum sabe da
+existência dos outros.
+
+| Acervo | Onde | Questões | Schema |
+|---|---|---:|---|
+| **A1** — adequação ENAMED | `remote-access-generated-material` | **914** | canônico |
+| **A2** — pool triado CCEM | `medical-question-banks` | **2.139** | próprio |
+| **A3** — seed do app de sessões | `unidavi-question-sessions` | **839** | próprio |
+| | | **3.892 brutas** | |
+
+### A sobreposição entre eles é zero — e isso é a má notícia
+
+Comparação por hash de 30 tokens normalizados e por shingles de 5 tokens com
+Jaccard: **nenhuma questão aparece em mais de um acervo.** O Jaccard máximo entre
+A1 e A3 é 0,041, que é ruído de vocabulário clínico.
+
+Não são cópias divergentes de uma base comum. São **três bases disjuntas**. A
+fragmentação é de cobertura e governança, não de duplicação.
+
+O caso mais eloquente: A1 e A3 têm **exatamente uma UC em comum** —
+`med_unidavi_f06_uc01_problemas_mentais_comportamento` — com **34 questões em A1 e
+79 em A3, sem uma única questão compartilhada**. O docente dessa UC hoje tem dois
+bancos que se ignoram.
+
+### A3 é o que preenche o buraco da §4
+
+Lembre que A1 não tem uma única questão nas fases 1, 3, 4, 5 e 7. A composição de
+A3: **f04 = 280, f05 = 280, f06 = 279**.
+
+E A3 não é material de segunda linha: rodando o validador canônico depois de
+apenas **trocar o envelope** (preencher `tipo`, `fonte_geracao`, `status_curadoria`,
+etc.), **818 de 839 passam — 97,5%**, com zero erros de UC inexistente. Os 10.091
+erros de schema que ele acusa de saída são todos de embalagem, não de conteúdo.
+
+Ou seja: as fases 4 e 5, que hoje aparecem como vazio estrutural no banco
+principal, já têm 560 questões prontas em outro acervo, a uma migração de
+distância. A2, ao contrário, é incompatível na raiz — está em inglês (MedQA,
+NephSAP, USMLE), **87% dos itens têm 5 alternativas** e nenhum tem justificativa;
+é insumo do CCEM/Treino-ENAMED, não do banco MED-UNIDAVI.
+
+### Os dois validadores do ecossistema têm sinais invertidos
+
+`sessao-questoes/src/lib/validacaoQuestao.ts` valida questões no app;
+`validate_questao.py` valida no banco. Rodando os dois sobre os mesmos acervos:
+
+> **O validador TypeScript não reprova nenhuma das 1.753 questões que o validador
+> canônico reprova.** Em poder de bloqueio ele é um subconjunto próprio — e em dois
+> pontos aponta na direção contrária.
+
+**Inversão 1 — "assinale".** O TS usa a presença de `assinale|identifique|qual`
+como *prova de que o enunciado é uma pergunta bem-formada*, e suprime o aviso por
+causa dela. O Python trata o mesmo termo como **erro bloqueante**. São exatamente
+os **160 itens** de A1 que o canônico reprova por `INSTRUCAO` — os mesmos que o app
+considera exemplares.
+
+**Inversão 2 — letra do gabarito.** O TS avisa quando a correta **não** é a letra A
+("convenção do gerador institucional"). O canônico avisa quando **todas** caem na
+mesma letra, tomando como alvo a distribuição uniforme do ENAMED. Os dois avisos
+puxam para lados opostos — é a mesma inconsistência de convenção que eu já havia
+registrado em `limitacoes.md`, agora com as duas pontas visíveis.
+
+Foram construídos 6 casos sintéticos que **passam no TS e falham no Python**:
+"assinale a alternativa", "nenhuma das opções acima", "exceto", justificativa com
+2 caracteres, enunciado `"Qual?"`, e `uc_slug` bem-formado mas inexistente.
+
+Há ainda um descompasso de gate: `pendenciasParaCurar` exige 4 campos, o schema
+exige 16 — medido, **839 de 839 questões de A3 continuam inválidas depois de
+"curadas" pelo critério do app**.
+
+### Não existe chave estável em lugar nenhum
+
+A1 e A3 não têm campo `id` — a identidade é posicional no array. O `id` de A2 é
+`fonte#índice` do arquivo bruto, e os brutos nem estão no repositório. Consequência
+prática: **a correção que um docente faz num acervo não chega a nenhum outro**, e
+`pool_triado.json` é regenerável — correção manual nele é destruída na próxima
+execução do script.
+
+É também o que explica as duplicatas internas de A3: **40 pares (9,5% do acervo)**,
+todos no padrão `SP N — Qk` ↔ `whatsapp:UC1_SPN_ENAMED — Qk`. As mesmas 40 questões
+foram reingeridas por um segundo caminho de importação (colagem de WhatsApp) e nada
+detectou, porque não há chave para detectar com.
+
+### Nota metodológica desconfortável
+
+Durante esta auditoria eu mesmo alterei `validate_questao.py` (a correção dos
+falso-positivos de "exceto"). O mesmo banco A1, **sem uma única edição**, passou de
+168 para 161 reprovações. A régua não é versionada junto com o acervo — então
+"taxa de defeito do banco" é hoje um número que muda sozinho. Qualquer meta de
+qualidade precisa fixar a versão do validador junto com a medição.
+
+---
+
+## 8. O que **não** é problema
 
 Vale registrar, porque a suspeita inicial era mais ampla:
 
@@ -243,23 +349,41 @@ Vale registrar, porque a suspeita inicial era mais ampla:
 
 1. **Fechar o contrato (feito).** `classificacao_fina` tipada no schema. Regra a
    adotar: estágio que emite campo novo altera o schema no mesmo commit.
-2. **Porteiro na entrada, com rótulo de procedência.** Validar cada fonte na
+2. **Criar chave estável — `id_questao`.** É o pré-requisito de tudo que vem
+   depois. UUIDv5 sobre o hash do enunciado normalizado resolve os três problemas
+   de uma vez: dá identidade para propagar correção entre acervos, teria bloqueado
+   as 40 duplicatas de reingestão do A3, e permite medir cobertura de verdade.
+   Hoje a identidade é a posição no array.
+3. **Uma régua só, e versionada.** Eliminar `validacaoQuestao.ts` como *gate* —
+   gerá-lo do JSON Schema (ajv) ou chamar o validador Python na importação. Enquanto
+   houver duas implementações com sinais invertidos, "questão válida" não quer dizer
+   nada. E fixar a versão do validador junto de qualquer meta de qualidade: o mesmo
+   banco mudou de 168 para 161 reprovações durante esta auditoria, sem ser editado.
+4. **Migrar A3 para o banco canônico.** Ganho imediato: as fases 4 e 5 saem do zero,
+   com 560 questões que já passam 97,5% no validador. É trocar envelope, não
+   reescrever conteúdo. `questoes-seed.ts` vira fixture de teste. A2 sai do escopo
+   MED-UNIDAVI (é insumo do CCEM/Treino-ENAMED, como o próprio README dele diz).
+5. **Porteiro na entrada, com rótulo de procedência.** Validar cada fonte na
    importação e gravar a taxa de defeito medida no próprio item. Um simulado com
-   31% de defeito não pode entrar no banco com o mesmo rótulo do ENAMED oficial.
-   Sugestão de campo: `qualidade_origem` (oficial_inep / institucional / simulado)
-   + `defeitos_herdados`, para que a curadoria priorize.
-3. **Desacoplar `fase_alvo` de `area_clinica`.** Enquanto a fase for derivada,
-   metade do curso fica sem banco. Esta é a decisão de maior impacto no "Meu Treino"
-   e não custa código — custa critério.
-4. **Estender o estágio de adaptação.** É o que produz os melhores itens (3% de
+   31% de defeito não pode entrar com o mesmo rótulo do ENAMED oficial. Sugestão:
+   `qualidade_origem` (oficial_inep / institucional / simulado) + `defeitos_herdados`,
+   para a curadoria priorizar.
+6. **Desacoplar `fase_alvo` de `area_clinica`.** Enquanto a fase for derivada da
+   área, as fases 1, 3 e 7 continuam impossíveis de preencher, mesmo depois da
+   migração do A3. Não custa código — custa critério.
+7. **Estender o estágio de adaptação.** É o que produz os melhores itens (3% de
    defeito) e cobre 16% do acervo. Priorizar as fontes de pior taxa (simulados,
    TPMed 2025, TP 2022) dá o maior ganho por item reescrito.
-5. **Corrigir a instrução de formato do comando** nos prompts de adaptação, do mesmo
+8. **Corrigir a instrução de formato do comando** nos prompts de adaptação, do mesmo
    jeito que foi corrigido na skill (§4a da SKILL.md v2.0). Hoje a adaptação
    descaracteriza o padrão que deveria preservar.
-6. **Normalizar o vocabulário de tags** — uma convenção só, um passo de normalização
-   único, e um vocabulário controlado. 2.754 tags para 914 questões não é
-   indexação, é ruído.
-7. **Consolidar os caminhos paralelos** em um pipeline com adaptadores de entrada.
-   Isso é o item de "tamanho" propriamente dito. Vale fazer, mas depois de 1 a 5 —
-   é o que menos afeta a qualidade do que sai hoje.
+9. **Normalizar o vocabulário de tags** — uma convenção só, um passo de normalização
+   único, vocabulário controlado. 2.754 tags para 914 questões não é indexação, é
+   ruído. Uma única função de deduplicação também: hoje há três critérios diferentes
+   em uso (25 palavras, 200 caracteres, nenhum).
+10. **Consolidar os caminhos paralelos** do pipeline em um fluxo com adaptadores de
+    entrada. Este é o item de "tamanho" propriamente dito. Vale fazer, mas por
+    último — é o que menos afeta a qualidade do que sai hoje.
+
+**Alvo da consolidação:** ~1.685 questões únicas e válidas, contra 3.892 brutas
+espalhadas por três branches.
