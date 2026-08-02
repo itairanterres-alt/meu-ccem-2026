@@ -60,6 +60,35 @@ Isso é o que dá a sensação de excesso, e a sensação está certa: é o mesm
 instanciado N vezes. Mas o efeito disso é **custo de manutenção e divergência de
 convenção** — não os defeitos de conteúdo. A prova está nas seções seguintes.
 
+### Quanto disso é eliminável, provado por reprodução
+
+Não por estimativa: rodando `montar_canonico_generico.py` sobre as entradas dos
+outros montadores,
+
+- **Simulados: 84 de 84 questões idênticas** nos 24 campos do schema, exceto o
+  sufixo `" do simulado"` numa string. São **182 linhas** de script dedicado para
+  produzir essa diferença.
+- **ENAMED: 90 de 90 idênticas** com um adaptador de **6 linhas** (`num` →
+  `id_origem`). As 6 divergências que sobraram são **defeito do caminho dedicado**,
+  não do genérico.
+- A função `montar()` de `_simulados` × `_generico` é **65% literalmente idêntica**
+  (72% com variáveis renomeadas). O envelope canônico está escrito 4 vezes
+  (114 linhas); o bloco de jsonschema, 5 vezes (61 linhas).
+
+**Duplicação evitável medida: 517 de 4.748 linhas (10,9%)**; clones exatos de 4+
+linhas somam 316 das 3.460 linhas significativas. `corrigir_quebras` é 88% idêntica
+entre dois extratores; `norm()` aparece 6 vezes; `parse_alternativas`, 3 vezes.
+
+Detalhe que complica a limpeza: `_generico` **importa** dos dois montadores
+específicos — não dá para apagá-los sem antes mover o código comum.
+
+**Desenho enxuto viável: 23 scripts → 11 arquivos, ~20 → 8 estágios**
+(extrair → validar → deduplicar → montar → classificar → imagens → consolidar →
+relatar), com um `comum.py` compartilhado, **um** montador dirigido por perfil de
+fonte, os 3 aplicadores de classificação fundidos em 1, e um
+`validar_intermediario.py` novo. Mesmas 914 questões — com 4 defeitos corrigidos
+de brinde.
+
 ---
 
 ## 2. A deriva de contrato — o defeito mais caro, e o mais barato de consertar
@@ -98,8 +127,52 @@ certa; o contrato é que não acompanhou.
 **Correção aplicada:** o campo foi tipado no schema (com validação de padrão nos
 IDs de área, competência, conteúdo e cenário). Taxa de erro: **100% → 17,6%**.
 
-Lição de desenho: quando um estágio novo passa a emitir um campo, o schema tem de
-ser alterado no mesmo commit. Hoje não há nada que force isso.
+### E a raiz é pior do que "o schema não acompanhou"
+
+Investigando por que ninguém percebeu, encontrei o fundo do problema: **o schema não
+é um contrato — é uma saída do pipeline.** Dois estágios o reescrevem em disco:
+
+```
+aplicar_especialidade.py:77:  json.dump(sch, open(SCHEMA, "w"), ...)
+aplicar_matriz.py:53:         json.dump(sch, open(SCHEMA, "w"), ...)
+```
+
+Contra o schema **original**, as 914 questões são 914/914 inválidas. O banco só
+"valida" porque duas etapas ampliam a régua antes da medição. Um validador cuja
+régua é escrita pelo próprio medido não valida nada.
+
+E os dois escrevem **o mesmo campo com tipos incompatíveis**:
+
+| Script | `classificacao_fina.matriz_enamed_478_2025` |
+|---|---|
+| `aplicar_especialidade.py` | `{"type": ["string", "null"]}` — um código único |
+| `aplicar_matriz.py` | `{"type": ["object", "null"]}` — área + competências + conteúdos + cenário |
+
+`aplicar_matriz.py` tem guarda de idempotência; `aplicar_especialidade.py` **não
+tem**. Rodá-lo depois do outro rebaixa a definição de volta para `string` — e as
+**770 de 914 questões** que carregam a forma de objeto viram inválidas. Não há
+ordem declarada em lugar nenhum do README, e `consolidar_banco.py` imprime
+`770/914 OK` e **sai com código 0** nesse cenário. Foi testado.
+
+Há hoje **três cópias do schema** no repositório (`adequacao-enamed/referencia/`,
+`sessao-questoes/docs/anexos/schema-institucional/`, e a da skill), e elas já
+divergiram: a da skill tem 32 propriedades, a da fábrica 27.
+
+Lição de desenho, corrigida: não basta alterar o schema no mesmo commit do estágio.
+**O schema precisa ser read-only para o pipeline**, com uma única cópia canônica —
+caso contrário "o banco valida" é uma afirmação vazia.
+
+### Outros modos de falha silenciosa, todos testados
+
+- **Uma questão sumiu sem aviso.** `clm_napisul2_2026_q074` tinha gabarito "E" sem
+  alternativa E; um `except Exception` a descartou e o script saiu com código 0.
+- **Re-rodar `extrair_simulados.py` apaga as 16 marcas de deduplicação** — as 16
+  questões repetidas do Revalida voltariam ao banco sem aviso.
+- **22 dos 23 scripts nunca retornam código de erro.** Numa automação, falha e
+  sucesso são indistinguíveis.
+- **`requer_imagem` tem 6 detectores diferentes, com 15% de discordância** (139 de
+  914). O mais liberal marca 16× mais que o mais restritivo: a mesma questão é
+  classificada de forma diferente conforme o caminho que percorreu.
 
 ---
 
@@ -226,8 +299,17 @@ Aqui o tamanho da fábrica **é** a causa direta.
 - **1.232 tags com espaço** e **417 com underscore** — duas convenções convivendo,
   porque cada caminho de fonte trouxe a sua.
 
-Qualquer filtro por tag no app vê essas como coisas diferentes. É a consequência
-mais concreta de ter N caminhos em vez de um com normalização única.
+Qualquer filtro por tag no app vê essas como coisas diferentes. **73% das questões
+são afetadas.**
+
+A origem foi localizada no código: os quatro montadores fazem `e.get("tags", [])`
+e gravam **sem normalizar**, e o schema não tem `pattern` para o campo. Nada em
+nenhum ponto do caminho impõe uma convenção. O resultado é que
+`atenção primária` (34), `atencao_primaria` (9), `atencao primaria` (6) e
+`atencao-primaria` (2) convivem **até dentro da mesma pasta de enriquecimento**.
+
+Existem também **três critérios de deduplicação diferentes** em uso no pipeline
+(25 palavras, 200 caracteres, e nenhum), dependendo do caminho.
 
 ---
 
@@ -342,13 +424,28 @@ Vale registrar, porque a suspeita inicial era mais ampla:
   que a convenção da skill de geração, que grava tudo em A.
 - **As justificativas por alternativa existem em todo o acervo** e 410 itens
   carregam justificativa oficial da origem.
+- **A extração é de alta qualidade.** Em 921 questões processadas: 0 enunciados
+  vazios, 0 alternativas faltando, 1 defeito. O trabalho de tirar texto de PDF em
+  duas colunas e casar com gabarito oficial está bem-feito.
+- **`AREA2UC` funciona como fonte única** — 0 divergências em 914 entre a área e a
+  UC atribuída. Onde o pipeline tem uma tabela única, ele acerta; o problema aparece
+  onde a mesma decisão é reimplementada em cada caminho.
+- **O consenso de 3 juízes** para classificação e o anti-viés de posição
+  determinístico são metodologicamente sólidos e devem ser preservados.
 
 ---
 
 ## 8. Recomendações, em ordem de retorno
 
-1. **Fechar o contrato (feito).** `classificacao_fina` tipada no schema. Regra a
-   adotar: estágio que emite campo novo altera o schema no mesmo commit.
+1. **Tornar o schema read-only para o pipeline, com uma cópia canônica só.** É o
+   item zero: enquanto dois estágios reescreverem a régua em disco — e com tipos
+   incompatíveis entre si — "o banco valida" não significa nada, e uma inversão de
+   ordem apaga 770 ancoragens da Portaria 478 com exit 0. Hoje há três cópias do
+   schema no repositório e elas já divergiram. (`classificacao_fina` já foi tipada
+   na cópia canônica da skill.)
+1b. **Fazer os scripts falharem alto.** 22 dos 23 nunca retornam código de erro, e
+   um `except Exception` já engoliu uma questão inteira sem aviso. Numa automação,
+   isso torna falha e sucesso indistinguíveis.
 2. **Criar chave estável — `id_questao`.** É o pré-requisito de tudo que vem
    depois. UUIDv5 sobre o hash do enunciado normalizado resolve os três problemas
    de uma vez: dá identidade para propagar correção entre acervos, teria bloqueado
@@ -381,9 +478,11 @@ Vale registrar, porque a suspeita inicial era mais ampla:
    único, vocabulário controlado. 2.754 tags para 914 questões não é indexação, é
    ruído. Uma única função de deduplicação também: hoje há três critérios diferentes
    em uso (25 palavras, 200 caracteres, nenhum).
-10. **Consolidar os caminhos paralelos** do pipeline em um fluxo com adaptadores de
-    entrada. Este é o item de "tamanho" propriamente dito. Vale fazer, mas por
-    último — é o que menos afeta a qualidade do que sai hoje.
+10. **Consolidar os caminhos paralelos** do pipeline: **23 scripts → 11 arquivos,
+    ~20 → 8 estágios**, com `comum.py` compartilhado e um único montador dirigido
+    por perfil de fonte. Está provado por reprodução que dá o mesmo resultado (84/84
+    e 90/90 questões idênticas). Este é o item de "tamanho" propriamente dito — e é
+    o que menos afeta a qualidade do que sai hoje, por isso vem por último.
 
 **Alvo da consolidação:** ~1.685 questões únicas e válidas, contra 3.892 brutas
 espalhadas por três branches.
