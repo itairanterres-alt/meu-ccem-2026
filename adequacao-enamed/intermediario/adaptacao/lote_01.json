@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q001",
+    "tema": "Cetoacidose diabética na faixa etária pediátrica",
+    "subtema": "Padrão ácido-base e comportamento do potássio na admissão",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_01"],
+    "tags": ["cetoacidose diabética", "diabetes tipo 1", "ânion gap", "potássio", "gasometria", "emergência pediátrica"],
+    "texto_base": "Adolescente de 15 anos, sexo masculino, com diabetes melito tipo 1 diagnosticado aos 11 anos, é trazido ao pronto-socorro pelo pai. Suspendeu as aplicações de insulina há três dias, quando viajou com amigos. Há um dia queixa-se de dor abdominal difusa, náuseas e vômitos, com sede intensa e aumento do volume urinário. Ao exame: sonolento, porém orientado; mucosas secas; enchimento capilar de 3 segundos; respiração ampla e profunda em repouso; ausculta pulmonar sem ruídos adventícios; frequência cardíaca de 128 batimentos por minuto; pressão arterial de 96x58 mmHg; temperatura axilar de 36,4 °C; saturação periférica de oxigênio de 97% em ar ambiente. Glicemia capilar de 468 mg/dL e cetonúria de três cruzes na fita reagente.",
+    "enunciado": "Admitindo que esse quadro corresponda a uma descompensação aguda por cetoacidose, qual combinação de achados de gasometria e de eletrólitos é a mais esperada logo na admissão?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Acidose metabólica com ânion gap dentro da normalidade, de padrão hiperclorêmico, acompanhada de potássio sérico reduzido.",
+        "correta": false,
+        "justificativa": "Incorreta. O acúmulo de beta-hidroxibutirato e de acetoacetato amplia o ânion gap desde o início do quadro. A acidose hiperclorêmica com gap normal é fenômeno tardio, associado à reposição volêmica com salina isotônica, e não ao momento da admissão."
+      },
+      {
+        "letra": "B",
+        "texto": "Acidose metabólica com ânion gap aumentado e potássio sérico normal ou elevado, ainda que o potássio corporal total esteja depletado.",
+        "correta": true,
+        "justificativa": "Correta. Os cetoácidos consomem bicarbonato e alargam o ânion gap. A acidemia e a insulinopenia deslocam potássio do compartimento intracelular para o plasma, de modo que a calemia medida na admissão costuma ser normal ou alta, mesmo com déficit corporal total importante, que só se manifesta quando a insulinoterapia e a correção da acidose reintroduzem o íon na célula."
+      },
+      {
+        "letra": "C",
+        "texto": "Alcalose respiratória isolada, com bicarbonato sérico elevado e ânion gap dentro da faixa de referência.",
+        "correta": false,
+        "justificativa": "Incorreta. A respiração ampla e profunda é resposta compensatória a uma acidose metabólica primária, e não um distúrbio respiratório primário. Nesse cenário o bicarbonato encontra-se consumido pela titulação dos cetoácidos, não elevado."
+      },
+      {
+        "letra": "D",
+        "texto": "Acidose respiratória com retenção de gás carbônico e ânion gap normal, associada a hipernatremia.",
+        "correta": false,
+        "justificativa": "Incorreta. O padrão ventilatório descrito reduz a pressão parcial de gás carbônico, e não a eleva. Além disso, a hiperglicemia e a diurese osmótica costumam cursar com sódio medido normal ou baixo, exigindo correção pelo valor da glicemia antes de qualquer interpretação."
+      }
+    ],
+    "especialidade": "urgencia_pediatrica",
+    "especialidade_secundaria": "emergencias_metabolicas",
+    "objeto_conhecimento": "Interpretação do distúrbio ácido-base e da calemia na cetoacidose diabética em crianças e adolescentes",
+    "sistema_organico": "endocrino_metabolico",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_03", "enamed_comp_05"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_01"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Emergência não traumática atendida na rede de urgência, exigindo interpretação de exames complementares (gasometria e eletrólitos) ancorada nas bases fisiopatológicas do distúrbio."
+    },
+    "defeito_corrigido": "O item de origem oferecia 'hipocalemia' como parte da resposta esperada na admissão da cetoacidose, o que é fisiologicamente impreciso. No item novo, a alternativa correta descreve explicitamente potássio sérico normal ou elevado com déficit corporal total, e a explicação do deslocamento transcelular passa a ser o eixo avaliado.",
+    "nota_adaptacao": "Trocados paciente (adolescente do sexo masculino, 15 anos, com omissão de insulina em viagem), números e apresentação clínica. O comando deixou de pedir apenas 'o achado da gasometria' e passa a pedir a combinação ácido-base e eletrolítica, permitindo formular uma chave clinicamente correta."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q002",
+    "tema": "Rastreamento do transtorno do espectro autista na atenção primária",
+    "subtema": "Conduta segundo a faixa de escore do M-CHAT-R",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_06", "dcn2025_comp_01", "dcn2025_comp_02"],
+    "tags": ["M-CHAT-R", "transtorno do espectro autista", "puericultura", "rastreamento", "intervenção precoce"],
+    "texto_base": "Menina de 24 meses é levada à unidade básica de saúde para consulta de rotina. A avó, que a acompanha, conta que a criança não olha para quem a chama pelo nome, prefere alinhar carrinhos sozinha por longos períodos e não usa o dedo para mostrar o que deseja: quando quer algo, conduz a mão do adulto até o objeto. Fala apenas duas palavras isoladas e repete trechos de vídeos fora de contexto. Anda com segurança, sobe degraus com apoio e retira o próprio sapato. Avaliação auditiva realizada no mês anterior foi normal. Na consulta, a equipe aplicou o M-CHAT-R e o escore total foi de 9 pontos.",
+    "enunciado": "De acordo com o protocolo de rastreamento adotado na Caderneta da Criança, qual deve ser a conduta da equipe diante desse resultado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Reforçar orientações de estimulação em domicílio e repetir o instrumento apenas quando a criança completar 30 meses.",
+        "correta": false,
+        "justificativa": "Incorreta. Postergar a avaliação diante de um escore de alto risco desperdiça a janela de neuroplasticidade em que a intervenção precoce tem maior impacto funcional. A reaplicação tardia só faria sentido em criança com rastreamento negativo e queixa persistente."
+      },
+      {
+        "letra": "B",
+        "texto": "Aplicar a entrevista estruturada de seguimento antes de qualquer encaminhamento, pois todo resultado positivo exige essa etapa intermediária.",
+        "correta": false,
+        "justificativa": "Incorreta. A entrevista de seguimento é a etapa indicada para a faixa de risco moderado (escore de 3 a 7), em que se busca esclarecer as respostas positivas e reduzir falsos-positivos. Com escore igual ou superior a 8, o protocolo dispensa essa etapa e determina encaminhamento direto."
+      },
+      {
+        "letra": "C",
+        "texto": "Encaminhar imediatamente para avaliação diagnóstica especializada e, em paralelo, acionar a rede para início de intervenção precoce.",
+        "correta": true,
+        "justificativa": "Correta. Escore igual ou superior a 8 pontos caracteriza alto risco no M-CHAT-R e, por protocolo, não requer entrevista de seguimento: a criança deve ser encaminhada de imediato para avaliação diagnóstica, com início simultâneo da estimulação, sem aguardar a confirmação diagnóstica para começar a intervir."
+      },
+      {
+        "letra": "D",
+        "texto": "Solicitar cariótipo com pesquisa de X frágil, eletroencefalograma e ressonância de crânio, adiando o encaminhamento até que os resultados fiquem prontos.",
+        "correta": false,
+        "justificativa": "Incorreta. Exames etiológicos podem ser considerados na investigação conduzida pelo serviço especializado, mas não são triagem nem pré-requisito. Condicionar o encaminhamento aos seus resultados atrasa sem benefício o acesso à avaliação e à intervenção."
+      }
+    ],
+    "especialidade": "puericultura_e_crescimento",
+    "especialidade_secundaria": "transtornos_do_neurodesenvolvimento",
+    "objeto_conhecimento": "Interpretação das faixas de escore do M-CHAT-R e conduta correspondente na atenção primária",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_09"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Rastreamento realizado na atenção primária, com decisão de encaminhamento pela rede de atenção conforme critérios definidos em protocolo nacional."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto de conhecimento (conduta conforme a faixa de escore do M-CHAT-R), mas o escore foi deslocado para a faixa de alto risco, o que muda a conduta correta de 'entrevista de seguimento' para 'encaminhamento imediato com intervenção precoce'. Paciente, idade, marcos descritos e alternativas foram reescritos."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q003",
+    "tema": "Febre reumática aguda com cardite",
+    "subtema": "Tratamento: erradicação estreptocócica e anti-inflamatório conforme gravidade",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["febre reumática", "cardite reumática", "penicilina benzatina", "corticoide", "insuficiência mitral"],
+    "texto_base": "Menino de 11 anos é internado com febre e dor articular há dez dias. A mãe relata dor de garganta intensa há cerca de três semanas, tratada apenas com analgésico. A dor migrou dos tornozelos para os joelhos e depois para os cotovelos, deixando sem queixas as articulações previamente acometidas. Nos últimos dois dias passou a cansar ao subir um lance de escadas e a dormir com dois travesseiros. Ao exame: taquicárdico, com sopro holossistólico de intensidade 4/6 no ápice, irradiado para a axila, terceira bulha audível, estertores crepitantes nas bases pulmonares e fígado palpável a 3 cm do rebordo costal. Velocidade de hemossedimentação e proteína C reativa elevadas; título de antiestreptolisina O alto. O ecocardiograma evidenciou insuficiência mitral importante, com dilatação de átrio e de ventrículo esquerdos e fração de ejeção limítrofe.",
+    "enunciado": "Considerando o diagnóstico mais provável e a gravidade do acometimento cardíaco descrito, qual esquema terapêutico deve ser instituído para esse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ácido acetilsalicílico em dose anti-inflamatória, isoladamente, mantido por seis a oito semanas.",
+        "correta": false,
+        "justificativa": "Incorreta. O salicilato controla a artrite, mas usado sozinho deixa duas lacunas graves: não erradica o estreptococo da orofaringe, etapa obrigatória do tratamento, e é insuficiente para a cardite com insuficiência cardíaca, situação em que o corticoide é o anti-inflamatório de escolha."
+      },
+      {
+        "letra": "B",
+        "texto": "Penicilina G benzatina em dose única para erradicação do estreptococo, associada a prednisona por via oral em razão da cardite com repercussão hemodinâmica.",
+        "correta": true,
+        "justificativa": "Correta. O tratamento da febre reumática aguda combina sempre a erradicação do estreptococo beta-hemolítico do grupo A, com penicilina benzatina, ao controle do processo inflamatório. Na presença de cardite grave, com regurgitação mitral importante e sinais de insuficiência cardíaca, indica-se corticosteroide sistêmico em vez do anti-inflamatório não hormonal, reservado às formas leves e à artrite."
+      },
+      {
+        "letra": "C",
+        "texto": "Naproxeno isolado, reservando o antibiótico apenas para o caso de a cultura de orofaringe resultar positiva.",
+        "correta": false,
+        "justificativa": "Incorreta. Na fase aguda a cultura costuma ser negativa, porque o quadro é uma sequela imunomediada semanas após a infecção; a erradicação é indicada independentemente do resultado. Além disso, o anti-inflamatório não hormonal não responde à cardite com repercussão hemodinâmica."
+      },
+      {
+        "letra": "D",
+        "texto": "Prednisona isolada, dispensando o antibiótico porque a infecção de orofaringe já se resolveu espontaneamente.",
+        "correta": false,
+        "justificativa": "Incorreta. A resolução dos sintomas de faringoamigdalite não significa eliminação do agente, e a erradicação é obrigatória tanto para interromper a exposição antigênica quanto como primeira dose da profilaxia secundária, que se estenderá por anos nesse paciente com cardite."
+      }
+    ],
+    "especialidade": "cardiologia_pediatrica",
+    "especialidade_secundaria": "infectologia_pediatrica",
+    "objeto_conhecimento": "Terapêutica da febre reumática aguda: erradicação estreptocócica e escolha do anti-inflamatório segundo a gravidade da cardite",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_04", "enamed_comp_02"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Elaboração de plano terapêutico hospitalar baseado em evidências para agravo com potencial de sequela crônica, com componente de prevenção secundária."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (tratamento da febre reumática com cardite grave), mas o caso foi reconstruído com outro paciente, outra sequência de migração articular, semiologia cardíaca detalhada e achados descritos por extenso. Os achados que no item de origem vinham de radiografia e ecocardiograma foram convertidos em descrição textual, dispensando imagem. Alternativas redigidas com o raciocínio explícito, evitando pares de fármacos soltos."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q004",
+    "tema": "Glomerulonefrite difusa aguda pós-estreptocócica",
+    "subtema": "Achados laboratoriais de suporte diagnóstico",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["glomerulonefrite pós-estreptocócica", "síndrome nefrítica", "complemento C3", "hematúria", "piodermite"],
+    "texto_base": "Menina de 7 anos é levada à unidade de pronto atendimento porque a mãe notou, há cinco dias, inchaço nas pálpebras ao acordar e urina da cor de refrigerante escuro. A criança queixa-se de dor de cabeça e cansaço. Há cerca de três semanas apresentou lesões crostosas infectadas nas pernas, tratadas com pomada por poucos dias. Ao exame: descorada, edema periorbitário e discreto edema pré-tibial, frequência cardíaca de 96 batimentos por minuto, pressão arterial de 128x86 mmHg (acima do percentil 95 para idade, sexo e estatura), ausculta cardiopulmonar sem alterações e diurese reduzida referida pela mãe. Exame de urina com hematúria intensa, hemácias dismórficas, cilindros hemáticos, proteinúria discreta e nitrito negativo.",
+    "enunciado": "Qual resultado laboratorial adicional daria maior sustentação à principal hipótese diagnóstica dessa criança?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Albumina sérica de 1,9 g/dL.",
+        "correta": false,
+        "justificativa": "Incorreta. Hipoalbuminemia dessa magnitude aponta para perda proteica maciça, característica da síndrome nefrótica, e não combina com o quadro descrito, em que a proteinúria é discreta e predominam hematúria dismórfica, hipertensão e oligúria."
+      },
+      {
+        "letra": "B",
+        "texto": "Relação proteína/creatinina em amostra urinária de 3,4 mg/mg.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse valor corresponde a proteinúria em faixa nefrótica e é incoerente com os traços de proteína descritos no exame de urina. O achado deslocaria a suspeita para uma glomerulopatia com padrão nefrótico predominante."
+      },
+      {
+        "letra": "C",
+        "texto": "Queda transitória da fração C3 do complemento, com C4 dentro da normalidade.",
+        "correta": true,
+        "justificativa": "Correta. A glomerulonefrite pós-infecciosa cursa com ativação preferencial da via alternativa do complemento, produzindo consumo isolado de C3 com C4 preservado. O padrão é transitório e a normalização em seis a oito semanas reforça o diagnóstico; a persistência do consumo obriga a reavaliar a hipótese."
+      },
+      {
+        "letra": "D",
+        "texto": "Imunoglobulina A sérica elevada com complemento sérico normal.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse perfil sugere nefropatia por imunoglobulina A, na qual a hematúria aparece de forma concomitante à infecção de vias aéreas, e não após intervalo de semanas, e o complemento característico permanece normal, ao contrário do que se espera aqui."
+      }
+    ],
+    "especialidade": "nefrologia",
+    "especialidade_secundaria": "infectologia_pediatrica",
+    "objeto_conhecimento": "Perfil laboratorial da síndrome nefrítica pós-estreptocócica, com ênfase no consumo transitório de C3",
+    "sistema_organico": "renal_urinario",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_03", "enamed_comp_02"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_06"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Formulação de hipótese diagnóstica a partir da história e do exame físico e seleção do exame complementar que melhor a sustenta, com uso racional de recursos."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto de conhecimento (achado laboratorial que corrobora a glomerulonefrite pós-infecciosa), com paciente, sexo, idade, foco infeccioso cutâneo e valores inteiramente novos. As alternativas foram reescritas com valores numéricos, o que torna os distratores discrimináveis e desloca a chave para a posição sorteada."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q005",
+    "tema": "Imunização passiva contra o vírus sincicial respiratório",
+    "subtema": "Aplicação dos critérios de elegibilidade ao anticorpo monoclonal de ação prolongada",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_16", "dcn2025_comp_18"],
+    "tags": ["vírus sincicial respiratório", "nirsevimabe", "imunização passiva", "bronquiolite", "política de imunização"],
+    "texto_base": "A secretaria municipal de saúde divulgou a seguinte nota às equipes de atenção primária: \"Nesta campanha sazonal, o serviço passa a ofertar um anticorpo monoclonal de ação prolongada dirigido ao vírus sincicial respiratório. Por se tratar de imunização passiva, a proteção é imediata e não depende da produção de anticorpos pela criança. São elegíveis: (a) todos os lactentes com idade inferior a seis meses no momento da aplicação, nascidos a termo ou pré-termo, independentemente de comorbidades; e (b) crianças de até vinte e quatro meses que apresentem cardiopatia congênita com repercussão hemodinâmica, doença pulmonar crônica da prematuridade ou imunodeficiência grave.\" No primeiro dia da campanha, quatro crianças são levadas à sala de imunização.",
+    "enunciado": "Aplicando estritamente os critérios divulgados pela secretaria, qual das crianças a seguir tem indicação de receber esse anticorpo monoclonal?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pré-escolar de 3 anos e 4 meses em acompanhamento por asma persistente leve, sem internações no último ano.",
+        "correta": false,
+        "justificativa": "Incorreta. A idade ultrapassa o limite de vinte e quatro meses previsto para qualquer das condições de alto risco, e a asma persistente leve não figura entre as comorbidades elegíveis. O impacto da doença por vírus sincicial respiratório concentra-se nos primeiros meses de vida."
+      },
+      {
+        "letra": "B",
+        "texto": "Criança de 18 meses com comunicação interatrial de pequeno diâmetro, assintomática e sem repercussão hemodinâmica.",
+        "correta": false,
+        "justificativa": "Incorreta. A idade está dentro do limite, mas o critério exige cardiopatia congênita com repercussão hemodinâmica. Um defeito septal pequeno, assintomático e sem sobrecarga de câmaras não preenche essa condição."
+      },
+      {
+        "letra": "C",
+        "texto": "Lactente de 2 meses de vida, nascido a termo, hígido e sem comorbidades.",
+        "correta": true,
+        "justificativa": "Correta. O critério (a) contempla todos os lactentes com menos de seis meses de idade na aplicação, independentemente de prematuridade ou de comorbidades, justamente por ser essa a faixa de maior risco de bronquiolite grave e de hospitalização pelo vírus sincicial respiratório."
+      },
+      {
+        "letra": "D",
+        "texto": "Menina de 20 meses, ex-prematura de 34 semanas, sem doença pulmonar crônica, com um episódio isolado de sibilância no inverno anterior.",
+        "correta": false,
+        "justificativa": "Incorreta. Já ultrapassou os seis meses de idade e o antecedente de prematuridade tardia, isoladamente, não a torna elegível: o critério (b) exige doença pulmonar crônica da prematuridade, o que não ocorre. Um episódio prévio de sibilância também não consta da lista."
+      }
+    ],
+    "especialidade": "imunizacao",
+    "especialidade_secundaria": "pneumologia_pediatrica",
+    "objeto_conhecimento": "Critérios de elegibilidade para imunização passiva contra o vírus sincicial respiratório em campanha sazonal",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_08", "enamed_comp_09"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_14"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Ação de prevenção conduzida na atenção primária, exigindo leitura crítica de normativa de programa de imunização e sua aplicação a casos concretos."
+    },
+    "defeito_corrigido": "O item de origem dependia de nota técnica cujos pontos de corte de idade gestacional e faixa etária não eram explicitados, tornando a resposta dependente de memorização de documento não reproduzido. No item novo, os critérios de elegibilidade são apresentados por extenso no texto-base e a tarefa passa a ser aplicá-los a quatro casos, o que é competência efetivamente avaliável.",
+    "nota_adaptacao": "Substituída a manchete jornalística por uma nota de serviço autossuficiente, com os critérios declarados. Os quatro perfis de crianças foram reescritos do zero, e cada distrator falha em um critério distinto (idade, ausência de repercussão hemodinâmica, prematuridade sem doença pulmonar crônica)."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q006",
+    "tema": "Avaliação nutricional do lactente na puericultura",
+    "subtema": "Classificação pelo índice de massa corporal para a idade em escores z",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03"],
+    "tags": ["antropometria", "IMC para idade", "escore z", "puericultura", "vigilância alimentar e nutricional"],
+    "texto_base": "Lactente de 9 meses, sexo masculino, comparece à consulta de puericultura na unidade básica de saúde. Está em aleitamento materno complementado com a alimentação da família desde os 6 meses, com boa aceitação, e não teve intercorrências. Nasceu a termo, com peso adequado para a idade gestacional. Na consulta são aferidos peso de 9,6 kg e comprimento de 71 cm, o que corresponde a um índice de massa corporal de 19,0 kg/m². Para meninos dessa idade, as linhas da curva de índice de massa corporal para a idade correspondem aos seguintes valores: 15,0 kg/m² no escore z -2; 17,3 kg/m² no escore z 0; 18,6 kg/m² no escore z +1; 19,9 kg/m² no escore z +2; e 21,3 kg/m² no escore z +3.",
+    "enunciado": "Com base nos valores apresentados, como esse lactente deve ser classificado quanto ao estado nutricional pelo índice de massa corporal para a idade?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Eutrofia, uma vez que o valor permanece dentro da faixa de normalidade da curva.",
+        "correta": false,
+        "justificativa": "Incorreta. A eutrofia, para menores de cinco anos, corresponde a valores entre os escores z -2 e +1. O índice encontrado, de 19,0 kg/m², está acima da linha de +1, que nessa idade e sexo corresponde a 18,6 kg/m²."
+      },
+      {
+        "letra": "B",
+        "texto": "Risco de sobrepeso, porque o valor se situa entre os escores z +1 e +2.",
+        "correta": true,
+        "justificativa": "Correta. Em crianças menores de cinco anos, valores de índice de massa corporal para a idade acima do escore z +1 e até o escore z +2 definem risco de sobrepeso. O valor de 19,0 kg/m² está entre 18,6 kg/m² (z +1) e 19,9 kg/m² (z +2), o que caracteriza essa faixa e indica orientação alimentar e monitoramento mais frequente da curva."
+      },
+      {
+        "letra": "C",
+        "texto": "Sobrepeso, porque o valor ultrapassa o escore z +2.",
+        "correta": false,
+        "justificativa": "Incorreta. O sobrepeso exige valor acima do escore z +2, que nessa idade e sexo corresponde a 19,9 kg/m². O índice aferido, de 19,0 kg/m², permanece abaixo dessa linha e portanto na faixa imediatamente anterior."
+      },
+      {
+        "letra": "D",
+        "texto": "Obesidade, porque o valor ultrapassa o escore z +3.",
+        "correta": false,
+        "justificativa": "Incorreta. A obesidade em menores de cinco anos requer índice de massa corporal para a idade acima do escore z +3, aqui equivalente a 21,3 kg/m². O valor aferido está bem abaixo desse patamar, não cabendo essa classificação."
+      }
+    ],
+    "especialidade": "puericultura_e_crescimento",
+    "especialidade_secundaria": "aleitamento_e_nutricao",
+    "objeto_conhecimento": "Classificação do estado nutricional de menores de cinco anos pelo índice de massa corporal para a idade em escores z",
+    "sistema_organico": null,
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_03", "enamed_comp_08"],
+      "conteudos": ["enamed_cont_02", "enamed_cont_13"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Vigilância do crescimento na atenção primária, com interpretação de instrumento antropométrico e desdobramento em ação de promoção da saúde."
+    },
+    "defeito_corrigido": "Três defeitos do item de origem foram corrigidos: (1) o valor não cai mais exatamente sobre a linha de corte, ficando inequivocamente entre os escores z +1 e +2; (2) o gráfico deixou de ser citado sem ser apresentado — os valores de corte para a idade e o sexo estão explicitados no texto, tornando o item autossuficiente; (3) o sexo é declarado, e a alternativa D foi reescrita sem erro de digitação e sem misturar o índice peso-para-idade com o índice de massa corporal para a idade.",
+    "nota_adaptacao": "Trocados idade, sexo e todos os valores antropométricos. O eixo avaliado deslocou-se de recordar linhas de uma curva não apresentada para aplicar corretamente a regra de classificação por faixas de escore z."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q007",
+    "tema": "Reanimação neonatal em sala de parto",
+    "subtema": "Indicação de compressões torácicas após ventilação efetiva",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["reanimação neonatal", "ventilação com pressão positiva", "compressões torácicas", "sala de parto", "asfixia perinatal"],
+    "texto_base": "Recém-nascido de 39 semanas de idade gestacional é extraído por cesárea de emergência indicada por descolamento prematuro de placenta. Ao nascer está hipotônico, sem esforço respiratório, com líquido amniótico meconial. É conduzido à mesa de reanimação, onde recebe os passos iniciais: aquecimento, posicionamento da cabeça, aspiração de boca e narinas e secagem. Permanece em apneia, com frequência cardíaca de 52 batimentos por minuto, e inicia-se ventilação com pressão positiva por máscara facial. Após 30 segundos não há elevação do tórax; a equipe executa os passos corretivos da técnica e, sem resposta, procede à intubação traqueal, mantendo ventilação com boa expansibilidade, oxigênio suplementar e monitorização da saturação e da frequência cardíaca. Decorridos mais 30 segundos de ventilação comprovadamente efetiva pela cânula, a frequência cardíaca é de 40 batimentos por minuto.",
+    "enunciado": "Diante dessa reavaliação após ventilação efetiva por cânula traqueal, qual conduta deve ser adotada neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Aspirar a traqueia sob visualização direta, em razão do líquido meconial, antes de qualquer outra medida.",
+        "correta": false,
+        "justificativa": "Incorreta. A aspiração traqueal de rotina pela presença de mecônio foi abandonada nas diretrizes vigentes, porque atrasa a ventilação sem reduzir desfechos adversos. A prioridade absoluta no recém-nascido apneico e bradicárdico é estabelecer ventilação efetiva."
+      },
+      {
+        "letra": "B",
+        "texto": "Manter apenas a ventilação com pressão positiva e reavaliar a frequência cardíaca após mais 60 segundos.",
+        "correta": false,
+        "justificativa": "Incorreta. A ventilação já foi otimizada e comprovadamente efetiva por 30 segundos, e a frequência cardíaca permanece abaixo de 60 batimentos por minuto. Persistir sem circulação assistida prolonga a hipóxia miocárdica e cerebral em vez de corrigi-la."
+      },
+      {
+        "letra": "C",
+        "texto": "Administrar adrenalina pela cânula traqueal de imediato, antes de iniciar qualquer outra intervenção.",
+        "correta": false,
+        "justificativa": "Incorreta. A adrenalina só é indicada quando a frequência cardíaca permanece abaixo de 60 batimentos por minuto após um período de compressões torácicas coordenadas com ventilação adequada, sendo a via venosa (cateterismo umbilical) a preferencial. Antecipá-la não substitui a etapa de suporte circulatório."
+      },
+      {
+        "letra": "D",
+        "texto": "Iniciar compressões torácicas coordenadas com a ventilação, na proporção de três compressões para uma ventilação, com oxigênio a 100%.",
+        "correta": true,
+        "justificativa": "Correta. Quando a frequência cardíaca se mantém abaixo de 60 batimentos por minuto apesar de 30 segundos de ventilação efetiva, preferencialmente por via traqueal, está indicada a massagem cardíaca. A técnica é feita no terço inferior do esterno, coordenada com a ventilação na relação de três para um, elevando a fração inspirada de oxigênio para 100% e reavaliando após 60 segundos."
+      }
+    ],
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": "urgencia_pediatrica",
+    "objeto_conhecimento": "Sequência da reanimação neonatal e critérios para início de compressões torácicas",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_02"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Emergência não traumática na rede materno-infantil, com indicação e execução de procedimento de suporte avançado de vida em sala de parto."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (algoritmo de reanimação neonatal), mas o caso avança um passo no fluxograma: o item de origem parava na indicação de ventilação com pressão positiva; aqui a ventilação já foi otimizada, intubada e mantida por 30 segundos com bradicardia persistente, o que torna correta a indicação de compressões torácicas. Idade gestacional, indicação da cesárea e valores foram trocados."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q008",
+    "tema": "Hidrocele não comunicante no lactente",
+    "subtema": "Conduta expectante e critérios para indicação cirúrgica",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["hidrocele", "transiluminação", "escroto agudo", "cirurgia pediátrica", "conduta expectante"],
+    "texto_base": "Lactente de 5 meses é levado à consulta na unidade básica de saúde porque a mãe percebeu, desde o segundo mês de vida, aumento do volume da bolsa escrotal do lado esquerdo. Nega choro à manipulação, febre, vômitos ou recusa alimentar, e o ganho de peso está adequado. Ao exame: bom estado geral, abdome livre e depressível, sem massas e sem abaulamento na região inguinal; bolsa escrotal esquerda aumentada, de superfície lisa e consistência elástica, indolor à palpação, sem calor ou hiperemia, com transiluminação positiva. O testículo é palpável, tópico e de volume normal. O aumento não se modifica com o choro nem regride à compressão manual, e permanece estável em relação à medida registrada há dois meses.",
+    "enunciado": "Considerando as características descritas e a idade da criança, qual é a conduta mais apropriada neste atendimento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Manter conduta expectante, com reavaliações periódicas nas consultas de puericultura, reservando a correção cirúrgica para os casos que persistirem após os dois anos de idade.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de hidrocele não comunicante: massa cística, indolor, com transiluminação positiva, sem variação com o choro e sem componente herniário. O líquido residual da túnica vaginal é reabsorvido espontaneamente na maioria dos lactentes ao longo do primeiro ano, de modo que o acompanhamento clínico é suficiente e a cirurgia fica reservada à persistência após os dois anos ou ao surgimento de sinais de comunicação com a cavidade peritoneal."
+      },
+      {
+        "letra": "B",
+        "texto": "Encaminhar para correção cirúrgica nas próximas semanas, pelo risco de atrofia testicular.",
+        "correta": false,
+        "justificativa": "Incorreta. A hidrocele não comunicante do lactente não compromete a perfusão nem o desenvolvimento testicular, e a operação precoce expõe a criança a risco anestésico e cirúrgico desnecessário em uma condição com alta taxa de resolução espontânea."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar ultrassonografia com Doppler em caráter de urgência para afastar torção testicular.",
+        "correta": false,
+        "justificativa": "Incorreta. A torção cursa com dor súbita e intensa, irritabilidade, edema e hiperemia, achados ausentes aqui; além disso, o quadro tem dois meses de evolução estável e transiluminação positiva. O exame de imagem não muda a conduta e apenas retarda a orientação da família."
+      },
+      {
+        "letra": "D",
+        "texto": "Realizar punção esvaziadora ambulatorial do conteúdo líquido, com retorno em 30 dias.",
+        "correta": false,
+        "justificativa": "Incorreta. A punção é contraindicada na hidrocele infantil: o líquido volta a se acumular, há risco de infecção e de lesão de estruturas do cordão, e o procedimento não trata o mecanismo subjacente. O manejo é clínico ou, quando indicado, cirúrgico."
+      }
+    ],
+    "especialidade": "cirurgia_pediatrica",
+    "especialidade_secundaria": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Diferenciação entre hidrocele comunicante e não comunicante e conduta no lactente",
+    "sistema_organico": "genito_urinario",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_06", "enamed_cont_10"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Problema cirúrgico comum identificado na atenção primária, em que o exame físico define a conduta e evita procedimento e encaminhamento desnecessários."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto de conhecimento, com paciente, lado acometido, tempo de evolução e semiologia reescritos, incluindo elementos que reforçam o caráter não comunicante (ausência de variação com o choro, estabilidade em dois meses, ausência de abaulamento inguinal). As alternativas foram redigidas do zero e a conduta expectante ficou explicitada com o critério temporal de indicação cirúrgica, evitando a ambiguidade do prazo isolado de um ano."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q009",
+    "tema": "Fibrose cística na infância",
+    "subtema": "Diagnóstico a partir da tríade respiratória, digestiva e do teste do suor",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["fibrose cística", "teste do suor", "insuficiência pancreática", "pneumonia de repetição", "déficit ponderoestatural"],
+    "texto_base": "Menina de 2 anos e 6 meses é encaminhada ao ambulatório de pediatria por baixo ganho de peso e infecções respiratórias repetidas. Teve três internações por pneumonia desde o primeiro ano de vida e mantém tosse produtiva quase diária. A mãe relata fezes volumosas, claras, de aspecto oleoso e odor muito forte, com apetite preservado. Os pais não são parentes entre si e são saudáveis; a família mudou-se de outro estado e não há registro do resultado da triagem neonatal. Ao exame: emagrecida, com peso abaixo do escore z -3 e estatura abaixo do escore z -2, tórax com aumento do diâmetro anteroposterior, roncos e estertores difusos, baqueteamento digital incipiente; a mãe refere dois episódios de prolapso retal no último ano. A dosagem de cloreto no suor foi de 84 mmol/L e, em segunda amostra colhida em outro dia, de 76 mmol/L (valor de referência inferior a 30 mmol/L).",
+    "enunciado": "Reunindo a apresentação respiratória, a repercussão nutricional e o resultado do teste do suor, qual é o diagnóstico mais provável?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Discinesia ciliar primária.",
+        "correta": false,
+        "justificativa": "Incorreta. A discinesia ciliar cursa com infecções respiratórias altas e baixas de repetição, otites e rinossinusite crônica, podendo associar-se a situs inversus, mas não produz insuficiência pancreática exócrina nem elevação do cloreto no suor, achados centrais neste caso."
+      },
+      {
+        "letra": "B",
+        "texto": "Fibrose cística.",
+        "correta": true,
+        "justificativa": "Correta. A combinação de doença pulmonar supurativa crônica, esteatorreia com desnutrição apesar de apetite preservado, prolapso retal e duas dosagens de cloreto no suor acima de 60 mmol/L fecha o diagnóstico. A disfunção da proteína reguladora de condutância transmembrana explica tanto a secreção espessa nas vias aéreas quanto a insuficiência pancreática exócrina e a perda excessiva de eletrólitos pelo suor."
+      },
+      {
+        "letra": "C",
+        "texto": "Deficiência de alfa-1-antitripsina.",
+        "correta": false,
+        "justificativa": "Incorreta. Na infância essa deficiência manifesta-se sobretudo como colestase neonatal e doença hepática crônica; o enfisema pulmonar surge na vida adulta, em geral após a quarta década. Não explica a esteatorreia por insuficiência pancreática nem o cloreto elevado no suor."
+      },
+      {
+        "letra": "D",
+        "texto": "Doença celíaca com repercussão respiratória secundária à desnutrição.",
+        "correta": false,
+        "justificativa": "Incorreta. A doença celíaca justifica a diarreia com má absorção e o déficit ponderoestatural, mas não a doença pulmonar supurativa desde o primeiro ano nem, sobretudo, o cloreto no suor acima do valor de referência em duas amostras, que é específico da disfunção do canal de cloreto."
+      }
+    ],
+    "especialidade": "pneumologia_pediatrica",
+    "especialidade_secundaria": "gastroenterologia_pediatrica",
+    "objeto_conhecimento": "Reconhecimento diagnóstico da fibrose cística a partir de manifestações multissistêmicas e do teste do suor",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_01"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Diagnóstico de doença crônica em ambulatório de especialidade, integrando bases moleculares da doença à interpretação do exame confirmatório."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto (diagnóstico de fibrose cística), com paciente do sexo feminino, pais não consanguíneos, valores diferentes do teste do suor em duas amostras e inclusão de manifestações digestivas e de prolapso retal. Os distratores foram trocados por doenças que competem por partes distintas do quadro (respiratória, hepatopulmonar e disabsortiva), o que exige integrar todos os eixos em vez de reconhecer um único achado."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q010",
+    "tema": "Bronquiolite viral aguda no lactente",
+    "subtema": "Mecanismo fisiopatológico da obstrução das vias aéreas periféricas",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_21", "dcn2025_comp_03"],
+    "tags": ["bronquiolite", "vírus sincicial respiratório", "sibilância", "aprisionamento aéreo", "fisiopatologia"],
+    "texto_base": "Lactente de 3 meses, nascido a termo, previamente hígido e sem internações, é levado ao pronto atendimento. Há cinco dias apresenta coriza clara e febre de até 37,9 °C; nas últimas 24 horas passou a respirar com dificuldade, faz pausas frequentes durante as mamadas e a mãe percebeu chiado no peito. Um irmão de 4 anos está resfriado e frequenta creche. Ao exame: ativo, corado, frequência respiratória de 68 incursões por minuto, batimento de asa do nariz, tiragem subcostal e intercostal, tempo expiratório prolongado, sibilos e estertores finos difusos nos dois hemitórax e saturação periférica de oxigênio de 93% em ar ambiente. Trata-se do primeiro episódio de sibilância.",
+    "enunciado": "Qual mecanismo fisiopatológico explica melhor a obstrução respiratória observada nesse lactente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Broncoconstrição mediada por imunoglobulina E, com hiper-responsividade brônquica já estabelecida.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse é o mecanismo da asma alérgica, que pressupõe sensibilização prévia e episódios recorrentes. Trata-se do primeiro episódio de sibilância, em lactente de três meses, precedido de pródromo viral, e a obstrução aqui é predominantemente mecânica e inflamatória, não broncoespástica."
+      },
+      {
+        "letra": "B",
+        "texto": "Necrose do epitélio bronquiolar com edema de mucosa, hipersecreção e formação de rolhas de muco e restos celulares, obstruindo vias aéreas de pequeno calibre e provocando aprisionamento de ar.",
+        "correta": true,
+        "justificativa": "Correta. Na bronquiolite viral o vírus infecta e destrói o epitélio ciliado dos bronquíolos, desencadeando edema, infiltrado peribronquiolar e produção de secreção espessa. Como a via aérea do lactente é estreita, pequenas reduções de calibre elevam muito a resistência, gerando obstrução parcial com mecanismo valvular, aprisionamento de ar, aumento do trabalho respiratório e alteração da relação ventilação-perfusão."
+      },
+      {
+        "letra": "C",
+        "texto": "Preenchimento alveolar por exsudato purulento restrito a um lobo, com consolidação e redução da complacência pulmonar.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse é o padrão da pneumonia bacteriana lobar, que se traduz por achados focais, macicez à percussão e broncofonia, e não por sibilos difusos com expiração prolongada nos dois hemitórax, como descrito."
+      },
+      {
+        "letra": "D",
+        "texto": "Aumento da depuração mucociliar, que reduz a resistência ao fluxo aéreo nas vias periféricas.",
+        "correta": false,
+        "justificativa": "Incorreta. O efeito é exatamente o oposto: a destruição do epitélio ciliado prejudica a depuração mucociliar, favorecendo o acúmulo de secreção e o aumento da resistência. Além disso, um mecanismo que reduzisse a resistência não produziria desconforto respiratório."
+      }
+    ],
+    "especialidade": "pneumologia_pediatrica",
+    "especialidade_secundaria": "infectologia_pediatrica",
+    "objeto_conhecimento": "Fisiopatologia da obstrução bronquiolar na bronquiolite viral aguda",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_05"],
+      "conteudos": ["enamed_cont_01", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Reconhecimento de agravo respiratório agudo na rede de urgência, ancorado nas bases celulares e funcionais que explicam a apresentação clínica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto (mecanismo fisiopatológico da bronquiolite), com lactente mais novo, contexto epidemiológico de irmão em creche, sinais vitais e achados de exame reescritos. A alternativa correta passou a descrever a cadeia completa (necrose epitelial, edema, rolhas de muco, aprisionamento aéreo) em vez de enunciar genericamente 'obstrução por atividade inflamatória', e os distratores foram reconstruídos para representar mecanismos concorrentes reais."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q011",
+    "tema": "Infecção osteoarticular na infância",
+    "subtema": "Agente etiológico conforme o mecanismo do trauma inoculante",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21", "dcn2025_comp_10"],
+    "tags": ["osteomielite", "osteocondrite do pé", "ferimento perfurante", "Pseudomonas aeruginosa", "antibioticoterapia"],
+    "texto_base": "Menino de 10 anos, previamente hígido e com vacinação em dia, é levado ao pronto-socorro por dor persistente no pé direito. Há 12 dias pisou em um prego que atravessou o solado de borracha do tênis, atingindo a região plantar próxima à base dos dedos; o ferimento foi lavado em casa e fechou em poucos dias. A dor, porém, não cedeu e piorou na última semana, com dificuldade progressiva para apoiar o pé. Ao exame: temperatura axilar de 37,9 °C, edema e calor no antepé direito, dor intensa à palpação profunda da região plantar e à mobilização das articulações metatarsofalângicas, sem porta de entrada visível e sem linfangite. A radiografia do pé mostra rarefação óssea mal delimitada com reação periosteal na cabeça do terceiro metatarso, compatível com processo osteomielítico.",
+    "enunciado": "Diante do mecanismo do ferimento e dessa evolução, qual é o agente etiológico mais provavelmente envolvido no quadro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Staphylococcus aureus.",
+        "correta": false,
+        "justificativa": "Incorreta. É de fato o agente mais frequente das infecções osteoarticulares na infância de modo geral, sobretudo nas de disseminação hematogênica, mas o mecanismo aqui é distinto e aponta para outro microrganismo. Cobri-lo empiricamente é razoável, mas o agente mais provável neste contexto não é ele."
+      },
+      {
+        "letra": "B",
+        "texto": "Streptococcus pyogenes.",
+        "correta": false,
+        "justificativa": "Incorreta. Está associado a infecções de pele e partes moles, como erisipela, celulite e fasciite, com evolução aguda e sinais flogísticos exuberantes. Não é o agente típico da infecção óssea profunda tardia após ferimento perfurante do pé."
+      },
+      {
+        "letra": "C",
+        "texto": "Salmonella enterica.",
+        "correta": false,
+        "justificativa": "Incorreta. Sua participação em osteomielite é classicamente descrita em crianças com doença falciforme, condição não relatada neste paciente previamente hígido, e não guarda relação com ferimento perfurante através de calçado."
+      },
+      {
+        "letra": "D",
+        "texto": "Pseudomonas aeruginosa.",
+        "correta": true,
+        "justificativa": "Correta. A osteocondrite do pé após ferimento perfurante que atravessa o solado de tênis é a apresentação clássica desse agente, que coloniza o ambiente úmido do forro e da espuma do calçado e é inoculado diretamente no osso e na cartilagem. O quadro típico é a dor que persiste ou recrudesce uma a duas semanas após um ferimento aparentemente cicatrizado, com febre baixa, e exige antibiótico com atividade antipseudomonas, além de desbridamento cirúrgico na maior parte dos casos."
+      }
+    ],
+    "especialidade": "infectologia_pediatrica",
+    "especialidade_secundaria": "ortopedia",
+    "objeto_conhecimento": "Correlação entre mecanismo de inoculação e agente etiológico nas infecções osteoarticulares da criança",
+    "sistema_organico": "musculoesqueletico",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_05"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_17"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Hipótese etiológica formulada a partir da história e do exame físico em atendimento de urgência, com implicação direta na escolha terapêutica empírica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto de conhecimento (agente etiológico da infecção osteoarticular na criança conforme fatores de risco), mas o mecanismo do trauma foi trocado: em vez de ferimento superficial próximo ao joelho, um ferimento perfurante através do solado de tênis, cenário que desloca o agente esperado de Staphylococcus aureus para Pseudomonas aeruginosa. O achado radiográfico foi descrito por extenso, dispensando a imagem, e as justificativas explicitam por que o estafilococo, embora mais prevalente no conjunto, não é o mais provável aqui."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q012",
+    "tema": "Triagem neonatal de cardiopatia congênita crítica",
+    "subtema": "Interpretação da oximetria de pulso e cardiopatias compatíveis",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["teste do coraçãozinho", "oximetria de pulso", "cardiopatia congênita crítica", "transposição das grandes artérias", "triagem neonatal"],
+    "texto_base": "Recém-nascido a termo, com 36 horas de vida, encontra-se em alojamento conjunto com a mãe. Gestação e parto transcorreram sem intercorrências, e o bebê está ativo, mamando bem, com boa perfusão periférica. Ao exame físico não se auscultam sopros e os pulsos são palpáveis e simétricos nos quatro membros. Realizada a triagem neonatal de cardiopatia congênita crítica por oximetria de pulso, obtêm-se saturação de 84% no membro superior direito e de 83% em um dos membros inferiores. A aferição é repetida uma hora depois, com resultados semelhantes.",
+    "enunciado": "Considerando a interpretação correta dessa triagem, qual das cardiopatias listadas é compatível com o resultado encontrado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Comunicação interatrial do tipo ostium secundum, de pequeno diâmetro.",
+        "correta": false,
+        "justificativa": "Incorreta. É uma cardiopatia acianótica, com desvio de sangue da esquerda para a direita. Não reduz a saturação arterial sistêmica e, na maioria das vezes, é assintomática no período neonatal, escapando inclusive da triagem por oximetria."
+      },
+      {
+        "letra": "B",
+        "texto": "Transposição das grandes artérias.",
+        "correta": true,
+        "justificativa": "Correta. Saturações abaixo de 90% em qualquer dos membros aferidos tornam a triagem alterada e obrigam a ecocardiograma nas primeiras 24 horas. O achado de hipoxemia acentuada e semelhante nos territórios pré e pós-ductal, em recém-nascido com exame físico pouco expressivo e sem sopro, é típico da transposição das grandes artérias, na qual as circulações pulmonar e sistêmica funcionam em paralelo e a sobrevida depende de mistura por forame oval e canal arterial."
+      },
+      {
+        "letra": "C",
+        "texto": "Persistência do canal arterial com desvio da esquerda para a direita.",
+        "correta": false,
+        "justificativa": "Incorreta. Nessa condição o fluxo é da aorta para a artéria pulmonar, aumentando o fluxo pulmonar sem dessaturar o sangue sistêmico. Cursa com sopro contínuo e pulsos amplos, e não produz hipoxemia grave e simétrica como a descrita."
+      },
+      {
+        "letra": "D",
+        "texto": "Comunicação interventricular perimembranosa de pequena repercussão.",
+        "correta": false,
+        "justificativa": "Incorreta. Também é lesão acianótica com desvio da esquerda para a direita. Quando pequena, tem repercussão hemodinâmica mínima e não altera a saturação periférica, sendo tipicamente detectada mais tarde, pelo sopro, e não pela triagem por oximetria."
+      }
+    ],
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": "cardiologia_pediatrica",
+    "objeto_conhecimento": "Interpretação da triagem por oximetria de pulso e reconhecimento das cardiopatias congênitas críticas cianóticas",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_03", "enamed_comp_02"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_09"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Ação de triagem na rede materno-infantil, com interpretação de teste de rastreamento e formulação de hipótese diagnóstica que define conduta imediata."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto (interpretação do teste do coraçãozinho), com outra idade pós-natal, outros valores de saturação e detalhamento do exame físico normal, que reforça a necessidade da triagem. A chave foi construída sobre a transposição das grandes artérias, protótipo da cardiopatia crítica com circulações em paralelo, e os distratores passaram a ser três lesões acianóticas com desvio da esquerda para a direita, tornando o raciocínio de eliminação fisiopatológico e não apenas mnemônico."
+  }
+]

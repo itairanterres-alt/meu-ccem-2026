@@ -1,0 +1,815 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q100",
+    "tema": "Pré-natal de risco habitual",
+    "subtema": "Estratificação de risco gestacional e definição do local de parto",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_01",
+      "dcn2025_comp_11"
+    ],
+    "tags": [
+      "pre_natal",
+      "adolescencia",
+      "estratificacao_de_risco",
+      "aps",
+      "ministerio_da_saude"
+    ],
+    "texto_base": "Adolescente de 17 anos, primigesta, chega acompanhada da mãe à consulta de acolhimento da equipe de Saúde da Família de seu território. Traz teste imunológico de gravidez positivo e informa data da última menstruação compatível com 9 semanas. Estuda, mora com a família, nega tabagismo, álcool ou outras substâncias, nega uso contínuo de medicamentos e não tem doenças crônicas conhecidas. Ao exame: bom estado geral, corada, pressão arterial de 106 x 68 mmHg, índice de massa corporal de 22,4 kg/m², altura de 1,63 m, mamas e pelos com desenvolvimento puberal completo, ausência de sinais de violência ou de sofrimento psíquico. A caderneta vacinal está atualizada. O território conta com maternidade de risco habitual de referência e com ambulatório de gestação de alto risco no município vizinho.",
+    "enunciado": "Segundo a estratificação de risco preconizada pelo Ministério da Saúde para o pré-natal, qual é a conduta adequada quanto ao seguimento e ao local previsto para o parto desta adolescente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Encaminhar de imediato ao ambulatório de gestação de alto risco, porque toda gravidez ocorrida antes dos 18 anos configura, por si só, risco obstétrico elevado.",
+        "correta": false,
+        "justificativa": "Incorreta. A faixa etária desta adolescente, isoladamente e sem qualquer intercorrência clínica ou obstétrica, não constitui critério de encaminhamento ao pré-natal de alto risco; encaminhar sem indicação sobrecarrega o serviço especializado e rompe o vínculo longitudinal com a equipe."
+      },
+      {
+        "letra": "B",
+        "texto": "Dividir o seguimento entre a equipe de Saúde da Família e o serviço especializado, com consultas alternadas a cada dois meses, e reservar desde já vaga em maternidade terciária.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há indicação de cuidado compartilhado nem de parto em serviço terciário para gestação sem fator de risco identificado, e o intervalo bimestral de consultas contraria o calendário mínimo do pré-natal de risco habitual, que se intensifica ao longo do terceiro trimestre."
+      },
+      {
+        "letra": "C",
+        "texto": "Manter todo o pré-natal na própria equipe de Saúde da Família, com parto previsto em maternidade de risco habitual, reservando o encaminhamento ao serviço especializado para o caso de surgirem intercorrências clínicas ou obstétricas.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de gestação sem comorbidades, com exame físico e antecedentes normais, o que caracteriza risco habitual: o acompanhamento cabe à atenção primária, com parto em maternidade de risco habitual, e a estratificação deve ser reavaliada em cada consulta, encaminhando-se apenas se surgir fator de risco."
+      },
+      {
+        "letra": "D",
+        "texto": "Manter o seguimento na unidade básica, porém programar cesariana eletiva com 38 semanas em razão da imaturidade pélvica esperada na adolescência.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe indicação de cesariana eletiva pela idade materna, e a via de parto deve ser definida por critérios obstétricos no momento do trabalho de parto; programar cesárea sem indicação expõe a adolescente a riscos cirúrgicos e anestésicos evitáveis."
+      }
+    ],
+    "especialidade": "pre_natal",
+    "especialidade_secundaria": "aps_organizacao_e_acesso",
+    "objeto_conhecimento": "Critérios de estratificação de risco gestacional e definição do ponto de atenção para pré-natal e parto",
+    "sistema_organico": "reprodutor_feminino",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": [
+        "enamed_comp_09",
+        "enamed_comp_04"
+      ],
+      "conteudos": [
+        "enamed_cont_11",
+        "enamed_cont_14"
+      ],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "O item avalia o uso crítico das redes de atenção e o encaminhamento com base em critérios (comp. IX) e a construção do plano de acompanhamento (comp. IV), no cenário da atenção primária e da rede materno-infantil, mobilizando conteúdos de prevenção/prognóstico e de políticas do SUS."
+    },
+    "defeito_corrigido": "O item de origem usava gestante de 15 anos, idade exatamente na zona de divergência entre manuais (alguns listam <15 anos, outros <16 anos como fator de risco), tornando a resposta dependente da edição consultada. A paciente foi reescrita com 17 anos, faixa em que nenhuma versão do protocolo isola a idade como critério de alto risco, e as alternativas foram redigidas para que o eixo avaliado seja o princípio da estratificação por risco, e não o ponto de corte etário.",
+    "nota_adaptacao": "Caso inteiramente novo (adolescente de 17 anos, 9 semanas, equipe de Saúde da Família, sinais vitais e IMC diferentes) e quatro alternativas escritas do zero. Preservou-se o objeto: quem acompanha o pré-natal de risco habitual e onde ocorre o parto. A chave de consenso (manter na APS, parto em serviço de risco habitual) foi mantida como conteúdo correto, agora na letra C conforme a posição alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q001",
+    "tema": "Fibrilação atrial de início recente",
+    "subtema": "Controle de frequência e anticoagulação no paciente estável",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "fibrilacao_atrial",
+      "controle_de_frequencia",
+      "anticoagulacao",
+      "cha2ds2vasc",
+      "emergencia"
+    ],
+    "texto_base": "Mulher de 68 anos procura a unidade de pronto atendimento por palpitações de início súbito há cerca de 5 horas, enquanto assistia televisão. Nega dor torácica, dispneia, tontura ou perda de consciência. É hipertensa e diabética tipo 2, em uso de losartana e metformina; nunca teve acidente vascular cerebral e não usa anticoagulante. Ao exame: consciente e orientada, corada, perfusão periférica preservada, frequência cardíaca de 142 bpm, pressão arterial de 132 x 84 mmHg, frequência respiratória de 18 irpm, saturação de 97% em ar ambiente. Ausculta cardíaca com ritmo irregular, bulhas de intensidade variável e sem sopros; ausculta pulmonar limpa; sem turgência jugular e sem edema de membros inferiores. O eletrocardiograma de 12 derivações mostra complexos QRS estreitos, intervalos RR completamente irregulares, ausência de ondas P identificáveis com ondulação fina da linha de base e resposta ventricular média de 140 bpm, sem supradesnivelamento do segmento ST.",
+    "enunciado": "Considerando a apresentação clínica e o traçado descrito, qual é a conduta inicial mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Cardioversão elétrica sincronizada imediata com carga de 200 J, sob sedação.",
+        "correta": false,
+        "justificativa": "Incorreta. A cardioversão elétrica imediata é reservada à taquiarritmia com instabilidade hemodinâmica (hipotensão, congestão pulmonar, isquemia miocárdica ou rebaixamento de consciência), sinais ausentes nesta paciente, que está normotensa, eupneica e sem dor torácica."
+      },
+      {
+        "letra": "B",
+        "texto": "Manobra vagal seguida de adenosina 6 mg em bolus rápido, com nova dose de 12 mg se não houver reversão.",
+        "correta": false,
+        "justificativa": "Incorreta. Manobra vagal e adenosina são recursos para taquicardias supraventriculares regulares dependentes do nó atrioventricular; na arritmia irregular sem ondas P descrita a adenosina não reverte o ritmo e serve, no máximo, para desmascarar o traçado, expondo a paciente a efeitos adversos desnecessários."
+      },
+      {
+        "letra": "C",
+        "texto": "Digoxina endovenosa isolada como única medida de controle da resposta ventricular.",
+        "correta": false,
+        "justificativa": "Incorreta. A digoxina tem início de ação lento e desempenho ruim no controle da frequência sob tônus adrenérgico elevado, ficando reservada a situações de disfunção ventricular grave ou hipotensão; além disso, usá-la isoladamente deixaria sem resposta a questão da profilaxia tromboembólica."
+      },
+      {
+        "letra": "D",
+        "texto": "Controle da resposta ventricular com betabloqueador endovenoso e definição da anticoagulação conforme o risco tromboembólico estimado.",
+        "correta": true,
+        "justificativa": "Correta. Na arritmia irregular de QRS estreito com resposta ventricular rápida em paciente estável, a prioridade é reduzir a frequência com betabloqueador endovenoso; como a paciente soma idade entre 65 e 74 anos, hipertensão, diabetes e sexo feminino, o escore tromboembólico indica anticoagulação plena, que deve ser iniciada em paralelo."
+      }
+    ],
+    "especialidade": "emergencias_cardiovasculares",
+    "especialidade_secundaria": "cardiologia",
+    "objeto_conhecimento": "Manejo inicial da fibrilação atrial com resposta ventricular rápida em paciente hemodinamicamente estável",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_05",
+        "enamed_comp_04"
+      ],
+      "conteudos": [
+        "enamed_cont_09",
+        "enamed_cont_10"
+      ],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Reconhecimento e tratamento de emergência não traumática (comp. V) com elaboração de plano terapêutico baseado em evidências e relação risco-benefício (comp. IV), na rede de urgência e emergência, mobilizando propedêutica/diagnóstico e terapêutica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente (mulher de 68 anos, hipertensa e diabética, 5 horas de sintomas, frequência e pressão diferentes) e achados eletrocardiográficos descritos por extenso, sem depender de imagem. As cinco alternativas originais foram reduzidas a quatro, todas reescritas, e o conteúdo da chave de consenso (betabloqueador venoso mais anticoagulação) foi realocado para a letra D conforme a posição alvo. A justificativa da correta explicita o cálculo do risco tromboembólico, elemento que o item de origem deixava implícito."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q002",
+    "tema": "Diarreia crônica e doenças intestinais",
+    "subtema": "Diagnóstico diferencial entre causas inflamatórias, imunomediadas, disabsortivas e funcionais",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "tags": [
+      "diarreia_cronica",
+      "retocolite_ulcerativa",
+      "doenca_celiaca",
+      "intolerancia_a_lactose",
+      "sindrome_do_intestino_irritavel"
+    ],
+    "texto_base": "A coluna da esquerda relaciona quatro condições que cursam com alteração crônica do hábito intestinal; a da direita, achados que as caracterizam.\n\nColuna 1 — Condições:\n1. Retocolite ulcerativa\n2. Doença celíaca\n3. Deficiência de lactase do adulto\n4. Síndrome do intestino irritável\n\nColuna 2 — Achados:\n( ) Remissão dos sintomas e normalização histológica após retirada rigorosa do glúten, com anticorpo antiendomísio reagente.\n( ) Distensão, flatulência e cólicas surgidas poucas horas depois da ingestão de leite, com teste do hidrogênio expirado alterado.\n( ) Inflamação contínua e limitada à mucosa, que começa no reto e progride no sentido proximal, cursando com diarreia mucossanguinolenta e urgência evacuatória.\n( ) Dor abdominal recorrente que se modifica com a evacuação e com a consistência das fezes, sem marcadores inflamatórios nem lesão estrutural na investigação.",
+    "enunciado": "Assinale a alternativa que apresenta a associação correta entre as colunas, lida de cima para baixo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 – 3 – 1 – 4",
+        "correta": true,
+        "justificativa": "Correta. A resposta ao glúten com antiendomísio reagente define a doença celíaca (2); os sintomas após leite com hidrogênio expirado alterado, a deficiência de lactase (3); a inflamação mucosa contínua ascendente a partir do reto, a retocolite ulcerativa (1); e a dor que se modifica com a evacuação sem lesão estrutural, a síndrome do intestino irritável (4)."
+      },
+      {
+        "letra": "B",
+        "texto": "3 – 2 – 1 – 4",
+        "correta": false,
+        "justificativa": "Incorreta. Inverte as duas primeiras associações: atribui à deficiência de lactase a resposta à dieta sem glúten com sorologia antiendomísio e, à doença celíaca, a intolerância aos laticínios documentada pelo teste do hidrogênio expirado."
+      },
+      {
+        "letra": "C",
+        "texto": "2 – 1 – 3 – 4",
+        "correta": false,
+        "justificativa": "Incorreta. Coloca a retocolite ulcerativa como causa dos sintomas desencadeados pela ingestão de leite e a deficiência de lactase como responsável pela inflamação mucosa contínua com diarreia mucossanguinolenta, o que não corresponde à fisiopatologia de nenhuma das duas."
+      },
+      {
+        "letra": "D",
+        "texto": "2 – 3 – 4 – 1",
+        "correta": false,
+        "justificativa": "Incorreta. Acerta os dois primeiros pares, mas troca os dois últimos, atribuindo à síndrome do intestino irritável a diarreia mucossanguinolenta com inflamação mucosa e à retocolite ulcerativa um quadro sem qualquer alteração inflamatória ou estrutural."
+      }
+    ],
+    "especialidade": "gastroenterologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Diagnóstico diferencial das doenças intestinais crônicas a partir de achados clínicos, sorológicos, funcionais e endoscópicos",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_02",
+        "enamed_comp_03"
+      ],
+      "conteudos": [
+        "enamed_cont_09"
+      ],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Formulação de hipóteses diagnósticas plausíveis (comp. II) e interpretação de exames complementares (comp. III) aplicadas à propedêutica e ao diagnóstico das doenças intestinais crônicas, acompanhadas na rede de doenças crônicas."
+    },
+    "defeito_corrigido": "No item de origem as alternativas B e E eram idênticas ('3-1-4-2'), reduzindo o item a quatro opções efetivas e configurando falha de construção. A versão nova traz exatamente quatro alternativas, todas com sequências distintas entre si, e cada distrator representa um erro de associação identificável e justificável.",
+    "nota_adaptacao": "Objeto de conhecimento preservado (diagnóstico diferencial de diarreia crônica), mas o conjunto de doenças foi alterado — a doença de Crohn foi substituída pela retocolite ulcerativa — e todas as características da Coluna 2 foram redigidas do zero, com marcadores diferentes dos usados no original. A ordem dos descritores também foi reembaralhada, de modo que a chave passa a ser 2-3-1-4 na letra A, coincidindo com a posição alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q003",
+    "tema": "Demências não Alzheimer",
+    "subtema": "Degeneração lobar frontotemporal e seu espectro clínico",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "demencia_frontotemporal",
+      "afasia_progressiva_primaria",
+      "neurologia",
+      "rastreio_cognitivo",
+      "diagnostico_diferencial"
+    ],
+    "texto_base": "Mulher de 62 anos, professora aposentada, com 14 anos de escolaridade, é trazida ao ambulatório pelo marido. Ele relata que, nos últimos 18 meses, ela deixou de se importar com o que os outros pensam: passou a fazer comentários rudes sobre a aparência de vizinhos, riu durante o velório de uma amiga e, na semana passada, pegou doces na fila do caixa do mercado e começou a comer antes de pagar. Come compulsivamente alimentos açucarados e ganhou 8 kg. Abandonou o pagamento das contas e as tarefas domésticas que sempre organizou. Não apresenta queixa de memória e nega qualquer problema, atribuindo a preocupação do marido a exagero. Não há alucinações, parkinsonismo, quedas ou flutuação do nível de atenção. Exame neurológico sem déficits focais. No Miniexame do Estado Mental obteve 29 de 30 pontos. Hemograma, função renal, hepática e tireoidiana, sódio, cálcio, vitamina B12, sorologias para HIV e hepatites e teste treponêmico resultaram sem alterações.",
+    "enunciado": "Sobre a condição mais provável neste caso, assinale a alternativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A pontuação praticamente máxima no Miniexame do Estado Mental permite descartar síndrome demencial.",
+        "correta": false,
+        "justificativa": "Incorreta. O Miniexame do Estado Mental privilegia orientação, memória episódica e linguagem e é pouco sensível a disfunção executiva e a alterações de comportamento social; pacientes com degeneração frontotemporal frequentemente mantêm escore normal apesar de perda funcional evidente."
+      },
+      {
+        "letra": "B",
+        "texto": "As variantes semântica e não fluente da afasia progressiva primária pertencem ao mesmo espectro degenerativo da condição descrita.",
+        "correta": true,
+        "justificativa": "Correta. O quadro descreve a variante comportamental da degeneração lobar frontotemporal, cujo espectro clinicopatológico inclui as apresentações de linguagem — afasia progressiva primária nas formas semântica e não fluente/agramática —, além da associação com esclerose lateral amiotrófica e síndromes parkinsonianas atípicas."
+      },
+      {
+        "letra": "C",
+        "texto": "O diagnóstico mais provável é doença de Alzheimer de início precoce, justamente pelo predomínio de sintomas comportamentais.",
+        "correta": false,
+        "justificativa": "Incorreta. Na doença de Alzheimer o comprometimento inaugural é tipicamente da memória episódica, com desorientação e queda no rastreio cognitivo; a desinibição social, a hiperoralidade e a perda de crítica com cognição instrumental preservada apontam para acometimento frontotemporal, não para Alzheimer."
+      },
+      {
+        "letra": "D",
+        "texto": "A análise do líquido cefalorraquidiano por punção lombar é exame obrigatório para firmar o diagnóstico.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico é clínico, apoiado em neuroimagem estrutural que evidencie atrofia frontal e/ou temporal anterior; o estudo do liquor fica reservado a situações atípicas, como início muito rápido, idade incomum ou suspeita de causa inflamatória ou infecciosa, e não é etapa obrigatória."
+      }
+    ],
+    "especialidade": "neurologia",
+    "especialidade_secundaria": "geriatria",
+    "objeto_conhecimento": "Reconhecimento da variante comportamental da degeneração lobar frontotemporal e de seu espectro clínico",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_02",
+        "enamed_comp_03"
+      ],
+      "conteudos": [
+        "enamed_cont_09",
+        "enamed_cont_06"
+      ],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Formulação de hipótese diagnóstica a partir da história e do exame (comp. II) e uso criterioso de exames complementares, incluindo a decisão de não solicitar procedimento invasivo desnecessário (comp. III), no cenário ambulatorial das doenças crônicas."
+    },
+    "defeito_corrigido": "O enunciado de origem alternava o gênero do paciente ('do paciente' e, adiante, 'da paciente'), inconsistência que compromete a clareza da vinheta. O caso foi reescrito com uma única paciente, do sexo feminino, mantendo a concordância em todo o texto e nas alternativas.",
+    "nota_adaptacao": "Vinheta nova: mulher de 62 anos, 14 anos de escolaridade, 18 meses de evolução, com exemplos de desinibição e hiperoralidade inéditos e rastreio cognitivo de 29/30. As alternativas foram reduzidas de cinco para quatro e reescritas; o conteúdo da chave de consenso (a afasia progressiva primária integra o mesmo espectro) foi mantido e realocado para a letra B, conforme a posição alvo. Acrescentaram-se ao caso os dados que afastam demência com corpos de Lewy (ausência de flutuação, alucinações e parkinsonismo), tornando o diagnóstico menos ambíguo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q004",
+    "tema": "Distúrbios do sódio",
+    "subtema": "Hiponatremia hipotônica sintomática grave por secreção inapropriada de ADH",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "hiponatremia",
+      "siadh",
+      "salina_hipertonica",
+      "crise_convulsiva",
+      "emergencia_metabolica"
+    ],
+    "texto_base": "Homem de 66 anos, em quimioterapia por carcinoma neuroendócrino de pulmão, é levado à emergência após crise tônico-clônica generalizada presenciada em casa, com duração aproximada de 2 minutos. Na chegada encontra-se sonolento, pouco responsivo ao chamado, sem novos déficits focais. Está afebril, com pressão arterial de 124 x 76 mmHg, frequência cardíaca de 84 bpm, boa perfusão periférica, mucosas úmidas, turgor cutâneo preservado, ausência de edema periférico e de estase jugular. Não faz uso de diuréticos. Tomografia de crânio sem contraste não evidencia lesão expansiva, sangramento ou sinais de hipertensão intracraniana. Exames: sódio 117 mEq/L, potássio 4,1 mEq/L, creatinina 0,8 mg/dL, ureia 24 mg/dL, glicemia 104 mg/dL, osmolalidade plasmática 248 mOsm/kg, osmolalidade urinária 486 mOsm/kg, sódio urinário 68 mEq/L, TSH e cortisol matinal normais.",
+    "enunciado": "Qual é a conduta indicada para o manejo imediato da hiponatremia deste paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Restrição hídrica isolada de 800 mL por dia, com nova dosagem do sódio em 24 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. A restrição hídrica é pilar do tratamento crônico da secreção inapropriada de ADH, porém eleva o sódio muito lentamente e não protege o paciente que já apresenta manifestação neurológica grave, na qual o edema cerebral exige correção imediata."
+      },
+      {
+        "letra": "B",
+        "texto": "Infusão contínua de solução fisiológica a 0,9% a 100 mL/h até a normalização da natremia.",
+        "correta": false,
+        "justificativa": "Incorreta. Diante de urina concentrada acima da osmolalidade plasmática, a salina isotônica pode até agravar a hiponatremia, pois o sódio administrado é excretado enquanto parte da água livre é retida; além disso, não oferece a elevação rápida necessária ao paciente sintomático."
+      },
+      {
+        "letra": "C",
+        "texto": "Solução salina hipertônica a 3% em bolus de 100 mL, repetível até três vezes com intervalos de 10 a 20 minutos, interrompendo quando cessarem os sintomas neurológicos ou quando o sódio subir 4 a 6 mEq/L.",
+        "correta": true,
+        "justificativa": "Correta. Na hiponatremia hipotônica com sintoma neurológico grave, a conduta é elevar rapidamente o sódio com bolus de salina hipertônica, alvo de 4 a 6 mEq/L, suficiente para reverter o edema cerebral, respeitando o limite total de 8 a 10 mEq/L em 24 horas para prevenir desmielinização osmótica."
+      },
+      {
+        "letra": "D",
+        "texto": "Salina a 3% em infusão contínua programada para elevar o sódio em 15 mEq/L nas primeiras 12 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa velocidade ultrapassa amplamente o limite seguro de correção e expõe o paciente à síndrome de desmielinização osmótica, complicação neurológica frequentemente irreversível, especialmente grave em hiponatremia de instalação não aguda."
+      }
+    ],
+    "especialidade": "emergencias_metabolicas",
+    "especialidade_secundaria": "nefrologia",
+    "objeto_conhecimento": "Tratamento da hiponatremia hipotônica sintomática com salina hipertônica e limites seguros de correção",
+    "sistema_organico": "renal_e_hidroeletrolitico",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_05",
+        "enamed_comp_04"
+      ],
+      "conteudos": [
+        "enamed_cont_10",
+        "enamed_cont_09"
+      ],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Reconhecimento e tratamento de emergência não traumática (comp. V) e construção do plano terapêutico com atenção à relação risco-benefício e à segurança do paciente (comp. IV), na rede de urgência e emergência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente, tumor primário, valores laboratoriais e unidades foram todos substituídos; a osmolalidade passou a ser expressa em mOsm/kg e acrescentaram-se sódio urinário, TSH e cortisol, que sustentam o diagnóstico de secreção inapropriada de ADH e afastam hipotireoidismo e insuficiência adrenal. As alternativas foram reduzidas de cinco para quatro, redigidas do zero, e o esquema de bolus de salina hipertônica (conteúdo da chave de consenso) foi posicionado na letra C. A justificativa da correta explicita o teto de 8 a 10 mEq/L em 24 horas, dado ausente no item de origem."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q005",
+    "tema": "Tromboembolismo pulmonar",
+    "subtema": "Estratificação de gravidade e anticoagulação no TEP de baixo risco",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "tromboembolismo_pulmonar",
+      "anticoagulacao",
+      "heparina_de_baixo_peso",
+      "estratificacao_de_risco",
+      "trombolise"
+    ],
+    "texto_base": "Mulher de 44 anos, sem comorbidades, em uso de contraceptivo oral combinado há seis anos, procura a emergência por dor torácica à esquerda que piora com a inspiração profunda, iniciada há 12 horas, acompanhada de leve falta de ar. Retornou há três dias de viagem rodoviária de 20 horas. Nega febre, tosse, hemoptise, trauma ou cirurgia recente. Ao exame: lúcida, eupneica em repouso, frequência respiratória de 20 irpm, frequência cardíaca de 96 bpm, pressão arterial de 122 x 76 mmHg, saturação de 96% em ar ambiente, ausculta pulmonar com murmúrio vesicular preservado e sem ruídos adventícios, panturrilhas indolores e simétricas. A angiotomografia de tórax demonstra falha de enchimento em ramo segmentar da artéria pulmonar do lobo inferior esquerdo, sem aumento da relação entre os diâmetros do ventrículo direito e do esquerdo. Troponina ultrassensível e peptídeo natriurético estão dentro da normalidade e o ecocardiograma transtorácico não mostra sinais de sobrecarga do ventrículo direito.",
+    "enunciado": "Diante do quadro e da estratificação de gravidade obtida, qual é a conduta inicial mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Trombólise sistêmica com alteplase, seguida de heparinização plena.",
+        "correta": false,
+        "justificativa": "Incorreta. A trombólise está indicada no tromboembolismo de alto risco, com hipotensão persistente ou choque, ou como resgate na deterioração hemodinâmica; nesta paciente estável, com marcadores e ecocardiograma normais, o benefício não compensa o risco de sangramento maior, inclusive intracraniano."
+      },
+      {
+        "letra": "B",
+        "texto": "Anticoagulação plena com heparina de baixo peso molecular em dose terapêutica, mantendo a paciente sob observação hospitalar.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de tromboembolismo de baixo risco — sem instabilidade, sem disfunção ventricular direita à imagem e com biomarcadores normais —, situação em que a anticoagulação plena isolada é o tratamento indicado, iniciada com heparina de baixo peso molecular e período inicial de observação."
+      },
+      {
+        "letra": "C",
+        "texto": "Implante de filtro de veia cava inferior associado a antiagregação plaquetária com ácido acetilsalicílico.",
+        "correta": false,
+        "justificativa": "Incorreta. O filtro de veia cava destina-se a pacientes com contraindicação absoluta à anticoagulação ou com recorrência apesar de anticoagulação adequada, o que não é o caso; a antiagregação não substitui o anticoagulante no tratamento do tromboembolismo venoso."
+      },
+      {
+        "letra": "D",
+        "texto": "Analgesia e alta imediata sem anticoagulante, com reavaliação ambulatorial em sete dias.",
+        "correta": false,
+        "justificativa": "Incorreta. Confirmado o tromboembolismo pulmonar, deixar de anticoagular expõe a paciente a risco elevado de recorrência e de morte; mesmo nos casos elegíveis a tratamento domiciliar precoce, a anticoagulação é iniciada ainda no serviço de emergência."
+      }
+    ],
+    "especialidade": "emergencias_respiratorias",
+    "especialidade_secundaria": "pneumologia",
+    "objeto_conhecimento": "Estratificação de risco do tromboembolismo pulmonar e escolha do tratamento anticoagulante inicial",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_05",
+        "enamed_comp_04"
+      ],
+      "conteudos": [
+        "enamed_cont_10",
+        "enamed_cont_09"
+      ],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Diagnóstico e tratamento de emergência não traumática (comp. V) e elaboração de plano terapêutico ancorado em evidências e na relação risco-benefício da trombólise versus anticoagulação isolada (comp. IV), no cenário hospitalar de urgência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente e fatores de risco trocados (mulher de 44 anos em uso de contraceptivo combinado e viagem rodoviária, no lugar de homem após voo internacional), com sinais vitais, localização do trombo e exames diferentes. Substituíram-se os achados gasométricos e eletrocardiográficos por marcadores de estratificação de gravidade (troponina, peptídeo natriurético e relação ventricular na angiotomografia), que são o que efetivamente define a conduta. Cinco alternativas foram reduzidas a quatro, reescritas, mantendo-se na letra B o conteúdo da chave de consenso, que coincide com a posição alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q007",
+    "tema": "Doença falciforme",
+    "subtema": "Síndrome torácica aguda: condutas indicadas e não indicadas",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "anemia_falciforme",
+      "sindrome_toracica_aguda",
+      "transfusao",
+      "antibioticoterapia",
+      "hematologia"
+    ],
+    "texto_base": "Homem de 23 anos com doença falciforme (HbSS), em uso irregular de hidroxiureia, chega ao pronto-socorro com febre de 38,6 °C, dor torácica que piora à inspiração e falta de ar progressiva iniciadas há dois dias, precedidas por crise álgica em membros inferiores. Ao exame: taquipneico, com frequência respiratória de 30 irpm, frequência cardíaca de 118 bpm, pressão arterial de 108 x 62 mmHg, saturação de 88% em ar ambiente (basal habitual de 96%), estertores crepitantes em terço inferior do hemitórax esquerdo e uso de musculatura acessória. A radiografia de tórax mostra opacidade alveolar homogênea ocupando o lobo inferior esquerdo, com broncogramas aéreos, sem derrame pleural volumoso e com área cardíaca normal. Exames: hemoglobina 6,2 g/dL (basal de 9,0 g/dL), reticulócitos elevados, leucócitos 21.400/mm³ com neutrofilia, plaquetas 340.000/mm³ e proteína C reativa 180 mg/L.",
+    "enunciado": "Considerando o diagnóstico mais provável, qual das condutas a seguir NÃO está indicada neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Iniciar anticoagulação plena empírica, presumindo tromboembolismo pulmonar como causa do quadro.",
+        "correta": true,
+        "justificativa": "Correta. Esta é a conduta não indicada: o quadro caracteriza síndrome torácica aguda, e a anticoagulação plena não faz parte do seu tratamento, ficando reservada aos casos em que o tromboembolismo é efetivamente confirmado por imagem; iniciá-la às cegas em paciente anêmico e febril acrescenta risco hemorrágico sem benefício demonstrado."
+      },
+      {
+        "letra": "B",
+        "texto": "Prescrever antibioticoterapia empírica com cobertura para agentes bacterianos habituais e para germes atípicos, por exemplo cefalosporina de terceira geração associada a macrolídeo.",
+        "correta": false,
+        "justificativa": "Incorreta. A conduta descrita é adequada: a síndrome torácica aguda é frequentemente desencadeada ou acompanhada de infecção, com participação relevante de Chlamydia pneumoniae, Mycoplasma pneumoniae e pneumococo, de modo que a cobertura combinada é rotina no manejo inicial."
+      },
+      {
+        "letra": "C",
+        "texto": "Instituir oxigenoterapia suplementar com alvo de saturação acima de 92% e monitorização contínua.",
+        "correta": false,
+        "justificativa": "Incorreta. A conduta descrita é adequada: a hipoxemia agrava a falcização e alimenta o ciclo de oclusão vascular pulmonar, de modo que corrigir a saturação é medida de suporte prioritária e imediata neste paciente."
+      },
+      {
+        "letra": "D",
+        "texto": "Indicar transfusão de concentrado de hemácias, reservando a eritrocitaférese para os casos de deterioração respiratória.",
+        "correta": false,
+        "justificativa": "Incorreta. A conduta descrita é adequada: com queda de quase 3 g/dL em relação ao valor basal e hipoxemia significativa, a transfusão simples melhora o transporte de oxigênio e reduz a proporção de hemoglobina S, e a troca eritrocitária é o passo seguinte na piora clínica."
+      }
+    ],
+    "especialidade": "hematologia",
+    "especialidade_secundaria": "medicina_intensiva",
+    "objeto_conhecimento": "Manejo da síndrome torácica aguda na doença falciforme e reconhecimento de condutas sem respaldo",
+    "sistema_organico": "hematopoetico",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_05",
+        "enamed_comp_04"
+      ],
+      "conteudos": [
+        "enamed_cont_10",
+        "enamed_cont_09"
+      ],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Reconhecimento e tratamento de emergência não traumática em paciente com condição crônica (comp. V) e elaboração de plano terapêutico com uso racional de recursos e segurança do paciente, incluindo a decisão de não intervir (comp. IV)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente novo (homem de 23 anos, uso irregular de hidroxiureia, acometimento do lobo inferior esquerdo) com todos os valores laboratoriais e sinais vitais substituídos. Como o item de origem dependia da radiografia, os achados radiográficos foram descritos por extenso no texto-base, tornando a questão autossuficiente. Foram mantidas quatro alternativas, com o conteúdo da chave de consenso — a anticoagulação plena empírica como conduta inadequada — realocado para a letra A conforme a posição alvo; o marcador 'NÃO' do comando foi mantido em destaque para evitar leitura apressada."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q008",
+    "tema": "Arboviroses",
+    "subtema": "Fase subaguda e crônica da febre de chikungunya",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "tags": [
+      "chikungunya",
+      "artrite_pos_viral",
+      "hidroxicloroquina",
+      "arboviroses",
+      "atencao_primaria"
+    ],
+    "texto_base": "Mulher de 48 anos, auxiliar administrativa, retorna à unidade básica de saúde de seu bairro. Há dez semanas teve febre alta, exantema e poliartralgia intensa, com sorologia IgM reagente para chikungunya durante um surto no município. A febre e o exantema desapareceram em poucos dias, mas a dor articular persiste e se tornou simétrica, acometendo punhos, articulações metacarpofalangeanas e joelhos, com rigidez matinal de cerca de 90 minutos e dificuldade para digitar e abrir potes. Já usou dipirona e, depois, naproxeno por três semanas, com alívio parcial; em seguida fez curso de prednisona 20 mg/dia por 21 dias, com boa resposta durante o uso e retorno pleno da dor durante a retirada gradual. Nega febre atual, calafrios, perda de peso, lesões cutâneas novas e trauma. Ao exame: temperatura de 36,4 °C, dor à palpação e discreto edema em punhos e metacarpofalangeanas, sem calor ou rubor, sem derrame articular tenso e com ausência de instabilidade. Exame oftalmológico prévio e eletrocardiograma sem alterações.",
+    "enunciado": "Considerado o tempo de evolução e a resposta obtida com os tratamentos já realizados, que abordagem terapêutica deve ser adotada agora?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Iniciar antibioticoterapia empírica por suspeita de artrite séptica de evolução arrastada.",
+        "correta": false,
+        "justificativa": "Incorreta. A artrite séptica é tipicamente monoarticular, aguda, com dor intensa em repouso, calor, rubor, derrame e repercussão sistêmica; o quadro simétrico, poliarticular, afebril e de dez semanas não sustenta essa hipótese nem justifica exposição a antibiótico."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar nova sorologia, agora IgG para chikungunya, e adiar qualquer tratamento até o resultado.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico já foi confirmado na fase aguda e a soroconversão de IgG apenas documenta contato prévio, sem alterar conduta nem medir atividade da doença; postergar o tratamento prolonga a incapacidade funcional da paciente sem qualquer ganho clínico."
+      },
+      {
+        "letra": "C",
+        "texto": "Introduzir hidroxicloroquina, mantendo analgesia, orientação de exercícios e reavaliação periódica pela própria equipe de saúde da família.",
+        "correta": true,
+        "justificativa": "Correta. Passadas mais de seis semanas do início, com artropatia persistente que não se sustentou após anti-inflamatório e corticoide, o protocolo do Ministério da Saúde indica a hidroxicloroquina como droga modificadora para a fase subaguda e crônica, associada a analgesia, reabilitação e seguimento longitudinal na atenção primária."
+      },
+      {
+        "letra": "D",
+        "texto": "Encaminhar com urgência para iniciar imunobiológico anti-TNF, dada a falha do corticoide.",
+        "correta": false,
+        "justificativa": "Incorreta. O imunobiológico não é etapa inicial na artropatia pós-chikungunya e seria indicado apenas em casos refratários, após tentativa adequada de drogas modificadoras convencionais e com avaliação especializada, incluindo rastreamento de tuberculose latente e de hepatites."
+      }
+    ],
+    "especialidade": "infectologia",
+    "especialidade_secundaria": "reumatologia",
+    "objeto_conhecimento": "Manejo da artropatia persistente pós-chikungunya na atenção primária",
+    "sistema_organico": "osteomuscular",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_04",
+        "enamed_comp_02"
+      ],
+      "conteudos": [
+        "enamed_cont_10",
+        "enamed_cont_17"
+      ],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Elaboração e acompanhamento de plano terapêutico com base em protocolo nacional (comp. IV) a partir de hipótese diagnóstica ancorada na realidade epidemiológica local (comp. II), no cenário da atenção primária, envolvendo terapêutica e vigilância de doença transmissível."
+    },
+    "defeito_corrigido": "No item de origem, a escolha da hidroxicloroquina se dava por exclusão, porque o protocolo do Ministério da Saúde também prevê corticoide em curso curto na fase subaguda e essa opção não era ofertada. A vinheta nova informa explicitamente que a paciente já completou curso de prednisona com recidiva durante a retirada, além de tentativa prévia com anti-inflamatório não esteroide, o que elimina a ambiguidade e torna a introdução da droga modificadora a única conduta consistente.",
+    "nota_adaptacao": "Nova paciente (mulher de 48 anos, dez semanas de evolução, acometimento simétrico de punhos, metacarpofalangeanas e joelhos), com histórico terapêutico detalhado que não existia no original. Cinco alternativas foram reduzidas a quatro, todas redigidas do zero; o distrator de encaminhamento foi trocado por indicação precoce de imunobiológico, erro mais informativo. A chave de consenso foi mantida quanto ao conteúdo e realocada para a letra C, conforme a posição alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q009",
+    "tema": "Micoses superficiais",
+    "subtema": "Pitiríase versicolor: agente etiológico e tratamento",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_01"
+    ],
+    "tags": [
+      "pitiriase_versicolor",
+      "malassezia",
+      "dermatologia",
+      "antifungico_topico",
+      "luz_de_wood"
+    ],
+    "texto_base": "Mulher de 24 anos, estudante, procura a unidade básica de saúde queixando-se de manchas claras no tronco, percebidas há cerca de oito meses e mais evidentes desde o fim do verão, quando o restante da pele bronzeou. Refere que as lesões praticamente não coçam e que uma tia teve problema semelhante. Ao exame dermatológico: máculas hipocrômicas confluentes, de limites nítidos e superfície discretamente descamativa, distribuídas na região torácica anterior, nos ombros e no dorso; ao estiramento da pele surge descamação furfurácea fina sobre as lesões. Não há hipoestesia, espessamento de nervos periféricos, alteração de fâneros ou acometimento de mucosas. Sob luz de Wood observa-se fluorescência amarelo-dourada nas áreas comprometidas.",
+    "enunciado": "Qual é o agente etiológico do quadro e o tratamento indicado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Trichophyton rubrum; griseofulvina por via oral durante oito semanas.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse dermatófito causa tinha do corpo, com placas eritematodescamativas de borda ativa e centro claro, e não máculas hipocrômicas com descamação furfurácea; a griseofulvina, além disso, não tem ação sobre leveduras lipofílicas."
+      },
+      {
+        "letra": "B",
+        "texto": "Malassezia furfur; antifúngico tópico, como cetoconazol em xampu ou creme, reservando o itraconazol por via oral para as formas extensas ou recidivantes.",
+        "correta": true,
+        "justificativa": "Correta. A descamação furfurácea ao estiramento, a hipocromia acentuada após exposição solar e a fluorescência amarelo-dourada sob luz de Wood caracterizam a pitiríase versicolor, causada por levedura lipofílica do gênero Malassezia; o tratamento de escolha é tópico, com azólico ou sulfeto de selênio, ficando a via oral para casos extensos ou de repetição."
+      },
+      {
+        "letra": "C",
+        "texto": "Candida albicans; nistatina tópica por quatorze dias.",
+        "correta": false,
+        "justificativa": "Incorreta. A candidíase cutânea acomete preferencialmente áreas intertriginosas e úmidas, com eritema vivo, maceração e lesões satélites pustulosas, quadro distinto das máculas hipocrômicas descamativas do tronco descritas na paciente."
+      },
+      {
+        "letra": "D",
+        "texto": "Mycobacterium leprae; poliquimioterapia com esquema paucibacilar por seis meses.",
+        "correta": false,
+        "justificativa": "Incorreta. A hanseníase indeterminada cursa com mácula hipocrômica de limites imprecisos acompanhada de alteração de sensibilidade, além de possível espessamento neural — achados expressamente ausentes aqui, onde há descamação furfurácea e fluorescência típica sob luz de Wood."
+      }
+    ],
+    "especialidade": "dermatologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Diagnóstico clínico e tratamento da pitiríase versicolor",
+    "sistema_organico": "tegumentar",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": [
+        "enamed_comp_02",
+        "enamed_comp_04"
+      ],
+      "conteudos": [
+        "enamed_cont_09",
+        "enamed_cont_10"
+      ],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Formulação de hipótese diagnóstica a partir do exame físico dermatológico (comp. II) e definição de plano terapêutico custo-efetivo, privilegiando a via tópica (comp. IV), no cenário da atenção primária."
+    },
+    "defeito_corrigido": "No item de origem o comando pedia 'o agente causador e o tratamento indicado', mas todas as alternativas ofereciam apenas o nome do micro-organismo, deixando metade da pergunta sem resposta possível; havia ainda o provável erro de digitação 'em prurido' no lugar de 'sem prurido'. Na versão nova, cada alternativa traz agente etiológico e conduta terapêutica correspondente, e a descrição do prurido foi redigida sem ambiguidade.",
+    "nota_adaptacao": "Paciente nova (mulher de 24 anos, oito meses de evolução, lesões em tórax anterior, ombros e dorso) e acréscimo de dois achados semiológicos que sustentam o diagnóstico e afastam o principal diferencial: fluorescência amarelo-dourada à luz de Wood e ausência de alteração de sensibilidade. As cinco alternativas viraram quatro, todas com par agente-tratamento, mantendo-se a chave de consenso na letra B, que coincide com a posição alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q010",
+    "tema": "Mudança de comportamento em saúde",
+    "subtema": "Modelo transteórico de Prochaska e DiClemente aplicado ao tabagismo",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_12",
+      "dcn2025_comp_06"
+    ],
+    "tags": [
+      "tabagismo",
+      "modelo_transteorico",
+      "entrevista_motivacional",
+      "prevencao",
+      "atencao_primaria"
+    ],
+    "texto_base": "Mulher de 52 anos comparece à unidade básica de saúde no fim da manhã apenas para renovar a receita do anti-hipertensivo. Ao entrar no consultório, a médica percebe forte odor de cigarro e aproveita o encontro para perguntar sobre o hábito. A paciente conta que fuma desde os 22 anos, cerca de 15 cigarros por dia, e diz que não pretende parar: afirma que o pai fumou a vida inteira e morreu aos 89 anos, que conhece muita gente que parou e adoeceu depois e que, na opinião dela, exageram no assunto. Nunca tentou cessar, não quer conversar sobre datas nem sobre medicamentos e, quando a médica insiste em explorar o tema, responde que veio buscar a receita e não ouvir conselhos, encerrando o assunto.",
+    "enunciado": "De acordo com o modelo transteórico de mudança de comportamento de Prochaska e DiClemente, em qual estágio se encontra esta paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pré-contemplação.",
+        "correta": true,
+        "justificativa": "Correta. A paciente não reconhece o comportamento como problema, minimiza o risco com argumentos pessoais, nunca tentou cessar e recusa discutir a mudança — características que definem o estágio em que ainda não existe intenção de mudar no horizonte próximo."
+      },
+      {
+        "letra": "B",
+        "texto": "Contemplação.",
+        "correta": false,
+        "justificativa": "Incorreta. Neste estágio a pessoa já admite o problema e demonstra ambivalência, pesando vantagens e desvantagens e cogitando mudar dentro de alguns meses, o que não ocorre com quem nega o risco e se recusa a abordar o tema."
+      },
+      {
+        "letra": "C",
+        "texto": "Preparação.",
+        "correta": false,
+        "justificativa": "Incorreta. A preparação supõe decisão já tomada e passos concretos, como marcar data para parar, reduzir a quantidade ou buscar apoio nas próximas semanas; nada disso aparece no relato da paciente."
+      },
+      {
+        "letra": "D",
+        "texto": "Manutenção.",
+        "correta": false,
+        "justificativa": "Incorreta. A manutenção descreve quem já interrompeu o comportamento e trabalha para sustentar a mudança e evitar recaída, situação incompatível com uma fumante ativa que jamais tentou cessar."
+      }
+    ],
+    "especialidade": "promocao_e_prevencao",
+    "especialidade_secundaria": "comunicacao_clinica",
+    "objeto_conhecimento": "Identificação do estágio motivacional no modelo transteórico e sua aplicação na abordagem do tabagismo",
+    "sistema_organico": null,
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_05",
+      "competencias": [
+        "enamed_comp_08",
+        "enamed_comp_10"
+      ],
+      "conteudos": [
+        "enamed_cont_13",
+        "enamed_cont_03"
+      ],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Ações de educação e promoção da saúde na atenção individual (comp. VIII) apoiadas em comunicação empática e adequada ao momento da pessoa (comp. X), mobilizando conteúdos de promoção/educação em saúde e de determinantes comportamentais do processo saúde-doença."
+    },
+    "defeito_corrigido": "A alternativa E do item de origem carregava ruído de digitalização ('Recaída. CIRURGIA GERAL', cabeçalho residual do caderno). O item novo foi digitado do zero, com quatro alternativas limpas, e o distrator de recaída foi substituído por 'manutenção', estágio cuja diferenciação é mais informativa nesta vinheta.",
+    "nota_adaptacao": "Vinheta inteiramente nova: mulher de 52 anos que vai à unidade para renovar receita de anti-hipertensivo, com carga tabágica, argumentos de negação e motivo de consulta diferentes do original. O conteúdo da chave de consenso (pré-contemplação) foi mantido e realocado para a letra A, conforme a posição alvo, e o comando passou a nomear o modelo como transteórico, terminologia corrente na literatura."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q011",
+    "tema": "Trauma pediátrico",
+    "subtema": "Prioridades do atendimento inicial no traumatismo cranioencefálico grave",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_14",
+      "dcn2025_comp_01",
+      "dcn2025_comp_20"
+    ],
+    "tags": [
+      "trauma_pediatrico",
+      "tce_grave",
+      "sequencia_rapida_de_intubacao",
+      "via_aerea",
+      "atendimento_inicial"
+    ],
+    "texto_base": "Menino de 5 anos, com 18 kg, é trazido pelo serviço de atendimento pré-hospitalar após ser atropelado por automóvel enquanto atravessava a rua. Chega imobilizado em prancha rígida, com colar cervical e sob máscara de oxigênio com reservatório. Ao exame: abre os olhos apenas à dor, emite sons incompreensíveis e retira o membro ao estímulo doloroso; pupila direita midriática e pouco reagente, pupila esquerda de 3 mm e reagente. Vias aéreas pérvias, com secreções em orofaringe e vômito recente. Murmúrio vesicular audível e simétrico, sem enfisema subcutâneo ou desvio de traqueia. Frequência cardíaca de 138 bpm, pressão arterial de 96 x 58 mmHg, tempo de enchimento capilar de 2 segundos, pulsos periféricos cheios, saturação de 96%. Abdome flácido, com escoriações no flanco esquerdo e sem defesa. Deformidade fechada em perna esquerda, com pulso pedioso presente. Hematoma subgaleal frontal. Glicemia capilar de 118 mg/dL.",
+    "enunciado": "Com base no atendimento inicial ao politraumatizado, qual é a conduta prioritária neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Encaminhar imediatamente à tomografia de crânio para definir a necessidade de neurocirurgia.",
+        "correta": false,
+        "justificativa": "Incorreta. A tomografia é indispensável na sequência do cuidado, mas transportar uma criança com rebaixamento profundo, vômito e via aérea desprotegida antes de assegurá-la a expõe a broncoaspiração, hipóxia e piora da lesão cerebral secundária."
+      },
+      {
+        "letra": "B",
+        "texto": "Imobilizar a perna esquerda e solicitar radiografias do membro antes de qualquer outra medida.",
+        "correta": false,
+        "justificativa": "Incorreta. A fratura fechada com perfusão distal preservada não representa ameaça imediata à vida e deve ser tratada após a estabilização das prioridades iniciais; antecipá-la inverte a lógica de atendimento sequencial ao politraumatizado."
+      },
+      {
+        "letra": "C",
+        "texto": "Realizar expansão volêmica com cristaloide aquecido, 20 mL/kg em bolus, por acesso venoso periférico.",
+        "correta": false,
+        "justificativa": "Incorreta. A criança apresenta pressão arterial adequada para a idade, enchimento capilar de 2 segundos e pulsos cheios, sem sinais de choque; a taquicardia isolada pode refletir dor e agitação, e expandir sem indicação não corrige o problema prioritário, que é a via aérea."
+      },
+      {
+        "letra": "D",
+        "texto": "Proceder à intubação orotraqueal em sequência rápida, após pré-oxigenação, utilizando tubo com balonete de tamanho apropriado, etomidato 0,3 mg/kg e rocurônio 1,2 mg/kg, com estabilização cervical manual em linha.",
+        "correta": true,
+        "justificativa": "Correta. A pontuação na escala de coma de Glasgow igual a 7, somada à anisocoria e ao risco de broncoaspiração, indica via aérea definitiva imediata; a sequência rápida com pré-oxigenação, dose plena de indutor e bloqueador neuromuscular protege contra hipóxia e picos de pressão intracraniana, e a estabilização cervical manual substitui a retirada temporária do colar."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": "urgencia_pediatrica",
+    "objeto_conhecimento": "Priorização do manejo de via aérea definitiva no traumatismo cranioencefálico grave em criança",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": [
+        "enamed_comp_05",
+        "enamed_comp_06"
+      ],
+      "conteudos": [
+        "enamed_cont_09",
+        "enamed_cont_10"
+      ],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Reconhecimento e tratamento de emergência traumática (comp. V) com indicação e execução de procedimento médico — via aérea definitiva — de forma tecnicamente adequada (comp. VI), em criança atendida na rede de urgência e emergência."
+    },
+    "defeito_corrigido": "No item de origem, a alternativa apontada como correta trazia etomidato 0,1 mg/kg, dose abaixo da faixa usual de indução (0,2 a 0,3 mg/kg), enquanto a alternativa que trazia doses adequadas indicava tubo sem balonete e continha erro de digitação ('EIntubação') — ou seja, nenhuma opção estava integralmente correta. Na versão nova, a alternativa correta reúne dose plena de indutor (etomidato 0,3 mg/kg), bloqueador neuromuscular em dose adequada e tubo com balonete, que é o dispositivo recomendado atualmente também em pediatria, e todo o texto foi revisado.",
+    "nota_adaptacao": "Criança nova (menino de 5 anos, 18 kg, atropelamento por automóvel), com sinais vitais, achados pupilares e lesões diferentes; a escala de coma foi apresentada de forma decomposta em abertura ocular, resposta verbal e motora, para que o candidato faça a soma. Optou-se por rocurônio no lugar da succinilcolina, evitando a discussão sobre bloqueador despolarizante no trauma e deixando a alternativa inequivocamente correta. As cinco alternativas passaram a quatro e a chave de consenso permaneceu, quanto ao conteúdo, na letra D, que é a posição alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q012",
+    "tema": "Abdome agudo na gestação",
+    "subtema": "Investigação por imagem da suspeita de apendicite aguda em gestante",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "tags": [
+      "apendicite",
+      "gestacao",
+      "ressonancia_magnetica",
+      "abdome_agudo",
+      "diagnostico_por_imagem"
+    ],
+    "texto_base": "Mulher de 28 anos, gestante de 26 semanas, procura o pronto-socorro por dor abdominal iniciada há cerca de 24 horas, primeiro difusa e periumbilical e depois localizada no flanco direito, acompanhada de náuseas e de dois episódios de vômito. Nega disúria, polaciúria, corrimento, sangramento vaginal, perda de líquido ou contrações. Percebe movimentação fetal normal. Ao exame: bom estado geral, corada, hidratada, temperatura axilar de 37,2 °C, pressão arterial de 108 x 68 mmHg, frequência cardíaca de 88 bpm, frequência respiratória de 18 irpm. Abdome gravídico, com altura uterina compatível, útero sem tônus aumentado, dor à palpação profunda no flanco direito, sem defesa involuntária nem descompressão dolorosa. Exames: hemoglobina 10,8 g/dL, leucócitos 13.200/mm³ sem desvio à esquerda, plaquetas 250.000/mm³, proteína C reativa 28 mg/L, creatinina 0,6 mg/dL, urina tipo I sem piúria, nitrito negativo e sem hematúria. A ultrassonografia abdominal e obstétrica não conseguiu visualizar o apêndice cecal, não mostrou líquido livre nem coleções e evidenciou feto único vivo, com peso estimado adequado. O serviço dispõe de ressonância magnética.",
+    "enunciado": "Assinale a alternativa que apresenta a hipótese diagnóstica principal e a conduta que dela decorre.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pielonefrite aguda; iniciar antibioticoterapia endovenosa empírica e internar para observação.",
+        "correta": false,
+        "justificativa": "Incorreta. A ausência de sintomas urinários, de febre significativa e de dor à punho-percussão lombar, somada ao exame de urina sem piúria e sem nitrito, torna a pielonefrite improvável e não justifica antibioticoterapia empírica sem investigar melhor a causa da dor."
+      },
+      {
+        "letra": "B",
+        "texto": "Apendicite aguda; indicar laparotomia exploradora de imediato, sem outros exames.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há sinais de peritonite ou de instabilidade que autorizem cirurgia sem confirmação, e o quadro é inespecífico o bastante para que a operação em branco, com seu risco de trabalho de parto prematuro e de perda fetal, deva ser evitada; além disso, quando indicada, a via de escolha é a videolaparoscopia."
+      },
+      {
+        "letra": "C",
+        "texto": "Apendicite aguda; solicitar tomografia computadorizada de abdome com contraste iodado.",
+        "correta": false,
+        "justificativa": "Incorreta. A tomografia expõe o feto à radiação ionizante e só se justifica quando não há alternativa disponível em tempo hábil; existindo ressonância no serviço, ela deve ser o método escolhido após ultrassonografia inconclusiva na gestante."
+      },
+      {
+        "letra": "D",
+        "texto": "Apendicite aguda; solicitar ressonância magnética de abdome sem contraste, mantendo a paciente internada em jejum, com analgesia, hidratação e reavaliações clínicas seriadas.",
+        "correta": true,
+        "justificativa": "Correta. Com ultrassonografia inconclusiva — situação frequente após o segundo trimestre, pelo deslocamento cecal — a ressonância magnética sem gadolínio é o exame de escolha na gestante, por alta acurácia e ausência de radiação ionizante, enquanto a observação hospitalar com jejum permite detectar precocemente qualquer deterioração."
+      }
+    ],
+    "especialidade": "abdome_agudo",
+    "especialidade_secundaria": "intercorrencias_obstetricas",
+    "objeto_conhecimento": "Escolha do método de imagem na suspeita de apendicite aguda durante a gestação",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": [
+        "enamed_comp_03",
+        "enamed_comp_02"
+      ],
+      "conteudos": [
+        "enamed_cont_09",
+        "enamed_cont_10"
+      ],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Solicitação e interpretação de exame complementar considerando risco-benefício, acesso ao teste e segurança da paciente e do feto (comp. III), a partir de hipótese diagnóstica construída pela história e pelo exame físico (comp. II), na rede de urgência e emergência."
+    },
+    "defeito_corrigido": "O item de origem gerava disputa legítima entre indicar cirurgia diretamente e solicitar novo exame, porque a paciente estava febril, com leucocitose de 17.500 e dois dias de evolução — quadro que muitas bancas consideram suficiente para operar; havia ainda erro de unidade na proteína C reativa (informada em mg/dL). Na versão nova o quadro foi deliberadamente construído como indeterminado: paciente afebril, sem defesa ou descompressão, leucometria de 13.200 sem desvio (dentro do esperado na gestação) e proteína C reativa discretamente elevada, com unidade corrigida para mg/L. O enunciado também informa que o serviço dispõe de ressonância, eliminando a dúvida sobre a disponibilidade do método.",
+    "nota_adaptacao": "Gestante nova (28 anos, 26 semanas, 24 horas de evolução) com exame físico e laboratório reescritos e um distrator de pielonefrite acrescentado, diferencial obrigatório nesse cenário. Cinco alternativas foram reduzidas a quatro, todas redigidas do zero, e a alternativa de cirurgia imediata foi mantida como distrator, mas com a via laparotômica, que é inadequada na gestante e reforça sua incorreção. O conteúdo da chave de consenso (apendicite com solicitação de ressonância) foi preservado e realocado para a letra D, conforme a posição alvo."
+  }
+]

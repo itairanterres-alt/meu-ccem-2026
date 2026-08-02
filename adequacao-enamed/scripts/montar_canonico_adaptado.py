@@ -39,6 +39,13 @@ FONTE_GER = "adequacao-enamed — item adaptado (reescrito) a partir de simulado
 JANELA = 9
 
 
+def corta(t, lim):
+    t = (t or "").strip()
+    if len(t) <= lim:
+        return t or None
+    return t[:lim - 1].rsplit(" ", 1)[0] + "…"
+
+
 def normaliza(t):
     return re.sub(r"[^a-zà-ú0-9 ]", " ", (t or "").lower())
 
@@ -63,7 +70,10 @@ def montar(orig, ad, validos):
     area = ad.get("area_clinica")
     if area not in AREA2UC:
         raise erro(f"area_clinica inválida: {area!r}")
-    if ad.get("nivel_bloom") not in BLOOM:
+    # O enum institucional usa a taxonomia de Bloom original ("conhecimento");
+    # a revisada chama o mesmo nível de "lembrar". Mesmo degrau, nome diferente.
+    bloom = {"lembrar": "conhecimento"}.get(ad.get("nivel_bloom"), ad.get("nivel_bloom"))
+    if bloom not in BLOOM:
         raise erro(f"nivel_bloom inválido: {ad.get('nivel_bloom')!r}")
     if ad.get("dificuldade_editorial") not in DIFIC:
         raise erro(f"dificuldade inválida: {ad.get('dificuldade_editorial')!r}")
@@ -86,12 +96,19 @@ def montar(orig, ad, validos):
         if len((a.get("justificativa") or "").strip()) < 40:
             raise erro(f"alternativa {a['letra']} sem justificativa consistente")
 
+    # A vinheta pode vir em `texto_base` com só o comando no `enunciado` — é o
+    # formato pedido para casos longos. Portanto o tamanho mínimo e a checagem
+    # de cópia valem sobre o TEXTO INTEIRO do item, não sobre o enunciado isolado.
     enun_novo = (ad.get("enunciado") or "").strip()
-    if len(enun_novo) < 80:
-        raise erro("enunciado curto demais para um item de prova")
-    if sobreposicao(enun_novo, orig["enunciado_origem"]):
-        raise erro(f"enunciado repete {JANELA}+ palavras seguidas do original — "
-                   "é reprodução, não adaptação")
+    base_novo = (ad.get("texto_base") or "").strip()
+    if not enun_novo:
+        raise erro("sem enunciado")
+    if len(base_novo) + len(enun_novo) < 80:
+        raise erro("texto curto demais para um item de prova")
+    for rotulo, txt in (("enunciado", enun_novo), ("texto_base", base_novo)):
+        if txt and sobreposicao(txt, orig["enunciado_origem"]):
+            raise erro(f"{rotulo} repete {JANELA}+ palavras seguidas do original — "
+                       "é reprodução, não adaptação")
     for a in alts:
         for texto_velho in (orig["alternativas_origem"] or {}).values():
             if sobreposicao(a["texto"], texto_velho):
@@ -107,9 +124,10 @@ def montar(orig, ad, validos):
     if m.get("cenario") and m["cenario"] not in CE:
         raise erro(f"cenário da matriz inválido: {m['cenario']!r}")
 
-    texto_base, enunciado = split_vinheta(enun_novo)
-    if ad.get("texto_base") and not texto_base:
-        texto_base = ad["texto_base"].strip()
+    if base_novo:
+        texto_base, enunciado = base_novo, enun_novo
+    else:
+        texto_base, enunciado = split_vinheta(enun_novo)
 
     fonte = orig["fonte"]
     return {
@@ -121,7 +139,7 @@ def montar(orig, ad, validos):
         "sp_referencia": None,
         "cenario_origem": ["preparacao_enamed"],
         "competencia_dcn_2025": ad["competencia_dcn_2025"],
-        "nivel_bloom": ad["nivel_bloom"],
+        "nivel_bloom": bloom,
         "area_clinica": area,
         "dificuldade_editorial": ad["dificuldade_editorial"],
         "tags": ad.get("tags", []),
@@ -155,7 +173,8 @@ def montar(orig, ad, validos):
             "matriz_enamed_478_2025": {
                 "area": m["area"], "competencias": m["competencias"],
                 "conteudos": m["conteudos"], "cenario": m.get("cenario"),
-                "justificativa": m.get("justificativa"),
+                # o schema limita a 300; é rótulo descritivo, corta no espaço
+                "justificativa": corta(m.get("justificativa"), 300),
             },
         },
         "_proveniencia": {

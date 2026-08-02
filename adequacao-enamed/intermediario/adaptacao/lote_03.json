@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q026",
+    "tema": "Abdome agudo inflamatório",
+    "subtema": "Apendicite aguda não complicada: decisão terapêutica após imagem diagnóstica",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["apendicite", "abdome agudo", "apendicectomia", "videolaparoscopia", "emergencia cirurgica"],
+    "texto_base": "Uma mulher de 31 anos procura a unidade de pronto atendimento referindo desconforto periumbilical iniciado na véspera, que migrou nas últimas horas para o quadrante inferior direito. Refere inapetência e um episódio de vômito. Está lúcida, com frequência cardíaca de 98 bpm, pressão arterial de 118 x 74 mmHg e temperatura axilar de 37,9 °C. A palpação do quadrante inferior direito desperta dor com descompressão dolorosa localizada, sem rigidez difusa e sem massa palpável. O hemograma mostra 13.400 leucócitos/mm³ (VR 4.000-11.000) com 84% de neutrófilos, e o beta-HCG sérico é negativo. A tomografia de abdome e pelve com contraste venoso, já realizada na própria unidade, revela apêndice cecal com 11 mm de diâmetro transverso, paredes espessadas e com realce mural, discreta densificação da gordura periapendicular, ausência de coleção organizada, ausência de gás extraluminal e ausência de pneumoperitônio.",
+    "enunciado": "Considerando o estágio da doença e o resultado do exame de imagem já disponível, a conduta indicada é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Apendicectomia videolaparoscópica, precedida de antibioticoprofilaxia e de reposição volêmica ainda na sala de emergência.",
+        "correta": true,
+        "justificativa": "Correta. O diagnóstico de apendicite aguda não complicada já está firmado por clínica, laboratório e tomografia; a ressecção do apêndice por via minimamente invasiva é o tratamento de escolha, e a profilaxia antimicrobiana na indução anestésica reduz infecção de sítio cirúrgico."
+      },
+      {
+        "letra": "B",
+        "texto": "Antibioticoterapia oral exclusiva em domicílio, com reavaliação clínica somente após dez dias.",
+        "correta": false,
+        "justificativa": "Incorreta. O manejo não operatório é opção restrita a casos selecionados, com decisão compartilhada e vigilância próxima; entregá-lo em regime domiciliar exclusivo, sem reavaliação precoce, expõe a paciente a perfuração e a falha terapêutica de até um terço dos casos."
+      },
+      {
+        "letra": "C",
+        "texto": "Drenagem percutânea guiada por tomografia, com apendicectomia programada oito semanas depois.",
+        "correta": false,
+        "justificativa": "Incorreta. A drenagem percutânea seguida de ressecção tardia atende ao abscesso apendicular ou ao plastrão bloqueado, situações que a tomografia descreve com coleção organizada; aqui não há coleção nem massa inflamatória, o que torna o procedimento desnecessário."
+      },
+      {
+        "letra": "D",
+        "texto": "Repetir a tomografia com protocolo de baixa dose em 24 horas antes de qualquer decisão terapêutica.",
+        "correta": false,
+        "justificativa": "Incorreta. A imagem disponível já é diagnóstica e repetir o exame apenas adiciona radiação, custo e atraso; a postergação de 24 horas em apendicite confirmada aumenta de forma mensurável o risco de perfuração e de complicações pós-operatórias."
+      }
+    ],
+    "especialidade": "abdome_agudo",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Conduta terapêutica na apendicite aguda não complicada do adulto",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_04", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Item de Cirurgia Geral que exige formular a hipótese diagnóstica a partir de história, exame físico e exames complementares e indicar o procedimento cirúrgico adequado em porta de urgência hospitalar."
+    },
+    "defeito_corrigido": "No item de origem a alternativa da tomografia de baixa dose competia com a cirurgia como 'conduta inicial', porque a imagem ainda não havia sido feita. No item novo a tomografia já foi realizada e está descrita no enunciado, de modo que a decisão passa a ser exclusivamente terapêutica e existe uma única resposta defensável.",
+    "nota_adaptacao": "Novo paciente (mulher de 31 anos, pronto atendimento) e novos parâmetros clínicos e laboratoriais. Preservados o objeto de conhecimento (conduta na apendicite aguda) e a competência de decisão terapêutica. Alternativas escritas do zero, com distratores que exploram manejo não operatório, abscesso apendicular e repetição desnecessária de imagem. Chave de consenso (A) mantida e reposicionada conforme posicao_correta_alvo = A."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q027",
+    "tema": "Cuidado pós-operatório em cirurgia geral",
+    "subtema": "Uso racional de antimicrobianos após apendicectomia por apendicite não complicada",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_18", "dcn2025_comp_20"],
+    "tags": ["antibioticoprofilaxia", "pos-operatorio", "apendicectomia", "uso racional de antimicrobianos", "alta hospitalar"],
+    "texto_base": "Um adolescente de 15 anos encontra-se no primeiro dia após apendicectomia realizada por videolaparoscopia. A descrição operatória informa apêndice edemaciado e congesto, com serosa íntegra, sem áreas de necrose, sem perfuração e sem secreção purulenta na cavidade; não houve necessidade de lavagem peritoneal nem de drenagem. Recebeu cefazolina e metronidazol na indução anestésica e uma dose adicional no pós-operatório imediato. Nesta manhã encontra-se afebril, deambulando pelo corredor da enfermaria, aceitando dieta líquida sem náuseas, com dor controlada por analgésico simples, ferida operatória limpa e seca e ruídos hidroaéreos presentes. O hemograma de controle mostra 8.200 leucócitos/mm³, sem desvio à esquerda.",
+    "enunciado": "Sobre o uso de antimicrobianos e o destino deste paciente, a decisão correta neste momento é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Prolongar a cobertura por mais cinco dias com cefalexina em domicílio, para reduzir infecção de sítio cirúrgico.",
+        "correta": false,
+        "justificativa": "Incorreta. Estender a profilaxia além do período perioperatório não diminui infecção de sítio cirúrgico em apendicite não complicada e aumenta eventos adversos, seleção de resistência bacteriana e risco de diarreia associada a Clostridioides difficile."
+      },
+      {
+        "letra": "B",
+        "texto": "Manter a internação até completar sete dias de esquema venoso, dada a contaminação inerente ao procedimento.",
+        "correta": false,
+        "justificativa": "Incorreta. Esquemas venosos prolongados são reservados à apendicite complicada, com perfuração, necrose ou abscesso; nesse caso a operação foi limpa-contaminada e curativa, e a internação prolongada apenas expõe o adolescente a infecção relacionada à assistência."
+      },
+      {
+        "letra": "C",
+        "texto": "Interromper os antimicrobianos e liberar o adolescente para casa com analgesia simples e orientações de retorno.",
+        "correta": true,
+        "justificativa": "Correta. Na apendicite não complicada os antimicrobianos têm papel apenas profilático e devem ser encerrados nas primeiras 24 horas; com paciente afebril, deambulando e aceitando dieta, a alta precoce com analgesia e sinais de alerta é a conduta recomendada."
+      },
+      {
+        "letra": "D",
+        "texto": "Trocar para ciprofloxacino associado a metronidazol por via oral, mantendo o tratamento por sete dias após a alta.",
+        "correta": false,
+        "justificativa": "Incorreta. A troca por via oral pressupõe um tratamento em andamento que não existe neste caso; além disso, fluoroquinolonas em adolescentes sem indicação formal acrescentam risco de tendinopatia e de resistência sem qualquer benefício demonstrado."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": "abdome_agudo",
+    "objeto_conhecimento": "Duração da antibioticoprofilaxia e critérios de alta após apendicectomia não complicada",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_04", "enamed_comp_14"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Avalia a elaboração do plano terapêutico pós-operatório com base em evidências e uso racional de recursos, em enfermaria cirúrgica de serviço hospitalar."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente, achados operatórios e esquema profilático reescritos (cefazolina e metronidazol em vez de ceftriaxona), com dados de evolução novos. Objeto de conhecimento preservado: encerramento da profilaxia e alta precoce na apendicite não complicada. A resposta correta, equivalente à chave de consenso (B do original), foi realocada para a letra C conforme posicao_correta_alvo. Distratores refeitos, incluindo um que testa a falsa premissa de que a ausência de formulação oral obrigaria internação."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q028",
+    "tema": "Pancreatite aguda",
+    "subtema": "Pancreatite aguda biliar leve: suporte clínico e momento da colecistectomia",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["pancreatite biliar", "colelitiase", "colecistectomia", "CPRE", "gravidade"],
+    "texto_base": "Homem de 36 anos, sem comorbidades e sem uso de álcool, chega ao pronto-socorro com dor de forte intensidade no andar superior do abdome, iniciada há cerca de 30 horas, em faixa, com irradiação para o dorso e acompanhada de vômitos repetidos. Nega febre, icterícia ou colúria. Ao exame está consciente, hidratado, com frequência cardíaca de 96 bpm, pressão arterial de 126 x 78 mmHg, temperatura axilar de 36,8 °C, abdome doloroso à palpação do epigástrio, sem descompressão dolorosa e sem massas. Exames: leucócitos 11.900/mm³ (VR 4.000-11.000), hemoglobina 14,8 g/dL, ureia 28 mg/dL, creatinina 0,9 mg/dL, cálcio 9,2 mg/dL, amilase 720 U/L (VR 20-96), lipase 1.240 U/L (VR 4-43), bilirrubina total 1,4 mg/dL (VR 0,2-1,2), fosfatase alcalina 168 U/L (VR 33-96), gama-glutamiltransferase 210 U/L (VR 7-60) e proteína C reativa 38 mg/L. A ultrassonografia de abdome mostra microcálculos móveis na vesícula, parede vesicular de 2 mm, sem líquido perivesicular, e colédoco de 5 mm. Após 24 horas de hidratação venosa permanece afebril, com diurese preservada, sem disfunção orgânica e com dor bem controlada.",
+    "enunciado": "Diante do diagnóstico e da gravidade estabelecida até aqui, a conduta apropriada é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Colangiopancreatografia retrógrada endoscópica com papilotomia nas primeiras 24 horas, para desobstruir a via biliar.",
+        "correta": false,
+        "justificativa": "Incorreta. A abordagem endoscópica precoce só se justifica quando há colangite aguda associada ou obstrução biliar persistente; o paciente está afebril, com colédoco de calibre normal e sem padrão colestático progressivo, de modo que o procedimento acrescentaria risco sem benefício."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar imediatamente tomografia de abdome com contraste, para definir o grau de necrose pancreática.",
+        "correta": false,
+        "justificativa": "Incorreta. A tomografia contrastada só caracteriza necrose de forma confiável após 72 a 96 horas do início dos sintomas e está indicada em quadros graves ou com piora clínica; em pancreatite leve o exame não altera a conduta e expõe a nefrotoxicidade e radiação."
+      },
+      {
+        "letra": "C",
+        "texto": "Manter suporte clínico com hidratação, analgesia e reintrodução precoce da dieta oral, programando colecistectomia videolaparoscópica ainda nesta internação.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de pancreatite aguda biliar leve, sem falência orgânica nem complicação local, cujo tratamento é de suporte; remover a vesícula na mesma internação reduz de forma consistente recorrência de pancreatite, cólica biliar e reinternações."
+      },
+      {
+        "letra": "D",
+        "texto": "Dar alta com dieta pobre em gorduras e agendar a colecistectomia para daqui a seis meses.",
+        "correta": false,
+        "justificativa": "Incorreta. Adiar a operação mantém a litíase como fonte ativa de novos episódios, com risco de recorrência que chega a um quinto dos pacientes em poucas semanas; restrição de gordura isolada não previne migração de cálculos."
+      }
+    ],
+    "especialidade": "abdome_agudo",
+    "especialidade_secundaria": "gastroenterologia",
+    "objeto_conhecimento": "Estratificação de gravidade e tratamento da pancreatite aguda de origem biliar",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_03", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Exige interpretar exames laboratoriais e de imagem para classificar a gravidade e definir plano terapêutico, incluindo o momento da intervenção cirúrgica, em serviço hospitalar de urgência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Trocados sexo, idade e todos os valores laboratoriais; a vinheta original misturava colecistite e pancreatite, e a nova define com clareza pancreatite biliar leve (sem espessamento parietal vesicular nem sinal de Murphy), o que elimina a competição entre os diagnósticos. Objeto de conhecimento preservado. A resposta equivalente à chave de consenso (D no original) ocupa a letra C, conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q029",
+    "tema": "Doença biliar litiásica complicada",
+    "subtema": "Colecistite aguda grave em paciente com risco cirúrgico proibitivo",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_10"],
+    "tags": ["colecistite aguda", "colecistostomia percutanea", "idoso fragil", "sepse", "risco cirurgico"],
+    "texto_base": "Mulher de 86 anos, residente em instituição de longa permanência, restrita ao leito após fratura de fêmur, portadora de insuficiência cardíaca com fração de ejeção de 28% e de fibrilação atrial em uso de anticoagulante oral, é levada ao hospital por prostração e recusa alimentar há dois dias. A cuidadora relata queixa de dor à manipulação do flanco direito. Na admissão encontra-se sonolenta, respondendo apenas ao chamado vigoroso, com frequência cardíaca de 118 bpm, pressão arterial de 88 x 52 mmHg exigindo noradrenalina em dose baixa, temperatura axilar de 38,7 °C e diurese de 0,2 mL/kg/h. Exames: leucócitos 21.300/mm³ com 12% de bastões, creatinina 2,7 mg/dL (basal de 0,9 mg/dL), lactato 3,8 mmol/L, bilirrubina total 1,3 mg/dL e proteína C reativa 240 mg/L. A ultrassonografia realizada à beira do leito descreve vesícula biliar distendida, medindo 11 cm no maior eixo, com parede de 7 mm e aspecto estratificado, cálculo impactado no infundíbulo, lâmina de líquido perivesicular e dor intensa à compressão do transdutor sobre a vesícula; não há dilatação de vias biliares intra-hepáticas nem do colédoco. A avaliação anestésica considera a paciente de risco proibitivo para procedimento sob anestesia geral neste momento.",
+    "enunciado": "Além da antibioticoterapia de amplo espectro e do suporte hemodinâmico já iniciados, a conduta indicada é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Manter apenas a antibioticoterapia venosa por dez dias, reservando qualquer intervenção para eventual falha clínica.",
+        "correta": false,
+        "justificativa": "Incorreta. Há cálculo impactado no infundíbulo mantendo a vesícula sob tensão e disfunção orgânica instalada; sem drenagem do foco a resposta ao antimicrobiano é improvável e o risco de gangrena e perfuração vesicular é elevado."
+      },
+      {
+        "letra": "B",
+        "texto": "Indicar colecistectomia videolaparoscópica de urgência, por ser o tratamento definitivo da colecistite calculosa.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a colecistectomia precoce seja padrão para pacientes com risco aceitável, a avaliação anestésica classificou esta paciente como proibitiva no momento; operar sob choque, disfunção renal e cardiopatia grave eleva substancialmente a mortalidade."
+      },
+      {
+        "letra": "C",
+        "texto": "Realizar colangiopancreatografia retrógrada endoscópica com drenagem biliar, por se tratar de obstrução do colédoco.",
+        "correta": false,
+        "justificativa": "Incorreta. A ultrassonografia não mostra dilatação de vias biliares e a bilirrubina está praticamente normal, o que afasta obstrução do colédoco; a drenagem endoscópica retrógrada não descomprime a vesícula com cálculo impactado no infundíbulo."
+      },
+      {
+        "letra": "D",
+        "texto": "Drenar a vesícula por colecistostomia percutânea guiada por imagem, deixando a colecistectomia para depois da compensação clínica.",
+        "correta": true,
+        "justificativa": "Correta. Na colecistite aguda grave em paciente sem condições clínicas para cirurgia, a drenagem percutânea controla o foco infeccioso com anestesia local, permite estabilização e possibilita programar a colecistectomia eletiva ou manter conduta conservadora conforme a evolução."
+      }
+    ],
+    "especialidade": "abdome_agudo",
+    "especialidade_secundaria": "geriatria",
+    "objeto_conhecimento": "Controle de foco na colecistite aguda grave do idoso frágil",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_04", "enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Aborda o reconhecimento e o tratamento de emergência não traumática com disfunção orgânica, com indicação de procedimento minimamente invasivo ajustado ao risco individual, em serviço hospitalar de urgência."
+    },
+    "defeito_corrigido": "O item de origem remetia a um achado ultrassonográfico que não era reproduzido ('achado abaixo'), obrigando a inferir a imagem. No item novo todos os achados de ultrassonografia estão descritos por extenso no texto (vesícula distendida de 11 cm, parede de 7 mm estratificada, cálculo impactado no infundíbulo, líquido perivesicular, Murphy ultrassonográfico positivo, vias biliares não dilatadas), tornando o item autossuficiente.",
+    "nota_adaptacao": "Novo paciente (mulher de 86 anos institucionalizada, com insuficiência cardíaca avançada) e novo perfil laboratorial. Objeto de conhecimento preservado: escolha do método de controle de foco na colecistite aguda de paciente inoperável. Acrescentada a avaliação anestésica explícita para eliminar dúvida entre colecistectomia e drenagem. Resposta correta posicionada em D, conforme posicao_correta_alvo, coincidindo com a chave de consenso."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q030",
+    "tema": "Trauma torácico",
+    "subtema": "Pneumotórax hipertensivo diagnosticado por ultrassonografia à beira do leito",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_14"],
+    "tags": ["pneumotorax hipertensivo", "E-FAST", "ponto pulmonar", "trauma", "descompressao toracica"],
+    "texto_base": "Mulher de 44 anos cai de um andaime, de cerca de cinco metros de altura, e é trazida pelo resgate imobilizada em prancha rígida e colar cervical, intubada na cena por rebaixamento do nível de consciência. Na chegada à sala vermelha estava estável: pressão arterial de 124 x 76 mmHg, saturação de 97%, capnografia de 36 mmHg e tubo orotraqueal fixado a 21 cm na arcada dentária, com expansão e ausculta simétricas confirmadas. A tomografia de crânio evidenciou hematoma subdural agudo laminar, sem desvio da linha média, e as demais aquisições não mostraram lesões. Ao retornar do tomógrafo, apresenta queda progressiva da saturação até 79% com fração inspirada de oxigênio de 100%, capnografia de 17 mmHg, pressão arterial de 74 x 40 mmHg e frequência cardíaca de 138 bpm. O tubo permanece fixado a 21 cm, o circuito ventilatório está acoplado e a curva de capnografia mantém traçado, porém de baixa amplitude. O hemitórax esquerdo encontra-se hipertimpânico à percussão, com murmúrio vesicular abolido, e há turgência jugular. A ultrassonografia à beira do leito mostra, no modo M, padrão em código de barras no segundo espaço intercostal esquerdo, padrão em praia à direita com deslizamento pleural preservado e identificação de ponto pulmonar na linha axilar anterior esquerda.",
+    "enunciado": "A hipótese diagnóstica e a medida imediata que devem orientar a equipe são:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Intubação seletiva do brônquio principal direito; tracionar o tubo cerca de três centímetros e reavaliar a ausculta.",
+        "correta": false,
+        "justificativa": "Incorreta. A migração do tubo aboliria o deslizamento pleural à esquerda por atelectasia, mas não produz ponto pulmonar, hipertimpanismo nem turgência jugular; além disso a fixação permanece nos mesmos 21 cm registrados na admissão."
+      },
+      {
+        "letra": "B",
+        "texto": "Pneumotórax hipertensivo à esquerda; descompressão torácica imediata seguida de drenagem pleural em selo d'água.",
+        "correta": true,
+        "justificativa": "Correta. Hipoxemia refratária, queda abrupta da capnografia por redução do débito cardíaco, hipotensão, turgência jugular, hipertimpanismo e ponto pulmonar ao ultrassom configuram pneumotórax hipertensivo, cujo tratamento é a descompressão sem aguardar radiografia, seguida de drenagem."
+      },
+      {
+        "letra": "C",
+        "texto": "Contusão pulmonar bilateral evoluindo para desconforto respiratório agudo; elevar a pressão expiratória final positiva.",
+        "correta": false,
+        "justificativa": "Incorreta. A contusão pulmonar não cursa com hipertimpanismo, abolição unilateral do murmúrio, turgência jugular ou ponto pulmonar; aumentar a pressão expiratória final agravaria o escape aéreo e a instabilidade hemodinâmica."
+      },
+      {
+        "letra": "D",
+        "texto": "Deslocamento acidental do tubo para o esôfago; retirar o dispositivo e reintubar sob laringoscopia direta.",
+        "correta": false,
+        "justificativa": "Incorreta. A presença de curva de capnografia com traçado sustentado confirma que o tubo permanece na traqueia; na intubação esofágica o dióxido de carbono expirado desaparece rapidamente, além de não haver explicação para os achados torácicos localizados."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": "cirurgia_toracica",
+    "objeto_conhecimento": "Deterioração respiratória no politraumatizado ventilado e diagnóstico diferencial pelo E-FAST",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Avalia o reconhecimento e o tratamento imediato de emergência traumática com risco de morte e a indicação de procedimento invasivo de urgência na sala de trauma."
+    },
+    "defeito_corrigido": "O item de origem rotulava como 'pneumotórax simples' um quadro com hipoxemia grave, hipotensão e queda da capnografia, o que é imprecisão terminológica: trata-se de pneumotórax hipertensivo. A alternativa correta agora usa o termo adequado. Além disso, a origem deixava o distrator da intubação seletiva parcialmente defensável, porque a atelectasia do pulmão esquerdo também abole o deslizamento pleural; o item novo acrescenta ponto pulmonar, hipertimpanismo, turgência jugular e a informação de que a fixação do tubo não mudou, discriminadores que excluem essa hipótese.",
+    "nota_adaptacao": "Novo paciente (mulher de 44 anos, queda de altura, hematoma subdural), lateralidade dos achados invertida e todos os números trocados. Objeto de conhecimento preservado: raciocínio diagnóstico diante de deterioração ventilatória com uso do E-FAST. A alternativa correta migra para a letra B, conforme posicao_correta_alvo, e o conteúdo da chave de consenso foi mantido, porém corrigido para 'hipertensivo'."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q031",
+    "tema": "Trauma abdominal penetrante",
+    "subtema": "Indicação de laparotomia no paciente com instabilidade hemodinâmica",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_14"],
+    "tags": ["trauma penetrante", "choque hemorragico", "FAST", "laparotomia", "ATLS"],
+    "texto_base": "Homem de 41 anos chega à emergência 25 minutos após agressão com faca, apresentando dois ferimentos puntiformes: um no flanco esquerdo e outro na região periumbilical, ambos sem exteriorização de vísceras. Está agitado, com pele fria e pegajosa, frequência cardíaca de 142 bpm, pressão arterial de 78 x 44 mmHg, frequência respiratória de 30 incursões por minuto e pulso radial filiforme. A via aérea está pérvia, a expansão torácica é simétrica e a radiografia de tórax obtida na sala não mostra pneumotórax nem hemotórax. O abdome é difusamente doloroso, sem rigidez ou descompressão dolorosa evidentes. Foram obtidos dois acessos venosos periféricos calibrosos, infundido um litro de cristaloide aquecido e iniciada transfusão de concentrado de hemácias e plasma conforme o protocolo institucional de transfusão maciça. O FAST realizado na sala de trauma evidencia lâmina líquida anecoica no recesso hepatorrenal e no espaço esplenorrenal, com janela pericárdica sem derrame. Após essa reposição inicial, a pressão arterial permanece em 84 x 48 mmHg e a frequência cardíaca em 130 bpm.",
+    "enunciado": "Considerando a resposta à reanimação e os achados descritos, o próximo passo é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tomografia de abdome com contraste venoso, oral e retal, para caracterizar as lesões antes de qualquer intervenção.",
+        "correta": false,
+        "justificativa": "Incorreta. Transportar ao tomógrafo um paciente que não responde de forma sustentada à reposição volêmica retarda o controle da hemorragia e o coloca em ambiente sem recursos de reanimação; a tomografia se reserva a vítimas estáveis."
+      },
+      {
+        "letra": "B",
+        "texto": "Exploração digital dos ferimentos à beira do leito, para verificar violação da aponeurose antes de decidir.",
+        "correta": false,
+        "justificativa": "Incorreta. A exploração local pode ser útil em ferimento anterior isolado de paciente estável, mas aqui já existem instabilidade persistente e líquido livre intraperitoneal; a manobra é irrelevante para a decisão e pode deslocar coágulos e agravar o sangramento."
+      },
+      {
+        "letra": "C",
+        "texto": "Laparotomia exploradora imediata, encaminhando o paciente ao centro cirúrgico sem novos exames de imagem.",
+        "correta": true,
+        "justificativa": "Correta. A combinação de ferimento penetrante, choque que responde apenas transitoriamente à reposição e líquido livre intraperitoneal ao FAST define hemorragia abdominal ativa; a indicação é cirúrgica imediata, para controle do foco de sangramento."
+      },
+      {
+        "letra": "D",
+        "texto": "Videolaparoscopia diagnóstica sob anestesia geral, para avaliar o diafragma e evitar laparotomia desnecessária.",
+        "correta": false,
+        "justificativa": "Incorreta. A laparoscopia tem espaço na avaliação do diafragma em ferimentos toracoabdominais de pacientes estáveis; no choque hemorrágico o pneumoperitônio compromete ainda mais o retorno venoso e a técnica não permite controle rápido da hemorragia."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Critérios de laparotomia imediata no trauma abdominal penetrante com instabilidade",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Trata do reconhecimento e do tratamento de emergência traumática com choque hemorrágico e da indicação de procedimento cirúrgico de urgência em serviço hospitalar."
+    },
+    "defeito_corrigido": "O item de origem citava uma imagem de FAST que não era reproduzida. No item novo o resultado do FAST está descrito integralmente em texto (lâmina líquida anecoica em recesso hepatorrenal e espaço esplenorrenal, pericárdio sem derrame), dispensando qualquer figura.",
+    "nota_adaptacao": "Novo paciente e novo mecanismo de ferimento (flanco esquerdo e região periumbilical), com valores hemodinâmicos e volume de reposição diferentes. Retirada a hematúria macroscópica do caso original, que introduzia ruído sobre lesão urológica sem alterar a conduta. Objeto de conhecimento preservado. A resposta correta ocupa a letra C, conforme posicao_correta_alvo, coincidindo com a chave de consenso."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q032",
+    "tema": "Doença do refluxo gastroesofágico",
+    "subtema": "Avaliação pré-operatória da DRGE com esofagite erosiva refratária",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["DRGE", "esofagite erosiva", "manometria de alta resolucao", "fundoplicatura", "inibidor de bomba de protons"],
+    "texto_base": "Homem de 52 anos é reavaliado no ambulatório de gastroenterologia por pirose e regurgitação diárias há mais de um ano, com predomínio ao deitar-se. Foi orientado quanto a elevação da cabeceira, perda ponderal, redução de álcool e fracionamento das refeições, medidas que segue com boa adesão, tendo reduzido o índice de massa corporal de 31 para 28 kg/m². Está em uso de esomeprazol 40 mg duas vezes ao dia, tomado trinta minutos antes do café da manhã e do jantar, há doze semanas, sem melhora sustentada dos sintomas. Nega disfagia, emagrecimento involuntário, anemia, vômitos ou dor torácica desencadeada por esforço. A endoscopia digestiva alta, realizada em vigência do tratamento otimizado, mostra erosões confluentes que envolvem menos de três quartos da circunferência esofágica, classificadas como esofagite grau C de Los Angeles, sem estenose e sem epitélio colunar de aspecto metaplásico. As biópsias afastaram esofagite eosinofílica. O paciente manifesta interesse em discutir o tratamento cirúrgico.",
+    "enunciado": "Uma vez que a otimização do inibidor de bomba de prótons já foi feita e documentada, a conduta correta neste momento é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Manter exatamente o mesmo esquema por mais seis meses, pois a cicatrização da esofagite grau C exige tratamento prolongado.",
+        "correta": false,
+        "justificativa": "Incorreta. O paciente já cumpriu doze semanas com dose dobrada e horários corretos, sem controle sintomático nem cicatrização das erosões; simplesmente prolongar o mesmo esquema não muda o desfecho e apenas adia a investigação da refratariedade."
+      },
+      {
+        "letra": "B",
+        "texto": "Indicar derivação gástrica em Y de Roux, independentemente do índice de massa corporal, por ser a operação antirrefluxo de escolha.",
+        "correta": false,
+        "justificativa": "Incorreta. A derivação gástrica é excelente operação antirrefluxo, porém indicada quando há obesidade com critério cirúrgico; com índice de massa corporal de 28 kg/m² não existe indicação metabólica, e a fundoplicatura é a alternativa apropriada."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar manometria de alta resolução do esôfago para avaliar a peristalse e a competência do esfíncter inferior antes da cirurgia antirrefluxo.",
+        "correta": true,
+        "justificativa": "Correta. A esofagite grau C já confirma a doença do refluxo, mas toda indicação de fundoplicatura exige documentar a motilidade do corpo esofágico e excluir acalasia ou aperistalse, condições que contraindicam ou modificam o tipo de válvula a ser construída."
+      },
+      {
+        "letra": "D",
+        "texto": "Programar cardiomiotomia a Heller com fundoplicatura parcial, procedimento consagrado para o refluxo refratário.",
+        "correta": false,
+        "justificativa": "Incorreta. A cardiomiotomia é o tratamento da acalasia, doença caracterizada por falha de relaxamento do esfíncter inferior; realizá-la em paciente com refluxo comprovado destruiria a barreira antirrefluxo e agravaria a esofagite."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": "gastroenterologia",
+    "objeto_conhecimento": "Escalonamento diagnóstico e terapêutico na DRGE refratária ao inibidor de bomba de prótons",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Envolve solicitar e interpretar exame complementar com boa relação risco-benefício e pactuar plano terapêutico em ambulatório de especialidade da rede de doenças crônicas."
+    },
+    "defeito_corrigido": "No item de origem faltava entre as alternativas a etapa intermediária de otimizar o inibidor de bomba de prótons, o que forçava a resposta e tornava o item discutível. No item novo a otimização (dose dobrada, duas tomadas, horário correto, doze semanas, boa adesão) já está explicitamente cumprida na vinheta, de modo que a refratariedade é um dado do caso e não uma inferência do candidato.",
+    "nota_adaptacao": "Novo paciente (homem de 52 anos), novas medidas antropométricas, novo inibidor de bomba e nova descrição endoscópica. Objeto de conhecimento preservado: propedêutica obrigatória antes da cirurgia antirrefluxo. A resposta correta, equivalente à chave de consenso (B do original), foi realocada para a letra C, conforme posicao_correta_alvo. Optou-se por não exigir pHmetria, porque a esofagite grau C já é evidência conclusiva de refluxo pelos critérios de Lyon, enquanto a manometria de alta resolução permanece obrigatória no pré-operatório."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q033",
+    "tema": "Neoplasias do trato digestivo",
+    "subtema": "Adenocarcinoma gástrico localmente avançado: sequência terapêutica inicial",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["cancer gastrico", "quimioterapia perioperatoria", "estadiamento", "laparoscopia de estadiamento", "terapia nutricional"],
+    "texto_base": "Homem de 58 anos, tabagista de longa data, procura o serviço por saciedade precoce e plenitude pós-prandial há quatro meses, com perda involuntária de 12 kg no período. Nega dor abdominal, disfagia, vômitos ou sangramento visível. Ao exame encontra-se emagrecido, sem linfonodomegalia supraclavicular ou axilar, com abdome flácido, indolor e sem massas ou visceromegalias palpáveis. Exames laboratoriais: hemoglobina 10,4 g/dL, albumina 3,0 g/dL, função renal e hepática normais. A endoscopia digestiva alta identifica lesão ulcerada e infiltrativa, de bordas elevadas e irregulares, na pequena curvatura do corpo gástrico, medindo cerca de 5 cm, sem obstrução à passagem do aparelho; as biópsias confirmam adenocarcinoma gástrico moderadamente diferenciado. A tomografia de tórax não evidencia nódulos pulmonares. A tomografia de abdome e pelve mostra espessamento parietal gástrico com plano de clivagem preservado em relação ao pâncreas e ao pedículo hepático, linfonodos perigástricos e da artéria gástrica esquerda medindo até 1,6 cm no menor eixo e com aspecto suspeito, sem lesões hepáticas, sem ascite e sem implantes peritoneais identificáveis.",
+    "enunciado": "Diante do estadiamento clínico obtido até aqui, a conduta inicial mais adequada é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Encaminhar diretamente para gastrectomia subtotal com linfadenectomia D2, deixando todo o tratamento sistêmico para o pós-operatório.",
+        "correta": false,
+        "justificativa": "Incorreta. Em tumor localmente avançado com linfonodos suspeitos, operar de imediato desperdiça o benefício demonstrado do tratamento sistêmico pré-operatório sobre a sobrevida, além de ignorar a desnutrição que aumenta a morbidade cirúrgica."
+      },
+      {
+        "letra": "B",
+        "texto": "Indicar quimioterapia paliativa exclusiva, pois o acometimento linfonodal já caracteriza doença metastática incurável.",
+        "correta": false,
+        "justificativa": "Incorreta. Linfonodos regionais comprometidos correspondem ao componente N do estadiamento e não a metástase a distância; o paciente permanece potencialmente curável, e restringir o tratamento à paliação lhe retiraria a chance de cura."
+      },
+      {
+        "letra": "C",
+        "texto": "Iniciar suporte nutricional, complementar o estadiamento com laparoscopia e citologia peritoneal e encaminhar para quimioterapia perioperatória.",
+        "correta": true,
+        "justificativa": "Correta. A tomografia tem baixa sensibilidade para implantes peritoneais pequenos, e a inspeção laparoscópica com lavado citológico altera a conduta em parcela relevante dos casos; confirmada doença localmente avançada, a quimioterapia perioperatória associada à correção nutricional é a estratégia recomendada."
+      },
+      {
+        "letra": "D",
+        "texto": "Realizar gastrojejunostomia derivativa antes de qualquer tratamento oncológico, para garantir o aporte alimentar.",
+        "correta": false,
+        "justificativa": "Incorreta. A derivação gástrica paliativa se destina a tumores obstrutivos, e a endoscopia demonstrou passagem livre do aparelho; a operação acrescentaria morbidade e atrasaria o tratamento sistêmico sem qualquer ganho funcional."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": "oncologia",
+    "objeto_conhecimento": "Estadiamento e sequência de tratamento do adenocarcinoma gástrico localmente avançado",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_04", "enamed_comp_09"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Exige interpretar exames de estadiamento, elaborar plano terapêutico multimodal e articular o encaminhamento entre serviços da rede de atenção às doenças crônicas."
+    },
+    "defeito_corrigido": "O enunciado de origem apresentava contradição interna, ao afirmar dor abdominal em epigástrio e, em seguida, que a paciente negava dor abdominal. A vinheta nova é internamente coerente: o paciente refere saciedade precoce e plenitude e nega dor de forma consistente.",
+    "nota_adaptacao": "Novo paciente (homem de 58 anos), nova localização e descrição da lesão, novos achados de estadiamento e novos exames laboratoriais que sustentam a indicação de terapia nutricional. Objeto de conhecimento preservado. A resposta correta, equivalente à chave de consenso (A do original), foi realocada para a letra C, conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q034",
+    "tema": "Complicações da cirurgia esofágica",
+    "subtema": "Disfonia e broncoaspiração após esofagectomia com abordagem cervical",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["esofagectomia", "nervo laringeo recorrente", "disfonia", "complicacao pos-operatoria", "anatomia cirurgica"],
+    "texto_base": "Homem de 66 anos, etilista de longa data e ex-tabagista, foi submetido a esofagectomia com linfadenectomia em três campos e anastomose esofagogástrica cervical à esquerda, para tratamento de carcinoma epidermoide do terço médio do esôfago. A descrição operatória registra dissecção laboriosa de linfonodos firmemente aderidos ao sulco traqueoesofágico durante a etapa cervical. No segundo dia de pós-operatório, já extubado, queixa-se de voz soprosa e fraca, com dificuldade para completar frases sem pausas, e apresenta tosse e engasgo ao receber pequenos goles de água no teste de deglutição realizado à beira do leito. Está afebril, com ausculta pulmonar limpa e saturação de 95% em ar ambiente, sem enfisema subcutâneo palpável no pescoço. O dreno cervical exibe débito seroso escasso e de aspecto claro, e o dreno torácico drena volume reduzido de líquido seroso. A radiografia de tórax não mostra derrame pleural nem pneumomediastino.",
+    "enunciado": "O mecanismo que melhor explica o quadro apresentado é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Deiscência da anastomose cervical, com extravasamento de saliva e inflamação das estruturas do pescoço.",
+        "correta": false,
+        "justificativa": "Incorreta. A fístula cervical costuma manifestar-se com febre, eritema e edema da incisão e saída de material salivar ou turvo pelo dreno; aqui o paciente está afebril e o débito é seroso e claro, além de a fístula não justificar disfonia isolada."
+      },
+      {
+        "letra": "B",
+        "texto": "Lesão do nervo laríngeo recorrente esquerdo durante a dissecção do sulco traqueoesofágico, com paresia da prega vocal.",
+        "correta": true,
+        "justificativa": "Correta. O nervo laríngeo recorrente esquerdo percorre o sulco traqueoesofágico e é vulnerável na linfadenectomia cervical da esofagectomia em três campos; sua lesão produz voz soprosa por fechamento glótico incompleto e aspiração de líquidos, exatamente como descrito."
+      },
+      {
+        "letra": "C",
+        "texto": "Fístula quilosa por lesão do ducto torácico, com acúmulo de linfa comprimindo estruturas do mediastino.",
+        "correta": false,
+        "justificativa": "Incorreta. A fístula quilosa se expressa por débito volumoso e de aspecto leitoso após a reintrodução da dieta, geralmente com derrame pleural e repercussão nutricional, e não por alteração isolada da voz com aspiração a líquidos."
+      },
+      {
+        "letra": "D",
+        "texto": "Laceração da porção membranosa da traqueia na abordagem cervical, com escape aéreo para os planos do pescoço.",
+        "correta": false,
+        "justificativa": "Incorreta. A lesão traqueal cursa tipicamente com enfisema subcutâneo, pneumomediastino e insuficiência respiratória progressiva, achados ausentes neste caso, no qual a radiografia e a palpação cervical são normais."
+      }
+    ],
+    "especialidade": "cirurgia_toracica",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Complicações neurológicas da linfadenectomia cervical na esofagectomia",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_06", "enamed_cont_09"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Requer correlacionar anatomia cirúrgica, achados operatórios e semiologia pós-operatória para formular a hipótese diagnóstica de complicação, em enfermaria de serviço hospitalar."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente (homem de 66 anos), novo dia de pós-operatório e nova apresentação clínica, com acréscimo de dados semiológicos e de exames que permitem excluir cada distrator (dreno seroso claro, ausência de enfisema, radiografia sem derrame). Objeto de conhecimento preservado: lesão do nervo laríngeo recorrente como causa de disfonia após esofagectomia. A resposta correta, equivalente à chave de consenso (D do original), foi realocada para a letra B, conforme posicao_correta_alvo, e passou a explicitar a lateralidade esquerda e o mecanismo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q036",
+    "tema": "Litíase urinária",
+    "subtema": "Cálculo ureteral distal de pequeno volume: terapia médica expulsiva",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["colica renal", "urolitiase", "terapia expulsiva", "tansulosina", "ureter distal"],
+    "texto_base": "Mulher de 33 anos comparece à unidade de pronto atendimento com dor lombar esquerda de início abrupto, em cólica, irradiada para a região inguinal e acompanhada de náuseas. Nega febre, calafrios, disúria, corrimento ou episódio semelhante prévio. Ao exame está agitada pela dor, afebril, com pressão arterial de 132 x 80 mmHg e frequência cardíaca de 92 bpm; a punho-percussão lombar esquerda é dolorosa e o abdome é flácido, sem sinais de irritação peritoneal. O exame de urina mostra hematúria microscópica, sem leucocitúria, sem nitrito e sem bacteriúria. Creatinina de 0,8 mg/dL, leucócitos de 8.900/mm³ e teste de gravidez negativo. A tomografia de abdome sem contraste identifica cálculo de 5 mm no ureter distal esquerdo, a dois centímetros do meato ureteral, com hidronefrose ausente a discreta, sem borramento da gordura perirrenal e sem outras litíases nos rins ou ureteres. Após analgesia com anti-inflamatório venoso, a dor cede por completo e a paciente aceita líquidos por via oral.",
+    "enunciado": "Considerando o tamanho e a localização do cálculo, bem como a ausência de complicações, a conduta indicada é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ureterolitotripsia flexível a laser em caráter de urgência, para retirada imediata do cálculo.",
+        "correta": false,
+        "justificativa": "Incorreta. A abordagem endoscópica urgente se reserva a obstrução com infecção associada, rim único, insuficiência renal ou dor incoercível; nenhuma dessas condições está presente, e o procedimento traz riscos de lesão ureteral e necessidade de cateter."
+      },
+      {
+        "letra": "B",
+        "texto": "Litotripsia extracorpórea por ondas de choque ainda no mesmo dia, antes da alta da unidade.",
+        "correta": false,
+        "justificativa": "Incorreta. A litotripsia extracorpórea é opção eletiva e tem menor eficácia no ureter distal em comparação com a ureteroscopia; indicá-la de imediato em cálculo com alta probabilidade de eliminação espontânea é intervenção desnecessária."
+      },
+      {
+        "letra": "C",
+        "texto": "Instalação de cateter duplo J para derivação urinária, evitando lesão renal obstrutiva.",
+        "correta": false,
+        "justificativa": "Incorreta. A derivação interna se indica na obstrução infectada ou com deterioração da função renal; a creatinina é normal, não há hidronefrose significativa nem sinais de infecção, e o cateter causaria sintomas irritativos e nova intervenção para retirada."
+      },
+      {
+        "letra": "D",
+        "texto": "Alta com analgesia, hidratação por via oral e tansulosina como terapia expulsiva, reavaliando em até quatro semanas.",
+        "correta": true,
+        "justificativa": "Correta. Cálculos ureterais distais menores que 10 mm, sem infecção nem comprometimento da função renal e com dor controlada, têm alta taxa de eliminação espontânea; o bloqueador alfa-adrenérgico favorece a passagem, e a reavaliação programada garante identificar falha do tratamento."
+      }
+    ],
+    "especialidade": "urologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Indicação de tratamento conservador versus intervenção na litíase ureteral",
+    "sistema_organico": "urinario",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Requer interpretar exame de imagem e definir plano terapêutico com melhor relação risco-benefício e custo-efetividade em unidade de pronto atendimento."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente (mulher de 33 anos), lateralidade e tamanho do cálculo alterados, exames laboratoriais e de urina acrescentados para afastar infecção e gestação. Objeto de conhecimento preservado: critérios para terapia médica expulsiva na litíase ureteral distal. A resposta correta, equivalente à chave de consenso (A do original), foi realocada para a letra D, conforme posicao_correta_alvo, com acréscimo do prazo de reavaliação."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q037",
+    "tema": "Obstrução intestinal de origem neoplásica",
+    "subtema": "Desobstrução paliativa na neoplasia colorretal metastática irressecável",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_25"],
+    "tags": ["obstrucao colonica", "cancer colorretal", "endoprotese colonica", "cuidado paliativo", "decisao compartilhada"],
+    "texto_base": "Mulher de 72 anos é admitida com distensão abdominal progressiva, náuseas e ausência de eliminação de gases e de fezes há quatro dias. Nega febre. Ao exame apresenta frequência cardíaca de 96 bpm, pressão arterial de 128 x 76 mmHg, abdome timpânico e distendido, doloroso de forma difusa, porém sem rigidez e sem descompressão dolorosa; o toque retal revela ampola vazia, sem lesões palpáveis. Exames laboratoriais mostram creatinina de 1,4 mg/dL, leucócitos de 10.200/mm³, lactato normal e gasometria sem acidose. A tomografia de abdome e pelve com contraste revela lesão estenosante circunferencial na junção retossigmoide, a 18 cm da margem anal, com dilatação do cólon a montante e ceco medindo 8 cm, sem pneumoperitônio, sem líquido livre e sem sinais de sofrimento da parede intestinal. O mesmo exame demonstra múltiplas lesões hepáticas bilobares e implantes peritoneais, configurando doença metastática considerada irressecável em discussão multidisciplinar. A paciente mantém bom estado funcional, deseja evitar estoma e é candidata a quimioterapia paliativa. O serviço dispõe de equipe de endoscopia intervencionista.",
+    "enunciado": "Considerando a extensão da doença, o objetivo terapêutico e a preferência manifestada pela paciente, a conduta de escolha para resolver a obstrução é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Colectomia total com ileorretoanastomose, para tratar a obstrução e prevenir novas lesões colônicas.",
+        "correta": false,
+        "justificativa": "Incorreta. Ressecção extensa em doença metastática irressecável impõe morbidade elevada, diarreia crônica e adiamento da quimioterapia, sem qualquer ganho oncológico; a colectomia total se reserva a perfuração diastática ou a lesões sincrônicas múltiplas em candidatos à cura."
+      },
+      {
+        "letra": "B",
+        "texto": "Retossigmoidectomia com anastomose primária e ileostomia de proteção, seguida de quimioterapia adjuvante.",
+        "correta": false,
+        "justificativa": "Incorreta. Anastomose em cólon obstruído e não preparado, em paciente com carcinomatose, tem alto risco de deiscência; além disso o estoma contraria a preferência expressa e a quimioterapia neste cenário é paliativa, não adjuvante."
+      },
+      {
+        "letra": "C",
+        "texto": "Descompressão colonoscópica com sonda transanal e enemas, aguardando resolução espontânea do quadro.",
+        "correta": false,
+        "justificativa": "Incorreta. A descompressão por sonda é conduta do volvo de sigmoide e da pseudo-obstrução colônica aguda, situações sem lesão orgânica fixa; diante de estenose tumoral circunferencial a obstrução recidiva assim que a sonda é retirada."
+      },
+      {
+        "letra": "D",
+        "texto": "Colocação endoscópica de endoprótese colônica autoexpansível, permitindo desobstrução e início precoce da quimioterapia.",
+        "correta": true,
+        "justificativa": "Correta. Na obstrução maligna do cólon esquerdo em doença incurável, a endoprótese é o tratamento paliativo de primeira linha: resolve a obstrução com menor morbidade que a cirurgia, evita estoma, encurta a internação e antecipa o início do tratamento sistêmico."
+      }
+    ],
+    "especialidade": "coloproctologia",
+    "especialidade_secundaria": "cuidados_paliativos",
+    "objeto_conhecimento": "Manejo da obstrução colônica maligna segundo a intenção curativa ou paliativa",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_04", "enamed_comp_06", "enamed_comp_09"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Exige pactuar plano terapêutico considerando prognóstico, preferências da pessoa e recursos disponíveis, indicando procedimento adequado em serviço hospitalar de urgência."
+    },
+    "defeito_corrigido": "O item de origem era ambíguo porque a cirurgia de Hartmann e a colostomia em alça eram igualmente defensáveis, e nem o estadiamento, nem a distância da margem anal, nem a disponibilidade de endoprótese estavam definidos. O item novo fixa doença metastática irressecável, intenção paliativa, distância da margem anal, condição do ceco, ausência de sofrimento parietal, disponibilidade de endoscopia intervencionista e preferência da paciente, o que torna a endoprótese a única resposta sustentada pelas diretrizes; a opção antes ausente passou a figurar entre as alternativas.",
+    "nota_adaptacao": "Vinheta reescrita com nova paciente, novos parâmetros e estadiamento explícito. O eixo da pergunta foi deslocado da obstrução potencialmente curável para o cenário paliativo, justamente para eliminar a ambiguidade apontada. Por isso a resposta correta difere da chave de consenso do original (colostomia em alça): no contexto de doença incurável, com equipe de endoscopia disponível, a endoprótese autoexpansível é a recomendação de primeira linha. A resposta ocupa a letra D, conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q038",
+    "tema": "Síndromes de predisposição hereditária ao câncer",
+    "subtema": "Polipose adenomatosa familiar e diagnóstico diferencial das poliposes",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_11", "dcn2025_comp_21"],
+    "tags": ["polipose adenomatosa familiar", "gene APC", "sindrome de Lynch", "MUTYH", "aconselhamento genetico"],
+    "texto_base": "Mulher de 27 anos é atendida na unidade básica de saúde por episódios intermitentes de sangue vivo misturado às fezes há seis meses, sem dor abdominal, sem alteração do calibre das fezes, sem emagrecimento e sem febre. O exame proctológico e o toque retal são normais, sem lesões palpáveis ou massas. Relata que o pai faleceu aos 41 anos e o avô paterno aos 46 anos, ambos por câncer de intestino grosso, e que uma tia paterna foi operada do intestino aos 38 anos pelo mesmo motivo. Um exame oftalmológico realizado por outra indicação havia descrito áreas pigmentadas múltiplas e bilaterais na retina. A colonoscopia mostra centenas de pólipos sésseis e pediculados distribuídos por todo o cólon e também no reto, sem lesão vegetante dominante e sem estenose; as biópsias das lesões amostradas revelam adenomas tubulares com displasia de baixo grau.",
+    "enunciado": "A hipótese diagnóstica e a alteração genética correspondente são:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Síndrome de Lynch, por variante germinativa em um dos genes de reparo de erros de pareamento, como MLH1, MSH2, MSH6 ou PMS2.",
+        "correta": false,
+        "justificativa": "Incorreta. Na síndrome de Lynch o número de pólipos é pequeno, com predomínio de lesões proximais e progressão acelerada de adenoma para carcinoma; ela não produz o tapete de centenas de adenomas descrito, nem se associa às lesões pigmentadas da retina."
+      },
+      {
+        "letra": "B",
+        "texto": "Síndrome de Peutz-Jeghers, por variante do gene STK11, com pólipos hamartomatosos e máculas melanocíticas mucocutâneas.",
+        "correta": false,
+        "justificativa": "Incorreta. Os pólipos de Peutz-Jeghers são hamartomas com eixo de músculo liso arboriforme, predominam no intestino delgado e vêm acompanhados de máculas pigmentadas em lábios e mucosa oral, achados que não constam do caso, cuja histologia é de adenoma."
+      },
+      {
+        "letra": "C",
+        "texto": "Polipose adenomatosa familiar, por variante germinativa do gene APC, de herança autossômica dominante.",
+        "correta": true,
+        "justificativa": "Correta. Centenas de adenomas colorretais em pessoa jovem, história de câncer de intestino em três gerações da linhagem paterna e hipertrofia congênita do epitélio pigmentar da retina compõem o quadro clássico da polipose associada ao gene APC, com penetrância elevada e transmissão vertical."
+      },
+      {
+        "letra": "D",
+        "texto": "Polipose associada ao gene MUTYH, de herança autossômica recessiva, em geral com menos de cem pólipos.",
+        "correta": false,
+        "justificativa": "Incorreta. A polipose por MUTYH exige duas variantes patogênicas e costuma manifestar-se em irmãos de uma mesma geração, sem transmissão vertical; a história de pai, avô e tia acometidos indica padrão dominante, e as lesões retinianas apontam para o gene APC."
+      }
+    ],
+    "especialidade": "coloproctologia",
+    "especialidade_secundaria": "genetica",
+    "objeto_conhecimento": "Diagnóstico diferencial das síndromes de polipose colorretal hereditária",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Parte da história clínica e familiar colhida na atenção primária e da interpretação da colonoscopia para formular hipótese diagnóstica com implicações de rastreamento e prevenção familiar."
+    },
+    "defeito_corrigido": "O item de origem grafava 'MLH2' entre os genes de reparo, erro que não existe na nomenclatura (o gene correto é MSH2), e ainda oferecia duas alternativas rotuladas como síndrome de Lynch, uma delas com genes incompatíveis. No item novo os genes de reparo estão corretamente nomeados (MLH1, MSH2, MSH6 e PMS2) e cada distrator corresponde a uma síndrome distinta e coerente com seus genes.",
+    "nota_adaptacao": "Novo paciente (mulher de 27 anos atendida na atenção primária), nova apresentação (hematoquezia em vez de melena, coerente com lesão colorretal), nova história familiar em três gerações e acréscimo da hipertrofia congênita do epitélio pigmentar da retina como pista fenotípica. Objeto de conhecimento preservado. A resposta correta permanece na letra C, conforme posicao_correta_alvo, com texto integralmente reescrito."
+  }
+]

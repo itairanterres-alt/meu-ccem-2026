@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "simulado_nacional_enamed2025_q013",
+    "tema": "Trauma abdominal penetrante",
+    "subtema": "Lesão traumática isolada da vesícula biliar",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_14", "dcn2025_comp_20"],
+    "tags": ["trauma", "ferimento por projetil", "vesicula biliar", "laparotomia", "coleperitonio"],
+    "texto_base": "Mulher de 31 anos é levada ao pronto-socorro cerca de 40 minutos após ser atingida por projétil de arma de fogo. Chega falando frases completas, com via aérea livre, expansibilidade torácica simétrica, saturação de 97% em ar ambiente, frequência cardíaca de 96 bpm e pressão arterial de 118 x 76 mmHg. A escala de coma de Glasgow é 15. O abdome está tenso, com defesa involuntária difusa. Identificam-se orifício de entrada em flanco direito e orifício de saída na região lombar direita, ambos com sangramento discreto. Indicada laparotomia, encontram-se cerca de 400 mL de bile livre na cavidade e uma perfuração transfixante no corpo da vesícula biliar. O inventário sistemático não revela lesão do fígado, do duodeno, do cólon, do rim direito nem da via biliar principal, que se apresenta íntegra e de calibre normal.",
+    "enunciado": "Diante do achado intraoperatório descrito, qual é a conduta cirúrgica indicada para a lesão da vesícula biliar?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Sutura primária da perfuração com fio absorvível, mantendo a vesícula in situ e deixando dreno tubular subhepático.",
+        "correta": false,
+        "justificativa": "Incorreta. A rafia de uma vesícula perfurada por projétil deixa parede desvitalizada e sob risco de fístula biliar e necrose tardia; além disso, a vesícula é órgão dispensável, o que torna a tentativa de preservação um risco desnecessário."
+      },
+      {
+        "letra": "B",
+        "texto": "Colecistostomia com sonda de Foley introduzida pelo próprio orifício da lesão, com drenagem externa da bile.",
+        "correta": false,
+        "justificativa": "Incorreta. A colecistostomia é recurso de exceção para pacientes proibitivos ao ato cirúrgico definitivo, geralmente em colecistite aguda grave; nesta paciente estável, com laparotomia já em curso, ela apenas cria uma fístula biliar controlada e adia o tratamento."
+      },
+      {
+        "letra": "C",
+        "texto": "Colecistectomia, com revisão do leito vesicular e lavagem da cavidade peritoneal.",
+        "correta": true,
+        "justificativa": "Correta. A lesão traumática da vesícula biliar, independentemente da extensão, é tratada por colecistectomia, procedimento simples e definitivo; complementa-se com hemostasia do leito e lavagem da cavidade para remover a bile extravasada."
+      },
+      {
+        "letra": "D",
+        "texto": "Colecistectomia associada a coledocotomia com drenagem da via biliar por dreno em T.",
+        "correta": false,
+        "justificativa": "Incorreta. A abertura do colédoco e o dreno em T só se justificam quando há lesão ou obstrução da via biliar principal; instrumentar um colédoco íntegro e de calibre normal acrescenta risco de estenose e de fístula sem qualquer benefício."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Conduta operatória na lesão traumática isolada da vesícula biliar",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Item de Cirurgia Geral que exige reconhecimento e tratamento de urgência traumática (comp. V) e indicação de procedimento cirúrgico adequado (comp. VI), no eixo de terapêutica (cont. X), em cenário de rede de urgência e emergência hospitalar."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (conduta na lesão traumática isolada da vesícula biliar). Trocados sexo, idade, trajetória do projétil, tempo de admissão, sinais vitais e achados do inventário; a perfuração passou do fundo para o corpo da vesícula. Alternativas escritas do zero, reduzidas de cinco para quatro, com a correta deslocada para a letra C conforme posicao_correta_alvo. Mantida a chave de conteúdo do consenso (colecistectomia)."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q014",
+    "tema": "Doenças da via biliar",
+    "subtema": "Cisto de colédoco (dilatação fusiforme da via biliar extra-hepática)",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["cisto de coledoco", "colangiorressonancia", "colangiocarcinoma", "hepaticojejunostomia", "ictericia obstrutiva"],
+    "texto_base": "Mulher de 24 anos procura o ambulatório de cirurgia por episódios recorrentes de dor no quadrante superior direito nos últimos oito meses, acompanhados, nas duas últimas semanas, de colúria e icterícia leve. Nega febre, emagrecimento e uso de bebida alcoólica. Exames: bilirrubina total 4,2 mg/dL com predomínio da fração direta, fosfatase alcalina e gama-GT elevadas, transaminases discretamente alteradas, amilase e lipase normais. A ultrassonografia não identifica cálculos na vesícula e descreve dilatação da via biliar. A colangiorressonância confirma dilatação fusiforme de toda a via biliar extra-hepática, com maior diâmetro de 3,2 cm, sem dilatação dos ductos intra-hepáticos, sem cálculos e sem massa identificável.",
+    "enunciado": "Considerando a hipótese diagnóstica e a história natural dessa afecção, qual conduta deve ser proposta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Manter acompanhamento clínico com ultrassonografia anual, reservando a cirurgia para o surgimento de colangite ou de dor incapacitante.",
+        "correta": false,
+        "justificativa": "Incorreta. A observação expõe a paciente ao risco cumulativo de colangiocarcinoma, que pode ultrapassar 10% ao longo da vida e cresce com a idade; a vigilância por imagem não detecta a transformação maligna em tempo hábil na parede cística."
+      },
+      {
+        "letra": "B",
+        "texto": "Realizar derivação interna, anastomosando a parede do cisto a uma alça jejunal, preservando a lesão para reduzir o tempo cirúrgico.",
+        "correta": false,
+        "justificativa": "Incorreta. A cistojejunostomia era feita no passado, mas deixa in situ o epitélio biliar anômalo, que permanece sob risco de malignização e ainda sofre inflamação crônica pelo refluxo entérico; hoje está proscrita como tratamento definitivo."
+      },
+      {
+        "letra": "C",
+        "texto": "Ressecção completa do cisto associada a colecistectomia e reconstrução com hepaticojejunostomia em Y de Roux, pelo risco de degeneração maligna do epitélio biliar.",
+        "correta": true,
+        "justificativa": "Correta. A dilatação fusiforme da via biliar extra-hepática corresponde ao cisto de colédoco tipo I de Todani, condição pré-maligna; o tratamento consiste na excisão completa da parede cística com colecistectomia e restabelecimento do fluxo por hepaticojejunostomia em Y de Roux."
+      },
+      {
+        "letra": "D",
+        "texto": "Colocar prótese biliar plástica por via endoscópica retrógrada, com trocas semestrais, como tratamento definitivo da dilatação.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há obstrução mecânica a ser transposta, e a prótese não remove o epitélio em risco; o procedimento endoscópico repetido acrescenta risco de colangite e de pancreatite sem alterar o prognóstico oncológico."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": "hepatologia",
+    "objeto_conhecimento": "Diagnóstico e tratamento do cisto de colédoco como condição pré-maligna",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Exige interpretação de exames de imagem biliar (comp. III) e elaboração de plano terapêutico com base em prognóstico e evidência (comp. IV), nos eixos de propedêutica/diagnóstico e terapêutica, em ambulatório de especialidade."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (indicação de ressecção do cisto de colédoco por risco de malignização). Trocados idade, tempo de evolução, apresentação clínica, laboratório e as medidas do cisto. A alternativa correta foi reescrita para incluir a técnica completa (excisão + colecistectomia + hepaticojejunostomia em Y de Roux), fundindo o mérito das opções B e E do original e eliminando a ambiguidade entre 'ressecar' e 'derivar'. Correta posicionada em C."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q015",
+    "tema": "Trauma abdominal contuso",
+    "subtema": "Tratamento não operatório do trauma hepático com blush arterial",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["trauma hepatico", "tratamento nao operatorio", "angioembolizacao", "blush arterial", "tomografia"],
+    "texto_base": "Homem de 44 anos é trazido pelo SAMU após colisão lateral de automóvel. Na admissão está lúcido e orientado, Glasgow 15, via aérea pérvia, murmúrio vesicular audível nos dois hemitórax, saturação de 97% em ar ambiente, frequência respiratória 18 irpm, frequência cardíaca 94 bpm e pressão arterial 118 x 74 mmHg, mantidas após 500 mL de cristaloide. O abdome é doloroso à palpação do quadrante superior direito, sem descompressão brusca dolorosa e sem distensão. Hemoglobina de 11,8 g/dL. A tomografia de abdome com contraste endovenoso mostra laceração do lobo hepático direito com hematoma intraparenquimatoso de 9 cm e foco de extravasamento de contraste na fase arterial, contido no parênquima, sem hemoperitônio volumoso, sem pneumoperitônio e sem sinais de lesão de vísceras ocas.",
+    "enunciado": "Considerando a estabilidade hemodinâmica e os achados tomográficos, qual é a conduta mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tratamento não operatório com angioembolização hepática, seguido de vigilância em unidade de terapia intensiva com reavaliações clínicas e hematimétricas seriadas.",
+        "correta": true,
+        "justificativa": "Correta. No trauma hepático em paciente estável, o tratamento não operatório é a estratégia de escolha; o extravasamento de contraste na fase arterial identifica sangramento ativo e é a indicação clássica de angioembolização como complemento, mantendo-se monitorização intensiva."
+      },
+      {
+        "letra": "B",
+        "texto": "Laparotomia imediata para hepatorrafia e tratamento definitivo da laceração, independentemente da resposta hemodinâmica.",
+        "correta": false,
+        "justificativa": "Incorreta. A indicação de laparotomia no trauma hepático é a instabilidade hemodinâmica ou a peritonite, ausentes aqui; operar um paciente estável converte uma lesão controlável em morbidade cirúrgica e aumenta a chance de hepatectomia não planejada."
+      },
+      {
+        "letra": "C",
+        "texto": "Tratamento não operatório apenas com observação em terapia intensiva e transfusão conforme necessidade, sem qualquer intervenção sobre o foco de sangramento.",
+        "correta": false,
+        "justificativa": "Incorreta. Ignorar o blush arterial eleva de forma significativa a taxa de falha do tratamento não operatório, com sangramento tardio e formação de pseudoaneurisma; a observação isolada só se aplica quando não há extravasamento de contraste."
+      },
+      {
+        "letra": "D",
+        "texto": "Laparotomia abreviada para controle de danos com empacotamento peri-hepático e reabordagem programada em 48 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. O controle de danos destina-se ao doente exsanguinante, hipotérmico, acidótico e coagulopático; aplicá-lo a um paciente normotenso, sem coagulopatia e sem hemoperitônio volumoso é conduta desproporcional ao risco."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Critérios de tratamento não operatório e papel da angioembolização no trauma hepático",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_05"],
+      "conteudos": ["enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Requer interpretação de tomografia com contraste (comp. III) e decisão terapêutica em urgência traumática (comp. V), no eixo de terapêutica, em serviço hospitalar da rede de urgência e emergência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (tratamento não operatório com angioembolização diante de blush arterial no trauma hepático em paciente estável). Trocados idade, mecanismo de trauma, sinais vitais, hemoglobina e dimensões da lesão; os achados tomográficos foram descritos por extenso para dispensar imagem. Alternativas inéditas, reduzidas a quatro, com a correta em A conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q016",
+    "tema": "Trauma torácico",
+    "subtema": "Hemotórax traumático e fraturas de arcos costais",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["hemotorax", "fratura de arcos costais", "drenagem toracica", "trauma torácico", "radiografia de torax"],
+    "texto_base": "Mulher de 62 anos chega à unidade de pronto atendimento cerca de 14 horas após queda de uma escada doméstica, com dor torácica à esquerda que piora à inspiração profunda e à tosse. Está em bom estado geral, corada, com frequência cardíaca 92 bpm, pressão arterial 128 x 78 mmHg, frequência respiratória 22 irpm e saturação de 95% em ar ambiente. Há equimose e crepitação óssea sobre o quinto, o sexto e o sétimo arcos costais esquerdos, sem movimento paradoxal da parede torácica. A ausculta revela murmúrio vesicular abolido no terço inferior do hemitórax esquerdo, com macicez à percussão nessa região. A radiografia de tórax, obtida em ortostase, mostra fraturas de foco único desses três arcos costais e opacidade homogênea de limite superior côncavo ocupando aproximadamente um terço do hemitórax esquerdo, sem desvio do mediastino e sem alargamento mediastinal.",
+    "enunciado": "Além da analgesia adequada e da fisioterapia respiratória, qual é a conduta indicada para o achado pleural descrito?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Alta hospitalar com analgesia oral e retorno ambulatorial em sete dias, sem qualquer intervenção sobre a cavidade pleural.",
+        "correta": false,
+        "justificativa": "Incorreta. Um derrame que ocupa um terço do hemitórax representa volume de várias centenas de mililitros e tende a organizar-se em hemotórax retido, com risco de empiema e encarceramento pulmonar; a alta sem drenagem é insegura."
+      },
+      {
+        "letra": "B",
+        "texto": "Observação por 48 horas com oxigênio suplementar e bloqueio intercostal, aguardando reabsorção espontânea do conteúdo pleural.",
+        "correta": false,
+        "justificativa": "Incorreta. O sangue na cavidade pleural não é reabsorvido de forma confiável nesse volume; a espera favorece coagulação e fibrotórax, transformando um problema resolvido por dreno em indicação futura de videotoracoscopia ou decorticação."
+      },
+      {
+        "letra": "C",
+        "texto": "Toracotomia de urgência para hemostasia direta e fixação cirúrgica dos arcos costais fraturados.",
+        "correta": false,
+        "justificativa": "Incorreta. A toracotomia se indica por débito inicial muito elevado pelo dreno ou sangramento persistente, e a fixação costal se reserva a tórax instável ou a fraturas muito desviadas; a paciente está estável e sem movimento paradoxal."
+      },
+      {
+        "letra": "D",
+        "texto": "Drenagem pleural com dreno tubular em selo d'água, inserido no quinto espaço intercostal esquerdo, na linha axilar média.",
+        "correta": true,
+        "justificativa": "Correta. O hemotórax traumático com esse volume tem indicação de drenagem pleural fechada em selo d'água, que esvazia a cavidade, permite quantificar o débito e reexpande o pulmão, prevenindo hemotórax retido e empiema."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": "cirurgia_toracica",
+    "objeto_conhecimento": "Indicação de drenagem pleural no hemotórax traumático",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Avalia reconhecimento e tratamento de urgência traumática (comp. V) e indicação de procedimento cirúrgico de urgência (comp. VI), no eixo de terapêutica, em unidade de pronto atendimento da rede de urgência."
+    },
+    "defeito_corrigido": "O item de origem tinha o enunciado corrompido pela digitalização, com a descrição dos arcos costais e da radiografia embaralhada; aqui a vinheta foi reescrita em prosa limpa e a radiografia descrita integralmente por extenso, dispensando a imagem. Além disso, o original oferecia simultaneamente 'dreno pig-tail' e 'dreno tubular em selo d'água', alternativas hoje consideradas de eficácia comparável no hemotórax, o que criava duas respostas defensáveis; o cateter pig-tail foi retirado do conjunto e substituído por distratores inequivocamente incorretos (alta, observação e toracotomia com fixação costal).",
+    "nota_adaptacao": "Preservado o objeto (indicação de drenagem pleural no hemotórax traumático). Trocados sexo, idade, mecanismo de trauma, tempo decorrido, lado acometido, arcos fraturados, sinais vitais e proporção de velamento. Alternativas escritas do zero, com a correta em D conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q017",
+    "tema": "Trauma cervical penetrante",
+    "subtema": "Sinais duros de lesão aerodigestiva e indicação de exploração cirúrgica",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_14", "dcn2025_comp_20"],
+    "tags": ["trauma cervical", "zona II", "sinais duros", "cervicotomia", "via aerea definitiva"],
+    "texto_base": "Mulher de 41 anos é atendida na sala de emergência após agressão com faca durante um roubo. Está agitada, com voz abafada e estridor audível à inspiração. Apresenta ferida de cerca de 4 cm na face anterolateral esquerda do pescoço, localizada na zona II cervical, isto é, acima do nível da cartilagem cricoide e abaixo do ângulo mandibular, com borbulhamento de ar através da lesão e enfisema subcutâneo palpável na região. Saturação de 88% em ar ambiente, frequência cardíaca 122 bpm, pressão arterial 108 x 70 mmHg e Glasgow 14. Não há sangramento pulsátil externo, mas observa-se aumento progressivo do volume cervical no local do ferimento. A ausculta pulmonar é normal e o restante do exame não apresenta particularidades.",
+    "enunciado": "Após assegurar via aérea definitiva e as demais medidas iniciais do atendimento ao politraumatizado, qual é a conduta definitiva indicada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Angiotomografia cervical com contraste, para definir a necessidade de abordagem cirúrgica antes de qualquer exploração.",
+        "correta": false,
+        "justificativa": "Incorreta. A angiotomografia é a ferramenta adequada para o ferimento cervical penetrante sem sinais duros, permitindo conduta seletiva; diante de estridor, escape aéreo pela ferida e hematoma em expansão, ela apenas atrasa o controle cirúrgico da lesão."
+      },
+      {
+        "letra": "B",
+        "texto": "Exploração cirúrgica cervical, dada a presença de sinais duros de lesão aerodigestiva e de hematoma em expansão.",
+        "correta": true,
+        "justificativa": "Correta. Escape de ar pelo ferimento, enfisema subcutâneo, estridor, disfonia e hematoma em expansão são sinais duros de lesão de via aérea e de estruturas vasculares cervicais, que indicam cervicotomia exploradora imediata após a via aérea definitiva."
+      },
+      {
+        "letra": "C",
+        "texto": "Esofagografia com contraste hidrossolúvel seguida de esofagoscopia, reservando a cirurgia para os casos com achados positivos.",
+        "correta": false,
+        "justificativa": "Incorreta. Esses exames compõem a investigação do trauma esofágico em pacientes sem sinais duros; realizá-los antes de tratar uma lesão aérea evidente prolonga a hipoxemia e ainda expõe a paciente a exame contrastado com risco de aspiração."
+      },
+      {
+        "letra": "D",
+        "texto": "Internação em unidade de terapia intensiva para observação seriada por 48 horas, com exploração apenas se houver piora clínica.",
+        "correta": false,
+        "justificativa": "Incorreta. A observação isolada é inaceitável na presença de sinais duros: o hematoma cervical em expansão pode ocluir a via aérea de modo abrupto e a lesão traqueolaríngea não tratada evolui com mediastinite e infecção cervical profunda."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Conduta no ferimento cervical penetrante com sinais duros",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Item de urgência traumática (comp. V) com indicação de procedimento cirúrgico imediato (comp. VI), no eixo de terapêutica, em serviço hospitalar de urgência e emergência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (sinais duros no trauma cervical penetrante levam à exploração cirúrgica, não à propedêutica de imagem). Trocados sexo, idade, mecanismo (arma branca em vez de instrumento perfurocortante genérico em outro lado), lado e tamanho da ferida, sinais vitais e acrescentado hematoma em expansão. Alternativas inéditas, reduzidas a quatro, correta em B conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q018",
+    "tema": "Cuidados perioperatórios",
+    "subtema": "Jejum pré-operatório em protocolos de recuperação acelerada",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "lembrar",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_20", "dcn2025_comp_13"],
+    "tags": ["jejum pre-operatorio", "ERAS", "ACERTO", "maltodextrina", "seguranca do paciente"],
+    "texto_base": null,
+    "enunciado": "Um homem de 58 anos será submetido a herniorrafia inguinal eletiva e recebe, na consulta pré-anestésica, orientações de jejum segundo os protocolos de recuperação acelerada pós-operatória. Assinale a alternativa em que o item ingerido está corretamente associado ao intervalo mínimo recomendado antes da indução anestésica.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Leite de vaca integral, em copo pequeno — duas horas.",
+        "correta": false,
+        "justificativa": "Incorreta. O leite não humano coagula no estômago e se comporta como alimento sólido leve, exigindo pelo menos seis horas de jejum; liberá-lo com duas horas aumentaria o risco de aspiração na indução anestésica."
+      },
+      {
+        "letra": "B",
+        "texto": "Sanduíche com queijo e ovo frito — quatro horas.",
+        "correta": false,
+        "justificativa": "Incorreta. Refeições ricas em gordura e proteína retardam o esvaziamento gástrico e demandam jejum mínimo de oito horas; quatro horas é o intervalo previsto para alimentos sólidos leves, e não para esse tipo de refeição."
+      },
+      {
+        "letra": "C",
+        "texto": "Leite materno, em lactente — seis horas.",
+        "correta": false,
+        "justificativa": "Incorreta. O intervalo recomendado para o leite materno é de quatro horas, menor que o das fórmulas e do leite de vaca; prolongá-lo para seis horas impõe jejum desnecessário, com desconforto, irritabilidade e risco de hipoglicemia."
+      },
+      {
+        "letra": "D",
+        "texto": "Bebida clara contendo maltodextrina, sem resíduos — duas horas.",
+        "correta": true,
+        "justificativa": "Correta. Líquidos claros, incluindo as bebidas com carboidrato à base de maltodextrina, são liberados até duas horas antes da indução; essa abordagem reduz a resistência insulínica, o desconforto e não aumenta o risco de aspiração."
+      }
+    ],
+    "especialidade": "anestesiologia",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Intervalos de jejum pré-operatório recomendados por protocolos de recuperação acelerada",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_04", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Preparo perioperatório baseado em evidência e voltado à segurança do paciente envolve elaboração do plano terapêutico (comp. IV) e indicação adequada de procedimento (comp. VI), nos eixos de terapêutica e prevenção, em ambulatório de especialidade."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (intervalos de jejum pré-operatório em protocolo de recuperação acelerada). Trocados o procedimento (herniorrafia inguinal, não incisional), o perfil do paciente e todos os pares item/intervalo das alternativas, que foram escritas do zero e reduzidas a quatro. A correta foi posicionada em D conforme posicao_correta_alvo, mantendo o conteúdo apontado pelo consenso (líquido claro com maltodextrina, duas horas)."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q019",
+    "tema": "Abdome agudo inflamatório",
+    "subtema": "Colangite aguda litiásica com disfunção orgânica",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01", "dcn2025_comp_21"],
+    "tags": ["colangite aguda", "coledocolitiase", "penta de Reynolds", "ictericia febril", "sepse"],
+    "texto_base": "Mulher de 76 anos, hipertensa, é levada ao pronto-socorro pela filha por dor contínua no quadrante superior direito iniciada há dois dias, associada a calafrios e escurecimento da urina. Nas últimas seis horas tornou-se sonolenta e desorientada quanto ao tempo. Temperatura axilar de 39,1 °C, frequência cardíaca 118 bpm, pressão arterial 84 x 52 mmHg mantida após 1.500 mL de cristaloide, frequência respiratória 26 irpm. As escleras estão ictéricas. Exames: leucócitos 21.000/mm³ com 12% de bastões, bilirrubina total 7,4 mg/dL com fração direta de 5,9 mg/dL, fosfatase alcalina 420 UI/L, gama-GT 610 UI/L, AST 96 UI/L, ALT 110 UI/L, amilase 62 UI/L, lipase 48 UI/L, creatinina 2,4 mg/dL e lactato 3,8 mmol/L. A ultrassonografia mostra colédoco de 13 mm com imagem hiperecogênica e sombra acústica posterior em seu terço distal, além de vesícula com cálculos, sem espessamento parietal e sem líquido perivesicular.",
+    "enunciado": "Qual é a hipótese diagnóstica mais provável?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Colecistite aguda litiásica complicada.",
+        "correta": false,
+        "justificativa": "Incorreta. A colecistite cursa com dor persistente e sinal de Murphy, mas a ultrassonografia não mostra espessamento da parede vesicular nem líquido perivesicular, e a icterícia acentuada com padrão colestático e colédoco dilatado aponta para obstrução da via biliar principal."
+      },
+      {
+        "letra": "B",
+        "texto": "Colangite aguda de origem litiásica, com disfunção orgânica.",
+        "correta": true,
+        "justificativa": "Correta. Febre com calafrios, icterícia e dor no quadrante superior direito compõem a tríade de Charcot, e a hipotensão com rebaixamento do sensório completa a pêntade de Reynolds; o padrão colestático e o cálculo no colédoco distal confirmam a obstrução infectada."
+      },
+      {
+        "letra": "C",
+        "texto": "Pancreatite aguda de etiologia biliar.",
+        "correta": false,
+        "justificativa": "Incorreta. Amilase e lipase estão dentro da faixa de referência, e a dor não tem irradiação em faixa para o dorso; sem elevação de enzimas pancreáticas em pelo menos três vezes o limite superior, o critério laboratorial de pancreatite não é preenchido."
+      },
+      {
+        "letra": "D",
+        "texto": "Abscesso hepático piogênico.",
+        "correta": false,
+        "justificativa": "Incorreta. O abscesso hepático costuma ter evolução mais arrastada, com febre prolongada e perda ponderal, e a ultrassonografia mostraria coleção intraparenquimatosa; aqui a imagem identifica cálculo obstrutivo no colédoco, e não lesão focal no fígado."
+      }
+    ],
+    "especialidade": "abdome_agudo",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Diagnóstico da colangite aguda a partir da tríade de Charcot e da pêntade de Reynolds",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Exige formulação de hipótese diagnóstica a partir de história e exame físico (comp. II) e interpretação de laboratório e ultrassonografia (comp. III), no eixo de propedêutica e diagnóstico, em serviço hospitalar de urgência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (reconhecimento da colangite aguda grave). Trocados sexo, idade, tempo de evolução, sinais vitais, todo o painel laboratorial e o achado ultrassonográfico, que passou a demonstrar cálculo impactado no colédoco distal. A leucopenia do original foi substituída por leucocitose com desvio, apresentação mais típica e que evita confundir o raciocínio. Alternativas escritas do zero, com a correta em B conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q020",
+    "tema": "Queimaduras",
+    "subtema": "Reposição volêmica nas primeiras 24 horas",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_14", "dcn2025_comp_20"],
+    "tags": ["queimadura eletrica", "formula de Parkland", "reposicao volemica", "superficie corporal queimada", "mioglobinuria"],
+    "texto_base": "Adolescente de 16 anos, com 60 kg, é admitido na emergência duas horas após sofrer descarga elétrica de alta tensão ao manusear uma antena metálica próxima à rede de distribuição. Chegou pelo serviço pré-hospitalar, que instalou dois acessos venosos calibrosos e infundiu 800 mL de Ringer lactato durante o transporte. Está consciente, Glasgow 15, com via aérea pérvia, sem estridor, rouquidão ou queimadura de vibrissas. Ao exame, há lesões de espessura parcial profunda e total acometendo cerca de 30% da superfície corporal, distribuídas no tronco anterior e nos dois membros superiores, além de ponto de entrada na mão direita e ponto de saída no pé esquerdo. A urina coletada apresenta coloração acastanhada.",
+    "enunciado": "Aplicando a fórmula de reposição volêmica recomendada para queimaduras elétricas de alta tensão (4 mL por quilograma para cada 1% de superfície corporal queimada nas primeiras 24 horas, metade nas 8 horas iniciais contadas a partir do acidente), qual volume de cristaloide ainda deve ser infundido e em que distribuição?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3.600 mL nas próximas 6 horas e 3.600 mL nas 16 horas seguintes.",
+        "correta": false,
+        "justificativa": "Incorreta. O cálculo do primeiro período está certo em 3.600 mL, mas a alternativa desconsidera os 800 mL já infundidos no transporte, o que levaria a hiper-ressuscitação, com edema tecidual, síndrome compartimental e piora respiratória."
+      },
+      {
+        "letra": "B",
+        "texto": "2.800 mL nas próximas 6 horas e 3.600 mL nas 16 horas seguintes.",
+        "correta": true,
+        "justificativa": "Correta. O total das 24 horas é 4 x 60 x 30 = 7.200 mL; metade (3.600 mL) cabe às 8 primeiras horas desde o acidente, das quais 2 já se passaram e 800 mL foram administrados, restando 2.800 mL em 6 horas, seguidos de 3.600 mL nas 16 horas restantes."
+      },
+      {
+        "letra": "C",
+        "texto": "3.600 mL nas próximas 8 horas e 2.800 mL nas 16 horas seguintes.",
+        "correta": false,
+        "justificativa": "Incorreta. As 8 horas iniciais são contadas a partir do momento do acidente, e não da chegada ao hospital; além disso, a alternativa inverte os volumes, deslocando para a segunda fase o desconto do que já foi infundido."
+      },
+      {
+        "letra": "D",
+        "texto": "7.200 mL distribuídos de modo uniforme ao longo das próximas 22 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora o volume total esteja correto, a distribuição uniforme ignora que a perda para o terceiro espaço é máxima nas primeiras horas; infundir de forma linear subressuscita o paciente exatamente no período de maior risco de choque."
+      }
+    ],
+    "especialidade": "queimados",
+    "especialidade_secundaria": "trauma",
+    "objeto_conhecimento": "Cálculo da reposição volêmica nas primeiras 24 horas do grande queimado",
+    "sistema_organico": "tegumentar",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Reconhecimento e tratamento de emergência traumática (comp. V) com elaboração de plano terapêutico quantitativo (comp. IV), no eixo de terapêutica, em serviço da rede de urgência e emergência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (cálculo da reposição volêmica no grande queimado, descontando o volume pré-hospitalar e contando o tempo desde o acidente). Trocados idade, peso, mecanismo detalhado, tempo decorrido, volume já infundido e percentual de superfície queimada, de modo que todos os números das alternativas são novos. O enunciado passou a explicitar a fórmula empregada, porque o coeficiente de 4 mL/kg/%SCQ se aplica às queimaduras elétricas de alta tensão, enquanto para queimaduras térmicas as edições recentes do ATLS recomendam 2 mL/kg/%SCQ no adulto e 3 mL/kg/%SCQ na criança; sem essa explicitação o item teria mais de uma resposta defensável. Correta em B conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q021",
+    "tema": "Puberdade normal e seus desvios",
+    "subtema": "Critérios diagnósticos de amenorreia primária",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_02", "dcn2025_comp_12"],
+    "tags": ["amenorreia primaria", "estagios de Tanner", "puberdade", "menarca", "adolescencia"],
+    "texto_base": "Adolescente de 14 anos comparece à unidade básica de saúde acompanhada do pai, preocupada por ainda não ter menstruado, enquanto colegas de turma já menstruaram. A telarca foi percebida há cerca de 18 meses. Nega cefaleia, alterações visuais, galactorreia, dor pélvica cíclica e uso de medicamentos. Peso e estatura situam-se no percentil 50, com velocidade de crescimento adequada nos registros anteriores da caderneta. Ao exame, apresenta mamas em estágio M3 e pelos pubianos em P3 de Tanner, sem hirsutismo, sem estigmas dismórficos e com genitália externa de aspecto habitual.",
+    "enunciado": "Qual é a interpretação correta desse quadro e a conduta indicada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não se configura amenorreia: a investigação estaria indicada apenas se a menarca não ocorresse até os 15 anos ou até três anos após a telarca, cabendo agora orientação e reavaliação programada.",
+        "correta": true,
+        "justificativa": "Correta. Com desenvolvimento puberal em curso, 14 anos de idade e apenas 18 meses de telarca, nenhum dos critérios temporais de amenorreia primária foi atingido; a conduta é esclarecer a variação normal do intervalo entre telarca e menarca e reavaliar."
+      },
+      {
+        "letra": "B",
+        "texto": "Trata-se de amenorreia primária, pois há caracteres sexuais secundários e a menarca ainda não ocorreu, devendo-se dosar FSH e prolactina imediatamente.",
+        "correta": false,
+        "justificativa": "Incorreta. A presença de caracteres sexuais secundários sem menstruação só define amenorreia primária a partir dos 15 anos; solicitar dosagens hormonais agora gera investigação desnecessária, custo e ansiedade sem alterar a conduta."
+      },
+      {
+        "letra": "C",
+        "texto": "Trata-se de amenorreia secundária, já que o desenvolvimento puberal está em curso, havendo indicação de ultrassonografia pélvica imediata.",
+        "correta": false,
+        "justificativa": "Incorreta. Amenorreia secundária pressupõe ciclos menstruais previamente estabelecidos que cessaram, o que não ocorreu nesta adolescente; o critério não tem qualquer relação com o estágio de desenvolvimento dos caracteres sexuais."
+      },
+      {
+        "letra": "D",
+        "texto": "Trata-se de amenorreia primária por atraso puberal, uma vez que o estágio esperado para a idade seria M4/P4, estando indicado cariótipo.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe estágio de Tanner obrigatório para cada idade cronológica, e M3/P3 aos 14 anos é achado normal; o cariótipo se reserva a atraso puberal confirmado ou a suspeita de disgenesia gonadal, ausentes neste caso."
+      }
+    ],
+    "especialidade": "endocrinologia_ginecologica",
+    "especialidade_secundaria": "planejamento_familiar",
+    "objeto_conhecimento": "Critérios temporais para o diagnóstico de amenorreia primária",
+    "sistema_organico": "reprodutor",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_02", "enamed_comp_10"],
+      "conteudos": ["enamed_cont_02", "enamed_cont_09"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Envolve raciocínio diagnóstico a partir de história e exame físico (comp. II) e comunicação orientadora com adolescente e responsável (comp. X), nos eixos de processos fisiológicos do ciclo de vida e de propedêutica, na atenção primária."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (aplicação dos critérios temporais de amenorreia primária a uma adolescente com puberdade em curso). Trocados o acompanhante, o dado familiar (substituído pelo tempo de telarca, que é o parâmetro clinicamente relevante), os dados antropométricos e a ausência de sinais de alarme. As alternativas foram escritas do zero, explicitando o critério dos 15 anos ou três anos após a telarca, e a correta ficou em A conforme posicao_correta_alvo, mantendo o conteúdo do consenso."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q022",
+    "tema": "Planejamento reprodutivo",
+    "subtema": "Critérios médicos de elegibilidade da OMS em tabagista com 35 anos ou mais",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_10", "dcn2025_comp_06"],
+    "tags": ["contracepcao", "criterios de elegibilidade OMS", "tabagismo", "SIU levonorgestrel", "risco cardiovascular"],
+    "texto_base": "Mulher de 38 anos, G2P2, procura a unidade básica de saúde para escolher um método contraceptivo de longa duração, pois vem usando apenas preservativo masculino e relata falhas de uso. Fuma cerca de 15 cigarros por dia desde os 20 anos e não pretende parar no momento. Nega hipertensão, enxaqueca, trombose venosa prévia, hepatopatia e câncer. Pressão arterial de 118 x 76 mmHg e índice de massa corporal de 24 kg/m². O exame ginecológico não mostra alterações e a citologia oncótica está em dia e normal. Não deseja novas gestações nos próximos anos, mas recusa método definitivo.",
+    "enunciado": "Segundo os critérios médicos de elegibilidade da Organização Mundial da Saúde, qual método pode ser oferecido com segurança a essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Sistema intrauterino liberador de levonorgestrel.",
+        "correta": true,
+        "justificativa": "Correta. Métodos apenas de progestagênio não aumentam o risco trombótico e são categoria 1 para tabagistas de qualquer idade; o sistema intrauterino ainda atende ao desejo de contracepção reversível de longa duração e de alta eficácia."
+      },
+      {
+        "letra": "B",
+        "texto": "Contraceptivo oral combinado de baixa dose.",
+        "correta": false,
+        "justificativa": "Incorreta. Em mulheres com 35 anos ou mais que fumam 15 ou mais cigarros por dia, os combinados são categoria 4, ou seja, risco inaceitável, pela potencialização do risco de infarto e de acidente vascular cerebral."
+      },
+      {
+        "letra": "C",
+        "texto": "Adesivo transdérmico combinado.",
+        "correta": false,
+        "justificativa": "Incorreta. A via transdérmica não elimina o efeito sistêmico do estrogênio; o adesivo combinado compartilha a mesma restrição dos demais combinados nessa paciente, sendo classificado como categoria 4."
+      },
+      {
+        "letra": "D",
+        "texto": "Injetável mensal combinado.",
+        "correta": false,
+        "justificativa": "Incorreta. O injetável mensal contém estrogênio e progestagênio e, portanto, também é categoria 4 para tabagistas com 35 anos ou mais e consumo elevado; ademais, não oferece a longa duração pretendida pela paciente."
+      }
+    ],
+    "especialidade": "planejamento_familiar",
+    "especialidade_secundaria": "aps_organizacao_e_acesso",
+    "objeto_conhecimento": "Aplicação dos critérios de elegibilidade contraceptiva ao risco cardiovascular do tabagismo",
+    "sistema_organico": "reprodutor",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_04", "enamed_comp_10"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Trata da pactuação de plano terapêutico com base em risco-benefício e evidência (comp. IV) e de decisão compartilhada com a usuária (comp. X), nos eixos de terapêutica e prevenção, na atenção primária."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (elegibilidade contraceptiva em tabagista com 35 anos ou mais). Trocados idade, paridade, carga tabágica explicitada em cigarros por dia, dados vitais e antropométricos e o desejo reprodutivo. As alternativas foram redigidas do zero e reduzidas a quatro, retirando-se o anel vaginal para evitar repetição de distratores; a correta ocupa a letra A conforme posicao_correta_alvo, mantendo o método indicado pelo consenso."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q023",
+    "tema": "Rastreamento e manejo do câncer de colo do útero",
+    "subtema": "Conduta na neoplasia intraepitelial cervical grau III com zona de transformação tipo 3",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_06"],
+    "tags": ["NIC III", "conizacao", "zona de transformacao tipo 3", "colposcopia", "lesao intraepitelial de alto grau"],
+    "texto_base": "Mulher de 61 anos, na pós-menopausa há dez anos, G3P3, comparece ao ambulatório com resultado de citologia oncótica indicando lesão intraepitelial escamosa de alto grau. Nega sangramento genital, corrimento e dor, e não faz terapia hormonal. Ao exame especular, o colo é atrófico e a junção escamocolunar não é visível. A colposcopia, após aplicação de ácido acético, revela epitélio acetobranco denso adentrando o canal endocervical, com limite superior não visualizado, caracterizando zona de transformação do tipo 3. A biópsia dirigida da porção visível resultou em neoplasia intraepitelial cervical grau III, sem sinais de invasão. O restante do exame ginecológico é normal.",
+    "enunciado": "Qual é a conduta mais adequada para essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Histerectomia total, por se tratar de paciente na pós-menopausa com prole constituída.",
+        "correta": false,
+        "justificativa": "Incorreta. A histerectomia não é tratamento de primeira linha para lesão intraepitelial: ela não avalia adequadamente as margens do canal, retira útero sadio e pode deixar doença residual caso exista microinvasão ainda não diagnosticada."
+      },
+      {
+        "letra": "B",
+        "texto": "Métodos destrutivos locais, como crioterapia ou cauterização do colo uterino.",
+        "correta": false,
+        "justificativa": "Incorreta. Procedimentos ablativos destroem o tecido sem fornecer peça para exame histopatológico e exigem lesão inteiramente visível; com junção escamocolunar não visualizada, não há como excluir invasão dentro do canal."
+      },
+      {
+        "letra": "C",
+        "texto": "Exérese da zona de transformação do tipo 3 (conização), que trata a lesão e permite avaliar a extensão endocervical não visualizada.",
+        "correta": true,
+        "justificativa": "Correta. Diante de lesão de alto grau com zona de transformação tipo 3, indica-se procedimento excisional que remova o canal endocervical, unindo finalidade terapêutica e diagnóstica ao permitir estudo das margens e afastar invasão oculta."
+      },
+      {
+        "letra": "D",
+        "texto": "Repetir a citologia oncótica em seis meses e manter apenas seguimento, pela ausência de sangramento.",
+        "correta": false,
+        "justificativa": "Incorreta. O seguimento citológico é conduta para lesões de baixo grau em situações selecionadas; a neoplasia intraepitelial grau III tem risco relevante de progressão para carcinoma invasor e exige tratamento excisional, independentemente de sintomas."
+      }
+    ],
+    "especialidade": "oncoginecologia",
+    "especialidade_secundaria": "infeccoes_genitais_e_ist",
+    "objeto_conhecimento": "Indicação de procedimento excisional na NIC III com zona de transformação tipo 3",
+    "sistema_organico": "reprodutor",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_04", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Exige plano terapêutico baseado em prognóstico e evidência (comp. IV) e indicação de procedimento cirúrgico ambulatorial (comp. VI), nos eixos de terapêutica e prevenção, em ambulatório de especialidade."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (tratamento excisional da NIC III com zona de transformação tipo 3). Trocados idade, estado menopausal, paridade e todo o exame ginecológico e colposcópico, agora descrito por extenso para tornar o item autossuficiente em texto, inclusive a justificativa da classificação da zona de transformação como tipo 3. Alternativas escritas do zero e reduzidas a quatro; a correta permanece em C conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q024",
+    "tema": "Queixas mamárias benignas",
+    "subtema": "Mastalgia cíclica e avaliação de risco familiar para câncer de mama",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_12", "dcn2025_comp_10"],
+    "tags": ["mastalgia ciclica", "cancerofobia", "rastreamento mamografico", "historia familiar", "comunicacao clinica"],
+    "texto_base": "Mulher de 34 anos procura a unidade básica de saúde referindo desconforto e sensação de peso nas duas mamas há cerca de um ano, mais intensos nos dias que antecedem a menstruação e com alívio nítido após o início do fluxo. Não usa contraceptivo hormonal nem outros medicamentos. Relata que a mãe teve câncer de mama aos 57 anos e afirma estar com muito medo de ter a mesma doença. Ao exame, as mamas são simétricas, sem nódulos palpáveis, sem espessamentos, retrações, alterações da pele ou descarga papilar; as axilas e as fossas supraclaviculares não apresentam linfonodos palpáveis.",
+    "enunciado": "Qual é a conduta inicial mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Explicar que o quadro corresponde a mastalgia cíclica, condição benigna e sem associação com câncer de mama, orientar sustentação mamária adequada e analgesia simples nos dias de maior dor, acolher o medo relatado e manter o rastreamento previsto para a faixa etária, com retorno se houver mudança no quadro.",
+        "correta": true,
+        "justificativa": "Correta. A dor bilateral que acompanha o ciclo, com exame físico normal, define mastalgia cíclica, de natureza funcional; a conduta inicial é informação clara, acolhimento do temor, medidas de suporte e manutenção do rastreamento habitual, sem exames adicionais."
+      },
+      {
+        "letra": "B",
+        "texto": "Prescrever tamoxifeno em dose baixa por seis meses, para controle da dor e redução do risco de câncer.",
+        "correta": false,
+        "justificativa": "Incorreta. Moduladores seletivos do receptor de estrogênio ficam reservados à mastalgia grave e refratária ou à quimioprevenção em mulheres de alto risco, situações que não se aplicam aqui; seus efeitos adversos superam o benefício neste caso."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar mamografia bilateral e ressonância magnética das mamas em razão do antecedente materno.",
+        "correta": false,
+        "justificativa": "Incorreta. Um único parente de primeiro grau com diagnóstico após os 50 anos não caracteriza alto risco; antecipar o rastreamento com mamografia e ressonância nessa idade gera achados falso-positivos, biópsias desnecessárias e mais ansiedade."
+      },
+      {
+        "letra": "D",
+        "texto": "Prescrever óleo de prímula associado a vitamina E, por terem eficácia comprovada no controle da mastalgia cíclica.",
+        "correta": false,
+        "justificativa": "Incorreta. Ensaios clínicos não demonstraram superioridade do óleo de prímula nem da vitamina E sobre placebo na mastalgia cíclica; prescrevê-los como tratamento de eficácia comprovada é afirmação sem sustentação em evidência."
+      }
+    ],
+    "especialidade": "mastologia",
+    "especialidade_secundaria": "comunicacao_clinica",
+    "objeto_conhecimento": "Manejo inicial da mastalgia cíclica com exame físico normal e história familiar sem critério de alto risco",
+    "sistema_organico": "reprodutor",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_02", "enamed_comp_10"],
+      "conteudos": ["enamed_cont_07", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Exige hipótese diagnóstica a partir da anamnese e do exame físico (comp. II) e comunicação empática e esclarecedora diante do medo do câncer (comp. X), nos eixos de habilidades de comunicação e de prevenção, na atenção primária."
+    },
+    "defeito_corrigido": "No item de origem, a alternativa correta era redigida de modo vago ('orientação para afastar a cancerofobia'), enunciando um rótulo em vez de uma conduta. A alternativa correta foi reescrita como conduta clínica descrita passo a passo: nomear o diagnóstico de mastalgia cíclica, explicar sua benignidade, oferecer medidas de suporte, acolher o temor da paciente e manter o rastreamento correspondente à faixa etária, com critério de retorno.",
+    "nota_adaptacao": "Preservado o objeto (conduta inicial na mastalgia cíclica com exame normal). Trocados idade da paciente, tempo de evolução, idade materna ao diagnóstico e detalhamento do exame físico. Acrescentado distrator sobre antecipação de rastreamento por imagem, que testa diretamente o critério de alto risco familiar. Alternativas escritas do zero e reduzidas a quatro; a correta permanece em A conforme posicao_correta_alvo."
+  }
+]

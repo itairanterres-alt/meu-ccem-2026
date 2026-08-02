@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q039",
+    "tema": "Oncologia cutânea",
+    "subtema": "Abordagem diagnóstica da lesão melanocítica suspeita de melanoma",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["melanoma", "dermatoscopia", "biopsia_excisional", "espessura_de_breslow", "oncologia_cutanea"],
+    "texto_base": "Homem de 57 anos, agricultor, fototipo II, procura o ambulatório por causa de uma mancha escura na face posterior da perna esquerda. Conta que a lesão existe há muitos anos, mas que nos últimos oito meses ficou mais larga, ganhou tonalidades diferentes em partes da superfície e passou a sangrar levemente ao atrito com a meia. Ao exame há mácula pigmentada de 14 mm, de contorno recortado, com mistura de castanho-claro, negro e áreas rosadas, sem ulceração franca. A dermatoscopia revela rede pigmentar atípica na periferia, véu azul-esbranquiçado na porção central e vasos puntiformes de distribuição irregular. Não há linfonodos palpáveis nas cadeias poplítea e inguinal.",
+    "enunciado": "Diante da suspeita clínica e dermatoscópica descrita, qual é a conduta diagnóstica inicial mais apropriada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Biópsia por raspagem (shave) da área mais pigmentada, suficiente para o patologista definir o subtipo histológico.",
+        "correta": false,
+        "justificativa": "Incorreta. A raspagem secciona a lesão em plano superficial e impede a medida confiável da espessura tumoral, que é o principal fator prognóstico e o que define a margem definitiva e a indicação de pesquisa do linfonodo sentinela."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar tomografias de tórax, abdome e pelve antes de qualquer procedimento cutâneo, para definir a extensão da doença.",
+        "correta": false,
+        "justificativa": "Incorreta. Em lesão cutânea clinicamente localizada, sem linfonodos palpáveis e sem sintomas sistêmicos, o rastreamento de metástases por imagem não precede a confirmação histológica; expõe o paciente a radiação e a achados incidentais sem alterar o próximo passo."
+      },
+      {
+        "letra": "C",
+        "texto": "Ressecar de imediato a lesão com margem lateral de 2 cm associada a linfadenectomia inguinal profilática.",
+        "correta": false,
+        "justificativa": "Incorreta. A margem de ressecção só é definida depois de conhecida a espessura tumoral, e a retirada eletiva de todo o leito linfonodal não traz benefício de sobrevida, além de acarretar linfedema e morbidade relevante."
+      },
+      {
+        "letra": "D",
+        "texto": "Excisar toda a lesão com margens laterais estreitas, de 1 a 3 mm, em profundidade até o tecido celular subcutâneo, permitindo a medida da espessura tumoral.",
+        "correta": true,
+        "justificativa": "Correta. A retirada completa da lesão com margens mínimas e profundidade total preserva a arquitetura necessária para medir a espessura, avaliar ulceração e índice mitótico, dados que orientam a ampliação de margens e a indicação da pesquisa do linfonodo sentinela."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Indicação e técnica da biópsia excisional na suspeita de melanoma cutâneo",
+    "sistema_organico": "tegumentar",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_03", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_11"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "O item exige formular a hipótese de melanoma a partir de dados semiológicos e dermatoscópicos e indicar o procedimento diagnóstico correto, articulando propedêutica, prognóstico e indicação de procedimento cirúrgico ambulatorial."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso inteiramente novo: paciente do sexo masculino, mais velho, lesão em membro inferior e descrição dermatoscópica própria (véu azul-esbranquiçado, vasos puntiformes). Todas as alternativas foram escritas do zero e a chave foi deslocada para a letra D. Retirado o distrator do item original que citava 'Breslow de 1 cm', medida implausível, e substituído por distratores clinicamente coerentes (shave, estadiamento por imagem precoce, linfadenectomia profilática). Mantida a chave de conteúdo do consenso (biópsia excisional com margens estreitas)."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q040",
+    "tema": "Abdome agudo obstrutivo",
+    "subtema": "Hérnia da região inguinocrural encarcerada com sinais de estrangulamento",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_20"],
+    "tags": ["hernia_encarcerada", "estrangulamento", "obstrucao_intestinal", "emergencia_cirurgica"],
+    "texto_base": "Mulher de 63 anos, tabagista, chega ao pronto-socorro relatando dor forte na virilha direita iniciada há cerca de nove horas, enquanto carregava sacolas de compras. No mesmo momento percebeu que o caroço que costumava aparecer e desaparecer naquela região deixou de voltar ao lugar, mesmo deitada. Desde então apresenta náuseas e três episódios de vômito de aspecto bilioso, sem eliminar fezes ou gases. Ao exame: temperatura axilar 37,9 °C, frequência cardíaca 112 bpm, pressão arterial 128x76 mmHg. O abdome está distendido e timpânico, com ruídos hidroaéreos de timbre metálico e dor difusa à palpação. Na topografia inguinocrural direita palpa-se massa tensa, muito dolorosa, que não retorna à cavidade com manobras delicadas, recoberta por pele avermelhada e quente.",
+    "enunciado": "Qual é a conduta indicada nesse momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tentar a redução manual do conteúdo herniário sob sedação leve e, obtendo sucesso, liberar a paciente para retorno ambulatorial.",
+        "correta": false,
+        "justificativa": "Incorreta. Diante de sinais de sofrimento do conteúdo herniado, a manobra de redução arrisca devolver à cavidade uma alça inviável ou reduzir o saco em bloco, mascarando a perfuração e retardando o diagnóstico de peritonite."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar tomografia de abdome com contraste e reavaliar somente após o resultado, mantendo jejum e analgesia.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico já está estabelecido pelo exame físico e pela obstrução clínica; aguardar imagem apenas consome o tempo em que a alça ainda pode ser recuperada e aumenta a chance de ressecção intestinal."
+      },
+      {
+        "letra": "C",
+        "texto": "Levar imediatamente ao centro cirúrgico para abordagem da região inguinocrural, com inspeção do conteúdo herniado e ressecção do segmento que não recuperar a viabilidade.",
+        "correta": true,
+        "justificativa": "Correta. Irredutibilidade acompanhada de obstrução, taquicardia, febre e sinais inflamatórios cutâneos caracteriza estrangulamento, situação em que a exploração cirúrgica sem demora é o único caminho que permite avaliar a alça e ressecá-la se necessário."
+      },
+      {
+        "letra": "D",
+        "texto": "Prescrever analgesia, aplicar compressa fria sobre o abaulamento e agendar herniorrafia eletiva em até 30 dias.",
+        "correta": false,
+        "justificativa": "Incorreta. Adiar a operação em uma hérnia estrangulada expõe a paciente a necrose intestinal, perfuração e sepse; a programação eletiva só cabe em hérnias redutíveis e sem sinais de complicação aguda."
+      }
+    ],
+    "especialidade": "abdome_agudo",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Reconhecimento e manejo de urgência da hérnia inguinocrural estrangulada",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Avalia o reconhecimento de uma emergência cirúrgica não traumática e a indicação do procedimento operatório imediato em cenário de urgência hospitalar."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente e cenário totalmente trocados (mulher de 63 anos, hérnia inguinocrural, nove horas de evolução, vômitos biliosos e parada de eliminação de gases). Alternativas redigidas do zero e chave deslocada para a letra C. O conteúdo avaliado permanece a conduta na hérnia estrangulada."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q041",
+    "tema": "Parede abdominal",
+    "subtema": "Hérnia inguinal assintomática — conduta expectante",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["hernia_inguinal", "watchful_waiting", "achado_incidental", "decisao_compartilhada", "uso_racional_de_recursos"],
+    "texto_base": "Homem de 74 anos, hipertenso em bom controle e sem outras comorbidades, comparece à unidade básica de saúde levando o laudo de uma tomografia de abdome pedida pelo urologista para investigar nefrolitíase. Entre os achados incidentais o relatório descreve pequena hérnia inguinal indireta à esquerda, de conteúdo exclusivamente gorduroso. Questionado diretamente, o paciente afirma não sentir dor, não perceber saliência na virilha e não ter qualquer limitação para caminhar ou para o trabalho na horta. Ao exame físico, em pé e sob manobra de Valsalva, não se identifica abaulamento; o anel inguinal esquerdo está discretamente alargado, sem massa palpável e sem dor à digitopressão.",
+    "enunciado": "Qual é a melhor conduta para esse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Manter acompanhamento clínico, orientar sobre os sinais de encarceramento e reservar a correção cirúrgica para o momento em que surgirem sintomas, estratégia sustentada pela baixa taxa anual de complicação aguda.",
+        "correta": true,
+        "justificativa": "Correta. Em hérnias inguinais mínimas e assintomáticas, o risco anual de encarceramento é muito baixo e a espera vigilante mostrou-se segura em ensaios clínicos; boa parte dos pacientes acaba operada com o tempo, mas de forma eletiva e sem prejuízo de desfechos."
+      },
+      {
+        "letra": "B",
+        "texto": "Encaminhar com prioridade para hernioplastia, já que toda hérnia inguinal diagnosticada carrega indicação operatória imediata.",
+        "correta": false,
+        "justificativa": "Incorreta. A indicação cirúrgica na hérnia inguinal é fundamentalmente sintomática; operar sistematicamente todo achado assintomático expõe o paciente ao risco anestésico e à dor inguinal crônica sem ganho demonstrado."
+      },
+      {
+        "letra": "C",
+        "texto": "Desconsiderar o achado e encerrar o seguimento, pois relatórios de imagem não são confiáveis para descrever defeitos da parede abdominal.",
+        "correta": false,
+        "justificativa": "Incorreta. O achado é válido e deve ser registrado e comunicado ao paciente; ignorá-lo suprime a orientação sobre os sinais de alarme que permitiriam procura precoce por atendimento em caso de complicação."
+      },
+      {
+        "letra": "D",
+        "texto": "Referenciar ao pronto-socorro de cirurgia para avaliação de urgência quanto à necessidade de operação imediata.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há dor, irredutibilidade, obstrução ou sinais inflamatórios que caracterizem urgência; o encaminhamento indevido sobrecarrega a porta de entrada hospitalar e desorganiza a linha de cuidado."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Indicação cirúrgica versus conduta expectante na hérnia inguinal assintomática",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_04", "enamed_comp_09", "enamed_comp_10"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Exige decisão terapêutica na atenção primária com ponderação de risco-benefício, uso racional de recursos e comunicação de sinais de alarme, sem encaminhamento desnecessário."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Trocados o modo de descoberta (tomografia por nefrolitíase, e não ultrassonografia por hiperplasia prostática), a lateralidade, o tipo de hérnia e a idade. As alternativas foram reescritas e a chave passou para a letra A. Retirado do enunciado das alternativas o dado numérico de conversão em 3 anos, presente no original, substituído por formulação qualitativa sobre segurança da espera vigilante."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q042",
+    "tema": "Coloproctologia",
+    "subtema": "Fissura anal — tratamento de primeira linha",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["fissura_anal", "diltiazem_topico", "esfincterotomia", "constipacao", "dor_anal"],
+    "texto_base": "Mulher de 26 anos procura a unidade de saúde queixando-se de dor anal em queimação que surge durante a evacuação e persiste por cerca de uma hora depois dela. Nas últimas três semanas passou a notar raias de sangue vermelho-vivo recobrindo as fezes e gotejando no vaso. Evacua a cada três ou quatro dias, com muito esforço, e relata baixa ingestão de líquidos e de alimentos ricos em fibras. Não usa medicamentos, não tem doenças conhecidas e nunca foi operada. Ao afastar delicadamente as pregas anais observa-se, na linha média posterior, úlcera linear rasa de fundo avermelhado, sem plicoma sentinela, sem papila hipertrófica e sem exposição de fibras musculares no leito. O toque retal foi adiado pela intensidade da dor.",
+    "enunciado": "Qual é o tratamento de primeira linha para o quadro descrito?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Esfincterotomia lateral interna, procedimento que deve ser oferecido já na primeira consulta a toda fissura sintomática.",
+        "correta": false,
+        "justificativa": "Incorreta. A esfincterotomia é reservada às fissuras crônicas que não cicatrizam após terapia clínica bem conduzida; indicá-la de saída expõe a paciente jovem ao risco de incontinência para gases e fezes líquidas sem necessidade."
+      },
+      {
+        "letra": "B",
+        "texto": "Hemorroidectomia aberta, indicada porque o sangramento vermelho-vivo à evacuação define doença hemorroidária.",
+        "correta": false,
+        "justificativa": "Incorreta. Sangue vivo à evacuação não é exclusivo de hemorroidas, e aqui a dor intensa em queimação somada à úlcera linear na linha média posterior aponta claramente para fissura, condição que a hemorroidectomia não trata."
+      },
+      {
+        "letra": "C",
+        "texto": "Medidas higienodietéticas — aumento de fibras e de líquidos, banhos de assento mornos e analgesia — associadas a bloqueador de canal de cálcio tópico (diltiazem a 2%), com reavaliação em seis a oito semanas.",
+        "correta": true,
+        "justificativa": "Correta. A terapia inicial combina correção da constipação e relaxamento químico do esfíncter interno com bloqueador de canal de cálcio ou nitrato tópico, o que melhora a perfusão da comissura posterior e cicatriza a maioria das fissuras sem cirurgia."
+      },
+      {
+        "letra": "D",
+        "texto": "Pomada de corticosteroide de alta potência, em uso prolongado e isolado, como terapia definitiva.",
+        "correta": false,
+        "justificativa": "Incorreta. O corticosteroide tópico alivia sintomas de forma transitória, não reduz o tônus do esfíncter interno e, em uso prolongado, atrofia a pele perianal e dificulta a cicatrização da úlcera."
+      }
+    ],
+    "especialidade": "coloproctologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Tratamento clínico da fissura anal e critérios para indicação cirúrgica",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Requer diagnóstico sindrômico pela semiologia proctológica e escolha do plano terapêutico de primeira linha, com uso proporcional de recursos antes de escalar para procedimento cirúrgico."
+    },
+    "defeito_corrigido": "O item de origem apresentava evolução de 4 semanas, limítrofe para o critério de cronicidade (6 a 8 semanas), e não oferecia a terapia clínica correta: a única alternativa conservadora trazia banhos de assento com corticoide, o que empurrava artificialmente a resposta para a esfincterotomia. Na reescrita o caso foi definido como fissura aguda inequívoca (três semanas, sem plicoma sentinela, sem papila hipertrófica e sem exposição de fibras musculares) e a alternativa conservadora passou a conter a terapia efetivamente recomendada — medidas higienodietéticas somadas a bloqueador de canal de cálcio tópico —, que agora é a chave.",
+    "nota_adaptacao": "Novo caso (mulher de 26 anos, três semanas de evolução, achados que afastam cronicidade). Diverge da chave de consenso do original (esfincterotomia lateral interna): com fissura aguda e sem terapia clínica prévia, a medicina aponta para tratamento conservador com relaxante tópico do esfíncter interno, e foi essa a resposta escrita, posicionada na letra C."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q043",
+    "tema": "Complicações pós-operatórias",
+    "subtema": "Infecção de sítio cirúrgico superficial após hernioplastia com tela",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["infeccao_de_sitio_cirurgico", "hernioplastia", "tela_de_polipropileno", "drenagem_cirurgica", "antibioticoterapia"],
+    "texto_base": "Homem de 41 anos, diabético tipo 2 em uso de metformina, operado há sete semanas de hernioplastia inguinal esquerda com tela de polipropileno, retorna ao ambulatório por dor progressiva e vermelhidão sobre a cicatriz há cinco dias, acompanhadas de calafrios. Ao exame: temperatura axilar 38,4 °C, frequência cardíaca 104 bpm, pressão arterial 126x78 mmHg. Sobre a incisão há área endurecida de aproximadamente 6 cm, quente e avermelhada, com ponto de flutuação central, sem crepitação, sem bolhas hemorrágicas e sem áreas de necrose da pele; não há drenagem espontânea de secreção. Hemograma com 17.400 leucócitos/mm³ e 9% de bastonetes; proteína C reativa 148 mg/L; glicemia 212 mg/dL. A ultrassonografia de partes moles descreve coleção de 5,2 x 2,0 cm, de conteúdo heterogêneo com debris em suspensão e paredes espessadas, localizada acima da aponeurose, com a tela de aspecto íntegro e sem coleção no plano profundo.",
+    "enunciado": "Qual é a conduta adequada para esse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Compressas mornas, anti-inflamatório não esteroidal e reavaliação em uma semana, por se tratar de seroma estéril de evolução benigna.",
+        "correta": false,
+        "justificativa": "Incorreta. Febre, calafrios, leucocitose com desvio e coleção de conteúdo heterogêneo com debris não correspondem a seroma estéril; postergar o tratamento permite a progressão para infecção profunda e comprometimento da prótese."
+      },
+      {
+        "letra": "B",
+        "texto": "Drenagem cirúrgica da coleção com abertura da ferida, lavagem, coleta de material para cultura e antibioticoterapia empírica cobrindo Staphylococcus aureus.",
+        "correta": true,
+        "justificativa": "Correta. O controle do foco por drenagem é o passo essencial na coleção purulenta de sítio cirúrgico; a cultura permite ajuste posterior do esquema e, com a tela íntegra e a infecção restrita ao plano superficial, tenta-se preservar a prótese."
+      },
+      {
+        "letra": "C",
+        "texto": "Retirada imediata da tela de polipropileno, uma vez que qualquer infecção de ferida sobre prótese exige explante.",
+        "correta": false,
+        "justificativa": "Incorreta. Telas macroporosas de monofilamento com frequência são salvas com drenagem, curativos e antibiótico; o explante fica reservado a infecção profunda persistente, exposição da malha ou fístula crônica refratária."
+      },
+      {
+        "letra": "D",
+        "texto": "Internação para desbridamento extenso por fasceíte necrosante.",
+        "correta": false,
+        "justificativa": "Incorreta. Faltam os marcadores dessa hipótese: não há dor desproporcional, crepitação, bolhas hemorrágicas, necrose cutânea nem instabilidade hemodinâmica, e a ultrassonografia não mostra acometimento fascial."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Diagnóstico diferencial e manejo da coleção infectada de ferida operatória após uso de tela",
+    "sistema_organico": "tegumentar",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_03", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Integra interpretação de exames complementares descritos em texto, diagnóstico diferencial entre seroma, abscesso e fasceíte, e indicação de procedimento cirúrgico de controle de foco."
+    },
+    "defeito_corrigido": "No item de origem, a ausência de exame de imagem ou de punção deixava a drenagem guiada por ultrassonografia competindo com a chave. Aqui a ultrassonografia é descrita integralmente em texto (coleção heterogênea com debris, paredes espessadas, supra-aponeurótica, tela íntegra), e a alternativa correta reúne drenagem e antibiótico em uma só conduta, eliminando a ambiguidade entre as opções.",
+    "nota_adaptacao": "Novo paciente (41 anos, diabético, sétima semana de pós-operatório, hérnia à esquerda) e novo conjunto de dados objetivos: sinais vitais, hemograma, proteína C reativa, glicemia e descrição textual da ultrassonografia. Alternativas escritas do zero e chave posicionada na letra B."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q044",
+    "tema": "Resposta metabólica ao trauma",
+    "subtema": "Distúrbios metabólicos da transfusão maciça e da fase catabólica",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["transfusao_macica", "hipocalcemia_ionizada", "citrato", "resposta_endocrino_metabolica", "trauma"],
+    "texto_base": "Mulher de 33 anos, vítima de queda de motocicleta em alta velocidade, foi submetida a laparotomia para controle de danos por lesão hepática de alto grau e permanece na unidade de terapia intensiva 18 horas depois, sedada, sob ventilação mecânica e em uso de noradrenalina. Durante a ressuscitação recebeu, em pouco mais de três horas, oito concentrados de hemácias, oito unidades de plasma fresco congelado e duas aféreses de plaquetas. Encontra-se normotérmica após reaquecimento ativo e mantém diurese de 0,4 mL/kg/h.",
+    "enunciado": "Qual alteração metabólica é esperada nesse contexto e qual é o mecanismo que a explica?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Hipoglicemia, por liberação exagerada de insulina desencadeada pelo estímulo adrenérgico do trauma.",
+        "correta": false,
+        "justificativa": "Incorreta. A descarga de catecolaminas, cortisol e glucagon inibe a secreção de insulina e induz resistência periférica à sua ação; o esperado na fase aguda é hiperglicemia de estresse, e não queda da glicemia."
+      },
+      {
+        "letra": "B",
+        "texto": "Hipocalcemia ionizada, porque o citrato usado como anticoagulante dos hemocomponentes quela o cálcio livre do plasma.",
+        "correta": true,
+        "justificativa": "Correta. Na transfusão maciça a carga de citrato excede a capacidade de metabolização hepática, sobretudo com hipoperfusão, e reduz o cálcio ionizado, agravando coagulopatia e hipotensão; por isso ele deve ser monitorado e reposto."
+      },
+      {
+        "letra": "C",
+        "texto": "Hipernatremia, por perda renal de água livre secundária à supressão da secreção de hormônio antidiurético.",
+        "correta": false,
+        "justificativa": "Incorreta. O trauma eleva a secreção de hormônio antidiurético e de aldosterona, promovendo retenção de água e de sódio com oligúria; a diurese reduzida e concentrada é justamente o oposto do mecanismo descrito."
+      },
+      {
+        "letra": "D",
+        "texto": "Balanço nitrogenado positivo, por predomínio das vias anabólicas nas primeiras 48 horas após o trauma.",
+        "correta": false,
+        "justificativa": "Incorreta. A fase inicial pós-agressão é catabólica, com proteólise muscular, gliconeogênese e balanço nitrogenado negativo; o anabolismo só predomina na fase tardia de recuperação."
+      }
+    ],
+    "especialidade": "trauma",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Alterações endócrino-metabólicas e hidroeletrolíticas no politraumatizado sob transfusão maciça",
+    "sistema_organico": "endocrino_metabolico",
+    "contexto_atencao": "terapia_intensiva",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_05"],
+      "conteudos": ["enamed_cont_01", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Cobra a compreensão das bases fisiopatológicas da resposta ao trauma e das complicações metabólicas da hemotransfusão, aplicada à interpretação clínica no cuidado crítico."
+    },
+    "defeito_corrigido": "O item de origem tinha comando impreciso ('alterações metabólicas') e um distrator sobre risco de tromboembolismo venoso que é verdadeiro isoladamente, competindo com a chave. Na reescrita o comando pede explicitamente a alteração metabólica e o mecanismo, o distrator sobre tromboembolismo foi eliminado e as três alternativas erradas são inequivocamente falsas, cada uma invertendo um mecanismo conhecido (insulina, hormônio antidiurético e balanço nitrogenado). Corrigiu-se também o erro conceitual do original, que atribuía hipercalcemia ao citrato.",
+    "nota_adaptacao": "Diverge da chave de consenso do original (oligúria funcional): a resposta escrita é a hipocalcemia ionizada por citrato, opção fisiopatologicamente inequívoca e coerente com o cenário de transfusão maciça descrito. A oligúria permanece implícita no caso como dado clínico, mas não como alternativa competidora. Nova paciente, novo mecanismo de trauma e chave posicionada na letra B."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q045",
+    "tema": "Cirurgia pediátrica",
+    "subtema": "Estenose hipertrófica do piloro — repercussão hidroeletrolítica",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_21"],
+    "tags": ["estenose_hipertrofica_do_piloro", "alcalose_metabolica", "hipocloremia", "aciduria_paradoxal", "vomito_em_jato"],
+    "texto_base": "Lactente do sexo masculino, com 38 dias de vida, primeiro filho de um casal jovem, é levado ao pronto atendimento porque vomita depois de quase todas as mamadas há doze dias. A mãe descreve vômitos fortes, que 'saem longe', contendo leite coalhado e nunca com coloração esverdeada, e diz que a criança fica faminta imediatamente depois e aceita nova mamada. O peso de hoje está 200 g abaixo do peso de nascimento. Ao exame apresenta-se sonolento, com fontanela deprimida, mucosas secas e tempo de enchimento capilar de 3 segundos; à palpação profunda do epigástrio, com o abdome relaxado, percebe-se nódulo endurecido e móvel do tamanho de uma azeitona. A ultrassonografia mostra músculo pilórico com 4,8 mm de espessura e canal com 19 mm de comprimento, sem passagem de conteúdo gástrico durante o exame.",
+    "enunciado": "Qual é o distúrbio hidroeletrolítico e acidobásico tipicamente encontrado nessa condição?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Acidose metabólica com ânion gap elevado e hipercalemia, decorrente do acúmulo de ácidos orgânicos.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há produção aumentada de ácidos orgânicos nesse quadro; a perda é de suco gástrico rico em ácido clorídrico, o que gera o padrão oposto, com elevação do bicarbonato sérico."
+      },
+      {
+        "letra": "B",
+        "texto": "Alcalose metabólica com hipocloremia e hipocalemia, acompanhada de acidúria paradoxal.",
+        "correta": true,
+        "justificativa": "Correta. A perda repetida de ácido clorídrico eleva o bicarbonato e reduz o cloro; a hipovolemia ativa a aldosterona, que troca sódio por potássio e hidrogênio no túbulo distal, gerando hipocalemia e urina ácida apesar da alcalose sistêmica."
+      },
+      {
+        "letra": "C",
+        "texto": "Alcalose respiratória com hipofosfatemia e hipercalcemia, por hiperventilação sustentada.",
+        "correta": false,
+        "justificativa": "Incorreta. O distúrbio primário é metabólico e não ventilatório; a resposta compensatória esperada é hipoventilação com retenção de dióxido de carbono, e não há mecanismo que justifique elevação do cálcio."
+      },
+      {
+        "letra": "D",
+        "texto": "Acidose hiperclorêmica com ânion gap normal e hipernatremia, por perda intestinal de bicarbonato.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse padrão corresponde a perdas digestivas baixas, como nas diarreias volumosas; aqui a obstrução é alta e o conteúdo perdido é o suco gástrico, que carreia hidrogênio e cloro, não bicarbonato."
+      }
+    ],
+    "especialidade": "gastroenterologia_pediatrica",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Fisiopatologia do distúrbio acidobásico e eletrolítico na obstrução pilórica do lactente",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_01", "enamed_cont_09"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Articula semiologia do lactente, hipótese diagnóstica de estenose hipertrófica do piloro e interpretação fisiopatológica das repercussões hidroeletrolíticas na rede materno-infantil."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Vinheta nova, com 38 dias de vida, doze dias de sintomas, descrição da desidratação e achados ultrassonográficos escritos em texto (espessura do músculo pilórico e comprimento do canal), tornando o item autossuficiente sem imagem. As quatro alternativas foram reescritas, com distratores construídos sobre mecanismos fisiopatológicos distintos. Chave mantida na letra B, conforme sorteio, e coincidente com o consenso."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q046",
+    "tema": "Doença diverticular",
+    "subtema": "Diverticulite aguda não complicada — tratamento",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["diverticulite", "classificacao_de_hinchey", "antibioticoterapia", "tomografia", "abdome_agudo_inflamatorio"],
+    "texto_base": "Mulher de 57 anos, obesa e sedentária, chega ao pronto-socorro com dor contínua no quadrante inferior esquerdo há quatro dias, sem alívio com analgésico comum, acompanhada de febre aferida em casa e de fezes ressecadas. Nega vômitos, nega sangramento e nega episódios semelhantes no passado. Ao exame: temperatura 38,2 °C, frequência cardíaca 94 bpm, pressão arterial 124x80 mmHg, saturação 97% em ar ambiente. O abdome apresenta dor localizada com discreta defesa voluntária em fossa ilíaca esquerda, sem descompressão dolorosa difusa, sem massa palpável e com ruídos hidroaéreos presentes. Exames: leucócitos 15.200/mm³ com 7% de bastonetes, proteína C reativa 96 mg/L, creatinina 0,8 mg/dL, lactato normal. A tomografia de abdome com contraste descreve sigmoide com múltiplos divertículos, espessamento parietal de 8 mm em segmento de 7 cm e borramento da gordura pericólica adjacente, sem coleções organizadas, sem gás extraluminal e sem líquido livre na cavidade.",
+    "enunciado": "Diante desses achados, qual é a conduta terapêutica adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Internação com jejum inicial, hidratação venosa e antibioticoterapia com cobertura para bacilos gram-negativos entéricos e anaeróbios, mantendo reavaliação clínica seriada.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de diverticulite aguda sem abscesso, sem pneumoperitônio e sem líquido livre, em paciente estável; o tratamento clínico com antibiótico de espectro adequado resolve a maioria desses episódios sem necessidade de intervenção."
+      },
+      {
+        "letra": "B",
+        "texto": "Drenagem percutânea guiada por tomografia da coleção pericólica.",
+        "correta": false,
+        "justificativa": "Incorreta. A tomografia descreve apenas espessamento parietal e densificação da gordura, sem coleção organizada; não há o que drenar, e a punção às cegas de um flegmão apenas acrescenta risco de lesão de alça."
+      },
+      {
+        "letra": "C",
+        "texto": "Sigmoidectomia de urgência com colostomia terminal e fechamento do coto retal.",
+        "correta": false,
+        "justificativa": "Incorreta. A ressecção com colostomia é reservada à peritonite purulenta ou fecal difusa e à instabilidade hemodinâmica; aplicá-la a um episódio não complicado impõe estoma e morbidade evitáveis."
+      },
+      {
+        "letra": "D",
+        "texto": "Colonoscopia imediata para confirmar o diagnóstico e afastar neoplasia colorretal.",
+        "correta": false,
+        "justificativa": "Incorreta. A insuflação na fase inflamatória aguda aumenta o risco de perfuração; o exame endoscópico deve ser programado após seis a oito semanas da resolução, quando então cumpre o papel de afastar neoplasia."
+      }
+    ],
+    "especialidade": "coloproctologia",
+    "especialidade_secundaria": "abdome_agudo",
+    "objeto_conhecimento": "Estratificação de gravidade e tratamento da diverticulite aguda do sigmoide",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_04", "enamed_comp_05"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Exige interpretar exames complementares descritos em texto para estratificar a gravidade e definir o plano terapêutico proporcional em serviço de urgência."
+    },
+    "defeito_corrigido": "No item de origem a tomografia era citada mas não apresentada, e justamente ela define o estadiamento de Hinchey, de que depende toda a decisão terapêutica. Na reescrita os achados tomográficos estão descritos por extenso (espessamento parietal, borramento da gordura pericólica, ausência de coleções, de gás extraluminal e de líquido livre), o que caracteriza sem ambiguidade um episódio não complicado e torna a chave única e verificável pelo texto.",
+    "nota_adaptacao": "Diverge da chave de consenso do original (retossigmoidectomia): explicitados os achados de imagem, o caso corresponde a diverticulite não complicada, cujo tratamento definitivo do episódio é clínico. Novo paciente, novos parâmetros laboratoriais e alternativas redigidas do zero, com a chave na letra A."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q047",
+    "tema": "Hemorragia digestiva alta",
+    "subtema": "Úlcera péptica com estigma de alto risco — terapia endoscópica",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["hemorragia_digestiva_alta", "ulcera_peptica", "classificacao_de_forrest", "terapia_endoscopica_combinada", "aine"],
+    "texto_base": "Mulher de 68 anos, em uso diário de diclofenaco para artrose há oito meses e sem profilaxia gástrica, é levada à emergência após dois episódios de vômito com sangue vivo e coágulos, além de fezes escuras e fétidas nas últimas 24 horas. Na admissão apresenta-se pálida e sudoreica, com frequência cardíaca 116 bpm e pressão arterial 96x58 mmHg. Após expansão com cristaloide, mantém frequência cardíaca 98 bpm e pressão arterial 110x66 mmHg. Exames: hemoglobina 7,4 g/dL, plaquetas 214.000/mm³, INR 1,1, ureia 78 mg/dL, creatinina 0,9 mg/dL. A endoscopia digestiva alta, realizada dentro das primeiras horas, evidencia úlcera de 12 mm na parede posterior do bulbo duodenal, apresentando vaso visível não sangrante no leito, sem sangramento ativo no momento do exame.",
+    "enunciado": "Qual é a conduta endoscópica e farmacológica recomendada para essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não intervir sobre a úlcera e manter apenas inibidor de bomba de prótons por via intravenosa, repetindo a endoscopia em 24 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. O vaso visível é estigma de alto risco, com taxa elevada de ressangramento se deixado sem tratamento; a supressão ácida isolada é adjuvante e não substitui a hemostasia endoscópica na mesma sessão."
+      },
+      {
+        "letra": "B",
+        "texto": "Realizar somente injeção de adrenalina diluída ao redor do vaso, sem associar qualquer outro método hemostático.",
+        "correta": false,
+        "justificativa": "Incorreta. A adrenalina age por vasoconstrição e tamponamento transitórios; usada isoladamente apresenta taxa de ressangramento significativamente maior do que quando combinada a um segundo método."
+      },
+      {
+        "letra": "C",
+        "texto": "Indicar arteriografia com embolização da artéria gastroduodenal como primeira medida hemostática.",
+        "correta": false,
+        "justificativa": "Incorreta. A embolização é terapia de resgate, indicada quando a endoscopia falha ou não está disponível; antecipá-la expõe a paciente a nefrotoxicidade pelo contraste e a risco de isquemia sem tentar o método de primeira linha."
+      },
+      {
+        "letra": "D",
+        "texto": "Aplicar terapia endoscópica combinada, associando injeção de adrenalina a um método mecânico ou térmico, e manter inibidor de bomba de prótons em altas doses.",
+        "correta": true,
+        "justificativa": "Correta. Diante de estigma de alto risco, a combinação de adrenalina com clipe ou coagulação térmica reduz ressangramento, necessidade de cirurgia e mortalidade, e a supressão ácida potente estabiliza o coágulo formado."
+      }
+    ],
+    "especialidade": "gastroenterologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Estratificação endoscópica de risco e hemostasia na hemorragia digestiva alta não varicosa",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_03", "enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Requer interpretar o achado endoscópico como estigma de alto risco e indicar procedimento terapêutico e farmacoterapia baseados em evidência, em cenário de urgência hospitalar."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Nova paciente (mulher de 68 anos, usuária crônica de anti-inflamatório não esteroidal), com úlcera duodenal portando vaso visível não sangrante em vez da lesão gástrica com sangramento em babação do original. O achado endoscópico está descrito em palavras, sem depender de imagem. Alternativas inteiramente novas e chave mantida na letra D, coincidente com o consenso."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q048",
+    "tema": "Queimaduras",
+    "subtema": "Lesão inalatória e prioridade de via aérea",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_14", "dcn2025_comp_20"],
+    "tags": ["queimadura", "lesao_inalatoria", "via_aerea_definitiva", "intubacao_precoce", "atendimento_inicial_ao_trauma"],
+    "texto_base": "Mulher de 35 anos é retirada por bombeiros de um apartamento em chamas, onde permaneceu cerca de dez minutos em cômodo fechado e tomado por fumaça densa. Chega ao pronto-socorro consciente e agitada, respondendo às perguntas com voz rouca e apresentando estridor audível a distância. Há queimaduras em face e pescoço, vibrissas nasais chamuscadas, fuligem depositada na orofaringe e edema de língua e de lábios, além de tosse com expectoração enegrecida. A saturação periférica é de 96% sob máscara com reservatório e a frequência respiratória é de 28 incursões por minuto. Observam-se ainda queimaduras de segundo grau superficial em tórax anterior e uma área de espessura parcial profunda no membro superior direito, não circunferencial, com pulso radial cheio e enchimento capilar preservado nos dedos.",
+    "enunciado": "Qual é a conduta imediata prioritária para essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Intubação orotraqueal precoce, realizada antes que a progressão do edema inviabilize o acesso à via aérea.",
+        "correta": true,
+        "justificativa": "Correta. Rouquidão, estridor, edema de língua e lábios, fuligem em orofaringe e queimadura cervicofacial anunciam obstrução iminente; a via aérea definitiva deve ser assegurada enquanto a anatomia ainda permite, pois a piora costuma ser rápida."
+      },
+      {
+        "letra": "B",
+        "texto": "Escarotomia longitudinal do membro superior direito.",
+        "correta": false,
+        "justificativa": "Incorreta. A lesão descrita não é circunferencial e a perfusão distal está preservada, com pulso cheio e enchimento capilar normal; não há síndrome compartimental que justifique incisão de descompressão neste momento."
+      },
+      {
+        "letra": "C",
+        "texto": "Iniciar a reposição volêmica calculada pela fórmula de Parkland como primeira providência, postergando as demais medidas.",
+        "correta": false,
+        "justificativa": "Incorreta. A reposição é fundamental, mas ocupa a etapa de circulação; colocá-la à frente da via aérea inverte a sequência do atendimento e deixa a paciente sob risco de obstrução durante o preparo da infusão."
+      },
+      {
+        "letra": "D",
+        "texto": "Manter oxigênio sob máscara e transferir para centro de queimados, reavaliando a via aérea na chegada ao serviço de referência.",
+        "correta": false,
+        "justificativa": "Incorreta. Transportar paciente com estridor e edema em progressão sem via aérea definitiva é conduta de alto risco; a saturação atual não afasta a obstrução iminente nem a intoxicação por monóxido de carbono."
+      }
+    ],
+    "especialidade": "queimados",
+    "especialidade_secundaria": "trauma",
+    "objeto_conhecimento": "Atendimento inicial ao queimado com suspeita de lesão de via aérea por inalação",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_05", "enamed_comp_06"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Avalia o reconhecimento de emergência traumática com ameaça imediata à via aérea e a execução da sequência de prioridades do atendimento inicial."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo caso (mulher de 35 anos, incêndio residencial), com sinais de lesão inalatória descritos de forma mais completa e com dado explícito de perfusão distal preservada, o que torna a alternativa da escarotomia inequivocamente incorreta. Foi retirada a alternativa com cálculo numérico de volume do original. Chave deslocada para a letra A."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q049",
+    "tema": "Complicações da cirurgia bariátrica",
+    "subtema": "Hérnia interna após derivação gástrica em Y de Roux",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["hernia_interna", "bypass_gastrico", "sinal_do_redemoinho", "abdome_agudo_obstrutivo", "defeito_de_petersen"],
+    "texto_base": "Homem de 45 anos, submetido a derivação gástrica em Y de Roux há 16 meses, com redução de 48 kg desde a operação, é atendido na emergência por dor abdominal em cólica no andar superior do abdome, de forte intensidade, que vinha aparecendo em crises autolimitadas nas últimas três semanas e que piorou nas últimas dez horas, agora acompanhada de vômitos repetidos. Ao exame: frequência cardíaca 104 bpm, pressão arterial 122x74 mmHg, temperatura 37,2 °C, abdome distendido e doloroso à palpação em mesogástrio e hipocôndrio esquerdo, sem descompressão dolorosa e sem rigidez. Exames: leucócitos 13.900/mm³, hemoglobina 12,1 g/dL, lactato 2,4 mmol/L, amilase 62 U/L (referência 20 a 96), lipase 40 U/L (referência 4 a 43), sódio 133 mEq/L, potássio 3,4 mEq/L. A tomografia de abdome com contraste descreve alças de intestino delgado agrupadas no quadrante superior esquerdo, com paredes espessadas e níveis hidroaéreos, e rotação dos vasos mesentéricos em torno de seu próprio eixo, configurando o sinal do redemoinho.",
+    "enunciado": "Qual é a conduta indicada para esse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tratamento conservador com sonda nasogástrica, jejum e observação por 72 horas, reservando a operação apenas para o insucesso clínico.",
+        "correta": false,
+        "justificativa": "Incorreta. A hérnia interna cursa com torção do mesentério e risco de isquemia extensa do delgado; a observação prolongada não resolve o mecanismo obstrutivo e transforma um quadro reversível em ressecção maciça."
+      },
+      {
+        "letra": "B",
+        "texto": "Infusão de vasodilatador na artéria mesentérica superior, por suspeita de isquemia mesentérica não oclusiva.",
+        "correta": false,
+        "justificativa": "Incorreta. A isquemia não oclusiva ocorre em pacientes com baixo débito e vasoconstrição esplâncnica, contexto ausente aqui; a imagem demonstra causa mecânica, que exige correção cirúrgica e não farmacológica."
+      },
+      {
+        "letra": "C",
+        "texto": "Exploração cirúrgica sem demora, preferencialmente por videolaparoscopia, com redução das alças herniadas e fechamento dos defeitos mesentéricos.",
+        "correta": true,
+        "justificativa": "Correta. Dor recorrente após grande perda ponderal somada ao sinal do redemoinho e ao agrupamento de alças caracteriza hérnia interna; a abordagem cirúrgica imediata desfaz a torção, avalia a viabilidade e previne recidiva ao fechar as brechas."
+      },
+      {
+        "letra": "D",
+        "texto": "Corrigir os distúrbios eletrolíticos e prescrever procinético, atribuindo o quadro a íleo de origem metabólica.",
+        "correta": false,
+        "justificativa": "Incorreta. As alterações de sódio e potássio são consequência dos vômitos, não a causa do quadro; o íleo metabólico não produz rotação dos vasos mesentéricos nem agrupamento localizado de alças na tomografia."
+      }
+    ],
+    "especialidade": "abdome_agudo",
+    "especialidade_secundaria": "cirurgia_geral",
+    "objeto_conhecimento": "Diagnóstico e tratamento da hérnia interna no pós-operatório tardio de cirurgia bariátrica",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_02", "enamed_comp_03", "enamed_comp_05"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Integra história cirúrgica pregressa, interpretação de achados tomográficos descritos em texto e indicação de intervenção cirúrgica de urgência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente (homem de 45 anos, 16 meses de pós-operatório, perda de 48 kg), novos valores laboratoriais e achados tomográficos redescritos em texto corrido, incluindo o sinal do redemoinho, o que dispensa a imagem. Alternativas reescritas do zero e chave mantida na letra C, coincidente com o consenso."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q050",
+    "tema": "Oncologia do trato digestório",
+    "subtema": "Tumor periampular ressecável — conduta",
+    "area_clinica": "cirurgia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
+    "tags": ["tumor_periampular", "ictericia_obstrutiva", "sinal_de_courvoisier", "ressecabilidade", "duodenopancreatectomia"],
+    "texto_base": "Homem de 66 anos, aposentado, procura o ambulatório por amarelamento dos olhos e da pele que vem se acentuando há cerca de cinco semanas, com urina de cor escura e fezes esbranquiçadas. Refere prurido leve e emagrecimento de 9 kg no mesmo período, sem febre, sem calafrios e sem dor abdominal significativa. Ao exame apresenta icterícia acentuada, sem estigmas de hepatopatia crônica; no hipocôndrio direito palpa-se vesícula distendida, de superfície lisa e indolor. Exames: bilirrubina total 11,4 mg/dL com fração direta 9,6 mg/dL, fosfatase alcalina 610 U/L, gama-glutamiltransferase 720 U/L, alanina aminotransferase 98 U/L, albumina 3,8 g/dL, hemoglobina 12,6 g/dL, leucócitos 7.200/mm³. A tomografia de abdome com contraste em múltiplas fases descreve lesão sólida de 2,1 cm na cabeça do pâncreas, com dilatação do colédoco, das vias biliares intra-hepáticas e do ducto pancreático principal; não há contato da lesão com o tronco celíaco, a artéria mesentérica superior, a veia porta ou a veia mesentérica superior; o fígado não apresenta nódulos e não há linfonodomegalia a distância nem ascite.",
+    "enunciado": "Qual é a conduta mais adequada para a condução desse caso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Realizar colangiopancreatografia retrógrada endoscópica com colocação rotineira de prótese biliar antes de qualquer outra medida, para tratar a colangite.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há febre, calafrios ou repercussão sistêmica que caracterizem colangite, e a drenagem biliar de rotina antes da operação aumenta complicações infecciosas do procedimento sem melhorar desfechos."
+      },
+      {
+        "letra": "B",
+        "texto": "Proceder à biópsia percutânea da lesão e encaminhar para cuidados paliativos exclusivos, uma vez que a massa palpável indica doença irressecável.",
+        "correta": false,
+        "justificativa": "Incorreta. O que se palpa é a vesícula distendida pela obstrução, e não o tumor; além disso, a tomografia mostra lesão sem invasão vascular e sem metástases, de modo que abandonar a intenção curativa seria um erro grave."
+      },
+      {
+        "letra": "C",
+        "texto": "Indicar drenagem biliar trans-hepática percutânea como tratamento definitivo da icterícia.",
+        "correta": false,
+        "justificativa": "Incorreta. A drenagem externa é medida paliativa ou de resgate em obstrução não abordável por outra via; empregá-la como tratamento definitivo em doença potencialmente curável renuncia à ressecção."
+      },
+      {
+        "letra": "D",
+        "texto": "Completar o estadiamento, incluindo tomografia de tórax, e encaminhar a serviço de referência para duodenopancreatectomia, pois a lesão preenche critérios de ressecabilidade.",
+        "correta": true,
+        "justificativa": "Correta. Lesão localizada, sem contato com os eixos arteriais e venosos e sem doença a distância, em paciente com boa reserva funcional, é classificada como ressecável; a ressecção em centro de alto volume é a única estratégia com intenção curativa."
+      }
+    ],
+    "especialidade": "cirurgia_geral",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Avaliação de ressecabilidade e encaminhamento na neoplasia periampular com icterícia obstrutiva",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_02",
+      "competencias": ["enamed_comp_03", "enamed_comp_04", "enamed_comp_09"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_11"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Exige interpretar exames laboratoriais e tomográficos para julgar ressecabilidade e organizar a referência para serviço de maior complexidade, no âmbito das redes de doenças crônicas."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente (homem de 66 anos), nova apresentação laboratorial e descrição tomográfica ampliada, com menção explícita à ausência de contato vascular arterial e venoso e à ausência de doença a distância, tornando o juízo de ressecabilidade verificável pelo texto. Alternativas escritas do zero e chave deslocada para a letra D, mantendo o conteúdo apontado pelo consenso."
+  }
+]

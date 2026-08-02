@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q075",
+    "tema": "Disfunção tireoidiana",
+    "subtema": "Hipotireoidismo subclínico assintomático",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["hipotireoidismo subclinico", "TSH", "levotiroxina", "atencao primaria", "uso racional de exames"],
+    "texto_base": "Um homem de 63 anos, aposentado, comparece à unidade de saúde da família para revisão anual. É dislipidêmico em uso de sinvastatina e nega alterações de peso, sonolência excessiva, constipação, queda de cabelo ou intolerância ao frio. Ao exame: peso estável em relação ao ano anterior, frequência cardíaca de 72 bpm, pele e fâneros sem alterações, tireoide de volume normal, sem nódulos palpáveis e indolor. Traz exames colhidos há dez dias: TSH 6,8 mU/L (valor de referência 0,4 a 4,0 mU/L); T4 livre 1,3 ng/dL (valor de referência 0,8 a 1,8 ng/dL); anticorpo antitireoperoxidase não reagente; LDL-colesterol 118 mg/dL. Não utiliza amiodarona, lítio, corticoide ou suplementos com biotina, e não houve doença aguda nem internação nos últimos meses.",
+    "enunciado": "Considerando esse achado laboratorial isolado em paciente assintomático, qual é a conduta inicial mais apropriada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Prescrever levotiroxina 50 mcg/dia em jejum e reavaliar o perfil tireoidiano após seis semanas.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há indicação de reposição hormonal com elevação discreta e isolada do TSH em paciente assintomático: o tratamento se justifica sobretudo quando o TSH permanece acima de 10 mU/L em duas medidas, ou diante de sintomas, gestação, desejo de gestar ou anticorpos positivos com progressão. Tratar antes de confirmar expõe a risco de iatrogenia e a supressão tireotrófica desnecessária."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar ultrassonografia com Doppler e cintilografia da tireoide para definir a etiologia da disfunção.",
+        "correta": false,
+        "justificativa": "Incorreta. A ultrassonografia se destina à investigação de nódulo ou bócio palpável, e a cintilografia é ferramenta da avaliação de tireotoxicose. Nenhuma das duas altera a conduta em elevação discreta do TSH com glândula normal ao exame físico, e ambas representam uso não racional de recursos diagnósticos."
+      },
+      {
+        "letra": "C",
+        "texto": "Repetir TSH e T4 livre em 8 a 12 semanas antes de qualquer decisão terapêutica, mantendo o paciente sem medicação tireoidiana.",
+        "correta": true,
+        "justificativa": "Correta. Elevações leves do TSH são frequentemente transitórias — variabilidade biológica, flutuação laboratorial ou recuperação de doença não tireoidiana — e normalizam espontaneamente em parcela expressiva dos casos. A confirmação em nova coleta após dois a três meses é o passo que define se existe de fato hipotireoidismo subclínico persistente."
+      },
+      {
+        "letra": "D",
+        "texto": "Dosar T3 total e anticorpo antitireoglobulina para estabelecer o diagnóstico etiológico antes de nova avaliação do TSH.",
+        "correta": false,
+        "justificativa": "Incorreta. O T3 não participa da avaliação do hipotireoidismo, pois se mantém normal até fases avançadas da doença. O antitireoglobulina tem baixo rendimento adicional quando o antitireoperoxidase já é não reagente e não substitui a repetição do TSH, que é o exame que confirma ou afasta a persistência da alteração."
+      }
+    ],
+    "especialidade": "endocrinologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Interpretação do TSH elevado com T4 livre normal e critérios de tratamento do hipotireoidismo subclínico",
+    "sistema_organico": "endocrino",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_03", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Item de Clínica Médica ambientado na atenção primária, avaliando solicitação e interpretação criteriosa de exames complementares (comp. III) e a decisão terapêutica correspondente (comp. IV), nos conteúdos de propedêutica/diagnóstico e terapêutica."
+    },
+    "defeito_corrigido": "No item de origem, a dosagem de anti-TPO era um distrator parcialmente defensável, pois faz parte da avaliação inicial habitual do TSH elevado. No item novo o anti-TPO já consta do resultado trazido pelo paciente (não reagente), de modo que a única decisão em disputa passa a ser confirmar ou não a alteração antes de tratar, eliminando a ambiguidade.",
+    "nota_adaptacao": "Caso inteiramente novo: paciente masculino de 63 anos, dislipidêmico, em revisão anual, com valores laboratoriais e referências diferentes. Mantidos o objeto de conhecimento (conduta no TSH discretamente elevado com T4 livre normal) e a chave em C. Alternativas escritas do zero, com distratores substituídos por condutas inequivocamente inadequadas (imagem, T3, tratamento precoce)."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q076",
+    "tema": "Psicofarmacologia na gestação",
+    "subtema": "Manutenção de inibidor seletivo da recaptação de serotonina no primeiro trimestre",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_10"],
+    "tags": ["ISRS", "sertralina", "gestacao", "depressao recorrente", "risco-beneficio"],
+    "texto_base": "Uma mulher de 31 anos, gestante de 7 semanas, comparece à primeira consulta de pré-natal em unidade básica de saúde. Tem diagnóstico de transtorno depressivo recorrente, com dois episódios prévios, um deles grave e com necessidade de afastamento do trabalho. Está em uso de sertralina 100 mg/dia há dois anos, em remissão estável, com sono, apetite e funcionamento social preservados, sem ideação suicida. Descobriu a gestação há cinco dias e, assustada com textos que leu na internet, interrompeu a medicação por conta própria há três dias. Nega uso de álcool, tabaco ou outras substâncias. Pressão arterial de 110/70 mmHg e exame físico sem alterações.",
+    "enunciado": "Diante desse quadro, qual orientação farmacológica deve ser dada à paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Confirmar a suspensão já iniciada por ela, uma vez que os antidepressivos serotoninérgicos são formalmente contraindicados durante a organogênese.",
+        "correta": false,
+        "justificativa": "Incorreta. Os inibidores seletivos da recaptação de serotonina não são contraindicação formal na gestação e não apresentam risco teratogênico significativo em conjunto. Endossar a suspensão abrupta em paciente com transtorno recorrente expõe a alto risco de recaída, além de sintomas de descontinuação, e a depressão materna não tratada associa-se a desfechos obstétricos e neonatais desfavoráveis."
+      },
+      {
+        "letra": "B",
+        "texto": "Trocar a sertralina por paroxetina, considerada a alternativa de maior segurança fetal entre os antidepressivos no primeiro trimestre.",
+        "correta": false,
+        "justificativa": "Incorreta. A afirmação inverte o perfil de segurança: a paroxetina é justamente o ISRS com sinal de associação a malformações cardíacas fetais e, por isso, costuma ser evitada na gestação. Além disso, trocar um fármaco que mantém a paciente em remissão a expõe desnecessariamente a novo período de titulação e a risco de recidiva."
+      },
+      {
+        "letra": "C",
+        "texto": "Substituir o antidepressivo por clonazepam em dose baixa até o término do primeiro trimestre.",
+        "correta": false,
+        "justificativa": "Incorreta. Benzodiazepínicos não tratam o transtorno depressivo, não previnem recaída e, no fim da gestação, associam-se a síndrome de abstinência neonatal e hipotonia do recém-nascido. Trocar um ISRS eficaz por benzodiazepínico piora o tratamento sem qualquer ganho de segurança."
+      },
+      {
+        "letra": "D",
+        "texto": "Reintroduzir a sertralina na menor dose que já se mostrou eficaz para ela, esclarecendo que o risco de recaída de uma depressão não tratada supera o risco atribuído ao medicamento, e manter acompanhamento conjunto do pré-natal e da saúde mental.",
+        "correta": true,
+        "justificativa": "Correta. Em paciente com transtorno depressivo recorrente e remissão sustentada por medicação, a conduta baseada em evidências é manter (ou retomar) o ISRS na menor dose eficaz, com decisão compartilhada e informação clara sobre riscos e benefícios. A sertralina está entre as opções preferenciais na gestação e na lactação, e o acompanhamento articulado permite vigilância clínica adequada."
+      }
+    ],
+    "especialidade": "psicofarmacologia",
+    "especialidade_secundaria": "pre_natal",
+    "objeto_conhecimento": "Balanço risco-benefício da manutenção de antidepressivos na gestação",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_06",
+      "competencias": ["enamed_comp_04", "enamed_comp_10"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_07"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Saúde Mental na atenção primária: elaboração e pactuação de plano terapêutico com base em evidências (comp. IV) e comunicação de risco com decisão compartilhada (comp. X), nos conteúdos de terapêutica e habilidades de comunicação."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso reescrito: paciente de 31 anos com transtorno depressivo recorrente (e não ansiedade generalizada), 7 semanas, em uso de sertralina, com a agravante de já ter suspendido o fármaco por conta própria — o que desloca o comando para a reintrodução. A chave foi posicionada em D conforme solicitado. Distratores novos, incluindo a inversão do perfil de segurança da paroxetina, que exige conhecimento mais fino que o item de origem."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q077",
+    "tema": "Imunização na gestação",
+    "subtema": "Indicação de dTpa a cada gestação",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["dTpa", "coqueluche", "tetano neonatal", "pre-natal", "calendario vacinal"],
+    "texto_base": "Uma mulher de 29 anos, G3P2A0, comparece à consulta de pré-natal em unidade básica de saúde com 22 semanas de gestação, sem intercorrências. Traz a caderneta de vacinação, na qual constam o esquema básico completo com três doses de vacina dupla adulto, concluído aos 21 anos, além de uma aplicação da dTpa (vacina tríplice bacteriana acelular do tipo adulto) feita no pré-natal anterior, há quatro anos. Desde então não recebeu novas doses. Encontra-se assintomática, sem ferimentos recentes, e os demais exames e medidas do pré-natal estão adequados para a idade gestacional.",
+    "enunciado": "Qual é a conduta correta quanto à imunização contra tétano, difteria e coqueluche nesta gestação?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Reiniciar o esquema básico com três doses de vacina dupla adulto, pois o intervalo desde a última dose ultrapassa cinco anos.",
+        "correta": false,
+        "justificativa": "Incorreta. Esquema vacinal comprovadamente completo não é reiniciado, qualquer que seja o intervalo decorrido: doses aplicadas anteriormente são sempre aproveitadas. Reiniciar o esquema significa exposição desnecessária e desperdício de imunobiológico."
+      },
+      {
+        "letra": "B",
+        "texto": "Aplicar uma dose de dTpa nesta gestação, pois essa vacina deve ser repetida a cada gravidez a partir da 20ª semana, independentemente do histórico vacinal prévio.",
+        "correta": true,
+        "justificativa": "Correta. A recomendação nacional prevê uma dose de dTpa em toda gestação, a partir da 20ª semana, mesmo em quem tem esquema completo ou recebeu a vacina em gravidez anterior. O objetivo é elevar os anticorpos maternos antipertussis no momento da gestação atual para transferência transplacentária e proteção do lactente nos primeiros meses, antes do início do esquema próprio. A paciente está com 22 semanas, portanto já elegível."
+      },
+      {
+        "letra": "C",
+        "texto": "Não administrar nenhuma dose, uma vez que o esquema anterior está completo e a dTpa aplicada na gestação passada mantém a proteção.",
+        "correta": false,
+        "justificativa": "Incorreta. A proteção conferida pela dTpa contra coqueluche declina rapidamente e os anticorpos transferidos ao feto dependem da vacinação da gestação em curso. Uma dose recebida quatro anos antes não protege o recém-nascido atual, motivo pelo qual a revacinação é indicada a cada gestação."
+      },
+      {
+        "letra": "D",
+        "texto": "Aplicar somente um reforço de vacina dupla adulto agora e reservar a dTpa para o puerpério imediato.",
+        "correta": false,
+        "justificativa": "Incorreta. A dT não contém o componente pertussis e não cumpre a finalidade de proteger o lactente. Vacinar apenas no puerpério perde a janela da transferência transplacentária de anticorpos, que é o principal mecanismo de proteção do recém-nascido; a vacinação pós-parto é estratégia de resgate apenas para quem não recebeu a dose durante a gestação."
+      }
+    ],
+    "especialidade": "pre_natal",
+    "especialidade_secundaria": "promocao_e_prevencao",
+    "objeto_conhecimento": "Calendário vacinal da gestante e proteção do lactente contra coqueluche",
+    "sistema_organico": null,
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_08", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_13"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Ginecologia e Obstetrícia na atenção primária, com foco em prevenção e vigilância (comp. VIII) aplicada ao plano de cuidado do pré-natal (comp. IV), nos conteúdos de prognóstico/prevenção e promoção e educação em saúde."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo caso: multípara de 29 anos, já na 22ª semana (o que retira a pegadinha temporal do 'a partir de 20 semanas' e desloca o eixo para a necessidade de repetir a dTpa a cada gestação), com histórico vacinal e intervalos diferentes. Chave posicionada em B. Alternativas redigidas do zero, com o distrator do reforço de dT reformulado para incluir a opção do puerpério, tornando-o mais discriminativo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q078",
+    "tema": "Assistência ao trabalho de parto",
+    "subtema": "Ingesta oral na parturiente de risco habitual",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_10", "dcn2025_comp_12"],
+    "tags": ["trabalho de parto", "jejum", "boas praticas", "parto humanizado", "risco habitual"],
+    "texto_base": "Uma mulher de 27 anos, G2P1A0, com 40 semanas de gestação de risco habitual, é admitida em centro de parto normal em franco trabalho de parto: colo com 7 cm de dilatação, contrações regulares e eficazes, bolsa íntegra e batimentos cardiofetais de 138 bpm com boa variabilidade. Não tem comorbidades, não faz uso de opioides, não recebeu analgesia farmacológica e não há qualquer indicação prevista de anestesia geral. Está há oito horas sem se alimentar porque a acompanhante afirmou que 'mulher em trabalho de parto não pode comer nada'. Refere fome, sede e sensação de fraqueza, mas mantém-se deambulando, com bom estado geral e sinais vitais normais.",
+    "enunciado": "Sobre a ingesta oral dessa parturiente, qual é a orientação correta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Manter jejum absoluto até o nascimento, em razão do risco de broncoaspiração caso venha a ser necessária anestesia geral.",
+        "correta": false,
+        "justificativa": "Incorreta. O jejum de rotina baseia-se em um risco hoje muito reduzido pela raridade da anestesia geral em obstetrícia e pelas técnicas anestésicas modernas. Não há evidência de que o jejum diminua complicações, e ele provoca desconforto, cetose, exaustão materna e maior necessidade de intervenções."
+      },
+      {
+        "letra": "B",
+        "texto": "Restringir a via oral a pequenos goles de água e compensar o aporte energético com hidratação venosa contínua com solução glicosada.",
+        "correta": false,
+        "justificativa": "Incorreta. A hidratação venosa de rotina não substitui a ingesta oral, restringe a mobilidade da parturiente e pode causar sobrecarga hídrica e hiponatremia materna e neonatal quando se usam grandes volumes de solução glicosada. Trata-se de intervenção desnecessária em gestação de risco habitual."
+      },
+      {
+        "letra": "C",
+        "texto": "Liberar a ingestão de líquidos e de alimentos leves conforme a vontade da parturiente, conduta recomendada no trabalho de parto de risco habitual.",
+        "correta": true,
+        "justificativa": "Correta. As diretrizes de assistência ao parto normal recomendam permitir líquidos e dieta leve às mulheres em trabalho de parto de risco habitual, respeitando o desejo da parturiente. A oferta de aporte calórico reduz a cetose e a exaustão, melhora a experiência do parto e não aumenta desfechos adversos maternos ou neonatais."
+      },
+      {
+        "letra": "D",
+        "texto": "Suspender qualquer alimento sólido e permitir apenas sucos coados, instituindo jejum completo assim que a dilatação atingir 8 cm.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe fundamento para instituir jejum a partir de determinada dilatação cervical, e essa restrição progressiva agrava justamente na fase de maior gasto energético, quando a parturiente mais precisa de aporte. A conduta reproduz uma prática rotineira sem respaldo em evidências."
+      }
+    ],
+    "especialidade": "parto_e_puerperio",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Boas práticas de assistência ao parto: alimentação e hidratação durante o trabalho de parto",
+    "sistema_organico": null,
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_04", "enamed_comp_01"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_02"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Ginecologia e Obstetrícia na Rede Materno Infantil, avaliando plano de cuidado baseado em evidências (comp. IV) e respeito à singularidade e à autonomia da parturiente (comp. I), nos conteúdos de terapêutica e processos fisiológicos do ciclo de vida."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo caso: secundigesta de 27 anos, 40 semanas, 7 cm, em centro de parto normal, com a restrição alimentar atribuída à acompanhante e não ao serviço de origem. A chave — liberar líquidos e alimentos leves — foi posicionada em C, conforme solicitado, e o antigo distrator 'apenas líquidos claros' foi reescrito de forma inequivocamente inadequada (jejum progressivo por dilatação), eliminando a competição entre duas respostas defensáveis. Registre-se que diretrizes anestesiológicas de outros países ainda restringem sólidos; adotou-se a recomendação da OMS e das diretrizes nacionais de assistência ao parto normal para gestação de risco habitual, explicitada no enunciado."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q079",
+    "tema": "Hemorragia pós-parto",
+    "subtema": "Manejo escalonado da atonia uterina",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["hemorragia pos-parto", "atonia uterina", "uterotonicos", "acido tranexamico", "emergencia obstetrica"],
+    "texto_base": "Uma mulher de 31 anos, G3P2A0, com 39 semanas, evolui com parto vaginal espontâneo em maternidade de referência. Recebeu 10 UI de ocitocina por via intramuscular logo após o desprendimento fetal e a dequitação ocorreu aos oito minutos, com placenta e membranas íntegras à revisão. Cerca de vinte minutos depois, apresenta perda sanguínea vaginal volumosa e contínua, estimada em 900 mL, com pressão arterial de 88/52 mmHg, frequência cardíaca de 122 bpm, palidez cutâneo-mucosa e extremidades frias. Ao exame, o fundo uterino encontra-se acima da cicatriz umbilical, amolecido e sem tônus; a revisão do canal de parto não evidencia lacerações de colo, vagina ou períneo. Foi iniciada compressão uterina bimanual, que reduz o sangramento apenas enquanto é mantida.",
+    "enunciado": "Qual é a sequência terapêutica mais adequada neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Instalar de imediato balão de tamponamento intrauterino, deixando os uterotônicos reservados para o caso de falha do dispositivo.",
+        "correta": false,
+        "justificativa": "Incorreta. O tamponamento intrauterino é recurso de segunda linha, indicado quando a atonia não responde ao tratamento medicamentoso pleno. Antecipá-lo aos uterotônicos inverte a ordem preconizada, consome tempo e retarda a medida que resolve a maioria dos casos de atonia."
+      },
+      {
+        "letra": "B",
+        "texto": "Manter a compressão bimanual e escalonar os uterotônicos — ocitocina em infusão intravenosa somada a metilergometrina ou misoprostol —, administrando ácido tranexâmico 1 g por via intravenosa e reposição volêmica de forma simultânea.",
+        "correta": true,
+        "justificativa": "Correta. Diante de atonia com resposta apenas transitória à compressão, o passo seguinte é o tratamento medicamentoso completo: ocitocina em infusão contínua associada a um segundo uterotônico de classe distinta, junto com ácido tranexâmico administrado o mais precocemente possível (dentro das primeiras três horas) e reposição volêmica guiada pela instabilidade hemodinâmica. As medidas são simultâneas, não sequenciais, e a paciente hipotensa e taquicárdica exige ressuscitação concomitante."
+      },
+      {
+        "letra": "C",
+        "texto": "Realizar curagem e curetagem uterina sob sedação para retirada de restos ovulares, associadas a antibiótico de amplo espectro.",
+        "correta": false,
+        "justificativa": "Incorreta. A placenta foi dequitada íntegra e revisada, o que torna a retenção de restos improvável; o exame descreve útero amolecido, característico de atonia. A instrumentação uterina em paciente instável acrescenta risco de perfuração, sinéquias e infecção sem tratar a causa do sangramento."
+      },
+      {
+        "letra": "D",
+        "texto": "Encaminhar para histerectomia subtotal de urgência, por se tratar de atonia refratária à massagem uterina.",
+        "correta": false,
+        "justificativa": "Incorreta. A histerectomia é medida de último recurso, indicada apenas após falha dos uterotônicos, do tamponamento e, quando disponíveis, das técnicas conservadoras como suturas compressivas ou embolização. Indicá-la antes do tratamento medicamentoso pleno impõe perda definitiva da fertilidade e morbidade cirúrgica evitáveis."
+      }
+    ],
+    "especialidade": "parto_e_puerperio",
+    "especialidade_secundaria": "emergencias_obstetricas",
+    "objeto_conhecimento": "Tratamento escalonado da hemorragia pós-parto por atonia uterina",
+    "sistema_organico": "reprodutor",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Emergência obstétrica na Rede Materno Infantil: reconhecimento e tratamento de emergência não traumática (comp. V) com plano terapêutico baseado em evidências (comp. IV), nos conteúdos de terapêutica e propedêutica/diagnóstico."
+    },
+    "defeito_corrigido": "No item de origem, o ácido tranexâmico aparecia em alternativa concorrente, tornando um distrator parcialmente verdadeiro (a OMS de fato recomenda o tranexâmico precocemente). No item novo o tranexâmico foi incorporado à alternativa correta, junto dos uterotônicos e da reposição volêmica, de modo que a discriminação passa a ser feita pela ordem e pela completude das medidas, e não por uma meia-verdade. Os distratores foram substituídos por condutas de linha posterior (balão, histerectomia) ou por diagnóstico errado (restos ovulares).",
+    "nota_adaptacao": "Caso reescrito: terceigesta de 31 anos, sem hipertensão crônica nem obesidade grau 3, com volume de perda, sinais vitais e tempos explicitados para permitir estimar gravidade. Chave posicionada em B. Todas as alternativas redigidas do zero."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q080",
+    "tema": "Mortalidade materna",
+    "subtema": "Classificação do óbito materno e modelo dos três atrasos",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_15", "dcn2025_comp_21", "dcn2025_comp_24"],
+    "tags": ["morte materna", "tres atrasos", "vigilancia do obito", "indicadores de saude", "acesso"],
+    "texto_base": "Uma mulher de 32 anos, G3P2A0, residente em área rural distante 90 km da sede do município, com 36 semanas de gestação e pré-natal iniciado apenas no terceiro trimestre, começou a apresentar sangramento vaginal e dor abdominal contínua em casa. Permaneceu cerca de seis horas no domicílio, pois a família julgou tratar-se de 'dor normal do parto' e não reconheceu a gravidade do quadro. Sem transporte disponível na comunidade, levou mais quatro horas para chegar ao hospital municipal, onde não havia hemocomponentes em estoque nem obstetra de plantão no momento da admissão. Foi transferida para a maternidade regional já com choque hipovolêmico e coagulopatia, com diagnóstico de descolamento prematuro de placenta, e faleceu seis horas após a chegada. Não havia doença crônica prévia registrada.",
+    "enunciado": "Considerando a classificação do óbito e o modelo dos três atrasos, como esse caso deve ser interpretado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Como near miss materno, uma vez que houve complicação obstétrica grave com necessidade de transferência inter-hospitalar.",
+        "correta": false,
+        "justificativa": "Incorreta. Near miss materno designa, por definição, a mulher que quase morreu mas sobreviveu a uma complicação grave durante a gestação, o parto ou até 42 dias após o término da gravidez. A ocorrência do óbito exclui essa categoria, que existe justamente para estudar os casos com sobrevivência."
+      },
+      {
+        "letra": "B",
+        "texto": "Como morte materna indireta, por resultar do agravamento, pela gestação, de condição clínica preexistente.",
+        "correta": false,
+        "justificativa": "Incorreta. A morte materna indireta decorre de doença preexistente ou surgida na gestação e agravada por ela, como cardiopatia ou nefropatia. Aqui o óbito resultou de descolamento prematuro de placenta, complicação própria do ciclo gravídico-puerperal, e o enunciado registra ausência de doença crônica prévia."
+      },
+      {
+        "letra": "C",
+        "texto": "Como morte materna não obstétrica, pois o desfecho decorreu de falhas estruturais do serviço de saúde e não de causa ligada à gravidez.",
+        "correta": false,
+        "justificativa": "Incorreta. A causa básica do óbito é obstétrica — hemorragia por descolamento prematuro de placenta. As falhas assistenciais não deslocam a classificação para causa não obstétrica; elas caracterizam a evitabilidade do óbito e são objeto da investigação pelos comitês de mortalidade materna, mas a categoria da causa permanece obstétrica direta."
+      },
+      {
+        "letra": "D",
+        "texto": "Como morte materna obstétrica direta e evitável, com os três atrasos configurados: demora em reconhecer o problema e decidir procurar ajuda, demora em chegar ao serviço de saúde e demora em receber cuidado adequado após a chegada.",
+        "correta": true,
+        "justificativa": "Correta. O descolamento prematuro de placenta é complicação obstétrica direta, o que define a categoria do óbito. O caso ilustra integralmente o modelo dos três atrasos: seis horas até a família reconhecer a gravidade e decidir buscar atendimento (primeiro atraso), quatro horas para o deslocamento por falta de transporte (segundo atraso) e ausência de hemocomponentes e de obstetra na unidade receptora (terceiro atraso). Trata-se de óbito considerado evitável."
+      }
+    ],
+    "especialidade": "epidemiologia",
+    "especialidade_secundaria": "vigilancia_em_saude",
+    "objeto_conhecimento": "Classificação da morte materna e modelo dos três atrasos na análise de evitabilidade",
+    "sistema_organico": null,
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_07",
+      "competencias": ["enamed_comp_07", "enamed_comp_09"],
+      "conteudos": ["enamed_cont_16", "enamed_cont_17"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Saúde Coletiva articulada à Rede Materno Infantil: identificação de necessidades de saúde de grupos populacionais (comp. VII) e uso crítico das redes com referência adequada (comp. IX), nos conteúdos de epidemiologia/indicadores e vigilância em saúde."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso inteiramente novo: óbito por hemorragia (descolamento prematuro de placenta) em gestante rural, no lugar do óbito por eclâmpsia do item de origem — o que mantém o objeto de conhecimento (classificação do óbito materno e três atrasos) sem repetir a apresentação clínica. Chave posicionada em D. O tempo de cada atraso foi explicitado no texto-base para permitir a análise, e o distrator 'morte materna evitável sem os três atrasos' do original foi substituído por 'morte não obstétrica', evitando sobreposição com a chave."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q081",
+    "tema": "Aleitamento materno",
+    "subtema": "Fissura mamilar e ingurgitamento no puerpério",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_02", "dcn2025_comp_12"],
+    "tags": ["aleitamento materno", "fissura mamilar", "ingurgitamento", "pega", "puerperio"],
+    "texto_base": "Uma mulher de 24 anos, primípara, no oitavo dia após parto vaginal sem intercorrências, procura a unidade básica de saúde com dor intensa no início de cada mamada. Refere que 'o bebê mama o tempo todo' e que começou a intercalar mamadeiras porque não suporta a dor. Ao exame, as mamas estão cheias, tensas, quentes e brilhantes, com aréola endurecida, sem área de flutuação, sem hiperemia localizada em cunha e sem febre; há fissuras lineares superficiais em ambos os mamilos, sem secreção purulenta. Durante a observação da mamada, nota-se que o recém-nascido abocanha apenas o mamilo, com os lábios invertidos, o queixo afastado da mama e ruído de estalido durante a sucção. O recém-nascido apresenta ganho ponderal adequado e diurese normal.",
+    "enunciado": "Qual conduta deve ser adotada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Suspender temporariamente a amamentação em ambas as mamas e manter o lactente exclusivamente em fórmula infantil até a cicatrização completa das fissuras.",
+        "correta": false,
+        "justificativa": "Incorreta. Interromper a amamentação agrava o ingurgitamento, aumenta o risco de mastite e de desmame definitivo e não trata a causa do problema, que é a pega inadequada. A introdução de fórmula e de bicos artificiais reforça o padrão de sucção incorreto e reduz o estímulo à produção láctea."
+      },
+      {
+        "letra": "B",
+        "texto": "Iniciar cefalexina por via oral durante sete dias, pois a mama quente e endurecida caracteriza mastite infecciosa puerperal.",
+        "correta": false,
+        "justificativa": "Incorreta. O quadro descrito é de ingurgitamento mamário bilateral, não de mastite: faltam febre, hiperemia em área localizada em cunha, dor sistêmica e comprometimento do estado geral. Antibiótico nesse cenário é uso inapropriado, sem benefício e com risco de efeitos adversos e de seleção de resistência."
+      },
+      {
+        "letra": "C",
+        "texto": "Prescrever pomada de corticoide tópico e anti-inflamatório sistêmico, com pausa de 48 horas nas mamadas e ordenha apenas para manutenção da produção.",
+        "correta": false,
+        "justificativa": "Incorreta. Corticoide tópico não tem indicação em fissura por trauma mecânico e a pausa nas mamadas perpetua o ingurgitamento. Sem a correção da pega, as fissuras recidivam assim que a amamentação é retomada, de modo que a conduta trata apenas o sintoma."
+      },
+      {
+        "letra": "D",
+        "texto": "Corrigir a pega e o posicionamento sob supervisão, orientar ordenha de alívio antes das mamadas para amolecer a aréola, aplicar o próprio leite materno nos mamilos ao final da mamada e mantê-los arejados, preservando a amamentação em livre demanda e suspendendo as mamadeiras.",
+        "correta": true,
+        "justificativa": "Correta. A causa das fissuras é a pega incorreta descrita na observação da mamada, e sua correção supervisionada é a intervenção terapêutica central. A ordenha de alívio antes da mamada torna a aréola mais flexível e facilita a apreensão adequada, o leite materno aplicado ao final favorece a cicatrização, e a manutenção da amamentação em livre demanda com retirada das mamadeiras resolve o ingurgitamento e preserva o aleitamento."
+      }
+    ],
+    "especialidade": "parto_e_puerperio",
+    "especialidade_secundaria": "aleitamento_e_nutricao",
+    "objeto_conhecimento": "Manejo clínico das intercorrências mamárias do aleitamento: fissura e ingurgitamento",
+    "sistema_organico": "reprodutor",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_04", "enamed_comp_08"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_13"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Cuidado puerperal na atenção primária: plano terapêutico pactuado (comp. IV) somado a ações de educação em saúde e promoção do aleitamento (comp. VIII), nos conteúdos de terapêutica e promoção/educação em saúde."
+    },
+    "defeito_corrigido": "O item de origem trazia erro de digitação ('suspendender') em uma das alternativas, além de um distrator que misturava antibiótico profilático com conduta correta. Todas as alternativas do item novo foram redigidas com revisão ortográfica e cada distrator passou a representar um único erro conceitual claro (interromper a amamentação, tratar como mastite, tratar apenas o sintoma), sem misturar acertos e erros na mesma opção.",
+    "nota_adaptacao": "Novo caso: primípara de 24 anos no 8º dia de puerpério, com introdução de mamadeira como elemento adicional e descrição detalhada da mamada observada, tornando o item autossuficiente em texto. Chave posicionada em D."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q082",
+    "tema": "Saúde mental perinatal",
+    "subtema": "Depressão pós-parto e diagnóstico diferencial com blues puerperal",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_02", "dcn2025_comp_03", "dcn2025_comp_12"],
+    "tags": ["depressao pos-parto", "blues puerperal", "EPDS", "saude mental na APS", "puerperio"],
+    "texto_base": "Uma mulher de 26 anos procura a unidade básica de saúde na quinta semana após parto vaginal a termo, acompanhada do companheiro. Relata tristeza persistente que começou por volta do décimo dia de puerpério e vem piorando progressivamente: chora quase todos os dias, perdeu o interesse por atividades de que gostava, dorme mal mesmo quando o bebê dorme, come pouco e sente-se 'um fracasso como mãe'. Evita pegar o filho no colo com medo de 'fazer tudo errado'. Nega ideação suicida, pensamentos de machucar o bebê, alucinações, delírios e uso de álcool ou outras substâncias. Não faz uso de medicamentos. Ao exame, apresenta-se lúcida, orientada, com humor deprimido, discurso coerente e afeto embotado; sinais vitais, exame físico geral e ginecológico sem alterações. O escore da Escala de Depressão Pós-parto de Edimburgo é 17.",
+    "enunciado": "Qual é a conduta mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tranquilizar a paciente informando tratar-se de blues puerperal, quadro autolimitado que se resolve em poucos dias sem intervenção específica.",
+        "correta": false,
+        "justificativa": "Incorreta. O blues puerperal surge nos primeiros dias após o parto, é leve, oscilante e se resolve espontaneamente em até duas semanas, sem prejuízo funcional relevante. Aqui os sintomas começaram no décimo dia, persistem há mais de três semanas, pioram progressivamente e comprometem o vínculo com o bebê, o que descarta o diagnóstico e torna a conduta expectante negligente."
+      },
+      {
+        "letra": "B",
+        "texto": "Diagnosticar blues puerperal e prescrever benzodiazepínico noturno, reavaliando a paciente em trinta dias.",
+        "correta": false,
+        "justificativa": "Incorreta. Além do diagnóstico equivocado, o benzodiazepínico não trata depressão, pode ser excretado no leite materno causando sedação e hipotonia no lactente e ainda mascara a evolução do quadro. Uma reavaliação apenas em trinta dias é intervalo inseguro para paciente com sofrimento intenso e vínculo comprometido."
+      },
+      {
+        "letra": "C",
+        "texto": "Encaminhar imediatamente à emergência psiquiátrica, por se tratar de psicose puerperal com risco iminente de dano ao recém-nascido.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há sintomas psicóticos: a paciente está lúcida, orientada, com discurso coerente, sem alucinações, delírios ou desorganização do comportamento, e nega ideação suicida ou de dano ao bebê. A psicose puerperal cursa com início abrupto, alteração do juízo de realidade e é emergência; classificar assim este caso implica intervenção desproporcional e ruptura do cuidado longitudinal."
+      },
+      {
+        "letra": "D",
+        "texto": "Reconhecer o quadro como depressão pós-parto, acolher a paciente, investigar ativamente o risco de autoextermínio e de dano ao bebê, iniciar tratamento com psicoterapia e/ou antidepressivo compatível com a amamentação e garantir seguimento longitudinal na própria unidade, com apoio matricial em saúde mental.",
+        "correta": true,
+        "justificativa": "Correta. A duração superior a duas semanas, a piora progressiva, a anedonia, a culpa, a alteração de sono e apetite e o prejuízo no vínculo caracterizam episódio depressivo do pós-parto, corroborado pelo escore de 17 na Escala de Edimburgo. A conduta inclui acolhimento, avaliação explícita e repetida de risco, tratamento com psicoterapia e/ou antidepressivo seguro na lactação, envolvimento da rede de apoio e acompanhamento longitudinal na atenção primária com matriciamento, reservando o encaminhamento especializado para casos graves ou refratários."
+      }
+    ],
+    "especialidade": "transtornos_do_humor",
+    "especialidade_secundaria": "saude_mental_na_aps",
+    "objeto_conhecimento": "Diagnóstico diferencial e manejo inicial da depressão pós-parto na atenção primária",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_06",
+      "competencias": ["enamed_comp_02", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Saúde Mental na atenção primária: formulação de hipótese diagnóstica a partir da história clínica (comp. II) e construção de plano terapêutico articulado com a rede (comp. IV), nos conteúdos de propedêutica/diagnóstico e terapêutica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso reescrito: paciente de 26 anos após parto vaginal (e não cesárea), na quinta semana de puerpério, com escore da Escala de Edimburgo explicitado para dar sustentação objetiva ao diagnóstico e com negativa expressa de sintomas psicóticos, o que torna o distrator da psicose puerperal claramente descartável. Chave posicionada em D, e a alternativa correta foi ampliada para incluir a avaliação de risco e o cuidado longitudinal com matriciamento, em vez do simples encaminhamento."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q083",
+    "tema": "Prematuridade",
+    "subtema": "Prevenção da recorrência de parto prematuro espontâneo",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "avaliacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_20", "dcn2025_comp_25"],
+    "tags": ["parto prematuro", "progesterona vaginal", "cerclagem", "colo uterino", "pre-natal"],
+    "texto_base": "Uma gestante de 29 anos, G3P2A0, encontra-se na 31ª semana de gestação, com pré-natal regular e sem queixas. Tem antecedente de um parto prematuro espontâneo com 34 semanas há cinco anos e, depois dele, um parto a termo há dois anos. A ultrassonografia realizada com 22 semanas mostrou comprimento cervical de 34 mm, e as consultas subsequentes não registraram contrações, perda de líquido ou sangramento. No exame obstétrico atual, a altura uterina é compatível com a idade gestacional, o colo está posterior, longo e fechado ao toque, e os batimentos cardiofetais são normais. Urocultura recente negativa e rastreamento de infecções sem alterações.",
+    "enunciado": "Quanto à prevenção da recorrência de prematuridade, qual é a conduta adequada nesta consulta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Iniciar progesterona micronizada por via vaginal neste momento e mantê-la até a 37ª semana.",
+        "correta": false,
+        "justificativa": "Incorreta. A profilaxia com progesterona vaginal precisa ser iniciada precocemente, em geral entre 16 e 24 semanas, e é mantida até cerca de 36 semanas. Introduzi-la na 31ª semana não tem respaldo em evidências, pois o período de maior benefício já passou e não há demonstração de redução de desfechos com início tão tardio."
+      },
+      {
+        "letra": "B",
+        "texto": "Manter o pré-natal habitual com vigilância clínica e orientação sobre os sinais de trabalho de parto prematuro, sem introduzir intervenção farmacológica ou cirúrgica.",
+        "correta": true,
+        "justificativa": "Correta. A janela útil das medidas preventivas já se encerrou, o colo é longo e fechado, não há sintomas e o antecedente é de prematuridade tardia com uma gestação a termo subsequente, o que reduz o risco estimado. Nesse cenário, a conduta baseada em evidências é o seguimento pré-natal habitual com vigilância e orientação sobre sinais de alerta, evitando intervenções sem benefício comprovado."
+      },
+      {
+        "letra": "C",
+        "texto": "Indicar cerclagem cervical de resgate associada a tocolítico profilático até o termo.",
+        "correta": false,
+        "justificativa": "Incorreta. A cerclagem exige indicação por história de insuficiência istmocervical ou por encurtamento cervical significativo, e não é realizada após a 24ª semana. Tocolítico profilático em paciente assintomática não previne parto prematuro e expõe a efeitos adversos maternos sem qualquer benefício demonstrado."
+      },
+      {
+        "letra": "D",
+        "texto": "Prescrever antibiótico profilático e repouso no leito para reduzir o risco de recorrência.",
+        "correta": false,
+        "justificativa": "Incorreta. Antibiótico sem foco infeccioso identificado não reduz prematuridade e favorece resistência bacteriana; a urocultura da paciente é negativa. O repouso no leito também não tem eficácia comprovada nessa indicação e associa-se a descondicionamento, risco tromboembólico e prejuízo psicossocial."
+      }
+    ],
+    "especialidade": "pre_natal",
+    "especialidade_secundaria": "intercorrencias_obstetricas",
+    "objeto_conhecimento": "Indicações, janela temporal e limites das medidas de prevenção do parto prematuro recorrente",
+    "sistema_organico": "reprodutor",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_04", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_10"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Pré-natal na atenção primária: decisão terapêutica baseada em risco-benefício e custo-efetividade (comp. IV) com uso racional de recursos (comp. III), nos conteúdos de prognóstico/prevenção e terapêutica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo caso: terceigesta de 29 anos com prematuridade tardia prévia seguida de parto a termo, colo de 34 mm medido na 22ª semana e idade gestacional atual de 31 semanas — dados que tornam explícito por que a janela da progesterona e da cerclagem já se fechou, exigência de raciocínio um pouco mais fino que no item de origem. Chave mantida em B, conforme a posição-alvo. Alternativas escritas do zero."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q084",
+    "tema": "Hiperglicemia na gestação",
+    "subtema": "Interpretação da glicemia de jejum no primeiro trimestre",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["diabetes gestacional", "glicemia de jejum", "TOTG 75g", "rastreamento", "pre-natal"],
+    "texto_base": "Uma mulher de 24 anos, G2P1A0, comparece à segunda consulta de pré-natal com 10 semanas de gestação, assintomática. Tem índice de massa corporal pré-gestacional de 23 kg/m², nega antecedente pessoal de diabetes, não teve macrossomia nem hiperglicemia na gestação anterior e refere apenas mãe hipertensa. Traz os exames solicitados na primeira consulta: glicemia de jejum de 91 mg/dL, hemograma sem anemia, sumário de urina normal e sorologias não reagentes. Pressão arterial de 108/70 mmHg e exame obstétrico compatível com a idade gestacional.",
+    "enunciado": "Qual é a interpretação desse resultado e a conduta correta quanto ao rastreamento de hiperglicemia na gestação?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Diagnosticar diabetes mellitus gestacional e iniciar terapia nutricional com automonitorização glicêmica capilar.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico de diabetes mellitus gestacional pela glicemia de jejum exige valor igual ou superior a 92 mg/dL. Com 91 mg/dL a paciente está abaixo do ponto de corte, e rotular como diabética implica intervenções, restrições e ansiedade desnecessárias, além de medicalização indevida do pré-natal."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar hemoglobina glicada e, caso o resultado seja igual ou superior a 5,7%, iniciar metformina.",
+        "correta": false,
+        "justificativa": "Incorreta. A hemoglobina glicada não é exame de rastreamento de diabetes gestacional, pois sofre influência da anemia fisiológica e da menor sobrevida eritrocitária na gestação, e o valor de 5,7% corresponde a pré-diabetes fora do ciclo gravídico. Iniciar metformina a partir desse limiar não encontra respaldo em nenhuma recomendação."
+      },
+      {
+        "letra": "C",
+        "texto": "Considerar a glicemia dentro da normalidade para o período e programar teste oral de tolerância à glicose com 75 g de sobrecarga entre a 24ª e a 28ª semana.",
+        "correta": true,
+        "justificativa": "Correta. Glicemia de jejum abaixo de 92 mg/dL no primeiro trimestre é normal e não permite diagnóstico nem exclui hiperglicemia que venha a surgir com o avanço da resistência insulínica gestacional. Por isso, o rastreamento deve ser completado com teste oral de tolerância à glicose com 75 g entre 24 e 28 semanas, período de maior rendimento diagnóstico."
+      },
+      {
+        "letra": "D",
+        "texto": "Repetir a glicemia de jejum em quatro semanas e iniciar insulina caso o valor se mantenha acima de 85 mg/dL.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe recomendação de repetir isoladamente a glicemia de jejum como estratégia de rastreamento, e 85 mg/dL não é ponto de corte diagnóstico algum. Indicar insulina a partir de um valor normal representa iatrogenia, com risco de hipoglicemia materna e de restrição de crescimento fetal."
+      }
+    ],
+    "especialidade": "pre_natal",
+    "especialidade_secundaria": "endocrinologia",
+    "objeto_conhecimento": "Pontos de corte e cronograma do rastreamento de diabetes mellitus gestacional",
+    "sistema_organico": "endocrino",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_03", "enamed_comp_02"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Pré-natal na atenção primária: solicitação e interpretação de exames complementares conforme evidências (comp. III) e formulação diagnóstica correspondente (comp. II), nos conteúdos de propedêutica/diagnóstico e prognóstico/prevenção."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso reescrito: secundigesta de 24 anos, eutrófica, com 10 semanas e glicemia de 91 mg/dL — valor propositalmente colocado logo abaixo do ponto de corte de 92 mg/dL, o que aumenta o poder discriminativo em relação ao item de origem (94 mg/dL, que na verdade seria diagnóstico). Registre-se essa diferença clínica: com 94 mg/dL o diagnóstico de diabetes gestacional estaria firmado, de modo que a chave de consenso do item original é discutível; o item novo evita a armadilha usando um valor inequivocamente normal. Chave posicionada em C."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q085",
+    "tema": "Hiperglicemia na gestação",
+    "subtema": "Diabetes mellitus franco diagnosticado na gestação",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["diabetes franco na gestacao", "insulinoterapia", "hemoglobina glicada", "pre-natal de alto risco", "metformina"],
+    "texto_base": "Uma gestante de 32 anos, G2P1A0, com índice de massa corporal de 31 kg/m², comparece à consulta de pré-natal com 11 semanas de gestação, confirmada por ultrassonografia precoce. Nega diagnóstico prévio de diabetes, não faz uso de medicamentos e está assintomática. Traz glicemia de jejum de 142 mg/dL, confirmada em nova amostra colhida uma semana depois, com 138 mg/dL, e hemoglobina glicada de 6,8%. A pressão arterial é de 118/76 mmHg, o exame de urina não mostra glicosúria nem proteinúria e o restante dos exames de rotina do primeiro trimestre está sem alterações.",
+    "enunciado": "Qual é o diagnóstico e a conduta terapêutica imediata mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Diabetes mellitus franco diagnosticado na gestação: iniciar terapia nutricional e insulinoterapia desde já, com automonitorização glicêmica, e rastrear complicações crônicas como retinopatia e nefropatia.",
+        "correta": true,
+        "justificativa": "Correta. Glicemia de jejum igual ou superior a 126 mg/dL e hemoglobina glicada igual ou superior a 6,5% detectadas no primeiro trimestre caracterizam diabetes franco, e não diabetes gestacional — trata-se de diabetes preexistente reconhecido na gravidez. Nesse cenário, a hiperglicemia é acentuada desde a organogênese e não é aceitável aguardar resposta a medidas não farmacológicas: a insulina é o tratamento de escolha, associada à terapia nutricional, à automonitorização e à avaliação de lesões de órgão-alvo já instaladas."
+      },
+      {
+        "letra": "B",
+        "texto": "Diabetes mellitus gestacional: orientar apenas dieta e exercício físico, reavaliando as glicemias capilares depois de quinze dias.",
+        "correta": false,
+        "justificativa": "Incorreta. Os valores apresentados ultrapassam os critérios de diabetes gestacional e preenchem os de diabetes franco. Além do erro de classificação, adiar o tratamento farmacológico por duas semanas mantém hiperglicemia acentuada no período de organogênese, elevando o risco de malformações, abortamento e macrossomia."
+      },
+      {
+        "letra": "C",
+        "texto": "Diabetes mellitus franco: prescrever metformina como primeira escolha, por se tratar de gestante com obesidade e pelo menor risco de hipoglicemia.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a classificação esteja certa, a metformina não é a primeira escolha nesse grau de hiperglicemia: atravessa a placenta, tem dados de segurança de longo prazo menos consolidados e dificilmente atinge sozinha as metas glicêmicas estritas exigidas na gestação. A insulina permanece o padrão terapêutico por não atravessar a barreira placentária e permitir titulação precisa."
+      },
+      {
+        "letra": "D",
+        "texto": "O diagnóstico ainda não pode ser firmado: solicitar teste oral de tolerância à glicose com 75 g antes de iniciar qualquer tratamento.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico já está estabelecido por duas glicemias de jejum acima de 126 mg/dL somadas à hemoglobina glicada de 6,8%. A sobrecarga oral de glicose em paciente com hiperglicemia franca é desnecessária, potencialmente perigosa e atrasa um tratamento que deveria começar imediatamente."
+      }
+    ],
+    "especialidade": "pre_natal",
+    "especialidade_secundaria": "endocrinologia",
+    "objeto_conhecimento": "Diferenciação entre diabetes gestacional e diabetes franco na gravidez e escolha do tratamento inicial",
+    "sistema_organico": "endocrino",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_03", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Pré-natal de alto risco na rede de doenças crônicas: interpretação de exames complementares para classificação diagnóstica (comp. III) e instituição do plano terapêutico (comp. IV), nos conteúdos de propedêutica/diagnóstico e terapêutica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo caso: secundigesta de 32 anos com 11 semanas e obesidade grau I, com a glicemia de jejum confirmada em segunda amostra — detalhe acrescentado para eliminar a discussão sobre necessidade de repetição do exame antes de tratar. Chave posicionada em A, e a alternativa correta foi ampliada com o rastreio de complicações crônicas, item esperado no diabetes preexistente e ausente no original. Alternativas redigidas do zero."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q087",
+    "tema": "Doença hipertensiva da gestação",
+    "subtema": "Pré-eclâmpsia com sinais de gravidade no termo tardio",
+    "area_clinica": "ginecologia_obstetricia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["pre-eclampsia", "sulfato de magnesio", "hidralazina", "crise hipertensiva", "resolucao da gestacao"],
+    "texto_base": "Uma gestante de 30 anos, G2P1A0, com um parto vaginal anterior sem intercorrências, é admitida na emergência obstétrica com 36 semanas e 2 dias, queixando-se de cefaleia frontal contínua e pontos luminosos no campo visual há cerca de cinco horas. Está consciente e orientada, com pressão arterial de 175/115 mmHg, repetida em 168/112 mmHg após vinte minutos de repouso em decúbito lateral esquerdo. Relação proteína/creatinina urinária de 0,8. Exames: plaquetas 210.000/mm³, creatinina 0,8 mg/dL, aspartato aminotransferase 30 U/L, desidrogenase láctica normal, sem esquizócitos. Ao exame obstétrico, os batimentos cardiofetais são de 140 bpm com boa variabilidade e sem desacelerações à cardiotocografia; o toque revela colo centralizado, com 4 cm de dilatação, 60% de apagamento, apresentação cefálica no plano zero de De Lee e bolsa íntegra. Não há dor epigástrica, oligúria, edema agudo de pulmão nem sinais de sofrimento fetal.",
+    "enunciado": "Diante desse quadro, qual é a conduta imediata mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Iniciar sulfato de magnésio, aplicar betametasona para maturação pulmonar fetal e adiar a resolução da gestação por 48 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. A corticoterapia antenatal para maturação pulmonar é indicada antes de 34 semanas, e a paciente está com 36 semanas e 2 dias. Postergar a resolução por 48 horas em pré-eclâmpsia com sinais de gravidade mantém a mãe exposta a eclâmpsia, acidente vascular encefálico e descolamento placentário sem qualquer benefício fetal correspondente."
+      },
+      {
+        "letra": "B",
+        "texto": "Administrar furosemida intravenosa como anti-hipertensivo de primeira linha e manter conduta expectante até a 37ª semana.",
+        "correta": false,
+        "justificativa": "Incorreta. Diuréticos de alça não são anti-hipertensivos de escolha na crise hipertensiva da gestação e agravam a depleção do volume plasmático, já reduzido na pré-eclâmpsia, com risco de hipoperfusão placentária. Seu uso restringe-se a situações específicas, como edema agudo de pulmão, e a conduta expectante está contraindicada na presença de sinais de gravidade."
+      },
+      {
+        "letra": "C",
+        "texto": "Administrar hidralazina por via intravenosa para controle da emergência hipertensiva, iniciar sulfato de magnésio em dose de ataque seguida de manutenção e proceder à resolução da gestação, conduzindo o parto por via vaginal com monitorização materna e fetal contínuas.",
+        "correta": true,
+        "justificativa": "Correta. O quadro configura pré-eclâmpsia com sinais de gravidade — níveis pressóricos em faixa de emergência associados a sintomas neurológicos e visuais. As três medidas imediatas são o controle pressórico com anti-hipertensivo de ação rápida (hidralazina intravenosa, ou alternativamente nifedipino oral ou labetalol), a neuroproteção materna com sulfato de magnésio em ataque e manutenção, e a resolução da gestação, indicada a partir de 34 semanas nesse cenário. A cesariana não é obrigatória: com colo favorável, 4 cm de dilatação, apresentação cefálica insinuada e vitalidade fetal preservada, a via vaginal é preferencial e evita a morbidade cirúrgica adicional."
+      },
+      {
+        "letra": "D",
+        "texto": "Indicar cesariana de emergência imediata, antes do controle pressórico e sem sulfato de magnésio, dada a gravidade do quadro.",
+        "correta": false,
+        "justificativa": "Incorreta. Levar ao centro cirúrgico uma paciente com pressão em faixa de emergência e sem neuroproteção é conduta perigosa: a estabilização materna precede a resolução, sob risco de convulsão, acidente vascular encefálico e descompensação durante o ato anestésico. Além disso, não há indicação obstétrica de via alta, já que o trabalho de parto progride com colo favorável e vitalidade fetal preservada."
+      }
+    ],
+    "especialidade": "intercorrencias_obstetricas",
+    "especialidade_secundaria": "emergencias_obstetricas",
+    "objeto_conhecimento": "Manejo imediato da pré-eclâmpsia com sinais de gravidade e definição da via de parto",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_03",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Emergência obstétrica na Rede Materno Infantil: reconhecimento e tratamento de emergência não traumática (comp. V) com plano terapêutico e definição de via de parto baseados em evidências (comp. IV), nos conteúdos de terapêutica e propedêutica/diagnóstico."
+    },
+    "defeito_corrigido": "O item de origem apresentava três defeitos: plaquetopenia de 85.000/mm³ e creatinina de 1,3 mg/dL, que tornavam a cesariana defensável e criavam duas respostas sustentáveis; justificativa embutida na alternativa correta ('visto o cenário favorável'), que entregava parte da resposta; e ausência de anti-hipertensivo específico na chave. No item novo, plaquetas, creatinina, transaminases e desidrogenase láctica são normais e não há sinais de sofrimento fetal, o que remove a defensabilidade da via alta; o anti-hipertensivo está nomeado na alternativa correta; e nenhuma opção contém justificativa embutida.",
+    "nota_adaptacao": "Caso reescrito: secundigesta de 30 anos com parto vaginal prévio, 36 semanas e 2 dias, valores pressóricos, proteinúria e exames laboratoriais próprios. Chave posicionada em C. Todas as alternativas foram escritas do zero e os distratores foram reconstruídos para representar erros conceituais isolados (corticoide fora de janela, diurético como anti-hipertensivo, cirurgia antes da estabilização). O caso é integralmente autossuficiente em texto: os achados de cardiotocografia e do toque vaginal estão descritos por escrito, sem dependência de imagem ou traçado."
+  }
+]

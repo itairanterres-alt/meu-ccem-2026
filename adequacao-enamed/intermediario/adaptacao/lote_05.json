@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q051",
+    "tema": "Hanseníase",
+    "subtema": "Reação hansênica tipo 2 (eritema nodoso hansênico) pós-alta por cura",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_06"],
+    "tags": ["hanseniase", "eritema_nodoso_hansenico", "talidomida", "atencao_primaria", "reacao_hansenica"],
+    "texto_base": "Homem de 58 anos, aposentado, procura a unidade de saúde da família referindo o surgimento, há cinco dias, de caroços avermelhados e doloridos nos braços, nas coxas e na face, sem coceira. Refere ainda febre aferida em casa de 38,2 °C, dor nos punhos e joelhos e cansaço importante. Ao exame, apresenta nódulos eritematosos, quentes e dolorosos à palpação, alguns mais perceptíveis ao tato do que à inspeção, distribuídos de forma simétrica pelo tronco e pelos quatro membros. A sensibilidade tátil, térmica e dolorosa está preservada sobre as lesões, os troncos nervosos periféricos não estão espessados nem dolorosos à palpação e não há novo déficit motor, ocular ou testicular. O prontuário registra hanseníase multibacilar tratada com poliquimioterapia por doze doses, com alta por cura há oito meses. Nega uso recente de medicamentos novos e não há sinais de foco infeccioso ao exame.",
+    "enunciado": "Considerando a hipótese diagnóstica mais provável, qual é o medicamento de primeira escolha para iniciar o tratamento desse quadro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Talidomida por via oral, 300 mg ao dia, com redução gradual conforme a resposta clínica e observância das normas de controle para prescrição.",
+        "correta": true,
+        "justificativa": "Correta. Nódulos eritematosos dolorosos e disseminados, febre e artralgia surgindo após a alta por cura caracterizam eritema nodoso hansênico (reação tipo 2). Sem neurite, orquite ou acometimento ocular, e tratando-se de homem, a talidomida é o fármaco de escolha, com resposta habitualmente rápida e desmame orientado pela evolução."
+      },
+      {
+        "letra": "B",
+        "texto": "Reiniciar o esquema completo de poliquimioterapia multibacilar, por se tratar de recidiva da doença.",
+        "correta": false,
+        "justificativa": "Incorreta. Reação hansênica não é recidiva: surge pela resposta imune a antígenos bacilares remanescentes e pode ocorrer anos após a cura. Faltam aqui os critérios de recidiva, como novas lesões com alteração de sensibilidade e baciloscopia com bacilos íntegros, de modo que retratar com poliquimioterapia expõe o paciente sem benefício."
+      },
+      {
+        "letra": "C",
+        "texto": "Prednisona 1 mg/kg/dia como droga de escolha, por ser a única capaz de controlar esse tipo de reação.",
+        "correta": false,
+        "justificativa": "Incorreta. O corticoide tem papel bem definido na reação tipo 2, mas como escolha preferencial quando há neurite, comprometimento ocular, orquiepididimite, mão ou pé reacional, gestação ou contraindicação à talidomida. Nenhuma dessas situações está presente, e afirmar que seria o único recurso eficaz é falso."
+      },
+      {
+        "letra": "D",
+        "texto": "Ibuprofeno 600 mg de 8 em 8 horas isoladamente por sete dias, mantendo apenas observação clínica.",
+        "correta": false,
+        "justificativa": "Incorreta. Anti-inflamatório não hormonal serve como analgésico e antitérmico coadjuvante, mas não controla o processo inflamatório imunomediado do eritema nodoso hansênico. Usá-lo isoladamente retarda o tratamento específico e aumenta o risco de evolução para neurite e incapacidade."
+      }
+    ],
+    "especialidade": "dermatologia",
+    "especialidade_secundaria": "infectologia",
+    "objeto_conhecimento": "Reconhecimento e tratamento das reações hansênicas na atenção primária",
+    "sistema_organico": "tegumentar",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_02", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Item exige formular a hipótese de reação hansênica tipo 2 a partir da história e do exame físico e definir o plano terapêutico em unidade da atenção primária, articulando propedêutica clínica e terapêutica de agravo de relevância para a vigilância no Brasil."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso inteiramente reescrito: paciente de 58 anos com nódulos em face, tronco e membros, febre de 38,2 °C, artralgia e alta por cura há oito meses (origem: 45 anos, lesões há dois dias, febre de 37,9 °C, alta há 14 meses). A exclusão de neurite, orquite e acometimento ocular foi explicitada para tornar inequívoca a escolha da talidomida sobre o corticoide, ponto que ficava implícito no original. Alternativas redigidas do zero, com o distrator do corticoide reformulado para exigir o julgamento da indicação preferencial. Correta deslocada para a letra A conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q052",
+    "tema": "Transtornos do humor",
+    "subtema": "Diferenciação entre transtorno bipolar tipo I e tipo II",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_02", "dcn2025_comp_21"],
+    "tags": ["transtorno_bipolar", "hipomania", "mania", "diagnostico_diferencial", "raps"],
+    "texto_base": "Homem de 31 anos é levado por um amigo ao Centro de Atenção Psicossocial. Nos últimos doze dias tem falado sem parar, dormido cerca de quatro horas por noite e acordado disposto, iniciou três projetos de trabalho simultâneos e gastou o salário do mês em equipamentos de que não precisava. No exame do estado mental observam-se humor eufórico, pensamento acelerado com fuga de ideias, autoestima inflada e irritabilidade quando contrariado. Não há delírios, alucinações, agitação psicomotora grave nem risco para si ou para terceiros; ele continua comparecendo ao trabalho, mantém higiene e alimentação e nunca precisou de internação. Aos 28 anos apresentou um período de cinco meses com tristeza persistente, anedonia, insônia terminal e afastamento do emprego, tratado ambulatorialmente com antidepressivo. A avaliação clínica e a triagem toxicológica afastam causa orgânica e uso de substâncias.",
+    "enunciado": "Qual elemento clínico é decisivo para classificar o caso como transtorno bipolar tipo II, e não tipo I?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A ausência de prejuízo funcional acentuado, de sintomas psicóticos e de necessidade de internação durante o período de elevação do humor, o que o caracteriza como hipomania.",
+        "correta": true,
+        "justificativa": "Correta. O divisor entre os dois tipos é a gravidade do polo elevado: mania implica prejuízo marcado do funcionamento, psicose ou internação, enquanto a hipomania é uma alteração perceptível, porém sem esse grau de comprometimento. Como o paciente mantém trabalho e autocuidado, sem psicose, o episódio é hipomaníaco e, somado ao episódio depressivo prévio, define o tipo II."
+      },
+      {
+        "letra": "B",
+        "texto": "O antecedente de um episódio depressivo maior, que não ocorre no transtorno bipolar tipo I.",
+        "correta": false,
+        "justificativa": "Incorreta. Episódios depressivos maiores são frequentes também no tipo I, onde apenas não são exigidos para o diagnóstico. O antecedente depressivo é obrigatório no tipo II, mas por estar presente nos dois quadros não serve como critério de distinção entre eles."
+      },
+      {
+        "letra": "C",
+        "texto": "A presença de irritabilidade associada ao humor eufórico, achado exclusivo do tipo II.",
+        "correta": false,
+        "justificativa": "Incorreta. A irritabilidade acompanha tanto episódios maníacos quanto hipomaníacos e não tem valor discriminativo entre os subtipos. Tomá-la como marcador exclusivo é um erro conceitual que desvia a atenção do critério real, que é a intensidade do prejuízo funcional."
+      },
+      {
+        "letra": "D",
+        "texto": "A boa resposta anterior ao antidepressivo, que confirma tratar-se do subtipo II.",
+        "correta": false,
+        "justificativa": "Incorreta. A resposta a antidepressivo não define subtipo de transtorno bipolar; ao contrário, a exposição a antidepressivo sem estabilizador pode até precipitar virada afetiva. O diagnóstico é fenomenológico e longitudinal, baseado na caracterização dos episódios, e não na resposta terapêutica."
+      }
+    ],
+    "especialidade": "transtornos_do_humor",
+    "especialidade_secundaria": "saude_mental_na_aps",
+    "objeto_conhecimento": "Critérios diagnósticos diferenciais entre mania e hipomania no transtorno bipolar",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_06",
+      "competencias": ["enamed_comp_02"],
+      "conteudos": ["enamed_cont_06", "enamed_cont_09"],
+      "cenario": "enamed_cenario_04",
+      "justificativa": "Avalia a formulação de hipótese diagnóstica em saúde mental a partir do exame do estado mental e da história longitudinal, em ponto da Rede de Atenção Psicossocial, mobilizando semiologia psiquiátrica e propedêutica diagnóstica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente (homem de 31 anos, doze dias de sintomas, episódio depressivo de cinco meses aos 28 anos) em lugar da mulher de 24 anos do original. Foram acrescentados dados que sustentam objetivamente a ausência de prejuízo marcado (mantém trabalho, higiene e alimentação, sem internação) e a exclusão de causa orgânica e de substâncias, o que fecha o raciocínio. Alternativas reescritas; o distrator de duração foi substituído por um de resposta terapêutica, evitando ambiguidade com o critério temporal de quatro versus sete dias. Correta na letra A."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q053",
+    "tema": "Fibrilação atrial",
+    "subtema": "Escolha de antiarrítmico para controle de ritmo na disfunção sistólica",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["fibrilacao_atrial", "antiarritmicos", "amiodarona", "insuficiencia_cardiaca", "controle_de_ritmo"],
+    "texto_base": "Mulher de 68 anos, aposentada, hipertensa e com insuficiência cardíaca, é avaliada no ambulatório de cardiologia. Nos últimos oito meses teve quatro episódios de palpitações rápidas e irregulares com duração de horas; em dois deles o eletrocardiograma feito no pronto-socorro mostrou ausência de ondas P, linha de base com oscilações finas e irregulares e intervalos RR completamente variáveis, a 148 batimentos por minuto, achados compatíveis com fibrilação atrial. O último episódio exigiu cardioversão elétrica há três semanas. O eletrocardiograma de hoje mostra ritmo sinusal a 64 bpm, QRS estreito, sem onda delta e com intervalo QT corrigido de 410 ms. O ecocardiograma revela fração de ejeção do ventrículo esquerdo de 32%, átrio esquerdo de 45 mm e hipocinesia difusa. Já usa betabloqueador, sacubitril-valsartana, espironolactona, dapagliflozina e anticoagulante oral em dose plena, mas as recorrências sintomáticas limitam suas atividades diárias.",
+    "enunciado": "Adotada a estratégia de controle do ritmo em longo prazo, qual antiarrítmico é o mais apropriado para essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Amiodarona, com vigilância periódica das funções tireoidiana, hepática e pulmonar.",
+        "correta": true,
+        "justificativa": "Correta. Com fração de ejeção de 32%, a amiodarona é o único antiarrítmico com perfil de segurança aceitável para manutenção do ritmo sinusal, por não deprimir a contratilidade e não aumentar mortalidade nessa população. Sua toxicidade extracardíaca cumulativa exige o monitoramento sistemático descrito."
+      },
+      {
+        "letra": "B",
+        "texto": "Propafenona por via oral em esquema de dose diária fixa.",
+        "correta": false,
+        "justificativa": "Incorreta. Antiarrítmicos da classe IC são contraindicados na presença de cardiopatia estrutural significativa e de disfunção sistólica, situação em que aumentam o risco de arritmia ventricular e de mortalidade, conforme demonstrado desde o estudo CAST. A fração de ejeção de 32% exclui essa opção."
+      },
+      {
+        "letra": "C",
+        "texto": "Dronedarona iniciada em dose plena.",
+        "correta": false,
+        "justificativa": "Incorreta. A dronedarona é formalmente contraindicada na insuficiência cardíaca com fração de ejeção reduzida ou descompensação recente, pois nesse cenário associou-se a excesso de mortalidade e de internações por causa cardiovascular. Trata-se de uma das contraindicações mais bem estabelecidas da classe."
+      },
+      {
+        "letra": "D",
+        "texto": "Sotalol, com ajuste de dose pela função renal.",
+        "correta": false,
+        "justificativa": "Incorreta. O sotalol soma bloqueio beta com prolongamento do intervalo QT e é evitado na disfunção sistólica pelo risco de bradiarritmia, descompensação hemodinâmica e torsades de pointes. O ajuste renal reduz, mas não elimina, o risco proarrítmico nesse perfil de paciente."
+      }
+    ],
+    "especialidade": "cardiologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Seleção de antiarrítmico para manutenção do ritmo sinusal conforme a presença de cardiopatia estrutural",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_04"],
+      "conteudos": ["enamed_cont_10"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Exige elaborar plano terapêutico individualizado com base em evidência e relação risco-benefício, em ambulatório de especialidade da rede de doenças crônicas, sendo o eixo a terapêutica farmacológica orientada pela função ventricular."
+    },
+    "defeito_corrigido": "O item de origem remetia a 'o ECG abaixo', traçado que não estava disponível. Aqui os achados eletrocardiográficos das crises (ausência de ondas P, linha de base irregular, RR variáveis, 148 bpm) e do traçado atual (ritmo sinusal, QRS estreito, sem pré-excitação, QTc de 410 ms) estão descritos por extenso, tornando o item autossuficiente em texto. O QTc e a ausência de pré-excitação foram incluídos porque afastam explicitamente os cenários que mudariam a escolha do fármaco.",
+    "nota_adaptacao": "Paciente e números trocados (mulher de 68 anos, quatro episódios em oito meses, cardioversão elétrica, FEVE 32%, átrio esquerdo 45 mm), terapia de base para insuficiência cardíaca explicitada. A adenosina, distrator implausível do original, foi substituída por dronedarona, que testa uma contraindicação clinicamente relevante. Correta mantida na letra A, conforme posicao_correta_alvo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q054",
+    "tema": "Declaração de Óbito",
+    "subtema": "Encadeamento das causas de morte na Parte I",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_27", "dcn2025_comp_24", "dcn2025_comp_05"],
+    "tags": ["declaracao_de_obito", "causa_basica", "documentos_medicos", "sistema_de_informacao", "vigilancia"],
+    "texto_base": "Mulher de 74 anos, com diabetes mellitus tipo 2 há vinte anos e neuropatia periférica, foi internada por úlcera plantar infectada no pé direito, com celulite extensa e secreção purulenta. Evoluiu com bacteremia, hipotensão não responsiva à reposição volêmica e necessidade de droga vasoativa, configurando choque séptico. Apesar do desbridamento cirúrgico e da antibioticoterapia de amplo espectro, houve disfunção de múltiplos órgãos e o óbito ocorreu no quinto dia de internação. O médico assistente vai preencher a Declaração de Óbito e precisa registrar corretamente, na Parte I, o encadeamento entre a causa imediata, as causas intermediárias e a causa básica.",
+    "enunciado": "Qual sequência de preenchimento das linhas (a), (b) e (c) da Parte I da Declaração de Óbito está correta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Linha (a): Diabetes mellitus tipo 2; linha (b): úlcera infectada do pé direito; linha (c): choque séptico.",
+        "correta": false,
+        "justificativa": "Incorreta. A sequência está invertida: a Parte I é preenchida da causa terminal, no topo, para a causa básica, na linha inferior. Colocar o diabetes na linha (a) e o choque séptico na linha (c) inverte a cadeia causal e faz o sistema de informação registrar a causa básica errada."
+      },
+      {
+        "letra": "B",
+        "texto": "Linha (a): Parada cardiorrespiratória; linha (b): choque séptico; linha (c): diabetes mellitus tipo 2.",
+        "correta": false,
+        "justificativa": "Incorreta. Parada cardiorrespiratória é mecanismo final comum a todos os óbitos e não deve ser lançada como causa na Declaração de Óbito, pois não informa nada sobre o processo mórbido. Seu uso é expressamente desaconselhado pelas orientações de preenchimento do Ministério da Saúde."
+      },
+      {
+        "letra": "C",
+        "texto": "Linha (a): Choque séptico; linha (b): úlcera infectada do pé direito com celulite; linha (c): diabetes mellitus tipo 2.",
+        "correta": true,
+        "justificativa": "Correta. A cadeia respeita a lógica da Parte I: o choque séptico é a causa imediata da morte, decorrente da infecção da úlcera plantar, que por sua vez é consequência do diabetes mellitus tipo 2, a causa básica registrada na última linha preenchida e a que será tabulada na estatística de mortalidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Linha (a): Disfunção de múltiplos órgãos; linha (b): choque séptico; linha (c): idade avançada.",
+        "correta": false,
+        "justificativa": "Incorreta. Idade avançada não é doença e não pode figurar como causa básica quando existe uma condição mórbida identificada que deu início à cadeia, neste caso o diabetes. O preenchimento proposto interrompe o encadeamento antes de chegar à causa básica real."
+      }
+    ],
+    "especialidade": "vigilancia_em_saude",
+    "especialidade_secundaria": "epidemiologia",
+    "objeto_conhecimento": "Preenchimento da Declaração de Óbito e identificação da causa básica de morte",
+    "sistema_organico": null,
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_07",
+      "competencias": ["enamed_comp_12"],
+      "conteudos": ["enamed_cont_08", "enamed_cont_16"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Trata da emissão de documento médico legalmente obrigatório e de sua repercussão sobre os sistemas de informação em saúde, articulando registro e documentação médica com epidemiologia e indicadores de mortalidade."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Cadeia causal integralmente nova: pé diabético infectado que evolui para choque séptico em mulher de 74 anos, no lugar da pneumonia em portador de DPOC do item de origem. Os distratores foram reconstruídos para testar erros distintos — inversão da ordem, uso de mecanismo de morte (parada cardiorrespiratória) e substituição da causa básica por um atributo não mórbido (idade avançada). Correta posicionada na letra C."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q055",
+    "tema": "Hipertensão arterial sistêmica",
+    "subtema": "Decisão terapêutica inicial conforme estágio e risco cardiovascular",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
+    "tags": ["hipertensao", "risco_cardiovascular", "terapia_dupla", "atencao_primaria", "anti_hipertensivos"],
+    "texto_base": "Mulher de 58 anos, professora aposentada, é atendida na unidade básica de saúde em consulta de rotina. É sedentária, ex-tabagista há três anos (20 maços-ano) e não tem diagnóstico prévio de doença cardiovascular, diabetes ou doença renal. Em três consultas distintas a pressão arterial foi de 148/94, 146/92 e 150/94 mmHg, valores confirmados por monitorização residencial. O índice de massa corporal é de 29,4 kg/m² e a circunferência abdominal, de 96 cm. Os exames mostram LDL-colesterol de 158 mg/dL, glicemia de jejum de 99 mg/dL, creatinina de 0,8 mg/dL com taxa de filtração glomerular estimada de 88 mL/min/1,73 m², potássio de 4,2 mEq/L, relação albumina-creatinina urinária normal e eletrocardiograma sem sinais de sobrecarga. A estratificação por escore classificou o risco cardiovascular como moderado.",
+    "enunciado": "De acordo com a diretriz brasileira vigente para o manejo da hipertensão arterial, qual é a conduta inicial indicada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Iniciar monoterapia com clortalidona em dose baixa, reservando associações apenas para hipertensão estágio 2 ou 3.",
+        "correta": false,
+        "justificativa": "Incorreta. A monoterapia fica reservada a hipertensos estágio 1 de risco baixo, a idosos frágeis e a muito idosos. Em estágio 1 com risco cardiovascular moderado a diretriz recomenda começar já com combinação, porque a monoterapia costuma ser insuficiente para atingir a meta e prolonga o tempo de exposição a valores elevados."
+      },
+      {
+        "letra": "B",
+        "texto": "Iniciar nebivolol como fármaco de primeira linha, por ser betabloqueador vasodilatador de terceira geração.",
+        "correta": false,
+        "justificativa": "Incorreta. Betabloqueadores não são primeira linha na hipertensão não complicada; entram quando há indicação específica, como doença coronariana, insuficiência cardíaca com fração de ejeção reduzida, arritmias ou controle de frequência. Nenhuma dessas condições está presente, e o perfil vasodilatador não altera essa hierarquia."
+      },
+      {
+        "letra": "C",
+        "texto": "Adiar o tratamento medicamentoso e reavaliar após seis meses somente com mudanças no estilo de vida.",
+        "correta": false,
+        "justificativa": "Incorreta. A postergação por seis meses só se justificaria em estágio 1 com risco baixo. Com risco moderado, adiar o fármaco mantém a paciente exposta a níveis pressóricos elevados sem benefício, e as mudanças de estilo de vida devem ser associadas ao tratamento, não usadas como substituto dele."
+      },
+      {
+        "letra": "D",
+        "texto": "Iniciar terapia dupla, preferencialmente em comprimido único, associando inibidor da enzima conversora de angiotensina a bloqueador dos canais de cálcio, junto das mudanças no estilo de vida.",
+        "correta": true,
+        "justificativa": "Correta. Hipertensão estágio 1 com risco cardiovascular moderado tem indicação de início imediato de fármacos, e a recomendação atual é começar com combinação de duas classes de primeira linha, de preferência em dose fixa combinada, o que melhora o controle e a adesão. A associação de inibidor da ECA com bloqueador de canal de cálcio é uma das preferenciais e as medidas não farmacológicas seguem em paralelo."
+      }
+    ],
+    "especialidade": "cardiologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Estratificação de risco cardiovascular e escolha do esquema anti-hipertensivo inicial",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_04", "enamed_comp_11"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Requer decisão terapêutica baseada em diretriz e em estratificação de risco, com foco em prevenção de desfechos cardiovasculares na atenção primária, combinando terapêutica e prognóstico/prevenção."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo caso (mulher de 58 anos, ex-tabagista, PA de 148/94 mmHg confirmada por medida residencial, LDL 158 mg/dL) substituindo o homem de 52 anos do original. Foram acrescentados dados que fecham a estratificação (ausência de albuminúria, ECG sem sobrecarga) e o desfecho pedido foi mantido no eixo da decisão terapêutica inicial. Alternativas reescritas com justificativa do porquê de cada erro. Correta deslocada para a letra D."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q056",
+    "tema": "Tuberculose pulmonar",
+    "subtema": "Exame prioritário para o diagnóstico de caso novo",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_24"],
+    "tags": ["tuberculose", "teste_rapido_molecular", "populacao_vulneravel", "diagnostico", "vigilancia"],
+    "texto_base": "Homem de 44 anos, morador de um albergue municipal, chega à unidade de pronto atendimento com tosse produtiva há sete semanas, escarro por vezes com raias de sangue, sudorese noturna, febre no fim da tarde e perda de 9 kg no período. Ao exame está emagrecido, com mucosas descoradas, frequência respiratória de 22 irpm, saturação de 95% em ar ambiente e estertores no terço superior do hemitórax esquerdo. A radiografia de tórax evidencia infiltrado heterogêneo no lobo superior esquerdo, com uma cavitação de cerca de 3 cm de diâmetro e espessamento pleural adjacente, sem derrame. O paciente nunca tratou tuberculose, desconhece contato com caso confirmado e o teste rápido para HIV foi não reagente. Ele consegue expectorar espontaneamente.",
+    "enunciado": "Qual exame deve ser solicitado prioritariamente para confirmar o diagnóstico e orientar a conduta imediata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Baciloscopia direta de escarro em duas amostras coletadas em dias consecutivos.",
+        "correta": false,
+        "justificativa": "Incorreta. A baciloscopia tem sensibilidade inferior à do teste molecular, não distingue micobactérias e não informa sobre resistência. No Brasil ela deixou de ser o exame inicial onde o teste rápido molecular está disponível, ficando reservada sobretudo ao acompanhamento mensal do tratamento."
+      },
+      {
+        "letra": "B",
+        "texto": "Prova tuberculínica com derivado proteico purificado (PPD).",
+        "correta": false,
+        "justificativa": "Incorreta. A prova tuberculínica identifica infecção latente e não diferencia infecção de doença ativa; pode ser positiva em vacinados ou negativa em formas graves e em imunossuprimidos. Diante de quadro pulmonar sugestivo com cavitação, ela não confirma nem exclui tuberculose-doença."
+      },
+      {
+        "letra": "C",
+        "texto": "Teste rápido molecular para tuberculose em amostra de escarro, que detecta o DNA do complexo Mycobacterium tuberculosis e a resistência à rifampicina.",
+        "correta": true,
+        "justificativa": "Correta. É o exame inicial recomendado para caso novo com suspeita de tuberculose pulmonar em paciente capaz de expectorar: fornece resultado em poucas horas, tem sensibilidade superior à baciloscopia e ainda detecta resistência à rifampicina, o que permite iniciar o esquema adequado e acionar a vigilância sem demora."
+      },
+      {
+        "letra": "D",
+        "texto": "Cultura para micobactérias com teste de sensibilidade, como único exame inicial.",
+        "correta": false,
+        "justificativa": "Incorreta. A cultura com teste de sensibilidade deve ser solicitada em conjunto, sobretudo em populações vulneráveis, mas leva de duas a oito semanas para resultado e não pode ser o exame isolado de entrada, pois retardaria o início do tratamento e o controle da transmissão."
+      }
+    ],
+    "especialidade": "infectologia",
+    "especialidade_secundaria": "pneumologia",
+    "objeto_conhecimento": "Fluxo diagnóstico da tuberculose pulmonar em população vulnerável",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_03"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_17"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Exige selecionar e justificar exame complementar segundo a política nacional de diagnóstico da tuberculose, considerando acesso, custo-efetividade e impacto na vigilância de doença transmissível, em serviço da rede de urgência."
+    },
+    "defeito_corrigido": "O item de origem dizia 'a radiografia de tórax é mostrada abaixo' sem reproduzir a imagem. Nesta versão os achados radiológicos estão descritos em texto (infiltrado heterogêneo em lobo superior esquerdo, cavitação de cerca de 3 cm e espessamento pleural adjacente, sem derrame), tornando o item autossuficiente e preservando o valor semiológico do dado.",
+    "nota_adaptacao": "Vinheta reescrita com outro paciente (44 anos, morador de albergue, sete semanas de sintomas, perda de 9 kg, acometimento à esquerda) e com a informação explícita de que expectora espontaneamente, dado que sustenta a escolha do escarro como amostra. O distrator do IGRA foi trocado pela prova tuberculínica, mais aderente à realidade do SUS, e a cultura foi reformulada como 'exame inicial isolado' para deixar claro o erro. Correta na letra C."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q057",
+    "tema": "Sobrecarga de ferro",
+    "subtema": "Investigação de hiperferritinemia com saturação de transferrina elevada",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["hemocromatose", "ferritina", "saturacao_de_transferrina", "gene_hfe", "investigacao_diagnostica"],
+    "texto_base": "Homem de 38 anos, assintomático, procura o ambulatório de clínica médica com exames solicitados em avaliação admissional. Nega etilismo, hepatites virais, transfusões prévias e uso de suplementos de ferro. Ao exame físico não há hepatoesplenomegalia, artropatia, hiperpigmentação cutânea ou sinais de insuficiência cardíaca. Os resultados mostram ferritina de 620 µg/L e, repetida seis semanas depois, de 655 µg/L; saturação da transferrina de 61%; hemograma sem anemia e com índices normais; alanina e aspartato aminotransferases dentro da referência; proteína C reativa e velocidade de hemossedimentação normais; glicemia de jejum de 92 mg/dL. Um tio materno recebeu, aos 50 anos, diagnóstico de excesso de ferro no fígado.",
+    "enunciado": "Qual deve ser o próximo exame na sequência de investigação desse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pesquisa das mutações C282Y e H63D do gene HFE.",
+        "correta": true,
+        "justificativa": "Correta. Hiperferritinemia persistente com saturação de transferrina elevada, sem inflamação, hepatopatia alcoólica ou anemia que justifiquem sobrecarga secundária, e com história familiar sugestiva, aponta para hemocromatose hereditária. O teste genético para HFE é o passo seguinte por ser não invasivo, disponível e capaz de confirmar o diagnóstico e orientar o rastreamento familiar."
+      },
+      {
+        "letra": "B",
+        "texto": "Biópsia hepática com dosagem do índice de ferro hepático.",
+        "correta": false,
+        "justificativa": "Incorreta. A biópsia deixou de ser exame de confirmação diagnóstica desde a disponibilidade do teste genético e da quantificação de ferro por ressonância magnética. Hoje ela fica reservada à avaliação de fibrose em casos selecionados, geralmente com ferritina muito elevada ou alteração de enzimas hepáticas, o que não ocorre aqui."
+      },
+      {
+        "letra": "C",
+        "texto": "Dosagem de ceruloplasmina sérica e de cobre urinário de 24 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. Esses exames investigam doença de Wilson, cuja apresentação envolve acúmulo de cobre com alterações hepáticas e neuropsiquiátricas, e não elevam ferritina com saturação de transferrina alta. Solicitá-los aqui desvia a linha de investigação e consome recursos sem responder à pergunta clínica."
+      },
+      {
+        "letra": "D",
+        "texto": "Iniciar flebotomias terapêuticas de imediato, sem exames adicionais.",
+        "correta": false,
+        "justificativa": "Incorreta. Tratar antes de estabelecer a etiologia impede a distinção entre sobrecarga primária e secundária, priva a família da informação genética para rastreamento e expõe o paciente a um procedimento repetido cuja indicação e meta dependem do diagnóstico confirmado."
+      }
+    ],
+    "especialidade": "hematologia",
+    "especialidade_secundaria": "hepatologia",
+    "objeto_conhecimento": "Abordagem diagnóstica escalonada da sobrecarga de ferro",
+    "sistema_organico": "hematopoetico",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_03"],
+      "conteudos": ["enamed_cont_09"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Avalia a solicitação racional de exame complementar em ambulatório, com julgamento de custo-efetividade e de risco-benefício entre teste genético não invasivo e procedimentos invasivos."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso reescrito com outro paciente (homem de 38 anos, ferritina de 620 e 655 µg/L, saturação de 61%, história familiar de sobrecarga de ferro) no lugar da mulher de 42 anos do original. Foram acrescentados os dados que afastam as causas secundárias de hiperferritinemia (ausência de etilismo, hepatites, transfusões, provas inflamatórias e transaminases normais, sem anemia), reforçando a validade do raciocínio. O distrator da ressonância cardíaca foi substituído por flebotomia empírica, que testa o erro mais frequente na prática. Correta na letra A."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q058",
+    "tema": "Doença renal crônica",
+    "subtema": "Manejo da hiperfosfatemia no paciente não dialítico",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["doenca_renal_cronica", "hiperfosfatemia", "disturbio_mineral_osseo", "quelantes_de_fosforo", "dieta"],
+    "texto_base": "Mulher de 71 anos, com nefropatia diabética, é acompanhada no ambulatório de nefrologia por doença renal crônica estágio 4, com taxa de filtração glomerular estimada de 25 mL/min/1,73 m², sem indicação atual de diálise. Usa insulina, losartana e atorvastatina. Os exames de rotina mostram fósforo sérico de 5,6 mg/dL (faixa de referência entre 2,5 e 4,5 mg/dL), cálcio total de 9,0 mg/dL com albumina de 4,0 g/dL, paratormônio de 210 pg/mL, 25-hidroxivitamina D de 28 ng/mL e bicarbonato de 22 mEq/L. Não há prurido, dor óssea ou calcificações visíveis em exames prévios. Na avaliação nutricional, relata consumo diário de embutidos, queijos processados, refrigerantes à base de cola e refeições industrializadas prontas, com ingestão proteica global adequada.",
+    "enunciado": "Qual é a conduta mais apropriada para o controle do fósforo nessa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Prescrever de imediato quelante de fósforo à base de cálcio, com meta de manter o fósforo sérico abaixo de 4,0 mg/dL.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há evidência de benefício em normalizar agressivamente o fósforo em pacientes não dialíticos, e a sobrecarga de cálcio associa-se a balanço positivo e a maior calcificação vascular. As recomendações atuais orientam reduzir níveis persistentemente elevados em direção à faixa normal, e não perseguir uma meta rígida com quelante cálcico de entrada."
+      },
+      {
+        "letra": "B",
+        "texto": "Priorizar a intervenção dietética, reduzindo sobretudo os aditivos inorgânicos de fosfato dos alimentos industrializados, e reservar o quelante para hiperfosfatemia persistente ou progressiva.",
+        "correta": true,
+        "justificativa": "Correta. Nos estágios 3 a 5 sem diálise a primeira medida é dietética, com atenção especial ao fosfato inorgânico de aditivos, quase integralmente absorvido, diferentemente do fósforo orgânico de origem proteica. A restrição deve preservar a ingestão proteica para não induzir desnutrição, e o quelante entra apenas quando a hiperfosfatemia se mantém ou progride apesar da dieta."
+      },
+      {
+        "letra": "C",
+        "texto": "Prescrever hidróxido de alumínio de forma contínua, por ser o quelante mais potente e evitar calcificação vascular.",
+        "correta": false,
+        "justificativa": "Incorreta. Quelantes com alumínio estão proscritos para uso prolongado na doença renal crônica pelo risco de intoxicação, com osteomalácia, anemia microcítica e encefalopatia. Seu emprego, quando existe, limita-se a curtíssimos períodos em hiperfosfatemia grave e refratária."
+      },
+      {
+        "letra": "D",
+        "texto": "Iniciar cinacalcete como tratamento de primeira linha da hiperfosfatemia.",
+        "correta": false,
+        "justificativa": "Incorreta. O cinacalcete é calcimimético indicado para hiperparatireoidismo secundário em pacientes em diálise, não sendo terapia de primeira linha para hiperfosfatemia nem recomendado no estágio pré-dialítico, onde pode provocar hipocalcemia sem benefício demonstrado sobre desfechos."
+      }
+    ],
+    "especialidade": "nefrologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Distúrbio mineral e ósseo da doença renal crônica e controle do fósforo antes da diálise",
+    "sistema_organico": "urinario",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Exige plano terapêutico escalonado, baseado em evidência e em relação risco-benefício, para complicação metabólica crônica acompanhada em ambulatório de especialidade da rede de doenças crônicas."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Nova paciente (mulher de 71 anos, nefropatia diabética, TFG de 25 mL/min/1,73 m², fósforo de 5,6 mg/dL) com painel laboratorial ampliado (PTH, vitamina D, bicarbonato) e história alimentar detalhada, que dá base concreta à recomendação dietética. O distrator do tenapanor foi trocado por cinacalcete, erro conceitual mais didático no contexto pré-dialítico, e a alternativa correta foi redigida explicitando a distinção entre fosfato inorgânico de aditivos e fósforo orgânico. Correta mantida na letra B."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q059",
+    "tema": "Sepse",
+    "subtema": "Prioridades do pacote da primeira hora",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["sepse", "hemocultura", "antibioticoterapia", "idoso", "pacote_da_primeira_hora"],
+    "texto_base": "Homem de 69 anos, morador de instituição de longa permanência, é trazido ao pronto-socorro por queda do estado geral e confusão iniciada há cerca de dez horas. É hipertenso e tem doença de Parkinson, em uso de levodopa e enalapril. Ao exame apresenta-se sonolento, desorientado no tempo e no espaço, com Escala de Coma de Glasgow 13, sem rigidez de nuca, sem déficit focal e sem sinais de irritação peritoneal. Pressão arterial de 106/62 mmHg, frequência cardíaca de 114 bpm, frequência respiratória de 26 irpm, temperatura axilar de 38,6 °C e saturação de 94% em ar ambiente. A ausculta pulmonar revela discretos estertores em base direita. Foram obtidos dois acessos venosos periféricos e a gasometria inicial mostra lactato de 2,3 mmol/L, sem hipotensão refratária nem sinais de hipoperfusão grave.",
+    "enunciado": "Qual medida deve ser priorizada na primeira hora de atendimento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Infundir 30 mL/kg de cristaloide em bolus antes de qualquer outra medida, independentemente do estado hemodinâmico.",
+        "correta": false,
+        "justificativa": "Incorreta. A reposição volêmica em bolus de 30 mL/kg é indicada na hipotensão persistente ou no lactato igual ou superior a 4 mmol/L. Este paciente não preenche esses critérios, e a infusão indiscriminada em idoso pode precipitar congestão pulmonar sem qualquer ganho sobre a mortalidade."
+      },
+      {
+        "letra": "B",
+        "texto": "Coletar hemoculturas e administrar antimicrobiano de amplo espectro por via venosa ainda na primeira hora, sem retardar a dose por exames de imagem.",
+        "correta": true,
+        "justificativa": "Correta. Reconhecida a sepse, cada hora de atraso no antimicrobiano aumenta a mortalidade. A conduta prioritária é coletar hemoculturas, desde que isso não postergue significativamente a terapia, e iniciar antibiótico empírico de amplo espectro ainda na primeira hora, enquanto a busca do foco prossegue em paralelo."
+      },
+      {
+        "letra": "C",
+        "texto": "Aguardar tomografia de crânio e de abdome para localizar o foco infeccioso antes de iniciar o antimicrobiano.",
+        "correta": false,
+        "justificativa": "Incorreta. A investigação de imagem é importante para identificar focos passíveis de controle, mas nunca deve atrasar a primeira dose do antimicrobiano na sepse. O esquema empírico é escolhido pelo quadro clínico e pelo perfil epidemiológico e ajustado depois, conforme os achados e as culturas."
+      },
+      {
+        "letra": "D",
+        "texto": "Realizar punção lombar antes da primeira dose de antibiótico, por conta do rebaixamento da consciência.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há rigidez de nuca nem outros sinais meníngeos, e o rebaixamento em idoso com febre tem inúmeras causas mais prováveis. Mesmo quando a meningite é suspeitada, o antimicrobiano não deve ser adiado à espera da punção; nesses casos o antibiótico precede o procedimento."
+      }
+    ],
+    "especialidade": "choque_e_sepse",
+    "especialidade_secundaria": "geriatria",
+    "objeto_conhecimento": "Identificação precoce da sepse e execução do pacote da primeira hora",
+    "sistema_organico": null,
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Trata do reconhecimento e do tratamento de emergência não traumática na rede de urgência, com priorização de condutas tempo-dependentes segundo evidência e segurança do paciente."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Vinheta nova (homem de 69 anos institucionalizado, com doença de Parkinson, dez horas de confusão, temperatura de 38,6 °C, lactato de 2,3 mmol/L) substituindo a mulher de 78 anos do original. Ficou explícito que não há hipotensão refratária nem lactato elevado o bastante para o bolus obrigatório, o que torna o julgamento entre volume e antimicrobiano defensável e não arbitrário. Alternativas reescritas com justificativas que ancoram cada erro em um critério objetivo. Correta deslocada para a letra B."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q060",
+    "tema": "Asma",
+    "subtema": "Avaliação de controle e ajuste de etapa terapêutica",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_02"],
+    "tags": ["asma", "gina", "controle_da_asma", "corticoide_inalatorio_formoterol", "mart"],
+    "texto_base": "Mulher de 19 anos, estudante universitária, com asma desde os sete anos, retorna ao ambulatório de pneumologia. Vem usando beclometasona em dose baixa uma vez ao dia como manutenção e salbutamol por demanda. Nas últimas quatro semanas refere chiado e aperto no peito em quatro dias por semana, dois despertares noturnos por tosse, uso do salbutamol na maior parte dos dias e abandono das aulas de dança por ficar ofegante. Não houve febre, expectoração purulenta ou piora aguda nas últimas 48 horas, e não usou corticoide oral no período. Ao exame está eupneica, afebril, com sibilos expiratórios esparsos e saturação de 97% em ar ambiente. A técnica inalatória foi verificada e está adequada, a adesão ao corticoide inalatório é confirmada pela contagem de doses e não há exposição a tabaco ou a alérgeno novo no domicílio.",
+    "enunciado": "Qual é a classificação do controle da asma e o ajuste terapêutico recomendado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Asma não controlada; substituir o esquema por corticoide inalatório em dose baixa associado a formoterol, usado tanto na manutenção quanto no alívio, suspendendo o salbutamol.",
+        "correta": true,
+        "justificativa": "Correta. A paciente apresenta os quatro marcadores de descontrole nas últimas quatro semanas: sintomas diurnos mais de duas vezes por semana, despertar noturno, necessidade de resgate mais de duas vezes por semana e limitação de atividade, o que define asma não controlada. Com técnica e adesão já verificadas, o passo é subir de etapa para corticoide inalatório com formoterol em manutenção e alívio, esquema que reduz exacerbações e dispensa o beta-agonista de curta duração."
+      },
+      {
+        "letra": "B",
+        "texto": "Asma parcialmente controlada; apenas dobrar a dose do corticoide inalatório e manter o salbutamol de resgate.",
+        "correta": false,
+        "justificativa": "Incorreta. O controle parcial corresponde a um ou dois dos critérios alterados, e aqui os quatro estão presentes. Além disso, manter o salbutamol isolado como resgate não é a estratégia preferencial atual, pois o alívio com corticoide inalatório associado a formoterol reduz o risco de exacerbação grave."
+      },
+      {
+        "letra": "C",
+        "texto": "Asma bem controlada; manter a dose atual e apenas trocar o dispositivo inalatório.",
+        "correta": false,
+        "justificativa": "Incorreta. Sintomas em quatro dias por semana, despertares noturnos e limitação de atividade física são incompatíveis com bom controle. A troca de dispositivo não corrige um esquema insuficiente, sobretudo porque a técnica inalatória já foi verificada e está adequada."
+      },
+      {
+        "letra": "D",
+        "texto": "Exacerbação de asma; prescrever prednisona por cinco dias e manter o esquema de manutenção inalterado.",
+        "correta": false,
+        "justificativa": "Incorreta. Exacerbação implica piora aguda e progressiva dos sintomas e da função pulmonar exigindo mudança urgente de tratamento, o que não corresponde ao quadro estável descrito. Prescrever corticoide sistêmico sem ajustar a manutenção expõe a paciente a efeitos adversos e deixa o descontrole de fundo sem solução."
+      }
+    ],
+    "especialidade": "pneumologia",
+    "especialidade_secundaria": null,
+    "objeto_conhecimento": "Avaliação do controle da asma e progressão de etapa terapêutica",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Requer avaliar o controle de doença crônica respiratória e pactuar o ajuste do plano terapêutico segundo evidência, em seguimento ambulatorial da rede de doenças crônicas."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo caso (mulher de 19 anos, quatro dias de sintomas por semana, dois despertares noturnos, limitação para dançar) em lugar do homem de 22 anos do original. Foram acrescentadas a verificação de técnica inalatória, a confirmação de adesão e a ausência de novo gatilho ambiental, itens que a estratégia GINA exige antes de qualquer aumento de etapa e que o item de origem não contemplava. Alternativas redigidas do zero, com o critério numérico de controle explicitado nas justificativas. Correta na letra A."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q061",
+    "tema": "Hemorragia digestiva alta varicosa",
+    "subtema": "Terapia farmacológica antes da endoscopia na cirrose",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["cirrose", "varizes_esofagicas", "terlipressina", "antibioticoprofilaxia", "hemorragia_digestiva"],
+    "texto_base": "Homem de 61 anos, com cirrose hepática por doença hepática gordurosa associada à disfunção metabólica, classificação Child-Pugh B, chega ao pronto-socorro com dois episódios de vômitos com sangue vivo e melena iniciados há três horas. Ao exame apresenta-se descorado, sudoreico, com tempo de enchimento capilar de quatro segundos, ascite moderada e sem sinais de encefalopatia hepática. Pressão arterial de 92/54 mmHg e frequência cardíaca de 118 bpm. Os exames de admissão mostram hemoglobina de 7,6 g/dL, plaquetas de 62.000/mm³, INR de 2,0, creatinina de 1,2 mg/dL e bilirrubina total de 2,8 mg/dL. Foram obtidos dois acessos venosos calibrosos, iniciada reposição com cristaloide e transfundida uma unidade de concentrado de hemácias. A endoscopia digestiva alta está programada para as próximas horas, e o paciente permanece monitorizado com via aérea pérvia.",
+    "enunciado": "Enquanto aguarda a endoscopia, qual conduta farmacológica deve ser instituída?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Indicar derivação portossistêmica intra-hepática transjugular (TIPS) de urgência, antes de qualquer tentativa endoscópica.",
+        "correta": false,
+        "justificativa": "Incorreta. O TIPS não é a medida inicial: seu papel é o de resgate na hemorragia refratária ao tratamento combinado ou, em pacientes selecionados de alto risco, o de indicação precoce nas primeiras 72 horas após a endoscopia. Indicá-lo antes da endoscopia inverte a sequência recomendada e retarda medidas eficazes e disponíveis."
+      },
+      {
+        "letra": "B",
+        "texto": "Transfundir plasma fresco congelado e administrar vitamina K com o objetivo de normalizar o INR antes do procedimento.",
+        "correta": false,
+        "justificativa": "Incorreta. O INR não reflete o risco de sangramento na cirrose, porque há redução equilibrada de fatores pró e anticoagulantes. Transfundir plasma para corrigi-lo aumenta o volume intravascular e a pressão portal, podendo agravar a hemorragia, além de expor a sobrecarga e a reações transfusionais sem benefício demonstrado."
+      },
+      {
+        "letra": "C",
+        "texto": "Iniciar terlipressina por via venosa imediatamente, associada a antibioticoprofilaxia com ceftriaxona.",
+        "correta": true,
+        "justificativa": "Correta. O tratamento da hemorragia varicosa começa antes da endoscopia com fármaco vasoativo esplâncnico, que reduz a pressão portal e melhora o controle do sangramento, e com antibiótico profilático, que diminui infecção bacteriana, ressangramento e mortalidade no cirrótico com hemorragia digestiva. Ambos são medidas iniciais obrigatórias, mantidas junto ao tratamento endoscópico."
+      },
+      {
+        "letra": "D",
+        "texto": "Transfundir concentrado de hemácias de forma continuada até alcançar hemoglobina de 10 g/dL.",
+        "correta": false,
+        "justificativa": "Incorreta. Na hemorragia varicosa adota-se estratégia transfusional restritiva, com alvo de hemoglobina em torno de 7 a 8 g/dL. A transfusão liberal eleva a pressão portal, aumenta o risco de ressangramento e associou-se a pior sobrevida em ensaio clínico dedicado a esse cenário."
+      }
+    ],
+    "especialidade": "hepatologia",
+    "especialidade_secundaria": "gastroenterologia",
+    "objeto_conhecimento": "Manejo inicial da hemorragia digestiva alta por varizes esofágicas no paciente cirrótico",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Aborda o reconhecimento e o tratamento de emergência não traumática em serviço hospitalar de urgência, exigindo priorização terapêutica baseada em evidência antes do procedimento endoscópico."
+    },
+    "defeito_corrigido": "A alternativa D do item de origem trazia erro de redação ('plasma fresco congelado transfusão de plaquetas', sem conectivo), tornando-a ininteligível. Nesta versão todos os distratores foram reescritos como proposições únicas, gramaticalmente completas e clinicamente distintas entre si, sem acúmulo de condutas na mesma opção.",
+    "nota_adaptacao": "Novo paciente (homem de 61 anos, cirrose por doença hepática gordurosa metabólica, hemoglobina de 7,6 g/dL, plaquetas de 62.000/mm³, INR de 2,0) substituindo o caso de cirrose alcoólica do original. A alternativa correta explicita a antibioticoprofilaxia junto ao vasoativo, componente igualmente obrigatório e frequentemente esquecido, e foi criado um distrator sobre estratégia transfusional liberal, erro de grande relevância prática. Correta na letra C."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q062",
+    "tema": "Diabetes mellitus tipo 2",
+    "subtema": "Monitoramento de longo prazo do uso de metformina",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_20", "dcn2025_comp_10"],
+    "tags": ["metformina", "vitamina_b12", "neuropatia", "diabetes", "seguranca_medicamentosa"],
+    "texto_base": "Mulher de 63 anos, com diabetes mellitus tipo 2 há nove anos, mantém metformina 1 g pela manhã e 1 g à noite desde que a doença foi identificada, sem outros medicamentos de uso contínuo. Retorna para consulta de acompanhamento na unidade básica de saúde queixando-se de formigamento e dormência simétricos nos pés há cerca de seis meses, cansaço aos esforços habituais e dificuldade de concentração. A última hemoglobina glicada foi de 6,8% e as anteriores mantiveram-se abaixo de 7%. Ao exame há redução da sensibilidade vibratória ao diapasão de 128 Hz no hálux bilateralmente e reflexos aquileus diminuídos, com força muscular preservada e pulsos periféricos presentes. O hemograma mostra hemoglobina de 11,8 g/dL com volume corpuscular médio de 104 fL e plaquetas normais. Função renal, hepática e tireoidiana estão dentro da normalidade, e ela nega etilismo.",
+    "enunciado": "Qual investigação deve ser priorizada diante dessas queixas?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Suspender a metformina imediatamente e reavaliar a paciente em três meses.",
+        "correta": false,
+        "justificativa": "Incorreta. Retirar um fármaco eficaz e bem tolerado, com controle glicêmico adequado, antes mesmo de confirmar a hipótese é conduta precipitada. Se a deficiência de vitamina B12 se confirmar, ela costuma ser tratada com reposição, mantendo-se a metformina e monitorando os níveis periodicamente."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar eletroneuromiografia de membros inferiores como primeiro exame da investigação.",
+        "correta": false,
+        "justificativa": "Incorreta. A polineuropatia distal simétrica é diagnóstico clínico, e a eletroneuromiografia fica reservada a apresentações atípicas, assimétricas, predominantemente motoras ou de evolução rápida. Solicitá-la de início encarece a investigação e não identifica a causa metabólica potencialmente reversível."
+      },
+      {
+        "letra": "C",
+        "texto": "Dosar a vitamina B12 sérica, cuja deficiência é favorecida pelo uso prolongado de metformina e pode explicar tanto a neuropatia quanto a macrocitose.",
+        "correta": true,
+        "justificativa": "Correta. A metformina reduz a absorção ileal do complexo vitamina B12-fator intrínseco, e o uso por vários anos, em doses maiores, associa-se a deficiência clinicamente relevante. Aqui, a macrocitose com volume corpuscular médio de 104 fL, o cansaço e a parestesia simétrica reforçam a hipótese, que é barata de confirmar e tratável, devendo por isso preceder outras investigações."
+      },
+      {
+        "letra": "D",
+        "texto": "Iniciar suplementação empírica de ácido fólico para corrigir a macrocitose.",
+        "correta": false,
+        "justificativa": "Incorreta. Repor folato sem antes dosar a vitamina B12 pode corrigir a alteração hematológica e mascarar a deficiência, permitindo que o dano neurológico progrida de forma irreversível. Trata-se de um erro clássico na abordagem das anemias macrocíticas."
+      }
+    ],
+    "especialidade": "endocrinologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Efeitos adversos de longo prazo da metformina e investigação de neuropatia no diabetes",
+    "sistema_organico": "endocrino",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_03"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Exige solicitar exame complementar com base em evidência e em custo-efetividade para investigar efeito adverso medicamentoso no seguimento longitudinal de doença crônica na atenção primária."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Nova paciente (mulher de 63 anos, nove anos de doença, metformina 1 g duas vezes ao dia) substituindo o homem de 56 anos do original. Foi acrescentado o volume corpuscular médio de 104 fL e a exclusão de etilismo, disfunção tireoidiana e renal, o que ancora objetivamente a hipótese de deficiência de vitamina B12 em vez de deixá-la apenas inferida do tempo de uso do fármaco. O distrator do ácido fólico foi reescrito para explicitar o risco de mascarar a deficiência. Correta deslocada para a letra C."
+  }
+]

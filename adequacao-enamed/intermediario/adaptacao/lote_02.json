@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q013",
+    "tema": "Profilaxia da anemia ferropriva na infância",
+    "subtema": "Suplementação de ferro no prematuro e no recém-nascido de baixo peso",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["anemia ferropriva", "prematuridade", "suplementacao de ferro", "puericultura", "atencao primaria"],
+    "texto_base": "Um lactente de 1 mês e 10 dias é levado à consulta de puericultura na unidade básica de saúde. Nasceu de parto vaginal com 34 semanas e 2 dias, pesando 1.900 g, permaneceu internado por oito dias apenas para ganho de peso e recebeu alta em aleitamento materno exclusivo, que mantém até hoje. Não recebeu transfusão sanguínea. Pesa agora 2.560 g, mama a cada duas ou três horas, tem diurese e evacuações normais, e o exame físico não mostra palidez, sopro cardíaco ou visceromegalias. A mãe pergunta se o filho precisa de algum suplemento, pois leu que criança prematura fica anêmica.",
+    "enunciado": "Considerando as recomendações da Sociedade Brasileira de Pediatria e do Ministério da Saúde para a profilaxia da anemia ferropriva em prematuros, qual é a conduta de suplementação de ferro mais adequada para esse lactente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Adiar a suplementação para os 6 meses de vida e, a partir daí, prescrever 1 mg/kg/dia de ferro elementar até os 24 meses.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse é o esquema previsto para o nascido a termo com peso adequado, que acumula ferro no terceiro trimestre; o prematuro tem estoques reduzidos e inicia a profilaxia já aos 30 dias de vida, com dose maior."
+      },
+      {
+        "letra": "B",
+        "texto": "Não suplementar enquanto o aleitamento materno for exclusivo, reavaliando a necessidade com hemograma aos 6 meses.",
+        "correta": false,
+        "justificativa": "Incorreta. O ferro do leite materno tem alta biodisponibilidade, mas quantidade insuficiente para repor o estoque reduzido do prematuro; a profilaxia nesse grupo é universal e não depende de hemograma prévio."
+      },
+      {
+        "letra": "C",
+        "texto": "Iniciar agora 2 mg/kg/dia de ferro elementar, manter essa dose até a criança completar 12 meses e então reduzir para 1 mg/kg/dia até os 24 meses.",
+        "correta": true,
+        "justificativa": "Correta. Para prematuro ou recém-nascido de baixo peso com mais de 1.500 g ao nascer, recomenda-se ferro elementar 2 mg/kg/dia a partir dos 30 dias de vida até completar 1 ano, seguido de 1 mg/kg/dia no segundo ano de vida."
+      },
+      {
+        "letra": "D",
+        "texto": "Prescrever 4 mg/kg/dia de ferro elementar por três meses e suspender assim que a hemoglobina estiver normal.",
+        "correta": false,
+        "justificativa": "Incorreta. Doses de 3 a 5 mg/kg/dia correspondem ao tratamento da anemia ferropriva instalada, não à profilaxia; suspender aos quatro meses deixaria a criança desprotegida justamente no período de maior velocidade de crescimento."
+      }
+    ],
+    "especialidade": "aleitamento_e_nutricao",
+    "especialidade_secundaria": "neonatologia",
+    "objeto_conhecimento": "Profilaxia medicamentosa da anemia ferropriva no lactente prematuro e de baixo peso",
+    "sistema_organico": "hematopoietico",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_04", "enamed_comp_08"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_11"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Item de Pediatria em consulta de puericultura na atenção primária: exige elaborar plano terapêutico preventivo (competência IV) dentro de ação de prevenção programática (competência VIII), articulando terapêutica (conteúdo X) e prevenção (conteúdo XI) no cenário da rede de atenção primária."
+    },
+    "defeito_corrigido": "O item de origem opunha a dose ponderal de 1 mg/kg/dia (referência SBP/Ministério da Saúde) à dose fixa de 10 a 12,5 mg/dia em ciclos (referência OMS), tornando o gabarito dependente da fonte adotada. O novo item elimina a disputa: usa um cenário em que a recomendação brasileira é única e explícita (prematuro com mais de 1.500 g, 2 mg/kg/dia a partir dos 30 dias) e não oferece nenhuma alternativa com dose fixa da OMS. Também foi removida a numeração residual ('10.') que aparecia colada ao comando do enunciado original.",
+    "nota_adaptacao": "Trocado o paciente (lactente de 40 dias, prematuro de 34 semanas com 1.900 g, em vez de lactente de 6 meses nascido a termo), o eixo da pergunta (esquema de profilaxia no prematuro, com dose e duração escalonadas) e todas as alternativas, escritas do zero. O objeto de conhecimento — profilaxia da anemia ferropriva na puericultura — foi preservado. A chave de consenso do original apontava a dose de 1 mg/kg/dia; no cenário aqui construído a resposta correta é 2 mg/kg/dia com redução posterior, o que é coerente com a mesma referência."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q014",
+    "tema": "Sigilo profissional no atendimento ao adolescente",
+    "subtema": "Limites da confidencialidade e notificação compulsória de violência",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_23", "dcn2025_comp_24", "dcn2025_comp_04"],
+    "tags": ["sigilo medico", "adolescencia", "violencia sexual", "notificacao compulsoria", "etica medica"],
+    "texto_base": "Uma adolescente de 15 anos chega sozinha à unidade básica de saúde e pede para ser atendida sem a presença da mãe, que aguarda na recepção. A médica avalia que a jovem compreende bem as orientações, tem juízo crítico preservado e participa ativamente das decisões sobre seu cuidado; por isso conduz a consulta a sós e explica que o que for conversado ali é confidencial. Ao longo do atendimento, a adolescente pede repetidamente que nada seja contado à família e faz vários relatos sobre sua rotina, seus vínculos afetivos e seus hábitos.",
+    "enunciado": "Entre os relatos a seguir, qual deles, isoladamente, obriga a médica a romper a confidencialidade e acionar a rede de proteção, ainda que contra a vontade expressa da adolescente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Iniciou a vida sexual com o namorado, de 16 anos, e deseja receber preservativos e orientação contraceptiva sem que os pais fiquem sabendo.",
+        "correta": false,
+        "justificativa": "Incorreta. Relação consentida entre adolescentes de idades próximas, sem indício de violência ou exploração, não autoriza quebra de sigilo; prescrever contracepção a adolescente com capacidade de decidir é conduta legítima e recomendada."
+      },
+      {
+        "letra": "B",
+        "texto": "Usa cigarro eletrônico com colegas nos fins de semana, sem prejuízo escolar, sem sinais de dependência e sem outras substâncias.",
+        "correta": false,
+        "justificativa": "Incorreta. Uso experimental de substância, sem risco iminente à vida e sem repercussão funcional, deve ser abordado com aconselhamento e seguimento longitudinal, preservando o vínculo terapêutico e a confidencialidade."
+      },
+      {
+        "letra": "C",
+        "texto": "Discute com frequência com a mãe por causa de horários e do tempo de uso do celular, sem agressões físicas ou humilhações.",
+        "correta": false,
+        "justificativa": "Incorreta. Conflito familiar corriqueiro, sem violência e sem risco à integridade da adolescente, é objeto de abordagem familiar e de escuta qualificada, e não de comunicação a terceiros ou de notificação."
+      },
+      {
+        "letra": "D",
+        "texto": "Conta que, há alguns meses, o companheiro da mãe a obriga a manter relações sexuais e ameaça agredi-la caso ela conte a alguém.",
+        "correta": true,
+        "justificativa": "Correta. Violência sexual contra pessoa menor de 18 anos é agravo de notificação compulsória imediata e impõe comunicação ao Conselho Tutelar; o sigilo cede diante de risco concreto à integridade da paciente e de dever legal de proteção, o que deve ser explicado à adolescente."
+      }
+    ],
+    "especialidade": "etica_e_bioetica",
+    "especialidade_secundaria": "adolescencia",
+    "objeto_conhecimento": "Exceções ao sigilo profissional no atendimento ao adolescente e notificação de violência",
+    "sistema_organico": null,
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_05",
+      "competencias": ["enamed_comp_13", "enamed_comp_12"],
+      "conteudos": ["enamed_cont_04", "enamed_cont_17"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Consulta na atenção primária que exige aplicar as normas éticas e o sigilo médico (competência XIII) e reconhecer o dever de notificação de casos de violência (competência XII), mobilizando os conteúdos de ética e relação médico-paciente (IV) e de vigilância em saúde e notificação de agravos (XVII)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mantido o objeto de conhecimento (situações em que o sigilo do adolescente deve ser rompido), com paciente novo (menina de 15 anos, em vez de rapaz de 16), comando reformulado e quatro alternativas inéditas. O eixo da resposta correta foi deslocado de ideação suicida para violência sexual intrafamiliar, agravo de notificação compulsória imediata, e a correta foi posicionada em D conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q015",
+    "tema": "Síndrome de Down no período neonatal",
+    "subtema": "Reconhecimento fenotípico, confirmação diagnóstica e rastreamento de comorbidades",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_08", "dcn2025_comp_11"],
+    "tags": ["sindrome de down", "trissomia do 21", "cariotipo", "cardiopatia congenita", "comunicacao de diagnostico"],
+    "texto_base": "Um recém-nascido de 18 dias, do sexo masculino, é levado à primeira consulta na unidade básica de saúde. Nasceu de 39 semanas em maternidade de referência, com 3.150 g, sem intercorrências no parto; a mãe tem 41 anos, fez seis consultas de pré-natal e não realizou ultrassonografia morfológica. Ao exame, o bebê está ativo, porém hipotônico, com fendas palpebrais oblíquas, ponte nasal achatada, orelhas pequenas e de implantação baixa, protrusão da língua, pescoço curto com excesso de pele na nuca, prega palmar transversa única nas duas mãos e afastamento amplo entre o primeiro e o segundo pododáctilos. A ausculta cardíaca revela sopro sistólico suave em borda esternal esquerda baixa. Os pais perguntam se está tudo bem com o filho.",
+    "enunciado": "Considerando a principal hipótese diagnóstica sugerida por esse conjunto de achados, qual é a conduta mais apropriada nessa primeira consulta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Conversar com os pais, em linguagem clara e acolhedora, sobre a suspeita clínica e solicitar cariótipo com bandeamento, ecocardiograma, hemograma completo e dosagem de TSH e T4 livre.",
+        "correta": true,
+        "justificativa": "Correta. O conjunto fenotípico sugere trissomia do cromossomo 21, cuja confirmação é citogenética; a avaliação inicial rastreia cardiopatia congênita, hipotireoidismo congênito e alterações hematológicas, e a família tem direito de receber a informação de forma honesta e acolhedora desde o primeiro atendimento."
+      },
+      {
+        "letra": "B",
+        "texto": "Repetir apenas a triagem neonatal biológica e solicitar perfil lipídico, adiando qualquer conversa com a família até que haja confirmação laboratorial.",
+        "correta": false,
+        "justificativa": "Incorreta. A triagem neonatal biológica não identifica alterações cromossômicas, o perfil lipídico não integra a avaliação inicial dessa condição e omitir a suspeita dos pais contraria o dever de informação e a construção do vínculo."
+      },
+      {
+        "letra": "C",
+        "texto": "Encaminhar ao geneticista orientando o casal a não ter outros filhos e solicitar eletrocardiograma como única avaliação cardiológica.",
+        "correta": false,
+        "justificativa": "Incorreta. Desaconselhar novas gestações é conduta prescritiva e antiética, que viola a autonomia reprodutiva do casal; além disso, o eletrocardiograma isolado não exclui as cardiopatias estruturais frequentes nessa síndrome, que exigem ecocardiograma."
+      },
+      {
+        "letra": "D",
+        "texto": "Solicitar radiografia de mãos e punhos para idade óssea e informar aos pais que o prognóstico é reservado, com expectativa de vida muito reduzida.",
+        "correta": false,
+        "justificativa": "Incorreta. A idade óssea não tem papel no diagnóstico nem no seguimento inicial dessa condição, e a informação de prognóstico está factualmente errada: com acompanhamento adequado a sobrevida hoje ultrapassa a sexta década de vida."
+      }
+    ],
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": "genetica",
+    "objeto_conhecimento": "Conduta diagnóstica e rastreamento inicial de comorbidades na suspeita de trissomia do 21",
+    "sistema_organico": "multissistemico",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_10"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_07"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Primeira consulta de puericultura na atenção primária em que o estudante formula hipótese diagnóstica a partir do exame físico (competência II) e comunica a suspeita à família de forma clara e empática (competência X), mobilizando propedêutica e diagnóstico (conteúdo IX) e habilidades de comunicação (conteúdo VII)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente, cenário e achados reescritos: recém-nascido de 18 dias nascido em maternidade, filho de mãe de 41 anos, com descrição fenotípica ampliada (fendas oblíquas, protrusão lingual, braquicefalia, sopro sistólico) em vez do quadro do original. Todas as alternativas são novas e as justificativas explicitam por que cada distrator falha. Objeto de conhecimento e competência avaliada preservados; correta mantida em A, conforme o sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q016",
+    "tema": "Calendário vacinal da criança",
+    "subtema": "Imunizações previstas aos 12 meses no Programa Nacional de Imunizações",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06"],
+    "tags": ["imunizacao", "PNI", "calendario vacinal", "triplice viral", "atencao primaria"],
+    "texto_base": "Um menino de 12 meses e 10 dias comparece à sala de vacina da unidade básica de saúde acompanhado do pai. A caderneta mostra o calendário do Programa Nacional de Imunizações completo e em dia até os 9 meses de idade, incluindo a dose de febre amarela, e não há registro de nenhum imunobiológico aplicado depois disso. A criança está assintomática, não usa imunossupressores, não tem imunodeficiência conhecida e nunca apresentou reação adversa a vacinas.",
+    "enunciado": "De acordo com o calendário vacinal da criança do Programa Nacional de Imunizações, quais vacinas devem ser aplicadas nesta oportunidade, sem adiantar nem atrasar doses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Hepatite A, tetraviral e primeiro reforço da tríplice bacteriana (DTP).",
+        "correta": false,
+        "justificativa": "Incorreta. Esse conjunto corresponde ao que está previsto aos 15 meses; além disso, a tetraviral pressupõe que a criança já tenha recebido a primeira dose de tríplice viral, o que ainda não ocorreu."
+      },
+      {
+        "letra": "B",
+        "texto": "Tríplice viral (primeira dose), reforço da pneumocócica 10-valente e reforço da meningocócica C.",
+        "correta": true,
+        "justificativa": "Correta. Aos 12 meses o calendário nacional prevê exatamente esses três imunobiológicos: a primeira dose da tríplice viral e os reforços das vacinas pneumocócica 10-valente e meningocócica C conjugada."
+      },
+      {
+        "letra": "C",
+        "texto": "Segunda dose de febre amarela, tetraviral e reforço da vacina inativada contra poliomielite.",
+        "correta": false,
+        "justificativa": "Incorreta. O reforço de febre amarela está previsto aos 4 anos para quem recebeu a primeira dose antes dos 5 anos, enquanto a tetraviral e o reforço da poliomielite inativada são aplicados aos 15 meses."
+      },
+      {
+        "letra": "D",
+        "texto": "Hepatite A, meningocócica ACWY e segundo reforço da tríplice bacteriana (DTP).",
+        "correta": false,
+        "justificativa": "Incorreta. A hepatite A é aplicada aos 15 meses, a meningocócica ACWY é oferecida na adolescência e o segundo reforço da DTP ocorre aos 4 anos de idade, nenhum deles indicado neste momento."
+      }
+    ],
+    "especialidade": "imunizacao",
+    "especialidade_secundaria": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Esquema vacinal previsto aos 12 meses de idade no calendário nacional",
+    "sistema_organico": "imunologico",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_08", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_17"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Ação de prevenção executada na sala de vacina da atenção primária: exige planejar e implementar medida de prevenção e vigilância (competência VIII) e pactuar a conduta com o responsável (competência IV), com base em prevenção (conteúdo XI) e controle de doenças imunopreveníveis (conteúdo XVII)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Trocada a idade de referência de 16 para 12 meses, o que muda inteiramente o conjunto de vacinas devidas e afasta a discussão sobre qual formulação de poliomielite é usada no reforço. Cenário, redação do comando e as quatro alternativas são novos. Objeto de conhecimento (leitura da caderneta e aplicação do calendário nacional) preservado; correta posicionada em B."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q017",
+    "tema": "Dengue na infância",
+    "subtema": "Estadiamento clínico e conduta no paciente com sinais de alarme",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_03", "dcn2025_comp_14"],
+    "tags": ["dengue", "sinais de alarme", "classificacao de risco", "hidratacao venosa", "urgencia pediatrica"],
+    "texto_base": "Uma menina de 9 anos é levada à unidade de pronto atendimento no quinto dia de febre. O município enfrenta uma epidemia de dengue e duas colegas de sala adoeceram na última semana. Nas últimas 12 horas a mãe notou dor abdominal contínua e intensa, três episódios de vômito e recusa de líquidos; a febre cedeu na véspera. Ao exame, a criança está sonolenta, porém responsiva e orientada, com mucosas secas, frequência cardíaca de 112 bpm, pressão arterial de 100 x 60 mmHg, tempo de enchimento capilar de 2 segundos, extremidades aquecidas e fígado palpável e doloroso a 3 cm do rebordo costal direito. A prova do laço é positiva e não há sangramento espontâneo.",
+    "enunciado": "Considerando a principal hipótese diagnóstica e o estadiamento clínico proposto pelo Ministério da Saúde, qual é a conduta imediata mais adequada para essa criança?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Prescrever soro de reidratação oral para uso domiciliar, com orientação de retorno em 48 horas ou antes, se houver piora.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa conduta cabe ao grupo A, formado por pacientes sem sinais de alarme, sem sangramento e sem condição clínica de risco; aqui há dor abdominal intensa, vômitos persistentes, letargia e hepatomegalia dolorosa."
+      },
+      {
+        "letra": "B",
+        "texto": "Iniciar de imediato hidratação intravenosa com solução salina isotônica, 10 mL/kg na primeira hora, e internar a criança para reavaliação clínica e laboratorial seriada.",
+        "correta": true,
+        "justificativa": "Correta. A presença de sinais de alarme classifica o caso no grupo C, cuja conduta é expansão com cristaloide isotônico na dose de 10 mL/kg em uma hora, em ambiente de internação, com reavaliação clínica e de hematócrito após cada etapa."
+      },
+      {
+        "letra": "C",
+        "texto": "Manter em observação com hidratação oral supervisionada e liberar assim que o hemograma mostrar hematócrito dentro da faixa esperada.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa é a conduta do grupo B, que reúne pacientes com sangramento espontâneo de pele ou condição de risco, mas sem sinais de alarme; adiar a expansão venosa nesse caso aumenta o risco de evolução para choque."
+      },
+      {
+        "letra": "D",
+        "texto": "Realizar expansão rápida com 20 mL/kg em até 20 minutos e transferir imediatamente para unidade de terapia intensiva.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse esquema pertence ao grupo D, definido por choque, hipotensão ou desconforto respiratório; a paciente mantém pressão arterial, pulsos e perfusão periférica adequados, e a expansão acelerada não está indicada agora."
+      }
+    ],
+    "especialidade": "infectologia_pediatrica",
+    "especialidade_secundaria": "urgencia_pediatrica",
+    "objeto_conhecimento": "Classificação de risco da dengue e conduta terapêutica no grupo com sinais de alarme",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Atendimento em unidade de pronto atendimento com necessidade de reconhecer e tratar urgência não traumática (competência V) e definir plano terapêutico imediato (competência IV), articulando propedêutica (conteúdo IX) e terapêutica (conteúdo X) na rede de urgência e emergência."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente e dados clínicos inteiramente novos (menina de 9 anos no quinto dia de febre, com defervescência, letargia, hepatomegalia dolorosa e prova do laço positiva, sinais vitais explicitados). As quatro alternativas foram reescritas e passaram a discriminar os quatro grupos de estadiamento (A, B, C e D) com dose e via especificadas, o que torna o item mais informativo. A resposta correta — expansão com cristaloide 10 mL/kg e internação — foi posicionada em B conforme o sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q018",
+    "tema": "Diarreia aguda na infância",
+    "subtema": "Avaliação do estado de hidratação e definição do plano de tratamento",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["diarreia aguda", "desidratacao", "plano B", "terapia de reidratacao oral", "semiologia pediatrica"],
+    "texto_base": "Um lactente de 10 meses é levado à unidade básica de saúde com diarreia aquosa, sem sangue nem muco, há três dias, com cerca de seis evacuações diárias e dois episódios de vômito na véspera. A mãe conta que ele está muito irritado e chora sem lágrimas. Ao exame, a criança apresenta-se inquieta e irritada quando manipulada, com olhos encovados, mucosas secas e sede intensa, agarrando avidamente o copo quando lhe é oferecido líquido. O sinal da prega cutânea desfaz-se lentamente, em menos de dois segundos. Os pulsos radiais estão cheios, as extremidades aquecidas e o tempo de enchimento capilar é de 2 segundos. A criança urinou pela última vez há cerca de cinco horas.",
+    "enunciado": "Segundo os critérios de avaliação do estado de hidratação adotados pelo Ministério da Saúde no manejo da diarreia aguda, como deve ser classificada essa criança e qual é o plano de tratamento correspondente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Sem sinais de desidratação; manter alimentação e oferta habitual de líquidos no domicílio, com o plano A.",
+        "correta": false,
+        "justificativa": "Incorreta. A criança reúne vários sinais do quadro de desidratação — irritabilidade, olhos encovados, sede ávida e prega cutânea que desfaz lentamente —, o que afasta a coluna de ausência de desidratação."
+      },
+      {
+        "letra": "B",
+        "texto": "Com desidratação; terapia de reidratação oral supervisionada na própria unidade de saúde, com o plano B.",
+        "correta": true,
+        "justificativa": "Correta. Irritabilidade, olhos encovados, sede intensa e prega que desfaz lentamente, com pulso cheio e perfusão preservada, definem desidratação sem gravidade, cujo tratamento é a reidratação oral supervisionada no serviço até a recuperação."
+      },
+      {
+        "letra": "C",
+        "texto": "Desidratação grave; expansão intravenosa imediata com cristaloide isotônico, com o plano C.",
+        "correta": false,
+        "justificativa": "Incorreta. A desidratação grave cursa com letargia ou inconsciência, incapacidade de beber ou sucção débil, prega que desfaz muito lentamente e pulso fino ou ausente, achados que este lactente não apresenta."
+      },
+      {
+        "letra": "D",
+        "texto": "Choque hipovolêmico descompensado; expansão volêmica em acesso venoso e transferência para terapia intensiva.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há hipotensão, pulsos finos, extremidades frias, enchimento capilar lentificado nem rebaixamento do nível de consciência, elementos exigidos para caracterizar choque hipovolêmico descompensado."
+      }
+    ],
+    "especialidade": "gastroenterologia_pediatrica",
+    "especialidade_secundaria": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Classificação clínica do estado de hidratação na diarreia aguda e escolha do plano terapêutico",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_06", "enamed_cont_09"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Atendimento de demanda espontânea na atenção primária que depende de exame físico dirigido para formular a hipótese (competência II) e definir o plano terapêutico (competência IV), com base em semiologia adequada à faixa etária (conteúdo VI) e em propedêutica e diagnóstico (conteúdo IX)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente (lactente de 10 meses, três dias de diarreia, dados de perfusão e diurese acrescentados) e comando reescrito. As alternativas deixaram de ser rótulos isolados e passaram a associar a classificação ao plano de tratamento correspondente, o que aumenta o valor diagnóstico do item sem alterar o objeto avaliado. Correta mantida em B, conforme o sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q020",
+    "tema": "Sífilis congênita",
+    "subtema": "Conduta na criança exposta cuja mãe recebeu tratamento adequado",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_24"],
+    "tags": ["sifilis congenita", "VDRL", "penicilina benzatina", "neonatologia", "transmissao vertical"],
+    "texto_base": "Uma gestante de 27 anos teve teste treponêmico reagente na 20ª semana, com teste não treponêmico (VDRL) na titulação de 1:16, sem lesões cutâneo-mucosas e sem história prévia de sífilis ou de tratamento, sendo classificada como sífilis latente de duração indeterminada. Recebeu três doses semanais de penicilina G benzatina 2.400.000 UI, concluídas na 23ª semana, e manteve seguimento mensal, com VDRL de 1:2 na 34ª semana. Deu à luz a termo, por via vaginal, sem intercorrências. O recém-nascido tem peso e comprimento adequados para a idade gestacional e exame físico inteiramente normal, sem hepatoesplenomegalia, lesões cutâneas, rinite ou alterações osteoarticulares.",
+    "enunciado": "Considerando o protocolo do Ministério da Saúde para a criança exposta à sífilis, qual é a conduta indicada para esse recém-nascido antes da alta da maternidade?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Colher teste não treponêmico em sangue periférico do recém-nascido e compará-lo com a titulação materna do parto, mantendo apenas seguimento ambulatorial se o resultado não for pelo menos duas diluições maior que o materno.",
+        "correta": true,
+        "justificativa": "Correta. A mãe recebeu penicilina benzatina em esquema adequado ao estágio, concluído mais de 30 dias antes do parto e com queda documentada da titulação; nessa situação a criança exposta assintomática necessita apenas de teste não treponêmico periférico pareado e de acompanhamento ambulatorial programado."
+      },
+      {
+        "letra": "B",
+        "texto": "Colher a amostra para o teste não treponêmico a partir do sangue do cordão umbilical, por ser coleta menos invasiva e representar bem a condição do bebê.",
+        "correta": false,
+        "justificativa": "Incorreta. O sangue de cordão pode estar contaminado por sangue materno e produzir resultados falsamente reagentes ou falsamente não reagentes; a amostra recomendada é de sangue periférico da própria criança."
+      },
+      {
+        "letra": "C",
+        "texto": "Aplicar penicilina G benzatina 50.000 UI/kg por via intramuscular em dose única, como profilaxia obrigatória de todo recém-nascido exposto.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há indicação de tratar todo exposto: com mãe adequadamente tratada, criança assintomática e titulação não superior à materna, a conduta é seguimento; a dose única fica reservada a situações pontuais de risco de perda do acompanhamento."
+      },
+      {
+        "letra": "D",
+        "texto": "Realizar radiografia de ossos longos, punção lombar e hemograma completo em todo recém-nascido de mãe com diagnóstico de sífilis na gestação.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa investigação ampliada destina-se aos filhos de mães não tratadas ou tratadas de forma inadequada e às crianças sintomáticas; realizá-la de rotina submete o bebê a procedimentos invasivos sem benefício clínico."
+      }
+    ],
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": "infectologia_pediatrica",
+    "objeto_conhecimento": "Definição de tratamento materno adequado e manejo do recém-nascido exposto à sífilis",
+    "sistema_organico": "multissistemico",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_03", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_11"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Alojamento conjunto na rede materno-infantil, com necessidade de solicitar e interpretar exames de forma racional (competência III) e definir o plano de seguimento da criança exposta (competência IV), mobilizando propedêutica e diagnóstico (conteúdo IX) e prevenção da transmissão vertical (conteúdo XI)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "O item de origem descrevia tratamento materno concluído a menos de 30 dias do parto, portanto inadequado, e cobrava a investigação completa. Aqui o cenário foi invertido de propósito: tratamento adequado ao estágio, concluído na 23ª semana, com queda de titulação documentada, o que desloca a resposta correta para a coleta de teste não treponêmico periférico pareado com o materno e seguimento ambulatorial — posição A, conforme o sorteio. Paciente, titulações, datas e alternativas são novos."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q021",
+    "tema": "Epilepsias na infância",
+    "subtema": "Espasmos epilépticos e síndrome de West",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["sindrome de west", "espasmos epilepticos", "hipsarritmia", "regressao do desenvolvimento", "neurologia pediatrica"],
+    "texto_base": "Uma lactente de 5 meses é levada ao ambulatório de pediatria porque, há três semanas, apresenta episódios em que subitamente flete o pescoço e o tronco, eleva e aduz os braços e contrai o abdome, cada evento durando um a dois segundos. Os episódios ocorrem em salvas de 15 a 20 repetições, sobretudo logo após o despertar, e terminam com choro. Os pais também notaram que ela deixou de sorrir socialmente e de fixar o olhar nos rostos, algo que já fazia aos 3 meses, e que hoje sustenta pior a cabeça. O eletroencefalograma interictal foi laudado como traçado caótico e desorganizado, com ondas lentas de amplitude muito elevada entremeadas por espículas multifocais assíncronas, sem ritmo de base identificável e sem sincronia entre os hemisférios.",
+    "enunciado": "Diante da descrição clínica e do padrão eletroencefalográfico relatado, qual é o diagnóstico mais provável para essa lactente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Síndrome de Sandifer secundária a doença do refluxo gastroesofágico.",
+        "correta": false,
+        "justificativa": "Incorreta. Na síndrome de Sandifer as posturas distônicas de pescoço e tronco guardam relação temporal com as mamadas e com o refluxo, não ocorrem em salvas ao despertar e não se acompanham de eletroencefalograma alterado nem de perda de aquisições."
+      },
+      {
+        "letra": "B",
+        "texto": "Espasmos epilépticos acompanhados de hipsarritmia, configurando síndrome de West.",
+        "correta": true,
+        "justificativa": "Correta. A tríade de espasmos em flexão agrupados em salvas, regressão do desenvolvimento neuropsicomotor e eletroencefalograma com hipsarritmia — traçado caótico, de amplitude muito alta, com espículas multifocais assíncronas — define a síndrome de West."
+      },
+      {
+        "letra": "C",
+        "texto": "Mioclonia benigna do lactente.",
+        "correta": false,
+        "justificativa": "Incorreta. Nessa condição os abalos são semelhantes e também podem ocorrer em salvas, porém o desenvolvimento segue normal, não há regressão de marcos e o eletroencefalograma ictal e interictal é normal, dispensando tratamento antiepiléptico."
+      },
+      {
+        "letra": "D",
+        "texto": "Crise focal com automatismos oromotores.",
+        "correta": false,
+        "justificativa": "Incorreta. As crises focais têm semiologia lateralizada, com automatismos e alteração variável da percepção, e o eletroencefalograma mostra atividade epileptiforme localizada, e não o padrão difuso, caótico e de altíssima amplitude descrito."
+      }
+    ],
+    "especialidade": "neurologia_pediatrica",
+    "especialidade_secundaria": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Reconhecimento dos espasmos epilépticos e da hipsarritmia na síndrome de West",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_06"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Consulta ambulatorial especializada em que a hipótese diagnóstica nasce da anamnese semiológica detalhada (competência II) e da interpretação de exame complementar descrito em laudo (competência III), mobilizando propedêutica e diagnóstico (conteúdo IX) e semiologia adequada à faixa etária (conteúdo VI)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Nova paciente (lactente de 5 meses, três semanas de evolução) com semiologia dos espasmos detalhada e acréscimo da regressão de marcos, elemento diagnóstico central que o original não trazia. O laudo do eletroencefalograma foi descrito integralmente em texto, de modo que o item é autossuficiente e não depende de imagem. Distratores substituídos por diagnósticos diferenciais mais discriminativos (Sandifer e mioclonia benigna do lactente); correta posicionada em B."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q022",
+    "tema": "Transtorno obsessivo-compulsivo na adolescência",
+    "subtema": "Diagnóstico diferencial de comportamentos repetitivos",
+    "area_clinica": "saude_mental",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_12"],
+    "tags": ["TOC", "obsessoes", "compulsoes", "adolescencia", "diagnostico diferencial"],
+    "texto_base": "Uma adolescente de 15 anos é levada pela mãe à consulta na unidade básica de saúde por atrasos diários para chegar à escola e queda das notas no último semestre. A mãe relata que a filha leva mais de uma hora no banho e ainda demora conferindo o fogão, as torneiras e a fechadura, sempre na mesma sequência, recomeçando tudo do início se alguém a interrompe. Constrangida, a jovem conta que lhe surgem imagens de que a casa vai pegar fogo e a sensação de estar suja; sabe que isso é exagerado e não faz sentido, mas só consegue reduzir a angústia repetindo os rituais, que hoje consomem grande parte do dia. Nega dificuldade de atenção ou queixas escolares na infância, tem amigas próximas, boa reciprocidade social e nunca apresentou interesses restritos ou estereotipias.",
+    "enunciado": "Considerando o conjunto de sintomas descrito, a idade de início e o prejuízo funcional relatado, qual é o diagnóstico mais provável nessa adolescente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Transtorno de ansiedade generalizada.",
+        "correta": false,
+        "justificativa": "Incorreta. No transtorno de ansiedade generalizada a preocupação é difusa, excessiva e sobre temas cotidianos plausíveis, sem obsessões intrusivas e sem rituais estereotipados executados para neutralizar uma ideia específica."
+      },
+      {
+        "letra": "B",
+        "texto": "Transtorno de personalidade obsessivo-compulsiva.",
+        "correta": false,
+        "justificativa": "Incorreta. Nesse transtorno predominam perfeccionismo, rigidez e apego a regras vividos como parte do próprio jeito de ser, portanto egossintônicos, sem obsessões intrusivas nem compulsões destinadas a aliviar angústia."
+      },
+      {
+        "letra": "C",
+        "texto": "Transtorno do espectro autista com comportamentos repetitivos.",
+        "correta": false,
+        "justificativa": "Incorreta. Os padrões repetitivos do espectro autista aparecem precocemente e acompanham prejuízo persistente da comunicação e da reciprocidade social, o que contrasta com o desenvolvimento social preservado e o início recente descritos."
+      },
+      {
+        "letra": "D",
+        "texto": "Transtorno obsessivo-compulsivo.",
+        "correta": true,
+        "justificativa": "Correta. Há obsessões egodistônicas de contaminação e de dano, reconhecidas pela paciente como excessivas, seguidas de compulsões ritualizadas que aliviam a ansiedade, consomem mais de uma hora por dia e produzem prejuízo escolar e familiar."
+      }
+    ],
+    "especialidade": "transtornos_ansiosos",
+    "especialidade_secundaria": "saude_mental_na_aps",
+    "objeto_conhecimento": "Critérios diagnósticos do transtorno obsessivo-compulsivo e seus diferenciais na adolescência",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_06",
+      "competencias": ["enamed_comp_02", "enamed_comp_10"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_06"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Caso de saúde mental identificado na atenção primária, em que a hipótese diagnóstica decorre da anamnese e da escuta qualificada (competências II e X), mobilizando propedêutica e diagnóstico (conteúdo IX) e semiologia, aqui o exame psíquico, adequada à fase da vida (conteúdo VI)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Paciente e sintomatologia reescritos (adolescente de 15 anos, com rituais de limpeza e de verificação, obsessões de contaminação e de dano, insight preservado). O distrator de TDAH foi substituído por transtorno de personalidade obsessivo-compulsiva, que exige do estudante o raciocínio sobre egodistonia versus egossintonia e torna o item mais discriminativo. Objeto de conhecimento preservado; correta mantida em D, conforme o sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q023",
+    "tema": "Crise febril na infância",
+    "subtema": "Conduta na crise febril simples",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["crise febril simples", "convulsao", "uso racional de exames", "orientacao familiar", "urgencia pediatrica"],
+    "texto_base": "Um menino de 22 meses chega ao pronto-socorro trazido pelos pais 40 minutos após um episódio de abalos rítmicos generalizados dos quatro membros, com desvio do olhar, que durou cerca de dois minutos e cessou espontaneamente. Estava febril desde a manhã, com temperatura de 38,9 °C aferida em casa. Após o evento ficou sonolento por cerca de dez minutos e depois retomou o comportamento habitual. É o primeiro episódio desse tipo; não há antecedente de doença neurológica, o desenvolvimento é adequado para a idade e a caderneta de vacinação está em dia. Não houve uso recente de antibiótico. Ao exame, está ativo, hidratado, com hiperemia de orofaringe e adenomegalia cervical discreta, sem rigidez de nuca, sem abaulamento de fontanela e sem déficits neurológicos focais.",
+    "enunciado": "Considerando as características do evento e os achados do exame físico atual, qual é a conduta mais apropriada para esse lactente neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Investigar clinicamente o foco da febre, tratar o desconforto com antitérmico e orientar os pais sobre o caráter benigno do quadro e sobre o risco de recorrência, dispensando neuroimagem e eletroencefalograma.",
+        "correta": true,
+        "justificativa": "Correta. O quadro preenche os critérios de crise febril simples — generalizada, com menos de 15 minutos, única em 24 horas, em criança entre 6 meses e 5 anos, com exame neurológico normal —, cuja conduta é buscar a causa da febre e orientar a família."
+      },
+      {
+        "letra": "B",
+        "texto": "Realizar punção lombar, obrigatória em todo primeiro episódio de crise associada a febre nessa faixa etária.",
+        "correta": false,
+        "justificativa": "Incorreta. A punção lombar é indicada diante de sinais meníngeos, comprometimento do estado geral, crise complexa, recuperação incompleta ou uso prévio de antibiótico capaz de mascarar meningite, e não como rotina em criança com exame normal."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar tomografia de crânio antes da alta para afastar lesão estrutural do sistema nervoso central.",
+        "correta": false,
+        "justificativa": "Incorreta. A neuroimagem só se justifica em crise focal ou prolongada, déficit neurológico persistente, sinais de hipertensão intracraniana, macrocefalia ou trauma; solicitá-la aqui expõe a criança a radiação e a sedação sem benefício."
+      },
+      {
+        "letra": "D",
+        "texto": "Iniciar ácido valproico de uso contínuo para prevenir novas crises e encaminhar ao neurologista pediátrico.",
+        "correta": false,
+        "justificativa": "Incorreta. A crise febril simples não indica tratamento antiepiléptico contínuo, cujos riscos superam o benefício; a recorrência é frequente, porém benigna, e não aumenta de forma relevante o risco de epilepsia futura."
+      }
+    ],
+    "especialidade": "urgencia_pediatrica",
+    "especialidade_secundaria": "neurologia_pediatrica",
+    "objeto_conhecimento": "Diferenciação entre crise febril simples e complexa e conduta racional no primeiro episódio",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_05", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_10"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Atendimento em pronto-socorro que exige reconhecer e conduzir urgência não traumática (competência V) e decidir criteriosamente sobre exames complementares, considerando risco-benefício e uso racional de recursos (competência III), com base em propedêutica (conteúdo IX) e terapêutica (conteúdo X)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Novo paciente e nova descrição do evento (menino de 22 meses, crise de dois minutos, sonolência pós-ictal breve, exame detalhado com ausência de sinais meníngeos e de uso prévio de antibiótico, itens que sustentam a decisão de não puncionar). A resposta correta foi ampliada para incluir a orientação antecipatória aos pais e a explicitação de que exames não são necessários, e foi posicionada em A conforme o sorteio. O distrator de punção lombar de rotina substituiu o de eletroencefalograma, por ser erro mais prevalente na prática."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q024",
+    "tema": "Icterícia neonatal",
+    "subtema": "Icterícia associada ao aleitamento materno e seus diferenciais",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_01"],
+    "tags": ["ictericia neonatal", "hiperbilirrubinemia indireta", "aleitamento materno", "perda ponderal", "neonatologia"],
+    "texto_base": "Uma recém-nascida de 4 dias de vida retorna ao serviço por icterícia progressiva. Nasceu com 38 semanas e 3.240 g, recebeu alta com 48 horas de vida e não houve intercorrências no parto. A mãe, primípara, refere fissura mamilar dolorosa e mamadas curtas e espaçadas, cerca de cinco por dia, e diz que a filha dorme demais e mama pouco. Trocou apenas três fraldas com urina nas últimas 24 horas e as fezes ainda são escurecidas, com aspecto de mecônio. Ao exame, a criança pesa 2.850 g, está sonolenta, com mucosas secas e icterícia que atinge as pernas. Exames: bilirrubina total de 17,2 mg/dL, com fração indireta de 16,6 mg/dL; tipagem sanguínea materna A positivo e da recém-nascida A positivo; teste de Coombs direto negativo; hematócrito e contagem de reticulócitos dentro da normalidade.",
+    "enunciado": "Considerando os dados clínicos e laboratoriais apresentados, qual é a etiologia mais provável da icterícia dessa recém-nascida?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Icterícia associada ao aleitamento materno, decorrente de oferta láctea insuficiente nos primeiros dias de vida.",
+        "correta": true,
+        "justificativa": "Correta. Pega inadequada com fissura, mamadas escassas, perda ponderal de 12%, diurese reduzida e eliminação de mecônio ainda retardada aumentam a circulação êntero-hepática da bilirrubina e explicam a hiperbilirrubinemia indireta precoce e intensa."
+      },
+      {
+        "letra": "B",
+        "texto": "Icterícia do leite materno, causada por substâncias do leite que interferem na conjugação hepática da bilirrubina.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa forma costuma iniciar após a primeira semana, com pico na segunda ou terceira, em lactente que mama bem, ganha peso adequadamente e tem exame físico normal, situação oposta à descrita neste caso."
+      },
+      {
+        "letra": "C",
+        "texto": "Doença hemolítica por incompatibilidade ABO entre mãe e filha.",
+        "correta": false,
+        "justificativa": "Incorreta. A incompatibilidade ABO pressupõe mãe do grupo O e filho do grupo A ou B; aqui ambas pertencem ao grupo A, o Coombs direto é negativo e não há anemia nem reticulocitose que indiquem hemólise."
+      },
+      {
+        "letra": "D",
+        "texto": "Icterícia fisiológica do recém-nascido a termo.",
+        "correta": false,
+        "justificativa": "Incorreta. A icterícia fisiológica raramente alcança níveis com indicação de fototerapia e não se acompanha de perda ponderal de 12%, desidratação e oligúria, achados que apontam falha no estabelecimento da amamentação."
+      }
+    ],
+    "especialidade": "neonatologia",
+    "especialidade_secundaria": "aleitamento_e_nutricao",
+    "objeto_conhecimento": "Diagnóstico diferencial das hiperbilirrubinemias indiretas do recém-nascido",
+    "sistema_organico": "digestorio",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_02"],
+      "cenario": "enamed_cenario_03",
+      "justificativa": "Reinternação na rede materno-infantil em que o estudante formula hipótese a partir da história alimentar e do exame físico (competência II) e interpreta bilirrubinas, tipagem e Coombs (competência III), mobilizando propedêutica e diagnóstico (conteúdo IX) e processos fisiológicos do período neonatal (conteúdo II)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Caso reescrito com recém-nascida do sexo feminino, 4 dias de vida, e com os dados laboratoriais explicitados (bilirrubina total e fração indireta, Coombs direto, reticulócitos, hematócrito), o que permite excluir hemólise com segurança em vez de depender apenas da tipagem. A perda ponderal foi quantificada a partir dos pesos informados (12%). Alternativas inteiramente novas; correta posicionada em A, conforme o sorteio, mantendo o objeto de conhecimento do item de origem."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q025",
+    "tema": "Otite média aguda na infância",
+    "subtema": "Critérios otoscópicos para o diagnóstico e para a indicação de antibiótico",
+    "area_clinica": "pediatria",
+    "nivel_bloom": "compreensao",
+    "dificuldade_editorial": "facil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10"],
+    "tags": ["otite media aguda", "otoscopia", "abaulamento", "antibioticoterapia", "atencao primaria"],
+    "texto_base": "Uma menina de 2 anos é levada à unidade básica de saúde com febre de 39,2 °C iniciada há um dia, choro intenso, irritabilidade e recusa alimentar. Há quatro dias apresenta coriza hialina e tosse. A mãe percebeu que a criança leva a mão à orelha direita repetidamente e que o desconforto piorou muito durante a noite. Ao exame, está corada, hidratada, com orofaringe hiperemiada, sem sinais de desconforto respiratório e com ausculta pulmonar normal. A otoscopia da orelha esquerda não mostra alterações e a médica examina, em seguida, a orelha direita.",
+    "enunciado": "Para firmar o diagnóstico de otite média aguda na orelha direita e sustentar a indicação de antibioticoterapia, qual é o achado otoscópico de maior valor determinante?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Hiperemia isolada da membrana timpânica.",
+        "correta": false,
+        "justificativa": "Incorreta. A hiperemia pode resultar do choro, da febre ou de uma infecção viral das vias aéreas superiores e, isoladamente, não comprova a existência de efusão sob pressão na orelha média."
+      },
+      {
+        "letra": "B",
+        "texto": "Abaulamento moderado a intenso da membrana timpânica.",
+        "correta": true,
+        "justificativa": "Correta. O abaulamento traduz efusão sob pressão na orelha média e é o achado de maior valor preditivo para otite média aguda, sustentando, junto ao quadro agudo de febre e otalgia, a indicação de antibiótico."
+      },
+      {
+        "letra": "C",
+        "texto": "Opacidade da membrana com perda do triângulo luminoso.",
+        "correta": false,
+        "justificativa": "Incorreta. A opacidade indica apenas presença de líquido ou espessamento da membrana e ocorre também na otite média com efusão, condição que evolui bem sem antibiótico e exige apenas reavaliação."
+      },
+      {
+        "letra": "D",
+        "texto": "Retração da membrana timpânica com nível hidroaéreo visível.",
+        "correta": false,
+        "justificativa": "Incorreta. Retração associada a nível hidroaéreo sugere disfunção da tuba auditiva com efusão sem inflamação aguda, cujo manejo é expectante, com seguimento clínico e avaliação auditiva se persistente."
+      }
+    ],
+    "especialidade": "infectologia_pediatrica",
+    "especialidade_secundaria": "puericultura_e_crescimento",
+    "objeto_conhecimento": "Achados otoscópicos que definem otite média aguda e diferenciam da otite média com efusão",
+    "sistema_organico": "otorrinolaringologico",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_04",
+      "competencias": ["enamed_comp_02", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_06", "enamed_cont_09"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Consulta na atenção primária em que o diagnóstico depende de exame físico dirigido, a otoscopia (competência II e conteúdo VI), e a decisão de prescrever antibiótico integra o plano terapêutico com uso racional de medicamentos (competência IV e conteúdo IX)."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Nova paciente (menina de 2 anos atendida na atenção primária, com pródromo viral de quatro dias e otalgia lateralizada à direita, com otoscopia contralateral normal), comando reformulado e alternativas reescritas. Os distratores deixaram de ser palavras soltas e passaram a descrever achados completos, incluindo a retração com nível hidroaéreo, que permite contrastar otite média aguda e otite média com efusão. Objeto de conhecimento preservado; correta mantida em B."
+  }
+]
