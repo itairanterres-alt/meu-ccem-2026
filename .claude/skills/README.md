@@ -21,10 +21,17 @@ nas 27 competências da DCN 2025.
 | `references/schema_questao_med_unidavi.json` | Schema canônico da questão. |
 | `scripts/validate_questao.py` | Validador executável. |
 
-### Instalar / atualizar a skill viva
+### Onde ela vive
+
+Este diretório é `.claude/skills/` **de propósito**: o Claude Code carrega
+automaticamente as skills que encontra aqui. Qualquer sessão aberta neste
+repositório já usa a versão deste commit — não há passo de instalação, e não existe
+uma segunda cópia para sair de sincronia. Esta é a versão de uso geral.
+
+Para usá-la **fora** deste repositório (outra máquina, outro projeto):
 
 ```bash
-cp -r skills/capi-questoes-enamed ~/.claude/skills/
+cp -r .claude/skills/capi-questoes-enamed ~/.claude/skills/
 ```
 
 Atenção: o validador resolve as referências por padrão glob e escolhe a de nome mais
@@ -35,7 +42,7 @@ efetivamente usada — ele imprime isso a cada execução.
 ### Validar um lote de questões
 
 ```bash
-python3 skills/capi-questoes-enamed/scripts/validate_questao.py lote.json
+python3 .claude/skills/capi-questoes-enamed/scripts/validate_questao.py lote.json
 ```
 
 Códigos de saída: `0` sem erros · `1` ao menos um erro · `2` referência

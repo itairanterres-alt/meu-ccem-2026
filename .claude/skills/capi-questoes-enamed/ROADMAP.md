@@ -57,7 +57,7 @@ ser rodado em lote por ela, com curadoria docente por amostragem.
 Dois estágios (`aplicar_especialidade.py:77`, `aplicar_matriz.py:53`) reescrevem o
 schema em disco, com definições incompatíveis do mesmo campo. Enquanto isso existir,
 "o banco valida" não significa nada.
-- Tornar `skills/capi-questoes-enamed/references/schema_questao_med_unidavi.json` a
+- Tornar `.claude/skills/capi-questoes-enamed/references/schema_questao_med_unidavi.json` a
   única cópia canônica; as outras viram link ou cópia gerada.
 - Remover as duas escritas; se um estágio precisa de campo novo, ele altera o schema
   canônico **no mesmo commit**, por mão humana.
@@ -69,7 +69,7 @@ questão inteira. Trocar `except Exception: pass` por log + `sys.exit(1)`.
 
 **1.3 Adotar `id_questao`.** *Owner: eu, se você quiser — a ferramenta já existe.*
 ```bash
-python3 skills/capi-questoes-enamed/scripts/banco.py id <banco>.json --escrever
+python3 .claude/skills/capi-questoes-enamed/scripts/banco.py id <banco>.json --escrever
 ```
 UUIDv5 determinístico sobre o conteúdo normalizado. Rodado sobre o seed do app,
 detectou sozinho os **40 grupos de reingestão** que a auditoria havia encontrado.
@@ -103,7 +103,7 @@ randomização na emissão. Não fiz porque mexe em backend e telas de curadoria
 
 **3.1 Migrar o seed do app.** *Owner: eu (automático) + skill (classificação).*
 ```bash
-python3 skills/capi-questoes-enamed/scripts/banco.py migrar seed.json \
+python3 .claude/skills/capi-questoes-enamed/scripts/banco.py migrar seed.json \
         --perfil sessao-questoes -o migrado.json
 ```
 Depois, rodar a skill em lote sobre as 839 para preencher `tema`, `nivel_bloom` e
@@ -138,7 +138,7 @@ estágio que mais agrega.
 
 **4.4 Normalizar tags.** *Owner: eu — ferramenta pronta.*
 ```bash
-python3 skills/capi-questoes-enamed/scripts/banco.py tags <banco>.json \
+python3 .claude/skills/capi-questoes-enamed/scripts/banco.py tags <banco>.json \
         --escrever --vocabulario vocab.json
 ```
 Medido: 2.754 tags para 914 questões, 299 conceitos com grafia concorrente, **73%
