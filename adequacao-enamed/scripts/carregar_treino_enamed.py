@@ -6,7 +6,7 @@ já convertidas para o schema do treino-enamed) diretamente nas tabelas
 Rode isto ONDE você tiver as credenciais — não precisa ser nesta sessão.
 
 Uso:
-    export SUPABASE_URL="https://ggjxbumtnizaeomioves.supabase.co"
+    export SUPABASE_URL="https://SEU-PROJETO.supabase.co"   # o projeto do treino-enamed, não outro app
     export SUPABASE_SECRET_KEY="<sua service_role key, Settings > API>"
     pip install requests   # se ainda não tiver
     python3 carregar_treino_enamed.py
