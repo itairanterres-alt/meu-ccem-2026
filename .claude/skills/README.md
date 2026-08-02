@@ -48,3 +48,29 @@ python3 .claude/skills/capi-questoes-enamed/scripts/validate_questao.py lote.jso
 Códigos de saída: `0` sem erros · `1` ao menos um erro · `2` referência
 institucional ausente (o script se recusa a validar sem taxonomia e banco de OAs,
 para não aprovar questão com UC ou objetivo inexistente).
+
+## `avaliacao-blueprint`
+
+Monta o blueprint de cobertura temática de uma avaliação: mapeia as questões dos
+tutores contra os Objetivos de Aprendizagem (OAs) de uma UC, identifica lacunas e
+redundâncias, e orienta a `capi-questoes-enamed` a gerar questões para as lacunas.
+Depende diretamente dos bancos da `capi-questoes-enamed` acima — por isso as duas
+skills precisam ser mantidas juntas e atualizadas na mesma migração de semestre.
+
+| Arquivo | Papel |
+|---|---|
+| `SKILL.md` | As instruções do agente. |
+| `references/estrutura_oas.md` | Como navegar o banco de OAs e a taxonomia. |
+| `references/leitura_arquivos.md` | Como ler provas em .docx/.xlsx (export do Forms). |
+| `references/criterios_diagnostico.md` | Critérios de status de cobertura e redundância. |
+| `references/dimensoes_analise.md` | Bloom, competência DCN, dificuldade e Matriz ENAMED 478/2025. |
+| `scripts/gerar_matriz_pdf.py` | Gerador de PDF da matriz de cobertura. |
+
+Mesma regra da `capi-questoes-enamed`: resolve os bancos de OAs/taxonomia por
+padrão glob (nunca por nome fixo de semestre) e imprime qual arquivo foi usado.
+
+Para usá-la fora deste repositório:
+
+```bash
+cp -r .claude/skills/avaliacao-blueprint ~/.claude/skills/
+```
