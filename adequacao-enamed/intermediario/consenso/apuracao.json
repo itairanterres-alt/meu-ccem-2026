@@ -58,6 +58,33 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q003",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q005",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -138,6 +165,33 @@
       {
         "rodada": 3,
         "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q008",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
         "confianca": "alta"
       }
     ],
@@ -226,6 +280,37 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q013",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "media"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "media"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "media"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "As alternativas B e C usam a dose fixa de 10-12,5 mg/dia da OMS (inclusive em ciclos), o que também pode ser defendido como recomendação vigente e gera ambiguidade sobre qual referência a banca adotou.",
+      "As alternativas com 10 a 12,5 mg/dia remetem à recomendação da OMS, o que pode gerar divergência de gabarito conforme a fonte adotada como \"última recomendação\".",
+      "Enunciado com numeração residual ('10.') colada no meio do texto."
+    ]
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q015",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -300,6 +385,33 @@
       {
         "rodada": 3,
         "resposta": "C",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q018",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
         "confianca": "alta"
       }
     ],
@@ -388,6 +500,33 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q023",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q025",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -466,6 +605,33 @@
       {
         "rodada": 3,
         "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q028",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "D",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "D",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "D",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "D",
         "confianca": "alta"
       }
     ],
@@ -566,6 +732,35 @@
     ]
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q033",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Contradição interna: o enunciado afirma dor epigástrica e, logo em seguida, que a paciente 'nega dor abdominal'."
+    ]
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q035",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -655,6 +850,35 @@
     ]
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q038",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "A alternativa A grafa 'MLH2' em lugar de MSH2."
+    ]
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q040",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -737,6 +961,35 @@
       "Evolução de apenas 4 semanas fica no limite da definição de cronicidade (6-8 semanas) e nenhuma alternativa oferece a primeira linha correta de tratamento clínico (nitrato ou bloqueador de canal de cálcio tópico + medidas higienodietéticas), o que torna a opção D parcialmente sustentável.",
       "As 4 semanas de evolução são limítrofes para o critério clássico de cronicidade (6 a 8 semanas), e o item não oferece a opção de terapia clínica adequada (nitrato ou bloqueador de canal de cálcio tópico).",
       "A duração de apenas 4 semanas é inferior ao usual para definir cronicidade, e a alternativa conservadora foi redigida com terapia incorreta, o que artificialmente favorece a cirurgia."
+    ]
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q043",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "media"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Sem imagem ou punção documentada, parte dos avaliadores defenderia a drenagem guiada por ultrassonografia (alternativa B) como passo inicial menos invasivo, embora febre e sinais flogísticos apontem infecção."
     ]
   },
   {
@@ -825,6 +1078,33 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q048",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q050",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -906,6 +1186,37 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q053",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "O enunciado remete a 'o ECG abaixo', que não foi transcrito; a resposta, contudo, é determinada pela FEVE reduzida.",
+      "O enunciado remete a um ECG não disponível, embora a resposta não dependa dele.",
+      "Enunciado remete a 'ECG abaixo' e a um traçado que não é fornecido."
+    ]
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q055",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -984,6 +1295,33 @@
       {
         "rodada": 3,
         "resposta": "D",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q058",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
         "confianca": "alta"
       }
     ],
@@ -1075,6 +1413,33 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q063",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q065",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -1133,6 +1498,33 @@
   },
   {
     "id_origem": "enamed_simulado_2026_1_q067",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q068",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
     "decisao": "aprovada",
@@ -1240,6 +1632,37 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q073",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "media"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O ECG citado no enunciado não foi transcrito; o diagnóstico de IAMCSST fica implícito pelo quadro clínico e pelas alternativas.",
+      "O eletrocardiograma citado no enunciado não está disponível; a resposta depende de assumir supradesnivelamento do segmento ST.",
+      "O eletrocardiograma citado no enunciado não é apresentado; o diagnóstico depende de inferência clínica."
+    ]
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q075",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -1323,6 +1746,33 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q078",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "D",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "D",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "D",
+        "confianca": "media"
+      },
+      {
+        "rodada": 3,
+        "resposta": "D",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q080",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -1403,6 +1853,33 @@
       }
     ],
     "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q083",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "media"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "media",
     "problemas_apontados": null
   },
   {
@@ -1495,6 +1972,37 @@
     ]
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q088",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "media"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "media"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "media"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Pelo PCDT-IST do MS a parceria deve receber tratamento presuntivo mesmo com teste não reagente, o que torna imprecisa a condicional 'tratar apenas se reagente' da alternativa A; a alternativa B acerta o parceiro mas erra o esquema materno (3 doses para sífilis recente) — item com duas opções parcialmente defensáveis.",
+      "A conduta com a parceria é imperfeita: o PCDT-IST recomenda tratamento presuntivo da parceria sexual de gestante com sífilis independentemente do resultado dos testes, o que não é contemplado por nenhuma alternativa que traga o esquema materno correto.",
+      "A alternativa restringe o tratamento da parceria ao teste reagente, enquanto o PCDT admite tratamento presuntivo por exposição, o que torna a chave imperfeita."
+    ]
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q090",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -1554,6 +2062,33 @@
   },
   {
     "id_origem": "enamed_simulado_2026_1_q092",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q093",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
     "decisao": "aprovada",
@@ -1661,6 +2196,36 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "enamed_simulado_2026_1_q098",
+    "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+    "n_alternativas": 4,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "media"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
+        "confianca": "media"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Há tensão normativa com a Lei 13.931/2019, que prevê comunicação à autoridade policial em até 24 h nos casos de violência contra a mulher atendidos em serviços de saúde, o que torna o item discutível.",
+      "A Lei 13.931/2019 determina comunicação à autoridade policial em 24 horas nos casos de violência contra a mulher, o que conflita parcialmente com a alternativa apontada como correta."
+    ]
+  },
+  {
     "id_origem": "enamed_simulado_2026_1_q100",
     "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
     "n_alternativas": 4,
@@ -1748,6 +2313,35 @@
     ]
   },
   {
+    "id_origem": "simulado_nacional_enamed2025_q003",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "D",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "D",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "D",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "D",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Enunciado alterna o gênero do paciente ('do paciente' e depois 'da paciente')."
+    ]
+  },
+  {
     "id_origem": "simulado_nacional_enamed2025_q005",
     "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
     "n_alternativas": 5,
@@ -1831,6 +2425,35 @@
     ],
     "confianca_min": "alta",
     "problemas_apontados": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q008",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "D",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "D",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "D",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "D",
+        "confianca": "media"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "O protocolo do MS também prevê corticoide em curso curto na fase subaguda, opção não ofertada, o que torna a escolha por exclusão."
+    ]
   },
   {
     "id_origem": "simulado_nacional_enamed2025_q010",
@@ -1926,6 +2549,33 @@
     ]
   },
   {
+    "id_origem": "simulado_nacional_enamed2025_q013",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "simulado_nacional_enamed2025_q015",
     "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
     "n_alternativas": 5,
@@ -2011,6 +2661,33 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "simulado_nacional_enamed2025_q018",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "B",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "B",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "B",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "simulado_nacional_enamed2025_q020",
     "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
     "n_alternativas": 5,
@@ -2085,6 +2762,33 @@
       {
         "rodada": 3,
         "resposta": "D",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q023",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
         "confianca": "alta"
       }
     ],
@@ -2181,6 +2885,37 @@
     ]
   },
   {
+    "id_origem": "simulado_nacional_enamed2025_q028",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "media"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "baixa"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "media"
+      }
+    ],
+    "confianca_min": "baixa",
+    "problemas_apontados": [
+      "Com 18 semanas o teste de avidez já tem valor limitado (útil sobretudo até 16 semanas), o que torna a alternativa A tecnicamente imperfeita, ainda que seja a única coerente com o protocolo oficial.",
+      "Item ambíguo: com 18 semanas o teste de avidez já perde valor discriminatório (útil até cerca de 16 semanas), o que torna a alternativa C (investigação de infecção fetal) também defensável; nenhuma alternativa reproduz integralmente o fluxograma do Ministério da Saúde.",
+      "Com 18 semanas o teste de avidez perde valor discriminatório (útil apenas até 16 semanas), o que enfraquece a chave e aproxima a alternativa C; item com gabarito discutível."
+    ]
+  },
+  {
     "id_origem": "simulado_nacional_enamed2025_q030",
     "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
     "n_alternativas": 5,
@@ -2263,6 +2998,36 @@
       "Ponto discutível: a velocidade de crescimento de 7 cm/ano é acima do esperado para a fase pré-puberal, o que alguns examinadores usariam para justificar investigação laboratorial (alternativa D/B).",
       "O leve avanço de idade óssea e a velocidade de crescimento de 7 cm/ano tornam a investigação laboratorial (alternativa D) parcialmente sustentável para alguns autores.",
       "A fronteira entre 'apenas acompanhar' e 'triar HAC não clássica' é matéria de debate, o que torna C e D parcialmente competitivas."
+    ]
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q033",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "C",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "C",
+        "confianca": "media"
+      },
+      {
+        "rodada": 2,
+        "resposta": "C",
+        "confianca": "media"
+      },
+      {
+        "rodada": 3,
+        "resposta": "C",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "media",
+    "problemas_apontados": [
+      "Na faixa de 6-11 anos a GINA aceita como equivalente ao Step 3 o CI em dose média isolado, e parte das bancas classificaria o caso como Step 2 (alternativa A) — há duas leituras defensáveis.",
+      "A fronteira entre etapa 2 (CI em dose baixa isolado) e etapa 3 pode gerar divergência conforme a leitura da frequência dos sintomas."
     ]
   },
   {
@@ -2350,6 +3115,33 @@
     "problemas_apontados": [
       "O distrator principal da alternativa A é a doença respiratória leve, mas o motivo real da contraindicação é a idade, o que pode confundir o examinando."
     ]
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q038",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
   },
   {
     "id_origem": "simulado_nacional_enamed2025_q040",
@@ -2441,6 +3233,33 @@
     "problemas_apontados": null
   },
   {
+    "id_origem": "simulado_nacional_enamed2025_q043",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "E",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "E",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "E",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "E",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": null
+  },
+  {
     "id_origem": "simulado_nacional_enamed2025_q045",
     "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
     "n_alternativas": 5,
@@ -2520,6 +3339,35 @@
     ],
     "confianca_min": "alta",
     "problemas_apontados": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q048",
+    "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+    "n_alternativas": 5,
+    "decisao": "aprovada",
+    "chave_consenso": "A",
+    "motivo": "3/3",
+    "votos": [
+      {
+        "rodada": 1,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 2,
+        "resposta": "A",
+        "confianca": "alta"
+      },
+      {
+        "rodada": 3,
+        "resposta": "A",
+        "confianca": "alta"
+      }
+    ],
+    "confianca_min": "alta",
+    "problemas_apontados": [
+      "Tabela apresentada em texto corrido, com formatação degradada."
+    ]
   },
   {
     "id_origem": "simulado_nacional_enamed2025_q050",
