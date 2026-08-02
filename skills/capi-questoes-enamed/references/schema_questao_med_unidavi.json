@@ -579,6 +579,101 @@
         null
       ],
       "description": "Forma do enunciado. No ENAMED 2025 (Caderno 1, n=90): completamento 60%, interrogativo 40%. Campo usado para monitorar a variedade de formato do banco."
+    },
+    "classificacao_fina": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Camada de classificacao fina, produzida pelo pipeline de adequacao de provas reais. Complementa (nao substitui) tema/subtema/tags. O bloco matriz_enamed_478_2025 e o que permite fazer blueprint do banco contra a matriz do exame.",
+      "additionalProperties": false,
+      "properties": {
+        "especialidade": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "especialidade_secundaria": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "objeto_conhecimento": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sistema_organico": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contexto_atencao": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "conteudo_declarado_origem": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor_declarado_origem": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "matriz_enamed_478_2025": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "area": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^enamed_area_0[1-7]$"
+            },
+            "competencias": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^enamed_comp_(0[1-9]|1[0-5])$"
+              }
+            },
+            "conteudos": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^enamed_cont_(0[1-9]|1[0-9]|2[01])$"
+              }
+            },
+            "cenario": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^enamed_cenario_0[1-6]$"
+            },
+            "justificativa": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      }
     }
   }
 }

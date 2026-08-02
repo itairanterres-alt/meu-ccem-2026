@@ -183,22 +183,50 @@ def check_anteriores(q, rep):
                     f"Alternativa {a.get('letra')} usa 'nenhuma/todas das anteriores' — proibido.")
 
 
+def _comando(enunciado):
+    """Isola a frase de comando (lead-in) do resto do enunciado.
+
+    Importa porque, no padrão ENAMED, a vinheta e o comando vivem no mesmo campo.
+    Procurar termos proibidos no bloco inteiro produz falso positivo em massa:
+    'exceto' é preposição corriqueira na descrição clínica ("exame físico sem
+    particularidades, exceto por espessamento da artéria temporal") e só é defeito
+    quando estrutura o comando ("...os seguintes efeitos, exceto:"). Numa auditoria
+    de 914 itens reais, 7 dos 9 flagrantes de NEGATIVO eram desse tipo.
+    """
+    e = (enunciado or "").strip()
+    partes = re.split(r"(?<=[.;?])\s+", e)
+    return partes[-1] if partes else e
+
+
+# "falso-positivo" e "falso-negativo" são vocabulário epidemiológico padrão,
+# não construção negativa de item.
+FALSO_LEGITIMO = re.compile(r"\bfals[oa]s?[\s-]+(positiv|negativ)", re.I)
+
+
 def check_enunciado(q, rep):
     enun = q.get("enunciado", "") or ""
+    cmd = _comando(enun)
+    cmd_limpo = FALSO_LEGITIMO.sub(" ", cmd)
     for term in NEG_ENUNCIADO:
-        if _has_term(enun, term):
-            rep.err("NEGATIVO", f"Construção negativa proibida no enunciado: '{term}'. "
+        if _has_term(cmd_limpo, term):
+            rep.err("NEGATIVO", f"Construção negativa proibida no comando: '{term}'. "
                                 "(0% dos itens do ENAMED 2025 usam EXCETO/incorreto.)")
-    if any(re.search(p, _norm(enun)) for p in NEG_FRASES):
-        rep.err("NEGATIVO", "Enunciado usa negação do tipo 'não é correto/verdadeiro/adequado'.")
+    if any(re.search(p, _norm(cmd_limpo)) for p in NEG_FRASES):
+        rep.err("NEGATIVO", "Comando usa negação do tipo 'não é correto/verdadeiro/adequado'.")
     for v in VERBOS_INSTRUCAO:
-        if _has_term(enun, v):
+        if _has_term(cmd, v):
             rep.err("INSTRUCAO",
-                    f"Verbo de instrução proibido no enunciado: '{v}'. Nota de proveniência: o "
+                    f"Verbo de instrução proibido no comando: '{v}'. Nota de proveniência: o "
                     "ENAMED usa 'assinale' em 6% dos itens; a Skill o proíbe por opção pedagógica "
                     "declarada (cover-the-options do NBME), não por conformidade com o ENAMED.")
-    if re.search(r"\bNÃO\b|\bNAO\b", enun):
-        rep.warn("NAO_MAIUSCULO", "Enunciado tem 'NÃO' em maiúsculas — típico de item negativo.")
+    if re.search(r"\bNÃO\b|\bNAO\b", cmd):
+        rep.warn("NAO_MAIUSCULO", "Comando tem 'NÃO' em maiúsculas — típico de item negativo.")
+    # 'exceto' fora do comando é prosa clínica normal, mas vale um olhar se abre lista
+    corpo = enun[: len(enun) - len(cmd)]
+    if re.search(r",\s*exceto\s*:?\s*$", _norm(corpo)):
+        rep.warn("EXCETO_NO_CORPO",
+                 "O corpo do enunciado termina em 'exceto' — confirme que não é um item "
+                 "negativo com a lista quebrada em outro parágrafo.")
 
 
 def check_completamento(q, rep):
