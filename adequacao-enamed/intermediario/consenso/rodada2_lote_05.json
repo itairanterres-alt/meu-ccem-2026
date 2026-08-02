@@ -1,0 +1,212 @@
+[
+  {
+    "id_origem": "simulado_nacional_enamed2025_q005",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "TEP segmentar em paciente hemodinamicamente estável, sem disfunção de VD (PESI/risco baixo-intermediário): a conduta é anticoagulação plena, sendo a HBPM a opção inicial de escolha. Trombólise, filtro de VCI e varfarina isolada sem anticoagulante parenteral estão contraindicados; alta sem anticoagulação é inaceitável.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q010",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Paciente satisfeito com o hábito, sem intenção de mudança nos próximos 6 meses, negando os malefícios e reagindo com resistência à abordagem: caracteriza pré-contemplação no modelo transteórico de Prochaska e DiClemente.",
+    "problema_do_item": "Ruído de digitalização: a alternativa E traz o texto residual 'CIRURGIA GERAL' (cabeçalho de seção do caderno original)."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q015",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Trauma hepático fechado em paciente hemodinamicamente estável é candidato a tratamento não operatório; a presença de blush arterial na TC indica sangramento ativo e impõe angioembolização como adjuvante, além de monitorização e controle hematimétrico seriado.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q020",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Queimadura elétrica: ATLS recomenda 4 mL/kg/%SCQ = 4 × 50 × 25 = 5.000 mL em 24 h, metade (2.500 mL) nas primeiras 8 h contadas do acidente. Como já se passou 1 h e foram infundidos 500 mL, restam 2.000 mL nas próximas 7 h e 2.500 mL nas 16 h seguintes.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q025",
+    "resposta": "E",
+    "confianca": "alta",
+    "motivo": "A diretriz do MS/INCA recomenda mamografia bienal apenas dos 50 aos 69 anos para mulheres de risco habitual; câncer em cunhada (sem consanguinidade) não altera o risco nem antecipa o rastreamento.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q030",
+    "resposta": "B",
+    "confianca": "media",
+    "motivo": "Gestante com esquema infantil completo: indicam-se influenza (sazonal, qualquer IG), COVID-19 e dTpa (a partir de 20 semanas, a cada gestação). Hepatite B já foi completada na infância, dT não está devida (última dose há 7 anos e a dTpa cumpre o reforço) e a vacina dengue é de vírus vivo atenuado, contraindicada na gestação.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q035",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Púrpura palpável em nádegas/MMII, artrite, dor abdominal e hematúria com hemograma e coagulograma normais definem vasculite por IgA (Henoch-Schönlein), fenômeno imunológico pós-estreptocócico cujas complicações temidas são hemorragia digestiva/intussuscepção e nefrite. Na PHS o complemento é normal (afasta C) e não há indicação de ecocardiograma ou FAN/uveíte.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q040",
+    "resposta": "B",
+    "confianca": "media",
+    "motivo": "IMC = 26 ÷ (1,10)² = 21,5 kg/m²; para menina de 4 anos o escore-z de IMC/idade da OMS fica acima de +3 DP (+3 DP ≈ 20,6), o que na curva de 0-5 anos corresponde a Obesidade (a categoria 'obesidade grave' só existe na referência de 5-19 anos).",
+    "problema_do_item": "O item remete a 'gráfico abaixo' que não está reproduzido no enunciado; a resposta só é recuperável por cálculo e memória das curvas da OMS."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q045",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "O MS/INCA não recomenda rastreamento populacional de câncer de próstata; diante da demanda espontânea a conduta é o esclarecimento sobre benefício incerto e riscos (falso-positivo, sobrediagnóstico, sobretratamento) com decisão compartilhada.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q050",
+    "resposta": "A",
+    "confianca": "media",
+    "motivo": "I (DSEI com recorte epidemiológico/geográfico/etnográfico independente da divisão político-administrativa) e II (agravos de maior prevalência na população negra) são inequivocamente corretas, e V é falsa (a PNSIPN se dá pela transversalização no SUS, não por serviços exclusivos); resta apenas a combinação I, II e IV, sendo o enfrentamento do racismo institucional/discriminação eixo comum às três políticas.",
+    "problema_do_item": "A afirmativa III (uso do nome social) também é substancialmente correta, de modo que a chave depende de leitura restritiva do verbo 'encoraja/opção'; a resposta só se sustenta por eliminação."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q005",
+    "resposta": "C",
+    "confianca": "media",
+    "motivo": "A oferta do nirsevimabe no SUS contempla lactentes prematuros no primeiro período sazonal de VSR e crianças de risco até 2 anos (cardiopatia com repercussão hemodinâmica e doença pulmonar da prematuridade); o único perfil elegível é o recém-nascido prematuro de 15 dias de vida. As demais opções falham por idade (4 anos), por ausência de comorbidade elegível (pneumonia prévia) ou por cardiopatia sem repercussão hemodinâmica.",
+    "problema_do_item": "Depende de nota técnica recente do MS cujos pontos de corte (idade gestacional e faixa etária) não são explicitados no enunciado."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q010",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Primeiro episódio de sibilância em lactente de 4 meses após pródromo viral = bronquiolite; a fisiopatologia é obstrução das vias aéreas inferiores por inflamação, edema, necrose epitelial e rolha de muco, com prejuízo (não incremento) da depuração mucociliar.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q015",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Fenótipo sugestivo de síndrome de Down: comunicar à família em linguagem acessível e confirmar com cariótipo, além da triagem obrigatória de comorbidades associadas (ecocardiograma para cardiopatia congênita, hemograma para alterações hematológicas/leucemia transitória e função tireoidiana).",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q020",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Tratamento materno iniciado 25 dias antes do parto não foi concluído com pelo menos 30 dias de antecedência, configurando tratamento inadequado; nesse cenário o RN, mesmo assintomático, requer investigação completa (VDRL sérico periférico e demais exames, hemograma, radiografia de ossos longos e punção lombar) com tratamento subsequente. VDRL de cordão umbilical não é aceito pelo MS.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q025",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "O abaulamento da membrana timpânica é o achado otoscópico de maior especificidade para otite média aguda e o que autoriza antibioticoterapia; hiperemia, opacidade e dor à manipulação são inespecíficos (podem ocorrer no choro, na febre e na otite externa).",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q030",
+    "resposta": "C",
+    "confianca": "media",
+    "motivo": "Sinal do código de barras (ausência de deslizamento pleural) à direita, com deslizamento preservado à esquerda, define pneumotórax à direita — instalado sob ventilação com pressão positiva após a TC; a queda do EtCO2 para 19 mmHg com dessaturação traduz repercussão e impõe drenagem torácica imediata. A presença de deslizamento à esquerda afasta intubação esofágica.",
+    "problema_do_item": "A lateralidade torna a alternativa de intubação seletiva parcialmente atraente (a migração habitual do tubo é para o brônquio direito, o que aboliria o deslizamento à esquerda), exigindo leitura cuidadosa do achado ultrassonográfico."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q035",
+    "resposta": null,
+    "confianca": "baixa",
+    "motivo": "O quadro (idoso, constipação crônica, obstrução distal, timpanismo, sem irritação peritoneal) sugere volvo de sigmoide, mas o item pede a conduta 'definitiva' e admite duas leituras igualmente defensáveis: descompressão endoscópica com sonda retal (padrão inicial no volvo sem sofrimento) ou ressecção cirúrgica (tratamento definitivo, embora Hartmann seja reservado a alça inviável/perfuração).",
+    "problema_do_item": "O enunciado afirma basear-se em 'achados radiológicos' que não são descritos nem reproduzidos, e o adjetivo 'definitiva' cria duplicidade de gabarito entre descompressão colonoscópica e cirurgia."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q040",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Hérnia inguinal previamente redutível que se torna irredutível e dolorosa, com náuseas, vômitos, distensão e hiperemia da parede, caracteriza encarceramento com estrangulamento: indicação de exploração cirúrgica de emergência. Redução manual é contraindicada pelo risco de redução em massa e a TC apenas retardaria o tratamento.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q045",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Estenose hipertrófica do piloro (vômitos não biliosos em jato, oliva palpável, perda ponderal): a perda de HCl gástrico gera alcalose metabólica hipoclorêmica com hipocalemia (por perdas renais e hiperaldosteronismo secundário) e aciduria paradoxal.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q050",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Icterícia obstrutiva indolor com vesícula palpável (sinal de Courvoisier) e lesão periampular de 1,1 cm sem invasão vascular indica doença potencialmente ressecável: completar estadiamento e encaminhar para avaliação de duodenopancreatectomia. Drenagem biliar pré-operatória de rotina não é indicada sem colangite, e a biópsia percutânea é inadequada em lesão ressecável.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q055",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "HAS estágio 1 (144/92 mmHg) com risco cardiovascular moderado indica início imediato de farmacoterapia, preferencialmente com combinação dupla em dose baixa de fármacos de primeira linha (IECA + bloqueador de canal de cálcio). Betabloqueador não é primeira linha sem indicação compulsória e adiar o tratamento por 6 meses só caberia em estágio 1 de baixo risco.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q060",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Três dos quatro critérios GINA presentes em 4 semanas (sintomas diurnos >2x/semana, despertar noturno e resgate >2x/semana) definem asma não controlada, exigindo step-up. A conduta recomendada é substituir o esquema por CI-formoterol em dose baixa como manutenção e resgate (MART), abandonando o SABA isolado de alívio.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q065",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Ânion gap = 140 − 102 − 19 = 19 mEq/L (elevado) com HCO₃ 19 e pCO₂ 60: acidose metabólica com AG aumentado somada a acidose respiratória. A relação delta-delta (ΔAG 7 / ΔHCO₃ 5) não sustenta componente hiperclorêmico adicional, afastando o distúrbio triplo.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q070",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Anemia normocítica, hipoproliferativa (reticulócitos não elevados) e isolada em homem de 58 anos exige primeiro caracterizar o mecanismo: cinética do ferro (ferritina e saturação de transferrina, pois a ferropenia inicial pode ser normocítica) e função renal. Investigação endoscópica só após confirmar ferropenia, e o painel de hemólise não se justifica sem reticulocitose.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q075",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Hipotireoidismo subclínico leve (TSH <10 mU/L) em idosa assintomática: a conduta inicial é confirmar a alteração repetindo TSH e T4 livre em 2-3 meses, já que boa parte normaliza espontaneamente. Levotiroxina não está indicada nessa faixa em paciente assintomática dessa idade.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q080",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Óbito por eclâmpsia é morte materna obstétrica direta (causa própria da gestação) e o caso reúne os três atrasos do modelo de Thaddeus e Maine: demora em reconhecer/buscar atendimento (pré-natal irregular e sinais premonitórios), demora no acesso ao serviço adequado (transferência tardia) e demora no cuidado prestado (falta de sulfato de magnésio). Near miss exige sobrevivência.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q085",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Glicemia de jejum ≥126 mg/dL e HbA1c ≥6,5% na primeira metade da gestação caracterizam diabetes mellitus diagnosticado na gestação (overt/pré-gestacional), não DMG. A conduta é mudança de estilo de vida com insulinoterapia imediata; TOTG é desnecessário e contraindicado com jejum já diagnóstico, e metformina não é a primeira escolha nesse cenário.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q090",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Mulher de 47 anos com sangramento uterino anormal por leiomioma, prole constituída, sem desejo reprodutivo e que solicita cirurgia: a histerectomia é o tratamento definitivo indicado. Miomectomia visa preservação da fertilidade, a expectação não se sustenta em paciente sintomática e a embolização não é tratamento de escolha nesse perfil.",
+    "problema_do_item": "Inconsistência técnica: a descrição (mais de 50% intramural, sem atingir a serosa, sem distorcer a cavidade) corresponde ao tipo 4 da FIGO, e não ao tipo 5 declarado no enunciado."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q095",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Mulher de 37 anos com risco habitual: o rastreamento populacional recomendado no Brasil é mamografia bienal dos 50 aos 69 anos. Não há indicação de mamografia anual, de exame clínico das mamas como método de rastreamento nem de ultrassonografia de rotina.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q100",
+    "resposta": "D",
+    "confianca": "media",
+    "motivo": "Nos protocolos vigentes do MS a idade materna isoladamente deixou de ser critério de encaminhamento ao pré-natal de alto risco; adolescente hígida, normotensa e sem intercorrências mantém acompanhamento na UBS e pode ter o parto em serviço de baixo risco, com reavaliação caso surjam complicações.",
+    "problema_do_item": "Ponto sensível a versões: manuais anteriores listavam idade <15 anos como fator de risco, o que pode gerar divergência com bancas que adotem a referência antiga."
+  }
+]

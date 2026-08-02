@@ -1,0 +1,212 @@
+[
+  {
+    "id_origem": "simulado_nacional_enamed2025_q005",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "TEP segmentar de baixo risco (hemodinamicamente estavel, sem disfuncao de VD ao eco/angioTC) tem como conduta inicial anticoagulacao plena com HBPM; a concorrente A erra ao indicar trombolise, reservada a TEP de alto risco (instabilidade hemodinamica), e D erra por iniciar varfarina sem ponte com heparina.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q010",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Paciente nega o risco, desconfia da informacao medica e recusa abordar o tema: nao ha intencao de mudanca nos proximos 6 meses, definindo pre-contemplacao; contemplacao (B) exigiria ambivalencia com intencao de mudar, o que ele explicitamente nega.",
+    "problema_do_item": "Fragmento residual de cabecalho ('CIRURGIA GERAL') colado ao final da alternativa E."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q015",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Trauma hepatico fechado em paciente estavel permite tratamento nao operatorio, mas o blush arterial na fase arterial da TC indica sangramento ativo e impoe angioembolizacao complementar; C sobrevive parcialmente mas omite o tratamento do blush, e as laparotomias (B, E) sao indicadas apenas na instabilidade ou peritonite, ausentes aqui.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q020",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Queimadura eletrica de alta tensao usa 4 mL x 50 kg x 25% = 5.000 mL/24h; metade (2.500 mL) nas primeiras 8h contadas do acidente, descontando os 500 mL ja infundidos e a 1 hora decorrida, restam 2.000 mL em 7h e 2.500 mL nas 16h seguintes; A ignora o volume ja infundido e o tempo decorrido, D e E erram a distribuicao entre as metades.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q025",
+    "resposta": "E",
+    "confianca": "alta",
+    "motivo": "Pelo MS/INCA o rastreamento populacional e mamografia bienal dos 50 aos 69 anos, e cunhada nao e parente consanguinea, logo a paciente permanece de risco habitual; A, B e D erram idade de inicio e/ou periodicidade, e C confunde USG com metodo de rastreamento.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q030",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Gestante com esquema infantil completo precisa apenas de influenza, covid-19 e dTpa (a partir de 20 semanas); C e E caem por incluir vacina de dengue, viva atenuada e contraindicada na gestacao, e A e D caem por incluir hepatite B (ja realizada na infancia) e dT redundante ao dTpa.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q035",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Purpura palpavel em nadegas/MMII, artrite, dor abdominal e hematuria com hemograma e coagulograma normais definem vasculite por IgA (Henoch-Schonlein), cujas complicacoes temidas sao hemorragia digestiva/invaginacao e nefrite; C erra porque na vasculite por IgA o complemento C3 e normal (consumo de C3 caracteriza GNPE), e B e E deslocam o quadro para febre reumatica e AIJ.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q040",
+    "resposta": "B",
+    "confianca": "media",
+    "motivo": "IMC = 26/1,10^2 = 21,5 kg/m2, muito acima do escore-z +3 para menina de 4 anos (aprox. 20,6), e na faixa de 0 a 5 anos a curva IMC/idade classifica z > +3 como Obesidade; 'Obesidade grave' (C) so existe como categoria a partir dos 5 anos, e sobrepeso/risco de sobrepeso corresponderiam a z entre +1 e +3.",
+    "problema_do_item": "O grafico referido no enunciado ('gráfico abaixo') nao esta reproduzido no item."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q045",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "O MS nao recomenda rastreamento populacional de cancer de prostata, restando a decisao compartilhada apos esclarecer sobrediagnostico e falso-positivos; A afirma reducao significativa de mortalidade nao sustentada, C exagera ao dizer contraindicacao absoluta, D e E criam condutas inexistentes.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q050",
+    "resposta": "A",
+    "confianca": "media",
+    "motivo": "I (DSEI com recorte epidemiologico/etnografico independente de divisas administrativas) e II (PNSIPN reconhece agravos mais prevalentes e recomenda acoes especificas) sao inequivocamente corretas e IV descreve o enfrentamento da discriminacao como eixo comum; V e falsa porque a PNSIPN se implementa transversalmente no SUS e nao por servicos exclusivos, e III e a afirmativa defeituosa ao tratar o nome social como mera 'opcao encorajada' quando e direito garantido e de observancia obrigatoria pelos servicos.",
+    "problema_do_item": "Afirmativa III de redacao ambigua; se lida como verdadeira, A e B se tornariam ambas defensaveis."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q005",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "A incorporacao do nirsevimabe no SUS contempla prematuros com menos de 37 semanas na primeira temporada de VSR, situacao do RN de 15 dias com 36 semanas; A esta fora da faixa etaria e sem criterio de risco, B nao tem criterio (pneumonia previa nao qualifica) e D exige cardiopatia com repercussao hemodinamica, ausente na CIA descrita.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q010",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Primeiro episodio de sibilancia em lactente de 4 meses apos pródromo catarral e bronquiolite viral aguda, cuja fisiopatologia e obstrucao das vias aereas inferiores por inflamacao, edema e debris necroticos; A, B e C invertem o mecanismo (a depuracao mucociliar e prejudicada, ha broncoconstricao e a permeabilidade vascular aumenta).",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q015",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Fenotipo classico de sindrome de Down exige confirmacao por cariotipo e rastreio das comorbidades associadas (cardiopatia por ecocardiograma, alteracoes hematologicas e disfuncao tireoidiana), com comunicacao acessivel; C erra ao aconselhar os pais a nao terem outros filhos e D erra ao rotular mau prognostico e pedir idade ossea.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q020",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "O esquema iniciado 25 dias antes do parto nao completou as 3 doses ate 30 dias antes do parto, configurando tratamento materno inadequado, o que obriga investigacao completa do RN (VDRL serico periferico, hemograma, radiografia de ossos longos e liquor) com tratamento subsequente; A usa sangue de cordao, proscrito por falso-positivo/negativo, B e conduta de mae adequadamente tratada e C aplica esquema insuficiente para sifilis congenita presumida.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q025",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "O abaulamento da membrana timpanica e o achado com maior valor preditivo para otite media aguda e determinante da decisao de antibioticoterapia; hiperemia, opacidade e dor a manipulacao sao inespecificas e ocorrem em choro, febre e otite externa.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q030",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "O sinal do codigo de barras a direita indica ausencia de deslizamento pleural, ou seja, pneumotorax a direita surgido apos a TC em paciente sob ventilacao mecanica, e a conduta e drenagem toracica imediata; B seria intubacao seletiva, que aboliria o deslizamento a esquerda (o tubo tende ao bronquio direito) e nao a direita, e D esta afastada pela presenca de EtCO2 e de deslizamento pleural a esquerda.",
+    "problema_do_item": "A alternativa rotula 'pneumotorax simples' um quadro com hipoxemia e queda de EtCO2, sugestivo de hipertensivo."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q035",
+    "resposta": "D",
+    "confianca": "media",
+    "motivo": "Idoso constipado cronico com obstrucao colonica baixa, abdome muito distendido e hipertimpanico, sem peritonite nem sinais de sofrimento, corresponde a volvo de sigmoide, cujo manejo indicado e a descompressao endoscopica com passagem de sonda retal; C (Hartmann) so se impoe diante de peritonite/necrose, ausentes, e B (neostigmina) trata sindrome de Ogilvie, quadro nao obstrutivo mecanico.",
+    "problema_do_item": "A radiografia citada nao e reproduzida e o termo 'conduta definitiva' e impreciso, ja que a descompressao endoscopica e inicial e a sigmoidectomia eletiva e que seria definitiva."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q040",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Hernia inguinal irredutivel com dor subita, hiperemia de parede e sinais obstrutivos caracteriza estrangulamento, indicando exploracao cirurgica de emergencia; C esta contraindicada porque a reducao manual pode devolver alca inviavel a cavidade, B atrasa o tratamento de um diagnostico ja clinico e D ignora a urgencia.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q045",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Estenose hipertrofica do piloro com vomitos nao biliosos em jato e oliva palpavel cursa com perda de H+ e Cl- gastricos, gerando alcalose metabolica hipocloremica com hipocalemia (por troca renal K+/H+ e hiperaldosteronismo secundario); as demais invertem o disturbio para acidose ou associam alteracoes de calcio/fosforo sem relacao com a perda gastrica.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q050",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Ictericia obstrutiva indolor com vesicula palpavel (sinal de Courvoisier) e lesao periampular de 1,1 cm sem invasao vascular caracterizam doenca potencialmente ressecavel, impondo estadiamento e avaliacao para ressecao primaria; B confunde vesicula palpavel com tumor irressecavel, A trata colangite inexistente (sem febre/leucocitose) e D reserva-se a paliacao ou falha da via endoscopica.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q055",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "HAS estagio 1 com risco cardiovascular moderado exige inicio farmacologico ja combinado em dose baixa, preferencialmente IECA/BRA com bloqueador de canal de calcio; A (monoterapia) so caberia em estagio 1 de baixo risco ou idoso fragil, C usa betabloqueador fora da primeira linha sem indicacao compelativa e D adia por 6 meses um tratamento medicamentoso ja indicado.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q060",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Sintomas diurnos mais de 2x/semana, despertar noturno e resgate quase diario somam 3 dos 4 criterios GINA, definindo asma nao controlada, e a conduta e o step up para CI-formoterol em manutencao e resgate (MART); B subclassifica o controle e mantem SABA de resgate, e D trata como exacerbacao aguda, que nao ha.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q065",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "AG = 140 - 102 - 19 = 19 (elevado, com albumina normal) e pCO2 de 60 com pH 7,12 indica hipoventilacao concomitante, logo acidose metabolica com AG elevado somada a acidose respiratoria; D cai porque a relacao delta AG/delta HCO3 (7/5 = 1,4) e o cloro normal excluem componente hipercloremico, e A esta errada pois pH 7,12 nao e quadro compensado.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q070",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Anemia normocitica hipoproliferativa (reticulocitos nao elevados para o grau de anemia) com serie branca e plaquetas normais requer primeiro caracterizar o mecanismo com cinetica do ferro e funcao renal; A antecipa investigacao endoscopica antes de comprovar ferropenia, e C e D investigam hemolise, afastada pela ausencia de reticulocitose e de sinais clinicos.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q075",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Hipotireoidismo subclinico com TSH abaixo de 10 mU/L em idosa assintomatica exige antes de tudo confirmar a persistencia da alteracao, repetindo TSH e T4 livre em 2 a 3 meses; A trata sem confirmacao e sem indicacao (TSH < 10, sem sintomas), B e exame complementar de prognostico que nao substitui a reconfirmacao e D nao se justifica sem bocio ou nodulo.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q080",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Obito por eclampsia e morte materna de causa obstetrica direta, e a cadeia descrita (pre-natal irregular e demora na procura, peregrinacao entre servicos e assistencia inadequada sem sulfato de magnesio) configura os tres atrasos; A cai porque near miss pressupoe sobrevivencia, C classifica erroneamente como indireta e isenta a assistencia, e D nega os atrasos evidentes no caso.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q085",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Glicemia de jejum de 136 mg/dL com HbA1c de 6,5% na 14a semana preenche criterios de diabetes franco (pre-gestacional/overt), cuja conduta e mudanca de estilo de vida com insulinoterapia imediata; A classifica erroneamente como DMG, C elege metformina que nao e primeira escolha nessa situacao e D solicita TOTG desnecessario e potencialmente perigoso diante de diagnostico ja estabelecido.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q090",
+    "resposta": "A",
+    "confianca": "media",
+    "motivo": "Mulher de 47 anos com prole constituida, sangramento uterino anormal por mioma e desejo explicito de tratamento cirurgico tem na histerectomia o tratamento definitivo; B preserva o utero sem que haja desejo reprodutivo, C rotula como leve uma sintomatologia hemorragica que motiva a consulta e D apresenta a embolizacao como tratamento de escolha, o que nao procede.",
+    "problema_do_item": "Incoerencia na vinheta: nodulo descrito sem atingir a serosa e sem distorcer a cavidade corresponde a FIGO 4 (intramural), nao FIGO 5 (subseroso com componente intramural maior que 50%)."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q095",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Mulher de risco habitual segue rastreamento populacional com mamografia bienal dos 50 aos 69 anos, nada sendo indicado aos 37 anos; A e C adotam periodicidade anual e faixa etaria fora da recomendacao e incluem exame clinico como estrategia de rastreamento, e D propoe USG como metodo de rastreio populacional, nao recomendado.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q100",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Pelo protocolo do MS a idade materna isolada nao e criterio de encaminhamento ao pre-natal de alto risco nem de parto em servico de alta complexidade, e a adolescente aqui nao tem qualquer intercorrencia clinica; A, B e C erram por tornar obrigatorio o encaminhamento especializado e/ou o parto em alta complexidade apenas pela idade.",
+    "problema_do_item": null
+  }
+]

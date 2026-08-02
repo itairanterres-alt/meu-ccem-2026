@@ -1,0 +1,212 @@
+[
+  {
+    "id_origem": "simulado_nacional_enamed2025_q001",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Fibrilação atrial de alta resposta, início <48h, paciente hemodinamicamente estável: a conduta inicial é controle de frequência com betabloqueador venoso, associado a anticoagulação (CHA2DS2-VASc elevado por idade, HAS e IC). Cardioversão elétrica só se instabilidade; adenosina/manobra vagal aplicam-se a taquicardias supraventriculares regulares.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q006",
+    "resposta": null,
+    "confianca": "baixa",
+    "motivo": "Gestante com anti-TPO positivo e TSH 3,1 (>2,5 e <4,0) tem indicação de considerar levotiroxina, mas as duas alternativas de tratamento são igualmente defensáveis: 1 mcg/kg/dia (dose por peso preconizada para hipotireoidismo subclínico, Abalovich/FEBRASGO) e 50 mcg/dia (dose fixa inicial sugerida pela ATA 2017).",
+    "problema_do_item": "Duas alternativas defensáveis (B e D) com doses ambas dentro do recomendado; além disso o peso da paciente não é informado, impedindo o cálculo da opção B. Há ainda controvérsia de evidência (TABLET/POSTAL) sobre tratar TSH entre 2,5 e 4,0."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q011",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Politraumatizado pediátrico com Glasgow 7 e anisocoria tem indicação imediata de via aérea definitiva (A antes de C no ABCDE; PA de 90x50 é adequada para 6 anos), com pré-oxigenação e sequência rápida; ATLS/PALS atuais recomendam tubo COM cuff em crianças.",
+    "problema_do_item": "A dose de etomidato na alternativa correta (0,1 mg/kg) está abaixo da usual para indução (0,2-0,3 mg/kg); a alternativa E contém erro de digitação ('EIntubação')."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q016",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Trauma torácico fechado com fraturas de arcos costais e velamento de cerca de 25% da cavidade pleural configura hemotórax traumático, cuja conduta padrão é drenagem pleural tubular em selo d'água com dreno calibroso; apenas analgesia/observação é insuficiente.",
+    "problema_do_item": "Enunciado corrompido/embaralhado na descrição do exame físico e da radiografia ('estigmas... como o e 8o arcos costais', 'fratura de 6'), dificultando a leitura, ainda que os dados essenciais sejam recuperáveis."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q021",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "Amenorreia primária é definida por ausência de menarca aos 15 anos na presença de caracteres sexuais secundários (ou aos 13 anos na ausência deles). Adolescente de 14 anos com M3/P3 está dentro da sequência puberal normal, não configurando amenorreia.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q026",
+    "resposta": null,
+    "confianca": "baixa",
+    "motivo": "O diagnóstico depende inteiramente da leitura do partograma, que não está disponível no item; o texto isolado não permite distinguir entre parada secundária da dilatação, da descida ou período pélvico prolongado.",
+    "problema_do_item": "Item dependente de figura (partograma) ausente — irrespondível na forma apresentada."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q031",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Escore de pontuação do Ministério da Saúde alcança pontuação para tratar (quadro clínico >2 semanas, imagem com consolidação/derrame e contato com adulto bacilífero), dispensando confirmação microbiológica; em menores de 10 anos o esquema é 2RHZ (RIP) seguido de 4RH, sem etambutol.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q036",
+    "resposta": "C",
+    "confianca": "media",
+    "motivo": "A Sociedade Brasileira de Pediatria recomenda que o teste do reflexo vermelho seja feito na maternidade e repetido 2 a 3 vezes ao ano nos três primeiros anos de vida, nas consultas de rotina; não exige midríase farmacológica nem oftalmologista, e o reflexo alterado pode ser assimétrico ou unilateral.",
+    "problema_do_item": "A alternativa E é parcialmente verdadeira, pois diversas fontes (inclusive da SBP) citam a detecção de altas ametropias entre os achados do teste, criando sobreposição com a alternativa C."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q041",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "I é falsa (a meta de cobertura da tríplice viral é 95%, não 90%); III é falsa (o último caso autóctone confirmado no Brasil ocorreu em junho de 2022); II é verdadeira (recertificação pela OPAS em 2024) e IV é verdadeira quanto às causas da hesitação vacinal — logo, apenas II e IV.",
+    "problema_do_item": "O gráfico citado no enunciado não está reproduzido, embora as afirmativas possam ser julgadas sem ele."
+  },
+  {
+    "id_origem": "simulado_nacional_enamed2025_q046",
+    "resposta": "C",
+    "confianca": "alta",
+    "motivo": "O 'pacto de silêncio' familiar não se sobrepõe à autonomia de paciente capaz; o protocolo SPIKES prevê investigar o quanto o paciente sabe e o quanto deseja saber (etapas P e I), oferecendo a informação de forma gradual e adaptada.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q001",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Cetoacidose diabética cursa com acidose metabólica de ânion gap elevado pelo acúmulo de cetoácidos; é a única alternativa que combina acidose metabólica com AG aumentado, e há depleção corporal total de potássio pela diurese osmótica.",
+    "problema_do_item": "O descritor 'hipocalemia' é discutível: na admissão da CAD o potássio sérico costuma estar normal ou elevado (apesar do déficit corporal total), tornando a alternativa imprecisa."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q006",
+    "resposta": "B",
+    "confianca": "media",
+    "motivo": "Nas curvas de IMC por idade da OMS aos 6 meses, o valor de 18,8 kg/m2 situa-se entre +1 e +2 escores-z (tanto para meninas quanto para meninos), faixa classificada na caderneta como risco de sobrepeso; acima de +2 seria sobrepeso.",
+    "problema_do_item": "O gráfico da caderneta referido no enunciado não é apresentado e o sexo só se infere pela flexão ('atendida'), exigindo memorização de valores de corte."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q011",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Artrite séptica de joelho em criança previamente hígida, com porta de entrada cutânea, tem como agente mais frequente o Staphylococcus aureus em todas as faixas etárias após o período neonatal.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q016",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Com o calendário em dia até os 12 meses, aos 15 meses (idade já ultrapassada, 1a4m) estão pendentes hepatite A, tetraviral, primeiro reforço de DTP e reforço de poliomielite — que desde 2024 passou a ser feito com VIP, tendo a VOP sido retirada do calendário do PNI.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q021",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Lactente com espasmos em flexão em salvas ao despertar e EEG com ondas lentas de amplitude muito elevada e atividade epileptiforme caótica (hipsarritmia) caracteriza espasmos epilépticos/síndrome de West.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q026",
+    "resposta": "A",
+    "confianca": "media",
+    "motivo": "Homem jovem com quadro clássico de apendicite aguda (dor em FID com defesa, febre, leucocitose com desvio, PCR elevada) e escore de Alvarado alto dispensa exame de imagem confirmatório, sendo a conduta a apendicectomia, preferencialmente videolaparoscópica.",
+    "problema_do_item": "Com 2 dias de evolução e febre de 39,1 °C, diretrizes como a da WSES admitem tomografia (inclusive de baixa dose em jovens) antes da cirurgia, tornando a alternativa C parcialmente defensável."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q031",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Ferimento abdominal penetrante por arma branca com resposta apenas transitória à reposição volêmica (choque persistente) e hematúria macroscópica indica laparotomia exploradora imediata; exames complementares só se aplicariam a paciente estável.",
+    "problema_do_item": "A imagem do FAST citada no enunciado não é apresentada, embora a decisão se sustente pela instabilidade hemodinâmica."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q036",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Cálculo ureteral distal (junção ureterovesical) de 6 mm, sem hidronefrose, sem febre e com função renal preservada é candidato a terapia médica expulsiva com alfabloqueador (tansulosina) associada a analgesia/anti-inflamatório, reservando-se intervenção para falha ou complicação.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q041",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Hérnia inguinal assintomática em homem idoso permite conduta expectante (watchful waiting), segura conforme os ensaios de Fitzgibbons e O'Dwyer, com taxa de conversão para cirurgia em torno de um terço em cerca de 3 anos e risco muito baixo de encarceramento.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q046",
+    "resposta": "D",
+    "confianca": "media",
+    "motivo": "Diverticulite aguda complicada com defesa peritoneal e resposta inflamatória sistêmica exige tratamento cirúrgico definitivo por retossigmoidectomia (procedimento de Hartmann); antibiótico isolado com cobertura apenas para gram-negativos é inadequado e as demais opções não se aplicam ao sítio da doença.",
+    "problema_do_item": "A tomografia mencionada não é apresentada, e é justamente ela que define o estadiamento de Hinchey — em Hinchey I/II a conduta seria clínica/drenagem percutânea, e não ressecção."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q051",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "Quadro de eritema nodoso hansênico (reação tipo 2) após alta por cura de forma multibacilar: o tratamento de escolha é talidomida 100-400 mg/dia em homem, já que o enunciado exclui explicitamente neurite/comprometimento neural, situação em que a corticoterapia seria obrigatória. Reação não indica novo ciclo de PQT.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q056",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "O Ministério da Saúde define o Teste Rápido Molecular para Tuberculose (TRM-TB) como exame inicial de escolha para diagnóstico de TB pulmonar em sintomático respiratório, por maior sensibilidade que a baciloscopia e detecção simultânea de resistência à rifampicina.",
+    "problema_do_item": "A radiografia mencionada não está reproduzida, embora não seja necessária para a resposta."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q061",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Na hemorragia digestiva alta varicosa do cirrótico, a droga vasoativa esplâncnica (terlipressina) deve ser iniciada imediatamente, antes da endoscopia, junto com antibioticoprofilaxia; plasma/plaquetas e vitamina K não corrigem o sangramento e o TIPS é medida de resgate, não inicial.",
+    "problema_do_item": "A alternativa D apresenta erro de redação ('plasma fresco congelado transfusão de plaquetas'), com conectivo ausente."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q066",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Tromboembolismo pulmonar com hipotensão sustentada (PA 82/50) e sinais de disfunção de ventrículo direito classifica-se como alto risco (maciço), com indicação de trombólise sistêmica imediata com alteplase, na ausência de contraindicações — expressamente afastadas no enunciado.",
+    "problema_do_item": "A tomografia citada não é apresentada, ainda que a estratificação se apoie nos parâmetros clínicos descritos."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q071",
+    "resposta": "A",
+    "confianca": "alta",
+    "motivo": "Aos 55 anos há indicação de rastreamento de câncer colorretal, e a colonoscopia é método aceito. Ela não preenche critérios para rastreio de câncer de pulmão (carga tabágica de 10 maços-ano, abaixo dos 20 exigidos), e não há rastreamento populacional de tireoide ou de endométrio em assintomáticas.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q076",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Os ISRS, incluindo o escitalopram, apresentam baixo risco teratogênico, e a suspensão abrupta em paciente com transtorno bem controlado eleva o risco de recaída, que por si só é desfavorável à gestação; benzodiazepínico não é alternativa segura no primeiro trimestre.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q081",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Fissuras mamilares decorrem de pega inadequada: a conduta é manter o aleitamento, corrigir a técnica de pega e posicionamento, ordenhar para alívio do ingurgitamento e aplicar o próprio leite materno nas fissuras. Não há infecção que justifique antibiótico nem indicação de suspender a amamentação.",
+    "problema_do_item": "A alternativa D contém erro de digitação ('suspendender')."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q086",
+    "resposta": "D",
+    "confianca": "media",
+    "motivo": "Dois fatores de risco moderados (idade acima de 35-40 anos e obesidade com IMC 32) indicam profilaxia de pré-eclâmpsia; o Ministério da Saúde e a FEBRASGO recomendam AAS 100-150 mg/dia iniciado entre 12 e 16 semanas ASSOCIADO à suplementação de carbonato de cálcio 1,5-2,0 g/dia, dada a baixa ingestão de cálcio na população brasileira.",
+    "problema_do_item": "As alternativas B e D são ambas defensáveis: B está correta quanto ao AAS e só é 'menos completa' que D; a distinção depende de o examinador adotar a recomendação brasileira de cálcio associado (ACOG/USPSTF recomendam apenas o AAS)."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q091",
+    "resposta": "B",
+    "confianca": "alta",
+    "motivo": "Em mulher histerectomizada não há necessidade de progestagênio para proteção endometrial, sendo indicada estrogenioterapia isolada (oral ou transdérmica) para sintomas vasomotores sistêmicos; estriol vaginal trata apenas a síndrome geniturinária e testosterona isolada não é terapia de primeira linha.",
+    "problema_do_item": null
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q096",
+    "resposta": "D",
+    "confianca": "alta",
+    "motivo": "A Lei 14.443/2022 exige idade mínima de 21 anos OU pelo menos dois filhos vivos (a paciente tem 21 anos), dispensa consentimento de terceiros — inclusive do cônjuge — e mantém o prazo mínimo de 60 dias entre a manifestação da vontade e o ato cirúrgico.",
+    "problema_do_item": null
+  }
+]
