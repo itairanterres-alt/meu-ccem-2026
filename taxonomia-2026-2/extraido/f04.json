@@ -1,0 +1,550 @@
+{
+  "fase": 4,
+  "fase_slug": "f04",
+  "fonte": "Manual Docente 4ª fase 2026_2.docx.pdf",
+  "drive_file_id": "1Z-pnOJ8h9p6l6o6EYrH5Ioqk6oQCZpJ6",
+  "conteudo_truncado": false,
+  "observacoes": "Extração integral do manual (108 páginas) — nenhuma seção de SP/OA ficou ilegível ou cortada. Numeração das SPs contínua e sem saltos em todas as três UCs. (1) Cargas horárias tomadas da Matriz Curricular do próprio manual (linha 'IV'); o manual não repete CH por UC nas fichas de ementa e não discrimina CHE por UC das UCs 1-3 (subtotal de 80h de extensão da fase é atribuído a IESC IV e Habilidades Profissionais IV, 40h cada), por isso ch_extensao = 0 para as UCs 1-3. (2) As ementas aqui transcritas são as que constam nas fichas do manual 2026_2 e são mais curtas que as do catálogo 2026.1: a da UC 1 não traz a frase final 'Atualidades da prática médica no País e/ou no mundo.'; a da UC 2 encerra em '...ciclo da vida humana.' (sem 'e às atualidades da prática médica no País e/ou no mundo'); a da UC 3 não traz 'Atualidades da prática médica no País e/ou no mundo.'. (3) UC 1 / SP 3: o título no corpo do manual é “Entre o que dizem os números e o que as pessoas sentem”” (com aspas duplas duplicadas no fim, erro de digitação do manual); no sumário aparece como “Entre o que dizem os números e o que as pessoas sente”. Adotado o título do corpo, com as aspas duplicadas removidas apenas no fechamento. (4) UC 3 / SP 1: o manual lista 17 objetivos específicos, mas os itens 8 a 14 são repetição literal dos itens 1 a 7. A duplicação foi preservada exatamente como impressa (numeração 1-17), conforme a regra de fidelidade. (5) Cabeçalhos de SP alternam entre 'Situação Problema' e 'Situação problema' no manual (UC 2 SP 1 e UC 3 SP 4 usam minúscula); isso não afeta a numeração. (6) A fase 4 também contém as UCs 'Habilidades Profissionais IV' (CHP 80, CHE 40) e 'Integração do Ensino em Saúde na Comunidade IV' (CHP 80, CHE 40), que possuem ementa, objetivo geral e conteúdos no manual, mas NÃO possuem Situações-Problema nem Objetivos Específicos por SP. Foram omitidas de 'ucs' por não terem estrutura SP/OA, seguindo o mesmo recorte do arquivo de referência 2026.1.",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "Proliferação Celular",
+      "ementa": "Caracterização do ciclo celular normal e seus pontos de controle, suas alterações, seu significado na formação de neoplasias e consequências desta doença para o ser humano. Aspectos morfofuncionais e psicossociais. Políticas públicas em saúde de atenção às neoplasias.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": 0,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "O que eu fiz de errado?...",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever as fases do processo de divisão celular por mitose, identificando os pontos e os mecanismos de regulação."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar os fatores que interferem na regulagem da divisão celular."
+            },
+            {
+              "numero": 3,
+              "texto": "Relacionar a perda do controle da multiplicação celular com o aparecimento de neoplasias."
+            },
+            {
+              "numero": 4,
+              "texto": "Definir neoplasia, sua classificação e nomenclatura."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever a fisiopatologia, epidemiologia, quadro clínico e tratamento do câncer do colo do útero."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever o mecanismo de infecção pelo HPV e a relação desse com o desenvolvimento das lesões neoplásicas do colo do útero."
+            },
+            {
+              "numero": 7,
+              "texto": "Citar as formas de prevenção e detecção precoce do câncer do colo do útero."
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar as políticas públicas de saúde relacionadas ao câncer de colo do útero."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Quando o tempo é decisivo…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Identificar os fatores de risco e a epidemiologia do câncer de próstata, reconhecendo a herança genética envolvida neste tipo de tumor."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a fisiopatologia do câncer de próstata e relacionar a fisiopatologia do câncer de próstata com as manifestações clínicas."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar os diagnósticos diferenciais do câncer de próstata (prostatite, hiperplasia benigna de próstata), identificando os achados clínicos e laboratoriais que subsidiam a identificação."
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar a fisiopatologia do câncer de próstata com as manifestações clínicas."
+            },
+            {
+              "numero": 5,
+              "texto": "Explicar o significado clínico da escala de Gleason na avaliação do tumor de próstata."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar o estadiamento no CA próstata."
+            },
+            {
+              "numero": 7,
+              "texto": "Conceituar metástases, explicar como elas ocorrem e discutir seus significados na evolução de uma neoplasia."
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar os principais sítios metastáticos do CA de próstata."
+            },
+            {
+              "numero": 9,
+              "texto": "Citar as formas atuais de prevenção e detecção precoce (rastreamento) de câncer de próstata, relacionadas às políticas públicas de saúde."
+            },
+            {
+              "numero": 10,
+              "texto": "Citar as possibilidades terapêuticas atuais do câncer de próstata."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Entre o que dizem os números e o que as pessoas sentem",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir e diferenciar tumores sólidos e não sólidos."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a origem e o desenvolvimento da linhagem hematopoiética."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever a fisiopatologia das leucemias."
+            },
+            {
+              "numero": 4,
+              "texto": "Explicar os sinais e sintomas, correlacionando-os com a patogênese e evolução das leucemias (destacando sua eventual semelhança com outras doenças menos graves)."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar as principais leucemias, suas formas de apresentação e sua epidemiologia, relacionando: tipo de leucemia, faixa etária e prognóstico."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever os exames utilizados para o diagnóstico e estadiamento de leucemias."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar as principais formas do tratamento das leucemias e suas indicações."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir a importância da equipe multidisciplinar para acompanhamento de pacientes e seus familiares."
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar o papel das entidades de apoio ao paciente com câncer e familiares."
+            },
+            {
+              "numero": 10,
+              "texto": "Conceituar “Desvio à Esquerda” no Hemograma."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Morre Preta Gil aos 50 anos",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever a fisiopatologia, diagnóstico e prognóstico das poliposes."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar a epidemiologia dos tumores colorretais."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar os fatores desencadeantes e de prevenção desses tumores."
+            },
+            {
+              "numero": 4,
+              "texto": "Explicar os sinais e sintomas apresentados durante a evolução dos tumores colorretais."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o rastreamento, diagnóstico e estadiamento do CA colorretal."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar os tratamentos quimio e radioterápicos realizados para esses tumores."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar os principais sítios metastáticos dos tumores colorretais."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir as possíveis complicações do tratamento quimioterápico, como mucosite, neutropenia febril e síndrome da lise tumoral."
+            },
+            {
+              "numero": 9,
+              "texto": "Discutir sobre as implicações psicológicas de adaptação à colostomia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "Saúde da Mulher, Sexualidade Humana e Planejamento Familiar",
+      "ementa": "Caracterização das modificações fisiológicas e principais alterações que ocorrem no organismo feminino, da infância ao climatério, incluindo o estado gravídico e puerperal. Aspectos morfofuncionais e psicossociais. Humanidades médicas e a compreensão crítica e reflexiva referente ao ciclo da vida humana.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": 0,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Amigo é coisa para se guardar do lado esquerdo do peito",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever a epidemiologia e os fatores de risco do câncer de mama."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a fisiopatologia do câncer de mama e relacioná-la às manifestações clínicas."
+            },
+            {
+              "numero": 3,
+              "texto": "Diferenciar os tipos de câncer de mama."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar os métodos diagnósticos e os planos terapêuticos para o câncer de mama, correlacionando o resultado do tratamento à qualidade de vida da mulher."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar as complicações do tratamento e das complicações do câncer de mama."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever as políticas públicas para a prevenção, o tratamento e o seguimento da mulher quanto ao câncer de mama."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "O corpo muda sem avisar…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Explicar o ciclo menstrual a partir da menarca."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar o climatério e diferenciar de menopausa, relacionando as modificações hormonais do eixo hipotálamo hipófise-ovariano ocorridas nesta fase."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar tensão pré-menstrual, suas causas e tratamento."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o diagnóstico e o tratamento da mulher no climatério, caracterizando os principais distúrbios relacionados a ele, bem como as indicações e contraindicações da reposição hormonal."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os critérios de avaliação clínica da mulher do climatério (índice de Kupperman), o tratamento não farmacológico e o farmacológico."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Ainda não está na hora",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever as adaptações fisiológicas e manifestações clínicas da gravidez."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar as modificações psicológicas maternas durante este período."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever o pré-natal de acordo com as orientações do Ministério da Saúde, sua importância e periodicidade."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a consulta de pré-natal, considerando os exames clínicos e exames subsidiários e principais orientações."
+            },
+            {
+              "numero": 5,
+              "texto": "Relacionar as medidas obstétricas realizadas clinicamente com a avaliação do crescimento e vitalidade fetal."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir a relação do médico com a paciente grávida, frente à sua labilidade emocional."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Chegou a hora!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever as fases clínicas do trabalho de parto transvaginal."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever os fenômenos mecânicos do trabalho de parto."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar o partograma, sua importância e aplicação no seguimento da parturiente."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar parto eutócico e distócico, citando as principais causas para a indicação de cirurgia cesárea."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o puerpério."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever a fisiopatologia e a epidemiologia do diabetes gestacional, citando as suas possíveis complicações para a gestante, o concepto e a puérpera."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar as políticas públicas de saúde voltadas para apoio à grávida e à promoção do parto humanizado e citar as causas dos índices de cesárea elevados em nosso meio."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Gravidez sob pressão",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar gestação de baixo e alto risco e identificar as situações em que elas ocorrem."
+            },
+            {
+              "numero": 2,
+              "texto": "Classificar as síndromes hipertensivas da gestação."
+            },
+            {
+              "numero": 3,
+              "texto": "Citar os fatores de risco para o surgimento de síndromes hipertensivas da gravidez."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a fisiopatologia da pré-eclâmpsia e eclâmpsia e identificar as consequências para a mãe e para o feto."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o protocolo de assistência às síndromes hipertensivas da gravidez, preconizado pelo Ministério da Saúde."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar a importância da realização do pré-natal na prevenção e detecção de síndromes hipertensivas da gravidez."
+            },
+            {
+              "numero": 7,
+              "texto": "Explicar os mecanismos de ação dos fármacos citados."
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar as principais causas e índices de mortalidade materna."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "Doenças Resultantes da Agressão ao Meio Ambiente",
+      "ementa": "Estudo do impacto ambiental da atividade humana e sua influência na etiologia das doenças, tais como intoxicações exógenas. Aspectos morfofuncionais e psicossociais.",
+      "ch_teorica": 84,
+      "ch_pratica": 24,
+      "ch_total": 108,
+      "ch_extensao": 0,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "O perigo mora ao lado",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir intoxicação aguda, xenobiótico, veneno, toxicidade, antídoto, dose letal."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar as fases da intoxicação."
+            },
+            {
+              "numero": 3,
+              "texto": "Discriminar os agentes tóxicos utilizados com maior prevalência (medicamentos, saneantes domésticos e raticidas) e morbimortalidade (raticidas, agrotóxicos e psicofármacos)."
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar os dados epidemiológicos de intoxicações no Brasil."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever as manifestações clínicas possivelmente decorrentes de intoxicações e as condutas terapêuticas na abordagem inicial do paciente agudamente intoxicado."
+            },
+            {
+              "numero": 6,
+              "texto": "Explicar as manifestações clínicas apresentadas pelas pacientes relatadas no problema."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar o mecanismo de ação dos organofosforados e do carbamato."
+            },
+            {
+              "numero": 8,
+              "texto": "Definir intoxicação aguda, xenobiótico, veneno, toxicidade, antídoto, dose letal."
+            },
+            {
+              "numero": 9,
+              "texto": "Caracterizar as fases da intoxicação."
+            },
+            {
+              "numero": 10,
+              "texto": "Discriminar os agentes tóxicos utilizados com maior prevalência (medicamentos, saneantes domésticos e raticidas) e morbimortalidade (raticidas, agrotóxicos e psicofármacos)."
+            },
+            {
+              "numero": 11,
+              "texto": "Identificar os dados epidemiológicos de intoxicações no Brasil."
+            },
+            {
+              "numero": 12,
+              "texto": "Descrever as manifestações clínicas possivelmente decorrentes de intoxicações e as condutas terapêuticas na abordagem inicial do paciente agudamente intoxicado."
+            },
+            {
+              "numero": 13,
+              "texto": "Explicar as manifestações clínicas apresentadas pelas pacientes relatadas no problema."
+            },
+            {
+              "numero": 14,
+              "texto": "Caracterizar o mecanismo de ação dos organofosforados e do carbamato."
+            },
+            {
+              "numero": 15,
+              "texto": "Caracterizar os órgãos de notificação e de orientação de casos de intoxicações."
+            },
+            {
+              "numero": 16,
+              "texto": "Reconhecer a importância do ambiente psicossocial, incluindo os serviços de educação e saúde como fator determinante para a ocorrência de intoxicações."
+            },
+            {
+              "numero": 17,
+              "texto": "Discutir os aspectos éticos e legais da relação médico-paciente-familiares nos casos de intoxicações."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Cuidar do ambiente é cuidar do corpo e da mente",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir intoxicação crônica."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar a epidemiologia, fisiopatologia, as manifestações clínicas e o tratamento das intoxicações crônicas por solventes e metais (chumbo, mercúrio e benzeno), identificando os agentes neurotóxicos encontrados no ambiente de trabalho e seus efeitos."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar a importância e as formas de manejo do lixo industrial."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar Resíduo de Logística Reversa Obrigatória."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar a contaminação do lençol freático por agentes químicos como possível causa de efeitos nocivos à saúde das pessoas."
+            },
+            {
+              "numero": 6,
+              "texto": "Elencar ações que possibilitem a recuperação dos recursos naturais degradados pelo homem (ex.: recuperação de áreas contaminadas)."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar os aspectos sociais e legais que amparam as pessoas que desenvolveram agravos à saúde por via laboral."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Educação e Saúde",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar intoxicação e interação medicamentosa."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever o mecanismo de ação farmacológica dos antitérmicos e analgésicos (ex.: paracetamol)."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever o mecanismo de ação tóxico da substância ingerida."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o processo de biotransformação hepática (Citocromo P450)."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever as formas de tratamento empregadas nos casos de intoxicação medicamentosa."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar o papel da vigilância sanitária no controle dos medicamentos."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "A terra onde piso",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Relacionar os fatores socioambientais à ocorrência de verminoses e infecções cutâneas."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar a epidemiologia e a fisiopatologia das principais parasitoses contraídas no contato com o solo."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar as parasitoses com ciclo pulmonar (Síndrome de Loeffler)."
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar as formas de prevenção de verminoses."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o diagnóstico e o tratamento das principais parasitoses do trato digestório."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

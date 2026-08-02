@@ -1,0 +1,539 @@
+{
+  "fase": 3,
+  "fase_slug": "f03",
+  "fonte": "Manual Docente 3ª fase 2026_2.docx.pdf",
+  "drive_file_id": "1vL_v512dxIEmNe1jvRHoaTzp4iDGbneg",
+  "conteudo_truncado": false,
+  "observacoes": "Cargas horárias extraídas da Matriz Curricular do PPC (linha da fase III): CHT/CHP/CH; a coluna CHE não traz valor para estas três UCs tutoriais (a extensão da fase está alocada em IESC III, Habilidades Profissionais III e Conhecimentos Gerais III), por isso ch_extensao = null. Ementas extraídas da seção 'UNIDADES CURRICULARES – TUTORIAL, MORFOFUNCIONAL E CONFERÊNCIAS'. Os Objetivos de Aprendizagem correspondem ao bloco 'OBJETIVOS ESPECÍFICOS' de cada Situação Problema; no manual eles são apresentados como marcadores (●), sem numeração impressa — a numeração no JSON reflete a ordem de impressão. Numeração das SPs contínua (1 a 4) em cada UC, sem saltos. Observações de fidelidade: (a) na UC1 o cabeçalho da SP 2 aparece como 'Situação problema 2' (minúscula) no corpo do manual; (b) o título da SP 3 da UC1 traz um espaço extra após a aspa no original (' Visão em risco: uma família, muitos olhares') — normalizado apenas o espaço de borda; (c) na UC2, o corpo do manual grafa a SP 1 como 'Gavidez não planejada' (provável erro de digitação), enquanto o sumário grafa 'Gravidez não planejada' — mantida a grafia do corpo do manual, que é a seção de conteúdo. Todos os textos de OA são literais, sem correção gramatical ou de digitação.",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "PERCEPÇÃO, CONSCIÊNCIA E EMOÇÃO",
+      "ementa": "Compreensão da percepção, da consciência e da emoção e de seus aspectos morfofuncionais. Reações psíquicas e comportamentais que levam à integração do organismo e deste com o meio externo, no contexto da saúde coletiva e do SUS.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Temperar pra quê? Perfumar pra quê?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir e caracterizar a bioeletrogênese."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir gustação e olfação."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar a estrutura e funções da língua e do nariz."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever as vias neurológicas sensitivas relacionadas à gustação e a olfação."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar a integração sensorial entre olfação e gustação."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar causas para alterações dos sentidos da olfação e da gustação."
+            },
+            {
+              "numero": 7,
+              "texto": "Discutir acerca da importância dos órgãos sensoriais para o bem estar biopsicossocial."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Quando o mundo gira",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer os mecanismos responsáveis pelo sentido da audição e o equilíbrio."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever as estruturas e os mecanismos responsáveis pelo sentido da audição."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever as estruturas e os mecanismos responsáveis pelo equilíbrio."
+            },
+            {
+              "numero": 4,
+              "texto": "Citar as causas mais prevalentes de perda auditiva e as possíveis medidas de prevenção."
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer o efeito do ruído ocupacional na gênese da perda auditiva."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar os métodos diagnósticos clínicos e complementares disponíveis para avaliação da acuidade auditiva e do equilíbrio."
+            },
+            {
+              "numero": 7,
+              "texto": "Discutir o impacto psicossocial das perdas auditivas."
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar os aspectos epidemiológicos e legais de doenças ocupacionais."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Visão em risco: uma família, muitos olhares",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer os mecanismos da visão."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever as vias da visão e o mecanismo de formação e interpretação da imagem."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever as vias sensoriais a partir da retina que não têm a função da visão."
+            },
+            {
+              "numero": 4,
+              "texto": "Definir os vícios de refração e explicar como ocorre a formação e interpretação da imagem nestes casos."
+            },
+            {
+              "numero": 5,
+              "texto": "Explicar a relação do diabetes e perda visual."
+            },
+            {
+              "numero": 6,
+              "texto": "Explicar os mecanismos das lesões apresentadas na situação problema."
+            },
+            {
+              "numero": 7,
+              "texto": "Discutir os aspectos psicossociais da perda visual."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir a legislação e os serviços oferecidos aos portadores de perdas visuais."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Entre o silêncio e o alarme: uma noite na BR-101",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir os termos consciência e inconsciência."
+            },
+            {
+              "numero": 2,
+              "texto": "Explicar os mecanismos neurofisiológicos de manutenção da consciência."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar os métodos de avaliação da consciência."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever os mecanismos reguladores do ciclo sono-vigília."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar as fases do sono."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever os receptores, a detecção e as vias responsáveis pela percepção tátil."
+            },
+            {
+              "numero": 7,
+              "texto": "Diferenciar as diversas percepções táteis: temperatura, pressão, dor, tato fino e tato grosseiro, propriocepção."
+            },
+            {
+              "numero": 8,
+              "texto": "Diferenciar urgência e emergência."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "NASCIMENTO, CRESCIMENTO E DESENVOLVIMENTO",
+      "ementa": "Transformações orgânicas que ocorrem no indivíduo, aspectos morfofuncionais e suas particularidades biológicas, sociais e psicológicas. Correlação dessas transformações com o crescimento e o desenvolvimento do ser humano, desde o nascimento até a adolescência, no contexto da saúde coletiva e do SUS. Humanidades médicas e a compreensão crítica e reflexiva referente ao ciclo da vida humana.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Gavidez não planejada",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Relacionar saúde materna fetal com assistência pré-natal e fatores de risco para malformação e prematuridade."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar a importância do acompanhamento pré-natal na prevenção e identificação de malformações congênitas (caracterizar os exames de triagem e diagnóstico precoce)."
+            },
+            {
+              "numero": 3,
+              "texto": "Explicar as formas de atuação dos agentes que causam malformações congênitas."
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar as principais causas de prematuridade (inclusive adolescência) com suas consequências para o crescimento e desenvolvimento infantil."
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer as principais causas de retardo do crescimento intrauterino."
+            },
+            {
+              "numero": 6,
+              "texto": "Relacionar o aspecto socioambiental na gênese e recorrência de doenças no período perinatal."
+            },
+            {
+              "numero": 7,
+              "texto": "Discutir conceito de caso suspeito e relacionar modo de transmissão, período de incubação, quadro clínico, abordagem clínica, prevenção, abordagem terapêutica, risco teratogênico e letalidade do Zika Vírus, Síndrome da Rubéola Congênita e Sífilis."
+            },
+            {
+              "numero": 8,
+              "texto": "Caracterizar clinicamente síndrome alcoólica fetal."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Por que meu bebê não está comigo?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Como caracterizar o RN a termo quanto ao peso, comprimento e idade gestacional (PIG, GIG, AIG, etc.) e suas principais causas?"
+            },
+            {
+              "numero": 2,
+              "texto": "Como definir o APGAR, descrever seus critérios e interpretá-los?"
+            },
+            {
+              "numero": 3,
+              "texto": "Compreender as alterações fisiológico-adaptativas dos sistemas cardiovascular e respiratório que ocorrem no período neonatal em recém-nascidos a termo."
+            },
+            {
+              "numero": 4,
+              "texto": "Reconhecer os princípios da perda de peso fisiológica no período neonatal em recém-nascidos a termo e prematuros."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever os mecanismos de termo regulação no recém-nascido, e as estratégias para garantir a manutenção da temperatura corporal."
+            },
+            {
+              "numero": 6,
+              "texto": "Reconhecer as causas da icterícia própria do RN, exames diagnósticos e tratamento."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar a importância da realização da triagem neonatal."
+            },
+            {
+              "numero": 8,
+              "texto": "Reconhecer a importância do estabelecimento do vínculo mãe-filho."
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar os programas governamentais de atenção à saúde perinatal e de incentivo ao vínculo mãe-criança-família."
+            },
+            {
+              "numero": 10,
+              "texto": "Reconhecer a importância da família, rede de apoio pessoal (pai da criança, amigos, familiares) da sociedade no processo anterior e posterior ao parto, inclusive na divisão do trabalho doméstico e cuidado com o concepto (Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD, Contínua - IBGE)."
+            },
+            {
+              "numero": 11,
+              "texto": "Discutir a importância do atendimento multidisciplinar integrado e a rede de atenção para boa condução e individualização do plano de cuidados."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Ele sempre foi miudinho…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer as características das etapas do crescimento e desenvolvimento neuropsicomotor das crianças do nascimento até o 5º ano de vida (1ª infância)."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir crescimento e desenvolvimento."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar os métodos de avaliação da idade gestacional (Capurro e New Ballard)."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever os mecanismos de crescimento normal e as formas de avaliação (antropometria, caderneta da criança, curvas de crescimento)."
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer as fases e os mecanismos que levam ao desenvolvimento neuropsicomotor normal (marcos do desenvolvimento para cada idade, como avaliar e estimular)."
+            },
+            {
+              "numero": 6,
+              "texto": "Reconhecer a importância do aleitamento materno, como ele deve ser feito e as necessidades alimentares na infância."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever os principais tipos de desnutrição infantil, mecanismos e consequências para perda ponderal da criança."
+            },
+            {
+              "numero": 8,
+              "texto": "Reconhecer as consequências das principais carências alimentares e nutricionais na 1ª infância e a oferta de alimentos inadequados."
+            },
+            {
+              "numero": 9,
+              "texto": "Relacionar condições socioeconômicas e culturais com o crescimento e desenvolvimento infantis."
+            },
+            {
+              "numero": 10,
+              "texto": "Reconhecer a importância da puericultura para o acompanhamento do crescimento e desenvolvimento infantil pela atenção primária à saúde."
+            },
+            {
+              "numero": 11,
+              "texto": "Reconhecer a aplicação dos programas de vigilância nutricional do Ministério da Saúde (Sisvan)."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Ele não estava protegido?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer o desenvolvimento do sistema imunológico da criança."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever as etapas do desenvolvimento do sistema imunológico a partir da vida intrauterina."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever as adaptações do sistema imune na gravidez para não rejeição do embrião/feto."
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar as formas de imunização disponíveis."
+            },
+            {
+              "numero": 5,
+              "texto": "Diferenciar as respostas vacinais de acordo com os diferentes tipos de imunógenos."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir a organização do calendário nacional de imunização infantil."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever as formas de transporte placentário relacionados à imunidade."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir os impactos de casos (surtos) de sarampo para a saúde das crianças e adultos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "PROCESSO DE ENVELHECIMENTO",
+      "ementa": "Estudo dos principais processos de envelhecimento do ser humano e aspectos morfofuncionais. Compreensão das particularidades e os princípios básicos do cuidado à saúde do idoso, de acordo com as dimensões psicossociais e com o SUS. Humanidades médicas e a compreensão crítica e reflexiva referente ao ciclo da vida humana e à terminalidade da vida e cuidados paliativos.",
+      "ch_teorica": 84,
+      "ch_pratica": 24,
+      "ch_total": 108,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Só dói quando eu respiro",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer as alterações fisiológicas senescentes dos sistemas respiratório e imune."
+            },
+            {
+              "numero": 2,
+              "texto": "Citar os processos consumptivos mais prevalentes no idoso e citar as principais causas."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar as causas mais prevalentes de anemia no idoso."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar as doenças pulmonares prevalentes."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o mecanismo fisiopatológico da DPOC, e associá-lo à maior morbidade e susceptibilidade às infecções pulmonares."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever a orientação vacinal da população idosa."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar DPOC nos exames de imagem (radiografia e tomografia computadorizada)."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir a terminalidade da vida, destacando os significados para os pacientes, familiares e profissionais de saúde na ESF."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "No compasso do coração",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer as alterações do envelhecimento fisiológico do sistema cardiovascular."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a fisiopatologia dos processos inflamatórios crônicos vasculares."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar os aspectos epidemiológicos (prevalência, incidência, morbidade e mortalidade) das doenças cardiovasculares no idoso."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever os fatores que aceleram o processo de envelhecimento do sistema cardiovascular."
+            },
+            {
+              "numero": 5,
+              "texto": "Definir doença crônica e suas implicações na responsabilidade social da família."
+            },
+            {
+              "numero": 6,
+              "texto": "Reconhecer a importância do exercício físico na manutenção da saúde e controle de doenças crônicas que estão associadas aos processos degenerativos vasculares (hipertensão arterial sistêmica, diabetes mellitus e dislipidemia)."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar os hábitos de vida que contribuem como fatores de risco para as doenças cardiovasculares do idoso."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Relato de atendimento - Unidade de Pronto Atendimento",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer o envelhecimento fisiológico do sistema muscular e osteoarticular."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever as alterações fisiológicas da senescência do sistema muscular e osteoarticular."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever o processo de mineralização óssea e os hormônios envolvidos."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a fisiopatologia da perda óssea e a ocorrência da osteoporose."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever a fisiopatologia da osteoartrite no idoso."
+            },
+            {
+              "numero": 6,
+              "texto": "Reconhecer os aspectos biopsicossociais oriundos da perda/limitação da deambulação no idoso."
+            },
+            {
+              "numero": 7,
+              "texto": "Reconhecer a epidemiologia e o aumento da incidência de fraturas e doenças articulares na terceira idade."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever as principais medidas farmacológicas e não farmacológicas no tratamento da osteoartrite."
+            },
+            {
+              "numero": 9,
+              "texto": "Explicar os riscos do uso prolongado de anti-inflamatórios esteroidais e AINES."
+            },
+            {
+              "numero": 10,
+              "texto": "Descrever as principais medidas de prevenção para quedas e fraturas em idosos."
+            },
+            {
+              "numero": 11,
+              "texto": "Conceituar avaliação de risco cirúrgico nos idosos (ASA)."
+            },
+            {
+              "numero": 12,
+              "texto": "Discutir a atenção a idosos dependentes de cuidados especiais e polifarmácia."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Inverno e primavera",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer o envelhecimento fisiológico do sistema genito urinário."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever as alterações fisiológicas da senescência endócrina masculino e feminino."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever as alterações fisiológicas da senescência genito-urinário masculino e feminino."
+            },
+            {
+              "numero": 4,
+              "texto": "Reconhecer a epidemiologia das doenças degenerativas genitourinárias prevalentes no idoso."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar as alterações gênito-urinárias prevalentes no idoso (masculino e feminino) e suas formas de prevenção e abordagem (HPB e perda involuntária de urina)."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir o aumento de doenças crônicas relacionadas ao envelhecimento populacional."
+            },
+            {
+              "numero": 7,
+              "texto": "Compreender o papel dos exames de imagem como método complementar no diagnóstico das alterações genitourinárias no idoso."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

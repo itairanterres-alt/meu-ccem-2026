@@ -1,0 +1,617 @@
+{
+  "fase": 2,
+  "fase_slug": "f02",
+  "fonte": "Manual Docente 2ª fase 2026_2.docx.pdf",
+  "drive_file_id": "1RUiAi_vyt6W4-Vq9dtdG5NUBI_88FeCg",
+  "conteudo_truncado": false,
+  "observacoes": "Extração integral do PDF (109 páginas) via pymupdf; nenhuma seção ficou ilegível. Os OAs foram capturados do bloco 'Objetivos específicos' de cada Situação Problema. Numeração das SPs contínua e sem saltos em todas as UCs (UC1: 1-5, UC2: 1-5, UC3: 1-4). Exceção de numeração: na UC 1, SP 1, o objetivo 7 do manual traz dois subitens rotulados 'a.' e 'b.'; eles foram preservados como objetivos distintos com numero '7a' e '7b' (string), mantendo a numeração impressa. Os demais OAs têm numero inteiro. Carga horária extraída da tabela 'ESTRUTURA CURRICULAR DO CURSO' (fase II); a coluna CHE está em branco para as três UCs deste bloco, por isso ch_extensao=null. Títulos das SPs conforme aparecem no corpo do manual; observar que a SP 4 da UC 3 aparece no SUMÁRIO como 'Quem confere o cuidado' (sem interrogação) e no corpo como 'Quem confere o cuidado?' — foi adotada a forma do corpo.",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "Funções Biológicas",
+      "ementa": "Papel das funções orgânicas na promoção da homeostase, frente às variações do meio interno e externo, bem como as implicações psicossocias e relações com o SUS. Aspectos morfofuncionais dos órgãos e tecidos relacionados.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Apagão",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar homeostase, identificando a dinâmica complexa de sua manutenção."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar os componentes do sistema nervoso central e periférico, bem como suas subdivisões funcionais (autônomo e somático)."
+            },
+            {
+              "numero": 3,
+              "texto": "Correlacionar as funções do sistema nervoso na integração com o meio externo e o interno."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar a sinalização intra e intercelular, destacando o potencial de ação, as sinapses e os neurotransmissores."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar os tipos de receptores celulares (membrana, citoplasmáticos e nucleares) e seus mecanismos de ação e resposta intracelular."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar a integração do sistema nervoso e endócrino e destes com os demais sistemas."
+            },
+            {
+              "numero": 7,
+              "texto": "Conceituar hormônios, discutindo seu papel na comunicação intercelular e na integração orgânica:"
+            },
+            {
+              "numero": "7a",
+              "texto": "Caracterizar as influências ambientais na perturbação da homeostase orgânica, ressaltando o estresse e a ação do cortisol."
+            },
+            {
+              "numero": "7b",
+              "texto": "Identificar os aspectos psicológicos desencadeados e/ou desencadeadores das respostas orgânicas."
+            },
+            {
+              "numero": 8,
+              "texto": "Analisar o papel da rede de urgência e emergência do SUS (RUE)."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "O corpo reage",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever, no contexto das necessidades de alimentação, os processos de digestão, absorção e excreção que ocorrem no tubo digestório."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever os mecanismos de secreção ácida gástrica e sua regulação neural (SN autônomo) e hormonal, correlacionando com os mecanismos de ação de fármacos antiácidos."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar as propriedades da musculatura lisa do sistema digestório."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever os movimentos peristálticos e os mecanismos neural (SN autônomo) e hormonal do controle do peristaltismo."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os mecanismos de controle do esvaziamento gástrico e da motilidade intestinal."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar como os diferentes tipos de alimentos (composição, consistência e quantidade) interferem no controle neural (SN autônomo) e hormonal da função de cada segmento do sistema digestório."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever a participação do sistema digestório na manutenção do equilíbrio hidroeletrolítico."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever o mecanismo do vômito e da diarreia."
+            },
+            {
+              "numero": 9,
+              "texto": "Analisar questões relacionadas com a saúde do trabalhador e o direito à licença médica."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Muito, muito cansado",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever os mecanismos de geração e condução do estímulo elétrico no coração."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever o automatismo cardíaco e sua regulação pelo SNA."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever o registro gráfico da atividade elétrica cardíaca (fundamentos do eletrocardiograma), correlacionando-o com as fases do ciclo cardíaco."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar o débito cardíaco e seus mecanismos de controle (retorno venoso, pré-carga, pós-carga, contratilidade e o mecanismo de Frank-Starling)."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar a pressão arterial, identificando a regulação de seus componentes sistólico e diastólico (controle a curto e longo prazo: SNA, sistema renina-angiotensina-aldosterona, ADH e PNA)."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar a regulação autonômica da musculatura perivascular periférica."
+            },
+            {
+              "numero": 7,
+              "texto": "Correlacionar as alterações da função cardíaca com a sintomatologia apresentada no problema."
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar os fatores psíquicos que podem desencadear e/ou piorar as condições do paciente cardíaco."
+            },
+            {
+              "numero": 9,
+              "texto": "Reconhecer os ajustes da função cardiovascular, considerando a influência do estresse, hábitos de vida e atividade física."
+            },
+            {
+              "numero": 10,
+              "texto": "Identificar o papel da visita domiciliar para pacientes vulneráveis (idosos, por exemplo)."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Oxigênio é vida",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar os mecanismos envolvidos no ciclo respiratório: estímulo central, ventilação, perfusão e difusão, assim como os mecanismos de controle do ciclo respiratório."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever os mecanismos de trocas gasosas no pulmão e nos tecidos periféricos."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar o mecanismo de transporte dos gases no sangue, ressaltando-se a curva de saturação da hemoglobina."
+            },
+            {
+              "numero": 4,
+              "texto": "Explicar os mecanismos de controle da ventilação, incluindo a regulação neuroendócrina da frequência respiratória."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar o papel do sistema respiratório na manutenção do equilíbrio ácido-base do organismo."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar os mecanismos de adaptação do sistema respiratório em condições de altitude e profundidade."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar as manifestações clínicas decorrentes de alterações da função respiratória, com ênfase na cianose."
+            },
+            {
+              "numero": 8,
+              "texto": "Explicar a fisiopatologia da DPOC e sua relação com o tabagismo."
+            },
+            {
+              "numero": 9,
+              "texto": "Caracterizar a abordagem terapêutica medicamentosa (mecanismo de ação dos broncodilatadores) e não medicamentosa para o caso."
+            },
+            {
+              "numero": 10,
+              "texto": "Discutir sobre o papel das Redes de Atenção à Saúde (RAS) no cuidado integral de pacientes restritos ao leito, considerando a atuação da UBS, da Atenção Especializada e da Atenção Domiciliar."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Fim da viagem",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever o papel dos rins na homeostase."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever o mecanismo de filtração glomerular."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever os mecanismos de secreção e reabsorção do ultrafiltrado nas diferentes regiões do néfron."
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar a função tubular renal com o equilíbrio hidroeletrolítico e ácido-base do organismo."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os mecanismos (neural e hormonal) de regulação da função renal e a influência destes na manutenção da volemia, controle de compartimentos hídricos e da pressão arterial (SNA, SRAA, prostaglandinas e ADH)."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever a composição e produção da urina."
+            },
+            {
+              "numero": 7,
+              "texto": "Compreender a história natural da insuficiência renal aguda e crônica e suas causas."
+            },
+            {
+              "numero": 8,
+              "texto": "Compreender a magnitude das doenças renais no conjunto de cuidados à saúde da população."
+            },
+            {
+              "numero": 9,
+              "texto": "Compreender a necessidade da substituição da função renal no contexto psicológico e social dos pacientes nefropatas crônicos."
+            },
+            {
+              "numero": 10,
+              "texto": "Discutir a rede de atenção ao paciente renal crônico, inclusive transplante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "Mecanismos de Agressão e Defesa",
+      "ementa": "Agressões provocadas por agentes físicos, químicos, biológicos e psicossociais. Mecanismos de defesa do organismo a estas agressões. Relações com o SUS. Aspectos morfofuncionais dos órgãos e tecidos relacionados.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Dia de Faxina!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Identificar os agentes agressores que ativam os mecanismos de defesa do organismo (químicos, físicos, biológicos e psicossociais)."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir lesão celular reversível e irreversível e caracterizar seus tipos."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever como as lesões causadas pelos agentes agressores desencadeiam o processo de adaptação (hipertrofia, hiperplasia, atrofia e metaplasia) ou morte celular (necrose e apoptose)."
+            },
+            {
+              "numero": 4,
+              "texto": "Conceituar as diferentes linhas de defesa do organismo contra os agentes agressores (barreiras, resposta inata e adaptativa)."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever detalhadamente os mecanismos da inflamação (aguda e crônica), relacionando-os aos sinais e sintomas característicos."
+            },
+            {
+              "numero": 6,
+              "texto": "Compreender o processo inflamatório como uma defesa natural e um estímulo aos fenômenos de reparação tecidual e cicatrização."
+            },
+            {
+              "numero": 7,
+              "texto": "Discutir as principais medidas de cuidado imediato às queimaduras (impacto dos costumes e crenças populares no tratamento)."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Minha vida mudou",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar e caracterizar as doenças autoimunes, relacionando-as à perda da tolerância imunológica e aos mecanismos de autoimunidade."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar os fatores desencadeantes das doenças autoimunes."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever os mecanismos imunológicos envolvidos na agressão tecidual das doenças autoimunes, discutindo as respostas de hipersensibilidade (tipo I, II, III e IV)."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar a avaliação clínica e laboratorial nas doenças autoimunes."
+            },
+            {
+              "numero": 5,
+              "texto": "Discutir o modo de comunicação e orientação médica para pacientes com doenças crônicas e incapacitantes."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar o sistema de referência e contrarreferência para a atenção especializada e avaliar a necessidade de medicamentos de alto custo e suas indicações para o tratamento de doenças autoimunes."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Isso pega?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer os principais aspectos da biologia viral (classificação, composição, formas de infecção, replicação e patogênese)."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever o agente causador da dengue e os seus sorotipos."
+            },
+            {
+              "numero": 3,
+              "texto": "Definir período de incubação e explicar os fatores que levam às variações temporais de evolução das manifestações das doenças."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever os mecanismos de agressão orgânica à infecção viral."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar os mecanismos de defesa do organismo contra infecções virais (papel da imunidade inata e adquirida)."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar os tipos de imunoglobulinas e os mecanismos de produção e ação dos anticorpos ao longo da evolução das infecções virais (IgM, IgG e demais)."
+            },
+            {
+              "numero": 7,
+              "texto": "Conceituar janela imunológica."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever o mecanismo de memória imunológica, caracterizando vacinas e discutindo a importância da vacinação na prevenção de doenças infecciosas."
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar a influência dos aspectos genéticos, nutricionais e psicológicos nos sistemas de defesa do organismo, caracterizando as imunodeficiências adquiridas e congênitas."
+            },
+            {
+              "numero": 10,
+              "texto": "Discutir os aspectos sociais e econômicos secundários a uma epidemia de vírus e as formas de prevenção da dengue."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Falta de ar",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever a biologia das bactérias (morfologia, estrutura, classificação, replicação e patogênese)."
+            },
+            {
+              "numero": 2,
+              "texto": "Conceituar microbiota normal, localizá-la e diferenciá-la das patogênicas."
+            },
+            {
+              "numero": 3,
+              "texto": "Definir os fatores orgânicos que facilitam a infecção por bactérias."
+            },
+            {
+              "numero": 4,
+              "texto": "Definir infecção e diferenciá-la da inflamação."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o mecanismo de agressão por bactérias intra e extracelulares."
+            },
+            {
+              "numero": 6,
+              "texto": "Explicar os mecanismos inatos e adaptativos na defesa contra as bactérias intra e extracelulares."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever os mecanismos da febre e a ação dos antitérmicos."
+            },
+            {
+              "numero": 8,
+              "texto": "Caracterizar os sinais clínicos sugestivos de infecções bacterianas."
+            },
+            {
+              "numero": 9,
+              "texto": "Descrever e caracterizar a importância da realização de bacterioscopia, cultura e antibiograma no diagnóstico e no tratamento das infecções bacterianas."
+            },
+            {
+              "numero": 10,
+              "texto": "Descrever sucintamente o conceito de antibióticos e seus mecanismos de ação."
+            },
+            {
+              "numero": 11,
+              "texto": "Discutir os tipos de imunização."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Autocuidado",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever a biologia geral dos helmintos e protozoários."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a ascaridíase e tricuríase, caracterizando o ciclo biológico do Ascaris lumbricoides e Trichuris trichiura, como modelos de infecção por helmintos."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever a giardíase e amebíase, caracterizando o ciclo biológico da Giardia duodenalis e Entamoeba histolytica, como modelos de infecção por protozoários."
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar as barreiras naturais orgânicas envolvidas na infecção por helmintos e protozoários."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar e descrever os mecanismos de agressão e fuga dos helmintos e protozoários ao sistema imunológico."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever a resposta imunológica frente aos helmintos (destacando os eosinófilos e a IgE) e protozoários."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar os sinais clínicos sugestivos de infecções por helmintos e protozoários."
+            },
+            {
+              "numero": 8,
+              "texto": "Citar as medidas profiláticas e terapêuticas mais comuns das parasitoses intestinais."
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar os dados epidemiológicos das parasitoses intestinais no Brasil e seu custo social."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "Abrangência das Ações de Saúde",
+      "ementa": "Sistema Único de Saúde (SUS) e relações com a saúde coletiva e a melhoria da qualidade de vida da população. Aspectos epidemiológicos como ferramenta para planejamento de ações em saúde. Humanidades médicas e a compreensão crítica ética e bioética referente ao ciclo da vida humana.",
+      "ch_teorica": 84,
+      "ch_pratica": 24,
+      "ch_total": 108,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Mapa da cidade: onde estará o foco do problema?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conhecer a história natural da hepatite A e sua importância para o planejamento de ações em saúde."
+            },
+            {
+              "numero": 2,
+              "texto": "Conceituar e diferenciar surto, epidemia, pandemia e endemia."
+            },
+            {
+              "numero": 3,
+              "texto": "Conhecer os principais métodos de investigação epidemiológica."
+            },
+            {
+              "numero": 4,
+              "texto": "Compreender o papel das vigilâncias em saúde: sanitária, epidemiológica, ambiental e saúde do trabalhador."
+            },
+            {
+              "numero": 5,
+              "texto": "Conhecer os principais sistemas de notificação em saúde e discutir a importância da notificação compulsória de doenças (Lista Nacional de Notificação Compulsória)."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar a importância dos indicadores epidemiológicos no estabelecimento de políticas públicas e planejamento das ações em saúde coletiva."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar a influência dos fatores sociais e econômicos sobre a morbidade e a mortalidade."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir a organização da gestão em saúde."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "O dia em que uma cicatriz contou uma história",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer o papel do SUS/PNI e da ESF na eliminação e erradicação de doenças infectocontagiosas e cobertura vacinal."
+            },
+            {
+              "numero": 2,
+              "texto": "Reconhecer a importância da BCG na prevenção das formas graves de tuberculose (miliar e meningoencefálica)."
+            },
+            {
+              "numero": 3,
+              "texto": "Conhecer os eventos adversos pós-vacinação e sua classificação."
+            },
+            {
+              "numero": 4,
+              "texto": "Compreender os mecanismos imunológicos envolvidos nas reações à vacinação (respostas de hipersensibilidade)."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar as diversas formas de produção de vacinas e seus componentes."
+            },
+            {
+              "numero": 6,
+              "texto": "Conhecer os mecanismos de resposta frente aos diferentes tipos de imunização ativa."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Que mosquito é esse?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conhecer a história natural da chikungunya e sua importância para o planejamento de ações em saúde."
+            },
+            {
+              "numero": 2,
+              "texto": "Compreender os níveis de prevenção em saúde e sua aplicabilidade."
+            },
+            {
+              "numero": 3,
+              "texto": "Compreender as medidas de controle da micro e macro gestão com base na história natural da doença."
+            },
+            {
+              "numero": 4,
+              "texto": "Conhecer as políticas públicas voltadas para os trabalhadores afastados do trabalho por doenças (atestado médico, auxílio por incapacidade temporária e permanente)."
+            },
+            {
+              "numero": 5,
+              "texto": "Conceituar e calcular os principais indicadores epidemiológicos (incidência, prevalência, coeficientes de mortalidade), compreendendo o seu significado na avaliação das condições de saúde de uma população."
+            },
+            {
+              "numero": 6,
+              "texto": "Conhecer as curvas de mortalidade proporcional (curva de Nelson de Moraes & Uemura)."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar e discutir as aplicações, vantagens e desvantagens das principais modalidades de estudos epidemiológicos."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Quem confere o cuidado?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar evento adverso e identificar suas principais causas."
+            },
+            {
+              "numero": 2,
+              "texto": "Conceituar e diferenciar imprudência, imperícia e negligência médica."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar os indicadores de qualidade e segurança do paciente na prestação de serviços de saúde."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar os programas de melhoria voltados à qualidade da prestação de serviços de saúde, com ênfase no Programa Nacional de Segurança do Paciente (PNSP)."
+            },
+            {
+              "numero": 5,
+              "texto": "Conceituar e caracterizar a Avaliação de Tecnologias em Saúde (ATS) e discutir a utilização de revisões sistemáticas e metanálises nesse processo."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir o papel do sistema de saúde suplementar na prestação de serviços assistenciais no Brasil."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

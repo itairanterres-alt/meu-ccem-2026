@@ -1,0 +1,559 @@
+{
+  "fase": 7,
+  "fase_slug": "f07",
+  "fonte": "Manual Docente 7ª fase 2026_2.docx.pdf",
+  "drive_file_id": "1XPewu3KYK74Zpy64TKgSocMuVwxljb0u",
+  "conteudo_truncado": false,
+  "observacoes": "Extração integral do PDF (100 páginas lidas via read_file_content, sem corte). As Situações-Problema existem apenas nas três Unidades Curriculares tutoriais (UNIDADE I, II e III); as UCs 4 (Habilidades Profissionais VII), 5 (IESC VII) e 6 (Trabalho de Curso I) não possuem SPs no manual, por isso vêm com sps vazio. A numeração de UC 1-6 segue a convenção da taxonomia 2026.1 (1-3 = UCs PBL, 4 = Habilidades, 5 = IESC, 6 = TC); no corpo do manual a ordem de apresentação das UCs não-PBL é IESC VII antes de Habilidades Profissionais VII. Numeração das SPs: contínua e sem saltos em todas as unidades (I: 1-5, II: 1-5, III: 1-4); numeração dos OAs também contínua (1..n) em todas as SPs. Títulos: o sumário grafa a SP 2 da UNIDADE II como “O custo do Enter”, mas o corpo do manual (p. 71) grafa “O custo de Enter”; adotado o texto do corpo. O sumário alterna “Situação Problema” e “Situação-Problema”; irrelevante para a estrutura. Cargas horárias: lidas da matriz curricular (p. 13-14 do PDF), cuja tabela vem com layout multi-coluna embaralhado na extração de texto; as colunas CHT/CHP/CHTotal/CHE foram atribuídas por reconciliação com os subtotais da fase e validadas contra a linha da 6ª fase. O subtotal de CHT impresso para a 7ª fase é 232, enquanto a soma das linhas dá 236 (68+68+60+40); os subtotais de CHP (340), total (576) e CHE (105) fecham exatamente. Tratar CHT com cautela. Nota comparativa: as CH da 7ª fase mudaram em relação à taxonomia 2026.1 (que trazia 84/24/108, 98/28/126 e 98/28/126 para as UCs 1-3).",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "Dispneia, Dor Torácica e Edema",
+      "ementa": "História clínica, exame físico e tratamento de distúrbios dos sistemas circulatório e respiratório. Principais quadros clínicos desses sistemas e sua relação com epidemiologia clínica, aspectos morfofuncionais e psicossociais.",
+      "ch_teorica": 68,
+      "ch_pratica": null,
+      "ch_total": 68,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Ai como dói a dor",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Relacionar as principais causas de dor torácica aguda, correlacionando-as com a semiologia (história e exame físico) de cada uma delas."
+            },
+            {
+              "numero": 2,
+              "texto": "Reconhecer a investigação complementar das principais situações de dor torácica aguda."
+            },
+            {
+              "numero": 3,
+              "texto": "Elaborar um algoritmo de condutas diagnósticas frente a quadros de dor torácica aguda."
+            },
+            {
+              "numero": 4,
+              "texto": "Situar a pericardite no algoritmo de possibilidades diagnósticas de dor torácica aguda."
+            },
+            {
+              "numero": 5,
+              "texto": "Quanto à pericardite, citar suas principais etiologias, quadro clínico (correlacionando os achados do exame físico com a fisiopatologia da doença), investigação complementar e possíveis intervenções terapêuticas."
+            },
+            {
+              "numero": 6,
+              "texto": "Levantar dados a respeito do diagnóstico incorreto de situações de dor torácica aguda e suas consequências."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Corridinha na praia",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar a circulação coronariana e seus principais acometimentos patológicos;"
+            },
+            {
+              "numero": 2,
+              "texto": "Relacionar fatores de risco com o desenvolvimento de doença aterosclerótica coronariana;"
+            },
+            {
+              "numero": 3,
+              "texto": "Correlacionar fisiopatologicamente a dor torácica anginosa com as diversas formas de acometimento miocárdico isquêmico;"
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar os recursos propedêuticos (clínicos e complementares) no diagnóstico das doenças isquêmicas coronarianas;"
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar as doenças isquêmicas cardíacas do ponto de vista epidemiológico;"
+            },
+            {
+              "numero": 6,
+              "texto": "Avaliar a indicação das diferentes possibilidades terapêuticas (clínicas e cirúrgicas) na insuficiência coronariana;"
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar as políticas públicas de prevenção e promoção de saúde em relação às doenças cardiológicas, nas diferentes faixas etárias e perfis sociodemográficos."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Dói quando eu respiro",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Aprofundar o diagnóstico diferencial das causas de dor torácica."
+            },
+            {
+              "numero": 2,
+              "texto": "Relacionar as causas infecciosas (como pneumonias) mais prevalentes como fatores desencadeantes de dor torácica aguda e caracterizar clinicamente a dor típica associada às mesmas."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar os recursos propedêuticos no diagnóstico das doenças respiratórias."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar as pneumonias do ponto de vista epidemiológico."
+            },
+            {
+              "numero": 5,
+              "texto": "Aplicar os critérios de diagnóstico e de conduta dos principais protocolos (“scores”) aplicáveis."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar as políticas públicas de prevenção e promoção de saúde em relação às doenças respiratórias, nas diferentes faixas etárias e perfis sociodemográficos."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Não resolveu. Piora no quadro!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir insuficiência respiratória aguda e crônica e descrever os parâmetros clínicos e laboratoriais observados nas duas situações."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever os sinais clínicos de hipóxia na insuficiência respiratória e relacioná-los à fisiopatologia."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar os escores utilizados para prognósticos de pneumonias: PSI; CURB-65, CRB-65 e diretrizes atualizadas."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar os protocolos de tratamento dos quadros de insuficiência respiratória aguda e crônica."
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer a forma de elaboração e aplicação dos algoritmos de investigação diagnóstica do DPOC e suas complicações, identificando sua importância na solicitação criteriosa dos exames complementares."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever os mecanismos fisiopatológicos das complicações cardiocirculatórias decorrentes da DPOC (edema pulmonar, hipertensão pulmonar e cor pulmonale)."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar a importância da mudança do estilo de vida e ambiente de trabalho como fatores de prevenção, promoção e reabilitação em relação ao tabagismo e suas complicações."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Criança incha?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir edema, identificando suas diferentes causas e mecanismos fisiopatológicos: relações entre as variáveis tais como pressões hidrostática e coloidosmótica capilar e intersticial, permeabilidade capilar e drenagem linfática."
+            },
+            {
+              "numero": 2,
+              "texto": "Relacionar as causas de edema (renais, cardíacas, vasculares, inflamatórias, hepáticas, endócrinas e nutricionais) com os mecanismos fisiopatológicos envolvidos."
+            },
+            {
+              "numero": 3,
+              "texto": "Sistematizar as condutas diagnósticas e terapêuticas adequadas para pacientes apresentando edema."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o diagnóstico de hipóxia no edema pulmonar, explicando-a fisiopatologicamente."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar a síndrome nefrítica, relacionando suas principais causas e possíveis processos fisiopatológicos implicados e diferenciá-la da síndrome nefrótica."
+            },
+            {
+              "numero": 6,
+              "texto": "Relacionar as principais doenças que podem evoluir com insuficiência renal, relacionando-as às condutas diagnósticas e terapêuticas apropriadas."
+            },
+            {
+              "numero": 7,
+              "texto": "Reconhecer a importância da aderência ao tratamento para prevenção de eventos adversos relacionados à corticoterapia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "Locomoção e Preensão",
+      "ementa": "Estruturas responsáveis pela locomoção e preensão. Abordagem clínica, terapêutica e acompanhamento das alterações ou perdas destas funções, incluindo apoio psicológico e adaptação social, em consonância ao SUS. Aspectos morfofuncionais.",
+      "ch_teorica": 68,
+      "ch_pratica": null,
+      "ch_total": 68,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Sonho Interrompido",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar os componentes das articulações sinoviais e suas funções."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir unidade motora, considerando as estruturas músculo-articulares relacionadas."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever a osteoartrite, quanto aos aspectos epidemiológico e fisiopatológico, salientando seu caráter inflamatório, comprometendo a remodelação cartilagínea e diminuindo a performance articular."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a classificação da osteoartrite (primária e secundária)."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o quadro clínico, as articulações mais frequentemente acometidas e como as alterações fisiopatológicas levam aos sintomas clínicos."
+            },
+            {
+              "numero": 6,
+              "texto": "Distinguir a osteoartrite da artrite reumatoide."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar as condutas diagnósticas e terapêuticas, incluindo as medidas farmacológicas e seus efeitos colaterais, tomando como modelo a artrite reumatoide juvenil."
+            },
+            {
+              "numero": 8,
+              "texto": "Relacionar o excesso de exercício físico à presença da doença."
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar as limitações das doenças articulares no cotidiano dos pacientes e de seus familiares, valorizando o caráter multiprofissional da equipe de cuidados."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "O custo de Enter",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir o que é doença ocupacional causada ou agravada pelo trabalho e identificar as DORT mais prevalentes."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a fisiopatologia das DORT, as condições anti-ergonômicas e os fatores predisponentes individuais e ambientais."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever os sinais, os sintomas e a evolução clínica das DORT."
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar os achados de exames complementares que auxiliam no diagnóstico das DORT."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever as possibilidades e limitações do tratamento medicamentoso das DORT: tipo de medicamentos, contra indicações e efeitos colaterais mais comuns; tratamento fisioterápico: eficiência, custos, disponibilidade aos pacientes; tratamento integrativo/complementar: acupuntura (por exemplo) e tratamento ergonômico: modificação do ambiente de trabalho."
+            },
+            {
+              "numero": 6,
+              "texto": "Relacionar as profissões com DORTs específicas."
+            },
+            {
+              "numero": 7,
+              "texto": "Listar as políticas públicas de prevenção e amparo às DORT, e o impacto da legislação sobre trabalhadores informais."
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar as implicações psicossociais do afastamento do trabalho."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Eu não posso mais correr?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar o sistema nervoso somático e as regiões nervosas relacionadas à locomoção."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar a placa motora e descrever o mecanismo de contração muscular esquelética."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever a morfologia dos músculos estriados esqueléticos (ventre muscular, tendões, aponeuroses e fáscias de revestimento) e integração deles com o sistema nervoso."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a fisiopatologia, o quadro clínico, o diagnóstico diferencial e o tratamento muscular das enfermidades neuromusculares (modelo: distrofia)."
+            },
+            {
+              "numero": 5,
+              "texto": "Integrar a anamnese e o exame físico na avaliação clínica da locomoção e preensão."
+            },
+            {
+              "numero": 6,
+              "texto": "Identificar a postura profissional adequada para a relação médico-paciente e médico-família nas enfermidades que afetam a função motora e casos crônicos de doenças da motilidade."
+            },
+            {
+              "numero": 7,
+              "texto": "Reconhecer a atuação da equipe multiprofissional em saúde na condução dos casos relacionados à redução da motilidade e a importância das entidades civis de apoio."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Eu escondo minhas mãos",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar a marcha normal e seus métodos de avaliação."
+            },
+            {
+              "numero": 2,
+              "texto": "Citar e caracterizar os tipos de alterações da marcha."
+            },
+            {
+              "numero": 3,
+              "texto": "Explicar a relação dos sistemas: esquelético, muscular, articular e nervoso; e os mecanismos de coordenação destes, para a realização da marcha."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar, do ponto de vista neurofisiológico, o mecanismo de reflexo, controle e coordenação motora."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o tremor essencial e diferenciá-lo do tremor de doença de Parkinson, do ponto de vista fisiopatológico e clínico."
+            },
+            {
+              "numero": 6,
+              "texto": "Explicar a ação dos medicamentos utilizados para o tratamento de Parkinson, bem como os fármacos, drogas ou agentes químicos que provocam parkinsonismo secundário."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Um ano novo e uma nova vida",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar a medula espinhal longitudinalmente e transversalmente."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar as raízes dorsais e ventrais e os ramos anteriores e posteriores dos nervos espinhais."
+            },
+            {
+              "numero": 3,
+              "texto": "Relacionar as estruturas anatômicas dos nervos espinhais às suas funções e aos testes do exame neurológico que verificam a sua integridade."
+            },
+            {
+              "numero": 4,
+              "texto": "Diferenciar choque medular de choque neurogênico."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o atendimento a um paciente politraumatizado e traumatizado medular."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "Distúrbios Sensoriais, Motores e da Consciência",
+      "ementa": "Principais distúrbios sensoriais, motores e da consciência. Fatores determinantes, intervenções terapêuticas e repercussões na qualidade de vida do paciente e no seu meio social, em consonância ao SUS. Aspectos morfofuncionais. Humanidades médicas e a compreensão crítica e reflexiva referente à saúde mental.",
+      "ch_teorica": 60,
+      "ch_pratica": null,
+      "ch_total": 60,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "De novo não!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir crise epiléptica e epilepsia."
+            },
+            {
+              "numero": 2,
+              "texto": "Classificar as síndromes epilépticas."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar o quadro epiléptico do ponto de vista clínico."
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar o quadro clínico com os mecanismos que desencadeiam as manifestações motoras, sensoriais e da consciência dos quadros epilépticos."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os possíveis fatores etiológicos das epilepsias através da propedêutica clínica e complementar."
+            },
+            {
+              "numero": 6,
+              "texto": "Justificar a necessidade de investigação e realização de diagnóstico diferencial de quadros epilépticos de início tardio."
+            },
+            {
+              "numero": 7,
+              "texto": "Relacionar a fisiopatologia da doença com as indicações farmacológicas apresentadas no problema."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever a ação farmacológica dos medicamentos mencionados no problema, reconhecendo seus efeitos anticonvulsivantes (isoladamente e em combinação), as doses terapêuticas e a monitorização terapêutica, bem como os efeitos adversos e as possíveis interações medicamentosas."
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar as alterações sensoriais, motoras e da consciência relacionadas à epilepsia e diferenciá-las dos efeitos colaterais decorrentes do tratamento farmacológico."
+            },
+            {
+              "numero": 10,
+              "texto": "Reconhecer as consequências da epilepsia no cotidiano da vida dos pacientes, em suas relações, bem como os mitos e o desconhecimento geral da população acerca da conduta correta a ser tomada no caso das convulsões."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Há alternativas",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Identificar as principais causas de cefaleia."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever os mecanismos fisiopatológicos das principais causas de cefaleia."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever e diferenciar as apresentações clínicas das diferentes causas de cefaleia."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a farmacologia do dipirona, metoclopramida, diidroergotamina, sumatriptano: doses terapêuticas, efeitos da hiperdosagem e reações adversas."
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer a relação das cefaleias com alterações psicológicas e sociais, bem como a importância das cefaleias como possíveis causas de limitação à capacidade funcional."
+            },
+            {
+              "numero": 6,
+              "texto": "Reconhecer as terapias complementares (ex.: acupuntura) no tratamento de diversas doenças."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Bomba-relógio",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Explicar como as repercussões do AVE levam a alterações motoras, sensoriais e da consciência."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar os fatores de risco do AVE, sua fisiopatologia e tipos."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar os possíveis diagnósticos diferenciais para alterações motoras, sensoriais e da consciência."
+            },
+            {
+              "numero": 4,
+              "texto": "Definir e graduar o coma e os demais níveis de consciência, utilizando as escalas disponíveis."
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer as manifestações clínicas de um AVE e descrever as escalas utilizadas para avaliação clínica."
+            },
+            {
+              "numero": 6,
+              "texto": "Diferenciar AVE isquêmico e hemorrágico e descrever o protocolo de tratamento atual, incluindo a descrição dos fármacos utilizados."
+            },
+            {
+              "numero": 7,
+              "texto": "Explicar o mecanismo de ação dos fármacos mencionados no problema."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Esqueci de quem eu era…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever as principais funções cognitivas."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir síndrome demencial."
+            },
+            {
+              "numero": 3,
+              "texto": "Elencar as síndromes demenciais secundárias e descrever os exames complementares importantes para identificá-las."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar e diferenciar a demência do tipo Alzheimer e a demência vascular."
+            },
+            {
+              "numero": 5,
+              "texto": "Indicar as alterações sugestivas de cada um desses tipos de demência em exames de imagem."
+            },
+            {
+              "numero": 6,
+              "texto": "Citar os medicamentos mais utilizados para as síndromes demenciais, os seus mecanismos de ação e as principais contraindicações."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 4,
+      "nome_oficial": "Habilidades Profissionais VII",
+      "ementa": "Noções e práticas em urgência e emergência. Princípios básicos de clínica cirúrgica. Práticas em clínica médica (cardiologia, ortopedia, neurologia, imagem,otorrino, entre outras). Humanidades médicas e as competências ético-relacionais das boas práticas em medicina. Atividades extensionistas: urgências e emergências.",
+      "ch_teorica": 40,
+      "ch_pratica": 180,
+      "ch_total": 220,
+      "ch_extensao": 65,
+      "sps": []
+    },
+    {
+      "uc_numero": 5,
+      "nome_oficial": "Integração do Ensino em Saúde na Comunidade VII",
+      "ementa": "Cuidado em saúde às famílias. Sistema de Informação da Atenção Básica (SIAB). Consulta e visita domiciliar supervisionadas pelo médico da Unidade de Saúde. Cuidado aos portadores de distúrbios sensoriais e de consciência no SUS. Humanidades e humanização: possibilidades relacionais no cuidado resolutivo em saúde, na perspectiva de que cuidar do outro implica em autocuidado. Atividades extensionistas: saúde da família e saúde mental.",
+      "ch_teorica": null,
+      "ch_pratica": 80,
+      "ch_total": 80,
+      "ch_extensao": 40,
+      "sps": []
+    },
+    {
+      "uc_numero": 6,
+      "nome_oficial": "Trabalho de Curso I (TC I)",
+      "ementa": "Promoção de pensamento científico e crítico. Produção de novos conhecimentos científicos. Elaboração de projeto de pesquisa a partir de conhecimentos teóricos e metodológicos. Aspectos éticos de pesquisas em saúde.",
+      "ch_teorica": null,
+      "ch_pratica": 80,
+      "ch_total": 80,
+      "ch_extensao": null,
+      "sps": []
+    }
+  ]
+}

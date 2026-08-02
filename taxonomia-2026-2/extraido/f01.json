@@ -1,0 +1,629 @@
+{
+  "fase": 1,
+  "fase_slug": "f01",
+  "fonte": "Manual Docente 1ª fase 2026_2.docx.pdf",
+  "drive_file_id": "1hb47EAa8xk560MpQVRljIav4DuZo-8eQ",
+  "conteudo_truncado": false,
+  "observacoes": "Extração integral do PDF (113 páginas) via pypdf; nenhum trecho ficou ilegível ou cortado. Numeração de UCs, SPs e OAs preservada como impressa — não há saltos. O manual usa dois rótulos diferentes para o mesmo bloco: 'Sugestão de Objetivos de Aprendizagem' (UC1 SPs 2, 3 e 4) e 'OBJETIVOS ESPECÍFICOS' (UC1 SP1 e todas as SPs das UCs 2 e 3); ambos foram tratados como Objetivos de Aprendizagem. Títulos de SP foram tomados do cabeçalho da seção no corpo do manual, não do sumário, pois há divergências entre os dois: o sumário traz 'Por que ela foi tão longe?' (corpo: 'Por que ela foi para tão longe?'), 'Meninas mães ou Mães meninas?' (corpo: 'Meninas mães ou mães meninas?') e 'Grávida? Eu?' (corpo: 'Grávida? Eu?...'). Cargas horárias vieram da tabela ESTRUTURA CURRICULAR DO CURSO (colunas CHT/CHP/CH/CHE); as três UCs tutoriais da 1ª fase não têm CHE atribuída (a extensão da fase está alocada em Habilidades Profissionais I e Conhecimentos Gerais I), por isso ch_extensao = null. O OA 8 da UC2 SP1 termina com espaço antes do ponto no PDF ('consequências .'); esse espaço, artefato de extração, foi removido. O OA 1 da UC3 SP5 traz, no próprio PDF, 'insulino-dependentes e insulino- independentes' (com espaço após o hífen na segunda ocorrência); manteve-se literal, sem correção — provável quebra de linha ou erro de digitação do manual, a confirmar com a coordenação. Os 78 OAs das UCs 1 e 2 foram conferidos caractere a caractere contra uma segunda extração independente do mesmo arquivo (conversão nativa do Drive) e bateram integralmente; os 44 OAs da UC3 só puderam ser conferidos pela extração via pypdf, porque a segunda extração vinha truncada antes da UC3. Nenhuma outra alteração de redação foi feita.",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "Introdução ao Estudo da Medicina",
+      "ementa": "Formação do médico e evolução da Medicina, considerando os aspectos históricos, epidemiológicos, culturais, biopsicossociais e éticos. Noções sobre SUS e saúde coletiva na formação médica. Concepções e abordagens de cuidados paliativos e hospice. Humanidades, éticas e bioéticas e a compreensão crítica e reflexiva referente ao ciclo da vida humana.",
+      "ch_teorica": 84,
+      "ch_pratica": 24,
+      "ch_total": 108,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Louis Pasteur: Quando o invisível mudou o destino da medicina",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Identificar os principais eventos que influenciaram a história da medicina."
+            },
+            {
+              "numero": 2,
+              "texto": "Reconhecer a evolução científica e das práticas médicas no cuidado à saúde no contexto histórico e social."
+            },
+            {
+              "numero": 3,
+              "texto": "Refletir sobre o que significa ‘Ser Médico’, enfatizando a motivação pessoal para fazer medicina e o papel social desta profissão."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar as fases da história natural das doenças."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever os passos do método científico e a sua importância na prática médica."
+            },
+            {
+              "numero": 6,
+              "texto": "Definir medicina baseada em evidências, seus recursos e limitações para a prática médica."
+            },
+            {
+              "numero": 7,
+              "texto": "Definir promoção, prevenção e recuperação de saúde e relacionar o impacto destas ações com a qualidade de vida da população."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Você não me ouviu, doutor…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Discutir os fatores que influenciam a escolha da carreira médica e a construção da identidade profissional."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar os diferentes modelos de relação médico-paciente."
+            },
+            {
+              "numero": 3,
+              "texto": "Refletir sobre as condições de trabalho dos profissionais de saúde e seus impactos na qualidade do cuidado."
+            },
+            {
+              "numero": 4,
+              "texto": "Compreender a importância da comunicação efetiva na prática médica."
+            },
+            {
+              "numero": 5,
+              "texto": "Diferenciar queixa, demanda e necessidade de saúde."
+            },
+            {
+              "numero": 6,
+              "texto": "Conceituar e diferenciar doença de adoecimento e relacionar com o cuidado à saúde nas duas perspectivas."
+            },
+            {
+              "numero": 7,
+              "texto": "Conhecer o Método Clínico Centrado na Pessoa."
+            },
+            {
+              "numero": 8,
+              "texto": "Reconhecer a importância da abordagem biopsicossocial e espiritual no cuidado em saúde."
+            },
+            {
+              "numero": 9,
+              "texto": "Conceituar humanização e refletir sobre sua aplicação nos serviços de saúde."
+            },
+            {
+              "numero": 10,
+              "texto": "Conceituar cuidados paliativos e suas abordagens."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Por que ela foi para tão longe?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Contextualizar historicamente a criação do Sistema Único de Saúde (SUS)."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar a influência dos movimentos sociais e da Reforma Sanitária Brasileira na construção do SUS."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar os princípios doutrinários do SUS: Universalidade, Equidade e Integralidade."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever as diretrizes organizativas do SUS: Descentralização, Regionalização, Hierarquização e Participação Social."
+            },
+            {
+              "numero": 5,
+              "texto": "Compreender a organização da Rede de Atenção à Saúde e os diferentes níveis de atenção."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir os mecanismos de referência e contrarreferência dentro do sistema de saúde."
+            },
+            {
+              "numero": 7,
+              "texto": "Reconhecer a importância da equipe multiprofissional na atenção às necessidades de saúde da população."
+            },
+            {
+              "numero": 8,
+              "texto": "Avaliar a adaptabilidade das políticas públicas de saúde de acordo com as necessidades da população, com foco nos indicadores epidemiológicos."
+            },
+            {
+              "numero": 9,
+              "texto": "Refletir sobre os desafios operacionais, financeiros e sociais enfrentados pelo SUS."
+            },
+            {
+              "numero": 10,
+              "texto": "Discutir o papel social do médico e do estudante de Medicina na defesa do direito à saúde."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Mas a decisão é dela…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Diferenciar moral, ética e bioética."
+            },
+            {
+              "numero": 2,
+              "texto": "Compreender os princípios fundamentais da bioética (autonomia, beneficência, não maleficência e justiça)."
+            },
+            {
+              "numero": 3,
+              "texto": "Discutir a influência dos aspectos socioculturais, religiosos e familiares nas decisões relacionadas à saúde."
+            },
+            {
+              "numero": 4,
+              "texto": "Refletir sobre a autonomia do paciente e o processo de tomada de decisão compartilhada."
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer a importância da comunicação efetiva em situações complexas e emocionalmente desafiadoras."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir humanização, empatia, vínculo e escuta qualificada na prática médica."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar os direitos dos pacientes e os deveres dos profissionais de saúde."
+            },
+            {
+              "numero": 8,
+              "texto": "Conhecer o papel do Conselho Federal de Medicina (CFM), dos Conselhos Regionais de Medicina (CRM), do Código de Ética Médica e do Código de Ética do Estudante de Medicina."
+            },
+            {
+              "numero": 9,
+              "texto": "Refletir sobre os limites éticos da atuação profissional diante de conflitos entre valores pessoais, familiares e institucionais."
+            },
+            {
+              "numero": 10,
+              "texto": "Discutir o papel social do médico na promoção do cuidado integral à saúde."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "Concepção e Formação do Ser Humano",
+      "ementa": "Fenômenos biológicos, sociais e psicológicos envolvidos na concepção, gestação e nascimento do ser humano, bem como a relação com as políticas públicas em saúde. Aspectos morfofuncionais do aparelho reprodutor masculino e feminino. Humanidades médicas e a compreensão crítica e reflexiva referente ao ciclo da vida humana.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Entre o tempo do corpo e o tempo da vida",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar o sistema reprodutor masculino do ponto de vista morfofuncional."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir adolescência e puberdade."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar as fases da puberdade masculina."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar as mudanças físicas e psicológicas da puberdade masculina."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o processo de maturação do eixo hipotálamo-hipofisário-gonadal masculino."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever os métodos clínicos utilizados para avaliação do desenvolvimento da puberdade masculina (escala de TANNER, medida das dimensões gonadais, etc.)."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever o processo de gametogênese masculina."
+            },
+            {
+              "numero": 8,
+              "texto": "Definir Bullying e identificar suas consequências."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Meninas mães ou mães meninas?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar o sistema reprodutor feminino do ponto de vista morfofuncional."
+            },
+            {
+              "numero": 2,
+              "texto": "Analisar o processo de maturação do eixo hipotálamo-hipofisário-gonadal feminino."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar as mudanças físicas e psicológicas da puberdade feminina."
+            },
+            {
+              "numero": 4,
+              "texto": "Definir menarca, pubarca e telarca e caracterizar os eventos que ocorrem nestas fases."
+            },
+            {
+              "numero": 5,
+              "texto": "Explicar os métodos clínicos utilizados para avaliação do desenvolvimento da puberdade feminina."
+            },
+            {
+              "numero": 6,
+              "texto": "Relacionar o processo de gametogênese feminina ao eixo hipotálamo-hipofisário-gonadal feminino."
+            },
+            {
+              "numero": 7,
+              "texto": "Relacionar o ciclo menstrual à maturação do eixo hipotálamo-hipófise-gonadal."
+            },
+            {
+              "numero": 8,
+              "texto": "Investigar a influência dos aspectos religiosos, legais e éticos com o início da prática sexual e os fatores causais associados à gravidez na adolescência e suas consequências para a adolescente."
+            },
+            {
+              "numero": 9,
+              "texto": "Caracterizar os métodos contraceptivos, de acordo com sua indicação e eficácia."
+            },
+            {
+              "numero": 10,
+              "texto": "Identificar as principais IST."
+            },
+            {
+              "numero": 11,
+              "texto": "Analisar a influência dos aspectos socioculturais da gravidez não desejada e aspectos legais e éticos do aborto no Brasil."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Vamos tentar mais uma vez?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever o processo de fertilização natural."
+            },
+            {
+              "numero": 2,
+              "texto": "Citar os principais métodos de reprodução assistida."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever os eventos que ocorrem desde a formação do zigoto até o fim do período embrionário, caracterizando as principais mudanças ocorridas a cada semana."
+            },
+            {
+              "numero": 4,
+              "texto": "Conceituar infertilidade e citar as principais causas de infertilidade feminina e masculina."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o processo de diferenciação sexual."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar os diferentes tipos de células-tronco e suas potencialidades (bancos de sangue do cordão umbilical)."
+            },
+            {
+              "numero": 7,
+              "texto": "Definir planejamento familiar e reconhecer os instrumentos e seus propósitos."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Não tenho tempo…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever o desenvolvimento dos principais sistemas do período fetal."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar os anexos fetais, o período de surgimento de cada um deles e suas funções."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar sofrimento fetal."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar o uso de corticosteróides na prematuridade."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar os diferentes tipos do transporte placentário."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar o pré-natal no SUS e a importância de sua realização."
+            },
+            {
+              "numero": 7,
+              "texto": "Citar os métodos de avaliação do desenvolvimento embrionário e fetal."
+            },
+            {
+              "numero": 8,
+              "texto": "Conceituar gestação a termo, pré-termo e pós-termo."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Grávida? Eu?...",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar gestação de alto risco e suas causas."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar as políticas públicas para o cuidado da gestação de risco."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar o diagnóstico clínico laboratorial associado ao rastreamento de cromossomopatias no período fetal."
+            },
+            {
+              "numero": 4,
+              "texto": "Definir teratogênese, classificar os agentes teratogênicos e suas consequências."
+            },
+            {
+              "numero": 5,
+              "texto": "Conceituar e caracterizar: síndromes genéticas, hereditárias e congênitas."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar modificações epigenéticas."
+            },
+            {
+              "numero": 7,
+              "texto": "Avaliar eticamente a postura do médico em relação à gestante e aos familiares na situação problema."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "Metabolismo",
+      "ementa": "Fenômenos envolvidos na ingestão, digestão, absorção e transporte dos nutrientes, bem como sua metabolização e excreção. Aspectos morfofuncionais do sistema digestório, bem como as implicações psicossocias e relações com a saúde coletiva. Aspectos morfofuncionais do sistema digestório.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Comer, comer… é o melhor para poder viver!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir metabolismo (anabolismo e catabolismo)."
+            },
+            {
+              "numero": 2,
+              "texto": "Citar e caracterizar os macro e micronutrientes, relacionando ao Guia Alimentar para a população brasileira (Ministério da Saúde)."
+            },
+            {
+              "numero": 3,
+              "texto": "Definir e classificar carboidratos."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o processo de digestão, absorção e transporte de carboidratos."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o processo de obtenção de energia pela degradação de carboidratos (glicólise anaeróbica e aeróbica, ciclo de Krebs, cadeia respiratória e fosforilação oxidativa)."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever o processo de síntese e utilização de glicogênio hepática e muscular."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar a utilização de glicose pela via das pentoses e de que forma essa via contribui para o armazenamento do excedente de glicose em gordura de reserva."
+            },
+            {
+              "numero": 8,
+              "texto": "Relacionar o desequilíbrio entre ingestão e gasto energético como fator responsável pelo ganho ou perda de massa."
+            },
+            {
+              "numero": 9,
+              "texto": "Caracterizar e calcular o IMC."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "O bar do Zé!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar lipídios, seus tipos e funções."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever o processo de digestão e absorção de lipídios."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar o mecanismo de transporte de lipídios através do sistema linfático e sangue, diferenciando os tipos de lipoproteínas (quilomícrons, HDL, LDL, VLDL)."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o processo de obtenção de energia a partir da degradação de lipídios, bem como a síntese dos corpos cetônicos (utilização por tecidos extra-hepáticos)."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o processo de síntese e armazenamento de lipídios, relacionando com a via das pentoses."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar o colesterol quanto às suas origens e destinos."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar a ação da sinvastatina no controle dos níveis de colesterol."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir as consequências biopsicossociais da obesidade na infância, adolescência e na vida adulta."
+            },
+            {
+              "numero": 9,
+              "texto": "Conhecer as políticas públicas para prevenção e controle da obesidade e da hipertensão arterial."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Malhar e comer proteína: o segredo do corpão!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar aminoácidos e proteínas, seus tipos e funções."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever o processo de digestão e absorção de proteínas e AA."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever o processo de síntese de proteínas, evidenciando que não há armazenamento no organismo."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o processo de obtenção de energia pela degradação de proteínas e AA."
+            },
+            {
+              "numero": 5,
+              "texto": "Discutir o destino dos aminoácidos na formação de compostos nitrogenados não protéicos."
+            },
+            {
+              "numero": 6,
+              "texto": "Conceituar icterícia, seus tipos, suas causas e consequências."
+            },
+            {
+              "numero": 7,
+              "texto": "Relacionar o excesso da ingestão de proteínas e AA com o aumento de tecido adiposo."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir o uso de esteroides anabolizantes e suplementos alimentares para mudança da imagem corporal e suas consequências para outros órgãos."
+            },
+            {
+              "numero": 9,
+              "texto": "Definir balanço nitrogenado e exemplificar."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "A coisa está ficando difícil",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Discutir o destino dos aminoácidos na formação de compostos nitrogenados não protéicos."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar a estrutura e funções das porfirinas."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar o metabolismo de síntese e degradação das porfirinas."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar a estrutura e funções das bases nitrogenadas."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o metabolismo de síntese e degradação das bases nitrogenadas."
+            },
+            {
+              "numero": 6,
+              "texto": "Conceituar e caracterizar o processo da gota úrica."
+            },
+            {
+              "numero": 7,
+              "texto": "Discutir o mecanismo de ação da Colchicina e Alopurinol (Zyloric)."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir o metabolismo do álcool."
+            },
+            {
+              "numero": 9,
+              "texto": "Discutir os mecanismos de regulação metabólica associados ao jejum (ressaltando a importância da gliconeogênese) e à ingestão de álcool."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Muito açúcar no sangue?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Discutir as alterações metabólicas e hormonais no: a. Diabetes do tipo I; b. Identificar os tecidos insulino-dependentes e insulino- independentes; c. Caracterizar as causas da hiperglicemia e da cetoacidose; d. Reconhecer sua epidemiologia."
+            },
+            {
+              "numero": 2,
+              "texto": "Discutir as alterações metabólicas e hormonais no: a. Diabetes do tipo II; b. Relacionar obesidade e hiperinsulinemia; c. Relacionar hiperinsulinemia e resistência periférica à insulina."
+            },
+            {
+              "numero": 3,
+              "texto": "Reconhecer as principais complicações decorrentes da hiperglicemia crônica no diabetes."
+            },
+            {
+              "numero": 4,
+              "texto": "Comparar as alterações observadas no diabetes com o estado de jejum prolongado, ressaltando: a. Ação dos hormônios glucagon e glicocorticóides. b. Importância da gliconeogênese hepática e renal. c. O aumento da proteólise muscular (ciclo da alanina-glicose); d. O aumento da lipólise e da cetogênese (cetoacidose)."
+            },
+            {
+              "numero": 5,
+              "texto": "Citar o tratamento associado a pacientes diabéticos."
+            },
+            {
+              "numero": 6,
+              "texto": "Definir Síndrome metabólica e suas consequências."
+            },
+            {
+              "numero": 7,
+              "texto": "Discutir a necessidade de conscientização do paciente diabético e seus familiares quanto às mudanças de hábitos de vida."
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar as políticas públicas relacionadas à promoção, prevenção e tratamento do Diabetes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

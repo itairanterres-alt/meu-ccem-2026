@@ -1,0 +1,657 @@
+{
+  "fase": 5,
+  "fase_slug": "f05",
+  "fonte": "Manual Docente 5ª Fase 2026_2.docx.pdf",
+  "drive_file_id": "1SU1H3Ddane3PvlNiT50gpOmqreSmUciq",
+  "conteudo_truncado": false,
+  "observacoes": "Extração completa das 3 UCs tutoriais da 5ª fase (14 SPs). Os OAs aparecem no manual sob o cabeçalho 'OBJETIVOS ESPECÍFICOS' (não 'Objetivos de Aprendizagem'); o texto foi copiado literalmente, inclusive erros de digitação e de numeração do original. ANOMALIAS DE NUMERAÇÃO PRESERVADAS COMO IMPRESSAS: (a) UC1/SP1 — a sequência impressa é 1,2,3,5,6,7,7,8,9,10,11,12,13: o número 4 é pulado e o número 7 aparece duas vezes (13 objetivos no total). (b) UC2/SP2 — a sequência impressa é 1,2,4,5,6,7,5,7,8: o número 3 é pulado e os números 5 e 7 aparecem duas vezes cada (9 objetivos no total). CONTEÚDO DUPLICADO PRESERVADO: UC2/SP3 tem numeração contínua 1-12, porém os objetivos 5 e 6 repetem literalmente o texto dos objetivos 3 e 4; e o objetivo 10 repete em forma ampliada o objetivo 2 (pancreatite aguda). Mantidos todos, como no manual. GRAFIA LITERAL MANTIDA: UC2/SP4 OA8 inicia com letra minúscula ('caracterizar icterícia...'); UC2/SP5 OA4 traz 'histamina- h2' com o hífen e espaço do original; UC2/SP3 OA8 não tem ponto final no manual. TÍTULOS DE SP: no manual os títulos aparecem entre aspas tipográficas; aqui foram gravados sem as aspas, mas com a grafia e pontuação preservadas. UC3/SP4 vem grafada no manual como 'Situação problema 4' (com 'p' minúsculo); as demais usam 'Situação Problema'. CARGAS HORÁRIAS: o manual não traz CH no cabeçalho de cada UC; os valores registrados foram lidos da tabela ESTRUTURA CURRICULAR DO CURSO (fase V), colunas CHT/CHP/CH. Nenhuma das 3 UCs tutoriais tem CHE (carga de extensão) atribuída na matriz — apenas IESC V (40h) e Habilidades Profissionais V (60h), que não são UCs tutoriais e não foram incluídas neste arquivo. MÉTODO: a leitura via read_file_content do Drive veio truncada na página 80 (UC3 inteira ausente); o PDF completo (117 páginas) foi baixado e extraído localmente com pypdf, e o trecho sobreposto foi conferido contra a extração do Drive — idênticos.",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "DOR",
+      "ementa": "Principais tipos e mecanismos da dor e seus substratos morfofisiológicos. Quadros clínicos de dor, relacionados aos aspectos psicológicos e sociais. Gerenciamento de dor, sofrimento e outros sinais com indicação aos cuidados paliativos. Atualidades da prática médica no País e/ou no mundo.",
+      "ch_teorica": 84,
+      "ch_pratica": 24,
+      "ch_total": 108,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "O que dói mais?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar dor e descrever os tipos de dor."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar a dor por nocicepção e a dor neuropática."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever as vias da dor nociceptiva e neuropática, enfatizando os receptores, vias e áreas encefálicas relacionadas."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os neurotransmissores envolvidos nas vias da dor e suas ações."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar os nociceptores e definir limiar de dor."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever os mecanismos modulatórios e de sensibilização envolvidos desde a origem até a percepção do sintoma doloroso."
+            },
+            {
+              "numero": 7,
+              "texto": "Explicar os mecanismos de dor neuropática e suas manifestações clínicas."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever sensibilização central e periférica e relacionar com a hiperalgesia e a alodínia."
+            },
+            {
+              "numero": 9,
+              "texto": "Explicar os mecanismos de neuromodulação (central e periférica) da dor."
+            },
+            {
+              "numero": 10,
+              "texto": "Identificar o fenômeno “wind up” e sua relação com a sensibilização central."
+            },
+            {
+              "numero": 11,
+              "texto": "Descrever a influência do SNA na manutenção de quadros dolorosos crônicos."
+            },
+            {
+              "numero": 12,
+              "texto": "Descrever a farmacologia e indicações dos analgésicos comuns, efeitos colaterais e problemas correlacionados ao uso indiscriminado."
+            },
+            {
+              "numero": 13,
+              "texto": "Explicar os tipos de queimaduras e as diferentes condutas para cada uma delas."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Que dor é essa?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar a dor fantasma como exemplo de dor neuropática."
+            },
+            {
+              "numero": 2,
+              "texto": "Explicar a Síndrome Complexa de Dor Regional."
+            },
+            {
+              "numero": 3,
+              "texto": "Justificar a sensação de percepção e dor no membro fantasma."
+            },
+            {
+              "numero": 4,
+              "texto": "Diferenciar analgesia de anestesia."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever a ação dos anticonvulsivantes e sua fundamentação farmacológica no tratamento da dor crônica."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar a dor neoplásica em seus aspectos fisiopatológicos e clínicos."
+            },
+            {
+              "numero": 7,
+              "texto": "Reconhecer a Escada Analgésica da OMS."
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir os aspectos biopsicossociais envolvidos com a dor crônica, especialmente oncológica, e o papel dos familiares e cuidadores."
+            },
+            {
+              "numero": 9,
+              "texto": "Conceituar e definir a dor total correlacionando com o caso."
+            },
+            {
+              "numero": 10,
+              "texto": "Definir cuidados paliativos e descrever seus objetivos e protocolos."
+            },
+            {
+              "numero": 11,
+              "texto": "Reconhecer a importância dos cuidados paliativos no tratamento da dor crônica, especialmente oncológica e a necessidade de sua indicação precoce."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "É verdade. A dor é real",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar a dor profunda (músculo, articulações e fáscias)."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar as características propedêuticas da dor (tipo, intensidade, origem, frequência, qualidade, irradiação e referência, fatores de alívio, piora e concomitantes)."
+            },
+            {
+              "numero": 3,
+              "texto": "Conceituar fibromialgia e síndrome miofascial quanto à etiologia, epidemiologia, fisiopatologia, manifestações clínicas, diagnóstico, diagnósticos diferencial e tratamento."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a ação farmacológica e a classificação geral dos anti-inflamatórios não esteroidais (AINEs)."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever a ação farmacológica dos anestésicos locais, as indicações e contraindicações."
+            },
+            {
+              "numero": 6,
+              "texto": "Justificar farmacologicamente o uso de antidepressivos para o tratamento da dor."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar a importância da abordagem integral, multidisciplinar no tratamento da dor crônica no SUS."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Pedras no caminho!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar a dor visceral quanto a: vias neurológicas, fisiopatologia, manifestações clínicas e tratamento."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar os visceroceptores e sua distribuição."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar os estímulos capazes de desencadear a ativação dos visceroceptores."
+            },
+            {
+              "numero": 4,
+              "texto": "Diferenciar a fisiopatologia da dor visceral em relação à da dor somática."
+            },
+            {
+              "numero": 5,
+              "texto": "Diferenciar dor referida da dor irradiada."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar topográfica e fisiopatologicamente a dor referida."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar a farmacologia dos medicamentos antiespasmódicos utilizados no relato do problema."
+            },
+            {
+              "numero": 8,
+              "texto": "Caracterizar a litíase urinária quanto a etiologia, epidemiologia, fisiopatologia, diferentes tipos de cálculos, manifestações clínicas, diagnóstico, diagnóstico diferencial e tratamento."
+            },
+            {
+              "numero": 9,
+              "texto": "Correlacionar a impactação de um cálculo com a fisiopatologia da hidronefrose e da infecção urinária, listando os principais agentes causadores de infecção."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "DOR ABDOMINAL, DIARREIA, VÔMITOS E ICTERÍCIA",
+      "ementa": "Anamnese e exame físico das principais manifestações abdominais e seus aspectos morfofuncionais e psicossociais. Mecanismos fisiopatológicos dos quadros clínicos e dados epidemiológicos para o manejo e tomada de decisões de diagnóstico e terapêutica.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Muito constrangedor",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir diarreia e classificar os quadros diarreicos quanto à duração, a magnitude e o local do acometimento primário (altas e baixas)."
+            },
+            {
+              "numero": 2,
+              "texto": "Explicar os processos fisiopatológicos das diarreias e os mecanismos envolvidos - osmolar, secretor, inflamatório, funcional, disabsortivo."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever as principais etiologias das diarreias agudas, a epidemiologia, as manifestações clínicas verificadas em pacientes com diarreia, caracterizando os diferentes graus de desidratação e correlacionando com a terapêutica a ser instituída em cada caso."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar as síndromes de má-absorção intestinal quanto à etiologia, epidemiologia, fisiopatologia, manifestações clínicas, diagnóstico, diagnóstico diferencial e tratamento, com ênfase em: retocolite ulcerativa, Doença de Crohn, síndrome do intestino irritável, doença celíaca e intolerância à lactose."
+            },
+            {
+              "numero": 5,
+              "texto": "Relacionar como os fatores ambientais e sociais contribuem para a gênese do quadro, bem como as consequências sociais das diarreias crônicas."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "É uma inflamação ou uma infecção?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar os diferentes tipos de abdômen agudo, suas principais etiologias, aspectos clínicos e fisiopatológicos, recursos diagnósticos, complicações, correlacionando o diagnóstico com a propedêutica clínica do abdômen agudo (Dar ênfase nos achados de exame físico para os diferentes tipos de abdome agudo)."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar as principais causas de abdome agudo inflamatório, caracterizando os possíveis mecanismos para evolução do abdome agudo perfurativo."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever os principais recursos diagnósticos disponíveis para diagnóstico diferencial dos tipos de abdome agudo com outros quadros abdominais."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar as principais complicações de cada tipo de abdome agudo."
+            },
+            {
+              "numero": 6,
+              "texto": "Diferenciar as condutas terapêuticas clínicas e cirúrgicas para os diversos tipos de abdome agudo."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever a etiologia, a epidemiologia, a fisiopatologia, as manifestações clínicas, condutas diagnósticas e o tratamento para a Apendicite aguda (Consenso atual de Jerusalém)."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o mecanismo de ação dos antibióticos estudado no caso, cefalosporinas com suas diferentes gerações, aminoglicosídeos, metronidazol e quinolonas, suas indicações conforme o espectro antimicrobiano e seus principais efeitos colaterais."
+            },
+            {
+              "numero": 7,
+              "texto": "Compreender a formação de cálculos biliares, caracterizando a etiologia, epidemiologia, manifestações clínicas, diagnóstico, diagnóstico diferencial e tratamento."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever a etiopatogenia, epidemiologia, manifestações clínicas, alterações de exames laboratoriais, tratamento e as complicações da colangite aguda e crônica."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Álcool: inimigo número 1",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar hepatopatia crônica quanto à etiologia, fisiopatologia, diagnóstico diferencial, complicações, exames laboratoriais e tratamento."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a etiofisiopatologia, as manifestações clínicas e as complicações da pancreatite aguda."
+            },
+            {
+              "numero": 3,
+              "texto": "Relacionar a doença hepática cirrótica com o estilo de vida do paciente."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar a fisiopatologia e as manifestações da hipertensão portal, diferenciando-as, nos pacientes cirróticos, das decorrentes de insuficiência hepática."
+            },
+            {
+              "numero": 5,
+              "texto": "Relacionar a doença hepática cirrótica com o estilo de vida do paciente."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar a fisiopatologia e as manifestações da hipertensão portal, diferenciando-as, nos pacientes cirróticos, das decorrentes de insuficiência hepática."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever o mecanismo de formação da ascite, seu diagnóstico e avaliação do líquido ascítico."
+            },
+            {
+              "numero": 8,
+              "texto": "Caracterizar a peritonite bacteriana espontânea"
+            },
+            {
+              "numero": 9,
+              "texto": "Definir encefalopatia hepática, classificando-a, caracterizando o quadro clínico típico e os mecanismos atribuídos ao seu aparecimento."
+            },
+            {
+              "numero": 10,
+              "texto": "Descrever a etiologia, epidemiologia, fisiopatologia, alterações de exames laboratoriais, diagnóstico diferencial, manifestações clínicas, tratamento e as complicações da pancreatite aguda."
+            },
+            {
+              "numero": 11,
+              "texto": "Caracterizar a pancreatite crônica quanto a etiologia, fisiopatologia, manifestações clínicas e exames laboratoriais, diagnóstico diferencial, complicações e tratamento."
+            },
+            {
+              "numero": 12,
+              "texto": "Caracterizar as hemorragias digestivas quanto a localização no trato digestivo (altas e baixas), fisiopatologia e, principais etiologias."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Qual a diferença?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Explicar a fisiopatologia das hepatites virais."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar os tipos de hepatites virais quanto à etiologia, epidemiologia, formas de contágio."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever o quadro clínico das hepatites virais."
+            },
+            {
+              "numero": 4,
+              "texto": "Discutir os diferentes diagnósticos diferenciais existentes para o caso acima."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever os exames laboratoriais que auxiliam no diagnóstico das hepatites virais."
+            },
+            {
+              "numero": 6,
+              "texto": "Explicar diferentes exames sorológicos solicitados para as hepatites virais e correlacionar os resultados positivos com as fases da doença."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever o tratamento e orientação que devem ser ofertadas/informadas aos pacientes das diferentes hepatites virais e seus responsáveis."
+            },
+            {
+              "numero": 8,
+              "texto": "caracterizar icterícia sua etiopatogenia, com base no metabolismo da hemoglobina."
+            },
+            {
+              "numero": 9,
+              "texto": "Explicar como se dá o diagnóstico clínico e laboratorial das icterícias."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Medicina e estilo de vida",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Diferenciar as dispepsias funcionais da doença ulcerosa do tubo digestório (quadro clínico e mecanismo de lesão), caracterizando as gastrites e esofagites por refluxo quanto a etiologia, epidemiologia, fisiopatologia, manifestações clínicas, diagnóstico, diagnóstico diferencial e tratamento."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar a epidemiologia, o quadro clínico, a fisiopatologia, diagnóstico, exames complementares, diagnóstico diferencial e tratamento da doença ulcerosa gástrica e duodenal, correlacionando-a com a presença de H. pylori."
+            },
+            {
+              "numero": 3,
+              "texto": "Citar as principais causas envolvidas com o abdome agudo perfurativo não traumático."
+            },
+            {
+              "numero": 4,
+              "texto": "Discutir a ação farmacológica dos antiácidos, inibidores de bombas de Prótons e antagonistas dos receptores de histamina- h2, suas indicações, formas de administração e restrições."
+            },
+            {
+              "numero": 5,
+              "texto": "Discutir as consequências da automedicação, do abandono ao tratamento e riscos envolvidos na visita tardia ao médico."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "FEBRE, INFLAMAÇÃO E INFECÇÃO",
+      "ementa": "Epidemiologia, prevenção, manifestações clínico-laboratoriais das doenças infectocontagiosas e seus aspectos morfofuncionais e psicossociais. Mecanismos de ação dos agentes etiológicos envolvidos e propostas terapêuticas.",
+      "ch_teorica": 98,
+      "ch_pratica": 28,
+      "ch_total": 126,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Tem o momento certo?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Diferenciar as doenças febris agudas de etiologias bacterianas e virais."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir o mecanismo da febre e seu manejo adequado (importante definir o conceito de febre e manejo adequado com antitérmicos)."
+            },
+            {
+              "numero": 3,
+              "texto": "Definir terapia antimicrobiana profilática, empírica e dirigida, identificando os critérios que indicam o espectro de cobertura."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar as principais infecções das vias aéreas superiores quanto à etiologia, epidemiologia, fisiopatologia, manifestações clínicas, diagnóstico, diagnóstico diferencial, e tratamento. Ênfase em resfriados, gripes, laringites, amigdalites virais e bacterianas, sinusites e otites médias."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os diferentes modos de transmissão dos agentes microbianos e as medidas de precaução recomendadas aos possíveis contactantes, incluindo profilaxia pós-exposição."
+            },
+            {
+              "numero": 6,
+              "texto": "Aplicar os conceitos de incidência, período de incubação e período de transmissão em diferentes situações clínicas."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar o quadro de mononucleose infecciosa, diferenciando dos quadros de amigdalite bacteriana (patologia que pode ser confundida com amigdalite bacteriana)."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Sinais de alerta",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar as doenças febris agudas associadas a mialgia."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar os sinais de alerta que indicam as urgências relacionadas aos processos febris."
+            },
+            {
+              "numero": 3,
+              "texto": "Justificar os exames necessários para investigação de febre aguda e como interpretá-los."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar os diagnósticos diferenciais das febres ictero-hemorrágicas quanto à etiologia, epidemiologia (dar ênfase), fisiopatologia, quadro clínico, diagnóstico diferencial e tratamento- dengue, Zika, Chicungunya, febre amarela, malária e leptospirose."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar a importância da epidemiologia na formulação de hipóteses diagnósticas para a situação apresentada."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar a etiologia, as manifestações clínicas, diagnóstico, diagnóstico diferencial e tratamento das febres exantemáticas e seus diagnósticos diferenciais-exantema súbito, sarampo, rubéola, eritema infeccioso, escarlatina, varicela, doença mão pé boca. (Relembrar mononucleose infecciosa)."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar e definir as alterações hemorrágicas mais comuns como petéquias, púrpuras, equimoses e hematomas e as principais lesões de pele relacionadas às doenças infecto contagiosas, como: pápulas, máculas, bolhas, vesículas, pústulas."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Criança doente",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Identificar o quadro de meningite como possível complicação de infecção bacteriana de vias aéreas superiores (IVAS), como a otite média aguda e a rinossinusite."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar outras possibilidades de complicação das IVAS."
+            },
+            {
+              "numero": 3,
+              "texto": "Reconhecer os principais agentes infecciosos envolvidos nos quadros de meningite e a importância clínica da epidemiologia."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever as principais manifestações clínicas e achados de exame físico das meningites (descrever as manobras de exames físicos que sugerem irritação meníngea)."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o mecanismo de agressão bacteriana nos quadros de meningite."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever os achados liquóricos em casos de meningites virais, bacteriana, tuberculosa e fúngica, comparando com o resultado de um líquor normal e a técnica da punção lombar."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar o tratamento antimicrobiano empírico instituído para casos de meningite bacteriana, conforme idade, e direcionado conforme agente etiológico, bem como as indicações do uso de corticoide e tempo para administração."
+            },
+            {
+              "numero": 8,
+              "texto": "Caracterizar o tratamento para meningites virais, tuberculosas e fúngicas-indicações e medicações de escolha."
+            },
+            {
+              "numero": 9,
+              "texto": "Descrever as indicações e tipo de medicação usada para quimioprofilaxia nas meningites bacterianas."
+            },
+            {
+              "numero": 10,
+              "texto": "Explicar através do calendário vacinal, quais as vacinas indicadas para prevenção de meningites, quais os agentes que compõem essas vacinas e a época e intervalos entre as doses."
+            },
+            {
+              "numero": 11,
+              "texto": "Caracterizar a infecção hospitalar e sua relação com a resistência bacteriana."
+            },
+            {
+              "numero": 12,
+              "texto": "Descrever a Comissão de Infecção Hospitalar, quanto aos seus componentes e suas principais funções."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Pé na estrada",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar SIRS, sepse e choque séptico conforme os consensos atuais."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar sepse primária e secundária, e o impacto desta diferenciação no tratamento."
+            },
+            {
+              "numero": 3,
+              "texto": "Explicar a interação agente/hospedeiro como mecanismos de manifestação da sepse."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar choque séptico, suas manifestações clínicas, diagnóstico e tratamento."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os cuidados imediatos essenciais no tratamento do choque séptico."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar a etiologia, epidemiologia, fisiopatologia, manifestações clínicas, diagnóstico, diagnóstico diferencial e tratamento das infecções urinárias baixas."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar as pielonefrites quanto à etiologia, epidemiologia, fisiopatologia, diagnóstico, diagnóstico diferencial e tratamento."
+            },
+            {
+              "numero": 8,
+              "texto": "Relacionar infecções urinárias com litíase."
+            },
+            {
+              "numero": 9,
+              "texto": "Definir SARA, identificando os fatores predisponentes, diagnóstico, manifestações clínicas e tratamento."
+            },
+            {
+              "numero": 10,
+              "texto": "Descrever a relação entre um quadro de infecção urinária grave e os sintomas respiratórios (pneumonia secundária a bacteremia, insuficiência respiratória por SARA)."
+            },
+            {
+              "numero": 11,
+              "texto": "Identificar os critérios de internação em Unidades de Terapia Intensiva."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Sexo, Drogas e Música Eletrônica",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar as uretrites gonocócicas e não gonocócicas quanto aos agentes etiológicos, fisiopatologia, epidemiologia, diagnóstico, diagnóstico diferencial e tratamento."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar fatores de risco para ISTs e formas de prevenção."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever a etiologia, formas de contágio, e manifestações clínicas da sífilis."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar a avaliação laboratorial, tratamento e acompanhamento clínico de Sífilis."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o agente etiológico, mecanismo de transmissão, e fisiopatologia da infecção pelo HIV."
+            },
+            {
+              "numero": 6,
+              "texto": "Analisar os dados epidemiológicos atuais sobre HIV/AIDS."
+            },
+            {
+              "numero": 7,
+              "texto": "Diferenciar o estado de portador de HIV e AIDS."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever o papel da equipe multidisciplinar no acolhimento e aconselhamento do paciente com IST."
+            },
+            {
+              "numero": 9,
+              "texto": "Descrever a sífilis congênita."
+            },
+            {
+              "numero": 10,
+              "texto": "Descrever as formas de diagnóstico do HIV."
+            },
+            {
+              "numero": 11,
+              "texto": "Descrever os principais esquemas de tratamento para pacientes portadores de HIV."
+            },
+            {
+              "numero": 12,
+              "texto": "Descrever as indicações de profilaxia antirretroviral pós exposição ao HIV."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

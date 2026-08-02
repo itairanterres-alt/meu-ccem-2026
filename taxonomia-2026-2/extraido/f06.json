@@ -1,0 +1,521 @@
+{
+  "fase": 6,
+  "fase_slug": "f06",
+  "fonte": "Manual Docente 6ª fase 2026_2.docx.pdf",
+  "drive_file_id": "1fekwniinuTAZpneA4TpefIF64Ieuha8s",
+  "conteudo_truncado": false,
+  "observacoes": "A fase VI tem 3 Unidades Curriculares tutoriais (PBL) com Situacoes-Problema, todas extraidas aqui. IESC VI e Habilidades Profissionais VI aparecem no manual como cenarios de aprendizagem, com ementa e objetivos gerais, mas sem Situacoes-Problema; por isso nao constam em 'ucs'. Cargas horarias vieram da matriz curricular do manual (linha da fase VI): CHT 84 / 98 / 98 para as UCs I / II / III, sem CHP e sem CHE proprias (na fase, CHP 160 e CHE 120 pertencem a Habilidades Profissionais VI e IESC VI). Numeracao das SPs continua e sem lacunas (UC I: 1 a 4; UC II: 1 a 5; UC III: 1 a 5). O cabecalho da secao de SPs da UC III aparece no manual como 'FADIGA, PERDA DE PESO E ANEMIA' (singular), enquanto sumario, matriz curricular e ementa usam 'FADIGA, PERDA DE PESO E ANEMIAS'; adotou-se o plural. Na UC II a SP 3 traz o cabecalho 'OBJETIVOS DE APRENDIZAGEM' e as demais SPs trazem 'OBJETIVOS ESPECIFICOS' - em todos os casos e a mesma lista numerada de objetivos da SP. Os titulos das SPs tiveram apenas as aspas tipograficas do manual removidas; o texto dos OAs e literal, com quebras de linha do PDF reunidas em paragrafo unico.",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "Problemas Mentais e de Comportamento",
+      "ementa": "Funções e disfunções psíquicas. Principais síndromes e transtornos psiquiátricos. Atenção em saúde mental (serviços substitutivos). Influência dos fatores psicossociais como desencadeantes de problemas mentais e comportamentais. Aspectos morfofuncionais. Humanidades médicas e a compreensão crítica e reflexiva referente à saúde mental.",
+      "ch_teorica": 84,
+      "ch_pratica": null,
+      "ch_total": 84,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Memórias",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar a depressão como manifestação psicopatológica, identificando os mecanismos fisiopatológicos envolvidos na sua gênese e evolução."
+            },
+            {
+              "numero": 2,
+              "texto": "Explicar o processo diagnóstico das depressões, realizando o diagnóstico diferencial."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar os tipos clínicos de depressão e sua epidemiologia."
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar as complicações da depressão."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o tratamento medicamentoso da depressão: mecanismos de ação, usos terapêuticos e efeitos colaterais dos fármacos antidepressivos."
+            },
+            {
+              "numero": 6,
+              "texto": "Citar outras modalidades terapêuticas nas manifestações depressivas, explicitando os envolvidos no processo."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar o paciente potencialmente suicida."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever o luto fisiológico, suas fases, e diferenciá-lo daquele associado ao transtorno depressivo."
+            },
+            {
+              "numero": 9,
+              "texto": "Discutir a importância do vínculo familiar e social na conduta terapêutica desses pacientes."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Estou morrendo",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Identificar os principais transtornos de ansiedade."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar as manifestações clínicas, correlacionando-as com a fisiopatologia, o diagnóstico e os fatores desencadeantes dos principais tipos de transtornos de ansiedade."
+            },
+            {
+              "numero": 3,
+              "texto": "Reconhecer os diagnósticos diferenciais de quadros ansiosos."
+            },
+            {
+              "numero": 4,
+              "texto": "Discutir a complexidade do diagnóstico e do tratamento usual dos transtornos de ansiedade, gerando desnecessariamente custos ao sistema."
+            },
+            {
+              "numero": 5,
+              "texto": "Compreender o tratamento farmacológico dos transtornos de ansiedade."
+            },
+            {
+              "numero": 6,
+              "texto": "Justificar a importância de tratamentos não medicamentoso nos quadros ansiosos."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar as emergências psiquiátricas e seu encaminhamento no âmbito do SUS em seus níveis de atenção à saúde mental (CAPS, ambulatórios e outros)."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "A escolhida",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar fisiopatológica e clinicamente a esquizofrenia, valorizando o quadro clínico e os principais sintomas observados."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a “personalidade pré-mórbida”, no contexto das manifestações relacionadas à esquizofrenia, na história de vida do paciente."
+            },
+            {
+              "numero": 3,
+              "texto": "Analisar os tipos e a epidemiologia dos quadros psicóticos."
+            },
+            {
+              "numero": 4,
+              "texto": "Realizar os diagnósticos diferenciais das psicoses."
+            },
+            {
+              "numero": 5,
+              "texto": "Identificar os fármacos antipsicóticos, seu mecanismo de ação, usos terapêuticos e efeitos colaterais."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir outras formas de terapia não farmacológica para o tratamento das psicoses."
+            },
+            {
+              "numero": 7,
+              "texto": "Justificar a necessidade de psicoeducação da família de pacientes com distúrbios psicóticos."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Extremos",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar o transtorno bipolar, seus tipos (I e II) e sua história natural."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar as manifestações típicas dos episódios de mania e de depressão apresentados pelo paciente bipolar, realizando corretamente o diagnóstico diferencial com outras afecções mentais."
+            },
+            {
+              "numero": 3,
+              "texto": "Reconhecer a necessidade de encaminhamento de pacientes com transtorno bipolar para o psiquiatra."
+            },
+            {
+              "numero": 4,
+              "texto": "Discutir o tratamento medicamentoso dos transtornos bipolares, bem como outras opções terapêuticas adequadas."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar o papel da atenção primária em saúde frente a casos possíveis e iniciais de transtornos bipolares, realizando corretamente o encaminhamento do paciente."
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir a importância da participação familiar no tratamento dos casos de transtorno bipolar, bem como a atuação multiprofissional."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "Perda de Sangue",
+      "ementa": "Causas mais comuns de perda de sangue anormal, além da perda de sangue resultante de distúrbios homeostáticos. Aspectos psicossociais e morfofuncionais. Abordagem em saúde coletiva.",
+      "ch_teorica": 98,
+      "ch_pratica": null,
+      "ch_total": 98,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Se beber…",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar hemorragia, em traumatismos corporais abertos e fechados."
+            },
+            {
+              "numero": 2,
+              "texto": "Conceituar choque e discutir a sua classificação."
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar e classificar o choque hemorrágico quanto à sua epidemiologia e fisiopatologia, dando ênfase às manifestações decorrentes de fenômenos circulatórios compensatórios."
+            },
+            {
+              "numero": 4,
+              "texto": "Citar os parâmetros clínicos que auxiliam na identificação da gravidade do choque hemorrágico e sua relação com a reposição volêmica."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o tratamento de choque hemorrágico."
+            },
+            {
+              "numero": 6,
+              "texto": "Definir hemoderivados e como são empregados na prática clínica."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever os mecanismos vasculares envolvidos na formação e dissolução de coágulos, bem como sua manifestação clínica."
+            },
+            {
+              "numero": 8,
+              "texto": "Caracterizar o politraumatismo secundário a acidentes de trânsito quanto ao protocolo dedicado a guiar o primeiro atendimento na sala de estabilização (ATLS), à sua epidemiologia, aos custos para a sociedade, à faixa etária envolvida, assim como custos familiares, sequelas e responsabilidade no trânsito, de acordo com as normas legais."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Queda? Infarto?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Relacionar hipertensão arterial sistêmica, diabetes e dislipidemia com o desenvolvimento de placas de ateroma e suas possíveis complicações."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever como ocorre a formação do trombo arterial, quais os seus componentes e os fatores predisponentes."
+            },
+            {
+              "numero": 3,
+              "texto": "Explicar fisiopatologicamente as alterações clínicas do caso apresentado."
+            },
+            {
+              "numero": 4,
+              "texto": "Explicar a gênese de distúrbios hemostáticos relacionados a placas de ateroma."
+            },
+            {
+              "numero": 5,
+              "texto": "Diferenciar trombo e êmbolo."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar a importância e a indicação da realização da necropsia médico-legal nos casos semelhantes ao do paciente apresentado."
+            },
+            {
+              "numero": 7,
+              "texto": "Compreender a importância do desenvolvimento de competências clínicas e educativas do médico, para pacientes com doenças crônicas não transmissíveis (DCNT/OMS), especialmente as cardiovasculares, com vistas à redução da morbidade e da mortalidade."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Uma longa viagem",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar fisiopatologicamente os quadros de trombose venosa profunda."
+            },
+            {
+              "numero": 2,
+              "texto": "Identificar os elementos da cascata de coagulação, descrevendo as vias intrínseca e extrínseca da coagulação sanguínea."
+            },
+            {
+              "numero": 3,
+              "texto": "Explicar o papel da estase e de outros fatores envolvidos na ativação da cascata de coagulação."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar clínica e fisiopatologicamente a Trombose Venosa Profunda (TVP), incluindo seus fatores predisponentes e o papel dos exames laboratoriais e dos algoritmos que estudam o problema."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar, do ponto da fisiopatologia e do diagnóstico diferencial, o Tromboembolismo Pulmonar (TEP)."
+            },
+            {
+              "numero": 6,
+              "texto": "Compreender a correlação entre a TVP e o TEP, como componentes da Síndrome do Tromboembolismo Venoso (TEV), incluindo seus fatores causais comuns, bem como identificar seus principais fatores de risco e medidas preventivas."
+            },
+            {
+              "numero": 7,
+              "texto": "Identificar o tratamento do TEP, citando suas indicações e contra indicações mais importantes."
+            },
+            {
+              "numero": 8,
+              "texto": "Reconhecer o mecanismo de ação dos anticoagulantes injetáveis e orais, a importância do seu uso correto e os efeitos adversos."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Febres tropicais",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Explicar a fisiopatologia da púrpura nas doenças infecciosas."
+            },
+            {
+              "numero": 2,
+              "texto": "Explicar e diferenciar a fisiopatologia e a clínica dos choques hemorrágico, distributivo e séptico."
+            },
+            {
+              "numero": 3,
+              "texto": "Diferenciar, com fundamentos fisiopatológicos, o choque das doenças infecciosas daquele causado por outros fatores (anafilaxia, hipovolemia, dentre outros)."
+            },
+            {
+              "numero": 4,
+              "texto": "Discutir estratégias e medidas preventivas de dengue na comunidade e na Atenção Primária em Saúde."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Sangue, suor e lágrimas",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar as leucemias, relacionando sua prevalência com a faixa etária dos pacientes acometidos."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar as alterações dos exames laboratoriais relacionadas às leucoses."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever fisiopatologicamente os mecanismos pelos quais as leucoses podem interferir na coagulação sanguínea."
+            },
+            {
+              "numero": 4,
+              "texto": "Identificar as situações indicadoras de reposição com concentrado de plaquetas, a durabilidade funcional dessas e o cálculo da quantidade a ser infundida."
+            },
+            {
+              "numero": 5,
+              "texto": "Explicar a indicação do mielograma e os dados evidenciados por esse exame relacionados à coagulação."
+            },
+            {
+              "numero": 6,
+              "texto": "Valorizar a atuação multiprofissional no cuidado integral de pacientes como Matheus, bem como de seus pais."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "Fadiga, Perda de Peso e Anemias",
+      "ementa": "Principais deficiências nutricionais e processamento alterado de alimentos pelo corpo, em seus aspectos morfofuncionais e psicossociais. Avaliação do estado nutricional e da base da dietética. Bases do diagnóstico e tratamento dos principais quadros clínicos que dão origem à fadiga, perda de peso e anemias, em consonância ao SUS.",
+      "ch_teorica": 98,
+      "ch_pratica": null,
+      "ch_total": 98,
+      "ch_extensao": null,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Um idoso frágil",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir caquexia no paciente adulto."
+            },
+            {
+              "numero": 2,
+              "texto": "Reconhecer os principais processos consumptivos que acometem o ser humano, associando-os com fatores etiológicos relacionados à faixa etária, gênero e condição social, dentre outros."
+            },
+            {
+              "numero": 3,
+              "texto": "Relacionar as manifestações clínicas possíveis da síndrome da caquexia."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar o processo de diagnóstico diferencial da caquexia, utilizando-se de dados clínicos e de exames complementares."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever um algoritmo de investigação diagnóstica (utilizando a regra mnemônica dos “9 D’s”)."
+            },
+            {
+              "numero": 6,
+              "texto": "Compreender as medidas terapêuticas da caquexia."
+            },
+            {
+              "numero": 7,
+              "texto": "Conceituar a síndrome do idoso frágil e suas repercussões na qualidade de vida das pessoas susceptíveis."
+            },
+            {
+              "numero": 8,
+              "texto": "Reconhecer a importância da atuação multidisciplinar nas doenças consumptivas, bem como o papel dos grupos de pacientes no tratamento a longo prazo e na manutenção da qualidade de vida dos participantes."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Quem disse que emagrecer é bom?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Relacionar os sinais e sintomas do caso da SP com um distúrbio fisiopatológico da glândula tireóide (tireotoxicose)."
+            },
+            {
+              "numero": 2,
+              "texto": "Elaborar outros diagnósticos diferenciais possíveis das síndromes consumptivas relacionadas com o sistema endócrino."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever os exames complementares (laboratoriais e de imagem) que podem ser solicitados pelo médico, para diagnóstico da síndrome tireoidiana apresentada pela paciente e os resultados esperados, no caso apresentado."
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o tratamento indicado, especificando os mecanismos de ação dos medicamentos utilizados."
+            },
+            {
+              "numero": 5,
+              "texto": "Discutir a indicação de outras modalidades terapêuticas para a paciente (clínicas e cirúrgicas)."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Até quando?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Relacionar os sinais e sintomas sistêmicos secundários à evolução das doenças neoplásicas malignas."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar a perda de peso relacionada ao desenvolvimento de neoplasias malignas, do ponto de vista fisiopatológico."
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar os mecanismos envolvidos na perda do apetite em pacientes com câncer, sobretudo quando sob quimioterapia."
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar os exames complementares gerais a serem solicitados para um paciente com caquexia secundária a doenças neoplásicas, no âmbito do atendimento pelo generalista, bem como seus prováveis resultados."
+            },
+            {
+              "numero": 5,
+              "texto": "Definir cuidados paliativos e a oportunidade de indicação destes, envolvendo familiares e os demais membros da equipe de cuidados à saúde."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Triste realidade",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Relacionar processos consumptivos com dependência de substâncias químicas."
+            },
+            {
+              "numero": 2,
+              "texto": "Definir os diferentes graus de envolvimento de usuários com a droga: uso, abuso, dependência, abstinência e tolerância."
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever a fisiopatologia dos efeitos agudos e da dependência de substâncias químicas."
+            },
+            {
+              "numero": 4,
+              "texto": "Discutir os aspectos sociais envolvidos no caso das dependências de substâncias químicas, principalmente quando há complicações clínicas superpostas."
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever o quadro clínico e a epidemiologia da tuberculose pulmonar."
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar o tratamento da tuberculose no contexto do caso, explanando quais as estratégias que aumentam o sucesso terapêutico no SUS."
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever a transcendência da epidemia de drogas sob aspectos antropológicos e sociais."
+            },
+            {
+              "numero": 8,
+              "texto": "Reconhecer que as drogas inalatórias impõem riscos a outras doenças, como IST (infecções sexualmente transmissíveis) e hepatites virais, sendo de grande relevância em países em desenvolvimento."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "O que vem primeiro? A fadiga ou a anemia?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar o sintoma “fadiga” e realizar o diagnóstico diferencial de suas principais causas."
+            },
+            {
+              "numero": 2,
+              "texto": "Caracterizar as anemias, correlacionando hipóteses diagnósticas etiológicas com a investigação laboratorial."
+            },
+            {
+              "numero": 3,
+              "texto": "Conceituar abdome agudo e caracterizar situações de falso abdome agudo."
+            },
+            {
+              "numero": 4,
+              "texto": "Realizar o diagnóstico diferencial das anemias não carenciais."
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar fisiopatológica e clinicamente as manifestações da anemia falciforme."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever e correlacionar exames específicos para o estudo da hemoglobina."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar a importância do aconselhamento genético em doenças familiares e da atuação multiprofissional na condução de tais situações."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

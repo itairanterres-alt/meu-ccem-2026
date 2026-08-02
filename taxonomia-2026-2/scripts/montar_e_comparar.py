@@ -64,6 +64,17 @@ def carregar_extraido():
     return fases
 
 
+def num(v, ctx=""):
+    """Número da SP/OA. Os manuais imprimem os OAs como marcadores sem número,
+    então a extração ora devolve int, ora string ('3', '03', 'SP 3')."""
+    if isinstance(v, int):
+        return v
+    m = re.search(r"\d+", str(v or ""))
+    if not m:
+        raise ValueError(f"número ilegível{(' em ' + ctx) if ctx else ''}: {v!r}")
+    return int(m.group())
+
+
 def montar_banco(fases):
     """Converte a extração por fase no formato consumido pelas skills."""
     out = {
@@ -82,18 +93,22 @@ def montar_banco(fases):
         d = fases[fk]
         ucs = {}
         for uc in d["ucs"]:
-            ukey = f"uc{uc['uc_numero']:02d}"
+            # Habilidades Profissionais, IESC e TC aparecem no manual mas não têm
+            # SP; ficam fora, como já ficavam em 2026.1.
+            if not uc.get("sps"):
+                continue
+            ukey = f"uc{num(uc['uc_numero'], 'UC'):02d}"
             sps = {}
             for sp in uc["sps"]:
-                skey = f"sp{sp['numero']:02d}"
+                skey = f"sp{num(sp['numero'], 'SP'):02d}"
                 slug = f"med_unidavi_{fk}_{ukey}_{skey}"
                 sps[skey] = {
                     "slug": slug,
-                    "numero": sp["numero"],
+                    "numero": num(sp["numero"], "SP"),
                     "titulo": sp["titulo"],
                     "objetivos_aprendizagem": [
-                        {"slug": f"{slug}_oa{o['numero']:02d}",
-                         "numero": o["numero"], "texto": o["texto"]}
+                        {"slug": f"{slug}_oa{num(o['numero'], slug):02d}",
+                         "numero": num(o["numero"], slug), "texto": o["texto"]}
                         for o in sp.get("objetivos_aprendizagem", [])
                     ],
                 }
@@ -102,6 +117,65 @@ def montar_banco(fases):
             ucs[ukey] = {"sps": sps}
         out["fases"][fk] = ucs
     return out
+
+
+def indexar_oas(banco):
+    """Todos os OAs do banco, achatados, para busca por TEXTO.
+
+    Necessário porque a fase 3 mostrou o caso que quebra a comparação por
+    posição: 14 SPs viraram 12, NENHUM título sobreviveu, e ainda assim 41 dos
+    103 OAs têm texto idêntico a 2026.1 — foram redistribuídos entre casos
+    novos. Comparar OA só dentro de par de SP casada não enxergaria nada disso,
+    e concluiria "tudo novo" quando na verdade há reaproveitamento amplo.
+
+    É por texto que a questão migra, não por código.
+    """
+    idx = []
+    for fk, f in banco["fases"].items():
+        for uk, uc in f.items():
+            for sk, sp in uc["sps"].items():
+                for o in sp["objetivos_aprendizagem"]:
+                    idx.append({"slug": o["slug"], "texto": o["texto"],
+                                "fase": fk, "uc": uk, "sp_slug": sp["slug"],
+                                "sp_titulo": sp["titulo"], "norm": norm(o["texto"])})
+    return idx
+
+
+def equivalencias_por_texto(novo, velho):
+    """Para cada OA de 2026.2, onde o mesmo texto vivia em 2026.1 — em qualquer SP."""
+    vidx = indexar_oas(velho)
+    por_norm = {}
+    for v in vidx:
+        por_norm.setdefault(v["norm"], []).append(v)
+
+    linhas = []
+    for n in indexar_oas(novo):
+        exatos = por_norm.get(n["norm"], [])
+        if exatos:
+            v, escore = exatos[0], 1.0
+        else:
+            v, escore = None, 0.0
+            for cand in vidx:
+                s = sim(n["texto"], cand["texto"])
+                if s > escore:
+                    v, escore = cand, s
+            if escore < 0.85:
+                v = None
+        linhas.append({
+            "slug_2026_2": n["slug"],
+            "sp_2026_2": n["sp_slug"],
+            "titulo_sp_2026_2": n["sp_titulo"],
+            "texto": n["texto"],
+            "equivalente_2026_1": v["slug"] if v else None,
+            "sp_2026_1": v["sp_slug"] if v else None,
+            "titulo_sp_2026_1": v["sp_titulo"] if v else None,
+            "similaridade": round(escore, 3),
+            "mudou_de_sp": bool(v and v["sp_slug"].split("_sp")[0] != n["sp_slug"].split("_sp")[0]
+                                or (v and v["sp_slug"] != n["sp_slug"])),
+            "veredito": ("identico" if escore >= 0.995 else
+                         "reescrito" if v else "novo"),
+        })
+    return linhas
 
 
 def comparar(novo, velho):
@@ -130,7 +204,7 @@ def comparar(novo, velho):
                     else:
                         veredito, par = "nova", None
                 if par:
-                    usados.add(f"sp{par['numero']:02d}")
+                    usados.add(f"sp{num(par['numero'], 'SP'):02d}")
 
                 oas = []
                 if par:
@@ -217,9 +291,14 @@ def main():
           f"{sum(len(f) for f in velho['fases'].values())} UCs | {vsp} SPs | {voa} OAs")
 
     mapa = comparar(banco, velho)
+    equiv = equivalencias_por_texto(banco, velho)
     json.dump({"gerado_em": "2026-08-02", "de": "2026.1", "para": "2026.2",
                "limiar_similaridade_titulo": LIMIAR_REESCRITA,
-               "sps": mapa}, open(OUT_MAPA, "w"), ensure_ascii=False, indent=2)
+               "nota": ("`sps` compara por posição; `oas_por_texto` casa cada OA "
+                        "de 2026.2 com o mesmo texto em QUALQUER SP de 2026.1. "
+                        "Quando a fase é reescrita, só a segunda tabela serve."),
+               "sps": mapa, "oas_por_texto": equiv},
+              open(OUT_MAPA, "w"), ensure_ascii=False, indent=2)
 
     print("\n=== VEREDITO DAS SPs ===")
     for k, v in Counter(l["veredito_sp"] for l in mapa).most_common():
@@ -238,6 +317,15 @@ def main():
     print(f"  OAs deslocados (slug antigo resolve para outro OA): {len(desloc)}")
     seguro = sum(1 for l in mapa if l["reaproveitar_slug_antigo"])
     print(f"\n  SPs cujo slug pode ser reaproveitado sem revisão: {seguro}/{len(mapa)}")
+
+    print("\n=== CASAMENTO DE OA POR TEXTO (rota real de migração) ===")
+    for k, v in Counter(e["veredito"] for e in equiv).most_common():
+        print(f"  {k:<12} {v}")
+    migrou = [e for e in equiv if e["equivalente_2026_1"] and e["mudou_de_sp"]]
+    print(f"  OAs que sobreviveram mas MUDARAM de SP: {len(migrou)}")
+    print("    (é aqui que a questão precisa ser reancorada, não descartada)")
+    for e in migrou[:8]:
+        print(f"    {e['sp_2026_1']} -> {e['sp_2026_2']}  {e['texto'][:56]}")
     print(f"\nGravado: {OUT_BANCO}\n         {OUT_MAPA}")
 
 

@@ -1,0 +1,537 @@
+{
+  "fase": 8,
+  "fase_slug": "f08",
+  "fonte": "Manual Docente 8ª fase 2026_2.docx.pdf",
+  "drive_file_id": "12gwui4Ng_6vJC3VpiHZKKw0ZuaL4kWJB",
+  "conteudo_truncado": false,
+  "observacoes": "Extração feita a partir do PDF completo (139 páginas) baixado via download_file_content e processado localmente com pdfplumber; a leitura direta via read_file_content veio truncada na página 80 (UC 2, SP 2) e não foi usada como fonte final. Numeração das SPs sem lacunas (UC1: 1-5, UC2: 1-5, UC3: 1-4). Os OAs aparecem no manual como marcadores (●) sob o título 'OBJETIVOS ESPECÍFICOS' de cada SP, sem numeração impressa; os números foram atribuídos sequencialmente na ordem de impressão. Em UC3/SP2 o segundo OA traz sub-itens marcados com '➢' no manual; eles foram mantidos literalmente dentro do texto do OA, achatados em uma linha. Títulos das SPs transcritos do cabeçalho no corpo do manual, com as aspas tipográficas removidas; o sumário grafa a SP 2 da UC1 como 'Parada obrigatória' e o corpo como 'Parada Obrigatória' (adotado o corpo). Cargas horárias extraídas da matriz curricular (linha da VIII Fase, colunas CHT/CHP/Total/CHE): as três UCs tutoriais são integralmente teóricas e sem extensão; os valores divergem dos registrados na taxonomia 2026.1 (que trazia 108/126/126). O manual não numera OAs nem repete a ementa dentro das unidades; as ementas vêm da seção 'UNIDADES CURRICULARES – TUTORIAIS E CONFERÊNCIAS'.",
+  "ucs": [
+    {
+      "uc_numero": 1,
+      "nome_oficial": "Emergências",
+      "ementa": "Solução de problemas em saúde e técnicas necessárias em situações de urgências e emergências.",
+      "ch_teorica": 68,
+      "ch_pratica": 0,
+      "ch_total": 68,
+      "ch_extensao": 0,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Com a mão no coração",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever os mecanismos fisiopatológicos que estão envolvidos nos quadros de síndromes coronarianas agudas: os fatores de risco, etiológicos e agravantes;"
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever o quadro clínico habitual do infarto agudo do miocárdio e os algoritmos de diagnóstico e tratamento de emergência;"
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar as complicações hemodinâmicas decorrentes do IAM e relacioná-las com as situações de emergência geradas por elas;"
+            },
+            {
+              "numero": 4,
+              "texto": "Diagnosticar e tratar corretamente as alterações do ritmo cardíaco nas emergências coronarianas;"
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever a farmacologia das drogas citadas no texto, justificando a sua utilização."
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever as medidas preventivas da isquemia miocárdica, bem como as de reabilitação após a síndrome de obstrução coronariana aguda."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Parada Obrigatória",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "O que diferencia uma urgência hipertensiva e emergência hipertensiva?"
+            },
+            {
+              "numero": 2,
+              "texto": "Quais achados da história, exame físico e exames complementares corroboram para o diagnóstico de encefalopatia hipertensiva?"
+            },
+            {
+              "numero": 3,
+              "texto": "Quais os principais diagnósticos diferenciais para este caso?"
+            },
+            {
+              "numero": 4,
+              "texto": "De forma geral, quais as principais diferenças no manejo de uma urgência hipertensiva e de uma emergência hipertensiva?"
+            },
+            {
+              "numero": 5,
+              "texto": "Como o paciente do caso deve ser manejado?"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Moto é muito perigoso",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Compreender a importância das lesões causadas por veículos automotores, sua repercussão sobre a sociedade e sistema de saúde, assim como sua abordagem terapêutica;"
+            },
+            {
+              "numero": 2,
+              "texto": "Reconhecer os aspectos epidemiológicos do trauma;"
+            },
+            {
+              "numero": 3,
+              "texto": "Conhecer o conceito de distribuição trimodal do trauma;"
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar e explicar as etapas para atendimento pré-hospitalar do paciente traumatizado; PHTLS;"
+            },
+            {
+              "numero": 5,
+              "texto": "Relacionar e explicar as etapas para avaliação do paciente traumatizado em sua entrada no PS; ATLS;"
+            },
+            {
+              "numero": 6,
+              "texto": "Caracterizar os aspectos semiológicos, clínicos e terapêuticos dos quadros hipotensivos, associando os processos fisiopatológicos que resultam em choque e parada cardiorrespiratória."
+            },
+            {
+              "numero": 7,
+              "texto": "Caracterizar transfusão maciça de hemoderivados e suas consequências."
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever a fisiopatologia e o tratamento da CIVD, compreendendo sua elevada letalidade."
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar as políticas públicas de regulação de vagas e de desencadeamento de remoção (SAMU e Resgate)."
+            },
+            {
+              "numero": 10,
+              "texto": "Reconhecer os aspectos legais e a importância do boletim de ocorrência policial nas unidades de emergência."
+            },
+            {
+              "numero": 11,
+              "texto": "Reconhecer os aspectos legais e a importância do encaminhamento para o IML e SVO."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "É só um resfriado?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer a pneumonia como uma urgência pediátrica importante e compreender os protocolos e diretrizes para a abordagem de urgência em crianças."
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever os passos iniciais de atendimento a uma criança em estado grave e agudo; PALS (Pediatric Advanced Life Support);"
+            },
+            {
+              "numero": 3,
+              "texto": "Reconhecer os sinais precoces de choque séptico no paciente pediátrico, ressaltando suas peculiaridades, em comparação com o choque no paciente adulto;"
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever o protocolo de atendimento ao choque no paciente pediátrico;"
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever os mecanismos de formação dos derrames pleurais;"
+            },
+            {
+              "numero": 6,
+              "texto": "Diferenciar exsudato de transudato;"
+            },
+            {
+              "numero": 7,
+              "texto": "Nomear os agentes etiológicos mais comuns de derrame pleural na faixa etária pediátrica;"
+            },
+            {
+              "numero": 8,
+              "texto": "Descrever o mecanismo de ação dos fármacos citados no texto, justificando a sua utilização;"
+            },
+            {
+              "numero": 9,
+              "texto": "Justificar a importância da análise do líquido pleural;"
+            },
+            {
+              "numero": 10,
+              "texto": "Explicar a escolha de antibioticoterapia empírica e discutir resistência antimicrobiana."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Mãe e bebê passam bem?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Descrever clínica e fisiopatologicamente a pré-eclâmpsia e a eclâmpsia;"
+            },
+            {
+              "numero": 2,
+              "texto": "Citar a correlação de morbi-mortalidade materna e fetal associada à pré-eclâmpsia;"
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever o fluxo de atendimento de pacientes com doenças hipertensivas e suas complicações;"
+            },
+            {
+              "numero": 4,
+              "texto": "Reconhecer as principais complicações associadas à hipertensão na gestação (descolamento prematuro de placenta, restrição de crescimento fetal intrauterino, convulsões, AVE, IRA, hematomas, entre outros);"
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar a síndrome Hellp, descrevendo seu mecanismo fisiopatológico, evolução e complicações;"
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever os principais fármacos utilizados atualmente para acompanhamento dos casos de hipertensão na gestação (ex.: sulfato de magnésio, hidralazina, alfametildopa, anlodipino, AAS, carbonato de cálcio e etc) justificando a sua utilização."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 2,
+      "nome_oficial": "Desordens Nutricionais e Metabólicas",
+      "ementa": "Problemas de origem nutricional e metabólica a partir da história clínica aprofundada e dirigida, do exame físico geral e específico e da interpretação de exames subsidiários. Solicitação de exames. Cuidado ao paciente, de acordo com os aspectos psicossociais e em consonância ao SUS. Aspectos morfofuncionais.",
+      "ch_teorica": 68,
+      "ch_pratica": 0,
+      "ch_total": 68,
+      "ch_extensao": 0,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Infância feliz",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar os mecanismos de manutenção do equilíbrio hidroeletrolítico e ácido-básico do organismo;"
+            },
+            {
+              "numero": 2,
+              "texto": "Relacionar distúrbios metabólicos como causa de distúrbios hidroelectrolíticos e ácido-básicos;"
+            },
+            {
+              "numero": 3,
+              "texto": "Identificar os critérios diagnósticos (laboratoriais e clínicos) para diabetes mellitus;"
+            },
+            {
+              "numero": 4,
+              "texto": "Caracterizar as alterações metabólicas presentes nos pacientes com os diferentes tipos de diabetes mellitus;"
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever as complicações a curto e a longo prazos do diabetes mellitus;"
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever a epidemiologia, quadro clínico, história natural, diagnóstico, diagnóstico diferencial e tratamento da cetoacidose diabética;"
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever os tipos de insulina e suas características farmacológicas;"
+            },
+            {
+              "numero": 8,
+              "texto": "Identificar o programa do SUS para orientação, controle e apoio ao paciente diabético;"
+            },
+            {
+              "numero": 9,
+              "texto": "Identificar a necessidade de conscientização junto ao paciente diabético e de seus familiares quanto ao controle da doença."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Até a última gota!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar e definir os critérios diagnósticos da síndrome metabólica (SM);"
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever os processos desencadeantes e a fisiopatologia da SM;"
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever a evolução da disfunção, citando as consequências para o organismo das principais doenças relacionadas à evolução da SM;"
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar o estilo de vida com o aparecimento de distúrbios nutricionais e metabólicos;"
+            },
+            {
+              "numero": 5,
+              "texto": "Caracterizar a gota, correlacionando os hábitos de vida e a alimentação com sua ocorrência;"
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir o tratamento e prevenção da SM, em seus aspectos medicamentosos, nutricionais e relativos ao estilo de vida do paciente;"
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever a farmacologia dos medicamentos citados no problema."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Cólicas mais stress",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Conceituar a síndrome do intestino curto, discutindo seu diagnóstico diferencial etiológico mais significativo;"
+            },
+            {
+              "numero": 2,
+              "texto": "Definir síndrome de má absorção (SMA) tomando como modelo a doença de Crohn e seu tratamento cirúrgico;"
+            },
+            {
+              "numero": 3,
+              "texto": "Caracterizar as manifestações clínicas que conduzem à hipótese diagnóstica de síndrome de má absorção;"
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar as manifestações clínicas da SMA com a sua fisiopatologia;"
+            },
+            {
+              "numero": 5,
+              "texto": "Discutir a propedêutica armada para a investigação da SMA;"
+            },
+            {
+              "numero": 6,
+              "texto": "Relacionar as alterações laboratoriais, imagenológicas e anatomopatológicas com a SMA;"
+            },
+            {
+              "numero": 7,
+              "texto": "Explicar a necessidade de dieta e reeducação alimentar nos casos de SMA;"
+            },
+            {
+              "numero": 8,
+              "texto": "Correlacionar a cirurgia de redução intestinal com a má absorção intestinal e as alterações metabólicas dela decorrente;"
+            },
+            {
+              "numero": 9,
+              "texto": "Discutir sobre a influência do meio e da qualidade de vida na etiologia e agravamento das doenças inflamatórias intestinais, enfatizando a necessidade do cuidado integral dos pacientes."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Deixa eu me esconder aqui",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Definir desnutrição, caracterizando as situações de subnutrição e obesidade;"
+            },
+            {
+              "numero": 2,
+              "texto": "Reconhecer a importância da educação alimentar como prevenção dos distúrbios nutricionais e metabólicos;"
+            },
+            {
+              "numero": 3,
+              "texto": "Discutir os aspectos epidemiológicos e o processo de diagnóstico da obesidade nas crianças;"
+            },
+            {
+              "numero": 4,
+              "texto": "Citar os critérios clínicos e antropométricos de avaliação de obesidade na infância (Curvas de crescimento, IMC, circunferência abdominal);"
+            },
+            {
+              "numero": 5,
+              "texto": "Descrever uma dieta saudável e os erros alimentares;"
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever as complicações médicas da obesidade;"
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever os aspectos psicossociais envolvidos (autoestima, bullying etc.);"
+            },
+            {
+              "numero": 8,
+              "texto": "Discutir o tratamento multidisciplinar da obesidade infantil (dieta e exercícios sob orientação profissional adequados);"
+            },
+            {
+              "numero": 9,
+              "texto": "Descrever a prevenção e tratamento da obesidade como medidas de saúde pública;"
+            },
+            {
+              "numero": 10,
+              "texto": "Discutir medidas voltadas para o reconhecimento e a prevenção do bullying por educadores."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Olha o meu pezinho!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Caracterizar os mecanismos de manutenção do equilíbrio hidroeletrolítico do organismo; Identificar as causas dos distúrbios hidroeletrolíticos e como elas atuam alterando este equilíbrio;"
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever a produção de esteroides pelas adrenais e as suas repercussões metabólicas e nutricionais;"
+            },
+            {
+              "numero": 3,
+              "texto": "Descrever as vias de biossíntese dos esteroides no córtex adrenal, associando as vias mineralocorticoide e glicocorticoide com a homeostase corporal;"
+            },
+            {
+              "numero": 4,
+              "texto": "Descrever a hiperplasia adrenal congênita: a sua epidemiologia, tipos, quadro clínico, diagnóstico e tratamento;"
+            },
+            {
+              "numero": 5,
+              "texto": "Explicar o diagnóstico diferencial entre síndrome séptica e crise adrenal;"
+            },
+            {
+              "numero": 6,
+              "texto": "Descrever a classificação, o mecanismo de ação e espectro da oxacilina e amicacina;"
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever as características farmacológicas da hidrocortisona e fludrocortisona e suas indicações no tratamento da hiperplasia congênita de suprarrenal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uc_numero": 3,
+      "nome_oficial": "Manifestações Externas das Doenças e Iatrogenias",
+      "ementa": "Etiologia, diagnóstico e tratamento de problemas comuns de pele no contexto do SUS. Fatores físicos e psicológicos que afetam a aparência geral da pele de uma pessoa e derivativos da pele em especial. Aspectos morfofuncionais.",
+      "ch_teorica": 60,
+      "ch_pratica": 0,
+      "ch_total": 60,
+      "ch_extensao": 0,
+      "sps": [
+        {
+          "numero": 1,
+          "titulo": "Quando eu quiser parar, eu paro!",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Explicar como distúrbios metabólicos podem levar a alterações cutâneas;"
+            },
+            {
+              "numero": 2,
+              "texto": "Relacionar as manifestações clínicas da evolução das hepatopatias com as manifestações cutâneas;"
+            },
+            {
+              "numero": 3,
+              "texto": "Classificar e descrever a fisiopatologia das icterícias;"
+            },
+            {
+              "numero": 4,
+              "texto": "Relacionar os achados clínicos do caso apresentado com a fisiopatologia da hepatopatia alcoólica (ginecomastia, edema, telangectasias, equimoses, alterações abdominais etc);"
+            },
+            {
+              "numero": 5,
+              "texto": "Explicar fatores de piora da função hepática em pacientes cirróticos (ex.: hepatocarcinoma);"
+            },
+            {
+              "numero": 6,
+              "texto": "Discutir a relação médico-paciente envolvendo equipe multiprofissional (psicologia, serviço social) no tratamento do alcoolismo;"
+            },
+            {
+              "numero": 7,
+              "texto": "Descrever o impacto da hepatopatia alcoólica na vida do cidadão, da família, da sociedade e no serviço público de saúde (SUS)."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Preconceito e saúde",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Correlacionar a ocorrência de lesões cutâneas com doenças infecciosas sistêmicas, tomando como modelo a hanseníase;"
+            },
+            {
+              "numero": 2,
+              "texto": "Descrever, em relação à hanseníase: ➢ diagnósticos diferenciais (pitiríase, eczemátide e lúpus, dentre outras); ➢ dados epidemiológicos internacionais e nacionais; ➢ formas de manifestação clínica; ➢ classificações clínicas e baciloscópica; ➢ comprometimentos sistêmicos; ➢ protocolos e indicações de tratamento, incluindo a farmacologia da rifampicina, da dapsona e da clofazimina; ➢ formas de prevenção; ➢ compulsoriedade da notificação; ➢ aspectos sócio psicológicos relacionados ao estigma da doença; ➢ relacionar os desafios do SUS para o controle da hanseníase."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Catapora? Não lembro",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Reconhecer as diversas relações entre um agente infeccioso e o ser humano, incluindo a da tolerância, por longos períodos de tempo;"
+            },
+            {
+              "numero": 2,
+              "texto": "Correlacionar os fatores que resultam em queda da imunidade com o reaparecimento de doenças, ocasionalmente com apresentações clínicas diferentes do original;"
+            },
+            {
+              "numero": 3,
+              "texto": "Correlacionar dados epidemiológicos de herpes zóster com a população acometida;"
+            },
+            {
+              "numero": 4,
+              "texto": "Realizar o diagnóstico diferencial das lesões causadas pelo herpes zóster;"
+            },
+            {
+              "numero": 5,
+              "texto": "Reconhecer as formas de prevenção, inclusive vacina;"
+            },
+            {
+              "numero": 6,
+              "texto": "Diagnosticar e tratar adequadamente as consequências do herpes zóster, destacando-se a neurite pós-herpética."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Precisa internar?",
+          "sem_oas_no_manual": false,
+          "objetivos_aprendizagem": [
+            {
+              "numero": 1,
+              "texto": "Discutir como a prática médica pode desencadear complicações e até o óbito dos pacientes;"
+            },
+            {
+              "numero": 2,
+              "texto": "Correlacionar com prevenção quaternária"
+            },
+            {
+              "numero": 3,
+              "texto": "Correlacionar procedimentos de magnitude maior do que o necessário, para a evolução desfavorável de pacientes;"
+            },
+            {
+              "numero": 4,
+              "texto": "Valorizar a pesquisa de estudos baseados em evidências na conduta de pacientes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
