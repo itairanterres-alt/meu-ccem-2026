@@ -45,6 +45,15 @@ def main():
                                     if p.get("imagem_status") == "ausente_na_origem"),
         "com_justificativa_oficial_na_origem": sum(
             1 for p in proc if p.get("justificativa_oficial_fonte")),
+        # Distinção que importa para a curadoria: a maior parte do banco tem
+        # gabarito OFICIAL da prova de origem. Os itens adaptados são autorais —
+        # o original serviu de referência de conteúdo e não tinha chave oficial,
+        # então a resposta é responsabilidade de quem escreveu o item novo.
+        "itens_adaptados_autorais": sum(1 for p in proc if p.get("item_adaptado")),
+        "com_gabarito_oficial_da_origem": sum(1 for p in proc
+                                              if not p.get("item_adaptado")),
+        "adaptados_que_corrigiram_defeito": sum(
+            1 for p in proc if p.get("defeito_corrigido_na_adaptacao")),
     }
     json.dump(stats, open(STATS, "w"), ensure_ascii=False, indent=2)
 
