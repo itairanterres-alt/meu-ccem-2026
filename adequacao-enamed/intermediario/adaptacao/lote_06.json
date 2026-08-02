@@ -60,7 +60,7 @@
     "dificuldade_editorial": "medio",
     "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
     "tags": ["imunizacao", "imunossupressao", "corticoterapia", "doenca_inflamatoria_intestinal", "prevencao"],
-    "texto_base": "Homem de 58 anos com retocolite ulcerativa de atividade moderada a grave iniciará prednisona 40 mg por dia, com previsão de manutenção por pelo menos seis semanas, seguida de azatioprina. Ele nunca teve varicela, não guarda registro das doses recebidas na vida adulta e mora em município sem circulação atual de febre amarela. Na consulta ambulatorial, pergunta o que ainda pode ser aplicado depois de começada a medicação.",
+    "texto_base": "Homem de 58 anos com retocolite ulcerativa de atividade moderada a grave iniciará prednisona 40 mg por dia, que deverá ser mantida durante seis semanas ou mais, seguida de azatioprina. Ele nunca teve varicela, não guarda registro das doses recebidas na vida adulta e mora em município sem circulação atual de febre amarela. Na consulta ambulatorial, pergunta o que ainda pode ser aplicado depois de começada a medicação.",
     "enunciado": "Considerando as recomendações vigentes de imunização para pessoas sob imunossupressão medicamentosa, qual imunizante pode ser administrado com segurança a esse paciente durante o uso do corticoide em dose imunossupressora?",
     "alternativas": [
       {
@@ -112,14 +112,14 @@
     "dificuldade_editorial": "dificil",
     "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
     "tags": ["gasometria", "anion_gap", "acidose_metabolica", "acidose_respiratoria", "sepse"],
-    "texto_base": "Homem de 59 anos, obeso, com síndrome de hipoventilação da obesidade, é admitido em terapia intensiva por pneumonia extensa em base direita e choque séptico. Encontra-se torporoso, com uso de musculatura acessória e tempo de enchimento capilar de 5 segundos. A gasometria arterial e os eletrólitos colhidos na chegada mostram: pH 7,13; pCO2 50 mmHg; pO2 54 mmHg; bicarbonato 16 mmol/L; sódio 138 mmol/L; cloro 102 mmol/L; albumina 4,0 g/dL; lactato 6,8 mmol/L.",
+    "texto_base": "Homem de 59 anos, obeso, com síndrome de hipoventilação da obesidade, é admitido em terapia intensiva por pneumonia extensa em base direita e choque séptico. Encontra-se torporoso, com uso de musculatura acessória e tempo de enchimento capilar de 5 segundos. A gasometria arterial e os eletrólitos colhidos na chegada mostram: pH 7,13; pCO2 50 mmHg; pO2 54 mmHg; bicarbonato 16 mmol/L; sódio 138 mmol/L; cloro 102 mmol/L; albumina sérica 4,3 g/dL; lactato 6,8 mmol/L.",
     "enunciado": "Empregando a equação de Henderson-Hasselbalch e o cálculo do ânion gap, qual é a interpretação acidobásica completa desse caso?",
     "alternativas": [
       {
         "letra": "A",
         "texto": "Acidose metabólica com ânion gap aumentado somada a acidose respiratória.",
         "correta": true,
-        "justificativa": "Correta. O ânion gap é de 20 mEq/L (138 menos 102 menos 16), portanto elevado, e a albumina normal dispensa correção; a variação do gap acompanha a queda do bicarbonato, o que indica acidose orgânica pura, aqui por hiperlactatemia. Pela fórmula de Winter, a pCO2 esperada seria próxima de 32 mmHg: encontrar 50 mmHg revela retenção de gás carbônico e, portanto, acidose respiratória associada, coerente com a hipoventilação."
+        "justificativa": "Correta. O ânion gap é de 20 mEq/L (138 menos 102 menos 16), portanto elevado, e a albumina praticamente normal dispensa correção relevante; a variação do gap acompanha a queda do bicarbonato, o que indica acidose orgânica pura, aqui por hiperlactatemia. Pela fórmula de Winter, a pCO2 esperada seria próxima de 32 mmHg: encontrar 50 mmHg revela retenção de gás carbônico e, portanto, acidose respiratória associada, coerente com a hipoventilação."
       },
       {
         "letra": "B",
@@ -217,7 +217,7 @@
     "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_18", "dcn2025_comp_25"],
     "tags": ["stewardship", "hemocultura", "pielonefrite", "enterobacterales", "uso_racional_de_antimicrobianos"],
     "texto_base": "Mulher de 59 anos, diabética tipo 2, está internada há 48 horas por pielonefrite aguda à direita. Na admissão apresentava temperatura de 39,1 °C, frequência cardíaca de 118 bpm e pressão arterial de 86/50 mmHg, com boa resposta à expansão volêmica; a ultrassonografia não mostrou dilatação de vias urinárias, abscessos ou cálculos. Foi iniciada terapia empírica com piperacilina-tazobactam e vancomicina. Hoje está afebril há mais de 24 horas, sem vasopressor, aceitando dieta por via oral, e o único dispositivo é um cateter venoso periférico; não é imunossuprimida. O laboratório comunica que os dois pares de hemoculturas colhidos na admissão apresentam crescimento de bacilos gram-negativos, ainda sem identificação de espécie nem antibiograma. A urocultura confirmou o mesmo morfotipo.",
-    "enunciado": "Com base nas evidências atuais sobre bacteremia por Enterobacterales e nos princípios de uso racional de antimicrobianos, qual é a conduta mais adequada neste momento?",
+    "enunciado": "Com base nas evidências atuais sobre bacteremia por Enterobacterales e nos princípios de uso racional de antimicrobianos, que decisão terapêutica deve ser tomada agora?",
     "alternativas": [
       {
         "letra": "A",
