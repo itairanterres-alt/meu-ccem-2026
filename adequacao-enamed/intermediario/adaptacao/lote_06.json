@@ -1,0 +1,626 @@
+[
+  {
+    "id_origem": "enamed_simulado_2026_1_q063",
+    "tema": "Acidente vascular cerebral isquêmico agudo",
+    "subtema": "Complicação hemorrágica durante a trombólise endovenosa",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["avc_isquemico", "alteplase", "hemorragia_intracraniana", "seguranca_do_paciente", "neurologia_de_urgencia"],
+    "texto_base": "Homem de 59 anos, hipertenso e portador de fibrilação atrial sem anticoagulação, chega ao pronto-socorro 1 hora e 40 minutos após o início súbito de disartria e fraqueza no dimídio esquerdo. A pontuação na escala de acidente vascular cerebral do National Institutes of Health é 9. A tomografia sem contraste realizada na admissão não evidenciou sangramento nem hipodensidade extensa; a glicemia capilar e os níveis pressóricos estavam dentro das faixas exigidas para fibrinólise, e não havia contraindicação identificada. O alteplase endovenoso foi iniciado 2 horas e 10 minutos após o ictus. Decorridos 25 minutos do começo da infusão, o paciente refere cefaleia holocraniana de instalação abrupta, vomita em jato e torna-se sonolento; a pressão arterial sobe para 208/112 mmHg e a pontuação na escala neurológica passa a 19.",
+    "enunciado": "Diante dessa deterioração ocorrida durante a infusão do fibrinolítico, qual é a conduta imediata mais apropriada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Interromper de imediato o gotejamento do fibrinolítico, obter nova tomografia de crânio sem contraste em caráter emergencial e, confirmado sangramento, repor crioprecipitado ou concentrado de fibrinogênio, associar antifibrinolítico e controlar a pressão arterial.",
+        "correta": true,
+        "justificativa": "Correta. Cefaleia súbita, vômitos, rebaixamento de consciência, pico hipertensivo e piora de pelo menos quatro pontos na escala neurológica durante a infusão configuram suspeita de hemorragia intracraniana sintomática. A sequência padronizada é suspender a droga, obter neuroimagem urgente e, havendo sangramento, reverter a coagulopatia induzida com crioprecipitado ou fibrinogênio e antifibrinolítico, além de manejar a pressão e acionar a neurocirurgia."
+      },
+      {
+        "letra": "B",
+        "texto": "Completar a dose calculada da medicação, uma vez que a piora nesse intervalo costuma refletir apenas edema citotóxico, e repetir a neuroimagem no dia seguinte.",
+        "correta": false,
+        "justificativa": "Incorreta. Prosseguir com o fibrinolítico diante de suspeita de sangramento amplia o hematoma e a mortalidade. A tomografia de controle após 24 horas é rotina apenas quando a evolução é favorável e jamais substitui a investigação imediata de uma deterioração neurológica aguda."
+      },
+      {
+        "letra": "C",
+        "texto": "Prescrever dose de ataque de ácido acetilsalicílico e de clopidogrel para prevenir retrombose e programar exame de imagem ao fim do plantão.",
+        "correta": false,
+        "justificativa": "Incorreta. Antiagregantes são proscritos nas primeiras 24 horas após a fibrinólise e, na vigência de sangramento, agravam o quadro. Postergar a neuroimagem retarda a única decisão capaz de mudar o desfecho neste momento."
+      },
+      {
+        "letra": "D",
+        "texto": "Substituir o alteplase por tenecteplase em bolus e solicitar ressonância magnética com estudo de perfusão para esclarecer a piora.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe indicação de trocar um fibrinolítico por outro no meio da infusão, e a ressonância é menos disponível e mais demorada que a tomografia sem contraste, que já responde à pergunta clínica decisiva: há ou não sangramento."
+      }
+    ],
+    "especialidade": "emergencias_neurologicas",
+    "especialidade_secundaria": "neurologia",
+    "objeto_conhecimento": "Reconhecimento e manejo da hemorragia intracraniana sintomática associada à trombólise no AVC isquêmico",
+    "sistema_organico": "nervoso",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Emergência neurológica não traumática atendida na rede de urgência: exige reconhecer a complicação do tratamento e reformular o plano terapêutico com segurança do paciente."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto de conhecimento (conduta na deterioração neurológica durante infusão de alteplase), com paciente, sexo, idade, comorbidade, tempos de porta-agulha, pontuações da escala e evolução inteiramente novos. Alternativas redigidas do zero, com a correta detalhando a reversão específica (crioprecipitado/fibrinogênio e antifibrinolítico), o que o item original não explicitava. Correta posicionada em A conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q064",
+    "tema": "Imunização em pessoas imunossuprimidas",
+    "subtema": "Vacinas vivas atenuadas versus inativadas sob corticoterapia em dose imunossupressora",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_20"],
+    "tags": ["imunizacao", "imunossupressao", "corticoterapia", "doenca_inflamatoria_intestinal", "prevencao"],
+    "texto_base": "Homem de 58 anos com retocolite ulcerativa de atividade moderada a grave iniciará prednisona 40 mg por dia, com previsão de manutenção por pelo menos seis semanas, seguida de azatioprina. Ele nunca teve varicela, não guarda registro das doses recebidas na vida adulta e mora em município sem circulação atual de febre amarela. Na consulta ambulatorial, pergunta o que ainda pode ser aplicado depois de começada a medicação.",
+    "enunciado": "Considerando as recomendações vigentes de imunização para pessoas sob imunossupressão medicamentosa, qual imunizante pode ser administrado com segurança a esse paciente durante o uso do corticoide em dose imunossupressora?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Vacina pneumocócica conjugada 13-valente.",
+        "correta": true,
+        "justificativa": "Correta. É um imunizante inativado, formado por polissacarídeos capsulares conjugados a proteína carreadora, sem qualquer agente replicante, de modo que não há risco de doença vacinal em imunossuprimidos. Mais que permitida, tem indicação formal nesse grupo, no esquema sequencial com a vacina polissacarídica 23-valente, ainda que a resposta imune possa ser menor sob corticoide."
+      },
+      {
+        "letra": "B",
+        "texto": "Vacina contra varicela, com vírus atenuado, em duas doses.",
+        "correta": false,
+        "justificativa": "Incorreta. Prednisona em dose igual ou superior a 20 mg por dia por mais de duas semanas define imunossupressão e contraindica imunizantes com agentes vivos atenuados, pelo risco de replicação descontrolada e doença causada pela própria vacina."
+      },
+      {
+        "letra": "C",
+        "texto": "Vacina febre amarela, de vírus vivo atenuado.",
+        "correta": false,
+        "justificativa": "Incorreta. Também é produzida com vírus vivo atenuado e está contraindicada durante a imunossupressão. Quando existe risco epidemiológico concreto, a decisão precisa ser individualizada e, idealmente, antecipada para antes do início do tratamento."
+      },
+      {
+        "letra": "D",
+        "texto": "Vacina tríplice viral.",
+        "correta": false,
+        "justificativa": "Incorreta. Sarampo, caxumba e rubéola compõem um produto de vírus vivos atenuados, igualmente proscrito sob corticoterapia imunossupressora. A atualização deve ser feita, sempre que possível, pelo menos quatro semanas antes de iniciar a medicação."
+      }
+    ],
+    "especialidade": "infectologia",
+    "especialidade_secundaria": "gastroenterologia",
+    "objeto_conhecimento": "Indicação e contraindicação de vacinas vivas e inativadas em pacientes sob imunossupressão medicamentosa",
+    "sistema_organico": "imune",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_08", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_10"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Prevenção aplicada a portador de doença crônica em ambulatório de especialidade: decidir imunização segura faz parte do plano terapêutico e da vigilância individual."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Preservado o objeto (segurança de vacinas sob imunossupressão), mas trocada a doença de base (retocolite ulcerativa em homem de 58 anos, em vez de lúpus em mulher jovem) e a resposta correta, que passou a ser uma vacina inativada de indicação formal no grupo (pneumocócica conjugada), com três vacinas de agentes vivos como distratores. Isso evita reprodução do conjunto original e reforça o princípio testado. Correta em A conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q065",
+    "tema": "Distúrbios do equilíbrio acidobásico",
+    "subtema": "Ânion gap, fórmula de Winter e distúrbios mistos",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["gasometria", "anion_gap", "acidose_metabolica", "acidose_respiratoria", "sepse"],
+    "texto_base": "Homem de 59 anos, obeso, com síndrome de hipoventilação da obesidade, é admitido em terapia intensiva por pneumonia extensa em base direita e choque séptico. Encontra-se torporoso, com uso de musculatura acessória e tempo de enchimento capilar de 5 segundos. A gasometria arterial e os eletrólitos colhidos na chegada mostram: pH 7,13; pCO2 50 mmHg; pO2 54 mmHg; bicarbonato 16 mmol/L; sódio 138 mmol/L; cloro 102 mmol/L; albumina 4,0 g/dL; lactato 6,8 mmol/L.",
+    "enunciado": "Empregando a equação de Henderson-Hasselbalch e o cálculo do ânion gap, qual é a interpretação acidobásica completa desse caso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Acidose metabólica com ânion gap aumentado somada a acidose respiratória.",
+        "correta": true,
+        "justificativa": "Correta. O ânion gap é de 20 mEq/L (138 menos 102 menos 16), portanto elevado, e a albumina normal dispensa correção; a variação do gap acompanha a queda do bicarbonato, o que indica acidose orgânica pura, aqui por hiperlactatemia. Pela fórmula de Winter, a pCO2 esperada seria próxima de 32 mmHg: encontrar 50 mmHg revela retenção de gás carbônico e, portanto, acidose respiratória associada, coerente com a hipoventilação."
+      },
+      {
+        "letra": "B",
+        "texto": "Acidose respiratória crônica com compensação renal adequada.",
+        "correta": false,
+        "justificativa": "Incorreta. Na acidose respiratória crônica compensada o bicarbonato se eleva e o pH tende a permanecer próximo do limite inferior da normalidade. Neste caso o bicarbonato está reduzido a 16 mmol/L e o pH é de 7,13, o que exclui compensação renal eficaz e revela um segundo distúrbio."
+      },
+      {
+        "letra": "C",
+        "texto": "Acidose mista de três componentes: ganho de ácidos orgânicos, perda de bicarbonato com hipercloremia e retenção de gás carbônico.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe componente hiperclorêmico: o cloro está normal e toda a redução do bicarbonato é explicada pelo aumento do ânion gap, com relação delta-delta próxima de 1. Há apenas dois distúrbios, um metabólico e um respiratório."
+      },
+      {
+        "letra": "D",
+        "texto": "Acidose metabólica com ânion gap normal acompanhada de alcalose respiratória.",
+        "correta": false,
+        "justificativa": "Incorreta. O ânion gap calculado é de 20 mEq/L, ou seja, elevado, e a pCO2 de 50 mmHg caracteriza hipercapnia, exatamente o oposto da hipocapnia que definiria alcalose respiratória."
+      }
+    ],
+    "especialidade": "medicina_intensiva",
+    "especialidade_secundaria": "nefrologia",
+    "objeto_conhecimento": "Interpretação sistematizada da gasometria arterial com ânion gap e resposta compensatória esperada",
+    "sistema_organico": "respiratorio",
+    "contexto_atencao": "terapia_intensiva",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_03", "enamed_comp_02"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_01"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Interpretação de exame complementar em paciente grave hospitalizado, articulando bases fisiológicas do equilíbrio acidobásico com a formulação diagnóstica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mantido o objeto (diagnóstico acidobásico completo por Henderson-Hasselbalch com ânion gap), com paciente, doença de base e todos os valores laboratoriais recalculados: os números foram escolhidos para que a relação delta-delta fique próxima de 1, eliminando a ambiguidade entre distúrbio duplo e triplo que o conjunto original de valores permitia. Alternativas reescritas. Correta em A conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q066",
+    "tema": "Tromboembolismo pulmonar",
+    "subtema": "Estratificação de risco e indicação de trombólise sistêmica",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["tep", "choque_obstrutivo", "trombolise", "disfuncao_ventriculo_direito", "emergencia_cardiovascular"],
+    "texto_base": "Mulher de 47 anos, obesa, em uso contínuo de contraceptivo oral combinado, retornou há três dias de voo de 11 horas. Procura a emergência por dispneia de início súbito e um episódio de síncope. Nega cirurgias, traumatismos, sangramentos, úlcera péptica ou acidente vascular cerebral prévios, não faz uso de anticoagulantes e não tem plaquetopenia. Está com frequência respiratória de 32 incursões por minuto, saturação periférica de 85% em ar ambiente, frequência cardíaca de 134 bpm e pressão arterial de 74/42 mmHg, que permanece em 78/46 mmHg após infusão de 1.000 mL de cristaloide. Apresenta jugulares ingurgitadas a 45 graus, extremidades frias e ausculta pulmonar sem ruídos adventícios. A angiotomografia de tórax foi laudada como falhas de enchimento centrais em ambas as artérias pulmonares principais, com extensão para ramos lobares, e relação entre os diâmetros do ventrículo direito e do esquerdo de 1,4 no corte de quatro câmaras. A troponina ultrassensível está elevada.",
+    "enunciado": "Considerando a estratificação de risco desse tromboembolismo pulmonar, qual é a conduta terapêutica imediata mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Anticoagulação isolada com enoxaparina subcutânea em dose plena, mantendo a paciente em observação na unidade de internação.",
+        "correta": false,
+        "justificativa": "Incorreta. A anticoagulação é a base do tratamento, mas sozinha não desobstrui rapidamente a circulação pulmonar; na embolia de alto risco com choque persistente, essa estratégia associa-se a mortalidade elevada. Além disso, a via subcutânea é desaconselhada na instabilidade hemodinâmica pela absorção imprevisível, preferindo-se heparina não fracionada endovenosa."
+      },
+      {
+        "letra": "B",
+        "texto": "Trombólise sistêmica imediata com ativador tecidual do plasminogênio, mantendo suporte vasopressor e oxigenoterapia.",
+        "correta": true,
+        "justificativa": "Correta. Hipotensão sustentada apesar de reposição volêmica, somada a sinais tomográficos de sobrecarga do ventrículo direito e a biomarcador de lesão miocárdica elevado, define embolia pulmonar de alto risco. Não há contraindicação absoluta ao fibrinolítico nesta paciente, e a reperfusão farmacológica reduz mortalidade e recorrência de instabilidade; a heparina é retomada ao término da infusão."
+      },
+      {
+        "letra": "C",
+        "texto": "Encaminhamento para retirada cirúrgica do trombo com circulação extracorpórea como primeira medida.",
+        "correta": false,
+        "justificativa": "Incorreta. A embolectomia cirúrgica está reservada a quem tem contraindicação formal ao fibrinolítico, a quem falhou ao tratamento trombolítico ou a casos com trombo em trânsito nas câmaras direitas, e depende de centro e equipe habilitados, o que a inviabiliza como primeira escolha aqui."
+      },
+      {
+        "letra": "D",
+        "texto": "Implante de dispositivo de interrupção na veia cava inferior antes de qualquer terapia farmacológica.",
+        "correta": false,
+        "justificativa": "Incorreta. O filtro apenas impede a migração de novos coágulos originados nos membros inferiores e nada faz sobre a obstrução já instalada ou sobre o choque. Sua indicação restringe-se, essencialmente, a pacientes que não podem receber anticoagulação."
+      }
+    ],
+    "especialidade": "emergencias_cardiovasculares",
+    "especialidade_secundaria": "pneumologia",
+    "objeto_conhecimento": "Estratificação de gravidade do tromboembolismo pulmonar e indicação de reperfusão farmacológica",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_05", "enamed_comp_04"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Emergência não traumática na rede de urgência, exigindo reconhecer a gravidade e decidir a terapêutica de reperfusão com base em risco e benefício."
+    },
+    "defeito_corrigido": "Foram corrigidos os dois defeitos apontados no item de origem. Primeiro, a dependência de imagem: os achados da angiotomografia estão agora descritos por extenso no texto (falhas de enchimento centrais bilaterais e relação ventrículo direito/ventrículo esquerdo de 1,4), tornando o item respondível sem figura. Segundo, a contradição interna: o original negava cirurgia recente logo após relatar artroplastia de joelho havia dez dias, dado que muda a análise de contraindicação relativa à fibrinólise. Aqui o fator de risco foi substituído por imobilidade em voo prolongado e contraceptivo oral, e o texto declara explicitamente a ausência de contraindicações ao trombolítico.",
+    "nota_adaptacao": "Preservados o objeto (embolia pulmonar de alto risco e indicação de trombólise) e a chave de conteúdo do consenso, com paciente, fator de risco, sinais vitais e achados de imagem novos. As alternativas foram reescritas e ampliadas para explicitar por que a anticoagulação isolada, a embolectomia e o filtro de veia cava não atendem à urgência hemodinâmica. Correta em B conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q067",
+    "tema": "Bacteremia por bacilos gram-negativos",
+    "subtema": "Descalonamento antimicrobiano e duração de tratamento",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_10", "dcn2025_comp_18", "dcn2025_comp_25"],
+    "tags": ["stewardship", "hemocultura", "pielonefrite", "enterobacterales", "uso_racional_de_antimicrobianos"],
+    "texto_base": "Mulher de 59 anos, diabética tipo 2, está internada há 48 horas por pielonefrite aguda à direita. Na admissão apresentava temperatura de 39,1 °C, frequência cardíaca de 118 bpm e pressão arterial de 86/50 mmHg, com boa resposta à expansão volêmica; a ultrassonografia não mostrou dilatação de vias urinárias, abscessos ou cálculos. Foi iniciada terapia empírica com piperacilina-tazobactam e vancomicina. Hoje está afebril há mais de 24 horas, sem vasopressor, aceitando dieta por via oral, e o único dispositivo é um cateter venoso periférico; não é imunossuprimida. O laboratório comunica que os dois pares de hemoculturas colhidos na admissão apresentam crescimento de bacilos gram-negativos, ainda sem identificação de espécie nem antibiograma. A urocultura confirmou o mesmo morfotipo.",
+    "enunciado": "Com base nas evidências atuais sobre bacteremia por Enterobacterales e nos princípios de uso racional de antimicrobianos, qual é a conduta mais adequada neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Retirar a vancomicina do esquema e aguardar a identificação da espécie e o perfil de sensibilidade para definir o descalonamento do betalactâmico, prevendo duração total de sete dias se a evolução seguir favorável.",
+        "correta": true,
+        "justificativa": "Correta. A coloração de Gram já afasta cocos gram-positivos, e manter o glicopeptídeo apenas expõe a paciente a nefrotoxicidade e pressão seletiva. O ajuste definitivo do betalactâmico depende do antibiograma, e ensaios randomizados demonstraram não inferioridade de sete dias frente a quatorze na bacteremia por enterobactérias com foco controlado e boa resposta clínica."
+      },
+      {
+        "letra": "B",
+        "texto": "Prolongar piperacilina-tazobactam e vancomicina por quatorze dias, para assegurar a esterilização da corrente sanguínea.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há benefício em manter cobertura para gram-positivos sem qualquer evidência microbiológica que a sustente, e cursos de quatorze dias não se mostraram superiores a sete na bacteremia não complicada por enterobactérias: ampliam toxicidade, custo e seleção de resistência."
+      },
+      {
+        "letra": "C",
+        "texto": "Trocar de imediato o betalactâmico por cefepima, antecipando produção de betalactamases do tipo AmpC ou de espectro estendido.",
+        "correta": false,
+        "justificativa": "Incorreta. Escalonar às cegas contraria o uso racional de antimicrobianos, e a cefepima é justamente inadequada diante de betalactamase de espectro estendido, situação em que o carbapenêmico é a escolha. A decisão deve seguir a identificação da espécie e o teste de sensibilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Manter o esquema em vigor até que novas hemoculturas de controle resultem negativas, suspendendo os antimicrobianos somente depois disso.",
+        "correta": false,
+        "justificativa": "Incorreta. Hemoculturas de seguimento são rotina em bacteremia por Staphylococcus aureus, por Candida e na suspeita de endocardite, e não em bacteremia por gram-negativos com foco urinário controlado e boa resposta clínica. Condicionar a suspensão a esse exame prolonga a exposição sem ganho demonstrado."
+      }
+    ],
+    "especialidade": "infectologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Descalonamento antimicrobiano e duração de terapia na bacteremia por Enterobacterales de foco urinário",
+    "sistema_organico": "geniturinario",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_04", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Ajuste do plano terapêutico em enfermaria a partir da interpretação de exame microbiológico, com ênfase em custo-efetividade e segurança do paciente."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Objeto preservado (descalonamento na bacteremia por gram-negativos), com paciente, sexo, idade, comorbidade e esquema empírico distintos, e com a explicitação ultrassonográfica de foco não obstruído, que o original não fornecia. A alternativa correta foi ampliada para incorporar também a duração de sete dias apoiada em ensaios de não inferioridade, o que agrega valor pedagógico. Correta em A conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q068",
+    "tema": "Insuficiência cardíaca",
+    "subtema": "Acurácia dos sinais do exame físico: sensibilidade versus especificidade",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["insuficiencia_cardiaca", "semiologia", "terceira_bulha", "especificidade", "propedeutica"],
+    "texto_base": "Mulher de 64 anos, hipertensa e diabética, comparece ao ambulatório referindo cansaço aos esforços habituais nas últimas quatro semanas e necessidade de dormir semi-sentada para não acordar sufocada. Ao exame, está com frequência cardíaca de 104 bpm, pressão arterial de 148/88 mmHg e saturação periférica de 95% em ar ambiente. Ausculta-se murmúrio vesicular com estertores finos nos terços inferiores de ambos os hemitórax; há edema depressível até os tornozelos (2+/4+) e, na ausculta do ictus em decúbito lateral esquerdo, ritmo de galope por bulha protodiastólica adicional.",
+    "enunciado": "Qual desses sinais semiológicos é o que tem maior especificidade diagnóstica para insuficiência cardíaca?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Estertores finos audíveis nas bases pulmonares.",
+        "correta": false,
+        "justificativa": "Incorreta. Crepitações basais são frequentes na congestão, porém pouco específicas: aparecem em pneumonia, fibrose pulmonar, atelectasias e mesmo em idosos hígidos após repouso prolongado, o que limita seu valor confirmatório."
+      },
+      {
+        "letra": "B",
+        "texto": "Edema depressível dos tornozelos.",
+        "correta": false,
+        "justificativa": "Incorreta. O edema de membros inferiores tem especificidade baixa, pois decorre também de insuficiência venosa crônica, uso de bloqueadores dos canais de cálcio, hipoalbuminemia e doença renal. É achado útil para suspeitar de congestão, não para confirmá-la."
+      },
+      {
+        "letra": "C",
+        "texto": "Taquicardia sinusal em repouso.",
+        "correta": false,
+        "justificativa": "Incorreta. A elevação da frequência cardíaca é resposta adrenérgica inespecífica, presente em anemia, febre, dor, ansiedade, hipertireoidismo e hipovolemia, e por isso não distingue insuficiência cardíaca de outras causas de dispneia."
+      },
+      {
+        "letra": "D",
+        "texto": "Bulha protodiastólica adicional configurando ritmo de galope.",
+        "correta": true,
+        "justificativa": "Correta. A terceira bulha é o achado de exame físico com maior especificidade para insuficiência cardíaca, acima de 90% em séries clínicas, porque traduz enchimento ventricular rápido contra um ventrículo de complacência reduzida e pressões de enchimento elevadas. Sua sensibilidade, contudo, é baixa: a ausência do galope não exclui o diagnóstico."
+      }
+    ],
+    "especialidade": "cardiologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Valor diagnóstico dos sinais do exame físico na insuficiência cardíaca, com destaque para a terceira bulha",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "ambulatorial_especializado",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_06", "enamed_cont_09"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Formulação de hipótese diagnóstica a partir do exame físico em ambulatório de doença crônica, mobilizando semiologia e noções de acurácia diagnóstica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto (especificidade da terceira bulha), com paciente do outro sexo, outras comorbidades, outros sinais vitais e narrativa nova. A vinheta foi deliberadamente construída sem turgência jugular, achado que também é altamente específico e que, se descrito, tornaria a comparação ambígua. Alternativas redigidas do zero. Correta em D conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q069",
+    "tema": "Nefrite lúpica",
+    "subtema": "Terapia de indução em glomerulonefrite proliferativa difusa com crescentes",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_10", "dcn2025_comp_20"],
+    "tags": ["lupus", "nefrite_lupica", "ciclofosfamida", "imunossupressao", "biopsia_renal"],
+    "texto_base": "Mulher de 36 anos, com lúpus eritematoso sistêmico diagnosticado há quatro anos e até então limitado a artrite e fotossensibilidade, procura o serviço por edema de face e de pernas com piora em duas semanas e urina que forma espuma persistente. A pressão arterial, antes normal, está em 158/98 mmHg. Os exames mostram creatinina de 2,4 mg/dL (era 0,7 mg/dL havia quatro meses), albumina sérica de 2,4 g/dL, proteinúria de 4,8 g em 24 horas, sedimento urinário com hemácias dismórficas e cilindros hemáticos, frações C3 e C4 do complemento consumidas e anticorpo anti-DNA de dupla hélice em títulos altos. A biópsia renal evidenciou glomerulonefrite proliferativa difusa (classe IV), índice de atividade alto, crescentes celulares em 30% dos glomérulos e índice de cronicidade baixo.",
+    "enunciado": "Qual é o esquema de indução de remissão mais apropriado para essa paciente, segundo as recomendações vigentes?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pulsoterapia com metilprednisolona endovenosa seguida de corticoide oral em redução progressiva, associada a ciclofosfamida intravenosa, mantendo-se a hidroxicloroquina.",
+        "correta": true,
+        "justificativa": "Correta. Classe IV com índice de atividade alto, crescentes celulares e perda rápida de função renal caracteriza nefrite lúpica grave. A indução se faz com pulsos de glicocorticoide seguidos de dose oral decrescente somados a imunossupressor potente, e a ciclofosfamida intravenosa, em regime de baixa dose ou clássico, é a escolha preferencial diante de doença rapidamente progressiva. A hidroxicloroquina deve ser mantida em todos os pacientes."
+      },
+      {
+        "letra": "B",
+        "texto": "Micofenolato de mofetila em dose reduzida, empregado isoladamente e sem corticoide.",
+        "correta": false,
+        "justificativa": "Incorreta. O micofenolato é alternativa válida à ciclofosfamida, mas sempre combinado a glicocorticoide e em dose plena, tipicamente de 2 a 3 g ao dia. Usá-lo isolado e em dose baixa não controla a inflamação glomerular e favorece a progressão para doença renal terminal."
+      },
+      {
+        "letra": "C",
+        "texto": "Corticoide oral em monoterapia associado a azatioprina desde o início do tratamento.",
+        "correta": false,
+        "justificativa": "Incorreta. A azatioprina tem lugar na fase de manutenção, após alcançada a remissão, e é menos eficaz que ciclofosfamida ou micofenolato para induzir remissão nas formas proliferativas difusas, sobretudo quando há crescentes."
+      },
+      {
+        "letra": "D",
+        "texto": "Rituximabe combinado a ciclosporina como primeira linha.",
+        "correta": false,
+        "justificativa": "Incorreta. O anticorpo anti-CD20 e os inibidores de calcineurina ficam reservados a doença refratária ou a situações específicas de terapia adicional aos esquemas convencionais, e não substituem a indução padrão em paciente virgem de imunossupressão."
+      }
+    ],
+    "especialidade": "nefrologia",
+    "especialidade_secundaria": "reumatologia",
+    "objeto_conhecimento": "Indicação da terapia de indução na nefrite lúpica classe IV com crescentes",
+    "sistema_organico": "geniturinario",
+    "contexto_atencao": "internacao_hospitalar",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_04", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_05",
+      "justificativa": "Elaboração de plano terapêutico em doença crônica autoimune grave, integrando achados histológicos e laboratoriais às melhores evidências disponíveis."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mantido o objeto (indução na nefrite lúpica proliferativa difusa), com paciente de outra idade e tempo de doença, outros valores laboratoriais e descrição histológica com índices de atividade e cronicidade explicitados. As alternativas foram reescritas: a correta detalha a pulsoterapia e a manutenção da hidroxicloroquina, e as justificativas explicam que o micofenolato seria opção legítima em dose plena com corticoide, o que o item original não esclarecia. Correta em A conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q070",
+    "tema": "Anemia no adulto",
+    "subtema": "Investigação inicial da anemia normocítica hipoproliferativa",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_25"],
+    "tags": ["anemia", "reticulocitos", "cinetica_do_ferro", "doenca_renal_cronica", "raciocinio_diagnostico"],
+    "texto_base": "Mulher de 61 anos, hipertensa em uso de losartana, sem queixas, traz a consulta de rotina um hemograma solicitado no atendimento anterior: hemoglobina 9,6 g/dL; hematócrito 29%; volume corpuscular médio 86 fL; amplitude de distribuição dos eritrócitos 14,5%; reticulócitos 1,2%, com valor absoluto de 38.000/mm³; leucócitos 6.200/mm³ com contagem diferencial normal; plaquetas 265.000/mm³. Ao exame, está descorada 1+/4+, sem visceromegalias, adenomegalias, icterícia ou sinais de sangramento. Está na pós-menopausa há dez anos e nega melena, hematoquezia, perda de peso ou uso de anti-inflamatórios.",
+    "enunciado": "Considerando o padrão morfológico do hemograma e a resposta medular estimada pela contagem de reticulócitos, que conduta diagnóstica deve ser adotada a seguir?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Encaminhar diretamente para endoscopia digestiva alta e colonoscopia.",
+        "correta": false,
+        "justificativa": "Incorreta. A investigação endoscópica do tubo digestivo é obrigatória quando se confirma anemia por deficiência de ferro em adulto, mas a ferropenia ainda não foi documentada. Solicitar dois exames invasivos antes da cinética do ferro inverte a ordem lógica e desperdiça recursos."
+      },
+      {
+        "letra": "B",
+        "texto": "Dosar haptoglobina, desidrogenase láctica e bilirrubina indireta em busca de hemólise.",
+        "correta": false,
+        "justificativa": "Incorreta. Processos hemolíticos cursam com resposta reticulocitária aumentada; aqui os reticulócitos estão baixos em valor absoluto para o grau de anemia, e não há icterícia, esplenomegalia ou história compatível, o que torna essa hipótese pouco provável como ponto de partida."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar ferritina, ferro sérico e saturação de transferrina, acrescentando creatinina com estimativa da taxa de filtração glomerular.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de anemia normocítica hipoproliferativa, pois a contagem absoluta de reticulócitos é inadequadamente baixa para o grau de anemia. As causas mais prevalentes nessa faixa etária são carência de ferro em fase inicial, anemia da inflamação e doença renal crônica; a cinética do ferro somada à função renal separa esses cenários com baixo custo e define se a investigação deve seguir para o tubo digestivo."
+      },
+      {
+        "letra": "D",
+        "texto": "Indicar de imediato mielograma com biópsia de medula óssea.",
+        "correta": false,
+        "justificativa": "Incorreta. O estudo medular fica reservado a citopenias em mais de uma linhagem, presença de células imaturas no sangue periférico, suspeita de neoplasia hematológica ou anemia que permanece inexplicada após a investigação inicial. Sem esses elementos, é procedimento invasivo e prematuro."
+      }
+    ],
+    "especialidade": "hematologia",
+    "especialidade_secundaria": "clinica_geral",
+    "objeto_conhecimento": "Abordagem diagnóstica escalonada da anemia normocítica com resposta reticulocitária inadequada",
+    "sistema_organico": "hematopoetico",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_03", "enamed_comp_02"],
+      "conteudos": ["enamed_cont_09", "enamed_cont_06"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Solicitação racional e escalonada de exames complementares em achado laboratorial de rotina na atenção primária, considerando prevalência e custo-efetividade."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Mesmo objeto (próximo passo na anemia normocítica hipoproliferativa), com paciente de outro sexo e idade, hemograma inteiramente recalculado e acréscimo do valor absoluto de reticulócitos, que é o dado que efetivamente permite classificar a anemia como hipoproliferativa — o item original informava apenas o percentual. Alternativas reescritas, com mielograma substituindo um dos distratores. Correta em C conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q071",
+    "tema": "Rastreamento de câncer em adultos assintomáticos",
+    "subtema": "Critérios de recomendação e riscos do sobrediagnóstico",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_25"],
+    "tags": ["rastreamento", "prevencao_quaternaria", "cancer_colorretal", "sobrediagnostico", "atencao_primaria"],
+    "texto_base": "Mulher de 57 anos, nunca fumante, assintomática, é atendida na Unidade Básica de Saúde para consulta de rotina. Não tem antecedente pessoal ou familiar de câncer, não usa medicações contínuas e o índice de massa corporal é de 26 kg/m². A mamografia e a citologia cervical estão em dia e vieram normais. Ela quer saber se deve fazer outros exames de imagem e de sangue para encontrar um câncer antes que dê sintomas.",
+    "enunciado": "Considerando as recomendações de rastreamento para pessoas assintomáticas e de risco habitual, qual exame deve ser oferecido a essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ultrassonografia cervical em busca de nódulos tireoidianos.",
+        "correta": false,
+        "justificativa": "Incorreta. Rastrear a tireoide em assintomáticos aumenta a detecção de microcarcinomas papilíferos indolentes e leva a tireoidectomias e reposição hormonal desnecessárias, sem redução de mortalidade. É exemplo clássico de sobrediagnóstico e de dano iatrogênico evitável."
+      },
+      {
+        "letra": "B",
+        "texto": "Tomografia computadorizada torácica com técnica de baixa dose de radiação.",
+        "correta": false,
+        "justificativa": "Incorreta. O rastreamento de neoplasia pulmonar só se justifica em pessoas com carga tabágica significativa, dentro de faixa etária e de prazo definidos desde a cessação. Em quem nunca fumou, a probabilidade pré-teste é baixa e predominam achados incidentais que geram procedimentos invasivos evitáveis."
+      },
+      {
+        "letra": "C",
+        "texto": "Rastreamento de câncer colorretal, com pesquisa imunoquímica de sangue oculto nas fezes anual ou exame endoscópico do cólon a cada dez anos.",
+        "correta": true,
+        "justificativa": "Correta. A neoplasia colorretal preenche os critérios que justificam rastreamento populacional: é prevalente, tem lesão precursora identificável e removível e o exame reduz mortalidade específica. A oferta se dá dos 45 ou 50 anos até cerca dos 74 anos em pessoas de risco habitual, por pesquisa de sangue oculto nas fezes anual ou por exame endoscópico em intervalo mais longo."
+      },
+      {
+        "letra": "D",
+        "texto": "Ultrassonografia transvaginal associada à dosagem sérica de CA-125.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa combinação foi avaliada em ensaios de grande porte para câncer de ovário e não reduziu mortalidade, além de gerar cirurgias exploradoras em mulheres saudáveis. Tampouco há indicação de rastrear endométrio em assintomáticas de risco habitual."
+      }
+    ],
+    "especialidade": "promocao_e_prevencao",
+    "especialidade_secundaria": "oncologia",
+    "objeto_conhecimento": "Indicações de rastreamento oncológico em adultos de risco habitual e prevenção quaternária",
+    "sistema_organico": "nao_aplicavel",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_05",
+      "competencias": ["enamed_comp_08", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_13"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Decisão de prevenção na atenção primária, com escolha de exames de rastreamento baseada em evidência, potencial de prevenção e risco de sobrediagnóstico."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Objeto preservado (o que rastrear em adulto assintomático de risco habitual), com paciente nunca fumante em vez de ex-tabagista, o que elimina a discussão limítrofe sobre elegibilidade à tomografia de baixa dose presente no item original. A vinheta declara mamografia e citologia já em dia para que reste apenas uma resposta defensável. Alternativas reescritas, com o par ultrassonografia transvaginal mais CA-125 no lugar do rastreio isolado de endométrio. Correta em C conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q072",
+    "tema": "Profilaxia pré-exposição ao HIV",
+    "subtema": "Avaliação laboratorial exigida antes do início do tenofovir",
+    "area_clinica": "medicina_familia_comunidade",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_11"],
+    "tags": ["prep", "hiv", "tenofovir", "funcao_renal", "populacoes_vulnerabilizadas"],
+    "texto_base": "Mulher trans de 31 anos, em terapia hormonal com estradiol, procura a Unidade Básica de Saúde solicitando profilaxia pré-exposição ao HIV. Relata parcerias sexuais múltiplas nos últimos meses e uso irregular de preservativo. Não tem comorbidades conhecidas, não usa outros medicamentos e nega febre, faringite, exantema, adenomegalia ou qualquer sintoma nos últimos trinta dias. O teste rápido para HIV realizado na consulta foi não reagente, assim como a testagem para sífilis e o rastreio de hepatites virais.",
+    "enunciado": "Além de assegurar a soronegatividade para o HIV, qual avaliação laboratorial é indispensável antes de prescrever o esquema oral de tenofovir com entricitabina, segundo o protocolo do Ministério da Saúde?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Dosagem da creatinina sérica com estimativa da depuração, que precisa estar acima de 60 mL/min.",
+        "correta": true,
+        "justificativa": "Correta. O tenofovir desoproxila tem eliminação renal e pode provocar tubulopatia proximal e queda da filtração glomerular. Por isso o protocolo exige creatinina com cálculo da depuração antes de iniciar e ao longo do seguimento, contraindicando a profilaxia oral diária quando o valor estimado é inferior a 60 mL/min."
+      },
+      {
+        "letra": "B",
+        "texto": "Dosagem de alanina e aspartato aminotransferases para prever hepatotoxicidade.",
+        "correta": false,
+        "justificativa": "Incorreta. As transaminases não são condição para iniciar a profilaxia. A preocupação hepática relevante refere-se à hepatite B, avaliada por sorologia, porque a interrupção do tenofovir em pessoas portadoras pode desencadear reativação viral."
+      },
+      {
+        "letra": "C",
+        "texto": "Quantificação da carga viral do HIV por reação em cadeia da polimerase.",
+        "correta": false,
+        "justificativa": "Incorreta. A triagem é feita com teste rápido ou imunoensaio somado à investigação ativa de sintomas de infecção aguda. A carga viral fica reservada às situações de suspeita de infecção muito recente, em janela imunológica, e não integra a avaliação de rotina prévia."
+      },
+      {
+        "letra": "D",
+        "texto": "Dosagem de creatinofosfoquinase para vigilância de lesão muscular.",
+        "correta": false,
+        "justificativa": "Incorreta. Miopatia não é efeito adverso esperado da combinação de tenofovir com entricitabina, e essa enzima muscular não compõe a avaliação recomendada antes nem durante o uso da profilaxia pré-exposição."
+      }
+    ],
+    "especialidade": "promocao_e_prevencao",
+    "especialidade_secundaria": "infectologia",
+    "objeto_conhecimento": "Requisitos clínicos e laboratoriais para início da profilaxia pré-exposição ao HIV na atenção primária",
+    "sistema_organico": "geniturinario",
+    "contexto_atencao": "atencao_primaria",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_05",
+      "competencias": ["enamed_comp_08", "enamed_comp_01"],
+      "conteudos": ["enamed_cont_11", "enamed_cont_05"],
+      "cenario": "enamed_cenario_01",
+      "justificativa": "Prevenção combinada na atenção primária a pessoa de população vulnerabilizada, exigindo acolhimento sem juízo de valor e avaliação laboratorial de segurança da droga."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Objeto mantido (exame indispensável antes do tenofovir na profilaxia pré-exposição), com outra pessoa usuária — mulher trans em terapia hormonal, o que aproxima o item do princípio de equidade da matriz — e com a testagem de sífilis e hepatites já explicitada na vinheta, para que a única lacuna a resolver seja a função renal. A alternativa correta traz o limiar de 60 mL/min, ausente no original. Correta em A conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q073",
+    "tema": "Infarto agudo do miocárdio com supradesnivelamento do segmento ST",
+    "subtema": "Escolha da estratégia de reperfusão em serviço sem hemodinâmica",
+    "area_clinica": "urgencia_emergencia",
+    "nivel_bloom": "aplicacao",
+    "dificuldade_editorial": "medio",
+    "competencia_dcn_2025": ["dcn2025_comp_01", "dcn2025_comp_06", "dcn2025_comp_10"],
+    "tags": ["iamcsst", "reperfusao", "angioplastia_primaria", "infarto_de_ventriculo_direito", "rede_de_urgencia"],
+    "texto_base": "Homem de 62 anos, diabético e tabagista, chega à Unidade de Pronto Atendimento de um município do interior com dor retroesternal em peso iniciada há 2 horas, irradiada para a mandíbula, acompanhada de sudorese fria e vômitos. Está com pressão arterial de 104/62 mmHg, frequência cardíaca de 58 bpm e ausculta pulmonar limpa. O eletrocardiograma de 12 derivações realizado na chegada mostra supradesnivelamento do segmento ST de 3 mm em DII, DIII e aVF, com magnitude maior em DIII do que em DII, infradesnivelamento especular em DI e aVL e, nas derivações precordiais direitas, supradesnivelamento de 1,5 mm em V4R. A unidade não dispõe de laboratório de hemodinâmica; o hospital de referência com sala de cateterismo disponível fica a 40 minutos de transporte terrestre, com equipe já contatada e sala pronta para recebê-lo.",
+    "enunciado": "Qual é a combinação mais adequada de tratamento medicamentoso imediato e de estratégia de reperfusão para esse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Realizar fibrinólise química na própria unidade e, em seguida, encaminhar o paciente ao serviço de hemodinâmica.",
+        "correta": false,
+        "justificativa": "Incorreta. A trombólise seria a escolha caso o tempo previsto até a abertura mecânica da artéria ultrapassasse 120 minutos. Como a sala está pronta a 40 minutos de distância, fibrinolisar acrescenta risco de sangramento, inclusive intracraniano, sem qualquer ganho de perfusão."
+      },
+      {
+        "letra": "B",
+        "texto": "Administrar somente ácido acetilsalicílico agora, deixando o segundo antiagregante e o anticoagulante a cargo do serviço que fará o cateterismo.",
+        "correta": false,
+        "justificativa": "Incorreta. Adiar o inibidor de P2Y12 e a anticoagulação retarda o efeito antitrombótico exatamente durante o transporte, período de maior risco de reoclusão e de arritmias ventriculares. Ambos devem ser administrados assim que o diagnóstico eletrocardiográfico é firmado."
+      },
+      {
+        "letra": "C",
+        "texto": "Aguardar o resultado da troponina para confirmar necrose miocárdica e só então decidir sobre a transferência.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico de infarto com supradesnivelamento é clínico e eletrocardiográfico, e não depende de marcador de necrose. Esperar o exame apenas consome tempo de músculo viável e retarda a reperfusão, que é a intervenção que reduz mortalidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Ácido acetilsalicílico mastigado em dose de ataque, inibidor de P2Y12 também em dose de ataque e anticoagulante parenteral, com acionamento imediato do transporte para angioplastia primária, evitando-se nitrato pelo acometimento do ventrículo direito.",
+        "correta": true,
+        "justificativa": "Correta. O padrão descrito indica infarto de parede inferior com extensão ao ventrículo direito. Como o intervalo previsto entre o primeiro contato e a abertura da artéria é inferior a 120 minutos, a angioplastia primária supera a fibrinólise, e a dupla antiagregação com anticoagulação deve começar antes do transporte. Nitratos e diuréticos são evitados porque o débito, nesse território, depende da pré-carga."
+      }
+    ],
+    "especialidade": "emergencias_cardiovasculares",
+    "especialidade_secundaria": "cardiologia",
+    "objeto_conhecimento": "Decisão entre fibrinólise e angioplastia primária conforme tempo de transferência na rede de urgência",
+    "sistema_organico": "cardiovascular",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_05", "enamed_comp_09"],
+      "conteudos": ["enamed_cont_10", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Emergência cardiovascular em ponto da rede de urgência sem hemodinâmica: exige tratar e articular a referência com base em critérios de tempo e evidência."
+    },
+    "defeito_corrigido": "O item de origem dependia de um eletrocardiograma que não era exibido, deixando o diagnóstico por inferência. Aqui os achados eletrocardiográficos estão descritos por extenso — supradesnivelamento em parede inferior, maior em DIII do que em DII, imagem em espelho em DI e aVL e supradesnivelamento em V4R —, o que torna o item integralmente respondível pelo texto. O tempo de transporte e a disponibilidade efetiva da sala de cateterismo também foram explicitados, para que a escolha entre fibrinólise e angioplastia primária tenha resposta inequívoca.",
+    "nota_adaptacao": "Objeto preservado (estratégia de reperfusão em serviço sem hemodinâmica), com outro paciente, outra parede acometida e transcrição textual do traçado. Acrescentou-se o acometimento do ventrículo direito, que permite avaliar também a contraindicação a nitratos, ampliando a competência avaliada sem mudar o eixo da pergunta. Alternativas escritas do zero. Correta em D conforme sorteio."
+  },
+  {
+    "id_origem": "enamed_simulado_2026_1_q074",
+    "tema": "Hipercalcemia associada a neoplasia",
+    "subtema": "Hipercalcemia humoral maligna mediada por peptídeo relacionado ao paratormônio",
+    "area_clinica": "clinica_medica",
+    "nivel_bloom": "analise",
+    "dificuldade_editorial": "dificil",
+    "competencia_dcn_2025": ["dcn2025_comp_03", "dcn2025_comp_10", "dcn2025_comp_21"],
+    "tags": ["hipercalcemia", "sindrome_paraneoplasica", "pthrp", "carcinoma_renal", "fisiopatologia"],
+    "texto_base": "Homem de 70 anos, com carcinoma renal de células claras metastático em acompanhamento oncológico, é levado ao pronto-socorro pelos familiares por sonolência progressiva, confusão mental e constipação nas últimas duas semanas. Está desidratado, sem déficits neurológicos focais e sem dor óssea localizada. Os exames mostram cálcio total de 13,8 mg/dL (referência de 8,5 a 10,5), albumina de 3,9 g/dL, fósforo de 1,9 mg/dL (referência de 2,5 a 4,5), paratormônio intacto de 6 pg/mL (referência de 10 a 65), 25-hidroxivitamina D dentro da normalidade, 1,25-di-hidroxivitamina D reduzida e creatinina de 1,7 mg/dL. A cintilografia óssea e a tomografia realizadas no mês anterior não demonstraram lesões líticas ou blásticas no esqueleto.",
+    "enunciado": "Qual é o mecanismo fisiopatológico que melhor explica a hipercalcemia desse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Osteólise local mediada por metástases esqueléticas, com liberação de RANKL e de citocinas reabsortivas.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse mecanismo predomina no mieloma múltiplo e em carcinomas de mama com doença óssea extensa, e pressupõe lesões esqueléticas, que estão ausentes tanto na cintilografia quanto na tomografia deste paciente."
+      },
+      {
+        "letra": "B",
+        "texto": "Produção tumoral de peptídeo relacionado ao paratormônio, que ativa o receptor PTH1R no osso e no túbulo renal.",
+        "correta": true,
+        "justificativa": "Correta. A hipercalcemia humoral maligna decorre da secreção, pelo tumor, de um peptídeo com homologia à porção aminoterminal do paratormônio, capaz de estimular o mesmo receptor. O resultado é aumento da reabsorção óssea e da reabsorção tubular de cálcio, com maior perda urinária de fosfato — o que explica a hipofosfatemia, o paratormônio suprimido por retroalimentação e a ausência de lesões ósseas à imagem."
+      },
+      {
+        "letra": "C",
+        "texto": "Conversão extrarrenal de 25-hidroxivitamina D em calcitriol por células mononucleares associadas ao tumor.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse é o mecanismo dos linfomas e das doenças granulomatosas, e cursa com 1,25-di-hidroxivitamina D elevada e fósforo normal ou alto, por aumento da absorção intestinal de ambos. Neste caso o calcitriol está reduzido e há hipofosfatemia."
+      },
+      {
+        "letra": "D",
+        "texto": "Hiperparatireoidismo primário por adenoma de paratireoide coexistente com a neoplasia.",
+        "correta": false,
+        "justificativa": "Incorreta. No hiperparatireoidismo primário o paratormônio está elevado ou inapropriadamente normal diante da hipercalcemia. Um valor de 6 pg/mL indica supressão adequada do eixo paratireoidiano e afasta essa hipótese."
+      }
+    ],
+    "especialidade": "oncologia",
+    "especialidade_secundaria": "endocrinologia",
+    "objeto_conhecimento": "Mecanismos das hipercalcemias neoplásicas e sua distinção pelo perfil bioquímico",
+    "sistema_organico": "endocrino_metabolico",
+    "contexto_atencao": "urgencia_emergencia",
+    "matriz_enamed_478_2025": {
+      "area": "enamed_area_01",
+      "competencias": ["enamed_comp_02", "enamed_comp_03"],
+      "conteudos": ["enamed_cont_01", "enamed_cont_09"],
+      "cenario": "enamed_cenario_02",
+      "justificativa": "Raciocínio fisiopatológico aplicado à interpretação de exames em emergência oncológica, articulando bases moleculares do metabolismo do cálcio e propedêutica."
+    },
+    "defeito_corrigido": null,
+    "nota_adaptacao": "Objeto mantido (mecanismo da hipercalcemia humoral maligna), com neoplasia diferente — carcinoma renal de células claras em vez de carcinoma epidermoide de pulmão — e com acréscimo das dosagens de 25-hidroxivitamina D e de calcitriol, que permitem descartar objetivamente a via mediada por vitamina D. As alternativas foram reescritas com o mecanismo explicitado, e não apenas nomeado. Correta em B conforme sorteio."
+  }
+]

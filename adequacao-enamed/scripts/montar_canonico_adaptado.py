@@ -105,14 +105,18 @@ def montar(orig, ad, validos):
         raise erro("sem enunciado")
     if len(base_novo) + len(enun_novo) < 80:
         raise erro("texto curto demais para um item de prova")
-    for rotulo, txt in (("enunciado", enun_novo), ("texto_base", base_novo)):
-        if txt and sobreposicao(txt, orig["enunciado_origem"]):
-            raise erro(f"{rotulo} repete {JANELA}+ palavras seguidas do original — "
-                       "é reprodução, não adaptação")
-    for a in alts:
-        for texto_velho in (orig["alternativas_origem"] or {}).values():
-            if sobreposicao(a["texto"], texto_velho):
-                raise erro(f"alternativa {a['letra']} reproduz o texto original")
+    # Cruza TODO campo novo contra TODO campo velho: uma alternativa nova também
+    # pode copiar da vinheta original, não só da alternativa correspondente.
+    velhos = [orig["enunciado_origem"]] + list((orig["alternativas_origem"] or {}).values())
+    novos = [("enunciado", enun_novo), ("texto_base", base_novo)]
+    novos += [(f"alternativa {a['letra']}", a["texto"]) for a in alts]
+    for rotulo, txt in novos:
+        if not txt:
+            continue
+        for velho in velhos:
+            if sobreposicao(txt, velho):
+                raise erro(f"{rotulo} repete {JANELA}+ palavras seguidas do "
+                           "original — é reprodução, não adaptação")
 
     m = ad.get("matriz_enamed_478_2025") or {}
     if m.get("area") not in AR:

@@ -7375,6 +7375,1477 @@
   },
   {
     "tipo": "questao",
+    "fase_alvo": 8,
+    "uc_slug": "med_unidavi_f08_uc01_emergencias",
+    "tema": "Acidente vascular cerebral isquêmico agudo",
+    "subtema": "Complicação hemorrágica durante a trombólise endovenosa",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "urgencia_emergencia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "avc_isquemico",
+      "alteplase",
+      "hemorragia_intracraniana",
+      "seguranca_do_paciente",
+      "neurologia_de_urgencia"
+    ],
+    "texto_base": "Homem de 59 anos, hipertenso e portador de fibrilação atrial sem anticoagulação, chega ao pronto-socorro 1 hora e 40 minutos após o início súbito de disartria e fraqueza no dimídio esquerdo. A pontuação na escala de acidente vascular cerebral do National Institutes of Health é 9. A tomografia sem contraste realizada na admissão não evidenciou sangramento nem hipodensidade extensa; a glicemia capilar e os níveis pressóricos estavam dentro das faixas exigidas para fibrinólise, e não havia contraindicação identificada. O alteplase endovenoso foi iniciado 2 horas e 10 minutos após o ictus. Decorridos 25 minutos do começo da infusão, o paciente refere cefaleia holocraniana de instalação abrupta, vomita em jato e torna-se sonolento; a pressão arterial sobe para 208/112 mmHg e a pontuação na escala neurológica passa a 19.",
+    "enunciado": "Diante dessa deterioração ocorrida durante a infusão do fibrinolítico, qual é a conduta imediata mais apropriada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Interromper de imediato o gotejamento do fibrinolítico, obter nova tomografia de crânio sem contraste em caráter emergencial e, confirmado sangramento, repor crioprecipitado ou concentrado de fibrinogênio, associar antifibrinolítico e controlar a pressão arterial.",
+        "correta": true,
+        "justificativa": "Correta. Cefaleia súbita, vômitos, rebaixamento de consciência, pico hipertensivo e piora de pelo menos quatro pontos na escala neurológica durante a infusão configuram suspeita de hemorragia intracraniana sintomática. A sequência padronizada é suspender a droga, obter neuroimagem urgente e, havendo sangramento, reverter a coagulopatia induzida com crioprecipitado ou fibrinogênio e antifibrinolítico, além de manejar a pressão e acionar a neurocirurgia."
+      },
+      {
+        "letra": "B",
+        "texto": "Completar a dose calculada da medicação, uma vez que a piora nesse intervalo costuma refletir apenas edema citotóxico, e repetir a neuroimagem no dia seguinte.",
+        "correta": false,
+        "justificativa": "Incorreta. Prosseguir com o fibrinolítico diante de suspeita de sangramento amplia o hematoma e a mortalidade. A tomografia de controle após 24 horas é rotina apenas quando a evolução é favorável e jamais substitui a investigação imediata de uma deterioração neurológica aguda."
+      },
+      {
+        "letra": "C",
+        "texto": "Prescrever dose de ataque de ácido acetilsalicílico e de clopidogrel para prevenir retrombose e programar exame de imagem ao fim do plantão.",
+        "correta": false,
+        "justificativa": "Incorreta. Antiagregantes são proscritos nas primeiras 24 horas após a fibrinólise e, na vigência de sangramento, agravam o quadro. Postergar a neuroimagem retarda a única decisão capaz de mudar o desfecho neste momento."
+      },
+      {
+        "letra": "D",
+        "texto": "Substituir o alteplase por tenecteplase em bolus e solicitar ressonância magnética com estudo de perfusão para esclarecer a piora.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe indicação de trocar um fibrinolítico por outro no meio da infusão, e a ressonância é menos disponível e mais demorada que a tomografia sem contraste, que já responde à pergunta clínica decisiva: há ou não sangramento."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_neurologicas",
+      "especialidade_secundaria": "neurologia",
+      "objeto_conhecimento": "Reconhecimento e manejo da hemorragia intracraniana sintomática associada à trombólise no AVC isquêmico",
+      "sistema_organico": "nervoso",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Emergência neurológica não traumática atendida na rede de urgência: exige reconhecer a complicação do tratamento e reformular o plano terapêutico com segurança do paciente."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q063",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q063",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Mesmo objeto de conhecimento (conduta na deterioração neurológica durante infusão de alteplase), com paciente, sexo, idade, comorbidade, tempos de porta-agulha, pontuações da escala e evolução inteiramente novos. Alternativas redigidas do zero, com a correta detalhando a reversão específica (crioprecipitado/fibrinogênio e antifibrinolítico), o que o item original não explicitava. Correta posicionada em A conforme sorteio.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
+    "tema": "Imunização em pessoas imunossuprimidas",
+    "subtema": "Vacinas vivas atenuadas versus inativadas sob corticoterapia em dose imunossupressora",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_20"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "clinica_medica",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "imunizacao",
+      "imunossupressao",
+      "corticoterapia",
+      "doenca_inflamatoria_intestinal",
+      "prevencao"
+    ],
+    "texto_base": "Homem de 58 anos com retocolite ulcerativa de atividade moderada a grave iniciará prednisona 40 mg por dia, com previsão de manutenção por pelo menos seis semanas, seguida de azatioprina. Ele nunca teve varicela, não guarda registro das doses recebidas na vida adulta e mora em município sem circulação atual de febre amarela. Na consulta ambulatorial, pergunta o que ainda pode ser aplicado depois de começada a medicação.",
+    "enunciado": "Considerando as recomendações vigentes de imunização para pessoas sob imunossupressão medicamentosa, qual imunizante pode ser administrado com segurança a esse paciente durante o uso do corticoide em dose imunossupressora?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Vacina pneumocócica conjugada 13-valente.",
+        "correta": true,
+        "justificativa": "Correta. É um imunizante inativado, formado por polissacarídeos capsulares conjugados a proteína carreadora, sem qualquer agente replicante, de modo que não há risco de doença vacinal em imunossuprimidos. Mais que permitida, tem indicação formal nesse grupo, no esquema sequencial com a vacina polissacarídica 23-valente, ainda que a resposta imune possa ser menor sob corticoide."
+      },
+      {
+        "letra": "B",
+        "texto": "Vacina contra varicela, com vírus atenuado, em duas doses.",
+        "correta": false,
+        "justificativa": "Incorreta. Prednisona em dose igual ou superior a 20 mg por dia por mais de duas semanas define imunossupressão e contraindica imunizantes com agentes vivos atenuados, pelo risco de replicação descontrolada e doença causada pela própria vacina."
+      },
+      {
+        "letra": "C",
+        "texto": "Vacina febre amarela, de vírus vivo atenuado.",
+        "correta": false,
+        "justificativa": "Incorreta. Também é produzida com vírus vivo atenuado e está contraindicada durante a imunossupressão. Quando existe risco epidemiológico concreto, a decisão precisa ser individualizada e, idealmente, antecipada para antes do início do tratamento."
+      },
+      {
+        "letra": "D",
+        "texto": "Vacina tríplice viral.",
+        "correta": false,
+        "justificativa": "Incorreta. Sarampo, caxumba e rubéola compõem um produto de vírus vivos atenuados, igualmente proscrito sob corticoterapia imunossupressora. A atualização deve ser feita, sempre que possível, pelo menos quatro semanas antes de iniciar a medicação."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": "gastroenterologia",
+      "objeto_conhecimento": "Indicação e contraindicação de vacinas vivas e inativadas em pacientes sob imunossupressão medicamentosa",
+      "sistema_organico": "imune",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Prevenção aplicada a portador de doença crônica em ambulatório de especialidade: decidir imunização segura faz parte do plano terapêutico e da vigilância individual."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q064",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q064",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Preservado o objeto (segurança de vacinas sob imunossupressão), mas trocada a doença de base (retocolite ulcerativa em homem de 58 anos, em vez de lúpus em mulher jovem) e a resposta correta, que passou a ser uma vacina inativada de indicação formal no grupo (pneumocócica conjugada), com três vacinas de agentes vivos como distratores. Isso evita reprodução do conjunto original e reforça o princípio testado. Correta em A conforme sorteio.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
+    "tema": "Distúrbios do equilíbrio acidobásico",
+    "subtema": "Ânion gap, fórmula de Winter e distúrbios mistos",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "clinica_medica",
+    "dificuldade_editorial": "dificil",
+    "tags": [
+      "gasometria",
+      "anion_gap",
+      "acidose_metabolica",
+      "acidose_respiratoria",
+      "sepse"
+    ],
+    "texto_base": "Homem de 59 anos, obeso, com síndrome de hipoventilação da obesidade, é admitido em terapia intensiva por pneumonia extensa em base direita e choque séptico. Encontra-se torporoso, com uso de musculatura acessória e tempo de enchimento capilar de 5 segundos. A gasometria arterial e os eletrólitos colhidos na chegada mostram: pH 7,13; pCO2 50 mmHg; pO2 54 mmHg; bicarbonato 16 mmol/L; sódio 138 mmol/L; cloro 102 mmol/L; albumina 4,0 g/dL; lactato 6,8 mmol/L.",
+    "enunciado": "Empregando a equação de Henderson-Hasselbalch e o cálculo do ânion gap, qual é a interpretação acidobásica completa desse caso?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Acidose metabólica com ânion gap aumentado somada a acidose respiratória.",
+        "correta": true,
+        "justificativa": "Correta. O ânion gap é de 20 mEq/L (138 menos 102 menos 16), portanto elevado, e a albumina normal dispensa correção; a variação do gap acompanha a queda do bicarbonato, o que indica acidose orgânica pura, aqui por hiperlactatemia. Pela fórmula de Winter, a pCO2 esperada seria próxima de 32 mmHg: encontrar 50 mmHg revela retenção de gás carbônico e, portanto, acidose respiratória associada, coerente com a hipoventilação."
+      },
+      {
+        "letra": "B",
+        "texto": "Acidose respiratória crônica com compensação renal adequada.",
+        "correta": false,
+        "justificativa": "Incorreta. Na acidose respiratória crônica compensada o bicarbonato se eleva e o pH tende a permanecer próximo do limite inferior da normalidade. Neste caso o bicarbonato está reduzido a 16 mmol/L e o pH é de 7,13, o que exclui compensação renal eficaz e revela um segundo distúrbio."
+      },
+      {
+        "letra": "C",
+        "texto": "Acidose mista de três componentes: ganho de ácidos orgânicos, perda de bicarbonato com hipercloremia e retenção de gás carbônico.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe componente hiperclorêmico: o cloro está normal e toda a redução do bicarbonato é explicada pelo aumento do ânion gap, com relação delta-delta próxima de 1. Há apenas dois distúrbios, um metabólico e um respiratório."
+      },
+      {
+        "letra": "D",
+        "texto": "Acidose metabólica com ânion gap normal acompanhada de alcalose respiratória.",
+        "correta": false,
+        "justificativa": "Incorreta. O ânion gap calculado é de 20 mEq/L, ou seja, elevado, e a pCO2 de 50 mmHg caracteriza hipercapnia, exatamente o oposto da hipocapnia que definiria alcalose respiratória."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "medicina_intensiva",
+      "especialidade_secundaria": "nefrologia",
+      "objeto_conhecimento": "Interpretação sistematizada da gasometria arterial com ânion gap e resposta compensatória esperada",
+      "sistema_organico": "respiratorio",
+      "contexto_atencao": "terapia_intensiva",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_01"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Interpretação de exame complementar em paciente grave hospitalizado, articulando bases fisiológicas do equilíbrio acidobásico com a formulação diagnóstica."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q065",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q065",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "C",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Mantido o objeto (diagnóstico acidobásico completo por Henderson-Hasselbalch com ânion gap), com paciente, doença de base e todos os valores laboratoriais recalculados: os números foram escolhidos para que a relação delta-delta fique próxima de 1, eliminando a ambiguidade entre distúrbio duplo e triplo que o conjunto original de valores permitia. Alternativas reescritas. Correta em A conforme sorteio.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 8,
+    "uc_slug": "med_unidavi_f08_uc01_emergencias",
+    "tema": "Tromboembolismo pulmonar",
+    "subtema": "Estratificação de risco e indicação de trombólise sistêmica",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "urgencia_emergencia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "tep",
+      "choque_obstrutivo",
+      "trombolise",
+      "disfuncao_ventriculo_direito",
+      "emergencia_cardiovascular"
+    ],
+    "texto_base": "Mulher de 47 anos, obesa, em uso contínuo de contraceptivo oral combinado, retornou há três dias de voo de 11 horas. Procura a emergência por dispneia de início súbito e um episódio de síncope. Nega cirurgias, traumatismos, sangramentos, úlcera péptica ou acidente vascular cerebral prévios, não faz uso de anticoagulantes e não tem plaquetopenia. Está com frequência respiratória de 32 incursões por minuto, saturação periférica de 85% em ar ambiente, frequência cardíaca de 134 bpm e pressão arterial de 74/42 mmHg, que permanece em 78/46 mmHg após infusão de 1.000 mL de cristaloide. Apresenta jugulares ingurgitadas a 45 graus, extremidades frias e ausculta pulmonar sem ruídos adventícios. A angiotomografia de tórax foi laudada como falhas de enchimento centrais em ambas as artérias pulmonares principais, com extensão para ramos lobares, e relação entre os diâmetros do ventrículo direito e do esquerdo de 1,4 no corte de quatro câmaras. A troponina ultrassensível está elevada.",
+    "enunciado": "Considerando a estratificação de risco desse tromboembolismo pulmonar, qual é a conduta terapêutica imediata mais adequada?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Anticoagulação isolada com enoxaparina subcutânea em dose plena, mantendo a paciente em observação na unidade de internação.",
+        "correta": false,
+        "justificativa": "Incorreta. A anticoagulação é a base do tratamento, mas sozinha não desobstrui rapidamente a circulação pulmonar; na embolia de alto risco com choque persistente, essa estratégia associa-se a mortalidade elevada. Além disso, a via subcutânea é desaconselhada na instabilidade hemodinâmica pela absorção imprevisível, preferindo-se heparina não fracionada endovenosa."
+      },
+      {
+        "letra": "B",
+        "texto": "Trombólise sistêmica imediata com ativador tecidual do plasminogênio, mantendo suporte vasopressor e oxigenoterapia.",
+        "correta": true,
+        "justificativa": "Correta. Hipotensão sustentada apesar de reposição volêmica, somada a sinais tomográficos de sobrecarga do ventrículo direito e a biomarcador de lesão miocárdica elevado, define embolia pulmonar de alto risco. Não há contraindicação absoluta ao fibrinolítico nesta paciente, e a reperfusão farmacológica reduz mortalidade e recorrência de instabilidade; a heparina é retomada ao término da infusão."
+      },
+      {
+        "letra": "C",
+        "texto": "Encaminhamento para retirada cirúrgica do trombo com circulação extracorpórea como primeira medida.",
+        "correta": false,
+        "justificativa": "Incorreta. A embolectomia cirúrgica está reservada a quem tem contraindicação formal ao fibrinolítico, a quem falhou ao tratamento trombolítico ou a casos com trombo em trânsito nas câmaras direitas, e depende de centro e equipe habilitados, o que a inviabiliza como primeira escolha aqui."
+      },
+      {
+        "letra": "D",
+        "texto": "Implante de dispositivo de interrupção na veia cava inferior antes de qualquer terapia farmacológica.",
+        "correta": false,
+        "justificativa": "Incorreta. O filtro apenas impede a migração de novos coágulos originados nos membros inferiores e nada faz sobre a obstrução já instalada ou sobre o choque. Sua indicação restringe-se, essencialmente, a pacientes que não podem receber anticoagulação."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_cardiovasculares",
+      "especialidade_secundaria": "pneumologia",
+      "objeto_conhecimento": "Estratificação de gravidade do tromboembolismo pulmonar e indicação de reperfusão farmacológica",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Emergência não traumática na rede de urgência, exigindo reconhecer a gravidade e decidir a terapêutica de reperfusão com base em risco e benefício."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q066",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q066",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": [
+          "A tomografia citada não é apresentada, ainda que a estratificação se apoie nos parâmetros clínicos descritos.",
+          "O enunciado é internamente contraditório: afirma não haver cirurgias recentes logo após relatar artroplastia de joelho há 10 dias, dado que altera a análise de contraindicação à trombólise."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "Foram corrigidos os dois defeitos apontados no item de origem. Primeiro, a dependência de imagem: os achados da angiotomografia estão agora descritos por extenso no texto (falhas de enchimento centrais bilaterais e relação ventrículo direito/ventrículo esquerdo de 1,4), tornando o item respondível sem figura. Segundo, a contradição interna: o original negava cirurgia recente logo após relatar artroplastia de joelho havia dez dias, dado que muda a análise de contraindicação relativa à fibrinólise. Aqui o fator de risco foi substituído por imobilidade em voo prolongado e contraceptivo oral, e o texto declara explicitamente a ausência de contraindicações ao trombolítico.",
+      "nota_adaptacao": "Preservados o objeto (embolia pulmonar de alto risco e indicação de trombólise) e a chave de conteúdo do consenso, com paciente, fator de risco, sinais vitais e achados de imagem novos. As alternativas foram reescritas e ampliadas para explicitar por que a anticoagulação isolada, a embolectomia e o filtro de veia cava não atendem à urgência hemodinâmica. Correta em B conforme sorteio.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
+    "tema": "Bacteremia por bacilos gram-negativos",
+    "subtema": "Descalonamento antimicrobiano e duração de tratamento",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_18",
+      "dcn2025_comp_25"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "clinica_medica",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "stewardship",
+      "hemocultura",
+      "pielonefrite",
+      "enterobacterales",
+      "uso_racional_de_antimicrobianos"
+    ],
+    "texto_base": "Mulher de 59 anos, diabética tipo 2, está internada há 48 horas por pielonefrite aguda à direita. Na admissão apresentava temperatura de 39,1 °C, frequência cardíaca de 118 bpm e pressão arterial de 86/50 mmHg, com boa resposta à expansão volêmica; a ultrassonografia não mostrou dilatação de vias urinárias, abscessos ou cálculos. Foi iniciada terapia empírica com piperacilina-tazobactam e vancomicina. Hoje está afebril há mais de 24 horas, sem vasopressor, aceitando dieta por via oral, e o único dispositivo é um cateter venoso periférico; não é imunossuprimida. O laboratório comunica que os dois pares de hemoculturas colhidos na admissão apresentam crescimento de bacilos gram-negativos, ainda sem identificação de espécie nem antibiograma. A urocultura confirmou o mesmo morfotipo.",
+    "enunciado": "Com base nas evidências atuais sobre bacteremia por Enterobacterales e nos princípios de uso racional de antimicrobianos, qual é a conduta mais adequada neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Retirar a vancomicina do esquema e aguardar a identificação da espécie e o perfil de sensibilidade para definir o descalonamento do betalactâmico, prevendo duração total de sete dias se a evolução seguir favorável.",
+        "correta": true,
+        "justificativa": "Correta. A coloração de Gram já afasta cocos gram-positivos, e manter o glicopeptídeo apenas expõe a paciente a nefrotoxicidade e pressão seletiva. O ajuste definitivo do betalactâmico depende do antibiograma, e ensaios randomizados demonstraram não inferioridade de sete dias frente a quatorze na bacteremia por enterobactérias com foco controlado e boa resposta clínica."
+      },
+      {
+        "letra": "B",
+        "texto": "Prolongar piperacilina-tazobactam e vancomicina por quatorze dias, para assegurar a esterilização da corrente sanguínea.",
+        "correta": false,
+        "justificativa": "Incorreta. Não há benefício em manter cobertura para gram-positivos sem qualquer evidência microbiológica que a sustente, e cursos de quatorze dias não se mostraram superiores a sete na bacteremia não complicada por enterobactérias: ampliam toxicidade, custo e seleção de resistência."
+      },
+      {
+        "letra": "C",
+        "texto": "Trocar de imediato o betalactâmico por cefepima, antecipando produção de betalactamases do tipo AmpC ou de espectro estendido.",
+        "correta": false,
+        "justificativa": "Incorreta. Escalonar às cegas contraria o uso racional de antimicrobianos, e a cefepima é justamente inadequada diante de betalactamase de espectro estendido, situação em que o carbapenêmico é a escolha. A decisão deve seguir a identificação da espécie e o teste de sensibilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Manter o esquema em vigor até que novas hemoculturas de controle resultem negativas, suspendendo os antimicrobianos somente depois disso.",
+        "correta": false,
+        "justificativa": "Incorreta. Hemoculturas de seguimento são rotina em bacteremia por Staphylococcus aureus, por Candida e na suspeita de endocardite, e não em bacteremia por gram-negativos com foco urinário controlado e boa resposta clínica. Condicionar a suspensão a esse exame prolonga a exposição sem ganho demonstrado."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "infectologia",
+      "especialidade_secundaria": "clinica_geral",
+      "objeto_conhecimento": "Descalonamento antimicrobiano e duração de terapia na bacteremia por Enterobacterales de foco urinário",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Ajuste do plano terapêutico em enfermaria a partir da interpretação de exame microbiológico, com ênfase em custo-efetividade e segurança do paciente."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q067",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q067",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Objeto preservado (descalonamento na bacteremia por gram-negativos), com paciente, sexo, idade, comorbidade e esquema empírico distintos, e com a explicitação ultrassonográfica de foco não obstruído, que o original não fornecia. A alternativa correta foi ampliada para incorporar também a duração de sete dias apoiada em ensaios de não inferioridade, o que agrega valor pedagógico. Correta em A conforme sorteio.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
+    "tema": "Insuficiência cardíaca",
+    "subtema": "Acurácia dos sinais do exame físico: sensibilidade versus especificidade",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "clinica_medica",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "insuficiencia_cardiaca",
+      "semiologia",
+      "terceira_bulha",
+      "especificidade",
+      "propedeutica"
+    ],
+    "texto_base": "Mulher de 64 anos, hipertensa e diabética, comparece ao ambulatório referindo cansaço aos esforços habituais nas últimas quatro semanas e necessidade de dormir semi-sentada para não acordar sufocada. Ao exame, está com frequência cardíaca de 104 bpm, pressão arterial de 148/88 mmHg e saturação periférica de 95% em ar ambiente. Ausculta-se murmúrio vesicular com estertores finos nos terços inferiores de ambos os hemitórax; há edema depressível até os tornozelos (2+/4+) e, na ausculta do ictus em decúbito lateral esquerdo, ritmo de galope por bulha protodiastólica adicional.",
+    "enunciado": "Qual desses sinais semiológicos é o que tem maior especificidade diagnóstica para insuficiência cardíaca?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Estertores finos audíveis nas bases pulmonares.",
+        "correta": false,
+        "justificativa": "Incorreta. Crepitações basais são frequentes na congestão, porém pouco específicas: aparecem em pneumonia, fibrose pulmonar, atelectasias e mesmo em idosos hígidos após repouso prolongado, o que limita seu valor confirmatório."
+      },
+      {
+        "letra": "B",
+        "texto": "Edema depressível dos tornozelos.",
+        "correta": false,
+        "justificativa": "Incorreta. O edema de membros inferiores tem especificidade baixa, pois decorre também de insuficiência venosa crônica, uso de bloqueadores dos canais de cálcio, hipoalbuminemia e doença renal. É achado útil para suspeitar de congestão, não para confirmá-la."
+      },
+      {
+        "letra": "C",
+        "texto": "Taquicardia sinusal em repouso.",
+        "correta": false,
+        "justificativa": "Incorreta. A elevação da frequência cardíaca é resposta adrenérgica inespecífica, presente em anemia, febre, dor, ansiedade, hipertireoidismo e hipovolemia, e por isso não distingue insuficiência cardíaca de outras causas de dispneia."
+      },
+      {
+        "letra": "D",
+        "texto": "Bulha protodiastólica adicional configurando ritmo de galope.",
+        "correta": true,
+        "justificativa": "Correta. A terceira bulha é o achado de exame físico com maior especificidade para insuficiência cardíaca, acima de 90% em séries clínicas, porque traduz enchimento ventricular rápido contra um ventrículo de complacência reduzida e pressões de enchimento elevadas. Sua sensibilidade, contudo, é baixa: a ausência do galope não exclui o diagnóstico."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "cardiologia",
+      "especialidade_secundaria": "clinica_geral",
+      "objeto_conhecimento": "Valor diagnóstico dos sinais do exame físico na insuficiência cardíaca, com destaque para a terceira bulha",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_06",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Formulação de hipótese diagnóstica a partir do exame físico em ambulatório de doença crônica, mobilizando semiologia e noções de acurácia diagnóstica."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q068",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q068",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Mesmo objeto (especificidade da terceira bulha), com paciente do outro sexo, outras comorbidades, outros sinais vitais e narrativa nova. A vinheta foi deliberadamente construída sem turgência jugular, achado que também é altamente específico e que, se descrito, tornaria a comparação ambígua. Alternativas redigidas do zero. Correta em D conforme sorteio.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
+    "tema": "Nefrite lúpica",
+    "subtema": "Terapia de indução em glomerulonefrite proliferativa difusa com crescentes",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_20"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "clinica_medica",
+    "dificuldade_editorial": "dificil",
+    "tags": [
+      "lupus",
+      "nefrite_lupica",
+      "ciclofosfamida",
+      "imunossupressao",
+      "biopsia_renal"
+    ],
+    "texto_base": "Mulher de 36 anos, com lúpus eritematoso sistêmico diagnosticado há quatro anos e até então limitado a artrite e fotossensibilidade, procura o serviço por edema de face e de pernas com piora em duas semanas e urina que forma espuma persistente. A pressão arterial, antes normal, está em 158/98 mmHg. Os exames mostram creatinina de 2,4 mg/dL (era 0,7 mg/dL havia quatro meses), albumina sérica de 2,4 g/dL, proteinúria de 4,8 g em 24 horas, sedimento urinário com hemácias dismórficas e cilindros hemáticos, frações C3 e C4 do complemento consumidas e anticorpo anti-DNA de dupla hélice em títulos altos. A biópsia renal evidenciou glomerulonefrite proliferativa difusa (classe IV), índice de atividade alto, crescentes celulares em 30% dos glomérulos e índice de cronicidade baixo.",
+    "enunciado": "Qual é o esquema de indução de remissão mais apropriado para essa paciente, segundo as recomendações vigentes?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pulsoterapia com metilprednisolona endovenosa seguida de corticoide oral em redução progressiva, associada a ciclofosfamida intravenosa, mantendo-se a hidroxicloroquina.",
+        "correta": true,
+        "justificativa": "Correta. Classe IV com índice de atividade alto, crescentes celulares e perda rápida de função renal caracteriza nefrite lúpica grave. A indução se faz com pulsos de glicocorticoide seguidos de dose oral decrescente somados a imunossupressor potente, e a ciclofosfamida intravenosa, em regime de baixa dose ou clássico, é a escolha preferencial diante de doença rapidamente progressiva. A hidroxicloroquina deve ser mantida em todos os pacientes."
+      },
+      {
+        "letra": "B",
+        "texto": "Micofenolato de mofetila em dose reduzida, empregado isoladamente e sem corticoide.",
+        "correta": false,
+        "justificativa": "Incorreta. O micofenolato é alternativa válida à ciclofosfamida, mas sempre combinado a glicocorticoide e em dose plena, tipicamente de 2 a 3 g ao dia. Usá-lo isolado e em dose baixa não controla a inflamação glomerular e favorece a progressão para doença renal terminal."
+      },
+      {
+        "letra": "C",
+        "texto": "Corticoide oral em monoterapia associado a azatioprina desde o início do tratamento.",
+        "correta": false,
+        "justificativa": "Incorreta. A azatioprina tem lugar na fase de manutenção, após alcançada a remissão, e é menos eficaz que ciclofosfamida ou micofenolato para induzir remissão nas formas proliferativas difusas, sobretudo quando há crescentes."
+      },
+      {
+        "letra": "D",
+        "texto": "Rituximabe combinado a ciclosporina como primeira linha.",
+        "correta": false,
+        "justificativa": "Incorreta. O anticorpo anti-CD20 e os inibidores de calcineurina ficam reservados a doença refratária ou a situações específicas de terapia adicional aos esquemas convencionais, e não substituem a indução padrão em paciente virgem de imunossupressão."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "nefrologia",
+      "especialidade_secundaria": "reumatologia",
+      "objeto_conhecimento": "Indicação da terapia de indução na nefrite lúpica classe IV com crescentes",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Elaboração de plano terapêutico em doença crônica autoimune grave, integrando achados histológicos e laboratoriais às melhores evidências disponíveis."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q069",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q069",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Mantido o objeto (indução na nefrite lúpica proliferativa difusa), com paciente de outra idade e tempo de doença, outros valores laboratoriais e descrição histológica com índices de atividade e cronicidade explicitados. As alternativas foram reescritas: a correta detalha a pulsoterapia e a manutenção da hidroxicloroquina, e as justificativas explicam que o micofenolato seria opção legítima em dose plena com corticoide, o que o item original não esclarecia. Correta em A conforme sorteio.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
+    "tema": "Anemia no adulto",
+    "subtema": "Investigação inicial da anemia normocítica hipoproliferativa",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "clinica_medica",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "anemia",
+      "reticulocitos",
+      "cinetica_do_ferro",
+      "doenca_renal_cronica",
+      "raciocinio_diagnostico"
+    ],
+    "texto_base": "Mulher de 61 anos, hipertensa em uso de losartana, sem queixas, traz a consulta de rotina um hemograma solicitado no atendimento anterior: hemoglobina 9,6 g/dL; hematócrito 29%; volume corpuscular médio 86 fL; amplitude de distribuição dos eritrócitos 14,5%; reticulócitos 1,2%, com valor absoluto de 38.000/mm³; leucócitos 6.200/mm³ com contagem diferencial normal; plaquetas 265.000/mm³. Ao exame, está descorada 1+/4+, sem visceromegalias, adenomegalias, icterícia ou sinais de sangramento. Está na pós-menopausa há dez anos e nega melena, hematoquezia, perda de peso ou uso de anti-inflamatórios.",
+    "enunciado": "Considerando o padrão morfológico do hemograma e a resposta medular estimada pela contagem de reticulócitos, que conduta diagnóstica deve ser adotada a seguir?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Encaminhar diretamente para endoscopia digestiva alta e colonoscopia.",
+        "correta": false,
+        "justificativa": "Incorreta. A investigação endoscópica do tubo digestivo é obrigatória quando se confirma anemia por deficiência de ferro em adulto, mas a ferropenia ainda não foi documentada. Solicitar dois exames invasivos antes da cinética do ferro inverte a ordem lógica e desperdiça recursos."
+      },
+      {
+        "letra": "B",
+        "texto": "Dosar haptoglobina, desidrogenase láctica e bilirrubina indireta em busca de hemólise.",
+        "correta": false,
+        "justificativa": "Incorreta. Processos hemolíticos cursam com resposta reticulocitária aumentada; aqui os reticulócitos estão baixos em valor absoluto para o grau de anemia, e não há icterícia, esplenomegalia ou história compatível, o que torna essa hipótese pouco provável como ponto de partida."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar ferritina, ferro sérico e saturação de transferrina, acrescentando creatinina com estimativa da taxa de filtração glomerular.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de anemia normocítica hipoproliferativa, pois a contagem absoluta de reticulócitos é inadequadamente baixa para o grau de anemia. As causas mais prevalentes nessa faixa etária são carência de ferro em fase inicial, anemia da inflamação e doença renal crônica; a cinética do ferro somada à função renal separa esses cenários com baixo custo e define se a investigação deve seguir para o tubo digestivo."
+      },
+      {
+        "letra": "D",
+        "texto": "Indicar de imediato mielograma com biópsia de medula óssea.",
+        "correta": false,
+        "justificativa": "Incorreta. O estudo medular fica reservado a citopenias em mais de uma linhagem, presença de células imaturas no sangue periférico, suspeita de neoplasia hematológica ou anemia que permanece inexplicada após a investigação inicial. Sem esses elementos, é procedimento invasivo e prematuro."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "hematologia",
+      "especialidade_secundaria": "clinica_geral",
+      "objeto_conhecimento": "Abordagem diagnóstica escalonada da anemia normocítica com resposta reticulocitária inadequada",
+      "sistema_organico": "hematopoetico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_02"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_06"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Solicitação racional e escalonada de exames complementares em achado laboratorial de rotina na atenção primária, considerando prevalência e custo-efetividade."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q070",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q070",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Mesmo objeto (próximo passo na anemia normocítica hipoproliferativa), com paciente de outro sexo e idade, hemograma inteiramente recalculado e acréscimo do valor absoluto de reticulócitos, que é o dado que efetivamente permite classificar a anemia como hipoproliferativa — o item original informava apenas o percentual. Alternativas reescritas, com mielograma substituindo um dos distratores. Correta em C conforme sorteio.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Rastreamento de câncer em adultos assintomáticos",
+    "subtema": "Critérios de recomendação e riscos do sobrediagnóstico",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_25"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "rastreamento",
+      "prevencao_quaternaria",
+      "cancer_colorretal",
+      "sobrediagnostico",
+      "atencao_primaria"
+    ],
+    "texto_base": "Mulher de 57 anos, nunca fumante, assintomática, é atendida na Unidade Básica de Saúde para consulta de rotina. Não tem antecedente pessoal ou familiar de câncer, não usa medicações contínuas e o índice de massa corporal é de 26 kg/m². A mamografia e a citologia cervical estão em dia e vieram normais. Ela quer saber se deve fazer outros exames de imagem e de sangue para encontrar um câncer antes que dê sintomas.",
+    "enunciado": "Considerando as recomendações de rastreamento para pessoas assintomáticas e de risco habitual, qual exame deve ser oferecido a essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ultrassonografia cervical em busca de nódulos tireoidianos.",
+        "correta": false,
+        "justificativa": "Incorreta. Rastrear a tireoide em assintomáticos aumenta a detecção de microcarcinomas papilíferos indolentes e leva a tireoidectomias e reposição hormonal desnecessárias, sem redução de mortalidade. É exemplo clássico de sobrediagnóstico e de dano iatrogênico evitável."
+      },
+      {
+        "letra": "B",
+        "texto": "Tomografia computadorizada torácica com técnica de baixa dose de radiação.",
+        "correta": false,
+        "justificativa": "Incorreta. O rastreamento de neoplasia pulmonar só se justifica em pessoas com carga tabágica significativa, dentro de faixa etária e de prazo definidos desde a cessação. Em quem nunca fumou, a probabilidade pré-teste é baixa e predominam achados incidentais que geram procedimentos invasivos evitáveis."
+      },
+      {
+        "letra": "C",
+        "texto": "Rastreamento de câncer colorretal, com pesquisa imunoquímica de sangue oculto nas fezes anual ou exame endoscópico do cólon a cada dez anos.",
+        "correta": true,
+        "justificativa": "Correta. A neoplasia colorretal preenche os critérios que justificam rastreamento populacional: é prevalente, tem lesão precursora identificável e removível e o exame reduz mortalidade específica. A oferta se dá dos 45 ou 50 anos até cerca dos 74 anos em pessoas de risco habitual, por pesquisa de sangue oculto nas fezes anual ou por exame endoscópico em intervalo mais longo."
+      },
+      {
+        "letra": "D",
+        "texto": "Ultrassonografia transvaginal associada à dosagem sérica de CA-125.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa combinação foi avaliada em ensaios de grande porte para câncer de ovário e não reduziu mortalidade, além de gerar cirurgias exploradoras em mulheres saudáveis. Tampouco há indicação de rastrear endométrio em assintomáticas de risco habitual."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "oncologia",
+      "objeto_conhecimento": "Indicações de rastreamento oncológico em adultos de risco habitual e prevenção quaternária",
+      "sistema_organico": "nao_aplicavel",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Decisão de prevenção na atenção primária, com escolha de exames de rastreamento baseada em evidência, potencial de prevenção e risco de sobrediagnóstico."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q071",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q071",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Objeto preservado (o que rastrear em adulto assintomático de risco habitual), com paciente nunca fumante em vez de ex-tabagista, o que elimina a discussão limítrofe sobre elegibilidade à tomografia de baixa dose presente no item original. A vinheta declara mamografia e citologia já em dia para que reste apenas uma resposta defensável. Alternativas reescritas, com o par ultrassonografia transvaginal mais CA-125 no lugar do rastreio isolado de endométrio. Correta em C conforme sorteio.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Profilaxia pré-exposição ao HIV",
+    "subtema": "Avaliação laboratorial exigida antes do início do tenofovir",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_11"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "prep",
+      "hiv",
+      "tenofovir",
+      "funcao_renal",
+      "populacoes_vulnerabilizadas"
+    ],
+    "texto_base": "Mulher trans de 31 anos, em terapia hormonal com estradiol, procura a Unidade Básica de Saúde solicitando profilaxia pré-exposição ao HIV. Relata parcerias sexuais múltiplas nos últimos meses e uso irregular de preservativo. Não tem comorbidades conhecidas, não usa outros medicamentos e nega febre, faringite, exantema, adenomegalia ou qualquer sintoma nos últimos trinta dias. O teste rápido para HIV realizado na consulta foi não reagente, assim como a testagem para sífilis e o rastreio de hepatites virais.",
+    "enunciado": "Além de assegurar a soronegatividade para o HIV, qual avaliação laboratorial é indispensável antes de prescrever o esquema oral de tenofovir com entricitabina, segundo o protocolo do Ministério da Saúde?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Dosagem da creatinina sérica com estimativa da depuração, que precisa estar acima de 60 mL/min.",
+        "correta": true,
+        "justificativa": "Correta. O tenofovir desoproxila tem eliminação renal e pode provocar tubulopatia proximal e queda da filtração glomerular. Por isso o protocolo exige creatinina com cálculo da depuração antes de iniciar e ao longo do seguimento, contraindicando a profilaxia oral diária quando o valor estimado é inferior a 60 mL/min."
+      },
+      {
+        "letra": "B",
+        "texto": "Dosagem de alanina e aspartato aminotransferases para prever hepatotoxicidade.",
+        "correta": false,
+        "justificativa": "Incorreta. As transaminases não são condição para iniciar a profilaxia. A preocupação hepática relevante refere-se à hepatite B, avaliada por sorologia, porque a interrupção do tenofovir em pessoas portadoras pode desencadear reativação viral."
+      },
+      {
+        "letra": "C",
+        "texto": "Quantificação da carga viral do HIV por reação em cadeia da polimerase.",
+        "correta": false,
+        "justificativa": "Incorreta. A triagem é feita com teste rápido ou imunoensaio somado à investigação ativa de sintomas de infecção aguda. A carga viral fica reservada às situações de suspeita de infecção muito recente, em janela imunológica, e não integra a avaliação de rotina prévia."
+      },
+      {
+        "letra": "D",
+        "texto": "Dosagem de creatinofosfoquinase para vigilância de lesão muscular.",
+        "correta": false,
+        "justificativa": "Incorreta. Miopatia não é efeito adverso esperado da combinação de tenofovir com entricitabina, e essa enzima muscular não compõe a avaliação recomendada antes nem durante o uso da profilaxia pré-exposição."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "infectologia",
+      "objeto_conhecimento": "Requisitos clínicos e laboratoriais para início da profilaxia pré-exposição ao HIV na atenção primária",
+      "sistema_organico": "geniturinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_08",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Prevenção combinada na atenção primária a pessoa de população vulnerabilizada, exigindo acolhimento sem juízo de valor e avaliação laboratorial de segurança da droga."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q072",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q072",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Objeto mantido (exame indispensável antes do tenofovir na profilaxia pré-exposição), com outra pessoa usuária — mulher trans em terapia hormonal, o que aproxima o item do princípio de equidade da matriz — e com a testagem de sífilis e hepatites já explicitada na vinheta, para que a única lacuna a resolver seja a função renal. A alternativa correta traz o limiar de 60 mL/min, ausente no original. Correta em A conforme sorteio.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 8,
+    "uc_slug": "med_unidavi_f08_uc01_emergencias",
+    "tema": "Infarto agudo do miocárdio com supradesnivelamento do segmento ST",
+    "subtema": "Escolha da estratégia de reperfusão em serviço sem hemodinâmica",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_06",
+      "dcn2025_comp_10"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "urgencia_emergencia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "iamcsst",
+      "reperfusao",
+      "angioplastia_primaria",
+      "infarto_de_ventriculo_direito",
+      "rede_de_urgencia"
+    ],
+    "texto_base": "Homem de 62 anos, diabético e tabagista, chega à Unidade de Pronto Atendimento de um município do interior com dor retroesternal em peso iniciada há 2 horas, irradiada para a mandíbula, acompanhada de sudorese fria e vômitos. Está com pressão arterial de 104/62 mmHg, frequência cardíaca de 58 bpm e ausculta pulmonar limpa. O eletrocardiograma de 12 derivações realizado na chegada mostra supradesnivelamento do segmento ST de 3 mm em DII, DIII e aVF, com magnitude maior em DIII do que em DII, infradesnivelamento especular em DI e aVL e, nas derivações precordiais direitas, supradesnivelamento de 1,5 mm em V4R. A unidade não dispõe de laboratório de hemodinâmica; o hospital de referência com sala de cateterismo disponível fica a 40 minutos de transporte terrestre, com equipe já contatada e sala pronta para recebê-lo.",
+    "enunciado": "Qual é a combinação mais adequada de tratamento medicamentoso imediato e de estratégia de reperfusão para esse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Realizar fibrinólise química na própria unidade e, em seguida, encaminhar o paciente ao serviço de hemodinâmica.",
+        "correta": false,
+        "justificativa": "Incorreta. A trombólise seria a escolha caso o tempo previsto até a abertura mecânica da artéria ultrapassasse 120 minutos. Como a sala está pronta a 40 minutos de distância, fibrinolisar acrescenta risco de sangramento, inclusive intracraniano, sem qualquer ganho de perfusão."
+      },
+      {
+        "letra": "B",
+        "texto": "Administrar somente ácido acetilsalicílico agora, deixando o segundo antiagregante e o anticoagulante a cargo do serviço que fará o cateterismo.",
+        "correta": false,
+        "justificativa": "Incorreta. Adiar o inibidor de P2Y12 e a anticoagulação retarda o efeito antitrombótico exatamente durante o transporte, período de maior risco de reoclusão e de arritmias ventriculares. Ambos devem ser administrados assim que o diagnóstico eletrocardiográfico é firmado."
+      },
+      {
+        "letra": "C",
+        "texto": "Aguardar o resultado da troponina para confirmar necrose miocárdica e só então decidir sobre a transferência.",
+        "correta": false,
+        "justificativa": "Incorreta. O diagnóstico de infarto com supradesnivelamento é clínico e eletrocardiográfico, e não depende de marcador de necrose. Esperar o exame apenas consome tempo de músculo viável e retarda a reperfusão, que é a intervenção que reduz mortalidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Ácido acetilsalicílico mastigado em dose de ataque, inibidor de P2Y12 também em dose de ataque e anticoagulante parenteral, com acionamento imediato do transporte para angioplastia primária, evitando-se nitrato pelo acometimento do ventrículo direito.",
+        "correta": true,
+        "justificativa": "Correta. O padrão descrito indica infarto de parede inferior com extensão ao ventrículo direito. Como o intervalo previsto entre o primeiro contato e a abertura da artéria é inferior a 120 minutos, a angioplastia primária supera a fibrinólise, e a dupla antiagregação com anticoagulação deve começar antes do transporte. Nitratos e diuréticos são evitados porque o débito, nesse território, depende da pré-carga."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "emergencias_cardiovasculares",
+      "especialidade_secundaria": "cardiologia",
+      "objeto_conhecimento": "Decisão entre fibrinólise e angioplastia primária conforme tempo de transferência na rede de urgência",
+      "sistema_organico": "cardiovascular",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_05",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Emergência cardiovascular em ponto da rede de urgência sem hemodinâmica: exige tratar e articular a referência com base em critérios de tempo e evidência."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q073",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q073",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "media",
+        "defeitos_do_item_original": [
+          "O ECG citado no enunciado não foi transcrito; o diagnóstico de IAMCSST fica implícito pelo quadro clínico e pelas alternativas.",
+          "O eletrocardiograma citado no enunciado não está disponível; a resposta depende de assumir supradesnivelamento do segmento ST.",
+          "O eletrocardiograma citado no enunciado não é apresentado; o diagnóstico depende de inferência clínica."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "O item de origem dependia de um eletrocardiograma que não era exibido, deixando o diagnóstico por inferência. Aqui os achados eletrocardiográficos estão descritos por extenso — supradesnivelamento em parede inferior, maior em DIII do que em DII, imagem em espelho em DI e aVL e supradesnivelamento em V4R —, o que torna o item integralmente respondível pelo texto. O tempo de transporte e a disponibilidade efetiva da sala de cateterismo também foram explicitados, para que a escolha entre fibrinólise e angioplastia primária tenha resposta inequívoca.",
+      "nota_adaptacao": "Objeto preservado (estratégia de reperfusão em serviço sem hemodinâmica), com outro paciente, outra parede acometida e transcrição textual do traçado. Acrescentou-se o acometimento do ventrículo direito, que permite avaliar também a contraindicação a nitratos, ampliando a competência avaliada sem mudar o eixo da pergunta. Alternativas escritas do zero. Correta em D conforme sorteio.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
+    "tema": "Hipercalcemia associada a neoplasia",
+    "subtema": "Hipercalcemia humoral maligna mediada por peptídeo relacionado ao paratormônio",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_21"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "clinica_medica",
+    "dificuldade_editorial": "dificil",
+    "tags": [
+      "hipercalcemia",
+      "sindrome_paraneoplasica",
+      "pthrp",
+      "carcinoma_renal",
+      "fisiopatologia"
+    ],
+    "texto_base": "Homem de 70 anos, com carcinoma renal de células claras metastático em acompanhamento oncológico, é levado ao pronto-socorro pelos familiares por sonolência progressiva, confusão mental e constipação nas últimas duas semanas. Está desidratado, sem déficits neurológicos focais e sem dor óssea localizada. Os exames mostram cálcio total de 13,8 mg/dL (referência de 8,5 a 10,5), albumina de 3,9 g/dL, fósforo de 1,9 mg/dL (referência de 2,5 a 4,5), paratormônio intacto de 6 pg/mL (referência de 10 a 65), 25-hidroxivitamina D dentro da normalidade, 1,25-di-hidroxivitamina D reduzida e creatinina de 1,7 mg/dL. A cintilografia óssea e a tomografia realizadas no mês anterior não demonstraram lesões líticas ou blásticas no esqueleto.",
+    "enunciado": "Qual é o mecanismo fisiopatológico que melhor explica a hipercalcemia desse paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Osteólise local mediada por metástases esqueléticas, com liberação de RANKL e de citocinas reabsortivas.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse mecanismo predomina no mieloma múltiplo e em carcinomas de mama com doença óssea extensa, e pressupõe lesões esqueléticas, que estão ausentes tanto na cintilografia quanto na tomografia deste paciente."
+      },
+      {
+        "letra": "B",
+        "texto": "Produção tumoral de peptídeo relacionado ao paratormônio, que ativa o receptor PTH1R no osso e no túbulo renal.",
+        "correta": true,
+        "justificativa": "Correta. A hipercalcemia humoral maligna decorre da secreção, pelo tumor, de um peptídeo com homologia à porção aminoterminal do paratormônio, capaz de estimular o mesmo receptor. O resultado é aumento da reabsorção óssea e da reabsorção tubular de cálcio, com maior perda urinária de fosfato — o que explica a hipofosfatemia, o paratormônio suprimido por retroalimentação e a ausência de lesões ósseas à imagem."
+      },
+      {
+        "letra": "C",
+        "texto": "Conversão extrarrenal de 25-hidroxivitamina D em calcitriol por células mononucleares associadas ao tumor.",
+        "correta": false,
+        "justificativa": "Incorreta. Esse é o mecanismo dos linfomas e das doenças granulomatosas, e cursa com 1,25-di-hidroxivitamina D elevada e fósforo normal ou alto, por aumento da absorção intestinal de ambos. Neste caso o calcitriol está reduzido e há hipofosfatemia."
+      },
+      {
+        "letra": "D",
+        "texto": "Hiperparatireoidismo primário por adenoma de paratireoide coexistente com a neoplasia.",
+        "correta": false,
+        "justificativa": "Incorreta. No hiperparatireoidismo primário o paratormônio está elevado ou inapropriadamente normal diante da hipercalcemia. Um valor de 6 pg/mL indica supressão adequada do eixo paratireoidiano e afasta essa hipótese."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "oncologia",
+      "especialidade_secundaria": "endocrinologia",
+      "objeto_conhecimento": "Mecanismos das hipercalcemias neoplásicas e sua distinção pelo perfil bioquímico",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_01",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_01",
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Raciocínio fisiopatológico aplicado à interpretação de exames em emergência oncológica, articulando bases moleculares do metabolismo do cálcio e propedêutica."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q074",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q074",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Objeto mantido (mecanismo da hipercalcemia humoral maligna), com neoplasia diferente — carcinoma renal de células claras em vez de carcinoma epidermoide de pulmão — e com acréscimo das dosagens de 25-hidroxivitamina D e de calcitriol, que permitem descartar objetivamente a via mediada por vitamina D. As alternativas foram reescritas com o mecanismo explicitado, e não apenas nomeado. Correta em B conforme sorteio.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
     "fase_alvo": 12,
     "uc_slug": "med_unidavi_f12_uc01_clinica_medica",
     "tema": "Disfunção tireoidiana",
@@ -8844,6 +10315,1482 @@
       "defeito_corrigido_na_adaptacao": "O item de origem apresentava três defeitos: plaquetopenia de 85.000/mm³ e creatinina de 1,3 mg/dL, que tornavam a cesariana defensável e criavam duas respostas sustentáveis; justificativa embutida na alternativa correta ('visto o cenário favorável'), que entregava parte da resposta; e ausência de anti-hipertensivo específico na chave. No item novo, plaquetas, creatinina, transaminases e desidrogenase láctica são normais e não há sinais de sofrimento fetal, o que remove a defensabilidade da via alta; o anti-hipertensivo está nomeado na alternativa correta; e nenhuma opção contém justificativa embutida.",
       "nota_adaptacao": "Caso reescrito: secundigesta de 30 anos com parto vaginal prévio, 36 semanas e 2 dias, valores pressóricos, proteinúria e exames laboratoriais próprios. Chave posicionada em C. Todas as alternativas foram escritas do zero e os distratores foram reconstruídos para representar erros conceituais isolados (corticoide fora de janela, diurético como anti-hipertensivo, cirurgia antes da estabilização). O caso é integralmente autossuficiente em texto: os achados de cardiotocografia e do toque vaginal estão descritos por escrito, sem dependência de imagem ou traçado.",
       "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Sífilis na gestação",
+    "subtema": "Estadiamento, esquema de penicilina e manejo da parceria sexual",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_24",
+      "dcn2025_comp_06"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "sifilis",
+      "pre_natal",
+      "penicilina_benzatina",
+      "sifilis_congenita",
+      "parceria_sexual",
+      "pcdt_ist"
+    ],
+    "texto_base": "Gestante de 27 anos, G2P1A0, com 24 semanas de idade gestacional, é atendida na Unidade Básica de Saúde em consulta de pré-natal. Traz teste rápido treponêmico reagente colhido há cinco dias e VDRL com titulação de 1:16. Na primeira consulta, com 11 semanas, o teste rápido havia sido não reagente. Nega lesões genitais, exantema, queda de cabelo ou qualquer sintoma atual, e o exame físico não mostra alterações. Não relata alergia a medicamentos. Vive com o mesmo companheiro há três anos; ele está assintomático, nunca tratou nenhuma infecção sexualmente transmissível e acompanha a paciente na unidade neste dia.",
+    "enunciado": "Considerando o Protocolo Clínico e Diretrizes Terapêuticas para Infecções Sexualmente Transmissíveis do Ministério da Saúde, qual conduta contempla adequadamente o tratamento materno e o manejo da parceria sexual?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Aplicar benzilpenicilina benzatina 2,4 milhões UI por via intramuscular em três aplicações com intervalo de uma semana entre elas, oferecendo à parceria o mesmo esquema prolongado.",
+        "correta": false,
+        "justificativa": "Incorreta. Três aplicações semanais correspondem ao esquema da sífilis tardia ou de duração ignorada. Neste caso a conversão sorológica ocorrida entre o primeiro e o segundo trimestre documenta infecção adquirida há menos de um ano, situação em que o esquema indicado é o de aplicação única."
+      },
+      {
+        "letra": "B",
+        "texto": "Aplicar benzilpenicilina benzatina 2,4 milhões UI por via intramuscular em dose única, por se tratar de sífilis recente com soroconversão documentada, e oferecer tratamento presuntivo à parceria sexual no mesmo atendimento, independentemente do resultado de seus testes.",
+        "correta": true,
+        "justificativa": "Correta. A soroconversão dentro do último ano caracteriza sífilis recente, tratada com aplicação única de 2,4 milhões UI, com controle mensal do teste não treponêmico durante a gestação. A pessoa exposta recebe tratamento presuntivo imediato, sem que a conduta fique condicionada ao resultado da sorologia, medida que interrompe a cadeia de reinfecção materna e protege o concepto."
+      },
+      {
+        "letra": "C",
+        "texto": "Adiar a aplicação da penicilina até que um segundo teste treponêmico confirme o diagnóstico, definindo depois disso o que fazer com o companheiro.",
+        "correta": false,
+        "justificativa": "Incorreta. Um teste treponêmico reagente somado a um teste não treponêmico reagente já estabelece o diagnóstico. Postergar a penicilina na gestação atrasa também o tratamento fetal e amplia o risco de sífilis congênita, desfecho que a assistência pré-natal deve evitar."
+      },
+      {
+        "letra": "D",
+        "texto": "Tratar apenas a gestante com aplicação única e dispensar o companheiro de qualquer medicação, uma vez que ele está assintomático e ainda não fez testagem.",
+        "correta": false,
+        "justificativa": "Incorreta. Manter a parceria sem tratamento preserva a fonte de reexposição e é uma das principais causas de reinfecção materna e de falha terapêutica; o protocolo prevê tratamento presuntivo da pessoa exposta mesmo quando assintomática ou com teste não reagente."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "pre_natal",
+      "especialidade_secundaria": "infeccoes_genitais_e_ist",
+      "objeto_conhecimento": "Diagnóstico, estadiamento e tratamento da sífilis na gestação, incluindo o manejo das parcerias sexuais para prevenção da sífilis congênita",
+      "sistema_organico": "sistema_genitourinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Ginecologia e Obstetrícia ambientado na rede de atenção primária, que exige elaborar plano terapêutico baseado em protocolo nacional (competência IV) e executar ação de vigilância e prevenção de agravo de notificação compulsória (competência VIII), mobilizando os conteúdos de terapêutica e…"
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q088",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q088",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "media",
+        "defeitos_do_item_original": [
+          "Pelo PCDT-IST do MS a parceria deve receber tratamento presuntivo mesmo com teste não reagente, o que torna imprecisa a condicional 'tratar apenas se reagente' da alternativa A; a alternativa B acerta o parceiro mas erra o esquema materno (3 doses para sífilis recente) — item com duas opções parcialmente defensáveis.",
+          "A conduta com a parceria é imperfeita: o PCDT-IST recomenda tratamento presuntivo da parceria sexual de gestante com sífilis independentemente do resultado dos testes, o que não é contemplado por nenhuma alternativa que traga o esquema materno correto.",
+          "A alternativa restringe o tratamento da parceria ao teste reagente, enquanto o PCDT admite tratamento presuntivo por exposição, o que torna a chave imperfeita."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "O item de origem condicionava o tratamento da parceria a um teste reagente, contrariando a recomendação de tratamento presuntivo do PCDT-IST, e ao mesmo tempo distribuía o esquema materno correto e o manejo correto da parceria em alternativas diferentes, criando duas opções parcialmente defensáveis. A versão nova documenta explicitamente a soroconversão (o que define sífilis recente e, portanto, dose única) e reúne numa única alternativa o esquema materno correto e o tratamento presuntivo da parceria, eliminando a duplicidade de gabarito.",
+      "nota_adaptacao": "Caso inteiramente novo: outra paciente (27 anos, G2P1A0, 24 semanas, VDRL 1:16, teste rápido reagente no segundo trimestre após rastreio negativo no primeiro), outro comando e alternativas escritas do zero. Preservou-se o objeto de conhecimento (tratamento da sífilis na gestação e manejo da parceria). A chave de consenso da origem era A; a posição alvo é B e o conteúdo da alternativa foi reformulado para ficar tecnicamente correto.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Síndrome dos ovários policísticos",
+    "subtema": "Aplicação dos critérios diagnósticos na adolescência",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_10",
+      "dcn2025_comp_02"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "dificil",
+    "tags": [
+      "sop",
+      "adolescencia",
+      "hiperandrogenismo",
+      "criterios_de_rotterdam",
+      "irregularidade_menstrual"
+    ],
+    "texto_base": "Menina de 13 anos é levada pela mãe ao ambulatório por menstruações irregulares. A menarca ocorreu há oito meses e, desde então, os intervalos entre as menstruações variaram de 24 a 70 dias. Nos últimos meses surgiram acne inflamatória na face e no dorso e pelos escuros no buço e na região periareolar, com escore de Ferriman-Gallwey de 7. O índice de massa corporal está no percentil 90 para idade e sexo. Não usa medicamentos, não iniciou vida sexual e nega galactorreia. A testosterona total está discretamente acima do limite superior de referência; TSH, prolactina e 17-hidroxiprogesterona matinal ainda não foram dosados. Uma ultrassonografia pélvica por via abdominal, solicitada previamente, descreve ovários de volume normal para a idade.",
+    "enunciado": "Qual é a interpretação diagnóstica mais adequada para esse quadro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O diagnóstico está estabelecido, pois a paciente reúne irregularidade menstrual e hiperandrogenismo clínico confirmado por dosagem hormonal.",
+        "correta": false,
+        "justificativa": "Incorreta. Dentro dos doze primeiros meses após a menarca a variação dos intervalos é esperada em razão da imaturidade do eixo hipotálamo-hipófise-ovário e não pode ser computada como critério de disfunção ovulatória."
+      },
+      {
+        "letra": "B",
+        "texto": "A hipótese está afastada, porque a ausência de ovários com aspecto policístico na ultrassonografia elimina um critério obrigatório nessa faixa etária.",
+        "correta": false,
+        "justificativa": "Incorreta. A morfologia ovariana não deve ser usada como critério diagnóstico em adolescentes nos primeiros anos após a menarca, e a via abdominal limita ainda mais a avaliação; um exame de imagem normal não exclui a condição."
+      },
+      {
+        "letra": "C",
+        "texto": "Ainda não é possível firmar o diagnóstico: a adolescente deve ser considerada em risco, manter seguimento com reavaliação do padrão menstrual e ter investigadas outras causas de hiperandrogenismo.",
+        "correta": true,
+        "justificativa": "Correta. Com menos de um ano de menarca o critério de irregularidade menstrual não se aplica, de modo que a conduta correta é rotular a paciente como em risco, manter acompanhamento longitudinal e reavaliar adiante, ao mesmo tempo em que se afastam hiperplasia adrenal congênita não clássica, disfunção tireoidiana, hiperprolactinemia e causas tumorais de excesso androgênico."
+      },
+      {
+        "letra": "D",
+        "texto": "Trata-se apenas de imaturidade fisiológica do eixo reprodutivo, o que dispensa exames adicionais e novo retorno programado.",
+        "correta": false,
+        "justificativa": "Incorreta. A imaturidade do eixo explica a variação dos ciclos, mas não explica hirsutismo progressivo com testosterona elevada; esse achado obriga investigação etiológica e acompanhamento programado, inclusive por causas raras de virilização."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "endocrinologia_ginecologica",
+      "especialidade_secundaria": "adolescencia",
+      "objeto_conhecimento": "Critérios diagnósticos da síndrome dos ovários policísticos e suas particularidades na adolescente com pouco tempo de menarca",
+      "sistema_organico": "sistema_endocrino",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_02"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "Exige formular hipótese diagnóstica plausível a partir da história e do exame físico (competência II) e interpretar criticamente exames complementares, reconhecendo os limites da ultrassonografia nessa faixa etária (competência III), com apoio nos conteúdos de propedêutica e diagnóstico e de…"
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q089",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q089",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "media",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Caso novo: paciente mais jovem, com apenas oito meses de menarca, escore de Ferriman-Gallwey e antropometria diferentes e investigação hormonal incompleta. O eixo da pergunta foi deslocado do simples reconhecimento dos critérios para a aplicação da regra específica da adolescência (não usar irregularidade menstrual no primeiro ano pós-menarca e não usar morfologia ovariana), o que muda a resposta em relação à origem e permite alocar a chave na letra C.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Leiomioma uterino",
+    "subtema": "Classificação FIGO e escolha da via de tratamento no sangramento uterino anormal",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "mioma",
+      "classificacao_figo",
+      "histeroscopia",
+      "sangramento_uterino_anormal",
+      "anemia_ferropriva"
+    ],
+    "texto_base": "Mulher de 41 anos, G2P2 (dois partos vaginais), procura o ambulatório de ginecologia por menstruações volumosas há cerca de um ano, com coágulos e necessidade de trocar o absorvente a cada duas horas nos primeiros dias do fluxo. Refere cansaço aos esforços habituais. O hemograma mostra hemoglobina de 9,1 g/dL com microcitose e hipocromia, e a ferritina está reduzida. Ao exame, o útero é móvel, indolor e de volume discretamente aumentado. A ultrassonografia transvaginal com infusão salina descreve nódulo miometrial único, hipoecogênico, de 3,2 cm, com mais da metade do seu volume projetado para dentro da cavidade uterina e apenas uma pequena porção intramural, correspondendo ao tipo 1 da classificação FIGO; a margem de miométrio livre entre o nódulo e a serosa mede 13 mm e o restante do miométrio é homogêneo. A citologia cervical é normal e a biópsia de endométrio não evidencia atipias. A paciente deseja preservar o útero.",
+    "enunciado": "Qual é a conduta mais apropriada para o controle do sangramento nessa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Programar histerectomia total, considerando a prole definida e a anemia decorrente do sangramento.",
+        "correta": false,
+        "justificativa": "Incorreta. Trata-se de lesão única, pequena e acessível pela cavidade uterina, em paciente que manifesta desejo de preservar o órgão; retirar o útero nesse contexto expõe a riscos cirúrgicos e anestésicos evitáveis, sem ganho terapêutico proporcional."
+      },
+      {
+        "letra": "B",
+        "texto": "Programar miomectomia por via histeroscópica, precedida de reposição de ferro para correção da anemia, já que o nódulo é único, mede menos de 4 cm e ocupa predominantemente a cavidade uterina.",
+        "correta": true,
+        "justificativa": "Correta. Nódulos submucosos dos tipos 0 e 1, únicos, com diâmetro abaixo de 4 a 5 cm e margem livre até a serosa superior a 5 mm, são candidatos ideais à ressecção por histeroscopia: o procedimento é minimamente invasivo, resolve o sangramento na maioria dos casos e preserva o útero, e a correção prévia da anemia reduz riscos perioperatórios."
+      },
+      {
+        "letra": "C",
+        "texto": "Manter apenas anti-inflamatório não esteroidal durante o período menstrual e reavaliar em um ano, aguardando a transição para a menopausa.",
+        "correta": false,
+        "justificativa": "Incorreta. Já existe repercussão hematológica com anemia ferropriva documentada; conduta expectante isolada não corrige a causa do sangramento nem repõe o estoque de ferro, e prolonga a limitação funcional da paciente."
+      },
+      {
+        "letra": "D",
+        "texto": "Encaminhar para embolização das artérias uterinas, tratamento de primeira escolha para nódulos com componente intracavitário.",
+        "correta": false,
+        "justificativa": "Incorreta. A embolização não é a primeira opção diante de componente intracavitário: a necrose do nódulo voltado para a cavidade favorece expulsão dolorosa, corrimento prolongado e infecção, enquanto a ressecção histeroscópica oferece resolução mais direta do sintoma."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "sangramento_uterino_anormal",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Correlação entre a classificação FIGO dos leiomiomas e a escolha da via cirúrgica no sangramento uterino anormal",
+      "sistema_organico": "sistema_genitourinario",
+      "contexto_atencao": "ambulatorial_especializado",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_05",
+        "justificativa": "O item pede a interpretação de exame de imagem descrito em texto (competência III) e a construção de um plano terapêutico que considere risco, benefício e o desejo reprodutivo da paciente (competência IV), em ambulatório de especialidade da rede de doenças crônicas."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q090",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q090",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "media",
+        "defeitos_do_item_original": [
+          "Inconsistência na classificação: o texto descreve nódulo intramural que não atinge a serosa nem distorce a cavidade (FIGO 3–4), mas o rotula como FIGO 5 (subseroso com ≥50% intramural).",
+          "Inconsistência técnica: a descrição (mais de 50% intramural, sem atingir a serosa, sem distorcer a cavidade) corresponde ao tipo 4 da FIGO, e não ao tipo 5 declarado no enunciado.",
+          "Incoerencia na vinheta: nodulo descrito sem atingir a serosa e sem distorcer a cavidade corresponde a FIGO 4 (intramural), nao FIGO 5 (subseroso com componente intramural maior que 50%)."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "A vinheta de origem descrevia um nódulo que não atingia a serosa nem distorcia a cavidade, o que corresponde ao tipo 4 da FIGO, mas o rotulava como tipo 5, tornando o enunciado internamente inconsistente. No item novo a descrição ultrassonográfica (mais da metade do volume dentro da cavidade, pequeno componente intramural, margem livre até a serosa de 13 mm) é coerente com o tipo 1 declarado, e é justamente essa coerência que sustenta a indicação de histeroscopia.",
+      "nota_adaptacao": "Paciente, achados de imagem, laboratório e desfecho terapêutico são outros. Além de corrigir a incoerência da classificação FIGO, mudou-se a resposta esperada: a origem levava à histerectomia, enquanto o caso novo, com nódulo submucoso pequeno e desejo de preservação uterina, tem como conduta a miomectomia histeroscópica, alocada na letra B.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Climatério",
+    "subtema": "Escolha do esquema de terapia hormonal conforme presença de útero e perfil de risco",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "climaterio",
+      "menopausa",
+      "terapia_hormonal",
+      "sintomas_vasomotores",
+      "protecao_endometrial"
+    ],
+    "texto_base": "Mulher de 52 anos, professora, procura a unidade de saúde por ondas de calor que se repetem várias vezes ao dia e sudorese noturna que a desperta, com prejuízo importante do sono e do humor há oito meses. A última menstruação ocorreu há 14 meses. Nunca foi submetida a cirurgia ginecológica e mantém o útero. Apresenta índice de massa corporal de 31 kg/m², pressão arterial de 124/78 mmHg, mamografia recente sem alterações e citologia cervical normal. Nega tabagismo, hepatopatia, sangramento vaginal, antecedente pessoal ou familiar de câncer de mama e episódios de trombose venosa. Já adotou medidas comportamentais sem alívio e deseja tratamento medicamentoso eficaz.",
+    "enunciado": "Qual é o esquema de terapia hormonal mais adequado para essa paciente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Estrogênio isolado por via oral em dose baixa, mantido de forma contínua.",
+        "correta": false,
+        "justificativa": "Incorreta. Estrogênio sem oposição em mulher com útero íntegro estimula a proliferação endometrial de modo sustentado, elevando o risco de hiperplasia com atipia e de carcinoma de endométrio."
+      },
+      {
+        "letra": "B",
+        "texto": "Estrogênio conjugado em creme vaginal, aplicado duas vezes por semana.",
+        "correta": false,
+        "justificativa": "Incorreta. A aplicação vaginal em baixa dose é apropriada para a síndrome geniturinária da menopausa, mas não alcança níveis séricos capazes de controlar fogachos e despertares noturnos, que são a queixa principal aqui."
+      },
+      {
+        "letra": "C",
+        "texto": "Inibidor seletivo da recaptação de serotonina como primeira escolha, deixando a opção hormonal apenas para o caso de falha.",
+        "correta": false,
+        "justificativa": "Incorreta. As alternativas não hormonais são reservadas a mulheres com contraindicação ao hormônio ou que o recusam. Nesta paciente sintomática, sem contraindicações e com menos de dez anos de menopausa, a terapia hormonal é claramente mais eficaz e tem balanço favorável."
+      },
+      {
+        "letra": "D",
+        "texto": "Estrogênio por via transdérmica associado a progesterona micronizada, em regime contínuo combinado.",
+        "correta": true,
+        "justificativa": "Correta. Como o útero está preservado, a associação de um progestagênio é indispensável para proteger o endométrio, e o regime contínuo combinado é adequado a quem já está na pós-menopausa há mais de um ano. A via transdérmica do estrogênio é preferível diante da obesidade porque evita a primeira passagem hepática e não aumenta de forma relevante o risco tromboembólico."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "climaterio",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Indicação e escolha do esquema de terapia hormonal da menopausa, com atenção à proteção endometrial e à via de administração",
+      "sistema_organico": "sistema_endocrino",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "A questão avalia a elaboração e pactuação de plano terapêutico com base em risco-benefício (competência IV) e a comunicação da decisão com a paciente (competência X), apoiada nos conteúdos de terapêutica e de prognóstico e prevenção, em cenário de atenção primária."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q091",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q091",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "O objeto de conhecimento foi mantido (terapia hormonal do climatério), mas o caso foi invertido em relação à origem: em vez de mulher histerectomizada, que receberia estrogênio isolado, a paciente tem útero íntegro e obesidade, o que torna correta a associação estrogênio transdérmico mais progesterona micronizada, alocada na letra D. Alternativas incorretas foram escritas do zero e exploram erros distintos dos da origem.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Rastreamento do câncer do colo do útero",
+    "subtema": "Teste molecular de DNA-HPV como método primário de rastreio",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "nivel_bloom": "compreensao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "hpv",
+      "rastreamento",
+      "cancer_de_colo_uterino",
+      "valor_preditivo_negativo",
+      "atencao_primaria"
+    ],
+    "texto_base": "Em reunião de equipe de uma unidade de saúde da família, a enfermeira comunica que o município passará a adotar o teste molecular para detecção do DNA de tipos oncogênicos do HPV como exame primário de rastreamento do câncer do colo do útero, substituindo a citologia como porta de entrada do programa. As agentes comunitárias, encarregadas de convocar as mulheres do território, perguntam ao médico da equipe por que essa substituição é considerada um avanço e o que muda concretamente na rotina de acompanhamento.",
+    "enunciado": "Qual afirmação expressa corretamente a principal vantagem do teste de DNA-HPV como método primário de rastreamento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "É mais específico do que a citologia, o que diminui o número de mulheres encaminhadas sem necessidade à colposcopia.",
+        "correta": false,
+        "justificativa": "Incorreta. O ganho do teste molecular está na sensibilidade, não na especificidade: por detectar também infecções transitórias que jamais evoluiriam para lesão precursora, ele tende a produzir mais resultados positivos sem doença relevante do que a citologia."
+      },
+      {
+        "letra": "B",
+        "texto": "Seu elevado valor preditivo negativo permite que a mulher com resultado negativo seja reconvocada com segurança somente cinco anos depois.",
+        "correta": true,
+        "justificativa": "Correta. Um resultado negativo torna muito improvável a existência de lesão de alto grau naquele momento e nos anos seguintes, porque a carcinogênese cervical depende da infecção persistente por tipos oncogênicos. É esse desempenho que sustenta o alongamento do intervalo entre exames para cinco anos, com ganho simultâneo de segurança e de eficiência do programa."
+      },
+      {
+        "letra": "C",
+        "texto": "Qualquer resultado positivo deve ser encaminhado diretamente à colposcopia, o que dispensa etapas intermediárias de triagem.",
+        "correta": false,
+        "justificativa": "Incorreta. O resultado positivo exige uma etapa de triagem, por citologia realizada na mesma amostra ou por genotipagem dos tipos de maior risco; encaminhar todas as mulheres positivas sobrecarregaria os serviços e submeteria muitas delas a procedimentos evitáveis."
+      },
+      {
+        "letra": "D",
+        "texto": "Por ter alta sensibilidade, pode ser ofertado a partir dos 18 anos, ampliando a cobertura entre as mulheres mais jovens.",
+        "correta": false,
+        "justificativa": "Incorreta. Antes dos 25 anos predominam infecções transitórias que regridem sozinhas, e o rastreamento nessa faixa gera sobrediagnóstico e tratamentos desnecessários com repercussão obstétrica; a população-alvo permanece a das mulheres de 25 a 64 anos."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "oncoginecologia",
+      "objeto_conhecimento": "Propriedades diagnósticas do teste de DNA-HPV e sua aplicação como método primário no rastreamento organizado do câncer do colo do útero",
+      "sistema_organico": "sistema_genitourinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Trata de saúde coletiva aplicada: exige interpretar propriedades de um teste diagnóstico à luz de evidências e custo-efetividade (competência III) e planejar ação de prevenção e vigilância no território (competência VIII), com base nos conteúdos de prognóstico e prevenção e de vigilância em saúde."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q092",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q092",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Mantido o objeto de conhecimento (vantagem do rastreio primário com teste molecular), o item foi reescrito como uma situação de reunião de equipe na atenção primária, com comando e alternativas inteiramente novos. A posição alvo coincide com a chave de consenso da origem, mas nenhum trecho textual foi aproveitado; o distrator sobre faixa etária foi trocado para explorar o limite inferior de 25 anos, mais informativo pedagogicamente.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Corrimento vaginal e infecções sexualmente transmissíveis",
+    "subtema": "Diagnóstico e tratamento da tricomoníase, incluindo a parceria sexual",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_24"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "tricomoniase",
+      "corrimento_vaginal",
+      "metronidazol",
+      "ist",
+      "parceria_sexual"
+    ],
+    "texto_base": "Mulher de 33 anos procura a unidade de saúde por corrimento vaginal volumoso e de odor desagradável há duas semanas, acompanhado de ardência ao urinar e desconforto durante as relações sexuais. Tem parceiro único há dois anos e usa preservativo de forma irregular. Ao exame especular, o conteúdo vaginal é amarelo-esverdeado, fluido e com bolhas, e o colo uterino apresenta pontilhado hemorrágico difuso. O pH do conteúdo vaginal é 6,0 e o teste das aminas resulta positivo. A microscopia a fresco do material revela protozoários flagelados em movimento.",
+    "enunciado": "Qual é a conduta terapêutica mais adequada diante desse quadro?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Metronidazol em gel de aplicação vaginal por cinco noites, sem indicar tratamento ao parceiro.",
+        "correta": false,
+        "justificativa": "Incorreta. O tratamento tópico não atinge concentrações adequadas na uretra e nas glândulas parauretrais, que funcionam como reservatórios do protozoário, e apresenta taxa de cura bastante inferior à do tratamento por via sistêmica; além disso, deixar a parceria sem tratamento mantém o ciclo de reinfecção."
+      },
+      {
+        "letra": "B",
+        "texto": "Fluconazol 150 mg por via oral em dose única, repetido em três dias caso os sintomas persistam.",
+        "correta": false,
+        "justificativa": "Incorreta. O antifúngico trata a candidíase vulvovaginal, cujo quadro típico é corrimento branco grumoso, prurido intenso e pH vaginal abaixo de 4,5, achados incompatíveis com o conteúdo bolhoso, pH 6,0 e flagelados móveis descritos no caso."
+      },
+      {
+        "letra": "C",
+        "texto": "Metronidazol 2 g por via oral em dose única apenas para a paciente, orientando retorno somente se houver recidiva.",
+        "correta": false,
+        "justificativa": "Incorreta. Embora a dose única seja um esquema reconhecido, deixar a parceria sem tratamento perpetua a reinfecção; em mulheres, o esquema de sete dias apresenta taxas de cura superiores às da dose única, sendo a escolha preferencial."
+      },
+      {
+        "letra": "D",
+        "texto": "Metronidazol 400 mg por via oral a cada 12 horas durante sete dias, tratando também o parceiro sexual, com abstinência até o término do esquema e oferta de testagem para HIV, sífilis e hepatites virais.",
+        "correta": true,
+        "justificativa": "Correta. A tricomoníase é uma infecção sexualmente transmissível e o manejo completo inclui nitroimidazólico por via sistêmica, tratamento simultâneo da parceria mesmo se assintomática, abstinência sexual até a conclusão do tratamento e rastreamento das demais infecções sexualmente transmissíveis, aproveitando a oportunidade do atendimento."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "infeccoes_genitais_e_ist",
+      "especialidade_secundaria": null,
+      "objeto_conhecimento": "Abordagem sindrômica e etiológica do corrimento vaginal com diagnóstico e tratamento da tricomoníase e manejo da parceria sexual",
+      "sistema_organico": "sistema_genitourinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_04"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Requer formular hipótese diagnóstica a partir de exame físico e testes simples de consultório (competência II) e definir plano terapêutico que inclua a parceria e o rastreamento de outras infecções (competência IV), articulando terapêutica e vigilância de doenças transmissíveis na atenção primária."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q093",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q093",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Paciente, tempo de evolução, achados de pH e microscopia foram trocados, e o item passou a incluir a confirmação por microscopia a fresco, tornando o diagnóstico autossuficiente no texto. As quatro alternativas foram escritas do zero, com distratores diferentes dos da origem (gel vaginal, antifúngico e dose única sem tratar a parceria), e a chave, que é o esquema de sete dias com tratamento da parceria, foi alocada na letra D.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Doença inflamatória pélvica",
+    "subtema": "Critérios de internação e tratamento do abscesso tubo-ovariano",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03",
+      "dcn2025_comp_20"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "dip",
+      "abscesso_tubo_ovariano",
+      "antibioticoterapia",
+      "internacao",
+      "urgencia_ginecologica"
+    ],
+    "texto_base": "Mulher de 24 anos chega à unidade de pronto atendimento com dor pélvica contínua há cinco dias, que se intensificou nas últimas 24 horas, associada a febre aferida de 38,7 °C, náuseas e um episódio de vômito. Refere corrimento vaginal purulento iniciado logo após a última menstruação e teve duas parcerias sexuais nos últimos dois meses, sem uso de preservativo. Ao exame, encontra-se prostrada, com frequência cardíaca de 108 bpm e pressão arterial de 110/70 mmHg; há dor à palpação profunda do hipogástrio e das fossas ilíacas, com descompressão dolorosa localizada. Ao toque vaginal, apresenta dor intensa à mobilização do colo e empastamento anexial à direita. Os exames mostram 18.400 leucócitos/mm³ com desvio à esquerda e proteína C reativa elevada; o teste de gravidez é negativo. A ultrassonografia transvaginal descreve formação anexial direita complexa, de paredes espessas, conteúdo heterogêneo e septações, medindo 6,2 cm, com líquido livre no fundo de saco posterior.",
+    "enunciado": "Qual é a conduta mais adequada neste momento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tratamento ambulatorial com ceftriaxona intramuscular em dose única associada a doxiciclina e metronidazol por via oral durante 14 dias, com retorno em 72 horas.",
+        "correta": false,
+        "justificativa": "Incorreta. O esquema ambulatorial destina-se a quadros leves e sem complicações. A presença de coleção anexial complexa, febre alta, vômitos e sinais de irritação peritoneal configura critério formal de internação, e insistir no manejo domiciliar retarda o controle da infecção."
+      },
+      {
+        "letra": "B",
+        "texto": "Internação hospitalar para antibioticoterapia intravenosa em esquema que contemple gonococo, clamídia e anaeróbios, com reavaliação clínica em 48 a 72 horas e convocação das parcerias sexuais dos últimos dois meses para testagem e tratamento.",
+        "correta": true,
+        "justificativa": "Correta. Abscesso tubo-ovariano, febre alta, vômitos e sinais peritoneais indicam internação com antimicrobianos parenterais de espectro adequado aos agentes envolvidos, incluindo anaeróbios. A resposta é avaliada em 48 a 72 horas, quando se decide por drenagem guiada por imagem ou cirurgia em caso de falha, e o manejo das parcerias evita a reinfecção."
+      },
+      {
+        "letra": "C",
+        "texto": "Laparotomia de urgência com salpingo-ooforectomia direita, seguida de antibiótico por via oral.",
+        "correta": false,
+        "justificativa": "Incorreta. A abordagem cirúrgica imediata fica reservada à suspeita de rotura do abscesso, à instabilidade hemodinâmica ou à falha do tratamento clínico. Nesta paciente estável, a conduta inicial é medicamentosa, poupando anexos e preservando a fertilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Analgesia com anti-inflamatório e observação, iniciando antibiótico apenas quando as culturas cervicais estiverem disponíveis.",
+        "correta": false,
+        "justificativa": "Incorreta. O tratamento da doença inflamatória pélvica é empírico e deve ser iniciado assim que a suspeita é levantada; aguardar culturas atrasa a terapia e aumenta o risco de infertilidade tubária, dor pélvica crônica e gestação ectópica."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "infeccoes_genitais_e_ist",
+      "especialidade_secundaria": "intercorrencias_obstetricas",
+      "objeto_conhecimento": "Reconhecimento da doença inflamatória pélvica complicada por abscesso tubo-ovariano e definição do nível de cuidado e do esquema antimicrobiano",
+      "sistema_organico": "sistema_genitourinario",
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_05"
+        ],
+        "conteudos": [
+          "enamed_cont_09",
+          "enamed_cont_10"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Situação de urgência não traumática em ponto da rede de urgência e emergência (competência V), que também demanda plano terapêutico com definição de nível de cuidado e seguimento (competência IV), sustentado pelos conteúdos de propedêutica e diagnóstico e de terapêutica."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q094",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q094",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "C",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Vinheta nova, com outra paciente, outros sinais vitais, leucometria, tamanho da massa anexial e achado de líquido livre. Os achados ultrassonográficos estão integralmente descritos em texto, dispensando imagem. O objeto de conhecimento foi preservado e a chave, que é a internação com antibiótico parenteral e manejo das parcerias, foi alocada na letra B; o distrator ambulatorial foi detalhado com esquema plausível para aumentar o poder discriminativo.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Rastreamento do câncer de mama",
+    "subtema": "Faixa etária e periodicidade da mamografia no rastreamento populacional",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "cancer_de_mama",
+      "mamografia",
+      "rastreamento_populacional",
+      "decisao_compartilhada",
+      "sobrediagnostico"
+    ],
+    "texto_base": "Mulher de 44 anos, assintomática, é atendida por sua equipe de saúde da família em consulta periódica. Não tem queixas mamárias, não usa terapia hormonal, nunca fez biópsia de mama e não possui parentes de primeiro grau com câncer de mama ou de ovário. Uma colega de trabalho fez mamografia aos 40 anos por conta própria e ela pergunta se também deveria fazer o exame agora.",
+    "enunciado": "Segundo as recomendações brasileiras para o rastreamento populacional do câncer de mama, qual orientação deve ser oferecida a essa mulher?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Explicar que o rastreamento organizado consiste em mamografia a cada dois anos dos 50 aos 69 anos e que, nesta idade e sem fatores de risco adicionais, não há indicação de exame de rotina, mantendo a decisão compartilhada sobre benefícios e danos.",
+        "correta": true,
+        "justificativa": "Correta. As diretrizes nacionais para detecção precoce recomendam mamografia bienal na faixa dos 50 aos 69 anos, intervalo em que o balanço entre redução de mortalidade e danos, como resultados falso-positivos, sobrediagnóstico e biópsias desnecessárias, é favorável. Fora dessa faixa, a conduta é informar de modo compreensível e decidir junto com a mulher."
+      },
+      {
+        "letra": "B",
+        "texto": "Solicitar mamografia anual desde já, pois o rastreamento organizado no país tem início aos 40 anos.",
+        "correta": false,
+        "justificativa": "Incorreta. O programa nacional de rastreamento não começa aos 40 anos nem adota periodicidade anual. Nessa faixa etária a maior densidade mamária reduz o desempenho do exame e multiplica os resultados falso-positivos, com mais convocações e biópsias sem benefício comprovado de mortalidade."
+      },
+      {
+        "letra": "C",
+        "texto": "Solicitar ultrassonografia mamária anual, método de escolha para rastrear mulheres com menos de 50 anos.",
+        "correta": false,
+        "justificativa": "Incorreta. A ultrassonografia é ferramenta de investigação diagnóstica e de complementação em situações específicas, não validada como método de rastreamento populacional em nenhuma faixa etária."
+      },
+      {
+        "letra": "D",
+        "texto": "Ensinar o autoexame mensal das mamas e programar exame clínico anual, estratégias recomendadas para o rastreamento antes dos 50 anos.",
+        "correta": false,
+        "justificativa": "Incorreta. O ensino do autoexame como estratégia de rastreamento não é recomendado, por não reduzir mortalidade e aumentar procedimentos desnecessários. O que se estimula é a autopercepção das mamas, com procura do serviço diante de alteração, o que é diferente de um método sistemático de rastreamento."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "mastologia",
+      "objeto_conhecimento": "Diretrizes de rastreamento populacional do câncer de mama: faixa etária, periodicidade e comunicação de benefícios e danos",
+      "sistema_organico": "sistema_tegumentar_e_mamario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Envolve a solicitação criteriosa de exame complementar considerando custo-efetividade e uso racional de recursos (competência III) e a execução de ação de prevenção e educação em saúde na atenção primária (competência VIII), com apoio nos conteúdos de prognóstico e prevenção e de promoção e…"
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q095",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q095",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Paciente mais jovem (44 anos) e comando reformulado para exigir não apenas a memorização da faixa etária, mas a orientação de uma mulher fora dela, com decisão compartilhada. Alternativas escritas do zero, com distratores voltados a erros frequentes (início aos 40 anos, ultrassonografia como rastreio e autoexame como método). A chave foi alocada na letra A.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Planejamento reprodutivo e esterilização voluntária",
+    "subtema": "Requisitos legais da laqueadura tubária após a Lei nº 14.443/2022",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_05",
+      "dcn2025_comp_23",
+      "dcn2025_comp_02"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "laqueadura",
+      "esterilizacao_voluntaria",
+      "lei_14443_2022",
+      "autonomia_reprodutiva",
+      "planejamento_familiar"
+    ],
+    "texto_base": "Mulher de 23 anos, com um filho vivo de dois anos nascido de parto vaginal, procura a unidade básica de saúde solicitando laqueadura tubária. Diz que não pretende ter outros filhos, que já usou pílula e injetável e não se adaptou, e que não confia em métodos dependentes de uso diário. No momento não tem parceiro fixo. Encontra-se lúcida e orientada, sem transtorno mental, e compreende que o procedimento tem intenção definitiva e taxa de reversibilidade baixa. Não está grávida nem tem cirurgia programada.",
+    "enunciado": "De acordo com a Lei nº 9.263/1996, com as alterações introduzidas pela Lei nº 14.443/2022, qual é a conduta correta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Considerá-la apta, pois a idade mínima passou a ser de 21 anos; registrar por escrito a manifestação de vontade, oferecer aconselhamento sobre os métodos reversíveis disponíveis e programar a cirurgia após o prazo mínimo de sessenta dias.",
+        "correta": true,
+        "justificativa": "Correta. A norma vigente admite a esterilização voluntária em pessoa maior de 21 anos ou com pelo menos dois filhos vivos, requisitos alternativos entre si. São exigidos manifestação de vontade documentada por escrito, aconselhamento por equipe multiprofissional com apresentação das alternativas reversíveis e intervalo mínimo de sessenta dias entre o pedido e o ato cirúrgico."
+      },
+      {
+        "letra": "B",
+        "texto": "Condicionar o procedimento à apresentação de consentimento escrito de um companheiro, exigência que permanece válida para a esterilização feminina.",
+        "correta": false,
+        "justificativa": "Incorreta. A exigência de anuência do cônjuge ou companheiro foi expressamente revogada. Subordinar a decisão a terceiros viola a autonomia reprodutiva da paciente e não encontra amparo na legislação atual."
+      },
+      {
+        "letra": "C",
+        "texto": "Negar o pedido, uma vez que a lei impõe idade mínima de 25 anos para quem tem menos de dois filhos vivos.",
+        "correta": false,
+        "justificativa": "Incorreta. O limite etário foi reduzido de 25 para 21 anos pela alteração legal de 2022, e os requisitos de idade e de número de filhos vivos são alternativos, bastando o preenchimento de um deles."
+      },
+      {
+        "letra": "D",
+        "texto": "Aceitar a manifestação verbal feita hoje e realizar a laqueadura já no próximo procedimento cirúrgico, dispensando qualquer prazo de espera.",
+        "correta": false,
+        "justificativa": "Incorreta. A manifestação precisa ser formalizada por escrito, e o prazo mínimo de sessenta dias é requisito legal destinado a assegurar reflexão e acesso à informação sobre alternativas contraceptivas antes de um procedimento de intenção definitiva."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": "etica_e_bioetica",
+      "objeto_conhecimento": "Requisitos legais e éticos para a esterilização cirúrgica voluntária no Brasil após a Lei nº 14.443/2022",
+      "sistema_organico": "sistema_genitourinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_13"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Exige plano terapêutico compatível com preceitos éticos, legais e sanitários (competência IV) e observância das normas deontológicas e da autonomia da paciente (competência XIII), com base nos conteúdos de ética e bioética e de políticas de saúde e SUS."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q096",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q096",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "D",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Caso novo, com paciente de 23 anos que já preenche o critério etário atualizado, o que desloca o foco do item da simples contagem de prazo para o conjunto de requisitos legais. Distratores reescritos para abordar a anuência do cônjuge (revogada), a idade de 25 anos (superada) e a dispensa de prazo e de forma escrita. A chave, que na origem estava em D, foi reconstruída e alocada na letra A.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 10,
+    "uc_slug": "med_unidavi_f10_uc01_saude_mulher",
+    "tema": "Contracepção e critérios de elegibilidade",
+    "subtema": "Escolha do método diante de tabagismo após os 35 anos e sangramento menstrual abundante",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_02",
+      "dcn2025_comp_10"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "ginecologia_obstetricia",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "contracepcao",
+      "criterios_de_elegibilidade_oms",
+      "tabagismo",
+      "siu_levonorgestrel",
+      "larc"
+    ],
+    "texto_base": "Mulher de 36 anos, com dois filhos, procura a unidade de saúde querendo um método contraceptivo eficaz e de longa duração. Fuma cerca de 20 cigarros por dia desde os 19 anos e informa que não pretende parar agora, embora aceite conversar sobre isso em outra consulta. A pressão arterial é 118/76 mmHg e o índice de massa corporal é 26 kg/m². Não tem outras doenças, não usa medicamentos e nega antecedente de trombose, enxaqueca com aura, hepatopatia ou câncer. Queixa-se de menstruações abundantes e prolongadas, com sete dias de fluxo intenso e cólicas que a afastam do trabalho, e diz que gostaria de reduzir esse sangramento. O exame ginecológico e a ultrassonografia transvaginal não mostram alterações estruturais.",
+    "enunciado": "Com base nos critérios de elegibilidade médica propostos pela Organização Mundial da Saúde e nas queixas relatadas, qual é o método mais indicado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Contraceptivo oral combinado de baixa dosagem em uso contínuo.",
+        "correta": false,
+        "justificativa": "Incorreta. Mulher com 35 anos ou mais que fuma quinze ou mais cigarros por dia enquadra-se na categoria 4 para métodos hormonais combinados, o que significa risco inaceitável de evento cardiovascular e tromboembólico, independentemente da dose de estrogênio."
+      },
+      {
+        "letra": "B",
+        "texto": "Sistema intrauterino com levonorgestrel.",
+        "correta": true,
+        "justificativa": "Correta. É método de longa duração e alta eficácia, classificado na categoria 1 para essa paciente, sem qualquer restrição imposta pelo tabagismo por não conter estrogênio. Além disso, reduz de forma expressiva o volume do fluxo e a dismenorreia, respondendo simultaneamente à necessidade contraceptiva e à queixa de sangramento abundante."
+      },
+      {
+        "letra": "C",
+        "texto": "Dispositivo intrauterino de cobre.",
+        "correta": false,
+        "justificativa": "Incorreta. O dispositivo de cobre é seguro nessa paciente do ponto de vista cardiovascular, mas tende a aumentar o volume e a duração do fluxo menstrual e a intensificar as cólicas, agravando exatamente o sintoma que ela deseja resolver."
+      },
+      {
+        "letra": "D",
+        "texto": "Anel vaginal contendo etinilestradiol e etonogestrel.",
+        "correta": false,
+        "justificativa": "Incorreta. O anel vaginal é um método combinado e compartilha as restrições da pílula combinada: a associação de idade a partir de 35 anos com tabagismo intenso o coloca igualmente na categoria 4, sem que a via de administração diminua o risco vascular."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "planejamento_familiar",
+      "especialidade_secundaria": "sangramento_uterino_anormal",
+      "objeto_conhecimento": "Aplicação dos Critérios Médicos de Elegibilidade da OMS para escolha de método contraceptivo diante de risco cardiovascular e de sangramento menstrual abundante",
+      "sistema_organico": "sistema_genitourinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_03",
+        "competencias": [
+          "enamed_comp_04",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_10",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Demanda a pactuação de plano terapêutico individualizado a partir de critérios de segurança reconhecidos e das preferências da usuária (competência IV), com comunicação clara sobre riscos e benefícios (competência X), mobilizando terapêutica e prevenção na atenção primária."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q097",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q097",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "O perfil de risco foi trocado: em vez de diabetes de longa data com nefropatia, a paciente tem tabagismo intenso após os 35 anos, condição que também coloca os métodos combinados na categoria 4 e mantém o objeto de conhecimento (aplicação dos critérios de elegibilidade). A queixa de sangramento abundante foi acrescentada para permitir que o dispositivo de cobre funcione como distrator forte, por ser seguro mas inadequado. Chave alocada na letra B.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Violência por parceiro íntimo",
+    "subtema": "Notificação compulsória, comunicação à autoridade policial e sigilo profissional",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_24",
+      "dcn2025_comp_23",
+      "dcn2025_comp_05"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "dificil",
+    "tags": [
+      "violencia_contra_a_mulher",
+      "notificacao_compulsoria",
+      "sinan",
+      "sigilo_medico",
+      "rede_de_protecao"
+    ],
+    "texto_base": "Mulher de 31 anos vai à unidade básica de saúde por dor no ombro esquerdo. Ao exame, o médico observa hematomas em tonalidades diferentes no braço, no dorso e na coxa, além de escoriação linear no pescoço. Em sala reservada e a sós com o profissional, ela conta que o marido a empurrou contra a parede e a segurou pelo pescoço há dois dias, e que episódios semelhantes vêm se repetindo há cerca de um ano. Está lúcida, orientada e sem sinais de risco de morte iminente; não deseja sair de casa neste momento e pede que nada seja comunicado a ninguém, com medo de perder a guarda dos filhos.",
+    "enunciado": "Qual conduta atende corretamente às obrigações legais e éticas do médico nesse atendimento?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Preencher somente a ficha de notificação individual do sistema de informação de agravos e não acionar a autoridade policial, pois o sigilo médico impede qualquer comunicação externa sem consentimento da paciente.",
+        "correta": false,
+        "justificativa": "Incorreta. A ficha de notificação é obrigatória, mas não esgota o dever legal do serviço: a legislação vigente também determina a comunicação do caso à autoridade policial. Como se trata de dever previsto em lei, essa comunicação não configura quebra indevida de sigilo profissional."
+      },
+      {
+        "letra": "B",
+        "texto": "Condicionar o atendimento e a notificação ao registro prévio de boletim de ocorrência pela paciente em delegacia especializada.",
+        "correta": false,
+        "justificativa": "Incorreta. O cuidado em saúde nunca pode ser condicionado a procedimento policial prévio, e a notificação é atribuição do profissional e do serviço que prestam o atendimento, jamais uma tarefa transferida à pessoa atendida."
+      },
+      {
+        "letra": "C",
+        "texto": "Preencher a ficha de notificação de violência interpessoal, comunicar o caso à autoridade policial no prazo legal de vinte e quatro horas, esclarecer à paciente que se trata de dever legal do serviço de saúde, manter o acolhimento e acionar a rede de proteção e o apoio psicossocial.",
+        "correta": true,
+        "justificativa": "Correta. A violência contra a mulher é agravo de notificação compulsória e, além do registro epidemiológico, a lei determina que o caso atendido em serviço de saúde seja comunicado à autoridade policial em até vinte e quatro horas. Essa comunicação não se confunde com boletim de ocorrência nem obriga a mulher a representar criminalmente, e deve ser acompanhada de informação transparente, vínculo preservado, avaliação de risco e articulação intersetorial."
+      },
+      {
+        "letra": "D",
+        "texto": "Deixar de notificar o caso, uma vez que a notificação compulsória depende de autorização expressa da pessoa atendida quando ela é maior de idade e civilmente capaz.",
+        "correta": false,
+        "justificativa": "Incorreta. A notificação compulsória independe de consentimento: é obrigação do profissional de saúde e integra a vigilância de agravos de relevância pública, permitindo o dimensionamento do problema e o planejamento das respostas da rede."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "etica_e_bioetica",
+      "especialidade_secundaria": "vigilancia_em_saude",
+      "objeto_conhecimento": "Deveres de notificação e de comunicação nos casos de violência contra a mulher atendidos em serviços de saúde e seus limites em relação ao sigilo profissional",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_12",
+          "enamed_comp_13"
+        ],
+        "conteudos": [
+          "enamed_cont_08",
+          "enamed_cont_17"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "O item avalia a emissão de documentos médicos e a notificação de casos de violência conforme normas éticas e legais (competência XII) e o manejo correto do sigilo e da autonomia da paciente (competência XIII), apoiado nos conteúdos de registro e documentação médica e de vigilância em saúde."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q098",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q098",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "C",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "media",
+        "defeitos_do_item_original": [
+          "Há tensão normativa com a Lei 13.931/2019, que prevê comunicação à autoridade policial em até 24 h nos casos de violência contra a mulher atendidos em serviços de saúde, o que torna o item discutível.",
+          "A Lei 13.931/2019 determina comunicação à autoridade policial em 24 horas nos casos de violência contra a mulher, o que conflita parcialmente com a alternativa apontada como correta."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "A alternativa apontada como correta na origem afirmava que não havia necessidade de comunicação policial, o que conflita com a Lei nº 13.931/2019, que determina a comunicação obrigatória à autoridade policial em até vinte e quatro horas nos casos de violência contra a mulher atendidos em serviços de saúde. O item novo resolve a tensão normativa reunindo na chave as duas obrigações, a notificação epidemiológica e a comunicação policial, e explicitando que essa comunicação não equivale a boletim de ocorrência nem obriga a mulher a representar criminalmente, o que preserva a coerência com a autonomia e o acolhimento.",
+      "nota_adaptacao": "Cena, paciente, lesões e motivo da consulta são novos, e o comando foi reescrito. A chave de consenso da origem (não comunicar a polícia) foi deliberadamente não reproduzida, porque a legislação vigente aponta em direção contrária; a alternativa correta foi reescrita para contemplar simultaneamente a notificação no sistema de informação e a comunicação policial no prazo legal, mantendo a posição alvo na letra C.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Atendimento ao adolescente",
+    "subtema": "Sigilo, autonomia progressiva e oferta de contracepção",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_04",
+      "dcn2025_comp_02"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "adolescencia",
+      "sigilo_medico",
+      "autonomia_progressiva",
+      "contracepcao",
+      "saude_sexual_e_reprodutiva"
+    ],
+    "texto_base": "Adolescente de 16 anos comparece sozinha à unidade básica de saúde. Durante a consulta, informa que tem vida sexual há cerca de seis meses com um namorado de 17 anos, que a relação é consentida e sem qualquer coação, e que gostaria de iniciar um método contraceptivo de longa duração. Pede que a mãe, que aguarda do lado de fora, não seja informada, pois teme conflito em casa. Está em bom estado geral, com desenvolvimento puberal completo, sem sinais de violência física ou sexual, sem uso de substâncias e sem indícios de risco à própria vida ou à de terceiros. Demonstra compreender as informações sobre eficácia, efeitos adversos e limitação dos métodos hormonais quanto à proteção contra infecções sexualmente transmissíveis.",
+    "enunciado": "Qual conduta é compatível com as normas do Código de Ética Médica e com as orientações ministeriais vigentes para o atendimento de adolescentes?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Prescrever o método apenas na presença de um responsável legal, já que menores de 18 anos não podem consentir isoladamente com intervenções em saúde.",
+        "correta": false,
+        "justificativa": "Incorreta. O adolescente com capacidade de discernimento tem direito a consulta reservada e à prescrição contraceptiva sem exigência de acompanhante. Impor a presença de um responsável cria barreira de acesso e aumenta o risco de gestação não planejada e de infecções sexualmente transmissíveis."
+      },
+      {
+        "letra": "B",
+        "texto": "Manter o sigilo, ofertar o método escolhido junto com preservativo e registrar a avaliação e a orientação em prontuário, estimulando, sem impor, que ela compartilhe a decisão com a família.",
+        "correta": true,
+        "justificativa": "Correta. A adolescente demonstra discernimento, a relação é consentida entre pares de idade próxima e não há risco relevante à saúde dela ou de terceiros, situação em que o sigilo deve ser preservado. O envolvimento da família é desejável e deve ser incentivado, mas não pode ser condição para o atendimento, e a dupla proteção precisa ser orientada e registrada."
+      },
+      {
+        "letra": "C",
+        "texto": "Comunicar o caso ao Conselho Tutelar, pois qualquer relação sexual antes dos 18 anos configura presunção legal de violência.",
+        "correta": false,
+        "justificativa": "Incorreta. A presunção legal de violência sexual aplica-se a menores de 14 anos. Aos 16 anos, com relação consentida, parceiro de idade próxima e sem indícios de exploração, coação ou vulnerabilidade adicional, não há hipótese que justifique comunicação compulsória ao órgão de proteção."
+      },
+      {
+        "letra": "D",
+        "texto": "Informar a mãe antes de prescrever, uma vez que o sigilo médico só se aplica plenamente a partir da maioridade civil.",
+        "correta": false,
+        "justificativa": "Incorreta. O sigilo é direito do adolescente e não está vinculado à maioridade civil. Sua quebra só se justifica diante de risco relevante à saúde ou à vida do paciente ou de terceiros, e mesmo assim deve ser previamente comunicada a ele."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS). Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "etica_e_bioetica",
+      "especialidade_secundaria": "adolescencia",
+      "objeto_conhecimento": "Sigilo profissional e autonomia progressiva do adolescente na atenção à saúde sexual e reprodutiva",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Avalia a observância das normas éticas e do sigilo, preservando autonomia e confidencialidade (competência XIII), e a comunicação empática e adequada com a adolescente e sua família (competência X), sustentada pelos conteúdos de ética e bioética e de direitos humanos e inclusão na atenção primária."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)",
+      "id_origem": "adap_enamed_simulado_2026_1_q099",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "enamed_simulado_2026_1_q099",
+        "fonte": "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS)",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Vinheta nova, com adolescente de 16 anos e parceiro de idade próxima, informação que permite discutir explicitamente o limite legal dos 14 anos para presunção de violência, elemento ausente na origem. O objeto de conhecimento (sigilo e autonomia do adolescente) foi mantido, o comando e as quatro alternativas foram redigidos do zero e a chave foi alocada na letra B.",
+      "posicao_correta_sorteada": "B",
       "requer_imagem": false,
       "imagem_status": "nao_requer"
     }
