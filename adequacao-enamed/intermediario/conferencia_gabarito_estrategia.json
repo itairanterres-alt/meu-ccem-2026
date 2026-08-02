@@ -1,0 +1,402 @@
+[
+  {
+    "num": 1,
+    "letra_informada": "B",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "B",
+    "motivo": "FA de alta resposta com instabilidade ausente e inicio ha 3h: controle de frequencia com betabloqueador venoso associado a anticoagulacao e a conduta inicial; cardioversao eletrica so se instavel e adenosina so em taquicardia regular.",
+    "confianca": "alta"
+  },
+  {
+    "num": 2,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "A",
+    "motivo": "A correlacao correta e 1 (celiaca) - 3 (Crohn) - 4 (intolerancia a lactose) - 2 (SII), ou seja 1-3-4-2 (letra A). A letra C (1-3-2-4) inverte lactose e SII. Item ainda tem defeito: B e E sao identicas.",
+    "confianca": "alta"
+  },
+  {
+    "num": 3,
+    "letra_informada": "A",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Quadro de desinibicao, comportamento bizarro e perda funcional com MEEM 30/30 aos 58 anos e demencia frontotemporal variante comportamental; a afasia primaria progressiva e de fato um subfenotipo do espectro DFT. A alternativa A e falsa: MEEM normal nao afasta demencia.",
+    "confianca": "alta"
+  },
+  {
+    "num": 4,
+    "letra_informada": "D",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "B",
+    "motivo": "Hiponatremia hipotonica euvolemica (SIADH paraneoplasico) com convulsao = hiponatremia sintomatica grave: bolus de NaCl 3% 100-150 mL, repetiveis, ate melhora dos sintomas ou elevacao de 4-6 mEq/L, exatamente o descrito em B. A opcao D (bolus de 50 mL) nao corresponde a nenhuma diretriz.",
+    "confianca": "alta"
+  },
+  {
+    "num": 5,
+    "letra_informada": "B",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "B",
+    "motivo": "TEP segmentar de baixo risco (sem hipotensao, sem disfuncao de VD): anticoagulacao com HBPM e observacao; trombolise so em TEP de alto risco e filtro de veia cava so se contraindicacao a anticoagulacao.",
+    "confianca": "alta"
+  },
+  {
+    "num": 6,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Gestante com anti-TPO positivo e TSH 3,1 (acima de 2,5): as diretrizes (ATA/SBEM) indicam considerar levotiroxina em dose baixa, tipicamente 25-50 mcg/dia. A alternativa C ('nao tratar') ignora o dado do anti-TPO, que so foi colocado no enunciado para justificar a reposicao.",
+    "confianca": "media"
+  },
+  {
+    "num": 7,
+    "letra_informada": "D",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Sindrome toracica aguda na anemia falciforme: a conduta INADEQUADA e priorizar anticoagulacao plena; o tratamento e antibiotico de amplo espectro, oxigenio, transfusao e suporte.",
+    "confianca": "alta"
+  },
+  {
+    "num": 8,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Chikungunya em fase subaguda (2 meses) com poliartralgia persistente e rigidez matinal: o protocolo do Ministerio da Saude indica hidroxicloroquina 6 mg/kg/dia. Aguardar IgG (letra B) nao muda conduta e atrasa o tratamento.",
+    "confianca": "alta"
+  },
+  {
+    "num": 9,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "B",
+    "motivo": "Pitiriase versicolor (maculas hipocromicas em tronco, sinal de Zileri/descamacao furfuracea) e causada por Malassezia furfur (M. globosa/complexo Malassezia), nao por Trichophyton rubrum. Item com defeito: pede tambem o tratamento, que nao consta nas alternativas.",
+    "confianca": "alta"
+  },
+  {
+    "num": 10,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Paciente satisfeito com o habito, nega o risco, desconfia da informacao medica e recusa a conversa: fase de pre-contemplacao no modelo transteorico de Prochaska e DiClemente. Contemplacao exigiria ambivalencia/intencao de mudar.",
+    "confianca": "alta"
+  },
+  {
+    "num": 11,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Crianca com Glasgow 7 e anisocoria precisa de via aerea definitiva antes de qualquer imagem: no ABCDE, 'A' precede a tomografia (letra B). Entre as opcoes de intubacao, D e a mais adequada (pre-oxigenacao e tubo com cuff, aceito em pediatria pelo ATLS atual), embora a dose de etomidato citada esteja baixa; a opcao E usa tubo sem cuff.",
+    "confianca": "media"
+  },
+  {
+    "num": 12,
+    "letra_informada": "B",
+    "veredito": "indeterminado",
+    "letra_que_eu_defendo": null,
+    "motivo": "Duas condutas defensaveis: quadro clinico muito sugestivo de apendicite com 2 dias de evolucao favorece apendicectomia imediata (B), mas as diretrizes (WSES/ACOG) recomendam ressonancia magnetica na gestante quando a ultrassonografia e inconclusiva (C). Alem disso, laparoscopia com 34 semanas e tecnicamente questionavel.",
+    "confianca": "baixa"
+  },
+  {
+    "num": 13,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Ferimento transfixante da vesicula biliar por PAF com coleperitonio: o tratamento padrao e a colecistectomia. Rafia da vesicula (letra B) nao e conduta aceita pelo risco de fistula biliar e necrose.",
+    "confianca": "alta"
+  },
+  {
+    "num": 14,
+    "letra_informada": "B",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "B",
+    "motivo": "Dilatacao fusiforme da via biliar extra-hepatica = cisto de coledoco tipo I de Todani; a indicacao de ressecao e o risco de malignizacao (colangiocarcinoma), condicao pre-maligna. Derivacao usando a parede do cisto (E) e proscrita.",
+    "confianca": "alta"
+  },
+  {
+    "num": 15,
+    "letra_informada": "D",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Trauma hepatico com blush arterial em paciente estavel: tratamento nao operatorio associado a angioembolizacao e monitorizacao em UTI e a conduta de escolha; TNO isolado (C) ignora o sangramento ativo.",
+    "confianca": "alta"
+  },
+  {
+    "num": 16,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Hemotorax traumatico com velamento de 25% da cavidade pleural exige toracostomia com dreno tubular calibroso em selo d'agua (padrao ATLS). Dreno pig-tail (B) e alternativa em estudo para hemotorax, mas nao e a conduta padrao, ainda mais 24h apos o trauma (risco de coagulo).",
+    "confianca": "alta"
+  },
+  {
+    "num": 17,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "A",
+    "motivo": "Trauma cervical penetrante em zona II com sinais duros (estridor, rouquidao, enfisema com exteriorizacao de ar, dessaturacao): apos via aerea definitiva, indica-se cervicotomia exploradora. Exames complementares (esofagograma, TC) so em pacientes estaveis e sem sinais duros.",
+    "confianca": "alta"
+  },
+  {
+    "num": 18,
+    "letra_informada": "D",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "B",
+    "motivo": "Nos protocolos ERAS/ACERTO, liquidos claros - agua, cha e bebidas com maltodextrina - sao liberados ate 2 horas antes da inducao anestesica. Suplemento a base de caseina e leite/solido (6-8h), refeicao completa 8h (nao 12h).",
+    "confianca": "alta"
+  },
+  {
+    "num": 19,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "E",
+    "motivo": "Triade de Charcot (dor em hipocondrio direito, febre e icterica/colestase) somada a hipotensao e confusao mental = pentade de Reynolds; colestase (FA 340, GGT 500) com coledoco de 1,1 cm confirma colangite aguda grave, nao sindrome de Mirizzi.",
+    "confianca": "alta"
+  },
+  {
+    "num": 20,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Queimadura eletrica: 4 mL/kg/%SCQ = 4 x 50 x 25 = 5000 mL em 24h, metade (2500 mL) nas primeiras 8h contadas do trauma. Ja recebeu 500 mL e passou 1 hora, logo 2000 mL nas proximas 7 horas e 2500 mL nas 16 horas seguintes.",
+    "confianca": "alta"
+  },
+  {
+    "num": 21,
+    "letra_informada": "A",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Amenorreia primaria = ausencia de menarca aos 15 anos com caracteres sexuais secundarios presentes (ou aos 13 anos sem eles). Aos 14 anos com M3P3 nao ha amenorreia; e desenvolvimento puberal em curso.",
+    "confianca": "alta"
+  },
+  {
+    "num": 22,
+    "letra_informada": "A",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Mulher com 36 anos (>=35) e tabagista de 1 maco/dia (>=15 cigarros) e categoria 4 da OMS para todos os metodos combinados (pilula, anel, adesivo e injetavel mensal). O unico metodo elegivel entre as opcoes e o SIU de levonorgestrel.",
+    "confianca": "alta"
+  },
+  {
+    "num": 23,
+    "letra_informada": "D",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "NIC III em mulher de 57 anos (pos-menopausa, juncao escamocolunar endocervical, zona de transformacao tipo 3): a conduta preconizada pelo INCA e a exerese/conizacao tipo 3. Cauterizacao e proscrita em lesao de alto grau.",
+    "confianca": "alta"
+  },
+  {
+    "num": 24,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "A",
+    "motivo": "Mastalgia ciclica com exame fisico normal em mulher de 32 anos: a conduta inicial e orientacao e tranquilizacao (esclarecer a benignidade e afastar a cancerofobia). Letrozol e raloxifeno nao tem qualquer indicacao aqui.",
+    "confianca": "alta"
+  },
+  {
+    "num": 25,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "E",
+    "motivo": "Diretriz do Ministerio da Saude/INCA: mamografia bienal para mulheres de 50 a 69 anos. Aos 45 anos, sem fator de risco (cunhada nao e parente de primeiro grau consanguinea), nao ha indicacao de rastreamento.",
+    "confianca": "alta"
+  },
+  {
+    "num": 26,
+    "letra_informada": "C",
+    "veredito": "indeterminado",
+    "letra_que_eu_defendo": null,
+    "motivo": "A questao depende do partograma, que nao esta disponivel no arquivo (requer_imagem = true). Impossivel distinguir parada secundaria da dilatacao, periodo pelvico prolongado ou parto eutocico sem o grafico.",
+    "confianca": "baixa"
+  },
+  {
+    "num": 27,
+    "letra_informada": "A",
+    "veredito": "indeterminado",
+    "letra_que_eu_defendo": null,
+    "motivo": "A questao depende da figura da estatica fetal, ausente. Pelo criterio interno, A (OEA com rotacao de 45 graus) e E (OEP com rotacao de 135 graus) sao ambas coerentes; B e D sao autocontraditorias (situacao transversa com apresentacao cefalica) e C e incoerente (ODA com rotacao de 135 graus). Nao da para escolher entre A e E sem a imagem.",
+    "confianca": "baixa"
+  },
+  {
+    "num": 28,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "A",
+    "motivo": "Gestante com IgG e IgM reagentes no primeiro exame: iniciar espiramicina imediatamente e solicitar teste de avidez de IgG para datar a infeccao (protocolo do Ministerio da Saude). Repetir sorologia em 3 semanas (B) e a conduta para IgM reagente com IgG nao reagente.",
+    "confianca": "alta"
+  },
+  {
+    "num": 29,
+    "letra_informada": "D",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Gestante de 42 anos (idade >= 40) com antecedente obstetrico desfavoravel: indica-se profilaxia de pre-eclampsia com AAS (75-150 mg) e carbonato de calcio, iniciados entre 12 e 16 semanas. Enoxaparina nao esta indicada por DPP previo isolado.",
+    "confianca": "alta"
+  },
+  {
+    "num": 30,
+    "letra_informada": "A",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "B",
+    "motivo": "Como o enunciado afirma vacinacao infantil adequada, a hepatite B ja esta completa e nao precisa ser repetida. As vacinas indicadas na gestacao sao influenza, covid-19 e dTpa (a partir de 20 semanas). Dengue e contraindicada na gestacao.",
+    "confianca": "alta"
+  },
+  {
+    "num": 31,
+    "letra_informada": "B",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "B",
+    "motivo": "Crianca menor de 10 anos com escore clinico-radiologico-epidemiologico suficiente (quadro >2 semanas, contato bacilifero, imagem sugestiva): tratar mesmo sem confirmacao microbiologica, com esquema pediatrico 2RHZ (sem etambutol) seguido de 4RH.",
+    "confianca": "alta"
+  },
+  {
+    "num": 32,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Pubarca isolada (P2 com M1), velocidade de crescimento normal, genitalia pre-puberal e idade ossea apenas discretamente avancada: adrenarca/pubarca precoce isolada, de curso benigno, com seguimento clinico. Nao ha criterio para puberdade precoce periferica (letra B), que exigiria sinais de virilizacao/aceleracao importante.",
+    "confianca": "media"
+  },
+  {
+    "num": 33,
+    "letra_informada": "A",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Sintomas quase diarios, despertar noturno semanal e limitacao de atividade em paciente virgem de tratamento: pelo GINA a introducao deve ser no Step 3 (corticoide inalatorio em dose baixa associado a LABA, ou dose media de CI), nao no Step 2 (CI baixa dose isolado, letra A).",
+    "confianca": "media"
+  },
+  {
+    "num": 34,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Aos 6 meses o Ministerio da Saude recomenda iniciar a alimentacao complementar mantendo o aleitamento: uma refeicao principal (papa/comida amassada) e fruta amassada, sem suco, sal, mel ou acucar. A letra B (suco antes da fruta) e explicitamente desaconselhada.",
+    "confianca": "alta"
+  },
+  {
+    "num": 35,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "D",
+    "motivo": "Purpura palpavel em nadegas e membros inferiores, artrite, dor abdominal e hematuria com hemograma e coagulograma normais = vasculite por IgA (Henoch-Schonlein), fenomeno imunologico pos-estreptococico; a vigilancia deve ser para hemorragia digestiva/invaginacao e nefrite. A letra B descreve febre reumatica e a C descreve GNPE.",
+    "confianca": "alta"
+  },
+  {
+    "num": 36,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "A Sociedade Brasileira de Pediatria recomenda que o teste do reflexo vermelho seja feito na maternidade e repetido de 2 a 3 vezes ao ano nas consultas de rotina dos primeiros anos. A letra B e falsa: o teste e realizado pelo pediatra na puericultura, nao apenas pelo oftalmologista.",
+    "confianca": "media"
+  },
+  {
+    "num": 37,
+    "letra_informada": "A",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "A",
+    "motivo": "A vacina influenza so e licenciada a partir dos 6 meses de idade; a crianca A tem 5 meses e por isso nao pode ser imunizada agora. As demais podem: e vacina inativada (imunodeficiencia, corticoide, exposicao ao HIV) e nao ha intervalo obrigatorio com a febre amarela.",
+    "confianca": "alta"
+  },
+  {
+    "num": 38,
+    "letra_informada": "D",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "A",
+    "motivo": "Episodio hipotonico-hiporresponsivo apos vacinacao dos 2 meses e atribuido ao componente pertussis de celulas inteiras da penta; a orientacao e substituir as doses subsequentes pela DTPa (pertussis acelular).",
+    "confianca": "alta"
+  },
+  {
+    "num": 39,
+    "letra_informada": "D",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Prematuro pequeno para a idade gestacional com ictericia precoce, hepatoesplenomegalia e calcificacoes intracranianas PERIVENTRICULARES: citomegalovirose congenita. Na toxoplasmose as calcificacoes sao difusas/corticais e ha coriorretinite e hidrocefalia.",
+    "confianca": "alta"
+  },
+  {
+    "num": 40,
+    "letra_informada": "B",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "B",
+    "motivo": "IMC = 26 / (1,10)^2 = 21,5 kg/m2. Para menina de 4 anos o escore-z fica acima de +3 (o +3 DP e cerca de 20,7), e na faixa de 0 a 5 anos a classificacao do Ministerio da Saude/OMS para IMC/idade acima de +3 e OBESIDADE (a categoria 'obesidade grave' so existe a partir dos 5 anos).",
+    "confianca": "alta"
+  },
+  {
+    "num": 41,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "B",
+    "motivo": "So II e IV estao corretas. I e falsa: a meta de cobertura da triplice viral e 95%, nao 90%. III e falsa: o ultimo caso autoctone de sarampo no Brasil foi em junho de 2022, nao 2024. Portanto 'todas estao corretas' (letra C) e insustentavel.",
+    "confianca": "alta"
+  },
+  {
+    "num": 42,
+    "letra_informada": "D",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "D",
+    "motivo": "A recusa fere a universalidade (acesso a saude independente de municipio de residencia) e a integralidade; o SUS nao condiciona atendimento a residencia, muito menos em suspeita de sindrome coronariana aguda.",
+    "confianca": "alta"
+  },
+  {
+    "num": 43,
+    "letra_informada": "C",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "E",
+    "motivo": "Morte natural sem assistencia medica, sem sinais de violencia, em localidade que dispoe de Servico de Verificacao de Obito: o corpo deve ser encaminhado ao SVO (Resolucao CFM 1.779/2005). O IML so recebe mortes violentas ou suspeitas.",
+    "confianca": "alta"
+  },
+  {
+    "num": 44,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "C",
+    "motivo": "Risco iminente de novo ato contra a propria vida configura justa causa para quebra do sigilo: informar familiares (o paciente ainda e menor de 18 anos) e garantir avaliacao psiquiatrica. Comunicar a policia (letra B) nao e a conduta indicada; a notificacao compulsoria e ao servico de vigilancia.",
+    "confianca": "alta"
+  },
+  {
+    "num": 45,
+    "letra_informada": "B",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "B",
+    "motivo": "O Ministerio da Saude/INCA nao recomenda rastreamento populacional de cancer de prostata; diante da demanda espontanea, a conduta e o esclarecimento sobre beneficios incertos, falso-positivos e sobrediagnostico, com decisao compartilhada.",
+    "confianca": "alta"
+  },
+  {
+    "num": 46,
+    "letra_informada": "C",
+    "veredito": "confere",
+    "letra_que_eu_defendo": "C",
+    "motivo": "O protocolo SPIKES e o principio da autonomia impoem avaliar o quanto a paciente quer saber (etapas P e I) antes de informar, respeitando seu direito a informacao e evitando a conspiracao do silencio pedida pela filha.",
+    "confianca": "alta"
+  },
+  {
+    "num": 47,
+    "letra_informada": "A",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "E",
+    "motivo": "Com o componente neonatal abaixo de 10%, o predominio passou a ser pos-neonatal (1 a 11 meses), cujas causas - infeccoes, diarreia, pneumonia, causas externas - sao reduzidas por puericultura qualificada e melhora do acolhimento na urgencia. Investir em pre-natal e parto (letra A) atacaria o componente ja resolvido.",
+    "confianca": "alta"
+  },
+  {
+    "num": 48,
+    "letra_informada": "B",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "A",
+    "motivo": "VPP = 90/150 = 60%: entre os que testam positivo, 60% realmente tem tuberculose, o que indica utilidade apenas moderada para confirmacao. A letra B confunde VPP com sensibilidade (90/100).",
+    "confianca": "alta"
+  },
+  {
+    "num": 49,
+    "letra_informada": "A",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "E",
+    "motivo": "O modelo da CNDSS (Dahlgren e Whitehead) descreve determinantes em camadas - individuais, de redes sociais e comunitarias, de condicoes de vida e trabalho, e socioeconomicos/culturais/ambientais - que interagem e exigem acao intersetorial, exatamente o descrito em E.",
+    "confianca": "alta"
+  },
+  {
+    "num": 50,
+    "letra_informada": "D",
+    "veredito": "diverge",
+    "letra_que_eu_defendo": "A",
+    "motivo": "A afirmativa V e inequivocamente falsa (a PNSIPN nao se operacionaliza por servicos exclusivos, e sim pela equidade dentro da rede do SUS), o que elimina a letra D. Entre as opcoes restantes, I, II e IV (letra A) e a mais defensavel, embora III tambem tenha conteudo correto - item com possivel defeito.",
+    "confianca": "media"
+  }
+]
