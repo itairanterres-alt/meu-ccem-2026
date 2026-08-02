@@ -7520,7 +7520,7 @@
       "doenca_inflamatoria_intestinal",
       "prevencao"
     ],
-    "texto_base": "Homem de 58 anos com retocolite ulcerativa de atividade moderada a grave iniciará prednisona 40 mg por dia, com previsão de manutenção por pelo menos seis semanas, seguida de azatioprina. Ele nunca teve varicela, não guarda registro das doses recebidas na vida adulta e mora em município sem circulação atual de febre amarela. Na consulta ambulatorial, pergunta o que ainda pode ser aplicado depois de começada a medicação.",
+    "texto_base": "Homem de 58 anos com retocolite ulcerativa de atividade moderada a grave iniciará prednisona 40 mg por dia, que deverá ser mantida durante seis semanas ou mais, seguida de azatioprina. Ele nunca teve varicela, não guarda registro das doses recebidas na vida adulta e mora em município sem circulação atual de febre amarela. Na consulta ambulatorial, pergunta o que ainda pode ser aplicado depois de começada a medicação.",
     "enunciado": "Considerando as recomendações vigentes de imunização para pessoas sob imunossupressão medicamentosa, qual imunizante pode ser administrado com segurança a esse paciente durante o uso do corticoide em dose imunossupressora?",
     "alternativas": [
       {
@@ -7642,14 +7642,14 @@
       "acidose_respiratoria",
       "sepse"
     ],
-    "texto_base": "Homem de 59 anos, obeso, com síndrome de hipoventilação da obesidade, é admitido em terapia intensiva por pneumonia extensa em base direita e choque séptico. Encontra-se torporoso, com uso de musculatura acessória e tempo de enchimento capilar de 5 segundos. A gasometria arterial e os eletrólitos colhidos na chegada mostram: pH 7,13; pCO2 50 mmHg; pO2 54 mmHg; bicarbonato 16 mmol/L; sódio 138 mmol/L; cloro 102 mmol/L; albumina 4,0 g/dL; lactato 6,8 mmol/L.",
+    "texto_base": "Homem de 59 anos, obeso, com síndrome de hipoventilação da obesidade, é admitido em terapia intensiva por pneumonia extensa em base direita e choque séptico. Encontra-se torporoso, com uso de musculatura acessória e tempo de enchimento capilar de 5 segundos. A gasometria arterial e os eletrólitos colhidos na chegada mostram: pH 7,13; pCO2 50 mmHg; pO2 54 mmHg; bicarbonato 16 mmol/L; sódio 138 mmol/L; cloro 102 mmol/L; albumina sérica 4,3 g/dL; lactato 6,8 mmol/L.",
     "enunciado": "Empregando a equação de Henderson-Hasselbalch e o cálculo do ânion gap, qual é a interpretação acidobásica completa desse caso?",
     "alternativas": [
       {
         "letra": "A",
         "texto": "Acidose metabólica com ânion gap aumentado somada a acidose respiratória.",
         "correta": true,
-        "justificativa": "Correta. O ânion gap é de 20 mEq/L (138 menos 102 menos 16), portanto elevado, e a albumina normal dispensa correção; a variação do gap acompanha a queda do bicarbonato, o que indica acidose orgânica pura, aqui por hiperlactatemia. Pela fórmula de Winter, a pCO2 esperada seria próxima de 32 mmHg: encontrar 50 mmHg revela retenção de gás carbônico e, portanto, acidose respiratória associada, coerente com a hipoventilação."
+        "justificativa": "Correta. O ânion gap é de 20 mEq/L (138 menos 102 menos 16), portanto elevado, e a albumina praticamente normal dispensa correção relevante; a variação do gap acompanha a queda do bicarbonato, o que indica acidose orgânica pura, aqui por hiperlactatemia. Pela fórmula de Winter, a pCO2 esperada seria próxima de 32 mmHg: encontrar 50 mmHg revela retenção de gás carbônico e, portanto, acidose respiratória associada, coerente com a hipoventilação."
       },
       {
         "letra": "B",
@@ -7890,7 +7890,7 @@
       "uso_racional_de_antimicrobianos"
     ],
     "texto_base": "Mulher de 59 anos, diabética tipo 2, está internada há 48 horas por pielonefrite aguda à direita. Na admissão apresentava temperatura de 39,1 °C, frequência cardíaca de 118 bpm e pressão arterial de 86/50 mmHg, com boa resposta à expansão volêmica; a ultrassonografia não mostrou dilatação de vias urinárias, abscessos ou cálculos. Foi iniciada terapia empírica com piperacilina-tazobactam e vancomicina. Hoje está afebril há mais de 24 horas, sem vasopressor, aceitando dieta por via oral, e o único dispositivo é um cateter venoso periférico; não é imunossuprimida. O laboratório comunica que os dois pares de hemoculturas colhidos na admissão apresentam crescimento de bacilos gram-negativos, ainda sem identificação de espécie nem antibiograma. A urocultura confirmou o mesmo morfotipo.",
-    "enunciado": "Com base nas evidências atuais sobre bacteremia por Enterobacterales e nos princípios de uso racional de antimicrobianos, qual é a conduta mais adequada neste momento?",
+    "enunciado": "Com base nas evidências atuais sobre bacteremia por Enterobacterales e nos princípios de uso racional de antimicrobianos, que decisão terapêutica deve ser tomada agora?",
     "alternativas": [
       {
         "letra": "A",
@@ -10841,7 +10841,7 @@
       "valor_preditivo_negativo",
       "atencao_primaria"
     ],
-    "texto_base": "Em reunião de equipe de uma unidade de saúde da família, a enfermeira comunica que o município passará a adotar o teste molecular para detecção do DNA de tipos oncogênicos do HPV como exame primário de rastreamento do câncer do colo do útero, substituindo a citologia como porta de entrada do programa. As agentes comunitárias, encarregadas de convocar as mulheres do território, perguntam ao médico da equipe por que essa substituição é considerada um avanço e o que muda concretamente na rotina de acompanhamento.",
+    "texto_base": "Em reunião de equipe de uma unidade de saúde da família, a enfermeira comunica que o município passará a adotar o teste molecular para detecção do DNA de tipos oncogênicos do HPV como exame primário de rastreio do câncer do colo uterino, substituindo a citologia como porta de entrada do programa. As agentes comunitárias, encarregadas de convocar as mulheres do território, perguntam ao médico da equipe por que essa substituição é considerada um avanço e o que muda concretamente na rotina de acompanhamento.",
     "enunciado": "Qual afirmação expressa corretamente a principal vantagem do teste de DNA-HPV como método primário de rastreamento?",
     "alternativas": [
       {
@@ -11698,7 +11698,7 @@
       "contracepcao",
       "saude_sexual_e_reprodutiva"
     ],
-    "texto_base": "Adolescente de 16 anos comparece sozinha à unidade básica de saúde. Durante a consulta, informa que tem vida sexual há cerca de seis meses com um namorado de 17 anos, que a relação é consentida e sem qualquer coação, e que gostaria de iniciar um método contraceptivo de longa duração. Pede que a mãe, que aguarda do lado de fora, não seja informada, pois teme conflito em casa. Está em bom estado geral, com desenvolvimento puberal completo, sem sinais de violência física ou sexual, sem uso de substâncias e sem indícios de risco à própria vida ou à de terceiros. Demonstra compreender as informações sobre eficácia, efeitos adversos e limitação dos métodos hormonais quanto à proteção contra infecções sexualmente transmissíveis.",
+    "texto_base": "Adolescente de 16 anos comparece sozinha à unidade básica de saúde. Durante a consulta, informa que tem vida sexual há cerca de seis meses com um namorado de 17 anos, que a relação é consentida e sem qualquer coação, e que gostaria de iniciar um método contraceptivo de longa duração. Pede que a mãe, que aguarda do lado de fora, não seja informada, pois teme conflito em casa. Ao exame, encontra-se em boas condições clínicas, com estágio puberal 5 de Tanner, sem sinais de violência física ou sexual, sem uso de substâncias e sem indícios de risco à própria vida ou à de terceiros. Demonstra compreender as informações sobre eficácia, efeitos adversos e limitação dos métodos hormonais quanto à proteção contra infecções sexualmente transmissíveis.",
     "enunciado": "Qual conduta é compatível com as normas do Código de Ética Médica e com as orientações ministeriais vigentes para o atendimento de adolescentes?",
     "alternativas": [
       {
@@ -16222,6 +16222,1471 @@
       "defeito_corrigido_na_adaptacao": null,
       "nota_adaptacao": "Objeto mantido (identificação do componente responsável pelo episódio hipotônico-hiporresponsivo e conduta subsequente). Novo paciente (lactente de 4 meses, na segunda dose, trazido pelo pai), descrição detalhada do episódio com os elementos que o diferenciam de crise convulsiva e de hipoglicemia, e alternativas reescritas. Acrescentei à chave a notificação do evento como parte da conduta, reforçando a competência de vigilância. Chave deslocada para B.",
       "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 9,
+    "uc_slug": "med_unidavi_f09_uc01_saude_crianca",
+    "tema": "Infecções congênitas",
+    "subtema": "Citomegalovirose congênita",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_03",
+      "dcn2025_comp_21"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "pediatria",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "infeccao_congenita",
+      "citomegalovirus",
+      "neonatologia",
+      "calcificacoes_periventriculares",
+      "triagem_auditiva"
+    ],
+    "texto_base": "Recém-nascido do sexo masculino é avaliado na unidade neonatal de uma maternidade de referência. Nasceu de parto vaginal com 35 semanas de idade gestacional, pesando 1.720 g, com comprimento de 41 cm e perímetro cefálico de 29 cm, abaixo do esperado para a idade gestacional. A mãe tem 19 anos, não compareceu a nenhuma consulta de pré-natal e nega febre, exantema ou linfadenomegalia durante a gestação. Nas primeiras 24 horas de vida, o neonatologista observa icterícia, petéquias disseminadas pelo tronco, fígado palpável a 4 cm do rebordo costal direito e baço a 3 cm. Os exames iniciais mostram plaquetas de 62.000/mm³, bilirrubina total de 11,2 mg/dL com fração direta de 4,8 mg/dL e elevação de transaminases. A ultrassonografia transfontanelar descreve calcificações finas e lineares dispostas ao redor dos ventrículos laterais, acompanhadas de discreta ventriculomegalia. A triagem auditiva neonatal falhou bilateralmente e o exame oftalmológico não evidenciou coriorretinite nem catarata.",
+    "enunciado": "Considerando o conjunto de achados clínicos, laboratoriais e de neuroimagem descritos, qual é o agente etiológico mais provável dessa infecção congênita?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Toxoplasma gondii.",
+        "correta": false,
+        "justificativa": "Incorreta. Na toxoplasmose congênita as calcificações distribuem-se difusamente pelo parênquima cerebral, e a tríade clássica associa coriorretinite e hidrocefalia obstrutiva — achados expressamente ausentes neste recém-nascido, que ainda apresenta falha auditiva bilateral, pouco característica dessa etiologia."
+      },
+      {
+        "letra": "B",
+        "texto": "Treponema pallidum.",
+        "correta": false,
+        "justificativa": "Incorreta. A sífilis congênita precoce manifesta-se com rinite sero-sanguinolenta, lesões cutâneas palmoplantares, pênfigo, pseudoparalisia de Parrot e alterações metafisárias nas radiografias de ossos longos; ela não produz o padrão de calcificações ao redor dos ventrículos laterais aqui descrito."
+      },
+      {
+        "letra": "C",
+        "texto": "Citomegalovírus.",
+        "correta": true,
+        "justificativa": "Correta. Prematuridade com restrição de crescimento, microcefalia, colestase com hepatoesplenomegalia, plaquetopenia com petéquias, calcificações de distribuição periventricular e falha na triagem auditiva compõem o quadro típico da infecção congênita por citomegalovírus, que é a infecção congênita mais frequente e a principal causa infecciosa de surdez neurossensorial não hereditária."
+      },
+      {
+        "letra": "D",
+        "texto": "Vírus da rubéola.",
+        "correta": false,
+        "justificativa": "Incorreta. A síndrome da rubéola congênita reúne catarata, glaucoma, retinopatia em sal e pimenta e cardiopatias como persistência do canal arterial e estenose de ramos pulmonares, além de exigir infecção materna sintomática ou suscetibilidade documentada; o exame ocular normal e o padrão de calcificações não sustentam essa hipótese."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "neonatologia",
+      "especialidade_secundaria": "infectologia_pediatrica",
+      "objeto_conhecimento": "Diagnóstico diferencial das infecções congênitas a partir de achados clínicos, laboratoriais e de neuroimagem",
+      "sistema_organico": "multissistemico",
+      "contexto_atencao": "internacao_hospitalar",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_03"
+        ],
+        "conteudos": [
+          "enamed_cont_09"
+        ],
+        "cenario": "enamed_cenario_03",
+        "justificativa": "Item de Pediatria que exige formular hipótese diagnóstica a partir de história perinatal e exame físico e interpretar exames complementares (hemograma, bilirrubinas, ultrassonografia transfontanelar, triagem auditiva), no cenário da rede materno-infantil."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q039",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q039",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "C",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Caso inteiramente novo: trocou-se o sexo do recém-nascido, a idade gestacional, o peso, a idade materna e todos os dados laboratoriais; acrescentaram-se microcefalia, plaquetopenia com petéquias, colestase e falha na triagem auditiva, e a neuroimagem passou de tomografia para ultrassonografia transfontanelar, com os achados descritos em palavras para dispensar figura. As alternativas foram reescritas em termos de agente etiológico (quatro opções, sem HIV) e cada distrator recebeu justificativa com o achado discriminante que o exclui. Objeto de conhecimento preservado: diagnóstico diferencial das infecções congênitas.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 9,
+    "uc_slug": "med_unidavi_f09_uc01_saude_crianca",
+    "tema": "Vigilância alimentar e nutricional na infância",
+    "subtema": "Classificação do estado nutricional pelo IMC para a idade",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_03"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "pediatria",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "antropometria",
+      "imc_para_idade",
+      "escore_z",
+      "obesidade_infantil",
+      "puericultura"
+    ],
+    "texto_base": "Menino de 4 anos e 2 meses é levado à consulta de puericultura na Unidade Básica de Saúde. O pai relata preocupação com o ganho de peso do último ano: a criança toma refrigerante todos os dias, recusa hortaliças e permanece cerca de cinco horas diárias diante de telas. Não há doença crônica conhecida, uso de medicamentos, atraso de desenvolvimento ou história familiar de endocrinopatia. Ao exame físico está em bom estado geral, ativo, corado, sem estrias violáceas, sem acantose nigricans e com pressão arterial no percentil 60 para sexo, idade e estatura. A antropometria da consulta registra peso de 20,0 kg e estatura de 1,04 m, o que corresponde a índice de massa corporal de 18,5 kg/m². Ao marcar esse valor na curva de IMC para a idade da Organização Mundial da Saúde correspondente ao sexo e à faixa etária da criança, o ponto situa-se acima da linha de escore-z +2 e abaixo da linha de escore-z +3. A estatura para a idade encontra-se entre os escores-z 0 e +1.",
+    "enunciado": "De acordo com os pontos de corte adotados pelo Ministério da Saúde para a vigilância alimentar e nutricional, qual é o diagnóstico nutricional desse menino?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Eutrofia.",
+        "correta": false,
+        "justificativa": "Incorreta. A eutrofia em menores de 5 anos corresponde a índice de massa corporal para a idade situado entre os escores-z -2 e +1; o ponto descrito está muito acima desse intervalo, de modo que classificar a criança como eutrófica perderia a oportunidade de intervenção precoce."
+      },
+      {
+        "letra": "B",
+        "texto": "Risco de sobrepeso.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa categoria existe apenas para menores de 5 anos e se aplica a valores acima do escore-z +1 e até o escore-z +2; a criança ultrapassou o limite superior dessa faixa, o que a desloca para a categoria seguinte."
+      },
+      {
+        "letra": "C",
+        "texto": "Obesidade.",
+        "correta": false,
+        "justificativa": "Incorreta. Antes dos 5 anos completos, o diagnóstico de obesidade exige índice de massa corporal para a idade acima do escore-z +3. A mesma posição na curva só seria classificada como obesidade a partir dos 5 anos, quando o ponto de corte passa a ser o escore-z +2."
+      },
+      {
+        "letra": "D",
+        "texto": "Sobrepeso.",
+        "correta": true,
+        "justificativa": "Correta. Em crianças menores de 5 anos, o índice de massa corporal para a idade acima do escore-z +2 e até o escore-z +3 define sobrepeso. A idade é decisiva na leitura: a partir dos 5 anos o mesmo ponto seria lido como obesidade e, entre +1 e +2, como sobrepeso. A conduta é orientação alimentar e de atividade física com a família e acompanhamento antropométrico seriado."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "puericultura_e_crescimento",
+      "especialidade_secundaria": "aleitamento_e_nutricao",
+      "objeto_conhecimento": "Pontos de corte de IMC para a idade e classificação do estado nutricional de menores de cinco anos",
+      "sistema_organico": "endocrino_metabolico",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_04",
+        "competencias": [
+          "enamed_comp_02",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_02",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Pediatria na atenção primária que avalia o acompanhamento do crescimento nas fases do ciclo de vida e a vigilância nutricional como ação de prevenção, com formulação diagnóstica a partir de dados antropométricos."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q040",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q040",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "media",
+        "defeitos_do_item_original": [
+          "O enunciado remete a 'gráfico abaixo' que não está disponível; a resposta depende de qual curva (0–5 ou 5–10 anos) foi impressa.",
+          "O item remete a 'gráfico abaixo' que não está reproduzido no enunciado; a resposta só é recuperável por cálculo e memória das curvas da OMS.",
+          "O grafico referido no enunciado ('gráfico abaixo') nao esta reproduzido no item."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "O item de origem remetia a um 'gráfico abaixo' que não estava reproduzido e cuja resposta dependia de adivinhar qual curva da OMS (0 a 5 ou 5 a 19 anos) havia sido impressa. Na versão nova, a posição do ponto na curva é informada em texto (acima do escore-z +2 e abaixo do +3), a faixa etária é explicitada e a própria chave explica a mudança de ponto de corte aos 5 anos: o item passa a avaliar o domínio dos critérios, e não a leitura de uma figura ausente.",
+      "nota_adaptacao": "Novo paciente (menino de 4 anos e 2 meses, no lugar de menina de 4 anos), novos dados antropométricos (20,0 kg e 1,04 m, IMC 18,5 kg/m²) e acréscimo de dados negativos relevantes (pressão arterial, acantose, estatura para a idade). A dependência de figura foi eliminada e as alternativas foram reduzidas a quatro categorias mutuamente excludentes, com justificativas que citam o intervalo de escore-z de cada uma. A chave nova é 'sobrepeso', diferente da chave de consenso da origem ('obesidade'), porque com escore-z entre +2 e +3 em criança menor de 5 anos a classificação correta é sobrepeso.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Vigilância e prevenção de doenças imunopreveníveis",
+    "subtema": "Sarampo e cobertura vacinal da tríplice viral",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_01",
+      "dcn2025_comp_24"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "sarampo",
+      "triplice_viral",
+      "cobertura_vacinal",
+      "imunidade_coletiva",
+      "notificacao_imediata"
+    ],
+    "texto_base": "Na avaliação anual dos indicadores de uma equipe de Saúde da Família, a médica verifica que a cobertura da primeira dose da vacina tríplice viral entre as crianças de 12 a 23 meses do território caiu de 92% para 79% em três anos, com concentração das faltas em duas microáreas de ocupação recente. Na reunião, um agente comunitário conta que várias famílias recusaram a vacina afirmando que o sarampo 'não existe mais no Brasil' e que a vacina 'faz mais mal do que a doença'. A equipe planeja rodas de conversa, busca ativa dos faltosos e uma orientação escrita para os agentes usarem nas visitas domiciliares.",
+    "enunciado": "Considerando a epidemiologia do sarampo e as recomendações vigentes de imunização e vigilância, qual afirmativa deve fundamentar a argumentação preparada pela equipe?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Uma cobertura próxima de 80% já é suficiente para impedir a circulação sustentada do vírus, porque o sarampo tem baixa capacidade de disseminação em áreas urbanas com saneamento adequado.",
+        "correta": false,
+        "justificativa": "Incorreta. O sarampo está entre as viroses mais transmissíveis conhecidas, com número reprodutivo básico estimado entre 12 e 18 e transmissão por aerossóis que persistem no ambiente; por isso o limiar de imunidade coletiva é muito alto e não guarda relação com condições de saneamento."
+      },
+      {
+        "letra": "B",
+        "texto": "Diante de um contato domiciliar suscetível, a vacinação de bloqueio pode ser feita em qualquer momento dos quinze dias seguintes à exposição, com a mesma eficácia protetora.",
+        "correta": false,
+        "justificativa": "Incorreta. O bloqueio vacinal só é eficaz quando realizado até 72 horas após a exposição; ultrapassado esse prazo, resta a imunoglobulina humana normal, indicada em até seis dias e reservada a suscetíveis com contraindicação à vacina, como lactentes menores de seis meses, gestantes e imunodeprimidos."
+      },
+      {
+        "letra": "C",
+        "texto": "A notificação do caso à vigilância só se torna obrigatória depois da confirmação laboratorial, para não sobrecarregar o sistema com doenças exantemáticas inespecíficas.",
+        "correta": false,
+        "justificativa": "Incorreta. O sarampo é agravo de notificação imediata: todo caso suspeito deve ser comunicado em até 24 horas, justamente porque a investigação, a coleta de amostras e o bloqueio vacinal dos contatos dependem de rapidez e perderiam sentido se aguardassem a sorologia."
+      },
+      {
+        "letra": "D",
+        "texto": "A meta pactuada para a primeira dose da tríplice viral é de 95%, e a queda observada acumula bolsões de suscetíveis capazes de sustentar surtos, ainda que o país tenha recuperado em 2024 a certificação de eliminação do sarampo.",
+        "correta": true,
+        "justificativa": "Correta. A meta de cobertura vacinal para a tríplice viral no Brasil é de 95%, patamar necessário para interromper a cadeia de transmissão de um agente de altíssima transmissibilidade. Coberturas heterogêneas criam bolsões de suscetíveis em microáreas, e a recertificação obtida junto à Organização Pan-Americana da Saúde atesta ausência de transmissão endêmica, não imunidade permanente: ela só se sustenta com coberturas altas e homogêneas e vigilância ativa de casos importados."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "vigilancia_em_saude",
+      "especialidade_secundaria": "imunizacao",
+      "objeto_conhecimento": "Imunidade coletiva, metas de cobertura vacinal e vigilância do sarampo",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_17",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Saúde Coletiva que exige identificar a necessidade de saúde de um território a partir de indicador de cobertura vacinal e planejar ação de educação em saúde e vigilância, articulando prevenção e controle de doença imunoprevenível."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q041",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q041",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": [
+          "O gráfico citado no enunciado não foi reproduzido, embora as quatro afirmativas possam ser julgadas apenas por conhecimento epidemiológico.",
+          "O gráfico citado no enunciado não está reproduzido, embora as afirmativas possam ser julgadas sem ele.",
+          "Gráfico referido no enunciado não foi reproduzido, embora não seja necessário para julgar as afirmativas."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "O item de origem dependia de um gráfico de coberturas vacinais que não foi reproduzido e trazia, entre as afirmativas, a meta de 90% para a tríplice viral. O item novo é autossuficiente em texto — os dados de cobertura do território estão na própria vinheta — e fixa corretamente a meta em 95%, que é o patamar preconizado no Brasil.",
+      "nota_adaptacao": "Abandonou-se o formato de afirmativas numeradas somadas (I a IV), que no original impunha julgamento simultâneo de quatro proposições apoiadas em figura ausente, em favor de um item de melhor resposta única ancorado num cenário concreto de queda de cobertura numa equipe de Saúde da Família. Os distratores exploram três erros conceituais frequentes e verificáveis — limiar de imunidade coletiva, janela do bloqueio vacinal e momento da notificação — e nenhum deles depende de dados externos ao enunciado.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Princípios e diretrizes do SUS",
+    "subtema": "Universalidade e integralidade diante de barreira de acesso por município de residência",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_06",
+      "dcn2025_comp_16"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "facil",
+    "tags": [
+      "sus",
+      "universalidade",
+      "integralidade",
+      "adscricao_de_territorio",
+      "barreira_de_acesso"
+    ],
+    "texto_base": "Mulher de 47 anos, diarista, trabalha em um município vizinho ao de sua residência. Durante a jornada apresenta dor retroesternal em aperto, com irradiação para o membro superior esquerdo, sudorese fria e náusea, já com cerca de 40 minutos de duração e sem alívio ao repouso. Amparada pela empregadora, procura a Unidade Básica de Saúde mais próxima, situada a dois quarteirões do local de trabalho. Na recepção, é informada de que aquela unidade atende somente pessoas cadastradas nas equipes de Saúde da Família daquele território e que ela deveria retornar à cidade onde mora para ser avaliada. O município de residência fica a 35 km, e a paciente não dispõe de transporte imediato.",
+    "enunciado": "Considerando os princípios doutrinários e organizativos do Sistema Único de Saúde, qual é a conduta correta diante dessa recusa de atendimento e qual princípio a fundamenta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A recusa é legítima, pois a descentralização confere a cada gestor municipal autonomia para reservar seus serviços aos próprios munícipes.",
+        "correta": false,
+        "justificativa": "Incorreta. A descentralização redistribui responsabilidades de gestão e execução entre União, estados e municípios, aproximando a decisão de quem presta o cuidado; ela não autoriza o gestor local a criar barreira de acesso fundada no domicílio do usuário, o que contraria a própria lei orgânica do sistema."
+      },
+      {
+        "letra": "B",
+        "texto": "A conduta da recepção aplica corretamente a regionalização, que obriga o usuário a entrar no sistema sempre pela unidade do município onde reside.",
+        "correta": false,
+        "justificativa": "Incorreta. A regionalização organiza a oferta de serviços em regiões de saúde e pactuações intergestores para ampliar acesso e resolutividade; ela distribui responsabilidades entre entes, mas jamais converte o limite municipal em condição de entrada do usuário no sistema."
+      },
+      {
+        "letra": "C",
+        "texto": "A recusa concretiza a equidade, ao reservar a capacidade instalada aos moradores cujo município custeia aquela unidade.",
+        "correta": false,
+        "justificativa": "Incorreta. Equidade significa ofertar mais a quem tem maior necessidade, reduzindo desigualdades evitáveis, e não priorizar por vínculo administrativo. Além disso, o financiamento do sistema é tripartite, de modo que nenhum serviço é custeado exclusivamente pelos moradores de um município."
+      },
+      {
+        "letra": "D",
+        "texto": "A paciente deve ser acolhida e avaliada de imediato naquela unidade, com classificação de risco, eletrocardiograma se disponível e acionamento do serviço de urgência para transferência regulada, porque a universalidade e a integralidade asseguram o acesso independentemente do local de moradia.",
+        "correta": true,
+        "justificativa": "Correta. A universalidade garante a qualquer pessoa o acesso aos serviços do sistema, sem exigência de contribuição, vínculo empregatício ou comprovação de residência, e a integralidade impõe resposta proporcional à necessidade apresentada. A adscrição de território existe para organizar o cuidado longitudinal e a responsabilidade sanitária, nunca para filtrar demanda espontânea — menos ainda diante de suspeita de síndrome coronariana aguda, em que cada minuto de atraso aumenta a mortalidade."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "aps_organizacao_e_acesso",
+      "objeto_conhecimento": "Aplicação dos princípios doutrinários e organizativos do SUS a barreiras de acesso na atenção primária",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_09",
+          "enamed_comp_01"
+        ],
+        "conteudos": [
+          "enamed_cont_14",
+          "enamed_cont_05"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Saúde Coletiva sobre identificar e promover os princípios e diretrizes do SUS e utilizar criticamente a rede de serviços, com ênfase em direitos humanos, inclusão e remoção de barreiras de acesso na atenção primária."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q042",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q042",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "D",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Nova paciente (mulher de 47 anos, diarista, deslocada a trabalho, no lugar de homem de 59 anos morador de região de fronteira), com quadro clínico detalhado e distância explicitada, o que torna a barreira de acesso concreta. A alternativa correta deixou de ser apenas a enunciação abstrata do princípio e passou a incluir a conduta assistencial esperada (acolhimento, classificação de risco, acionamento da urgência). Os distratores foram reescritos para explorar, um a um, o uso indevido de descentralização, regionalização e equidade.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Documentos médicos",
+    "subtema": "Declaração de óbito em morte natural sem assistência médica",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_27",
+      "dcn2025_comp_05"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "declaracao_de_obito",
+      "servico_de_verificacao_de_obito",
+      "morte_natural",
+      "documentos_medicos",
+      "etica_medica"
+    ],
+    "texto_base": "Às 6h40, o médico plantonista de uma Unidade de Pronto Atendimento é chamado ao acolhimento. Uma mulher de 82 anos foi trazida pela filha, que a encontrou sem vida na cama ao acordar. A paciente era hipertensa e diabética, acompanhada havia anos na Unidade Básica de Saúde do bairro, e na véspera comentara cansaço e falta de ar leve, recusando procurar atendimento. Ao exame, o plantonista constata ausência de pulsos centrais, de batimentos cardíacos e de movimentos respiratórios, pupilas fixas e midriáticas e rigidez de mandíbula e nuca. Não há lesões corporais, sinais de violência, vestígios de substâncias ou qualquer circunstância suspeita, e os vizinhos confirmam convivência familiar harmoniosa. O médico nunca atendeu a paciente e não tem acesso ao prontuário da unidade básica naquele momento. O município conta com Serviço de Verificação de Óbito e com Instituto Médico Legal.",
+    "enunciado": "Quanto à emissão da Declaração de Óbito nesse caso, qual é a conduta correta do médico plantonista da unidade?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Recusar a emissão do documento e enviar o corpo ao Instituto Médico Legal, uma vez que a morte ocorreu fora de estabelecimento de saúde e sem médico presente.",
+        "correta": false,
+        "justificativa": "Incorreta. O Instituto Médico Legal destina-se às mortes violentas, suspeitas ou de causa externa. Nada no caso sugere causa externa, e encaminhar para lá uma morte natural sobrecarrega a perícia, retarda o sepultamento e ainda assim não esclarece a causa básica do óbito."
+      },
+      {
+        "letra": "B",
+        "texto": "Constatar o óbito, deixar de preencher a Declaração de Óbito e encaminhar o corpo ao Serviço de Verificação de Óbito, a quem cabe investigar a causa e emitir o documento.",
+        "correta": true,
+        "justificativa": "Correta. Trata-se de morte natural ocorrida sem assistência médica no momento do evento, e o plantonista nunca acompanhou a paciente, não dispondo de elementos para afirmar a sequência de eventos que a levou à morte. Existindo Serviço de Verificação de Óbito no município, é ele o responsável por esclarecer a causa e emitir a Declaração de Óbito; ao plantonista cabe constatar a morte, registrar o atendimento em prontuário e orientar a família sobre o fluxo."
+      },
+      {
+        "letra": "C",
+        "texto": "Preencher a Declaração de Óbito registrando parada cardiorrespiratória na primeira linha da parte I, já que foi ele quem constatou a morte.",
+        "correta": false,
+        "justificativa": "Incorreta. Parada cardiorrespiratória é o modo de morrer, comum a todos os óbitos, e não deve figurar como causa em nenhuma linha do documento. Constatar a morte tampouco confere ao plantonista conhecimento sobre a doença que a produziu, já que ele não prestava assistência à paciente."
+      },
+      {
+        "letra": "D",
+        "texto": "Preencher a Declaração de Óbito com causa básica indeterminada e remeter uma via à autoridade policial, como resguardo legal.",
+        "correta": false,
+        "justificativa": "Incorreta. Havendo Serviço de Verificação de Óbito disponível, a causa deve ser investigada em vez de declarada indeterminada, o que degradaria a estatística de mortalidade do município. Comunicação à autoridade policial só se justifica em morte violenta ou suspeita, o que não é o caso descrito."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "etica_e_bioetica",
+      "especialidade_secundaria": "saude_do_idoso",
+      "objeto_conhecimento": "Indicação do Serviço de Verificação de Óbito e do Instituto Médico Legal e preenchimento da Declaração de Óbito",
+      "sistema_organico": null,
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_12",
+          "enamed_comp_13"
+        ],
+        "conteudos": [
+          "enamed_cont_08",
+          "enamed_cont_04"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Item sobre emissão de documento médico — a Declaração de Óbito — e sobre as normas éticas e legais que a disciplinam, ambientado na rede de urgência e emergência."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q043",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q043",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "E",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Paciente trocada (mulher de 82 anos hipertensa e diabética, encontrada pela filha, no lugar de homem de 98 anos), com acréscimo de dados que fecham o raciocínio: ausência de vestígios de causa externa, ausência de vínculo prévio do plantonista com a paciente e indisponibilidade do prontuário. As alternativas foram reescritas do zero, mantendo o mesmo objeto de conhecimento — a quem cabe emitir a Declaração de Óbito na morte natural sem assistência médica — e explicitando nas justificativas por que parada cardiorrespiratória e causa indeterminada são registros inadequados.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 6,
+    "uc_slug": "med_unidavi_f06_uc01_problemas_mentais_comportamento",
+    "tema": "Sigilo médico e risco de suicídio",
+    "subtema": "Quebra de sigilo por justa causa no atendimento a adolescente",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_23",
+      "dcn2025_comp_04"
+    ],
+    "nivel_bloom": "avaliacao",
+    "area_clinica": "saude_mental",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "sigilo_medico",
+      "adolescencia",
+      "risco_de_suicidio",
+      "intoxicacao_exogena",
+      "raps"
+    ],
+    "texto_base": "Adolescente de 16 anos, do sexo feminino, é atendida na sala de emergência de uma Unidade de Pronto Atendimento cerca de duas horas depois de ingerir um frasco inteiro de comprimidos de amitriptilina pertencente à avó. Foi trazida pela mãe, que aguarda na recepção e acredita tratar-se de mal-estar por causa do calor. Após estabilização hemodinâmica e monitorização eletrocardiográfica contínua, a médica conversa a sós com a paciente, que está lúcida, orientada no tempo e no espaço, sem alteração de nível de consciência ou déficit cognitivo. A adolescente relata que quis morrer, que se sente sem esperança há meses, que já se autolesionou anteriormente com cortes nos antebraços e que pretende repetir a tentativa se voltar para casa. Pede insistentemente que a médica não conte nada à mãe, por vergonha e por medo de punição.",
+    "enunciado": "Diante do pedido de sigilo e do risco identificado, qual é a conduta ético-legal que a médica deve adotar?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Manter o sigilo integralmente, pois a adolescente está lúcida e sua vontade sobre o que será dito à família prevalece sobre qualquer outra consideração.",
+        "correta": false,
+        "justificativa": "Incorreta. A confidencialidade no atendimento a adolescentes é regra e favorece o vínculo, mas não é absoluta: ela cede quando sua manutenção expõe o próprio paciente a dano grave. Risco declarado de nova tentativa de autoextermínio é exatamente a hipótese que autoriza a revelação aos responsáveis."
+      },
+      {
+        "letra": "B",
+        "texto": "Comunicar o caso à autoridade policial antes de qualquer outra medida, por se tratar de ocorrência que exige registro criminal.",
+        "correta": false,
+        "justificativa": "Incorreta. Tentativa de suicídio não configura crime no ordenamento brasileiro e não gera comunicação policial. A notificação devida é a de violência autoprovocada, dirigida à vigilância epidemiológica, e ela não substitui nem antecede as medidas clínicas de proteção da adolescente."
+      },
+      {
+        "letra": "C",
+        "texto": "Informar à própria adolescente que, em razão do risco à sua vida, a mãe será comunicada; envolver a responsável no plano de cuidado, orientar a retirada do acesso a medicamentos e outros meios letais no domicílio, acionar avaliação psiquiátrica antes da alta e notificar a violência autoprovocada.",
+        "correta": true,
+        "justificativa": "Correta. O Código de Ética Médica admite a revelação do sigilo por justa causa e determina que, no atendimento a menor de idade, a informação seja levada aos responsáveis legais quando a omissão puder acarretar dano ao paciente. Havendo risco de morte explicitado, a conduta protetiva prevalece. Comunicar previamente a própria adolescente preserva o vínculo terapêutico, e o plano deve somar restrição de meios, avaliação especializada antes da alta, notificação compulsória e encaminhamento à Rede de Atenção Psicossocial com seguimento pactuado."
+      },
+      {
+        "letra": "D",
+        "texto": "Preservar o sigilo perante a família e limitar-se a preencher a ficha de notificação de violência autoprovocada, encaminhando a adolescente ao ambulatório de saúde mental para consulta futura.",
+        "correta": false,
+        "justificativa": "Incorreta. A notificação é obrigatória, porém insuficiente como resposta isolada. Sem corresponsabilização de um adulto responsável, sem retirada dos meios letais do domicílio e sem avaliação especializada antes da alta, a adolescente retorna ao mesmo ambiente de risco, e o agendamento futuro não protege o intervalo de maior vulnerabilidade."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "urgencia_psiquiatrica",
+      "especialidade_secundaria": "etica_e_bioetica",
+      "objeto_conhecimento": "Limites do sigilo médico e manejo do risco de suicídio no atendimento ao adolescente",
+      "sistema_organico": null,
+      "contexto_atencao": "urgencia_emergencia",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_06",
+        "competencias": [
+          "enamed_comp_13",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_04",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_02",
+        "justificativa": "Item de Saúde Mental que exige respeitar normas éticas e deontológicas sobre sigilo e comunicar-se adequadamente com paciente e família, em cenário de urgência com posterior articulação com a Rede de Atenção Psicossocial."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q044",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q044",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "C",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Nova paciente (adolescente de 16 anos, sexo feminino, intoxicação por antidepressivo tricíclico da avó, acompanhada pela mãe que desconhece o motivo), com fatores de risco adicionais explícitos (autolesão prévia, desesperança, intenção declarada de repetir o ato). A alternativa correta foi ampliada para conter o plano de cuidado completo — comunicação prévia à adolescente, envolvimento do responsável, restrição de meios, avaliação psiquiátrica antes da alta e notificação — em vez de apenas afirmar que a quebra do sigilo se justifica. Distratores reescritos do zero.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Rastreamento e prevenção quaternária",
+    "subtema": "Detecção precoce do câncer de próstata e decisão compartilhada",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_10"
+    ],
+    "nivel_bloom": "aplicacao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "rastreamento",
+      "cancer_de_prostata",
+      "psa",
+      "decisao_compartilhada",
+      "prevencao_quaternaria"
+    ],
+    "texto_base": "Homem de 58 anos comparece à Unidade Básica de Saúde durante uma campanha de saúde do homem. Está assintomático, sem jato urinário fraco, noctúria, hematúria ou dor óssea. Não tem parentes de primeiro grau com neoplasia de próstata nem outros fatores que aumentem seu risco individual. Trabalha como motorista de ônibus, é hipertenso controlado com losartana, não fuma e não usa outras medicações. Traz um panfleto distribuído no bairro e solicita, textualmente, 'o exame de sangue da próstata e o toque', dizendo ter ouvido que todo homem depois dos 50 anos deve repeti-los uma vez por ano para não morrer de câncer.",
+    "enunciado": "Qual é a conduta mais adequada da equipe diante desse pedido, à luz das recomendações brasileiras vigentes sobre detecção precoce do câncer de próstata?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Solicitar dosagem anual do antígeno prostático específico associada ao exame digital da próstata, já que o rastreamento organizado dessa neoplasia comprovadamente reduz a mortalidade geral dos homens rastreados.",
+        "correta": false,
+        "justificativa": "Incorreta. Os grandes ensaios não demonstraram redução da mortalidade geral, e o efeito sobre a mortalidade específica por câncer de próstata é pequeno, tardio e inconsistente entre estudos. É justamente esse balanço desfavorável que sustenta a ausência de recomendação de rastreamento populacional no país."
+      },
+      {
+        "letra": "B",
+        "texto": "Encaminhar o usuário ao urologista, porque a idade acima de 50 anos, por si só, transfere o cuidado com a próstata para a atenção especializada.",
+        "correta": false,
+        "justificativa": "Incorreta. Idade isolada, em homem assintomático e sem fatores de risco, não constitui critério de encaminhamento. A demanda deve ser trabalhada na própria atenção primária, que é o ponto de rede adequado para a conversa sobre benefícios incertos e danos possíveis, e o encaminhamento desnecessário congestiona a fila da especialidade."
+      },
+      {
+        "letra": "C",
+        "texto": "Conduzir uma decisão compartilhada, apresentando em linguagem acessível a incerteza do benefício e os danos possíveis — resultados falso-positivos, biópsias desnecessárias, sobrediagnóstico e sobretratamento com risco de incontinência urinária e disfunção erétil — e respeitar a escolha informada do usuário, registrando-a em prontuário.",
+        "correta": true,
+        "justificativa": "Correta. O Ministério da Saúde e o Instituto Nacional de Câncer não recomendam a oferta organizada de rastreamento do câncer de próstata a homens assintomáticos, porque os danos documentados superam o benefício incerto. Quando o usuário procura espontaneamente o exame, a conduta correta não é nem prescrever automaticamente nem negar: é informar com clareza sobre incerteza, sobrediagnóstico e consequências do tratamento, verificar o que é importante para aquele homem e sustentar a escolha que ele fizer, deixando o processo registrado."
+      },
+      {
+        "letra": "D",
+        "texto": "Negar o pedido e anotar no prontuário que os exames são contraindicados, pois qualquer investigação prostática em pessoa assintomática é formalmente proibida.",
+        "correta": false,
+        "justificativa": "Incorreta. Não existe proibição: o que não se recomenda é a oferta sistemática à população assintomática. Negar sem explicar rompe o vínculo, desrespeita a autonomia do usuário e costuma empurrá-lo para o exame por outra via, sem qualquer informação sobre as consequências de um resultado alterado."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "promocao_e_prevencao",
+      "especialidade_secundaria": "comunicacao_clinica",
+      "objeto_conhecimento": "Critérios de rastreamento populacional e decisão compartilhada na detecção precoce do câncer de próstata",
+      "sistema_organico": "genitourinario",
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_10"
+        ],
+        "conteudos": [
+          "enamed_cont_11",
+          "enamed_cont_07"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Medicina da Família e Comunidade sobre solicitar exames com base em evidência e relação risco-benefício e comunicar-se de forma clara e acessível para decisão compartilhada, no eixo de prognóstico e prevenção."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q045",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q045",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "B",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Novo usuário (58 anos, motorista, hipertenso, motivado por campanha de bairro e não pelo diagnóstico de um colega), com detalhamento dos dados negativos que afastam sintomas e fatores de risco. A alternativa correta foi reescrita substituindo a expressão vaga do original ('duvidosos benefícios') pela enumeração concreta dos danos — falso-positivos, biópsias desnecessárias, sobrediagnóstico, sobretratamento com incontinência e disfunção erétil — e pela exigência de registro da escolha. O distrator do rastreamento anual passou a afirmar redução de mortalidade geral, erro conceitual mais preciso e mais discriminativo.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Comunicação de más notícias",
+    "subtema": "Conspiração do silêncio e protocolo SPIKES",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_02",
+      "dcn2025_comp_08"
+    ],
+    "nivel_bloom": "avaliacao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "spikes",
+      "mas_noticias",
+      "autonomia",
+      "conspiracao_do_silencio",
+      "cuidados_paliativos"
+    ],
+    "texto_base": "O médico de família recebe o resultado da endoscopia com biópsia de um paciente de 71 anos que acompanha há oito anos: adenocarcinoma gástrico pouco diferenciado. A tomografia realizada na sequência descreve múltiplos implantes hepáticos. O paciente comparece à consulta acompanhado do filho, que chega alguns minutos antes e pede reservadamente ao médico que não pronuncie a palavra câncer diante do pai, alegando que ele é muito nervoso e não suportaria a notícia. Durante o atendimento, o paciente está lúcido, orientado, sem alterações do exame psíquico, dirige-se ao médico e pergunta espontaneamente se o exame mostrou alguma coisa séria, acrescentando que sempre fez questão de saber tudo o que se passa com a própria saúde.",
+    "enunciado": "À luz do protocolo SPIKES e dos princípios éticos aplicáveis, qual é a conduta mais adequada do médico nessa consulta?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Acolher o pedido do filho e comunicar o diagnóstico apenas a ele, deixando que a família escolha o momento e a forma de contar ao paciente.",
+        "correta": false,
+        "justificativa": "Incorreta. A informação sobre a doença pertence ao paciente, que é plenamente capaz e acaba de manifestar desejo de saber. Transferir essa decisão à família configura a chamada conspiração do silêncio, viola a autonomia e costuma isolar o doente justamente quando ele mais precisa participar das escolhas terapêuticas."
+      },
+      {
+        "letra": "B",
+        "texto": "Expor de imediato, na mesma consulta, o diagnóstico completo, o estadiamento e a expectativa de sobrevida em meses, para que o paciente não seja enganado.",
+        "correta": false,
+        "justificativa": "Incorreta. Informar é dever, mas o protocolo prevê convite e titulação: descarregar diagnóstico, estadiamento e prognóstico numéricos sem verificar quanto a pessoa quer saber naquele momento e sem acolher a reação emocional produz dano evitável e prejudica a adesão ao plano de cuidado."
+      },
+      {
+        "letra": "C",
+        "texto": "Investigar o que o paciente já compreende sobre sua doença e quanto deseja saber, oferecer a informação em etapas e em linguagem acessível, acolher a emoção que surgir e, com o consentimento dele, incluir o filho na conversa e na construção do plano terapêutico.",
+        "correta": true,
+        "justificativa": "Correta. As etapas do SPIKES — preparar o encontro em ambiente reservado, investigar a percepção do paciente, obter seu convite para receber a informação, transmitir o conhecimento de forma gradual e em linguagem simples, acolher as emoções e pactuar estratégia e seguimento — conciliam o direito de ser informado com o direito de não querer saber. Como o paciente é capaz e pergunta espontaneamente, o pedido do filho não pode substituir sua vontade; o filho deve ser acolhido como parte da rede de apoio, e não como intermediário da informação."
+      },
+      {
+        "letra": "D",
+        "texto": "Adiar a conversa e encaminhar o paciente ao oncologista, atribuindo a esse especialista a tarefa de revelar o diagnóstico.",
+        "correta": false,
+        "justificativa": "Incorreta. Transferir a comunicação rompe a longitudinalidade do cuidado construída em oito anos de acompanhamento e retarda decisões sobre tratamento oncológico e cuidados paliativos precoces. O médico que dispõe do resultado tem o dever de comunicá-lo, o que não exclui o encaminhamento simultâneo."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "comunicacao_clinica",
+      "especialidade_secundaria": "cuidados_paliativos",
+      "objeto_conhecimento": "Comunicação de más notícias, autonomia do paciente e manejo do pedido familiar de ocultação do diagnóstico",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_10",
+          "enamed_comp_13"
+        ],
+        "conteudos": [
+          "enamed_cont_07",
+          "enamed_cont_04"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Medicina da Família e Comunidade centrado em habilidades de comunicação com paciente e família e em normas éticas sobre autonomia e informação, na atenção primária como ponto de cuidado longitudinal."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q046",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q046",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "C",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Novo paciente (homem de 71 anos com adenocarcinoma gástrico e implantes hepáticos, acompanhado pelo filho, no lugar de mulher de 67 anos com neoplasia de pâncreas acompanhada pela filha) e acréscimo de dois elementos que tornam o julgamento mais nítido: o vínculo longitudinal de oito anos e a pergunta espontânea do próprio paciente, que caracteriza o convite previsto no protocolo. A alternativa correta explicita as etapas do SPIKES e a reinclusão do familiar mediante consentimento; os distratores foram reescritos do zero e passaram a nomear os erros opostos — ocultar e despejar informação.",
+      "posicao_correta_sorteada": "C",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Indicadores de saúde",
+    "subtema": "Componentes da mortalidade infantil e priorização de intervenções",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_18",
+      "dcn2025_comp_21"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "mortalidade_infantil",
+      "componente_pos_neonatal",
+      "indicadores",
+      "puericultura",
+      "planejamento_em_saude"
+    ],
+    "texto_base": "Um município de 60 mil habitantes registra coeficiente de mortalidade infantil de 26 óbitos por mil nascidos vivos, muito acima da média estadual. Há dez anos, com coeficiente semelhante, o componente neonatal precoce respondia pela maior parte dos óbitos. Desde então foram implantados pré-natal de risco habitual e de alto risco, vinculação da gestante à maternidade de referência, casa da gestante e leitos de cuidados intermediários neonatais. Hoje o componente neonatal, precoce e tardio somados, corresponde a menos de 10% dos óbitos de menores de um ano. A revisão das declarações de óbito do último ano mostra concentração das mortes entre o segundo e o décimo mês de vida, com causas como diarreia com desidratação grave, pneumonia e desnutrição, boa parte delas em crianças com consultas de puericultura em atraso, esquema vacinal incompleto e cujas famílias buscaram atendimento já em fase avançada da doença.",
+    "enunciado": "Qual intervenção deve ser priorizada pelo gestor municipal diante desse perfil atual de mortalidade infantil?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Qualificar o cuidado pós-natal na atenção primária — puericultura com busca ativa de faltosos, apoio ao aleitamento, vigilância do crescimento e da situação vacinal, orientação sobre sinais de gravidade — e organizar o acolhimento com classificação de risco nos serviços que recebem lactentes em demanda espontânea.",
+        "correta": true,
+        "justificativa": "Correta. Com o componente neonatal já reduzido a menos de um décimo dos óbitos, o excesso de mortalidade concentra-se no período pós-neonatal, cujas causas predominantes — diarreia, pneumonia e desnutrição — são classicamente redutíveis por cuidado longitudinal na atenção primária e por acesso oportuno à urgência. Busca ativa de faltosos, apoio à amamentação, vigilância nutricional e vacinal, educação das famílias sobre sinais de alarme e acolhimento com classificação de risco atacam exatamente esse componente e o retardo na procura por atendimento."
+      },
+      {
+        "letra": "B",
+        "texto": "Concentrar os novos investimentos na ampliação do pré-natal de alto risco e na assistência ao parto, componentes que seguem determinando a maior parte dos óbitos infantis nesse município.",
+        "correta": false,
+        "justificativa": "Incorreta. A premissa é falsa: o componente sensível a essas ações já foi reduzido a menos de 10% dos óbitos infantis. Reforçá-lo isoladamente traria ganho marginal e deixaria intocado justamente o componente que hoje responde pela quase totalidade das mortes."
+      },
+      {
+        "letra": "C",
+        "texto": "Considerar que a distribuição atual reproduz o padrão esperado para o país e aguardar novas séries históricas antes de qualquer intervenção específica.",
+        "correta": false,
+        "justificativa": "Incorreta. Predomínio do componente pós-neonatal com causas infecciosas e nutricionais é marcador de iniquidade social e de falha assistencial, não um padrão a ser tolerado. O coeficiente permanece muito acima da média estadual, o que caracteriza problema prioritário e não variação aleatória."
+      },
+      {
+        "letra": "D",
+        "texto": "Assumir que as mortes remanescentes decorrem de malformações congênitas e afecções perinatais não evitáveis, redirecionando os recursos para serviços de reabilitação.",
+        "correta": false,
+        "justificativa": "Incorreta. As causas registradas nas declarações de óbito são diarreia, pneumonia e desnutrição, todas evitáveis por ações de atenção primária, saneamento, segurança alimentar e acesso oportuno. Reabilitação não modifica a mortalidade descrita e o redirecionamento proposto agravaria o problema."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "epidemiologia",
+      "especialidade_secundaria": "puericultura_e_crescimento",
+      "objeto_conhecimento": "Interpretação dos componentes da mortalidade infantil e definição de prioridades de intervenção",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_07",
+          "enamed_comp_08"
+        ],
+        "conteudos": [
+          "enamed_cont_16",
+          "enamed_cont_11"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Saúde Coletiva que exige identificar necessidades de saúde de uma população a partir de indicadores e sistemas de informação e propor plano de intervenção coletiva com ênfase na atenção primária."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q047",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q047",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "E",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Cenário reescrito com dados quantitativos concretos (município de 60 mil habitantes, coeficiente de 26 por mil, componente neonatal abaixo de 10%, causas e faixa etária dos óbitos identificadas na revisão das declarações), o que permite ao candidato deduzir o componente predominante em vez de reconhecê-lo por memória. A alternativa correta, que na origem descrevia genericamente 'identificação de falhas', passou a listar as ações concretas de puericultura, vigilância vacinal e acolhimento com classificação de risco. Todos os distratores foram reescritos, incluindo um que nomeia explicitamente a premissa falsa sobre o componente neonatal.",
+      "posicao_correta_sorteada": "A",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Medicina baseada em evidências",
+    "subtema": "Valor preditivo positivo e dependência da prevalência",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_10",
+      "dcn2025_comp_25"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "valor_preditivo_positivo",
+      "tabela_2x2",
+      "acuracia_diagnostica",
+      "prevalencia",
+      "bioestatistica"
+    ],
+    "texto_base": "Durante uma epidemia, um serviço de saúde avalia um novo teste rápido para o diagnóstico de dengue em pessoas que procuram a unidade com febre iniciada há até cinco dias. Foram incluídos 800 participantes, todos submetidos ao teste rápido e, no mesmo dia, ao exame de referência (RT-PCR). Os resultados observados foram os seguintes:\n\n- Teste rápido positivo com RT-PCR positiva: 160 participantes\n- Teste rápido positivo com RT-PCR negativa: 40 participantes\n- Teste rápido negativo com RT-PCR positiva: 40 participantes\n- Teste rápido negativo com RT-PCR negativa: 560 participantes\n\nTotais: 200 testes rápidos positivos e 600 negativos; 200 exames de referência positivos e 600 negativos, somando os 800 participantes.",
+    "enunciado": "Com base nesses dados, qual é o valor preditivo positivo do teste rápido nessa amostra e qual a interpretação correta desse resultado?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "80%, significando que 80% das pessoas com dengue confirmada pelo exame de referência apresentaram teste rápido positivo.",
+        "correta": false,
+        "justificativa": "Incorreta. O número está certo, mas a leitura descreve a sensibilidade, que parte dos doentes para chegar ao resultado do teste. O valor preditivo faz o caminho inverso: parte do resultado do teste para estimar a probabilidade de doença, que é a pergunta que o clínico realmente enfrenta."
+      },
+      {
+        "letra": "B",
+        "texto": "Aproximadamente 93%, refletindo a proporção total de classificações corretas entre todos os participantes examinados.",
+        "correta": false,
+        "justificativa": "Incorreta. O valor de 93% corresponde, nesta tabela, ao valor preditivo negativo (560 entre 600 testes negativos) e coincide numericamente com a especificidade (560 entre 600 sem a doença); nenhum dos dois responde à pergunta formulada, e a acurácia global seria outro cálculo ainda."
+      },
+      {
+        "letra": "C",
+        "texto": "Não é possível calcular o valor preditivo positivo, porque a prevalência da doença na população não foi informada.",
+        "correta": false,
+        "justificativa": "Incorreta. A prevalência está contida na própria tabela: 200 exames de referência positivos entre 800 participantes, ou seja, 25%. Os valores preditivos são obtidos diretamente das linhas de resultado do teste, sem necessidade de qualquer dado externo."
+      },
+      {
+        "letra": "D",
+        "texto": "80%, significando que, entre as pessoas com teste rápido positivo, 80% de fato têm dengue; como esse valor depende da prevalência, ele cairá se o mesmo teste for aplicado fora do período epidêmico.",
+        "correta": true,
+        "justificativa": "Correta. O valor preditivo positivo é a razão entre verdadeiros positivos e o total de resultados positivos: 160 divididos por 200, isto é, 80%. A leitura parte do resultado para a doença e responde à pergunta clínica de quanto confiar em um teste positivo. Como sensibilidade e especificidade permanecem estáveis, mas o preditivo positivo depende fortemente da probabilidade pré-teste, o mesmo teste aplicado em período de baixa transmissão produzirá proporção muito maior de falso-positivos."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "bioestatistica",
+      "especialidade_secundaria": "epidemiologia",
+      "objeto_conhecimento": "Cálculo e interpretação de valores preditivos a partir de tabela 2x2 e influência da prevalência",
+      "sistema_organico": null,
+      "contexto_atencao": "nao_aplicavel",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_03",
+          "enamed_comp_14"
+        ],
+        "conteudos": [
+          "enamed_cont_20",
+          "enamed_cont_16"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Saúde Coletiva sobre metodologia científica e análise crítica de medidas de acurácia diagnóstica, aplicado à decisão de solicitar e interpretar exame complementar em cenário de atenção primária durante epidemia."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q048",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q048",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": [
+          "Tabela apresentada em texto corrido, com formatação degradada."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "No item de origem a tabela 2x2 chegava em texto corrido, com cabeçalhos embaralhados e leitura ambígua. Aqui as quatro caselas são apresentadas em lista explícita, uma por linha, com os totais de linha e de coluna e o total geral, de modo que o cálculo não depende de reconstruir uma formatação perdida.",
+      "nota_adaptacao": "Trocou-se a condição (dengue em período epidêmico, no lugar de tuberculose pulmonar), o padrão de referência (RT-PCR), o tamanho amostral (800) e todos os números, resultando em valor preditivo positivo de 80% e prevalência de 25%. Mantiveram-se dois distratores com o mesmo número da resposta certa e interpretação errada, que é o mecanismo discriminativo do item original, e acrescentou-se à chave a consequência prática da dependência da prevalência fora do período epidêmico.",
+      "posicao_correta_sorteada": "D",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Determinantes sociais da saúde",
+    "subtema": "Modelo em camadas da CNDSS aplicado a caso da atenção primária",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_15",
+      "dcn2025_comp_11"
+    ],
+    "nivel_bloom": "analise",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "determinantes_sociais",
+      "cndss",
+      "intersetorialidade",
+      "inseguranca_alimentar",
+      "vulnerabilidade"
+    ],
+    "texto_base": "Mulher de 45 anos é acompanhada pela equipe de Saúde da Família por hipertensão arterial e obesidade. Trabalha como diarista sem carteira assinada em três casas diferentes e perde a diária sempre que precisa comparecer à unidade no horário de funcionamento. Estudou até o quinto ano do ensino fundamental e tem dificuldade para ler as orientações escritas da receita. Mora em bairro sem coleta de esgoto e sem área de lazer, onde não há feira nem hortifrúti, e faz as compras em um mercadinho de esquina no qual predominam alimentos ultraprocessados. Relata que, em algumas semanas do mês, reduz as próprias refeições para garantir a comida dos netos. É a principal cuidadora da mãe acamada e diz não ter com quem dividir essa tarefa nem tempo para caminhar.",
+    "enunciado": "Na perspectiva do modelo em camadas de determinantes sociais da saúde adotado pela CNDSS, como a equipe deve interpretar esse conjunto de informações?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O núcleo do problema é comportamental — alimentação inadequada e sedentarismo — de modo que orientação nutricional individual e prescrição de exercício resolveriam o caso.",
+        "correta": false,
+        "justificativa": "Incorreta. Reduzir o quadro a escolhas individuais ignora que a comida disponível no bairro, o tempo livre e o espaço para atividade física são condicionados pelas camadas mais externas do modelo; a orientação isolada tende a fracassar e a culpabilizar a usuária pelo que ela não controla."
+      },
+      {
+        "letra": "B",
+        "texto": "As informações descrevem determinantes situados em camadas distintas — características e comportamentos individuais, redes sociais e de apoio, condições de vida e de trabalho e o contexto socioeconômico, cultural e ambiental mais amplo — que se potencializam mutuamente e ampliam a vulnerabilidade, exigindo cuidado clínico somado a ação intersetorial.",
+        "correta": true,
+        "justificativa": "Correta. O modelo adotado pela Comissão Nacional sobre os Determinantes Sociais da Saúde organiza-se em camadas, do centro para a periferia: características individuais, estilos de vida, redes sociais e comunitárias, condições de vida e trabalho e, na camada mais externa, as condições socioeconômicas, culturais e ambientais gerais. O caso reúne elementos de todas elas — informalidade do trabalho, baixa escolaridade, ausência de saneamento e de equipamentos urbanos, deserto alimentar, insegurança alimentar e sobrecarga de cuidado — que se reforçam entre si. A resposta adequada combina o cuidado clínico longitudinal com articulação intersetorial e uso do território."
+      },
+      {
+        "letra": "C",
+        "texto": "Trata-se apenas de determinantes proximais e de estilo de vida, sem participação relevante de políticas públicas ou de estruturas sociais na produção desse adoecimento.",
+        "correta": false,
+        "justificativa": "Incorreta. Ausência de rede de esgoto, inexistência de equipamentos urbanos de lazer e de comércio de alimentos in natura e a falta de proteção trabalhista são determinantes estruturais explicitados na vinheta e ocupam as camadas mais externas do modelo, sendo indissociáveis do adoecimento descrito."
+      },
+      {
+        "letra": "D",
+        "texto": "Os aspectos sociais escapam ao escopo da equipe de saúde e devem ser integralmente transferidos à assistência social, cabendo à médica apenas o ajuste dos anti-hipertensivos.",
+        "correta": false,
+        "justificativa": "Incorreta. Reconhecer e enfrentar os determinantes sociais é atribuição da equipe de atenção primária, que responde pelo território e coordena o cuidado. A articulação com assistência social, escola e segurança alimentar é trabalho conjunto e intersetorial, não uma delegação que exima a equipe de saúde."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "abordagem_familiar_e_comunitaria",
+      "especialidade_secundaria": "saude_do_trabalhador",
+      "objeto_conhecimento": "Modelo em camadas dos determinantes sociais da saúde e implicações para a abordagem intersetorial na atenção primária",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_05",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_07"
+        ],
+        "conteudos": [
+          "enamed_cont_03",
+          "enamed_cont_13"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Medicina da Família e Comunidade sobre determinantes sociais, culturais e ambientais do processo saúde-doença-cuidado, exigindo respeito à singularidade da pessoa e proposição de intervenção coletiva e intersetorial."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q049",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q049",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "E",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "alta",
+        "defeitos_do_item_original": null,
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": null,
+      "nota_adaptacao": "Trocou-se por completo a pessoa da vinheta: de gestante adolescente de 16 anos sem pré-natal para mulher de 45 anos, trabalhadora doméstica informal, hipertensa e obesa, cuidadora de mãe acamada. Os determinantes foram distribuídos deliberadamente pelas quatro camadas do modelo (baixa escolaridade e letramento, rede de apoio ausente, informalidade e perda de renda ao buscar cuidado, ausência de saneamento e deserto alimentar), o que permite julgar a alternativa correta pela leitura do caso e não por reconhecimento de fórmula. Alternativas reescritas do zero.",
+      "posicao_correta_sorteada": "B",
+      "requer_imagem": false,
+      "imagem_status": "nao_requer"
+    }
+  },
+  {
+    "tipo": "questao",
+    "fase_alvo": 12,
+    "uc_slug": "med_unidavi_f12_uc02_saude_familia_comunidade",
+    "tema": "Políticas nacionais para populações vulnerabilizadas",
+    "subtema": "PNASPI, PNSIPN e Política Nacional de Saúde Integral LGBT",
+    "sp_referencia": null,
+    "cenario_origem": [
+      "preparacao_enamed"
+    ],
+    "competencia_dcn_2025": [
+      "dcn2025_comp_11",
+      "dcn2025_comp_16"
+    ],
+    "nivel_bloom": "compreensao",
+    "area_clinica": "medicina_familia_comunidade",
+    "dificuldade_editorial": "medio",
+    "tags": [
+      "politicas_de_equidade",
+      "dsei",
+      "populacao_negra",
+      "nome_social",
+      "quesito_raca_cor"
+    ],
+    "texto_base": "Uma médica de família assume equipe em território que reúne uma comunidade quilombola certificada, uma aldeia indígena e um número expressivo de usuários travestis e transexuais. Ao planejar a educação permanente da equipe, ela retoma as políticas nacionais dirigidas a essas populações para orientar mudanças no acolhimento, no preenchimento dos registros e na oferta de ações programáticas, e apresenta o plano na reunião com a coordenação municipal de atenção primária.",
+    "enunciado": "Qual afirmativa sobre essas políticas nacionais está correta e pode fundamentar o plano de trabalho proposto pela equipe?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A política nacional dirigida aos povos indígenas se operacionaliza por intermédio dos Distritos Sanitários Especiais Indígenas, cujos limites são definidos por critérios epidemiológicos, geográficos e etnográficos e podem não coincidir com as divisões de estados e municípios.",
+        "correta": true,
+        "justificativa": "Correta. O subsistema de atenção à saúde indígena está organizado em Distritos Sanitários Especiais Indígenas, unidades de gestão descentralizada cuja delimitação considera a distribuição das populações e terras indígenas, o perfil epidemiológico, as vias de acesso e as relações étnicas e culturais entre os povos. Por isso um mesmo distrito pode abranger áreas de mais de um município ou estado, e a equipe precisa articular-se com essa estrutura em vez de tratar a aldeia como território municipal comum."
+      },
+      {
+        "letra": "B",
+        "texto": "A política nacional dirigida à saúde integral da população negra prevê a construção de uma rede paralela de unidades exclusivas para pessoas negras e quilombolas, separada da rede básica do SUS.",
+        "correta": false,
+        "justificativa": "Incorreta. Essa política atua qualificando a rede já existente: enfrentamento do racismo institucional, formação dos profissionais, produção de informação desagregada e atenção a agravos de maior prevalência, como a doença falciforme. Serviços segregados contrariariam a universalidade e a integralidade do sistema."
+      },
+      {
+        "letra": "C",
+        "texto": "O uso do nome social nos prontuários, cartões e sistemas de informação do SUS depende de prévia retificação do registro civil e de autorização judicial.",
+        "correta": false,
+        "justificativa": "Incorreta. O direito ao nome social é assegurado a qualquer usuário independentemente de alteração de documentos ou de decisão judicial: ele deve ser registrado no cadastro e nos instrumentos de identificação e utilizado no acolhimento e na chamada dos pacientes, sendo seu desrespeito uma barreira de acesso reconhecida."
+      },
+      {
+        "letra": "D",
+        "texto": "O preenchimento do quesito raça/cor nos sistemas de informação em saúde é facultativo, por se tratar de dado sensível cuja coleta a legislação de proteção de dados desaconselha.",
+        "correta": false,
+        "justificativa": "Incorreta. O quesito raça/cor é de preenchimento obrigatório e autodeclarado nos sistemas de informação em saúde. Sem ele não se mede a desigualdade racial em morbidade, mortalidade e acesso, e a própria política de equidade fica sem instrumento de monitoramento; a legislação de proteção de dados regula o tratamento da informação, não veda sua coleta em saúde pública."
+      }
+    ],
+    "referencia": "Item original da MED-UNIDAVI, escrito sobre o mesmo objeto de conhecimento de questão do Simulado Nacional ENAMED 2025 — Estratégia MED. Texto não reproduzido.",
+    "fonte_geracao": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+    "status_curadoria": "pendente",
+    "disponibilidade": "disponivel",
+    "meses_desde_ultimo_uso": null,
+    "versao": 1,
+    "uso_em_avaliacoes": {
+      "total_avaliativo": 0,
+      "ultima_avaliacao_em": null,
+      "historico": []
+    },
+    "performance": {
+      "n_respostas_treino": 0,
+      "n_respostas_avaliativo": 0,
+      "taxa_acerto_treino": null,
+      "taxa_acerto_avaliativo": null,
+      "dificuldade_tri_b": null,
+      "discriminacao_tri_a": null
+    },
+    "auditoria": {
+      "criada_por": "adequacao-enamed — item adaptado (reescrito) a partir de simulado de terceiro",
+      "criada_em": "2026-08-02T00:00:00Z",
+      "curada_por": null,
+      "curada_em": null,
+      "edicoes": []
+    },
+    "classificacao_fina": {
+      "especialidade": "politicas_publicas_e_sus",
+      "especialidade_secundaria": "abordagem_familiar_e_comunitaria",
+      "objeto_conhecimento": "Políticas nacionais de equidade em saúde para povos indígenas, população negra e população LGBT",
+      "sistema_organico": null,
+      "contexto_atencao": "atencao_primaria",
+      "conteudo_declarado_origem": null,
+      "autor_declarado_origem": null,
+      "matriz_enamed_478_2025": {
+        "area": "enamed_area_07",
+        "competencias": [
+          "enamed_comp_01",
+          "enamed_comp_09"
+        ],
+        "conteudos": [
+          "enamed_cont_05",
+          "enamed_cont_14"
+        ],
+        "cenario": "enamed_cenario_01",
+        "justificativa": "Item de Saúde Coletiva sobre respeito à singularidade e às diversidades étnico-racial e de identidade de gênero e sobre identificar e promover as políticas do SUS voltadas à equidade, no cenário da atenção primária e seu território."
+      }
+    },
+    "_proveniencia": {
+      "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)",
+      "id_origem": "adap_simulado_nacional_enamed2025_q050",
+      "questao_original": null,
+      "item_adaptado": true,
+      "inspirada_em": {
+        "id_origem": "simulado_nacional_enamed2025_q050",
+        "fonte": "Simulado Nacional ENAMED 2025 — Estratégia MED",
+        "chave_por_consenso": "A",
+        "consenso": "3/3",
+        "confianca_minima_juizes": "media",
+        "defeitos_do_item_original": [
+          "A afirmativa III é defensável como correta em leitura menos rigorosa, o que tornaria B e C também elegíveis — item com chave dependente de nuance de redação.",
+          "A afirmativa III (uso do nome social) também é substancialmente correta, de modo que a chave depende de leitura restritiva do verbo 'encoraja/opção'; a resposta só se sustenta por eliminação.",
+          "Afirmativa III de redacao ambigua; se lida como verdadeira, A e B se tornariam ambas defensaveis."
+        ],
+        "aviso": "Sem gabarito oficial. A resposta do item de origem foi reconstruída por consenso de três juízes independentes e serviu apenas para orientar o conteúdo; o item aqui é novo e sua chave é a do item novo."
+      },
+      "defeito_corrigido_na_adaptacao": "O item de origem tinha chave dependente de uma afirmativa ambígua sobre nome social ('encoraja, respeitando autonomia, à opção de utilização'), redação que tornava mais de uma alternativa defensável e comprometia o gabarito. O item novo abandona o formato de afirmativas somadas e converte o nome social em alternativa de conteúdo inequivocamente falso — a exigência de retificação de registro civil e autorização judicial —, eliminando a duplicidade de resposta.",
+      "nota_adaptacao": "Vinheta reescrita e encurtada; o item passou de julgamento de cinco afirmativas com combinação de alternativas para melhor resposta única. Cada distrator foi construído sobre um erro documentável e verificável (rede paralela para população negra, condicionamento do nome social, facultatividade do quesito raça/cor), e a chave manteve o objeto de conhecimento do original: a organização do subsistema de atenção à saúde indígena em Distritos Sanitários Especiais Indígenas com delimitação não administrativa.",
+      "posicao_correta_sorteada": "A",
       "requer_imagem": false,
       "imagem_status": "nao_requer"
     }

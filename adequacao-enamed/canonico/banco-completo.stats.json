@@ -1,6 +1,8 @@
 {
-  "total": 770,
+  "total": 914,
   "por_fonte": {
+    "Simulado ENAMED 2026.1 — Faculdade Pernambucana de Saúde (FPS) (adaptado)": 97,
+    "Simulado Nacional ENAMED 2025 — Estratégia MED (adaptado)": 47,
     "ENAMED 2025 — Caderno 01": 90,
     "Questoes CLM (TPMed 2023 - Clinica Medica)": 87,
     "Clinica Medica - questoes selecionadas - NAPISUL 2 2026": 86,
@@ -13,46 +15,49 @@
     "TPMed 2025 (22/05) — caderno comentado": 120
   },
   "por_area": {
-    "clinica_medica": 216,
-    "urgencia_emergencia": 79,
-    "ginecologia_obstetricia": 97,
-    "medicina_familia_comunidade": 171,
-    "saude_mental": 29,
-    "pediatria": 86,
-    "cirurgia": 48,
+    "pediatria": 119,
+    "medicina_familia_comunidade": 191,
+    "saude_mental": 34,
+    "cirurgia": 76,
+    "urgencia_emergencia": 90,
+    "clinica_medica": 239,
+    "ginecologia_obstetricia": 121,
     "ciclo_basico": 44
   },
   "por_fase": {
     "2": 44,
-    "6": 29,
-    "8": 79,
-    "9": 86,
-    "10": 97,
-    "11": 48,
-    "12": 387
+    "6": 34,
+    "8": 90,
+    "9": 119,
+    "10": 121,
+    "11": 76,
+    "12": 430
   },
   "por_dificuldade": {
-    "medio": 475,
-    "dificil": 113,
-    "facil": 182
+    "medio": 572,
+    "facil": 204,
+    "dificil": 138
   },
   "por_bloom": {
-    "aplicacao": 288,
-    "analise": 238,
-    "compreensao": 133,
-    "avaliacao": 25,
-    "conhecimento": 86
+    "analise": 287,
+    "aplicacao": 366,
+    "compreensao": 143,
+    "avaliacao": 31,
+    "conhecimento": 87
   },
   "posicao_gabarito": {
-    "A": 186,
-    "B": 195,
-    "C": 189,
-    "D": 200
+    "A": 224,
+    "B": 234,
+    "C": 226,
+    "D": 230
   },
   "convertidas_5_para_4": 252,
   "posicao_redistribuida": 175,
   "com_imagem": 18,
   "com_defeito_sinalizado": 249,
   "citam_figura_ausente": 6,
-  "com_justificativa_oficial_na_origem": 410
+  "com_justificativa_oficial_na_origem": 410,
+  "itens_adaptados_autorais": 144,
+  "com_gabarito_oficial_da_origem": 770,
+  "adaptados_que_corrigiram_defeito": 47
 }
