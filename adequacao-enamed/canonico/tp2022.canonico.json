@@ -4688,8 +4688,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "dermatologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
       "objeto_conhecimento": "Hidratação cutânea e corticoide tópico na dermatite atópica",
       "sistema_organico": "tegumentar",
       "contexto_atencao": "atencao_primaria",
@@ -4936,8 +4936,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "endocrinologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
       "objeto_conhecimento": "Virilização periférica na puberdade precoce heterossexual",
       "sistema_organico": "endocrino_metabolico",
       "contexto_atencao": "ambulatorial_especializado",
@@ -6681,7 +6681,7 @@
     },
     "classificacao_fina": {
       "especialidade": "neonatologia",
-      "especialidade_secundaria": null,
+      "especialidade_secundaria": "hematologia_e_oncologia_pediatrica",
       "objeto_conhecimento": "Hemofilia A como causa de hematomas no recém-nascido",
       "sistema_organico": "hematopoetico",
       "contexto_atencao": "internacao_hospitalar",

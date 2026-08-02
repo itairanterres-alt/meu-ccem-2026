@@ -2863,8 +2863,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "infectologia_pediatrica",
-      "especialidade_secundaria": "urgencia_pediatrica",
+      "especialidade": "nefrologia_pediatrica",
+      "especialidade_secundaria": "infectologia_pediatrica",
       "objeto_conhecimento": "Queda do C3 na glomerulonefrite pós-estreptocócica",
       "sistema_organico": "geniturinario",
       "contexto_atencao": "ambulatorial_especializado",
@@ -3106,7 +3106,7 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
+      "especialidade": "endocrinologia_pediatrica",
       "especialidade_secundaria": "adolescencia",
       "objeto_conhecimento": "Leptina na ativação do eixo hipotálamo-hipófise-gonadal",
       "sistema_organico": "endocrino_metabolico",
@@ -3838,8 +3838,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "infectologia_pediatrica",
-      "especialidade_secundaria": null,
+      "especialidade": "nefrologia_pediatrica",
+      "especialidade_secundaria": "infectologia_pediatrica",
       "objeto_conhecimento": "Ultrassonografia após a primeira ITU febril do lactente",
       "sistema_organico": "geniturinario",
       "contexto_atencao": "ambulatorial_especializado",
@@ -4565,7 +4565,7 @@
     },
     "classificacao_fina": {
       "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": null,
+      "especialidade_secundaria": "endocrinologia_pediatrica",
       "objeto_conhecimento": "pH e bicarbonato no diagnóstico da cetoacidose diabética",
       "sistema_organico": "endocrino_metabolico",
       "contexto_atencao": "urgencia_emergencia",
@@ -4687,8 +4687,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "adolescencia",
-      "especialidade_secundaria": null,
+      "especialidade": "endocrinologia_pediatrica",
+      "especialidade_secundaria": "adolescencia",
       "objeto_conhecimento": "Doença de Graves como causa de tireotoxicose na adolescência",
       "sistema_organico": "endocrino_metabolico",
       "contexto_atencao": "ambulatorial_especializado",

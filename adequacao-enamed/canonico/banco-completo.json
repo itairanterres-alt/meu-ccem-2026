@@ -385,7 +385,7 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "nefrologia",
+      "especialidade": "nefrologia_pediatrica",
       "especialidade_secundaria": "infectologia_pediatrica",
       "objeto_conhecimento": "Perfil laboratorial da síndrome nefrítica pós-estreptocócica, com ênfase no consumo transitório de C3",
       "sistema_organico": "renal_urinario",
@@ -12810,7 +12810,7 @@
     },
     "classificacao_fina": {
       "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": "endocrinologia",
+      "especialidade_secundaria": "endocrinologia_pediatrica",
       "objeto_conhecimento": "Diferenciação entre pubarca precoce isolada, puberdade precoce central e periférica",
       "sistema_organico": "sistema endócrino",
       "contexto_atencao": "atencao_primaria",
@@ -13115,8 +13115,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": "reumatologia",
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
       "objeto_conhecimento": "Vasculite por IgA (púrpura de Henoch-Schönlein): critérios clínicos, diagnóstico diferencial e complicações",
       "sistema_organico": "sistema vascular e renal",
       "contexto_atencao": "urgencia_emergencia",
@@ -17906,7 +17906,7 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "infectologia_pediatrica",
+      "especialidade": "reumatologia_pediatrica",
       "especialidade_secundaria": "cardiologia_pediatrica",
       "objeto_conhecimento": "Profilaxia secundária da febre reumática com penicilina benzatina",
       "sistema_organico": "cardiovascular",
@@ -30743,7 +30743,7 @@
     },
     "classificacao_fina": {
       "especialidade": "infectologia_pediatrica",
-      "especialidade_secundaria": null,
+      "especialidade_secundaria": "dermatologia_pediatrica",
       "objeto_conhecimento": "Impetigo crostoso e risco de glomerulonefrite pós-estreptocócica",
       "sistema_organico": "tegumentar",
       "contexto_atencao": "atencao_primaria",
@@ -45802,8 +45802,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
       "objeto_conhecimento": "Acometimento renal na vasculite por IgA",
       "sistema_organico": "imune",
       "contexto_atencao": "ambulatorial_especializado",
@@ -46622,7 +46622,7 @@
     },
     "classificacao_fina": {
       "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": "infectologia_pediatrica",
+      "especialidade_secundaria": "hematologia_e_oncologia_pediatrica",
       "objeto_conhecimento": "Hemoculturas de cateter e periférica na neutropenia febril",
       "sistema_organico": "hematopoetico",
       "contexto_atencao": "urgencia_emergencia",
@@ -54304,7 +54304,7 @@
     },
     "classificacao_fina": {
       "especialidade": "neonatologia",
-      "especialidade_secundaria": "puericultura_e_crescimento",
+      "especialidade_secundaria": "dermatologia_pediatrica",
       "objeto_conhecimento": "Eritema tóxico neonatal e seus diagnósticos diferenciais",
       "sistema_organico": "tegumentar",
       "contexto_atencao": "atencao_primaria",
@@ -55766,8 +55766,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "cardiologia_pediatrica",
-      "especialidade_secundaria": "infectologia_pediatrica",
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "cardiologia_pediatrica",
       "objeto_conhecimento": "Aneurisma coronariano na doença de Kawasaki",
       "sistema_organico": "cardiovascular",
       "contexto_atencao": "urgencia_emergencia",
@@ -58244,8 +58244,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "dermatologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
       "objeto_conhecimento": "Distribuição das lesões no diagnóstico da dermatite atópica",
       "sistema_organico": "tegumentar",
       "contexto_atencao": "atencao_primaria",
@@ -58755,8 +58755,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": null,
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
       "objeto_conhecimento": "Diagnóstico da vasculite por IgA com enterorragia",
       "sistema_organico": "imune",
       "contexto_atencao": "terapia_intensiva",
@@ -73365,8 +73365,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "dermatologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
       "objeto_conhecimento": "Hidratação cutânea e corticoide tópico na dermatite atópica",
       "sistema_organico": "tegumentar",
       "contexto_atencao": "atencao_primaria",
@@ -73567,8 +73567,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "endocrinologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
       "objeto_conhecimento": "Virilização periférica na puberdade precoce heterossexual",
       "sistema_organico": "endocrino_metabolico",
       "contexto_atencao": "ambulatorial_especializado",
@@ -74990,7 +74990,7 @@
     },
     "classificacao_fina": {
       "especialidade": "neonatologia",
-      "especialidade_secundaria": null,
+      "especialidade_secundaria": "hematologia_e_oncologia_pediatrica",
       "objeto_conhecimento": "Hemofilia A como causa de hematomas no recém-nascido",
       "sistema_organico": "hematopoetico",
       "contexto_atencao": "internacao_hospitalar",
@@ -83594,8 +83594,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "infectologia_pediatrica",
-      "especialidade_secundaria": "urgencia_pediatrica",
+      "especialidade": "nefrologia_pediatrica",
+      "especialidade_secundaria": "infectologia_pediatrica",
       "objeto_conhecimento": "Queda do C3 na glomerulonefrite pós-estreptocócica",
       "sistema_organico": "geniturinario",
       "contexto_atencao": "ambulatorial_especializado",
@@ -83797,7 +83797,7 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
+      "especialidade": "endocrinologia_pediatrica",
       "especialidade_secundaria": "adolescencia",
       "objeto_conhecimento": "Leptina na ativação do eixo hipotálamo-hipófise-gonadal",
       "sistema_organico": "endocrino_metabolico",
@@ -84409,8 +84409,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "infectologia_pediatrica",
-      "especialidade_secundaria": null,
+      "especialidade": "nefrologia_pediatrica",
+      "especialidade_secundaria": "infectologia_pediatrica",
       "objeto_conhecimento": "Ultrassonografia após a primeira ITU febril do lactente",
       "sistema_organico": "geniturinario",
       "contexto_atencao": "ambulatorial_especializado",
@@ -85016,7 +85016,7 @@
     },
     "classificacao_fina": {
       "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": null,
+      "especialidade_secundaria": "endocrinologia_pediatrica",
       "objeto_conhecimento": "pH e bicarbonato no diagnóstico da cetoacidose diabética",
       "sistema_organico": "endocrino_metabolico",
       "contexto_atencao": "urgencia_emergencia",
@@ -85118,8 +85118,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "adolescencia",
-      "especialidade_secundaria": null,
+      "especialidade": "endocrinologia_pediatrica",
+      "especialidade_secundaria": "adolescencia",
       "objeto_conhecimento": "Doença de Graves como causa de tireotoxicose na adolescência",
       "sistema_organico": "endocrino_metabolico",
       "contexto_atencao": "ambulatorial_especializado",

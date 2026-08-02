@@ -449,7 +449,7 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "nefrologia",
+      "especialidade": "nefrologia_pediatrica",
       "especialidade_secundaria": "infectologia_pediatrica",
       "objeto_conhecimento": "Perfil laboratorial da síndrome nefrítica pós-estreptocócica, com ênfase no consumo transitório de C3",
       "sistema_organico": "renal_urinario",
@@ -15441,7 +15441,7 @@
     },
     "classificacao_fina": {
       "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": "endocrinologia",
+      "especialidade_secundaria": "endocrinologia_pediatrica",
       "objeto_conhecimento": "Diferenciação entre pubarca precoce isolada, puberdade precoce central e periférica",
       "sistema_organico": "sistema endócrino",
       "contexto_atencao": "atencao_primaria",
@@ -15813,8 +15813,8 @@
       "edicoes": []
     },
     "classificacao_fina": {
-      "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": "reumatologia",
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
       "objeto_conhecimento": "Vasculite por IgA (púrpura de Henoch-Schönlein): critérios clínicos, diagnóstico diferencial e complicações",
       "sistema_organico": "sistema vascular e renal",
       "contexto_atencao": "urgencia_emergencia",

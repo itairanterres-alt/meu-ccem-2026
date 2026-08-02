@@ -4918,8 +4918,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
       "objeto_conhecimento": "Acometimento renal na vasculite por IgA",
       "sistema_organico": "imune",
       "contexto_atencao": "ambulatorial_especializado",
@@ -5898,7 +5898,7 @@
     },
     "classificacao_fina": {
       "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": "infectologia_pediatrica",
+      "especialidade_secundaria": "hematologia_e_oncologia_pediatrica",
       "objeto_conhecimento": "Hemoculturas de cateter e periférica na neutropenia febril",
       "sistema_organico": "hematopoetico",
       "contexto_atencao": "urgencia_emergencia",
@@ -15060,7 +15060,7 @@
     },
     "classificacao_fina": {
       "especialidade": "neonatologia",
-      "especialidade_secundaria": "puericultura_e_crescimento",
+      "especialidade_secundaria": "dermatologia_pediatrica",
       "objeto_conhecimento": "Eritema tóxico neonatal e seus diagnósticos diferenciais",
       "sistema_organico": "tegumentar",
       "contexto_atencao": "atencao_primaria",
@@ -16802,8 +16802,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "cardiologia_pediatrica",
-      "especialidade_secundaria": "infectologia_pediatrica",
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "cardiologia_pediatrica",
       "objeto_conhecimento": "Aneurisma coronariano na doença de Kawasaki",
       "sistema_organico": "cardiovascular",
       "contexto_atencao": "urgencia_emergencia",
@@ -19760,8 +19760,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "puericultura_e_crescimento",
-      "especialidade_secundaria": null,
+      "especialidade": "dermatologia_pediatrica",
+      "especialidade_secundaria": "puericultura_e_crescimento",
       "objeto_conhecimento": "Distribuição das lesões no diagnóstico da dermatite atópica",
       "sistema_organico": "tegumentar",
       "contexto_atencao": "atencao_primaria",
@@ -20371,8 +20371,8 @@
       "requer_imagem": false
     },
     "classificacao_fina": {
-      "especialidade": "urgencia_pediatrica",
-      "especialidade_secundaria": null,
+      "especialidade": "reumatologia_pediatrica",
+      "especialidade_secundaria": "urgencia_pediatrica",
       "objeto_conhecimento": "Diagnóstico da vasculite por IgA com enterorragia",
       "sistema_organico": "imune",
       "contexto_atencao": "terapia_intensiva",
