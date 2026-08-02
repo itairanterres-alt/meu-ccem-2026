@@ -1,0 +1,584 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unidavi.edu.br/schemas/questao-med-unidavi-2026-1.json",
+  "title": "Questão MED-UNIDAVI",
+  "description": "Schema canônico para questões de múltipla escolha geradas pelo agente Davi (davi-questoes-enamed) e curadas no ecossistema MED-UNIDAVI. Versão 2026.1 (v3.1), alinhada à taxonomia 2026.1 e às 27 competências do Art. 8º da Res. CNE/CES nº 3/2025 (DCN 2025). Inclui campos opcionais para vínculo com Roteiro Morfofuncional (fases 1-5 apenas), imagens anexadas (referências ao Banco de Imagens, com alt_text obrigatório por acessibilidade), e cenário pedagógico de origem/destino. v3.1 adiciona pattern ao sp_referencia para consistência com os demais padrões de referência cruzada.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "tipo",
+    "fase_alvo",
+    "uc_slug",
+    "tema",
+    "competencia_dcn_2025",
+    "nivel_bloom",
+    "area_clinica",
+    "dificuldade_editorial",
+    "enunciado",
+    "alternativas",
+    "fonte_geracao",
+    "status_curadoria",
+    "versao",
+    "uso_em_avaliacoes",
+    "performance",
+    "auditoria"
+  ],
+  "properties": {
+    "tipo": {
+      "const": "questao",
+      "description": "Sempre 'questao' para distinguir de flashcards e outros tipos de item."
+    },
+    "fase_alvo": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12,
+      "description": "Fase do curso (1-12) à qual a questão se destina."
+    },
+    "uc_slug": {
+      "type": "string",
+      "pattern": "^med_unidavi_f(0[1-9]|1[0-2])_uc(0[1-9]|10)_[a-z_]+$",
+      "description": "Slug canônico da UC, conforme taxonomia_med_unidavi_2026_1.json."
+    },
+    "tema": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200,
+      "description": "Tema clínico/conceitual principal abordado."
+    },
+    "subtema": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 200,
+      "description": "Recorte mais fino dentro do tema (opcional)."
+    },
+    "sp_referencia": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^med_unidavi_f(0[1-9]|1[0-2])_uc(0[1-9]|10)_sp(0[1-9]|[1-9][0-9])$",
+      "description": "Slug da SP (Situação-Problema) específica, quando a questão se vincula a uma SP do Manual Docente. Padrão: med_unidavi_fXX_ucYY_spZZ (ex: med_unidavi_f01_uc02_sp03). Pattern aceita f01-f12, uc01-uc10, sp01-sp99. Análogo ao roteiro_morfofuncional_referencia, mas sem restrição de fase (SPs existem em todas as fases com PBL — fases 1 a 8)."
+    },
+    "roteiro_morfofuncional_referencia": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^med_unidavi_f0[1-5]_uc(0[1-9]|10)_morfo(0[1-9]|[1-9][0-9])$",
+      "description": "Slug do Roteiro Morfofuncional ao qual a questão se vincula, quando aplicável. Análogo a sp_referencia, mas para o componente Morfofuncional. Padrão: med_unidavi_fXX_ucYY_morfoZZ. ATENÇÃO: Morfofuncional é cenário curricular APENAS das fases 1 a 5. Pattern do regex bloqueia f06+ por design. O nome descritivo do roteiro (ex: 'Membrana plasmática e transporte celular') fica em campo separado da entidade Roteiro Morfofuncional, não aqui."
+    },
+    "cenario_origem": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "sessao_tutorial",
+          "conferencia",
+          "tbl",
+          "cbl",
+          "ccbl",
+          "morfofuncional",
+          "habilidades_profissionais",
+          "iesc",
+          "simulacao_realistica",
+          "osce",
+          "checkpoint_pre_internato",
+          "apc",
+          "jogo_serio",
+          "seminario",
+          "preparacao_enamed",
+          "treino_livre",
+          "nao_especificado"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "default": [
+        "nao_especificado"
+      ],
+      "description": "Cenário(s) pedagógico(s) de origem ou destino intencional da questão. Diferente de uso_em_avaliacoes: este campo registra a INTENÇÃO pedagógica (onde a questão se encaixa); uso_em_avaliacoes registra o USO REAL (em qual avaliação ela já foi efetivamente aplicada). Array porque uma mesma questão bem feita serve a múltiplos cenários (ex: tutorial + preparação ENAMED). Distinções importantes do enum: osce = OSCE de fim de UC; checkpoint_pre_internato = OSCE com função decisória de progressão (Art. 36 § único DCN 2025); apc = Atividade Profissional Confiabilizadora (linha de avaliação por competências); cbl = Case-Based Learning, ccbl = Clinical CBL."
+    },
+    "competencia_dcn_2025": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^dcn2025_comp_(0[1-9]|1[0-9]|2[0-7])$"
+      },
+      "minItems": 1,
+      "maxItems": 7,
+      "uniqueItems": true,
+      "description": "Lista de competências do Art. 8º da Res. CNE/CES nº 3/2025 (DCN 2025) que a questão avalia. Numeração I a XXVII (1 a 27). Máximo 7 competências por questão (decisão Itairan, 2026.1)."
+    },
+    "nivel_bloom": {
+      "type": "string",
+      "enum": [
+        "conhecimento",
+        "compreensao",
+        "aplicacao",
+        "analise",
+        "sintese",
+        "avaliacao"
+      ],
+      "description": "Nível taxonômico de Bloom. Conforme PPC, evitar nível 'conhecimento' puro em questões de TBL/avaliação somativa."
+    },
+    "area_clinica": {
+      "type": "string",
+      "enum": [
+        "ciclo_basico",
+        "clinica_medica",
+        "cirurgia",
+        "ginecologia_obstetricia",
+        "pediatria",
+        "medicina_familia_comunidade",
+        "saude_mental",
+        "urgencia_emergencia"
+      ],
+      "description": "Área clínica predominante. Espelha as 5 áreas ENAMED + adicionais."
+    },
+    "dificuldade_editorial": {
+      "type": "string",
+      "enum": [
+        "facil",
+        "medio",
+        "dificil"
+      ],
+      "description": "Dificuldade atribuída pelo elaborador na criação. Distinta da dificuldade calibrada por TRI."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": [],
+      "description": "Tags livres para busca. Não substituem campos indexáveis."
+    },
+    "texto_base": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 0,
+      "maxLength": 4000,
+      "description": "Caso clínico ou contexto. Pode incluir markdown leve (negrito, listas)."
+    },
+    "enunciado": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 1000,
+      "description": "Pergunta direta. Deve seguir Guia ENADE — clara, unívoca, sem dupla negação."
+    },
+    "alternativas": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "letra",
+          "texto",
+          "correta",
+          "justificativa"
+        ],
+        "properties": {
+          "letra": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "texto": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          },
+          "correta": {
+            "type": "boolean"
+          },
+          "justificativa": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 800,
+            "description": "Justificativa pedagógica obrigatória — porque é correta ou porque está incorreta."
+          }
+        }
+      },
+      "description": "Padrão ENAMED ABDC: exatamente 4 alternativas (A, B, C, D), uma correta. Validador deve rejeitar 'todas as anteriores' / 'nenhuma das anteriores'."
+    },
+    "imagens_anexadas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id_imagem",
+          "posicao",
+          "ordem",
+          "tipo",
+          "alt_text"
+        ],
+        "properties": {
+          "id_imagem": {
+            "type": "string",
+            "description": "ID canônico no Banco de Imagens da plataforma. Não é URL — é a chave que o frontend usa para buscar a imagem via endpoint próprio. Bytes nunca trafegam dentro do JSON da questão."
+          },
+          "posicao": {
+            "type": "string",
+            "enum": [
+              "texto_base",
+              "enunciado",
+              "alternativa_A",
+              "alternativa_B",
+              "alternativa_C",
+              "alternativa_D"
+            ],
+            "description": "Onde a imagem é renderizada na questão. O frontend usa isso para inserir no lugar certo."
+          },
+          "ordem": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Posição na sequência de exibição quando há múltiplas imagens (ex: comparar duas lâminas histológicas; ECG antes/depois). A ordem do array define a ordem de renderização."
+          },
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "ecg",
+              "eletroencefalograma",
+              "radiologia",
+              "tomografia",
+              "ressonancia",
+              "ultrassom",
+              "fundoscopia",
+              "dermatologia",
+              "histologia",
+              "fotomicrografia",
+              "peca_anatomica",
+              "grafico",
+              "tabela",
+              "esquema",
+              "outro"
+            ],
+            "description": "Tipo da imagem. Distinções importantes: histologia (pode ser desenho esquemático) vs fotomicrografia (microscopia real); esquema (desenho didático) vs peca_anatomica (foto de peça do laboratório de Anatomia)."
+          },
+          "legenda": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 500,
+            "description": "Texto que aparece visivelmente abaixo/ao lado da imagem para o aluno."
+          },
+          "alt_text": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 500,
+            "description": "Texto alternativo OBRIGATÓRIO (acessibilidade — LGPD/WCAG). Descreve o conteúdo da imagem para leitores de tela. Sem isso, alunos com deficiência visual ficam excluídos do banco."
+          },
+          "creditos_imagem": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 300,
+            "description": "Crédito/licenciamento da imagem, separado da legenda. Ex: 'Acervo institucional UNIDAVI', 'Wikimedia Commons / Autor / CC-BY-SA 3.0', 'Radiopaedia / caso N / CC-BY-NC-SA'. Necessário para auditoria de licença."
+          }
+        }
+      },
+      "default": [],
+      "description": "Imagens vinculadas à questão. Referências para o Banco de Imagens da plataforma (não os bytes). A ordem do array define a ordem de exibição. Uma questão pode ter múltiplas imagens (ex: ECG antes/depois, comparação histológica)."
+    },
+    "referencia": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 500,
+      "description": "Referência bibliográfica que sustenta a questão. ABNT preferencial, mas não obrigatório."
+    },
+    "fonte_geracao": {
+      "type": "string",
+      "description": "Identificação da fonte/agente que gerou. Ex: 'davi-questoes-enamed v1.0', ou 'humano:itairan_terres' para questões inseridas manualmente."
+    },
+    "status_curadoria": {
+      "type": "string",
+      "enum": [
+        "pendente",
+        "curado",
+        "suspenso",
+        "arquivado"
+      ],
+      "default": "pendente",
+      "description": "Estado curatorial. Toda questão nasce 'pendente'. Só vai para 'curado' por ação humana docente. 'suspenso' = retirada por problema; 'arquivado' = obsoleta."
+    },
+    "disponibilidade": {
+      "type": "string",
+      "enum": [
+        "disponivel",
+        "em_descanso",
+        "arquivada",
+        "suspensa"
+      ],
+      "default": "disponivel",
+      "description": "Estado de disponibilidade para uso em avaliações. Backend gerencia: após uso avaliativo, vai para 'em_descanso' por X meses (configurável)."
+    },
+    "meses_desde_ultimo_uso": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Calculado pelo backend. Útil para filtros 'questões frescas'."
+    },
+    "versao": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 1,
+      "description": "Incrementa a cada edição substancial após curadoria."
+    },
+    "uso_em_avaliacoes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total_avaliativo",
+        "ultima_avaliacao_em",
+        "historico"
+      ],
+      "properties": {
+        "total_avaliativo": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0,
+          "description": "Contador de usos em avaliação somativa OU simulado formal. NÃO inclui treino livre do aluno."
+        },
+        "ultima_avaliacao_em": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "Data ISO (YYYY-MM-DD) do último uso avaliativo."
+        },
+        "historico": {
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "tipo_uso",
+              "avaliacao_id",
+              "fase",
+              "data"
+            ],
+            "properties": {
+              "tipo_uso": {
+                "type": "string",
+                "enum": [
+                  "avaliacao_oficial",
+                  "simulado_formal"
+                ],
+                "description": "avaliacao_oficial = AC/prova de fase/OSCE escrito; simulado_formal = simuladão preparatório."
+              },
+              "avaliacao_id": {
+                "type": "string",
+                "description": "ID canônico da avaliação."
+              },
+              "fase": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 12
+              },
+              "data": {
+                "type": "string",
+                "format": "date"
+              },
+              "professor_responsavel": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "performance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "n_respostas_treino",
+        "n_respostas_avaliativo"
+      ],
+      "properties": {
+        "n_respostas_treino": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "n_respostas_avaliativo": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "taxa_acerto_treino": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "taxa_acerto_avaliativo": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "dificuldade_tri_b": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Parâmetro b do modelo Rasch (1PL). Calculado pelo backend após n_respostas_avaliativo >= 50. NULL antes disso."
+        },
+        "discriminacao_tri_a": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Parâmetro a (discriminação) — opcional, só se evoluir para 2PL/3PL."
+        }
+      }
+    },
+    "auditoria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "criada_por",
+        "criada_em"
+      ],
+      "properties": {
+        "criada_por": {
+          "type": "string"
+        },
+        "criada_em": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "curada_por": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "curada_em": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "edicoes": {
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "editor",
+              "em",
+              "campo",
+              "antes",
+              "depois"
+            ],
+            "properties": {
+              "editor": {
+                "type": "string"
+              },
+              "em": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "campo": {
+                "type": "string"
+              },
+              "antes": {},
+              "depois": {},
+              "motivo": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "origem": {
+      "type": "string",
+      "enum": [
+        "gerada_zero",
+        "reformulada",
+        "importada_prova_real"
+      ],
+      "description": "Procedencia do item. gerada_zero = criada pela Skill a partir de tema/OA; reformulada = reescrita de questao preexistente (Modo 2); importada_prova_real = extraida de prova oficial (ENAMED/Revalida/TP) e adequada ao schema."
+    },
+    "questao_original_referencia": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Como referenciar a questao de origem quando origem='reformulada' ou 'importada_prova_real' (ex.: 'ENAMED 2025 Caderno 1, q. 12' ou 'prova tutores 2025.2, q. 14')."
+    },
+    "oa_referencia": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "pattern": "^med_unidavi_f(0[1-9]|1[0-2])_uc(0[1-9]|10)_sp(0[1-9]|[1-9][0-9])_oa(0[1-9]|[1-9][0-9])$"
+      },
+      "description": "Slugs dos Objetivos de Aprendizagem do Manual Docente aos quais o item esta ancorado. Verificado contra o banco de OAs vigente pelo validador."
+    },
+    "area_enamed": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "clinica_medica",
+        "cirurgia_geral",
+        "ginecologia_obstetricia",
+        "pediatria",
+        "medicina_familia_comunidade",
+        "saude_mental",
+        "saude_coletiva",
+        null
+      ],
+      "description": "Area da Matriz de Referencia Comum do ENAMED (Portaria Inep 478/2025). Obrigatoria na pratica para itens de fase 8 a 12, que e onde o blueprint contra a matriz do exame faz sentido."
+    },
+    "tipo_comando": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "interrogativo",
+        "completamento",
+        null
+      ],
+      "description": "Forma do enunciado. No ENAMED 2025 (Caderno 1, n=90): completamento 60%, interrogativo 40%. Campo usado para monitorar a variedade de formato do banco."
+    }
+  }
+}
