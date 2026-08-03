@@ -484,6 +484,8 @@ def convert(q):
         "source_claim": (q.get("referencia") or f"Fonte: {fonte_meta['title']}")[:2000],
         "source_evidence": source_evidence,
     }
+    if q.get("imagens"):
+        body["images"] = q["imagens"]
 
     learning_objective = cf.get("objeto_conhecimento") or q.get("tema") or "Objetivo não informado"
     blueprint = {

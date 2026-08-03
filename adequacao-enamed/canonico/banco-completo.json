@@ -19359,7 +19359,13 @@
         "cenario": "enamed_cenario_02",
         "justificativa": "TCE por trauma automobilístico com hematoma epidural: emergência traumática, conteúdo de cirurgia do trauma."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/tc_cranio_189.jpg",
+        "legenda": "Tomografia computadorizada de crânio sem contraste"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -25393,7 +25399,7 @@
       "CHA2DS2-VASc"
     ],
     "texto_base": null,
-    "enunciado": "Homem, 73 anos, com história de hipertensão arterial sistêmica e diabetes tipo 2, ambos há mais de 15 anos, refere uso irregular de losartana e metformina. Iniciou há 1 dia com quadro súbito de hemiplegia direita proporcionada e afasia motora. Familiar refere episódio semelhante há 2 meses, com melhora espontânea em 30 minutos. Nega tabagismo. Ao exame PA: 200/100 mmHg , FC: irregular (80-100 bpm) Sat O2: 96% (ar ambiente) e FR: 12 irpm. ECG: fibrilação atrial. TAC de crânio: área hipodensa fronto-temporo-parietal esquerda. Angiotomografia de carótidas e vertebrais: sem estenoses significativas. (avaliar valor e qualidade de uma imagem de tomografia) Qual a classificação etiológica do AVE-I (Toast) e o tratamento profilático adequado para após a alta hospitalar?",
+    "enunciado": "Homem, 73 anos, com história de hipertensão arterial sistêmica e diabetes tipo 2, ambos há mais de 15 anos, refere uso irregular de losartana e metformina. Iniciou há 1 dia com quadro súbito de hemiplegia direita proporcionada e afasia motora. Familiar refere episódio semelhante há 2 meses, com melhora espontânea em 30 minutos. Nega tabagismo. Ao exame PA: 200/100 mmHg , FC: irregular (80-100 bpm) Sat O2: 96% (ar ambiente) e FR: 12 irpm. ECG: fibrilação atrial. TAC de crânio: área hipodensa fronto-temporo-parietal esquerda. Angiotomografia de carótidas e vertebrais: sem estenoses significativas. Qual a classificação etiológica do AVE-I (Toast) e o tratamento profilático adequado para após a alta hospitalar?",
     "alternativas": [
       {
         "letra": "A",
@@ -44256,7 +44262,13 @@
         "cenario": "enamed_cenario_01",
         "justificativa": "Úlcera em área endêmica: leishmaniose tegumentar e antimonial pentavalente."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/lesao_mao_433.jpg",
+        "legenda": "Lesão em mão direita"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -44370,7 +44382,13 @@
         "cenario": "enamed_cenario_05",
         "justificativa": "Critérios ABCDE na lesão facial de trabalhador fotoexposto sustentam a hipótese de melanoma cutâneo."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/lesao_facial_434.jpg",
+        "legenda": "Figura — Lesão cutânea"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -44588,7 +44606,13 @@
         "cenario": "enamed_cenario_01",
         "justificativa": "Ecomapa como instrumento de abordagem familiar para mapear a rede de apoio do idoso no território."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/ecomapa_436.jpg",
+        "legenda": "Ecomapa elaborado pela equipe de Saúde da Família"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -46859,7 +46883,13 @@
         "cenario": null,
         "justificativa": "Análise de princípios, acesso e financiamento do SUS diante das filas de espera, sem cenário assistencial."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/charge_sus_458.jpg",
+        "legenda": "Charge — Jornal O Tempo, edição de 21 jan. 2013"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -48948,7 +48978,13 @@
         "cenario": "enamed_cenario_03",
         "justificativa": "Enema opaco na investigação do megacólon congênito do recém-nascido com obstrução baixa."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/rx_abdome_rn_478.jpg",
+        "legenda": "Radiografia de abdome"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -49061,7 +49097,17 @@
         "cenario": "enamed_cenario_01",
         "justificativa": "Manobras de Leopold e altura uterina no pré-natal de risco habitual realizado na UBS."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/palpacao_obstetrica_479.jpg",
+        "legenda": "Figura 1 — Palpação obstétrica"
+      },
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/grafico_altura_uterina_479.jpg",
+        "legenda": "Figura 2 — Gráfico da altura uterina para a semana de gestação"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -52372,7 +52418,13 @@
         "cenario": "enamed_cenario_05",
         "justificativa": "Aganglionose de segmento curto com enterocolite e indicação de abaixamento transanal definitivo."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/enema_opaco_511.jpg",
+        "legenda": "Exame de imagem trazido pela mãe do paciente"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -55582,7 +55634,13 @@
         "cenario": "enamed_cenario_05",
         "justificativa": "Indicação de ressecção cirúrgica em abscesso pulmonar refratário ao tratamento clínico prolongado."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/rx_torax_542.jpg",
+        "legenda": "Radiografia simples de tórax"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -68420,7 +68478,13 @@
         "cenario": "enamed_cenario_01",
         "justificativa": "Barreiras de acessibilidade na APS analisadas à luz dos princípios e diretrizes do SUS."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/charge_sus_667.jpg",
+        "legenda": "Charge — Jornal O Tempo, edição de 21 jan. 2013"
+      }
+    ]
   },
   {
     "tipo": "questao",
@@ -78463,7 +78527,13 @@
         "cenario": "enamed_cenario_05",
         "justificativa": "Anemia por perda digestiva em idoso remete ao sangue oculto nas fezes como detecção precoce do câncer colorretal."
       }
-    }
+    },
+    "imagens": [
+      {
+        "url": "https://gynldarwymijfupwuldn.supabase.co/storage/v1/object/public/question-images/enema_opaco_766.jpg",
+        "legenda": "Imagem radiológica (enema opaco)"
+      }
+    ]
   },
   {
     "tipo": "questao",
