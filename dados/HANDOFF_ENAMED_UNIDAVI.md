@@ -40,6 +40,16 @@ gráficos (`xl/charts/chartN.xml`, tags `c:numCache`) + validar por fechamento
   - **Q59 provável erro de gabarito**: oficial B, conduta correta é C (57–90% marcaram C).
 - **Simulado 03/2026** (prova real ENAMED, 90q):
   `AADCBBDCBABDDDCAABDA CDBACBDCBDCDDDCDBBCC DBCCACCADDBBCABBDAAC BCBBACAABDBADDBCBDBA CBACABDCCA` — Q24 e Q46 sem gráfico no dashboard.
+  - **Q51 tem erro de chave no dashboard: registrada B, correta é A.** Vinheta de
+    tireoidite subaguda de De Quervain; A = "captação de iodo radioativo reduzida +
+    betabloqueador + AINE" (conduta correta). B = nódulo quente + tireoidectomia
+    (adenoma tóxico, errado). 57,1% da 12ª marcou A. Sob a chave B, Q51 é o item mais
+    anômalo da prova na 12ª (z = −2,87 DP); sob A normaliza (−0,72). Provável typo na
+    montagem do dashboard, não erro do INEP.
+  - Varredura "distrator vence a chave nas 4 fases" também sinaliza Q14, Q41, Q88, Q89
+    como candidatas — mas são prova real (chave INEP autoritativa): mais provavelmente
+    itens genuinamente difíceis, não erros. Só Q51 tem incompatibilidade clínica clara.
+    Revisar conteúdo desses itens.
 
 ## 4. PROJEÇÃO ENAMED 2026 (resultado principal)
 
@@ -65,6 +75,14 @@ T9 (11ª) = **77,4%**. Se o conceito oficial contar só concluintes (12ª), leit
 **Conceito 4 é medição, não projeção.** Conceito 5 (PCP ≥ 90%) exige +6 proficientes
 dos 66 → improvável, possível se quase todos os "duvidosos" virarem. Risco de cair
 ao 3 é baixo (cenário pessimista ainda ~78%).
+
+**Efeito da correção da Q51 no PCP (marginal):** corrigir para A dá +1 ponto a quem
+marcou A (20 na 12ª, 7 na 11ª), melhorando margens. Na contagem de proficientes:
+T8 (12ª) **não muda** (85,7% — nenhum marcador de A estava na barra−1); T9 (11ª) sobe
+de 77,4% para até 80,6% (só Gabriel Olivo Leandro, em 53, cruzaria — condicional a ter
+marcado A). Cohort: 81,8% → até 83,3%. **Conceito segue 4.** Ganho de média: 12ª +0,64 p.p.,
+11ª +0,25 p.p. (Não dá para corrigir nota individual: só temos a contagem de quem marcou A
+por fase, não a identidade — exceto os que estão na fronteira.)
 
 ### Zona de decisão (define entre 4-folgado e encosto no 5) — prioridade pedagógica
 Taina Farias, Gabriel Olivo Leandro, Aline Agostini, Mariana Braatz Fagundes,
@@ -122,4 +140,4 @@ TP22 → TP23 → TP25 → Sim25 → S01-26 → TP26 → S02-26 → S03(prova re
 3. Coorte assumida = 66 (T8+T9). Se a lista oficial de concluintes diferir, refazer a conta.
 4. TP e ENAMED medem coisas diferentes; a prova real (Simulado 03) é a melhor âncora.
 5. Régua do painel de especialistas do INEP em 2026 é incógnita.
-6. 3 erros de gabarito identificados (S01-Q17, S01-Q20, S02-Q59) — não são erro de aluno.
+6. 4 erros de gabarito identificados (S01-Q17, S01-Q20, S02-Q59, S03-Q51) — não são erro de aluno.

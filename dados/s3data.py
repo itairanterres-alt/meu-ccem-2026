@@ -41,3 +41,10 @@ S3 = {
  ("Sofia Venturi",46),("Victória Gabriela Wetzstein",55)],
 }
 DEN=89
+
+# CORREÇÃO DE CHAVE (verificada 2026-08): Q51 do gabarito oficial do dashboard está
+# como B, mas a resposta correta é A (tireoidite subaguda de De Quervain: captação de
+# iodo reduzida + betabloqueador + AINE). 57,1% da 12ª marcou A. Efeito no PCP é marginal
+# (T8 inalterado; T9 sobe até +1 proficiente). Notas individuais em S3 acima refletem a
+# chave B do dashboard; não é possível corrigir por aluno sem as respostas item-a-item.
+GAB_CORRIGIDO_Q51 = 'A'
