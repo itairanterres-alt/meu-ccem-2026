@@ -169,8 +169,10 @@ pegar atrito de rede/Realtime que o demo não expõe.
 4. ⏳ **Produção: Supabase provisionado + auth + deploy Vercel** ← este handoff
    - ✅ Passo B — feature de autenticação (magic link) construída e buildando
    - ✅ Passo C.2 — script de carga das 839 questões pronto (`npm run seed:questoes`)
+   - ✅ Passo C.1 — guia de tipificação (`docs/passo-c-tipificacao.md`)
    - ⬜ Passo A — provisionar Supabase **[precisa do dono]** (gate de tudo abaixo)
-   - ⬜ Passo C.1/C.3 — gerar `database.types.ts`, trocar os `as any`, `.env` e teste ao vivo
+   - ⬜ Passo C.1 exec — gerar `database.types.ts`, tipar `supabaseClient.ts` **[código, depende de Passo A]**
+   - ⬜ Passo C.3 — `.env` local e teste ao vivo **[agente + dono, depende de Passo A]**
    - ⬜ Passo D — deploy Vercel **[precisa do dono]**
-   - ⬜ Passo E — ensaio com celulares reais
+   - ⬜ Passo E — ensaio com celulares reais **[dono + agente]**
 5. ⬜ Dashboards e cards (professor/admin/aluno; curadoria; flashcards FSRS)
