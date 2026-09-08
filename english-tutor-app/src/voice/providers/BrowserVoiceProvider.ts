@@ -1,4 +1,5 @@
-import type { RecognitionResult, SpeakOptions, VoiceCapability, VoiceProvider } from "../types/voice";
+import type { RecognitionResult, SpeakOptions, VoiceCapability, VoiceProvider } from "../../types/voice";
+import { estimateSpeechDurationMs } from "../../lib/text";
 
 // Nível 1: adapter sobre as Web Speech APIs nativas do navegador.
 // Fica isolado atrás da interface VoiceProvider — nenhum componente de UI
@@ -69,7 +70,7 @@ export class BrowserVoiceProvider implements VoiceProvider {
 
       // Alguns navegadores/ambientes (ex.: headless sem engine de voz) nunca disparam
       // onend/onerror. Sem essa rede de segurança, a UI travaria esperando a fala acabar.
-      const estimatedMs = (text.length / (options.rate ?? 1)) * 90 + 2000;
+      const estimatedMs = estimateSpeechDurationMs(text, options.rate ?? 1);
       const safetyTimer = window.setTimeout(finish, estimatedMs);
 
       window.speechSynthesis.cancel();

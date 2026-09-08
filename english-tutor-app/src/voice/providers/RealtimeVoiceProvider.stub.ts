@@ -1,4 +1,4 @@
-import type { RecognitionResult, SpeakOptions, VoiceCapability, VoiceProvider } from "../types/voice";
+import type { RecognitionResult, SpeakOptions, VoiceCapability, VoiceProvider } from "../../types/voice";
 
 // Nível 2 (futuro): adapter para uma API de voz bidirecional em tempo real
 // (ex.: OpenAI Realtime API) via um backend próprio — o browser nunca guarda a chave.

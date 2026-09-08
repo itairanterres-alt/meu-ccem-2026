@@ -1,36 +1,38 @@
 import { useEffect, useRef, useState } from "react";
 import type { LessonSegment } from "../../types/course";
 import type { VoiceProvider } from "../../types/voice";
-import type { TutorEvaluator, EvaluationResult } from "../../types/evaluation";
+import type { EvaluationResult } from "../../types/evaluation";
 
 interface Props {
   segment: LessonSegment;
   voiceProvider: VoiceProvider;
-  evaluator: TutorEvaluator;
-  onEvaluated: (transcript: string, evaluation: EvaluationResult) => void;
+  onEvaluate: (transcript: string) => Promise<{ evaluation: EvaluationResult; immediateFeedback: string | null }>;
   onContinue: () => void;
 }
 
-export function SpeakingPractice({ segment, voiceProvider, evaluator, onEvaluated, onContinue }: Props) {
+export function SpeakingPractice({ segment, voiceProvider, onEvaluate, onContinue }: Props) {
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState("");
   const [manualText, setManualText] = useState("");
-  const [evaluation, setEvaluation] = useState<EvaluationResult | null>(null);
+  const [result, setResult] = useState<{ evaluation: EvaluationResult; immediateFeedback: string | null } | null>(null);
   const stopRef = useRef<() => void>(() => {});
   const recognitionAvailable = voiceProvider.isRecognitionAvailable();
 
   useEffect(() => () => stopRef.current(), []);
+  useEffect(() => {
+    setResult(null);
+    setTranscript("");
+    setManualText("");
+  }, [segment.id]);
 
   function startListening() {
-    setEvaluation(null);
+    setResult(null);
     setTranscript("");
     setIsListening(true);
     stopRef.current = voiceProvider.startListening(
-      (result) => {
-        setTranscript(result.transcript);
-        if (result.isFinal) {
-          setIsListening(false);
-        }
+      (res) => {
+        setTranscript(res.transcript);
+        if (res.isFinal) setIsListening(false);
       },
       () => setIsListening(false)
     );
@@ -42,9 +44,8 @@ export function SpeakingPractice({ segment, voiceProvider, evaluator, onEvaluate
   }
 
   async function evaluate(finalTranscript: string) {
-    const result = await evaluator.evaluate({ segment, transcript: finalTranscript });
-    setEvaluation(result);
-    onEvaluated(finalTranscript, result);
+    const outcome = await onEvaluate(finalTranscript);
+    setResult(outcome);
   }
 
   return (
@@ -65,7 +66,7 @@ export function SpeakingPractice({ segment, voiceProvider, evaluator, onEvaluate
             </button>
           )}
           {transcript && <p className="speaking-practice__transcript">Você disse: "{transcript}"</p>}
-          {transcript && !isListening && !evaluation && (
+          {transcript && !isListening && !result && (
             <button className="btn btn--success" onClick={() => evaluate(transcript)}>
               Avaliar resposta
             </button>
@@ -88,11 +89,18 @@ export function SpeakingPractice({ segment, voiceProvider, evaluator, onEvaluate
         </div>
       )}
 
-      {evaluation && (
-        <div className={`speaking-practice__result score-${evaluation.score >= 0.7 ? "high" : evaluation.score >= 0.4 ? "mid" : "low"}`}>
-          <p>{evaluation.summary}</p>
-          {evaluation.suggestedCorrection && (
-            <p className="speaking-practice__correction">Frase de referência: "{evaluation.suggestedCorrection}"</p>
+      {result && (
+        <div
+          className={`speaking-practice__result score-${
+            result.evaluation.score >= 0.7 ? "high" : result.evaluation.score >= 0.4 ? "mid" : "low"
+          }`}
+        >
+          {result.immediateFeedback && (
+            <p className="speaking-practice__immediate-feedback">💬 {result.immediateFeedback}</p>
+          )}
+          <p>{result.evaluation.summary}</p>
+          {result.evaluation.suggestedCorrection && (
+            <p className="speaking-practice__correction">Frase de referência: "{result.evaluation.suggestedCorrection}"</p>
           )}
           <button className="btn btn--primary" onClick={onContinue}>
             Continuar →

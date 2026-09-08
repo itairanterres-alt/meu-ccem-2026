@@ -1,5 +1,5 @@
 import type { Module } from "../../types/course";
-import { lessons } from "../../data/modules";
+import { lessons } from "../../data/courseCatalog";
 import { useLearner } from "../../state/LearnerContext";
 
 interface Props {

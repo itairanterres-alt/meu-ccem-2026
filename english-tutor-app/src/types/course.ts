@@ -1,21 +1,11 @@
-// Domínio: curso, módulos, lições, progresso do aluno.
+// Domínio: catálogo do curso — módulos, lições, progresso.
 // Estruturado para futura persistência em Postgres/Supabase (ids estáveis, sem estado embutido em componentes).
+// Perfil e memória do aluno ficam em types/learner.ts e types/ledger.ts — conteúdo do curso
+// nunca deve importar de lá, para não misturar "aula" com "histórico do aluno".
 
 export type SkillArea = "listening" | "speaking" | "vocabulary" | "grammar";
 
 export type SkillLevels = Record<SkillArea, number>; // 0-100, estimativa por habilidade
-
-export interface StudentProfile {
-  id: string;
-  name: string;
-  nativeLanguage: string;
-  targetLanguage: string;
-  shortTermGoal: string;
-  goalDate?: string; // ISO date
-  priorities: SkillArea[];
-  skillLevels: SkillLevels;
-  notes?: string;
-}
 
 export type SegmentHelpKind =
   | "translation"
@@ -46,6 +36,13 @@ export interface LessonSegment {
   vocabulary: VocabularyItem[];
   /** Palavras-chave/estruturas esperadas quando o trecho é usado em prática de fala. */
   expectedKeywords?: string[];
+  /**
+   * Blocos de sentido (connected speech) usados na quebra adaptativa do modo assistido —
+   * ex.: ["The student", "asked a question", "after the simulation"].
+   */
+  chunks?: string[];
+  /** Nota sobre junção de sons entre palavras (ex.: "asked_a" soa como "askt-a"). */
+  connectedSpeechNote?: string;
 }
 
 export type LessonKind = "listening-core" | "speaking-practice" | "review";
@@ -65,6 +62,8 @@ export interface Lesson {
   description: string;
   kind: LessonKind;
   cefrLevel: "A2" | "B1" | "B2";
+  /** Situação/cenário da lição (ex.: "Visita ao centro de simulação clínica"). */
+  sceneContext?: string;
   segments: LessonSegment[];
   quiz: MiniQuizQuestion[];
   estimatedMinutes: number;

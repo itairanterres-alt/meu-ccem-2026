@@ -348,7 +348,7 @@
 .lesson-engine__header h2 { margin: 0; font-size: 1.2rem; }
 .lesson-engine__progress { margin-left: auto; font-size: 0.85rem; color: var(--ink-soft); }
 
-.listening-stage, .assisted-stage, .speaking-practice {
+.listening-stage, .assisted-stage, .speaking-practice, .warmup-stage, .consolidation-stage, .debrief-stage {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -360,6 +360,53 @@
 .listening-stage__controls { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
 .listening-stage__rate { font-size: 0.85rem; display: flex; align-items: center; gap: 6px; }
 .listening-stage__decision { display: flex; gap: 12px; }
+
+.lesson-engine__scene {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  background: var(--primary-soft);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+
+/* Assisted stage: intervenção pedagógica por etapas */
+.assisted-stage__steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.assisted-stage__step {
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--ink-soft);
+  border: 1px solid var(--border);
+}
+.assisted-stage__step.is-done { background: var(--success-soft); color: var(--success); border-color: transparent; }
+.assisted-stage__step.is-current { background: var(--primary); color: #fff; border-color: var(--primary); font-weight: 700; }
+
+.assisted-stage__panel > p:first-child { margin-top: 0; color: var(--ink-soft); }
+.assisted-stage__actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+.assisted-stage__connected-speech {
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.assisted-stage__chunks { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 8px; }
+.assisted-stage__reconstruct { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+.chunk-pill {
+  background: var(--primary-soft);
+  color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
 
 .assisted-stage__caption {
   font-size: 1.35rem;
@@ -373,7 +420,7 @@
 .word { color: var(--ink-soft); transition: color 0.15s; }
 .word.is-current { color: var(--primary); font-weight: 700; }
 
-.help-panel { margin-top: 18px; border-top: 1px solid var(--border); padding-top: 16px; }
+.help-panel { margin-top: 0; }
 .help-panel__tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
 .help-panel__tab {
   border: 1px solid var(--border);
@@ -390,10 +437,28 @@
 .help-panel__vocab-note { color: var(--ink-soft); }
 .help-panel__pronunciation { font-style: italic; color: var(--ink-soft); }
 
-.assisted-stage__help-log { display: flex; gap: 8px; margin: 12px 0; flex-wrap: wrap; }
-.assisted-stage > .btn--success { margin-top: 16px; }
+/* Warmup / consolidation */
+.warmup-stage__hint, .consolidation-stage__hint { font-size: 0.8rem; color: var(--ink-soft); margin: 0 0 8px; }
+.warmup-stage__prompt-en, .consolidation-stage__structure { margin: 0 0 6px; font-size: 1.3rem; }
+.warmup-stage__prompt-pt { color: var(--ink-soft); margin: 0 0 14px; }
+.warmup-stage__note, .consolidation-stage__note, .consolidation-stage__prompt { color: var(--ink-soft); font-size: 0.9rem; }
+
+/* Debrief */
+.debrief-stage__score { font-weight: 600; }
+.debrief-stage__section { margin: 18px 0; }
+.debrief-stage__section h4 { margin: 0 0 8px; }
+.debrief-stage__section ul { margin: 0; padding-left: 18px; }
+.debrief-stage__empty { color: var(--ink-soft); font-size: 0.9rem; }
 
 .speaking-practice__prompt { margin-top: 0; }
+.speaking-practice__immediate-feedback {
+  background: var(--primary-soft);
+  color: var(--primary);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 0;
+}
 .speaking-practice__transcript { color: var(--ink-soft); font-style: italic; }
 .speaking-practice__fallback textarea {
   width: 100%;

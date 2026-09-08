@@ -1,4 +1,4 @@
-import type { StudentProfile } from "../../types/course";
+import type { StudentProfile } from "../../types/learner";
 
 const SKILL_LABELS: Record<string, string> = {
   listening: "Listening",

@@ -2,93 +2,145 @@ import { useMemo, useState } from "react";
 import type { LessonSegment } from "../../types/course";
 import type { VoiceProvider } from "../../types/voice";
 import type { AssistanceRequestType } from "../../types/ledger";
+import type { AdaptationStep } from "../../pedagogy/lessonAdaptation";
+import { adaptationStepLabel } from "../../pedagogy/lessonAdaptation";
+import { splitIntoWords, findCurrentWordIndex } from "../../lesson-runtime/segmentTiming";
 import { SegmentHelpPanel } from "./SegmentHelpPanel";
-
-interface WordSpan {
-  word: string;
-  start: number;
-}
-
-function splitIntoWords(text: string): WordSpan[] {
-  const spans: WordSpan[] = [];
-  const regex = /\S+/g;
-  let match: RegExpExecArray | null;
-  while ((match = regex.exec(text)) !== null) {
-    spans.push({ word: match[0], start: match.index });
-  }
-  return spans;
-}
 
 interface Props {
   segment: LessonSegment;
   voiceProvider: VoiceProvider;
   playbackRate: number;
-  onContinue: () => void;
-  onHelpRequested: (kind: AssistanceRequestType) => void;
+  adaptationStep: AdaptationStep;
+  onAdvance: (helpKind: AssistanceRequestType) => void;
+  onFinish: () => void;
 }
 
-/** Modo assistido: legenda sincronizada, destaque de trecho atual e ferramentas pedagógicas. */
-export function AssistedStage({ segment, voiceProvider, playbackRate, onContinue, onHelpRequested }: Props) {
-  const words = useMemo(() => splitIntoWords(segment.text), [segment.text]);
-  const [currentWordIndex, setCurrentWordIndex] = useState(-1);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+const STEPS: AdaptationStep[] = ["repeat", "chunked", "explained", "reconstruct", "original"];
 
-  async function playWithCaption() {
+/**
+ * Intervenção pedagógica por etapas quando o aluno clica em "Não compreendi" — nunca só
+ * mostra a legenda de uma vez. Segue o protocolo: repetir → segmentar em blocos → explicar
+ * som/significado/contexto → reconstruir → voltar à frase original.
+ */
+export function AssistedStage({ segment, voiceProvider, playbackRate, adaptationStep, onAdvance, onFinish }: Props) {
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [currentWordIndex, setCurrentWordIndex] = useState(-1);
+  const words = useMemo(() => splitIntoWords(segment.text), [segment.text]);
+  const stepIndex = STEPS.indexOf(adaptationStep);
+
+  async function speak(text: string, rate = playbackRate, withCaption = false) {
     setIsSpeaking(true);
-    setCurrentWordIndex(-1);
-    onHelpRequested("repeat");
-    await voiceProvider.speak(segment.text, {
-      rate: playbackRate,
+    if (withCaption) setCurrentWordIndex(-1);
+    await voiceProvider.speak(text, {
+      rate,
       lang: "en-US",
-      onBoundary: (charIndex) => {
-        let idx = 0;
-        for (let i = 0; i < words.length; i++) {
-          if (words[i].start <= charIndex) idx = i;
-        }
-        setCurrentWordIndex(idx);
-      },
+      onBoundary: withCaption ? (charIndex) => setCurrentWordIndex(findCurrentWordIndex(words, charIndex)) : undefined,
     });
     setIsSpeaking(false);
   }
 
   return (
     <div className="assisted-stage">
-      <div className="assisted-stage__caption" aria-live="polite">
-        {words.map((w, i) => (
-          <span key={i} className={i === currentWordIndex ? "word is-current" : "word"}>
-            {w.word}{" "}
+      <div className="assisted-stage__steps">
+        {STEPS.map((step, i) => (
+          <span key={step} className={`assisted-stage__step ${i <= stepIndex ? "is-done" : ""} ${step === adaptationStep ? "is-current" : ""}`}>
+            {adaptationStepLabel(step)}
           </span>
         ))}
       </div>
 
-      <button className="btn btn--primary" onClick={playWithCaption} disabled={isSpeaking}>
-        {isSpeaking ? "🔊 Reproduzindo com legenda..." : "▶️ Ouvir com legenda sincronizada"}
-      </button>
+      {adaptationStep === "repeat" && (
+        <section className="assisted-stage__panel">
+          <p>Vamos ouvir de novo, com calma.</p>
+          <button className="btn btn--primary" onClick={() => speak(segment.text, 0.75)} disabled={isSpeaking}>
+            {isSpeaking ? "🔊 Reproduzindo..." : "▶️ Repetir mais devagar"}
+          </button>
+          <div className="assisted-stage__actions">
+            <button className="btn btn--success" onClick={onFinish}>
+              Entendi agora →
+            </button>
+            <button className="btn btn--warning" onClick={() => onAdvance("repeat")}>
+              Ainda não — quebrar em blocos
+            </button>
+          </div>
+        </section>
+      )}
 
-      <SegmentHelpPanel
-        segment={segment}
-        isSpeaking={isSpeaking}
-        onRepeat={() => {
-          onHelpRequested("repeat");
-          playWithCaption();
-        }}
-      />
+      {adaptationStep === "chunked" && (
+        <section className="assisted-stage__panel">
+          <p>Ouça o trecho em blocos de sentido, um de cada vez.</p>
+          <ul className="assisted-stage__chunks">
+            {(segment.chunks ?? [segment.text]).map((chunk, i) => (
+              <li key={i}>
+                <button className="btn btn--ghost btn--small" onClick={() => speak(chunk, 0.8)} disabled={isSpeaking}>
+                  ▶️ {chunk}
+                </button>
+              </li>
+            ))}
+          </ul>
+          <div className="assisted-stage__actions">
+            <button className="btn btn--success" onClick={onFinish}>
+              Entendi agora →
+            </button>
+            <button className="btn btn--warning" onClick={() => onAdvance("vocabulary")}>
+              Ainda não — explicar som e significado
+            </button>
+          </div>
+        </section>
+      )}
 
-      <div className="assisted-stage__help-log">
-        <button
-          className="btn btn--ghost btn--small"
-          onClick={() => onHelpRequested("translation")}
-        >
-          marcar: usei tradução
-        </button>
-        <button className="btn btn--ghost btn--small" onClick={() => onHelpRequested("vocabulary")}>
-          marcar: usei vocabulário
-        </button>
-      </div>
+      {adaptationStep === "explained" && (
+        <section className="assisted-stage__panel">
+          {segment.connectedSpeechNote && (
+            <p className="assisted-stage__connected-speech">🔗 {segment.connectedSpeechNote}</p>
+          )}
+          <SegmentHelpPanel segment={segment} isSpeaking={isSpeaking} onRepeat={() => speak(segment.text, 0.8)} />
+          <div className="assisted-stage__actions">
+            <button className="btn btn--primary" onClick={() => onAdvance("translation")}>
+              Reconstruir a frase →
+            </button>
+          </div>
+        </section>
+      )}
 
-      <button className="btn btn--success" onClick={onContinue}>
-        Continuar →
-      </button>
+      {adaptationStep === "reconstruct" && (
+        <section className="assisted-stage__panel">
+          <p>Agora junte os blocos, na ordem, em voz alta (ou mentalmente) antes de ouvir de novo:</p>
+          <div className="assisted-stage__reconstruct">
+            {(segment.chunks ?? [segment.text]).map((chunk, i) => (
+              <span key={i} className="chunk-pill">
+                {chunk}
+              </span>
+            ))}
+          </div>
+          <div className="assisted-stage__actions">
+            <button className="btn btn--primary" onClick={() => onAdvance("repeat")}>
+              Ouvir a frase original →
+            </button>
+          </div>
+        </section>
+      )}
+
+      {adaptationStep === "original" && (
+        <section className="assisted-stage__panel">
+          <div className="assisted-stage__caption" aria-live="polite">
+            {words.map((w, i) => (
+              <span key={i} className={i === currentWordIndex ? "word is-current" : "word"}>
+                {w.word}{" "}
+              </span>
+            ))}
+          </div>
+          <button className="btn btn--primary" onClick={() => speak(segment.text, playbackRate, true)} disabled={isSpeaking}>
+            {isSpeaking ? "🔊 Reproduzindo com legenda..." : "▶️ Ouvir a frase completa"}
+          </button>
+          <div className="assisted-stage__actions">
+            <button className="btn btn--success" onClick={onFinish}>
+              Continuar →
+            </button>
+          </div>
+        </section>
+      )}
     </div>
   );
 }

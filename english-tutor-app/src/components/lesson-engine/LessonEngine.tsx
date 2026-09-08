@@ -1,12 +1,14 @@
-import { useEffect, useState } from "react";
 import type { Lesson } from "../../types/course";
 import { useLearner } from "../../state/LearnerContext";
+import { useLessonSession } from "../../lesson-runtime/useLessonSession";
+import { defaultSessionConfig } from "../../data/sessionConfig";
+import { WarmupStage } from "./WarmupStage";
 import { ListeningStage } from "./ListeningStage";
 import { AssistedStage } from "./AssistedStage";
 import { SpeakingPractice } from "./SpeakingPractice";
+import { ConsolidationStage } from "./ConsolidationStage";
 import { MiniQuiz } from "./MiniQuiz";
-
-type Phase = "listening" | "assisted" | "speaking" | "quiz" | "done";
+import { DebriefStage } from "./DebriefStage";
 
 interface Props {
   lesson: Lesson;
@@ -14,39 +16,21 @@ interface Props {
   onExit: () => void;
 }
 
-/** Núcleo reutilizável: listening-first → (sob demanda) modo assistido → prática de fala → quiz. */
+const PHASE_LABEL: Record<string, string> = {
+  warmup: "Aquecimento",
+  listening: "Listening Ladder",
+  speaking: "Speaking practice",
+  consolidation: "Consolidação",
+  quiz: "Prática final",
+  debrief: "Debrief",
+};
+
+/** Orquestrador da sessão padrão: warm-up → Listening Ladder → speaking → consolidation → quiz → debrief.
+ * Toda a lógica de estado vive em lesson-runtime/useLessonSession — este componente só renderiza. */
 export function LessonEngine({ lesson, allLessonIds, onExit }: Props) {
-  const { voiceProvider, evaluator, actions } = useLearner();
-  const [phase, setPhase] = useState<Phase>("listening");
-  const [segmentIndex, setSegmentIndex] = useState(0);
-  const [speakingIndex, setSpeakingIndex] = useState(0);
-  const [playbackRate, setPlaybackRate] = useState(1);
-
-  useEffect(() => {
-    actions.startLesson(lesson.id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [lesson.id]);
-
-  const segment = lesson.segments[segmentIndex];
-  const speakingSegment = lesson.segments[speakingIndex];
-
-  function goToNextSegment() {
-    if (segmentIndex < lesson.segments.length - 1) {
-      setSegmentIndex((i) => i + 1);
-      setPhase("listening");
-    } else {
-      setPhase("speaking");
-      setSpeakingIndex(0);
-    }
-  }
-
-  function goToNextSpeaking() {
-    if (speakingIndex < lesson.segments.length - 1) {
-      setSpeakingIndex((i) => i + 1);
-    } else {
-      setPhase("quiz");
-    }
-  }
+  const { ledger } = useLearner();
+  const { session, currentSegment, speakingSegment, currentWarmup, currentConsolidation, voiceProvider, actions } =
+    useLessonSession(lesson, defaultSessionConfig, allLessonIds);
 
   return (
     <div className="lesson-engine">
@@ -55,83 +39,66 @@ export function LessonEngine({ lesson, allLessonIds, onExit }: Props) {
           ← Voltar à lição
         </button>
         <h2>{lesson.title}</h2>
-        <span className="lesson-engine__progress">
-          {phase === "quiz" || phase === "done"
-            ? "Prática final"
-            : phase === "speaking"
-              ? `Fala ${speakingIndex + 1}/${lesson.segments.length}`
-              : `Trecho ${segmentIndex + 1}/${lesson.segments.length}`}
-        </span>
+        <span className="lesson-engine__progress">{PHASE_LABEL[session.phase]}</span>
       </header>
 
-      {phase === "listening" && (
+      {lesson.sceneContext && session.phase === "listening" && (
+        <p className="lesson-engine__scene">🎬 {lesson.sceneContext}</p>
+      )}
+
+      {session.phase === "warmup" && currentWarmup && (
+        <WarmupStage
+          prompt={currentWarmup}
+          index={session.warmupIndex}
+          total={session.warmupCount}
+          onNext={actions.advanceWarmup}
+        />
+      )}
+
+      {session.phase === "listening" && session.segmentMode === "listening" && (
         <ListeningStage
-          text={segment.text}
+          text={currentSegment.text}
           voiceProvider={voiceProvider}
-          playbackRate={playbackRate}
-          onPlaybackRateChange={setPlaybackRate}
-          onUnderstood={goToNextSegment}
-          onDidNotUnderstand={() => {
-            actions.recordDifficulty({
-              lessonId: lesson.id,
-              segment,
-              helpRequested: [],
-              playbackRate,
-            });
-            setPhase("assisted");
-          }}
+          playbackRate={session.playbackRate}
+          onPlaybackRateChange={actions.changePlaybackRate}
+          onUnderstood={actions.markUnderstood}
+          onDidNotUnderstand={actions.markDidNotUnderstand}
         />
       )}
 
-      {phase === "assisted" && (
+      {session.phase === "listening" && session.segmentMode === "assisted" && session.adaptationStep && (
         <AssistedStage
-          segment={segment}
+          segment={currentSegment}
           voiceProvider={voiceProvider}
-          playbackRate={playbackRate}
-          onContinue={goToNextSegment}
-          onHelpRequested={(kind) =>
-            actions.recordDifficulty({
-              lessonId: lesson.id,
-              segment,
-              helpRequested: [kind],
-              playbackRate,
-            })
-          }
+          playbackRate={session.playbackRate}
+          adaptationStep={session.adaptationStep}
+          onAdvance={actions.requestHelp}
+          onFinish={actions.continueAfterAssist}
         />
       )}
 
-      {phase === "speaking" && (
+      {session.phase === "speaking" && (
         <SpeakingPractice
           segment={speakingSegment}
           voiceProvider={voiceProvider}
-          evaluator={evaluator}
-          onEvaluated={(transcript, evaluation) => {
-            actions.recordSpokenResponse({ lessonId: lesson.id, segment: speakingSegment, transcript, evaluation });
-            actions.updateSkillLevel("speaking", evaluation.score >= 0.7 ? 1 : evaluation.score < 0.4 ? -1 : 0);
-          }}
-          onContinue={goToNextSpeaking}
+          onEvaluate={actions.evaluateSpokenResponse}
+          onContinue={actions.continueSpeaking}
         />
       )}
 
-      {phase === "quiz" && (
-        <MiniQuiz
-          questions={lesson.quiz}
-          onFinish={(score) => {
-            actions.completeLesson(lesson.id, allLessonIds, score);
-            actions.updateSkillLevel("listening", score >= 0.7 ? 2 : 0);
-            setPhase("done");
-          }}
+      {session.phase === "consolidation" && currentConsolidation && (
+        <ConsolidationStage
+          item={currentConsolidation}
+          index={session.consolidationIndex}
+          total={session.consolidationCount}
+          onNext={actions.advanceConsolidation}
         />
       )}
 
-      {phase === "done" && (
-        <div className="lesson-engine__done">
-          <h3>Lição concluída ✅</h3>
-          <p>O progresso e as dificuldades registradas já entraram no seu Learner Ledger.</p>
-          <button className="btn btn--primary" onClick={onExit}>
-            Voltar ao curso
-          </button>
-        </div>
+      {session.phase === "quiz" && <MiniQuiz questions={lesson.quiz} onFinish={actions.finishQuiz} />}
+
+      {session.phase === "debrief" && (
+        <DebriefStage lesson={lesson} ledger={ledger} quizScore={session.quizScore} onExit={onExit} />
       )}
     </div>
   );

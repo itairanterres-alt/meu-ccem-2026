@@ -1,17 +1,15 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import type { CourseProgress, LessonProgress, SkillArea, StudentProfile } from "../types/course";
+import type { CourseProgress, LessonProgress, LessonSegment, SkillArea } from "../types/course";
+import type { StudentProfile } from "../types/learner";
 import type { AssistanceRequestType, LearnerLedger } from "../types/ledger";
 import type { TutorEvaluator, EvaluationResult } from "../types/evaluation";
 import type { VoiceProvider } from "../types/voice";
-import { studentProfile as defaultProfile } from "../data/studentProfile";
+import { studentProfile as defaultProfile } from "../data/studentProfileSeed";
 import { ledgerSeed } from "../data/ledgerSeed";
-import { BrowserVoiceProvider } from "../voice/BrowserVoiceProvider";
+import { selectVoiceProvider } from "../voice/voiceSupport";
 import { PatternEvaluator } from "../evaluation/PatternEvaluator";
-import { LocalStorageAdapter } from "./storage";
-import type { LessonSegment } from "../types/course";
-
-const progressStorage = new LocalStorageAdapter<CourseProgress>("english-tutor:progress");
-const ledgerStorage = new LocalStorageAdapter<LearnerLedger>("english-tutor:ledger");
+import { localStorageProviderFactory, type StorageProviderFactory } from "./storage";
+import { generateRecommendations } from "../pedagogy/recommendationEngine";
 
 function createId(): string {
   return typeof crypto !== "undefined" && "randomUUID" in crypto
@@ -55,18 +53,46 @@ interface LearnerContextValue {
 
 const LearnerContext = createContext<LearnerContextValue | null>(null);
 
-export function LearnerProvider({ children }: { children: ReactNode }) {
+interface LearnerProviderProps {
+  children: ReactNode;
+  /**
+   * De onde vem a persistência. Nunca aponte para localStorage diretamente ao consumir
+   * este contexto — troque a factory (ex.: por uma que fale com Supabase) quando o produto
+   * precisar sincronizar entre iPhone, iPad e desktop. O padrão é só o MVP local.
+   */
+  storageProviderFactory?: StorageProviderFactory;
+}
+
+export function LearnerProvider({ children, storageProviderFactory = localStorageProviderFactory }: LearnerProviderProps) {
   const [profile] = useState<StudentProfile>(defaultProfile);
+
+  const progressStorage = useMemo(
+    () => storageProviderFactory<CourseProgress>("english-tutor:progress"),
+    [storageProviderFactory]
+  );
+  const ledgerStorage = useMemo(
+    () => storageProviderFactory<LearnerLedger>("english-tutor:ledger"),
+    [storageProviderFactory]
+  );
+
   const [progress, setProgress] = useState<CourseProgress>(
     () => progressStorage.load() ?? emptyProgress(defaultProfile.id)
   );
-  const [ledger, setLedger] = useState<LearnerLedger>(() => ledgerStorage.load() ?? ledgerSeed);
+  const [ledgerState, setLedger] = useState<LearnerLedger>(() => ledgerStorage.load() ?? ledgerSeed);
 
-  const voiceProvider = useMemo<VoiceProvider>(() => new BrowserVoiceProvider(), []);
+  const voiceProvider = useMemo<VoiceProvider>(() => selectVoiceProvider(), []);
   const evaluator = useMemo<TutorEvaluator>(() => new PatternEvaluator(), []);
 
-  useEffect(() => progressStorage.save(progress), [progress]);
-  useEffect(() => ledgerStorage.save(ledger), [ledger]);
+  useEffect(() => progressStorage.save(progress), [progress, progressStorage]);
+  useEffect(() => ledgerStorage.save(ledgerState), [ledgerState, ledgerStorage]);
+
+  // Recomendações são derivadas, não guardadas manualmente em sincronia: sempre que
+  // dificuldades, respostas faladas ou padrões de erro mudam, a camada pedagógica
+  // recalcula o que priorizar (ver pedagogy/recommendationEngine.ts).
+  const ledger = useMemo<LearnerLedger>(
+    () => ({ ...ledgerState, recommendations: generateRecommendations(ledgerState) }),
+    [ledgerState]
+  );
 
   const actions = useMemo<LearnerContextValue["actions"]>(
     () => ({

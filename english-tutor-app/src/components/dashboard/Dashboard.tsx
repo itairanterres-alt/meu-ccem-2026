@@ -1,5 +1,5 @@
 import { useLearner } from "../../state/LearnerContext";
-import { modules } from "../../data/modules";
+import { modules } from "../../data/courseCatalog";
 import { ProfileCard } from "./ProfileCard";
 import { ProgressOverview } from "./ProgressOverview";
 import { RecommendationsPanel } from "./RecommendationsPanel";

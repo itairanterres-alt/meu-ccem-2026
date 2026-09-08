@@ -6,7 +6,7 @@ import { ModuleList } from "./components/course/ModuleList";
 import { LessonList } from "./components/course/LessonList";
 import { LessonEngine } from "./components/lesson-engine/LessonEngine";
 import { LedgerPanel } from "./components/ledger/LedgerPanel";
-import { modules, lessons } from "./data/modules";
+import { modules, lessons } from "./data/courseCatalog";
 import "./styles/app.css";
 
 type CourseSelection = { moduleId: string | null; lessonId: string | null };

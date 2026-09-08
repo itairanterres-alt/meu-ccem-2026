@@ -1,5 +1,5 @@
 import type { CourseProgress, Module } from "../../types/course";
-import { lessons } from "../../data/modules";
+import { lessons } from "../../data/courseCatalog";
 
 interface Props {
   progress: CourseProgress;

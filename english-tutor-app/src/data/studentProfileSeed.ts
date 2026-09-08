@@ -1,4 +1,4 @@
-import type { StudentProfile } from "../types/course";
+import type { StudentProfile } from "../types/learner";
 
 // Baseline do relatório "English Tutor Itairan — Semana 0".
 // Perfil assimétrico: leitura/vocabulário passivo fortes, listening é o gargalo principal.

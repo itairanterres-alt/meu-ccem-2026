@@ -1,14 +1,19 @@
-// Abstração de persistência. Nesta versão usa localStorage; a troca futura para
-// Supabase/Postgres implica apenas trocar esta classe por uma que fale com uma API,
-// sem tocar em LearnerContext ou nos componentes.
+// Abstração de persistência. O produto não deve ficar preso mentalmente a um dispositivo:
+// LearnerContext nunca importa LocalStorageProvider diretamente — recebe uma
+// StorageProviderFactory injetável. A troca futura para Supabase/memória em nuvem é
+// implementar uma nova factory (ex.: supabaseStorageProviderFactory) e passá-la para
+// <LearnerProvider storageProviderFactory={...}> — nenhum componente muda.
 
-export interface Storage<T> {
+export interface StorageProvider<T> {
   load(): T | null;
   save(value: T): void;
   clear(): void;
 }
 
-export class LocalStorageAdapter<T> implements Storage<T> {
+export type StorageProviderFactory = <T>(key: string) => StorageProvider<T>;
+
+/** Implementação temporária de MVP. Funciona só no dispositivo/navegador atual. */
+export class LocalStorageProvider<T> implements StorageProvider<T> {
   private readonly key: string;
 
   constructor(key: string) {
@@ -41,3 +46,5 @@ export class LocalStorageAdapter<T> implements Storage<T> {
     }
   }
 }
+
+export const localStorageProviderFactory: StorageProviderFactory = (key) => new LocalStorageProvider(key);

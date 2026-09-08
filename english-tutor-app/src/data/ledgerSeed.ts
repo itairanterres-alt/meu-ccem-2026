@@ -63,6 +63,30 @@ export const ledgerSeed: LearnerLedger = {
       occurrences: 1,
       lastSeenAt: "2026-09-01",
     },
+    {
+      id: "err-pronome-1",
+      category: "outro",
+      example: "your mistakes (falando sobre o aluno)",
+      correctedForm: "their mistakes",
+      occurrences: 1,
+      lastSeenAt: "2026-09-01",
+    },
+    {
+      id: "err-vocabulario-3",
+      category: "vocabulário",
+      example: "experienced difficulty with sellers",
+      correctedForm: "had difficulty understanding salespeople",
+      occurrences: 1,
+      lastSeenAt: "2026-09-01",
+    },
+    {
+      id: "err-estrutura-3",
+      category: "estrutura",
+      example: "my big difficulty",
+      correctedForm: "my biggest difficulty",
+      occurrences: 1,
+      lastSeenAt: "2026-09-01",
+    },
   ],
   recommendations: [
     {
