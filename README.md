@@ -44,21 +44,64 @@ Conteúdo das bios, briefings e quizzes está em **modo curadoria**: parte com t
 
 ## Stack
 
-- **Frontend**: HTML/CSS/JS vanilla, standalone, sem build
-- **Tipografia**: Fraunces + DM Sans + JetBrains Mono (Google Fonts)
+- **Frontend**: React 18 sem framework, JSX pré-compilado, sem bundler
+- **Tipografia**: DM Sans + JetBrains Mono, **hospedadas localmente**
 - **Hospedagem**: Vercel (deploy automático via GitHub)
 - **Banco (produção)**: Supabase
 - **IA (produção)**: Gemini 2.0 Flash (multimodal)
 
-## Como rodar localmente
+### Nada vem de CDN
 
-Abra o `index.html` no navegador. Sem dependências locais.
+React, fontes e ícones são servidos do próprio domínio. O app precisa abrir no
+Expoville com a rede saturada — depender de `unpkg` ou Google Fonts significaria
+não abrir se esses hosts estiverem lentos ou bloqueados.
+
+Verificado com todos os hosts externos bloqueados: **zero requisições externas,
+zero erros de console.**
+
+### Funciona offline
+
+`sw.js` guarda o shell e a grade em cache. Depois da primeira visita, o app abre
+sem rede. `manifest.json` o torna instalável na tela inicial.
+
+## Onde fica o quê
+
+```
+index.html        shell, estilos e ordem de carregamento
+v4/ccem-data.js   TODO o conteúdo — programa, bios, briefings, quizzes
+v4/*.jsx          código-fonte das telas
+v4/*.js           saída compilada (é o que o navegador carrega)
+vendor/           React e fontes, hospedados localmente
+sw.js             service worker
+build.sh          compila os .jsx
+```
 
 ## Como atualizar
 
-1. Editar `index.html` no GitHub (botão de lápis)
-2. Commit
-3. Vercel re-deploya em ~10s, URL não muda
+**Conteúdo** — programa, bios, briefings, quizzes, palestrantes:
+
+1. Editar `v4/ccem-data.js` no GitHub (botão de lápis)
+2. Commit — Vercel re-deploya em ~10s, URL não muda
+
+`ccem-data.js` é JavaScript puro, **sem JSX**. Não precisa compilar nada.
+
+**Código das telas** — qualquer arquivo `.jsx`:
+
+1. Editar o `.jsx`
+2. Rodar `./build.sh` (requer Node)
+3. Commitar o `.jsx` **e** o `.js` gerado
+
+**Antes de publicar qualquer mudança**: incrementar `CACHE_VERSION` em `sw.js`,
+senão os navegadores continuam servindo a versão em cache.
+
+## Como rodar localmente
+
+```bash
+python3 -m http.server 8000
+```
+
+Depois abra `http://localhost:8000`. Abrir o `index.html` direto pelo sistema de
+arquivos não funciona — o service worker exige `http://` ou `https://`.
 
 ---
 

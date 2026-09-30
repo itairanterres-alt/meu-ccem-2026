@@ -28,7 +28,14 @@ dados em `ccem-data.js` e as telas em `ccem-*.jsx` / `index.html`.
 
 ## Convenções
 
-- Frontend vanilla, standalone, sem build. Não introduzir bundler.
+- React 18 sem framework e sem bundler. O JSX é **pré-compilado** por
+  `./build.sh` (esbuild); o navegador carrega os `.js` gerados. Não introduzir
+  bundler nem framework.
+- **Nada de CDN.** React, fontes e ícones são servidos do próprio domínio. O app
+  tem de abrir no Expoville com rede saturada. Não voltar a apontar para
+  `unpkg`, `cdnjs` ou Google Fonts.
+- Ao mexer em `.jsx`, rodar `./build.sh` e commitar fonte e saída.
+- Ao publicar mudança, incrementar `CACHE_VERSION` em `sw.js`.
 - Conteúdo de bios, briefings e quizzes está em **modo curadoria**: revisão pela
   Comissão Científica antes do evento. Não afirmar que conteúdo gerado está
   validado.
