@@ -11,9 +11,11 @@
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="Meu CCEM 2026"/>
   <meta property="og:description" content="App do 12º Congresso Catarinense de Endocrinologia e Metabologia · 23–24 out · Joinville/SC"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="icon-192.png" type="image/png"/>
+  <link rel="manifest" href="manifest.json"/>
+  <link rel="apple-touch-icon" href="logo-ccem.png"/>
+  <!-- Fontes hospedadas localmente: o app nao pode depender de CDN no Expoville -->
+  <link rel="stylesheet" href="vendor/fonts/fonts.css"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html, body { width: 100%; height: 100%; font-family: 'DM Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
@@ -107,9 +109,10 @@
     }
   </style>
 
-  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <!-- React 18.3.1, build de producao, hospedado localmente.
+       Babel standalone (~3 MB) foi removido: o JSX e pre-compilado por build.sh -->
+  <script src="vendor/react.production.min.js"></script>
+  <script src="vendor/react-dom.production.min.js"></script>
 </head>
 <body>
 
@@ -123,50 +126,28 @@
   </div>
 </div>
 
-<!-- Dados do programa -->
+<!-- Dados do programa — JavaScript puro, editavel direto no GitHub sem recompilar -->
 <script src="v4/ccem-data.js"></script>
 
 <!-- Lib: ícones, hooks, storage -->
-<script type="text/babel" src="v4/ccem-lib.jsx"></script>
+<script src="v4/ccem-lib.js"></script>
 
 <!-- Telas -->
-<script type="text/babel" src="v4/ccem-screens.jsx"></script>
+<script src="v4/ccem-screens.js"></script>
 
 <!-- Home (saguão de entrada) -->
-<script type="text/babel" src="v4/ccem-home.jsx"></script>
+<script src="v4/ccem-home.js"></script>
 
 <!-- App Router v4 -->
-<script type="text/babel" data-presets="react">
-  function App() {
-    const hash = useHashRoute();
+<script src="v4/ccem-app.js"></script>
 
-    const route = useMemo(() => {
-      const parts = (hash || '#/').replace(/^#\/?/, '').split('/').filter(Boolean);
-      if (parts[0] === 'sessao'     && parts[1]) return { tela:'sessao', id:parts[1] };
-      if (parts[0] === 'programa')               return { tela:'programa' };
-      if (parts[0] === 'assistente')             return { tela:'assistente' };
-      if (parts[0] === 'trabalhos')              return { tela:'trabalhos' };
-      if (parts[0] === 'caderno')                return { tela:'caderno' };
-      if (parts[0] === 'info')                   return { tela:'info' };
-      return { tela:'home' };
-    }, [hash]);
-
-    const showShell = route.tela !== 'sessao' && route.tela !== 'home';
-
-    return (
-      <AppShell showShell={showShell} aba={route.tela}>
-        {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
-        {route.tela === 'home'       && <HomeScreen/>}
-        {route.tela === 'assistente' && <AssistenteScreen/>}
-        {route.tela === 'trabalhos'  && <TrabalhosScreen/>}
-        {route.tela === 'caderno'    && <CadernoScreen/>}
-        {route.tela === 'info'       && <InfoScreen/>}
-        {route.tela === 'programa'   && <ProgramaScreen/>}
-      </AppShell>
-    );
+<!-- Service worker: shell e grade em cache, para abrir sem rede -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function () {});
+    });
   }
-
-  ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 </script>
 
 <template id="__bundler_thumbnail" data-bg-color="#1d3e8a">
