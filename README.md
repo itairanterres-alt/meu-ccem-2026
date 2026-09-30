@@ -68,13 +68,19 @@ sem rede. `manifest.json` o torna instalável na tela inicial.
 
 ```
 index.html        shell, estilos e ordem de carregamento
-v4/ccem-data.js   TODO o conteúdo — programa, bios, briefings, quizzes
-v4/*.jsx          código-fonte das telas
-v4/*.js           saída compilada (é o que o navegador carrega)
+v4/               A VERSÃO VIVA — é daqui que o index.html carrega
+  ccem-data.js    TODO o conteúdo — programa, bios, briefings, quizzes
+  *.jsx           código-fonte das telas
+  *.js            saída compilada (é o que o navegador carrega)
 vendor/           React e fontes, hospedados localmente
 sw.js             service worker
 build.sh          compila os .jsx
+v3/               versão 3 congelada, autossuficiente. Histórico apenas
 ```
+
+**Editar sempre em `v4/`.** A raiz já teve cópias de `ccem-data.js`,
+`ccem-lib.jsx` e `ccem-screens.jsx` que nada carregava — quem as editasse não
+veria efeito nenhum. Foram removidas.
 
 ## Como atualizar
 
