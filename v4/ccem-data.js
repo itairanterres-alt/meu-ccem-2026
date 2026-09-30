@@ -67,7 +67,7 @@ const SESSOES = {
     id:'mini-glicemia', dia:DIAS[0], inicio:'08:15', fim:'08:45', dur:'30 min',
     tipo:'mini', badge:'Mini-Conferência',
     titulo:'Novas tecnologias de monitorização glicêmica: semelhantes ou diferentes na prática?',
-    moderador:'Dr. Fulvio Thomazelli',
+    moderador:'Dr. Fúlvio Tomaselli',
     temas:['DM2','Glicemia','Tecnologia'], navegavel:true,
     falas:[{ n:'·', palestrante:'Dra. Talita Letícia Trevisan' }],
   },
@@ -127,7 +127,7 @@ const SESSOES = {
   'simp4-hipofise': {
     id:'simp4-hipofise', dia:DIAS[0], inicio:'16:10', fim:'17:00', dur:'50 min',
     tipo:'simposio', badge:'Simpósio 4', titulo:'Hipófise',
-    moderador:'Dra. Julia Appel',
+    moderador:'Dra. Julia Goulart Appel',
     temas:['Hipófise'], navegavel:true,
     falas:[
       { n:1, titulo:'Desafios na hiperprolactinemia', palestrante:'Dra. Amely Pereira Silva Balthazar' },
@@ -309,7 +309,6 @@ const PALESTRANTES = {
 const SPEAKER_BIOS = {
   'Dr. Cleo Otaviano Mesa Jr.':{role:'Endocrinologista · Curitiba (PR)',bio:'Especialista em tireoide com atuação em centros de referência do Sul. Membro ativo da SBEM em CDT e seguimento de longo prazo.'},
   'Dr. Fúlvio Tomaselli':{role:'Presidente do CCEM 2026 · SBEM-SC',bio:'Endocrinologista, CRM/SC 7031. Presidente da SBEM-SC na gestão 2025/2026. Responsável técnico médico pelo congresso.'},
-  'Fulvio Clemo Santos Tomaselli':{role:'Presidente do CCEM 2026 · SBEM-SC',bio:'Endocrinologista, CRM/SC 7031. Presidente da SBEM-SC na gestão 2025/2026.'},
   'Dra. Sheila Montano Vega':{role:'Diretora de Comunicação SBEM-SC · Comissão Organizadora',bio:'Endocrinologista. Comunicação institucional e organização do CCEM 2026.'},
   'Dr. Frederico Marchisotti':{role:'Presidente-Eleito SBEM-SC',bio:'Endocrinologista. Atua em obesidade, metabolismo e medicina baseada em evidências.'},
   'Dr. Neuton Dornelas Gomes':{role:'Endocrinologista',bio:'Atuação em bioética aplicada à prescrição de fórmulas manipuladas e estratégias de emagrecimento.'},
