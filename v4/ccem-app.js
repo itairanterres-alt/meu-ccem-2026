@@ -2,7 +2,8 @@ function App() {
   const hash = useHashRoute();
   const route = useMemo(() => {
     const parts = (hash || "#/").replace(/^#\/?/, "").split("/").filter(Boolean);
-    if (parts[0] === "sessao" && parts[1]) return { tela: "sessao", id: parts[1] };
+    const IDS_ANTIGOS = { "simp4-hipofise": "simp4-adrenal", "simp8-adrenal": "simp8-hipofise" };
+    if (parts[0] === "sessao" && parts[1]) return { tela: "sessao", id: IDS_ANTIGOS[parts[1]] || parts[1] };
     if (parts[0] === "programa") return { tela: "programa" };
     if (parts[0] === "assistente") return { tela: "assistente" };
     if (parts[0] === "trabalhos") return { tela: "trabalhos" };
