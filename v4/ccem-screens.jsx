@@ -238,11 +238,8 @@ function SessaoDetail({ id }) {
   }
 
   function handleAnotar(){
-    // não cria nota vazia — contextualiza o Assistente; a nota nasce quando houver conteúdo
-    window._ccemCtxSessaoId = id;
-    window._ccemAnotarIntent = true;
-    showToast('Anote pelo Assistente · vai para o Caderno');
-    go('#/assistente');
+    // não cria nota vazia: abre o Assistente sobre esta sessão; a nota nasce quando houver conteúdo
+    ccemAbrirAssistente();
   }
 
   async function handleShare(){
@@ -257,9 +254,7 @@ function SessaoDetail({ id }) {
   }
 
   function handleAskAI(){
-    window._ccemCtxSessaoId = id;
-    showToast('Assistente contextualizado → '+s.badge);
-    go('#/assistente');
+    ccemAbrirAssistente();
   }
 
   const navBtn=(on)=>({width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',
@@ -515,7 +510,7 @@ function ProgramaScreen() {
       )}
 
       {/* Lista */}
-      <div ref={listRef} style={{flex:1,overflowY:'auto',paddingBottom:16}}>
+      <div ref={listRef} style={{flex:1,overflowY:'auto',paddingBottom:84}}>
         {items.length===0?(
           <div style={{textAlign:'center',padding:'40px 20px',color:C.cinza}}>
             <div style={{fontSize:28,marginBottom:10}}>○</div>
@@ -567,221 +562,6 @@ function ProgramaScreen() {
   );
 }
 
-/* ── Mock AI (fallback quando window.claude não disponível) ── */
-function classifyIntent(text) {
-  const t = norm(text);
-  if (t.includes('slide') || t.includes('foto') || t.includes('imagem') || t.includes('tira') || t.includes('fotograf')) return 'anotacao';
-  if (t.includes('sess') || t.includes('busca') || t.includes('trabalh') || t.includes('lp(a)') || t.includes('semag') || t.includes('compar') || t.includes('disse') || t.includes('falar')) return 'busca';
-  if (t.includes('export') || t.includes('onde') || t.includes('horas') || t.includes('sala') || t.includes('funciona') || t.includes('submiss') || t.includes('como')) return 'concierge';
-  return 'free';
-}
-const MOCK_AI = {
-  anotacao: [{tag:'Anotação',html:'Envie uma <strong>foto do slide</strong> (botão de câmera) ou descreva aqui o conteúdo em texto.<br><br>Vou estruturar em: <em>mensagem principal</em>, pontos de suporte e referência bibliográfica quando visível no slide.',actions:['Qual a referência?','Estruturar como nota']}],
-  busca: [{tag:'Busca · Programa',html:'<strong>Sessões relacionadas:</strong> Simpósio 1 — DM2, Simpósio 10 — Obesidade, Mini · IA no consultório.<br><br><em style="font-size:12px;color:#5b6577">Refine a busca para mais precisão.</em>',actions:['Ver Simpósio 1']}],
-  concierge: [{tag:'Info prática',html:'Para <strong>exportar o caderno</strong>: aba Caderno → botão PDF no rodapé.<br><br>Todos os dados ficam salvos neste dispositivo, associados ao seu ID local. O PDF inclui todas as notas com hora e sessão de origem.',actions:['Onde fica a sala?']}],
-  free: [{tag:'Assistente CCEM',html:'Pronto para ajudar. Três formas de usar:<br><br><strong>Foto ou descrição de slide</strong> → nota estruturada com take-home e referência<br><strong>Busca semântica</strong> — "que sessões falam de Lp(a)?"<br><strong>Dúvidas práticas</strong> — horários, salas, exportação do caderno<br><br><em style="font-size:12px;color:#5b6577">Não forneço orientação clínica para casos de pacientes.</em>'}],
-};
-
-/* ── AssistenteScreen ──────────────────────────────────────── */
-const CCEM_SISTEMA = 'Você é o assistente científico do Meu CCEM 2026 — Congresso Catarinense de Endocrinologia e Metabologia, Joinville/SC, 23–24 out 2026. Funções: (1) estruturar anotações de slides/áudio em notas clínicas editáveis, (2) busca semântica no programa, (3) concierge para dúvidas práticas do evento. Responda em português brasileiro, tom clínico direto. Máximo 200 palavras. NÃO forneça orientação clínica para casos reais de pacientes — se solicitado, decline educadamente.';
-
-function ccemBuildCtx(sessaoId) {
-  const s = SESSOES[sessaoId];
-  if (!s) return '';
-  const falas = (s.falas||[]).map(f=>`${f.n}. ${f.titulo||f.palestrante}${f.titulo?' — '+f.palestrante:''}`).join(' | ');
-  return `Sessão: ${s.badge} — ${s.titulo} (${s.inicio}–${s.fim}, ${s.dia}). ${s.moderador?'Mod.: '+s.moderador+'. ':''}Falas: ${falas}. Temas: ${(s.temas||[]).join(', ')}.`;
-}
-
-function ccemMd2html(text) {
-  return escapeHTML(text)
-    .replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g,'<em>$1</em>')
-    .replace(/\n\n/g,'<br><br>')
-    .replace(/\n/g,'<br>');
-}
-
-function AssistenteScreen() {
-  const [ctxId, setCtxId] = useState(()=>window._ccemCtxSessaoId||'');
-  const ctxSessao = SESSOES[ctxId] || null;
-  useEffect(()=>{
-    if(window._ccemCtxSessaoId && window._ccemCtxSessaoId!==ctxId) setCtxId(window._ccemCtxSessaoId);
-  },[]);
-
-  const welcomeHtml = ()=>{
-    const ctxLine = ctxSessao
-      ? `Contextualizado em <strong>${ctxSessao.badge} — ${ctxSessao.titulo.slice(0,55)}${ctxSessao.titulo.length>55?'…':''}</strong>.<br><br>`
-      : '';
-    return `${ctxLine}Como posso ajudar?<br><br><span style="color:#5b6577;font-size:12px;line-height:1.8"><strong>Foto de slide ou texto livre</strong> → nota estruturada com take-home<br><strong>Busca</strong> — "sessões sobre Lp(a)?"<br><strong>Dúvidas práticas</strong> — horários, salas, exportação do caderno</span>`;
-  };
-
-  const [msgs, setMsgs] = useState([{role:'ai',tag:'Início',ts:Date.now()-3600000,html:welcomeHtml()}]);
-  const [text, setText] = useState(()=>{
-    if(window._ccemAnotarIntent){ window._ccemAnotarIntent=false; return 'Anotar: '; }
-    return '';
-  });
-  const [loading, setLoading] = useState(false);
-  const endRef   = useRef(null);
-  const photoRef = useRef(null);
-
-  useEffect(()=>{
-    if(endRef.current) endRef.current.parentNode.scrollTop = endRef.current.offsetTop;
-  },[msgs.length,loading]);
-
-  function sendMsg(){
-    const v=text.trim(); if(!v) return;
-    setText('');
-    setMsgs(m=>[...m,{role:'user',ts:Date.now(),html:escapeHTML(v)}]);
-    setLoading(true);
-    setTimeout(()=>{
-      const mock=(MOCK_AI[classifyIntent(v)]||MOCK_AI.free)[0];
-      setMsgs(m=>[...m,{role:'ai',...mock,ts:Date.now()}]);
-      setLoading(false);
-    }, 800+Math.random()*500);
-  }
-
-  function handlePhoto(file){
-    if(!file) return;
-    const reader=new FileReader();
-    reader.onload=async ev=>{
-      setMsgs(m=>[...m,{role:'user',ts:Date.now(),html:`<img src="${ev.target.result}" style="max-width:180px;border-radius:8px;display:block;margin-bottom:4px"/><span style="font-size:12px;opacity:.85">slide enviado</span>`}]);
-      setLoading(true);
-      try {
-        const ctx = ccemBuildCtx(ctxId);
-        const prompt = CCEM_SISTEMA + (ctx?'\n\nContexto: '+ctx:'') + '\n\nO médico enviou uma foto de slide. Peça uma descrição breve do conteúdo (2–3 frases) para que você possa estruturá-lo em nota.';
-        const resp = await window.claude.complete({ messages:[{role:'user',content:prompt}] });
-        setMsgs(m=>[...m,{role:'ai',ts:Date.now(),tag:'Slide recebido',html:ccemMd2html(resp),actions:['Descrever o slide','Qual o ponto central?']}]);
-      } catch(e) {
-        setMsgs(m=>[...m,{role:'ai',ts:Date.now(),tag:'Slide recebido',html:'Descreva o conteúdo do slide para que eu possa estruturá-lo em nota clínica.',actions:['Descrever o slide']}]);
-      }
-      setLoading(false);
-    };
-    reader.readAsDataURL(file);
-  }
-
-  async function actionClick(a){
-    const v=a.toLowerCase();
-    setLoading(true);
-    try {
-      const ctx = ccemBuildCtx(ctxId);
-      let instrucao = '';
-      if(v.includes('take')||v.includes('take-home')) instrucao='Liste exatamente 3 take-homes clínicos desta sessão, numerados, direto ao ponto.';
-      else if(v.includes('resum')) instrucao='Resuma esta sessão em até 150 palavras, destacando consensos e tensões clínicas entre as falas.';
-      else if(v.includes('compar')) instrucao='Compare as abordagens das diferentes falas: pontos de convergência e de tensão clínica.';
-      else if(v.includes('salvar')||v.includes('caderno')||v.includes('nota')) instrucao='Gere uma nota estruturada de 3 bullet points dos pontos mais importantes desta sessão, pronta para salvar.';
-      else instrucao='Responda de forma útil sobre: '+a;
-
-      const prompt = CCEM_SISTEMA + '\n\nContexto: '+(ctx||'Congresso geral') + '\n\n' + instrucao;
-      const resp = await window.claude.complete({ messages:[{role:'user',content:prompt}] });
-      const html = ccemMd2html(resp);
-      setMsgs(m=>[...m,{role:'ai',ts:Date.now(),tag:a,html,actions:['Salvar no caderno']}]);
-
-      if(v.includes('salvar')||v.includes('caderno')){
-        const s=SESSOES[ctxId];
-        updateAppState(st=>{
-          if(!st.captures) st.captures=[];
-          st.captures.unshift({id:'c_'+Date.now().toString(36),dia:s?.dia||DIAS[0],time:nowStamp(),sessaoId:ctxId,sessaoRef:(s?.badge||'Sessão')+' · assistente',type:'texto',title:'IA: '+a.slice(0,40),body:html.slice(0,600),tags:s?.temas||[],ts:Date.now()});
-        });
-        showToast('Salvo no caderno ✓');
-      }
-    } catch(e) {
-      setMsgs(m=>[...m,{role:'ai',ts:Date.now(),tag:'Erro',html:'Não foi possível processar. Tente novamente.'}]);
-    }
-    setLoading(false);
-  }
-
-  const msgStyle=(role)=>({maxWidth:'86%',background:role==='ai'?'#fff':C.azul,color:role==='ai'?C.tinta:'#fff',borderRadius:role==='ai'?'14px 14px 14px 4px':'14px 14px 4px 14px',padding:'10px 12px',fontSize:12.5,lineHeight:1.55,border:role==='ai'?`1px solid ${C.linhaSoft}`:'none',boxShadow:role==='ai'?'0 1px 6px rgba(29,62,138,.06)':'none'});
-  const COMP_BTN = {width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',border:`1px solid ${C.linha}`,background:'#f8fafd',borderRadius:10,cursor:'pointer',flexShrink:0,padding:0};
-
-  return (
-    <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden',background:'#f3f6fc'}}>
-      {/* Header */}
-      <div style={{display:'flex',alignItems:'center',gap:10,padding:'9px 14px 7px',background:'#fff',borderBottom:`1px solid ${C.linhaSoft}`,flexShrink:0}}>
-        <div style={{width:32,height:32,borderRadius:10,background:C.azul,color:'#fff',display:'flex',alignItems:'center',justifyContent:'center',fontFamily:'Georgia,serif',fontSize:14,fontWeight:700,flexShrink:0}}>C</div>
-        <div>
-          <div style={{fontSize:12.5,fontWeight:700,color:C.tinta}}>Assistente CCEM</div>
-          <div style={{fontSize:12,color:C.cinza,display:'flex',alignItems:'center',gap:4}}>
-            <span style={{width:5,height:5,borderRadius:'50%',background:'#22c55e',display:'inline-block',flexShrink:0}}/>
-            {ctxSessao ? ctxSessao.badge+' · '+ctxSessao.inicio : 'CCEM 2026 · anotações e busca'}
-          </div>
-        </div>
-      </div>
-
-      {/* Boas-vindas ou chat */}
-      {!msgs.some(m=>m.role==='user') ? (
-        <div style={{flex:1,overflowY:'auto',padding:'18px 14px 10px'}}>
-          {/* Saudação */}
-          <div style={{marginBottom:18}}>
-            <div style={{fontSize:16,fontWeight:700,color:C.tinta,marginBottom:ctxSessao?5:0,letterSpacing:'-0.01em'}}>Como posso ajudar?</div>
-            {ctxSessao&&<div style={{fontSize:12,color:C.cinza}}>Contextualizado em <strong style={{color:C.azulSoft}}>{ctxSessao.badge} — {ctxSessao.titulo.slice(0,45)}{ctxSessao.titulo.length>45?'…':''}</strong></div>}
-          </div>
-          {/* Três funções */}
-          {[
-            {ico:<IcoCam size={22} color={C.azul}/>,title:'Auxiliar de Anotação',desc:'Foto de slide ou texto livre → nota estruturada com take-home e referência bibliográfica quando visível.',prompt:'Quero anotar um slide desta sessão',ord:'1'},
-            {ico:<IcoSearch size={22} color={C.azul}/>,title:'Busca Semântica',desc:'Programa em linguagem natural: sessões, palestrantes, temas, comparações entre falas.',prompt:'Que sessões falam de Lp(a)?',ord:'2'},
-            {ico:<IcoChat size={22} color={C.azul}/>,title:'Concierge',desc:'Dúvidas práticas sobre horários, local e exportação do caderno.',prompt:'Como exporto minhas notas?',ord:'3'},
-          ].map((f,i)=>(
-            <div key={i} onClick={()=>setText(f.prompt)}
-              role="button" tabIndex={0} aria-label={f.title}
-              onKeyDown={e=>(e.key==='Enter'||e.key===' ')&&setText(f.prompt)}
-              style={{background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:12,padding:'13px 14px',marginBottom:8,cursor:'pointer',display:'flex',gap:12,alignItems:'flex-start',transition:'all .13s',position:'relative'}}
-              onMouseOver={e=>{e.currentTarget.style.borderColor=C.azul;e.currentTarget.style.transform='translateY(-1px)';e.currentTarget.style.boxShadow='0 4px 14px rgba(29,62,138,.09)';}}
-              onMouseOut={e=>{e.currentTarget.style.borderColor=C.linhaSoft;e.currentTarget.style.transform='';e.currentTarget.style.boxShadow='';}}>
-
-              <span style={{flexShrink:0,marginTop:1}}>{f.ico}</span>
-              <div style={{flex:1,minWidth:0}}>
-                <div style={{display:'flex',alignItems:'center',gap:6,marginBottom:3}}>
-                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>{f.ord}</span>
-                  <span style={{fontSize:13,fontWeight:700,color:C.tinta}}>{f.title}</span>
-                </div>
-                <div style={{fontSize:12,color:C.cinza,lineHeight:1.45,marginBottom:7}}>{f.desc}</div>
-                <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.azulSoft,background:C.azulBg,padding:'2px 9px',borderRadius:8}}>ex: "{f.prompt}"</span>
-              </div>
-              <IcoChevR size={14} color={C.cinza} style={{flexShrink:0,marginTop:4}}/>
-            </div>
-          ))}
-          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,marginTop:8,padding:'8px 12px',background:'#f0f4fc',borderRadius:8,lineHeight:1.65}}>
-            Não forneço orientação clínica para casos de pacientes reais.
-          </div>
-        </div>
-      ):(
-        <div style={{flex:1,overflowY:'auto',padding:'12px 12px 0'}}>
-          {msgs.map((m,i)=>(
-            <div key={i} style={{display:'flex',flexDirection:'column',alignItems:m.role==='ai'?'flex-start':'flex-end',marginBottom:10}}>
-              <div style={msgStyle(m.role)}>
-                {m.role==='ai'&&m.tag&&<div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.azulSoft,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:6}}>{m.tag}</div>}
-                <div dangerouslySetInnerHTML={{__html:m.html}}/>
-                {m.role==='ai'&&m.ref&&<div style={{marginTop:7,paddingTop:7,borderTop:`1px solid ${C.linhaSoft}`,fontSize:12,color:C.cinza}} dangerouslySetInnerHTML={{__html:m.ref}}/>}
-                {m.role==='ai'&&m.actions&&(
-                  <div style={{display:'flex',gap:5,flexWrap:'wrap',marginTop:8}}>
-                    {m.actions.map((a,j)=><button key={j} onClick={()=>actionClick(a)} style={{minHeight:44,border:`1px solid ${C.linha}`,background:'#f8fafd',color:C.azul,borderRadius:7,padding:'4px 12px',fontSize:12,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>{a}</button>)}
-                  </div>
-                )}
-              </div>
-              <div style={{fontSize:12,color:C.cinza,marginTop:3,fontFamily:'DM Sans,system-ui,sans-serif'}}>{new Date(m.ts).getHours()}:{String(new Date(m.ts).getMinutes()).padStart(2,'0')}</div>
-            </div>
-          ))}
-          {loading&&<div style={{display:'flex',gap:4,padding:'8px 12px',background:'#fff',borderRadius:'14px 14px 14px 4px',width:60,border:`1px solid ${C.linhaSoft}`,marginBottom:10}}>{[0,1,2].map(i=><span key={i} style={{width:7,height:7,borderRadius:'50%',background:C.cinza,display:'inline-block',animation:`ccem-bounce .9s ${i*.2}s ease-in-out infinite`}}/>)}</div>}
-          <div ref={endRef}/>
-        </div>
-      )}
-
-      {/* Composer — limpo, sem chips pré-prontos */}
-      <div style={{display:'flex',alignItems:'center',gap:7,padding:'8px 10px 14px',background:'#fff',borderTop:`1px solid ${C.linhaSoft}`,flexShrink:0}}>
-        <input type="file" accept="image/*" capture="environment" ref={photoRef} style={{display:'none'}}
-          onChange={e=>{handlePhoto(e.target.files&&e.target.files[0]);e.target.value='';}}/>
-        <button onClick={()=>photoRef.current&&photoRef.current.click()} style={COMP_BTN} title="Foto de slide">
-          <IcoCam size={18} color={C.cinza}/>
-        </button>
-        <input value={text} onChange={e=>setText(e.target.value)}
-          onKeyDown={e=>e.key==='Enter'&&!e.shiftKey&&sendMsg()}
-          placeholder="Pergunte ou anote…"
-          style={{flex:1,minWidth:0,minHeight:44,padding:'8px 14px',border:`1px solid ${C.linha}`,borderRadius:24,fontFamily:'DM Sans,sans-serif',fontSize:16,color:C.tinta,background:'#f8fafd',outline:'none'}}/>
-        <button onClick={sendMsg} style={{...COMP_BTN,background:C.azul,border:'none'}}><IcoSend size={16} color="#fff"/></button>
-      </div>
-    </div>
-  );
-}
-
 /* ── CadernoScreen ──────────────────────────────────────────── */
 /* Data e hora em Joinville a partir do instante salvo na nota. */
 function ccemDataHoraJoinville(ts) {
@@ -792,6 +572,13 @@ function ccemDataHoraJoinville(ts) {
 /* Exporta o Caderno para PDF pelo diálogo de impressão do navegador.
    Precisa ser chamada a partir de um toque: senão o navegador bloqueia
    a janela nova. */
+/* Corpo da nota como texto. Notas de versões antigas guardavam HTML:
+   viram texto aqui, para nada ser interpretado como código. */
+function ccemNotaEmTexto(body) {
+  return String(body||'').replace(/<br\s*\/?>/gi,'\n').replace(/<[^>]*>/g,'')
+    .replace(/&nbsp;/g,' ').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&amp;/g,'&');
+}
+
 function ccemExportarCaderno(captures) {
   const lista = [...(captures||[])].sort((a,b)=>a.ts-b.ts);
   if (!lista.length) { showToast('O caderno está vazio'); return; }
@@ -803,7 +590,7 @@ function ccemExportarCaderno(captures) {
     const { data, hora } = ccemDataHoraJoinville(c.ts);
     const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : (c.sessaoRef||'');
     return `<div class="nota"><div class="meta">${esc(data)} · ${esc(hora)} · ${esc(sess)}</div>`
-         + `<h3>${esc(c.title)}</h3><div class="body">${c.body||''}</div></div>`;
+         + `<h3>${esc(c.title)}</h3><div class="body">${esc(ccemNotaEmTexto(c.body))}</div></div>`;
   }).join('');
   w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu Caderno · CCEM 2026</title><style>
     body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
@@ -812,7 +599,7 @@ function ccemExportarCaderno(captures) {
     .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
     .meta{font-size:12px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
     h3{font-size:14px;margin:0 0 6px}
-    .body{font-size:13px;line-height:1.55}
+    .body{font-size:13px;line-height:1.55;white-space:pre-wrap}
   </style></head><body><h1>Meu Caderno · CCEM 2026</h1><p class="sub">${lista.length} nota${lista.length!==1?'s':''} · exportado em ${hoje} · 12º Congresso Catarinense de Endocrinologia e Metabologia</p>${rows}<script>window.print()<\/script></body></html>`);
   w.document.close();
 }
@@ -841,7 +628,7 @@ function CadernoScreen() {
           <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,flex:1,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{c.sessaoRef} · {c.time}</span>
         </div>
         <div style={{fontSize:12.5,fontWeight:600,color:C.tinta,marginBottom:4,lineHeight:1.3}}>{c.title}</div>
-        <div style={{fontSize:12,color:C.cinza,lineHeight:1.5}} dangerouslySetInnerHTML={{__html:c.body}}/>
+        <div style={{fontSize:12,color:C.cinza,lineHeight:1.5,whiteSpace:'pre-wrap'}}>{ccemNotaEmTexto(c.body)}</div>
         {(c.tags||[]).length>0&&<div style={{display:'flex',gap:4,marginTop:6,flexWrap:'wrap'}}>{c.tags.map(t=><span key={t} style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.azulSoft,background:C.azulBg+'60',padding:'2px 7px',borderRadius:8}}>{t}</span>)}</div>}
       </div>
     );
@@ -914,7 +701,7 @@ function InfoScreen() {
 
   return (
     <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
-      <div style={{flex:1,overflowY:'auto',paddingBottom:24}}>
+      <div style={{flex:1,overflowY:'auto',paddingBottom:84}}>
 
         {/* Identidade */}
         <div style={{background:C.azul,color:'#fff',padding:'20px 16px 18px'}}>
@@ -970,6 +757,9 @@ function InfoScreen() {
           </p>
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
             O app fica disponível até 31/12/2026. Notas não são enviadas a servidor; se você limpar o navegador ou trocar de aparelho, elas se perdem — exporte o PDF.
+          </p>
+          <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
+            Assistente CCEM (beta): a pergunta e a foto do slide, quando houver, são enviadas para processamento pela Anthropic, nos EUA, e descartadas em seguida; o app não as grava. Não envie dados de pacientes. As respostas são geradas por IA e podem conter erros.
           </p>
           <div style={{display:'flex',alignItems:'center',gap:8,padding:'7px 0',borderTop:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
             <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',flexShrink:0}}>ID local</span>
@@ -1119,7 +909,21 @@ function DesktopSidebar({ aba }) {
 }
 
 /* ── AppShell ────────────────────────────────────────────────── */
-function AppShell({ showShell, aba, children }){
+/* Área de conteúdo com o botão "8" no canto inferior direito.
+   reserva: nas telas com "Marcar" e "Adicionar ao calendário" (Home e
+   Sessão), uma faixa fixa no rodapé abriga o botão — o conteúdo nunca
+   passa por baixo dele, então ele nunca cobre esses botões. */
+function AreaComFab({ fab, reserva, children }) {
+  return (
+    <div style={{flex:1,display:'flex',flexDirection:'column',overflow:'hidden',minHeight:0,position:'relative'}}>
+      <div style={{flex:1,display:'flex',flexDirection:'column',overflow:'hidden',minHeight:0}}>{children}</div>
+      {reserva&&<div aria-hidden="true" style={{height:84,flexShrink:0,background:C.papel,borderTop:`1px solid ${C.linhaSoft}`}}/>}
+      {fab}
+    </div>
+  );
+}
+
+function AppShell({ showShell, aba, fab, reservaFab, children }){
   const isDesktop = useIsDesktop();
   if (isDesktop) {
     return (
@@ -1127,7 +931,7 @@ function AppShell({ showShell, aba, children }){
         <DesktopSidebar aba={aba}/>
         <div style={{flex:1,overflow:'hidden',display:'flex',flexDirection:'column',alignItems:'center',minHeight:0,background:'#e8eef8'}}>
           <div style={{width:'100%',maxWidth:800,flex:1,overflow:'hidden',display:'flex',flexDirection:'column',minHeight:0,background:C.papel}}>
-            {children}
+            <AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>
           </div>
         </div>
       </div>
@@ -1138,10 +942,10 @@ function AppShell({ showShell, aba, children }){
       {showShell?(
         <>
           <AppHeader/>
-          <div style={{flex:1,overflow:'hidden',display:'flex',flexDirection:'column',minHeight:0}}>{children}</div>
+          <AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>
           <TabBar aba={aba}/>
         </>
-      ):children}
+      ):<AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>}
     </div>
   );
 }
@@ -1149,7 +953,7 @@ function AppShell({ showShell, aba, children }){
 Object.assign(window, {
   AppShell, AppHeader, LiveStrip, TabBar, DesktopSidebar, useIsDesktop,
   DayTimeline, SlideDisplay, SlideUploadBtn,
-  ProgramaScreen, SessaoDetail, AssistenteScreen, CadernoScreen, InfoScreen,
+  ProgramaScreen, SessaoDetail, CadernoScreen, InfoScreen,
   BadgePill, TopicPill, IntervalRow, SessaoCard,
-  sessionIsPast, isEventWeek, classifyIntent, MOCK_AI, ccemExportarCaderno, ccemDataHoraJoinville,
+  sessionIsPast, isEventWeek, ccemExportarCaderno, ccemDataHoraJoinville, ccemNotaEmTexto,
 });

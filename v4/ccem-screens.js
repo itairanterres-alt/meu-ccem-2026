@@ -206,10 +206,7 @@ function SessaoDetail({ id }) {
     );
   }
   function handleAnotar() {
-    window._ccemCtxSessaoId = id;
-    window._ccemAnotarIntent = true;
-    showToast("Anote pelo Assistente \xB7 vai para o Caderno");
-    go("#/assistente");
+    ccemAbrirAssistente();
   }
   async function handleShare() {
     const texto = `${s.badge} \u2014 ${s.titulo}
@@ -231,9 +228,7 @@ ${s.dia} \xB7 ${s.inicio}\u2013${s.fim} \xB7 Expoville, Joinville/SC
     }
   }
   function handleAskAI() {
-    window._ccemCtxSessaoId = id;
-    showToast("Assistente contextualizado \u2192 " + s.badge);
-    go("#/assistente");
+    ccemAbrirAssistente();
   }
   const navBtn = (on) => ({
     width: 44,
@@ -371,7 +366,7 @@ function ProgramaScreen() {
   )), /* @__PURE__ */ React.createElement(DayTimeline, { dia }), hasFilter && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 5, padding: "5px 12px", background: "#f0f4fc", borderBottom: `1px solid ${C.linhaSoft}`, flexShrink: 0, overflowX: "auto", scrollbarWidth: "none", alignItems: "center" } }, filtroTipo && /* @__PURE__ */ React.createElement("span", { style: { ...chipSt(true, C.azul), minHeight: 0, fontSize: 12, padding: "3px 10px" } }, filtroTipo === "simposio" ? "Simp\xF3sio" : filtroTipo === "mini" ? "Mini" : "Sat\xE9lite"), soMarcados && /* @__PURE__ */ React.createElement("span", { style: { ...chipSt(true, C.ouro), minHeight: 0, fontSize: 12, padding: "3px 10px" } }, "\u2605 Marcados"), /* @__PURE__ */ React.createElement("button", { onClick: () => {
     setFiltroTipo(null);
     setSoMarcados(false);
-  }, style: { minHeight: 44, minWidth: 44, border: "none", background: "none", color: C.cinza, fontSize: 12, cursor: "pointer", fontFamily: "inherit", padding: "0 8px", flexShrink: 0 } }, "Limpar \xD7")), /* @__PURE__ */ React.createElement("div", { ref: listRef, style: { flex: 1, overflowY: "auto", paddingBottom: 16 } }, items.length === 0 ? /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "40px 20px", color: C.cinza } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 28, marginBottom: 10 } }, "\u25CB"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, marginBottom: 12 } }, "Nenhuma sess\xE3o encontrada"), /* @__PURE__ */ React.createElement("button", { onClick: () => {
+  }, style: { minHeight: 44, minWidth: 44, border: "none", background: "none", color: C.cinza, fontSize: 12, cursor: "pointer", fontFamily: "inherit", padding: "0 8px", flexShrink: 0 } }, "Limpar \xD7")), /* @__PURE__ */ React.createElement("div", { ref: listRef, style: { flex: 1, overflowY: "auto", paddingBottom: 84 } }, items.length === 0 ? /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "40px 20px", color: C.cinza } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 28, marginBottom: 10 } }, "\u25CB"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, marginBottom: 12 } }, "Nenhuma sess\xE3o encontrada"), /* @__PURE__ */ React.createElement("button", { onClick: () => {
     setBusca("");
     setFiltroTipo(null);
     setSoMarcados(false);
@@ -419,168 +414,12 @@ function ProgramaScreen() {
     )
   ));
 }
-function classifyIntent(text) {
-  const t = norm(text);
-  if (t.includes("slide") || t.includes("foto") || t.includes("imagem") || t.includes("tira") || t.includes("fotograf")) return "anotacao";
-  if (t.includes("sess") || t.includes("busca") || t.includes("trabalh") || t.includes("lp(a)") || t.includes("semag") || t.includes("compar") || t.includes("disse") || t.includes("falar")) return "busca";
-  if (t.includes("export") || t.includes("onde") || t.includes("horas") || t.includes("sala") || t.includes("funciona") || t.includes("submiss") || t.includes("como")) return "concierge";
-  return "free";
-}
-const MOCK_AI = {
-  anotacao: [{ tag: "Anota\xE7\xE3o", html: "Envie uma <strong>foto do slide</strong> (bot\xE3o de c\xE2mera) ou descreva aqui o conte\xFAdo em texto.<br><br>Vou estruturar em: <em>mensagem principal</em>, pontos de suporte e refer\xEAncia bibliogr\xE1fica quando vis\xEDvel no slide.", actions: ["Qual a refer\xEAncia?", "Estruturar como nota"] }],
-  busca: [{ tag: "Busca \xB7 Programa", html: '<strong>Sess\xF5es relacionadas:</strong> Simp\xF3sio 1 \u2014 DM2, Simp\xF3sio 10 \u2014 Obesidade, Mini \xB7 IA no consult\xF3rio.<br><br><em style="font-size:12px;color:#5b6577">Refine a busca para mais precis\xE3o.</em>', actions: ["Ver Simp\xF3sio 1"] }],
-  concierge: [{ tag: "Info pr\xE1tica", html: "Para <strong>exportar o caderno</strong>: aba Caderno \u2192 bot\xE3o PDF no rodap\xE9.<br><br>Todos os dados ficam salvos neste dispositivo, associados ao seu ID local. O PDF inclui todas as notas com hora e sess\xE3o de origem.", actions: ["Onde fica a sala?"] }],
-  free: [{ tag: "Assistente CCEM", html: 'Pronto para ajudar. Tr\xEAs formas de usar:<br><br><strong>Foto ou descri\xE7\xE3o de slide</strong> \u2192 nota estruturada com take-home e refer\xEAncia<br><strong>Busca sem\xE2ntica</strong> \u2014 "que sess\xF5es falam de Lp(a)?"<br><strong>D\xFAvidas pr\xE1ticas</strong> \u2014 hor\xE1rios, salas, exporta\xE7\xE3o do caderno<br><br><em style="font-size:12px;color:#5b6577">N\xE3o forne\xE7o orienta\xE7\xE3o cl\xEDnica para casos de pacientes.</em>' }]
-};
-const CCEM_SISTEMA = "Voc\xEA \xE9 o assistente cient\xEDfico do Meu CCEM 2026 \u2014 Congresso Catarinense de Endocrinologia e Metabologia, Joinville/SC, 23\u201324 out 2026. Fun\xE7\xF5es: (1) estruturar anota\xE7\xF5es de slides/\xE1udio em notas cl\xEDnicas edit\xE1veis, (2) busca sem\xE2ntica no programa, (3) concierge para d\xFAvidas pr\xE1ticas do evento. Responda em portugu\xEAs brasileiro, tom cl\xEDnico direto. M\xE1ximo 200 palavras. N\xC3O forne\xE7a orienta\xE7\xE3o cl\xEDnica para casos reais de pacientes \u2014 se solicitado, decline educadamente.";
-function ccemBuildCtx(sessaoId) {
-  const s = SESSOES[sessaoId];
-  if (!s) return "";
-  const falas = (s.falas || []).map((f) => `${f.n}. ${f.titulo || f.palestrante}${f.titulo ? " \u2014 " + f.palestrante : ""}`).join(" | ");
-  return `Sess\xE3o: ${s.badge} \u2014 ${s.titulo} (${s.inicio}\u2013${s.fim}, ${s.dia}). ${s.moderador ? "Mod.: " + s.moderador + ". " : ""}Falas: ${falas}. Temas: ${(s.temas || []).join(", ")}.`;
-}
-function ccemMd2html(text) {
-  return escapeHTML(text).replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>").replace(/\*(.*?)\*/g, "<em>$1</em>").replace(/\n\n/g, "<br><br>").replace(/\n/g, "<br>");
-}
-function AssistenteScreen() {
-  const [ctxId, setCtxId] = useState(() => window._ccemCtxSessaoId || "");
-  const ctxSessao = SESSOES[ctxId] || null;
-  useEffect(() => {
-    if (window._ccemCtxSessaoId && window._ccemCtxSessaoId !== ctxId) setCtxId(window._ccemCtxSessaoId);
-  }, []);
-  const welcomeHtml = () => {
-    const ctxLine = ctxSessao ? `Contextualizado em <strong>${ctxSessao.badge} \u2014 ${ctxSessao.titulo.slice(0, 55)}${ctxSessao.titulo.length > 55 ? "\u2026" : ""}</strong>.<br><br>` : "";
-    return `${ctxLine}Como posso ajudar?<br><br><span style="color:#5b6577;font-size:12px;line-height:1.8"><strong>Foto de slide ou texto livre</strong> \u2192 nota estruturada com take-home<br><strong>Busca</strong> \u2014 "sess\xF5es sobre Lp(a)?"<br><strong>D\xFAvidas pr\xE1ticas</strong> \u2014 hor\xE1rios, salas, exporta\xE7\xE3o do caderno</span>`;
-  };
-  const [msgs, setMsgs] = useState([{ role: "ai", tag: "In\xEDcio", ts: Date.now() - 36e5, html: welcomeHtml() }]);
-  const [text, setText] = useState(() => {
-    if (window._ccemAnotarIntent) {
-      window._ccemAnotarIntent = false;
-      return "Anotar: ";
-    }
-    return "";
-  });
-  const [loading, setLoading] = useState(false);
-  const endRef = useRef(null);
-  const photoRef = useRef(null);
-  useEffect(() => {
-    if (endRef.current) endRef.current.parentNode.scrollTop = endRef.current.offsetTop;
-  }, [msgs.length, loading]);
-  function sendMsg() {
-    const v = text.trim();
-    if (!v) return;
-    setText("");
-    setMsgs((m) => [...m, { role: "user", ts: Date.now(), html: escapeHTML(v) }]);
-    setLoading(true);
-    setTimeout(() => {
-      const mock = (MOCK_AI[classifyIntent(v)] || MOCK_AI.free)[0];
-      setMsgs((m) => [...m, { role: "ai", ...mock, ts: Date.now() }]);
-      setLoading(false);
-    }, 800 + Math.random() * 500);
-  }
-  function handlePhoto(file) {
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = async (ev) => {
-      setMsgs((m) => [...m, { role: "user", ts: Date.now(), html: `<img src="${ev.target.result}" style="max-width:180px;border-radius:8px;display:block;margin-bottom:4px"/><span style="font-size:12px;opacity:.85">slide enviado</span>` }]);
-      setLoading(true);
-      try {
-        const ctx = ccemBuildCtx(ctxId);
-        const prompt = CCEM_SISTEMA + (ctx ? "\n\nContexto: " + ctx : "") + "\n\nO m\xE9dico enviou uma foto de slide. Pe\xE7a uma descri\xE7\xE3o breve do conte\xFAdo (2\u20133 frases) para que voc\xEA possa estrutur\xE1-lo em nota.";
-        const resp = await window.claude.complete({ messages: [{ role: "user", content: prompt }] });
-        setMsgs((m) => [...m, { role: "ai", ts: Date.now(), tag: "Slide recebido", html: ccemMd2html(resp), actions: ["Descrever o slide", "Qual o ponto central?"] }]);
-      } catch (e) {
-        setMsgs((m) => [...m, { role: "ai", ts: Date.now(), tag: "Slide recebido", html: "Descreva o conte\xFAdo do slide para que eu possa estrutur\xE1-lo em nota cl\xEDnica.", actions: ["Descrever o slide"] }]);
-      }
-      setLoading(false);
-    };
-    reader.readAsDataURL(file);
-  }
-  async function actionClick(a) {
-    const v = a.toLowerCase();
-    setLoading(true);
-    try {
-      const ctx = ccemBuildCtx(ctxId);
-      let instrucao = "";
-      if (v.includes("take") || v.includes("take-home")) instrucao = "Liste exatamente 3 take-homes cl\xEDnicos desta sess\xE3o, numerados, direto ao ponto.";
-      else if (v.includes("resum")) instrucao = "Resuma esta sess\xE3o em at\xE9 150 palavras, destacando consensos e tens\xF5es cl\xEDnicas entre as falas.";
-      else if (v.includes("compar")) instrucao = "Compare as abordagens das diferentes falas: pontos de converg\xEAncia e de tens\xE3o cl\xEDnica.";
-      else if (v.includes("salvar") || v.includes("caderno") || v.includes("nota")) instrucao = "Gere uma nota estruturada de 3 bullet points dos pontos mais importantes desta sess\xE3o, pronta para salvar.";
-      else instrucao = "Responda de forma \xFAtil sobre: " + a;
-      const prompt = CCEM_SISTEMA + "\n\nContexto: " + (ctx || "Congresso geral") + "\n\n" + instrucao;
-      const resp = await window.claude.complete({ messages: [{ role: "user", content: prompt }] });
-      const html = ccemMd2html(resp);
-      setMsgs((m) => [...m, { role: "ai", ts: Date.now(), tag: a, html, actions: ["Salvar no caderno"] }]);
-      if (v.includes("salvar") || v.includes("caderno")) {
-        const s = SESSOES[ctxId];
-        updateAppState((st) => {
-          if (!st.captures) st.captures = [];
-          st.captures.unshift({ id: "c_" + Date.now().toString(36), dia: s?.dia || DIAS[0], time: nowStamp(), sessaoId: ctxId, sessaoRef: (s?.badge || "Sess\xE3o") + " \xB7 assistente", type: "texto", title: "IA: " + a.slice(0, 40), body: html.slice(0, 600), tags: s?.temas || [], ts: Date.now() });
-        });
-        showToast("Salvo no caderno \u2713");
-      }
-    } catch (e) {
-      setMsgs((m) => [...m, { role: "ai", ts: Date.now(), tag: "Erro", html: "N\xE3o foi poss\xEDvel processar. Tente novamente." }]);
-    }
-    setLoading(false);
-  }
-  const msgStyle = (role) => ({ maxWidth: "86%", background: role === "ai" ? "#fff" : C.azul, color: role === "ai" ? C.tinta : "#fff", borderRadius: role === "ai" ? "14px 14px 14px 4px" : "14px 14px 4px 14px", padding: "10px 12px", fontSize: 12.5, lineHeight: 1.55, border: role === "ai" ? `1px solid ${C.linhaSoft}` : "none", boxShadow: role === "ai" ? "0 1px 6px rgba(29,62,138,.06)" : "none" });
-  const COMP_BTN = { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${C.linha}`, background: "#f8fafd", borderRadius: 10, cursor: "pointer", flexShrink: 0, padding: 0 };
-  return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexDirection: "column", height: "100%", overflow: "hidden", background: "#f3f6fc" } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 10, padding: "9px 14px 7px", background: "#fff", borderBottom: `1px solid ${C.linhaSoft}`, flexShrink: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { width: 32, height: 32, borderRadius: 10, background: C.azul, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Georgia,serif", fontSize: 14, fontWeight: 700, flexShrink: 0 } }, "C"), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, fontWeight: 700, color: C.tinta } }, "Assistente CCEM"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, display: "flex", alignItems: "center", gap: 4 } }, /* @__PURE__ */ React.createElement("span", { style: { width: 5, height: 5, borderRadius: "50%", background: "#22c55e", display: "inline-block", flexShrink: 0 } }), ctxSessao ? ctxSessao.badge + " \xB7 " + ctxSessao.inicio : "CCEM 2026 \xB7 anota\xE7\xF5es e busca"))), !msgs.some((m) => m.role === "user") ? /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "18px 14px 10px" } }, /* @__PURE__ */ React.createElement("div", { style: { marginBottom: 18 } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 16, fontWeight: 700, color: C.tinta, marginBottom: ctxSessao ? 5 : 0, letterSpacing: "-0.01em" } }, "Como posso ajudar?"), ctxSessao && /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza } }, "Contextualizado em ", /* @__PURE__ */ React.createElement("strong", { style: { color: C.azulSoft } }, ctxSessao.badge, " \u2014 ", ctxSessao.titulo.slice(0, 45), ctxSessao.titulo.length > 45 ? "\u2026" : ""))), [
-    { ico: /* @__PURE__ */ React.createElement(IcoCam, { size: 22, color: C.azul }), title: "Auxiliar de Anota\xE7\xE3o", desc: "Foto de slide ou texto livre \u2192 nota estruturada com take-home e refer\xEAncia bibliogr\xE1fica quando vis\xEDvel.", prompt: "Quero anotar um slide desta sess\xE3o", ord: "1" },
-    { ico: /* @__PURE__ */ React.createElement(IcoSearch, { size: 22, color: C.azul }), title: "Busca Sem\xE2ntica", desc: "Programa em linguagem natural: sess\xF5es, palestrantes, temas, compara\xE7\xF5es entre falas.", prompt: "Que sess\xF5es falam de Lp(a)?", ord: "2" },
-    { ico: /* @__PURE__ */ React.createElement(IcoChat, { size: 22, color: C.azul }), title: "Concierge", desc: "D\xFAvidas pr\xE1ticas sobre hor\xE1rios, local e exporta\xE7\xE3o do caderno.", prompt: "Como exporto minhas notas?", ord: "3" }
-  ].map((f, i) => /* @__PURE__ */ React.createElement(
-    "div",
-    {
-      key: i,
-      onClick: () => setText(f.prompt),
-      role: "button",
-      tabIndex: 0,
-      "aria-label": f.title,
-      onKeyDown: (e) => (e.key === "Enter" || e.key === " ") && setText(f.prompt),
-      style: { background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: 12, padding: "13px 14px", marginBottom: 8, cursor: "pointer", display: "flex", gap: 12, alignItems: "flex-start", transition: "all .13s", position: "relative" },
-      onMouseOver: (e) => {
-        e.currentTarget.style.borderColor = C.azul;
-        e.currentTarget.style.transform = "translateY(-1px)";
-        e.currentTarget.style.boxShadow = "0 4px 14px rgba(29,62,138,.09)";
-      },
-      onMouseOut: (e) => {
-        e.currentTarget.style.borderColor = C.linhaSoft;
-        e.currentTarget.style.transform = "";
-        e.currentTarget.style.boxShadow = "";
-      }
-    },
-    /* @__PURE__ */ React.createElement("span", { style: { flexShrink: 0, marginTop: 1 } }, f.ico),
-    /* @__PURE__ */ React.createElement("div", { style: { flex: 1, minWidth: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6, marginBottom: 3 } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em" } }, f.ord), /* @__PURE__ */ React.createElement("span", { style: { fontSize: 13, fontWeight: 700, color: C.tinta } }, f.title)), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.45, marginBottom: 7 } }, f.desc), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azulSoft, background: C.azulBg, padding: "2px 9px", borderRadius: 8 } }, 'ex: "', f.prompt, '"')),
-    /* @__PURE__ */ React.createElement(IcoChevR, { size: 14, color: C.cinza, style: { flexShrink: 0, marginTop: 4 } })
-  )), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, marginTop: 8, padding: "8px 12px", background: "#f0f4fc", borderRadius: 8, lineHeight: 1.65 } }, "N\xE3o forne\xE7o orienta\xE7\xE3o cl\xEDnica para casos de pacientes reais.")) : /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "12px 12px 0" } }, msgs.map((m, i) => /* @__PURE__ */ React.createElement("div", { key: i, style: { display: "flex", flexDirection: "column", alignItems: m.role === "ai" ? "flex-start" : "flex-end", marginBottom: 10 } }, /* @__PURE__ */ React.createElement("div", { style: msgStyle(m.role) }, m.role === "ai" && m.tag && /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azulSoft, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 6 } }, m.tag), /* @__PURE__ */ React.createElement("div", { dangerouslySetInnerHTML: { __html: m.html } }), m.role === "ai" && m.ref && /* @__PURE__ */ React.createElement("div", { style: { marginTop: 7, paddingTop: 7, borderTop: `1px solid ${C.linhaSoft}`, fontSize: 12, color: C.cinza }, dangerouslySetInnerHTML: { __html: m.ref } }), m.role === "ai" && m.actions && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 5, flexWrap: "wrap", marginTop: 8 } }, m.actions.map((a, j) => /* @__PURE__ */ React.createElement("button", { key: j, onClick: () => actionClick(a), style: { minHeight: 44, border: `1px solid ${C.linha}`, background: "#f8fafd", color: C.azul, borderRadius: 7, padding: "4px 12px", fontSize: 12, fontWeight: 600, cursor: "pointer", fontFamily: "inherit" } }, a)))), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, marginTop: 3, fontFamily: "DM Sans,system-ui,sans-serif" } }, new Date(m.ts).getHours(), ":", String(new Date(m.ts).getMinutes()).padStart(2, "0")))), loading && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 4, padding: "8px 12px", background: "#fff", borderRadius: "14px 14px 14px 4px", width: 60, border: `1px solid ${C.linhaSoft}`, marginBottom: 10 } }, [0, 1, 2].map((i) => /* @__PURE__ */ React.createElement("span", { key: i, style: { width: 7, height: 7, borderRadius: "50%", background: C.cinza, display: "inline-block", animation: `ccem-bounce .9s ${i * 0.2}s ease-in-out infinite` } }))), /* @__PURE__ */ React.createElement("div", { ref: endRef })), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 7, padding: "8px 10px 14px", background: "#fff", borderTop: `1px solid ${C.linhaSoft}`, flexShrink: 0 } }, /* @__PURE__ */ React.createElement(
-    "input",
-    {
-      type: "file",
-      accept: "image/*",
-      capture: "environment",
-      ref: photoRef,
-      style: { display: "none" },
-      onChange: (e) => {
-        handlePhoto(e.target.files && e.target.files[0]);
-        e.target.value = "";
-      }
-    }
-  ), /* @__PURE__ */ React.createElement("button", { onClick: () => photoRef.current && photoRef.current.click(), style: COMP_BTN, title: "Foto de slide" }, /* @__PURE__ */ React.createElement(IcoCam, { size: 18, color: C.cinza })), /* @__PURE__ */ React.createElement(
-    "input",
-    {
-      value: text,
-      onChange: (e) => setText(e.target.value),
-      onKeyDown: (e) => e.key === "Enter" && !e.shiftKey && sendMsg(),
-      placeholder: "Pergunte ou anote\u2026",
-      style: { flex: 1, minWidth: 0, minHeight: 44, padding: "8px 14px", border: `1px solid ${C.linha}`, borderRadius: 24, fontFamily: "DM Sans,sans-serif", fontSize: 16, color: C.tinta, background: "#f8fafd", outline: "none" }
-    }
-  ), /* @__PURE__ */ React.createElement("button", { onClick: sendMsg, style: { ...COMP_BTN, background: C.azul, border: "none" } }, /* @__PURE__ */ React.createElement(IcoSend, { size: 16, color: "#fff" }))));
-}
 function ccemDataHoraJoinville(ts) {
   const iso = new Date(ts - 3 * 36e5).toISOString();
   return { data: iso.slice(8, 10) + "/" + iso.slice(5, 7) + "/" + iso.slice(0, 4), hora: iso.slice(11, 16) };
+}
+function ccemNotaEmTexto(body) {
+  return String(body || "").replace(/<br\s*\/?>/gi, "\n").replace(/<[^>]*>/g, "").replace(/&nbsp;/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&amp;/g, "&");
 }
 function ccemExportarCaderno(captures) {
   const lista = [...captures || []].sort((a, b) => a.ts - b.ts);
@@ -598,7 +437,7 @@ function ccemExportarCaderno(captures) {
   const rows = lista.map((c) => {
     const { data, hora } = ccemDataHoraJoinville(c.ts);
     const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : c.sessaoRef || "";
-    return `<div class="nota"><div class="meta">${esc(data)} \xB7 ${esc(hora)} \xB7 ${esc(sess)}</div><h3>${esc(c.title)}</h3><div class="body">${c.body || ""}</div></div>`;
+    return `<div class="nota"><div class="meta">${esc(data)} \xB7 ${esc(hora)} \xB7 ${esc(sess)}</div><h3>${esc(c.title)}</h3><div class="body">${esc(ccemNotaEmTexto(c.body))}</div></div>`;
   }).join("");
   w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu Caderno \xB7 CCEM 2026</title><style>
     body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
@@ -607,7 +446,7 @@ function ccemExportarCaderno(captures) {
     .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
     .meta{font-size:12px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
     h3{font-size:14px;margin:0 0 6px}
-    .body{font-size:13px;line-height:1.55}
+    .body{font-size:13px;line-height:1.55;white-space:pre-wrap}
   </style></head><body><h1>Meu Caderno \xB7 CCEM 2026</h1><p class="sub">${lista.length} nota${lista.length !== 1 ? "s" : ""} \xB7 exportado em ${hoje} \xB7 12\xBA Congresso Catarinense de Endocrinologia e Metabologia</p>${rows}<script>window.print()<\/script></body></html>`);
   w.document.close();
 }
@@ -628,7 +467,7 @@ function CadernoScreen() {
     return t === "foto" ? C.azul : t === "audio" ? "#0d9488" : C.ouro;
   }
   function NoteCard({ c }) {
-    return /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderRadius: 10, padding: "10px 12px", marginBottom: 6, border: `1px solid ${C.linhaSoft}`, borderLeft: `3px solid ${typeColor(c.type)}` } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6, marginBottom: 5 } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: typeColor(c.type), textTransform: "uppercase", letterSpacing: "0.07em", fontWeight: 600 } }, c.type), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } }, c.sessaoRef, " \xB7 ", c.time)), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, fontWeight: 600, color: C.tinta, marginBottom: 4, lineHeight: 1.3 } }, c.title), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.5 }, dangerouslySetInnerHTML: { __html: c.body } }), (c.tags || []).length > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 4, marginTop: 6, flexWrap: "wrap" } }, c.tags.map((t) => /* @__PURE__ */ React.createElement("span", { key: t, style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azulSoft, background: C.azulBg + "60", padding: "2px 7px", borderRadius: 8 } }, t))));
+    return /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderRadius: 10, padding: "10px 12px", marginBottom: 6, border: `1px solid ${C.linhaSoft}`, borderLeft: `3px solid ${typeColor(c.type)}` } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6, marginBottom: 5 } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: typeColor(c.type), textTransform: "uppercase", letterSpacing: "0.07em", fontWeight: 600 } }, c.type), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } }, c.sessaoRef, " \xB7 ", c.time)), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, fontWeight: 600, color: C.tinta, marginBottom: 4, lineHeight: 1.3 } }, c.title), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, ccemNotaEmTexto(c.body)), (c.tags || []).length > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 4, marginTop: 6, flexWrap: "wrap" } }, c.tags.map((t) => /* @__PURE__ */ React.createElement("span", { key: t, style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azulSoft, background: C.azulBg + "60", padding: "2px 7px", borderRadius: 8 } }, t))));
   }
   const fchip = (key, lbl) => /* @__PURE__ */ React.createElement("button", { key, onClick: () => setFiltro(key), "aria-pressed": filtro === key, style: { minHeight: 44, display: "flex", alignItems: "center", padding: 0, border: "none", background: "none", cursor: "pointer", fontFamily: "inherit", flexShrink: 0 } }, /* @__PURE__ */ React.createElement("span", { style: { display: "flex", alignItems: "center", gap: 4, padding: "5px 12px", border: `1px solid ${filtro === key ? C.azul : C.linha}`, borderRadius: 20, background: filtro === key ? C.azul : "#fff", color: filtro === key ? "#fff" : C.cinza, fontSize: 12, fontWeight: filtro === key ? 600 : 400 } }, lbl, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, marginLeft: 2 } }, counts[key])));
   return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexDirection: "column", height: "100%", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { padding: "12px 16px 10px", background: "#fff", borderBottom: `1px solid ${C.linha}`, flexShrink: 0 } }, /* @__PURE__ */ React.createElement("h2", { style: { fontFamily: "Georgia,serif", fontSize: 17, fontWeight: 700, color: C.tinta, margin: "0 0 2px" } }, "Meu caderno"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, color: C.cinza, margin: "0 0 8px" } }, "tudo que voc\xEA anotou no CCEM 2026"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, color: C.tinta, lineHeight: 1.4, margin: "0 0 10px", padding: "7px 10px", background: "#f5f8fd", borderRadius: 7, borderLeft: `3px solid ${C.azulSoft}` } }, "Suas notas ficam s\xF3 neste aparelho. Exporte o PDF para guardar."), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8 } }, [["Notas", captures.length, C.azulBg, C.azul], ["Sess\xF5es", sessoes, C.verdeBg, C.verde], ["Refs", refs, C.ouroBg, C.ouro]].map(([lbl, num, bg, color]) => /* @__PURE__ */ React.createElement("div", { key: lbl, style: { flex: 1, background: bg, borderRadius: 10, padding: "7px 10px", textAlign: "center" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 20, fontWeight: 700, color, lineHeight: 1 } }, num), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color, textTransform: "uppercase", letterSpacing: "0.06em", marginTop: 2 } }, lbl))))), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 5, padding: "0 12px", background: "#f8fafd", borderBottom: `1px solid ${C.linhaSoft}`, overflowX: "auto", flexShrink: 0, scrollbarWidth: "none" } }, fchip("all", "Tudo"), fchip("foto", "Fotos"), fchip("texto", "Textos")), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "10px 12px" } }, filtered.length === 0 ? /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "40px 20px", color: C.cinza } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 32, marginBottom: 10 } }, "\u25CB"), /* @__PURE__ */ React.createElement("h4", { style: { fontSize: 14, fontWeight: 600, color: C.tinta, marginBottom: 6 } }, "Caderno vazio"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, lineHeight: 1.5, margin: 0 } }, "Toque em ", /* @__PURE__ */ React.createElement("strong", null, "Anotar"), " numa sess\xE3o, ou envie algo pelo Assistente.")) : /* @__PURE__ */ React.createElement(React.Fragment, null, bySex.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em", margin: "2px 0 8px", fontWeight: 600 } }, "Sexta \xB7 23 outubro"), bySex.map((c) => /* @__PURE__ */ React.createElement(NoteCard, { key: c.id, c }))), bySab.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em", margin: "12px 0 8px", fontWeight: 600 } }, "S\xE1bado \xB7 24 outubro"), bySab.map((c) => /* @__PURE__ */ React.createElement(NoteCard, { key: c.id, c }))), bsOrph.length > 0 && bsOrph.map((c) => /* @__PURE__ */ React.createElement(NoteCard, { key: c.id, c })))), captures.length > 0 && /* @__PURE__ */ React.createElement("div", { style: { padding: "9px 12px", background: "#fff", borderTop: `1px solid ${C.linha}`, display: "flex", alignItems: "center", gap: 10, flexShrink: 0 } }, /* @__PURE__ */ React.createElement("p", { style: { flex: 1, fontSize: 12, color: C.cinza, lineHeight: 1.4, margin: 0 } }, /* @__PURE__ */ React.createElement("strong", null, "Salvo neste dispositivo"), " \xB7 ", captures.length, " nota", captures.length !== 1 ? "s" : ""), /* @__PURE__ */ React.createElement("button", { onClick: () => ccemExportarCaderno(captures), style: { minHeight: 44, display: "flex", alignItems: "center", gap: 5, background: C.azul, color: "#fff", border: "none", borderRadius: 8, padding: "7px 16px", fontSize: 12, fontWeight: 600, cursor: "pointer", fontFamily: "inherit" } }, "\u2193 PDF")));
@@ -638,7 +477,7 @@ function InfoScreen() {
   const H3 = ({ children }) => /* @__PURE__ */ React.createElement("h3", { style: { fontFamily: "Georgia,serif", fontSize: 13.5, fontWeight: 600, color: C.tinta, margin: "0 0 8px", letterSpacing: "-0.005em" } }, children);
   const Row = ({ lbl, val }) => /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, fontSize: 12.5, color: C.cinza, padding: "6px 0", borderBottom: `1px solid ${C.linhaSoft}` } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em", width: 72, flexShrink: 0, lineHeight: 1.6 } }, lbl), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, color: C.tinta } }, val));
   const CR = ({ icon, lbl, val, href, ultimo }) => /* @__PURE__ */ React.createElement("a", { href, target: "_blank", rel: "noopener", style: { display: "flex", alignItems: "center", gap: 11, minHeight: 44, padding: "9px 0", borderBottom: ultimo ? "none" : `1px solid ${C.linhaSoft}`, textDecoration: "none" } }, /* @__PURE__ */ React.createElement("div", { style: { width: 34, height: 34, borderRadius: 9, background: C.azulBg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, color: C.azul } }, icon), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 2 } }, lbl), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, fontWeight: 600, color: C.azul } }, val)));
-  return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexDirection: "column", height: "100%", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", paddingBottom: 24 } }, /* @__PURE__ */ React.createElement("div", { style: { background: C.azul, color: "#fff", padding: "20px 16px 18px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, letterSpacing: "0.12em", textTransform: "uppercase", opacity: 0.75, marginBottom: 4 } }, "SBEM-SC \xB7 Sociedade Brasileira de Endocrinologia e Metabologia"), /* @__PURE__ */ React.createElement("h2", { style: { fontFamily: "Georgia,serif", fontSize: 21, fontWeight: 600, margin: "0 0 3px", lineHeight: 1.2, letterSpacing: "-0.01em" } }, "12\xBA CCEM 2026"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, opacity: 0.8, lineHeight: 1.4, margin: "0 0 10px" } }, "Congresso Catarinense de Endocrinologia e Metabologia"), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, background: "rgba(255,255,255,.12)", padding: "7px 10px", borderRadius: 6, letterSpacing: "0.02em", lineHeight: 1.7 } }, "Expoville \xB7 Rua XV de Novembro, 4315 \xB7 Joinville/SC", /* @__PURE__ */ React.createElement("br", null), "23 e 24 de Outubro de 2026")), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Organiza\xE7\xE3o"), /* @__PURE__ */ React.createElement(Row, { lbl: "Presidente", val: "Dr. Fulvio Clemo Santos Tomaselli \u2014 SBEM-SC" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Pres. eleito", val: "Dr. Frederico Guimar\xE3es Marchisotti" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Dir. cient.", val: "Dr. Dalisbor Marcelo Weber Silva" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Secretaria", val: "Sex 23/10 \xB7 07h30\u201318h30 \xB7 S\xE1b 24/10 \xB7 07h30\u201318h" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Abertura", val: "Sexta, 23/10 \xB7 08h00" }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, fontSize: 12.5, color: C.cinza, padding: "6px 0" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em", width: 72, flexShrink: 0, lineHeight: 1.6 } }, "Cert."), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, color: C.tinta } }, "Dispon\xEDveis a partir de ", /* @__PURE__ */ React.createElement("strong", null, "05/11/2026"), " via CPF \u2014 apenas para inscritos presentes."))), LINK_EPOSTER && /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexDirection: "column", height: "100%", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", paddingBottom: 84 } }, /* @__PURE__ */ React.createElement("div", { style: { background: C.azul, color: "#fff", padding: "20px 16px 18px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, letterSpacing: "0.12em", textTransform: "uppercase", opacity: 0.75, marginBottom: 4 } }, "SBEM-SC \xB7 Sociedade Brasileira de Endocrinologia e Metabologia"), /* @__PURE__ */ React.createElement("h2", { style: { fontFamily: "Georgia,serif", fontSize: 21, fontWeight: 600, margin: "0 0 3px", lineHeight: 1.2, letterSpacing: "-0.01em" } }, "12\xBA CCEM 2026"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, opacity: 0.8, lineHeight: 1.4, margin: "0 0 10px" } }, "Congresso Catarinense de Endocrinologia e Metabologia"), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, background: "rgba(255,255,255,.12)", padding: "7px 10px", borderRadius: 6, letterSpacing: "0.02em", lineHeight: 1.7 } }, "Expoville \xB7 Rua XV de Novembro, 4315 \xB7 Joinville/SC", /* @__PURE__ */ React.createElement("br", null), "23 e 24 de Outubro de 2026")), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Organiza\xE7\xE3o"), /* @__PURE__ */ React.createElement(Row, { lbl: "Presidente", val: "Dr. Fulvio Clemo Santos Tomaselli \u2014 SBEM-SC" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Pres. eleito", val: "Dr. Frederico Guimar\xE3es Marchisotti" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Dir. cient.", val: "Dr. Dalisbor Marcelo Weber Silva" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Secretaria", val: "Sex 23/10 \xB7 07h30\u201318h30 \xB7 S\xE1b 24/10 \xB7 07h30\u201318h" }), /* @__PURE__ */ React.createElement(Row, { lbl: "Abertura", val: "Sexta, 23/10 \xB7 08h00" }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, fontSize: 12.5, color: C.cinza, padding: "6px 0" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em", width: 72, flexShrink: 0, lineHeight: 1.6 } }, "Cert."), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, color: C.tinta } }, "Dispon\xEDveis a partir de ", /* @__PURE__ */ React.createElement("strong", null, "05/11/2026"), " via CPF \u2014 apenas para inscritos presentes."))), LINK_EPOSTER && /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(
     "a",
     {
       href: LINK_EPOSTER,
@@ -649,7 +488,7 @@ function InfoScreen() {
     /* @__PURE__ */ React.createElement("div", { style: { width: 34, height: 34, borderRadius: 9, background: C.azulBg, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, color: C.azul } }, /* @__PURE__ */ React.createElement(IcoPoster, { size: 17 })),
     /* @__PURE__ */ React.createElement("div", { style: { flex: 1, fontSize: 13.5, fontWeight: 600, color: C.tinta } }, "Trabalhos cient\xEDficos (e-p\xF4ster)"),
     /* @__PURE__ */ React.createElement(IcoLink, { size: 16, color: C.azul })
-  )), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Contato"), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoPhone, { size: 17 }), lbl: "WhatsApp", val: "(47) 99130-3330", href: "https://wa.me/5547991303330" }), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoMail, { size: 17 }), lbl: "E-mail", val: "contato@ccem2026.com.br", href: "mailto:contato@ccem2026.com.br" }), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoInsta, { size: 17 }), lbl: "Instagram", val: "@sbemsceventos", href: "https://instagram.com/sbemsceventos" }), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoGlobe, { size: 17 }), lbl: "Site oficial", val: "ccem2026.com.br \u2197", href: "https://www.ccem2026.com.br", ultimo: true })), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Sobre este app"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.55, margin: "0 0 8px" } }, "Camada interativa do CCEM 2026 para inscritos. Programa naveg\xE1vel, caderno de anota\xE7\xF5es e assistente de IA para anota\xE7\xF5es e busca no programa."), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.tinta, lineHeight: 1.55, margin: "0 0 10px", padding: "8px 10px", background: "#f5f8fd", borderRadius: 7, borderLeft: `3px solid ${C.linha}` } }, "O app fica dispon\xEDvel at\xE9 31/12/2026. Notas n\xE3o s\xE3o enviadas a servidor; se voc\xEA limpar o navegador ou trocar de aparelho, elas se perdem \u2014 exporte o PDF."), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 8, padding: "7px 0", borderTop: `1px solid ${C.linhaSoft}`, marginBottom: 10 } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.06em", flexShrink: 0 } }, "ID local"), /* @__PURE__ */ React.createElement("code", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.tinta, background: "#f0f4fc", padding: "2px 7px", borderRadius: 5, flex: 1, overflow: "hidden", textOverflow: "ellipsis" } }, window.CCEM_USER_ID || "\u2014")), /* @__PURE__ */ React.createElement(
+  )), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Contato"), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoPhone, { size: 17 }), lbl: "WhatsApp", val: "(47) 99130-3330", href: "https://wa.me/5547991303330" }), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoMail, { size: 17 }), lbl: "E-mail", val: "contato@ccem2026.com.br", href: "mailto:contato@ccem2026.com.br" }), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoInsta, { size: 17 }), lbl: "Instagram", val: "@sbemsceventos", href: "https://instagram.com/sbemsceventos" }), /* @__PURE__ */ React.createElement(CR, { icon: /* @__PURE__ */ React.createElement(IcoGlobe, { size: 17 }), lbl: "Site oficial", val: "ccem2026.com.br \u2197", href: "https://www.ccem2026.com.br", ultimo: true })), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Sobre este app"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.55, margin: "0 0 8px" } }, "Camada interativa do CCEM 2026 para inscritos. Programa naveg\xE1vel, caderno de anota\xE7\xF5es e assistente de IA para anota\xE7\xF5es e busca no programa."), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.tinta, lineHeight: 1.55, margin: "0 0 10px", padding: "8px 10px", background: "#f5f8fd", borderRadius: 7, borderLeft: `3px solid ${C.linha}` } }, "O app fica dispon\xEDvel at\xE9 31/12/2026. Notas n\xE3o s\xE3o enviadas a servidor; se voc\xEA limpar o navegador ou trocar de aparelho, elas se perdem \u2014 exporte o PDF."), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.tinta, lineHeight: 1.55, margin: "0 0 10px", padding: "8px 10px", background: "#f5f8fd", borderRadius: 7, borderLeft: `3px solid ${C.linha}` } }, "Assistente CCEM (beta): a pergunta e a foto do slide, quando houver, s\xE3o enviadas para processamento pela Anthropic, nos EUA, e descartadas em seguida; o app n\xE3o as grava. N\xE3o envie dados de pacientes. As respostas s\xE3o geradas por IA e podem conter erros."), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 8, padding: "7px 0", borderTop: `1px solid ${C.linhaSoft}`, marginBottom: 10 } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.06em", flexShrink: 0 } }, "ID local"), /* @__PURE__ */ React.createElement("code", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.tinta, background: "#f0f4fc", padding: "2px 7px", borderRadius: 5, flex: 1, overflow: "hidden", textOverflow: "ellipsis" } }, window.CCEM_USER_ID || "\u2014")), /* @__PURE__ */ React.createElement(
     "button",
     {
       onClick: () => {
@@ -747,12 +586,15 @@ function DesktopSidebar({ aba }) {
     );
   })), /* @__PURE__ */ React.createElement("div", { style: { padding: "12px 16px", borderTop: `1px solid ${C.linhaSoft}` } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.7 } }, "v4.0 \xB7 Meu CCEM", /* @__PURE__ */ React.createElement("br", null), "vers\xE3o em desenvolvimento \xB7 restrito \xE0 comiss\xE3o")));
 }
-function AppShell({ showShell, aba, children }) {
+function AreaComFab({ fab, reserva, children }) {
+  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0, position: "relative" } }, /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0 } }, children), reserva && /* @__PURE__ */ React.createElement("div", { "aria-hidden": "true", style: { height: 84, flexShrink: 0, background: C.papel, borderTop: `1px solid ${C.linhaSoft}` } }), fab);
+}
+function AppShell({ showShell, aba, fab, reservaFab, children }) {
   const isDesktop = useIsDesktop();
   if (isDesktop) {
-    return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", overflow: "hidden", minHeight: 0 } }, /* @__PURE__ */ React.createElement(DesktopSidebar, { aba }), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflow: "hidden", display: "flex", flexDirection: "column", alignItems: "center", minHeight: 0, background: "#e8eef8" } }, /* @__PURE__ */ React.createElement("div", { style: { width: "100%", maxWidth: 800, flex: 1, overflow: "hidden", display: "flex", flexDirection: "column", minHeight: 0, background: C.papel } }, children)));
+    return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", overflow: "hidden", minHeight: 0 } }, /* @__PURE__ */ React.createElement(DesktopSidebar, { aba }), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflow: "hidden", display: "flex", flexDirection: "column", alignItems: "center", minHeight: 0, background: "#e8eef8" } }, /* @__PURE__ */ React.createElement("div", { style: { width: "100%", maxWidth: 800, flex: 1, overflow: "hidden", display: "flex", flexDirection: "column", minHeight: 0, background: C.papel } }, /* @__PURE__ */ React.createElement(AreaComFab, { fab, reserva: reservaFab }, children))));
   }
-  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0 } }, showShell ? /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(AppHeader, null), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflow: "hidden", display: "flex", flexDirection: "column", minHeight: 0 } }, children), /* @__PURE__ */ React.createElement(TabBar, { aba })) : children);
+  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0 } }, showShell ? /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(AppHeader, null), /* @__PURE__ */ React.createElement(AreaComFab, { fab, reserva: reservaFab }, children), /* @__PURE__ */ React.createElement(TabBar, { aba })) : /* @__PURE__ */ React.createElement(AreaComFab, { fab, reserva: reservaFab }, children));
 }
 Object.assign(window, {
   AppShell,
@@ -766,7 +608,6 @@ Object.assign(window, {
   SlideUploadBtn,
   ProgramaScreen,
   SessaoDetail,
-  AssistenteScreen,
   CadernoScreen,
   InfoScreen,
   BadgePill,
@@ -775,8 +616,7 @@ Object.assign(window, {
   SessaoCard,
   sessionIsPast,
   isEventWeek,
-  classifyIntent,
-  MOCK_AI,
   ccemExportarCaderno,
-  ccemDataHoraJoinville
+  ccemDataHoraJoinville,
+  ccemNotaEmTexto
 });

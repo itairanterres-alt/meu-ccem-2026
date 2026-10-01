@@ -21,10 +21,25 @@ function App() {
 
   const showShell = route.tela !== 'sessao' && route.tela !== 'home';
 
+  // 5.7 · Botão "8": Home, Programa, Info e Sessão. Some na aba Assistente,
+  // com o teclado aberto e com o painel aberto. Só abre com toque.
+  const [painel, setPainel] = useState(false);
+  const teclado = useTecladoAberto();
+  useEffect(()=>{
+    const abrir = () => setPainel(true);
+    window.addEventListener('ccem:abrir-assistente', abrir);
+    return () => window.removeEventListener('ccem:abrir-assistente', abrir);
+  },[]);
+  useEffect(()=>{ setPainel(false); },[hash]);
+  const comFab  = ['home','programa','info','sessao'].includes(route.tela);
+  const reserva = route.tela === 'home' || route.tela === 'sessao';
+  const fab = comFab && !painel && !teclado ? <BotaoAssistente aoTocar={()=>setPainel(true)}/> : null;
+
   return (
     <>
     <LembretePDF/>
-    <AppShell showShell={showShell} aba={route.tela}>
+    {painel && <PainelAssistente sessaoId={route.tela==='sessao'?route.id:null} tela={route.tela==='sessao'?'sessao':route.tela} aoFechar={()=>setPainel(false)}/>}
+    <AppShell showShell={showShell} aba={route.tela} fab={fab} reservaFab={reserva}>
       {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
       {route.tela === 'home'       && <HomeScreen/>}
       {route.tela === 'assistente' && <AssistenteScreen/>}

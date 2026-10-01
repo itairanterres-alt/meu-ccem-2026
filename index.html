@@ -88,6 +88,9 @@
       font: 600 12px 'DM Sans', system-ui, sans-serif; cursor: pointer;
     }
 
+    /* O botão e o painel do Assistente nunca saem na impressão */
+    @media print { .ccem-fab, .ccem-painel { display: none !important; } }
+
     /* Scrollbars */
     * { scrollbar-width: thin; scrollbar-color: #d5dff0 transparent; }
     *::-webkit-scrollbar { width: 3px; height: 3px; }
@@ -150,6 +153,9 @@
 
 <!-- Home (saguão de entrada) -->
 <script src="v4/ccem-home.js"></script>
+
+<!-- Assistente CCEM: conversa, painel e botão "8" -->
+<script src="v4/ccem-assistente.js"></script>
 
 <!-- App Router v4 -->
 <script src="v4/ccem-app.js"></script>
