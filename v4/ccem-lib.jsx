@@ -284,7 +284,8 @@ function FolhaInstalar({ aoFechar, temDados }) {
     window.addEventListener('keydown', esc);
     return () => window.removeEventListener('keydown', esc);
   }, []);
-  return (
+  // Desenhada direto no <body>: aberta de dentro do balão, ficaria presa a ele.
+  return ReactDOM.createPortal(
     <div className="ccem-painel" onClick={aoFechar}
       style={{position:'fixed',inset:0,zIndex:330,background:'rgba(10,18,50,.38)',display:'flex',flexDirection:'column',justifyContent:'flex-end'}}>
       <div role="dialog" aria-modal="true" aria-label="Instalar o app na tela inicial" onClick={e=>e.stopPropagation()}
@@ -320,7 +321,8 @@ function FolhaInstalar({ aoFechar, temDados }) {
           <p style={{fontSize:14,color:C.tinta,lineHeight:1.5,margin:'8px 0 0'}}>Abra <b>meu-ccem-2026.vercel.app</b> no celular e toque em "Instalar o app" na tela Info.</p>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 
