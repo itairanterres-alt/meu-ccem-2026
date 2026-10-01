@@ -12,7 +12,20 @@ function App() {
     return { tela: "home" };
   }, [hash]);
   const showShell = route.tela !== "sessao" && route.tela !== "home";
-  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(LembretePDF, null), /* @__PURE__ */ React.createElement(AppShell, { showShell, aba: route.tela }, route.tela === "sessao" && /* @__PURE__ */ React.createElement(SessaoDetail, { id: route.id }), route.tela === "home" && /* @__PURE__ */ React.createElement(HomeScreen, null), route.tela === "assistente" && /* @__PURE__ */ React.createElement(AssistenteScreen, null), route.tela === "caderno" && /* @__PURE__ */ React.createElement(CadernoScreen, null), route.tela === "info" && /* @__PURE__ */ React.createElement(InfoScreen, null), route.tela === "programa" && /* @__PURE__ */ React.createElement(ProgramaScreen, null)));
+  const [painel, setPainel] = useState(false);
+  const teclado = useTecladoAberto();
+  useEffect(() => {
+    const abrir = () => setPainel(true);
+    window.addEventListener("ccem:abrir-assistente", abrir);
+    return () => window.removeEventListener("ccem:abrir-assistente", abrir);
+  }, []);
+  useEffect(() => {
+    setPainel(false);
+  }, [hash]);
+  const comFab = ["home", "programa", "info", "sessao"].includes(route.tela);
+  const reserva = route.tela === "home" || route.tela === "sessao";
+  const fab = comFab && !painel && !teclado ? /* @__PURE__ */ React.createElement(BotaoAssistente, { aoTocar: () => setPainel(true) }) : null;
+  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(LembretePDF, null), painel && /* @__PURE__ */ React.createElement(PainelAssistente, { sessaoId: route.tela === "sessao" ? route.id : null, tela: route.tela === "sessao" ? "sessao" : route.tela, aoFechar: () => setPainel(false) }), /* @__PURE__ */ React.createElement(AppShell, { showShell, aba: route.tela, fab, reservaFab: reserva }, route.tela === "sessao" && /* @__PURE__ */ React.createElement(SessaoDetail, { id: route.id }), route.tela === "home" && /* @__PURE__ */ React.createElement(HomeScreen, null), route.tela === "assistente" && /* @__PURE__ */ React.createElement(AssistenteScreen, null), route.tela === "caderno" && /* @__PURE__ */ React.createElement(CadernoScreen, null), route.tela === "info" && /* @__PURE__ */ React.createElement(InfoScreen, null), route.tela === "programa" && /* @__PURE__ */ React.createElement(ProgramaScreen, null)));
 }
 const LEMBRETE_INICIO = /* @__PURE__ */ new Date("2026-10-24T16:00:00-03:00");
 const LEMBRETE_FIM = /* @__PURE__ */ new Date("2026-11-01T00:00:00-03:00");

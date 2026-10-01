@@ -33,13 +33,26 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
 - Item "Trabalhos científicos (e-pôster)", que abre a página externa dos
   trabalhos. O app não hospeda trabalhos.
 
-**Assistente de IA** — em construção (Etapa 5). Hoje a tela usa respostas de
-demonstração.
+**Assistente CCEM (beta)** — IA (Claude, da Anthropic) em três modos:
+- **Anotação:** foto do slide ou texto → mensagem-chave em até 2 frases, até 5
+  pontos e a referência só se estiver visível no slide.
+- **Busca:** sessões do programa, com atalho para cada uma.
+- **Concierge:** dúvidas práticas, respondidas só a partir da FAQ (em
+  `api/assistente.js`). O que não está na FAQ vai para a secretaria.
+
+Abre pela aba Assistente ou pelo botão "8" (Home, Programa, Info e Sessão), num
+painel que sobe sobre a tela atual. Toda resposta termina com "Gerado por IA —
+confira na fonte" e pode ser salva no Caderno.
 
 ## Privacidade
 
 Não há login nem cadastro. Marcações e notas ficam no `localStorage` do
-aparelho e não são enviadas a servidor. Quem limpar o navegador ou trocar de
+aparelho e não são enviadas a servidor.
+
+O Assistente é a exceção, e só quando usado: a pergunta e a foto do slide
+(reduzida no aparelho a 1600 px) vão para `api/assistente.js`, que as repassa à
+Anthropic (EUA) e devolve só o texto. Nada é gravado: nem disco, nem Blob, nem
+log. A conversa fica só na memória da aba. Quem limpar o navegador ou trocar de
 aparelho perde as notas: por isso o app insiste na exportação em PDF. O app
 fica disponível até 31/12/2026.
 
@@ -63,15 +76,36 @@ parâmetro, vale o relógio do aparelho.
 - Campos de digitação com 16 px, para o iPhone não ampliar a tela ao tocar.
 - Ícones de linha, sem emojis.
 
+## Assistente: configuração no Vercel
+
+| Variável | Onde | Valor |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | Settings → Environment Variables, **só Preview** | a chave da Anthropic |
+| `ANTHROPIC_MODEL` | opcional | padrão `claude-sonnet-5-5` |
+
+**Nunca escrever a chave no código: o repositório é público.** Sem a chave, o
+app funciona normalmente e o Assistente mostra "Assistente em fase de testes —
+disponível em breve". Para desligar a IA em emergência: apagar a variável e
+republicar.
+
+Limites: cerca de 20 perguntas por pessoa por hora e 20 s por resposta. O texto
+fixo (regras, programa e FAQ) vai com cache, o que barateia cada chamada.
+
+A FAQ está em `api/assistente.js` (`const FAQ`). Os itens marcados
+`TODO: confirmar com Promotes` não são respondidos até serem preenchidos.
+
 ## Onde fica o quê
 
 ```
 index.html        shell, estilos e ordem de carregamento
+api/assistente.js função do Vercel que conversa com a IA (regras, FAQ, limites)
 v4/               A VERSÃO VIVA — é daqui que o index.html carrega
   ccem-data.js    TODO o conteúdo: programa, palestrantes, fuso, .ics, link do e-pôster
-  *.jsx           código-fonte das telas
+  *.jsx           código-fonte das telas (ccem-assistente.jsx: assistente e botão "8")
   *.js            saída compilada (é o que o navegador carrega)
 vendor/           React e fontes, hospedados localmente
+package.json      só a dependência da função (@anthropic-ai/sdk)
+vercel.json       tempo máximo da função e inclusão de v4/ccem-data.js
 sw.js             service worker (cache e funcionamento offline)
 build.sh          compila os .jsx
 v3/               versão 3 congelada. Histórico apenas
@@ -79,7 +113,8 @@ v3/               versão 3 congelada. Histórico apenas
 
 ## Como atualizar
 
-**Conteúdo** (programa, palestrantes, link do e-pôster):
+**Conteúdo** (programa, palestrantes, link do e-pôster). O Assistente lê o
+programa do mesmo arquivo; não há cópia a atualizar.
 
 1. Editar `v4/ccem-data.js` no GitHub (botão de lápis).
 2. Incrementar `CACHE_VERSION` em `sw.js`.
@@ -110,6 +145,8 @@ antiga guardada em cache.
 - React 18 sem framework, JSX pré-compilado com esbuild, sem bundler.
 - Fontes DM Sans e JetBrains Mono hospedadas localmente.
 - Hospedagem no Vercel, com deploy automático pelo GitHub.
+- Assistente: função serverless Node no Vercel (`api/assistente.js`), SDK
+  oficial `@anthropic-ai/sdk`, modelo `claude-sonnet-5-5`.
 
 ### Nada vem de CDN
 

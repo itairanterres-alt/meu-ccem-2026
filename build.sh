@@ -4,7 +4,7 @@
 # ------------------------------------------------------------
 # Rode este script depois de editar qualquer arquivo .jsx em v4/.
 # NAO e necessario para editar conteudo: v4/ccem-data.js e
-# JavaScript puro (programa, bios, briefings, quizzes) e pode ser
+# JavaScript puro (programa e palestrantes) e pode ser
 # editado direto pelo GitHub, sem recompilar nada.
 #
 #   ./build.sh
@@ -14,7 +14,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-ARQUIVOS=(ccem-lib ccem-screens ccem-home ccem-app)
+ARQUIVOS=(ccem-lib ccem-screens ccem-home ccem-assistente ccem-app)
 
 echo "Compilando JSX -> JS..."
 for f in "${ARQUIVOS[@]}"; do

@@ -14,7 +14,7 @@
    Ao publicar uma atualização, incrementar CACHE_VERSION.
    ============================================================ */
 
-const CACHE_VERSION = 'ccem-v8';
+const CACHE_VERSION = 'ccem-v9';
 const CACHE_NAME    = CACHE_VERSION;
 
 const SHELL = [
@@ -32,7 +32,9 @@ const SHELL = [
   './v4/ccem-lib.js',
   './v4/ccem-screens.js',
   './v4/ccem-home.js',
+  './v4/ccem-assistente.js',
   './v4/ccem-app.js',
+  './v4/avatar-assistente.png',
 ];
 
 // Imutáveis: uma vez em cache, servir do cache sem consultar a rede.
@@ -66,6 +68,7 @@ self.addEventListener('fetch', event => {
 
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  if (url.pathname.startsWith('/api/')) return;   // assistente: sempre na rede, nunca em cache
 
   // Navegação: servir o shell em cache, atualizando em segundo plano.
   if (req.mode === 'navigate') {
