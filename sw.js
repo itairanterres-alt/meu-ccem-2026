@@ -19,7 +19,7 @@
    Ao publicar uma atualização, incrementar CACHE_VERSION.
    ============================================================ */
 
-const CACHE_VERSION = 'ccem-v11';
+const CACHE_VERSION = 'ccem-v12';
 const CACHE_NAME    = CACHE_VERSION;
 
 // Sem estes, o app não funciona: entram juntos ou a versão não instala.
@@ -42,6 +42,7 @@ const ESSENCIAL = [
 const OPCIONAL = [
   './icon-192.png',
   './icon-512.png',
+  './apple-touch-icon.png',
   './logo-ccem.png',
   './logo-sbem.png',
   './v4/logo-ccem.png',

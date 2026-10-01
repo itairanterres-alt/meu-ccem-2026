@@ -34,6 +34,16 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
   aparelho. Restaurar soma ao que existe; não apaga nada.
 - Faixa de lembrete para exportar, de 24/10 às 16h até 31/10.
 
+**Instalar na tela inicial**
+- Convite discreto na Home, só no celular e fora do app instalado: a partir do
+  2º uso (ou da primeira marcação/nota), depois da apresentação do assistente.
+  Fechado, não volta; a opção fica em Info ("Instalar o app na tela inicial").
+- Android/Chrome: botão "Instalar" abre o diálogo nativo. iPhone: passo a passo
+  Compartilhar → Adicionar à Tela de Início (a Apple não permite o diálogo).
+- No iPhone, o app instalado tem memória separada do Safari e começa vazio: o
+  passo a passo orienta a fazer o Backup antes, quando já há dados.
+- O assistente também ensina ("Como instalo o app no celular?").
+
 **Info**
 - Organização, horários da secretaria, certificados, contato e site oficial.
 - Item "Trabalhos científicos (e-pôster)", que abre a página externa dos

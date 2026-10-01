@@ -226,6 +226,104 @@ function ccemReduzirFoto(arquivo) {
   });
 }
 
+/* ── Instalação na tela inicial ──────────────────────────────────
+   Android/Chrome oferece um diálogo nativo (beforeinstallprompt, guardado
+   em window.__ccemInstalar pelo index.html). O iPhone não oferece: lá só
+   dá para ensinar o caminho Compartilhar → Adicionar à Tela de Início. */
+function ccemInstalado() {
+  try { return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true; }
+  catch (e) { return false; }
+}
+function ccemPlataforma() {
+  if (ccemEhIOS()) return 'ios';
+  if (/Android/i.test(navigator.userAgent)) return 'android';
+  return 'outro';
+}
+/* Quantas vezes o app foi aberto neste aparelho (uma por sessão do navegador). */
+const CCEM_VISITAS = (() => {
+  try {
+    let n = parseInt(localStorage.getItem('ccem2026:visitas') || '0', 10) || 0;
+    if (!sessionStorage.getItem('ccem2026:contou')) {
+      n++;
+      localStorage.setItem('ccem2026:visitas', String(n));
+      sessionStorage.setItem('ccem2026:contou', '1');
+    }
+    return n;
+  } catch (e) { return 1; }
+})();
+/* Abre o diálogo nativo, se houver. Devolve false quando não há (iPhone, Firefox…). */
+async function ccemInstalarNativo() {
+  const pedido = window.__ccemInstalar;
+  if (!pedido) return false;
+  window.__ccemInstalar = null;
+  try { pedido.prompt(); await pedido.userChoice; } catch (e) {}
+  return true;
+}
+function useInstalacao() {
+  const [, forcar] = useState(0);
+  useEffect(() => {
+    const fn = () => forcar(n => n + 1);
+    window.addEventListener('ccem:instalavel', fn);
+    window.addEventListener('appinstalled', fn);
+    return () => { window.removeEventListener('ccem:instalavel', fn); window.removeEventListener('appinstalled', fn); };
+  }, []);
+  return { instalado: ccemInstalado(), plataforma: ccemPlataforma(), nativo: !!window.__ccemInstalar };
+}
+
+const IcoCompartilharIOS = p => <Ico {...p}><path d="M12 3v12M8 7l4-4 4 4"/><path d="M6 11H5a1 1 0 00-1 1v8a1 1 0 001 1h14a1 1 0 001-1v-8a1 1 0 00-1-1h-1"/></Ico>;
+const IcoMaisQuadrado   = p => <Ico {...p}><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M12 8v8M8 12h8"/></Ico>;
+const IcoMenuVertical   = p => <Ico {...p}><circle cx="12" cy="5" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="12" cy="19" r="1.2"/></Ico>;
+
+/* Folha com o passo a passo do aparelho da pessoa. */
+function FolhaInstalar({ aoFechar, temDados }) {
+  const { plataforma, nativo } = useInstalacao();
+  const PASSO = { display:'flex', gap:12, alignItems:'center', padding:'10px 0', borderBottom:`1px solid ${C.linhaSoft}`, fontSize:14, color:C.tinta, lineHeight:1.4 };
+  const NUM = { width:26, height:26, borderRadius:'50%', background:C.azulBg, color:C.azul, fontWeight:700, fontSize:13, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 };
+  useEffect(() => {
+    const esc = e => { if (e.key === 'Escape') aoFechar(); };
+    window.addEventListener('keydown', esc);
+    return () => window.removeEventListener('keydown', esc);
+  }, []);
+  return (
+    <div className="ccem-painel" onClick={aoFechar}
+      style={{position:'fixed',inset:0,zIndex:330,background:'rgba(10,18,50,.38)',display:'flex',flexDirection:'column',justifyContent:'flex-end'}}>
+      <div role="dialog" aria-modal="true" aria-label="Instalar o app na tela inicial" onClick={e=>e.stopPropagation()}
+        style={{width:'100%',maxWidth:560,margin:'0 auto',background:'#fff',borderRadius:'18px 18px 0 0',padding:'14px 18px calc(16px + env(safe-area-inset-bottom))'}}>
+        <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:4}}>
+          <img src="icon-192.png" alt="" width="40" height="40" style={{borderRadius:10}}/>
+          <h2 style={{flex:1,margin:0,fontFamily:'Georgia,serif',fontSize:17,color:C.tinta}}>Instalar na tela inicial</h2>
+          <button autoFocus onClick={aoFechar} aria-label="Fechar" style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',background:'none',border:'none',cursor:'pointer',color:C.cinza,padding:0}}><IcoX size={20}/></button>
+        </div>
+        <p style={{fontSize:13,color:C.cinza,lineHeight:1.5,margin:'0 0 6px'}}>O Meu CCEM passa a abrir pelo ícone, em tela cheia, e funciona sem internet.</p>
+        {plataforma === 'ios' ? (
+          <div>
+            <div style={PASSO}><span style={NUM}>1</span><span style={{flex:1}}>No <b>Safari</b>, toque em <b>Compartilhar</b> (na barra de baixo; no iPad, no alto)</span><IcoCompartilharIOS size={24} color={C.azul}/></div>
+            <div style={PASSO}><span style={NUM}>2</span><span style={{flex:1}}>Role a lista e toque em <b>Adicionar à Tela de Início</b></span><IcoMaisQuadrado size={24} color={C.azul}/></div>
+            <div style={{...PASSO,borderBottom:'none'}}><span style={NUM}>3</span><span style={{flex:1}}>Toque em <b>Adicionar</b>. O ícone do "8" aparece na tela inicial.</span></div>
+            <p style={{fontSize:12.5,color:'#7c2d12',lineHeight:1.45,margin:'6px 0 0',padding:'8px 10px',background:'#fff4e5',borderRadius:7,borderLeft:'3px solid #c2410c'}}>
+              No iPhone, o app instalado começa vazio: ele não enxerga o que foi feito no Safari.
+              {temDados ? ' Você já tem marcações ou notas aqui: antes, toque em Backup no Caderno e baixe o arquivo; depois, no app instalado, use Backup → Restaurar.' : ' Instale antes de começar a marcar sessões e anotar.'}
+            </p>
+          </div>
+        ) : plataforma === 'android' && nativo ? (
+          <button onClick={async()=>{ await ccemInstalarNativo(); aoFechar(); }}
+            style={{width:'100%',minHeight:48,marginTop:8,background:C.azul,color:'#fff',border:'none',borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:15,fontWeight:700,cursor:'pointer'}}>
+            Instalar agora
+          </button>
+        ) : plataforma === 'android' ? (
+          <div>
+            <div style={PASSO}><span style={NUM}>1</span><span style={{flex:1}}>No <b>Chrome</b>, toque no menu do canto superior direito</span><IcoMenuVertical size={24} color={C.azul}/></div>
+            <div style={PASSO}><span style={NUM}>2</span><span style={{flex:1}}>Toque em <b>Instalar app</b> ou <b>Adicionar à tela inicial</b></span><IcoMaisQuadrado size={24} color={C.azul}/></div>
+            <div style={{...PASSO,borderBottom:'none'}}><span style={NUM}>3</span><span style={{flex:1}}>Confirme. O ícone do "8" aparece na tela inicial.</span></div>
+          </div>
+        ) : (
+          <p style={{fontSize:14,color:C.tinta,lineHeight:1.5,margin:'8px 0 0'}}>Abra <b>meu-ccem-2026.vercel.app</b> no celular e toque em "Instalar o app" na tela Info.</p>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function nowStamp() {
   const d = new Date();
   return d.getHours() + ':' + String(d.getMinutes()).padStart(2,'0');
@@ -237,6 +335,7 @@ Object.assign(window, {
   IcoFilter, IcoGlobe, IcoPhone, IcoMail, IcoInsta, IcoLink, IcoCapture, IcoPoster,
   useHashRoute, useMinuto, showToast, ccemBaseUrl, ccemBaixarIcs, ccemMarcadas,
   CCEM_USER_ID, CCEM_STATE_KEY, CCEM_ARMAZENA, _ccemSalvamento, ccemReduzirFoto,
+  ccemInstalado, ccemPlataforma, ccemInstalarNativo, useInstalacao, FolhaInstalar, CCEM_VISITAS,
   ccemSeedState, ccemLoadState, ccemSaveState,
   _ccemStore, _ccemListeners, _ccemNotify,
   useAppState, updateAppState,

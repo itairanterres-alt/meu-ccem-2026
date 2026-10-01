@@ -13,7 +13,7 @@
   <meta property="og:description" content="App do 12º Congresso Catarinense de Endocrinologia e Metabologia · 23–24 out · Joinville/SC"/>
   <link rel="icon" href="icon-192.png" type="image/png"/>
   <link rel="manifest" href="manifest.json"/>
-  <link rel="apple-touch-icon" href="logo-ccem.png"/>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
   <!-- Fontes hospedadas localmente: o app nao pode depender de CDN no Expoville -->
   <link rel="stylesheet" href="vendor/fonts/fonts.css"/>
   <style>
@@ -149,6 +149,16 @@
     </div>
   </div>
 </div>
+
+<!-- Android/Chrome: guarda o pedido de instalação para o botão "Instalar" usar na hora certa -->
+<script>
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    window.__ccemInstalar = e;
+    window.dispatchEvent(new Event('ccem:instalavel'));
+  });
+  window.addEventListener('appinstalled', function () { window.__ccemInstalar = null; });
+</script>
 
 <!-- Dados do programa — JavaScript puro, editavel direto no GitHub sem recompilar -->
 <script src="v4/ccem-data.js"></script>

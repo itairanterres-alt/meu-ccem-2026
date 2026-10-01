@@ -5,7 +5,7 @@ const CCEM_PRIVACIDADE = "Perguntas e fotos enviadas aqui s\xE3o processadas pel
 const CCEM_SUGESTOES = {
   home: [{ rotulo: "O que est\xE1 acontecendo agora?" }, { rotulo: "Onde pego o certificado?" }, { rotulo: "Quais sess\xF5es falam de tireoide?" }],
   programa: [{ rotulo: "O que est\xE1 acontecendo agora?" }, { rotulo: "Qual \xE9 a pr\xF3xima sess\xE3o?" }, { rotulo: "Quais sess\xF5es falam de obesidade?" }],
-  info: [{ rotulo: "Onde pego o certificado?" }, { rotulo: "Qual o hor\xE1rio da secretaria?" }, { rotulo: "Como exporto meu caderno?" }],
+  info: [{ rotulo: "Onde pego o certificado?" }, { rotulo: "Como instalo o app no celular?" }, { rotulo: "Como exporto meu caderno?" }],
   sessao: [{ rotulo: "Resuma esta sess\xE3o" }, { rotulo: "Anotar um slide", foto: true }, { rotulo: "Quem s\xE3o os palestrantes?" }]
 };
 const _conversa = { msgs: [], carregando: false };

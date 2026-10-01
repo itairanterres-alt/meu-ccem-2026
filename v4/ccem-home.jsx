@@ -112,6 +112,8 @@ function HomeScreen() {
         </div>
       </div>
 
+      <ConviteInstalar appState={appState}/>
+
       <MinhasSessoes appState={appState} agora={now}/>
 
       {/* ── Acesso rápido ────────────────────────────────────── */}
@@ -133,6 +135,44 @@ function HomeScreen() {
         </div>
       </div>
 
+    </div>
+  );
+}
+
+/* Convite para instalar na tela inicial. Só no celular, fora do app instalado,
+   depois da apresentação do assistente e a partir do 2º uso (ou da primeira
+   marcação/nota). Fechado, não volta; a opção segue em Info. */
+const CCEM_CONVITE_INSTALAR = 'ccem2026:conviteInstalar';
+function ConviteInstalar({ appState }) {
+  const { instalado, plataforma, nativo } = useInstalacao();
+  const [fechado, setFechado] = useState(() => { try { return !!localStorage.getItem(CCEM_CONVITE_INSTALAR); } catch (e) { return false; } });
+  const [folha, setFolha] = useState(false);
+  const temDados = Object.keys(appState.marks || {}).length > 0 || (appState.captures || []).length > 0;
+  let apresentado = true;
+  try { apresentado = !!localStorage.getItem('ccem2026:assistenteApresentado'); } catch (e) {}
+  if (instalado || fechado || plataforma === 'outro' || !apresentado || (CCEM_VISITAS < 2 && !temDados)) return null;
+  const fechar = () => { try { localStorage.setItem(CCEM_CONVITE_INSTALAR, '1'); } catch (e) {} setFechado(true); };
+  async function instalar() {
+    if (plataforma === 'android' && nativo && await ccemInstalarNativo()) { fechar(); return; }
+    setFolha(true);
+  }
+  return (
+    <div style={{padding:'14px 16px 0'}}>
+      <div style={{display:'flex',gap:12,alignItems:'flex-start',background:'#fff',border:`1px solid ${C.linha}`,borderLeft:`3px solid ${C.azul}`,borderRadius:12,padding:'12px 12px 10px'}}>
+        <img src="icon-192.png" alt="" width="40" height="40" style={{borderRadius:10,flexShrink:0}}/>
+        <div style={{flex:1,minWidth:0}}>
+          <div style={{fontSize:14,fontWeight:700,color:C.tinta,marginBottom:2}}>Instale o Meu CCEM na tela inicial</div>
+          <div style={{fontSize:12.5,color:C.cinza,lineHeight:1.45}}>
+            Abre pelo ícone, em tela cheia, e funciona sem internet.
+            {plataforma === 'ios' && temDados && ' No iPhone, o app instalado começa vazio — faça o Backup antes (as instruções explicam).'}
+          </div>
+          <div style={{display:'flex',gap:8,marginTop:8}}>
+            <button onClick={fechar} style={{minHeight:44,padding:'0 12px',background:'#fff',border:`1px solid ${C.linha}`,borderRadius:9,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600,color:C.cinza,cursor:'pointer'}}>Agora não</button>
+            <button onClick={instalar} style={{minHeight:44,padding:'0 16px',background:C.azul,border:'none',borderRadius:9,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,color:'#fff',cursor:'pointer'}}>{plataforma==='android'&&nativo?'Instalar':'Como instalar'}</button>
+          </div>
+        </div>
+      </div>
+      {folha && <FolhaInstalar temDados={temDados} aoFechar={()=>{ setFolha(false); fechar(); }}/>}
     </div>
   );
 }
