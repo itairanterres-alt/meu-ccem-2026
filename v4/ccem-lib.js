@@ -111,13 +111,27 @@ function ccemMarcadas(appState, dia) {
 }
 const CCEM_USER_KEY = "ccem2026:userId";
 const CCEM_STATE_PFIX = "ccem2026:";
-function ccemGetUserId() {
-  let id = localStorage.getItem(CCEM_USER_KEY);
-  if (!id) {
-    id = "u_" + Math.random().toString(36).slice(2, 8) + Date.now().toString(36).slice(-3);
-    localStorage.setItem(CCEM_USER_KEY, id);
+const CCEM_ARMAZENA = (() => {
+  try {
+    localStorage.setItem("ccem2026:teste", "1");
+    localStorage.removeItem("ccem2026:teste");
+    return true;
+  } catch (e) {
+    return false;
   }
-  return id;
+})();
+function ccemGetUserId() {
+  const novo = () => "u_" + Math.random().toString(36).slice(2, 8) + Date.now().toString(36).slice(-3);
+  try {
+    let id = localStorage.getItem(CCEM_USER_KEY);
+    if (!id) {
+      id = novo();
+      localStorage.setItem(CCEM_USER_KEY, id);
+    }
+    return id;
+  } catch (e) {
+    return novo();
+  }
 }
 const CCEM_USER_ID = ccemGetUserId();
 const CCEM_STATE_KEY = CCEM_STATE_PFIX + CCEM_USER_ID;
@@ -143,10 +157,15 @@ function ccemLoadState() {
     return ccemSeedState();
   }
 }
+const _ccemSalvamento = { ok: CCEM_ARMAZENA };
 function ccemSaveState(s) {
   try {
     localStorage.setItem(CCEM_STATE_KEY, JSON.stringify(s));
+    _ccemSalvamento.ok = true;
+    return true;
   } catch (e) {
+    _ccemSalvamento.ok = false;
+    return false;
   }
 }
 const _ccemStore = { state: ccemLoadState() };
@@ -165,11 +184,34 @@ function useAppState() {
 }
 function updateAppState(updater) {
   updater(_ccemStore.state);
-  ccemSaveState(_ccemStore.state);
+  const ok = ccemSaveState(_ccemStore.state);
   _ccemNotify();
+  return ok;
 }
 function escapeHTML(s) {
   return String(s).replace(/[&<>"]/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[m]);
+}
+function ccemReduzirFoto(arquivo) {
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(arquivo);
+    const img = new Image();
+    img.onload = () => {
+      const escala = Math.min(1, 1600 / Math.max(img.naturalWidth, img.naturalHeight));
+      const w = Math.round(img.naturalWidth * escala), h = Math.round(img.naturalHeight * escala);
+      const cv = document.createElement("canvas");
+      cv.width = w;
+      cv.height = h;
+      cv.getContext("2d").drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(url);
+      const dataUrl = cv.toDataURL("image/jpeg", 0.8);
+      resolve({ base64: dataUrl.split(",")[1], previa: dataUrl });
+    };
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      reject(new Error("foto"));
+    };
+    img.src = url;
+  });
 }
 function nowStamp() {
   const d = /* @__PURE__ */ new Date();
@@ -208,6 +250,9 @@ Object.assign(window, {
   ccemMarcadas,
   CCEM_USER_ID,
   CCEM_STATE_KEY,
+  CCEM_ARMAZENA,
+  _ccemSalvamento,
+  ccemReduzirFoto,
   ccemSeedState,
   ccemLoadState,
   ccemSaveState,

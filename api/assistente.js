@@ -84,7 +84,7 @@ const FAQ = `
 - Transferência de titularidade da inscrição: até 10 dias antes do evento, por escrito, dentro da mesma categoria.
 - Hotéis com tarifa negociada (diárias com café da manhã, valores sujeitos a disponibilidade), todos a cerca de 7 km do evento: Blue Tree Towers Joinville (individual R$ 377, duplo R$ 429); Bourbon Convention Hotel Joinville (R$ 412 / R$ 449); Alven Hotel by Slaviero (R$ 365 / R$ 436); Ibis Joinville (R$ 399 / R$ 464). Reservas: Alleanza Viagens e Turismo, WhatsApp (48) 99123-2909, cristine@alleanza.tur.br.
 - Telefones úteis em Joinville: Aeroporto Lauro Carneiro de Loyola (JOI) (47) 3417-4000; Rodoviária Harold Nielson (47) 3433-2991; Central de Atendimento ao Turista (47) 3433-5007; SAMU 192; Bombeiros 193; Polícia Militar 190; Guarda Municipal 153 ou (47) 3431-1500.
-- App Meu CCEM: marcações e notas ficam só no aparelho; para guardar as notas, exportar o PDF no Caderno (botão "PDF"). Para lembrar de uma sessão, marcar e tocar em "Adicionar ao calendário". O app fica disponível até 31/12/2026.
+- App Meu CCEM: marcações, notas e fotos do Caderno ficam só no aparelho e funcionam sem internet. Para anotar: "Anotar" na tela da sessão ou "Nova nota" no Caderno; "Resumir com IA" é opcional. Para ler ou imprimir as notas: botão "Exportar / imprimir" no Caderno (escolher "Salvar como PDF"). Para trocar de aparelho ou guardar depois do congresso: botão "Backup" no Caderno, que gera um arquivo restaurável. Para lembrar de uma sessão: marcar e tocar em "Adicionar ao calendário". O app fica disponível até 31/12/2026.
 - Programação de cada sessão, horários, salas e palestrantes: ver o programa acima.
 
 PENDENTE (não publicado; responder que não tem a informação e indicar a secretaria):

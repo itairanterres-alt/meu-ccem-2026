@@ -23,9 +23,15 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
 - Exportação para a agenda do celular (`.ics`, fuso America/Sao_Paulo), de uma
   sessão ou de todas as marcadas.
 
-**Caderno**
-- Notas por sessão, salvas só no aparelho.
-- Exportação em PDF com título, data, sessão e horário de cada nota.
+**Caderno** — funciona sem internet e sem a IA
+- "Anotar" (na sessão) ou "Nova nota": escrever e/ou fotografar e salvar na
+  hora, vinculado à sessão. Editar e excluir.
+- A foto fica guardada no aparelho (IndexedDB), junto da nota.
+- "Resumir com IA" é opcional e fica separado do texto original.
+- O app avisa se não conseguiu salvar (armazenamento cheio ou bloqueado).
+- "Exportar / imprimir": página para ler ou salvar como PDF, com fotos.
+- "Backup": arquivo `.json` com notas, fotos e marcações, restaurável em outro
+  aparelho. Restaurar soma ao que existe; não apaga nada.
 - Faixa de lembrete para exportar, de 24/10 às 16h até 31/10.
 
 **Info**
@@ -47,13 +53,13 @@ confira na fonte" e pode ser salva no Caderno.
 ## Privacidade
 
 Não há login nem cadastro. Marcações e notas ficam no `localStorage` do
-aparelho e não são enviadas a servidor.
+aparelho, e as fotos das notas no IndexedDB; nada disso é enviado a servidor.
 
 O Assistente é a exceção, e só quando usado: a pergunta e a foto do slide
 (reduzida no aparelho a 1600 px) vão para `api/assistente.js`, que as repassa à
-Anthropic (EUA) e devolve só o texto. Nada é gravado: nem disco, nem Blob, nem
-log. A conversa fica só na memória da aba. Quem limpar o navegador ou trocar de
-aparelho perde as notas: por isso o app insiste na exportação em PDF. O app
+Anthropic (EUA) e devolve só o texto. O app não grava nada no servidor: nem
+disco, nem Blob, nem log. A retenção do lado da Anthropic segue a política dela. A conversa fica só na memória da aba. Quem limpar o navegador ou trocar de
+aparelho perde as notas: por isso o app oferece exportação e backup. O app
 fica disponível até 31/12/2026.
 
 ## Testar como se fosse o dia do evento
@@ -101,7 +107,8 @@ index.html        shell, estilos e ordem de carregamento
 api/assistente.js função do Vercel que conversa com a IA (regras, FAQ, limites)
 v4/               A VERSÃO VIVA — é daqui que o index.html carrega
   ccem-data.js    TODO o conteúdo: programa, palestrantes, fuso, .ics, link do e-pôster
-  *.jsx           código-fonte das telas (ccem-assistente.jsx: assistente e botão "8")
+  *.jsx           código-fonte das telas (ccem-caderno.jsx: notas, fotos e backup;
+                  ccem-assistente.jsx: assistente e botão "8")
   *.js            saída compilada (é o que o navegador carrega)
 vendor/           React e fontes, hospedados localmente
 package.json      só a dependência da função (@anthropic-ai/sdk)
@@ -158,6 +165,16 @@ não abrir se esses servidores estiverem lentos ou bloqueados.
 
 `sw.js` guarda o app e a grade em cache. Depois da primeira visita, o app abre
 sem rede. `manifest.json` permite instalá-lo na tela inicial.
+
+Cada publicação é uma versão fechada: os arquivos essenciais entram todos ou a
+versão nova é descartada (a anterior continua). A versão nova não entra no meio
+do uso: o app mostra "Nova versão do app disponível · Atualizar" e troca no
+toque, ou quando o app é fechado e aberto de novo. Por isso **todo** deploy
+precisa incrementar `CACHE_VERSION` — sem isso, quem já abriu o app continua
+na versão anterior.
+
+A data em `CCEM_PROGRAMA_CONFERIDO` (`v4/ccem-data.js`) aparece no fim do
+Programa: atualizar a cada conferência com o site oficial.
 
 ## Como rodar localmente
 

@@ -54,7 +54,7 @@ function HomeScreen() {
             <div>
               <div style={{display:'inline-flex',alignItems:'center',gap:14,background:C.azul,borderRadius:12,padding:'12px 18px'}}>
                 <div style={{textAlign:'center'}}>
-                  <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:36,fontWeight:700,lineHeight:1,color:C.ouro}}>{daysLeft}</div>
+                  <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:36,fontWeight:700,lineHeight:1,color:C.ouroTxt}}>{daysLeft}</div>
                   <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.1em',color:'rgba(255,255,255,.75)',marginTop:3}}>{daysLeft===1?'dia':'dias'}</div>
                 </div>
                 <div style={{width:1,height:38,background:'rgba(255,255,255,.18)'}}/>
@@ -96,9 +96,9 @@ function HomeScreen() {
           {(markCount > 0 || capCount > 0) && (
             <div style={{display:'flex',gap:8,marginTop:12}}>
               {markCount > 0 && (
-                <div style={{display:'flex',alignItems:'center',gap:5,background:'#fef9ec',border:`1px solid ${C.ouro}44`,borderRadius:8,padding:'5px 10px'}}>
-                  <IcoStar size={11} color={C.ouro} filled={true}/>
-                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouro}}>{markCount} marcada{markCount!==1?'s':''}</span>
+                <div style={{display:'flex',alignItems:'center',gap:5,background:'#fef9ec',border:`1px solid ${C.ouroTxt}44`,borderRadius:8,padding:'5px 10px'}}>
+                  <IcoStar size={11} color={C.ouroTxt} filled={true}/>
+                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouroTxt}}>{markCount} marcada{markCount!==1?'s':''}</span>
                 </div>
               )}
               {capCount > 0 && (
@@ -120,7 +120,7 @@ function HomeScreen() {
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:9}}>
           {shortcuts.map((s,i)=>(
             <button key={s.id} onClick={()=>go('#/'+s.id)}
-              style={{gridColumn:i===0?'1 / -1':'auto',background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:13,padding:'14px 14px 12px',textAlign:'left',cursor:'pointer',display:'flex',flexDirection:'column',gap:8,boxShadow:'0 1px 6px rgba(29,62,138,.05)',transition:'all .15s',outline:'none'}}
+              style={{gridColumn:i===0?'1 / -1':'auto',background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:13,padding:'14px 14px 12px',textAlign:'left',cursor:'pointer',display:'flex',flexDirection:'column',gap:8,boxShadow:'0 1px 6px rgba(29,62,138,.05)',transition:'all .15s'}}
               onMouseOver={e=>{e.currentTarget.style.transform='translateY(-2px)';e.currentTarget.style.boxShadow='0 4px 18px rgba(29,62,138,.11)';e.currentTarget.style.borderColor=C.azul;}}
               onMouseOut={e=>{e.currentTarget.style.transform='';e.currentTarget.style.boxShadow='0 1px 6px rgba(29,62,138,.05)';e.currentTarget.style.borderColor=C.linhaSoft;}}>
               <span style={{color:C.azul}}>{s.icon}</span>
@@ -192,7 +192,7 @@ function MinhasSessoes({ appState, agora }) {
                   {!diaRef && <div style={{fontSize:12,fontWeight:500,color:C.cinza}}>{s.dia.split(' · ')[0]}</div>}
                 </div>
                 <div style={{flex:1,minWidth:0,fontSize:13,fontWeight:600,color:C.tinta,lineHeight:1.3}}>{ccemRotulo(s)}</div>
-                {vivo && <span style={{background:'#22c55e',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,textTransform:'uppercase',letterSpacing:'0.06em',padding:'2px 8px',borderRadius:10}}>Agora</span>}
+                {vivo && <span style={{background:'#15803d',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,textTransform:'uppercase',letterSpacing:'0.06em',padding:'2px 8px',borderRadius:10}}>Agora</span>}
               </div>
             );
           })}
