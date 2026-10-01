@@ -131,25 +131,23 @@ const CCEM_STATE_PFIX = 'ccem2026:';
 // Inserir validação aqui e redirecionar para tela de gate se não autenticado.
 // Comportamento atual: userId anônimo em localStorage (acesso aberto para demos).
 // ─────────────────────────────────────────────────────────────
+/* O navegador pode bloquear o armazenamento (Safari privado, políticas de
+   empresa). O app abre mesmo assim; só avisa que nada fica salvo. */
+const CCEM_ARMAZENA = (() => {
+  try { localStorage.setItem('ccem2026:teste', '1'); localStorage.removeItem('ccem2026:teste'); return true; }
+  catch (e) { return false; }
+})();
+
 function ccemGetUserId() {
-  let id = localStorage.getItem(CCEM_USER_KEY);
-  if (!id) {
-    id = 'u_' + Math.random().toString(36).slice(2,8) + Date.now().toString(36).slice(-3);
-    localStorage.setItem(CCEM_USER_KEY, id);
-  }
-  return id;
+  const novo = () => 'u_' + Math.random().toString(36).slice(2,8) + Date.now().toString(36).slice(-3);
+  try {
+    let id = localStorage.getItem(CCEM_USER_KEY);
+    if (!id) { id = novo(); localStorage.setItem(CCEM_USER_KEY, id); }
+    return id;
+  } catch (e) { return novo(); }
 }
 const CCEM_USER_ID  = ccemGetUserId();
 const CCEM_STATE_KEY = CCEM_STATE_PFIX + CCEM_USER_ID;
-
-// ── PENDÊNCIAS DE PRODUÇÃO (para outubro — não implementar agora) ──────────
-// [ ] BUILD: substituir Babel standalone (~3 MB) por build esbuild/Vite.
-//     No wifi saturado do Expoville, o bundle atual desacelera o primeiro load.
-// [ ] SERVICE WORKER + MANIFEST: cache do shell/grade para funcionamento
-//     offline e instalável (PWA). App de congresso precisa abrir sem rede.
-// [ ] ASSETS LOCAIS: hospedar React, Babel e fontes localmente — hoje
-//     dependem de unpkg/Google Fonts; CDN fora durante o evento = app fora.
-// ───────────────────────────────────────────────────────────────────────────
 
 function ccemSeedState() {
   // Estado inicial limpo — sem dados de demonstração (P1 · jul/2026)
@@ -176,8 +174,12 @@ function ccemLoadState() {
     return parsed;
   } catch(e) { return ccemSeedState(); }
 }
+/* Devolve true só se gravou de fato. Falhou uma vez (armazenamento cheio
+   ou bloqueado): _ccemSalvamento.ok fica false e o app passa a avisar. */
+const _ccemSalvamento = { ok: CCEM_ARMAZENA };
 function ccemSaveState(s) {
-  try { localStorage.setItem(CCEM_STATE_KEY, JSON.stringify(s)); } catch(e) {}
+  try { localStorage.setItem(CCEM_STATE_KEY, JSON.stringify(s)); _ccemSalvamento.ok = true; return true; }
+  catch (e) { _ccemSalvamento.ok = false; return false; }
 }
 
 /* Store compartilhado */
@@ -196,13 +198,34 @@ function useAppState() {
 }
 function updateAppState(updater) {
   updater(_ccemStore.state);
-  ccemSaveState(_ccemStore.state);
+  const ok = ccemSaveState(_ccemStore.state);
   _ccemNotify();
+  return ok;
 }
 
 function escapeHTML(s) {
   return String(s).replace(/[&<>"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[m]);
 }
+/* 5.3 · Foto reduzida no aparelho (máx. 1600 px, JPEG 0,8). */
+function ccemReduzirFoto(arquivo) {
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(arquivo);
+    const img = new Image();
+    img.onload = () => {
+      const escala = Math.min(1, 1600 / Math.max(img.naturalWidth, img.naturalHeight));
+      const w = Math.round(img.naturalWidth * escala), h = Math.round(img.naturalHeight * escala);
+      const cv = document.createElement('canvas');
+      cv.width = w; cv.height = h;
+      cv.getContext('2d').drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(url);
+      const dataUrl = cv.toDataURL('image/jpeg', 0.8);
+      resolve({ base64: dataUrl.split(',')[1], previa: dataUrl });
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('foto')); };
+    img.src = url;
+  });
+}
+
 function nowStamp() {
   const d = new Date();
   return d.getHours() + ':' + String(d.getMinutes()).padStart(2,'0');
@@ -213,7 +236,7 @@ Object.assign(window, {
   IcoSearch, IcoStar, IcoPlus, IcoCheck, IcoX, IcoCam, IcoMic, IcoSend,
   IcoFilter, IcoGlobe, IcoPhone, IcoMail, IcoInsta, IcoLink, IcoCapture, IcoPoster,
   useHashRoute, useMinuto, showToast, ccemBaseUrl, ccemBaixarIcs, ccemMarcadas,
-  CCEM_USER_ID, CCEM_STATE_KEY,
+  CCEM_USER_ID, CCEM_STATE_KEY, CCEM_ARMAZENA, _ccemSalvamento, ccemReduzirFoto,
   ccemSeedState, ccemLoadState, ccemSaveState,
   _ccemStore, _ccemListeners, _ccemNotify,
   useAppState, updateAppState,

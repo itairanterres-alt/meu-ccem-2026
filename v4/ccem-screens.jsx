@@ -6,7 +6,7 @@
 function badgeColor(tipo) {
   if (tipo==='simposio') return C.azul;
   if (tipo==='mini')     return '#0d9488';
-  if (tipo==='satelite') return C.ouro;
+  if (tipo==='satelite') return C.ouroTxt;
   return '#64748b';
 }
 function norm(s){ return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,''); }
@@ -59,7 +59,7 @@ function SessaoCard({ id }) {
         border:`1px solid ${noAr?'#c2daf8':C.linhaSoft}`,
         opacity:s.tipo==='satelite'?0.75:1,
         cursor:s.navegavel?'pointer':'default',position:'relative'}}>
-      {noAr&&<span style={{position:'absolute',top:8,right:8,background:'#22c55e',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,letterSpacing:'0.1em',textTransform:'uppercase',padding:'2px 7px',borderRadius:10,fontWeight:700}}>Agora</span>}
+      {noAr&&<span style={{position:'absolute',top:8,right:8,background:'#15803d',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,letterSpacing:'0.1em',textTransform:'uppercase',padding:'2px 7px',borderRadius:10,fontWeight:700}}>Agora</span>}
       <div style={{display:'flex',gap:10,alignItems:'flex-start'}}>
         <div style={{minWidth:40,flexShrink:0,textAlign:'center',paddingTop:1}}>
           <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13.5,fontWeight:700,color:C.azul,lineHeight:1}}>{s.inicio}</div>
@@ -238,14 +238,14 @@ function SessaoDetail({ id }) {
   }
 
   function handleAnotar(){
-    // não cria nota vazia: abre o Assistente sobre esta sessão; a nota nasce quando houver conteúdo
-    ccemAbrirAssistente();
+    // nota direta, no aparelho, sem depender de internet nem da IA
+    ccemAbrirEditor({ sessaoId:id });
   }
 
   async function handleShare(){
     const texto = `${s.badge} — ${s.titulo}\n${s.dia} · ${s.inicio}–${s.fim} · Expoville, Joinville/SC\n\n#CCEM2026 #SBEMSC`;
     if (navigator.share) {
-      try { await navigator.share({ title:s.titulo, text:texto, url:'https://ccem2026.com.br' }); }
+      try { await navigator.share({ title:s.titulo, text:texto, url:ccemBaseUrl()+'#/sessao/'+id }); }
       catch(e) {}
     } else {
       try { await navigator.clipboard.writeText(texto); showToast('Copiado ✓'); }
@@ -266,17 +266,17 @@ function SessaoDetail({ id }) {
       {/* Top bar */}
       <div style={{background:C.azul,color:'#fff',flexShrink:0,boxShadow:'0 2px 12px rgba(10,18,50,.3)'}}>
         <div style={{height:52,display:'flex',alignItems:'center',gap:8,padding:'0 8px'}}>
-          <button onClick={()=>window.history.back()} style={BACK_BTN}><IcoArrowL size={20} color="#fff"/></button>
+          <button onClick={()=>window.history.back()} aria-label="Voltar" style={BACK_BTN}><IcoArrowL size={20} color="#fff"/></button>
           <div style={{flex:1,minWidth:0}}>
             <div style={{fontSize:13,fontWeight:700,lineHeight:1.2,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{s.titulo}</div>
             <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,opacity:.75,marginTop:1}}>{s.inicio}–{s.fim} · {s.dur}</div>
           </div>
           <div style={{display:'flex',gap:2,flexShrink:0}}>
-            <button onClick={handleShare} title="Compartilhar" style={navBtn(true)}>
+            <button onClick={handleShare} title="Compartilhar" aria-label="Compartilhar esta sessão" style={navBtn(true)}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
             </button>
-            <button onClick={()=>prevId&&go('#/sessao/'+prevId)} style={navBtn(!!prevId)}><IcoChevL size={18} color="#fff"/></button>
-            <button onClick={()=>nextId&&go('#/sessao/'+nextId)} style={navBtn(!!nextId)}><IcoChevR size={18} color="#fff"/></button>
+            <button onClick={()=>prevId&&go('#/sessao/'+prevId)} aria-label="Sessão anterior" disabled={!prevId} style={navBtn(!!prevId)}><IcoChevL size={18} color="#fff"/></button>
+            <button onClick={()=>nextId&&go('#/sessao/'+nextId)} aria-label="Próxima sessão" disabled={!nextId} style={navBtn(!!nextId)}><IcoChevR size={18} color="#fff"/></button>
           </div>
         </div>
         {idx>=0&&<div style={{height:2,background:'rgba(255,255,255,.1)'}}><div style={{height:'100%',background:C.ouro,width:`${((idx+1)/SESSOES_NAV.length)*100}%`,transition:'width .3s'}}/></div>}
@@ -351,8 +351,8 @@ function SessaoDetail({ id }) {
           <button onClick={handleAnotar} style={{flex:3,display:'flex',alignItems:'center',justifyContent:'center',gap:7,background:C.azul,color:'#fff',border:'none',borderRadius:10,padding:'13px',fontFamily:'DM Sans,sans-serif',fontSize:14,fontWeight:700,cursor:'pointer',letterSpacing:'-0.01em',boxShadow:'0 2px 8px rgba(29,62,138,.25)'}}>
             <IcoCapture size={17} color="#fff"/>Anotar
           </button>
-          <button onClick={toggleMark} style={{flexShrink:0,display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:3,background:isMarked?C.ouroBg:'#fff',color:isMarked?C.ouro:C.cinza,border:`1px solid ${isMarked?C.ouro:C.linha}`,borderRadius:10,padding:'10px 14px',fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:isMarked?700:500,cursor:'pointer'}}>
-            <IcoStar size={16} color={isMarked?C.ouro:C.cinza} filled={isMarked}/>{isMarked?'Marcado':'Marcar'}
+          <button onClick={toggleMark} style={{flexShrink:0,display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:3,background:isMarked?C.ouroBg:'#fff',color:isMarked?C.ouroTxt:C.cinza,border:`1px solid ${isMarked?C.ouroTxt:C.linha}`,borderRadius:10,padding:'10px 14px',fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:isMarked?700:500,cursor:'pointer'}}>
+            <IcoStar size={16} color={isMarked?C.ouroTxt:C.cinza} filled={isMarked}/>{isMarked?'Marcado':'Marcar'}
           </button>
         </div>
 
@@ -431,7 +431,7 @@ function ProgramaScreen() {
 
   const buscaNorm = useMemo(()=>norm(busca),[busca]);
   const items = useMemo(()=>{
-    return (PROGRAMA[dia]||[]).filter(item=>{
+    const filtrar = d => (PROGRAMA[d]||[]).filter(item=>{
       if(item.tipo==='intervalo') return !buscaNorm&&!filtroTipo&&!soMarcados;
       const s=SESSOES[item.id]; if(!s) return false;
       if(soMarcados&&!appState.marks?.[item.id]) return false;
@@ -441,6 +441,12 @@ function ProgramaScreen() {
         if(!hay.includes(buscaNorm)) return false;
       }
       return true;
+    });
+    if (!buscaNorm) return filtrar(dia);
+    // Com busca, procura nos dois dias, cada um com seu título.
+    return DIAS.flatMap(d=>{
+      const achou = filtrar(d);
+      return achou.length ? [{ tipo:'dia', id:'dia-'+d, label: d===DIAS[0]?'Sexta · 23 de outubro':'Sábado · 24 de outubro' }, ...achou] : [];
     });
   },[dia,buscaNorm,filtroTipo,soMarcados,appState.marks]);
 
@@ -489,10 +495,10 @@ function ProgramaScreen() {
       <div style={{padding:'8px 12px 0',background:'#fff',flexShrink:0}}>
         <button onClick={()=>setSoMarcados(v=>!v)} aria-pressed={soMarcados}
           style={{width:'100%',minHeight:44,display:'flex',alignItems:'center',justifyContent:'center',gap:7,
-            background:soMarcados?C.ouroBg:'#fff',color:soMarcados?C.ouro:C.tinta,
-            border:`1px solid ${soMarcados?C.ouro:C.linha}`,borderRadius:9,cursor:'pointer',
+            background:soMarcados?C.ouroBg:'#fff',color:soMarcados?C.ouroTxt:C.tinta,
+            border:`1px solid ${soMarcados?C.ouroTxt:C.linha}`,borderRadius:9,cursor:'pointer',
             fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600}}>
-          <IcoStar size={15} color={soMarcados?C.ouro:C.cinza} filled={soMarcados}/>
+          <IcoStar size={15} color={soMarcados?C.ouroTxt:C.cinza} filled={soMarcados}/>
           {soMarcados ? 'Mostrando só marcadas' : 'Só marcadas'}
           <span style={{fontWeight:500,color:C.cinza}}>· {markedCount} neste dia</span>
         </button>
@@ -504,7 +510,7 @@ function ProgramaScreen() {
       {hasFilter&&(
         <div style={{display:'flex',gap:5,padding:'5px 12px',background:'#f0f4fc',borderBottom:`1px solid ${C.linhaSoft}`,flexShrink:0,overflowX:'auto',scrollbarWidth:'none',alignItems:'center'}}>
           {filtroTipo&&<span style={{...chipSt(true,C.azul),minHeight:0,fontSize:12,padding:'3px 10px'}}>{filtroTipo==='simposio'?'Simpósio':filtroTipo==='mini'?'Mini':'Satélite'}</span>}
-          {soMarcados&&<span style={{...chipSt(true,C.ouro),minHeight:0,fontSize:12,padding:'3px 10px'}}>★ Marcados</span>}
+          {soMarcados&&<span style={{...chipSt(true,C.ouroTxt),minHeight:0,fontSize:12,padding:'3px 10px'}}>★ Marcados</span>}
           <button onClick={()=>{setFiltroTipo(null);setSoMarcados(false);}} style={{minHeight:44,minWidth:44,border:'none',background:'none',color:C.cinza,fontSize:12,cursor:'pointer',fontFamily:'inherit',padding:'0 8px',flexShrink:0}}>Limpar ×</button>
         </div>
       )}
@@ -517,19 +523,22 @@ function ProgramaScreen() {
             <div style={{fontSize:13,marginBottom:12}}>Nenhuma sessão encontrada</div>
             <button onClick={()=>{setBusca('');setFiltroTipo(null);setSoMarcados(false);}} style={{minHeight:44,border:`1px solid ${C.linha}`,background:'#fff',color:C.azul,padding:'7px 16px',borderRadius:8,cursor:'pointer',fontFamily:'inherit',fontSize:12}}>Limpar filtros</button>
           </div>
-        ):items.map((item,i)=>item.tipo==='intervalo'?<IntervalRow key={i} item={item}/>:<SessaoCard key={item.id} id={item.id}/>)}
-        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textAlign:'center',letterSpacing:'0.04em'}}>toque para abrir a sessão</div>}
+        ):items.map((item,i)=>item.tipo==='dia'
+            ? <div key={item.id} style={{padding:'12px 16px 4px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>{item.label}</div>
+            : item.tipo==='intervalo'?<IntervalRow key={i} item={item}/>:<SessaoCard key={item.id} id={item.id}/>)}
+        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textAlign:'center',letterSpacing:'0.04em'}}>toque para abrir a sessão<br/>Programa conferido com o site oficial em {CCEM_PROGRAMA_CONFERIDO}</div>}
       </div>
 
       {/* Filter bottom-sheet */}
       {filterOpen&&(
         <div style={{position:'fixed',inset:0,zIndex:200,display:'flex',flexDirection:'column',justifyContent:'flex-end',background:'rgba(0,0,0,.38)'}}
           onClick={()=>setFilterOpen(false)}>
-          <div style={{background:'#fff',borderRadius:'18px 18px 0 0',padding:'20px 18px 36px',maxWidth:440,width:'100%',margin:'0 auto',boxShadow:'0 -4px 32px rgba(10,18,50,.18)'}}
+          <div role="dialog" aria-modal="true" aria-label="Filtrar sessões" onKeyDown={e=>e.key==='Escape'&&setFilterOpen(false)}
+            style={{background:'#fff',borderRadius:'18px 18px 0 0',padding:'20px 18px 36px',maxWidth:440,width:'100%',margin:'0 auto',boxShadow:'0 -4px 32px rgba(10,18,50,.18)'}}
             onClick={e=>e.stopPropagation()}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:18}}>
               <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,fontWeight:600}}>Filtrar sessões</span>
-              <button onClick={()=>setFilterOpen(false)} aria-label="Fechar" style={{width:44,height:44,background:'none',border:'none',fontSize:22,color:C.cinza,cursor:'pointer',lineHeight:1,padding:0}}>×</button>
+              <button autoFocus onClick={()=>setFilterOpen(false)} aria-label="Fechar" style={{width:44,height:44,background:'none',border:'none',fontSize:22,color:C.cinza,cursor:'pointer',lineHeight:1,padding:0}}>×</button>
             </div>
             <div style={{marginBottom:16}}>
               <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:9}}>Tipo de sessão</div>
@@ -541,7 +550,7 @@ function ProgramaScreen() {
             </div>
             <div style={{marginBottom:20}}>
               <button onClick={()=>setSoMarcados(v=>!v)}
-                style={{...chipSt(soMarcados,C.ouro),width:'100%',justifyContent:'center'}}>
+                style={{...chipSt(soMarcados,C.ouroTxt),width:'100%',justifyContent:'center'}}>
                 ★ Mostrar apenas marcados
               </button>
             </div>
@@ -556,131 +565,6 @@ function ProgramaScreen() {
               Ver resultados
             </button>
           </div>
-        </div>
-      )}
-    </div>
-  );
-}
-
-/* ── CadernoScreen ──────────────────────────────────────────── */
-/* Data e hora em Joinville a partir do instante salvo na nota. */
-function ccemDataHoraJoinville(ts) {
-  const iso = new Date(ts - 3*3600000).toISOString();   // UTC−3 fixo
-  return { data: iso.slice(8,10)+'/'+iso.slice(5,7)+'/'+iso.slice(0,4), hora: iso.slice(11,16) };
-}
-
-/* Exporta o Caderno para PDF pelo diálogo de impressão do navegador.
-   Precisa ser chamada a partir de um toque: senão o navegador bloqueia
-   a janela nova. */
-/* Corpo da nota como texto. Notas de versões antigas guardavam HTML:
-   viram texto aqui, para nada ser interpretado como código. */
-function ccemNotaEmTexto(body) {
-  return String(body||'').replace(/<br\s*\/?>/gi,'\n').replace(/<[^>]*>/g,'')
-    .replace(/&nbsp;/g,' ').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&amp;/g,'&');
-}
-
-function ccemExportarCaderno(captures) {
-  const lista = [...(captures||[])].sort((a,b)=>a.ts-b.ts);
-  if (!lista.length) { showToast('O caderno está vazio'); return; }
-  const w = window.open('', '_blank');
-  if (!w) { showToast('Permita pop-ups para exportar o PDF'); return; }
-  const esc = t => String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  const hoje = ccemDataHoraJoinville(Date.now()).data;
-  const rows = lista.map(c => {
-    const { data, hora } = ccemDataHoraJoinville(c.ts);
-    const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : (c.sessaoRef||'');
-    return `<div class="nota"><div class="meta">${esc(data)} · ${esc(hora)} · ${esc(sess)}</div>`
-         + `<h3>${esc(c.title)}</h3><div class="body">${esc(ccemNotaEmTexto(c.body))}</div></div>`;
-  }).join('');
-  w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu Caderno · CCEM 2026</title><style>
-    body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
-    h1{font-size:22px;margin:0 0 2px}
-    .sub{font-size:12px;color:#4a5468;margin:0 0 24px;font-family:system-ui,sans-serif}
-    .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
-    .meta{font-size:12px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
-    h3{font-size:14px;margin:0 0 6px}
-    .body{font-size:13px;line-height:1.55;white-space:pre-wrap}
-  </style></head><body><h1>Meu Caderno · CCEM 2026</h1><p class="sub">${lista.length} nota${lista.length!==1?'s':''} · exportado em ${hoje} · 12º Congresso Catarinense de Endocrinologia e Metabologia</p>${rows}<script>window.print()<\/script></body></html>`);
-  w.document.close();
-}
-
-function CadernoScreen() {
-  const appState = useAppState();
-  const [filtro, setFiltro] = useState('all');
-  const captures = appState.captures || [];
-  const filtered = filtro==='all' ? captures : captures.filter(c=>c.type===filtro);
-  const counts = { all:captures.length, foto:captures.filter(c=>c.type==='foto').length, audio:captures.filter(c=>c.type==='audio').length, texto:captures.filter(c=>c.type==='texto').length };
-  const sessoes  = new Set(captures.map(c=>c.sessaoId)).size;
-  const refs     = captures.reduce((acc,c)=>acc+(c.body&&(c.body.match(/NEJM|Lancet|JCEM|Diabetes|guideline|diretriz/gi)||[]).length),0);
-  const isDia0 = c => c.dia===DIAS[0] || c.day==='sexta';
-  const isDia1 = c => c.dia===DIAS[1] || c.day==='sabado';
-  const bySex  = filtered.filter(isDia0).sort((a,b)=>b.ts-a.ts);
-  const bySab  = filtered.filter(isDia1).sort((a,b)=>b.ts-a.ts);
-  const bsOrph = filtered.filter(c=>!isDia0(c)&&!isDia1(c)).sort((a,b)=>b.ts-a.ts);
-
-  function typeColor(t){ return t==='foto'?C.azul:t==='audio'?'#0d9488':C.ouro; }
-
-  function NoteCard({c}){
-    return (
-      <div style={{background:'#fff',borderRadius:10,padding:'10px 12px',marginBottom:6,border:`1px solid ${C.linhaSoft}`,borderLeft:`3px solid ${typeColor(c.type)}`}}>
-        <div style={{display:'flex',alignItems:'center',gap:6,marginBottom:5}}>
-          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:typeColor(c.type),textTransform:'uppercase',letterSpacing:'0.07em',fontWeight:600}}>{c.type}</span>
-          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,flex:1,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{c.sessaoRef} · {c.time}</span>
-        </div>
-        <div style={{fontSize:12.5,fontWeight:600,color:C.tinta,marginBottom:4,lineHeight:1.3}}>{c.title}</div>
-        <div style={{fontSize:12,color:C.cinza,lineHeight:1.5,whiteSpace:'pre-wrap'}}>{ccemNotaEmTexto(c.body)}</div>
-        {(c.tags||[]).length>0&&<div style={{display:'flex',gap:4,marginTop:6,flexWrap:'wrap'}}>{c.tags.map(t=><span key={t} style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.azulSoft,background:C.azulBg+'60',padding:'2px 7px',borderRadius:8}}>{t}</span>)}</div>}
-      </div>
-    );
-  }
-
-  const fchip=(key,lbl)=>(
-    <button key={key} onClick={()=>setFiltro(key)} aria-pressed={filtro===key} style={{minHeight:44,display:'flex',alignItems:'center',padding:0,border:'none',background:'none',cursor:'pointer',fontFamily:'inherit',flexShrink:0}}>
-      <span style={{display:'flex',alignItems:'center',gap:4,padding:'5px 12px',border:`1px solid ${filtro===key?C.azul:C.linha}`,borderRadius:20,background:filtro===key?C.azul:'#fff',color:filtro===key?'#fff':C.cinza,fontSize:12,fontWeight:filtro===key?600:400}}>
-        {lbl}<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,marginLeft:2}}>{counts[key]}</span>
-      </span>
-    </button>
-  );
-
-  return (
-    <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
-      <div style={{padding:'12px 16px 10px',background:'#fff',borderBottom:`1px solid ${C.linha}`,flexShrink:0}}>
-        <h2 style={{fontFamily:'Georgia,serif',fontSize:17,fontWeight:700,color:C.tinta,margin:'0 0 2px'}}>Meu caderno</h2>
-        <p style={{fontSize:12,color:C.cinza,margin:'0 0 8px'}}>tudo que você anotou no CCEM 2026</p>
-        <p style={{fontSize:12,color:C.tinta,lineHeight:1.4,margin:'0 0 10px',padding:'7px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.azulSoft}`}}>
-          Suas notas ficam só neste aparelho. Exporte o PDF para guardar.
-        </p>
-        <div style={{display:'flex',gap:8}}>
-          {[['Notas',captures.length,C.azulBg,C.azul],['Sessões',sessoes,C.verdeBg,C.verde],['Refs',refs,C.ouroBg,C.ouro]].map(([lbl,num,bg,color])=>(
-            <div key={lbl} style={{flex:1,background:bg,borderRadius:10,padding:'7px 10px',textAlign:'center'}}>
-              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:20,fontWeight:700,color,lineHeight:1}}>{num}</div>
-              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color,textTransform:'uppercase',letterSpacing:'0.06em',marginTop:2}}>{lbl}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div style={{display:'flex',gap:5,padding:'0 12px',background:'#f8fafd',borderBottom:`1px solid ${C.linhaSoft}`,overflowX:'auto',flexShrink:0,scrollbarWidth:'none'}}>
-        {fchip('all','Tudo')}{fchip('foto','Fotos')}{fchip('texto','Textos')}
-      </div>
-      <div style={{flex:1,overflowY:'auto',padding:'10px 12px'}}>
-        {filtered.length===0?(
-          <div style={{textAlign:'center',padding:'40px 20px',color:C.cinza}}>
-            <div style={{fontSize:32,marginBottom:10}}>○</div>
-            <h4 style={{fontSize:14,fontWeight:600,color:C.tinta,marginBottom:6}}>Caderno vazio</h4>
-            <p style={{fontSize:12,lineHeight:1.5,margin:0}}>Toque em <strong>Anotar</strong> numa sessão, ou envie algo pelo Assistente.</p>
-          </div>
-        ):(
-          <>
-            {bySex.length>0&&<><div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',margin:'2px 0 8px',fontWeight:600}}>Sexta · 23 outubro</div>{bySex.map(c=><NoteCard key={c.id} c={c}/>)}</>}
-            {bySab.length>0&&<><div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',margin:'12px 0 8px',fontWeight:600}}>Sábado · 24 outubro</div>{bySab.map(c=><NoteCard key={c.id} c={c}/>)}</>}
-            {bsOrph.length>0&&bsOrph.map(c=><NoteCard key={c.id} c={c}/>)}
-          </>
-        )}
-      </div>
-      {captures.length>0&&(
-        <div style={{padding:'9px 12px',background:'#fff',borderTop:`1px solid ${C.linha}`,display:'flex',alignItems:'center',gap:10,flexShrink:0}}>
-          <p style={{flex:1,fontSize:12,color:C.cinza,lineHeight:1.4,margin:0}}><strong>Salvo neste dispositivo</strong> · {captures.length} nota{captures.length!==1?'s':''}</p>
-          <button onClick={()=>ccemExportarCaderno(captures)} style={{minHeight:44,display:'flex',alignItems:'center',gap:5,background:C.azul,color:'#fff',border:'none',borderRadius:8,padding:'7px 16px',fontSize:12,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>↓ PDF</button>
         </div>
       )}
     </div>
@@ -759,7 +643,10 @@ function InfoScreen() {
             O app fica disponível até 31/12/2026. Notas não são enviadas a servidor; se você limpar o navegador ou trocar de aparelho, elas se perdem — exporte o PDF.
           </p>
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
-            Assistente CCEM (beta): a pergunta e a foto do slide, quando houver, são enviadas para processamento pela Anthropic, nos EUA, e descartadas em seguida; o app não as grava. Não envie dados de pacientes. As respostas são geradas por IA e podem conter erros.
+            Notas e fotos do Caderno ficam só neste aparelho. Só o que você mandar ao Assistente CCEM (beta) — pergunta, foto ou "Resumir com IA" — é enviado para processamento pela Anthropic, nos EUA; o app não guarda cópia no servidor. A Anthropic segue a própria política de retenção de dados. Não envie dados de pacientes. As respostas são geradas por IA e podem conter erros.
+          </p>
+          <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.55,margin:'0 0 10px'}}>
+            O selo "Agora" segue o horário previsto no programa; atrasos no evento não aparecem no app.
           </p>
           <div style={{display:'flex',alignItems:'center',gap:8,padding:'7px 0',borderTop:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
             <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',flexShrink:0}}>ID local</span>
@@ -773,8 +660,8 @@ function InfoScreen() {
 
         {/* Rodapé */}
         <div style={{textAlign:'center',padding:'18px 16px 4px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.9}}>
-          <div>Meu CCEM 2026 · v4.0</div>
-          <div>versão em desenvolvimento · restrito à comissão</div>
+          <div>Meu CCEM 2026 · v4.1</div>
+          <div>versão de avaliação · CCEM 2026</div>
           <div style={{marginTop:6}}>
             <a href="https://www.ccem2026.com.br" target="_blank" rel="noopener" style={{display:'inline-flex',alignItems:'center',minHeight:44,color:C.azul,textDecoration:'none',fontSize:12}}>ccem2026.com.br · site oficial do congresso ↗</a>
           </div>
@@ -821,12 +708,12 @@ function AppHeader(){
             onError={e=>{e.target.style.display='none';if(e.target.nextSibling)e.target.nextSibling.style.display='flex';}}/>
           <div onClick={()=>go('#/')} style={{display:'none',alignItems:'baseline',gap:4,cursor:'pointer'}}>
             <span style={{fontFamily:'Georgia,serif',fontWeight:700,fontSize:17,color:C.azul,letterSpacing:'-0.02em'}}>CCEM</span>
-            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
+            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouroTxt,letterSpacing:'0.08em'}}>2026</span>
           </div>
         </div>
         <div style={{textAlign:'right',flexShrink:0}}>
           <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,letterSpacing:'0.05em',textTransform:'uppercase'}}>23–24 OUT · Joinville/SC</div>
-          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouro,letterSpacing:'0.04em',marginTop:1}}>Expoville</div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouroTxt,letterSpacing:'0.04em',marginTop:1}}>Expoville</div>
         </div>
       </div>
       <LiveStrip/>
@@ -883,7 +770,7 @@ function DesktopSidebar({ aba }) {
       <div style={{padding:'22px 18px 14px',borderBottom:`1px solid ${C.linhaSoft}`}}>
         <button onClick={()=>go('#/')} style={{display:'flex',alignItems:'baseline',gap:6,marginBottom:5,background:'none',border:'none',cursor:'pointer',padding:0,textDecoration:'none'}}>
           <span style={{fontFamily:'Georgia,serif',fontWeight:700,fontSize:22,color:C.azul,letterSpacing:'-0.02em'}}>CCEM</span>
-          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouro,letterSpacing:'0.08em'}}>2026</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouroTxt,letterSpacing:'0.08em'}}>2026</span>
         </button>
         <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,letterSpacing:'0.04em',marginTop:2}}>23–24 out · Joinville/SC</div>
         <div style={{marginTop:10}}><LiveStrip/></div>
@@ -902,7 +789,7 @@ function DesktopSidebar({ aba }) {
         })}
       </nav>
       <div style={{padding:'12px 16px',borderTop:`1px solid ${C.linhaSoft}`}}>
-        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.7}}>v4.0 · Meu CCEM<br/>versão em desenvolvimento · restrito à comissão</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.7}}>v4.1 · Meu CCEM<br/>versão de avaliação</div>
       </div>
     </div>
   );
@@ -953,7 +840,7 @@ function AppShell({ showShell, aba, fab, reservaFab, children }){
 Object.assign(window, {
   AppShell, AppHeader, LiveStrip, TabBar, DesktopSidebar, useIsDesktop,
   DayTimeline, SlideDisplay, SlideUploadBtn,
-  ProgramaScreen, SessaoDetail, CadernoScreen, InfoScreen,
+  ProgramaScreen, SessaoDetail, InfoScreen,
   BadgePill, TopicPill, IntervalRow, SessaoCard,
-  sessionIsPast, isEventWeek, ccemExportarCaderno, ccemDataHoraJoinville, ccemNotaEmTexto,
+  sessionIsPast, isEventWeek,
 });

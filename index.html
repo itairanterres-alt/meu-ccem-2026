@@ -88,6 +88,9 @@
       font: 600 12px 'DM Sans', system-ui, sans-serif; cursor: pointer;
     }
 
+    /* Foco visível para quem navega por teclado */
+    :focus-visible { outline: 3px solid #2d54c0; outline-offset: 2px; }
+
     /* O botão e o painel do Assistente nunca saem na impressão */
     @media print { .ccem-fab, .ccem-painel { display: none !important; } }
 
@@ -154,6 +157,9 @@
 <!-- Home (saguão de entrada) -->
 <script src="v4/ccem-home.js"></script>
 
+<!-- Caderno: notas no aparelho, fotos, exportação e backup -->
+<script src="v4/ccem-caderno.js"></script>
+
 <!-- Assistente CCEM: conversa, painel e botão "8" -->
 <script src="v4/ccem-assistente.js"></script>
 
@@ -162,9 +168,31 @@
 
 <!-- Service worker: shell e grade em cache, para abrir sem rede -->
 <script>
+  // Versão nova fica esperando; o app avisa e só troca quando o congressista toca.
   if ('serviceWorker' in navigator) {
+    var ccemTinhaControle = !!navigator.serviceWorker.controller, ccemRecarregou = false;
+    window.ccemAplicarAtualizacao = function () {
+      if (window.__ccemNovaVersao) window.__ccemNovaVersao.postMessage('aplicar'); else location.reload();
+    };
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!ccemTinhaControle) { ccemTinhaControle = true; return; }   // primeira instalação: nada a recarregar
+      if (ccemRecarregou) return;
+      ccemRecarregou = true;
+      location.reload();
+    });
     window.addEventListener('load', function () {
-      navigator.serviceWorker.register('sw.js').catch(function () {});
+      navigator.serviceWorker.register('sw.js').then(function (reg) {
+        function avisar(sw) { window.__ccemNovaVersao = sw; window.dispatchEvent(new Event('ccem:nova-versao')); }
+        if (reg.waiting && navigator.serviceWorker.controller) avisar(reg.waiting);
+        reg.addEventListener('updatefound', function () {
+          var nova = reg.installing;
+          if (!nova) return;
+          nova.addEventListener('statechange', function () {
+            if (nova.state === 'installed' && navigator.serviceWorker.controller) avisar(nova);
+          });
+        });
+        setInterval(function () { reg.update().catch(function () {}); }, 30 * 60 * 1000);
+      }).catch(function () {});
     });
   }
 </script>
