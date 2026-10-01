@@ -19,7 +19,7 @@
    Ao publicar uma atualização, incrementar CACHE_VERSION.
    ============================================================ */
 
-const CACHE_VERSION = 'ccem-v10';
+const CACHE_VERSION = 'ccem-v11';
 const CACHE_NAME    = CACHE_VERSION;
 
 // Sem estes, o app não funciona: entram juntos ou a versão não instala.

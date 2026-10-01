@@ -12,6 +12,7 @@ const C = {
   ouro:     '#c18c3e',
   ouroBg:   '#f4e4bd',
   ouroTxt:  '#7d5714',   // dourado para texto e ícones: contraste ≥ 4,5:1 sobre ouroBg e branco
+  ouroClaro:'#f5c842',   // dourado para texto sobre o azul (contraste 6,3:1)
   tinta:    '#1a2438',
   cinza:    '#5b6577',
   cinzaClr: '#e7eef9',

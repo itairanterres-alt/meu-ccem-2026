@@ -40,7 +40,17 @@ function App() {
   useEffect(()=>{ setPainel(false); setEditor(null); },[hash]);
   const comFab  = ['home','programa','info','sessao'].includes(route.tela);
   const reserva = route.tela === 'home' || route.tela === 'sessao';
-  const fab = comFab && !painel && !editor && !teclado ? <BotaoAssistente aoTocar={()=>setPainel(true)}/> : null;
+  // Primeiro acesso: balão de apresentação ao lado do "8" (Home ou Programa), uma vez por aparelho.
+  const [apresentar, concluirApresentacao] = useApresentacaoAssistente();
+  const abrirPainel = () => { concluirApresentacao(); setPainel(true); };
+  useEffect(()=>{ if (painel && apresentar) concluirApresentacao(); },[painel]);
+  const comBalao = apresentar && (route.tela === 'home' || route.tela === 'programa');
+  const fab = comFab && !painel && !editor && !teclado ? (
+    <>
+      {comBalao && <BalaoAssistente aoExperimentar={abrirPainel} aoFechar={concluirApresentacao}/>}
+      <BotaoAssistente aoTocar={abrirPainel}/>
+    </>
+  ) : null;
 
   return (
     <>

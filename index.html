@@ -91,8 +91,13 @@
     /* Foco visível para quem navega por teclado */
     :focus-visible { outline: 3px solid #2d54c0; outline-offset: 2px; }
 
+    /* Balão de apresentação do Assistente: entra uma vez, suave; sem animação se o aparelho pede menos movimento */
+    @keyframes ccem-surge { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .ccem-balao { animation: ccem-surge .35s ease-out both; }
+    @media (prefers-reduced-motion: reduce) { .ccem-balao { animation: none; } }
+
     /* O botão e o painel do Assistente nunca saem na impressão */
-    @media print { .ccem-fab, .ccem-painel { display: none !important; } }
+    @media print { .ccem-fab, .ccem-painel, .ccem-balao { display: none !important; } }
 
     /* Scrollbars */
     * { scrollbar-width: thin; scrollbar-color: #d5dff0 transparent; }

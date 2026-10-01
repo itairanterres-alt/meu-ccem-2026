@@ -315,6 +315,54 @@ function BotaoAssistente({ aoTocar }) {
   );
 }
 
+/* ── Apresentação no primeiro acesso ───────────────────────────
+   Uma vez por aparelho, na Home ou no Programa, um balão sai do "8"
+   dizendo o que o assistente faz. Não abre o painel sozinho: só com
+   "Experimentar" ou tocando no "8". Fechado, não volta. */
+const CCEM_APRESENTADO = 'ccem2026:assistenteApresentado';
+function useApresentacaoAssistente() {
+  const [pendente, setPendente] = useState(() => {
+    try { return !localStorage.getItem(CCEM_APRESENTADO); } catch (e) { return !window.__ccemApresentado; }
+  });
+  const concluir = () => {
+    try { localStorage.setItem(CCEM_APRESENTADO, '1'); } catch (e) {}
+    window.__ccemApresentado = true;
+    setPendente(false);
+  };
+  return [pendente, concluir];
+}
+
+function BalaoAssistente({ aoExperimentar, aoFechar }) {
+  const ITEM = { display:'flex', gap:8, alignItems:'flex-start', fontSize:13, color:C.tinta, lineHeight:1.4, marginBottom:5 };
+  return (
+    <div className="ccem-balao" role="dialog" aria-label="Conheça o Assistente CCEM"
+      style={{position:'absolute',right:16,bottom:80,zIndex:41,width:'min(312px, calc(100% - 32px))',background:'#fff',
+        borderRadius:14,border:`1px solid ${C.linha}`,boxShadow:'0 8px 28px rgba(10,18,50,.22)',padding:'12px 14px 10px'}}>
+      <div style={{display:'flex',alignItems:'center',gap:8,marginBottom:8}}>
+        <img src={CCEM_AVATAR} alt="" width="32" height="32" style={{width:32,height:32,borderRadius:'50%'}}/>
+        <div style={{flex:1}}>
+          <div style={{display:'flex',alignItems:'center',gap:6}}>
+            <span style={{fontSize:14,fontWeight:700,color:C.tinta}}>Assistente CCEM</span>
+            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.ouroTxt,background:C.ouroBg,padding:'0 7px',borderRadius:8}}>beta</span>
+          </div>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>IA · respostas podem conter erros</div>
+        </div>
+      </div>
+      <div style={{fontSize:13,fontWeight:600,color:C.tinta,marginBottom:6}}>Posso ajudar durante o congresso:</div>
+      <div style={ITEM}><IcoCam size={16} color={C.azul}/><span>Anotar um slide pela foto: mensagem-chave e pontos principais</span></div>
+      <div style={ITEM}><IcoSearch size={16} color={C.azul}/><span>Encontrar sessões, temas e palestrantes</span></div>
+      <div style={ITEM}><IcoChat size={16} color={C.azul}/><span>Responder dúvidas práticas: certificado, secretaria, local</span></div>
+      <div style={{display:'flex',gap:8,marginTop:10}}>
+        <button onClick={aoFechar} style={{flex:1,minHeight:44,background:'#fff',border:`1px solid ${C.linha}`,borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600,color:C.cinza,cursor:'pointer'}}>Agora não</button>
+        <button onClick={aoExperimentar} style={{flex:1,minHeight:44,background:C.azul,border:'none',borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,color:'#fff',cursor:'pointer'}}>Experimentar</button>
+      </div>
+      <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textAlign:'center',marginTop:8}}>Depois, é só tocar no "8".</div>
+      {/* ponta do balão apontando para o "8" */}
+      <span aria-hidden="true" style={{position:'absolute',right:20,bottom:-7,width:14,height:14,background:'#fff',borderRight:`1px solid ${C.linha}`,borderBottom:`1px solid ${C.linha}`,transform:'rotate(45deg)'}}/>
+    </div>
+  );
+}
+
 /* Teclado aberto no celular: some o botão para não disputar espaço. */
 function useTecladoAberto() {
   const [aberto, setAberto] = useState(false);
@@ -342,6 +390,6 @@ function useTecladoAberto() {
 function ccemAbrirAssistente() { window.dispatchEvent(new CustomEvent('ccem:abrir-assistente')); }
 
 Object.assign(window, {
-  AssistenteScreen, PainelAssistente, BotaoAssistente, useTecladoAberto, ccemAbrirAssistente,
+  AssistenteScreen, PainelAssistente, BotaoAssistente, BalaoAssistente, useApresentacaoAssistente, useTecladoAberto, ccemAbrirAssistente,
   ccemRespostaEmTexto, CCEM_SUGESTOES,
 });

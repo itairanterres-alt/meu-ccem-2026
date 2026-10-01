@@ -31,7 +31,16 @@ function App() {
   }, [hash]);
   const comFab = ["home", "programa", "info", "sessao"].includes(route.tela);
   const reserva = route.tela === "home" || route.tela === "sessao";
-  const fab = comFab && !painel && !editor && !teclado ? /* @__PURE__ */ React.createElement(BotaoAssistente, { aoTocar: () => setPainel(true) }) : null;
+  const [apresentar, concluirApresentacao] = useApresentacaoAssistente();
+  const abrirPainel = () => {
+    concluirApresentacao();
+    setPainel(true);
+  };
+  useEffect(() => {
+    if (painel && apresentar) concluirApresentacao();
+  }, [painel]);
+  const comBalao = apresentar && (route.tela === "home" || route.tela === "programa");
+  const fab = comFab && !painel && !editor && !teclado ? /* @__PURE__ */ React.createElement(React.Fragment, null, comBalao && /* @__PURE__ */ React.createElement(BalaoAssistente, { aoExperimentar: abrirPainel, aoFechar: concluirApresentacao }), /* @__PURE__ */ React.createElement(BotaoAssistente, { aoTocar: abrirPainel })) : null;
   return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(AvisoAtualizacao, null), /* @__PURE__ */ React.createElement(LembretePDF, null), editor && /* @__PURE__ */ React.createElement(EditorNota, { notaId: editor.notaId, sessaoId: editor.sessaoId, aoFechar: () => setEditor(null) }), painel && /* @__PURE__ */ React.createElement(PainelAssistente, { sessaoId: route.tela === "sessao" ? route.id : null, tela: route.tela === "sessao" ? "sessao" : route.tela, aoFechar: () => setPainel(false) }), /* @__PURE__ */ React.createElement(AppShell, { showShell, aba: route.tela, fab, reservaFab: reserva }, route.tela === "sessao" && /* @__PURE__ */ React.createElement(SessaoDetail, { id: route.id }), route.tela === "home" && /* @__PURE__ */ React.createElement(HomeScreen, null), route.tela === "assistente" && /* @__PURE__ */ React.createElement(AssistenteScreen, null), route.tela === "caderno" && /* @__PURE__ */ React.createElement(CadernoScreen, null), route.tela === "info" && /* @__PURE__ */ React.createElement(InfoScreen, null), route.tela === "programa" && /* @__PURE__ */ React.createElement(ProgramaScreen, null)));
 }
 function AvisoAtualizacao() {
