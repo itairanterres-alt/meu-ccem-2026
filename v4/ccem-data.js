@@ -287,7 +287,7 @@ const SESSOES = {
     tipo:'mini', badge:'Mini-Conferência', titulo:'IA no consultório do endocrinologista',
     moderador:'Dr. Itairan da Silva Terres',
     temas:['IA','Tecnologia'], navegavel:true,
-    falas:[{ n:'·', palestrante:'Dra. Milena Gurgel Teles Bezerra', label:'tema-chave' }],
+    falas:[{ n:'·', palestrante:'Dra. Milena Gurgel Teles Bezerra' }],
   },
 };
 
@@ -334,121 +334,53 @@ const SESSOES_NAV = DIAS.flatMap(d => (PROGRAMA[d]||[]))
   .map(it => it.id);
 
 /* ============================================================
-   PALESTRANTES — estrutura pronta para quando a SBEM fornecer
-   os dados. Preencher foto (URL) e disclosure por palestrante.
-   Usado em SessaoDetail para exibir foto real e conflito de int.
-   ============================================================ */
-const PALESTRANTES = {
-  'Talita Letícia Trevisan':          { foto: null, cidade: 'Itajaí · SC', disclosure: null },
-  'Luiz Antonio de Araújo':           { foto: null, cidade: null,           disclosure: null },
-  'Adriana Striebel':                 { foto: null, cidade: null,           disclosure: null },
-  'Luciana Muniz Pechmann':           { foto: null, cidade: 'Curitiba · PR',disclosure: null },
-  'Mauro Scharf Pinto':               { foto: null, cidade: null,           disclosure: null },
-  'Julia Carpanezzi La Pastina':      { foto: null, cidade: null,           disclosure: null },
-  'Marta Amaro Duval':                { foto: null, cidade: null,           disclosure: null },
-  'Lireda Meneses Silva':             { foto: null, cidade: null,           disclosure: null },
-  'Cleo Otaviano Mesa Jr.':           { foto: null, cidade: null,           disclosure: null },
-  'Goretti Silveira Rodrigues':       { foto: null, cidade: 'Joinville · SC',disclosure: null },
-  'Amely Pereira Silva Balthazar':    { foto: null, cidade: 'Florianópolis · SC', disclosure: null },
-  'Fulvio Clemo Santos Tomaselli':    { foto: null, cidade: 'Blumenau · SC', disclosure: null },
-  'Sheila Montano Vega':              { foto: null, cidade: 'Florianópolis · SC', disclosure: null },
-  'Frederico Marchisotti':            { foto: null, cidade: null,           disclosure: null },
-  'Neuton Dornelas Gomes':            { foto: null, cidade: null,           disclosure: null },
-  'Itairan da Silva Terres':          { foto: null, cidade: null,           disclosure: null },
-  'Alexandre Hohl':                   { foto: null, cidade: null,           disclosure: null },
-  'Marcelo F. Ronsoni':               { foto: null, cidade: null,           disclosure: null },
-  'Carina Morellato':                 { foto: null, cidade: null,           disclosure: null },
-  'Karen Faggioni de Marca Seidel':   { foto: null, cidade: null,           disclosure: null },
-  'Dalisbor Marcelo Weber Silva':     { foto: null, cidade: null,           disclosure: null },
-  'Amanda Meneses Ferreira Lacombe':  { foto: null, cidade: 'Itajaí · SC',  disclosure: null },
-  'Guilherme Asmar Alencar':          { foto: null, cidade: null,           disclosure: null },
-  'Zuleica Isabel Zarabia Morales':   { foto: null, cidade: null,           disclosure: null },
-  'Marilza Leal Nascimento':          { foto: null, cidade: null,           disclosure: null },
-  'Rose Marie Mueller Linhares':      { foto: null, cidade: null,           disclosure: null },
-  'Suely Keiko Kohara':               { foto: null, cidade: 'Joinville · SC',disclosure: null },
-  'Fátima Sandmann Afonso':           { foto: null, cidade: null,           disclosure: null },
-  'Cristina Schreiber de Oliveira':   { foto: null, cidade: null,           disclosure: null },
-  'Simone van de Sande Lee':          { foto: null, cidade: null,           disclosure: null },
-  'Milena Gurgel Teles Bezerra':      { foto: null, cidade: 'São Paulo · SP',disclosure: null },
-  'Julia Goulart Appel':              { foto: null, cidade: 'Joinville · SC',disclosure: null },
-  'Júlia Vieira Oberger Marques':     { foto: null, cidade: 'Itajaí · SC',  disclosure: null },
-  'Flaviana Dalla Vechia':            { foto: null, cidade: null,           disclosure: null },
-  'Maria Heloísa da Silva Canalli':   { foto: null, cidade: null,           disclosure: null },
-  'Fabio Herget Pitanga':             { foto: null, cidade: null,           disclosure: null },
-  'Tanise Balvedi Damas':             { foto: null, cidade: null,           disclosure: null },
-};
-
-/* ============================================================
-   SPEAKER BIOS
+   SPEAKER BIOS — só a origem de cada palestrante (UF/cidade,
+   como no site oficial). Sem minicurrículo: decisão da comissão.
    ============================================================ */
 const SPEAKER_BIOS = {
-  'Dr. Cleo Otaviano Mesa Júnior':{role:'Endocrinologista · Curitiba (PR)',bio:'Especialista em tireoide com atuação em centros de referência do Sul. Membro ativo da SBEM em CDT e seguimento de longo prazo.'},
-  'Dr. Fulvio Clemo Santos Tomaselli':{role:'Presidente do CCEM 2026 · SBEM-SC',bio:'Endocrinologista, CRM/SC 7031. Presidente da SBEM-SC na gestão 2025/2026. Responsável técnico médico pelo congresso.'},
-  'Dr. Frederico Guimarães Marchisotti':{role:'Presidente-Eleito SBEM-SC',bio:'Endocrinologista. Atua em obesidade, metabolismo e medicina baseada em evidências.'},
-  'Dr. Neuton Dornelas Gomes':{role:'Endocrinologista',bio:'Atuação em bioética aplicada à prescrição de fórmulas manipuladas e estratégias de emagrecimento.'},
-  'Dr. Itairan da Silva Terres':{role:'Comissão Científica · Endocrinologista e bioeticista',bio:'Professor de medicina na UNIDAVI. Membro da Comissão Científica do CCEM 2026.'},
-  'Dra. Goretti Silveira Rodrigues':{role:'Endocrinologista',bio:'Atuação em tireoide e seguimento de pacientes com carcinoma diferenciado.'},
-  'Dra. Julia Goulart Appel':{role:'Endocrinologista',bio:'Atuação em hipófise, hiperprolactinemia e síndrome de Cushing.'},
-  'Dra. Amely Pereira Silva Balthazar':{role:'Endocrinologista',bio:'Atuação em hipófise e desafios diagnósticos da hiperprolactinemia.'},
-  'Dra. Demelise Demczuk':{role:'Endocrinologista',bio:'Atuação em endocrinologia feminina, perimenopausa e SOP.'},
-  'Dra. Carina Gabriela Corrêa Morellato':{role:'Secretária Executiva SBEM-SC · Comissão Organizadora',bio:'Endocrinologista. Atuação em SOP e endocrinologia ginecológica.'},
-  'Dra. Amanda Meneses Ferreira Lacombe':{role:'Endocrinologista',bio:'Atuação em adrenal, com foco em Cushing subclínico e incidentaloma.'},
-  'Dr. Guilherme Asmar Alencar':{role:'Endocrinologista',bio:'Atuação em adrenal e hiperaldosteronismo.'},
-  'Dra. Suely Keiko Kohara':{role:'Comissão Científica · Endocrinologista pediátrica',bio:'Membro da Comissão Científica do CCEM 2026. Atuação em endocrinologia pediátrica.'},
-  'Dr. Fabio Herget Pitanga':{role:'Tesoureiro SBEM-SC · Comissão Organizadora',bio:'Endocrinologista. Atuação em obesidade e síndrome metabólica.'},
-  'Dra. Fátima Sandmann Afonso':{role:'Endocrinologista',bio:'Atuação em obesidade, sarcopenia e composição corporal.'},
-  'Dra. Cristina da Silva Schreiber de Oliveira':{role:'Endocrinologista',bio:'Atuação em obesidade e manutenção do peso perdido.'},
+  'Dr. Cleo Otaviano Mesa Júnior':{role:'Endocrinologista · Curitiba (PR)'},
+  'Dr. Fulvio Clemo Santos Tomaselli':{role:'Presidente do CCEM 2026 · SBEM-SC'},
+  'Dr. Frederico Guimarães Marchisotti':{role:'Presidente-Eleito SBEM-SC'},
+  'Dr. Neuton Dornelas Gomes':{role:'Endocrinologista'},
+  'Dr. Itairan da Silva Terres':{role:'Comissão Científica · Endocrinologista e bioeticista'},
+  'Dra. Goretti Silveira Rodrigues':{role:'Endocrinologista'},
+  'Dra. Julia Goulart Appel':{role:'Endocrinologista'},
+  'Dra. Amely Pereira Silva Balthazar':{role:'Endocrinologista'},
+  'Dra. Demelise Demczuk':{role:'Endocrinologista'},
+  'Dra. Carina Gabriela Corrêa Morellato':{role:'Secretária Executiva SBEM-SC · Comissão Organizadora'},
+  'Dra. Amanda Meneses Ferreira Lacombe':{role:'Endocrinologista'},
+  'Dr. Guilherme Asmar Alencar':{role:'Endocrinologista'},
+  'Dra. Suely Keiko Kohara':{role:'Comissão Científica · Endocrinologista pediátrica'},
+  'Dr. Fabio Herget Pitanga':{role:'Tesoureiro SBEM-SC · Comissão Organizadora'},
+  'Dra. Fátima Sandmann Afonso':{role:'Endocrinologista'},
+  'Dra. Cristina da Silva Schreiber de Oliveira':{role:'Endocrinologista'},
   // Curadoria conferida no Currículo Lattes (ID 5342142388498500, atualizado
   // em 01/06/2026). O registro anterior dizia São Paulo: vínculo com o Fleury,
   // encerrado em abril de 2022. Os vínculos atuais são em Fortaleza.
-  'Dra. Milena Gurgel Teles Bezerra':{role:'Endocrinologista · Fortaleza (CE)',bio:'Graduada em Medicina pela UFC, com doutorado e pós-doutorado em Endocrinologia e Metabologia pela FMUSP e doutorado-sanduíche na Harvard Medical School. Pesquisadora da pós-graduação em Endocrinologia do HC-FMUSP, nas Unidades de Diabetes e de Genética, e professora da pós-graduação em Medicina Translacional da UFC. Fundou em 2011 o grupo de pesquisa em diabetes monogênico da USP e integra desde 2018 o Monogenic Diabetes Expert Panel. Prêmio Jovem Pesquisador da SBEM-SP em 2021. Atua em diabetes monogênico — MODY, diabetes neonatal e lipodistrofias — e na aplicação de inteligência artificial à prática clínica.',isKey:true},
-  'Dra. Talita Letícia Trevisan':{role:'Endocrinologista · Itajaí',bio:'Atuação em diabetes e tecnologias de monitorização glicêmica.'},
-  'Dra. Lireda Meneses Silva':{role:'Endocrinologista',bio:'Atuação em tireoide e seguimento do CDT.'},
-  'Dra. Marta Amaro da Silveira Duval':{role:'Endocrinologista',bio:'Atuação em tireoide e carcinoma diferenciado.'},
-  'Dra. Marilza Leal Nascimento':{role:'Endocrinologista pediátrica',bio:'Referência regional em baixa estatura e desenvolvimento puberal.'},
-  'Dr. Dalisbor Marcelo Weber Silva':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dr. Luíz Antônio de Araújo':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dr. Mauro Scharf Pinto':{role:'Paraná (PR)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dr. Paulo de Tarso Freitas':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Adriana Striebel':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Flaviana Aparecida Dalla Vechia':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Julia Carpanezzi La Pastina':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Júlia Vieira Oberger Marques':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Luciana Muniz Pechmann':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Maria Heloísa Busi da Silva Canalli':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Tanise Balvedi Damas':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Zuleica Isabel Zarabia':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Ruth Clapauch':{role:'Rio de Janeiro (RJ)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Elaine Maria Frade Costa':{role:'São Paulo (SP)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dr. Tobias Skrebsky de Almeida':{role:'Rio Grande do Sul (RS)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dr. Mario Sérgio Zen':{role:'Espírito Santo (ES)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Viviane Calice':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Ana Cristina Tavares Probst':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Rose Marie Mueller Linhares':{role:'Endocrinologista pediátrica',bio:'Atuação em obesidade infantil e doenças metabólicas pediátricas.'},
-};
-
-/* ============================================================
-   SESSION META — briefings + quizzes por sessão
-   ============================================================ */
-const SESSION_META = {
-  'mini-glicemia':{ briefing:['CGM em alça aberta vs sensores integrados a bomba: diferenças na prática.','Acurácia comparativa (MARD) e implicação na decisão clínica.','Para quem priorizar cada tecnologia: DM1, DM2 em insulina, gestacional.'] },
-  'simp1-dm2':{ briefing:['Metformina e sulfonilureia: papel clássico ainda válido?','Inovações: iSGLT2, GLP-1 e duplos agonistas no centro do tratamento.','Promessas: triagonistas (retatrutida) e o que vem chegando.'],
-    quiz:[{q:'Em DM2 + DCV estabelecida, qual classe tem maior evidência de redução de desfecho CV?',opts:['Sulfonilureia','iSGLT2 ou GLP-1RA','Insulina basal','Metformina isolada'],correct:1,why:'iSGLT2 e GLP-1RA têm ensaios com redução de MACE em DM2+DCV. Recomendados nas diretrizes SBD/ADA independente do A1c.'}] },
-  'simp2-dm1':{ briefing:['Imunomodulação no DM1 recém-diagnosticado: teplizumab e janela terapêutica.','Colônia de férias do DM1 em SC: aprendizados práticos.','Incretinas no DM1: uso off-label, evidências e cautelas.'] },
-  'simp3-cdt':{ briefing:['ATA 2025: nova estratificação de risco de recorrência do CDT.','Tireoglobulina no seguimento: novos pontos de corte.','Metástase linfonodal: vigilância ativa vs reabordagem cirúrgica.'] },
-  'mini-cdt-resposta':{ briefing:['Resposta excelente, indeterminada, bioquímica incompleta e estrutural incompleta — definições atualizadas.','O paciente que "não responde excelentemente": estratégias de seguimento.','Quando reintervir, quando observar.'] },
-  'simp8-hipofise':{ briefing:['Hiperprolactinemia: medicamentosa vs adenoma — quando investigar com RM.','Cushing: desafios diagnósticos atuais — caso clínico.','Cirurgia transesfenoidal e seguimento bioquímico.'] },
-  'simp5-modismos':{ briefing:['Suplementos de performance: o que tem evidência, o que é marketing.','Manipulados para emagrecimento: limites éticos da prescrição.','Centenas de exames sem hipótese clínica — o problema dos pacientes "da bateria".'],
-    quiz:[{q:'Qual afirmação sobre o uso de suplementos para performance em não-atletas é CORRETA?',opts:['Creatina tem evidência robusta em força e hipertrofia','Whey protein isolado superior a proteína convencional','BCAA previne perda muscular no envelhecimento','Vitamina D melhora performance em todos os casos'],correct:0,why:'Creatina monoidratada tem a evidência mais robusta para ganho de força e massa magra. Os outros têm evidência limitada ou conflitante em populações gerais.'}] },
-  'simp6-gonadas':{ briefing:['Nova diretriz brasileira de hipogonadismo masculino: critérios atualizados.','Perimenopausa: terapia hormonal entre 45 e 55 anos.','SOP: atualização das diretrizes internacionais e fenótipos.'] },
-  'mini-transgenero':{ briefing:['Cuidado integral na transição de gênero.','Hormônios cruzados: doses, monitoramento, efeitos adversos.','Aspectos éticos e legais no Brasil.'] },
-  'simp7-osseo':{ briefing:['Hipocalcemia refratária: investigação além do hipoparatireoidismo.','Osteoporose grave — abordagem multidisciplinar e novos antirreabsortivos.'] },
-  'simp4-adrenal':{ briefing:['Cushing subclínico: quando rastrear, quando operar.','Hiperaldosteronismo primário: diagnóstico bioquímico e cateterismo de adrenal.'] },
-  'simp9-pediatrica':{ briefing:['Inibidor de aromatase em baixa estatura: para quem ainda faz sentido.','Obesidade infantil: manejo farmacológico e cirúrgico em adolescentes.','Quando uma variação fisiológica vira condição clínica?'] },
-  'simp10-obesidade':{ briefing:['Perda de massa magra durante uso de GLP-1: como mitigar.','Manutenção pós-emagrecimento: papel da farmacoterapia continuada.','Diretriz brasileira de risco CV na obesidade — o que mudou.'] },
-  'mini-ia':{ briefing:['IA generativa na consulta: usos práticos hoje (relatórios, anotações, comunicação).','Riscos: alucinação clínica, vieses, LGPD e privacidade.','Como integrar IA ao fluxo sem perder autonomia clínica.'],
-    quiz:[{q:'Qual aplicação de IA generativa tem MAIOR evidência de utilidade clínica real hoje?',opts:['Diagnóstico por imagem supervisionado','Geração de resumos de prontuário','Triagem de risco cirúrgico','Prescrição automatizada'],correct:1,why:'Sumarização de texto clínico (notas, prontuários, relatórios) é onde LLMs mostram utilidade mais consistente e menos risco de erro crítico.'}],
-    isKey:true },
+  'Dra. Milena Gurgel Teles Bezerra':{role:'Endocrinologista · Fortaleza (CE)'},
+  'Dra. Talita Letícia Trevisan':{role:'Endocrinologista · Itajaí'},
+  'Dra. Lireda Meneses Silva':{role:'Endocrinologista'},
+  'Dra. Marta Amaro da Silveira Duval':{role:'Endocrinologista'},
+  'Dra. Marilza Leal Nascimento':{role:'Endocrinologista pediátrica'},
+  'Dr. Dalisbor Marcelo Weber Silva':{role:'Santa Catarina (SC)'},
+  'Dr. Luíz Antônio de Araújo':{role:'Santa Catarina (SC)'},
+  'Dr. Mauro Scharf Pinto':{role:'Paraná (PR)'},
+  'Dr. Paulo de Tarso Freitas':{role:'Endocrinologista · Florianópolis (SC)'},
+  'Dra. Adriana Striebel':{role:'Santa Catarina (SC)'},
+  'Dra. Flaviana Aparecida Dalla Vechia':{role:'Santa Catarina (SC)'},
+  'Dra. Julia Carpanezzi La Pastina':{role:'Santa Catarina (SC)'},
+  'Dra. Júlia Vieira Oberger Marques':{role:'Santa Catarina (SC)'},
+  'Dra. Luciana Muniz Pechmann':{role:'Santa Catarina (SC)'},
+  'Dra. Maria Heloísa Busi da Silva Canalli':{role:'Santa Catarina (SC)'},
+  'Dra. Tanise Balvedi Damas':{role:'Santa Catarina (SC)'},
+  'Dra. Zuleica Isabel Zarabia':{role:'Santa Catarina (SC)'},
+  'Dra. Ruth Clapauch':{role:'Rio de Janeiro (RJ)'},
+  'Dra. Elaine Maria Frade Costa':{role:'São Paulo (SP)'},
+  'Dr. Tobias Skrebsky de Almeida':{role:'Rio Grande do Sul (RS)'},
+  'Dr. Mario Sérgio Zen':{role:'Espírito Santo (ES)'},
+  'Dra. Viviane Calice':{role:'Santa Catarina (SC)'},
+  'Dra. Ana Cristina Tavares Probst':{role:'Santa Catarina (SC)'},
+  'Dra. Rose Marie Mueller Linhares':{role:'Endocrinologista pediátrica'},
 };
 
 /* ============================================================
@@ -569,15 +501,6 @@ function ccemIcs(sessoes, baseUrl) {
   return linhas.map(ccemIcsDobra).join('\r\n') + '\r\n';
 }
 
-/* helper: resolve dados do palestrante pelo nome exato ou aproximado */
-function ccemPalestrante(nome) {
-  if (!nome) return null;
-  if (PALESTRANTES[nome]) return PALESTRANTES[nome];
-  const nomeLower = nome.toLowerCase();
-  const key = Object.keys(PALESTRANTES).find(k => nomeLower.includes(k.toLowerCase().split(' ')[1]||''));
-  return key ? PALESTRANTES[key] : null;
-}
-
 /* ── Trabalhos científicos (e-pôster) ────────────────────────
    Os trabalhos não vivem no app: o item em Info abre a página
    externa. Se o e-pôster não acontecer, LINK_EPOSTER = null e o
@@ -585,4 +508,4 @@ function ccemPalestrante(nome) {
 // TODO: confirmar URL dos e-pôsteres com a Promotes
 const LINK_EPOSTER = 'https://www.ccem2026.com.br/';
 
-Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, LINK_EPOSTER });
+Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, go, ccemDiaDeHoje, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, LINK_EPOSTER });

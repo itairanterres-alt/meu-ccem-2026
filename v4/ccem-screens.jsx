@@ -343,7 +343,6 @@ function SessaoDetail({ id }) {
                       {f.palestrante}{f.aConfirmar&&<em style={{color:C.cinza,fontWeight:400}}> (a confirmar)</em>}
                     </div>
                     {bio&&<div style={{fontSize:12,color:C.cinza,marginTop:1}}>{bio.role}</div>}
-                    {f.label&&<div style={{marginTop:3,display:'inline-block',background:C.ouroBg,color:C.ouro,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,letterSpacing:'0.08em',textTransform:'uppercase',padding:'2px 7px',borderRadius:8}}>{f.label}</div>}
                     <SlideDisplay sessaoId={id} falaIdx={i}/>
                   </div>
                 </div>
