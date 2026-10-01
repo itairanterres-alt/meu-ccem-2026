@@ -13,9 +13,9 @@ function App() {
     if (parts[0] === 'sessao'     && parts[1]) return { tela:'sessao', id: IDS_ANTIGOS[parts[1]] || parts[1] };
     if (parts[0] === 'programa')               return { tela:'programa' };
     if (parts[0] === 'assistente')             return { tela:'assistente' };
-    if (parts[0] === 'trabalhos')              return { tela:'trabalhos' };
     if (parts[0] === 'caderno')                return { tela:'caderno' };
     if (parts[0] === 'info')                   return { tela:'info' };
+    if (parts[0] === 'trabalhos')              return { tela:'info' };  // link antigo: o e-pôster agora está em Info
     return { tela:'home' };
   }, [hash]);
 
@@ -28,7 +28,6 @@ function App() {
       {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
       {route.tela === 'home'       && <HomeScreen/>}
       {route.tela === 'assistente' && <AssistenteScreen/>}
-      {route.tela === 'trabalhos'  && <TrabalhosScreen/>}
       {route.tela === 'caderno'    && <CadernoScreen/>}
       {route.tela === 'info'       && <InfoScreen/>}
       {route.tela === 'programa'   && <ProgramaScreen/>}
