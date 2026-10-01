@@ -285,6 +285,56 @@ function BotaoAssistente({ aoTocar }) {
     /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "52", height: "52", style: { display: "block", width: 52, height: 52, borderRadius: "50%" } })
   );
 }
+const CCEM_APRESENTADO = "ccem2026:assistenteApresentado";
+function useApresentacaoAssistente() {
+  const [pendente, setPendente] = useState(() => {
+    try {
+      return !localStorage.getItem(CCEM_APRESENTADO);
+    } catch (e) {
+      return !window.__ccemApresentado;
+    }
+  });
+  const concluir = () => {
+    try {
+      localStorage.setItem(CCEM_APRESENTADO, "1");
+    } catch (e) {
+    }
+    window.__ccemApresentado = true;
+    setPendente(false);
+  };
+  return [pendente, concluir];
+}
+function BalaoAssistente({ aoExperimentar, aoFechar }) {
+  const ITEM = { display: "flex", gap: 8, alignItems: "flex-start", fontSize: 13, color: C.tinta, lineHeight: 1.4, marginBottom: 5 };
+  return /* @__PURE__ */ React.createElement(
+    "div",
+    {
+      className: "ccem-balao",
+      role: "dialog",
+      "aria-label": "Conhe\xE7a o Assistente CCEM",
+      style: {
+        position: "absolute",
+        right: 16,
+        bottom: 80,
+        zIndex: 41,
+        width: "min(312px, calc(100% - 32px))",
+        background: "#fff",
+        borderRadius: 14,
+        border: `1px solid ${C.linha}`,
+        boxShadow: "0 8px 28px rgba(10,18,50,.22)",
+        padding: "12px 14px 10px"
+      }
+    },
+    /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 8 } }, /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "32", height: "32", style: { width: 32, height: 32, borderRadius: "50%" } }), /* @__PURE__ */ React.createElement("div", { style: { flex: 1 } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6 } }, /* @__PURE__ */ React.createElement("span", { style: { fontSize: 14, fontWeight: 700, color: C.tinta } }, "Assistente CCEM"), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 600, color: C.ouroTxt, background: C.ouroBg, padding: "0 7px", borderRadius: 8 } }, "beta")), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza } }, "IA \xB7 respostas podem conter erros"))),
+    /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, fontWeight: 600, color: C.tinta, marginBottom: 6 } }, "Posso ajudar durante o congresso:"),
+    /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoCam, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Anotar um slide pela foto: mensagem-chave e pontos principais")),
+    /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoSearch, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Encontrar sess\xF5es, temas e palestrantes")),
+    /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoChat, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Responder d\xFAvidas pr\xE1ticas: certificado, secretaria, local")),
+    /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 10 } }, /* @__PURE__ */ React.createElement("button", { onClick: aoFechar, style: { flex: 1, minHeight: 44, background: "#fff", border: `1px solid ${C.linha}`, borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 600, color: C.cinza, cursor: "pointer" } }, "Agora n\xE3o"), /* @__PURE__ */ React.createElement("button", { onClick: aoExperimentar, style: { flex: 1, minHeight: 44, background: C.azul, border: "none", borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 700, color: "#fff", cursor: "pointer" } }, "Experimentar")),
+    /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textAlign: "center", marginTop: 8 } }, 'Depois, \xE9 s\xF3 tocar no "8".'),
+    /* @__PURE__ */ React.createElement("span", { "aria-hidden": "true", style: { position: "absolute", right: 20, bottom: -7, width: 14, height: 14, background: "#fff", borderRight: `1px solid ${C.linha}`, borderBottom: `1px solid ${C.linha}`, transform: "rotate(45deg)" } })
+  );
+}
 function useTecladoAberto() {
   const [aberto, setAberto] = useState(false);
   useEffect(() => {
@@ -312,6 +362,8 @@ Object.assign(window, {
   AssistenteScreen,
   PainelAssistente,
   BotaoAssistente,
+  BalaoAssistente,
+  useApresentacaoAssistente,
   useTecladoAberto,
   ccemAbrirAssistente,
   ccemRespostaEmTexto,

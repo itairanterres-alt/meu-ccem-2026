@@ -54,7 +54,7 @@ function HomeScreen() {
             <div>
               <div style={{display:'inline-flex',alignItems:'center',gap:14,background:C.azul,borderRadius:12,padding:'12px 18px'}}>
                 <div style={{textAlign:'center'}}>
-                  <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:36,fontWeight:700,lineHeight:1,color:C.ouroTxt}}>{daysLeft}</div>
+                  <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:36,fontWeight:700,lineHeight:1,color:C.ouroClaro}}>{daysLeft}</div>
                   <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.1em',color:'rgba(255,255,255,.75)',marginTop:3}}>{daysLeft===1?'dia':'dias'}</div>
                 </div>
                 <div style={{width:1,height:38,background:'rgba(255,255,255,.18)'}}/>
