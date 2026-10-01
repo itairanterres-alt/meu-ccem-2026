@@ -128,6 +128,23 @@ function RespostaIA({ m, aoNavegar }) {
     m.salvo ? /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(IcoCheck, { size: 14 }), "No caderno") : /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(IcoBook, { size: 14 }), "Salvar no caderno")
   )));
 }
+function DicaInstalar() {
+  const appState = useAppState();
+  const { instalado, plataforma, nativo } = useInstalacao();
+  const [folha, setFolha] = useState(false);
+  if (instalado || plataforma === "outro") return null;
+  const temDados = Object.keys(appState.marks || {}).length > 0 || (appState.captures || []).length > 0;
+  return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 10, alignItems: "center", background: "#fff", border: `1px solid ${C.linhaSoft}`, borderLeft: `3px solid ${C.azul}`, borderRadius: 12, padding: "10px 12px", marginBottom: 12 } }, /* @__PURE__ */ React.createElement("img", { src: "icon-192.png", alt: "", width: "36", height: "36", style: { borderRadius: 9, flexShrink: 0 } }), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, minWidth: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, fontWeight: 700, color: C.tinta } }, "Dica: instale o app na tela inicial"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.4 } }, "Abre pelo \xEDcone, em tela cheia, e funciona sem internet.", plataforma === "ios" ? " No iPhone, instale antes de come\xE7ar a anotar." : "")), /* @__PURE__ */ React.createElement(
+    "button",
+    {
+      onClick: async () => {
+        if (!(plataforma === "android" && nativo && await ccemInstalarNativo())) setFolha(true);
+      },
+      style: { minHeight: 44, padding: "0 12px", background: C.azul, color: "#fff", border: "none", borderRadius: 9, fontFamily: "DM Sans,sans-serif", fontSize: 12.5, fontWeight: 700, cursor: "pointer", flexShrink: 0 }
+    },
+    plataforma === "android" && nativo ? "Instalar" : "Como instalar"
+  ), folha && /* @__PURE__ */ React.createElement(FolhaInstalar, { temDados, aoFechar: () => setFolha(false) }));
+}
 function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
   const conversa = useConversa();
   const [texto, setTexto] = useState("");
@@ -153,7 +170,7 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
     enviar(s.rotulo);
   }
   const vazia = conversa.msgs.length === 0;
-  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", minHeight: 0, background: "#f3f6fc" } }, sessao && /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, padding: "7px 14px", background: C.azulBg, fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azul } }, "Sobre ", /* @__PURE__ */ React.createElement("strong", null, ccemRotulo(sessao)), " \xB7 ", sessao.inicio), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, vazia && /* @__PURE__ */ React.createElement("div", { style: { padding: "6px 2px 4px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 15, fontWeight: 700, color: C.tinta, marginBottom: 4 } }, "Como posso ajudar?"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, marginBottom: 12 } }, "Anoto slides (foto ou texto), busco no programa e respondo d\xFAvidas pr\xE1ticas do congresso. N\xE3o discuto casos reais de pacientes.")), conversa.msgs.map((m) => /* @__PURE__ */ React.createElement("div", { key: m.id, style: { display: "flex", flexDirection: "column", alignItems: m.papel === "usuario" ? "flex-end" : "flex-start", marginBottom: 10 } }, m.papel === "usuario" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%", background: C.azul, color: "#fff", borderRadius: "14px 14px 4px 14px", padding: "9px 12px", fontSize: 13, lineHeight: 1.5 } }, m.previa && /* @__PURE__ */ React.createElement("img", { src: m.previa, alt: "Slide enviado", style: { display: "block", maxWidth: 180, maxHeight: 180, borderRadius: 8, marginBottom: m.texto ? 6 : 0 } }), m.texto && /* @__PURE__ */ React.createElement("span", { style: { whiteSpace: "pre-wrap" } }, m.texto)), m.papel === "assistente" && /* @__PURE__ */ React.createElement(RespostaIA, { m, aoNavegar }), m.papel === "aviso" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "92%", background: "#fff", border: `1px dashed ${C.linha}`, borderRadius: 12, padding: "9px 12px", fontSize: 12.5, color: C.cinza, lineHeight: 1.45 } }, m.texto))), conversa.carregando && /* @__PURE__ */ React.createElement("div", { role: "status", "aria-label": "O assistente est\xE1 respondendo", style: { display: "flex", gap: 4, padding: "10px 12px", background: "#fff", borderRadius: "14px 14px 14px 4px", width: 60, border: `1px solid ${C.linhaSoft}`, marginBottom: 10 } }, [0, 1, 2].map((i) => /* @__PURE__ */ React.createElement("span", { key: i, style: { width: 7, height: 7, borderRadius: "50%", background: C.cinza, display: "inline-block", animation: `ccem-bounce .9s ${i * 0.2}s ease-in-out infinite` } }))), !conversa.carregando && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexWrap: "wrap", gap: 6, margin: "4px 0 8px" } }, sugestoes.map((s) => /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", minHeight: 0, background: "#f3f6fc" } }, sessao && /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, padding: "7px 14px", background: C.azulBg, fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azul } }, "Sobre ", /* @__PURE__ */ React.createElement("strong", null, ccemRotulo(sessao)), " \xB7 ", sessao.inicio), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, vazia && /* @__PURE__ */ React.createElement("div", { style: { padding: "6px 2px 4px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 15, fontWeight: 700, color: C.tinta, marginBottom: 4 } }, "Como posso ajudar?"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, marginBottom: 12 } }, "Anoto slides (foto ou texto), busco no programa e respondo d\xFAvidas pr\xE1ticas do congresso. N\xE3o discuto casos reais de pacientes."), /* @__PURE__ */ React.createElement(DicaInstalar, null)), conversa.msgs.map((m) => /* @__PURE__ */ React.createElement("div", { key: m.id, style: { display: "flex", flexDirection: "column", alignItems: m.papel === "usuario" ? "flex-end" : "flex-start", marginBottom: 10 } }, m.papel === "usuario" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%", background: C.azul, color: "#fff", borderRadius: "14px 14px 4px 14px", padding: "9px 12px", fontSize: 13, lineHeight: 1.5 } }, m.previa && /* @__PURE__ */ React.createElement("img", { src: m.previa, alt: "Slide enviado", style: { display: "block", maxWidth: 180, maxHeight: 180, borderRadius: 8, marginBottom: m.texto ? 6 : 0 } }), m.texto && /* @__PURE__ */ React.createElement("span", { style: { whiteSpace: "pre-wrap" } }, m.texto)), m.papel === "assistente" && /* @__PURE__ */ React.createElement(RespostaIA, { m, aoNavegar }), m.papel === "aviso" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "92%", background: "#fff", border: `1px dashed ${C.linha}`, borderRadius: 12, padding: "9px 12px", fontSize: 12.5, color: C.cinza, lineHeight: 1.45 } }, m.texto))), conversa.carregando && /* @__PURE__ */ React.createElement("div", { role: "status", "aria-label": "O assistente est\xE1 respondendo", style: { display: "flex", gap: 4, padding: "10px 12px", background: "#fff", borderRadius: "14px 14px 14px 4px", width: 60, border: `1px solid ${C.linhaSoft}`, marginBottom: 10 } }, [0, 1, 2].map((i) => /* @__PURE__ */ React.createElement("span", { key: i, style: { width: 7, height: 7, borderRadius: "50%", background: C.cinza, display: "inline-block", animation: `ccem-bounce .9s ${i * 0.2}s ease-in-out infinite` } }))), !conversa.carregando && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexWrap: "wrap", gap: 6, margin: "4px 0 8px" } }, sugestoes.map((s) => /* @__PURE__ */ React.createElement(
     "button",
     {
       key: s.rotulo,
@@ -305,6 +322,18 @@ function useApresentacaoAssistente() {
   return [pendente, concluir];
 }
 function BalaoAssistente({ aoExperimentar, aoFechar }) {
+  const appState = useAppState();
+  const { instalado, plataforma, nativo } = useInstalacao();
+  const [folha, setFolha] = useState(false);
+  const podeInstalar = !instalado && plataforma !== "outro";
+  const temDados = Object.keys(appState.marks || {}).length > 0 || (appState.captures || []).length > 0;
+  async function instalar() {
+    if (plataforma === "android" && nativo && await ccemInstalarNativo()) {
+      aoFechar();
+      return;
+    }
+    setFolha(true);
+  }
   const ITEM = { display: "flex", gap: 8, alignItems: "flex-start", fontSize: 13, color: C.tinta, lineHeight: 1.4, marginBottom: 5 };
   return /* @__PURE__ */ React.createElement(
     "div",
@@ -330,8 +359,22 @@ function BalaoAssistente({ aoExperimentar, aoFechar }) {
     /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoCam, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Anotar um slide pela foto: mensagem-chave e pontos principais")),
     /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoSearch, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Encontrar sess\xF5es, temas e palestrantes")),
     /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoChat, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Responder d\xFAvidas pr\xE1ticas: certificado, secretaria, local")),
+    podeInstalar && /* @__PURE__ */ React.createElement(
+      "button",
+      {
+        onClick: instalar,
+        style: { width: "100%", minHeight: 44, display: "flex", alignItems: "center", gap: 8, marginTop: 4, padding: "6px 10px", background: C.azulBg, border: "none", borderRadius: 10, cursor: "pointer", textAlign: "left", fontFamily: "DM Sans,sans-serif", fontSize: 13, color: C.azul, fontWeight: 600 }
+      },
+      /* @__PURE__ */ React.createElement("img", { src: "icon-192.png", alt: "", width: "24", height: "24", style: { borderRadius: 6, flexShrink: 0 } }),
+      /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Instale o app na tela inicial", plataforma === "ios" ? " antes de come\xE7ar a usar" : ""),
+      /* @__PURE__ */ React.createElement(IcoChevR, { size: 15, color: C.azul })
+    ),
     /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 10 } }, /* @__PURE__ */ React.createElement("button", { onClick: aoFechar, style: { flex: 1, minHeight: 44, background: "#fff", border: `1px solid ${C.linha}`, borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 600, color: C.cinza, cursor: "pointer" } }, "Agora n\xE3o"), /* @__PURE__ */ React.createElement("button", { onClick: aoExperimentar, style: { flex: 1, minHeight: 44, background: C.azul, border: "none", borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 700, color: "#fff", cursor: "pointer" } }, "Experimentar")),
     /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textAlign: "center", marginTop: 8 } }, 'Depois, \xE9 s\xF3 tocar no "8".'),
+    folha && /* @__PURE__ */ React.createElement(FolhaInstalar, { temDados, aoFechar: () => {
+      setFolha(false);
+      aoFechar();
+    } }),
     /* @__PURE__ */ React.createElement("span", { "aria-hidden": "true", style: { position: "absolute", right: 20, bottom: -7, width: 14, height: 14, background: "#fff", borderRight: `1px solid ${C.linha}`, borderBottom: `1px solid ${C.linha}`, transform: "rotate(45deg)" } })
   );
 }

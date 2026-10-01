@@ -166,6 +166,29 @@ function RespostaIA({ m, aoNavegar }) {
   );
 }
 
+/* Dica de instalação no início da conversa: só no celular, fora do app instalado. */
+function DicaInstalar() {
+  const appState = useAppState();
+  const { instalado, plataforma, nativo } = useInstalacao();
+  const [folha, setFolha] = useState(false);
+  if (instalado || plataforma === 'outro') return null;
+  const temDados = Object.keys(appState.marks || {}).length > 0 || (appState.captures || []).length > 0;
+  return (
+    <div style={{display:'flex',gap:10,alignItems:'center',background:'#fff',border:`1px solid ${C.linhaSoft}`,borderLeft:`3px solid ${C.azul}`,borderRadius:12,padding:'10px 12px',marginBottom:12}}>
+      <img src="icon-192.png" alt="" width="36" height="36" style={{borderRadius:9,flexShrink:0}}/>
+      <div style={{flex:1,minWidth:0}}>
+        <div style={{fontSize:13,fontWeight:700,color:C.tinta}}>Dica: instale o app na tela inicial</div>
+        <div style={{fontSize:12,color:C.cinza,lineHeight:1.4}}>Abre pelo ícone, em tela cheia, e funciona sem internet.{plataforma==='ios'?' No iPhone, instale antes de começar a anotar.':''}</div>
+      </div>
+      <button onClick={async()=>{ if (!(plataforma==='android' && nativo && await ccemInstalarNativo())) setFolha(true); }}
+        style={{minHeight:44,padding:'0 12px',background:C.azul,color:'#fff',border:'none',borderRadius:9,fontFamily:'DM Sans,sans-serif',fontSize:12.5,fontWeight:700,cursor:'pointer',flexShrink:0}}>
+        {plataforma==='android'&&nativo?'Instalar':'Como instalar'}
+      </button>
+      {folha && <FolhaInstalar temDados={temDados} aoFechar={()=>setFolha(false)}/>}
+    </div>
+  );
+}
+
 /* ── Conversa: mensagens + sugestões + campo de texto ────────── */
 function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
   const conversa = useConversa();
@@ -207,6 +230,7 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
               Anoto slides (foto ou texto), busco no programa e respondo dúvidas práticas do congresso.
               Não discuto casos reais de pacientes.
             </div>
+            <DicaInstalar/>
           </div>
         )}
         {conversa.msgs.map(m=>(
@@ -333,6 +357,15 @@ function useApresentacaoAssistente() {
 }
 
 function BalaoAssistente({ aoExperimentar, aoFechar }) {
+  const appState = useAppState();
+  const { instalado, plataforma, nativo } = useInstalacao();
+  const [folha, setFolha] = useState(false);
+  const podeInstalar = !instalado && plataforma !== 'outro';
+  const temDados = Object.keys(appState.marks || {}).length > 0 || (appState.captures || []).length > 0;
+  async function instalar() {
+    if (plataforma === 'android' && nativo && await ccemInstalarNativo()) { aoFechar(); return; }
+    setFolha(true);
+  }
   const ITEM = { display:'flex', gap:8, alignItems:'flex-start', fontSize:13, color:C.tinta, lineHeight:1.4, marginBottom:5 };
   return (
     <div className="ccem-balao" role="dialog" aria-label="Conheça o Assistente CCEM"
@@ -352,11 +385,20 @@ function BalaoAssistente({ aoExperimentar, aoFechar }) {
       <div style={ITEM}><IcoCam size={16} color={C.azul}/><span>Anotar um slide pela foto: mensagem-chave e pontos principais</span></div>
       <div style={ITEM}><IcoSearch size={16} color={C.azul}/><span>Encontrar sessões, temas e palestrantes</span></div>
       <div style={ITEM}><IcoChat size={16} color={C.azul}/><span>Responder dúvidas práticas: certificado, secretaria, local</span></div>
+      {podeInstalar&&(
+        <button onClick={instalar}
+          style={{width:'100%',minHeight:44,display:'flex',alignItems:'center',gap:8,marginTop:4,padding:'6px 10px',background:C.azulBg,border:'none',borderRadius:10,cursor:'pointer',textAlign:'left',fontFamily:'DM Sans,sans-serif',fontSize:13,color:C.azul,fontWeight:600}}>
+          <img src="icon-192.png" alt="" width="24" height="24" style={{borderRadius:6,flexShrink:0}}/>
+          <span style={{flex:1}}>Instale o app na tela inicial{plataforma==='ios'?' antes de começar a usar':''}</span>
+          <IcoChevR size={15} color={C.azul}/>
+        </button>
+      )}
       <div style={{display:'flex',gap:8,marginTop:10}}>
         <button onClick={aoFechar} style={{flex:1,minHeight:44,background:'#fff',border:`1px solid ${C.linha}`,borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600,color:C.cinza,cursor:'pointer'}}>Agora não</button>
         <button onClick={aoExperimentar} style={{flex:1,minHeight:44,background:C.azul,border:'none',borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,color:'#fff',cursor:'pointer'}}>Experimentar</button>
       </div>
       <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textAlign:'center',marginTop:8}}>Depois, é só tocar no "8".</div>
+      {folha && <FolhaInstalar temDados={temDados} aoFechar={()=>{ setFolha(false); aoFechar(); }}/>}
       {/* ponta do balão apontando para o "8" */}
       <span aria-hidden="true" style={{position:'absolute',right:20,bottom:-7,width:14,height:14,background:'#fff',borderRight:`1px solid ${C.linha}`,borderBottom:`1px solid ${C.linha}`,transform:'rotate(45deg)'}}/>
     </div>

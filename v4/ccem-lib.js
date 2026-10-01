@@ -276,36 +276,39 @@ function FolhaInstalar({ aoFechar, temDados }) {
     window.addEventListener("keydown", esc);
     return () => window.removeEventListener("keydown", esc);
   }, []);
-  return /* @__PURE__ */ React.createElement(
-    "div",
-    {
-      className: "ccem-painel",
-      onClick: aoFechar,
-      style: { position: "fixed", inset: 0, zIndex: 330, background: "rgba(10,18,50,.38)", display: "flex", flexDirection: "column", justifyContent: "flex-end" }
-    },
+  return ReactDOM.createPortal(
     /* @__PURE__ */ React.createElement(
       "div",
       {
-        role: "dialog",
-        "aria-modal": "true",
-        "aria-label": "Instalar o app na tela inicial",
-        onClick: (e) => e.stopPropagation(),
-        style: { width: "100%", maxWidth: 560, margin: "0 auto", background: "#fff", borderRadius: "18px 18px 0 0", padding: "14px 18px calc(16px + env(safe-area-inset-bottom))" }
+        className: "ccem-painel",
+        onClick: aoFechar,
+        style: { position: "fixed", inset: 0, zIndex: 330, background: "rgba(10,18,50,.38)", display: "flex", flexDirection: "column", justifyContent: "flex-end" }
       },
-      /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 10, marginBottom: 4 } }, /* @__PURE__ */ React.createElement("img", { src: "icon-192.png", alt: "", width: "40", height: "40", style: { borderRadius: 10 } }), /* @__PURE__ */ React.createElement("h2", { style: { flex: 1, margin: 0, fontFamily: "Georgia,serif", fontSize: 17, color: C.tinta } }, "Instalar na tela inicial"), /* @__PURE__ */ React.createElement("button", { autoFocus: true, onClick: aoFechar, "aria-label": "Fechar", style: { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", background: "none", border: "none", cursor: "pointer", color: C.cinza, padding: 0 } }, /* @__PURE__ */ React.createElement(IcoX, { size: 20 }))),
-      /* @__PURE__ */ React.createElement("p", { style: { fontSize: 13, color: C.cinza, lineHeight: 1.5, margin: "0 0 6px" } }, "O Meu CCEM passa a abrir pelo \xEDcone, em tela cheia, e funciona sem internet."),
-      plataforma === "ios" ? /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "1"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "No ", /* @__PURE__ */ React.createElement("b", null, "Safari"), ", toque em ", /* @__PURE__ */ React.createElement("b", null, "Compartilhar"), " (na barra de baixo; no iPad, no alto)"), /* @__PURE__ */ React.createElement(IcoCompartilharIOS, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "2"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Role a lista e toque em ", /* @__PURE__ */ React.createElement("b", null, "Adicionar \xE0 Tela de In\xEDcio")), /* @__PURE__ */ React.createElement(IcoMaisQuadrado, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: { ...PASSO, borderBottom: "none" } }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "3"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Toque em ", /* @__PURE__ */ React.createElement("b", null, "Adicionar"), '. O \xEDcone do "8" aparece na tela inicial.')), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: "#7c2d12", lineHeight: 1.45, margin: "6px 0 0", padding: "8px 10px", background: "#fff4e5", borderRadius: 7, borderLeft: "3px solid #c2410c" } }, "No iPhone, o app instalado come\xE7a vazio: ele n\xE3o enxerga o que foi feito no Safari.", temDados ? " Voc\xEA j\xE1 tem marca\xE7\xF5es ou notas aqui: antes, toque em Backup no Caderno e baixe o arquivo; depois, no app instalado, use Backup \u2192 Restaurar." : " Instale antes de come\xE7ar a marcar sess\xF5es e anotar.")) : plataforma === "android" && nativo ? /* @__PURE__ */ React.createElement(
-        "button",
+      /* @__PURE__ */ React.createElement(
+        "div",
         {
-          onClick: async () => {
-            await ccemInstalarNativo();
-            aoFechar();
-          },
-          style: { width: "100%", minHeight: 48, marginTop: 8, background: C.azul, color: "#fff", border: "none", borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 15, fontWeight: 700, cursor: "pointer" }
+          role: "dialog",
+          "aria-modal": "true",
+          "aria-label": "Instalar o app na tela inicial",
+          onClick: (e) => e.stopPropagation(),
+          style: { width: "100%", maxWidth: 560, margin: "0 auto", background: "#fff", borderRadius: "18px 18px 0 0", padding: "14px 18px calc(16px + env(safe-area-inset-bottom))" }
         },
-        "Instalar agora"
-      ) : plataforma === "android" ? /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "1"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "No ", /* @__PURE__ */ React.createElement("b", null, "Chrome"), ", toque no menu do canto superior direito"), /* @__PURE__ */ React.createElement(IcoMenuVertical, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "2"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Toque em ", /* @__PURE__ */ React.createElement("b", null, "Instalar app"), " ou ", /* @__PURE__ */ React.createElement("b", null, "Adicionar \xE0 tela inicial")), /* @__PURE__ */ React.createElement(IcoMaisQuadrado, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: { ...PASSO, borderBottom: "none" } }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "3"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, 'Confirme. O \xEDcone do "8" aparece na tela inicial.'))) : /* @__PURE__ */ React.createElement("p", { style: { fontSize: 14, color: C.tinta, lineHeight: 1.5, margin: "8px 0 0" } }, "Abra ", /* @__PURE__ */ React.createElement("b", null, "meu-ccem-2026.vercel.app"), ' no celular e toque em "Instalar o app" na tela Info.')
-    )
+        /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 10, marginBottom: 4 } }, /* @__PURE__ */ React.createElement("img", { src: "icon-192.png", alt: "", width: "40", height: "40", style: { borderRadius: 10 } }), /* @__PURE__ */ React.createElement("h2", { style: { flex: 1, margin: 0, fontFamily: "Georgia,serif", fontSize: 17, color: C.tinta } }, "Instalar na tela inicial"), /* @__PURE__ */ React.createElement("button", { autoFocus: true, onClick: aoFechar, "aria-label": "Fechar", style: { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", background: "none", border: "none", cursor: "pointer", color: C.cinza, padding: 0 } }, /* @__PURE__ */ React.createElement(IcoX, { size: 20 }))),
+        /* @__PURE__ */ React.createElement("p", { style: { fontSize: 13, color: C.cinza, lineHeight: 1.5, margin: "0 0 6px" } }, "O Meu CCEM passa a abrir pelo \xEDcone, em tela cheia, e funciona sem internet."),
+        plataforma === "ios" ? /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "1"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "No ", /* @__PURE__ */ React.createElement("b", null, "Safari"), ", toque em ", /* @__PURE__ */ React.createElement("b", null, "Compartilhar"), " (na barra de baixo; no iPad, no alto)"), /* @__PURE__ */ React.createElement(IcoCompartilharIOS, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "2"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Role a lista e toque em ", /* @__PURE__ */ React.createElement("b", null, "Adicionar \xE0 Tela de In\xEDcio")), /* @__PURE__ */ React.createElement(IcoMaisQuadrado, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: { ...PASSO, borderBottom: "none" } }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "3"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Toque em ", /* @__PURE__ */ React.createElement("b", null, "Adicionar"), '. O \xEDcone do "8" aparece na tela inicial.')), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: "#7c2d12", lineHeight: 1.45, margin: "6px 0 0", padding: "8px 10px", background: "#fff4e5", borderRadius: 7, borderLeft: "3px solid #c2410c" } }, "No iPhone, o app instalado come\xE7a vazio: ele n\xE3o enxerga o que foi feito no Safari.", temDados ? " Voc\xEA j\xE1 tem marca\xE7\xF5es ou notas aqui: antes, toque em Backup no Caderno e baixe o arquivo; depois, no app instalado, use Backup \u2192 Restaurar." : " Instale antes de come\xE7ar a marcar sess\xF5es e anotar.")) : plataforma === "android" && nativo ? /* @__PURE__ */ React.createElement(
+          "button",
+          {
+            onClick: async () => {
+              await ccemInstalarNativo();
+              aoFechar();
+            },
+            style: { width: "100%", minHeight: 48, marginTop: 8, background: C.azul, color: "#fff", border: "none", borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 15, fontWeight: 700, cursor: "pointer" }
+          },
+          "Instalar agora"
+        ) : plataforma === "android" ? /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "1"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "No ", /* @__PURE__ */ React.createElement("b", null, "Chrome"), ", toque no menu do canto superior direito"), /* @__PURE__ */ React.createElement(IcoMenuVertical, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: PASSO }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "2"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Toque em ", /* @__PURE__ */ React.createElement("b", null, "Instalar app"), " ou ", /* @__PURE__ */ React.createElement("b", null, "Adicionar \xE0 tela inicial")), /* @__PURE__ */ React.createElement(IcoMaisQuadrado, { size: 24, color: C.azul })), /* @__PURE__ */ React.createElement("div", { style: { ...PASSO, borderBottom: "none" } }, /* @__PURE__ */ React.createElement("span", { style: NUM }, "3"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, 'Confirme. O \xEDcone do "8" aparece na tela inicial.'))) : /* @__PURE__ */ React.createElement("p", { style: { fontSize: 14, color: C.tinta, lineHeight: 1.5, margin: "8px 0 0" } }, "Abra ", /* @__PURE__ */ React.createElement("b", null, "meu-ccem-2026.vercel.app"), ' no celular e toque em "Instalar o app" na tela Info.')
+      )
+    ),
+    document.body
   );
 }
 function nowStamp() {
