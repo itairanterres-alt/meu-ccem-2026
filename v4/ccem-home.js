@@ -48,7 +48,7 @@ function HomeScreen() {
     },
     /* @__PURE__ */ React.createElement(IcoBook, { size: 16, color: C.azul }),
     /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 13, color: C.tinta } }, "Congresso encerrado \xB7 ", /* @__PURE__ */ React.createElement("b", { style: { color: C.azul } }, "baixe seu caderno"))
-  ), (markCount > 0 || capCount > 0) && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 12 } }, markCount > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 5, background: "#fef9ec", border: `1px solid ${C.ouroTxt}44`, borderRadius: 8, padding: "5px 10px" } }, /* @__PURE__ */ React.createElement(IcoStar, { size: 11, color: C.ouroTxt, filled: true }), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.ouroTxt } }, markCount, " marcada", markCount !== 1 ? "s" : "")), capCount > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 5, background: "#eff6ff", border: `1px solid ${C.azul}33`, borderRadius: 8, padding: "5px 10px" } }, /* @__PURE__ */ React.createElement(IcoCapture, { size: 11, color: C.azul }), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azul } }, capCount, " nota", capCount !== 1 ? "s" : ""))))), /* @__PURE__ */ React.createElement(MinhasSessoes, { appState, agora: now }), /* @__PURE__ */ React.createElement("div", { style: { padding: "20px 16px 10px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, textTransform: "uppercase", letterSpacing: "0.1em", color: C.cinza, marginBottom: 12, fontWeight: 600 } }, "Acesso r\xE1pido"), /* @__PURE__ */ React.createElement("div", { style: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 9 } }, shortcuts.map((s, i) => /* @__PURE__ */ React.createElement(
+  ), (markCount > 0 || capCount > 0) && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 12 } }, markCount > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 5, background: "#fef9ec", border: `1px solid ${C.ouroTxt}44`, borderRadius: 8, padding: "5px 10px" } }, /* @__PURE__ */ React.createElement(IcoStar, { size: 11, color: C.ouroTxt, filled: true }), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.ouroTxt } }, markCount, " marcada", markCount !== 1 ? "s" : "")), capCount > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 5, background: "#eff6ff", border: `1px solid ${C.azul}33`, borderRadius: 8, padding: "5px 10px" } }, /* @__PURE__ */ React.createElement(IcoCapture, { size: 11, color: C.azul }), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azul } }, capCount, " nota", capCount !== 1 ? "s" : ""))))), /* @__PURE__ */ React.createElement(ConviteInstalar, { appState }), /* @__PURE__ */ React.createElement(MinhasSessoes, { appState, agora: now }), /* @__PURE__ */ React.createElement("div", { style: { padding: "20px 16px 10px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, textTransform: "uppercase", letterSpacing: "0.1em", color: C.cinza, marginBottom: 12, fontWeight: 600 } }, "Acesso r\xE1pido"), /* @__PURE__ */ React.createElement("div", { style: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 9 } }, shortcuts.map((s, i) => /* @__PURE__ */ React.createElement(
     "button",
     {
       key: s.id,
@@ -68,6 +68,43 @@ function HomeScreen() {
     /* @__PURE__ */ React.createElement("span", { style: { color: C.azul } }, s.icon),
     /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 14, fontWeight: 700, color: C.tinta, marginBottom: 2 } }, s.lbl), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza } }, s.sub))
   )))));
+}
+const CCEM_CONVITE_INSTALAR = "ccem2026:conviteInstalar";
+function ConviteInstalar({ appState }) {
+  const { instalado, plataforma, nativo } = useInstalacao();
+  const [fechado, setFechado] = useState(() => {
+    try {
+      return !!localStorage.getItem(CCEM_CONVITE_INSTALAR);
+    } catch (e) {
+      return false;
+    }
+  });
+  const [folha, setFolha] = useState(false);
+  const temDados = Object.keys(appState.marks || {}).length > 0 || (appState.captures || []).length > 0;
+  let apresentado = true;
+  try {
+    apresentado = !!localStorage.getItem("ccem2026:assistenteApresentado");
+  } catch (e) {
+  }
+  if (instalado || fechado || plataforma === "outro" || !apresentado || CCEM_VISITAS < 2 && !temDados) return null;
+  const fechar = () => {
+    try {
+      localStorage.setItem(CCEM_CONVITE_INSTALAR, "1");
+    } catch (e) {
+    }
+    setFechado(true);
+  };
+  async function instalar() {
+    if (plataforma === "android" && nativo && await ccemInstalarNativo()) {
+      fechar();
+      return;
+    }
+    setFolha(true);
+  }
+  return /* @__PURE__ */ React.createElement("div", { style: { padding: "14px 16px 0" } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 12, alignItems: "flex-start", background: "#fff", border: `1px solid ${C.linha}`, borderLeft: `3px solid ${C.azul}`, borderRadius: 12, padding: "12px 12px 10px" } }, /* @__PURE__ */ React.createElement("img", { src: "icon-192.png", alt: "", width: "40", height: "40", style: { borderRadius: 10, flexShrink: 0 } }), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, minWidth: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 14, fontWeight: 700, color: C.tinta, marginBottom: 2 } }, "Instale o Meu CCEM na tela inicial"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.45 } }, "Abre pelo \xEDcone, em tela cheia, e funciona sem internet.", plataforma === "ios" && temDados && " No iPhone, o app instalado come\xE7a vazio \u2014 fa\xE7a o Backup antes (as instru\xE7\xF5es explicam)."), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 8 } }, /* @__PURE__ */ React.createElement("button", { onClick: fechar, style: { minHeight: 44, padding: "0 12px", background: "#fff", border: `1px solid ${C.linha}`, borderRadius: 9, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 600, color: C.cinza, cursor: "pointer" } }, "Agora n\xE3o"), /* @__PURE__ */ React.createElement("button", { onClick: instalar, style: { minHeight: 44, padding: "0 16px", background: C.azul, border: "none", borderRadius: 9, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 700, color: "#fff", cursor: "pointer" } }, plataforma === "android" && nativo ? "Instalar" : "Como instalar")))), folha && /* @__PURE__ */ React.createElement(FolhaInstalar, { temDados, aoFechar: () => {
+    setFolha(false);
+    fechar();
+  } }));
 }
 function ccemHoraH(hhmm) {
   return hhmm.replace(":", "h");

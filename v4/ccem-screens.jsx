@@ -571,6 +571,29 @@ function ProgramaScreen() {
   );
 }
 
+/* Item "Instalar o app" em Info: só no celular e fora do app já instalado. */
+function ItemInstalar() {
+  const appState = useAppState();
+  const { instalado, plataforma, nativo } = useInstalacao();
+  const [folha, setFolha] = useState(false);
+  if (instalado || plataforma === 'outro') return null;
+  const temDados = Object.keys(appState.marks || {}).length > 0 || (appState.captures || []).length > 0;
+  return (
+    <div style={{background:'#fff',borderRadius:12,margin:'10px 14px 0',border:`1px solid ${C.linhaSoft}`}}>
+      <button onClick={async()=>{ if (!(plataforma==='android' && nativo && await ccemInstalarNativo())) setFolha(true); }}
+        style={{width:'100%',minHeight:56,display:'flex',alignItems:'center',gap:11,padding:'8px 14px',background:'none',border:'none',cursor:'pointer',textAlign:'left'}}>
+        <img src="icon-192.png" alt="" width="34" height="34" style={{borderRadius:9,flexShrink:0}}/>
+        <span style={{flex:1}}>
+          <span style={{display:'block',fontSize:13.5,fontWeight:600,color:C.tinta}}>Instalar o app na tela inicial</span>
+          <span style={{display:'block',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>abre pelo ícone e funciona sem internet</span>
+        </span>
+        <IcoChevR size={16} color={C.cinza}/>
+      </button>
+      {folha && <FolhaInstalar temDados={temDados} aoFechar={()=>setFolha(false)}/>}
+    </div>
+  );
+}
+
 /* ── InfoScreen — página única ──────────────────────────────── */
 function InfoScreen() {
   const IC = ({children,style})=><div style={{background:'#fff',borderRadius:12,padding:'13px 14px',margin:'10px 14px 0',border:`1px solid ${C.linhaSoft}`,boxShadow:'0 1px 5px rgba(29,62,138,.04)',...(style||{})}}>{children}</div>;
@@ -632,6 +655,9 @@ function InfoScreen() {
           <CR icon={<IcoInsta size={17}/>} lbl="Instagram" val="@sbemsceventos" href="https://instagram.com/sbemsceventos"/>
           <CR icon={<IcoGlobe size={17}/>} lbl="Site oficial" val="ccem2026.com.br ↗" href="https://www.ccem2026.com.br" ultimo/>
         </IC>
+
+        {/* Instalar na tela inicial */}
+        <ItemInstalar/>
 
         {/* Sobre o app */}
         <IC>

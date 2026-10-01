@@ -18,7 +18,7 @@ const CCEM_PRIVACIDADE = 'Perguntas e fotos enviadas aqui são processadas pela 
 const CCEM_SUGESTOES = {
   home:     [{ rotulo:'O que está acontecendo agora?' }, { rotulo:'Onde pego o certificado?' }, { rotulo:'Quais sessões falam de tireoide?' }],
   programa: [{ rotulo:'O que está acontecendo agora?' }, { rotulo:'Qual é a próxima sessão?' }, { rotulo:'Quais sessões falam de obesidade?' }],
-  info:     [{ rotulo:'Onde pego o certificado?' }, { rotulo:'Qual o horário da secretaria?' }, { rotulo:'Como exporto meu caderno?' }],
+  info:     [{ rotulo:'Onde pego o certificado?' }, { rotulo:'Como instalo o app no celular?' }, { rotulo:'Como exporto meu caderno?' }],
   sessao:   [{ rotulo:'Resuma esta sessão' }, { rotulo:'Anotar um slide', foto:true }, { rotulo:'Quem são os palestrantes?' }],
 };
 
