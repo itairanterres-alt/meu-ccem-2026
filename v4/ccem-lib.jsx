@@ -60,13 +60,61 @@ function useMinuto() {
 
 /* ── Toast ─────────────────────────────────────────────────── */
 let _toastTimer;
-function showToast(text) {
+/* showToast('Texto') ou showToast('Texto', { rotulo:'Adicionar', aoTocar:fn }).
+   Com ação, fica 5 s na tela — tempo de ler e tocar. */
+function showToast(text, acao) {
   const el = document.getElementById('ccem-toast');
   if (!el) return;
   el.querySelector('span').textContent = text;
+  const btn = el.querySelector('.ccem-toast-acao');
+  if (btn) {
+    if (acao) {
+      btn.textContent = acao.rotulo;
+      btn.hidden = false;
+      btn.onclick = () => { el.classList.remove('show'); acao.aoTocar(); };
+    } else {
+      btn.hidden = true;
+      btn.onclick = null;
+    }
+  }
+  el.classList.toggle('com-acao', !!acao);
   el.classList.add('show');
   clearTimeout(_toastTimer);
-  _toastTimer = setTimeout(() => el.classList.remove('show'), 1900);
+  _toastTimer = setTimeout(() => el.classList.remove('show'), acao ? 5000 : 1900);
+}
+
+/* ── Calendário ───────────────────────────────────────────────
+   iOS Safari abre "Adicionar ao Calendário" ao navegar para um
+   data: text/calendar; em blob com download ele só salva em
+   Arquivos. Os demais navegadores baixam o .ics, e o aparelho
+   oferece abrir no calendário.
+   ────────────────────────────────────────────────────────────── */
+function ccemBaseUrl() {
+  return window.location.origin + window.location.pathname;
+}
+function ccemEhIOS() {
+  return /iP(hone|ad|od)/.test(navigator.userAgent) ||
+         (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+}
+function ccemBaixarIcs(sessoes, nomeArquivo) {
+  const lista = (sessoes || []).filter(Boolean);
+  if (!lista.length) { showToast('Nenhuma sessão para adicionar'); return; }
+  const texto = ccemIcs(lista, ccemBaseUrl());
+  if (ccemEhIOS()) {
+    window.location.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(texto);
+    return;
+  }
+  const url = URL.createObjectURL(new Blob([texto], { type:'text/calendar;charset=utf-8' }));
+  const a = document.createElement('a');
+  a.href = url; a.download = nomeArquivo || 'ccem-2026.ics';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+}
+
+/* Sessões marcadas, em ordem cronológica. Com `dia`, só as daquele dia. */
+function ccemMarcadas(appState, dia) {
+  const marks = (appState && appState.marks) || {};
+  return ccemSessoesEmOrdem().filter(s => marks[s.id] && (!dia || s.dia === dia));
 }
 
 /* ── localStorage / estado compartilhado ───────────────────── */
@@ -164,7 +212,7 @@ Object.assign(window, {
   Ico, IcoChevL, IcoChevR, IcoArrowL, IcoCal, IcoChat, IcoBook, IcoInfo,
   IcoSearch, IcoStar, IcoPlus, IcoCheck, IcoX, IcoCam, IcoMic, IcoSend,
   IcoFilter, IcoGlobe, IcoPhone, IcoMail, IcoInsta, IcoLink, IcoCapture, IcoPoster,
-  useHashRoute, useMinuto, showToast,
+  useHashRoute, useMinuto, showToast, ccemBaseUrl, ccemBaixarIcs, ccemMarcadas,
   CCEM_USER_ID, CCEM_STATE_KEY,
   ccemSeedState, ccemLoadState, ccemSaveState,
   _ccemStore, _ccemListeners, _ccemNotify,
