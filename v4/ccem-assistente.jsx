@@ -1,0 +1,380 @@
+/* ============================================================
+   Meu CCEM 2026 — Assistente CCEM (Etapa 5)
+   ------------------------------------------------------------
+   Conversa, tela Assistente, painel deslizante e botão "8".
+   A IA roda em /api/assistente (função do Vercel). Aqui só se
+   reduz a foto, envia, e mostra a resposta como TEXTO — nunca
+   como HTML, para que nada vindo da IA vire código na página.
+   A conversa fica só na memória desta aba: não vai para o
+   localStorage nem para servidor algum além da própria pergunta.
+   ============================================================ */
+
+const CCEM_AVATAR      = 'v4/avatar-assistente.png';
+const CCEM_RODAPE_IA   = 'Gerado por IA — confira na fonte';
+const CCEM_EM_TESTES   = 'Assistente em fase de testes — disponível em breve';
+const CCEM_PRIVACIDADE = 'Perguntas e fotos são processadas pela Anthropic (EUA) e não ficam gravadas. Não envie dados de pacientes.';
+
+/* Três sugestões por tela. foto:true abre a câmera em vez de perguntar. */
+const CCEM_SUGESTOES = {
+  home:     [{ rotulo:'O que está acontecendo agora?' }, { rotulo:'Onde pego o certificado?' }, { rotulo:'Quais sessões falam de tireoide?' }],
+  programa: [{ rotulo:'O que está acontecendo agora?' }, { rotulo:'Qual é a próxima sessão?' }, { rotulo:'Quais sessões falam de obesidade?' }],
+  info:     [{ rotulo:'Onde pego o certificado?' }, { rotulo:'Qual o horário da secretaria?' }, { rotulo:'Como exporto meu caderno?' }],
+  sessao:   [{ rotulo:'Resuma esta sessão' }, { rotulo:'Anotar um slide', foto:true }, { rotulo:'Quem são os palestrantes?' }],
+};
+
+/* ── Conversa em memória, compartilhada entre a aba e o painel ── */
+const _conversa = { msgs: [], carregando: false };
+const _ouvintesConversa = new Set();
+function _mudouConversa() { _ouvintesConversa.forEach(fn => fn()); }
+function useConversa() {
+  const [, forcar] = useState(0);
+  useEffect(() => {
+    const fn = () => forcar(n => n + 1);
+    _ouvintesConversa.add(fn);
+    return () => _ouvintesConversa.delete(fn);
+  }, []);
+  return _conversa;
+}
+
+/* ── 5.3 · Foto: reduzida no aparelho (máx. 1600 px, JPEG 0,8) ── */
+function ccemReduzirFoto(arquivo) {
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(arquivo);
+    const img = new Image();
+    img.onload = () => {
+      const escala = Math.min(1, 1600 / Math.max(img.naturalWidth, img.naturalHeight));
+      const w = Math.round(img.naturalWidth * escala), h = Math.round(img.naturalHeight * escala);
+      const cv = document.createElement('canvas');
+      cv.width = w; cv.height = h;
+      cv.getContext('2d').drawImage(img, 0, 0, w, h);
+      URL.revokeObjectURL(url);
+      const dataUrl = cv.toDataURL('image/jpeg', 0.8);
+      resolve({ base64: dataUrl.split(',')[1], previa: dataUrl });
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('foto')); };
+    img.src = url;
+  });
+}
+
+/* Resposta da IA em texto corrido — para o histórico e para o Caderno. */
+function ccemRespostaEmTexto(r) {
+  const partes = [r.mensagem];
+  if (r.pontos && r.pontos.length) partes.push(r.pontos.map(p => '• ' + p).join('\n'));
+  if (r.referencia) partes.push('Referência: ' + r.referencia);
+  const sess = (r.sessoes || []).map(id => SESSOES[id]).filter(Boolean);
+  if (sess.length) partes.push(sess.map(s => `${s.inicio} · ${ccemRotulo(s)}`).join('\n'));
+  return partes.filter(Boolean).join('\n\n');
+}
+
+/* ── Envio ao servidor ───────────────────────────────────────── */
+// TODO: integrar com API real — já integrado: /api/assistente (Claude via Vercel).
+async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId }) {
+  const historico = _conversa.msgs
+    .filter(m => (m.papel === 'usuario' && m.texto) || (m.papel === 'assistente' && m.resposta))
+    .slice(-6)
+    .map(m => ({ papel: m.papel, texto: m.papel === 'usuario' ? m.texto : ccemRespostaEmTexto(m.resposta) }));
+  const ctl = new AbortController();
+  const relogio = setTimeout(() => ctl.abort(), 28000);
+  try {
+    const res = await fetch('/api/assistente', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ texto, imagem, sessaoId, historico, agora: ccemAgora().toISOString(), userId: window.CCEM_USER_ID }),
+      signal: ctl.signal,
+    });
+    if (res.ok) return { resposta: await res.json() };
+    if ([404, 405, 501, 503].includes(res.status)) return { aviso: CCEM_EM_TESTES };
+    if (res.status === 429) return { aviso: 'Você chegou ao limite de 20 perguntas por hora. Tente de novo mais tarde.' };
+    if (res.status === 504) return { aviso: 'O assistente demorou demais para responder. Tente de novo.' };
+    if (res.status === 413) return { aviso: 'A foto ficou grande demais. Tente fotografar de novo.' };
+    return { aviso: 'Não foi possível responder agora. Tente de novo.' };
+  } catch (e) {
+    return { aviso: e && e.name === 'AbortError'
+      ? 'O assistente demorou demais para responder. Tente de novo.'
+      : 'Sem conexão com a internet. Tente de novo quando a rede voltar.' };
+  } finally {
+    clearTimeout(relogio);
+  }
+}
+
+async function ccemEnviarAoAssistente({ texto, arquivo, sessaoId }) {
+  if (_conversa.carregando) return;
+  texto = (texto || '').trim();
+  let imagem = null, previa = null;
+  if (arquivo) {
+    try { ({ base64: imagem, previa } = await ccemReduzirFoto(arquivo)); }
+    catch (e) { showToast('Não foi possível ler a foto'); return; }
+  }
+  if (!texto && !imagem) return;
+  _conversa.msgs.push({ id: Date.now() + 'u', papel: 'usuario', texto, previa, sessaoId, ts: Date.now() });
+  _conversa.carregando = true;
+  _mudouConversa();
+  const r = await ccemPerguntarAoAssistente({ texto, imagem, sessaoId });
+  _conversa.msgs.push(r.resposta
+    ? { id: Date.now() + 'a', papel: 'assistente', resposta: r.resposta, sessaoId, foto: !!imagem, pergunta: texto, ts: Date.now() }
+    : { id: Date.now() + 'v', papel: 'aviso', texto: r.aviso, ts: Date.now() });
+  _conversa.carregando = false;
+  _mudouConversa();
+}
+
+function ccemSalvarNoCaderno(m) {
+  const s = SESSOES[m.sessaoId];
+  const r = m.resposta;
+  const titulo = (m.foto ? 'Slide' : (m.pergunta || 'Assistente')).slice(0, 60);
+  updateAppState(st => {
+    if (!st.captures) st.captures = [];
+    st.captures.unshift({
+      id: 'c_' + Date.now().toString(36),
+      dia: (s && s.dia) || ccemDiaDoEvento() || DIAS[0],
+      time: ccemDataHoraJoinville(Date.now()).hora,
+      sessaoId: m.sessaoId || '',
+      sessaoRef: s ? ccemRotulo(s) : 'Assistente',
+      type: m.foto ? 'foto' : 'texto',
+      title: titulo,
+      body: ccemRespostaEmTexto(r) + '\n\n' + CCEM_RODAPE_IA,
+      tags: (s && s.temas) || [],
+      ts: Date.now(),
+    });
+  });
+  m.salvo = true;
+  _mudouConversa();
+  showToast('Salvo no caderno');
+}
+
+/* ── Cabeçalho: identidade do assistente (5.6) ───────────────── */
+function CabecalhoAssistente({ aoFechar }) {
+  return (
+    <div style={{display:'flex',alignItems:'center',gap:10,padding:'8px 8px 8px 14px',background:'#fff',borderBottom:`1px solid ${C.linhaSoft}`,flexShrink:0}}>
+      <img src={CCEM_AVATAR} alt="" width="32" height="32" style={{width:32,height:32,borderRadius:'50%',background:C.azul,flexShrink:0}}/>
+      <div style={{flex:1,minWidth:0}}>
+        <div style={{display:'flex',alignItems:'center',gap:6}}>
+          <span style={{fontSize:14,fontWeight:700,color:C.tinta}}>Assistente CCEM</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.ouro,background:C.ouroBg,padding:'0 7px',borderRadius:8,letterSpacing:'0.04em'}}>beta</span>
+        </div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>IA · respostas podem conter erros</div>
+      </div>
+      {aoFechar&&(
+        <button onClick={aoFechar} aria-label="Fechar o assistente"
+          style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',background:'none',border:'none',cursor:'pointer',color:C.cinza,flexShrink:0,padding:0}}>
+          <IcoX size={20}/>
+        </button>
+      )}
+    </div>
+  );
+}
+
+/* ── Uma resposta da IA, sempre como texto ───────────────────── */
+function RespostaIA({ m, aoNavegar }) {
+  const r = m.resposta;
+  const sessoes = (r.sessoes || []).map(id => SESSOES[id]).filter(Boolean);
+  return (
+    <div style={{maxWidth:'92%',background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:'14px 14px 14px 4px',padding:'10px 12px',fontSize:13,lineHeight:1.5,color:C.tinta,boxShadow:'0 1px 6px rgba(29,62,138,.06)'}}>
+      <p style={{margin:0,whiteSpace:'pre-wrap',fontWeight:r.modo==='anotacao'?600:400}}>{r.mensagem}</p>
+      {r.pontos&&r.pontos.length>0&&(
+        <ul style={{margin:'8px 0 0',paddingLeft:18}}>
+          {r.pontos.map((p,i)=><li key={i} style={{marginBottom:3}}>{p}</li>)}
+        </ul>
+      )}
+      {r.referencia&&<p style={{margin:'8px 0 0',fontSize:12,color:C.cinza}}>Referência: {r.referencia}</p>}
+      {sessoes.length>0&&(
+        <div style={{display:'flex',flexDirection:'column',gap:6,marginTop:10}}>
+          {sessoes.map(s=>(
+            <button key={s.id} onClick={()=>{ if(aoNavegar) aoNavegar(); go('#/sessao/'+s.id); }}
+              style={{minHeight:44,display:'flex',alignItems:'center',gap:8,textAlign:'left',background:C.azulBg,border:'none',borderRadius:9,padding:'6px 10px',cursor:'pointer',fontFamily:'inherit'}}>
+              <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:C.azul,flexShrink:0}}>{s.dia===DIAS[0]?'sex':'sáb'} {s.inicio}</span>
+              <span style={{flex:1,fontSize:12.5,fontWeight:600,color:C.tinta,lineHeight:1.3}}>{ccemRotulo(s)}</span>
+              <IcoChevR size={14} color={C.azul}/>
+            </button>
+          ))}
+        </div>
+      )}
+      <div style={{display:'flex',alignItems:'center',gap:8,marginTop:10,paddingTop:8,borderTop:`1px solid ${C.linhaSoft}`}}>
+        <span style={{flex:1,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>{CCEM_RODAPE_IA}</span>
+        <button onClick={()=>!m.salvo&&ccemSalvarNoCaderno(m)} disabled={m.salvo}
+          style={{minHeight:44,display:'flex',alignItems:'center',gap:5,background:'none',border:'none',padding:'0 4px',cursor:m.salvo?'default':'pointer',fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:600,color:m.salvo?C.cinza:C.azul,flexShrink:0}}>
+          {m.salvo?<><IcoCheck size={14}/>No caderno</>:<><IcoBook size={14}/>Salvar no caderno</>}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ── Conversa: mensagens + sugestões + campo de texto ────────── */
+function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
+  const conversa = useConversa();
+  const [texto, setTexto] = useState('');
+  const fotoRef = useRef(null);
+  const fimRef  = useRef(null);
+  const sessao  = SESSOES[sessaoId] || null;
+  const sugestoes = CCEM_SUGESTOES[tela] || CCEM_SUGESTOES.home;
+
+  useEffect(()=>{
+    const el = fimRef.current;
+    if (el && el.parentNode) el.parentNode.scrollTop = el.parentNode.scrollHeight;
+  },[conversa.msgs.length, conversa.carregando]);
+
+  function enviar(t){
+    const v = (t!==undefined ? t : texto).trim();
+    if (!v || conversa.carregando) return;
+    if (t===undefined) setTexto('');
+    ccemEnviarAoAssistente({ texto:v, sessaoId });
+  }
+  function usarSugestao(s){
+    if (s.foto) { fotoRef.current && fotoRef.current.click(); return; }
+    enviar(s.rotulo);
+  }
+
+  const vazia = conversa.msgs.length === 0;
+  return (
+    <div style={{flex:1,display:'flex',flexDirection:'column',minHeight:0,background:'#f3f6fc'}}>
+      {sessao&&(
+        <div style={{flexShrink:0,padding:'7px 14px',background:C.azulBg,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.azul}}>
+          Sobre <strong>{ccemRotulo(sessao)}</strong> · {sessao.inicio}
+        </div>
+      )}
+      <div style={{flex:1,overflowY:'auto',padding:'12px 12px 4px'}}>
+        {vazia&&(
+          <div style={{padding:'6px 2px 4px'}}>
+            <div style={{fontSize:15,fontWeight:700,color:C.tinta,marginBottom:4}}>Como posso ajudar?</div>
+            <div style={{fontSize:12.5,color:C.cinza,lineHeight:1.5,marginBottom:12}}>
+              Anoto slides (foto ou texto), busco no programa e respondo dúvidas práticas do congresso.
+              Não discuto casos reais de pacientes.
+            </div>
+          </div>
+        )}
+        {conversa.msgs.map(m=>(
+          <div key={m.id} style={{display:'flex',flexDirection:'column',alignItems:m.papel==='usuario'?'flex-end':'flex-start',marginBottom:10}}>
+            {m.papel==='usuario'&&(
+              <div style={{maxWidth:'86%',background:C.azul,color:'#fff',borderRadius:'14px 14px 4px 14px',padding:'9px 12px',fontSize:13,lineHeight:1.5}}>
+                {m.previa&&<img src={m.previa} alt="Slide enviado" style={{display:'block',maxWidth:180,maxHeight:180,borderRadius:8,marginBottom:m.texto?6:0}}/>}
+                {m.texto&&<span style={{whiteSpace:'pre-wrap'}}>{m.texto}</span>}
+              </div>
+            )}
+            {m.papel==='assistente'&&<RespostaIA m={m} aoNavegar={aoNavegar}/>}
+            {m.papel==='aviso'&&(
+              <div style={{maxWidth:'92%',background:'#fff',border:`1px dashed ${C.linha}`,borderRadius:12,padding:'9px 12px',fontSize:12.5,color:C.cinza,lineHeight:1.45}}>{m.texto}</div>
+            )}
+          </div>
+        ))}
+        {conversa.carregando&&(
+          <div role="status" aria-label="O assistente está respondendo" style={{display:'flex',gap:4,padding:'10px 12px',background:'#fff',borderRadius:'14px 14px 14px 4px',width:60,border:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
+            {[0,1,2].map(i=><span key={i} style={{width:7,height:7,borderRadius:'50%',background:C.cinza,display:'inline-block',animation:`ccem-bounce .9s ${i*.2}s ease-in-out infinite`}}/>)}
+          </div>
+        )}
+        {!conversa.carregando&&(
+          <div style={{display:'flex',flexWrap:'wrap',gap:6,margin:'4px 0 8px'}}>
+            {sugestoes.map(s=>(
+              <button key={s.rotulo} onClick={()=>usarSugestao(s)}
+                style={{minHeight:44,display:'flex',alignItems:'center',gap:6,background:'#fff',border:`1px solid ${C.linha}`,borderRadius:22,padding:'0 14px',cursor:'pointer',fontFamily:'DM Sans,sans-serif',fontSize:12.5,fontWeight:500,color:C.azul}}>
+                {s.foto&&<IcoCam size={15} color={C.azul}/>}{s.rotulo}
+              </button>
+            ))}
+          </div>
+        )}
+        <div ref={fimRef}/>
+      </div>
+
+      <div style={{flexShrink:0,background:'#fff',borderTop:`1px solid ${C.linhaSoft}`,padding:'6px 10px 10px'}}>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.4,margin:'0 2px 6px'}}>{CCEM_PRIVACIDADE}</div>
+        <div style={{display:'flex',alignItems:'center',gap:7}}>
+          <input type="file" accept="image/*" capture="environment" ref={fotoRef} style={{display:'none'}}
+            onChange={e=>{
+              const f = e.target.files && e.target.files[0];
+              e.target.value = '';
+              if (!f) return;
+              ccemEnviarAoAssistente({ arquivo:f, texto, sessaoId });
+              setTexto('');
+            }}/>
+          <button onClick={()=>fotoRef.current&&fotoRef.current.click()} aria-label="Fotografar um slide" disabled={conversa.carregando}
+            style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',border:`1px solid ${C.linha}`,background:'#f8fafd',borderRadius:12,cursor:'pointer',flexShrink:0,padding:0}}>
+            <IcoCam size={19} color={C.azul}/>
+          </button>
+          <input value={texto} onChange={e=>setTexto(e.target.value)} onKeyDown={e=>e.key==='Enter'&&!e.shiftKey&&enviar()}
+            placeholder="Pergunte ou anote…" aria-label="Pergunta ao assistente" maxLength={2000}
+            style={{flex:1,minWidth:0,minHeight:44,padding:'8px 14px',border:`1px solid ${C.linha}`,borderRadius:24,fontFamily:'DM Sans,sans-serif',fontSize:16,color:C.tinta,background:'#f8fafd',outline:'none'}}/>
+          <button onClick={()=>enviar()} aria-label="Enviar" disabled={conversa.carregando||!texto.trim()}
+            style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',border:'none',background:C.azul,opacity:(conversa.carregando||!texto.trim())?0.45:1,borderRadius:12,cursor:'pointer',flexShrink:0,padding:0}}>
+            <IcoSend size={17} color="#fff"/>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ── Aba Assistente ──────────────────────────────────────────── */
+function AssistenteScreen() {
+  return (
+    <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
+      <CabecalhoAssistente/>
+      <ConversaAssistente tela="home"/>
+    </div>
+  );
+}
+
+/* ── 5.7 · Painel que sobe sobre a tela atual (~85% da altura) ─ */
+function PainelAssistente({ sessaoId, tela, aoFechar }) {
+  const [entrou, setEntrou] = useState(false);
+  useEffect(()=>{
+    const id = requestAnimationFrame(()=>setEntrou(true));
+    const esc = e => { if (e.key==='Escape') aoFechar(); };
+    window.addEventListener('keydown', esc);
+    return ()=>{ cancelAnimationFrame(id); window.removeEventListener('keydown', esc); };
+  },[]);
+  return (
+    <div className="ccem-painel" onClick={aoFechar}
+      style={{position:'fixed',inset:0,zIndex:300,background:entrou?'rgba(10,18,50,.38)':'rgba(10,18,50,0)',transition:'background .2s',display:'flex',flexDirection:'column',justifyContent:'flex-end'}}>
+      <div role="dialog" aria-modal="true" aria-label="Assistente CCEM" onClick={e=>e.stopPropagation()}
+        style={{height:'85%',width:'100%',maxWidth:560,margin:'0 auto',display:'flex',flexDirection:'column',overflow:'hidden',background:'#fff',
+          borderRadius:'18px 18px 0 0',boxShadow:'0 -6px 32px rgba(10,18,50,.22)',
+          transform:entrou?'translateY(0)':'translateY(100%)',transition:'transform .25s ease-out',
+          paddingBottom:'env(safe-area-inset-bottom)'}}>
+        <CabecalhoAssistente aoFechar={aoFechar}/>
+        <ConversaAssistente sessaoId={sessaoId} tela={tela} aoNavegar={aoFechar}/>
+      </div>
+    </div>
+  );
+}
+
+/* ── 5.7 · Botão "8" ─────────────────────────────────────────────
+   Parado: não pula, não pisca, nunca abre sozinho. */
+function BotaoAssistente({ aoTocar }) {
+  return (
+    <button className="ccem-fab" onClick={aoTocar} aria-label="Abrir o Assistente CCEM"
+      style={{position:'absolute',right:16,bottom:16,zIndex:40,width:52,height:52,padding:0,border:'none',borderRadius:'50%',
+        background:C.azul,cursor:'pointer',boxShadow:'0 4px 14px rgba(10,18,50,.28)'}}>
+      <img src={CCEM_AVATAR} alt="" width="52" height="52" style={{display:'block',width:52,height:52,borderRadius:'50%'}}/>
+    </button>
+  );
+}
+
+/* Teclado aberto no celular: some o botão para não disputar espaço. */
+function useTecladoAberto() {
+  const [aberto, setAberto] = useState(false);
+  useEffect(()=>{
+    const toque = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+    if (!toque) return;
+    const ehCampo = el => !!el && (el.tagName==='TEXTAREA' ||
+      (el.tagName==='INPUT' && !/^(file|button|checkbox|radio|submit|range)$/i.test(el.type)));
+    const vv = window.visualViewport;
+    const atualizar = () => setAberto(ehCampo(document.activeElement) || (vv ? window.innerHeight - vv.height > 150 : false));
+    const depois = () => setTimeout(atualizar, 60);
+    document.addEventListener('focusin', atualizar);
+    document.addEventListener('focusout', depois);
+    if (vv) vv.addEventListener('resize', atualizar);
+    return ()=>{
+      document.removeEventListener('focusin', atualizar);
+      document.removeEventListener('focusout', depois);
+      if (vv) vv.removeEventListener('resize', atualizar);
+    };
+  },[]);
+  return aberto;
+}
+
+/* Outras telas pedem o painel por evento (ex.: "Anotar" na sessão). */
+function ccemAbrirAssistente() { window.dispatchEvent(new CustomEvent('ccem:abrir-assistente')); }
+
+Object.assign(window, {
+  AssistenteScreen, PainelAssistente, BotaoAssistente, useTecladoAberto, ccemAbrirAssistente,
+  ccemReduzirFoto, ccemRespostaEmTexto, CCEM_SUGESTOES,
+});

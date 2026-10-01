@@ -48,14 +48,66 @@ function useHashRoute() {
   }, []);
   return hash;
 }
+function useMinuto() {
+  const [, tick] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => tick((n) => n + 1), 6e4);
+    return () => clearInterval(id);
+  }, []);
+}
 let _toastTimer;
-function showToast(text) {
+function showToast(text, acao) {
   const el = document.getElementById("ccem-toast");
   if (!el) return;
   el.querySelector("span").textContent = text;
+  const btn = el.querySelector(".ccem-toast-acao");
+  if (btn) {
+    if (acao) {
+      btn.textContent = acao.rotulo;
+      btn.hidden = false;
+      btn.onclick = () => {
+        el.classList.remove("show");
+        acao.aoTocar();
+      };
+    } else {
+      btn.hidden = true;
+      btn.onclick = null;
+    }
+  }
+  el.classList.toggle("com-acao", !!acao);
   el.classList.add("show");
   clearTimeout(_toastTimer);
-  _toastTimer = setTimeout(() => el.classList.remove("show"), 1900);
+  _toastTimer = setTimeout(() => el.classList.remove("show"), acao ? 5e3 : 1900);
+}
+function ccemBaseUrl() {
+  return window.location.origin + window.location.pathname;
+}
+function ccemEhIOS() {
+  return /iP(hone|ad|od)/.test(navigator.userAgent) || navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
+}
+function ccemBaixarIcs(sessoes, nomeArquivo) {
+  const lista = (sessoes || []).filter(Boolean);
+  if (!lista.length) {
+    showToast("Nenhuma sess\xE3o para adicionar");
+    return;
+  }
+  const texto = ccemIcs(lista, ccemBaseUrl());
+  if (ccemEhIOS()) {
+    window.location.href = "data:text/calendar;charset=utf-8," + encodeURIComponent(texto);
+    return;
+  }
+  const url = URL.createObjectURL(new Blob([texto], { type: "text/calendar;charset=utf-8" }));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = nomeArquivo || "ccem-2026.ics";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4e3);
+}
+function ccemMarcadas(appState, dia) {
+  const marks = appState && appState.marks || {};
+  return ccemSessoesEmOrdem().filter((s) => marks[s.id] && (!dia || s.dia === dia));
 }
 const CCEM_USER_KEY = "ccem2026:userId";
 const CCEM_STATE_PFIX = "ccem2026:";
@@ -149,7 +201,11 @@ Object.assign(window, {
   IcoCapture,
   IcoPoster,
   useHashRoute,
+  useMinuto,
   showToast,
+  ccemBaseUrl,
+  ccemBaixarIcs,
+  ccemMarcadas,
   CCEM_USER_ID,
   CCEM_STATE_KEY,
   ccemSeedState,

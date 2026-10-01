@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/assistente.js": {
+      "maxDuration": 30,
+      "includeFiles": "v4/ccem-data.js"
+    }
+  }
+}
