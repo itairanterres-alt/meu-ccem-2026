@@ -48,6 +48,13 @@ function useHashRoute() {
   }, []);
   return hash;
 }
+function useMinuto() {
+  const [, tick] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => tick((n) => n + 1), 6e4);
+    return () => clearInterval(id);
+  }, []);
+}
 let _toastTimer;
 function showToast(text) {
   const el = document.getElementById("ccem-toast");
@@ -149,6 +156,7 @@ Object.assign(window, {
   IcoCapture,
   IcoPoster,
   useHashRoute,
+  useMinuto,
   showToast,
   CCEM_USER_ID,
   CCEM_STATE_KEY,

@@ -76,7 +76,7 @@ const SESSOES = {
     tipo:'simposio', badge:'Simpósio 1',
     titulo:'Tratamento do diabetes tipo 2 em 3 atos: clássicos, contemporâneos e promessas',
     moderador:'Dr. Paulo de Tarso Freitas',
-    temas:['DM2'], navegavel:true, isNow:true,
+    temas:['DM2'], navegavel:true,
     falas:[
       { n:1, titulo:'Clássicos', palestrante:'Dr. Luiz Antonio de Araújo' },
       { n:2, titulo:'Contemporâneos', palestrante:'Dra. Adriana Striebel' },
@@ -151,11 +151,11 @@ const SESSOES = {
     id:'simp5-modismos', dia:DIAS[0], inicio:'17:00', fim:'18:10', dur:'1h 10',
     tipo:'simposio', badge:'Simpósio 5', titulo:'Entre evidências e modismos',
     moderador:'Dr. Frederico Marchisotti',
-    temas:['Suplementos','Ética'], navegavel:true, starred:true,
+    temas:['Suplementos','Ética'], navegavel:true,
     falas:[
       { n:1, titulo:'Suplementos para performance: mitos e verdades', palestrante:'Dr. Fúlvio Tomaselli' },
       { n:2, titulo:'Emagrecer a qualquer custo: o debate ético dos manipulados', palestrante:'Dr. Neuton Dornelas Gomes' },
-      { n:3, titulo:'Centenas de exames e zero hipótese', palestrante:'Dr. Itairan da Silva Terres', isMe:true },
+      { n:3, titulo:'Centenas de exames e zero hipótese', palestrante:'Dr. Itairan da Silva Terres' },
     ],
   },
 
@@ -237,7 +237,7 @@ const SESSOES = {
     id:'mini-ia', dia:DIAS[1], inicio:'17:05', fim:'17:35', dur:'30 min',
     tipo:'mini', badge:'Mini-Conferência', titulo:'IA no consultório do endocrinologista',
     moderador:'Dr. Itairan da Silva Terres',
-    temas:['IA','Tecnologia'], navegavel:true, starred:true,
+    temas:['IA','Tecnologia'], navegavel:true,
     falas:[{ n:'·', palestrante:'Dra. Milena Gurgel Teles Bezerra', label:'tema-chave' }],
   },
 };
@@ -331,7 +331,7 @@ const SPEAKER_BIOS = {
   'Dr. Fúlvio Tomaselli':{role:'Presidente do CCEM 2026 · SBEM-SC',bio:'Endocrinologista, CRM/SC 7031. Presidente da SBEM-SC na gestão 2025/2026. Responsável técnico médico pelo congresso.'},
   'Dr. Frederico Marchisotti':{role:'Presidente-Eleito SBEM-SC',bio:'Endocrinologista. Atua em obesidade, metabolismo e medicina baseada em evidências.'},
   'Dr. Neuton Dornelas Gomes':{role:'Endocrinologista',bio:'Atuação em bioética aplicada à prescrição de fórmulas manipuladas e estratégias de emagrecimento.'},
-  'Dr. Itairan da Silva Terres':{role:'Comissão Científica · Endocrinologista e bioeticista',bio:'Professor de medicina na UNIDAVI. Membro da Comissão Científica do CCEM 2026. Sua fala discute o problema do excesso de exames sem hipótese clínica.',isMe:true},
+  'Dr. Itairan da Silva Terres':{role:'Comissão Científica · Endocrinologista e bioeticista',bio:'Professor de medicina na UNIDAVI. Membro da Comissão Científica do CCEM 2026.'},
   'Dra. Goretti Silveira Rodrigues':{role:'Endocrinologista',bio:'Atuação em tireoide e seguimento de pacientes com carcinoma diferenciado.'},
   'Dra. Julia Goulart Appel':{role:'Endocrinologista',bio:'Atuação em hipófise, hiperprolactinemia e síndrome de Cushing.'},
   'Dra. Amely Pereira Silva Balthazar':{role:'Endocrinologista',bio:'Atuação em hipófise e desafios diagnósticos da hiperprolactinemia.'},
@@ -412,8 +412,41 @@ const PROGRAM_DAYS_LS = [
   ]},
 ];
 
+/* ============================================================
+   RELÓGIO DO APP
+   ------------------------------------------------------------
+   Tudo que depende de hora passa por aqui. Em teste, aceita
+   ?agora=2026-10-23T16:20 na URL para simular o congresso em
+   curso; fora isso é o relógio do aparelho.
+   ============================================================ */
+function ccemAgora() {
+  try {
+    const p = new URLSearchParams(window.location.search).get('agora');
+    if (p) { const d = new Date(p); if (!isNaN(d.getTime())) return d; }
+  } catch (e) {}
+  return new Date();
+}
+
+/* Os dois dias do congresso. Nada é marcado como "agora" fora deles. */
+const DIAS_EVENTO = [
+  { data: new Date(2026,9,23), rotulo: DIAS[0] },
+  { data: new Date(2026,9,24), rotulo: DIAS[1] },
+];
+
+/* A sessão está acontecendo neste instante?
+   Falso em qualquer data que não seja 23 ou 24/10/2026. */
+function ccemSessaoNoAr(s, agora) {
+  if (!s || !s.inicio || !s.fim) return false;
+  agora = agora || ccemAgora();
+  const dia = DIAS_EVENTO.find(d => d.data.toDateString() === agora.toDateString());
+  if (!dia || s.dia !== dia.rotulo) return false;
+  const hm = t => { const [h,m] = t.split(':').map(Number);
+                    const o = new Date(dia.data); o.setHours(h,m,0,0); return o; };
+  return agora >= hm(s.inicio) && agora < hm(s.fim);
+}
+
 function ccemLiveStatus() {
-  const now = new Date();
+  const now = ccemAgora();
   function parseHM(d,hm){const[h,m]=hm.split(':').map(Number);const o=new Date(d);o.setHours(h,m,0,0);return o;}
   function fmtHM(d){return d.getHours()+':'+String(d.getMinutes()).padStart(2,'0');}
   for(const day of PROGRAM_DAYS_LS){
@@ -465,4 +498,4 @@ const WORKS = [
   {id:'P-009',cat:'feminina',type:'Original',title:'Hormonioterapia em mulheres trans no SUS-SC: 3 centros',message:'Acesso ainda fragmentado — protocolos regionais aumentam segurança.',authors:'Dra. Vitória Salles, Dra. Aline Beltrami · SES-SC / HU-UFSC',audio:true,votes:47,qa:2},
 ];
 
-Object.assign(window, { C, TEMAS_COR, DIAS, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, PROGRAM_DAYS_LS, ccemLiveStatus, WORK_CATS, WORKS });
+Object.assign(window, { C, TEMAS_COR, DIAS, DIAS_EVENTO, ccemAgora, ccemSessaoNoAr, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, PROGRAM_DAYS_LS, ccemLiveStatus, WORK_CATS, WORKS });

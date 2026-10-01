@@ -3,7 +3,8 @@
    ============================================================ */
 
 function HomeScreen() {
-  const now        = new Date();
+  const now        = ccemAgora();
+  useMinuto();
   const evStart    = new Date(2026,9,23,8,0);
   const evEnd      = new Date(2026,9,24,17,35);
   const isBefore   = now < evStart;
@@ -21,9 +22,6 @@ function HomeScreen() {
     { id:'assistente', icon:<IcoChat size={24}/>,    lbl:'Assistente', sub:'notas · busca científica' },
     { id:'caderno',    icon:<IcoBook size={24}/>,    lbl:'Caderno',    sub:capCount > 0 ? capCount+' nota'+(capCount!==1?'s':'') : 'suas anotações' },
   ];
-
-  const highlights = ['simp5-modismos','mini-ia']
-    .map(id => SESSOES[id]).filter(Boolean);
 
   return (
     <div style={{height:'100%',overflowY:'auto',background:C.papel}}>
@@ -126,30 +124,6 @@ function HomeScreen() {
         </div>
       </div>
 
-      {/* ── Destaques editoriais ──────────────────────────────── */}
-      {highlights.length > 0 && (
-        <div style={{padding:'10px 16px 28px'}}>
-          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,marginBottom:12,fontWeight:600}}>Destaques editoriais</div>
-          {highlights.map((s,i)=>(
-            <div key={s.id} onClick={()=>go('#/sessao/'+s.id)}
-              role="button" tabIndex={0} aria-label={s.titulo}
-              onKeyDown={e=>(e.key==='Enter'||e.key===' ')&&go('#/sessao/'+s.id)}
-              style={{background:'#fff',border:`1px solid ${C.linhaSoft}`,borderLeft:`3px solid ${C.ouro}`,borderRadius:11,padding:'12px 14px',marginBottom:8,cursor:'pointer',display:'flex',gap:12,alignItems:'center',boxShadow:'0 1px 5px rgba(29,62,138,.04)',transition:'transform .13s'}}
-              onMouseOver={e=>e.currentTarget.style.transform='translateX(2px)'}
-              onMouseOut={e=>e.currentTarget.style.transform=''}>
-              <div style={{flex:1,minWidth:0}}>
-                <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:4}}>★ Destaque</div>
-                <div style={{fontSize:12.5,fontWeight:600,color:C.tinta,lineHeight:1.3,marginBottom:3}}>{s.titulo}</div>
-                <div style={{display:'flex',gap:6,alignItems:'center'}}>
-                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.azulSoft,fontWeight:600}}>{s.inicio}–{s.fim}</span>
-                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza}}>{s.dia}</span>
-                </div>
-              </div>
-              <IcoChevR size={15} color={C.cinza}/>
-            </div>
-          ))}
-        </div>
-      )}
     </div>
   );
 }

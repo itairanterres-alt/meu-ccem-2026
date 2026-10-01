@@ -1,5 +1,6 @@
 function HomeScreen() {
-  const now = /* @__PURE__ */ new Date();
+  const now = ccemAgora();
+  useMinuto();
   const evStart = new Date(2026, 9, 23, 8, 0);
   const evEnd = new Date(2026, 9, 24, 17, 35);
   const isBefore = now < evStart;
@@ -15,7 +16,6 @@ function HomeScreen() {
     { id: "assistente", icon: /* @__PURE__ */ React.createElement(IcoChat, { size: 24 }), lbl: "Assistente", sub: "notas \xB7 busca cient\xEDfica" },
     { id: "caderno", icon: /* @__PURE__ */ React.createElement(IcoBook, { size: 24 }), lbl: "Caderno", sub: capCount > 0 ? capCount + " nota" + (capCount !== 1 ? "s" : "") : "suas anota\xE7\xF5es" }
   ];
-  const highlights = ["simp5-modismos", "mini-ia"].map((id) => SESSOES[id]).filter(Boolean);
   return /* @__PURE__ */ React.createElement("div", { style: { height: "100%", overflowY: "auto", background: C.papel } }, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderBottom: `1px solid ${C.linhaSoft}`, position: "relative", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { height: 4, background: `linear-gradient(90deg, ${C.ouro} 0%, #f5c842 100%)` } }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", padding: "16px 20px 14px", borderBottom: `1px solid ${C.linhaSoft}`, gap: 0 } }, /* @__PURE__ */ React.createElement(
     "img",
     {
@@ -49,21 +49,6 @@ function HomeScreen() {
     },
     /* @__PURE__ */ React.createElement("span", { style: { color: C.azul } }, s.icon),
     /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 14, fontWeight: 700, color: C.tinta, marginBottom: 2 } }, s.lbl), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 11, color: C.cinza } }, s.sub))
-  )))), highlights.length > 0 && /* @__PURE__ */ React.createElement("div", { style: { padding: "10px 16px 28px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 11, textTransform: "uppercase", letterSpacing: "0.1em", color: C.cinza, marginBottom: 12, fontWeight: 600 } }, "Destaques editoriais"), highlights.map((s, i) => /* @__PURE__ */ React.createElement(
-    "div",
-    {
-      key: s.id,
-      onClick: () => go("#/sessao/" + s.id),
-      role: "button",
-      tabIndex: 0,
-      "aria-label": s.titulo,
-      onKeyDown: (e) => (e.key === "Enter" || e.key === " ") && go("#/sessao/" + s.id),
-      style: { background: "#fff", border: `1px solid ${C.linhaSoft}`, borderLeft: `3px solid ${C.ouro}`, borderRadius: 11, padding: "12px 14px", marginBottom: 8, cursor: "pointer", display: "flex", gap: 12, alignItems: "center", boxShadow: "0 1px 5px rgba(29,62,138,.04)", transition: "transform .13s" },
-      onMouseOver: (e) => e.currentTarget.style.transform = "translateX(2px)",
-      onMouseOut: (e) => e.currentTarget.style.transform = ""
-    },
-    /* @__PURE__ */ React.createElement("div", { style: { flex: 1, minWidth: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 11, color: C.ouro, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 4 } }, "\u2605 Destaque"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, fontWeight: 600, color: C.tinta, lineHeight: 1.3, marginBottom: 3 } }, s.titulo), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 6, alignItems: "center" } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 11, color: C.azulSoft, fontWeight: 600 } }, s.inicio, "\u2013", s.fim), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 11, color: C.cinza } }, s.dia))),
-    /* @__PURE__ */ React.createElement(IcoChevR, { size: 15, color: C.cinza })
-  ))));
+  )))));
 }
 Object.assign(window, { HomeScreen });

@@ -44,8 +44,10 @@ function IntervalRow({ item }) {
 function SessaoCard({ id }) {
   const s = SESSOES[id];
   const appState = useAppState();
+  useMinuto();                       // antes de qualquer return: ordem dos hooks
   if (!s) return null;
   const isMarked = !!(appState.marks&&appState.marks[id]);
+  const noAr = ccemSessaoNoAr(s);
   const bc = badgeColor(s.tipo);
   return (
     <div onClick={()=>s.navegavel&&go('#/sessao/'+id)}
@@ -53,15 +55,14 @@ function SessaoCard({ id }) {
       tabIndex={s.navegavel?0:undefined}
       aria-label={s.navegavel?s.titulo:undefined}
       onKeyDown={e=>(e.key==='Enter'||e.key===' ')&&s.navegavel&&go('#/sessao/'+id)}
-      style={{background:s.tipo==='satelite'?'#f8fafd':(s.isNow?'#eef6ff':'#fff'),
-        borderLeft:s.tipo==='satelite'?`2px solid ${C.linha}`:`3px solid ${s.starred?C.ouro:(s.isNow?C.azulSoft:bc)}`,
+      style={{background:s.tipo==='satelite'?'#f8fafd':(noAr?'#eef6ff':'#fff'),
+        borderLeft:s.tipo==='satelite'?`2px solid ${C.linha}`:`3px solid ${noAr?C.azulSoft:bc}`,
         margin:s.tipo==='satelite'?'3px 16px':'5px 12px',borderRadius:8,
         padding:s.tipo==='satelite'?'7px 10px':'10px 12px',
-        border:`1px solid ${s.isNow?'#c2daf8':C.linhaSoft}`,
+        border:`1px solid ${noAr?'#c2daf8':C.linhaSoft}`,
         opacity:s.tipo==='satelite'?0.75:1,
         cursor:s.navegavel?'pointer':'default',position:'relative'}}>
-      {s.isNow&&<span style={{position:'absolute',top:8,right:8,background:'#22c55e',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,letterSpacing:'0.1em',textTransform:'uppercase',padding:'2px 7px',borderRadius:10,fontWeight:700}}>Agora</span>}
-      {s.starred&&!s.isNow&&<span style={{position:'absolute',top:7,right:10,color:C.ouro,fontSize:14}}>★</span>}
+      {noAr&&<span style={{position:'absolute',top:8,right:8,background:'#22c55e',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,letterSpacing:'0.1em',textTransform:'uppercase',padding:'2px 7px',borderRadius:10,fontWeight:700}}>Agora</span>}
       <div style={{display:'flex',gap:10,alignItems:'flex-start'}}>
         <div style={{minWidth:40,flexShrink:0,textAlign:'center',paddingTop:1}}>
           <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13.5,fontWeight:700,color:C.azul,lineHeight:1}}>{s.inicio}</div>
@@ -72,7 +73,7 @@ function SessaoCard({ id }) {
           <div style={{display:'flex',alignItems:'center',gap:5,marginBottom:5}}>
             <BadgePill tipo={s.tipo} label={s.badge} sm />
           </div>
-          <div style={{fontSize:13,fontWeight:600,color:C.tinta,lineHeight:1.3,marginBottom:3,paddingRight:(s.isNow||s.starred)?36:0}}>{s.titulo}</div>
+          <div style={{fontSize:13,fontWeight:600,color:C.tinta,lineHeight:1.3,marginBottom:3,paddingRight:noAr?36:0}}>{s.titulo}</div>
           {s.moderador&&<div style={{fontSize:11,color:C.cinza,marginBottom:3}}>mod. {s.moderador}</div>}
           {s.aDefinir&&<div style={{fontSize:11,color:C.cinza,fontStyle:'italic'}}>programação a definir</div>}
           {(s.falas||[]).slice(0,3).map((f,i)=>(
@@ -80,8 +81,8 @@ function SessaoCard({ id }) {
               <span style={{color:bc,fontWeight:700,flexShrink:0,minWidth:10}}>{f.n}.</span>
               <span style={{flex:1,minWidth:0,lineHeight:1.3}}>
                 {f.titulo&&<><span style={{color:C.tinta,fontWeight:500}}>{f.titulo}</span> · </>}
-                <span style={{color:f.isMe?C.ouro:undefined,fontWeight:f.isMe?600:undefined}}>
-                  {f.palestrante}{f.isMe?' ★':''}{f.aConfirmar&&<em style={{color:C.cinza}}> (a confirmar)</em>}
+                <span>
+                  {f.palestrante}{f.aConfirmar&&<em style={{color:C.cinza}}> (a confirmar)</em>}
                 </span>
               </span>
             </div>
@@ -301,7 +302,6 @@ function SessaoDetail({ id }) {
             onKeyDown={isPast?e=>(e.key==='Enter'||e.key===' ')&&setCtxOpen(v=>!v):undefined}>
             <BadgePill tipo={s.tipo} label={s.badge}/>
             {(s.temas||[]).map(t=><TopicPill key={t} tema={t}/>)}
-            {s.starred&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro,letterSpacing:'0.06em',textTransform:'uppercase',padding:'2px 7px',background:C.ouroBg,borderRadius:10}}>Destaque</span>}
             {isPast&&<span style={{marginLeft:'auto',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza}}>
               {ctxOpen?'▾ recolher':'▸ contexto'}
             </span>}
@@ -341,11 +341,11 @@ function SessaoDetail({ id }) {
                   <div style={{width:22,height:22,borderRadius:7,background:bc+'1a',color:bc,display:'flex',alignItems:'center',justifyContent:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,fontWeight:700,flexShrink:0,marginTop:1}}>{f.n==='·'?'·':f.n}</div>
                   <div style={{flex:1,minWidth:0}}>
                     {f.titulo&&<div style={{fontSize:12.5,fontWeight:600,color:C.tinta,lineHeight:1.3,marginBottom:2}}>{f.titulo}</div>}
-                    <div style={{fontSize:12,color:f.isMe?C.ouro:C.tinta,fontWeight:f.isMe?600:500}}>
-                      {f.palestrante}{f.isMe&&' ★'}{f.aConfirmar&&<em style={{color:C.cinza,fontWeight:400}}> (a confirmar)</em>}
+                    <div style={{fontSize:12,color:C.tinta,fontWeight:500}}>
+                      {f.palestrante}{f.aConfirmar&&<em style={{color:C.cinza,fontWeight:400}}> (a confirmar)</em>}
                     </div>
                     {bio&&<div style={{fontSize:11,color:C.cinza,marginTop:1}}>{bio.role}</div>}
-                    {(f.label||f.isMe)&&<div style={{marginTop:3,display:'inline-block',background:C.ouroBg,color:C.ouro,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,letterSpacing:'0.08em',textTransform:'uppercase',padding:'2px 7px',borderRadius:8}}>{f.label||'sua fala'}</div>}
+                    {f.label&&<div style={{marginTop:3,display:'inline-block',background:C.ouroBg,color:C.ouro,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,letterSpacing:'0.08em',textTransform:'uppercase',padding:'2px 7px',borderRadius:8}}>{f.label}</div>}
                     <SlideDisplay sessaoId={id} falaIdx={i}/>
                   </div>
                 </div>
@@ -491,7 +491,7 @@ function ProgramaScreen() {
             <button onClick={()=>{setBusca('');setFiltroTipo(null);setSoMarcados(false);}} style={{border:`1px solid ${C.linha}`,background:'#fff',color:C.azul,padding:'7px 16px',borderRadius:8,cursor:'pointer',fontFamily:'inherit',fontSize:12}}>Limpar filtros</button>
           </div>
         ):items.map((item,i)=>item.tipo==='intervalo'?<IntervalRow key={i} item={item}/>:<SessaoCard key={item.id} id={item.id}/>)}
-        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textAlign:'center',letterSpacing:'0.04em'}}>★ destaque editorial · toque para abrir a sessão</div>}
+        {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textAlign:'center',letterSpacing:'0.04em'}}>toque para abrir a sessão</div>}
       </div>
 
       {/* Filter bottom-sheet */}

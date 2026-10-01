@@ -46,6 +46,18 @@ function useHashRoute() {
   return hash;
 }
 
+/* ── useMinuto ─────────────────────────────────────────────────
+   Re-renderiza a cada minuto. Usado por tudo que depende do
+   relógio: selo "Agora", contagem regressiva, "A seguir".
+   ────────────────────────────────────────────────────────────── */
+function useMinuto() {
+  const [, tick] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => tick(n => n + 1), 60000);
+    return () => clearInterval(id);
+  }, []);
+}
+
 /* ── Toast ─────────────────────────────────────────────────── */
 let _toastTimer;
 function showToast(text) {
@@ -152,7 +164,7 @@ Object.assign(window, {
   Ico, IcoChevL, IcoChevR, IcoArrowL, IcoCal, IcoChat, IcoBook, IcoInfo,
   IcoSearch, IcoStar, IcoPlus, IcoCheck, IcoX, IcoCam, IcoMic, IcoSend,
   IcoFilter, IcoGlobe, IcoPhone, IcoMail, IcoInsta, IcoLink, IcoCapture, IcoPoster,
-  useHashRoute, showToast,
+  useHashRoute, useMinuto, showToast,
   CCEM_USER_ID, CCEM_STATE_KEY,
   ccemSeedState, ccemLoadState, ccemSaveState,
   _ccemStore, _ccemListeners, _ccemNotify,
