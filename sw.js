@@ -14,7 +14,7 @@
    Ao publicar uma atualização, incrementar CACHE_VERSION.
    ============================================================ */
 
-const CACHE_VERSION = 'ccem-v4';
+const CACHE_VERSION = 'ccem-v5';
 const CACHE_NAME    = CACHE_VERSION;
 
 const SHELL = [

@@ -344,7 +344,10 @@ const SPEAKER_BIOS = {
   'Dr. Fabio Herget Pitanga':{role:'Tesoureiro SBEM-SC · Comissão Organizadora',bio:'Endocrinologista. Atuação em obesidade e síndrome metabólica.'},
   'Dra. Fátima Sandmann Afonso':{role:'Endocrinologista',bio:'Atuação em obesidade, sarcopenia e composição corporal.'},
   'Dra. Cristina da Silva Schreiber de Oliveira':{role:'Endocrinologista',bio:'Atuação em obesidade e manutenção do peso perdido.'},
-  'Dra. Milena Gurgel Teles Bezerra':{role:'Ceará (CE)',bio:'Referência em aplicação de inteligência artificial à prática endocrinológica. Tema-chave do encerramento do CCEM 2026.',isKey:true},
+  // Curadoria conferida no Currículo Lattes (ID 5342142388498500, atualizado
+  // em 01/06/2026). O registro anterior dizia São Paulo: vínculo com o Fleury,
+  // encerrado em abril de 2022. Os vínculos atuais são em Fortaleza.
+  'Dra. Milena Gurgel Teles Bezerra':{role:'Endocrinologista · Fortaleza (CE)',bio:'Graduada em Medicina pela UFC, com doutorado e pós-doutorado em Endocrinologia e Metabologia pela FMUSP e doutorado-sanduíche na Harvard Medical School. Pesquisadora da pós-graduação em Endocrinologia do HC-FMUSP, nas Unidades de Diabetes e de Genética, e professora da pós-graduação em Medicina Translacional da UFC. Fundou em 2011 o grupo de pesquisa em diabetes monogênico da USP e integra desde 2018 o Monogenic Diabetes Expert Panel. Prêmio Jovem Pesquisador da SBEM-SP em 2021. Atua em diabetes monogênico — MODY, diabetes neonatal e lipodistrofias — e na aplicação de inteligência artificial à prática clínica.',isKey:true},
   'Dra. Talita Letícia Trevisan':{role:'Endocrinologista · Itajaí',bio:'Atuação em diabetes e tecnologias de monitorização glicêmica.'},
   'Dra. Lireda Meneses Silva':{role:'Endocrinologista',bio:'Atuação em tireoide e seguimento do CDT.'},
   'Dra. Marta Amaro da Silveira Duval':{role:'Endocrinologista',bio:'Atuação em tireoide e carcinoma diferenciado.'},
