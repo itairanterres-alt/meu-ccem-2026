@@ -14,7 +14,6 @@ function HomeScreen() {
 
   const shortcuts = [
     { id:'programa',   icon:<IcoCal size={24}/>,    lbl:'Programa',   sub:'20 sessões · 2 dias' },
-    { id:'trabalhos',  icon:<IcoPoster size={24}/>,  lbl:'Trabalhos',  sub:'9 pôsteres digitais' },
     { id:'assistente', icon:<IcoChat size={24}/>,    lbl:'Assistente', sub:'notas · busca científica' },
     { id:'caderno',    icon:<IcoBook size={24}/>,    lbl:'Caderno',    sub:capCount > 0 ? capCount+' nota'+(capCount!==1?'s':'') : 'suas anotações' },
   ];
@@ -33,7 +32,7 @@ function HomeScreen() {
             style={{height:64,flex:1,minWidth:0,objectFit:'contain',objectPosition:'left'}}/>
           <div style={{width:1,height:44,background:C.linhaSoft,flexShrink:0,margin:'0 16px'}}/>
           <div style={{display:'flex',flexDirection:'column',alignItems:'center',gap:4,flexShrink:0}}>
-            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:10,fontWeight:600,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>Realização</div>
+            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>Realização</div>
             <img src="v4/logo-sbem.png" alt="SBEM-SC"
               style={{height:52,objectFit:'contain'}}/>
           </div>
@@ -99,13 +98,13 @@ function HomeScreen() {
               {markCount > 0 && (
                 <div style={{display:'flex',alignItems:'center',gap:5,background:'#fef9ec',border:`1px solid ${C.ouro}44`,borderRadius:8,padding:'5px 10px'}}>
                   <IcoStar size={11} color={C.ouro} filled={true}/>
-                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.ouro}}>{markCount} marcada{markCount!==1?'s':''}</span>
+                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.ouro}}>{markCount} marcada{markCount!==1?'s':''}</span>
                 </div>
               )}
               {capCount > 0 && (
                 <div style={{display:'flex',alignItems:'center',gap:5,background:'#eff6ff',border:`1px solid ${C.azul}33`,borderRadius:8,padding:'5px 10px'}}>
                   <IcoCapture size={11} color={C.azul}/>
-                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.azul}}>{capCount} nota{capCount!==1?'s':''}</span>
+                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.azul}}>{capCount} nota{capCount!==1?'s':''}</span>
                 </div>
               )}
             </div>
@@ -117,17 +116,17 @@ function HomeScreen() {
 
       {/* ── Acesso rápido ────────────────────────────────────── */}
       <div style={{padding:'20px 16px 10px'}}>
-        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,marginBottom:12,fontWeight:600}}>Acesso rápido</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,marginBottom:12,fontWeight:600}}>Acesso rápido</div>
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:9}}>
-          {shortcuts.map(s=>(
+          {shortcuts.map((s,i)=>(
             <button key={s.id} onClick={()=>go('#/'+s.id)}
-              style={{background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:13,padding:'14px 14px 12px',textAlign:'left',cursor:'pointer',display:'flex',flexDirection:'column',gap:8,boxShadow:'0 1px 6px rgba(29,62,138,.05)',transition:'all .15s',outline:'none'}}
+              style={{gridColumn:i===0?'1 / -1':'auto',background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:13,padding:'14px 14px 12px',textAlign:'left',cursor:'pointer',display:'flex',flexDirection:'column',gap:8,boxShadow:'0 1px 6px rgba(29,62,138,.05)',transition:'all .15s',outline:'none'}}
               onMouseOver={e=>{e.currentTarget.style.transform='translateY(-2px)';e.currentTarget.style.boxShadow='0 4px 18px rgba(29,62,138,.11)';e.currentTarget.style.borderColor=C.azul;}}
               onMouseOut={e=>{e.currentTarget.style.transform='';e.currentTarget.style.boxShadow='0 1px 6px rgba(29,62,138,.05)';e.currentTarget.style.borderColor=C.linhaSoft;}}>
               <span style={{color:C.azul}}>{s.icon}</span>
               <div>
                 <div style={{fontSize:14,fontWeight:700,color:C.tinta,marginBottom:2}}>{s.lbl}</div>
-                <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza}}>{s.sub}</div>
+                <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>{s.sub}</div>
               </div>
             </button>
           ))}
