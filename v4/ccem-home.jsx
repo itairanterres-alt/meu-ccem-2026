@@ -5,16 +5,12 @@
 function HomeScreen() {
   const now        = ccemAgora();
   useMinuto();
-  const evStart    = new Date(2026,9,23,8,0);
-  const evEnd      = new Date(2026,9,24,17,35);
-  const isBefore   = now < evStart;
-  const isDuring   = now >= evStart && now <= evEnd;
-  const daysLeft   = Math.max(0, Math.ceil((evStart - now) / 86400000));
+  const estado     = ccemEstado(now);
+  const daysLeft   = Math.max(0, Math.ceil((CCEM_INICIO - now) / 86400000));
 
   const appState   = useAppState();
   const capCount   = (appState.captures || []).length;
   const markCount  = Object.keys(appState.marks || {}).length;
-  const live       = typeof ccemLiveStatus === 'function' ? ccemLiveStatus() : null;
 
   const shortcuts = [
     { id:'programa',   icon:<IcoCal size={24}/>,    lbl:'Programa',   sub:'20 sessões · 2 dias' },
@@ -55,34 +51,46 @@ function HomeScreen() {
 
         {/* Estado temporal */}
         <div style={{padding:'14px 20px'}}>
-          {isBefore && (
-            <div style={{display:'inline-flex',alignItems:'center',gap:14,background:C.azul,borderRadius:12,padding:'12px 18px'}}>
-              <div style={{textAlign:'center'}}>
-                <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:36,fontWeight:700,lineHeight:1,color:C.ouro}}>{daysLeft}</div>
-                <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:'rgba(255,255,255,.65)',marginTop:3}}>dias</div>
+          {estado.fase === 'antes' && (
+            <div>
+              <div style={{display:'inline-flex',alignItems:'center',gap:14,background:C.azul,borderRadius:12,padding:'12px 18px'}}>
+                <div style={{textAlign:'center'}}>
+                  <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:36,fontWeight:700,lineHeight:1,color:C.ouro}}>{daysLeft}</div>
+                  <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.1em',color:'rgba(255,255,255,.75)',marginTop:3}}>{daysLeft===1?'dia':'dias'}</div>
+                </div>
+                <div style={{width:1,height:38,background:'rgba(255,255,255,.18)'}}/>
+                <div style={{fontSize:13,lineHeight:1.5,color:'#fff'}}>
+                  para o CCEM 2026<br/>
+                  <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:'rgba(255,255,255,.8)'}}>sexta 23/out · 08h00</span>
+                </div>
               </div>
-              <div style={{width:1,height:38,background:'rgba(255,255,255,.18)'}}/>
-              <div style={{fontSize:13,lineHeight:1.5,color:'#fff'}}>
-                para o CCEM 2026<br/>
-                <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:'rgba(255,255,255,.65)'}}>sexta 23/out · 08h00</span>
-              </div>
+              {estado.aSeguir && (
+                <div style={{marginTop:10,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13,color:C.tinta}}>
+                  Primeira sessão: <b>{ccemHoraH(estado.aSeguir.inicio)}</b> · {estado.aSeguir.badge}
+                </div>
+              )}
             </div>
           )}
 
-          {isDuring && live && (
-            <div style={{display:'inline-flex',alignItems:'center',gap:10,background:'rgba(34,197,94,.08)',border:'1px solid rgba(34,197,94,.3)',borderRadius:12,padding:'12px 16px'}}>
-              <span style={{width:9,height:9,borderRadius:'50%',background:'#22c55e',boxShadow:'0 0 0 3px rgba(34,197,94,.25)',flexShrink:0}}/>
-              <div>
-                <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:'#16a34a',marginBottom:3}}>Acontecendo agora</div>
-                <div style={{fontSize:13,fontWeight:600,color:C.tinta,lineHeight:1.3}}>{live.text}</div>
-              </div>
+          {estado.fase === 'durante' && (
+            <div style={{display:'flex',flexDirection:'column',gap:8}}>
+              {estado.agora
+                ? <CardMomento rotulo="Agora" sessao={estado.agora} vivo
+                    detalhe={'até ' + estado.agora.fim + ' · faltam ' + estado.restanteMin + ' min'}/>
+                : <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13,color:C.cinza}}>Intervalo</div>}
+              {estado.aSeguir && (
+                <CardMomento rotulo="A seguir" sessao={estado.aSeguir}
+                  detalhe={(estado.aSeguir.dia !== ccemDiaDoEvento(now) ? 'amanhã · ' : '') + estado.aSeguir.inicio}/>
+              )}
             </div>
           )}
 
-          {!isBefore && !isDuring && (
-            <div style={{display:'inline-flex',alignItems:'center',gap:8,background:'#f3f4f6',borderRadius:10,padding:'10px 14px'}}>
-              <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,lineHeight:1.5}}>CCEM 2026 encerrado · acervo disponível no Caderno</span>
-            </div>
+          {estado.fase === 'depois' && (
+            <button onClick={()=>go('#/caderno')}
+              style={{display:'inline-flex',alignItems:'center',gap:8,minHeight:44,background:'#f3f4f6',border:'none',borderRadius:10,padding:'10px 14px',cursor:'pointer'}}>
+              <IcoBook size={16} color={C.azul}/>
+              <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13,color:C.tinta}}>Congresso encerrado · <b style={{color:C.azul}}>baixe seu caderno</b></span>
+            </button>
           )}
 
           {/* Indicadores pessoais — só se houver dados */}
@@ -105,6 +113,8 @@ function HomeScreen() {
         </div>
       </div>
 
+      <MinhasSessoes appState={appState} agora={now}/>
+
       {/* ── Acesso rápido ────────────────────────────────────── */}
       <div style={{padding:'20px 16px 10px'}}>
         <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,marginBottom:12,fontWeight:600}}>Acesso rápido</div>
@@ -124,6 +134,78 @@ function HomeScreen() {
         </div>
       </div>
 
+    </div>
+  );
+}
+
+/* 08:15 -> 08h15 */
+function ccemHoraH(hhmm) { return hhmm.replace(':','h'); }
+
+/* Card "Agora" / "A seguir" */
+function CardMomento({ rotulo, sessao, detalhe, vivo }) {
+  const abre = sessao.navegavel;
+  return (
+    <div onClick={()=>abre&&go('#/sessao/'+sessao.id)} role={abre?'button':undefined} tabIndex={abre?0:undefined}
+      onKeyDown={e=>(e.key==='Enter'||e.key===' ')&&abre&&go('#/sessao/'+sessao.id)}
+      style={{display:'flex',alignItems:'center',gap:10,minHeight:44,background:vivo?'rgba(34,197,94,.08)':'#fff',
+        border:`1px solid ${vivo?'rgba(34,197,94,.35)':C.linhaSoft}`,borderRadius:12,padding:'10px 14px',cursor:abre?'pointer':'default'}}>
+      {vivo && <span style={{width:9,height:9,borderRadius:'50%',background:'#22c55e',boxShadow:'0 0 0 3px rgba(34,197,94,.25)',flexShrink:0}}/>}
+      <div style={{flex:1,minWidth:0}}>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.08em',color:vivo?'#15803d':C.cinza,fontWeight:700,marginBottom:2}}>{rotulo}</div>
+        <div style={{fontSize:14,fontWeight:600,color:C.tinta,lineHeight:1.3}}>{ccemRotulo(sessao)}</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,marginTop:2}}>{detalhe}</div>
+      </div>
+      {abre && <IcoChevR size={15} color={C.cinza}/>}
+    </div>
+  );
+}
+
+/* Minhas sessões — as marcadas do dia, em ordem; fora do evento, todas. */
+function MinhasSessoes({ appState, agora }) {
+  const diaRef  = ccemDiaDoEvento(agora);
+  const lista   = ccemMarcadas(appState, diaRef);
+  const todas   = ccemMarcadas(appState);
+  return (
+    <div style={{padding:'20px 16px 0'}}>
+      <div style={{display:'flex',alignItems:'baseline',justifyContent:'space-between',marginBottom:10}}>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,fontWeight:600}}>
+          Minhas sessões{diaRef ? ' · hoje' : ''}
+        </div>
+        {lista.length > 0 && <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>{lista.length}</span>}
+      </div>
+
+      {lista.length === 0 ? (
+        <button onClick={()=>go('#/programa')}
+          style={{width:'100%',minHeight:44,textAlign:'left',background:'#fff',border:`1px dashed ${C.linha}`,borderRadius:12,padding:'12px 14px',cursor:'pointer',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13,color:C.cinza}}>
+          {todas.length > 0 ? 'Nenhuma sessão marcada para hoje · ver programa' : 'Marque sessões no Programa para acompanhá-las aqui'}
+        </button>
+      ) : (
+        <div style={{display:'flex',flexDirection:'column',gap:6}}>
+          {lista.map(s => {
+            const vivo = ccemSessaoNoAr(s, agora);
+            return (
+              <div key={s.id} onClick={()=>go('#/sessao/'+s.id)} role="button" tabIndex={0}
+                onKeyDown={e=>(e.key==='Enter'||e.key===' ')&&go('#/sessao/'+s.id)}
+                style={{display:'flex',alignItems:'center',gap:10,minHeight:44,background:vivo?'rgba(34,197,94,.08)':'#fff',
+                  border:`1px solid ${vivo?'rgba(34,197,94,.35)':C.linhaSoft}`,borderRadius:10,padding:'9px 12px',cursor:'pointer'}}>
+                <div style={{minWidth:44,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:13,fontWeight:700,color:C.azul}}>
+                  {s.inicio}
+                  {!diaRef && <div style={{fontSize:12,fontWeight:500,color:C.cinza}}>{s.dia.split(' · ')[0]}</div>}
+                </div>
+                <div style={{flex:1,minWidth:0,fontSize:13,fontWeight:600,color:C.tinta,lineHeight:1.3}}>{ccemRotulo(s)}</div>
+                {vivo && <span style={{background:'#22c55e',color:'#fff',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,textTransform:'uppercase',letterSpacing:'0.06em',padding:'2px 8px',borderRadius:10}}>Agora</span>}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {todas.length > 0 && (
+        <button onClick={()=>ccemBaixarIcs(todas, 'ccem-2026-minhas-sessoes.ics')}
+          style={{width:'100%',minHeight:44,marginTop:8,display:'flex',alignItems:'center',justifyContent:'center',gap:8,background:'#fff',color:C.azul,border:`1px solid ${C.linha}`,borderRadius:10,cursor:'pointer',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600}}>
+          <IcoCal size={16} color={C.azul}/>Adicionar minhas sessões ao calendário
+        </button>
+      )}
     </div>
   );
 }

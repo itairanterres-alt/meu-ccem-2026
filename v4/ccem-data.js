@@ -40,22 +40,70 @@ const TEMAS_COR = {
 
 const DIAS = ['sex · 23/10', 'sab · 24/10'];
 
-function ccemDiaDeHoje() {
-  const d = new Date();
-  if (d.getFullYear()===2026 && d.getMonth()===9 && d.getDate()===23) return DIAS[0];
-  if (d.getFullYear()===2026 && d.getMonth()===9 && d.getDate()===24) return DIAS[1];
+/* ============================================================
+   FUSO DO CONGRESSO
+   ------------------------------------------------------------
+   Tudo que depende de hora é ancorado em America/Sao_Paulo, não
+   no fuso do aparelho. Quem abrir o app com o celular em outro
+   fuso continua vendo a sessão certa como "agora".
+
+   O Brasil aboliu o horário de verão em 2019, então Joinville
+   fica em UTC−3 o ano todo. Em outubro de 2026 o deslocamento é
+   fixo, e o -03:00 explícito dá instantes exatos sem depender de
+   base de fusos do navegador.
+   ============================================================ */
+const CCEM_UTC_OFFSET = '-03:00';
+
+/* Instante absoluto de um horário do programa. */
+function ccemInstante(diaRotulo, hhmm) {
+  const dia = diaRotulo === DIAS[1] ? '24' : '23';
+  return new Date(`2026-10-${dia}T${hhmm}:00${CCEM_UTC_OFFSET}`);
+}
+
+const CCEM_INICIO = ccemInstante(DIAS[0], '08:00');
+const CCEM_FIM    = ccemInstante(DIAS[1], '17:35');
+
+/* Em qual dia do congresso cai este instante, ou null fora deles. */
+function ccemDiaDoEvento(agora) {
+  agora = agora || ccemAgora();
+  for (const rot of DIAS) {
+    if (agora >= ccemInstante(rot, '00:00') && agora < ccemInstante(rot, '23:59')) return rot;
+  }
   return null;
+}
+
+/* Mantido pelo nome antigo: usado pela tela do Programa. */
+function ccemDiaDeHoje() { return ccemDiaDoEvento(); }
+
+/* Relógio do app. Tudo que depende de hora passa por aqui.
+   Em teste, aceita ?agora=2026-10-23T16:20 na URL para simular o
+   congresso em curso. Sem fuso explícito, o valor é lido como hora
+   de Joinville — é o que quem testa espera ao escrever isso. */
+function ccemAgora() {
+  try {
+    const p = new URLSearchParams(window.location.search).get('agora');
+    if (p) {
+      const comFuso = /[zZ]|[+-]\d{2}:?\d{2}$/.test(p) ? p : p + CCEM_UTC_OFFSET;
+      const d = new Date(comFuso);
+      if (!isNaN(d.getTime())) return d;
+    }
+  } catch (e) {}
+  return new Date();
+}
+
+/* A sessão está acontecendo neste instante?
+   Falso em qualquer data que não seja 23 ou 24/10/2026. */
+function ccemSessaoNoAr(s, agora) {
+  if (!s || !s.inicio || !s.fim || !s.dia) return false;
+  agora = agora || ccemAgora();
+  return agora >= ccemInstante(s.dia, s.inicio) && agora < ccemInstante(s.dia, s.fim);
 }
 
 const go = h => { window.location.hash = h; };
 
 /* IDs navegáveis — ordem canônica para prev/next */
-const SESSOES_NAV = [
-  'mini-glicemia','simp1-dm2','simp2-dm1',
-  'simp3-cdt','mini-cdt-resposta','simp4-adrenal','simp5-modismos',
-  'simp6-gonadas','mini-transgenero','simp7-osseo','simp8-hipofise',
-  'simp9-pediatrica','simp10-obesidade','mini-ia',
-];
+/* SESSOES_NAV é derivado de PROGRAMA, logo abaixo — ordem cronológica,
+   sem lista manual que precise ser mantida em paralelo. */
 
 const SESSOES = {
   'abertura-sex': {
@@ -86,14 +134,14 @@ const SESSOES = {
   'sat-sex-1': {
     id:'sat-sex-1', dia:DIAS[0], inicio:'10:20', fim:'10:50', dur:'30 min',
     tipo:'satelite', badge:'Satélite · AstraZeneca', titulo:'Diagnóstico e Manejo da Hipofosfatasia',
-    temas:['Ósseo'], navegavel:false,
+    temas:['Ósseo'], navegavel:true,
     falas:[{ n:'·', palestrante:'Dr. Mario Sérgio Zen' }],
   },
   'sat-sex-2': {
     id:'sat-sex-2', dia:DIAS[0], inicio:'10:50', fim:'11:20', dur:'30 min',
     tipo:'satelite', badge:'Satélite · AstraZeneca',
     titulo:'Tratamento otimizado da DRC e manejo da Hiperpotassemia',
-    temas:[], navegavel:false,
+    temas:[], navegavel:true,
     falas:[{ n:'·', palestrante:'Dra. Viviane Calice' }],
   },
   'simp2-dm1': {
@@ -110,7 +158,7 @@ const SESSOES = {
   'sat-sex-3': {
     id:'sat-sex-3', dia:DIAS[0], inicio:'12:30', fim:'13:10', dur:'40 min',
     tipo:'satelite', badge:'Satélite · Marjan Farma', titulo:'Sessão patrocinada',
-    temas:[], navegavel:false, aDefinir:true,
+    temas:[], navegavel:true, aDefinir:true,
   },
   'simp3-cdt': {
     id:'simp3-cdt', dia:DIAS[0], inicio:'13:20', fim:'14:35', dur:'1h 15',
@@ -127,7 +175,7 @@ const SESSOES = {
   'sat-sex-4': {
     id:'sat-sex-4', dia:DIAS[0], inicio:'14:35', fim:'15:20', dur:'45 min',
     tipo:'satelite', badge:'Satélite · EMS', titulo:'Sessão patrocinada',
-    temas:[], navegavel:false, aDefinir:true,
+    temas:[], navegavel:true, aDefinir:true,
   },
   'mini-cdt-resposta': {
     id:'mini-cdt-resposta', dia:DIAS[0], inicio:'15:20', fim:'15:50', dur:'30 min',
@@ -182,7 +230,7 @@ const SESSOES = {
     id:'sat-sab-1', dia:DIAS[1], inicio:'10:05', fim:'10:50', dur:'45 min',
     tipo:'satelite', badge:'Satélite · Lilly',
     titulo:'GIP + GLP-1: Existe benefício no uso como primeira linha de tratamento?',
-    temas:['DM2','Obesidade'], navegavel:false,
+    temas:['DM2','Obesidade'], navegavel:true,
     falas:[{ n:'·', palestrante:'Dra. Luciana Muniz Pechmann' }],
   },
   'simp7-osseo': {
@@ -220,7 +268,7 @@ const SESSOES = {
     id:'sat-sab-2', dia:DIAS[1], inicio:'14:45', fim:'15:30', dur:'45 min',
     tipo:'satelite', badge:'Satélite · Recordati Rare Diseases',
     titulo:'Atualizações no consenso de tratamento da Acromegalia e o papel da pasireotida',
-    temas:['Hipófise'], navegavel:false,
+    temas:['Hipófise'], navegavel:true,
     falas:[{ n:'·', palestrante:'Dr. Tobias Skrebsky de Almeida' }],
   },
   'simp10-obesidade': {
@@ -278,6 +326,12 @@ const PROGRAMA = {
     { tipo:'intervalo', label:'encerramento', dur:'17:35' },
   ],
 };
+
+/* Ordem de navegação entre sessões (setas da tela da sessão): todas as que
+   abrem tela própria, na ordem do programa. */
+const SESSOES_NAV = DIAS.flatMap(d => (PROGRAMA[d]||[]))
+  .filter(it => it.tipo === 'sessao' && SESSOES[it.id] && SESSOES[it.id].navegavel)
+  .map(it => it.id);
 
 /* ============================================================
    PALESTRANTES — estrutura pronta para quando a SBEM fornecer
@@ -398,87 +452,121 @@ const SESSION_META = {
 };
 
 /* ============================================================
-   PROGRAM DAYS — para live strip
+   ESTADO DO CONGRESSO NESTE INSTANTE
+   ------------------------------------------------------------
+   Fonte única para "Agora", "A seguir", contagem regressiva e a
+   faixa ao vivo. Deriva tudo de SESSOES e PROGRAMA — não há cópia
+   da grade em outro lugar.
    ============================================================ */
-const PROGRAM_DAYS_LS = [
-  { date: new Date(2026,9,23), sessions:[
-    {start:'08:00',end:'08:15',title:'Cerimônia de Abertura'},
-    {start:'08:15',end:'08:45',title:'Mini · Monitorização glicêmica'},
-    {start:'08:45',end:'10:00',title:'Simpósio 1 — DM2 em 3 atos'},
-    {start:'10:20',end:'10:50',title:'Satélite AstraZeneca — Hipofosfatasia'},
-    {start:'10:50',end:'11:20',title:'Satélite AstraZeneca — DRC e hiperpotassemia'},
-    {start:'11:20',end:'12:30',title:'Simpósio 2 — DM1'},
-    {start:'12:30',end:'13:10',title:'Satélite Marjan Farma'},
-    {start:'13:20',end:'14:35',title:'Simpósio 3 — CDT · ATA 2025'},
-    {start:'14:35',end:'15:20',title:'Satélite EMS'},
-    {start:'15:20',end:'15:50',title:'Mini · CDT sem resposta excelente'},
-    {start:'16:10',end:'17:00',title:'Simpósio 4 — Adrenal'},
-    {start:'17:00',end:'18:10',title:'Simpósio 5 — Entre evidências e modismos'},
-  ]},
-  { date: new Date(2026,9,24), sessions:[
-    {start:'08:00',end:'09:15',title:'Simpósio 6 — Gônadas'},
-    {start:'09:15',end:'09:45',title:'Mini · Terapia hormonal trans'},
-    {start:'10:05',end:'10:50',title:'Satélite Lilly — GIP + GLP-1'},
-    {start:'10:50',end:'11:40',title:'Simpósio 7 — Metabolismo Ósseo'},
-    {start:'11:40',end:'12:30',title:'Simpósio 8 — Hipófise'},
-    {start:'13:30',end:'14:45',title:'Simpósio 9 — End. Pediátrica'},
-    {start:'14:45',end:'15:30',title:'Satélite Recordati — Acromegalia'},
-    {start:'15:50',end:'17:05',title:'Simpósio 10 — Obesidade'},
-    {start:'17:05',end:'17:35',title:'Mini · IA no consultório ★'},
-  ]},
-];
+function ccemSessoesEmOrdem() {
+  return DIAS.flatMap(d => (PROGRAMA[d]||[]))
+    .filter(it => it.tipo === 'sessao' && SESSOES[it.id])
+    .map(it => SESSOES[it.id]);
+}
+
+/* "Simpósio 4 · Adrenal" — rótulo curto para cards e faixa. */
+function ccemTituloCurto(s) { return (s.titulo||'').split(/ — |: /)[0]; }
+function ccemRotulo(s) {
+  if (!s) return '';
+  if (s.tipo === 'cerimonia') return s.titulo;
+  if (s.aDefinir) return s.badge;
+  return s.badge + ' · ' + ccemTituloCurto(s);
+}
+
+function ccemEstado(agora) {
+  agora = agora || ccemAgora();
+  if (agora >= CCEM_FIM) return { fase:'depois', agora:null, aSeguir:null, restanteMin:null };
+  const lista = ccemSessoesEmOrdem();
+  const ini = s => ccemInstante(s.dia, s.inicio);
+  const fim = s => ccemInstante(s.dia, s.fim);
+  const emCurso = lista.find(s => agora >= ini(s) && agora < fim(s)) || null;
+  // A cerimônia de abertura não conta como "primeira sessão".
+  const proxima = lista.find(s => ini(s) > agora && s.tipo !== 'cerimonia') || null;
+  const restanteMin = emCurso ? Math.max(1, Math.ceil((fim(emCurso) - agora) / 60000)) : null;
+  return { fase: agora < CCEM_INICIO ? 'antes' : 'durante', agora: emCurso, aSeguir: proxima, restanteMin };
+}
+
+/* Faixa ao vivo da casca do app. */
+function ccemLiveStatus() {
+  const e = ccemEstado();
+  if (e.fase === 'depois') return { kind:'past', tag:'Encerrado', text:'12º CCEM · 23–24 out 2026', time:'' };
+  if (e.agora) return { kind:'live', tag:'Agora', text:ccemRotulo(e.agora), time:'até ' + e.agora.fim };
+  if (e.aSeguir) return {
+    kind: e.fase === 'antes' ? 'upcoming' : 'soon',
+    tag:  e.fase === 'antes' ? 'Próximo evento' : 'A seguir',
+    text: ccemRotulo(e.aSeguir),
+    time: (e.fase === 'antes' ? '23 out · ' : '') + e.aSeguir.inicio,
+  };
+  return { kind:'past', tag:'Encerrado', text:'12º CCEM · 23–24 out 2026', time:'' };
+}
 
 /* ============================================================
-   RELÓGIO DO APP
+   CALENDÁRIO (.ics)
    ------------------------------------------------------------
-   Tudo que depende de hora passa por aqui. Em teste, aceita
-   ?agora=2026-10-23T16:20 na URL para simular o congresso em
-   curso; fora isso é o relógio do aparelho.
+   RFC 5545. Horários com TZID=America/Sao_Paulo e o VTIMEZONE
+   correspondente — sem ele, Outlook antigo ignora o fuso. Como o
+   Brasil não tem mais horário de verão, o bloco tem um único
+   período fixo em -03:00.
    ============================================================ */
-function ccemAgora() {
-  try {
-    const p = new URLSearchParams(window.location.search).get('agora');
-    if (p) { const d = new Date(p); if (!isNaN(d.getTime())) return d; }
-  } catch (e) {}
-  return new Date();
+const CCEM_LOCAL_ICS = 'Expoville · Rua XV de Novembro, 4315 · Joinville/SC';
+
+function ccemIcsEscape(t) {
+  return String(t).replace(/\\/g,'\\\\').replace(/;/g,'\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n');
 }
 
-/* Os dois dias do congresso. Nada é marcado como "agora" fora deles. */
-const DIAS_EVENTO = [
-  { data: new Date(2026,9,23), rotulo: DIAS[0] },
-  { data: new Date(2026,9,24), rotulo: DIAS[1] },
-];
-
-/* A sessão está acontecendo neste instante?
-   Falso em qualquer data que não seja 23 ou 24/10/2026. */
-function ccemSessaoNoAr(s, agora) {
-  if (!s || !s.inicio || !s.fim) return false;
-  agora = agora || ccemAgora();
-  const dia = DIAS_EVENTO.find(d => d.data.toDateString() === agora.toDateString());
-  if (!dia || s.dia !== dia.rotulo) return false;
-  const hm = t => { const [h,m] = t.split(':').map(Number);
-                    const o = new Date(dia.data); o.setHours(h,m,0,0); return o; };
-  return agora >= hm(s.inicio) && agora < hm(s.fim);
+/* Dobra linhas em 75 octetos (UTF-8), como exige a RFC. */
+function ccemIcsDobra(linha) {
+  const enc = new TextEncoder();
+  if (enc.encode(linha).length <= 75) return linha;
+  const partes = []; let atual = '';
+  for (const ch of linha) {
+    const limite = partes.length === 0 ? 75 : 74;   // continuação começa com espaço
+    if (enc.encode(atual + ch).length > limite) { partes.push(atual); atual = ch; }
+    else atual += ch;
+  }
+  partes.push(atual);
+  return partes.map((p,i) => i === 0 ? p : ' ' + p).join('\r\n');
 }
 
-function ccemLiveStatus() {
-  const now = ccemAgora();
-  function parseHM(d,hm){const[h,m]=hm.split(':').map(Number);const o=new Date(d);o.setHours(h,m,0,0);return o;}
-  function fmtHM(d){return d.getHours()+':'+String(d.getMinutes()).padStart(2,'0');}
-  for(const day of PROGRAM_DAYS_LS){
-    if(day.date.toDateString()!==now.toDateString()) continue;
-    for(const s of day.sessions){
-      const st=parseHM(day.date,s.start),en=parseHM(day.date,s.end);
-      if(now>=st&&now<en) return{kind:'live',tag:'Agora',text:s.title,time:fmtHM(now)};
-      if(now<st) return{kind:'soon',tag:'Em breve',text:s.title,time:s.start};
-    }
-  }
-  const first=PROGRAM_DAYS_LS[0];
-  if(now<new Date(2026,9,23,8,0,0)){
-    const next=PROGRAM_DAYS_LS[0].sessions[1];
-    return{kind:'upcoming',tag:'Próximo evento',text:next.title,time:'23 out · '+next.start};
-  }
-  return{kind:'past',tag:'Encerrado',text:'12º CCEM · 23–24 out 2026',time:''};
+function ccemIcsDataLocal(diaRotulo, hhmm) {
+  const dia = diaRotulo === DIAS[1] ? '24' : '23';
+  return `202610${dia}T${hhmm.replace(':','')}00`;
+}
+
+function ccemIcsEvento(s, baseUrl) {
+  const pessoas = [];
+  if (s.moderador) pessoas.push((s.tipo === 'mini' ? 'Apresentação: ' : 'Moderação: ') + s.moderador);
+  for (const f of (s.falas||[]))
+    pessoas.push(f.titulo ? `${f.titulo} — ${f.palestrante}` : f.palestrante);
+  const link = baseUrl + '#/sessao/' + s.id;
+  const descricao = [ccemRotulo(s), ...pessoas, '', 'No app: ' + link].join('\n');
+  const stamp = new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+  return [
+    'BEGIN:VEVENT',
+    `UID:${s.id}@ccem2026`,
+    `DTSTAMP:${stamp}`,
+    `DTSTART;TZID=America/Sao_Paulo:${ccemIcsDataLocal(s.dia, s.inicio)}`,
+    `DTEND;TZID=America/Sao_Paulo:${ccemIcsDataLocal(s.dia, s.fim)}`,
+    `SUMMARY:${ccemIcsEscape('CCEM 2026 · ' + (s.aDefinir ? s.badge : s.badge + ' — ' + s.titulo))}`,
+    `LOCATION:${ccemIcsEscape(CCEM_LOCAL_ICS)}`,
+    `DESCRIPTION:${ccemIcsEscape(descricao)}`,
+    `URL:${link}`,
+    'END:VEVENT',
+  ];
+}
+
+/* Gera o texto do .ics para uma ou várias sessões. */
+function ccemIcs(sessoes, baseUrl) {
+  const linhas = [
+    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//SBEM-SC//Meu CCEM 2026//PT', 'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH', 'X-WR-CALNAME:CCEM 2026', 'X-WR-TIMEZONE:America/Sao_Paulo',
+    'BEGIN:VTIMEZONE', 'TZID:America/Sao_Paulo',
+    'BEGIN:STANDARD', 'DTSTART:19700101T000000', 'TZOFFSETFROM:-0300', 'TZOFFSETTO:-0300', 'TZNAME:-03', 'END:STANDARD',
+    'END:VTIMEZONE',
+    ...sessoes.flatMap(s => ccemIcsEvento(s, baseUrl)),
+    'END:VCALENDAR',
+  ];
+  return linhas.map(ccemIcsDobra).join('\r\n') + '\r\n';
 }
 
 /* helper: resolve dados do palestrante pelo nome exato ou aproximado */
@@ -514,4 +602,4 @@ const WORKS = [
   {id:'P-009',cat:'feminina',type:'Original',title:'Hormonioterapia em mulheres trans no SUS-SC: 3 centros',message:'Acesso ainda fragmentado — protocolos regionais aumentam segurança.',authors:'Dra. Vitória Salles, Dra. Aline Beltrami · SES-SC / HU-UFSC',audio:true,votes:47,qa:2},
 ];
 
-Object.assign(window, { C, TEMAS_COR, DIAS, DIAS_EVENTO, ccemAgora, ccemSessaoNoAr, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, PROGRAM_DAYS_LS, ccemLiveStatus, WORK_CATS, WORKS });
+Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, WORK_CATS, WORKS });

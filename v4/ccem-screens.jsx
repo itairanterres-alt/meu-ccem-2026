@@ -12,11 +12,8 @@ function badgeColor(tipo) {
 function norm(s){ return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,''); }
 
 function sessionIsPast(s) {
-  if (!s) return false;
-  const now = new Date();
-  const [h,m] = s.fim.split(':').map(Number);
-  const end = s.dia===DIAS[0] ? new Date(2026,9,23,h,m) : new Date(2026,9,24,h,m);
-  return now > end;
+  if (!s || !s.dia || !s.fim) return false;
+  return ccemAgora() > ccemInstante(s.dia, s.fim);
 }
 
 const BACK_BTN = {width:40,height:40,display:'flex',alignItems:'center',justifyContent:'center',border:'none',background:'transparent',cursor:'pointer',borderRadius:9,flexShrink:0,padding:0};
@@ -50,7 +47,7 @@ function SessaoCard({ id }) {
   const noAr = ccemSessaoNoAr(s);
   const bc = badgeColor(s.tipo);
   return (
-    <div onClick={()=>s.navegavel&&go('#/sessao/'+id)}
+    <div data-sessao={id} onClick={()=>s.navegavel&&go('#/sessao/'+id)}
       role={s.navegavel?'button':undefined}
       tabIndex={s.navegavel?0:undefined}
       aria-label={s.navegavel?s.titulo:undefined}
@@ -107,10 +104,12 @@ function DayTimeline({ dia }) {
   const total = DAY_END - DAY_START;
   function pct(hm){ const[h,m]=hm.split(':').map(Number); return Math.max(0,Math.min(100,((h*60+m-DAY_START)/total)*100)); }
   const sessoes = (PROGRAMA[dia]||[]).filter(i=>i.tipo==='sessao').map(i=>SESSOES[i.id]).filter(Boolean);
-  const now = new Date();
-  const isToday = (dia===DIAS[0]&&now.getFullYear()===2026&&now.getMonth()===9&&now.getDate()===23)||
-                  (dia===DIAS[1]&&now.getFullYear()===2026&&now.getMonth()===9&&now.getDate()===24);
-  const nowPct = isToday ? pct(now.getHours()+':'+now.getMinutes()) : -1;
+  useMinuto();
+  const agora = ccemAgora();
+  const isToday = ccemDiaDoEvento(agora) === dia;
+  // minutos desde a meia-noite em Joinville, não no fuso do aparelho
+  const minJoinville = Math.floor((agora - ccemInstante(dia,'00:00')) / 60000);
+  const nowPct = isToday ? pct(Math.floor(minJoinville/60)+':'+(minJoinville%60)) : -1;
   const bc = t => t==='simposio'?C.azul:t==='mini'?'#0d9488':t==='satelite'?'#94a3b8':'#334155';
   return (
     <div style={{margin:'0 12px 8px',background:'#fff',borderRadius:10,padding:'9px 12px 7px',border:`1px solid ${C.linhaSoft}`}}>
@@ -236,7 +235,9 @@ function SessaoDetail({ id }) {
       if(!st.marks) st.marks={};
       if(st.marks[id]) delete st.marks[id]; else st.marks[id]=true;
     });
-    showToast(isMarked?'Desmarcado':'Marcado ✓');
+    if (isMarked) showToast('Desmarcada');
+    else showToast('Marcada · adicione ao calendário para ser lembrado',
+                   { rotulo:'Adicionar', aoTocar:()=>ccemBaixarIcs([s], 'ccem-'+id+'.ics') });
   }
 
   function handleAnotar(){
@@ -364,6 +365,12 @@ function SessaoDetail({ id }) {
           </button>
         </div>
 
+        {/* Calendário */}
+        <button onClick={()=>ccemBaixarIcs([s], 'ccem-'+id+'.ics')}
+          style={{width:'100%',minHeight:44,display:'flex',alignItems:'center',justifyContent:'center',gap:8,background:'#fff',color:C.azul,border:`1px solid ${C.linha}`,borderRadius:10,padding:'10px 14px',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600,cursor:'pointer',marginBottom:8}}>
+          <IcoCal size={16} color={C.azul}/>Adicionar ao calendário
+        </button>
+
         {/* Assistente — ação terciária, peso reduzido */}
         <button onClick={handleAskAI} style={{width:'100%',display:'flex',alignItems:'center',gap:10,padding:'9px 14px',background:'#f0f4fc',border:`1px solid ${C.linha}`,borderRadius:10,cursor:'pointer',marginBottom:14}}>
           <div style={{width:26,height:26,borderRadius:7,background:C.azul,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
@@ -399,19 +406,35 @@ function SessaoDetail({ id }) {
 /* ── ProgramaScreen ─────────────────────────────────────────── */
 function ProgramaScreen() {
   const appState = useAppState();
-  const [dia, setDia] = useState(()=>{ try{const s=sessionStorage.getItem('ccem_dia');if(s&&DIAS.includes(s))return s;}catch(e){} return ccemDiaDeHoje()||DIAS[0]; });
+  const [dia, setDia] = useState(()=>{
+    const hoje = ccemDiaDoEvento();
+    try {
+      const salvo = JSON.parse(sessionStorage.getItem('ccem_dia')||'null');
+      if (salvo && DIAS.includes(salvo.dia) && salvo.ref === (hoje||'fora')) return salvo.dia;
+    } catch(e) {}
+    return hoje || DIAS[0];
+  });
   const [busca, setBusca] = useState('');
   const [filtroTipo, setFiltroTipo] = useState(null);
   const [soMarcados, setSoMarcados] = useState(false);
   const [filterOpen, setFilterOpen] = useState(false);
   const listRef = useRef(null);
 
-  useEffect(()=>{ try{sessionStorage.setItem('ccem_dia',dia);}catch(e){} },[dia]);
+  useEffect(()=>{ try{sessionStorage.setItem('ccem_dia',JSON.stringify({dia, ref:ccemDiaDoEvento()||'fora'}));}catch(e){} },[dia]);
   useEffect(()=>{
     const el=listRef.current; if(!el) return;
     const key='ccem_scroll_'+dia;
     const saved=sessionStorage.getItem(key);
-    if(saved) el.scrollTop=parseInt(saved)||0;
+    if (saved !== null) {
+      // Volta de uma sessão ou do painel do Assistente: mantém onde estava.
+      el.scrollTop = parseInt(saved)||0;
+    } else if (ccemDiaDoEvento() === dia) {
+      // Primeira abertura no dia do evento: rola até a sessão em curso ou a próxima.
+      const e = ccemEstado();
+      const alvo = (e.agora && e.agora.dia===dia) ? e.agora : (e.aSeguir && e.aSeguir.dia===dia ? e.aSeguir : null);
+      const card = alvo && el.querySelector('[data-sessao="'+alvo.id+'"]');
+      if (card) el.scrollTop += card.getBoundingClientRect().top - el.getBoundingClientRect().top - 8;
+    }
     return ()=>{ if(el) try{sessionStorage.setItem(key,String(el.scrollTop));}catch(e){} };
   },[dia]);
 
@@ -469,6 +492,19 @@ function ProgramaScreen() {
             style={{width:'100%',padding:'7px 30px 7px 30px',border:`1px solid ${C.linha}`,borderRadius:8,fontFamily:'DM Sans,sans-serif',fontSize:12,color:C.tinta,background:'#f8fafd',outline:'none',boxSizing:'border-box'}}/>
           {busca&&<button onClick={()=>setBusca('')} style={{position:'absolute',right:8,background:'none',border:'none',cursor:'pointer',color:C.cinza,display:'flex',padding:0}}><IcoX size={14}/></button>}
         </div>
+      </div>
+
+      {/* Só marcadas — sempre à vista */}
+      <div style={{padding:'8px 12px 0',background:'#fff',flexShrink:0}}>
+        <button onClick={()=>setSoMarcados(v=>!v)} aria-pressed={soMarcados}
+          style={{width:'100%',minHeight:40,display:'flex',alignItems:'center',justifyContent:'center',gap:7,
+            background:soMarcados?C.ouroBg:'#fff',color:soMarcados?C.ouro:C.tinta,
+            border:`1px solid ${soMarcados?C.ouro:C.linha}`,borderRadius:9,cursor:'pointer',
+            fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600}}>
+          <IcoStar size={15} color={soMarcados?C.ouro:C.cinza} filled={soMarcados}/>
+          {soMarcados ? 'Mostrando só marcadas' : 'Só marcadas'}
+          <span style={{fontWeight:500,color:C.cinza}}>· {markedCount} neste dia</span>
+        </button>
       </div>
 
       <DayTimeline dia={dia}/>
@@ -852,6 +888,40 @@ function AssistenteScreen() {
 }
 
 /* ── CadernoScreen ──────────────────────────────────────────── */
+/* Data e hora em Joinville a partir do instante salvo na nota. */
+function ccemDataHoraJoinville(ts) {
+  const iso = new Date(ts - 3*3600000).toISOString();   // UTC−3 fixo
+  return { data: iso.slice(8,10)+'/'+iso.slice(5,7)+'/'+iso.slice(0,4), hora: iso.slice(11,16) };
+}
+
+/* Exporta o Caderno para PDF pelo diálogo de impressão do navegador.
+   Precisa ser chamada a partir de um toque: senão o navegador bloqueia
+   a janela nova. */
+function ccemExportarCaderno(captures) {
+  const lista = [...(captures||[])].sort((a,b)=>a.ts-b.ts);
+  if (!lista.length) { showToast('O caderno está vazio'); return; }
+  const w = window.open('', '_blank');
+  if (!w) { showToast('Permita pop-ups para exportar o PDF'); return; }
+  const esc = t => String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const hoje = ccemDataHoraJoinville(Date.now()).data;
+  const rows = lista.map(c => {
+    const { data, hora } = ccemDataHoraJoinville(c.ts);
+    const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : (c.sessaoRef||'');
+    return `<div class="nota"><div class="meta">${esc(data)} · ${esc(hora)} · ${esc(sess)}</div>`
+         + `<h3>${esc(c.title)}</h3><div class="body">${c.body||''}</div></div>`;
+  }).join('');
+  w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu Caderno · CCEM 2026</title><style>
+    body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
+    h1{font-size:22px;margin:0 0 2px}
+    .sub{font-size:12px;color:#4a5468;margin:0 0 24px;font-family:system-ui,sans-serif}
+    .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
+    .meta{font-size:12px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
+    h3{font-size:14px;margin:0 0 6px}
+    .body{font-size:13px;line-height:1.55}
+  </style></head><body><h1>Meu Caderno · CCEM 2026</h1><p class="sub">${lista.length} nota${lista.length!==1?'s':''} · exportado em ${hoje} · 12º Congresso Catarinense de Endocrinologia e Metabologia</p>${rows}<script>window.print()<\/script></body></html>`);
+  w.document.close();
+}
+
 function CadernoScreen() {
   const appState = useAppState();
   const [filtro, setFiltro] = useState('all');
@@ -867,24 +937,6 @@ function CadernoScreen() {
   const bsOrph = filtered.filter(c=>!isDia0(c)&&!isDia1(c)).sort((a,b)=>b.ts-a.ts);
 
   function typeColor(t){ return t==='foto'?C.azul:t==='audio'?'#0d9488':C.ouro; }
-
-  function exportPDF(){
-    const w = window.open('', '_blank');
-    if(!w){ showToast('Permita pop-ups para exportar o PDF'); return; }
-    const esc = s => String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
-    const all = [...captures].sort((a,b)=>a.ts-b.ts);
-    const rows = all.map(c=>`<div class="nota"><div class="meta">${esc(c.sessaoRef)} · ${esc(c.time)}${c.dia?' · '+esc(c.dia):''}</div><h3>${esc(c.title)}</h3><div class="body">${c.body||''}</div></div>`).join('');
-    w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>Meu Caderno · CCEM 2026</title><style>
-      body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
-      h1{font-size:22px;margin:0 0 2px}
-      .sub{font-size:12px;color:#4a5468;margin:0 0 24px;font-family:system-ui,sans-serif}
-      .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
-      .meta{font-size:11px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
-      h3{font-size:14px;margin:0 0 6px}
-      .body{font-size:13px;line-height:1.55}
-    </style></head><body><h1>Meu Caderno · CCEM 2026</h1><p class="sub">${all.length} nota${all.length!==1?'s':''} · exportado em ${new Date().toLocaleDateString('pt-BR')} · Meu CCEM</p>${rows}<script>window.print()<\/script></body></html>`);
-    w.document.close();
-  }
 
   function NoteCard({c}){
     return (
@@ -910,7 +962,10 @@ function CadernoScreen() {
     <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
       <div style={{padding:'12px 16px 10px',background:'#fff',borderBottom:`1px solid ${C.linha}`,flexShrink:0}}>
         <h2 style={{fontFamily:'Georgia,serif',fontSize:17,fontWeight:700,color:C.tinta,margin:'0 0 2px'}}>Meu caderno</h2>
-        <p style={{fontSize:11,color:C.cinza,margin:'0 0 10px'}}>tudo que você anotou no CCEM 2026</p>
+        <p style={{fontSize:12,color:C.cinza,margin:'0 0 8px'}}>tudo que você anotou no CCEM 2026</p>
+        <p style={{fontSize:12,color:C.tinta,lineHeight:1.4,margin:'0 0 10px',padding:'7px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.azulSoft}`}}>
+          Suas notas ficam só neste aparelho. Exporte o PDF para guardar.
+        </p>
         <div style={{display:'flex',gap:8}}>
           {[['Notas',captures.length,C.azulBg,C.azul],['Sessões',sessoes,C.verdeBg,C.verde],['Refs',refs,C.ouroBg,C.ouro]].map(([lbl,num,bg,color])=>(
             <div key={lbl} style={{flex:1,background:bg,borderRadius:10,padding:'7px 10px',textAlign:'center'}}>
@@ -941,7 +996,7 @@ function CadernoScreen() {
       {captures.length>0&&(
         <div style={{padding:'9px 12px',background:'#fff',borderTop:`1px solid ${C.linha}`,display:'flex',alignItems:'center',gap:10,flexShrink:0}}>
           <p style={{flex:1,fontSize:11,color:C.cinza,lineHeight:1.4,margin:0}}><strong>Salvo neste dispositivo</strong> · {captures.length} nota{captures.length!==1?'s':''}</p>
-          <button onClick={exportPDF} style={{display:'flex',alignItems:'center',gap:5,background:C.azul,color:'#fff',border:'none',borderRadius:8,padding:'7px 14px',fontSize:12,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>↓ PDF</button>
+          <button onClick={()=>ccemExportarCaderno(captures)} style={{display:'flex',alignItems:'center',gap:5,background:C.azul,color:'#fff',border:'none',borderRadius:8,padding:'7px 14px',fontSize:12,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>↓ PDF</button>
         </div>
       )}
     </div>
@@ -1010,8 +1065,8 @@ function InfoScreen() {
           <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.55,margin:'0 0 8px'}}>
             Camada interativa do CCEM 2026 para inscritos. Programa navegável, pôsteres digitais, assistente de IA para anotações e busca científica.
           </p>
-          <p style={{fontSize:12,color:C.cinza,lineHeight:1.5,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
-            Dados armazenados localmente neste dispositivo. Nenhum dado pessoal é coletado ou transmitido.
+          <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
+            O app fica disponível até 31/12/2026. Notas não são enviadas a servidor; se você limpar o navegador ou trocar de aparelho, elas se perdem — exporte o PDF.
           </p>
           <div style={{display:'flex',alignItems:'center',gap:8,padding:'7px 0',borderTop:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
             <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:11,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',flexShrink:0}}>ID local</span>
@@ -1038,10 +1093,9 @@ function InfoScreen() {
 
 /* ── LiveStrip — visível apenas nos ±7 dias do congresso ──── */
 function isEventWeek() {
-  const now = new Date();
-  const start = new Date(2026,9,16);  // 7 dias antes
-  const end   = new Date(2026,9,31);  // 7 dias depois
-  return now >= start && now <= end;
+  const agora = ccemAgora();
+  return agora >= new Date('2026-10-16T00:00:00-03:00')   // 7 dias antes
+      && agora <  new Date('2026-11-01T00:00:00-03:00');  // até o fim de 31/10
 }
 
 function LiveStrip(){
@@ -1196,5 +1250,5 @@ Object.assign(window, {
   DayTimeline, SlideDisplay, SlideUploadBtn,
   ProgramaScreen, SessaoDetail, AssistenteScreen, TrabalhosScreen, CadernoScreen, InfoScreen,
   BadgePill, TopicPill, IntervalRow, SessaoCard,
-  sessionIsPast, isEventWeek, classifyIntent, MOCK_AI,
+  sessionIsPast, isEventWeek, classifyIntent, MOCK_AI, ccemExportarCaderno, ccemDataHoraJoinville,
 });

@@ -22,6 +22,8 @@ function App() {
   const showShell = route.tela !== 'sessao' && route.tela !== 'home';
 
   return (
+    <>
+    <LembretePDF/>
     <AppShell showShell={showShell} aba={route.tela}>
       {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
       {route.tela === 'home'       && <HomeScreen/>}
@@ -31,6 +33,48 @@ function App() {
       {route.tela === 'info'       && <InfoScreen/>}
       {route.tela === 'programa'   && <ProgramaScreen/>}
     </AppShell>
+    </>
+  );
+}
+
+/* ── 3.3 · Lembrete de exportação ─────────────────────────────
+   De 24/10 às 16h até o fim de 31/10, se houver notas, uma faixa
+   no topo lembra de baixar o PDF. "Agora não" a esconde até o dia
+   seguinte; baixar também.
+   ────────────────────────────────────────────────────────────── */
+const LEMBRETE_INICIO = new Date('2026-10-24T16:00:00-03:00');
+const LEMBRETE_FIM    = new Date('2026-11-01T00:00:00-03:00');
+const LEMBRETE_CHAVE  = 'ccem2026:lembretePDF';
+
+function LembretePDF() {
+  const appState = useAppState();
+  useMinuto();
+  const agora = ccemAgora();
+  const hoje  = ccemDataHoraJoinville(agora.getTime()).data;
+  const [fechadoEm, setFechadoEm] = useState(() => {
+    try { return localStorage.getItem(LEMBRETE_CHAVE); } catch (e) { return null; }
+  });
+  const notas = appState.captures || [];
+  if (agora < LEMBRETE_INICIO || agora >= LEMBRETE_FIM) return null;
+  if (!notas.length || fechadoEm === hoje) return null;
+
+  function fechar() {
+    try { localStorage.setItem(LEMBRETE_CHAVE, hoje); } catch (e) {}
+    setFechadoEm(hoje);
+  }
+  return (
+    <div role="region" aria-label="Lembrete do caderno"
+      style={{display:'flex',alignItems:'center',gap:8,padding:'8px 12px',background:C.ouroBg,borderBottom:`1px solid ${C.ouro}55`,flexShrink:0}}>
+      <IcoBook size={16} color={C.ouro}/>
+      <button onClick={()=>{ ccemExportarCaderno(notas); fechar(); }}
+        style={{flex:1,minHeight:44,textAlign:'left',background:'none',border:'none',padding:0,cursor:'pointer',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,color:C.tinta}}>
+        Baixe seu caderno em PDF
+      </button>
+      <button onClick={fechar}
+        style={{minHeight:44,padding:'0 10px',background:'none',border:'none',cursor:'pointer',fontFamily:'DM Sans,sans-serif',fontSize:13,color:C.cinza}}>
+        Agora não
+      </button>
+    </div>
   );
 }
 
