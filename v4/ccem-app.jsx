@@ -30,14 +30,23 @@ function App() {
     window.addEventListener('ccem:abrir-assistente', abrir);
     return () => window.removeEventListener('ccem:abrir-assistente', abrir);
   },[]);
-  useEffect(()=>{ setPainel(false); },[hash]);
+  // Editor de nota: aberto por "Anotar" (sessão), "Nova nota" e "Editar" (Caderno).
+  const [editor, setEditor] = useState(null);
+  useEffect(()=>{
+    const abrir = e => setEditor(e.detail || {});
+    window.addEventListener('ccem:anotar', abrir);
+    return () => window.removeEventListener('ccem:anotar', abrir);
+  },[]);
+  useEffect(()=>{ setPainel(false); setEditor(null); },[hash]);
   const comFab  = ['home','programa','info','sessao'].includes(route.tela);
   const reserva = route.tela === 'home' || route.tela === 'sessao';
-  const fab = comFab && !painel && !teclado ? <BotaoAssistente aoTocar={()=>setPainel(true)}/> : null;
+  const fab = comFab && !painel && !editor && !teclado ? <BotaoAssistente aoTocar={()=>setPainel(true)}/> : null;
 
   return (
     <>
+    <AvisoAtualizacao/>
     <LembretePDF/>
+    {editor && <EditorNota notaId={editor.notaId} sessaoId={editor.sessaoId} aoFechar={()=>setEditor(null)}/>}
     {painel && <PainelAssistente sessaoId={route.tela==='sessao'?route.id:null} tela={route.tela==='sessao'?'sessao':route.tela} aoFechar={()=>setPainel(false)}/>}
     <AppShell showShell={showShell} aba={route.tela} fab={fab} reservaFab={reserva}>
       {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
@@ -49,6 +58,37 @@ function App() {
     </AppShell>
     </>
   );
+}
+
+/* ── Versão nova e modo sem internet ──────────────────────────
+   A troca de versão só acontece com um toque, nunca no meio do uso. */
+function AvisoAtualizacao() {
+  const [pronta, setPronta]   = useState(() => !!window.__ccemNovaVersao);
+  const [offline, setOffline] = useState(() => navigator.onLine === false);
+  useEffect(() => {
+    const nova = () => setPronta(true), on = () => setOffline(false), off = () => setOffline(true);
+    window.addEventListener('ccem:nova-versao', nova);
+    window.addEventListener('online', on);
+    window.addEventListener('offline', off);
+    return () => {
+      window.removeEventListener('ccem:nova-versao', nova);
+      window.removeEventListener('online', on);
+      window.removeEventListener('offline', off);
+    };
+  }, []);
+  if (pronta) return (
+    <div role="status" style={{display:'flex',alignItems:'center',gap:8,padding:'4px 6px 4px 12px',background:C.azulBg,borderBottom:`1px solid ${C.linha}`,flexShrink:0}}>
+      <span style={{flex:1,fontFamily:'DM Sans,sans-serif',fontSize:13,color:C.tinta}}>Nova versão do app disponível</span>
+      <button onClick={() => window.ccemAplicarAtualizacao && window.ccemAplicarAtualizacao()}
+        style={{minHeight:44,padding:'0 14px',background:C.azul,color:'#fff',border:'none',borderRadius:8,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,cursor:'pointer'}}>Atualizar</button>
+    </div>
+  );
+  if (offline) return (
+    <div role="status" style={{padding:'6px 12px',background:'#f5f7fb',borderBottom:`1px solid ${C.linha}`,fontFamily:'DM Sans,sans-serif',fontSize:12.5,color:C.cinza,flexShrink:0}}>
+      Sem internet · usando a versão salva no aparelho. Programa, marcações e Caderno funcionam normalmente.
+    </div>
+  );
+  return null;
 }
 
 /* ── 3.3 · Lembrete de exportação ─────────────────────────────
@@ -78,8 +118,8 @@ function LembretePDF() {
   }
   return (
     <div role="region" aria-label="Lembrete do caderno"
-      style={{display:'flex',alignItems:'center',gap:8,padding:'8px 12px',background:C.ouroBg,borderBottom:`1px solid ${C.ouro}55`,flexShrink:0}}>
-      <IcoBook size={16} color={C.ouro}/>
+      style={{display:'flex',alignItems:'center',gap:8,padding:'8px 12px',background:C.ouroBg,borderBottom:`1px solid ${C.ouroTxt}55`,flexShrink:0}}>
+      <IcoBook size={16} color={C.ouroTxt}/>
       <button onClick={()=>{ ccemExportarCaderno(notas); fechar(); }}
         style={{flex:1,minHeight:44,textAlign:'left',background:'none',border:'none',padding:0,cursor:'pointer',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,color:C.tinta}}>
         Baixe seu caderno em PDF

@@ -12,7 +12,7 @@
 const CCEM_AVATAR      = 'v4/avatar-assistente.png';
 const CCEM_RODAPE_IA   = 'Gerado por IA — confira na fonte';
 const CCEM_EM_TESTES   = 'Assistente em fase de testes — disponível em breve';
-const CCEM_PRIVACIDADE = 'Perguntas e fotos são processadas pela Anthropic (EUA) e não ficam gravadas. Não envie dados de pacientes.';
+const CCEM_PRIVACIDADE = 'Perguntas e fotos enviadas aqui são processadas pela Anthropic (EUA); o app não guarda cópia no servidor. Não envie dados de pacientes.';
 
 /* Três sugestões por tela. foto:true abre a câmera em vez de perguntar. */
 const CCEM_SUGESTOES = {
@@ -36,26 +36,6 @@ function useConversa() {
   return _conversa;
 }
 
-/* ── 5.3 · Foto: reduzida no aparelho (máx. 1600 px, JPEG 0,8) ── */
-function ccemReduzirFoto(arquivo) {
-  return new Promise((resolve, reject) => {
-    const url = URL.createObjectURL(arquivo);
-    const img = new Image();
-    img.onload = () => {
-      const escala = Math.min(1, 1600 / Math.max(img.naturalWidth, img.naturalHeight));
-      const w = Math.round(img.naturalWidth * escala), h = Math.round(img.naturalHeight * escala);
-      const cv = document.createElement('canvas');
-      cv.width = w; cv.height = h;
-      cv.getContext('2d').drawImage(img, 0, 0, w, h);
-      URL.revokeObjectURL(url);
-      const dataUrl = cv.toDataURL('image/jpeg', 0.8);
-      resolve({ base64: dataUrl.split(',')[1], previa: dataUrl });
-    };
-    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('foto')); };
-    img.src = url;
-  });
-}
-
 /* Resposta da IA em texto corrido — para o histórico e para o Caderno. */
 function ccemRespostaEmTexto(r) {
   const partes = [r.mensagem];
@@ -68,8 +48,8 @@ function ccemRespostaEmTexto(r) {
 
 /* ── Envio ao servidor ───────────────────────────────────────── */
 // TODO: integrar com API real — já integrado: /api/assistente (Claude via Vercel).
-async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId }) {
-  const historico = _conversa.msgs
+async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico }) {
+  const historico = semHistorico ? [] : _conversa.msgs
     .filter(m => (m.papel === 'usuario' && m.texto) || (m.papel === 'assistente' && m.resposta))
     .slice(-6)
     .map(m => ({ papel: m.papel, texto: m.papel === 'usuario' ? m.texto : ccemRespostaEmTexto(m.resposta) }));
@@ -111,34 +91,21 @@ async function ccemEnviarAoAssistente({ texto, arquivo, sessaoId }) {
   _mudouConversa();
   const r = await ccemPerguntarAoAssistente({ texto, imagem, sessaoId });
   _conversa.msgs.push(r.resposta
-    ? { id: Date.now() + 'a', papel: 'assistente', resposta: r.resposta, sessaoId, foto: !!imagem, pergunta: texto, ts: Date.now() }
+    ? { id: Date.now() + 'a', papel: 'assistente', resposta: r.resposta, sessaoId, foto: !!imagem, previa, pergunta: texto, ts: Date.now() }
     : { id: Date.now() + 'v', papel: 'aviso', texto: r.aviso, ts: Date.now() });
   _conversa.carregando = false;
   _mudouConversa();
 }
 
-function ccemSalvarNoCaderno(m) {
-  const s = SESSOES[m.sessaoId];
-  const r = m.resposta;
-  const titulo = (m.foto ? 'Slide' : (m.pergunta || 'Assistente')).slice(0, 60);
-  updateAppState(st => {
-    if (!st.captures) st.captures = [];
-    st.captures.unshift({
-      id: 'c_' + Date.now().toString(36),
-      dia: (s && s.dia) || ccemDiaDoEvento() || DIAS[0],
-      time: ccemDataHoraJoinville(Date.now()).hora,
-      sessaoId: m.sessaoId || '',
-      sessaoRef: s ? ccemRotulo(s) : 'Assistente',
-      type: m.foto ? 'foto' : 'texto',
-      title: titulo,
-      body: ccemRespostaEmTexto(r) + '\n\n' + CCEM_RODAPE_IA,
-      tags: (s && s.temas) || [],
-      ts: Date.now(),
-    });
-  });
+async function ccemSalvarNoCaderno(m) {
+  // Pergunta e foto originais ficam na nota; a resposta vai em "Resumo da IA", separada.
   m.salvo = true;
   _mudouConversa();
-  showToast('Salvo no caderno');
+  const sessaoId = SESSOES[m.sessaoId] ? m.sessaoId : '';
+  const { ok, id } = await ccemGravarNota({ texto: m.pergunta || '', foto: m.previa || undefined, sessaoId,
+                                            resumoIA: ccemRespostaEmTexto(m.resposta) });
+  if (!ok) { m.salvo = false; _mudouConversa(); }
+  return id;
 }
 
 /* ── Cabeçalho: identidade do assistente (5.6) ───────────────── */
@@ -149,12 +116,12 @@ function CabecalhoAssistente({ aoFechar }) {
       <div style={{flex:1,minWidth:0}}>
         <div style={{display:'flex',alignItems:'center',gap:6}}>
           <span style={{fontSize:14,fontWeight:700,color:C.tinta}}>Assistente CCEM</span>
-          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.ouro,background:C.ouroBg,padding:'0 7px',borderRadius:8,letterSpacing:'0.04em'}}>beta</span>
+          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.ouroTxt,background:C.ouroBg,padding:'0 7px',borderRadius:8,letterSpacing:'0.04em'}}>beta</span>
         </div>
         <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>IA · respostas podem conter erros</div>
       </div>
       {aoFechar&&(
-        <button onClick={aoFechar} aria-label="Fechar o assistente"
+        <button autoFocus onClick={aoFechar} aria-label="Fechar o assistente"
           style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',background:'none',border:'none',cursor:'pointer',color:C.cinza,flexShrink:0,padding:0}}>
           <IcoX size={20}/>
         </button>
@@ -376,5 +343,5 @@ function ccemAbrirAssistente() { window.dispatchEvent(new CustomEvent('ccem:abri
 
 Object.assign(window, {
   AssistenteScreen, PainelAssistente, BotaoAssistente, useTecladoAberto, ccemAbrirAssistente,
-  ccemReduzirFoto, ccemRespostaEmTexto, CCEM_SUGESTOES,
+  ccemRespostaEmTexto, CCEM_SUGESTOES,
 });

@@ -11,6 +11,7 @@ const C = {
   azulBg:   '#dde8f8',
   ouro:     '#c18c3e',
   ouroBg:   '#f4e4bd',
+  ouroTxt:  '#7d5714',   // dourado para texto e ícones: contraste ≥ 4,5:1 sobre ouroBg e branco
   tinta:    '#1a2438',
   cinza:    '#5b6577',
   cinzaClr: '#e7eef9',
@@ -52,6 +53,10 @@ const DIAS = ['sex · 23/10', 'sab · 24/10'];
    fixo, e o -03:00 explícito dá instantes exatos sem depender de
    base de fusos do navegador.
    ============================================================ */
+// Última conferência da grade com o site oficial (www.ccem2026.com.br).
+// Atualizar a cada nova conferência: o app mostra esta data no Programa.
+const CCEM_PROGRAMA_CONFERIDO = '01/10/2026';
+
 const CCEM_UTC_OFFSET = '-03:00';
 
 /* Instante absoluto de um horário do programa. */
@@ -420,14 +425,15 @@ function ccemEstado(agora) {
 
 /* Faixa ao vivo da casca do app. */
 function ccemLiveStatus() {
-  const e = ccemEstado();
+  const agora = ccemAgora();
+  const e = ccemEstado(agora);
   if (e.fase === 'depois') return { kind:'past', tag:'Encerrado', text:'12º CCEM · 23–24 out 2026', time:'' };
   if (e.agora) return { kind:'live', tag:'Agora', text:ccemRotulo(e.agora), time:'até ' + e.agora.fim };
   if (e.aSeguir) return {
     kind: e.fase === 'antes' ? 'upcoming' : 'soon',
     tag:  e.fase === 'antes' ? 'Próximo evento' : 'A seguir',
     text: ccemRotulo(e.aSeguir),
-    time: (e.fase === 'antes' ? '23 out · ' : '') + e.aSeguir.inicio,
+    time: (e.fase === 'antes' ? '23 out · ' : e.aSeguir.dia !== ccemDiaDoEvento(agora) ? 'amanhã · ' : '') + e.aSeguir.inicio,
   };
   return { kind:'past', tag:'Encerrado', text:'12º CCEM · 23–24 out 2026', time:'' };
 }
@@ -506,6 +512,6 @@ function ccemIcs(sessoes, baseUrl) {
    externa. Se o e-pôster não acontecer, LINK_EPOSTER = null e o
    item some sozinho. */
 // TODO: confirmar URL dos e-pôsteres com a Promotes
-const LINK_EPOSTER = 'https://www.ccem2026.com.br/';
+const LINK_EPOSTER = null;   // oculto até a Promotes confirmar o endereço (ou retirar de vez)
 
-Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, go, ccemDiaDeHoje, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, LINK_EPOSTER });
+Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, go, ccemDiaDeHoje, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, LINK_EPOSTER, CCEM_PROGRAMA_CONFERIDO });
