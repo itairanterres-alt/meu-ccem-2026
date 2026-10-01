@@ -67,7 +67,7 @@ const SESSOES = {
     id:'mini-glicemia', dia:DIAS[0], inicio:'08:15', fim:'08:45', dur:'30 min',
     tipo:'mini', badge:'Mini-Conferência',
     titulo:'Novas tecnologias de monitorização glicêmica: semelhantes ou diferentes na prática?',
-    moderador:'Dr. Fúlvio Tomaselli',
+    moderador:'Dr. Fulvio Clemo Santos Tomaselli',
     temas:['DM2','Glicemia','Tecnologia'], navegavel:true,
     falas:[{ n:'·', palestrante:'Dra. Talita Letícia Trevisan' }],
   },
@@ -76,30 +76,30 @@ const SESSOES = {
     tipo:'simposio', badge:'Simpósio 1',
     titulo:'Tratamento do diabetes tipo 2 em 3 atos: clássicos, contemporâneos e promessas',
     moderador:'Dr. Paulo de Tarso Freitas',
-    temas:['DM2'], navegavel:true, isNow:true,
+    temas:['DM2'], navegavel:true,
     falas:[
-      { n:1, titulo:'Clássicos', palestrante:'Dr. Luiz Antonio de Araújo' },
+      { n:1, titulo:'Clássicos', palestrante:'Dr. Luíz Antônio de Araújo' },
       { n:2, titulo:'Contemporâneos', palestrante:'Dra. Adriana Striebel' },
       { n:3, titulo:'Promessas', palestrante:'Dra. Luciana Muniz Pechmann' },
     ],
   },
   'sat-sex-1': {
     id:'sat-sex-1', dia:DIAS[0], inicio:'10:20', fim:'10:50', dur:'30 min',
-    tipo:'satelite', badge:'Satélite · AstraZeneca', titulo:'Hipofosfatasia',
+    tipo:'satelite', badge:'Satélite · AstraZeneca', titulo:'Diagnóstico e Manejo da Hipofosfatasia',
     temas:['Ósseo'], navegavel:false,
     falas:[{ n:'·', palestrante:'Dr. Mario Sérgio Zen' }],
   },
   'sat-sex-2': {
     id:'sat-sex-2', dia:DIAS[0], inicio:'10:50', fim:'11:20', dur:'30 min',
     tipo:'satelite', badge:'Satélite · AstraZeneca',
-    titulo:'Doença renal crônica e hiperpotassemia',
+    titulo:'Tratamento otimizado da DRC e manejo da Hiperpotassemia',
     temas:[], navegavel:false,
     falas:[{ n:'·', palestrante:'Dra. Viviane Calice' }],
   },
   'simp2-dm1': {
     id:'simp2-dm1', dia:DIAS[0], inicio:'11:20', fim:'12:30', dur:'1h 10',
     tipo:'simposio', badge:'Simpósio 2', titulo:'Diabetes Mellitus tipo 1',
-    moderador:'Dra. Flaviana Dalla Vechia',
+    moderador:'Dra. Flaviana Aparecida Dalla Vechia',
     temas:['DM1'], navegavel:true,
     falas:[
       { n:1, titulo:'Prevenção e cura do DM1 — Já é uma realidade?', palestrante:'Dr. Mauro Scharf Pinto' },
@@ -116,12 +116,12 @@ const SESSOES = {
     id:'simp3-cdt', dia:DIAS[0], inicio:'13:20', fim:'14:35', dur:'1h 15',
     tipo:'simposio', badge:'Simpósio 3',
     titulo:'Tireoide — Carcinoma Diferenciado de Tireoide (CDT) — Guideline ATA 2025',
-    moderador:'Dra. Maria Heloísa da Silva Canalli',
+    moderador:'Dra. Maria Heloísa Busi da Silva Canalli',
     temas:['Tireoide'], navegavel:true,
     falas:[
-      { n:1, titulo:'Estratificação de risco de recorrência: o que mudou?', palestrante:'Dra. Marta Amaro Duval' },
+      { n:1, titulo:'Estratificação de risco de recorrência: o que mudou?', palestrante:'Dra. Marta Amaro da Silveira Duval' },
       { n:2, titulo:'Quais os novos parâmetros da tireoglobulina no seguimento?', palestrante:'Dra. Lireda Meneses Silva' },
-      { n:3, titulo:'Metástase linfonodal no seguimento: como abordar?', palestrante:'Dr. Cleo Otaviano Mesa Jr.' },
+      { n:3, titulo:'Metástase linfonodal no seguimento: como abordar?', palestrante:'Dr. Cleo Otaviano Mesa Júnior' },
     ],
   },
   'sat-sex-4': {
@@ -135,12 +135,12 @@ const SESSOES = {
     titulo:'Como manejar os pacientes que não apresentam uma resposta excelente ao tratamento do Carcinoma Diferenciado de Tireoide',
     moderador:'Dra. Goretti Silveira Rodrigues',
     temas:['Tireoide'], navegavel:true,
-    falas:[{ n:'·', palestrante:'Dr. Cleo Otaviano Mesa Jr.' }],
+    falas:[{ n:'·', palestrante:'Dr. Cleo Otaviano Mesa Júnior' }],
   },
   'simp4-adrenal': {
     id:'simp4-adrenal', dia:DIAS[0], inicio:'16:10', fim:'17:00', dur:'50 min',
     tipo:'simposio', badge:'Simpósio 4', titulo:'Adrenal — casos clínicos',
-    moderador:'Dra. Ana Cristina Probst',
+    moderador:'Dra. Ana Cristina Tavares Probst',
     temas:['Adrenal'], navegavel:true,
     falas:[
       { n:1, titulo:'Caso clínico de Cushing subclínico', palestrante:'Dra. Amanda Meneses Ferreira Lacombe' },
@@ -150,12 +150,12 @@ const SESSOES = {
   'simp5-modismos': {
     id:'simp5-modismos', dia:DIAS[0], inicio:'17:00', fim:'18:10', dur:'1h 10',
     tipo:'simposio', badge:'Simpósio 5', titulo:'Entre evidências e modismos',
-    moderador:'Dr. Frederico Marchisotti',
-    temas:['Suplementos','Ética'], navegavel:true, starred:true,
+    moderador:'Dr. Frederico Guimarães Marchisotti',
+    temas:['Suplementos','Ética'], navegavel:true,
     falas:[
-      { n:1, titulo:'Suplementos para performance: mitos e verdades', palestrante:'Dr. Fúlvio Tomaselli' },
+      { n:1, titulo:'Suplementos para aumento de performance: mitos e verdades', palestrante:'Dr. Fulvio Clemo Santos Tomaselli' },
       { n:2, titulo:'Emagrecer a qualquer custo: o debate ético dos manipulados', palestrante:'Dr. Neuton Dornelas Gomes' },
-      { n:3, titulo:'Centenas de exames e zero hipótese', palestrante:'Dr. Itairan da Silva Terres', isMe:true },
+      { n:3, titulo:'Centenas de exames e zero hipótese', palestrante:'Dr. Itairan da Silva Terres' },
     ],
   },
 
@@ -166,8 +166,9 @@ const SESSOES = {
     moderador:'Dra. Demelise Demczuk',
     temas:['Gônadas'], navegavel:true,
     falas:[
-      { n:1, titulo:'Nova diretriz de hipogonadismo e abordagem da perimenopausa', palestrante:'Dra. Ruth Clapauch' },
-      { n:2, titulo:'UpDate síndrome dos ovários policísticos', palestrante:'Dra. Carina Morellato' },
+      { n:1, titulo:'Nova diretriz de hipogonadismo', palestrante:'Dra. Ruth Clapauch' },
+      { n:2, titulo:'Abordagem da perimenopausa', palestrante:'Dra. Ruth Clapauch' },
+      { n:3, titulo:'UpDate síndrome dos ovários policísticos', palestrante:'Dra. Carina Gabriela Corrêa Morellato' },
     ],
   },
   'mini-transgenero': {
@@ -175,12 +176,12 @@ const SESSOES = {
     tipo:'mini', badge:'Mini-Conferência', titulo:'Terapia hormonal na transição de gênero',
     moderador:'Dra. Tanise Balvedi Damas',
     temas:['Gônadas'], navegavel:true,
-    falas:[{ n:'·', palestrante:'Dra. Elaine Frade Costa' }],
+    falas:[{ n:'·', palestrante:'Dra. Elaine Maria Frade Costa' }],
   },
   'sat-sab-1': {
     id:'sat-sab-1', dia:DIAS[1], inicio:'10:05', fim:'10:50', dur:'45 min',
     tipo:'satelite', badge:'Satélite · Lilly',
-    titulo:'GIP + GLP-1 como primeira linha?',
+    titulo:'GIP + GLP-1: Existe benefício no uso como primeira linha de tratamento?',
     temas:['DM2','Obesidade'], navegavel:false,
     falas:[{ n:'·', palestrante:'Dra. Luciana Muniz Pechmann' }],
   },
@@ -201,13 +202,13 @@ const SESSOES = {
     temas:['Hipófise'], navegavel:true,
     falas:[
       { n:1, titulo:'Desafios na hiperprolactinemia', palestrante:'Dra. Amely Pereira Silva Balthazar' },
-      { n:2, titulo:'Caso clínico de Cushing', palestrante:'Dr. Tobias Skrebsky' },
+      { n:2, titulo:'Caso clínico de Cushing', palestrante:'Dr. Tobias Skrebsky de Almeida' },
     ],
   },
   'simp9-pediatrica': {
     id:'simp9-pediatrica', dia:DIAS[1], inicio:'13:30', fim:'14:45', dur:'1h 15',
     tipo:'simposio', badge:'Simpósio 9', titulo:'Endocrinologia Pediátrica',
-    moderador:'Dra. Zuleica Isabel Zarabia Morales',
+    moderador:'Dra. Zuleica Isabel Zarabia',
     temas:['Pediatria','Obesidade'], navegavel:true,
     falas:[
       { n:1, titulo:'O papel do inibidor da aromatase na baixa estatura', palestrante:'Dra. Marilza Leal Nascimento' },
@@ -217,10 +218,10 @@ const SESSOES = {
   },
   'sat-sab-2': {
     id:'sat-sab-2', dia:DIAS[1], inicio:'14:45', fim:'15:30', dur:'45 min',
-    tipo:'satelite', badge:'Satélite · Recordati',
-    titulo:'Acromegalia e pasireotida',
+    tipo:'satelite', badge:'Satélite · Recordati Rare Diseases',
+    titulo:'Atualizações no consenso de tratamento da Acromegalia e o papel da pasireotida',
     temas:['Hipófise'], navegavel:false,
-    falas:[{ n:'·', palestrante:'Dr. Tobias Skrebsky' }],
+    falas:[{ n:'·', palestrante:'Dr. Tobias Skrebsky de Almeida' }],
   },
   'simp10-obesidade': {
     id:'simp10-obesidade', dia:DIAS[1], inicio:'15:50', fim:'17:05', dur:'1h 15',
@@ -229,7 +230,7 @@ const SESSOES = {
     temas:['Obesidade'], navegavel:true,
     falas:[
       { n:1, titulo:'Menos gordura e menos músculo: abordagem', palestrante:'Dra. Fátima Sandmann Afonso' },
-      { n:2, titulo:'Emagreceu: estratégias farmacológicas de manutenção de peso perdido', palestrante:'Dra. Cristina Schreiber de Oliveira' },
+      { n:2, titulo:'Emagreceu: estratégias farmacológicas de manutenção de peso perdido', palestrante:'Dra. Cristina da Silva Schreiber de Oliveira' },
       { n:3, titulo:'Risco cardiovascular na obesidade: evidência baseada na nova diretriz brasileira', palestrante:'Dra. Luciana Muniz Pechmann' },
     ],
   },
@@ -237,7 +238,7 @@ const SESSOES = {
     id:'mini-ia', dia:DIAS[1], inicio:'17:05', fim:'17:35', dur:'30 min',
     tipo:'mini', badge:'Mini-Conferência', titulo:'IA no consultório do endocrinologista',
     moderador:'Dr. Itairan da Silva Terres',
-    temas:['IA','Tecnologia'], navegavel:true, starred:true,
+    temas:['IA','Tecnologia'], navegavel:true,
     falas:[{ n:'·', palestrante:'Dra. Milena Gurgel Teles Bezerra', label:'tema-chave' }],
   },
 };
@@ -327,33 +328,48 @@ const PALESTRANTES = {
    SPEAKER BIOS
    ============================================================ */
 const SPEAKER_BIOS = {
-  'Dr. Cleo Otaviano Mesa Jr.':{role:'Endocrinologista · Curitiba (PR)',bio:'Especialista em tireoide com atuação em centros de referência do Sul. Membro ativo da SBEM em CDT e seguimento de longo prazo.'},
-  'Dr. Fúlvio Tomaselli':{role:'Presidente do CCEM 2026 · SBEM-SC',bio:'Endocrinologista, CRM/SC 7031. Presidente da SBEM-SC na gestão 2025/2026. Responsável técnico médico pelo congresso.'},
-  'Dr. Frederico Marchisotti':{role:'Presidente-Eleito SBEM-SC',bio:'Endocrinologista. Atua em obesidade, metabolismo e medicina baseada em evidências.'},
+  'Dr. Cleo Otaviano Mesa Júnior':{role:'Endocrinologista · Curitiba (PR)',bio:'Especialista em tireoide com atuação em centros de referência do Sul. Membro ativo da SBEM em CDT e seguimento de longo prazo.'},
+  'Dr. Fulvio Clemo Santos Tomaselli':{role:'Presidente do CCEM 2026 · SBEM-SC',bio:'Endocrinologista, CRM/SC 7031. Presidente da SBEM-SC na gestão 2025/2026. Responsável técnico médico pelo congresso.'},
+  'Dr. Frederico Guimarães Marchisotti':{role:'Presidente-Eleito SBEM-SC',bio:'Endocrinologista. Atua em obesidade, metabolismo e medicina baseada em evidências.'},
   'Dr. Neuton Dornelas Gomes':{role:'Endocrinologista',bio:'Atuação em bioética aplicada à prescrição de fórmulas manipuladas e estratégias de emagrecimento.'},
-  'Dr. Itairan da Silva Terres':{role:'Comissão Científica · Endocrinologista e bioeticista',bio:'Professor de medicina na UNIDAVI. Membro da Comissão Científica do CCEM 2026. Sua fala discute o problema do excesso de exames sem hipótese clínica.',isMe:true},
+  'Dr. Itairan da Silva Terres':{role:'Comissão Científica · Endocrinologista e bioeticista',bio:'Professor de medicina na UNIDAVI. Membro da Comissão Científica do CCEM 2026.'},
   'Dra. Goretti Silveira Rodrigues':{role:'Endocrinologista',bio:'Atuação em tireoide e seguimento de pacientes com carcinoma diferenciado.'},
   'Dra. Julia Goulart Appel':{role:'Endocrinologista',bio:'Atuação em hipófise, hiperprolactinemia e síndrome de Cushing.'},
   'Dra. Amely Pereira Silva Balthazar':{role:'Endocrinologista',bio:'Atuação em hipófise e desafios diagnósticos da hiperprolactinemia.'},
   'Dra. Demelise Demczuk':{role:'Endocrinologista',bio:'Atuação em endocrinologia feminina, perimenopausa e SOP.'},
-  'Dra. Carina Morellato':{role:'Secretária Executiva SBEM-SC · Comissão Organizadora',bio:'Endocrinologista. Atuação em SOP e endocrinologia ginecológica.'},
+  'Dra. Carina Gabriela Corrêa Morellato':{role:'Secretária Executiva SBEM-SC · Comissão Organizadora',bio:'Endocrinologista. Atuação em SOP e endocrinologia ginecológica.'},
   'Dra. Amanda Meneses Ferreira Lacombe':{role:'Endocrinologista',bio:'Atuação em adrenal, com foco em Cushing subclínico e incidentaloma.'},
   'Dr. Guilherme Asmar Alencar':{role:'Endocrinologista',bio:'Atuação em adrenal e hiperaldosteronismo.'},
   'Dra. Suely Keiko Kohara':{role:'Comissão Científica · Endocrinologista pediátrica',bio:'Membro da Comissão Científica do CCEM 2026. Atuação em endocrinologia pediátrica.'},
   'Dr. Fabio Herget Pitanga':{role:'Tesoureiro SBEM-SC · Comissão Organizadora',bio:'Endocrinologista. Atuação em obesidade e síndrome metabólica.'},
   'Dra. Fátima Sandmann Afonso':{role:'Endocrinologista',bio:'Atuação em obesidade, sarcopenia e composição corporal.'},
-  'Dra. Cristina Schreiber de Oliveira':{role:'Endocrinologista',bio:'Atuação em obesidade e manutenção do peso perdido.'},
-  'Dra. Milena Gurgel Teles Bezerra':{role:'Convidada nacional · São Paulo',bio:'Referência em aplicação de inteligência artificial à prática endocrinológica. Tema-chave do encerramento do CCEM 2026.',isKey:true},
+  'Dra. Cristina da Silva Schreiber de Oliveira':{role:'Endocrinologista',bio:'Atuação em obesidade e manutenção do peso perdido.'},
+  // Curadoria conferida no Currículo Lattes (ID 5342142388498500, atualizado
+  // em 01/06/2026). O registro anterior dizia São Paulo: vínculo com o Fleury,
+  // encerrado em abril de 2022. Os vínculos atuais são em Fortaleza.
+  'Dra. Milena Gurgel Teles Bezerra':{role:'Endocrinologista · Fortaleza (CE)',bio:'Graduada em Medicina pela UFC, com doutorado e pós-doutorado em Endocrinologia e Metabologia pela FMUSP e doutorado-sanduíche na Harvard Medical School. Pesquisadora da pós-graduação em Endocrinologia do HC-FMUSP, nas Unidades de Diabetes e de Genética, e professora da pós-graduação em Medicina Translacional da UFC. Fundou em 2011 o grupo de pesquisa em diabetes monogênico da USP e integra desde 2018 o Monogenic Diabetes Expert Panel. Prêmio Jovem Pesquisador da SBEM-SP em 2021. Atua em diabetes monogênico — MODY, diabetes neonatal e lipodistrofias — e na aplicação de inteligência artificial à prática clínica.',isKey:true},
   'Dra. Talita Letícia Trevisan':{role:'Endocrinologista · Itajaí',bio:'Atuação em diabetes e tecnologias de monitorização glicêmica.'},
   'Dra. Lireda Meneses Silva':{role:'Endocrinologista',bio:'Atuação em tireoide e seguimento do CDT.'},
-  'Dra. Marta Amaro Duval':{role:'Endocrinologista',bio:'Atuação em tireoide e carcinoma diferenciado.'},
+  'Dra. Marta Amaro da Silveira Duval':{role:'Endocrinologista',bio:'Atuação em tireoide e carcinoma diferenciado.'},
   'Dra. Marilza Leal Nascimento':{role:'Endocrinologista pediátrica',bio:'Referência regional em baixa estatura e desenvolvimento puberal.'},
-  'Dra. Ruth Clapauch':{role:'Convidada nacional · Rio de Janeiro (RJ)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Elaine Frade Costa':{role:'Conferencista convidada',bio:'Minicurrículo pendente de curadoria.'},
-  'Dr. Tobias Skrebsky':{role:'Convidado nacional · Rio Grande do Sul (RS)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dr. Mario Sérgio Zen':{role:'Convidado nacional · Espírito Santo (ES)',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Viviane Calice':{role:'Conferencista convidada',bio:'Minicurrículo pendente de curadoria.'},
-  'Dra. Ana Cristina Probst':{role:'Moderadora · Simpósio de Adrenal',bio:'Minicurrículo pendente de curadoria.'},
+  'Dr. Dalisbor Marcelo Weber Silva':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dr. Luíz Antônio de Araújo':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dr. Mauro Scharf Pinto':{role:'Paraná (PR)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dr. Paulo de Tarso Freitas':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Adriana Striebel':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Flaviana Aparecida Dalla Vechia':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Julia Carpanezzi La Pastina':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Júlia Vieira Oberger Marques':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Luciana Muniz Pechmann':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Maria Heloísa Busi da Silva Canalli':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Tanise Balvedi Damas':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Zuleica Isabel Zarabia':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Ruth Clapauch':{role:'Rio de Janeiro (RJ)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Elaine Maria Frade Costa':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dr. Tobias Skrebsky de Almeida':{role:'Rio Grande do Sul (RS)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dr. Mario Sérgio Zen':{role:'Espírito Santo (ES)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Viviane Calice':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
+  'Dra. Ana Cristina Tavares Probst':{role:'Santa Catarina (SC)',bio:'Minicurrículo pendente de curadoria.'},
   'Dra. Rose Marie Mueller Linhares':{role:'Endocrinologista pediátrica',bio:'Atuação em obesidade infantil e doenças metabólicas pediátricas.'},
 };
 
@@ -412,8 +428,41 @@ const PROGRAM_DAYS_LS = [
   ]},
 ];
 
+/* ============================================================
+   RELÓGIO DO APP
+   ------------------------------------------------------------
+   Tudo que depende de hora passa por aqui. Em teste, aceita
+   ?agora=2026-10-23T16:20 na URL para simular o congresso em
+   curso; fora isso é o relógio do aparelho.
+   ============================================================ */
+function ccemAgora() {
+  try {
+    const p = new URLSearchParams(window.location.search).get('agora');
+    if (p) { const d = new Date(p); if (!isNaN(d.getTime())) return d; }
+  } catch (e) {}
+  return new Date();
+}
+
+/* Os dois dias do congresso. Nada é marcado como "agora" fora deles. */
+const DIAS_EVENTO = [
+  { data: new Date(2026,9,23), rotulo: DIAS[0] },
+  { data: new Date(2026,9,24), rotulo: DIAS[1] },
+];
+
+/* A sessão está acontecendo neste instante?
+   Falso em qualquer data que não seja 23 ou 24/10/2026. */
+function ccemSessaoNoAr(s, agora) {
+  if (!s || !s.inicio || !s.fim) return false;
+  agora = agora || ccemAgora();
+  const dia = DIAS_EVENTO.find(d => d.data.toDateString() === agora.toDateString());
+  if (!dia || s.dia !== dia.rotulo) return false;
+  const hm = t => { const [h,m] = t.split(':').map(Number);
+                    const o = new Date(dia.data); o.setHours(h,m,0,0); return o; };
+  return agora >= hm(s.inicio) && agora < hm(s.fim);
+}
+
 function ccemLiveStatus() {
-  const now = new Date();
+  const now = ccemAgora();
   function parseHM(d,hm){const[h,m]=hm.split(':').map(Number);const o=new Date(d);o.setHours(h,m,0,0);return o;}
   function fmtHM(d){return d.getHours()+':'+String(d.getMinutes()).padStart(2,'0');}
   for(const day of PROGRAM_DAYS_LS){
@@ -465,4 +514,4 @@ const WORKS = [
   {id:'P-009',cat:'feminina',type:'Original',title:'Hormonioterapia em mulheres trans no SUS-SC: 3 centros',message:'Acesso ainda fragmentado — protocolos regionais aumentam segurança.',authors:'Dra. Vitória Salles, Dra. Aline Beltrami · SES-SC / HU-UFSC',audio:true,votes:47,qa:2},
 ];
 
-Object.assign(window, { C, TEMAS_COR, DIAS, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, PROGRAM_DAYS_LS, ccemLiveStatus, WORK_CATS, WORKS });
+Object.assign(window, { C, TEMAS_COR, DIAS, DIAS_EVENTO, ccemAgora, ccemSessaoNoAr, SESSOES, SESSOES_NAV, PROGRAMA, PALESTRANTES, ccemPalestrante, go, ccemDiaDeHoje, SESSION_META, SPEAKER_BIOS, PROGRAM_DAYS_LS, ccemLiveStatus, WORK_CATS, WORKS });
