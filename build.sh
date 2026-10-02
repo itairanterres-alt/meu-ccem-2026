@@ -14,7 +14,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-ARQUIVOS=(ccem-lib ccem-screens ccem-home ccem-caderno ccem-assistente ccem-app)
+ARQUIVOS=(ccem-lib ccem-screens ccem-home ccem-caderno ccem-slide ccem-assistente ccem-app)
 
 echo "Compilando JSX -> JS..."
 for f in "${ARQUIVOS[@]}"; do

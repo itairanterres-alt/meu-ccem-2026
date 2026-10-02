@@ -19,7 +19,7 @@
    Ao publicar uma atualização, incrementar CACHE_VERSION.
    ============================================================ */
 
-const CACHE_VERSION = 'ccem-v13';
+const CACHE_VERSION = 'ccem-v14';
 const CACHE_NAME    = CACHE_VERSION;
 
 // Sem estes, o app não funciona: entram juntos ou a versão não instala.
@@ -34,6 +34,7 @@ const ESSENCIAL = [
   './v4/ccem-screens.js',
   './v4/ccem-home.js',
   './v4/ccem-caderno.js',
+  './v4/ccem-slide.js',
   './v4/ccem-assistente.js',
   './v4/ccem-app.js',
 ];

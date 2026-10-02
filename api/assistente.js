@@ -19,6 +19,7 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 const Anthropic = require('@anthropic-ai/sdk');
+const { registrarUso } = require('./_comum');
 
 const MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
 const TEMPO_MAXIMO_MS = 20000;
@@ -210,6 +211,7 @@ async function callAI(corpo) {
     system: [{ type: 'text', text: SISTEMA, cache_control: { type: 'ephemeral' } }],
     messages: montarMensagens(corpo),
   });
+  registrarUso('assistente', MODELO, resposta.usage);
 
   if (resposta.stop_reason === 'refusal') {
     return { modo: 'fora_de_escopo', mensagem: 'Não posso ajudar com esse pedido. Posso anotar slides, buscar no programa e responder dúvidas práticas do congresso.', pontos: [], referencia: '', sessoes: [] };

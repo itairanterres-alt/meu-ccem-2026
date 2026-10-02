@@ -62,7 +62,7 @@ function ccemAvisarGravacao(ok, extra) {
   if (!ok) showToast("N\xE3o foi poss\xEDvel salvar neste aparelho \u2014 exporte antes de fechar");
   else showToast(extra || "Salvo neste aparelho");
 }
-async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA }) {
+async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida }) {
   const st0 = _ccemStore.state;
   const antiga = (st0.captures || []).find((c) => c.id === id);
   id = id || ccemNovaNotaId();
@@ -99,6 +99,7 @@ async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA }) {
       tags: s && s.temas || []
     };
     if (resumoIA !== void 0) nota.resumoIA = resumoIA;
+    if (duvida !== void 0) nota.duvida = !!duvida;
     if (antiga) nota.editadoEm = agora;
     const i = st.captures.findIndex((c) => c.id === id);
     if (i >= 0) st.captures[i] = nota;
@@ -155,6 +156,7 @@ function EditorNota({ notaId, sessaoId, aoFechar }) {
   const [sessao, setSessao] = useState(sessaoInicial || "");
   const [foto, setFoto] = useState(void 0);
   const [salvando, setSalvando] = useState(false);
+  const [duvida, setDuvida] = useState(!!(antiga && antiga.duvida));
   const fotoRef = useRef(null);
   const fotoVista = foto === void 0 ? fotoSalva : foto;
   useEffect(() => {
@@ -178,7 +180,7 @@ function EditorNota({ notaId, sessaoId, aoFechar }) {
       return;
     }
     setSalvando(true);
-    await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao });
+    await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida });
     setSalvando(false);
     aoFechar();
   }
@@ -258,7 +260,7 @@ function EditorNota({ notaId, sessaoId, aoFechar }) {
         },
         /* @__PURE__ */ React.createElement(IcoCam, { size: 18, color: C.azul }),
         "Fotografar ou anexar slide"
-      ), /* @__PURE__ */ React.createElement("p", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.45, margin: "12px 0 0" } }, 'A nota e a foto ficam s\xF3 neste aparelho e funcionam sem internet. Depois, se quiser, use "Resumir com IA" no Caderno.')),
+      ), /* @__PURE__ */ React.createElement("label", { style: { display: "flex", alignItems: "center", gap: 10, minHeight: 44, marginTop: 10, fontSize: 14, color: C.tinta, cursor: "pointer" } }, /* @__PURE__ */ React.createElement("input", { type: "checkbox", checked: duvida, onChange: (e) => setDuvida(e.target.checked), style: { width: 22, height: 22, accentColor: C.azul } }), "Marcar como d\xFAvida ", /* @__PURE__ */ React.createElement("span", { style: { fontSize: 12.5, color: C.cinza } }, '(para rever depois; filtro "D\xFAvidas")')), /* @__PURE__ */ React.createElement("p", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.45, margin: "12px 0 0" } }, 'A nota e a foto ficam s\xF3 neste aparelho e funcionam sem internet. Depois, se quiser, use "Resumir com IA" no Caderno.')),
       /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, padding: "10px 16px 12px", borderTop: `1px solid ${C.linhaSoft}`, flexShrink: 0 } }, antiga && /* @__PURE__ */ React.createElement("button", { onClick: excluir, style: { ...BTN, background: "#fff", border: "1px solid #c53030", color: "#c53030" } }, "Excluir"), /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }), /* @__PURE__ */ React.createElement("button", { onClick: aoFechar, style: { ...BTN, background: "#fff", border: `1px solid ${C.linha}`, color: C.cinza } }, "Cancelar"), /* @__PURE__ */ React.createElement("button", { onClick: salvar, disabled: salvando, style: { ...BTN, background: C.azul, border: "none", color: "#fff", opacity: salvando ? 0.6 : 1 } }, salvando ? "Salvando\u2026" : "Salvar"))
     )
   );
@@ -289,9 +291,11 @@ async function ccemExportarCaderno(captures) {
   const rows = lista.map((c) => {
     const { data, hora } = ccemDataHoraJoinville(c.ts);
     const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : c.sessaoRef || "";
-    return `<div class="nota"><div class="meta">${esc(data)} \xB7 ${esc(hora)} \xB7 ${esc(sess)}</div><h3>${esc(c.title)}</h3>` + (fotos[c.id] ? `<img src="${fotos[c.id]}" alt="">` : "") + (c.body ? `<div class="body">${esc(ccemNotaEmTexto(c.body))}</div>` : "") + (c.resumoIA ? `<div class="ia"><b>Resumo da IA</b>
+    return `<div class="nota"><div class="meta">${esc(data)} \xB7 ${esc(hora)} \xB7 ${esc(sess)}</div><h3>${esc(c.title)}</h3>` + (c.duvida || ccemPatrocinio(c.sessaoId) ? `<div class="meta">${[c.duvida ? "D\xFAvida" : "", ccemPatrocinio(c.sessaoId)].filter(Boolean).map(esc).join(" \xB7 ")}</div>` : "") + (fotos[c.id] ? `<img src="${fotos[c.id]}" alt="">` : "") + (c.body ? `<div class="body">${esc(ccemNotaEmTexto(c.body))}</div>` : "") + (c.resumoIA ? `<div class="ia"><b>Resumo da IA</b>
 ${esc(c.resumoIA)}
-<i>Gerado por IA \u2014 confira na fonte</i></div>` : "") + `</div>`;
+<i>Gerado por IA \u2014 confira na fonte</i></div>` : "") + (c.artigo ? `<div class="meta">Artigo: ${esc(c.artigo.autores.slice(0, 3).join(", "))}${c.artigo.autores.length > 3 ? " et al." : ""}. ${esc(c.artigo.titulo)}. ${esc(c.artigo.revista)} ${esc(c.artigo.ano)}. PMID ${esc(c.artigo.pmid)}${c.artigo.doi ? " \xB7 doi:" + esc(c.artigo.doi) : ""}</div>` : "") + (c.respostas || []).map((x) => `<div class="ia"><b>${esc(x.rotulo)}</b>
+${esc(ccemRespostaSlideEmTexto(x.r))}
+<i>${esc(x.fonte || "")} Gerado por IA \u2014 confira na fonte</i></div>`).join("") + `</div>`;
   }).join("");
   w.document.open();
   w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu Caderno \xB7 CCEM 2026</title><style>
@@ -346,6 +350,51 @@ async function ccemBaixarBackup() {
   setTimeout(() => URL.revokeObjectURL(url), 1e4);
   showToast("Backup baixado");
 }
+const ccemLinkSeguro = (u) => typeof u === "string" && /^https:\/\/[^\s"'<>]{4,500}$/.test(u) ? u : "";
+function ccemArtigoSeguro(a) {
+  if (!a || typeof a !== "object" || !/^\d{4,9}$/.test(String(a.pmid || ""))) return void 0;
+  const t = (v, n) => typeof v === "string" ? v.slice(0, n) : "";
+  const l = a.links || {};
+  return {
+    pmid: String(a.pmid),
+    titulo: t(a.titulo, 400),
+    autores: Array.isArray(a.autores) ? a.autores.filter((x) => typeof x === "string").slice(0, 6) : [],
+    revista: t(a.revista, 150),
+    ano: t(a.ano, 10),
+    volume: t(a.volume, 20),
+    paginas: t(a.paginas, 30),
+    doi: t(a.doi, 200),
+    pmcid: t(a.pmcid, 20),
+    resumo: t(a.resumo, 4e3),
+    nivel: t(a.nivel, 20),
+    links: { pubmed: `https://pubmed.ncbi.nlm.nih.gov/${a.pmid}/`, revista: ccemLinkSeguro(l.revista), pmc: ccemLinkSeguro(l.pmc), pdf: ccemLinkSeguro(l.pdf), aberto: ccemLinkSeguro(l.aberto) }
+  };
+}
+function ccemRespostaSegura(x) {
+  if (!x || typeof x !== "object" || !x.r || typeof x.r !== "object") return null;
+  const t = (v, n) => typeof v === "string" ? v.slice(0, n) : "";
+  const arr = (v, n) => Array.isArray(v) ? v.filter((i) => typeof i === "string").map((i) => i.slice(0, 600)).slice(0, n) : [];
+  const r = x.r;
+  return {
+    id: t(x.id, 40),
+    acao: t(x.acao, 30),
+    rotulo: t(x.rotulo, 1e3),
+    fonte: t(x.fonte, 200),
+    aprofundada: !!x.aprofundada,
+    ts: Number.isFinite(x.ts) ? x.ts : 0,
+    r: {
+      titulo: t(r.titulo, 100),
+      no_slide: t(r.no_slide, 3e3),
+      explicacao: t(r.explicacao, 5e3),
+      limites: t(r.limites, 2e3),
+      itens: arr(r.itens, 30),
+      siglas: Array.isArray(r.siglas) ? r.siglas.filter((s) => s && typeof s.sigla === "string").slice(0, 30).map((s) => ({ sigla: t(s.sigla, 40), significado: t(s.significado, 300) })) : [],
+      referencia: t(r.referencia, 500),
+      palavras_chave: arr(r.palavras_chave, 10),
+      texto_extraido: t(r.texto_extraido, 6e3)
+    }
+  };
+}
 async function ccemRestaurarBackup(arquivo) {
   let d;
   try {
@@ -370,7 +419,16 @@ async function ccemRestaurarBackup(arquivo) {
     title: txt(c.title, 120),
     body: txt(c.body, 2e4),
     resumoIA: c.resumoIA ? txt(c.resumoIA, 8e3) : void 0,
-    tags: Array.isArray(c.tags) ? c.tags.filter((t) => typeof t === "string").slice(0, 10) : []
+    tags: Array.isArray(c.tags) ? c.tags.filter((t) => typeof t === "string").slice(0, 10) : [],
+    duvida: c.duvida === true || void 0,
+    refLida: c.refLida ? txt(c.refLida, 600) : void 0,
+    indice: c.indice && typeof c.indice === "object" ? {
+      titulo: txt(c.indice.titulo, 120),
+      texto: txt(c.indice.texto, 1500),
+      palavras: Array.isArray(c.indice.palavras) ? c.indice.palavras.filter((t) => typeof t === "string").map((t) => t.slice(0, 60)).slice(0, 10) : []
+    } : void 0,
+    artigo: ccemArtigoSeguro(c.artigo),
+    respostas: Array.isArray(c.respostas) ? c.respostas.slice(-30).map(ccemRespostaSegura).filter(Boolean) : void 0
   }));
   let fotosOk = 0;
   for (const [id, dataUrl] of Object.entries(d.fotos || {})) {
@@ -447,9 +505,17 @@ function AvisoSemArmazenamento() {
   if (_ccemSalvamento.ok) return null;
   return /* @__PURE__ */ React.createElement("p", { role: "alert", style: { fontSize: 12.5, color: "#7c2d12", lineHeight: 1.45, margin: "0 0 10px", padding: "8px 10px", background: "#fff4e5", borderRadius: 7, borderLeft: "3px solid #c2410c" } }, "Este navegador n\xE3o est\xE1 deixando o app salvar. Suas notas ficam s\xF3 enquanto esta aba estiver aberta \u2014 exporte antes de fechar.");
 }
+function ccemPatrocinio(sessaoId) {
+  const s = SESSOES[sessaoId];
+  return s && s.tipo === "satelite" ? "Sess\xE3o patrocinada" + (s.badge.includes("\xB7") ? " por " + s.badge.split("\xB7").pop().trim() : "") : "";
+}
 function NotaCartao({ c }) {
   const foto = useFoto(c.foto);
   const [resumindo, setResumindo] = useState(false);
+  const [painel, setPainel] = useState(false);
+  const [artigo, setArtigo] = useState(false);
+  const patrocinio = ccemPatrocinio(c.sessaoId);
+  const nResp = (c.respostas || []).length;
   const temConteudo = !!(c.body || c.foto);
   const cor = c.type === "foto" ? C.azul : C.ouroTxt;
   async function resumir() {
@@ -458,15 +524,82 @@ function NotaCartao({ c }) {
     setResumindo(false);
   }
   const ACAO = { minHeight: 44, display: "flex", alignItems: "center", gap: 5, background: "none", border: "none", padding: "0 6px", cursor: "pointer", fontFamily: "DM Sans,sans-serif", fontSize: 12.5, fontWeight: 600, color: C.azul };
-  return /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderRadius: 10, padding: "10px 12px 4px", marginBottom: 8, border: `1px solid ${C.linhaSoft}`, borderLeft: `3px solid ${cor}` } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6, marginBottom: 5 } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: cor, textTransform: "uppercase", letterSpacing: "0.07em", fontWeight: 600 } }, c.type), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } }, c.sessaoRef, " \xB7 ", c.time)), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, fontWeight: 600, color: C.tinta, marginBottom: 4, lineHeight: 1.3 } }, c.title), foto && /* @__PURE__ */ React.createElement("img", { src: foto, alt: "Foto da nota", onClick: () => ccemAbrirEditor({ notaId: c.id }), style: { display: "block", maxWidth: "100%", maxHeight: 180, borderRadius: 8, margin: "4px 0 6px", cursor: "pointer" } }), c.body && /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, ccemNotaEmTexto(c.body)), c.resumoIA && /* @__PURE__ */ React.createElement("div", { style: { marginTop: 8, padding: "8px 10px", background: "#f3f6fc", borderLeft: `3px solid ${C.azulSoft}`, borderRadius: 6 } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: C.azul, marginBottom: 3 } }, "Resumo da IA"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, c.resumoIA), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, marginTop: 4 } }, "Gerado por IA \u2014 confira na fonte")), (c.tags || []).length > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 4, marginTop: 6, flexWrap: "wrap" } }, c.tags.map((t) => /* @__PURE__ */ React.createElement("span", { key: t, style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azulSoft, background: C.azulBg + "60", padding: "2px 7px", borderRadius: 8 } }, t))), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 4, marginTop: 2 } }, /* @__PURE__ */ React.createElement("button", { onClick: () => ccemAbrirEditor({ notaId: c.id }), style: ACAO }, "Editar"), temConteudo && !c.resumoIA && /* @__PURE__ */ React.createElement("button", { onClick: resumir, disabled: resumindo, style: { ...ACAO, opacity: resumindo ? 0.6 : 1 } }, /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "18", height: "18", style: { borderRadius: "50%" } }), resumindo ? "Resumindo\u2026" : "Resumir com IA")));
+  return /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderRadius: 10, padding: "10px 12px 4px", marginBottom: 8, border: `1px solid ${C.linhaSoft}`, borderLeft: `3px solid ${cor}` } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6, marginBottom: 5 } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: cor, textTransform: "uppercase", letterSpacing: "0.07em", fontWeight: 600 } }, c.type), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } }, c.sessaoRef, " \xB7 ", c.time)), (c.duvida || patrocinio) && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 5, flexWrap: "wrap", marginBottom: 5 } }, c.duvida && /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: "#9a3412", background: "#fff4e5", padding: "1px 8px", borderRadius: 8 } }, "D\xFAvida"), patrocinio && /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, background: "#f1f3f7", padding: "1px 8px", borderRadius: 8 } }, patrocinio)), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, fontWeight: 600, color: C.tinta, marginBottom: 4, lineHeight: 1.3 } }, c.title), foto && /* @__PURE__ */ React.createElement("img", { src: foto, alt: "Foto da nota", onClick: () => ccemAbrirEditor({ notaId: c.id }), style: { display: "block", maxWidth: "100%", maxHeight: 180, borderRadius: 8, margin: "4px 0 6px", cursor: "pointer" } }), c.body && /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, ccemNotaEmTexto(c.body)), c.resumoIA && /* @__PURE__ */ React.createElement("div", { style: { marginTop: 8, padding: "8px 10px", background: "#f3f6fc", borderLeft: `3px solid ${C.azulSoft}`, borderRadius: 6 } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: C.azul, marginBottom: 3 } }, "Resumo da IA"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, c.resumoIA), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, marginTop: 4 } }, "Gerado por IA \u2014 confira na fonte")), c.artigo && /* @__PURE__ */ React.createElement(
+    "a",
+    {
+      href: c.artigo.links.pdf || c.artigo.links.aberto || c.artigo.links.pubmed,
+      target: "_blank",
+      rel: "noopener",
+      style: { display: "block", marginTop: 8, padding: "7px 10px", background: "#f3f6fc", borderRadius: 6, fontSize: 12.5, color: C.azul, textDecoration: "none", lineHeight: 1.4 }
+    },
+    "Artigo: ",
+    c.artigo.autores[0],
+    c.artigo.autores.length > 1 ? " et al." : "",
+    " \xB7 ",
+    c.artigo.revista,
+    " ",
+    c.artigo.ano,
+    " \xB7 PMID ",
+    c.artigo.pmid,
+    c.artigo.links.pdf ? " \xB7 PDF dispon\xEDvel" : ""
+  ), nResp > 0 && /* @__PURE__ */ React.createElement("button", { onClick: () => setPainel(true), style: { display: "block", marginTop: 8, minHeight: 44, width: "100%", textAlign: "left", padding: "0 10px", background: "#eef3fb", border: "none", borderRadius: 6, fontFamily: "DM Sans,sans-serif", fontSize: 12.5, color: C.azul, cursor: "pointer" } }, nResp, " resposta", nResp !== 1 ? "s" : "", " da IA sobre este slide \xB7 abrir"), (c.tags || []).length > 0 && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 4, marginTop: 6, flexWrap: "wrap" } }, c.tags.map((t) => /* @__PURE__ */ React.createElement("span", { key: t, style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azulSoft, background: C.azulBg + "60", padding: "2px 7px", borderRadius: 8 } }, t))), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 2, marginTop: 2, flexWrap: "wrap" } }, /* @__PURE__ */ React.createElement("button", { onClick: () => ccemAbrirEditor({ notaId: c.id }), style: ACAO }, "Editar"), c.foto && /* @__PURE__ */ React.createElement("button", { onClick: () => setPainel(true), style: ACAO }, /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "18", height: "18", style: { borderRadius: "50%" } }), "Perguntar sobre o slide"), c.foto && /* @__PURE__ */ React.createElement("button", { onClick: () => setArtigo(true), style: ACAO }, c.artigo ? "Artigo vinculado" : "Encontrar o artigo"), temConteudo && !c.resumoIA && !c.foto && /* @__PURE__ */ React.createElement("button", { onClick: resumir, disabled: resumindo, style: { ...ACAO, opacity: resumindo ? 0.6 : 1 } }, /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "18", height: "18", style: { borderRadius: "50%" } }), resumindo ? "Resumindo\u2026" : "Resumir com IA")), painel && /* @__PURE__ */ React.createElement(PainelSlide, { notaId: c.id, aoFechar: () => setPainel(false) }), artigo && /* @__PURE__ */ React.createElement(FolhaArtigo, { notaId: c.id, aoFechar: () => setArtigo(false) }));
 }
 function CadernoScreen() {
   const appState = useAppState();
   const [filtro, setFiltro] = useState("all");
   const [backup, setBackup] = useState(false);
+  const [busca, setBusca] = useState("");
+  const [organizando, setOrganizando] = useState(null);
   const captures = appState.captures || [];
-  const filtered = filtro === "all" ? captures : captures.filter((c) => c.type === filtro);
-  const counts = { all: captures.length, foto: captures.filter((c) => c.type === "foto").length, texto: captures.filter((c) => c.type !== "foto").length };
+  const termo = norm(busca.trim());
+  const acha = (c) => !termo || norm([
+    c.title,
+    c.body,
+    c.resumoIA,
+    c.sessaoRef,
+    (c.tags || []).join(" "),
+    c.indice && c.indice.titulo,
+    c.indice && c.indice.texto,
+    c.indice && (c.indice.palavras || []).join(" "),
+    c.artigo && c.artigo.titulo,
+    (c.respostas || []).map((x) => [
+      x.rotulo,
+      ccemRespostaSlideEmTexto(x.r),
+      x.r.texto_extraido,
+      x.r.referencia,
+      (x.r.siglas || []).map((s) => s.sigla + " " + s.significado).join(" ")
+    ].filter(Boolean).join(" ")).join(" "),
+    c.refLida
+  ].filter(Boolean).join(" ")).includes(termo);
+  const porTipo = (c) => filtro === "all" || (filtro === "duvida" ? !!c.duvida : filtro === "foto" ? c.type === "foto" : c.type !== "foto");
+  const filtered = captures.filter((c) => porTipo(c) && acha(c));
+  const counts = { all: captures.length, foto: captures.filter((c) => c.type === "foto").length, texto: captures.filter((c) => c.type !== "foto").length, duvida: captures.filter((c) => c.duvida).length };
+  const semIndice = captures.filter((c) => c.foto && !c.indice);
+  async function organizarTodas() {
+    let consentiu = false;
+    try {
+      consentiu = localStorage.getItem("ccem2026:organizarConsentido") === "1";
+    } catch (e) {
+    }
+    if (!consentiu) {
+      if (!confirm("Organizar as fotos para a busca envia cada foto \xE0 Anthropic (EUA), uma vez, para extrair t\xEDtulo, texto e palavras-chave. O app n\xE3o guarda c\xF3pia no servidor. N\xE3o use em fotos com imagem identific\xE1vel de paciente.\n\nContinuar?")) return;
+      try {
+        localStorage.setItem("ccem2026:organizarConsentido", "1");
+      } catch (e) {
+      }
+    }
+    const fila = semIndice.slice(0, 40);
+    setOrganizando({ feitas: 0, total: fila.length });
+    for (let i = 0; i < fila.length; i++) {
+      const r = await ccemOrganizarNota(fila[i].id);
+      if (r.aviso && r.aviso !== "sem foto") {
+        showToast(r.aviso);
+        break;
+      }
+      setOrganizando({ feitas: i + 1, total: fila.length });
+    }
+    setOrganizando(null);
+  }
   const sessoes = new Set(captures.map((c) => c.sessaoId).filter(Boolean)).size;
   const isDia0 = (c) => c.dia === DIAS[0] || c.day === "sexta";
   const isDia1 = (c) => c.dia === DIAS[1] || c.day === "sabado";
@@ -483,7 +616,24 @@ function CadernoScreen() {
     },
     /* @__PURE__ */ React.createElement(IcoPlus, { size: 17, color: "#fff" }),
     "Nova nota"
-  )), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 5, padding: "0 12px", background: "#f8fafd", borderBottom: `1px solid ${C.linhaSoft}`, overflowX: "auto", flexShrink: 0, scrollbarWidth: "none" } }, fchip("all", "Tudo"), fchip("foto", "Fotos"), fchip("texto", "Textos")), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "10px 12px" } }, filtered.length === 0 ? /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "40px 20px", color: C.cinza } }, /* @__PURE__ */ React.createElement("h4", { style: { fontSize: 14, fontWeight: 600, color: C.tinta, marginBottom: 6 } }, "Caderno vazio"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, lineHeight: 1.5, margin: 0 } }, "Toque em ", /* @__PURE__ */ React.createElement("strong", null, "Nova nota"), ", ou em ", /* @__PURE__ */ React.createElement("strong", null, "Anotar"), " numa sess\xE3o. Funciona sem internet.")) : /* @__PURE__ */ React.createElement(React.Fragment, null, bySex.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { ...DIA, margin: "2px 0 8px" } }, "Sexta \xB7 23 outubro"), bySex.map((c) => /* @__PURE__ */ React.createElement(NotaCartao, { key: c.id, c }))), bySab.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { ...DIA, margin: "12px 0 8px" } }, "S\xE1bado \xB7 24 outubro"), bySab.map((c) => /* @__PURE__ */ React.createElement(NotaCartao, { key: c.id, c }))), bsOrph.length > 0 && bsOrph.map((c) => /* @__PURE__ */ React.createElement(NotaCartao, { key: c.id, c })))), /* @__PURE__ */ React.createElement("div", { style: { padding: "8px 12px", background: "#fff", borderTop: `1px solid ${C.linha}`, display: "flex", alignItems: "center", gap: 8, flexShrink: 0 } }, /* @__PURE__ */ React.createElement("p", { style: { flex: 1, fontSize: 12, color: C.cinza, lineHeight: 1.35, margin: 0 } }, /* @__PURE__ */ React.createElement("strong", null, _ccemSalvamento.ok ? "Salvo neste aparelho" : "N\xE3o salvo"), " \xB7 ", captures.length, " nota", captures.length !== 1 ? "s" : ""), /* @__PURE__ */ React.createElement("button", { onClick: () => setBackup(true), style: { minHeight: 44, background: "#fff", color: C.azul, border: `1px solid ${C.linha}`, borderRadius: 8, padding: "0 12px", fontSize: 12.5, fontWeight: 600, cursor: "pointer", fontFamily: "inherit" } }, "Backup"), /* @__PURE__ */ React.createElement(
+  )), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 5, padding: "0 12px", background: "#f8fafd", borderBottom: `1px solid ${C.linhaSoft}`, overflowX: "auto", flexShrink: 0, scrollbarWidth: "none" } }, fchip("all", "Tudo"), fchip("foto", "Fotos"), fchip("texto", "Textos"), counts.duvida > 0 && fchip("duvida", "D\xFAvidas")), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "10px 12px" } }, captures.length > 0 && /* @__PURE__ */ React.createElement("div", { style: { position: "relative", display: "flex", alignItems: "center", marginBottom: 8 } }, /* @__PURE__ */ React.createElement("span", { style: { position: "absolute", left: 12, pointerEvents: "none" } }, /* @__PURE__ */ React.createElement(IcoSearch, { size: 15, color: C.cinza })), /* @__PURE__ */ React.createElement(
+    "input",
+    {
+      value: busca,
+      onChange: (e) => setBusca(e.target.value),
+      placeholder: "Buscar nas notas e fotos",
+      "aria-label": "Buscar nas notas e fotos",
+      style: { width: "100%", minHeight: 44, boxSizing: "border-box", padding: "8px 40px 8px 34px", border: `1px solid ${C.linha}`, borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 16, color: C.tinta, background: "#fff", outline: "none" }
+    }
+  ), busca && /* @__PURE__ */ React.createElement("button", { onClick: () => setBusca(""), "aria-label": "Limpar busca", style: { position: "absolute", right: 0, width: 44, height: 44, background: "none", border: "none", cursor: "pointer", color: C.cinza, display: "flex", alignItems: "center", justifyContent: "center", padding: 0 } }, /* @__PURE__ */ React.createElement(IcoX, { size: 14 }))), semIndice.length > 0 && /* @__PURE__ */ React.createElement(
+    "button",
+    {
+      onClick: organizarTodas,
+      disabled: !!organizando,
+      style: { width: "100%", minHeight: 44, marginBottom: 10, padding: "6px 12px", textAlign: "left", background: "#fff", border: `1px dashed ${C.linha}`, borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 12.5, color: C.azul, cursor: "pointer" }
+    },
+    organizando ? `Organizando fotos para a busca\u2026 ${organizando.feitas} de ${organizando.total}` : `${semIndice.length} foto${semIndice.length !== 1 ? "s" : ""} ainda sem texto para a busca \xB7 organizar com IA`
+  ), filtered.length === 0 && termo ? /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "30px 20px", color: C.cinza, fontSize: 13 } }, 'Nada encontrado para "', busca.trim(), '".', semIndice.length > 0 ? " Fotos ainda n\xE3o organizadas n\xE3o entram na busca pelo texto do slide." : "") : filtered.length === 0 ? /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "40px 20px", color: C.cinza } }, /* @__PURE__ */ React.createElement("h4", { style: { fontSize: 14, fontWeight: 600, color: C.tinta, marginBottom: 6 } }, "Caderno vazio"), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, lineHeight: 1.5, margin: 0 } }, "Toque em ", /* @__PURE__ */ React.createElement("strong", null, "Nova nota"), ", ou em ", /* @__PURE__ */ React.createElement("strong", null, "Anotar"), " numa sess\xE3o. Funciona sem internet.")) : /* @__PURE__ */ React.createElement(React.Fragment, null, bySex.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { ...DIA, margin: "2px 0 8px" } }, "Sexta \xB7 23 outubro"), bySex.map((c) => /* @__PURE__ */ React.createElement(NotaCartao, { key: c.id, c }))), bySab.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { ...DIA, margin: "12px 0 8px" } }, "S\xE1bado \xB7 24 outubro"), bySab.map((c) => /* @__PURE__ */ React.createElement(NotaCartao, { key: c.id, c }))), bsOrph.length > 0 && bsOrph.map((c) => /* @__PURE__ */ React.createElement(NotaCartao, { key: c.id, c })))), /* @__PURE__ */ React.createElement("div", { style: { padding: "8px 12px", background: "#fff", borderTop: `1px solid ${C.linha}`, display: "flex", alignItems: "center", gap: 8, flexShrink: 0 } }, /* @__PURE__ */ React.createElement("p", { style: { flex: 1, fontSize: 12, color: C.cinza, lineHeight: 1.35, margin: 0 } }, /* @__PURE__ */ React.createElement("strong", null, _ccemSalvamento.ok ? "Salvo neste aparelho" : "N\xE3o salvo"), " \xB7 ", captures.length, " nota", captures.length !== 1 ? "s" : ""), /* @__PURE__ */ React.createElement("button", { onClick: () => setBackup(true), style: { minHeight: 44, background: "#fff", color: C.azul, border: `1px solid ${C.linha}`, borderRadius: 8, padding: "0 12px", fontSize: 12.5, fontWeight: 600, cursor: "pointer", fontFamily: "inherit" } }, "Backup"), /* @__PURE__ */ React.createElement(
     "button",
     {
       onClick: () => ccemExportarCaderno(captures),
@@ -494,6 +644,9 @@ function CadernoScreen() {
   )), backup && /* @__PURE__ */ React.createElement(FolhaBackup, { aoFechar: () => setBackup(false) }));
 }
 Object.assign(window, {
+  ccemPatrocinio,
+  ccemArtigoSeguro,
+  ccemRespostaSegura,
   ccemDataHoraJoinville,
   ccemNotaEmTexto,
   ccemExportarCaderno,

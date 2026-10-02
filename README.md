@@ -28,6 +28,10 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
   hora, vinculado à sessão. Editar e excluir.
 - A foto fica guardada no aparelho (IndexedDB), junto da nota.
 - "Resumir com IA" é opcional e fica separado do texto original.
+- "Marcar como dúvida" no editor, com filtro "Dúvidas".
+- Notas de sessão satélite levam o selo "Sessão patrocinada por X".
+- Busca no caderno ("Buscar nas notas e fotos"): no aparelho, sem internet e
+  sem custo. Procura no texto, nas respostas da IA e no índice das fotos.
 - O app avisa se não conseguiu salvar (armazenamento cheio ou bloqueado).
 - "Exportar / imprimir": página para ler ou salvar como PDF, com fotos.
 - "Backup": arquivo `.json` com notas, fotos e marcações, restaurável em outro
@@ -43,6 +47,24 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
 - No iPhone, o app instalado tem memória separada do Safari e começa vazio: o
   passo a passo orienta a fazer o Backup antes, quando já há dados.
 - O assistente também ensina ("Como instalo o app no celular?").
+
+**Foto do slide** — no cartão de uma nota com foto (usa a IA)
+- "Perguntar sobre o slide": atalhos (explicar gráfico/tabela, raciocínio, o
+  que o resultado permite concluir, leitura crítica, tabela em texto,
+  fluxograma passo a passo, transcrever e explicar siglas, sugerir perguntas ao
+  palestrante) ou pergunta livre. A resposta vem em blocos — No slide /
+  Explicação adicional (não está no slide) / Limites da interpretação — e
+  declara a fonte. Fica guardada na nota: repetir o atalho não gera novo custo.
+  "Aprofundar" pede uma versão mais detalhada. "Ouvir em voz alta" usa a voz do
+  próprio aparelho.
+- "Encontrar o artigo": lê a referência do slide (editável), busca no PubMed e
+  diz se a correspondência é **confirmada**, **possível** ou **não
+  localizada**. Botões para PubMed, revista (DOI) e PMC; "PDF disponível" só
+  aparece quando o Unpaywall indica um PDF aberto de verdade. Vinculado à nota,
+  o resumo do PubMed passa a enriquecer as respostas (o texto integral não é
+  lido).
+- "Organizar com IA" (no caderno, com consentimento uma vez): gera título e
+  palavras-chave das fotos para a busca. Usa o modelo mais barato (Haiku).
 
 **Info**
 - Organização, horários da secretaria, certificados, contato e site oficial.
@@ -65,10 +87,13 @@ confira na fonte" e pode ser salva no Caderno.
 Não há login nem cadastro. Marcações e notas ficam no `localStorage` do
 aparelho, e as fotos das notas no IndexedDB; nada disso é enviado a servidor.
 
-O Assistente é a exceção, e só quando usado: a pergunta e a foto do slide
-(reduzida no aparelho a 1600 px) vão para `api/assistente.js`, que as repassa à
-Anthropic (EUA) e devolve só o texto. O app não grava nada no servidor: nem
-disco, nem Blob, nem log. A retenção do lado da Anthropic segue a política dela. A conversa fica só na memória da aba. Quem limpar o navegador ou trocar de
+O Assistente e os recursos da foto do slide são a exceção, e só quando usados:
+a pergunta e a foto (reduzida no aparelho a 1600 px) vão para `api/`, que as
+repassa à Anthropic (EUA) e devolve só o texto. Na busca do artigo, só o texto
+da referência vai ao PubMed (NCBI) e o DOI ao Unpaywall. O app não grava
+conteúdo no servidor: nem disco, nem Blob. O log do Vercel recebe só uma linha
+numérica por chamada (função, modelo, tokens, custo estimado), nunca a
+pergunta, a foto ou a resposta. A retenção do lado da Anthropic segue a política dela. A conversa fica só na memória da aba. Quem limpar o navegador ou trocar de
 aparelho perde as notas: por isso o app oferece exportação e backup. O app
 fica disponível até 31/12/2026.
 
@@ -96,16 +121,25 @@ parâmetro, vale o relógio do aparelho.
 
 | Variável | Onde | Valor |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | Settings → Environment Variables, **só Preview** | a chave da Anthropic |
+| `ANTHROPIC_API_KEY` | Settings → Environment Variables (Preview e Production) | a chave da Anthropic |
 | `ANTHROPIC_MODEL` | opcional | padrão `claude-sonnet-5-5` |
+| `CONTATO_TECNICO_EMAIL` | Preview e Production | e-mail de contato exigido pelo PubMed e pelo Unpaywall. Sem ele, não há botão "PDF disponível" |
+| `NCBI_API_KEY` | opcional | chave gratuita do NCBI; aumenta o limite de consultas ao PubMed |
 
 **Nunca escrever a chave no código: o repositório é público.** Sem a chave, o
 app funciona normalmente e o Assistente mostra "Assistente em fase de testes —
 disponível em breve". Para desligar a IA em emergência: apagar a variável e
 republicar.
 
-Limites: cerca de 20 perguntas por pessoa por hora e 20 s por resposta. O texto
-fixo (regras, programa e FAQ) vai com cache, o que barateia cada chamada.
+Limites por pessoa (aproximados; contados em memória em cada instância do
+Vercel): Assistente, 20 perguntas por hora; foto do slide, 15 perguntas por
+dia; busca de artigo, 30 por dia; organizar fotos, 40 por dia. Cada resposta
+tem até 20 s. O texto fixo (regras, programa e FAQ) vai com cache, o que
+barateia cada chamada. O teto real de gasto é o crédito na Anthropic.
+
+**Acompanhar o consumo:** no Console da Anthropic (Usage / Cost) ou nos logs do
+Vercel, procurando linhas `{"uso":"slide",...,"usd":...}` — uma por chamada,
+com a função (`assistente`, `slide:explicar`, `referencia`, `organizar`…).
 
 A FAQ está em `api/assistente.js` (`const FAQ`). Os itens marcados
 `TODO: confirmar com Promotes` não são respondidos até serem preenchidos.
@@ -115,14 +149,18 @@ A FAQ está em `api/assistente.js` (`const FAQ`). Os itens marcados
 ```
 index.html        shell, estilos e ordem de carregamento
 api/assistente.js função do Vercel que conversa com a IA (regras, FAQ, limites)
+api/slide.js      perguntas sobre a foto do slide e organização das fotos
+api/referencia.js lê a referência do slide e busca no PubMed / Unpaywall
+api/_comum.js     módulo comum (limites, registro de consumo); não é endpoint
 v4/               A VERSÃO VIVA — é daqui que o index.html carrega
   ccem-data.js    TODO o conteúdo: programa, palestrantes, fuso, .ics, link do e-pôster
   *.jsx           código-fonte das telas (ccem-caderno.jsx: notas, fotos e backup;
+                  ccem-slide.jsx: perguntas sobre o slide e artigo citado;
                   ccem-assistente.jsx: assistente e botão "8")
   *.js            saída compilada (é o que o navegador carrega)
 vendor/           React e fontes, hospedados localmente
 package.json      só a dependência da função (@anthropic-ai/sdk)
-vercel.json       tempo máximo da função e inclusão de v4/ccem-data.js
+vercel.json       tempo máximo das funções e inclusão de v4/ccem-data.js
 sw.js             service worker (cache e funcionamento offline)
 build.sh          compila os .jsx
 v3/               versão 3 congelada. Histórico apenas
@@ -162,8 +200,10 @@ antiga guardada em cache.
 - React 18 sem framework, JSX pré-compilado com esbuild, sem bundler.
 - Fontes DM Sans e JetBrains Mono hospedadas localmente.
 - Hospedagem no Vercel, com deploy automático pelo GitHub.
-- Assistente: função serverless Node no Vercel (`api/assistente.js`), SDK
-  oficial `@anthropic-ai/sdk`, modelo `claude-sonnet-5-5`.
+- IA: funções serverless Node no Vercel (`api/`), SDK oficial
+  `@anthropic-ai/sdk`, modelo `claude-sonnet-5-5`; `claude-haiku-4-5` para
+  ler referências e organizar fotos. PubMed (E-utilities) e Unpaywall para os
+  artigos.
 
 ### Nada vem de CDN
 
