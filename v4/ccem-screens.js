@@ -295,7 +295,11 @@ function ProgramaScreen() {
     const el = listRef.current;
     if (!el) return;
     const key = "ccem_scroll_" + dia;
-    const saved = sessionStorage.getItem(key);
+    let saved = null;
+    try {
+      saved = sessionStorage.getItem(key);
+    } catch (e) {
+    }
     if (saved !== null) {
       el.scrollTop = parseInt(saved) || 0;
     } else if (ccemDiaDoEvento() === dia) {
