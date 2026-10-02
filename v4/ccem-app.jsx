@@ -55,6 +55,7 @@ function App() {
   return (
     <>
     <AvisoAtualizacao/>
+    <HostEntrar/>
     <LembretePDF/>
     {editor && <EditorNota notaId={editor.notaId} sessaoId={editor.sessaoId} aoFechar={()=>setEditor(null)}/>}
     {painel && <PainelAssistente sessaoId={route.tela==='sessao'?route.id:null} tela={route.tela==='sessao'?'sessao':route.tela} aoFechar={()=>setPainel(false)}/>}

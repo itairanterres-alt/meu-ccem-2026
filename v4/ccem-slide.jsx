@@ -26,12 +26,10 @@ const CCEM_AVISO_FOTO_IA = 'Ao usar estes recursos, a foto é enviada à Anthrop
 
 /* POST com mensagens de erro em português. */
 async function ccemPost(url, corpo, tempoMs) {
-  const ctl = new AbortController();
-  const relogio = setTimeout(() => ctl.abort(), tempoMs || 32000);
   try {
-    const res = await fetch(url, { method:'POST', headers:{ 'Content-Type':'application/json' },
-      body: JSON.stringify({ ...corpo, userId: window.CCEM_USER_ID }), signal: ctl.signal });
+    const res = await ccemFetchIA(url, { ...corpo, userId: window.CCEM_USER_ID }, tempoMs || 32000);
     if (res.ok) return { dados: await res.json() };
+    if (res.status === 401) return { aviso: CCEM_AVISO_LOGIN };
     if ([404, 405, 501, 503].includes(res.status)) return { aviso: CCEM_EM_TESTES };
     if (res.status === 429) return { aviso: 'Você chegou ao limite diário deste recurso. Ele volta amanhã.' };
     if (res.status === 504) return { aviso: 'A IA demorou demais para responder. Tente de novo.' };
@@ -40,7 +38,7 @@ async function ccemPost(url, corpo, tempoMs) {
   } catch (e) {
     return { aviso: e && e.name === 'AbortError' ? 'A IA demorou demais para responder. Tente de novo.'
                                                  : 'Sem conexão com a internet. A foto continua salva; tente quando a rede voltar.' };
-  } finally { clearTimeout(relogio); }
+  }
 }
 
 async function ccemFotoBase64(nota) {
