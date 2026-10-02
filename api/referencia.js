@@ -18,6 +18,7 @@
    NCBI_API_KEY (opcional) aumenta o limite de consultas ao PubMed.
    ============================================================ */
 const C = require('./_comum');
+const { exigirSessao } = require('./_acesso');
 
 const LIMITE_DIA = 30;
 const DIA = 86400000;
@@ -143,7 +144,9 @@ module.exports = async function handler(req, res) {
   if (!corpo) return res.status(400).json({ erro: 'pedido' });
   const textoRef = C.texto(corpo.texto, 800);
   if (!textoRef && !C.imagemValida(corpo.imagem)) return res.status(400).json({ erro: 'vazio' });
-  if (!C.dentroDoLimite('ref:' + C.quemPede(req, corpo), LIMITE_DIA, DIA)) return res.status(429).json({ erro: 'limite' });
+  const acesso = exigirSessao(req, C.quemPede(req, corpo));
+  if (!acesso.ok) return res.status(401).json({ erro: 'login' });
+  if (!C.dentroDoLimite('ref:' + acesso.quem, LIMITE_DIA, DIA)) return res.status(429).json({ erro: 'limite' });
 
   try {
     // 1. Ler a referência

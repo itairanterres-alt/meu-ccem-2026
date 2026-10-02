@@ -130,6 +130,25 @@ parâmetro, vale o relógio do aparelho.
 | `CONTATO_TECNICO_EMAIL` | Preview e Production | e-mail de contato exigido pelo PubMed e pelo Unpaywall. Sem ele, não há botão "PDF disponível" |
 | `NCBI_API_KEY` | opcional | chave gratuita do NCBI; aumenta o limite de consultas ao PubMed |
 
+**Acesso à IA só para inscritos** (login sem senha, por código de 6 dígitos no
+e-mail). Fica **desligado** até `SESSAO_SEGREDO`, `SMTP_USER` e `SMTP_PASS`
+estarem cadastrados; sem eles, a IA funciona como antes. Programa, Caderno e
+Info nunca pedem login.
+
+| Variável | Valor |
+|---|---|
+| `SESSAO_SEGREDO` | frase longa e aleatória; trocá-la desconecta todos |
+| `SMTP_USER` / `SMTP_PASS` | caixa que envia os códigos (ex.: `nao-responda@sbemsc.org.br`) |
+| `SMTP_HOST` / `SMTP_PORT` | opcionais; padrão `smtp.hostinger.com` / `465` |
+| `SMTP_FROM` | opcional; remetente exibido |
+| `INSCRITOS_TOKEN` | token da API de inscritos confirmados da organização |
+| `INSCRITOS_URL` | opcional; padrão a API em ccem2026.com.br |
+| `ACESSO_EXTRA` | e-mails de convidados fora da lista (palestrantes, comissões, diretoria, equipe), separados por vírgula |
+
+A lista de inscritos é consultada (cache de 15 min) só para conferir o e-mail;
+não é gravada nem vai para o log. Se a API estiver fora do ar e não houver
+cópia em memória, o acesso é liberado com sessão de 24 h.
+
 **Nunca escrever a chave no código: o repositório é público.** Sem a chave, o
 app funciona normalmente e o Assistente mostra "Assistente em fase de testes —
 disponível em breve". Para desligar a IA em emergência: apagar a variável e
@@ -156,6 +175,8 @@ api/assistente.js função do Vercel que conversa com a IA (regras, FAQ, limites
 api/slide.js      perguntas sobre a foto do slide e organização das fotos
 api/referencia.js lê a referência do slide e busca no PubMed / Unpaywall
 api/_comum.js     módulo comum (limites, registro de consumo); não é endpoint
+api/_acesso.js    regras do login por e-mail (lista, código, sessão); não é endpoint
+api/entrar.js     pede e confere o código de acesso
 v4/               A VERSÃO VIVA — é daqui que o index.html carrega
   ccem-data.js    TODO o conteúdo: programa, palestrantes, fuso, .ics, link do e-pôster
   *.jsx           código-fonte das telas (ccem-caderno.jsx: notas, fotos e backup;

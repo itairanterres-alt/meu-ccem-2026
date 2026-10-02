@@ -15,6 +15,7 @@
    A foto é processada em memória e descartada; nada é gravado.
    ============================================================ */
 const C = require('./_comum');
+const { exigirSessao } = require('./_acesso');
 
 const DADOS = C.carregarDados();
 const LIMITE_EXPLICACOES_DIA = 15;
@@ -122,7 +123,9 @@ module.exports = async function handler(req, res) {
   if (!C.imagemValida(corpo.imagem)) return res.status(413).json({ erro: 'imagem' });
   if (acao === 'livre' && !C.texto(corpo.pergunta, 1000)) return res.status(400).json({ erro: 'vazio' });
 
-  const quem = C.quemPede(req, corpo);
+  const acesso = exigirSessao(req, C.quemPede(req, corpo));
+  if (!acesso.ok) return res.status(401).json({ erro: 'login' });
+  const quem = acesso.quem;
   const imagem = { type: 'image', source: { type: 'base64', media_type: 'image/jpeg', data: corpo.imagem } };
 
   try {

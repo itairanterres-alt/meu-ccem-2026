@@ -32,16 +32,14 @@ function ccemRespostaEmTexto(r) {
 }
 async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico }) {
   const historico = semHistorico ? [] : _conversa.msgs.filter((m) => m.papel === "usuario" && m.texto || m.papel === "assistente" && m.resposta).slice(-6).map((m) => ({ papel: m.papel, texto: m.papel === "usuario" ? m.texto : ccemRespostaEmTexto(m.resposta) }));
-  const ctl = new AbortController();
-  const relogio = setTimeout(() => ctl.abort(), 28e3);
   try {
-    const res = await fetch("/api/assistente", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ texto, imagem, sessaoId, historico, agora: ccemAgora().toISOString(), userId: window.CCEM_USER_ID }),
-      signal: ctl.signal
-    });
+    const res = await ccemFetchIA(
+      "/api/assistente",
+      { texto, imagem, sessaoId, historico, agora: ccemAgora().toISOString(), userId: window.CCEM_USER_ID },
+      28e3
+    );
     if (res.ok) return { resposta: await res.json() };
+    if (res.status === 401) return { aviso: CCEM_AVISO_LOGIN };
     if ([404, 405, 501, 503].includes(res.status)) return { aviso: CCEM_EM_TESTES };
     if (res.status === 429) return { aviso: "Voc\xEA chegou ao limite de 20 perguntas por hora. Tente de novo mais tarde." };
     if (res.status === 504) return { aviso: "O assistente demorou demais para responder. Tente de novo." };
@@ -49,8 +47,6 @@ async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico
     return { aviso: "N\xE3o foi poss\xEDvel responder agora. Tente de novo." };
   } catch (e) {
     return { aviso: e && e.name === "AbortError" ? "O assistente demorou demais para responder. Tente de novo." : "Sem conex\xE3o com a internet. Tente de novo quando a rede voltar." };
-  } finally {
-    clearTimeout(relogio);
   }
 }
 async function ccemEnviarAoAssistente({ texto, arquivo, sessaoId }) {

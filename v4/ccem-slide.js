@@ -11,16 +11,10 @@ const CCEM_ATALHOS = [
 const CCEM_TITULO_ITENS = { tabela: "Tabela", fluxograma: "Passo a passo", perguntas: "Perguntas sugeridas", leitura_critica: "Pontos da leitura cr\xEDtica" };
 const CCEM_AVISO_FOTO_IA = "Ao usar estes recursos, a foto \xE9 enviada \xE0 Anthropic (EUA) para processamento; o app n\xE3o guarda c\xF3pia no servidor. N\xE3o envie imagem identific\xE1vel de paciente.";
 async function ccemPost(url, corpo, tempoMs) {
-  const ctl = new AbortController();
-  const relogio = setTimeout(() => ctl.abort(), tempoMs || 32e3);
   try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...corpo, userId: window.CCEM_USER_ID }),
-      signal: ctl.signal
-    });
+    const res = await ccemFetchIA(url, { ...corpo, userId: window.CCEM_USER_ID }, tempoMs || 32e3);
     if (res.ok) return { dados: await res.json() };
+    if (res.status === 401) return { aviso: CCEM_AVISO_LOGIN };
     if ([404, 405, 501, 503].includes(res.status)) return { aviso: CCEM_EM_TESTES };
     if (res.status === 429) return { aviso: "Voc\xEA chegou ao limite di\xE1rio deste recurso. Ele volta amanh\xE3." };
     if (res.status === 504) return { aviso: "A IA demorou demais para responder. Tente de novo." };
@@ -28,8 +22,6 @@ async function ccemPost(url, corpo, tempoMs) {
     return { aviso: "N\xE3o foi poss\xEDvel responder agora. Tente de novo." };
   } catch (e) {
     return { aviso: e && e.name === "AbortError" ? "A IA demorou demais para responder. Tente de novo." : "Sem conex\xE3o com a internet. A foto continua salva; tente quando a rede voltar." };
-  } finally {
-    clearTimeout(relogio);
   }
 }
 async function ccemFotoBase64(nota) {

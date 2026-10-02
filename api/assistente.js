@@ -20,6 +20,7 @@ const path = require('path');
 const vm = require('vm');
 const Anthropic = require('@anthropic-ai/sdk');
 const { registrarUso } = require('./_comum');
+const { exigirSessao } = require('./_acesso');
 
 const MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
 const TEMPO_MAXIMO_MS = 20000;
@@ -243,7 +244,9 @@ module.exports = async function handler(req, res) {
 
   const userId = /^u_[a-z0-9]{3,24}$/.test(corpo.userId || '') ? corpo.userId : null;
   const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim() || 'anonimo';
-  if (!dentroDoLimite(userId || 'ip:' + ip)) return res.status(429).json({ erro: 'limite' });
+  const acesso = exigirSessao(req, userId || 'ip:' + ip);
+  if (!acesso.ok) return res.status(401).json({ erro: 'login' });
+  if (!dentroDoLimite(acesso.quem)) return res.status(429).json({ erro: 'limite' });
 
   try {
     return res.status(200).json(await callAI(corpo));

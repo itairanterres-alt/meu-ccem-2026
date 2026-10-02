@@ -2,8 +2,11 @@
   "name": "meu-ccem-2026",
   "private": true,
   "description": "Meu CCEM 2026. O app é estático; esta dependência serve só à função api/assistente.js no Vercel.",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
-    "@anthropic-ai/sdk": "0.131.0"
+    "@anthropic-ai/sdk": "0.131.0",
+    "nodemailer": "10.0.13"
   }
 }

@@ -668,6 +668,10 @@ function InfoScreen() {
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
             A IA só recebe algo quando você a usa. A pergunta, o texto ou a foto (Assistente, Perguntar sobre o slide, Resumir e Organizar com IA) vão para processamento pela Anthropic, nos EUA; o app não guarda cópia no servidor, e a Anthropic segue a própria política de retenção. Em "Encontrar o artigo", só o texto da referência vai ao PubMed e ao Unpaywall. Não envie dados nem imagens de pacientes. As respostas da IA podem conter erros.
           </p>
+          <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
+            A IA é exclusiva para inscritos: para usá-la, você entra com o e-mail da inscrição e recebe um código. O e-mail serve só para conferir a inscrição na lista da organização; o app não guarda essa lista.
+          </p>
+          <SessaoInfo/>
           <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.55,margin:'0 0 10px'}}>
             O selo "Agora" segue o horário previsto no programa; atrasos no evento não aparecem no app.
           </p>

@@ -10,6 +10,9 @@
     },
     "api/referencia.js": {
       "maxDuration": 30
+    },
+    "api/entrar.js": {
+      "maxDuration": 20
     }
   }
 }
