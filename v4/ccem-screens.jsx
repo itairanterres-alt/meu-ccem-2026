@@ -659,26 +659,19 @@ function InfoScreen() {
         {/* Instalar na tela inicial */}
         <ItemInstalar/>
 
-        {/* Sobre o app */}
+        {/* Privacidade e dados */}
         <IC>
-          <H3>Sobre este app</H3>
-          <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.55,margin:'0 0 8px'}}>
-            Camada interativa do CCEM 2026 para inscritos. Programa navegável, caderno de anotações e assistente de IA para anotações e busca no programa.
+          <H3>Privacidade e dados</H3>
+          <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
+            Suas notas, fotos e marcações ficam só neste aparelho, sem cadastro. Se você limpar o navegador ou trocar de aparelho, elas se perdem: use Exportar ou Backup, no Caderno. O app fica disponível até 31/12/2026.
           </p>
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
-            O app fica disponível até 31/12/2026. Notas não são enviadas a servidor; se você limpar o navegador ou trocar de aparelho, elas se perdem — exporte o PDF.
-          </p>
-          <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
-            Notas e fotos do Caderno ficam só neste aparelho. Só o que você mandar ao Assistente CCEM (beta) — pergunta, foto ou "Resumir com IA" — é enviado para processamento pela Anthropic, nos EUA; o app não guarda cópia no servidor. A Anthropic segue a própria política de retenção de dados. Não envie dados de pacientes. As respostas são geradas por IA e podem conter erros.
+            A IA só recebe algo quando você a usa. A pergunta, o texto ou a foto (Assistente, Perguntar sobre o slide, Resumir e Organizar com IA) vão para processamento pela Anthropic, nos EUA; o app não guarda cópia no servidor, e a Anthropic segue a própria política de retenção. Em "Encontrar o artigo", só o texto da referência vai ao PubMed e ao Unpaywall. Não envie dados nem imagens de pacientes. As respostas da IA podem conter erros.
           </p>
           <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.55,margin:'0 0 10px'}}>
             O selo "Agora" segue o horário previsto no programa; atrasos no evento não aparecem no app.
           </p>
-          <div style={{display:'flex',alignItems:'center',gap:8,padding:'7px 0',borderTop:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
-            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.06em',flexShrink:0}}>ID local</span>
-            <code style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.tinta,background:'#f0f4fc',padding:'2px 7px',borderRadius:5,flex:1,overflow:'hidden',textOverflow:'ellipsis'}}>{window.CCEM_USER_ID||'—'}</code>
-          </div>
-          <button onClick={()=>{if(confirm('Limpar todos os dados deste dispositivo?')){localStorage.removeItem(window.CCEM_STATE_KEY);localStorage.removeItem('ccem2026:userId');location.reload();}}}
+          <button onClick={()=>{if(confirm('Apagar todas as notas, fotos e marcações deste aparelho? Não dá para desfazer.')) ccemLimparTudo().then(()=>location.reload());}}
             style={{width:'100%',minHeight:44,border:'1px solid #e53e3e',background:'#fff',color:'#e53e3e',borderRadius:8,padding:'8px',fontSize:12.5,fontWeight:500,cursor:'pointer',fontFamily:'inherit'}}>
             Limpar todos os meus dados
           </button>

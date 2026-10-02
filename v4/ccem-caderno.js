@@ -35,6 +35,15 @@ const ccemFotoSalvar = (id, dataUrl) => _ccemFotosTx("readwrite", (st) => st.put
 const ccemFotoLer = (id) => _ccemFotosTx("readonly", (st) => st.get(id));
 const ccemFotoApagar = (id) => _ccemFotosTx("readwrite", (st) => st.delete(id)).catch(() => {
 });
+function ccemLimparTudo() {
+  return _ccemFotosTx("readwrite", (st) => st.clear()).catch(() => {
+  }).then(() => {
+    try {
+      Object.keys(localStorage).filter((k) => k.startsWith("ccem2026:")).forEach((k) => localStorage.removeItem(k));
+    } catch (e) {
+    }
+  });
+}
 function useFoto(id) {
   const [foto, setFoto] = useState(null);
   useEffect(() => {
@@ -654,6 +663,7 @@ Object.assign(window, {
   ccemGravarNota,
   ccemFotoSalvar,
   ccemFotoLer,
+  ccemLimparTudo,
   ccemBaixarBackup,
   ccemRestaurarBackup,
   EditorNota,

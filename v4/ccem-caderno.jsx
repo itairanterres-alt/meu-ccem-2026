@@ -54,6 +54,15 @@ const ccemFotoSalvar = (id, dataUrl) => _ccemFotosTx('readwrite', st => st.put(d
 const ccemFotoLer    = id => _ccemFotosTx('readonly', st => st.get(id));
 const ccemFotoApagar = id => _ccemFotosTx('readwrite', st => st.delete(id)).catch(() => {});
 
+/* "Limpar todos os meus dados": fotos, notas, marcações e preferências do app. */
+function ccemLimparTudo() {
+  return _ccemFotosTx('readwrite', st => st.clear()).catch(() => {}).then(() => {
+    try {
+      Object.keys(localStorage).filter(k => k.startsWith('ccem2026:')).forEach(k => localStorage.removeItem(k));
+    } catch (e) {}
+  });
+}
+
 function useFoto(id) {
   const [foto, setFoto] = useState(null);
   useEffect(() => {
@@ -600,5 +609,5 @@ function CadernoScreen() {
 Object.assign(window, {
   ccemPatrocinio, ccemArtigoSeguro, ccemRespostaSegura,
   ccemDataHoraJoinville, ccemNotaEmTexto, ccemExportarCaderno, ccemAbrirEditor, ccemGravarNota,
-  ccemFotoSalvar, ccemFotoLer, ccemBaixarBackup, ccemRestaurarBackup, EditorNota, CadernoScreen, AvisoSemArmazenamento,
+  ccemFotoSalvar, ccemFotoLer, ccemLimparTudo, ccemBaixarBackup, ccemRestaurarBackup, EditorNota, CadernoScreen, AvisoSemArmazenamento,
 });
