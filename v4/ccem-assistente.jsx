@@ -222,7 +222,7 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
           Sobre <strong>{ccemRotulo(sessao)}</strong> · {sessao.inicio}
         </div>
       )}
-      <div style={{flex:1,overflowY:'auto',padding:'12px 12px 4px'}}>
+      <div aria-busy={conversa.carregando} style={{flex:1,overflowY:'auto',padding:'12px 12px 4px'}}>
         {vazia&&(
           <div style={{padding:'6px 2px 4px'}}>
             <div style={{fontSize:15,fontWeight:700,color:C.tinta,marginBottom:4}}>Como posso ajudar?</div>
@@ -248,8 +248,9 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
           </div>
         ))}
         {conversa.carregando&&(
-          <div role="status" aria-label="O assistente está respondendo" style={{display:'flex',gap:4,padding:'10px 12px',background:'#fff',borderRadius:'14px 14px 14px 4px',width:60,border:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
-            {[0,1,2].map(i=><span key={i} style={{width:7,height:7,borderRadius:'50%',background:C.cinza,display:'inline-block',animation:`ccem-bounce .9s ${i*.2}s ease-in-out infinite`}}/>)}
+          <div role="status" style={{display:'inline-flex',alignItems:'center',gap:4,padding:'8px 12px',background:'#fff',borderRadius:'14px 14px 14px 4px',border:`1px solid ${C.linhaSoft}`,marginBottom:10}}>
+            {[0,1,2].map(i=><span key={i} className="ccem-ponto" aria-hidden="true" style={{width:7,height:7,borderRadius:'50%',background:C.cinza,display:'inline-block',animation:`ccem-bounce .9s ${i*.2}s ease-in-out infinite`}}/>)}
+            <span style={{marginLeft:6,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>Preparando resposta…</span>
           </div>
         )}
         {!conversa.carregando&&(
@@ -328,14 +329,86 @@ function PainelAssistente({ sessaoId, tela, aoFechar }) {
 }
 
 /* ── 5.7 · Botão "8" ─────────────────────────────────────────────
-   Parado: não pula, não pisca, nunca abre sozinho. */
-function BotaoAssistente({ aoTocar }) {
+   Nunca abre sozinho, não pisca e, em repouso, fica parado.
+   Movimento (experimento reversível): cinco gestos breves, locais e
+   sem custo de IA — o CSS está em index.html (.ccem-fab-mov).
+   - entrance/welcome: uma vez, na primeira apresentação, com o balão;
+   - toque: compressão por :active, sem atrasar a abertura;
+   - loading: brilho só com requisição real pendente há mais de 300 ms
+     (visível quando o painel foi fechado durante a resposta);
+   - success: uma vez, quando a resposta chega; erro não comemora.
+   Desligar tudo: CCEM_MOVIMENTO_ASSISTENTE = false (os textos de estado
+   continuam). "Reduzir movimento" do aparelho também desliga. */
+const CCEM_MOVIMENTO_ASSISTENTE = true;
+const _movimento = { apresentou: false };   // em memória: não repete ao navegar nem ao reabrir
+
+function BotaoAssistente({ aoTocar, apresentando }) {
+  const conversa = useConversa();
+  const [estado, setEstado] = useState(() =>
+    apresentando && !_movimento.apresentou && !_conversa.carregando ? 'entrance' : 'idle');
+  const [aviso, setAviso] = useState('');   // estado em texto, também para leitor de tela
+  const [oculto, setOculto] = useState(() => document.hidden);
+  const timers = useRef([]);
+  const carregavaAntes = useRef(_conversa.carregando);
+  const limpar = () => { timers.current.forEach(clearTimeout); timers.current = []; };
+  const depois = (ms, fn) => { timers.current.push(setTimeout(fn, ms)); };
+
+  useEffect(() => {
+    const vis = () => setOculto(document.hidden);
+    document.addEventListener('visibilitychange', vis);
+    return () => { document.removeEventListener('visibilitychange', vis); limpar(); };
+  }, []);
+
+  // Primeira apresentação: a entrada termina antes do gesto de boas-vindas.
+  useEffect(() => {
+    if (!apresentando || _movimento.apresentou || _conversa.carregando) return;
+    _movimento.apresentou = true;
+    limpar();
+    setEstado('entrance');
+    depois(320, () => setEstado('welcome'));
+    depois(1120, () => setEstado('idle'));
+  }, [apresentando]);
+
+  // Requisição real do assistente.
+  useEffect(() => {
+    const antes = carregavaAntes.current;
+    carregavaAntes.current = conversa.carregando;
+    if (conversa.carregando) {
+      limpar(); setEstado('idle'); setAviso('');
+      depois(300, () => { setEstado('loading'); setAviso('Preparando resposta…'); });
+      return;
+    }
+    if (!antes) return;
+    limpar();
+    const ultima = conversa.msgs[conversa.msgs.length - 1];
+    if (ultima && ultima.papel === 'assistente') {
+      setEstado('success'); setAviso('Resposta pronta · toque para ver');
+      depois(480, () => setEstado('idle'));
+    } else {
+      setEstado('error'); setAviso('Sem resposta · toque para ver');
+    }
+    depois(4000, () => setAviso(''));
+  }, [conversa.carregando]);
+
   return (
-    <button className="ccem-fab" onClick={aoTocar} aria-label="Abrir o Assistente CCEM"
-      style={{position:'absolute',right:16,bottom:16,zIndex:40,width:52,height:52,padding:0,border:'none',borderRadius:'50%',
-        background:C.azul,cursor:'pointer',boxShadow:'0 4px 14px rgba(10,18,50,.28)'}}>
-      <img src={CCEM_AVATAR} alt="" width="52" height="52" style={{display:'block',width:52,height:52,borderRadius:'50%'}}/>
-    </button>
+    <>
+      <span className="ccem-sr" aria-live="polite">{aviso}</span>
+      {aviso&&(
+        <div aria-hidden="true"
+          style={{position:'absolute',right:76,bottom:28,zIndex:40,maxWidth:'calc(100% - 100px)',padding:'5px 10px',background:'#fff',border:`1px solid ${C.linha}`,
+            borderRadius:14,boxShadow:'0 2px 8px rgba(10,18,50,.12)',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.azul,
+            whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis',pointerEvents:'none'}}>{aviso}</div>
+      )}
+      <button className={'ccem-fab' + (CCEM_MOVIMENTO_ASSISTENTE ? ' ccem-fab-mov' : '') + (oculto ? ' ccem-fab-pausado' : '')}
+        data-estado={estado} onClick={aoTocar} aria-label="Abrir o Assistente CCEM"
+        style={{position:'absolute',right:16,bottom:16,zIndex:40,width:52,height:52,padding:0,border:'none',borderRadius:'50%',
+          background:C.azul,cursor:'pointer',boxShadow:'0 4px 14px rgba(10,18,50,.28)',touchAction:'manipulation'}}>
+        <span className="ccem-fab-corpo">
+          <img src={CCEM_AVATAR} alt="" width="52" height="52" style={{display:'block',width:52,height:52,borderRadius:'50%'}}/>
+          <span className="ccem-fab-brilho" aria-hidden="true"/>
+        </span>
+      </button>
+    </>
   );
 }
 
@@ -397,7 +470,7 @@ function BalaoAssistente({ aoExperimentar, aoFechar }) {
         <button onClick={aoFechar} style={{flex:1,minHeight:44,background:'#fff',border:`1px solid ${C.linha}`,borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600,color:C.cinza,cursor:'pointer'}}>Agora não</button>
         <button onClick={aoExperimentar} style={{flex:1,minHeight:44,background:C.azul,border:'none',borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,color:'#fff',cursor:'pointer'}}>Experimentar</button>
       </div>
-      <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textAlign:'center',marginTop:8}}>Depois, é só tocar no "8".</div>
+      <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textAlign:'center',marginTop:8}}>Depois, toque neste botão para falar comigo.</div>
       {folha && <FolhaInstalar temDados={temDados} aoFechar={()=>{ setFolha(false); aoFechar(); }}/>}
       {/* ponta do balão apontando para o "8" */}
       <span aria-hidden="true" style={{position:'absolute',right:20,bottom:-7,width:14,height:14,background:'#fff',borderRight:`1px solid ${C.linha}`,borderBottom:`1px solid ${C.linha}`,transform:'rotate(45deg)'}}/>

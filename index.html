@@ -96,6 +96,29 @@
     .ccem-balao { animation: ccem-surge .35s ease-out both; }
     @media (prefers-reduced-motion: reduce) { .ccem-balao { animation: none; } }
 
+    /* Texto só para leitor de tela */
+    .ccem-sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+    /* Movimento do botão "8" — experimento; desliga com CCEM_MOVIMENTO_ASSISTENTE (ccem-assistente.jsx).
+       Gestos breves e contextuais; em repouso, nada se move. */
+    .ccem-fab-corpo { position: relative; display: block; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; }
+    .ccem-fab-brilho { position: absolute; inset: -25%; background: linear-gradient(105deg, transparent 35%, rgba(255,247,216,.35) 49%, transparent 63%); transform: translateX(-110%); opacity: 0; pointer-events: none; }
+    .ccem-fab-mov .ccem-fab-corpo { transition: transform .09s ease-out; }
+    .ccem-fab-mov:active .ccem-fab-corpo { transform: scale(.93); }
+    .ccem-fab-mov[data-estado="entrance"] { animation: ccem-fab-entrada .32s cubic-bezier(.2,.7,.2,1) both; }
+    .ccem-fab-mov[data-estado="welcome"] .ccem-fab-corpo { animation: ccem-fab-ola .8s ease-in-out both; }
+    .ccem-fab-mov[data-estado="loading"] .ccem-fab-brilho { animation: ccem-fab-brilho 2.4s ease-in-out infinite; }
+    .ccem-fab-mov[data-estado="success"] .ccem-fab-corpo { animation: ccem-fab-pronto .48s ease-out both; }
+    .ccem-fab-pausado, .ccem-fab-pausado * { animation-play-state: paused !important; }
+    @keyframes ccem-fab-entrada { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes ccem-fab-ola { 0%, 100% { transform: rotate(0) scale(1); } 30% { transform: rotate(-6deg) scale(1.04); } 65% { transform: rotate(4deg) scale(1.04); } }
+    @keyframes ccem-fab-brilho { 0%, 15% { transform: translateX(-110%); opacity: 0; } 30% { opacity: .85; } 65%, 100% { transform: translateX(110%); opacity: 0; } }
+    @keyframes ccem-fab-pronto { 0%, 100% { transform: scale(1); box-shadow: none; } 40% { transform: scale(1.08); box-shadow: 0 0 0 5px rgba(214,167,71,.35); } }
+    @media (prefers-reduced-motion: reduce) {
+      .ccem-fab, .ccem-fab *, .ccem-ponto { animation: none !important; transition: none !important; }
+      .ccem-fab-mov:active .ccem-fab-corpo { transform: none; }
+    }
+
     /* O botão e o painel do Assistente nunca saem na impressão */
     @media print { .ccem-fab, .ccem-painel, .ccem-balao { display: none !important; } }
 

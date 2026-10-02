@@ -170,7 +170,7 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
     enviar(s.rotulo);
   }
   const vazia = conversa.msgs.length === 0;
-  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", minHeight: 0, background: "#f3f6fc" } }, sessao && /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, padding: "7px 14px", background: C.azulBg, fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azul } }, "Sobre ", /* @__PURE__ */ React.createElement("strong", null, ccemRotulo(sessao)), " \xB7 ", sessao.inicio), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, vazia && /* @__PURE__ */ React.createElement("div", { style: { padding: "6px 2px 4px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 15, fontWeight: 700, color: C.tinta, marginBottom: 4 } }, "Como posso ajudar?"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, marginBottom: 12 } }, "Anoto slides (foto ou texto), busco no programa e respondo d\xFAvidas pr\xE1ticas do congresso. N\xE3o discuto casos reais de pacientes."), /* @__PURE__ */ React.createElement(DicaInstalar, null)), conversa.msgs.map((m) => /* @__PURE__ */ React.createElement("div", { key: m.id, style: { display: "flex", flexDirection: "column", alignItems: m.papel === "usuario" ? "flex-end" : "flex-start", marginBottom: 10 } }, m.papel === "usuario" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%", background: C.azul, color: "#fff", borderRadius: "14px 14px 4px 14px", padding: "9px 12px", fontSize: 13, lineHeight: 1.5 } }, m.previa && /* @__PURE__ */ React.createElement("img", { src: m.previa, alt: "Slide enviado", style: { display: "block", maxWidth: 180, maxHeight: 180, borderRadius: 8, marginBottom: m.texto ? 6 : 0 } }), m.texto && /* @__PURE__ */ React.createElement("span", { style: { whiteSpace: "pre-wrap" } }, m.texto)), m.papel === "assistente" && /* @__PURE__ */ React.createElement(RespostaIA, { m, aoNavegar }), m.papel === "aviso" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "92%", background: "#fff", border: `1px dashed ${C.linha}`, borderRadius: 12, padding: "9px 12px", fontSize: 12.5, color: C.cinza, lineHeight: 1.45 } }, m.texto))), conversa.carregando && /* @__PURE__ */ React.createElement("div", { role: "status", "aria-label": "O assistente est\xE1 respondendo", style: { display: "flex", gap: 4, padding: "10px 12px", background: "#fff", borderRadius: "14px 14px 14px 4px", width: 60, border: `1px solid ${C.linhaSoft}`, marginBottom: 10 } }, [0, 1, 2].map((i) => /* @__PURE__ */ React.createElement("span", { key: i, style: { width: 7, height: 7, borderRadius: "50%", background: C.cinza, display: "inline-block", animation: `ccem-bounce .9s ${i * 0.2}s ease-in-out infinite` } }))), !conversa.carregando && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexWrap: "wrap", gap: 6, margin: "4px 0 8px" } }, sugestoes.map((s) => /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", minHeight: 0, background: "#f3f6fc" } }, sessao && /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, padding: "7px 14px", background: C.azulBg, fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.azul } }, "Sobre ", /* @__PURE__ */ React.createElement("strong", null, ccemRotulo(sessao)), " \xB7 ", sessao.inicio), /* @__PURE__ */ React.createElement("div", { "aria-busy": conversa.carregando, style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, vazia && /* @__PURE__ */ React.createElement("div", { style: { padding: "6px 2px 4px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 15, fontWeight: 700, color: C.tinta, marginBottom: 4 } }, "Como posso ajudar?"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, marginBottom: 12 } }, "Anoto slides (foto ou texto), busco no programa e respondo d\xFAvidas pr\xE1ticas do congresso. N\xE3o discuto casos reais de pacientes."), /* @__PURE__ */ React.createElement(DicaInstalar, null)), conversa.msgs.map((m) => /* @__PURE__ */ React.createElement("div", { key: m.id, style: { display: "flex", flexDirection: "column", alignItems: m.papel === "usuario" ? "flex-end" : "flex-start", marginBottom: 10 } }, m.papel === "usuario" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%", background: C.azul, color: "#fff", borderRadius: "14px 14px 4px 14px", padding: "9px 12px", fontSize: 13, lineHeight: 1.5 } }, m.previa && /* @__PURE__ */ React.createElement("img", { src: m.previa, alt: "Slide enviado", style: { display: "block", maxWidth: 180, maxHeight: 180, borderRadius: 8, marginBottom: m.texto ? 6 : 0 } }), m.texto && /* @__PURE__ */ React.createElement("span", { style: { whiteSpace: "pre-wrap" } }, m.texto)), m.papel === "assistente" && /* @__PURE__ */ React.createElement(RespostaIA, { m, aoNavegar }), m.papel === "aviso" && /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "92%", background: "#fff", border: `1px dashed ${C.linha}`, borderRadius: 12, padding: "9px 12px", fontSize: 12.5, color: C.cinza, lineHeight: 1.45 } }, m.texto))), conversa.carregando && /* @__PURE__ */ React.createElement("div", { role: "status", style: { display: "inline-flex", alignItems: "center", gap: 4, padding: "8px 12px", background: "#fff", borderRadius: "14px 14px 14px 4px", border: `1px solid ${C.linhaSoft}`, marginBottom: 10 } }, [0, 1, 2].map((i) => /* @__PURE__ */ React.createElement("span", { key: i, className: "ccem-ponto", "aria-hidden": "true", style: { width: 7, height: 7, borderRadius: "50%", background: C.cinza, display: "inline-block", animation: `ccem-bounce .9s ${i * 0.2}s ease-in-out infinite` } })), /* @__PURE__ */ React.createElement("span", { style: { marginLeft: 6, fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza } }, "Preparando resposta\u2026")), !conversa.carregando && /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexWrap: "wrap", gap: 6, margin: "4px 0 8px" } }, sugestoes.map((s) => /* @__PURE__ */ React.createElement(
     "button",
     {
       key: s.rotulo,
@@ -277,11 +277,95 @@ function PainelAssistente({ sessaoId, tela, aoFechar }) {
     )
   );
 }
-function BotaoAssistente({ aoTocar }) {
-  return /* @__PURE__ */ React.createElement(
+const CCEM_MOVIMENTO_ASSISTENTE = true;
+const _movimento = { apresentou: false };
+function BotaoAssistente({ aoTocar, apresentando }) {
+  const conversa = useConversa();
+  const [estado, setEstado] = useState(() => apresentando && !_movimento.apresentou && !_conversa.carregando ? "entrance" : "idle");
+  const [aviso, setAviso] = useState("");
+  const [oculto, setOculto] = useState(() => document.hidden);
+  const timers = useRef([]);
+  const carregavaAntes = useRef(_conversa.carregando);
+  const limpar = () => {
+    timers.current.forEach(clearTimeout);
+    timers.current = [];
+  };
+  const depois = (ms, fn) => {
+    timers.current.push(setTimeout(fn, ms));
+  };
+  useEffect(() => {
+    const vis = () => setOculto(document.hidden);
+    document.addEventListener("visibilitychange", vis);
+    return () => {
+      document.removeEventListener("visibilitychange", vis);
+      limpar();
+    };
+  }, []);
+  useEffect(() => {
+    if (!apresentando || _movimento.apresentou || _conversa.carregando) return;
+    _movimento.apresentou = true;
+    limpar();
+    setEstado("entrance");
+    depois(320, () => setEstado("welcome"));
+    depois(1120, () => setEstado("idle"));
+  }, [apresentando]);
+  useEffect(() => {
+    const antes = carregavaAntes.current;
+    carregavaAntes.current = conversa.carregando;
+    if (conversa.carregando) {
+      limpar();
+      setEstado("idle");
+      setAviso("");
+      depois(300, () => {
+        setEstado("loading");
+        setAviso("Preparando resposta\u2026");
+      });
+      return;
+    }
+    if (!antes) return;
+    limpar();
+    const ultima = conversa.msgs[conversa.msgs.length - 1];
+    if (ultima && ultima.papel === "assistente") {
+      setEstado("success");
+      setAviso("Resposta pronta \xB7 toque para ver");
+      depois(480, () => setEstado("idle"));
+    } else {
+      setEstado("error");
+      setAviso("Sem resposta \xB7 toque para ver");
+    }
+    depois(4e3, () => setAviso(""));
+  }, [conversa.carregando]);
+  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("span", { className: "ccem-sr", "aria-live": "polite" }, aviso), aviso && /* @__PURE__ */ React.createElement(
+    "div",
+    {
+      "aria-hidden": "true",
+      style: {
+        position: "absolute",
+        right: 76,
+        bottom: 28,
+        zIndex: 40,
+        maxWidth: "calc(100% - 100px)",
+        padding: "5px 10px",
+        background: "#fff",
+        border: `1px solid ${C.linha}`,
+        borderRadius: 14,
+        boxShadow: "0 2px 8px rgba(10,18,50,.12)",
+        fontFamily: "DM Sans,system-ui,sans-serif",
+        fontSize: 12,
+        fontWeight: 600,
+        color: C.azul,
+        whiteSpace: "nowrap",
+        overflow: "hidden",
+        textOverflow: "ellipsis",
+        pointerEvents: "none"
+      }
+    },
+    aviso
+  ), /* @__PURE__ */ React.createElement(
     "button",
     {
-      className: "ccem-fab",
+      className: "ccem-fab" + (CCEM_MOVIMENTO_ASSISTENTE ? " ccem-fab-mov" : "") + (oculto ? " ccem-fab-pausado" : ""),
+      "data-estado": estado,
       onClick: aoTocar,
       "aria-label": "Abrir o Assistente CCEM",
       style: {
@@ -296,11 +380,12 @@ function BotaoAssistente({ aoTocar }) {
         borderRadius: "50%",
         background: C.azul,
         cursor: "pointer",
-        boxShadow: "0 4px 14px rgba(10,18,50,.28)"
+        boxShadow: "0 4px 14px rgba(10,18,50,.28)",
+        touchAction: "manipulation"
       }
     },
-    /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "52", height: "52", style: { display: "block", width: 52, height: 52, borderRadius: "50%" } })
-  );
+    /* @__PURE__ */ React.createElement("span", { className: "ccem-fab-corpo" }, /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "52", height: "52", style: { display: "block", width: 52, height: 52, borderRadius: "50%" } }), /* @__PURE__ */ React.createElement("span", { className: "ccem-fab-brilho", "aria-hidden": "true" }))
+  ));
 }
 const CCEM_APRESENTADO = "ccem2026:assistenteApresentado";
 function useApresentacaoAssistente() {
@@ -370,7 +455,7 @@ function BalaoAssistente({ aoExperimentar, aoFechar }) {
       /* @__PURE__ */ React.createElement(IcoChevR, { size: 15, color: C.azul })
     ),
     /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 10 } }, /* @__PURE__ */ React.createElement("button", { onClick: aoFechar, style: { flex: 1, minHeight: 44, background: "#fff", border: `1px solid ${C.linha}`, borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 600, color: C.cinza, cursor: "pointer" } }, "Agora n\xE3o"), /* @__PURE__ */ React.createElement("button", { onClick: aoExperimentar, style: { flex: 1, minHeight: 44, background: C.azul, border: "none", borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 700, color: "#fff", cursor: "pointer" } }, "Experimentar")),
-    /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textAlign: "center", marginTop: 8 } }, 'Depois, \xE9 s\xF3 tocar no "8".'),
+    /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textAlign: "center", marginTop: 8 } }, "Depois, toque neste bot\xE3o para falar comigo."),
     folha && /* @__PURE__ */ React.createElement(FolhaInstalar, { temDados, aoFechar: () => {
       setFolha(false);
       aoFechar();

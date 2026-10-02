@@ -48,7 +48,7 @@ function App() {
   const fab = comFab && !painel && !editor && !teclado ? (
     <>
       {comBalao && <BalaoAssistente aoExperimentar={abrirPainel} aoFechar={concluirApresentacao}/>}
-      <BotaoAssistente aoTocar={abrirPainel}/>
+      <BotaoAssistente aoTocar={abrirPainel} apresentando={comBalao}/>
     </>
   ) : null;
 

@@ -79,7 +79,11 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
   `api/assistente.js`). O que não está na FAQ vai para a secretaria.
 
 Abre pela aba Assistente ou pelo botão "8" (Home, Programa, Info e Sessão), num
-painel que sobe sobre a tela atual. Toda resposta termina com "Gerado por IA —
+painel que sobe sobre a tela atual. O "8" faz gestos breves só em momentos
+definidos (primeira apresentação, toque, resposta em preparo com o painel
+fechado, resposta pronta) e fica parado em repouso. Desligar tudo:
+`CCEM_MOVIMENTO_ASSISTENTE = false` em `v4/ccem-assistente.jsx`; "Reduzir
+movimento" do aparelho também desliga. Toda resposta termina com "Gerado por IA —
 confira na fonte" e pode ser salva no Caderno.
 
 ## Privacidade
