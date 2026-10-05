@@ -684,7 +684,7 @@ function InfoScreen() {
         {/* Rodapé */}
         <div style={{textAlign:'center',padding:'18px 16px 4px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.9}}>
           <div>Meu CCEM 2026 · v4.1</div>
-          <div>versão de avaliação · CCEM 2026</div>
+          <div>Realização: SBEM-SC</div>
           <div style={{marginTop:6}}>
             <a href="https://www.ccem2026.com.br" target="_blank" rel="noopener" style={{display:'inline-flex',alignItems:'center',minHeight:44,color:C.azul,textDecoration:'none',fontSize:12}}>ccem2026.com.br · site oficial do congresso ↗</a>
           </div>
@@ -812,7 +812,7 @@ function DesktopSidebar({ aba }) {
         })}
       </nav>
       <div style={{padding:'12px 16px',borderTop:`1px solid ${C.linhaSoft}`}}>
-        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.7}}>v4.1 · Meu CCEM<br/>versão de avaliação</div>
+        <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.7}}>Meu CCEM 2026 · v4.1<br/>Realização: SBEM-SC</div>
       </div>
     </div>
   );

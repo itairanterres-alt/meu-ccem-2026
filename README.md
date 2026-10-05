@@ -73,7 +73,7 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
 - Item "Trabalhos científicos (e-pôster)", que abre a página externa dos
   trabalhos. O app não hospeda trabalhos.
 
-**Assistente CCEM (beta)** — IA (Claude, da Anthropic) em três modos:
+**Assistente CCEM** — IA (Claude, da Anthropic) em três modos:
 - **Anotação:** foto do slide ou texto → mensagem-chave em até 2 frases, até 5
   pontos e a referência só se estiver visível no slide.
 - **Busca:** sessões do programa, com atalho para cada uma.

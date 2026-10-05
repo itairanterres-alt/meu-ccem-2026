@@ -109,7 +109,6 @@ function CabecalhoAssistente({ aoFechar }) {
       <div style={{flex:1,minWidth:0}}>
         <div style={{display:'flex',alignItems:'center',gap:6}}>
           <span style={{fontSize:14,fontWeight:700,color:C.tinta}}>Assistente CCEM</span>
-          <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.ouroTxt,background:C.ouroBg,padding:'0 7px',borderRadius:8,letterSpacing:'0.04em'}}>beta</span>
         </div>
         <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>IA · respostas podem conter erros</div>
       </div>
@@ -442,7 +441,6 @@ function BalaoAssistente({ aoExperimentar, aoFechar }) {
         <div style={{flex:1}}>
           <div style={{display:'flex',alignItems:'center',gap:6}}>
             <span style={{fontSize:14,fontWeight:700,color:C.tinta}}>Assistente CCEM</span>
-            <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:600,color:C.ouroTxt,background:C.ouroBg,padding:'0 7px',borderRadius:8}}>beta</span>
           </div>
           <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza}}>IA · respostas podem conter erros</div>
         </div>
