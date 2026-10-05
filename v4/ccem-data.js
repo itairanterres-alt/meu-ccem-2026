@@ -512,7 +512,7 @@ function ccemIcs(sessoes, baseUrl) {
    Os trabalhos não vivem no app: o item em Info abre a página
    externa. Se o e-pôster não acontecer, LINK_EPOSTER = null e o
    item some sozinho. */
-// TODO: confirmar URL dos e-pôsteres com a Promotes
-const LINK_EPOSTER = null;   // oculto até a Promotes confirmar o endereço (ou retirar de vez)
+// Página oficial dos trabalhos aprovados (Promotes), confirmada em 05/10/2026.
+const LINK_EPOSTER = 'https://www.ccem2026.com.br/submissao-trabalhos/aprovados.php';
 
 Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, go, ccemDiaDeHoje, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, LINK_EPOSTER, CCEM_PROGRAMA_CONFERIDO });
