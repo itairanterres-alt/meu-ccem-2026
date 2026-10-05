@@ -471,7 +471,7 @@ function InfoScreen() {
       style: { width: "100%", minHeight: 44, border: "1px solid #e53e3e", background: "#fff", color: "#e53e3e", borderRadius: 8, padding: "8px", fontSize: 12.5, fontWeight: 500, cursor: "pointer", fontFamily: "inherit" }
     },
     "Limpar todos os meus dados"
-  )), /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "18px 16px 4px", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.9 } }, /* @__PURE__ */ React.createElement("div", null, "Meu CCEM 2026 \xB7 v4.1"), /* @__PURE__ */ React.createElement("div", null, "vers\xE3o de avalia\xE7\xE3o \xB7 CCEM 2026"), /* @__PURE__ */ React.createElement("div", { style: { marginTop: 6 } }, /* @__PURE__ */ React.createElement("a", { href: "https://www.ccem2026.com.br", target: "_blank", rel: "noopener", style: { display: "inline-flex", alignItems: "center", minHeight: 44, color: C.azul, textDecoration: "none", fontSize: 12 } }, "ccem2026.com.br \xB7 site oficial do congresso \u2197")))));
+  )), /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", padding: "18px 16px 4px", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.9 } }, /* @__PURE__ */ React.createElement("div", null, "Meu CCEM 2026 \xB7 v4.1"), /* @__PURE__ */ React.createElement("div", null, "Realiza\xE7\xE3o: SBEM-SC"), /* @__PURE__ */ React.createElement("div", { style: { marginTop: 6 } }, /* @__PURE__ */ React.createElement("a", { href: "https://www.ccem2026.com.br", target: "_blank", rel: "noopener", style: { display: "inline-flex", alignItems: "center", minHeight: 44, color: C.azul, textDecoration: "none", fontSize: 12 } }, "ccem2026.com.br \xB7 site oficial do congresso \u2197")))));
 }
 function isEventWeek() {
   const agora = ccemAgora();
@@ -554,7 +554,7 @@ function DesktopSidebar({ aba }) {
       t.lbl,
       on && /* @__PURE__ */ React.createElement("span", { style: { marginLeft: "auto", width: 5, height: 5, borderRadius: "50%", background: C.azul, flexShrink: 0 } })
     );
-  })), /* @__PURE__ */ React.createElement("div", { style: { padding: "12px 16px", borderTop: `1px solid ${C.linhaSoft}` } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.7 } }, "v4.1 \xB7 Meu CCEM", /* @__PURE__ */ React.createElement("br", null), "vers\xE3o de avalia\xE7\xE3o")));
+  })), /* @__PURE__ */ React.createElement("div", { style: { padding: "12px 16px", borderTop: `1px solid ${C.linhaSoft}` } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.7 } }, "Meu CCEM 2026 \xB7 v4.1", /* @__PURE__ */ React.createElement("br", null), "Realiza\xE7\xE3o: SBEM-SC")));
 }
 function AreaComFab({ fab, reserva, children }) {
   return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0, position: "relative" } }, /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0 } }, children), reserva && /* @__PURE__ */ React.createElement("div", { "aria-hidden": "true", style: { height: 84, flexShrink: 0, background: C.papel, borderTop: `1px solid ${C.linhaSoft}` } }), fab);
