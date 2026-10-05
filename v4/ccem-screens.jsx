@@ -641,7 +641,10 @@ function InfoScreen() {
             <a href={LINK_EPOSTER} target="_blank" rel="noopener"
               style={{display:'flex',alignItems:'center',gap:11,minHeight:44,textDecoration:'none'}}>
               <div style={{width:34,height:34,borderRadius:9,background:C.azulBg,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0,color:C.azul}}><IcoPoster size={17}/></div>
-              <div style={{flex:1,fontSize:13.5,fontWeight:600,color:C.tinta}}>Trabalhos científicos (e-pôster)</div>
+              <div style={{flex:1}}>
+                <div style={{fontSize:13.5,fontWeight:600,color:C.tinta}}>Trabalhos científicos (e-pôster)</div>
+                <div style={{fontSize:12,color:C.cinza,lineHeight:1.4}}>Aprovados e orientações de apresentação · site oficial</div>
+              </div>
               <IcoLink size={16} color={C.azul}/>
             </a>
           </IC>
