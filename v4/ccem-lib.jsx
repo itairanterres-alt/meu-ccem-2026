@@ -318,7 +318,7 @@ function FolhaInstalar({ aoFechar, temDados }) {
             <div style={{...PASSO,borderBottom:'none'}}><span style={NUM}>3</span><span style={{flex:1}}>Confirme. O ícone do "8" aparece na tela inicial.</span></div>
           </div>
         ) : (
-          <p style={{fontSize:14,color:C.tinta,lineHeight:1.5,margin:'8px 0 0'}}>Abra <b>meu-ccem-2026.vercel.app</b> no celular e toque em "Instalar o app" na tela Info.</p>
+          <p style={{fontSize:14,color:C.tinta,lineHeight:1.5,margin:'8px 0 0'}}>Abra <b>ccem2026.sbemsc.org.br</b> no celular e toque em "Instalar o app" na tela Info.</p>
         )}
       </div>
     </div>,
