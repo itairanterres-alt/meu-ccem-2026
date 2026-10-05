@@ -6,6 +6,8 @@ Endocrinologia e Metabologia**.
 - 23 e 24 de outubro de 2026
 - Expoville · Rua XV de Novembro, 4315 · Joinville/SC
 - Realização: SBEM-SC · Organização: Promotes Eventos
+- Endereço oficial: **https://ccem2026.sbemsc.org.br** (subdomínio da SBEM-SC,
+  apontado para o Vercel; o antigo `meu-ccem-2026.vercel.app` redireciona para cá)
 
 Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.md).
 
@@ -106,8 +108,8 @@ fica disponível até 31/12/2026.
 Acrescente `?agora=` ao endereço, com data e hora de Joinville:
 
 ```
-https://<endereço-do-app>/?agora=2026-10-23T16:20
-https://<endereço-do-app>/?agora=2026-10-24T11:50#/programa
+https://ccem2026.sbemsc.org.br/?agora=2026-10-23T16:20
+https://ccem2026.sbemsc.org.br/?agora=2026-10-24T11:50#/programa
 ```
 
 O app passa a se comportar como se fosse aquele momento: selo "Agora", Home,
