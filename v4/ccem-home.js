@@ -10,8 +10,8 @@ function HomeScreen() {
     { id: "programa", icon: /* @__PURE__ */ React.createElement(IcoCal, { size: 24 }), lbl: "Programa", sub: "20 sess\xF5es \xB7 2 dias" },
     { id: "assistente", icon: /* @__PURE__ */ React.createElement(IcoChat, { size: 24 }), lbl: "Assistente", sub: "notas \xB7 busca cient\xEDfica" },
     { id: "caderno", icon: /* @__PURE__ */ React.createElement(IcoBook, { size: 24 }), lbl: "Caderno", sub: capCount > 0 ? capCount + " nota" + (capCount !== 1 ? "s" : "") : "suas anota\xE7\xF5es" },
-    // Página externa (site oficial); some se LINK_EPOSTER for null.
-    ...LINK_EPOSTER ? [{ id: "trabalhos", href: LINK_EPOSTER, largo: true, icon: /* @__PURE__ */ React.createElement(IcoPoster, { size: 24 }), lbl: "Trabalhos cient\xEDficos", sub: "e-p\xF4steres aprovados \xB7 site oficial \u2197" }] : []
+    // Some se LINK_EPOSTER for null.
+    ...LINK_EPOSTER ? [{ id: "trabalhos", largo: true, icon: /* @__PURE__ */ React.createElement(IcoPoster, { size: 24 }), lbl: "Trabalhos cient\xEDficos", sub: "aprovados \xB7 apresenta\xE7\xF5es \xB7 anais" }] : []
   ];
   return /* @__PURE__ */ React.createElement("div", { style: { height: "100%", overflowY: "auto", background: C.papel } }, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderBottom: `1px solid ${C.linhaSoft}`, position: "relative", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { height: 4, background: `linear-gradient(90deg, ${C.ouro} 0%, #f5c842 100%)` } }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", padding: "16px 20px 14px", borderBottom: `1px solid ${C.linhaSoft}`, gap: 0 } }, /* @__PURE__ */ React.createElement(
     "img",
@@ -54,7 +54,7 @@ function HomeScreen() {
     "button",
     {
       key: s.id,
-      onClick: () => s.href ? window.open(s.href, "_blank", "noopener") : go("#/" + s.id),
+      onClick: () => go("#/" + s.id),
       style: { gridColumn: i === 0 || s.largo ? "1 / -1" : "auto", background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: 13, padding: "14px 14px 12px", textAlign: "left", cursor: "pointer", display: "flex", flexDirection: "column", gap: 8, boxShadow: "0 1px 6px rgba(29,62,138,.05)", transition: "all .15s" },
       onMouseOver: (e) => {
         e.currentTarget.style.transform = "translateY(-2px)";

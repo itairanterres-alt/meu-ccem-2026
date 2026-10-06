@@ -515,4 +515,16 @@ function ccemIcs(sessoes, baseUrl) {
 // Página oficial dos trabalhos aprovados (Promotes), confirmada em 05/10/2026.
 const LINK_EPOSTER = 'https://www.ccem2026.com.br/submissao-trabalhos/aprovados.php';
 
-Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, go, ccemDiaDeHoje, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, LINK_EPOSTER, CCEM_PROGRAMA_CONFERIDO });
+/* Aba Trabalhos: o que está publicado na página oficial (conferido em
+   05/10/2026) e a publicação nos anais. Quando a Promotes divulgar o
+   cronograma das apresentações, preencher CCEM_TRABALHOS.cronograma. */
+const CCEM_TRABALHOS = {
+  conferido: '05/10/2026',
+  exibicao: 'Os e-pôsteres ficam em exibição em local exclusivo durante todo o evento.',
+  apresentacao: 'Cada trabalho é apresentado em 5 minutos por um autor inscrito no congresso, nos intervalos dos dias 23 e 24/10.',
+  cronograma: null,   // ainda não divulgado
+  publicacao: 'Os trabalhos serão publicados nos anais do congresso, na revista da Associação Catarinense de Medicina (ACM).',
+  envio: { prazo: '16/10/2026 (sexta-feira)', email: 'contato@ccem2026.com.br' },
+};
+
+Object.assign(window, { C, TEMAS_COR, DIAS, ccemAgora, ccemInstante, ccemSessaoNoAr, ccemDiaDoEvento, CCEM_INICIO, CCEM_FIM, SESSOES, SESSOES_NAV, PROGRAMA, go, ccemDiaDeHoje, SPEAKER_BIOS, ccemSessoesEmOrdem, ccemRotulo, ccemEstado, ccemLiveStatus, ccemIcs, CCEM_LOCAL_ICS, LINK_EPOSTER, CCEM_TRABALHOS, CCEM_PROGRAMA_CONFERIDO });

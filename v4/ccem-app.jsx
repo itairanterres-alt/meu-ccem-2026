@@ -15,13 +15,13 @@ function App() {
     if (parts[0] === 'assistente')             return { tela:'assistente' };
     if (parts[0] === 'caderno')                return { tela:'caderno' };
     if (parts[0] === 'info')                   return { tela:'info' };
-    if (parts[0] === 'trabalhos')              return { tela:'info' };  // link antigo: o e-pôster agora está em Info
+    if (parts[0] === 'trabalhos')              return { tela: LINK_EPOSTER ? 'trabalhos' : 'info' };
     return { tela:'home' };
   }, [hash]);
 
   const showShell = route.tela !== 'sessao' && route.tela !== 'home';
 
-  // 5.7 · Botão "8": Home, Programa, Info e Sessão. Some na aba Assistente,
+  // 5.7 · Botão "8": Home, Programa, Trabalhos, Info e Sessão. Some na aba Assistente,
   // com o teclado aberto e com o painel aberto. Só abre com toque.
   const [painel, setPainel] = useState(false);
   const teclado = useTecladoAberto();
@@ -38,7 +38,7 @@ function App() {
     return () => window.removeEventListener('ccem:anotar', abrir);
   },[]);
   useEffect(()=>{ setPainel(false); setEditor(null); },[hash]);
-  const comFab  = ['home','programa','info','sessao'].includes(route.tela);
+  const comFab  = ['home','programa','info','trabalhos','sessao'].includes(route.tela);
   const reserva = route.tela === 'home' || route.tela === 'sessao';
   // Primeiro acesso: balão de apresentação ao lado do "8" (Home ou Programa), uma vez por aparelho.
   const [apresentar, concluirApresentacao] = useApresentacaoAssistente();
@@ -65,6 +65,7 @@ function App() {
       {route.tela === 'assistente' && <AssistenteScreen/>}
       {route.tela === 'caderno'    && <CadernoScreen/>}
       {route.tela === 'info'       && <InfoScreen/>}
+      {route.tela === 'trabalhos'  && <TrabalhosScreen/>}
       {route.tela === 'programa'   && <ProgramaScreen/>}
     </AppShell>
     </>
