@@ -11,7 +11,7 @@ function HomeScreen() {
     { id: "assistente", icon: /* @__PURE__ */ React.createElement(IcoChat, { size: 24 }), lbl: "Assistente", sub: "notas \xB7 busca cient\xEDfica" },
     { id: "caderno", icon: /* @__PURE__ */ React.createElement(IcoBook, { size: 24 }), lbl: "Caderno", sub: capCount > 0 ? capCount + " nota" + (capCount !== 1 ? "s" : "") : "suas anota\xE7\xF5es" },
     // Some se LINK_EPOSTER for null.
-    ...LINK_EPOSTER ? [{ id: "trabalhos", largo: true, icon: /* @__PURE__ */ React.createElement(IcoPoster, { size: 24 }), lbl: "Trabalhos cient\xEDficos", sub: "aprovados \xB7 apresenta\xE7\xF5es \xB7 anais" }] : []
+    ...LINK_EPOSTER ? [{ id: "trabalhos", largo: true, icon: /* @__PURE__ */ React.createElement(IcoPoster, { size: 24 }), lbl: "Trabalhos cient\xEDficos", sub: "aprovados \xB7 apresenta\xE7\xF5es" }] : []
   ];
   return /* @__PURE__ */ React.createElement("div", { style: { height: "100%", overflowY: "auto", background: C.papel } }, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderBottom: `1px solid ${C.linhaSoft}`, position: "relative", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { height: 4, background: `linear-gradient(90deg, ${C.ouro} 0%, #f5c842 100%)` } }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", padding: "16px 20px 14px", borderBottom: `1px solid ${C.linhaSoft}`, gap: 0 } }, /* @__PURE__ */ React.createElement(
     "img",

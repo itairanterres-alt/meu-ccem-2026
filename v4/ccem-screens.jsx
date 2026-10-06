@@ -763,14 +763,14 @@ function TrabalhosScreen() {
             ? T.cronograma.map((c,i)=><P key={i}><b>{c.quando}</b> · {c.oque}</P>)
             : <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.5,margin:'4px 0 0'}}>O cronograma das apresentações será divulgado pela organização e aparecerá aqui.</p>}
         </IC>
-        <IC>
+        {T.publicacao&&<IC>
           <H3>Publicação</H3>
           <P>{T.publicacao}</P>
           {T.revista&&<a href={T.revista} target="_blank" rel="noopener"
             style={{display:'inline-flex',alignItems:'center',gap:6,minHeight:44,color:C.azul,fontWeight:600,fontSize:13,textDecoration:'none'}}>
             Conhecer a revista <IcoLink size={14} color={C.azul}/>
           </a>}
-        </IC>
+        </IC>}
         <IC>
           <H3>Para os autores</H3>
           <P>Enviar a apresentação em PDF até <b>{T.envio.prazo}</b> para{' '}

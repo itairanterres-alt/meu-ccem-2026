@@ -523,7 +523,10 @@ const CCEM_TRABALHOS = {
   exibicao: 'Os e-pôsteres ficam em exibição em local exclusivo durante todo o evento.',
   apresentacao: 'Cada trabalho é apresentado em 5 minutos por um autor inscrito no congresso, nos intervalos dos dias 23 e 24/10.',
   cronograma: null,   // ainda não divulgado
-  publicacao: 'Os trabalhos serão publicados nos anais do congresso, na revista Arquivos Catarinenses de Medicina, da Associação Catarinense de Medicina (ACM).',
+  // Publicação nos anais: oculta até confirmação da Comissão. Texto pronto para ativar:
+  // 'Os trabalhos serão publicados nos anais do congresso, na revista Arquivos Catarinenses
+  //  de Medicina, da Associação Catarinense de Medicina (ACM).'
+  publicacao: null,
   revista: 'https://revista.acm.org.br/arquivos/pt_BR',
   envio: { prazo: '16/10/2026 (sexta-feira)', email: 'contato@ccem2026.com.br' },
 };

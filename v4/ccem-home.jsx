@@ -17,7 +17,7 @@ function HomeScreen() {
     { id:'assistente', icon:<IcoChat size={24}/>,    lbl:'Assistente', sub:'notas · busca científica' },
     { id:'caderno',    icon:<IcoBook size={24}/>,    lbl:'Caderno',    sub:capCount > 0 ? capCount+' nota'+(capCount!==1?'s':'') : 'suas anotações' },
     // Some se LINK_EPOSTER for null.
-    ...(LINK_EPOSTER ? [{ id:'trabalhos', largo:true, icon:<IcoPoster size={24}/>, lbl:'Trabalhos científicos', sub:'aprovados · apresentações · anais' }] : []),
+    ...(LINK_EPOSTER ? [{ id:'trabalhos', largo:true, icon:<IcoPoster size={24}/>, lbl:'Trabalhos científicos', sub:'aprovados · apresentações' }] : []),
   ];
 
   return (
