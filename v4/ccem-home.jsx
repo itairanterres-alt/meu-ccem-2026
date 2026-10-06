@@ -16,8 +16,8 @@ function HomeScreen() {
     { id:'programa',   icon:<IcoCal size={24}/>,    lbl:'Programa',   sub:'20 sessões · 2 dias' },
     { id:'assistente', icon:<IcoChat size={24}/>,    lbl:'Assistente', sub:'notas · busca científica' },
     { id:'caderno',    icon:<IcoBook size={24}/>,    lbl:'Caderno',    sub:capCount > 0 ? capCount+' nota'+(capCount!==1?'s':'') : 'suas anotações' },
-    // Página externa (site oficial); some se LINK_EPOSTER for null.
-    ...(LINK_EPOSTER ? [{ id:'trabalhos', href:LINK_EPOSTER, largo:true, icon:<IcoPoster size={24}/>, lbl:'Trabalhos científicos', sub:'e-pôsteres aprovados · site oficial ↗' }] : []),
+    // Some se LINK_EPOSTER for null.
+    ...(LINK_EPOSTER ? [{ id:'trabalhos', largo:true, icon:<IcoPoster size={24}/>, lbl:'Trabalhos científicos', sub:'aprovados · apresentações' }] : []),
   ];
 
   return (
@@ -123,7 +123,7 @@ function HomeScreen() {
         <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.1em',color:C.cinza,marginBottom:12,fontWeight:600}}>Acesso rápido</div>
         <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:9}}>
           {shortcuts.map((s,i)=>(
-            <button key={s.id} onClick={()=>s.href ? window.open(s.href,'_blank','noopener') : go('#/'+s.id)}
+            <button key={s.id} onClick={()=>go('#/'+s.id)}
               style={{gridColumn:(i===0||s.largo)?'1 / -1':'auto',background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:13,padding:'14px 14px 12px',textAlign:'left',cursor:'pointer',display:'flex',flexDirection:'column',gap:8,boxShadow:'0 1px 6px rgba(29,62,138,.05)',transition:'all .15s'}}
               onMouseOver={e=>{e.currentTarget.style.transform='translateY(-2px)';e.currentTarget.style.boxShadow='0 4px 18px rgba(29,62,138,.11)';e.currentTarget.style.borderColor=C.azul;}}
               onMouseOut={e=>{e.currentTarget.style.transform='';e.currentTarget.style.boxShadow='0 1px 6px rgba(29,62,138,.05)';e.currentTarget.style.borderColor=C.linhaSoft;}}>

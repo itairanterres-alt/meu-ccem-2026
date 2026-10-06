@@ -8,7 +8,7 @@ function App() {
     if (parts[0] === "assistente") return { tela: "assistente" };
     if (parts[0] === "caderno") return { tela: "caderno" };
     if (parts[0] === "info") return { tela: "info" };
-    if (parts[0] === "trabalhos") return { tela: "info" };
+    if (parts[0] === "trabalhos") return { tela: LINK_EPOSTER ? "trabalhos" : "info" };
     return { tela: "home" };
   }, [hash]);
   const showShell = route.tela !== "sessao" && route.tela !== "home";
@@ -29,7 +29,7 @@ function App() {
     setPainel(false);
     setEditor(null);
   }, [hash]);
-  const comFab = ["home", "programa", "info", "sessao"].includes(route.tela);
+  const comFab = ["home", "programa", "info", "trabalhos", "sessao"].includes(route.tela);
   const reserva = route.tela === "home" || route.tela === "sessao";
   const [apresentar, concluirApresentacao] = useApresentacaoAssistente();
   const abrirPainel = () => {
@@ -41,7 +41,7 @@ function App() {
   }, [painel]);
   const comBalao = apresentar && (route.tela === "home" || route.tela === "programa");
   const fab = comFab && !painel && !editor && !teclado ? /* @__PURE__ */ React.createElement(React.Fragment, null, comBalao && /* @__PURE__ */ React.createElement(BalaoAssistente, { aoExperimentar: abrirPainel, aoFechar: concluirApresentacao }), /* @__PURE__ */ React.createElement(BotaoAssistente, { aoTocar: abrirPainel, apresentando: comBalao })) : null;
-  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(AvisoAtualizacao, null), /* @__PURE__ */ React.createElement(HostEntrar, null), /* @__PURE__ */ React.createElement(LembretePDF, null), editor && /* @__PURE__ */ React.createElement(EditorNota, { notaId: editor.notaId, sessaoId: editor.sessaoId, aoFechar: () => setEditor(null) }), painel && /* @__PURE__ */ React.createElement(PainelAssistente, { sessaoId: route.tela === "sessao" ? route.id : null, tela: route.tela === "sessao" ? "sessao" : route.tela, aoFechar: () => setPainel(false) }), /* @__PURE__ */ React.createElement(AppShell, { showShell, aba: route.tela, fab, reservaFab: reserva }, route.tela === "sessao" && /* @__PURE__ */ React.createElement(SessaoDetail, { id: route.id }), route.tela === "home" && /* @__PURE__ */ React.createElement(HomeScreen, null), route.tela === "assistente" && /* @__PURE__ */ React.createElement(AssistenteScreen, null), route.tela === "caderno" && /* @__PURE__ */ React.createElement(CadernoScreen, null), route.tela === "info" && /* @__PURE__ */ React.createElement(InfoScreen, null), route.tela === "programa" && /* @__PURE__ */ React.createElement(ProgramaScreen, null)));
+  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(AvisoAtualizacao, null), /* @__PURE__ */ React.createElement(HostEntrar, null), /* @__PURE__ */ React.createElement(LembretePDF, null), editor && /* @__PURE__ */ React.createElement(EditorNota, { notaId: editor.notaId, sessaoId: editor.sessaoId, aoFechar: () => setEditor(null) }), painel && /* @__PURE__ */ React.createElement(PainelAssistente, { sessaoId: route.tela === "sessao" ? route.id : null, tela: route.tela === "sessao" ? "sessao" : route.tela, aoFechar: () => setPainel(false) }), /* @__PURE__ */ React.createElement(AppShell, { showShell, aba: route.tela, fab, reservaFab: reserva }, route.tela === "sessao" && /* @__PURE__ */ React.createElement(SessaoDetail, { id: route.id }), route.tela === "home" && /* @__PURE__ */ React.createElement(HomeScreen, null), route.tela === "assistente" && /* @__PURE__ */ React.createElement(AssistenteScreen, null), route.tela === "caderno" && /* @__PURE__ */ React.createElement(CadernoScreen, null), route.tela === "info" && /* @__PURE__ */ React.createElement(InfoScreen, null), route.tela === "trabalhos" && /* @__PURE__ */ React.createElement(TrabalhosScreen, null), route.tela === "programa" && /* @__PURE__ */ React.createElement(ProgramaScreen, null)));
 }
 function AvisoAtualizacao() {
   const [pronta, setPronta] = useState(() => !!window.__ccemNovaVersao);

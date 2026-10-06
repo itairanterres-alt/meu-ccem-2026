@@ -635,21 +635,6 @@ function InfoScreen() {
           </div>
         </IC>
 
-        {/* Trabalhos científicos — página externa; some se LINK_EPOSTER for null */}
-        {LINK_EPOSTER&&(
-          <IC>
-            <a href={LINK_EPOSTER} target="_blank" rel="noopener"
-              style={{display:'flex',alignItems:'center',gap:11,minHeight:44,textDecoration:'none'}}>
-              <div style={{width:34,height:34,borderRadius:9,background:C.azulBg,display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0,color:C.azul}}><IcoPoster size={17}/></div>
-              <div style={{flex:1}}>
-                <div style={{fontSize:13.5,fontWeight:600,color:C.tinta}}>Trabalhos científicos (e-pôster)</div>
-                <div style={{fontSize:12,color:C.cinza,lineHeight:1.4}}>Aprovados e orientações de apresentação · site oficial</div>
-              </div>
-              <IcoLink size={16} color={C.azul}/>
-            </a>
-          </IC>
-        )}
-
         {/* Contato */}
         <IC>
           <H3>Contato</H3>
@@ -747,12 +732,63 @@ function AppHeader(){
   );
 }
 
-/* ── TabBar — Programa · Assistente · Caderno · Info */
+/* ── Trabalhos científicos ─────────────────────────────────────
+   Resumo do que está na página oficial + botão para a lista de
+   aprovados. Quando sair o cronograma, ele aparece aqui. */
+function TrabalhosScreen() {
+  const T = CCEM_TRABALHOS;
+  const IC = ({children})=><div style={{background:'#fff',borderRadius:12,padding:'13px 14px',margin:'10px 14px 0',border:`1px solid ${C.linhaSoft}`,boxShadow:'0 1px 5px rgba(29,62,138,.04)'}}>{children}</div>;
+  const H3 = ({children})=><h3 style={{fontFamily:'Georgia,serif',fontSize:14,fontWeight:600,color:C.tinta,margin:'0 0 8px'}}>{children}</h3>;
+  const P = ({children})=><p style={{fontSize:13,color:C.tinta,lineHeight:1.55,margin:'0 0 6px'}}>{children}</p>;
+  return (
+    <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
+      <div style={{flex:1,overflowY:'auto',paddingBottom:84}}>
+        <div style={{background:C.azul,color:'#fff',padding:'20px 16px 18px'}}>
+          <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,letterSpacing:'0.12em',textTransform:'uppercase',opacity:.75,marginBottom:4}}>12º CCEM 2026</div>
+          <h2 style={{fontFamily:'Georgia,serif',fontSize:21,fontWeight:600,margin:0,lineHeight:1.2}}>Trabalhos científicos</h2>
+        </div>
+        <IC>
+          <H3>Trabalhos aprovados</H3>
+          <P>A lista completa está no site oficial do congresso.</P>
+          <a href={LINK_EPOSTER} target="_blank" rel="noopener"
+            style={{display:'flex',alignItems:'center',justifyContent:'center',gap:8,minHeight:48,marginTop:6,borderRadius:10,background:C.azul,color:'#fff',textDecoration:'none',fontFamily:'DM Sans,sans-serif',fontSize:14,fontWeight:700}}>
+            Ver trabalhos aprovados <IcoLink size={16} color="#fff"/>
+          </a>
+        </IC>
+        <IC>
+          <H3>Apresentações</H3>
+          <P>{T.exibicao}</P>
+          <P>{T.apresentacao}</P>
+          {T.cronograma
+            ? T.cronograma.map((c,i)=><P key={i}><b>{c.quando}</b> · {c.oque}</P>)
+            : <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.5,margin:'4px 0 0'}}>O cronograma das apresentações será divulgado pela organização e aparecerá aqui.</p>}
+        </IC>
+        {T.publicacao&&<IC>
+          <H3>Publicação</H3>
+          <P>{T.publicacao}</P>
+          {T.revista&&<a href={T.revista} target="_blank" rel="noopener"
+            style={{display:'inline-flex',alignItems:'center',gap:6,minHeight:44,color:C.azul,fontWeight:600,fontSize:13,textDecoration:'none'}}>
+            Conhecer a revista <IcoLink size={14} color={C.azul}/>
+          </a>}
+        </IC>}
+        <IC>
+          <H3>Para os autores</H3>
+          <P>Enviar a apresentação em PDF até <b>{T.envio.prazo}</b> para{' '}
+            <a href={'mailto:'+T.envio.email} style={{color:C.azul,fontWeight:600}}>{T.envio.email}</a>.</P>
+          <p style={{fontSize:12,color:C.cinza,lineHeight:1.5,margin:'8px 0 0'}}>Informações conferidas no site oficial em {T.conferido}. Em caso de dúvida, vale o site oficial.</p>
+        </IC>
+      </div>
+    </div>
+  );
+}
+
+/* ── TabBar — Programa · Assistente · Caderno · Trabalhos · Info */
 function TabBar({ aba }){
   const tabs=[
     {id:'programa',   icon:<IcoCal size={21}/>,    lbl:'Programa'},
     {id:'assistente', icon:<IcoChat size={21}/>,    lbl:'Assistente'},
     {id:'caderno',    icon:<IcoBook size={21}/>,    lbl:'Caderno'},
+    ...(LINK_EPOSTER ? [{id:'trabalhos', icon:<IcoPoster size={21}/>, lbl:'Trabalhos'}] : []),
     {id:'info',       icon:<IcoInfo size={21}/>,    lbl:'Info'},
   ];
   return (
@@ -789,6 +825,7 @@ function DesktopSidebar({ aba }) {
     {id:'programa',   icon:<IcoCal size={20}/>,    lbl:'Programa'},
     {id:'assistente', icon:<IcoChat size={20}/>,    lbl:'Assistente'},
     {id:'caderno',    icon:<IcoBook size={20}/>,    lbl:'Caderno'},
+    ...(LINK_EPOSTER ? [{id:'trabalhos', icon:<IcoPoster size={20}/>, lbl:'Trabalhos'}] : []),
     {id:'info',       icon:<IcoInfo size={20}/>,    lbl:'Info'},
   ];
   return (
@@ -806,7 +843,7 @@ function DesktopSidebar({ aba }) {
           const on=aba===t.id||(aba==='sessao'&&t.id==='programa');
           return (
             <button key={t.id} onClick={()=>go('#/'+t.id)}
-              style={{width:'100%',display:'flex',alignItems:'center',gap:10,padding:'9px 12px',border:'none',background:on?C.azulBg:'none',color:on?C.azul:C.cinza,borderRadius:9,cursor:'pointer',fontFamily:'DM Sans,sans-serif',fontSize:13.5,fontWeight:on?700:400,marginBottom:2,transition:'all .15s',textAlign:'left'}}>
+              style={{width:'100%',minHeight:44,display:'flex',alignItems:'center',gap:10,padding:'9px 12px',border:'none',background:on?C.azulBg:'none',color:on?C.azul:C.cinza,borderRadius:9,cursor:'pointer',fontFamily:'DM Sans,sans-serif',fontSize:13.5,fontWeight:on?700:400,marginBottom:2,transition:'all .15s',textAlign:'left'}}>
               <span style={{flexShrink:0,color:on?C.azul:C.cinza}}>{t.icon}</span>
               {t.lbl}
               {on&&<span style={{marginLeft:'auto',width:5,height:5,borderRadius:'50%',background:C.azul,flexShrink:0}}/>}
@@ -866,7 +903,7 @@ function AppShell({ showShell, aba, fab, reservaFab, children }){
 Object.assign(window, {
   AppShell, AppHeader, LiveStrip, TabBar, DesktopSidebar, useIsDesktop,
   DayTimeline, SlideDisplay, SlideUploadBtn,
-  ProgramaScreen, SessaoDetail, InfoScreen,
+  ProgramaScreen, SessaoDetail, InfoScreen, TrabalhosScreen,
   BadgePill, TopicPill, IntervalRow, SessaoCard,
   sessionIsPast, isEventWeek,
 });
