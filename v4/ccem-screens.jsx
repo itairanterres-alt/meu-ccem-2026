@@ -766,6 +766,10 @@ function TrabalhosScreen() {
         <IC>
           <H3>Publicação</H3>
           <P>{T.publicacao}</P>
+          {T.revista&&<a href={T.revista} target="_blank" rel="noopener"
+            style={{display:'inline-flex',alignItems:'center',gap:6,minHeight:44,color:C.azul,fontWeight:600,fontSize:13,textDecoration:'none'}}>
+            Conhecer a revista <IcoLink size={14} color={C.azul}/>
+          </a>}
         </IC>
         <IC>
           <H3>Para os autores</H3>

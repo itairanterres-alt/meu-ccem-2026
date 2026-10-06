@@ -507,7 +507,17 @@ function TrabalhosScreen() {
     },
     "Ver trabalhos aprovados ",
     /* @__PURE__ */ React.createElement(IcoLink, { size: 16, color: "#fff" })
-  )), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Apresenta\xE7\xF5es"), /* @__PURE__ */ React.createElement(P, null, T.exibicao), /* @__PURE__ */ React.createElement(P, null, T.apresentacao), T.cronograma ? T.cronograma.map((c, i) => /* @__PURE__ */ React.createElement(P, { key: i }, /* @__PURE__ */ React.createElement("b", null, c.quando), " \xB7 ", c.oque)) : /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, margin: "4px 0 0" } }, "O cronograma das apresenta\xE7\xF5es ser\xE1 divulgado pela organiza\xE7\xE3o e aparecer\xE1 aqui.")), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Publica\xE7\xE3o"), /* @__PURE__ */ React.createElement(P, null, T.publicacao)), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Para os autores"), /* @__PURE__ */ React.createElement(P, null, "Enviar a apresenta\xE7\xE3o em PDF at\xE9 ", /* @__PURE__ */ React.createElement("b", null, T.envio.prazo), " para", " ", /* @__PURE__ */ React.createElement("a", { href: "mailto:" + T.envio.email, style: { color: C.azul, fontWeight: 600 } }, T.envio.email), "."), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.5, margin: "8px 0 0" } }, "Informa\xE7\xF5es conferidas no site oficial em ", T.conferido, ". Em caso de d\xFAvida, vale o site oficial."))));
+  )), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Apresenta\xE7\xF5es"), /* @__PURE__ */ React.createElement(P, null, T.exibicao), /* @__PURE__ */ React.createElement(P, null, T.apresentacao), T.cronograma ? T.cronograma.map((c, i) => /* @__PURE__ */ React.createElement(P, { key: i }, /* @__PURE__ */ React.createElement("b", null, c.quando), " \xB7 ", c.oque)) : /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, margin: "4px 0 0" } }, "O cronograma das apresenta\xE7\xF5es ser\xE1 divulgado pela organiza\xE7\xE3o e aparecer\xE1 aqui.")), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Publica\xE7\xE3o"), /* @__PURE__ */ React.createElement(P, null, T.publicacao), T.revista && /* @__PURE__ */ React.createElement(
+    "a",
+    {
+      href: T.revista,
+      target: "_blank",
+      rel: "noopener",
+      style: { display: "inline-flex", alignItems: "center", gap: 6, minHeight: 44, color: C.azul, fontWeight: 600, fontSize: 13, textDecoration: "none" }
+    },
+    "Conhecer a revista ",
+    /* @__PURE__ */ React.createElement(IcoLink, { size: 14, color: C.azul })
+  )), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Para os autores"), /* @__PURE__ */ React.createElement(P, null, "Enviar a apresenta\xE7\xE3o em PDF at\xE9 ", /* @__PURE__ */ React.createElement("b", null, T.envio.prazo), " para", " ", /* @__PURE__ */ React.createElement("a", { href: "mailto:" + T.envio.email, style: { color: C.azul, fontWeight: 600 } }, T.envio.email), "."), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.5, margin: "8px 0 0" } }, "Informa\xE7\xF5es conferidas no site oficial em ", T.conferido, ". Em caso de d\xFAvida, vale o site oficial."))));
 }
 function TabBar({ aba }) {
   const tabs = [
