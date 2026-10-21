@@ -60,7 +60,7 @@ function App() {
     {editor && <EditorNota notaId={editor.notaId} sessaoId={editor.sessaoId} aoFechar={()=>setEditor(null)}/>}
     {painel && <PainelAssistente sessaoId={route.tela==='sessao'?route.id:null} tela={route.tela==='sessao'?'sessao':route.tela} aoFechar={()=>setPainel(false)}/>}
     <AppShell showShell={showShell} aba={route.tela} fab={fab} reservaFab={reserva}>
-      {route.tela === 'sessao'     && <SessaoDetail id={route.id}/>}
+      {route.tela === 'sessao'     && <SessaoDetail key={route.id} id={route.id}/>}
       {route.tela === 'home'       && <HomeScreen/>}
       {route.tela === 'assistente' && <AssistenteScreen/>}
       {route.tela === 'caderno'    && <CadernoScreen/>}
