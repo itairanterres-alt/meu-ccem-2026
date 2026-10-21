@@ -248,7 +248,7 @@ const SESSOES = {
     temas:['Ósseo'], navegavel:true,
     falas:[
       { n:1, titulo:'Abordagem da hipocalcemia de difícil manejo', palestrante:'Dr. Dalisbor Marcelo Weber Silva' },
-      { n:2, titulo:'Caso clínico de osteoporose', palestrante:'Dra. Fátima Sandmann Afonso' },
+      { n:2, titulo:'Caso clínico de osteoporose', palestrante:'Dra. Fatima Sandmann Afonso' },
     ],
   },
   'simp8-hipofise': {
@@ -285,7 +285,7 @@ const SESSOES = {
     moderador:'Dr. Fabio Herget Pitanga',
     temas:['Obesidade'], navegavel:true,
     falas:[
-      { n:1, titulo:'Menos gordura e menos músculo: abordagem', palestrante:'Dra. Fátima Sandmann Afonso' },
+      { n:1, titulo:'Menos gordura e menos músculo: abordagem', palestrante:'Dra. Fatima Sandmann Afonso' },
       { n:2, titulo:'Emagreceu: estratégias farmacológicas de manutenção de peso perdido', palestrante:'Dra. Cristina da Silva Schreiber de Oliveira' },
       { n:3, titulo:'Risco cardiovascular na obesidade: evidência baseada na nova diretriz brasileira', palestrante:'Dra. Luciana Muniz Pechmann' },
     ],
@@ -360,7 +360,7 @@ const SPEAKER_BIOS = {
   'Dr. Guilherme Asmar Alencar':{role:'Endocrinologista'},
   'Dra. Suely Keiko Kohara':{role:'Comissão Científica · Endocrinologista pediátrica'},
   'Dr. Fabio Herget Pitanga':{role:'Tesoureiro SBEM-SC · Comissão Organizadora'},
-  'Dra. Fátima Sandmann Afonso':{role:'Endocrinologista'},
+  'Dra. Fatima Sandmann Afonso':{role:'Endocrinologista'},
   'Dra. Cristina da Silva Schreiber de Oliveira':{role:'Endocrinologista'},
   // Curadoria conferida no Currículo Lattes (ID 5342142388498500, atualizado
   // em 01/06/2026). O registro anterior dizia São Paulo: vínculo com o Fleury,
