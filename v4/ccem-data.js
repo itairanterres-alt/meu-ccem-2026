@@ -56,7 +56,7 @@ const DIAS = ['sex · 23/10', 'sab · 24/10'];
    ============================================================ */
 // Última conferência da grade com o site oficial (www.ccem2026.com.br).
 // Atualizar a cada nova conferência: o app mostra esta data no Programa.
-const CCEM_PROGRAMA_CONFERIDO = '01/10/2026';
+const CCEM_PROGRAMA_CONFERIDO = '21/10/2026';
 
 const CCEM_UTC_OFFSET = '-03:00';
 
@@ -153,7 +153,7 @@ const SESSOES = {
   'simp2-dm1': {
     id:'simp2-dm1', dia:DIAS[0], inicio:'11:20', fim:'12:30', dur:'1h 10',
     tipo:'simposio', badge:'Simpósio 2', titulo:'Diabetes Mellitus tipo 1',
-    moderador:'Dra. Flaviana Aparecida Dalla Vechia',
+    moderador:'Dra. Eliza Mayumi Matsuo Sugawara',
     temas:['DM1'], navegavel:true,
     falas:[
       { n:1, titulo:'Prevenção e cura do DM1 — Já é uma realidade?', palestrante:'Dr. Mauro Scharf Pinto' },
@@ -163,8 +163,9 @@ const SESSOES = {
   },
   'sat-sex-3': {
     id:'sat-sex-3', dia:DIAS[0], inicio:'12:30', fim:'13:10', dur:'40 min',
-    tipo:'satelite', badge:'Satélite · Marjan Farma', titulo:'Sessão patrocinada',
-    temas:[], navegavel:true, aDefinir:true,
+    tipo:'satelite', badge:'Satélite · Marjan Farma', titulo:'Neuropatias Periféricas',
+    temas:['DM2'], navegavel:true,
+    falas:[{ n:'·', palestrante:'Dra. Adriana Striebel' }],
   },
   'simp3-cdt': {
     id:'simp3-cdt', dia:DIAS[0], inicio:'13:20', fim:'14:35', dur:'1h 15',
@@ -180,8 +181,9 @@ const SESSOES = {
   },
   'sat-sex-4': {
     id:'sat-sex-4', dia:DIAS[0], inicio:'14:35', fim:'15:20', dur:'45 min',
-    tipo:'satelite', badge:'Satélite · EMS', titulo:'Sessão patrocinada',
-    temas:[], navegavel:true, aDefinir:true,
+    tipo:'satelite', badge:'Satélite · EMS', titulo:'A Harmonia das Combinações no tratamento da obesidade ao diabetes',
+    temas:['Obesidade','DM2'], navegavel:true,
+    falas:[{ n:'·', palestrante:'Dra. Cristina da Silva Schreiber de Oliveira' }],
   },
   'mini-cdt-resposta': {
     id:'mini-cdt-resposta', dia:DIAS[0], inicio:'15:20', fim:'15:50', dur:'30 min',
@@ -222,7 +224,7 @@ const SESSOES = {
     falas:[
       { n:1, titulo:'Nova diretriz de hipogonadismo', palestrante:'Dra. Ruth Clapauch' },
       { n:2, titulo:'Abordagem da perimenopausa', palestrante:'Dra. Ruth Clapauch' },
-      { n:3, titulo:'UpDate síndrome dos ovários policísticos', palestrante:'Dra. Carina Gabriela Corrêa Morellato' },
+      { n:3, titulo:'UpDate Síndrome Ovariana Metabólica Poliendócrina (SOMP)', palestrante:'Dra. Carina Gabriela Corrêa Morellato' },
     ],
   },
   'mini-transgenero': {
@@ -242,7 +244,7 @@ const SESSOES = {
   'simp7-osseo': {
     id:'simp7-osseo', dia:DIAS[1], inicio:'10:50', fim:'11:40', dur:'50 min',
     tipo:'simposio', badge:'Simpósio 7', titulo:'Metabolismo Ósseo',
-    moderador:'Dra. Júlia Vieira Oberger Marques',
+    moderador:'Dra. Sheila Montano Vega',
     temas:['Ósseo'], navegavel:true,
     falas:[
       { n:1, titulo:'Abordagem da hipocalcemia de difícil manejo', palestrante:'Dr. Dalisbor Marcelo Weber Silva' },
@@ -329,7 +331,7 @@ const PROGRAMA = {
     { tipo:'intervalo', label:'intervalo', dur:'15:30 → 15:50 · 20 min' },
     { tipo:'sessao', id:'simp10-obesidade' },
     { tipo:'sessao', id:'mini-ia' },
-    { tipo:'intervalo', label:'encerramento', dur:'17:35' },
+    { tipo:'intervalo', label:'entrega de prêmios e encerramento', dur:'17:35' },
   ],
 };
 
@@ -373,9 +375,9 @@ const SPEAKER_BIOS = {
   'Dr. Mauro Scharf Pinto':{role:'Paraná (PR)'},
   'Dr. Paulo de Tarso Freitas':{role:'Endocrinologista · Florianópolis (SC)'},
   'Dra. Adriana Striebel':{role:'Santa Catarina (SC)'},
-  'Dra. Flaviana Aparecida Dalla Vechia':{role:'Santa Catarina (SC)'},
+  'Dra. Eliza Mayumi Matsuo Sugawara':{role:'Santa Catarina (SC)'},
   'Dra. Julia Carpanezzi La Pastina':{role:'Santa Catarina (SC)'},
-  'Dra. Júlia Vieira Oberger Marques':{role:'Santa Catarina (SC)'},
+  'Dra. Sheila Montano Vega':{role:'Santa Catarina (SC)'},
   'Dra. Luciana Muniz Pechmann':{role:'Santa Catarina (SC)'},
   'Dra. Maria Heloísa Busi da Silva Canalli':{role:'Santa Catarina (SC)'},
   'Dra. Tanise Balvedi Damas':{role:'Santa Catarina (SC)'},
