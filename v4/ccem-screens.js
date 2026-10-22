@@ -21,8 +21,19 @@ function TopicPill({ tema }) {
   const color = TEMAS_COR[tema] || C.cinza;
   return /* @__PURE__ */ React.createElement("span", { style: { ...PILL, background: color + "18", color, border: `1px solid ${color}28`, fontSize: 12, padding: "3px 9px" } }, tema);
 }
-function IntervalRow({ item }) {
-  return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 10, padding: "6px 16px", background: "#f5f8fd", borderTop: `1px solid ${C.linhaSoft}`, borderBottom: `1px solid ${C.linhaSoft}`, margin: "2px 0" } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, textTransform: "uppercase", letterSpacing: "0.08em", color: C.cinza, fontWeight: 600 } }, item.label), item.dur && /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, marginLeft: "auto" } }, item.dur));
+function IntervalRow({ item, dia }) {
+  const hora = /^\d{2}:\d{2}/.test(item.dur || "") ? item.dur.slice(0, 5) : null;
+  const trabalhos = dia && hora && typeof ccemTrabalhosNoIntervalo === "function" ? ccemTrabalhosNoIntervalo(dia, hora) : [];
+  return /* @__PURE__ */ React.createElement("div", { style: { background: "#f5f8fd", borderTop: `1px solid ${C.linhaSoft}`, borderBottom: `1px solid ${C.linhaSoft}`, margin: "2px 0" } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 10, padding: "6px 16px" } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, textTransform: "uppercase", letterSpacing: "0.08em", color: C.cinza, fontWeight: 600 } }, item.label), item.dur && /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, marginLeft: "auto" } }, item.dur)), trabalhos.length > 0 && /* @__PURE__ */ React.createElement(
+    "button",
+    {
+      onClick: () => go("#/trabalhos/" + ccemSlotTrabalhos(dia, hora)),
+      style: { width: "100%", minHeight: 44, display: "flex", alignItems: "center", gap: 8, padding: "0 16px 4px", background: "none", border: "none", cursor: "pointer", textAlign: "left", color: C.azul, fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 600 }
+    },
+    /* @__PURE__ */ React.createElement(IcoPoster, { size: 16, color: C.azul }),
+    /* @__PURE__ */ React.createElement("span", { style: { flex: 1 } }, "Apresenta\xE7\xE3o de ", trabalhos.length, " trabalhos"),
+    /* @__PURE__ */ React.createElement(IcoChevR, { size: 15, color: C.azul })
+  ));
 }
 function SessaoCard({ id }) {
   const s = SESSOES[id];
@@ -379,7 +390,7 @@ function ProgramaScreen() {
     setBusca("");
     setFiltroTipo(null);
     setSoMarcados(false);
-  }, style: { minHeight: 44, border: `1px solid ${C.linha}`, background: "#fff", color: C.azul, padding: "7px 16px", borderRadius: 8, cursor: "pointer", fontFamily: "inherit", fontSize: 12 } }, "Limpar filtros")) : items.map((item, i) => item.tipo === "dia" ? /* @__PURE__ */ React.createElement("div", { key: item.id, style: { padding: "12px 16px 4px", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em" } }, item.label) : item.tipo === "intervalo" ? /* @__PURE__ */ React.createElement(IntervalRow, { key: i, item }) : /* @__PURE__ */ React.createElement(SessaoCard, { key: item.id, id: item.id })), items.length > 0 && /* @__PURE__ */ React.createElement("div", { style: { padding: "12px 16px", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textAlign: "center", letterSpacing: "0.04em" } }, "toque para abrir a sess\xE3o", /* @__PURE__ */ React.createElement("br", null), "Programa conferido com o site oficial em ", CCEM_PROGRAMA_CONFERIDO)), filterOpen && /* @__PURE__ */ React.createElement(
+  }, style: { minHeight: 44, border: `1px solid ${C.linha}`, background: "#fff", color: C.azul, padding: "7px 16px", borderRadius: 8, cursor: "pointer", fontFamily: "inherit", fontSize: 12 } }, "Limpar filtros")) : items.map((item, i) => item.tipo === "dia" ? /* @__PURE__ */ React.createElement("div", { key: item.id, style: { padding: "12px 16px 4px", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em" } }, item.label) : item.tipo === "intervalo" ? /* @__PURE__ */ React.createElement(IntervalRow, { key: i, item, dia }) : /* @__PURE__ */ React.createElement(SessaoCard, { key: item.id, id: item.id })), items.length > 0 && /* @__PURE__ */ React.createElement("div", { style: { padding: "12px 16px", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, textAlign: "center", letterSpacing: "0.04em" } }, "toque para abrir a sess\xE3o", /* @__PURE__ */ React.createElement("br", null), "Programa conferido com o site oficial em ", CCEM_PROGRAMA_CONFERIDO)), filterOpen && /* @__PURE__ */ React.createElement(
     "div",
     {
       style: { position: "fixed", inset: 0, zIndex: 200, display: "flex", flexDirection: "column", justifyContent: "flex-end", background: "rgba(0,0,0,.38)" },
@@ -492,22 +503,31 @@ function AppHeader() {
     }
   ), /* @__PURE__ */ React.createElement("div", { onClick: () => go("#/"), style: { display: "none", alignItems: "baseline", gap: 4, cursor: "pointer" } }, /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "Georgia,serif", fontWeight: 700, fontSize: 17, color: C.azul, letterSpacing: "-0.02em" } }, "CCEM"), /* @__PURE__ */ React.createElement("span", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.ouroTxt, letterSpacing: "0.08em" } }, "2026"))), /* @__PURE__ */ React.createElement("div", { style: { textAlign: "right", flexShrink: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, letterSpacing: "0.05em", textTransform: "uppercase" } }, "23\u201324 OUT \xB7 Joinville/SC"), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.ouroTxt, letterSpacing: "0.04em", marginTop: 1 } }, "Expoville"))), /* @__PURE__ */ React.createElement(LiveStrip, null));
 }
-function TrabalhosScreen() {
+function ccemTrabalhosNoIntervalo(dia, hora) {
+  return (CCEM_TRABALHOS && CCEM_TRABALHOS.cronograma || []).filter((t) => t.dia === dia && t.hora === hora);
+}
+const ccemSlotTrabalhos = (dia, hora) => (dia === DIAS[0] ? "sex" : "sab") + "-" + hora.replace(":", "");
+function TrabalhosScreen({ slot }) {
   const T = CCEM_TRABALHOS;
+  const [busca, setBusca] = useState("");
   const IC = ({ children }) => /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderRadius: 12, padding: "13px 14px", margin: "10px 14px 0", border: `1px solid ${C.linhaSoft}`, boxShadow: "0 1px 5px rgba(29,62,138,.04)" } }, children);
   const H3 = ({ children }) => /* @__PURE__ */ React.createElement("h3", { style: { fontFamily: "Georgia,serif", fontSize: 14, fontWeight: 600, color: C.tinta, margin: "0 0 8px" } }, children);
   const P = ({ children }) => /* @__PURE__ */ React.createElement("p", { style: { fontSize: 13, color: C.tinta, lineHeight: 1.55, margin: "0 0 6px" } }, children);
-  return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexDirection: "column", height: "100%", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", paddingBottom: 84 } }, /* @__PURE__ */ React.createElement("div", { style: { background: C.azul, color: "#fff", padding: "20px 16px 18px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, letterSpacing: "0.12em", textTransform: "uppercase", opacity: 0.75, marginBottom: 4 } }, "12\xBA CCEM 2026"), /* @__PURE__ */ React.createElement("h2", { style: { fontFamily: "Georgia,serif", fontSize: 21, fontWeight: 600, margin: 0, lineHeight: 1.2 } }, "Trabalhos cient\xEDficos")), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Trabalhos aprovados"), /* @__PURE__ */ React.createElement(P, null, "A lista completa est\xE1 no site oficial do congresso."), /* @__PURE__ */ React.createElement(
-    "a",
-    {
-      href: LINK_EPOSTER,
-      target: "_blank",
-      rel: "noopener",
-      style: { display: "flex", alignItems: "center", justifyContent: "center", gap: 8, minHeight: 48, marginTop: 6, borderRadius: 10, background: C.azul, color: "#fff", textDecoration: "none", fontFamily: "DM Sans,sans-serif", fontSize: 14, fontWeight: 700 }
-    },
-    "Ver trabalhos aprovados ",
-    /* @__PURE__ */ React.createElement(IcoLink, { size: 16, color: "#fff" })
-  )), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Apresenta\xE7\xF5es"), /* @__PURE__ */ React.createElement(P, null, T.exibicao), /* @__PURE__ */ React.createElement(P, null, T.apresentacao), T.cronograma ? T.cronograma.map((c, i) => /* @__PURE__ */ React.createElement(P, { key: i }, /* @__PURE__ */ React.createElement("b", null, c.quando), " \xB7 ", c.oque)) : /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, margin: "4px 0 0" } }, "O cronograma das apresenta\xE7\xF5es ser\xE1 divulgado pela organiza\xE7\xE3o e aparecer\xE1 aqui.")), T.publicacao && /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Publica\xE7\xE3o"), /* @__PURE__ */ React.createElement(P, null, T.publicacao), T.revista && /* @__PURE__ */ React.createElement(
+  const termo = norm(busca.trim());
+  const lista = (T.cronograma || []).filter((t) => !termo || norm(t.cod + " " + t.titulo + " " + t.autores).includes(termo));
+  const grupos = [];
+  for (const t of lista) {
+    const id = ccemSlotTrabalhos(t.dia, t.hora);
+    let g = grupos.find((x) => x.id === id);
+    if (!g) grupos.push(g = { id, dia: t.dia, hora: t.hora, itens: [] });
+    g.itens.push(t);
+  }
+  useEffect(() => {
+    if (!slot) return;
+    const el = document.getElementById("trab-" + slot);
+    if (el) el.scrollIntoView({ block: "start" });
+  }, [slot]);
+  return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", flexDirection: "column", height: "100%", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", paddingBottom: 84 } }, /* @__PURE__ */ React.createElement("div", { style: { background: C.azul, color: "#fff", padding: "20px 16px 18px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, letterSpacing: "0.12em", textTransform: "uppercase", opacity: 0.75, marginBottom: 4 } }, "12\xBA CCEM 2026"), /* @__PURE__ */ React.createElement("h2", { style: { fontFamily: "Georgia,serif", fontSize: 21, fontWeight: 600, margin: 0, lineHeight: 1.2 } }, "Trabalhos cient\xEDficos")), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Apresenta\xE7\xF5es"), /* @__PURE__ */ React.createElement(P, null, T.exibicao), /* @__PURE__ */ React.createElement(P, null, T.apresentacao), T.premiacao && /* @__PURE__ */ React.createElement(P, null, T.premiacao), T.certificado && /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12.5, color: C.cinza, lineHeight: 1.5, margin: "4px 0 0" } }, T.certificado)), T.publicacao && /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Publica\xE7\xE3o"), /* @__PURE__ */ React.createElement(P, null, T.publicacao), T.revista && /* @__PURE__ */ React.createElement(
     "a",
     {
       href: T.revista,
@@ -517,7 +537,36 @@ function TrabalhosScreen() {
     },
     "Conhecer a revista ",
     /* @__PURE__ */ React.createElement(IcoLink, { size: 14, color: C.azul })
-  )), /* @__PURE__ */ React.createElement(IC, null, /* @__PURE__ */ React.createElement(H3, null, "Para os autores"), /* @__PURE__ */ React.createElement(P, null, "Enviar a apresenta\xE7\xE3o em PDF at\xE9 ", /* @__PURE__ */ React.createElement("b", null, T.envio.prazo), " para", " ", /* @__PURE__ */ React.createElement("a", { href: "mailto:" + T.envio.email, style: { color: C.azul, fontWeight: 600 } }, T.envio.email), "."), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.5, margin: "8px 0 0" } }, "Informa\xE7\xF5es conferidas no site oficial em ", T.conferido, ". Em caso de d\xFAvida, vale o site oficial."))));
+  )), (T.cronograma || []).length > 0 && /* @__PURE__ */ React.createElement("div", { style: { padding: "14px 14px 0" } }, /* @__PURE__ */ React.createElement("label", { htmlFor: "ccem-busca-trab", style: { display: "block", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: C.cinza, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 6 } }, "Cronograma \xB7 ", (T.cronograma || []).length, " trabalhos"), /* @__PURE__ */ React.createElement(
+    "input",
+    {
+      id: "ccem-busca-trab",
+      value: busca,
+      onChange: (e) => setBusca(e.target.value),
+      placeholder: "Buscar por t\xEDtulo, autor ou n\xBA",
+      style: { width: "100%", boxSizing: "border-box", minHeight: 44, padding: "10px 12px", border: `1px solid ${C.linha}`, borderRadius: 10, fontSize: 16, fontFamily: "DM Sans,system-ui,sans-serif", color: C.tinta, background: "#fff" }
+    }
+  )), grupos.map((g) => /* @__PURE__ */ React.createElement("div", { key: g.id, id: "trab-" + g.id, style: { scrollMarginTop: 8 } }, /* @__PURE__ */ React.createElement("div", { style: { padding: "16px 16px 4px", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: C.azul, textTransform: "uppercase", letterSpacing: "0.08em" } }, g.dia === DIAS[0] ? "Sexta, 23/10" : "S\xE1bado, 24/10", " \xB7 intervalo das ", g.hora, " \xB7 ", g.itens.length), g.itens.map((t) => /* @__PURE__ */ React.createElement("div", { key: t.cod, style: { background: "#fff", borderRadius: 12, padding: "10px 14px 4px", margin: "8px 14px 0", border: `1px solid ${C.linhaSoft}` } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, alignItems: "flex-start" } }, /* @__PURE__ */ React.createElement("span", { style: { flexShrink: 0, fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, color: C.azul, background: C.azulBg, borderRadius: 6, padding: "1px 6px", marginTop: 1 } }, "n\xBA ", t.cod), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, fontWeight: 600, color: C.tinta, lineHeight: 1.4 } }, t.titulo)), t.horario && /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12.5, fontWeight: 700, color: C.tinta, margin: "6px 0 0" } }, t.horario.replace(":", "h"), " \xB7 Ponto ", t.ponto, " de e-p\xF4ster"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.45, margin: "4px 0 0" } }, t.autores), /* @__PURE__ */ React.createElement(
+    "a",
+    {
+      href: PDF_EPOSTER + t.cod + ".pdf",
+      target: "_blank",
+      rel: "noopener",
+      style: { display: "inline-flex", alignItems: "center", gap: 6, minHeight: 44, color: C.azul, fontWeight: 600, fontSize: 13, textDecoration: "none" }
+    },
+    "Ver e-p\xF4ster (PDF) ",
+    /* @__PURE__ */ React.createElement(IcoLink, { size: 14, color: C.azul })
+  ))))), termo && grupos.length === 0 && /* @__PURE__ */ React.createElement("p", { style: { textAlign: "center", fontSize: 13, color: C.cinza, padding: "20px 16px" } }, "Nenhum trabalho encontrado."), /* @__PURE__ */ React.createElement("div", { style: { padding: "16px 16px 0", textAlign: "center" } }, /* @__PURE__ */ React.createElement(
+    "a",
+    {
+      href: LINK_EPOSTER,
+      target: "_blank",
+      rel: "noopener",
+      style: { display: "inline-flex", alignItems: "center", gap: 6, minHeight: 44, color: C.azul, fontWeight: 600, fontSize: 13, textDecoration: "none" }
+    },
+    "P\xE1gina oficial dos trabalhos ",
+    /* @__PURE__ */ React.createElement(IcoLink, { size: 14, color: C.azul })
+  ), /* @__PURE__ */ React.createElement("p", { style: { fontSize: 12, color: C.cinza, lineHeight: 1.5, margin: "2px 0 0" } }, "Conferido no site oficial em ", T.conferido, ". Em caso de d\xFAvida, vale o site oficial."))));
 }
 function TabBar({ aba }) {
   const tabs = [
@@ -598,6 +647,7 @@ Object.assign(window, {
   SessaoDetail,
   InfoScreen,
   TrabalhosScreen,
+  ccemTrabalhosNoIntervalo,
   BadgePill,
   TopicPill,
   IntervalRow,
