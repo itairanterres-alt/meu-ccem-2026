@@ -635,6 +635,19 @@ function InfoScreen() {
           </div>
         </IC>
 
+        {/* No local — comunicado da organização aos inscritos, 22/10/2026 */}
+        <IC>
+          <H3>No local</H3>
+          <Row lbl="Crachá" val="Retirada no credenciamento a partir de sexta, 23/10, às 07h30"/>
+          <Row lbl="Estacion." val="Na Expoville · R$ 35,00"/>
+          <Row lbl="Lanches" val="Restaurante Combray (térreo), durante todo o congresso"/>
+          <div style={{display:'flex',gap:8,fontSize:12.5,color:C.cinza,padding:'6px 0'}}>
+            <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',width:72,flexShrink:0,lineHeight:1.6}}>Almoço</div>
+            <div style={{flex:1,color:C.tinta}}>Sábado, 24/10 · Restaurante Combray · buffet livre com bebida e sobremesa · <strong>R$ 75,00</strong></div>
+          </div>
+          <CR icon={<IcoGlobe size={17}/>} lbl="Como chegar" val="Expoville · abrir no mapa ↗" href="https://www.google.com/maps/search/?api=1&query=Expoville%2C%20Rua%20XV%20de%20Novembro%2C%204315%2C%20Joinville%20SC" ultimo/>
+        </IC>
+
         {/* Contato */}
         <IC>
           <H3>Contato</H3>

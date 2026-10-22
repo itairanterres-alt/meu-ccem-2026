@@ -325,7 +325,7 @@ const PROGRAMA = {
     { tipo:'sessao', id:'sat-sab-1' },
     { tipo:'sessao', id:'simp7-osseo' },
     { tipo:'sessao', id:'simp8-hipofise' },
-    { tipo:'intervalo', label:'almoço', dur:'12:30 → 13:30 · 1h' },
+    { tipo:'intervalo', label:'almoço · Restaurante Combray (térreo)', dur:'12:30 → 13:30 · 1h' },
     { tipo:'sessao', id:'simp9-pediatrica' },
     { tipo:'sessao', id:'sat-sab-2' },
     { tipo:'intervalo', label:'intervalo', dur:'15:30 → 15:50 · 20 min' },

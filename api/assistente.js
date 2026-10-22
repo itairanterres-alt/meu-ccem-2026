@@ -79,6 +79,9 @@ const FAQ = `
 - Certificado de trabalho científico: só o autor-relator cadastrado na submissão tem acesso.
 - Declaração de comparecimento: pedir na secretaria do evento ou pelo e-mail contato@ccem2026.com.br.
 - Crachá: indispensável para entrar no local do evento; é exigido por seguranças e recepcionistas.
+- Credenciamento: o crachá é retirado no credenciamento do evento, na Expoville, a partir de sexta, 23/10, às 07h30. (Comunicado da organização aos inscritos, 22/10/2026.)
+- Estacionamento: na própria Expoville, R$ 35,00. (Comunicado de 22/10/2026.)
+- Alimentação: Restaurante Combray, no térreo da Expoville — serviço de lanchonete durante todo o congresso; no sábado, 24/10, almoço em buffet livre com bebida e sobremesa por R$ 75,00 (pago à parte, não incluso na inscrição). O intervalo de almoço do sábado é das 12h30 às 13h30. (Comunicado de 22/10/2026.)
 - Objetos pessoais: a guarda é responsabilidade do congressista; não deixar bolsas e pastas nas dependências durante os intervalos.
 - Fumar: proibido nas dependências do evento.
 - Organização: Promotes Eventos. E-mail contato@ccem2026.com.br. WhatsApp (47) 99130-3330. Telefone (47) 3285-8510.
@@ -94,9 +97,6 @@ const FAQ = `
 
 PENDENTE (não publicado; responder que não tem a informação e indicar a secretaria):
 - TODO: confirmar com Promotes — Wi-Fi (existe? rede e senha).
-- TODO: confirmar com Promotes — estacionamento (gratuito ou pago, valor).
-- TODO: confirmar com Promotes — alimentação (almoço incluso ou não, coffee break, onde comer).
-- TODO: confirmar com Promotes — credenciamento (onde e a partir de que horas retirar o crachá).
 - TODO: confirmar com Promotes — formas de pagamento da inscrição no local.
 - TODO: confirmar com a Comissão — publicação dos trabalhos em anais (onde e como).
 - TODO: confirmar com Promotes — guarda-volumes, acessibilidade, pontos de recarga de celular, achados e perdidos, atendimento médico no local, programação social, traslado hotel–Expoville.
