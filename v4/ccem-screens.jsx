@@ -830,6 +830,7 @@ function TrabalhosScreen({ slot }) {
                   <span style={{flexShrink:0,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:C.azul,background:C.azulBg,borderRadius:6,padding:'1px 6px',marginTop:1}}>nº {t.cod}</span>
                   <div style={{fontSize:12.5,fontWeight:600,color:C.tinta,lineHeight:1.4}}>{t.titulo}</div>
                 </div>
+                {t.horario&&<div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12.5,fontWeight:700,color:C.tinta,margin:'6px 0 0'}}>{t.horario.replace(':','h')} · Ponto {t.ponto} de e-pôster</div>}
                 <div style={{fontSize:12,color:C.cinza,lineHeight:1.45,margin:'4px 0 0'}}>{t.autores}</div>
                 <a href={PDF_EPOSTER + t.cod + '.pdf'} target="_blank" rel="noopener"
                   style={{display:'inline-flex',alignItems:'center',gap:6,minHeight:44,color:C.azul,fontWeight:600,fontSize:13,textDecoration:'none'}}>
