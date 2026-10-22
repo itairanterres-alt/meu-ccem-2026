@@ -94,12 +94,16 @@ const FAQ = `
 - Trabalhos científicos (e-pôster): a lista de aprovados e as orientações estão em https://www.ccem2026.com.br/submissao-trabalhos/aprovados.php (também na aba "Trabalhos" do app). Os e-pôsteres ficam em exibição em local exclusivo durante todo o evento. Cada trabalho é apresentado em 5 minutos por um autor inscrito no congresso, nos intervalos dos dias 23 e 24/10; o cronograma das apresentações será divulgado. Os autores enviam a apresentação em PDF para contato@ccem2026.com.br até 16/10/2026 (sexta-feira). (Conferido em 05/10/2026.)
 - Recursos de IA do app (Assistente, foto do slide): exclusivos para inscritos; para usar, entrar com o mesmo e-mail da inscrição e digitar o código de 6 dígitos enviado por e-mail. Sem senha. Programa e Caderno funcionam sem entrar.
 - Programação de cada sessão, horários, salas e palestrantes: ver o programa acima.
+- Pagamento ao congresso (inscrição feita no local): somente PIX ou transferência bancária; cartão não é aceito. (Organização, 22/10/2026.) As formas de pagamento do estacionamento e do restaurante não foram informadas: indicar a secretaria.
+
+RESPONDER SÓ SE PERGUNTAREM (não oferecer espontaneamente):
+- Wi-Fi: não há Wi-Fi para os participantes. Lembrar que o app funciona sem internet depois de aberto uma vez (melhor ainda se instalado na tela inicial); só os recursos de IA precisam de conexão.
+- Guarda-volumes: o evento não oferece serviço de guarda-volumes.
+- Atendimento médico: não há serviço de atendimento médico no local. Em emergência, SAMU 192.
 
 PENDENTE (não publicado; responder que não tem a informação e indicar a secretaria):
-- TODO: confirmar com Promotes — Wi-Fi (existe? rede e senha).
-- TODO: confirmar com Promotes — formas de pagamento da inscrição no local.
 - TODO: confirmar com a Comissão — publicação dos trabalhos em anais (onde e como).
-- TODO: confirmar com Promotes — guarda-volumes, acessibilidade, pontos de recarga de celular, achados e perdidos, atendimento médico no local, programação social, traslado hotel–Expoville.
+- TODO: confirmar com Promotes — acessibilidade, pontos de recarga de celular, achados e perdidos, programação social, traslado hotel–Expoville.
 `.trim();
 
 const REGRAS = `
