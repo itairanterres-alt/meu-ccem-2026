@@ -63,6 +63,13 @@ function textoDoPrograma() {
   }
   return linhas.join('\n');
 }
+/* Cronograma dos trabalhos científicos (aba Trabalhos do app). */
+function textoDosTrabalhos() {
+  const T = DADOS.CCEM_TRABALHOS || {};
+  return (T.cronograma || []).map(t =>
+    `- nº ${t.cod} · ${t.dia === DADOS.DIAS[0] ? 'sexta 23/10' : 'sábado 24/10'}, intervalo das ${t.hora} · ${t.titulo} · autores: ${t.autores} · e-pôster: ${DADOS.PDF_EPOSTER}${t.cod}.pdf`
+  ).join('\n');
+}
 const IDS_SESSOES = Object.keys(DADOS.SESSOES).filter(id => DADOS.SESSOES[id].navegavel);
 
 /* ── FAQ do congresso ─────────────────────────────────────────
@@ -91,7 +98,7 @@ const FAQ = `
 - Telefones úteis em Joinville: Aeroporto Lauro Carneiro de Loyola (JOI) (47) 3417-4000; Rodoviária Harold Nielson (47) 3433-2991; Central de Atendimento ao Turista (47) 3433-5007; SAMU 192; Bombeiros 193; Polícia Militar 190; Guarda Municipal 153 ou (47) 3431-1500.
 - App Meu CCEM: marcações, notas e fotos do Caderno ficam só no aparelho e funcionam sem internet. Para anotar: "Anotar" na tela da sessão ou "Nova nota" no Caderno; "Resumir com IA" é opcional. Para ler ou imprimir as notas: botão "Exportar / imprimir" no Caderno (escolher "Salvar como PDF"). Para trocar de aparelho ou guardar depois do congresso: botão "Backup" no Caderno, que gera um arquivo restaurável. Para lembrar de uma sessão: marcar e tocar em "Adicionar ao calendário". O app fica disponível até 31/12/2026.
 - Instalar o app na tela inicial do celular (abre pelo ícone, em tela cheia, e funciona sem internet). iPhone: no Safari, tocar em Compartilhar (quadrado com seta, na barra de baixo) → "Adicionar à Tela de Início" → "Adicionar". Android: no Chrome, menu ⋮ (canto superior direito) → "Instalar app" ou "Adicionar à tela inicial". Também há o item "Instalar o app na tela inicial" na tela Info do app, com o passo a passo. Atenção no iPhone: o app instalado tem memória separada do Safari e começa vazio; quem já marcou sessões ou fez notas deve antes tocar em "Backup" no Caderno, baixar o arquivo e, no app instalado, usar Backup → Restaurar. Por isso, o ideal é instalar antes de começar a usar.
-- Trabalhos científicos (e-pôster): a lista de aprovados e as orientações estão em https://www.ccem2026.com.br/submissao-trabalhos/aprovados.php (também na aba "Trabalhos" do app). Os e-pôsteres ficam em exibição em local exclusivo durante todo o evento. Cada trabalho é apresentado em 5 minutos por um autor inscrito no congresso, nos intervalos dos dias 23 e 24/10; o cronograma das apresentações será divulgado. Os autores enviam a apresentação em PDF para contato@ccem2026.com.br até 16/10/2026 (sexta-feira). (Conferido em 05/10/2026.)
+- Trabalhos científicos (e-pôster): a lista de aprovados e as orientações estão em https://www.ccem2026.com.br/submissao-trabalhos/aprovados.php (também na aba "Trabalhos" do app). Os e-pôsteres ficam em exibição em local exclusivo durante todo o evento. Cada trabalho é apresentado em 5 minutos por um autor inscrito no congresso, nos intervalos: sexta 23/10 às 10:00, 13:10 e 15:50; sábado 24/10 às 09:45. O intervalo, o título, os autores e o e-pôster (PDF) de cada trabalho estão na seção TRABALHOS CIENTÍFICOS abaixo e na aba "Trabalhos" do app. A premiação ocorre na cerimônia de encerramento, no sábado. Só recebem certificado os trabalhos com ao menos um autor presente, devidamente exibidos e apresentados. (Conferido em 22/10/2026.)
 - Recursos de IA do app (Assistente, foto do slide): exclusivos para inscritos; para usar, entrar com o mesmo e-mail da inscrição e digitar o código de 6 dígitos enviado por e-mail. Sem senha. Programa e Caderno funcionam sem entrar.
 - Programação de cada sessão, horários, salas e palestrantes: ver o programa acima.
 - Pagamento ao congresso (inscrição feita no local): somente PIX ou transferência bancária; cartão não é aceito. (Organização, 22/10/2026.) As formas de pagamento do estacionamento e do restaurante não foram informadas: indicar a secretaria.
@@ -127,7 +134,7 @@ Regras:
 - "pontos", "referencia" e "sessoes" podem ficar vazios quando não se aplicam.
 `.trim();
 
-const SISTEMA = `${REGRAS}\n\n# PROGRAMA OFICIAL\n${textoDoPrograma()}\n\n# FAQ DO CONGRESSO\n${FAQ}`;
+const SISTEMA = `${REGRAS}\n\n# PROGRAMA OFICIAL\n${textoDoPrograma()}\n\n# TRABALHOS CIENTÍFICOS (apresentações nos intervalos)\n${textoDosTrabalhos()}\n\n# FAQ DO CONGRESSO\n${FAQ}`;
 
 const FORMATO = {
   type: 'json_schema',

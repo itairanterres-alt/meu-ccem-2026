@@ -70,8 +70,17 @@ Projeto institucional da SBEM-SC. Escopo e convenções em [`CLAUDE.md`](CLAUDE.
 
 **Info**
 - Organização, horários da secretaria, certificados, contato e site oficial.
-- Item "Trabalhos científicos (e-pôster)", que abre a página externa dos
-  trabalhos. O app não hospeda trabalhos.
+- "No local": credenciamento, estacionamento, alimentação e mapa.
+
+**Trabalhos** (aba própria)
+- Cronograma das apresentações: cada trabalho no seu intervalo, com busca
+  por título, autor ou nº e link para o e-pôster (PDF) no site oficial. O app
+  não hospeda os trabalhos. Dados em `CCEM_TRABALHOS.cronograma`
+  (`ccem-data.js`).
+- No Programa, os intervalos com apresentações mostram "Apresentação de N
+  trabalhos", que leva direto ao intervalo na aba Trabalhos.
+- Publicação nos anais: texto pronto, oculto até confirmação
+  (`CCEM_TRABALHOS.publicacao`).
 
 **Assistente CCEM** — IA (Claude, da Anthropic) em três modos:
 - **Anotação:** foto do slide ou texto → mensagem-chave em até 2 frases, até 5

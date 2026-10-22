@@ -15,7 +15,7 @@ function App() {
     if (parts[0] === 'assistente')             return { tela:'assistente' };
     if (parts[0] === 'caderno')                return { tela:'caderno' };
     if (parts[0] === 'info')                   return { tela:'info' };
-    if (parts[0] === 'trabalhos')              return { tela: LINK_EPOSTER ? 'trabalhos' : 'info' };
+    if (parts[0] === 'trabalhos')              return LINK_EPOSTER ? { tela:'trabalhos', slot: parts[1] || null } : { tela:'info' };
     return { tela:'home' };
   }, [hash]);
 
@@ -65,7 +65,7 @@ function App() {
       {route.tela === 'assistente' && <AssistenteScreen/>}
       {route.tela === 'caderno'    && <CadernoScreen/>}
       {route.tela === 'info'       && <InfoScreen/>}
-      {route.tela === 'trabalhos'  && <TrabalhosScreen/>}
+      {route.tela === 'trabalhos'  && <TrabalhosScreen key={route.slot||'-'} slot={route.slot}/>}
       {route.tela === 'programa'   && <ProgramaScreen/>}
     </AppShell>
     </>

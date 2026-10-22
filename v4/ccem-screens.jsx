@@ -28,11 +28,24 @@ function TopicPill({ tema }) {
   const color = TEMAS_COR[tema] || C.cinza;
   return <span style={{...PILL,background:color+'18',color,border:`1px solid ${color}28`,fontSize:12,padding:'3px 9px'}}>{tema}</span>;
 }
-function IntervalRow({ item }) {
+function IntervalRow({ item, dia }) {
+  // Intervalos com apresentação de trabalhos: atalho para o cronograma.
+  const hora = /^\d{2}:\d{2}/.test(item.dur||'') ? item.dur.slice(0,5) : null;
+  const trabalhos = dia && hora && typeof ccemTrabalhosNoIntervalo === 'function' ? ccemTrabalhosNoIntervalo(dia, hora) : [];
   return (
-    <div style={{display:'flex',alignItems:'center',gap:10,padding:'6px 16px',background:'#f5f8fd',borderTop:`1px solid ${C.linhaSoft}`,borderBottom:`1px solid ${C.linhaSoft}`,margin:'2px 0'}}>
-      <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,fontWeight:600}}>{item.label}</span>
-      {item.dur&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,marginLeft:'auto'}}>{item.dur}</span>}
+    <div style={{background:'#f5f8fd',borderTop:`1px solid ${C.linhaSoft}`,borderBottom:`1px solid ${C.linhaSoft}`,margin:'2px 0'}}>
+      <div style={{display:'flex',alignItems:'center',gap:10,padding:'6px 16px'}}>
+        <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,fontWeight:600}}>{item.label}</span>
+        {item.dur&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,marginLeft:'auto'}}>{item.dur}</span>}
+      </div>
+      {trabalhos.length>0&&(
+        <button onClick={()=>go('#/trabalhos/'+ccemSlotTrabalhos(dia, hora))}
+          style={{width:'100%',minHeight:44,display:'flex',alignItems:'center',gap:8,padding:'0 16px 4px',background:'none',border:'none',cursor:'pointer',textAlign:'left',color:C.azul,fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600}}>
+          <IcoPoster size={16} color={C.azul}/>
+          <span style={{flex:1}}>Apresentação de {trabalhos.length} trabalhos</span>
+          <IcoChevR size={15} color={C.azul}/>
+        </button>
+      )}
     </div>
   );
 }
@@ -525,7 +538,7 @@ function ProgramaScreen() {
           </div>
         ):items.map((item,i)=>item.tipo==='dia'
             ? <div key={item.id} style={{padding:'12px 16px 4px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em'}}>{item.label}</div>
-            : item.tipo==='intervalo'?<IntervalRow key={i} item={item}/>:<SessaoCard key={item.id} id={item.id}/>)}
+            : item.tipo==='intervalo'?<IntervalRow key={i} item={item} dia={dia}/>:<SessaoCard key={item.id} id={item.id}/>)}
         {items.length>0&&<div style={{padding:'12px 16px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,textAlign:'center',letterSpacing:'0.04em'}}>toque para abrir a sessão<br/>Programa conferido com o site oficial em {CCEM_PROGRAMA_CONFERIDO}</div>}
       </div>
 
@@ -748,11 +761,33 @@ function AppHeader(){
 /* ── Trabalhos científicos ─────────────────────────────────────
    Resumo do que está na página oficial + botão para a lista de
    aprovados. Quando sair o cronograma, ele aparece aqui. */
-function TrabalhosScreen() {
+/* Trabalhos apresentados num intervalo do Programa (dia + hora de início). */
+function ccemTrabalhosNoIntervalo(dia, hora) {
+  return ((CCEM_TRABALHOS && CCEM_TRABALHOS.cronograma) || []).filter(t => t.dia === dia && t.hora === hora);
+}
+const ccemSlotTrabalhos = (dia, hora) => (dia === DIAS[0] ? 'sex' : 'sab') + '-' + hora.replace(':', '');
+
+function TrabalhosScreen({ slot }) {
   const T = CCEM_TRABALHOS;
+  const [busca, setBusca] = useState('');
   const IC = ({children})=><div style={{background:'#fff',borderRadius:12,padding:'13px 14px',margin:'10px 14px 0',border:`1px solid ${C.linhaSoft}`,boxShadow:'0 1px 5px rgba(29,62,138,.04)'}}>{children}</div>;
   const H3 = ({children})=><h3 style={{fontFamily:'Georgia,serif',fontSize:14,fontWeight:600,color:C.tinta,margin:'0 0 8px'}}>{children}</h3>;
   const P = ({children})=><p style={{fontSize:13,color:C.tinta,lineHeight:1.55,margin:'0 0 6px'}}>{children}</p>;
+  const termo = norm(busca.trim());
+  const lista = (T.cronograma || []).filter(t => !termo || norm(t.cod + ' ' + t.titulo + ' ' + t.autores).includes(termo));
+  const grupos = [];
+  for (const t of lista) {
+    const id = ccemSlotTrabalhos(t.dia, t.hora);
+    let g = grupos.find(x => x.id === id);
+    if (!g) grupos.push(g = { id, dia:t.dia, hora:t.hora, itens:[] });
+    g.itens.push(t);
+  }
+  // Vindo do Programa (#/trabalhos/sex-1000): rola até o intervalo.
+  useEffect(() => {
+    if (!slot) return;
+    const el = document.getElementById('trab-' + slot);
+    if (el) el.scrollIntoView({ block:'start' });
+  }, [slot]);
   return (
     <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
       <div style={{flex:1,overflowY:'auto',paddingBottom:84}}>
@@ -761,20 +796,11 @@ function TrabalhosScreen() {
           <h2 style={{fontFamily:'Georgia,serif',fontSize:21,fontWeight:600,margin:0,lineHeight:1.2}}>Trabalhos científicos</h2>
         </div>
         <IC>
-          <H3>Trabalhos aprovados</H3>
-          <P>A lista completa está no site oficial do congresso.</P>
-          <a href={LINK_EPOSTER} target="_blank" rel="noopener"
-            style={{display:'flex',alignItems:'center',justifyContent:'center',gap:8,minHeight:48,marginTop:6,borderRadius:10,background:C.azul,color:'#fff',textDecoration:'none',fontFamily:'DM Sans,sans-serif',fontSize:14,fontWeight:700}}>
-            Ver trabalhos aprovados <IcoLink size={16} color="#fff"/>
-          </a>
-        </IC>
-        <IC>
           <H3>Apresentações</H3>
           <P>{T.exibicao}</P>
           <P>{T.apresentacao}</P>
-          {T.cronograma
-            ? T.cronograma.map((c,i)=><P key={i}><b>{c.quando}</b> · {c.oque}</P>)
-            : <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.5,margin:'4px 0 0'}}>O cronograma das apresentações será divulgado pela organização e aparecerá aqui.</p>}
+          {T.premiacao&&<P>{T.premiacao}</P>}
+          {T.certificado&&<p style={{fontSize:12.5,color:C.cinza,lineHeight:1.5,margin:'4px 0 0'}}>{T.certificado}</p>}
         </IC>
         {T.publicacao&&<IC>
           <H3>Publicação</H3>
@@ -784,12 +810,43 @@ function TrabalhosScreen() {
             Conhecer a revista <IcoLink size={14} color={C.azul}/>
           </a>}
         </IC>}
-        <IC>
-          <H3>Para os autores</H3>
-          <P>Enviar a apresentação em PDF até <b>{T.envio.prazo}</b> para{' '}
-            <a href={'mailto:'+T.envio.email} style={{color:C.azul,fontWeight:600}}>{T.envio.email}</a>.</P>
-          <p style={{fontSize:12,color:C.cinza,lineHeight:1.5,margin:'8px 0 0'}}>Informações conferidas no site oficial em {T.conferido}. Em caso de dúvida, vale o site oficial.</p>
-        </IC>
+        {(T.cronograma||[]).length>0&&(
+          <div style={{padding:'14px 14px 0'}}>
+            <label htmlFor="ccem-busca-trab" style={{display:'block',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:C.cinza,textTransform:'uppercase',letterSpacing:'0.08em',marginBottom:6}}>
+              Cronograma · {(T.cronograma||[]).length} trabalhos
+            </label>
+            <input id="ccem-busca-trab" value={busca} onChange={e=>setBusca(e.target.value)} placeholder="Buscar por título, autor ou nº"
+              style={{width:'100%',boxSizing:'border-box',minHeight:44,padding:'10px 12px',border:`1px solid ${C.linha}`,borderRadius:10,fontSize:16,fontFamily:'DM Sans,system-ui,sans-serif',color:C.tinta,background:'#fff'}}/>
+          </div>
+        )}
+        {grupos.map(g=>(
+          <div key={g.id} id={'trab-'+g.id} style={{scrollMarginTop:8}}>
+            <div style={{padding:'16px 16px 4px',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:C.azul,textTransform:'uppercase',letterSpacing:'0.08em'}}>
+              {g.dia===DIAS[0]?'Sexta, 23/10':'Sábado, 24/10'} · intervalo das {g.hora} · {g.itens.length}
+            </div>
+            {g.itens.map(t=>(
+              <div key={t.cod} style={{background:'#fff',borderRadius:12,padding:'10px 14px 4px',margin:'8px 14px 0',border:`1px solid ${C.linhaSoft}`}}>
+                <div style={{display:'flex',gap:8,alignItems:'flex-start'}}>
+                  <span style={{flexShrink:0,fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:C.azul,background:C.azulBg,borderRadius:6,padding:'1px 6px',marginTop:1}}>nº {t.cod}</span>
+                  <div style={{fontSize:12.5,fontWeight:600,color:C.tinta,lineHeight:1.4}}>{t.titulo}</div>
+                </div>
+                <div style={{fontSize:12,color:C.cinza,lineHeight:1.45,margin:'4px 0 0'}}>{t.autores}</div>
+                <a href={PDF_EPOSTER + t.cod + '.pdf'} target="_blank" rel="noopener"
+                  style={{display:'inline-flex',alignItems:'center',gap:6,minHeight:44,color:C.azul,fontWeight:600,fontSize:13,textDecoration:'none'}}>
+                  Ver e-pôster (PDF) <IcoLink size={14} color={C.azul}/>
+                </a>
+              </div>
+            ))}
+          </div>
+        ))}
+        {termo&&grupos.length===0&&<p style={{textAlign:'center',fontSize:13,color:C.cinza,padding:'20px 16px'}}>Nenhum trabalho encontrado.</p>}
+        <div style={{padding:'16px 16px 0',textAlign:'center'}}>
+          <a href={LINK_EPOSTER} target="_blank" rel="noopener"
+            style={{display:'inline-flex',alignItems:'center',gap:6,minHeight:44,color:C.azul,fontWeight:600,fontSize:13,textDecoration:'none'}}>
+            Página oficial dos trabalhos <IcoLink size={14} color={C.azul}/>
+          </a>
+          <p style={{fontSize:12,color:C.cinza,lineHeight:1.5,margin:'2px 0 0'}}>Conferido no site oficial em {T.conferido}. Em caso de dúvida, vale o site oficial.</p>
+        </div>
       </div>
     </div>
   );
@@ -916,7 +973,7 @@ function AppShell({ showShell, aba, fab, reservaFab, children }){
 Object.assign(window, {
   AppShell, AppHeader, LiveStrip, TabBar, DesktopSidebar, useIsDesktop,
   DayTimeline, SlideDisplay, SlideUploadBtn,
-  ProgramaScreen, SessaoDetail, InfoScreen, TrabalhosScreen,
+  ProgramaScreen, SessaoDetail, InfoScreen, TrabalhosScreen, ccemTrabalhosNoIntervalo,
   BadgePill, TopicPill, IntervalRow, SessaoCard,
   sessionIsPast, isEventWeek,
 });
