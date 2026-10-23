@@ -99,8 +99,10 @@ confira na fonte" e pode ser salva no Caderno.
 
 ## Privacidade
 
-Não há login nem cadastro. Marcações e notas ficam no `localStorage` do
-aparelho, e as fotos das notas no IndexedDB; nada disso é enviado a servidor.
+Não há cadastro. Para usar a IA, o inscrito entra com o e-mail da inscrição e
+um código de 6 dígitos (ver "Assistente: configuração no Vercel"); o servidor
+não guarda quem entrou. Marcações e notas ficam no `localStorage` do aparelho,
+e as fotos das notas no IndexedDB; nada disso é enviado a servidor.
 
 O Assistente e os recursos da foto do slide são a exceção, e só quando usados:
 a pergunta e a foto (reduzida no aparelho a 1600 px) vão para `api/`, que as
@@ -111,6 +113,26 @@ numérica por chamada (função, modelo, tokens, custo estimado), nunca a
 pergunta, a foto ou a resposta. A retenção do lado da Anthropic segue a política dela. A conversa fica só na memória da aba. Quem limpar o navegador ou trocar de
 aparelho perde as notas: por isso o app oferece exportação e backup. O app
 fica disponível até 31/12/2026.
+
+## Estatísticas de uso (Vercel Web Analytics)
+
+Contagem anônima, sem cookies, sem nome ou e-mail e sem conteúdo (aviso em
+Info › Privacidade). Ver no Vercel: projeto → **Analytics** (precisa estar
+ativado; depois de ativar, só passa a contar a partir da publicação seguinte).
+Em **Pages**:
+
+| Página | O que conta |
+|---|---|
+| `/`, `/programa`, `/caderno`, `/info`, `/trabalhos` | telas abertas |
+| `/sessao/<id>` (rota `/sessao/[id]`) | cada sessão consultada |
+| `/aula/<id>/<n>` (rota `/aula/[id]/[n]`) | conversas de aula abertas |
+| `/_login` | entradas com o código de e-mail (visitantes = pessoas que entraram) |
+| `/_ia-liberada` | aparelhos com a IA liberada que abriram o app no dia (1×/dia/aparelho) |
+| `/_ia/assistente`, `/_ia/foto`, `/_ia/artigo`, `/_ia/organizar` | respostas da IA recebidas |
+
+A mesma tela aberta de novo em menos de 5 min conta uma vez (cota do plano).
+Implementação: bloco "Vercel Web Analytics" no `index.html` e `ccemFetchIA`
+em `v4/ccem-acesso.jsx`.
 
 ## Testar como se fosse o dia do evento
 
