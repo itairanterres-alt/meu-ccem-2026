@@ -223,7 +223,6 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
   const [duvida, setDuvida] = useState(!!(antiga && antiga.duvida));
   const [aula, setAula] = useState(() => antiga ? typeof antiga.fala === "number" ? antiga.fala : null : ccemFalaDe(sessaoInicial, fala) ? fala : ccemUltimaAula(sessaoInicial));
   const aulas = ccemAulas(sessao);
-  const fotoRef = useRef(null);
   const fotoVista = foto === void 0 ? fotoSalva : foto;
   useEffect(() => {
     const esc = (e) => {
@@ -340,23 +339,10 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
           placeholder: "O que voc\xEA quer guardar desta sess\xE3o?",
           style: { width: "100%", boxSizing: "border-box", minHeight: 140, padding: "10px 12px", border: `1px solid ${C.linha}`, borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 16, lineHeight: 1.45, color: C.tinta, background: "#f8fafd", resize: "vertical" }
         }
-      ), /* @__PURE__ */ React.createElement(
-        "input",
-        {
-          ref: fotoRef,
-          type: "file",
-          accept: "image/*",
-          style: { display: "none" },
-          onChange: (e) => {
-            const f = e.target.files && e.target.files[0];
-            e.target.value = "";
-            escolherFoto(f);
-          }
-        }
-      ), fotoVista ? /* @__PURE__ */ React.createElement("div", { style: { marginTop: 12 } }, /* @__PURE__ */ React.createElement("img", { src: fotoVista, alt: "Foto da nota", style: { display: "block", maxWidth: "100%", maxHeight: 280, borderRadius: 10, border: `1px solid ${C.linhaSoft}` } }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 6 } }, /* @__PURE__ */ React.createElement("button", { onClick: () => fotoRef.current && fotoRef.current.click(), style: { ...BTN, background: "#fff", border: `1px solid ${C.linha}`, color: C.azul, fontSize: 13 } }, "Trocar foto"), /* @__PURE__ */ React.createElement("button", { onClick: () => setFoto(null), style: { ...BTN, background: "#fff", border: `1px solid ${C.linha}`, color: C.cinza, fontSize: 13 } }, "Remover foto"))) : /* @__PURE__ */ React.createElement(
+      ), fotoVista ? /* @__PURE__ */ React.createElement("div", { style: { marginTop: 12 } }, /* @__PURE__ */ React.createElement("img", { src: fotoVista, alt: "Foto da nota", style: { display: "block", maxWidth: "100%", maxHeight: 280, borderRadius: 10, border: `1px solid ${C.linhaSoft}` } }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginTop: 6 } }, /* @__PURE__ */ React.createElement("button", { onClick: () => ccemPedirFoto(escolherFoto), style: { ...BTN, background: "#fff", border: `1px solid ${C.linha}`, color: C.azul, fontSize: 13 } }, "Trocar foto"), /* @__PURE__ */ React.createElement("button", { onClick: () => setFoto(null), style: { ...BTN, background: "#fff", border: `1px solid ${C.linha}`, color: C.cinza, fontSize: 13 } }, "Remover foto"))) : /* @__PURE__ */ React.createElement(
         "button",
         {
-          onClick: () => fotoRef.current && fotoRef.current.click(),
+          onClick: () => ccemPedirFoto(escolherFoto),
           style: { ...BTN, marginTop: 12, width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 8, background: "#fff", border: `1px dashed ${C.linha}`, color: C.azul }
         },
         /* @__PURE__ */ React.createElement(IcoCam, { size: 18, color: C.azul }),

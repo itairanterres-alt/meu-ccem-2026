@@ -40,22 +40,54 @@ function useFotoPendente(sessaoId, n) {
   const p = _ccemFotoPendente;
   return p && p.sessaoId === sessaoId && p.n === n ? p.previa : null;
 }
-let _ccemEntradaFoto = null, _ccemAlvoFoto = null;
-function ccemFotografarNaAula(alvo) {
-  if (!_ccemEntradaFoto) {
+/* Campo de arquivo para foto, fora da tela (ver acima). Dois campos: "camera"
+   (capture=environment, abre a câmera direto) e "galeria". O iPhone já oferece
+   câmera e fototeca no mesmo menu; o Android abre só a galeria (Google Fotos),
+   então ali o app pergunta antes: "Tirar foto" ou "Escolher da galeria". */
+const _ccemEntradas = {};
+let _ccemDestinoFoto = null;
+function _ccemEntrada(modo) {
+  if (!_ccemEntradas[modo]) {
     const e = document.createElement('input');
     e.type = 'file'; e.accept = 'image/*'; e.style.display = 'none';
-    e.setAttribute('data-ccem-foto-aula', '');
+    if (modo === 'camera') e.setAttribute('capture', 'environment');
+    e.setAttribute('data-ccem-foto', modo);
     e.addEventListener('change', () => {
-      const arquivo = e.files && e.files[0], a = _ccemAlvoFoto;
-      e.value = ''; _ccemAlvoFoto = null;
-      if (arquivo && a) { if (a.aoEscolher) a.aoEscolher(); _ccemGuardarFotoDaAula(arquivo, a); }
+      const arquivo = e.files && e.files[0], destino = _ccemDestinoFoto;
+      e.value = ''; _ccemDestinoFoto = null;
+      if (arquivo && destino) destino(arquivo);
     });
     document.body.appendChild(e);
-    _ccemEntradaFoto = e;
+    _ccemEntradas[modo] = e;
   }
-  _ccemAlvoFoto = alvo;
-  _ccemEntradaFoto.click();
+  return _ccemEntradas[modo];
+}
+/* Pede uma foto e entrega o arquivo a aoEscolher. Chamar direto do toque. */
+function ccemPedirFoto(aoEscolher, modo) {
+  _ccemDestinoFoto = aoEscolher;
+  if (!modo && ccemPlataforma() === 'android') { window.dispatchEvent(new Event('ccem:escolher-foto')); return; }
+  _ccemEntrada(modo || 'galeria').click();
+}
+function HostEscolherFoto() {
+  const [aberto, setAberto] = useState(false);
+  useEffect(() => {
+    const abrir = () => setAberto(true);
+    window.addEventListener('ccem:escolher-foto', abrir);
+    return () => window.removeEventListener('ccem:escolher-foto', abrir);
+  }, []);
+  if (!aberto) return null;
+  const escolher = modo => { setAberto(false); _ccemEntrada(modo).click(); };
+  const BTN = { width:'100%', minHeight:52, display:'flex', alignItems:'center', justifyContent:'center', gap:8, borderRadius:12,
+    fontFamily:'DM Sans,sans-serif', fontSize:15, fontWeight:700, cursor:'pointer', marginBottom:10 };
+  return (
+    <FolhaBase titulo="Foto do slide" altura="auto" aoFechar={() => { setAberto(false); _ccemDestinoFoto = null; }}>
+      <button onClick={() => escolher('camera')} style={{...BTN, background:C.azul, color:'#fff', border:'none'}}><IcoCam size={20} color="#fff"/>Tirar foto</button>
+      <button onClick={() => escolher('galeria')} style={{...BTN, background:'#fff', color:C.azul, border:`1px solid ${C.azul}`}}>Escolher da galeria</button>
+    </FolhaBase>
+  );
+}
+function ccemFotografarNaAula(alvo) {
+  ccemPedirFoto(arquivo => { if (alvo.aoEscolher) alvo.aoEscolher(); _ccemGuardarFotoDaAula(arquivo, alvo); });
 }
 async function _ccemGuardarFotoDaAula(arquivo, { sessaoId, n, texto, aoUsarTexto, aoFalhar }) {
   _ccemMarcarPendente({ sessaoId, n, previa: 'lendo' });   // aparece na hora, antes de qualquer processamento
@@ -286,4 +318,4 @@ function AulaScreen({ sessaoId, fala }) {
   );
 }
 
-Object.assign(window, { AulaScreen, ccemAbrirNaConversa, ccemFotografarNaAula, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemAbrirNaConversa, ccemFotografarNaAula, ccemPedirFoto, HostEscolherFoto, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
