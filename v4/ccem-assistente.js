@@ -457,12 +457,16 @@ function useTecladoAberto() {
     const ehCampo = (el) => !!el && (el.tagName === "TEXTAREA" || el.tagName === "INPUT" && !/^(file|button|checkbox|radio|submit|range)$/i.test(el.type));
     const vv = window.visualViewport;
     const atualizar = () => setAberto(ehCampo(document.activeElement) || (vv ? window.innerHeight - vv.height > 150 : false));
-    const depois = () => setTimeout(atualizar, 60);
-    document.addEventListener("focusin", atualizar);
+    const depois = () => setTimeout(atualizar, 350);
+    const aoFocar = (e) => {
+      if (ehCampo(e.target)) atualizar();
+      else depois();
+    };
+    document.addEventListener("focusin", aoFocar);
     document.addEventListener("focusout", depois);
     if (vv) vv.addEventListener("resize", atualizar);
     return () => {
-      document.removeEventListener("focusin", atualizar);
+      document.removeEventListener("focusin", aoFocar);
       document.removeEventListener("focusout", depois);
       if (vv) vv.removeEventListener("resize", atualizar);
     };

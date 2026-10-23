@@ -13,7 +13,7 @@ function HomeScreen() {
     // Some se LINK_EPOSTER for null.
     ...LINK_EPOSTER ? [{ id: "trabalhos", largo: true, icon: /* @__PURE__ */ React.createElement(IcoPoster, { size: 24 }), lbl: "Trabalhos cient\xEDficos", sub: "aprovados \xB7 apresenta\xE7\xF5es" }] : []
   ];
-  return /* @__PURE__ */ React.createElement("div", { style: { height: "100%", overflowY: "auto", background: C.papel } }, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderBottom: `1px solid ${C.linhaSoft}`, position: "relative", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { height: 4, background: `linear-gradient(90deg, ${C.ouro} 0%, #f5c842 100%)` } }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", padding: "16px 20px 14px", borderBottom: `1px solid ${C.linhaSoft}`, gap: 0 } }, /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement("div", { style: { height: "100%", overflowY: "auto", background: C.papel, paddingBottom: 84, boxSizing: "border-box" } }, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", borderBottom: `1px solid ${C.linhaSoft}`, position: "relative", overflow: "hidden" } }, /* @__PURE__ */ React.createElement("div", { style: { height: 4, background: `linear-gradient(90deg, ${C.ouro} 0%, #f5c842 100%)` } }), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", padding: "16px 20px 14px", borderBottom: `1px solid ${C.linhaSoft}`, gap: 0 } }, /* @__PURE__ */ React.createElement(
     "img",
     {
       src: "v4/logo-ccem.png",

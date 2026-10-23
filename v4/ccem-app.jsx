@@ -63,7 +63,10 @@ function App() {
     <LembretePDF/>
     {editor && <EditorNota notaId={editor.notaId} sessaoId={editor.sessaoId} fala={editor.fala} aoFechar={()=>setEditor(null)}/>}
     {painel && <PainelAssistente sessaoId={route.tela==='sessao'?route.id:null} tela={route.tela==='sessao'?'sessao':route.tela} aoFechar={()=>setPainel(false)}/>}
-    <AppShell showShell={showShell} aba={route.tela} fab={fab} reservaFab={reserva}>
+    {/* Abas de baixo fixas em todas as telas (some só com o teclado aberto, para não espremer a escrita).
+        Sessão e conversa da aula fazem parte do Programa. */}
+    <AppShell showShell={showShell} mostrarAbas={!teclado}
+      aba={route.tela === 'sessao' || route.tela === 'aula' ? 'programa' : route.tela} fab={fab} reservaFab={reserva}>
       {route.tela === 'sessao'     && <SessaoDetail key={route.id} id={route.id}/>}
       {route.tela === 'home'       && <HomeScreen/>}
       {route.tela === 'aula'       && <AulaScreen key={route.id+'/'+route.fala} sessaoId={route.id} fala={route.fala}/>}
