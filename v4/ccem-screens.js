@@ -217,7 +217,7 @@ function SessaoDetail({ id }) {
     );
   }
   function handleAnotar() {
-    ccemAbrirEditor({ sessaoId: id });
+    ccemAbrirAula(id, typeof ccemUltimaAula === "function" ? ccemUltimaAula(id) : null);
   }
   async function handleShare() {
     const texto = `${s.badge} \u2014 ${s.titulo}
@@ -274,7 +274,7 @@ ${s.dia} \xB7 ${s.inicio}\u2013${s.fim} \xB7 Expoville, Joinville/SC
     return /* @__PURE__ */ React.createElement("div", { key: i, style: { display: "flex", gap: 10, padding: "8px 0", borderBottom: i < s.falas.length - 1 ? `1px solid ${C.linhaSoft}` : "none" } }, /* @__PURE__ */ React.createElement("div", { style: { width: 22, height: 22, borderRadius: 7, background: bc + "1a", color: bc, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, fontWeight: 700, flexShrink: 0, marginTop: 1 } }, f.n === "\xB7" ? "\xB7" : f.n), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, minWidth: 0 } }, f.titulo && /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12.5, fontWeight: 600, color: C.tinta, lineHeight: 1.3, marginBottom: 2 } }, f.titulo), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.tinta, fontWeight: 500 } }, f.palestrante, f.aConfirmar && /* @__PURE__ */ React.createElement("em", { style: { color: C.cinza, fontWeight: 400 } }, " (a confirmar)")), bio && /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, marginTop: 1 } }, bio.role), /* @__PURE__ */ React.createElement(SlideDisplay, { sessaoId: id, falaIdx: i })), porAula && /* @__PURE__ */ React.createElement(
       "button",
       {
-        onClick: () => ccemAbrirEditor({ sessaoId: id, fala: f.n }),
+        onClick: () => ccemAbrirAula(id, f.n),
         "aria-label": `Anotar a aula ${f.n}${nNotas ? ` (${nNotas} nota${nNotas > 1 ? "s" : ""})` : ""}`,
         style: { alignSelf: "center", flexShrink: 0, minWidth: 44, minHeight: 44, display: "flex", alignItems: "center", gap: 5, padding: "0 10px", border: `1px solid ${C.linha}`, background: "#fff", borderRadius: 10, cursor: "pointer", color: C.azul, fontFamily: "DM Sans,sans-serif", fontSize: 12.5, fontWeight: 600 }
       },
@@ -282,7 +282,7 @@ ${s.dia} \xB7 ${s.inicio}\u2013${s.fim} \xB7 Expoville, Joinville/SC
       "Anotar",
       nNotas > 0 && /* @__PURE__ */ React.createElement("span", { style: { background: C.azulBg, borderRadius: 8, padding: "0 6px", fontSize: 12 } }, nNotas)
     ));
-  })), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginBottom: 8 } }, /* @__PURE__ */ React.createElement("button", { onClick: handleAnotar, style: { flex: 3, display: "flex", alignItems: "center", justifyContent: "center", gap: 7, background: C.azul, color: "#fff", border: "none", borderRadius: 10, padding: "13px", fontFamily: "DM Sans,sans-serif", fontSize: 14, fontWeight: 700, cursor: "pointer", letterSpacing: "-0.01em", boxShadow: "0 2px 8px rgba(29,62,138,.25)" } }, /* @__PURE__ */ React.createElement(IcoCapture, { size: 17, color: "#fff" }), "Anotar"), /* @__PURE__ */ React.createElement("button", { onClick: toggleMark, style: { flexShrink: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 3, background: isMarked ? C.ouroBg : "#fff", color: isMarked ? C.ouroTxt : C.cinza, border: `1px solid ${isMarked ? C.ouroTxt : C.linha}`, borderRadius: 10, padding: "10px 14px", fontFamily: "DM Sans,sans-serif", fontSize: 12, fontWeight: isMarked ? 700 : 500, cursor: "pointer" } }, /* @__PURE__ */ React.createElement(IcoStar, { size: 16, color: isMarked ? C.ouroTxt : C.cinza, filled: isMarked }), isMarked ? "Marcado" : "Marcar")), /* @__PURE__ */ React.createElement(
+  })), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 8, marginBottom: 8 } }, /* @__PURE__ */ React.createElement("button", { onClick: handleAnotar, style: { flex: 3, display: "flex", alignItems: "center", justifyContent: "center", gap: 7, background: C.azul, color: "#fff", border: "none", borderRadius: 10, padding: "13px", fontFamily: "DM Sans,sans-serif", fontSize: 14, fontWeight: 700, cursor: "pointer", letterSpacing: "-0.01em", boxShadow: "0 2px 8px rgba(29,62,138,.25)" } }, /* @__PURE__ */ React.createElement(IcoCapture, { size: 17, color: "#fff" }), "Anotar"), /* @__PURE__ */ React.createElement("button", { onClick: toggleMark, style: { flexShrink: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 3, background: isMarked ? C.ouroBg : "#fff", color: isMarked ? C.ouroTxt : C.cinza, border: `1px solid ${isMarked ? C.ouroTxt : C.linha}`, borderRadius: 10, padding: "10px 14px", fontFamily: "DM Sans,sans-serif", fontSize: 12, fontWeight: isMarked ? 700 : 500, cursor: "pointer" } }, /* @__PURE__ */ React.createElement(IcoStar, { size: 16, color: isMarked ? C.ouroTxt : C.cinza, filled: isMarked }), isMarked ? "Marcado" : "Marcar")), typeof NotasDaSessao === "function" && /* @__PURE__ */ React.createElement(NotasDaSessao, { sessaoId: id }), /* @__PURE__ */ React.createElement(
     "button",
     {
       onClick: () => ccemBaixarIcs([s], "ccem-" + id + ".ics"),
