@@ -21,10 +21,10 @@ function BalaoEu({ children, hora }) {
 function BalaoIA({ children }) {
   return /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 6, alignItems: "flex-start", margin: "0 0 10px" } }, /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "26", height: "26", style: { borderRadius: "50%", flexShrink: 0, marginTop: 2 } }), /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "88%", minWidth: 0 } }, children));
 }
-function ItemFoto({ c, ocupado, aoPedir }) {
+function ItemFoto({ c, ocupado, aoPedir, aoCarregar }) {
   const foto = useFoto(c.foto);
   const feitas = new Set((c.respostas || []).map((x) => x.acao));
-  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", justifyContent: "flex-end", margin: "0 0 6px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%" } }, foto ? /* @__PURE__ */ React.createElement("img", { src: foto, alt: "Foto do slide", style: { display: "block", maxWidth: "100%", maxHeight: 260, borderRadius: 12, border: `1px solid ${C.linhaSoft}` } }) : /* @__PURE__ */ React.createElement("div", { style: { padding: "20px 14px", background: "#eef2f8", borderRadius: 12, fontSize: 13, color: C.cinza } }, "Foto"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, textAlign: "right", marginTop: 2 } }, c.time))), c.body && !c.resumoIA && /* @__PURE__ */ React.createElement(BalaoEu, null, ccemNotaEmTexto(c.body)), (c.respostas || []).map((x) => /* @__PURE__ */ React.createElement(BalaoIA, { key: x.id }, /* @__PURE__ */ React.createElement(RespostaSlide, { item: x }))), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 6, overflowX: "auto", padding: "0 0 12px 32px", WebkitOverflowScrolling: "touch" } }, CCEM_ATALHOS.map((a) => /* @__PURE__ */ React.createElement(
+  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", justifyContent: "flex-end", margin: "0 0 6px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%" } }, foto ? /* @__PURE__ */ React.createElement("img", { src: foto, alt: "Foto do slide", onLoad: aoCarregar, style: { display: "block", maxWidth: "100%", maxHeight: 260, borderRadius: 12, border: `1px solid ${C.linhaSoft}` } }) : /* @__PURE__ */ React.createElement("div", { style: { padding: "20px 14px", background: "#eef2f8", borderRadius: 12, fontSize: 13, color: C.cinza } }, "Foto"), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, textAlign: "right", marginTop: 2 } }, c.time))), c.body && !c.resumoIA && /* @__PURE__ */ React.createElement(BalaoEu, null, ccemNotaEmTexto(c.body)), (c.respostas || []).map((x) => /* @__PURE__ */ React.createElement(BalaoIA, { key: x.id }, /* @__PURE__ */ React.createElement(RespostaSlide, { item: x }))), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 6, overflowX: "auto", padding: "0 0 12px 32px", WebkitOverflowScrolling: "touch" } }, CCEM_ATALHOS.map((a) => /* @__PURE__ */ React.createElement(
     "button",
     {
       key: a.acao,
@@ -57,12 +57,18 @@ function AulaScreen({ sessaoId, fala }) {
   const f = n !== null ? ccemFalaDe(sessaoId, n) : null;
   const [texto, setTexto] = useState("");
   const [ocupado, setOcupado] = useState(null);
+  const [pendente, setPendente] = useState(null);
   const fotoRef = useRef(null);
   const fimRef = useRef(null);
+  const listaRef = useRef(null);
+  const aoFim = () => requestAnimationFrame(() => {
+    const el = listaRef.current;
+    if (el) el.scrollTop = el.scrollHeight;
+  });
   const notas = s ? ccemNotasDaAula(appState.captures, sessaoId, n) : [];
   useEffect(() => {
-    if (fimRef.current) fimRef.current.scrollIntoView({ block: "end" });
-  }, [notas.length, ocupado, notas.reduce((t, c) => t + (c.respostas || []).length, 0)]);
+    aoFim();
+  }, [notas.length, ocupado, pendente, notas.reduce((t, c) => t + (c.respostas || []).length, 0)]);
   if (!s) return /* @__PURE__ */ React.createElement("div", { style: { padding: 24, color: C.cinza } }, "Sess\xE3o n\xE3o encontrada.");
   const titulo = f ? `Aula ${f.n}${f.titulo ? " \xB7 " + f.titulo : ""}` : aulas.length ? "Sess\xE3o toda" : s.titulo;
   const sub = f ? f.palestrante : `${s.badge} \xB7 ${s.inicio}\u2013${s.fim}`;
@@ -74,16 +80,21 @@ function AulaScreen({ sessaoId, fala }) {
   }
   async function foto(arquivo) {
     if (!arquivo) return;
+    setPendente("lendo");
     let previa;
     try {
       previa = (await ccemReduzirFoto(arquivo)).previa;
     } catch (e) {
-      showToast("N\xE3o foi poss\xEDvel ler a foto");
+      setPendente(null);
+      showToast("N\xE3o foi poss\xEDvel ler a foto. Tente de novo.");
       return;
     }
+    setPendente(previa);
     const t = texto.trim();
     setTexto("");
-    await ccemGravarNota({ texto: t, foto: previa, sessaoId, fala: n, silencioso: true });
+    const r = await ccemGravarNota({ texto: t, foto: previa, sessaoId, fala: n, silencioso: true });
+    setPendente(null);
+    if (!r || !r.ok) setTexto(t);
   }
   async function perguntar() {
     const q = texto.trim();
@@ -121,7 +132,7 @@ function AulaScreen({ sessaoId, fala }) {
       },
       o.rot
     );
-  }))), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, notas.length === 0 && !ocupado && /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", color: C.cinza, fontSize: 13.5, lineHeight: 1.5, padding: "28px 16px" } }, "Tudo desta ", f ? "aula" : "sess\xE3o", " fica aqui, em ordem: suas anota\xE7\xF5es, as fotos dos slides e as respostas da IA.", /* @__PURE__ */ React.createElement("br", null), "Escreva e toque em ", /* @__PURE__ */ React.createElement("b", null, "Anotar"), ", fotografe um slide ou fa\xE7a uma pergunta \xE0 IA."), notas.map((c) => /* @__PURE__ */ React.createElement("div", { key: c.id }, c.foto ? /* @__PURE__ */ React.createElement(ItemFoto, { c, ocupado: !!ocupado, aoPedir: pedir }) : /* @__PURE__ */ React.createElement(React.Fragment, null, c.body && /* @__PURE__ */ React.createElement(BalaoEu, { hora: c.time }, ccemNotaEmTexto(c.body))), c.resumoIA && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: "14px 14px 14px 4px", padding: "8px 12px", fontSize: 14, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, c.resumoIA, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, marginTop: 4 } }, "Gerado por IA \u2014 confira na fonte."))))), ocupado && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { role: "status", style: { display: "inline-flex", alignItems: "center", gap: 6, background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: 14, padding: "8px 12px", fontSize: 13, color: C.cinza } }, "Preparando resposta\u2026 ", /* @__PURE__ */ React.createElement("span", { style: { fontSize: 12 } }, "(", ocupado.length > 40 ? ocupado.slice(0, 40) + "\u2026" : ocupado, ")"))), /* @__PURE__ */ React.createElement("div", { ref: fimRef })), /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, background: "#fff", borderTop: `1px solid ${C.linhaSoft}`, padding: "8px 10px calc(8px + env(safe-area-inset-bottom))" } }, /* @__PURE__ */ React.createElement(
+  }))), /* @__PURE__ */ React.createElement("div", { ref: listaRef, style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, notas.length === 0 && !ocupado && /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", color: C.cinza, fontSize: 13.5, lineHeight: 1.5, padding: "28px 16px" } }, "Tudo desta ", f ? "aula" : "sess\xE3o", " fica aqui, em ordem: suas anota\xE7\xF5es, as fotos dos slides e as respostas da IA.", /* @__PURE__ */ React.createElement("br", null), "Escreva e toque em ", /* @__PURE__ */ React.createElement("b", null, "Anotar"), ", fotografe um slide ou fa\xE7a uma pergunta \xE0 IA."), notas.map((c) => /* @__PURE__ */ React.createElement("div", { key: c.id }, c.foto ? /* @__PURE__ */ React.createElement(ItemFoto, { c, ocupado: !!ocupado, aoPedir: pedir, aoCarregar: aoFim }) : /* @__PURE__ */ React.createElement(React.Fragment, null, c.body && /* @__PURE__ */ React.createElement(BalaoEu, { hora: c.time }, ccemNotaEmTexto(c.body))), c.resumoIA && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: "14px 14px 14px 4px", padding: "8px 12px", fontSize: 14, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, c.resumoIA, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, marginTop: 4 } }, "Gerado por IA \u2014 confira na fonte."))))), pendente && /* @__PURE__ */ React.createElement("div", { "data-foto-pendente": true, style: { display: "flex", justifyContent: "flex-end", margin: "0 0 8px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%", textAlign: "right" } }, pendente !== "lendo" ? /* @__PURE__ */ React.createElement("img", { src: pendente, alt: "Foto sendo guardada", onLoad: aoFim, style: { display: "block", maxWidth: "100%", maxHeight: 260, borderRadius: 12, opacity: 0.7 } }) : /* @__PURE__ */ React.createElement("div", { style: { padding: "22px 18px", background: "#e8eef8", borderRadius: 12, fontSize: 13, color: C.cinza } }, "Preparando a foto\u2026"), /* @__PURE__ */ React.createElement("div", { role: "status", style: { fontSize: 12, color: C.cinza, marginTop: 2 } }, "Guardando no aparelho\u2026"))), ocupado && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { role: "status", style: { display: "inline-flex", alignItems: "center", gap: 6, background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: 14, padding: "8px 12px", fontSize: 13, color: C.cinza } }, "Preparando resposta\u2026 ", /* @__PURE__ */ React.createElement("span", { style: { fontSize: 12 } }, "(", ocupado.length > 40 ? ocupado.slice(0, 40) + "\u2026" : ocupado, ")"))), /* @__PURE__ */ React.createElement("div", { ref: fimRef })), /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, background: "#fff", borderTop: `1px solid ${C.linhaSoft}`, padding: "8px 10px calc(8px + env(safe-area-inset-bottom))" } }, /* @__PURE__ */ React.createElement(
     "textarea",
     {
       value: texto,
