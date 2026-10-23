@@ -69,6 +69,16 @@ async function _ccemGuardarFotoDaAula(arquivo, { sessaoId, n, texto, aoUsarTexto
   if ((!r || !r.ok) && aoFalhar) aoFalhar();
 }
 
+/* Abre a nota (foto, resposta da IA) dentro da conversa da aula dela, já
+   posicionada nela. Devolve false se a nota não tem sessão (fica no Caderno). */
+let _ccemAulaFoco = null;
+function ccemAbrirNaConversa(c) {
+  if (!c || !c.sessaoId || !SESSOES[c.sessaoId]) return false;
+  _ccemAulaFoco = c.id;
+  ccemAbrirAula(c.sessaoId, ccemAulas(c.sessaoId).some(f => f.n === c.fala) ? c.fala : null);
+  return true;
+}
+
 /* Notas desta aula, em ordem. n null = sessão toda (notas sem aula). */
 function ccemNotasDaAula(captures, sessaoId, n) {
   const aulas = ccemAulas(sessaoId);
@@ -135,7 +145,15 @@ function AulaScreen({ sessaoId, fala }) {
   const fimRef = useRef(null);
   const listaRef = useRef(null);
   // Rola até o fim (também depois que a imagem carrega e a altura muda).
-  const aoFim = () => requestAnimationFrame(() => { const el = listaRef.current; if (el) el.scrollTop = el.scrollHeight; });
+  // Alvo da rolagem: o fim da conversa, ou uma foto (aberta pelo Caderno/Sessão, ou a que recebe resposta da IA).
+  const alvoRef = useRef(null);
+  const [destaque, setDestaque] = useState(() => { const f = _ccemAulaFoco; _ccemAulaFoco = null; if (f) alvoRef.current = { id: f, bloco: 'start' }; return f; });
+  useEffect(() => { if (!destaque) return; const t = setTimeout(() => setDestaque(null), 2500); return () => clearTimeout(t); }, [destaque]);
+  const aoFim = () => requestAnimationFrame(() => {
+    const el = listaRef.current; if (!el) return;
+    const a = alvoRef.current, item = a && el.querySelector('[data-nota="' + a.id + '"]');
+    if (item) item.scrollIntoView({ block: a.bloco }); else el.scrollTop = el.scrollHeight;
+  });
   const notas = s ? ccemNotasDaAula(appState.captures, sessaoId, n) : [];
 
   useEffect(() => { aoFim(); }, [notas.length, ocupado, pendente, notas.reduce((t, c) => t + (c.respostas || []).length, 0)]);
@@ -146,18 +164,20 @@ function AulaScreen({ sessaoId, fala }) {
 
   async function anotar() {
     const t = texto.trim();
+    alvoRef.current = null;
     if (!t) return;
     setTexto('');
     await ccemGravarNota({ texto: t, sessaoId, fala: n, silencioso: true });
   }
   function foto() {
     const t = texto.trim();
+    alvoRef.current = null;
     ccemFotografarNaAula({ sessaoId, n, texto: t, aoUsarTexto: () => setTexto(''), aoFalhar: () => setTexto(t) });
   }
   async function perguntar() {
     const q = texto.trim();
     if (!q || ocupado) return;
-    setTexto(''); setOcupado(q);
+    setTexto(''); setOcupado(q); alvoRef.current = null;
     // contexto: a aula e as últimas perguntas desta conversa
     const historico = notas.filter(c => c.resumoIA && c.body).slice(-3)
       .flatMap(c => [{ papel:'usuario', texto: ccemNotaEmTexto(c.body) }, { papel:'assistente', texto: c.resumoIA }]);
@@ -170,6 +190,7 @@ function AulaScreen({ sessaoId, fala }) {
   async function pedir(id, a) {
     if (ocupado) return;
     setOcupado(CCEM_ATALHO_CURTO[a.acao] || a.rotulo);
+    alvoRef.current = { id, bloco: 'end' };   // a resposta aparece embaixo desta foto: fica nela
     const r = await ccemAcaoSlide(id, { acao: a.acao, rotulo: a.rotulo });
     setOcupado(null);
     if (r && r.aviso) showToast(r.aviso);
@@ -210,7 +231,7 @@ function AulaScreen({ sessaoId, fala }) {
           </div>
         )}
         {notas.map(c => (
-          <div key={c.id}>
+          <div key={c.id} data-nota={c.id} style={destaque === c.id ? {outline:`2px solid ${C.azulSoft}`, outlineOffset:4, borderRadius:12} : undefined}>
             {c.foto ? <ItemFoto c={c} ocupado={!!ocupado} aoPedir={pedir} aoCarregar={aoFim}/> : (
               <>
                 {c.body&&<BalaoEu hora={c.time}>{ccemNotaEmTexto(c.body)}</BalaoEu>}
@@ -265,4 +286,4 @@ function AulaScreen({ sessaoId, fala }) {
   );
 }
 
-Object.assign(window, { AulaScreen, ccemFotografarNaAula, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemAbrirNaConversa, ccemFotografarNaAula, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });

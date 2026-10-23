@@ -202,11 +202,12 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
     if (t===undefined) setTexto('');
     ccemEnviarAoAssistente({ texto:v, sessaoId });
   }
-  // Fotos de slides têm um só caminho: a nota do Caderno (guardada no
-  // aparelho, funciona sem internet). A IA vem depois, em "Perguntar sobre o slide".
+  // Foto de slide numa sessão: vai para a conversa da aula (anotações, fotos e IA
+  // juntas, guardadas no aparelho). Fora de sessão: o editor de nota do Caderno.
   function anotarSlide(){
     if (aoNavegar) aoNavegar();
-    ccemAbrirEditor({ sessaoId: sessaoId || undefined });
+    if (sessaoId && SESSOES[sessaoId]) ccemAbrirAula(sessaoId, ccemUltimaAula(sessaoId));
+    else ccemAbrirEditor({});
   }
   function usarSugestao(s){
     if (s.foto) { anotarSlide(); return; }
@@ -268,7 +269,7 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
       <div style={{flexShrink:0,background:'#fff',borderTop:`1px solid ${C.linhaSoft}`,padding:'6px 10px 10px'}}>
         <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.4,margin:'0 2px 6px'}}>{CCEM_PRIVACIDADE}</div>
         <div style={{display:'flex',alignItems:'center',gap:7}}>
-          <button onClick={anotarSlide} aria-label="Anotar um slide no Caderno" disabled={conversa.carregando}
+          <button onClick={anotarSlide} aria-label={sessaoId && SESSOES[sessaoId] ? "Anotar um slide na conversa da aula" : "Anotar um slide no Caderno"} disabled={conversa.carregando}
             style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',border:`1px solid ${C.linha}`,background:'#f8fafd',borderRadius:12,cursor:'pointer',flexShrink:0,padding:0}}>
             <IcoCam size={19} color={C.azul}/>
           </button>
