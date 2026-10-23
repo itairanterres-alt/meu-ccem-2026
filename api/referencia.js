@@ -20,7 +20,7 @@
 const C = require('./_comum');
 const { exigirSessao } = require('./_acesso');
 
-const LIMITE_DIA = 30;
+const LIMITE_DIA = 200;   // teto só contra abuso
 const DIA = 86400000;
 const EMAIL = process.env.CONTATO_TECNICO_EMAIL || '';
 const NCBI_KEY = process.env.NCBI_API_KEY || '';
