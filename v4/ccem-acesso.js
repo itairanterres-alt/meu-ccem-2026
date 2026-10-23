@@ -63,6 +63,10 @@ async function ccemFetchIA(url, corpo, tempoMs) {
     if (ccemSessao()) ccemGuardarSessao(null);
     if (await ccemPedirLogin()) res = await tentar();
   }
+  if (res.ok && window.ccemContar) {
+    const rec = url.includes("/api/assistente") ? "assistente" : url.includes("/api/referencia") ? "artigo" : url.includes("/api/slide") ? corpo && corpo.acao === "organizar" ? "organizar" : "foto" : null;
+    if (rec) window.ccemContar("/_ia/" + rec);
+  }
   return res;
 }
 const CCEM_ERROS_ENTRAR = {
@@ -132,6 +136,7 @@ function FolhaEntrar({ aoConcluir }) {
       return;
     }
     ccemGuardarSessao({ token: r.dados.sessao, validade: r.dados.validade, email: _ultimoEmail.trim().toLowerCase() });
+    if (window.ccemContar) window.ccemContar("/_login");
     showToast("Pronto! Voc\xEA j\xE1 pode usar a IA.");
     aoConcluir(true);
   }

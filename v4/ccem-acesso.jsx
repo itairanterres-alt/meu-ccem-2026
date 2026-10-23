@@ -61,6 +61,12 @@ async function ccemFetchIA(url, corpo, tempoMs) {
     if (ccemSessao()) ccemGuardarSessao(null);   // sessão recusada: pede de novo
     if (await ccemPedirLogin()) res = await tentar();
   }
+  // Estatística anônima de uso da IA (página virtual no Web Analytics; ver index.html).
+  if (res.ok && window.ccemContar) {
+    const rec = url.includes('/api/assistente') ? 'assistente' : url.includes('/api/referencia') ? 'artigo'
+              : url.includes('/api/slide') ? (corpo && corpo.acao === 'organizar' ? 'organizar' : 'foto') : null;
+    if (rec) window.ccemContar('/_ia/' + rec);
+  }
   return res;
 }
 
@@ -117,6 +123,7 @@ function FolhaEntrar({ aoConcluir }) {
     setOcupado(false);
     if (r.erro) { setErro(r.erro); return; }
     ccemGuardarSessao({ token: r.dados.sessao, validade: r.dados.validade, email: _ultimoEmail.trim().toLowerCase() });
+    if (window.ccemContar) window.ccemContar('/_login');   // estatística anônima: só a contagem, sem e-mail
     showToast('Pronto! Você já pode usar a IA.');
     aoConcluir(true);
   }

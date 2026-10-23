@@ -708,7 +708,7 @@ function InfoScreen() {
             A IA é exclusiva para inscritos: para usá-la, você entra com o e-mail da inscrição e recebe um código. O e-mail serve só para conferir a inscrição na lista da organização; o app não guarda essa lista.
           </p>
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
-            Para a organização saber quanto o app é usado, contamos as telas abertas (por exemplo, "Programa" ou uma sessão), de forma anônima, pelo Vercel Web Analytics: sem cookies, sem nome ou e-mail e sem o conteúdo das suas notas.
+            Para a organização saber quanto o app é usado, contamos, de forma anônima, as telas abertas (por exemplo, "Programa" ou uma sessão), as entradas para usar a IA e quantas vezes cada recurso de IA é usado, pelo Vercel Web Analytics: sem cookies, sem nome ou e-mail e sem o conteúdo das suas notas ou perguntas.
           </p>
           <SessaoInfo/>
           <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.55,margin:'0 0 10px'}}>
