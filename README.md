@@ -165,9 +165,10 @@ app funciona normalmente e o Assistente mostra "Assistente em fase de testes —
 disponível em breve". Para desligar a IA em emergência: apagar a variável e
 republicar.
 
-Limites por pessoa (aproximados; contados em memória em cada instância do
-Vercel): Assistente, 20 perguntas por hora; foto do slide, 15 perguntas por
-dia; busca de artigo, 30 por dia; organizar fotos, 40 por dia. Cada resposta
+Tetos por pessoa, só contra abuso (script em loop); o uso normal não chega
+perto. Aproximados, contados em memória em cada instância do Vercel:
+Assistente, 120 perguntas por hora; foto do slide, 300 pedidos por dia; busca
+de artigo, 200 por dia; organizar fotos, 500 por dia. Cada resposta
 tem até 20 s. O texto fixo (regras, programa e FAQ) vai com cache, o que
 barateia cada chamada. O teto real de gasto é o crédito na Anthropic.
 

@@ -16,7 +16,7 @@ async function ccemPost(url, corpo, tempoMs) {
     if (res.ok) return { dados: await res.json() };
     if (res.status === 401) return { aviso: CCEM_AVISO_LOGIN };
     if ([404, 405, 501, 503].includes(res.status)) return { aviso: CCEM_EM_TESTES };
-    if (res.status === 429) return { aviso: "Voc\xEA chegou ao limite di\xE1rio deste recurso. Ele volta amanh\xE3." };
+    if (res.status === 429) return { aviso: "Muitos pedidos em pouco tempo. Aguarde um pouco e tente de novo." };
     if (res.status === 504) return { aviso: "A IA demorou demais para responder. Tente de novo." };
     if (res.status === 413) return { aviso: "A foto n\xE3o p\xF4de ser enviada. Tente fotografar de novo." };
     return { aviso: "N\xE3o foi poss\xEDvel responder agora. Tente de novo." };

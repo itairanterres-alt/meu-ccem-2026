@@ -18,8 +18,8 @@ const C = require('./_comum');
 const { exigirSessao } = require('./_acesso');
 
 const DADOS = C.carregarDados();
-const LIMITE_EXPLICACOES_DIA = 15;
-const LIMITE_ORGANIZAR_DIA = 40;
+const LIMITE_EXPLICACOES_DIA = 300;   // tetos só contra abuso; o uso normal não chega perto
+const LIMITE_ORGANIZAR_DIA = 500;
 const DIA = 86400000;
 
 const ACOES = {

@@ -41,7 +41,7 @@ async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico
     if (res.ok) return { resposta: await res.json() };
     if (res.status === 401) return { aviso: CCEM_AVISO_LOGIN };
     if ([404, 405, 501, 503].includes(res.status)) return { aviso: CCEM_EM_TESTES };
-    if (res.status === 429) return { aviso: "Voc\xEA chegou ao limite de 20 perguntas por hora. Tente de novo mais tarde." };
+    if (res.status === 429) return { aviso: "Muitas perguntas em pouco tempo. Aguarde alguns minutos e tente de novo." };
     if (res.status === 504) return { aviso: "O assistente demorou demais para responder. Tente de novo." };
     if (res.status === 413) return { aviso: "A foto ficou grande demais. Tente fotografar de novo." };
     return { aviso: "N\xE3o foi poss\xEDvel responder agora. Tente de novo." };

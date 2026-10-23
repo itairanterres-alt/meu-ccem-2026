@@ -11,8 +11,8 @@
    - Privacidade: a foto e a pergunta são processadas em memória e
      descartadas. Nada é gravado: nem disco, nem Blob, nem log. Os
      logs de erro registram só o tipo do erro, nunca o conteúdo.
-   - Limite: ~20 chamadas por usuário por hora (em memória; cada
-     instância do Vercel tem o seu contador, então é aproximado).
+   - Teto anti-abuso: ~120 chamadas por usuário por hora (em memória;
+     cada instância do Vercel tem o seu contador, então é aproximado).
    - Tempo máximo de 20 s por chamada.
    ============================================================ */
 const fs = require('fs');
@@ -24,7 +24,7 @@ const { exigirSessao } = require('./_acesso');
 
 const MODELO = process.env.ANTHROPIC_MODEL || 'claude-sonnet-5-5';
 const TEMPO_MAXIMO_MS = 20000;
-const LIMITE_POR_HORA = 20;
+const LIMITE_POR_HORA = 120;   // só contra abuso (script em loop); ninguém chega a isso perguntando
 const MAX_TEXTO = 2000;
 const MAX_IMAGEM_BASE64 = 2500000;   // ~1,8 MB de JPEG; a foto chega reduzida a 1600 px
 const MAX_HISTORICO = 6;
