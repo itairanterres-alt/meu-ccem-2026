@@ -251,8 +251,8 @@ function SessaoDetail({ id }) {
   }
 
   function handleAnotar(){
-    // nota direta, no aparelho, sem depender de internet nem da IA
-    ccemAbrirEditor({ sessaoId:id });
+    // Conversa da aula: anotações, fotos e IA no mesmo lugar (sem internet, só a IA precisa).
+    ccemAbrirAula(id, typeof ccemUltimaAula === 'function' ? ccemUltimaAula(id) : null);
   }
 
   async function handleShare(){
@@ -357,7 +357,7 @@ function SessaoDetail({ id }) {
                     <SlideDisplay sessaoId={id} falaIdx={i}/>
                   </div>
                   {porAula&&(
-                    <button onClick={()=>ccemAbrirEditor({ sessaoId:id, fala:f.n })} aria-label={`Anotar a aula ${f.n}${nNotas?` (${nNotas} nota${nNotas>1?'s':''})`:''}`}
+                    <button onClick={()=>ccemAbrirAula(id, f.n)} aria-label={`Anotar a aula ${f.n}${nNotas?` (${nNotas} nota${nNotas>1?'s':''})`:''}`}
                       style={{alignSelf:'center',flexShrink:0,minWidth:44,minHeight:44,display:'flex',alignItems:'center',gap:5,padding:'0 10px',border:`1px solid ${C.linha}`,background:'#fff',borderRadius:10,cursor:'pointer',color:C.azul,fontFamily:'DM Sans,sans-serif',fontSize:12.5,fontWeight:600}}>
                       <IcoPlus size={15} color={C.azul}/>Anotar{nNotas>0&&<span style={{background:C.azulBg,borderRadius:8,padding:'0 6px',fontSize:12}}>{nNotas}</span>}
                     </button>

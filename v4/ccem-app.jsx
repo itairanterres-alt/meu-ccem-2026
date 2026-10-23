@@ -11,6 +11,7 @@ function App() {
     // corrigidos; estes apelidos mantêm válido qualquer link já compartilhado.
     const IDS_ANTIGOS = { 'simp4-hipofise':'simp4-adrenal', 'simp8-adrenal':'simp8-hipofise' };
     if (parts[0] === 'sessao'     && parts[1]) return { tela:'sessao', id: IDS_ANTIGOS[parts[1]] || parts[1] };
+    if (parts[0] === 'aula' && parts[1])       return { tela:'aula', id: parts[1], fala: /^\d+$/.test(parts[2]||'') ? Number(parts[2]) : null };
     if (parts[0] === 'programa')               return { tela:'programa' };
     if (parts[0] === 'assistente')             return { tela:'assistente' };
     if (parts[0] === 'caderno')                return { tela:'caderno' };
@@ -19,7 +20,7 @@ function App() {
     return { tela:'home' };
   }, [hash]);
 
-  const showShell = route.tela !== 'sessao' && route.tela !== 'home';
+  const showShell = route.tela !== 'sessao' && route.tela !== 'home' && route.tela !== 'aula';
 
   // 5.7 · Botão "8": Home, Programa, Trabalhos, Info e Sessão. Some na aba Assistente,
   // com o teclado aberto e com o painel aberto. Só abre com toque.
@@ -63,6 +64,7 @@ function App() {
     <AppShell showShell={showShell} aba={route.tela} fab={fab} reservaFab={reserva}>
       {route.tela === 'sessao'     && <SessaoDetail key={route.id} id={route.id}/>}
       {route.tela === 'home'       && <HomeScreen/>}
+      {route.tela === 'aula'       && <AulaScreen key={route.id+'/'+route.fala} sessaoId={route.id} fala={route.fala}/>}
       {route.tela === 'assistente' && <AssistenteScreen/>}
       {route.tela === 'caderno'    && <CadernoScreen/>}
       {route.tela === 'info'       && <InfoScreen/>}

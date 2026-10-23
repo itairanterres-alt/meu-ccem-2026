@@ -30,8 +30,8 @@ function ccemRespostaEmTexto(r) {
   if (sess.length) partes.push(sess.map((s) => `${s.inicio} \xB7 ${ccemRotulo(s)}`).join("\n"));
   return partes.filter(Boolean).join("\n\n");
 }
-async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico }) {
-  const historico = semHistorico ? [] : _conversa.msgs.filter((m) => m.papel === "usuario" && m.texto || m.papel === "assistente" && m.resposta).slice(-6).map((m) => ({ papel: m.papel, texto: m.papel === "usuario" ? m.texto : ccemRespostaEmTexto(m.resposta) }));
+async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico, historico: historicoProprio }) {
+  const historico = historicoProprio ? historicoProprio : semHistorico ? [] : _conversa.msgs.filter((m) => m.papel === "usuario" && m.texto || m.papel === "assistente" && m.resposta).slice(-6).map((m) => ({ papel: m.papel, texto: m.papel === "usuario" ? m.texto : ccemRespostaEmTexto(m.resposta) }));
   try {
     const res = await ccemFetchIA(
       "/api/assistente",

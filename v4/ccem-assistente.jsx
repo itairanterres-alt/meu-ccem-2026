@@ -48,8 +48,8 @@ function ccemRespostaEmTexto(r) {
 
 /* ── Envio ao servidor ───────────────────────────────────────── */
 // TODO: integrar com API real — já integrado: /api/assistente (Claude via Vercel).
-async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico }) {
-  const historico = semHistorico ? [] : _conversa.msgs
+async function ccemPerguntarAoAssistente({ texto, imagem, sessaoId, semHistorico, historico: historicoProprio }) {
+  const historico = historicoProprio ? historicoProprio : semHistorico ? [] : _conversa.msgs
     .filter(m => (m.papel === 'usuario' && m.texto) || (m.papel === 'assistente' && m.resposta))
     .slice(-6)
     .map(m => ({ papel: m.papel, texto: m.papel === 'usuario' ? m.texto : ccemRespostaEmTexto(m.resposta) }));

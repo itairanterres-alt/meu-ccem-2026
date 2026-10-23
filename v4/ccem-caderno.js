@@ -71,7 +71,7 @@ function ccemAvisarGravacao(ok, extra) {
   if (!ok) showToast("N\xE3o foi poss\xEDvel salvar neste aparelho \u2014 exporte antes de fechar");
   else showToast(extra || "Salvo neste aparelho");
 }
-async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fala }) {
+async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fala, silencioso }) {
   const st0 = _ccemStore.state;
   const antiga = (st0.captures || []).find((c) => c.id === id);
   id = id || ccemNovaNotaId();
@@ -115,7 +115,7 @@ async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fal
     if (i >= 0) st.captures[i] = nota;
     else st.captures.unshift(nota);
   });
-  ccemAvisarGravacao(ok, fotoFalhou ? "Texto salvo; a foto n\xE3o p\xF4de ser guardada neste aparelho" : null);
+  if (!silencioso || !ok || fotoFalhou) ccemAvisarGravacao(ok, fotoFalhou ? "Texto salvo; a foto n\xE3o p\xF4de ser guardada neste aparelho" : null);
   return { ok, id };
 }
 async function ccemExcluirNota(id) {

@@ -89,7 +89,7 @@ function ccemAvisarGravacao(ok, extra) {
 }
 
 /* Grava (cria ou atualiza) uma nota. foto: dataUrl, null (sem foto) ou undefined (não mexe). */
-async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fala }) {
+async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fala, silencioso }) {
   const st0 = _ccemStore.state;
   const antiga = (st0.captures || []).find(c => c.id === id);
   id = id || ccemNovaNotaId();
@@ -125,7 +125,8 @@ async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fal
     const i = st.captures.findIndex(c => c.id === id);
     if (i >= 0) st.captures[i] = nota; else st.captures.unshift(nota);
   });
-  ccemAvisarGravacao(ok, fotoFalhou ? 'Texto salvo; a foto não pôde ser guardada neste aparelho' : null);
+  // Na conversa da aula, a própria mensagem na tela confirma: só avisa se der problema.
+  if (!silencioso || !ok || fotoFalhou) ccemAvisarGravacao(ok, fotoFalhou ? 'Texto salvo; a foto não pôde ser guardada neste aparelho' : null);
   return { ok, id };
 }
 
