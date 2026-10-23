@@ -893,10 +893,12 @@ function TabBar({ aba }){
 }
 
 /* ── useIsDesktop ────────────────────────────────────────────── */
+// Celular deitado (paisagem) continua no layout de celular: a altura é que separa.
+const CCEM_MQ_DESKTOP = '(min-width: 720px) and (min-height: 560px)';
 function useIsDesktop() {
-  const [is, setIs] = useState(()=>window.innerWidth>=720);
+  const [is, setIs] = useState(()=>window.matchMedia(CCEM_MQ_DESKTOP).matches);
   useEffect(()=>{
-    const mq = window.matchMedia('(min-width: 720px)');
+    const mq = window.matchMedia(CCEM_MQ_DESKTOP);
     const fn = e => setIs(e.matches);
     mq.addEventListener('change', fn);
     return () => mq.removeEventListener('change', fn);
@@ -960,27 +962,19 @@ function AreaComFab({ fab, reserva, children }) {
 
 function AppShell({ showShell, aba, fab, reservaFab, children }){
   const isDesktop = useIsDesktop();
-  if (isDesktop) {
-    return (
-      <div style={{flex:1,display:'flex',overflow:'hidden',minHeight:0}}>
-        <DesktopSidebar aba={aba}/>
-        <div style={{flex:1,overflow:'hidden',display:'flex',flexDirection:'column',alignItems:'center',minHeight:0,background:'#e8eef8'}}>
-          <div style={{width:'100%',maxWidth:800,flex:1,overflow:'hidden',display:'flex',flexDirection:'column',minHeight:0,background:C.papel}}>
-            <AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>
-          </div>
+  // Mesma árvore nos dois layouts: trocar de layout (girar o tablet) não remonta
+  // a tela aberta, nem perde o que está em andamento (foto, texto digitado).
+  const coluna = {flex:1,display:'flex',flexDirection:'column',overflow:'hidden',minHeight:0};
+  return (
+    <div style={isDesktop ? {flex:1,display:'flex',overflow:'hidden',minHeight:0} : coluna}>
+      {isDesktop && <DesktopSidebar aba={aba}/>}
+      <div style={isDesktop ? {...coluna,alignItems:'center',background:'#e8eef8'} : coluna}>
+        <div style={isDesktop ? {...coluna,width:'100%',maxWidth:800,background:C.papel} : {...coluna,width:'100%'}}>
+          {!isDesktop && showShell && <AppHeader/>}
+          <AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>
+          {!isDesktop && showShell && <TabBar aba={aba}/>}
         </div>
       </div>
-    );
-  }
-  return (
-    <div style={{flex:1,display:'flex',flexDirection:'column',overflow:'hidden',minHeight:0}}>
-      {showShell?(
-        <>
-          <AppHeader/>
-          <AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>
-          <TabBar aba={aba}/>
-        </>
-      ):<AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>}
     </div>
   );
 }

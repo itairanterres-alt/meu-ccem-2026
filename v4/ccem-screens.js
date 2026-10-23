@@ -606,10 +606,11 @@ function TabBar({ aba }) {
     );
   }));
 }
+const CCEM_MQ_DESKTOP = "(min-width: 720px) and (min-height: 560px)";
 function useIsDesktop() {
-  const [is, setIs] = useState(() => window.innerWidth >= 720);
+  const [is, setIs] = useState(() => window.matchMedia(CCEM_MQ_DESKTOP).matches);
   useEffect(() => {
-    const mq = window.matchMedia("(min-width: 720px)");
+    const mq = window.matchMedia(CCEM_MQ_DESKTOP);
     const fn = (e) => setIs(e.matches);
     mq.addEventListener("change", fn);
     return () => mq.removeEventListener("change", fn);
@@ -644,10 +645,8 @@ function AreaComFab({ fab, reserva, children }) {
 }
 function AppShell({ showShell, aba, fab, reservaFab, children }) {
   const isDesktop = useIsDesktop();
-  if (isDesktop) {
-    return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", overflow: "hidden", minHeight: 0 } }, /* @__PURE__ */ React.createElement(DesktopSidebar, { aba }), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, overflow: "hidden", display: "flex", flexDirection: "column", alignItems: "center", minHeight: 0, background: "#e8eef8" } }, /* @__PURE__ */ React.createElement("div", { style: { width: "100%", maxWidth: 800, flex: 1, overflow: "hidden", display: "flex", flexDirection: "column", minHeight: 0, background: C.papel } }, /* @__PURE__ */ React.createElement(AreaComFab, { fab, reserva: reservaFab }, children))));
-  }
-  return /* @__PURE__ */ React.createElement("div", { style: { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0 } }, showShell ? /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(AppHeader, null), /* @__PURE__ */ React.createElement(AreaComFab, { fab, reserva: reservaFab }, children), /* @__PURE__ */ React.createElement(TabBar, { aba })) : /* @__PURE__ */ React.createElement(AreaComFab, { fab, reserva: reservaFab }, children));
+  const coluna = { flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", minHeight: 0 };
+  return /* @__PURE__ */ React.createElement("div", { style: isDesktop ? { flex: 1, display: "flex", overflow: "hidden", minHeight: 0 } : coluna }, isDesktop && /* @__PURE__ */ React.createElement(DesktopSidebar, { aba }), /* @__PURE__ */ React.createElement("div", { style: isDesktop ? { ...coluna, alignItems: "center", background: "#e8eef8" } : coluna }, /* @__PURE__ */ React.createElement("div", { style: isDesktop ? { ...coluna, width: "100%", maxWidth: 800, background: C.papel } : { ...coluna, width: "100%" } }, !isDesktop && showShell && /* @__PURE__ */ React.createElement(AppHeader, null), /* @__PURE__ */ React.createElement(AreaComFab, { fab, reserva: reservaFab }, children), !isDesktop && showShell && /* @__PURE__ */ React.createElement(TabBar, { aba }))));
 }
 Object.assign(window, {
   AppShell,
