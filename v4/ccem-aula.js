@@ -24,6 +24,57 @@ function ccemSairDaAula(sessaoId) {
   if (_ccemAulaComVolta) window.history.back();
   else location.replace("#/sessao/" + sessaoId);
 }
+let _ccemFotoPendente = null;
+function _ccemMarcarPendente(p) {
+  _ccemFotoPendente = p;
+  window.dispatchEvent(new Event("ccem:foto-pendente"));
+}
+function useFotoPendente(sessaoId, n) {
+  const [, atualizar] = useState(0);
+  useEffect(() => {
+    const fn = () => atualizar((x) => x + 1);
+    window.addEventListener("ccem:foto-pendente", fn);
+    return () => window.removeEventListener("ccem:foto-pendente", fn);
+  }, []);
+  const p = _ccemFotoPendente;
+  return p && p.sessaoId === sessaoId && p.n === n ? p.previa : null;
+}
+let _ccemEntradaFoto = null, _ccemAlvoFoto = null;
+function ccemFotografarNaAula(alvo) {
+  if (!_ccemEntradaFoto) {
+    const e = document.createElement("input");
+    e.type = "file";
+    e.accept = "image/*";
+    e.style.display = "none";
+    e.setAttribute("data-ccem-foto-aula", "");
+    e.addEventListener("change", () => {
+      const arquivo = e.files && e.files[0], a = _ccemAlvoFoto;
+      e.value = "";
+      _ccemAlvoFoto = null;
+      if (arquivo && a) _ccemGuardarFotoDaAula(arquivo, a);
+    });
+    document.body.appendChild(e);
+    _ccemEntradaFoto = e;
+  }
+  _ccemAlvoFoto = alvo;
+  _ccemEntradaFoto.click();
+}
+async function _ccemGuardarFotoDaAula(arquivo, { sessaoId, n, texto, aoUsarTexto, aoFalhar }) {
+  _ccemMarcarPendente({ sessaoId, n, previa: "lendo" });
+  let previa;
+  try {
+    previa = (await ccemReduzirFoto(arquivo)).previa;
+  } catch (e) {
+    _ccemMarcarPendente(null);
+    showToast("N\xE3o foi poss\xEDvel ler a foto. Tente de novo.");
+    return;
+  }
+  _ccemMarcarPendente({ sessaoId, n, previa });
+  if (aoUsarTexto) aoUsarTexto();
+  const r = await ccemGravarNota({ texto: texto || "", foto: previa, sessaoId, fala: n, silencioso: true });
+  _ccemMarcarPendente(null);
+  if ((!r || !r.ok) && aoFalhar) aoFalhar();
+}
 function ccemNotasDaAula(captures, sessaoId, n) {
   const aulas = ccemAulas(sessaoId);
   return (captures || []).filter((c) => c.sessaoId === sessaoId && (typeof n === "number" ? c.fala === n : !aulas.some((f) => f.n === c.fala))).sort((a, b) => a.ts - b.ts);
@@ -70,8 +121,7 @@ function AulaScreen({ sessaoId, fala }) {
   const f = n !== null ? ccemFalaDe(sessaoId, n) : null;
   const [texto, setTexto] = useState("");
   const [ocupado, setOcupado] = useState(null);
-  const [pendente, setPendente] = useState(null);
-  const fotoRef = useRef(null);
+  const pendente = useFotoPendente(sessaoId, n);
   const fimRef = useRef(null);
   const listaRef = useRef(null);
   const aoFim = () => requestAnimationFrame(() => {
@@ -91,23 +141,9 @@ function AulaScreen({ sessaoId, fala }) {
     setTexto("");
     await ccemGravarNota({ texto: t, sessaoId, fala: n, silencioso: true });
   }
-  async function foto(arquivo) {
-    if (!arquivo) return;
-    setPendente("lendo");
-    let previa;
-    try {
-      previa = (await ccemReduzirFoto(arquivo)).previa;
-    } catch (e) {
-      setPendente(null);
-      showToast("N\xE3o foi poss\xEDvel ler a foto. Tente de novo.");
-      return;
-    }
-    setPendente(previa);
+  function foto() {
     const t = texto.trim();
-    setTexto("");
-    const r = await ccemGravarNota({ texto: t, foto: previa, sessaoId, fala: n, silencioso: true });
-    setPendente(null);
-    if (!r || !r.ok) setTexto(t);
+    ccemFotografarNaAula({ sessaoId, n, texto: t, aoUsarTexto: () => setTexto(""), aoFalhar: () => setTexto(t) });
   }
   async function perguntar() {
     const q = texto.trim();
@@ -164,23 +200,10 @@ function AulaScreen({ sessaoId, fala }) {
       placeholder: f ? `Anote ou pergunte sobre a aula ${f.n}\u2026` : "Anote ou pergunte sobre esta sess\xE3o\u2026",
       style: { width: "100%", boxSizing: "border-box", minHeight: 48, maxHeight: 120, padding: "8px 12px", border: `1px solid ${C.linha}`, borderRadius: 12, fontFamily: "DM Sans,sans-serif", fontSize: 16, lineHeight: 1.4, color: C.tinta, background: "#f8fafd", resize: "none" }
     }
-  ), /* @__PURE__ */ React.createElement(
-    "input",
-    {
-      ref: fotoRef,
-      type: "file",
-      accept: "image/*",
-      style: { display: "none" },
-      onChange: (e) => {
-        const a = e.target.files && e.target.files[0];
-        e.target.value = "";
-        foto(a);
-      }
-    }
   ), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", gap: 6, marginTop: 6 } }, /* @__PURE__ */ React.createElement(
     "button",
     {
-      onClick: () => fotoRef.current && fotoRef.current.click(),
+      onClick: foto,
       "aria-label": "Fotografar um slide",
       style: { ...BTN, flex: "0 0 auto", background: "#fff", border: `1px solid ${C.linha}`, color: C.azul }
     },
@@ -205,4 +228,4 @@ function AulaScreen({ sessaoId, fala }) {
     "Perguntar \xE0 IA"
   ))));
 }
-Object.assign(window, { AulaScreen, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemFotografarNaAula, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });

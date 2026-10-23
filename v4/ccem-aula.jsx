@@ -24,6 +24,51 @@ function ccemSairDaAula(sessaoId) {
   else location.replace('#/sessao/' + sessaoId);   // aberta por link ou após recarregar
 }
 
+/* Foto na aula. O campo de arquivo e a foto em andamento ficam fora da
+   tela (no documento), não dentro do componente: se a tela for remontada
+   enquanto a câmera está aberta (o celular girado para fotografar o slide,
+   por exemplo), a foto não se perde e continua aparecendo como "Guardando…". */
+let _ccemFotoPendente = null;   // { sessaoId, n, previa: 'lendo' | dataURL }
+function _ccemMarcarPendente(p) { _ccemFotoPendente = p; window.dispatchEvent(new Event('ccem:foto-pendente')); }
+function useFotoPendente(sessaoId, n) {
+  const [, atualizar] = useState(0);
+  useEffect(() => {
+    const fn = () => atualizar(x => x + 1);
+    window.addEventListener('ccem:foto-pendente', fn);
+    return () => window.removeEventListener('ccem:foto-pendente', fn);
+  }, []);
+  const p = _ccemFotoPendente;
+  return p && p.sessaoId === sessaoId && p.n === n ? p.previa : null;
+}
+let _ccemEntradaFoto = null, _ccemAlvoFoto = null;
+function ccemFotografarNaAula(alvo) {
+  if (!_ccemEntradaFoto) {
+    const e = document.createElement('input');
+    e.type = 'file'; e.accept = 'image/*'; e.style.display = 'none';
+    e.setAttribute('data-ccem-foto-aula', '');
+    e.addEventListener('change', () => {
+      const arquivo = e.files && e.files[0], a = _ccemAlvoFoto;
+      e.value = ''; _ccemAlvoFoto = null;
+      if (arquivo && a) _ccemGuardarFotoDaAula(arquivo, a);
+    });
+    document.body.appendChild(e);
+    _ccemEntradaFoto = e;
+  }
+  _ccemAlvoFoto = alvo;
+  _ccemEntradaFoto.click();
+}
+async function _ccemGuardarFotoDaAula(arquivo, { sessaoId, n, texto, aoUsarTexto, aoFalhar }) {
+  _ccemMarcarPendente({ sessaoId, n, previa: 'lendo' });   // aparece na hora, antes de qualquer processamento
+  let previa;
+  try { previa = (await ccemReduzirFoto(arquivo)).previa; }
+  catch (e) { _ccemMarcarPendente(null); showToast('Não foi possível ler a foto. Tente de novo.'); return; }
+  _ccemMarcarPendente({ sessaoId, n, previa });
+  if (aoUsarTexto) aoUsarTexto();
+  const r = await ccemGravarNota({ texto: texto || '', foto: previa, sessaoId, fala: n, silencioso: true });
+  _ccemMarcarPendente(null);
+  if ((!r || !r.ok) && aoFalhar) aoFalhar();
+}
+
 /* Notas desta aula, em ordem. n null = sessão toda (notas sem aula). */
 function ccemNotasDaAula(captures, sessaoId, n) {
   const aulas = ccemAulas(sessaoId);
@@ -86,8 +131,7 @@ function AulaScreen({ sessaoId, fala }) {
   const f = n !== null ? ccemFalaDe(sessaoId, n) : null;
   const [texto, setTexto] = useState('');
   const [ocupado, setOcupado] = useState(null);   // texto do que está em andamento
-  const [pendente, setPendente] = useState(null); // foto ainda sendo preparada/guardada
-  const fotoRef = useRef(null);
+  const pendente = useFotoPendente(sessaoId, n);   // foto ainda sendo preparada/guardada
   const fimRef = useRef(null);
   const listaRef = useRef(null);
   // Rola até o fim (também depois que a imagem carrega e a altura muda).
@@ -106,17 +150,9 @@ function AulaScreen({ sessaoId, fala }) {
     setTexto('');
     await ccemGravarNota({ texto: t, sessaoId, fala: n, silencioso: true });
   }
-  async function foto(arquivo) {
-    if (!arquivo) return;
-    setPendente('lendo');                                  // aparece na hora, antes de qualquer processamento
-    let previa;
-    try { previa = (await ccemReduzirFoto(arquivo)).previa; }
-    catch (e) { setPendente(null); showToast('Não foi possível ler a foto. Tente de novo.'); return; }
-    setPendente(previa);
-    const t = texto.trim(); setTexto('');
-    const r = await ccemGravarNota({ texto: t, foto: previa, sessaoId, fala: n, silencioso: true });
-    setPendente(null);
-    if (!r || !r.ok) setTexto(t);
+  function foto() {
+    const t = texto.trim();
+    ccemFotografarNaAula({ sessaoId, n, texto: t, aoUsarTexto: () => setTexto(''), aoFalhar: () => setTexto(t) });
   }
   async function perguntar() {
     const q = texto.trim();
@@ -215,10 +251,8 @@ function AulaScreen({ sessaoId, fala }) {
         <textarea value={texto} onChange={e=>setTexto(e.target.value)} rows={2} aria-label="Anotação ou pergunta"
           placeholder={f ? `Anote ou pergunte sobre a aula ${f.n}…` : 'Anote ou pergunte sobre esta sessão…'}
           style={{width:'100%',boxSizing:'border-box',minHeight:48,maxHeight:120,padding:'8px 12px',border:`1px solid ${C.linha}`,borderRadius:12,fontFamily:'DM Sans,sans-serif',fontSize:16,lineHeight:1.4,color:C.tinta,background:'#f8fafd',resize:'none'}}/>
-        <input ref={fotoRef} type="file" accept="image/*" style={{display:'none'}}
-          onChange={e=>{ const a=e.target.files&&e.target.files[0]; e.target.value=''; foto(a); }}/>
         <div style={{display:'flex',gap:6,marginTop:6}}>
-          <button onClick={()=>fotoRef.current&&fotoRef.current.click()} aria-label="Fotografar um slide"
+          <button onClick={foto} aria-label="Fotografar um slide"
             style={{...BTN,flex:'0 0 auto',background:'#fff',border:`1px solid ${C.linha}`,color:C.azul}}><IcoCam size={18} color={C.azul}/>Foto</button>
           <button onClick={anotar} disabled={!texto.trim()}
             style={{...BTN,flex:1,background:'#fff',border:`1px solid ${C.azul}`,color:C.azul,opacity:texto.trim()?1:0.5}}>Anotar</button>
@@ -231,4 +265,4 @@ function AulaScreen({ sessaoId, fala }) {
   );
 }
 
-Object.assign(window, { AulaScreen, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemFotografarNaAula, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
