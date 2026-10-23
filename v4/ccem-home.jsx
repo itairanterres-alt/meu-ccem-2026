@@ -21,7 +21,7 @@ function HomeScreen() {
   ];
 
   return (
-    <div style={{height:'100%',overflowY:'auto',background:C.papel}}>
+    <div style={{height:'100%',overflowY:'auto',background:C.papel,paddingBottom:84,boxSizing:'border-box'}}>
 
       {/* ── Hero ─────────────────────────────────────────────── */}
       <div style={{background:'#fff',borderBottom:`1px solid ${C.linhaSoft}`,position:'relative',overflow:'hidden'}}>

@@ -303,7 +303,7 @@ function SessaoDetail({ id }) {
       </div>
 
       {/* Content — ordem: contexto → falas → ações → assistente → nav */}
-      <div style={{flex:1,overflowY:'auto',padding:'14px 14px 28px'}}>
+      <div style={{flex:1,overflowY:'auto',padding:'14px 14px 84px'}}>
 
         {/* Contexto — collapsível quando sessão já passou */}
         <div style={{background:'#fff',borderRadius:14,padding:'14px',border:`1px solid ${C.linhaSoft}`,marginBottom:10,boxShadow:'0 2px 10px rgba(29,62,138,.05)'}}>
@@ -971,7 +971,7 @@ function AreaComFab({ fab, reserva, children }) {
   );
 }
 
-function AppShell({ showShell, aba, fab, reservaFab, children }){
+function AppShell({ showShell, mostrarAbas, aba, fab, reservaFab, children }){
   const isDesktop = useIsDesktop();
   // Mesma árvore nos dois layouts: trocar de layout (girar o tablet) não remonta
   // a tela aberta, nem perde o que está em andamento (foto, texto digitado).
@@ -982,8 +982,9 @@ function AppShell({ showShell, aba, fab, reservaFab, children }){
       <div style={isDesktop ? {...coluna,alignItems:'center',background:'#e8eef8'} : coluna}>
         <div style={isDesktop ? {...coluna,width:'100%',maxWidth:800,background:C.papel} : {...coluna,width:'100%'}}>
           {!isDesktop && showShell && <AppHeader/>}
-          <AreaComFab fab={fab} reserva={reservaFab}>{children}</AreaComFab>
-          {!isDesktop && showShell && <TabBar aba={aba}/>}
+          {/* Com as abas embaixo, o botão do Assistente flutua sobre o conteúdo (como no Programa); a faixa reservada fica sem sentido. */}
+          <AreaComFab fab={fab} reserva={reservaFab && (isDesktop || !mostrarAbas)}>{children}</AreaComFab>
+          {!isDesktop && mostrarAbas && <TabBar aba={aba}/>}
         </div>
       </div>
     </div>
