@@ -58,6 +58,7 @@ function App() {
     <AvisoAtualizacao/>
     <HostEntrar/>
     <HostExportarPDF/>
+    <HostEscolherFoto/>
     <HostPerguntarSlide/>
     <LembretePDF/>
     {editor && <EditorNota notaId={editor.notaId} sessaoId={editor.sessaoId} fala={editor.fala} aoFechar={()=>setEditor(null)}/>}

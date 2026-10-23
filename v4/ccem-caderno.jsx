@@ -209,7 +209,6 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
   const [aula, setAula]     = useState(() => antiga ? (typeof antiga.fala === 'number' ? antiga.fala : null)
     : (ccemFalaDe(sessaoInicial, fala) ? fala : ccemUltimaAula(sessaoInicial)));
   const aulas = ccemAulas(sessao);
-  const fotoRef = useRef(null);
   const fotoVista = foto === undefined ? fotoSalva : foto;
 
   useEffect(() => {
@@ -278,18 +277,16 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
           <textarea id="ccem-nota-texto" value={texto} onChange={e=>setTexto(e.target.value)} rows={6}
             placeholder="O que você quer guardar desta sessão?"
             style={{width:'100%',boxSizing:'border-box',minHeight:140,padding:'10px 12px',border:`1px solid ${C.linha}`,borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:16,lineHeight:1.45,color:C.tinta,background:'#f8fafd',resize:'vertical'}}/>
-          <input ref={fotoRef} type="file" accept="image/*" style={{display:'none'}}
-            onChange={e=>{ const f=e.target.files&&e.target.files[0]; e.target.value=''; escolherFoto(f); }}/>
           {fotoVista ? (
             <div style={{marginTop:12}}>
               <img src={fotoVista} alt="Foto da nota" style={{display:'block',maxWidth:'100%',maxHeight:280,borderRadius:10,border:`1px solid ${C.linhaSoft}`}}/>
               <div style={{display:'flex',gap:8,marginTop:6}}>
-                <button onClick={()=>fotoRef.current&&fotoRef.current.click()} style={{...BTN,background:'#fff',border:`1px solid ${C.linha}`,color:C.azul,fontSize:13}}>Trocar foto</button>
+                <button onClick={()=>ccemPedirFoto(escolherFoto)} style={{...BTN,background:'#fff',border:`1px solid ${C.linha}`,color:C.azul,fontSize:13}}>Trocar foto</button>
                 <button onClick={()=>setFoto(null)} style={{...BTN,background:'#fff',border:`1px solid ${C.linha}`,color:C.cinza,fontSize:13}}>Remover foto</button>
               </div>
             </div>
           ) : (
-            <button onClick={()=>fotoRef.current&&fotoRef.current.click()}
+            <button onClick={()=>ccemPedirFoto(escolherFoto)}
               style={{...BTN,marginTop:12,width:'100%',display:'flex',alignItems:'center',justifyContent:'center',gap:8,background:'#fff',border:`1px dashed ${C.linha}`,color:C.azul}}>
               <IcoCam size={18} color={C.azul}/>Fotografar ou anexar slide
             </button>
