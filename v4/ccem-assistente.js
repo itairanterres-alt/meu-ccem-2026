@@ -74,11 +74,13 @@ async function ccemSalvarNoCaderno(m) {
   m.salvo = true;
   _mudouConversa();
   const sessaoId = SESSOES[m.sessaoId] ? m.sessaoId : "";
+  const fala = sessaoId && typeof ccemUltimaAula === "function" ? ccemUltimaAula(sessaoId) : null;
   const { ok, id } = await ccemGravarNota({
     texto: m.pergunta || "",
     foto: m.previa || void 0,
     sessaoId,
-    resumoIA: ccemRespostaEmTexto(m.resposta)
+    resumoIA: ccemRespostaEmTexto(m.resposta),
+    fala: fala || void 0
   });
   if (!ok) {
     m.salvo = false;

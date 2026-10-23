@@ -170,6 +170,19 @@ function RespostaSlide({ item, aoAprofundar, aoEncontrarArtigo, ocupado }) {
 }
 
 /* ── "Perguntar sobre este slide" ───────────────────────────── */
+/* Abre "Perguntar sobre este slide" de qualquer tela (ex.: logo depois de salvar a nota). */
+function ccemPerguntarSlide(notaId) { window.dispatchEvent(new CustomEvent('ccem:perguntar-slide', { detail: { notaId } })); }
+function HostPerguntarSlide() {
+  const [notaId, setNotaId] = useState(null);
+  useEffect(() => {
+    const abrir = e => setNotaId((e.detail || {}).notaId || null);
+    window.addEventListener('ccem:perguntar-slide', abrir);
+    return () => window.removeEventListener('ccem:perguntar-slide', abrir);
+  }, []);
+  if (!notaId || !ccemNotaAtual(notaId)) return null;
+  return <PainelSlide notaId={notaId} aoFechar={() => setNotaId(null)}/>;
+}
+
 function PainelSlide({ notaId, aoFechar }) {
   const appState = useAppState();
   const nota = (appState.captures || []).find(c => c.id === notaId);
@@ -346,5 +359,5 @@ function FolhaArtigo({ notaId, textoInicial, aoFechar }) {
 }
 
 Object.assign(window, {
-  CCEM_ATALHOS, ccemAcaoSlide, ccemOrganizarNota, ccemFalar, PainelSlide, FolhaArtigo, RespostaSlide, CartaoArtigo, FolhaBase,
+  CCEM_ATALHOS, ccemAcaoSlide, ccemOrganizarNota, ccemFalar, PainelSlide, ccemPerguntarSlide, HostPerguntarSlide, FolhaArtigo, RespostaSlide, CartaoArtigo, FolhaBase,
 });

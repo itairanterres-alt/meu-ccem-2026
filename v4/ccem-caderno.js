@@ -192,9 +192,13 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
       return;
     }
     setSalvando(true);
-    await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida, fala: aulas.length ? aula : null });
+    const { ok, id } = await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida, fala: aulas.length ? aula : null });
     setSalvando(false);
     aoFechar();
+    const salva = ok && (_ccemStore.state.captures || []).find((c) => c.id === id);
+    if (salva && salva.foto && typeof ccemPerguntarSlide === "function") {
+      showToast("Nota salva", { rotulo: "Perguntar \xE0 IA", aoTocar: () => ccemPerguntarSlide(id) });
+    }
   }
   async function excluir() {
     if (!confirm("Excluir esta nota? N\xE3o d\xE1 para desfazer.")) return;

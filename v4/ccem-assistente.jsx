@@ -95,8 +95,10 @@ async function ccemSalvarNoCaderno(m) {
   m.salvo = true;
   _mudouConversa();
   const sessaoId = SESSOES[m.sessaoId] ? m.sessaoId : '';
+  // Herda a última aula anotada nesta sessão (simpósios com várias aulas).
+  const fala = sessaoId && typeof ccemUltimaAula === 'function' ? ccemUltimaAula(sessaoId) : null;
   const { ok, id } = await ccemGravarNota({ texto: m.pergunta || '', foto: m.previa || undefined, sessaoId,
-                                            resumoIA: ccemRespostaEmTexto(m.resposta) });
+                                            resumoIA: ccemRespostaEmTexto(m.resposta), fala: fala || undefined });
   if (!ok) { m.salvo = false; _mudouConversa(); }
   return id;
 }

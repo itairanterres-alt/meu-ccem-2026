@@ -191,9 +191,14 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
   async function salvar() {
     if (!texto.trim() && !fotoVista) { showToast('Escreva algo ou anexe uma foto'); return; }
     setSalvando(true);
-    await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida, fala: aulas.length ? aula : null });
+    const { ok, id } = await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida, fala: aulas.length ? aula : null });
     setSalvando(false);
     aoFechar();
+    // Nota com foto: a IA fica a um toque, sem sair da aula.
+    const salva = ok && (_ccemStore.state.captures || []).find(c => c.id === id);
+    if (salva && salva.foto && typeof ccemPerguntarSlide === 'function') {
+      showToast('Nota salva', { rotulo: 'Perguntar à IA', aoTocar: () => ccemPerguntarSlide(id) });
+    }
   }
   async function excluir() {
     if (!confirm('Excluir esta nota? Não dá para desfazer.')) return;
