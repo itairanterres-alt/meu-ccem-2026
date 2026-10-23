@@ -49,7 +49,7 @@ function ccemFotografarNaAula(alvo) {
     e.addEventListener('change', () => {
       const arquivo = e.files && e.files[0], a = _ccemAlvoFoto;
       e.value = ''; _ccemAlvoFoto = null;
-      if (arquivo && a) _ccemGuardarFotoDaAula(arquivo, a);
+      if (arquivo && a) { if (a.aoEscolher) a.aoEscolher(); _ccemGuardarFotoDaAula(arquivo, a); }
     });
     document.body.appendChild(e);
     _ccemEntradaFoto = e;

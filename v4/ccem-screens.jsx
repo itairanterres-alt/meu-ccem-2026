@@ -256,6 +256,11 @@ function SessaoDetail({ id }) {
     // Conversa da aula: anotações, fotos e IA no mesmo lugar (sem internet, só a IA precisa).
     ccemAbrirAula(id, typeof ccemUltimaAula === 'function' ? ccemUltimaAula(id) : null);
   }
+  function handleFoto(){
+    // Abre a câmera já no toque; escolhida a foto, vai para a conversa da aula, onde ela aparece.
+    const n = typeof ccemUltimaAula === 'function' ? ccemUltimaAula(id) : null;
+    ccemFotografarNaAula({ sessaoId:id, n, aoEscolher:()=>ccemAbrirAula(id, n) });
+  }
 
   async function handleShare(){
     const texto = `${s.badge} — ${s.titulo}\n${s.dia} · ${s.inicio}–${s.fim} · Expoville, Joinville/SC\n\n#CCEM2026 #SBEMSC`;
@@ -374,6 +379,9 @@ function SessaoDetail({ id }) {
         <div style={{display:'flex',gap:8,marginBottom:8}}>
           <button onClick={handleAnotar} style={{flex:3,display:'flex',alignItems:'center',justifyContent:'center',gap:7,background:C.azul,color:'#fff',border:'none',borderRadius:10,padding:'13px',fontFamily:'DM Sans,sans-serif',fontSize:14,fontWeight:700,cursor:'pointer',letterSpacing:'-0.01em',boxShadow:'0 2px 8px rgba(29,62,138,.25)'}}>
             <IcoCapture size={17} color="#fff"/>Anotar
+          </button>
+          <button onClick={handleFoto} aria-label="Fotografar um slide desta sessão" style={{flex:2,display:'flex',alignItems:'center',justifyContent:'center',gap:7,background:'#fff',color:C.azul,border:`1px solid ${C.azul}`,borderRadius:10,padding:'13px 10px',fontFamily:'DM Sans,sans-serif',fontSize:14,fontWeight:700,cursor:'pointer'}}>
+            <IcoCam size={17} color={C.azul}/>Foto
           </button>
           <button onClick={toggleMark} style={{flexShrink:0,display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:3,background:isMarked?C.ouroBg:'#fff',color:isMarked?C.ouroTxt:C.cinza,border:`1px solid ${isMarked?C.ouroTxt:C.linha}`,borderRadius:10,padding:'10px 14px',fontFamily:'DM Sans,sans-serif',fontSize:12,fontWeight:isMarked?700:500,cursor:'pointer'}}>
             <IcoStar size={16} color={isMarked?C.ouroTxt:C.cinza} filled={isMarked}/>{isMarked?'Marcado':'Marcar'}
