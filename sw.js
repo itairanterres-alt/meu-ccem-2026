@@ -19,7 +19,7 @@
    Ao publicar uma atualização, incrementar CACHE_VERSION.
    ============================================================ */
 
-const CACHE_VERSION = 'ccem-v37';
+const CACHE_VERSION = 'ccem-v38';
 const CACHE_NAME    = CACHE_VERSION;
 
 // Sem estes, o app não funciona: entram juntos ou a versão não instala.
@@ -87,6 +87,7 @@ self.addEventListener('fetch', event => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.startsWith('/api/')) return;   // assistente: sempre na rede, nunca em cache
+  if (url.pathname.startsWith('/_vercel/')) return;   // Web Analytics: sempre na rede, nunca em cache
 
   event.respondWith(
     caches.open(CACHE_NAME).then(cache => {

@@ -241,6 +241,40 @@
   }
 </script>
 
+<!-- Vercel Web Analytics: quantas pessoas abrem o app e quais telas usam.
+     Sem cookies e sem identificar ninguém; servido do próprio domínio (nada de CDN).
+     O app navega pelo # (#/sessao/…), que o script não percebe sozinho:
+     cada tela é enviada como página (/sessao/simp1-dm2), sem # nem ?agora.
+     A mesma tela repetida em menos de 5 min conta uma vez (cota do plano). -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(Array.prototype.slice.call(arguments)); };
+  (function () {
+    var ultimas = {};
+    function tela() {
+      var p = (location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean);
+      var rota = !p.length ? '/'
+        : p[0] === 'sessao' ? '/sessao/[id]'
+        : p[0] === 'aula' ? (p[2] ? '/aula/[id]/[n]' : '/aula/[id]')
+        : p[0] === 'trabalhos' && p[1] ? '/trabalhos/[slot]'
+        : '/' + p[0];
+      return { route: rota, path: '/' + p.join('/') };
+    }
+    function contar() {
+      var t = tela(), agora = Date.now();
+      if (ultimas[t.path] && agora - ultimas[t.path] < 5 * 60 * 1000) return;
+      ultimas[t.path] = agora;
+      window.va('pageview', t);
+    }
+    window.va('beforeSend', function (ev) {
+      try { var u = new URL(ev.url); u.hash = ''; u.search = ''; ev.url = u.href; } catch (e) {}
+      return ev;
+    });
+    contar();
+    window.addEventListener('hashchange', contar);
+  })();
+</script>
+<script defer data-disable-auto-track="1" src="/_vercel/insights/script.js"></script>
+
 <template id="__bundler_thumbnail" data-bg-color="#1d3e8a">
   <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
     <rect width="1200" height="800" fill="#0a1232"/>

@@ -699,13 +699,16 @@ function InfoScreen() {
         <IC>
           <H3>Privacidade e dados</H3>
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
-            Suas notas, fotos e marcações ficam só neste aparelho, sem cadastro. Se você limpar o navegador ou trocar de aparelho, elas se perdem: use Exportar ou Backup, no Caderno. O app fica disponível até 31/12/2026.
+            Suas notas, fotos e marcações ficam só neste aparelho, sem cadastro. Se você limpar o navegador ou trocar de aparelho, elas se perdem: use Exportar PDF ou Backup, no Caderno. O app fica disponível até 31/12/2026.
           </p>
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
-            A IA só recebe algo quando você a usa. A pergunta, o texto ou a foto (Assistente, Perguntar sobre o slide, Resumir e Organizar com IA) vão para processamento pela Anthropic, nos EUA; o app não guarda cópia no servidor, e a Anthropic segue a própria política de retenção. Em "Encontrar o artigo", só o texto da referência vai ao PubMed e ao Unpaywall. Não envie dados nem imagens de pacientes. As respostas da IA podem conter erros.
+            A IA só recebe algo quando você a usa. A pergunta, o texto ou a foto (Assistente, atalhos e perguntas sobre a foto do slide, Resumir e Organizar com IA) vão para processamento pela Anthropic, nos EUA; o app não guarda cópia no servidor, e a Anthropic segue a própria política de retenção. Em "Encontrar o artigo", só o texto da referência vai ao PubMed e ao Unpaywall. Não envie dados nem imagens de pacientes. As respostas da IA podem conter erros.
           </p>
           <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
             A IA é exclusiva para inscritos: para usá-la, você entra com o e-mail da inscrição e recebe um código. O e-mail serve só para conferir a inscrição na lista da organização; o app não guarda essa lista.
+          </p>
+          <p style={{fontSize:12.5,color:C.tinta,lineHeight:1.55,margin:'0 0 10px',padding:'8px 10px',background:'#f5f8fd',borderRadius:7,borderLeft:`3px solid ${C.linha}`}}>
+            Para a organização saber quanto o app é usado, contamos as telas abertas (por exemplo, "Programa" ou uma sessão), de forma anônima, pelo Vercel Web Analytics: sem cookies, sem nome ou e-mail e sem o conteúdo das suas notas.
           </p>
           <SessaoInfo/>
           <p style={{fontSize:12.5,color:C.cinza,lineHeight:1.55,margin:'0 0 10px'}}>
