@@ -7,7 +7,7 @@
    - Texto e marcações: localStorage (via updateAppState).
    - Fotos: IndexedDB, só neste aparelho (localStorage é pequeno
      demais para imagens).
-   - Exportar / imprimir: para ler. Backup (.json): para restaurar
+   - Exportar PDF (ccem-pdf.jsx): para ler. Backup (.json): para restaurar
      em outro aparelho ou depois do congresso.
    ============================================================ */
 
@@ -321,54 +321,10 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
   );
 }
 
-/* ── Exportar / imprimir ─────────────────────────────────────────
-   Abre uma página para leitura e impressão ("Salvar como PDF").
-   A janela abre já no toque (senão o navegador bloqueia) e o
-   conteúdo entra depois de ler as fotos. */
-async function ccemExportarCaderno(captures) {
-  const lista = [...(captures||[])].sort((a,b)=>a.ts-b.ts);
-  if (!lista.length) { showToast('O caderno está vazio'); return; }
-  const w = window.open('', '_blank');
-  if (!w) { showToast('Permita pop-ups para exportar o caderno'); return; }
-  w.document.write('<p style="font-family:system-ui,sans-serif;padding:24px">Preparando o caderno…</p>');
-  const fotos = {};
-  for (const c of lista) {
-    if (!c.foto) continue;
-    try { const d = await ccemFotoLer(c.foto); if (d && CCEM_FOTO_VALIDA.test(d)) fotos[c.id] = d; } catch (e) {}
-  }
-  const esc = t => String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  const hoje = ccemDataHoraJoinville(Date.now()).data;
-  const rows = lista.map(c => {
-    const { data, hora } = ccemDataHoraJoinville(c.ts);
-    const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : (c.sessaoRef||'');
-    const aula = ccemRotuloAula(c.sessaoId, c.fala);
-    return `<div class="nota"><div class="meta">${esc(data)} · ${esc(hora)} · ${esc(sess)}${aula ? ' · ' + esc(aula) : ''}</div>`
-         + `<h3>${esc(c.title)}</h3>`
-         + ((c.duvida || ccemPatrocinio(c.sessaoId)) ? `<div class="meta">${[c.duvida ? 'Dúvida' : '', ccemPatrocinio(c.sessaoId)].filter(Boolean).map(esc).join(' · ')}</div>` : '')
-         + (fotos[c.id] ? `<img src="${fotos[c.id]}" alt="">` : '')
-         + (c.body ? `<div class="body">${esc(ccemNotaEmTexto(c.body))}</div>` : '')
-         + (c.resumoIA ? `<div class="ia"><b>Resumo da IA</b>\n${esc(c.resumoIA)}\n<i>Gerado por IA — confira na fonte</i></div>` : '')
-         + (c.artigo ? `<div class="meta">Artigo: ${esc(c.artigo.autores.slice(0,3).join(', '))}${c.artigo.autores.length>3?' et al.':''}. ${esc(c.artigo.titulo)}. ${esc(c.artigo.revista)} ${esc(c.artigo.ano)}. PMID ${esc(c.artigo.pmid)}${c.artigo.doi?' · doi:'+esc(c.artigo.doi):''}</div>` : '')
-         + (c.respostas || []).map(x => `<div class="ia"><b>${esc(x.rotulo)}</b>\n${esc(ccemRespostaSlideEmTexto(x.r))}\n<i>${esc(x.fonte || '')} Gerado por IA — confira na fonte</i></div>`).join('')
-         + `</div>`;
-  }).join('');
-  w.document.open();
-  w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu Caderno · CCEM 2026</title><style>
-    body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
-    h1{font-size:22px;margin:0 0 2px}
-    .sub{font-size:12px;color:#4a5468;margin:0 0 24px;font-family:system-ui,sans-serif}
-    .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
-    .meta{font-size:12px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
-    h3{font-size:14px;margin:0 0 6px}
-    img{display:block;max-width:100%;max-height:420px;margin:6px 0 8px;border:1px solid #d5dff0}
-    .body{font-size:13px;line-height:1.55;white-space:pre-wrap}
-    .ia{font-size:12.5px;line-height:1.5;white-space:pre-wrap;margin-top:8px;padding:8px 10px;background:#f3f6fc;border-left:3px solid #2d54c0}
-  </style></head><body><h1>Meu Caderno · CCEM 2026</h1><p class="sub">${lista.length} nota${lista.length!==1?'s':''} · exportado em ${hoje} · 12º Congresso Catarinense de Endocrinologia e Metabologia</p>${rows}<script>window.onload=function(){window.print()}<\/script></body></html>`);
-  w.document.close();
-}
-
 /* ── Backup restaurável ──────────────────────────────────────── */
-async function ccemBaixarBackup() {
+/* Monta o arquivo de backup (notas, fotos e marcações). A entrega fica para o
+   toque em "Baixar backup", com o arquivo já pronto (ccemEntregarArquivo). */
+async function ccemPrepararBackup() {
   const st = _ccemStore.state;
   const fotos = {};
   for (const c of st.captures || []) {
@@ -378,17 +334,7 @@ async function ccemBaixarBackup() {
   const dados = { app:'meu-ccem-2026', formato:1, criadoEm:new Date().toISOString(),
                   marks: st.marks || {}, captures: st.captures || [], fotos };
   const nome = 'meu-ccem-backup-' + ccemDataHoraJoinville(Date.now()).data.split('/').reverse().join('-') + '.json';
-  const arquivo = new File([JSON.stringify(dados)], nome, { type:'application/json' });
-  if (navigator.canShare && navigator.canShare({ files:[arquivo] })) {
-    try { await navigator.share({ files:[arquivo], title:'Backup do Meu CCEM' }); return; }
-    catch (e) { if (e && e.name === 'AbortError') return; }      // senão, cai no download
-  }
-  const url = URL.createObjectURL(arquivo);
-  const a = document.createElement('a');
-  a.href = url; a.download = nome;
-  document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 10000);
-  showToast('Backup baixado');
+  return new File([JSON.stringify(dados)], nome, { type:'application/json' });
 }
 
 /* Saneamento dos campos vindos de um arquivo de backup (pode ter sido editado à mão). */
@@ -454,6 +400,11 @@ async function ccemRestaurarBackup(arquivo) {
 
 function FolhaBackup({ aoFechar }) {
   const entradaRef = useRef(null);
+  const [arquivo, setArquivo] = useState(null);
+  useEffect(() => { let vivo = true; ccemPrepararBackup().then(a => { if (vivo) setArquivo(a); }); return () => { vivo = false; }; }, []);
+  async function baixar() {
+    if ((await ccemEntregarArquivo(arquivo, 'Backup do Meu CCEM')) === 'baixado') showToast('Backup baixado');
+  }
   const BTN = { width:'100%', minHeight:48, borderRadius:10, fontFamily:'DM Sans,sans-serif', fontSize:14, fontWeight:600, cursor:'pointer', marginBottom:8 };
   return (
     <div className="ccem-painel" onClick={aoFechar}
@@ -466,9 +417,9 @@ function FolhaBackup({ aoFechar }) {
         </div>
         <p style={{fontSize:13,color:C.cinza,lineHeight:1.5,margin:'0 0 14px'}}>
           O backup guarda notas, fotos e marcações num arquivo. Use para trocar de aparelho ou guardar depois do congresso.
-          O "Exportar / imprimir" é para ler; o backup é para restaurar.
+          O PDF é para ler; o backup é para restaurar.
         </p>
-        <button onClick={()=>ccemBaixarBackup()} style={{...BTN,background:C.azul,color:'#fff',border:'none'}}>Baixar backup</button>
+        <button onClick={baixar} disabled={!arquivo} style={{...BTN,background:C.azul,color:'#fff',border:'none',opacity:arquivo?1:0.6}}>{arquivo ? 'Baixar backup' : 'Preparando o backup…'}</button>
         <input ref={entradaRef} type="file" accept="application/json,.json" style={{display:'none'}}
           onChange={async e=>{ const f=e.target.files&&e.target.files[0]; e.target.value=''; if(f){ await ccemRestaurarBackup(f); aoFechar(); } }}/>
         <button onClick={()=>entradaRef.current&&entradaRef.current.click()} style={{...BTN,background:'#fff',color:C.azul,border:`1px solid ${C.linha}`}}>Restaurar de um arquivo</button>
@@ -712,7 +663,7 @@ function CadernoScreen() {
         <p style={{flex:1,fontSize:12,color:C.cinza,lineHeight:1.35,margin:0}}><strong>{_ccemSalvamento.ok?'Salvo neste aparelho':'Não salvo'}</strong> · {captures.length} nota{captures.length!==1?'s':''}</p>
         <button onClick={()=>setBackup(true)} style={{minHeight:44,background:'#fff',color:C.azul,border:`1px solid ${C.linha}`,borderRadius:8,padding:'0 12px',fontSize:12.5,fontWeight:600,cursor:'pointer',fontFamily:'inherit'}}>Backup</button>
         <button onClick={()=>ccemExportarCaderno(captures)} disabled={!captures.length}
-          style={{minHeight:44,background:C.azul,color:'#fff',border:'none',borderRadius:8,padding:'0 12px',fontSize:12.5,fontWeight:600,cursor:'pointer',fontFamily:'inherit',opacity:captures.length?1:0.5}}>Exportar / imprimir</button>
+          style={{minHeight:44,background:C.azul,color:'#fff',border:'none',borderRadius:8,padding:'0 12px',fontSize:12.5,fontWeight:600,cursor:'pointer',fontFamily:'inherit',opacity:captures.length?1:0.5}}>Exportar PDF</button>
       </div>
       {backup&&<FolhaBackup aoFechar={()=>setBackup(false)}/>}
     </div>
@@ -721,6 +672,6 @@ function CadernoScreen() {
 
 Object.assign(window, {
   ccemPatrocinio, ccemAulas, ccemRotuloAula, ccemArtigoSeguro, ccemRespostaSegura,
-  ccemDataHoraJoinville, ccemNotaEmTexto, ccemExportarCaderno, ccemAbrirEditor, ccemGravarNota,
-  ccemFotoSalvar, ccemFotoLer, ccemLimparTudo, ccemBaixarBackup, ccemRestaurarBackup, EditorNota, CadernoScreen, AvisoSemArmazenamento, NotaCartao, NotasDaSessao,
+  ccemDataHoraJoinville, ccemNotaEmTexto, ccemAbrirEditor, ccemGravarNota,
+  ccemFotoSalvar, ccemFotoLer, ccemLimparTudo, ccemPrepararBackup, ccemRestaurarBackup, EditorNota, CadernoScreen, AvisoSemArmazenamento, NotaCartao, NotasDaSessao,
 });
