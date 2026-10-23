@@ -57,7 +57,7 @@ function App() {
     <AvisoAtualizacao/>
     <HostEntrar/>
     <LembretePDF/>
-    {editor && <EditorNota notaId={editor.notaId} sessaoId={editor.sessaoId} aoFechar={()=>setEditor(null)}/>}
+    {editor && <EditorNota notaId={editor.notaId} sessaoId={editor.sessaoId} fala={editor.fala} aoFechar={()=>setEditor(null)}/>}
     {painel && <PainelAssistente sessaoId={route.tela==='sessao'?route.id:null} tela={route.tela==='sessao'?'sessao':route.tela} aoFechar={()=>setPainel(false)}/>}
     <AppShell showShell={showShell} aba={route.tela} fab={fab} reservaFab={reserva}>
       {route.tela === 'sessao'     && <SessaoDetail key={route.id} id={route.id}/>}

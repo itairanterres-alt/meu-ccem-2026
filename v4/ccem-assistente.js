@@ -144,7 +144,6 @@ function DicaInstalar() {
 function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
   const conversa = useConversa();
   const [texto, setTexto] = useState("");
-  const fotoRef = useRef(null);
   const fimRef = useRef(null);
   const sessao = SESSOES[sessaoId] || null;
   const sugestoes = CCEM_SUGESTOES[tela] || CCEM_SUGESTOES.home;
@@ -158,9 +157,13 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
     if (t === void 0) setTexto("");
     ccemEnviarAoAssistente({ texto: v, sessaoId });
   }
+  function anotarSlide() {
+    if (aoNavegar) aoNavegar();
+    ccemAbrirEditor({ sessaoId: sessaoId || void 0 });
+  }
   function usarSugestao(s) {
     if (s.foto) {
-      fotoRef.current && fotoRef.current.click();
+      anotarSlide();
       return;
     }
     enviar(s.rotulo);
@@ -176,26 +179,10 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
     s.foto && /* @__PURE__ */ React.createElement(IcoCam, { size: 15, color: C.azul }),
     s.rotulo
   ))), /* @__PURE__ */ React.createElement("div", { ref: fimRef })), /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, background: "#fff", borderTop: `1px solid ${C.linhaSoft}`, padding: "6px 10px 10px" } }, /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza, lineHeight: 1.4, margin: "0 2px 6px" } }, CCEM_PRIVACIDADE), /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 7 } }, /* @__PURE__ */ React.createElement(
-    "input",
-    {
-      type: "file",
-      accept: "image/*",
-      capture: "environment",
-      ref: fotoRef,
-      style: { display: "none" },
-      onChange: (e) => {
-        const f = e.target.files && e.target.files[0];
-        e.target.value = "";
-        if (!f) return;
-        ccemEnviarAoAssistente({ arquivo: f, texto, sessaoId });
-        setTexto("");
-      }
-    }
-  ), /* @__PURE__ */ React.createElement(
     "button",
     {
-      onClick: () => fotoRef.current && fotoRef.current.click(),
-      "aria-label": "Fotografar um slide",
+      onClick: anotarSlide,
+      "aria-label": "Anotar um slide no Caderno",
       disabled: conversa.carregando,
       style: { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${C.linha}`, background: "#f8fafd", borderRadius: 12, cursor: "pointer", flexShrink: 0, padding: 0 }
     },
@@ -437,7 +424,7 @@ function BalaoAssistente({ aoExperimentar, aoFechar }) {
     },
     /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 8, marginBottom: 8 } }, /* @__PURE__ */ React.createElement("img", { src: CCEM_AVATAR, alt: "", width: "32", height: "32", style: { width: 32, height: 32, borderRadius: "50%" } }), /* @__PURE__ */ React.createElement("div", { style: { flex: 1 } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6 } }, /* @__PURE__ */ React.createElement("span", { style: { fontSize: 14, fontWeight: 700, color: C.tinta } }, "Assistente CCEM")), /* @__PURE__ */ React.createElement("div", { style: { fontFamily: "DM Sans,system-ui,sans-serif", fontSize: 12, color: C.cinza } }, "IA \xB7 respostas podem conter erros"))),
     /* @__PURE__ */ React.createElement("div", { style: { fontSize: 13, fontWeight: 600, color: C.tinta, marginBottom: 6 } }, "Posso ajudar durante o congresso:"),
-    /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoCam, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Anotar um slide pela foto: mensagem-chave e pontos principais")),
+    /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoCam, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Fotografar slides no Caderno e perguntar sobre eles: explica\xE7\xE3o, siglas, artigo citado")),
     /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoSearch, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Encontrar sess\xF5es, temas e palestrantes")),
     /* @__PURE__ */ React.createElement("div", { style: ITEM }, /* @__PURE__ */ React.createElement(IcoChat, { size: 16, color: C.azul }), /* @__PURE__ */ React.createElement("span", null, "Responder d\xFAvidas pr\xE1ticas: certificado, secretaria, local")),
     podeInstalar && /* @__PURE__ */ React.createElement(
