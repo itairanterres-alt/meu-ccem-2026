@@ -376,54 +376,7 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
     )
   );
 }
-async function ccemExportarCaderno(captures) {
-  const lista = [...captures || []].sort((a, b) => a.ts - b.ts);
-  if (!lista.length) {
-    showToast("O caderno est\xE1 vazio");
-    return;
-  }
-  const w = window.open("", "_blank");
-  if (!w) {
-    showToast("Permita pop-ups para exportar o caderno");
-    return;
-  }
-  w.document.write('<p style="font-family:system-ui,sans-serif;padding:24px">Preparando o caderno\u2026</p>');
-  const fotos = {};
-  for (const c of lista) {
-    if (!c.foto) continue;
-    try {
-      const d = await ccemFotoLer(c.foto);
-      if (d && CCEM_FOTO_VALIDA.test(d)) fotos[c.id] = d;
-    } catch (e) {
-    }
-  }
-  const esc = (t) => String(t || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-  const hoje = ccemDataHoraJoinville(Date.now()).data;
-  const rows = lista.map((c) => {
-    const { data, hora } = ccemDataHoraJoinville(c.ts);
-    const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : c.sessaoRef || "";
-    const aula = ccemRotuloAula(c.sessaoId, c.fala);
-    return `<div class="nota"><div class="meta">${esc(data)} \xB7 ${esc(hora)} \xB7 ${esc(sess)}${aula ? " \xB7 " + esc(aula) : ""}</div><h3>${esc(c.title)}</h3>` + (c.duvida || ccemPatrocinio(c.sessaoId) ? `<div class="meta">${[c.duvida ? "D\xFAvida" : "", ccemPatrocinio(c.sessaoId)].filter(Boolean).map(esc).join(" \xB7 ")}</div>` : "") + (fotos[c.id] ? `<img src="${fotos[c.id]}" alt="">` : "") + (c.body ? `<div class="body">${esc(ccemNotaEmTexto(c.body))}</div>` : "") + (c.resumoIA ? `<div class="ia"><b>Resumo da IA</b>
-${esc(c.resumoIA)}
-<i>Gerado por IA \u2014 confira na fonte</i></div>` : "") + (c.artigo ? `<div class="meta">Artigo: ${esc(c.artigo.autores.slice(0, 3).join(", "))}${c.artigo.autores.length > 3 ? " et al." : ""}. ${esc(c.artigo.titulo)}. ${esc(c.artigo.revista)} ${esc(c.artigo.ano)}. PMID ${esc(c.artigo.pmid)}${c.artigo.doi ? " \xB7 doi:" + esc(c.artigo.doi) : ""}</div>` : "") + (c.respostas || []).map((x) => `<div class="ia"><b>${esc(x.rotulo)}</b>
-${esc(ccemRespostaSlideEmTexto(x.r))}
-<i>${esc(x.fonte || "")} Gerado por IA \u2014 confira na fonte</i></div>`).join("") + `</div>`;
-  }).join("");
-  w.document.open();
-  w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meu Caderno \xB7 CCEM 2026</title><style>
-    body{font-family:Georgia,serif;color:#1a2438;max-width:680px;margin:32px auto;padding:0 24px}
-    h1{font-size:22px;margin:0 0 2px}
-    .sub{font-size:12px;color:#4a5468;margin:0 0 24px;font-family:system-ui,sans-serif}
-    .nota{border-top:1px solid #d5dff0;padding:14px 0;page-break-inside:avoid}
-    .meta{font-size:12px;color:#4a5468;font-family:system-ui,sans-serif;margin-bottom:4px}
-    h3{font-size:14px;margin:0 0 6px}
-    img{display:block;max-width:100%;max-height:420px;margin:6px 0 8px;border:1px solid #d5dff0}
-    .body{font-size:13px;line-height:1.55;white-space:pre-wrap}
-    .ia{font-size:12.5px;line-height:1.5;white-space:pre-wrap;margin-top:8px;padding:8px 10px;background:#f3f6fc;border-left:3px solid #2d54c0}
-  </style></head><body><h1>Meu Caderno \xB7 CCEM 2026</h1><p class="sub">${lista.length} nota${lista.length !== 1 ? "s" : ""} \xB7 exportado em ${hoje} \xB7 12\xBA Congresso Catarinense de Endocrinologia e Metabologia</p>${rows}<script>window.onload=function(){window.print()}<\/script></body></html>`);
-  w.document.close();
-}
-async function ccemBaixarBackup() {
+async function ccemPrepararBackup() {
   const st = _ccemStore.state;
   const fotos = {};
   for (const c of st.captures || []) {
@@ -443,24 +396,7 @@ async function ccemBaixarBackup() {
     fotos
   };
   const nome = "meu-ccem-backup-" + ccemDataHoraJoinville(Date.now()).data.split("/").reverse().join("-") + ".json";
-  const arquivo = new File([JSON.stringify(dados)], nome, { type: "application/json" });
-  if (navigator.canShare && navigator.canShare({ files: [arquivo] })) {
-    try {
-      await navigator.share({ files: [arquivo], title: "Backup do Meu CCEM" });
-      return;
-    } catch (e) {
-      if (e && e.name === "AbortError") return;
-    }
-  }
-  const url = URL.createObjectURL(arquivo);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = nome;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1e4);
-  showToast("Backup baixado");
+  return new File([JSON.stringify(dados)], nome, { type: "application/json" });
 }
 const ccemLinkSeguro = (u) => typeof u === "string" && /^https:\/\/[^\s"'<>]{4,500}$/.test(u) ? u : "";
 function ccemArtigoSeguro(a) {
@@ -571,6 +507,19 @@ async function ccemRestaurarBackup(arquivo) {
 }
 function FolhaBackup({ aoFechar }) {
   const entradaRef = useRef(null);
+  const [arquivo, setArquivo] = useState(null);
+  useEffect(() => {
+    let vivo = true;
+    ccemPrepararBackup().then((a) => {
+      if (vivo) setArquivo(a);
+    });
+    return () => {
+      vivo = false;
+    };
+  }, []);
+  async function baixar() {
+    if (await ccemEntregarArquivo(arquivo, "Backup do Meu CCEM") === "baixado") showToast("Backup baixado");
+  }
   const BTN = { width: "100%", minHeight: 48, borderRadius: 10, fontFamily: "DM Sans,sans-serif", fontSize: 14, fontWeight: 600, cursor: "pointer", marginBottom: 8 };
   return /* @__PURE__ */ React.createElement(
     "div",
@@ -589,8 +538,8 @@ function FolhaBackup({ aoFechar }) {
         style: { width: "100%", maxWidth: 560, margin: "0 auto", background: "#fff", borderRadius: "18px 18px 0 0", padding: "16px 16px calc(16px + env(safe-area-inset-bottom))" }
       },
       /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", marginBottom: 6 } }, /* @__PURE__ */ React.createElement("h2", { style: { flex: 1, margin: 0, fontFamily: "Georgia,serif", fontSize: 17, color: C.tinta } }, "Backup do caderno"), /* @__PURE__ */ React.createElement("button", { onClick: aoFechar, "aria-label": "Fechar", style: { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", background: "none", border: "none", cursor: "pointer", color: C.cinza, padding: 0 } }, /* @__PURE__ */ React.createElement(IcoX, { size: 20 }))),
-      /* @__PURE__ */ React.createElement("p", { style: { fontSize: 13, color: C.cinza, lineHeight: 1.5, margin: "0 0 14px" } }, 'O backup guarda notas, fotos e marca\xE7\xF5es num arquivo. Use para trocar de aparelho ou guardar depois do congresso. O "Exportar / imprimir" \xE9 para ler; o backup \xE9 para restaurar.'),
-      /* @__PURE__ */ React.createElement("button", { onClick: () => ccemBaixarBackup(), style: { ...BTN, background: C.azul, color: "#fff", border: "none" } }, "Baixar backup"),
+      /* @__PURE__ */ React.createElement("p", { style: { fontSize: 13, color: C.cinza, lineHeight: 1.5, margin: "0 0 14px" } }, "O backup guarda notas, fotos e marca\xE7\xF5es num arquivo. Use para trocar de aparelho ou guardar depois do congresso. O PDF \xE9 para ler; o backup \xE9 para restaurar."),
+      /* @__PURE__ */ React.createElement("button", { onClick: baixar, disabled: !arquivo, style: { ...BTN, background: C.azul, color: "#fff", border: "none", opacity: arquivo ? 1 : 0.6 } }, arquivo ? "Baixar backup" : "Preparando o backup\u2026"),
       /* @__PURE__ */ React.createElement(
         "input",
         {
@@ -781,7 +730,7 @@ function CadernoScreen() {
       disabled: !captures.length,
       style: { minHeight: 44, background: C.azul, color: "#fff", border: "none", borderRadius: 8, padding: "0 12px", fontSize: 12.5, fontWeight: 600, cursor: "pointer", fontFamily: "inherit", opacity: captures.length ? 1 : 0.5 }
     },
-    "Exportar / imprimir"
+    "Exportar PDF"
   )), backup && /* @__PURE__ */ React.createElement(FolhaBackup, { aoFechar: () => setBackup(false) }));
 }
 Object.assign(window, {
@@ -792,13 +741,12 @@ Object.assign(window, {
   ccemRespostaSegura,
   ccemDataHoraJoinville,
   ccemNotaEmTexto,
-  ccemExportarCaderno,
   ccemAbrirEditor,
   ccemGravarNota,
   ccemFotoSalvar,
   ccemFotoLer,
   ccemLimparTudo,
-  ccemBaixarBackup,
+  ccemPrepararBackup,
   ccemRestaurarBackup,
   EditorNota,
   CadernoScreen,
