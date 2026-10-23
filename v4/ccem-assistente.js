@@ -161,7 +161,8 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
   }
   function anotarSlide() {
     if (aoNavegar) aoNavegar();
-    ccemAbrirEditor({ sessaoId: sessaoId || void 0 });
+    if (sessaoId && SESSOES[sessaoId]) ccemAbrirAula(sessaoId, ccemUltimaAula(sessaoId));
+    else ccemAbrirEditor({});
   }
   function usarSugestao(s) {
     if (s.foto) {
@@ -184,7 +185,7 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
     "button",
     {
       onClick: anotarSlide,
-      "aria-label": "Anotar um slide no Caderno",
+      "aria-label": sessaoId && SESSOES[sessaoId] ? "Anotar um slide na conversa da aula" : "Anotar um slide no Caderno",
       disabled: conversa.carregando,
       style: { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", border: `1px solid ${C.linha}`, background: "#f8fafd", borderRadius: 12, cursor: "pointer", flexShrink: 0, padding: 0 }
     },

@@ -474,6 +474,9 @@ function NotaCartao({ c }) {
   const patrocinio = ccemPatrocinio(c.sessaoId);
   const nResp = (c.respostas || []).length;
   const temConteudo = !!(c.body || c.foto);
+  // Nota de uma sessão: a IA sobre a foto continua na conversa da aula, não numa janela à parte.
+  const naAula = !!(c.sessaoId && SESSOES[c.sessaoId]);
+  const abrirIA = () => { if (!ccemAbrirNaConversa(c)) setPainel(true); };
   const cor = c.type === 'foto' ? C.azul : C.ouroTxt;
   async function resumir() { setResumindo(true); await ccemResumirNota(c.id); setResumindo(false); }
   const ACAO = { minHeight:44, display:'flex', alignItems:'center', gap:5, background:'none', border:'none', padding:'0 6px', cursor:'pointer', fontFamily:'DM Sans,sans-serif', fontSize:12.5, fontWeight:600, color:C.azul };
@@ -491,7 +494,7 @@ function NotaCartao({ c }) {
         </div>
       )}
       <div style={{fontSize:13,fontWeight:600,color:C.tinta,marginBottom:4,lineHeight:1.3}}>{c.title}</div>
-      {foto&&<img src={foto} alt="Foto da nota" onClick={()=>ccemAbrirEditor({ notaId:c.id })} style={{display:'block',maxWidth:'100%',maxHeight:180,borderRadius:8,margin:'4px 0 6px',cursor:'pointer'}}/>}
+      {foto&&<img src={foto} alt="Foto da nota" onClick={()=>{ if (!ccemAbrirNaConversa(c)) ccemAbrirEditor({ notaId:c.id }); }} style={{display:'block',maxWidth:'100%',maxHeight:180,borderRadius:8,margin:'4px 0 6px',cursor:'pointer'}}/>}
       {c.body&&<div style={{fontSize:13,color:C.tinta,lineHeight:1.5,whiteSpace:'pre-wrap'}}>{ccemNotaEmTexto(c.body)}</div>}
       {c.resumoIA&&(
         <div style={{marginTop:8,padding:'8px 10px',background:'#f3f6fc',borderLeft:`3px solid ${C.azulSoft}`,borderRadius:6}}>
@@ -507,14 +510,14 @@ function NotaCartao({ c }) {
         </a>
       )}
       {nResp>0&&(
-        <button onClick={()=>setPainel(true)} style={{display:'block',marginTop:8,minHeight:44,width:'100%',textAlign:'left',padding:'0 10px',background:'#eef3fb',border:'none',borderRadius:6,fontFamily:'DM Sans,sans-serif',fontSize:12.5,color:C.azul,cursor:'pointer'}}>
+        <button onClick={abrirIA} style={{display:'block',marginTop:8,minHeight:44,width:'100%',textAlign:'left',padding:'0 10px',background:'#eef3fb',border:'none',borderRadius:6,fontFamily:'DM Sans,sans-serif',fontSize:12.5,color:C.azul,cursor:'pointer'}}>
           {nResp} resposta{nResp!==1?'s':''} da IA sobre este slide · abrir
         </button>
       )}
       {(c.tags||[]).length>0&&<div style={{display:'flex',gap:4,marginTop:6,flexWrap:'wrap'}}>{c.tags.map(t=><span key={t} style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.azulSoft,background:C.azulBg+'60',padding:'2px 7px',borderRadius:8}}>{t}</span>)}</div>}
       <div style={{display:'flex',gap:2,marginTop:2,flexWrap:'wrap'}}>
         <button onClick={()=>ccemAbrirEditor({ notaId:c.id })} style={ACAO}>Editar</button>
-        {c.foto&&<button onClick={()=>setPainel(true)} style={ACAO}><img src={CCEM_AVATAR} alt="" width="18" height="18" style={{borderRadius:'50%'}}/>Perguntar sobre o slide</button>}
+        {c.foto&&<button onClick={abrirIA} style={ACAO}><img src={CCEM_AVATAR} alt="" width="18" height="18" style={{borderRadius:'50%'}}/>{naAula?'Abrir na conversa':'Perguntar sobre o slide'}</button>}
         {c.foto&&<button onClick={()=>setArtigo(true)} style={ACAO}>{c.artigo?'Artigo vinculado':'Encontrar o artigo'}</button>}
         {temConteudo&&!c.resumoIA&&!c.foto&&(
           <button onClick={resumir} disabled={resumindo} style={{...ACAO,opacity:resumindo?0.6:1}}>

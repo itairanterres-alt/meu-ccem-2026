@@ -78,6 +78,13 @@ async function _ccemGuardarFotoDaAula(arquivo, { sessaoId, n, texto, aoUsarTexto
   _ccemMarcarPendente(null);
   if ((!r || !r.ok) && aoFalhar) aoFalhar();
 }
+let _ccemAulaFoco = null;
+function ccemAbrirNaConversa(c) {
+  if (!c || !c.sessaoId || !SESSOES[c.sessaoId]) return false;
+  _ccemAulaFoco = c.id;
+  ccemAbrirAula(c.sessaoId, ccemAulas(c.sessaoId).some((f) => f.n === c.fala) ? c.fala : null);
+  return true;
+}
 function ccemNotasDaAula(captures, sessaoId, n) {
   const aulas = ccemAulas(sessaoId);
   return (captures || []).filter((c) => c.sessaoId === sessaoId && (typeof n === "number" ? c.fala === n : !aulas.some((f) => f.n === c.fala))).sort((a, b) => a.ts - b.ts);
@@ -127,9 +134,24 @@ function AulaScreen({ sessaoId, fala }) {
   const pendente = useFotoPendente(sessaoId, n);
   const fimRef = useRef(null);
   const listaRef = useRef(null);
+  const alvoRef = useRef(null);
+  const [destaque, setDestaque] = useState(() => {
+    const f2 = _ccemAulaFoco;
+    _ccemAulaFoco = null;
+    if (f2) alvoRef.current = { id: f2, bloco: "start" };
+    return f2;
+  });
+  useEffect(() => {
+    if (!destaque) return;
+    const t = setTimeout(() => setDestaque(null), 2500);
+    return () => clearTimeout(t);
+  }, [destaque]);
   const aoFim = () => requestAnimationFrame(() => {
     const el = listaRef.current;
-    if (el) el.scrollTop = el.scrollHeight;
+    if (!el) return;
+    const a = alvoRef.current, item = a && el.querySelector('[data-nota="' + a.id + '"]');
+    if (item) item.scrollIntoView({ block: a.bloco });
+    else el.scrollTop = el.scrollHeight;
   });
   const notas = s ? ccemNotasDaAula(appState.captures, sessaoId, n) : [];
   useEffect(() => {
@@ -140,12 +162,14 @@ function AulaScreen({ sessaoId, fala }) {
   const sub = f ? f.palestrante : `${s.badge} \xB7 ${s.inicio}\u2013${s.fim}`;
   async function anotar() {
     const t = texto.trim();
+    alvoRef.current = null;
     if (!t) return;
     setTexto("");
     await ccemGravarNota({ texto: t, sessaoId, fala: n, silencioso: true });
   }
   function foto() {
     const t = texto.trim();
+    alvoRef.current = null;
     ccemFotografarNaAula({ sessaoId, n, texto: t, aoUsarTexto: () => setTexto(""), aoFalhar: () => setTexto(t) });
   }
   async function perguntar() {
@@ -153,6 +177,7 @@ function AulaScreen({ sessaoId, fala }) {
     if (!q || ocupado) return;
     setTexto("");
     setOcupado(q);
+    alvoRef.current = null;
     const historico = notas.filter((c) => c.resumoIA && c.body).slice(-3).flatMap((c) => [{ papel: "usuario", texto: ccemNotaEmTexto(c.body) }, { papel: "assistente", texto: c.resumoIA }]);
     const prefixo = f ? `[Aula ${f.n}${f.titulo ? " \xB7 " + f.titulo : ""} \u2014 ${f.palestrante}] ` : "";
     const r = await ccemPerguntarAoAssistente({ texto: prefixo + q, sessaoId, historico });
@@ -166,6 +191,7 @@ function AulaScreen({ sessaoId, fala }) {
   async function pedir(id, a) {
     if (ocupado) return;
     setOcupado(CCEM_ATALHO_CURTO[a.acao] || a.rotulo);
+    alvoRef.current = { id, bloco: "end" };
     const r = await ccemAcaoSlide(id, { acao: a.acao, rotulo: a.rotulo });
     setOcupado(null);
     if (r && r.aviso) showToast(r.aviso);
@@ -193,7 +219,7 @@ function AulaScreen({ sessaoId, fala }) {
       },
       o.rot
     );
-  }))), /* @__PURE__ */ React.createElement("div", { ref: listaRef, style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, notas.length === 0 && !ocupado && /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", color: C.cinza, fontSize: 13.5, lineHeight: 1.5, padding: "28px 16px" } }, "Tudo desta ", f ? "aula" : "sess\xE3o", " fica aqui, em ordem: suas anota\xE7\xF5es, as fotos dos slides e as respostas da IA.", /* @__PURE__ */ React.createElement("br", null), "Escreva e toque em ", /* @__PURE__ */ React.createElement("b", null, "Anotar"), ", fotografe um slide ou fa\xE7a uma pergunta \xE0 IA."), notas.map((c) => /* @__PURE__ */ React.createElement("div", { key: c.id }, c.foto ? /* @__PURE__ */ React.createElement(ItemFoto, { c, ocupado: !!ocupado, aoPedir: pedir, aoCarregar: aoFim }) : /* @__PURE__ */ React.createElement(React.Fragment, null, c.body && /* @__PURE__ */ React.createElement(BalaoEu, { hora: c.time }, ccemNotaEmTexto(c.body))), c.resumoIA && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: "14px 14px 14px 4px", padding: "8px 12px", fontSize: 14, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, c.resumoIA, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, marginTop: 4 } }, "Gerado por IA \u2014 confira na fonte."))))), pendente && /* @__PURE__ */ React.createElement("div", { "data-foto-pendente": true, style: { display: "flex", justifyContent: "flex-end", margin: "0 0 8px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%", textAlign: "right" } }, pendente !== "lendo" ? /* @__PURE__ */ React.createElement("img", { src: pendente, alt: "Foto sendo guardada", onLoad: aoFim, style: { display: "block", maxWidth: "100%", maxHeight: 260, borderRadius: 12, opacity: 0.7 } }) : /* @__PURE__ */ React.createElement("div", { style: { padding: "22px 18px", background: "#e8eef8", borderRadius: 12, fontSize: 13, color: C.cinza } }, "Preparando a foto\u2026"), /* @__PURE__ */ React.createElement("div", { role: "status", style: { fontSize: 12, color: C.cinza, marginTop: 2 } }, "Guardando no aparelho\u2026"))), ocupado && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { role: "status", style: { display: "inline-flex", alignItems: "center", gap: 6, background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: 14, padding: "8px 12px", fontSize: 13, color: C.cinza } }, "Preparando resposta\u2026 ", /* @__PURE__ */ React.createElement("span", { style: { fontSize: 12 } }, "(", ocupado.length > 40 ? ocupado.slice(0, 40) + "\u2026" : ocupado, ")"))), /* @__PURE__ */ React.createElement("div", { ref: fimRef })), /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, background: "#fff", borderTop: `1px solid ${C.linhaSoft}`, padding: "8px 10px calc(8px + env(safe-area-inset-bottom))" } }, /* @__PURE__ */ React.createElement(
+  }))), /* @__PURE__ */ React.createElement("div", { ref: listaRef, style: { flex: 1, overflowY: "auto", padding: "12px 12px 4px" } }, notas.length === 0 && !ocupado && /* @__PURE__ */ React.createElement("div", { style: { textAlign: "center", color: C.cinza, fontSize: 13.5, lineHeight: 1.5, padding: "28px 16px" } }, "Tudo desta ", f ? "aula" : "sess\xE3o", " fica aqui, em ordem: suas anota\xE7\xF5es, as fotos dos slides e as respostas da IA.", /* @__PURE__ */ React.createElement("br", null), "Escreva e toque em ", /* @__PURE__ */ React.createElement("b", null, "Anotar"), ", fotografe um slide ou fa\xE7a uma pergunta \xE0 IA."), notas.map((c) => /* @__PURE__ */ React.createElement("div", { key: c.id, "data-nota": c.id, style: destaque === c.id ? { outline: `2px solid ${C.azulSoft}`, outlineOffset: 4, borderRadius: 12 } : void 0 }, c.foto ? /* @__PURE__ */ React.createElement(ItemFoto, { c, ocupado: !!ocupado, aoPedir: pedir, aoCarregar: aoFim }) : /* @__PURE__ */ React.createElement(React.Fragment, null, c.body && /* @__PURE__ */ React.createElement(BalaoEu, { hora: c.time }, ccemNotaEmTexto(c.body))), c.resumoIA && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { style: { background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: "14px 14px 14px 4px", padding: "8px 12px", fontSize: 14, color: C.tinta, lineHeight: 1.5, whiteSpace: "pre-wrap" } }, c.resumoIA, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, color: C.cinza, marginTop: 4 } }, "Gerado por IA \u2014 confira na fonte."))))), pendente && /* @__PURE__ */ React.createElement("div", { "data-foto-pendente": true, style: { display: "flex", justifyContent: "flex-end", margin: "0 0 8px" } }, /* @__PURE__ */ React.createElement("div", { style: { maxWidth: "86%", textAlign: "right" } }, pendente !== "lendo" ? /* @__PURE__ */ React.createElement("img", { src: pendente, alt: "Foto sendo guardada", onLoad: aoFim, style: { display: "block", maxWidth: "100%", maxHeight: 260, borderRadius: 12, opacity: 0.7 } }) : /* @__PURE__ */ React.createElement("div", { style: { padding: "22px 18px", background: "#e8eef8", borderRadius: 12, fontSize: 13, color: C.cinza } }, "Preparando a foto\u2026"), /* @__PURE__ */ React.createElement("div", { role: "status", style: { fontSize: 12, color: C.cinza, marginTop: 2 } }, "Guardando no aparelho\u2026"))), ocupado && /* @__PURE__ */ React.createElement(BalaoIA, null, /* @__PURE__ */ React.createElement("div", { role: "status", style: { display: "inline-flex", alignItems: "center", gap: 6, background: "#fff", border: `1px solid ${C.linhaSoft}`, borderRadius: 14, padding: "8px 12px", fontSize: 13, color: C.cinza } }, "Preparando resposta\u2026 ", /* @__PURE__ */ React.createElement("span", { style: { fontSize: 12 } }, "(", ocupado.length > 40 ? ocupado.slice(0, 40) + "\u2026" : ocupado, ")"))), /* @__PURE__ */ React.createElement("div", { ref: fimRef })), /* @__PURE__ */ React.createElement("div", { style: { flexShrink: 0, background: "#fff", borderTop: `1px solid ${C.linhaSoft}`, padding: "8px 10px calc(8px + env(safe-area-inset-bottom))" } }, /* @__PURE__ */ React.createElement(
     "textarea",
     {
       value: texto,
@@ -231,4 +257,4 @@ function AulaScreen({ sessaoId, fala }) {
     "Perguntar \xE0 IA"
   ))));
 }
-Object.assign(window, { AulaScreen, ccemFotografarNaAula, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemAbrirNaConversa, ccemFotografarNaAula, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });

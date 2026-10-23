@@ -171,7 +171,13 @@ function RespostaSlide({ item, aoAprofundar, aoEncontrarArtigo, ocupado }) {
 
 /* ── "Perguntar sobre este slide" ───────────────────────────── */
 /* Abre "Perguntar sobre este slide" de qualquer tela (ex.: logo depois de salvar a nota). */
-function ccemPerguntarSlide(notaId) { window.dispatchEvent(new CustomEvent('ccem:perguntar-slide', { detail: { notaId } })); }
+/* Foto com sessão: vai para a conversa da aula (uma linha do tempo só, com
+   anotações, fotos e IA). Sem sessão: a folha desta foto. */
+function ccemPerguntarSlide(notaId) {
+  const c = (_ccemStore.state.captures || []).find(x => x.id === notaId);
+  if (typeof ccemAbrirNaConversa === 'function' && ccemAbrirNaConversa(c)) return;
+  window.dispatchEvent(new CustomEvent('ccem:perguntar-slide', { detail: { notaId } }));
+}
 function HostPerguntarSlide() {
   const [notaId, setNotaId] = useState(null);
   useEffect(() => {

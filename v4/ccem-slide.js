@@ -153,6 +153,8 @@ function RespostaSlide({ item, aoAprofundar, aoEncontrarArtigo, ocupado }) {
   ));
 }
 function ccemPerguntarSlide(notaId) {
+  const c = (_ccemStore.state.captures || []).find((x) => x.id === notaId);
+  if (typeof ccemAbrirNaConversa === "function" && ccemAbrirNaConversa(c)) return;
   window.dispatchEvent(new CustomEvent("ccem:perguntar-slide", { detail: { notaId } }));
 }
 function HostPerguntarSlide() {
