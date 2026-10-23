@@ -152,6 +152,19 @@ function RespostaSlide({ item, aoAprofundar, aoEncontrarArtigo, ocupado }) {
     "Aprofundar"
   ));
 }
+function ccemPerguntarSlide(notaId) {
+  window.dispatchEvent(new CustomEvent("ccem:perguntar-slide", { detail: { notaId } }));
+}
+function HostPerguntarSlide() {
+  const [notaId, setNotaId] = useState(null);
+  useEffect(() => {
+    const abrir = (e) => setNotaId((e.detail || {}).notaId || null);
+    window.addEventListener("ccem:perguntar-slide", abrir);
+    return () => window.removeEventListener("ccem:perguntar-slide", abrir);
+  }, []);
+  if (!notaId || !ccemNotaAtual(notaId)) return null;
+  return /* @__PURE__ */ React.createElement(PainelSlide, { notaId, aoFechar: () => setNotaId(null) });
+}
 function PainelSlide({ notaId, aoFechar }) {
   const appState = useAppState();
   const nota = (appState.captures || []).find((c) => c.id === notaId);
@@ -334,6 +347,8 @@ Object.assign(window, {
   ccemOrganizarNota,
   ccemFalar,
   PainelSlide,
+  ccemPerguntarSlide,
+  HostPerguntarSlide,
   FolhaArtigo,
   RespostaSlide,
   CartaoArtigo,

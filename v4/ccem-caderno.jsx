@@ -89,7 +89,7 @@ function ccemAvisarGravacao(ok, extra) {
 }
 
 /* Grava (cria ou atualiza) uma nota. foto: dataUrl, null (sem foto) ou undefined (não mexe). */
-async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida }) {
+async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fala }) {
   const st0 = _ccemStore.state;
   const antiga = (st0.captures || []).find(c => c.id === id);
   id = id || ccemNovaNotaId();
@@ -120,6 +120,7 @@ async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida }) {
     };
     if (resumoIA !== undefined) nota.resumoIA = resumoIA;
     if (duvida !== undefined) nota.duvida = !!duvida;
+    if (fala !== undefined) nota.fala = s && ccemFalaDe(s.id, fala) ? fala : null;
     if (antiga) nota.editadoEm = agora;
     const i = st.captures.findIndex(c => c.id === id);
     if (i >= 0) st.captures[i] = nota; else st.captures.unshift(nota);
@@ -159,7 +160,7 @@ async function ccemResumirNota(id) {
 function ccemAbrirEditor(detalhe) { window.dispatchEvent(new CustomEvent('ccem:anotar', { detail: detalhe || {} })); }
 
 /* ── Editor de nota (folha que sobe) ─────────────────────────── */
-function EditorNota({ notaId, sessaoId, aoFechar }) {
+function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
   const appState = useAppState();
   const antiga = (appState.captures || []).find(c => c.id === notaId) || null;
   const fotoSalva = useFoto(antiga && antiga.foto);
@@ -170,6 +171,9 @@ function EditorNota({ notaId, sessaoId, aoFechar }) {
   const [foto, setFoto]     = useState(undefined);       // undefined = não mexeu
   const [salvando, setSalvando] = useState(false);
   const [duvida, setDuvida] = useState(!!(antiga && antiga.duvida));
+  const [aula, setAula]     = useState(() => antiga ? (typeof antiga.fala === 'number' ? antiga.fala : null)
+    : (ccemFalaDe(sessaoInicial, fala) ? fala : ccemUltimaAula(sessaoInicial)));
+  const aulas = ccemAulas(sessao);
   const fotoRef = useRef(null);
   const fotoVista = foto === undefined ? fotoSalva : foto;
 
@@ -187,9 +191,14 @@ function EditorNota({ notaId, sessaoId, aoFechar }) {
   async function salvar() {
     if (!texto.trim() && !fotoVista) { showToast('Escreva algo ou anexe uma foto'); return; }
     setSalvando(true);
-    await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida });
+    const { ok, id } = await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida, fala: aulas.length ? aula : null });
     setSalvando(false);
     aoFechar();
+    // Nota com foto: a IA fica a um toque, sem sair da aula.
+    const salva = ok && (_ccemStore.state.captures || []).find(c => c.id === id);
+    if (salva && salva.foto && typeof ccemPerguntarSlide === 'function') {
+      showToast('Nota salva', { rotulo: 'Perguntar à IA', aoTocar: () => ccemPerguntarSlide(id) });
+    }
   }
   async function excluir() {
     if (!confirm('Excluir esta nota? Não dá para desfazer.')) return;
@@ -211,11 +220,24 @@ function EditorNota({ notaId, sessaoId, aoFechar }) {
         </div>
         <div style={{flex:1,overflowY:'auto',padding:'12px 16px'}}>
           <label style={{display:'block',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,marginBottom:4}} htmlFor="ccem-nota-sessao">Sessão</label>
-          <select id="ccem-nota-sessao" value={sessao} onChange={e=>setSessao(e.target.value)}
+          <select id="ccem-nota-sessao" value={sessao} onChange={e=>{ setSessao(e.target.value); setAula(ccemUltimaAula(e.target.value)); }}
             style={{width:'100%',minHeight:44,padding:'0 10px',border:`1px solid ${C.linha}`,borderRadius:10,fontFamily:'DM Sans,sans-serif',fontSize:16,color:C.tinta,background:'#f8fafd',marginBottom:12}}>
             <option value="">Sem sessão</option>
             {opcoes.map(s=><option key={s.id} value={s.id}>{s.dia===DIAS[0]?'sex':'sáb'} {s.inicio} · {ccemRotulo(s)}</option>)}
           </select>
+          {aulas.length>0&&(
+            <div role="radiogroup" aria-label="Aula" style={{margin:'-4px 0 12px'}}>
+              <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,marginBottom:4}}>Aula</div>
+              <div style={{display:'flex',flexWrap:'wrap',gap:6}}>
+                {[...aulas.map(f=>({n:f.n, rot:f.n+' · '+(f.titulo||f.palestrante)})), {n:null, rot:'Sessão toda'}].map(o=>{
+                  const on = aula===o.n;
+                  return <button key={String(o.n)} role="radio" aria-checked={on} onClick={()=>setAula(o.n)}
+                    style={{minHeight:44,maxWidth:'100%',padding:'6px 12px',borderRadius:22,border:`1px solid ${on?C.azul:C.linha}`,background:on?C.azul:'#fff',color:on?'#fff':C.tinta,
+                      fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:on?700:500,cursor:'pointer',textAlign:'left',lineHeight:1.25}}>{o.rot}</button>;
+                })}
+              </div>
+            </div>
+          )}
           <label style={{display:'block',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,marginBottom:4}} htmlFor="ccem-nota-texto">Anotação</label>
           <textarea id="ccem-nota-texto" value={texto} onChange={e=>setTexto(e.target.value)} rows={6}
             placeholder="O que você quer guardar desta sessão?"
@@ -275,7 +297,8 @@ async function ccemExportarCaderno(captures) {
   const rows = lista.map(c => {
     const { data, hora } = ccemDataHoraJoinville(c.ts);
     const sess = SESSOES[c.sessaoId] ? ccemRotulo(SESSOES[c.sessaoId]) : (c.sessaoRef||'');
-    return `<div class="nota"><div class="meta">${esc(data)} · ${esc(hora)} · ${esc(sess)}</div>`
+    const aula = ccemRotuloAula(c.sessaoId, c.fala);
+    return `<div class="nota"><div class="meta">${esc(data)} · ${esc(hora)} · ${esc(sess)}${aula ? ' · ' + esc(aula) : ''}</div>`
          + `<h3>${esc(c.title)}</h3>`
          + ((c.duvida || ccemPatrocinio(c.sessaoId)) ? `<div class="meta">${[c.duvida ? 'Dúvida' : '', ccemPatrocinio(c.sessaoId)].filter(Boolean).map(esc).join(' · ')}</div>` : '')
          + (fotos[c.id] ? `<img src="${fotos[c.id]}" alt="">` : '')
@@ -360,6 +383,7 @@ async function ccemRestaurarBackup(arquivo) {
     resumoIA: c.resumoIA ? txt(c.resumoIA, 8000) : undefined,
     tags: Array.isArray(c.tags) ? c.tags.filter(t => typeof t === 'string').slice(0, 10) : [],
     duvida: c.duvida === true || undefined,
+    fala: Number.isInteger(c.fala) && c.fala > 0 && c.fala < 30 ? c.fala : undefined,
     refLida: c.refLida ? txt(c.refLida, 600) : undefined,
     indice: c.indice && typeof c.indice === 'object' ? { titulo: txt(c.indice.titulo, 120), texto: txt(c.indice.texto, 1500),
       palavras: Array.isArray(c.indice.palavras) ? c.indice.palavras.filter(t => typeof t === 'string').map(t => t.slice(0, 60)).slice(0, 10) : [] } : undefined,
@@ -423,6 +447,25 @@ function AvisoSemArmazenamento() {
 
 /* ── Uma nota no Caderno ─────────────────────────────────────── */
 /* Nome do patrocinador a partir do selo da sessão ("Satélite · Lilly" → "Lilly"). */
+/* ── Aulas de uma sessão (simpósios com 2 ou mais falas numeradas) ──
+   A nota pode ficar ligada a uma aula; sem aula = "Sessão toda". */
+function ccemAulas(sessaoId) {
+  const s = SESSOES[sessaoId];
+  const falas = ((s && s.falas) || []).filter(f => typeof f.n === 'number');
+  return falas.length >= 2 ? falas : [];
+}
+function ccemFalaDe(sessaoId, n) { return ccemAulas(sessaoId).find(f => f.n === n) || null; }
+function ccemRotuloAula(sessaoId, n) {
+  const f = ccemFalaDe(sessaoId, n);
+  return f ? `Aula ${f.n}${f.titulo ? ' · ' + f.titulo : ''} — ${f.palestrante}` : '';
+}
+/* Última aula usada nesta sessão: o padrão ao anotar de novo. */
+function ccemUltimaAula(sessaoId) {
+  const n = ((_ccemStore.state.captures || []).filter(c => c.sessaoId === sessaoId && typeof c.fala === 'number')
+    .sort((a, b) => b.ts - a.ts)[0] || {}).fala;
+  return ccemFalaDe(sessaoId, n) ? n : null;
+}
+
 function ccemPatrocinio(sessaoId) {
   const s = SESSOES[sessaoId];
   return s && s.tipo === 'satelite' ? 'Sessão patrocinada' + (s.badge.includes('·') ? ' por ' + s.badge.split('·').pop().trim() : '') : '';
@@ -445,6 +488,7 @@ function NotaCartao({ c }) {
         <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:cor,textTransform:'uppercase',letterSpacing:'0.07em',fontWeight:600}}>{c.type}</span>
         <span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,flex:1,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{c.sessaoRef} · {c.time}</span>
       </div>
+      {ccemRotuloAula(c.sessaoId, c.fala)&&<div style={{fontSize:12.5,fontWeight:600,color:C.azul,lineHeight:1.35,margin:'-2px 0 5px'}}>{ccemRotuloAula(c.sessaoId, c.fala)}</div>}
       {(c.duvida||patrocinio)&&(
         <div style={{display:'flex',gap:5,flexWrap:'wrap',marginBottom:5}}>
           {c.duvida&&<span style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,color:'#9a3412',background:'#fff4e5',padding:'1px 8px',borderRadius:8}}>Dúvida</span>}
@@ -498,7 +542,7 @@ function CadernoScreen() {
   const [organizando, setOrganizando] = useState(null);   // {feitas, total} durante a organização
   const captures = appState.captures || [];
   const termo = norm(busca.trim());
-  const acha = c => !termo || norm([c.title, c.body, c.resumoIA, c.sessaoRef, (c.tags||[]).join(' '),
+  const acha = c => !termo || norm([c.title, c.body, c.resumoIA, c.sessaoRef, ccemRotuloAula(c.sessaoId, c.fala), (c.tags||[]).join(' '),
     c.indice && c.indice.titulo, c.indice && c.indice.texto, c.indice && (c.indice.palavras||[]).join(' '),
     c.artigo && c.artigo.titulo, (c.respostas||[]).map(x => [x.rotulo, ccemRespostaSlideEmTexto(x.r), x.r.texto_extraido, x.r.referencia,
       (x.r.siglas||[]).map(s => s.sigla + ' ' + s.significado).join(' ')].filter(Boolean).join(' ')).join(' '),
@@ -607,7 +651,7 @@ function CadernoScreen() {
 }
 
 Object.assign(window, {
-  ccemPatrocinio, ccemArtigoSeguro, ccemRespostaSegura,
+  ccemPatrocinio, ccemAulas, ccemRotuloAula, ccemArtigoSeguro, ccemRespostaSegura,
   ccemDataHoraJoinville, ccemNotaEmTexto, ccemExportarCaderno, ccemAbrirEditor, ccemGravarNota,
   ccemFotoSalvar, ccemFotoLer, ccemLimparTudo, ccemBaixarBackup, ccemRestaurarBackup, EditorNota, CadernoScreen, AvisoSemArmazenamento,
 });

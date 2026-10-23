@@ -95,8 +95,10 @@ async function ccemSalvarNoCaderno(m) {
   m.salvo = true;
   _mudouConversa();
   const sessaoId = SESSOES[m.sessaoId] ? m.sessaoId : '';
+  // Herda a última aula anotada nesta sessão (simpósios com várias aulas).
+  const fala = sessaoId && typeof ccemUltimaAula === 'function' ? ccemUltimaAula(sessaoId) : null;
   const { ok, id } = await ccemGravarNota({ texto: m.pergunta || '', foto: m.previa || undefined, sessaoId,
-                                            resumoIA: ccemRespostaEmTexto(m.resposta) });
+                                            resumoIA: ccemRespostaEmTexto(m.resposta), fala: fala || undefined });
   if (!ok) { m.salvo = false; _mudouConversa(); }
   return id;
 }
@@ -185,7 +187,6 @@ function DicaInstalar() {
 function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
   const conversa = useConversa();
   const [texto, setTexto] = useState('');
-  const fotoRef = useRef(null);
   const fimRef  = useRef(null);
   const sessao  = SESSOES[sessaoId] || null;
   const sugestoes = CCEM_SUGESTOES[tela] || CCEM_SUGESTOES.home;
@@ -201,8 +202,14 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
     if (t===undefined) setTexto('');
     ccemEnviarAoAssistente({ texto:v, sessaoId });
   }
+  // Fotos de slides têm um só caminho: a nota do Caderno (guardada no
+  // aparelho, funciona sem internet). A IA vem depois, em "Perguntar sobre o slide".
+  function anotarSlide(){
+    if (aoNavegar) aoNavegar();
+    ccemAbrirEditor({ sessaoId: sessaoId || undefined });
+  }
   function usarSugestao(s){
-    if (s.foto) { fotoRef.current && fotoRef.current.click(); return; }
+    if (s.foto) { anotarSlide(); return; }
     enviar(s.rotulo);
   }
 
@@ -261,15 +268,7 @@ function ConversaAssistente({ sessaoId, tela, aoNavegar }) {
       <div style={{flexShrink:0,background:'#fff',borderTop:`1px solid ${C.linhaSoft}`,padding:'6px 10px 10px'}}>
         <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.4,margin:'0 2px 6px'}}>{CCEM_PRIVACIDADE}</div>
         <div style={{display:'flex',alignItems:'center',gap:7}}>
-          <input type="file" accept="image/*" capture="environment" ref={fotoRef} style={{display:'none'}}
-            onChange={e=>{
-              const f = e.target.files && e.target.files[0];
-              e.target.value = '';
-              if (!f) return;
-              ccemEnviarAoAssistente({ arquivo:f, texto, sessaoId });
-              setTexto('');
-            }}/>
-          <button onClick={()=>fotoRef.current&&fotoRef.current.click()} aria-label="Fotografar um slide" disabled={conversa.carregando}
+          <button onClick={anotarSlide} aria-label="Anotar um slide no Caderno" disabled={conversa.carregando}
             style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',border:`1px solid ${C.linha}`,background:'#f8fafd',borderRadius:12,cursor:'pointer',flexShrink:0,padding:0}}>
             <IcoCam size={19} color={C.azul}/>
           </button>
@@ -446,7 +445,7 @@ function BalaoAssistente({ aoExperimentar, aoFechar }) {
         </div>
       </div>
       <div style={{fontSize:13,fontWeight:600,color:C.tinta,marginBottom:6}}>Posso ajudar durante o congresso:</div>
-      <div style={ITEM}><IcoCam size={16} color={C.azul}/><span>Anotar um slide pela foto: mensagem-chave e pontos principais</span></div>
+      <div style={ITEM}><IcoCam size={16} color={C.azul}/><span>Fotografar slides no Caderno e perguntar sobre eles: explicação, siglas, artigo citado</span></div>
       <div style={ITEM}><IcoSearch size={16} color={C.azul}/><span>Encontrar sessões, temas e palestrantes</span></div>
       <div style={ITEM}><IcoChat size={16} color={C.azul}/><span>Responder dúvidas práticas: certificado, secretaria, local</span></div>
       {podeInstalar&&(

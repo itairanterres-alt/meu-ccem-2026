@@ -342,6 +342,9 @@ function SessaoDetail({ id }) {
             <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,marginBottom:10,fontWeight:600}}>Programa da sessão</div>
             {s.falas.map((f,i)=>{
               const bio = SPEAKER_BIOS[f.palestrante];
+              // Simpósio com várias aulas: cada aula tem o seu "Anotar".
+              const porAula = typeof ccemAulas === 'function' && ccemAulas(id).some(a => a.n === f.n);
+              const nNotas = porAula ? (appState.captures||[]).filter(c => c.sessaoId===id && c.fala===f.n).length : 0;
               return (
                 <div key={i} style={{display:'flex',gap:10,padding:'8px 0',borderBottom:i<s.falas.length-1?`1px solid ${C.linhaSoft}`:'none'}}>
                   <div style={{width:22,height:22,borderRadius:7,background:bc+'1a',color:bc,display:'flex',alignItems:'center',justifyContent:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,fontWeight:700,flexShrink:0,marginTop:1}}>{f.n==='·'?'·':f.n}</div>
@@ -353,6 +356,12 @@ function SessaoDetail({ id }) {
                     {bio&&<div style={{fontSize:12,color:C.cinza,marginTop:1}}>{bio.role}</div>}
                     <SlideDisplay sessaoId={id} falaIdx={i}/>
                   </div>
+                  {porAula&&(
+                    <button onClick={()=>ccemAbrirEditor({ sessaoId:id, fala:f.n })} aria-label={`Anotar a aula ${f.n}${nNotas?` (${nNotas} nota${nNotas>1?'s':''})`:''}`}
+                      style={{alignSelf:'center',flexShrink:0,minWidth:44,minHeight:44,display:'flex',alignItems:'center',gap:5,padding:'0 10px',border:`1px solid ${C.linha}`,background:'#fff',borderRadius:10,cursor:'pointer',color:C.azul,fontFamily:'DM Sans,sans-serif',fontSize:12.5,fontWeight:600}}>
+                      <IcoPlus size={15} color={C.azul}/>Anotar{nNotas>0&&<span style={{background:C.azulBg,borderRadius:8,padding:'0 6px',fontSize:12}}>{nNotas}</span>}
+                    </button>
+                  )}
                 </div>
               );
             })}
