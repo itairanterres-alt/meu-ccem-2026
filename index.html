@@ -241,6 +241,55 @@
   }
 </script>
 
+<!-- Vercel Web Analytics: quantas pessoas abrem o app e quais telas usam.
+     Sem cookies e sem identificar ninguém; servido do próprio domínio (nada de CDN).
+     O app navega pelo # (#/sessao/…), que o script não percebe sozinho:
+     cada tela é enviada como página (/sessao/simp1-dm2), sem # nem ?agora.
+     A mesma tela repetida em menos de 5 min conta uma vez (cota do plano).
+     Logins e uso da IA entram como páginas virtuais (/_login, /_ia/…). -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(Array.prototype.slice.call(arguments)); };
+  (function () {
+    var ultimas = {};
+    function tela() {
+      var p = (location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean);
+      var rota = !p.length ? '/'
+        : p[0] === 'sessao' ? '/sessao/[id]'
+        : p[0] === 'aula' ? (p[2] ? '/aula/[id]/[n]' : '/aula/[id]')
+        : p[0] === 'trabalhos' && p[1] ? '/trabalhos/[slot]'
+        : '/' + p[0];
+      return { route: rota, path: '/' + p.join('/') };
+    }
+    function contar() {
+      var t = tela(), agora = Date.now();
+      if (ultimas[t.path] && agora - ultimas[t.path] < 5 * 60 * 1000) return;
+      ultimas[t.path] = agora;
+      window.va('pageview', t);
+    }
+    window.va('beforeSend', function (ev) {
+      try { var u = new URL(ev.url); u.hash = ''; u.search = ''; ev.url = u.href; } catch (e) {}
+      return ev;
+    });
+    contar();
+    window.addEventListener('hashchange', contar);
+
+    // Estatísticas sem identificar ninguém, como "páginas virtuais":
+    // /_login (entrada com o código), /_ia/… (uso de cada recurso de IA) e
+    // /_ia-liberada (aparelho com a IA liberada que abriu o app no dia; conta
+    // também quem entrou antes de o contador existir). Uma vez por dia por aparelho.
+    window.ccemContar = function (caminho) { try { window.va('pageview', { route: caminho, path: caminho }); } catch (e) {} };
+    try {
+      var s = JSON.parse(localStorage.getItem('ccem2026:sessao') || 'null');
+      var hoje = new Date(Date.now() - 3 * 3600 * 1000).toISOString().slice(0, 10);   // dia em Joinville
+      if (s && s.token && s.validade > Date.now() && localStorage.getItem('ccem2026:contado') !== hoje) {
+        localStorage.setItem('ccem2026:contado', hoje);
+        window.ccemContar('/_ia-liberada');
+      }
+    } catch (e) {}
+  })();
+</script>
+<script defer data-disable-auto-track="1" src="/_vercel/insights/script.js"></script>
+
 <template id="__bundler_thumbnail" data-bg-color="#1d3e8a">
   <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
     <rect width="1200" height="800" fill="#0a1232"/>
