@@ -11,7 +11,18 @@
 const CCEM_ATALHO_CURTO = { explicar:'Explicar', raciocinio:'Raciocínio', concluir:'Conclusão', leitura_critica:'Leitura crítica',
   tabela:'Tabela em texto', fluxograma:'Fluxograma', transcrever:'Transcrever e siglas', perguntas:'Perguntas ao palestrante' };
 
-function ccemAbrirAula(sessaoId, n) { go('#/aula/' + sessaoId + (typeof n === 'number' ? '/' + n : '')); }
+/* Navegação: entrar na aula cria uma entrada no histórico; trocar de aula
+   (abas) não cria; "voltar" desfaz a entrada. Assim o voltar da Sessão
+   (history.back) nunca devolve para a aula, e ninguém fica preso em ciclo. */
+const _ccemUrlAula = (sessaoId, n) => '#/aula/' + sessaoId + (typeof n === 'number' ? '/' + n : '');
+let _ccemAulaComVolta = false;
+window.addEventListener('hashchange', () => { if (!location.hash.startsWith('#/aula/')) _ccemAulaComVolta = false; });
+function ccemAbrirAula(sessaoId, n) { _ccemAulaComVolta = true; go(_ccemUrlAula(sessaoId, n)); }
+function ccemTrocarAula(sessaoId, n) { location.replace(_ccemUrlAula(sessaoId, n)); }
+function ccemSairDaAula(sessaoId) {
+  if (_ccemAulaComVolta) window.history.back();
+  else location.replace('#/sessao/' + sessaoId);   // aberta por link ou após recarregar
+}
 
 /* Notas desta aula, em ordem. n null = sessão toda (notas sem aula). */
 function ccemNotasDaAula(captures, sessaoId, n) {
@@ -134,17 +145,20 @@ function AulaScreen({ sessaoId, fala }) {
       {/* Cabeçalho */}
       <div style={{background:C.azul,color:'#fff',flexShrink:0}}>
         <div style={{display:'flex',alignItems:'center',gap:6,padding:'4px 8px'}}>
-          <button onClick={()=>go('#/sessao/'+sessaoId)} aria-label="Voltar à sessão" style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',background:'none',border:'none',cursor:'pointer',padding:0}}><IcoArrowL size={20} color="#fff"/></button>
+          <button onClick={()=>ccemSairDaAula(sessaoId)} aria-label="Voltar à sessão" style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',background:'none',border:'none',cursor:'pointer',padding:0}}><IcoArrowL size={20} color="#fff"/></button>
           <div style={{flex:1,minWidth:0}}>
             <div style={{fontSize:15,fontWeight:700,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{titulo}</div>
             <div style={{fontSize:12,opacity:.8,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{sub}</div>
           </div>
+          <button onClick={()=>go('#/programa')} aria-label="Ir para o Programa"
+            style={{flexShrink:0,minHeight:44,padding:'0 10px',display:'flex',alignItems:'center',gap:5,background:'rgba(255,255,255,.14)',border:'1px solid rgba(255,255,255,.3)',borderRadius:9,color:'#fff',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,cursor:'pointer'}}>
+            <IcoCal size={16} color="#fff"/>Programa</button>
         </div>
         {aulas.length>0&&(
           <div role="tablist" aria-label="Aulas" style={{display:'flex',gap:6,overflowX:'auto',padding:'0 10px 8px'}}>
             {[...aulas.map(a => ({ n:a.n, rot:'Aula ' + a.n })), { n:null, rot:'Sessão toda' }].map(o => {
               const on = o.n === n;
-              return <button key={String(o.n)} role="tab" aria-selected={on} onClick={()=>ccemAbrirAula(sessaoId, o.n)}
+              return <button key={String(o.n)} role="tab" aria-selected={on} onClick={()=>ccemTrocarAula(sessaoId, o.n)}
                 style={{flexShrink:0,minHeight:44,padding:'0 14px',borderRadius:22,border:'1px solid rgba(255,255,255,.4)',background:on?'#fff':'transparent',color:on?C.azul:'#fff',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,cursor:'pointer'}}>{o.rot}</button>;
             })}
           </div>
@@ -217,4 +231,4 @@ function AulaScreen({ sessaoId, fala }) {
   );
 }
 
-Object.assign(window, { AulaScreen, ccemAbrirAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });

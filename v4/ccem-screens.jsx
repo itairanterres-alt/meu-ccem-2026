@@ -17,6 +17,8 @@ function sessionIsPast(s) {
 }
 
 const BACK_BTN = {width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',border:'none',background:'transparent',cursor:'pointer',borderRadius:9,flexShrink:0,padding:0};
+// Voltar da Sessão: desfaz a navegação; aberta direto (link, QR, app recém-aberto), vai ao Programa.
+const ccemVoltarDaSessao = () => { if (window.history.length > 1) window.history.back(); else go('#/programa'); };
 const PILL = {display:'inline-flex',alignItems:'center',fontFamily:'DM Sans,system-ui,sans-serif',fontWeight:600,letterSpacing:'0.05em',textTransform:'uppercase',borderRadius:20,whiteSpace:'nowrap',lineHeight:1.6};
 
 /* ── BadgePill / TopicPill / IntervalRow ───────────────────── */
@@ -230,7 +232,7 @@ function SessaoDetail({ id }) {
   if(!s) return (
     <div style={{height:'100%',display:'flex',flexDirection:'column',overflow:'hidden'}}>
       <div style={{background:C.azul,height:52,display:'flex',alignItems:'center',padding:'0 8px',flexShrink:0,gap:8}}>
-        <button onClick={()=>window.history.back()} style={BACK_BTN}><IcoArrowL size={20} color="#fff"/></button>
+        <button onClick={ccemVoltarDaSessao} style={BACK_BTN}><IcoArrowL size={20} color="#fff"/></button>
         <span style={{color:'#fff',fontSize:14,fontWeight:600}}>Sessão não encontrada</span>
       </div>
       <div style={{flex:1,display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column',gap:12,color:C.cinza,fontSize:13}}>
@@ -279,7 +281,7 @@ function SessaoDetail({ id }) {
       {/* Top bar */}
       <div style={{background:C.azul,color:'#fff',flexShrink:0,boxShadow:'0 2px 12px rgba(10,18,50,.3)'}}>
         <div style={{height:52,display:'flex',alignItems:'center',gap:8,padding:'0 8px'}}>
-          <button onClick={()=>window.history.back()} aria-label="Voltar" style={BACK_BTN}><IcoArrowL size={20} color="#fff"/></button>
+          <button onClick={ccemVoltarDaSessao} aria-label="Voltar" style={BACK_BTN}><IcoArrowL size={20} color="#fff"/></button>
           <div style={{flex:1,minWidth:0}}>
             <div style={{fontSize:13,fontWeight:700,lineHeight:1.2,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{s.titulo}</div>
             <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,opacity:.75,marginTop:1}}>{s.inicio}–{s.fim} · {s.dur}</div>

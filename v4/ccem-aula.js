@@ -8,8 +8,21 @@ const CCEM_ATALHO_CURTO = {
   transcrever: "Transcrever e siglas",
   perguntas: "Perguntas ao palestrante"
 };
+const _ccemUrlAula = (sessaoId, n) => "#/aula/" + sessaoId + (typeof n === "number" ? "/" + n : "");
+let _ccemAulaComVolta = false;
+window.addEventListener("hashchange", () => {
+  if (!location.hash.startsWith("#/aula/")) _ccemAulaComVolta = false;
+});
 function ccemAbrirAula(sessaoId, n) {
-  go("#/aula/" + sessaoId + (typeof n === "number" ? "/" + n : ""));
+  _ccemAulaComVolta = true;
+  go(_ccemUrlAula(sessaoId, n));
+}
+function ccemTrocarAula(sessaoId, n) {
+  location.replace(_ccemUrlAula(sessaoId, n));
+}
+function ccemSairDaAula(sessaoId) {
+  if (_ccemAulaComVolta) window.history.back();
+  else location.replace("#/sessao/" + sessaoId);
 }
 function ccemNotasDaAula(captures, sessaoId, n) {
   const aulas = ccemAulas(sessaoId);
@@ -119,7 +132,16 @@ function AulaScreen({ sessaoId, fala }) {
     if (r && r.aviso) showToast(r.aviso);
   }
   const BTN = { minHeight: 44, borderRadius: 10, padding: "0 12px", fontFamily: "DM Sans,sans-serif", fontSize: 14, fontWeight: 700, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", gap: 6 };
-  return /* @__PURE__ */ React.createElement("div", { style: { height: "100%", display: "flex", flexDirection: "column", overflow: "hidden", background: "#f3f6fc" } }, /* @__PURE__ */ React.createElement("div", { style: { background: C.azul, color: "#fff", flexShrink: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6, padding: "4px 8px" } }, /* @__PURE__ */ React.createElement("button", { onClick: () => go("#/sessao/" + sessaoId), "aria-label": "Voltar \xE0 sess\xE3o", style: { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", background: "none", border: "none", cursor: "pointer", padding: 0 } }, /* @__PURE__ */ React.createElement(IcoArrowL, { size: 20, color: "#fff" })), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, minWidth: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 15, fontWeight: 700, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" } }, titulo), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, opacity: 0.8, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" } }, sub))), aulas.length > 0 && /* @__PURE__ */ React.createElement("div", { role: "tablist", "aria-label": "Aulas", style: { display: "flex", gap: 6, overflowX: "auto", padding: "0 10px 8px" } }, [...aulas.map((a) => ({ n: a.n, rot: "Aula " + a.n })), { n: null, rot: "Sess\xE3o toda" }].map((o) => {
+  return /* @__PURE__ */ React.createElement("div", { style: { height: "100%", display: "flex", flexDirection: "column", overflow: "hidden", background: "#f3f6fc" } }, /* @__PURE__ */ React.createElement("div", { style: { background: C.azul, color: "#fff", flexShrink: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { display: "flex", alignItems: "center", gap: 6, padding: "4px 8px" } }, /* @__PURE__ */ React.createElement("button", { onClick: () => ccemSairDaAula(sessaoId), "aria-label": "Voltar \xE0 sess\xE3o", style: { width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", background: "none", border: "none", cursor: "pointer", padding: 0 } }, /* @__PURE__ */ React.createElement(IcoArrowL, { size: 20, color: "#fff" })), /* @__PURE__ */ React.createElement("div", { style: { flex: 1, minWidth: 0 } }, /* @__PURE__ */ React.createElement("div", { style: { fontSize: 15, fontWeight: 700, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" } }, titulo), /* @__PURE__ */ React.createElement("div", { style: { fontSize: 12, opacity: 0.8, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" } }, sub)), /* @__PURE__ */ React.createElement(
+    "button",
+    {
+      onClick: () => go("#/programa"),
+      "aria-label": "Ir para o Programa",
+      style: { flexShrink: 0, minHeight: 44, padding: "0 10px", display: "flex", alignItems: "center", gap: 5, background: "rgba(255,255,255,.14)", border: "1px solid rgba(255,255,255,.3)", borderRadius: 9, color: "#fff", fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 700, cursor: "pointer" }
+    },
+    /* @__PURE__ */ React.createElement(IcoCal, { size: 16, color: "#fff" }),
+    "Programa"
+  )), aulas.length > 0 && /* @__PURE__ */ React.createElement("div", { role: "tablist", "aria-label": "Aulas", style: { display: "flex", gap: 6, overflowX: "auto", padding: "0 10px 8px" } }, [...aulas.map((a) => ({ n: a.n, rot: "Aula " + a.n })), { n: null, rot: "Sess\xE3o toda" }].map((o) => {
     const on = o.n === n;
     return /* @__PURE__ */ React.createElement(
       "button",
@@ -127,7 +149,7 @@ function AulaScreen({ sessaoId, fala }) {
         key: String(o.n),
         role: "tab",
         "aria-selected": on,
-        onClick: () => ccemAbrirAula(sessaoId, o.n),
+        onClick: () => ccemTrocarAula(sessaoId, o.n),
         style: { flexShrink: 0, minHeight: 44, padding: "0 14px", borderRadius: 22, border: "1px solid rgba(255,255,255,.4)", background: on ? "#fff" : "transparent", color: on ? C.azul : "#fff", fontFamily: "DM Sans,sans-serif", fontSize: 13, fontWeight: 700, cursor: "pointer" }
       },
       o.rot
@@ -183,4 +205,4 @@ function AulaScreen({ sessaoId, fala }) {
     "Perguntar \xE0 IA"
   ))));
 }
-Object.assign(window, { AulaScreen, ccemAbrirAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
