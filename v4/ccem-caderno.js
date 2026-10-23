@@ -7,13 +7,27 @@ function ccemNotaEmTexto(body) {
 }
 const CCEM_FOTO_VALIDA = /^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$/;
 let _ccemFotosDb = null;
+const _ccemFotosMem = /* @__PURE__ */ new Map();
 function ccemFotosDb() {
   if (!_ccemFotosDb) {
     _ccemFotosDb = new Promise((resolve, reject) => {
       if (!window.indexedDB) return reject(new Error("sem-indexeddb"));
       const r = indexedDB.open("ccem2026-fotos", 1);
       r.onupgradeneeded = () => r.result.createObjectStore("fotos");
-      r.onsuccess = () => resolve(r.result);
+      r.onsuccess = () => {
+        const db = r.result;
+        db.onclose = () => {
+          _ccemFotosDb = null;
+        };
+        db.onversionchange = () => {
+          try {
+            db.close();
+          } catch (e) {
+          }
+          _ccemFotosDb = null;
+        };
+        resolve(db);
+      };
       r.onerror = () => reject(r.error);
       r.onblocked = () => reject(new Error("bloqueado"));
     });
@@ -23,19 +37,54 @@ function ccemFotosDb() {
   }
   return _ccemFotosDb;
 }
-function _ccemFotosTx(modo, operacao) {
-  return ccemFotosDb().then((db) => new Promise((resolve, reject) => {
-    const tx = db.transaction("fotos", modo);
-    const req = operacao(tx.objectStore("fotos"));
-    tx.oncomplete = () => resolve(req ? req.result : void 0);
-    tx.onerror = tx.onabort = () => reject(tx.error || new Error("foto"));
-  }));
+function _ccemFotosTx(modo, operacao, tentativa) {
+  return new Promise((resolve, reject) => {
+    let feito = false;
+    const fim = (fn, v) => {
+      if (feito) return;
+      feito = true;
+      clearTimeout(relogio);
+      fn(v);
+    };
+    const relogio = setTimeout(() => fim(reject, new Error("tempo")), 4e3);
+    ccemFotosDb().then((db) => {
+      let tx;
+      try {
+        tx = db.transaction("fotos", modo);
+      } catch (e) {
+        return fim(reject, e);
+      }
+      const req = operacao(tx.objectStore("fotos"));
+      tx.oncomplete = () => fim(resolve, req ? req.result : void 0);
+      tx.onerror = tx.onabort = () => fim(reject, tx.error || new Error("foto"));
+    }, (e) => fim(reject, e));
+  }).catch((e) => {
+    const velha = _ccemFotosDb;
+    _ccemFotosDb = null;
+    if (velha) velha.then((db) => {
+      try {
+        db.close();
+      } catch (x) {
+      }
+    }, () => {
+    });
+    if (!tentativa) return _ccemFotosTx(modo, operacao, 1);
+    throw e;
+  });
 }
-const ccemFotoSalvar = (id, dataUrl) => _ccemFotosTx("readwrite", (st) => st.put(dataUrl, id));
-const ccemFotoLer = (id) => _ccemFotosTx("readonly", (st) => st.get(id));
-const ccemFotoApagar = (id) => _ccemFotosTx("readwrite", (st) => st.delete(id)).catch(() => {
-});
+const ccemFotoSalvar = (id, dataUrl) => {
+  _ccemFotosMem.set(id, dataUrl);
+  while (_ccemFotosMem.size > 20) _ccemFotosMem.delete(_ccemFotosMem.keys().next().value);
+  return _ccemFotosTx("readwrite", (st) => st.put(dataUrl, id));
+};
+const ccemFotoLer = (id) => _ccemFotosMem.has(id) ? Promise.resolve(_ccemFotosMem.get(id)) : _ccemFotosTx("readonly", (st) => st.get(id));
+const ccemFotoApagar = (id) => {
+  _ccemFotosMem.delete(id);
+  return _ccemFotosTx("readwrite", (st) => st.delete(id)).catch(() => {
+  });
+};
 function ccemLimparTudo() {
+  _ccemFotosMem.clear();
   return _ccemFotosTx("readwrite", (st) => st.clear()).catch(() => {
   }).then(() => {
     try {
@@ -83,11 +132,16 @@ async function ccemGravarNota({ id, texto, foto, sessaoId, resumoIA, duvida, fal
         fotoId = id;
       } catch (e) {
         fotoFalhou = true;
+        _ccemFotosMem.delete(id);
       }
     } else if (fotoId) {
       await ccemFotoApagar(fotoId);
       fotoId = null;
     }
+  }
+  if (fotoFalhou && !antiga && !String(texto || "").trim() && !resumoIA) {
+    showToast("A foto n\xE3o p\xF4de ser guardada neste aparelho. Tente de novo.");
+    return { ok: false, id: null, fotoFalhou: true };
   }
   const s = SESSOES[sessaoId] || null;
   const agora = Date.now();

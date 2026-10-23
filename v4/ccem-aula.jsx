@@ -11,7 +11,18 @@
 const CCEM_ATALHO_CURTO = { explicar:'Explicar', raciocinio:'Raciocínio', concluir:'Conclusão', leitura_critica:'Leitura crítica',
   tabela:'Tabela em texto', fluxograma:'Fluxograma', transcrever:'Transcrever e siglas', perguntas:'Perguntas ao palestrante' };
 
-function ccemAbrirAula(sessaoId, n) { go('#/aula/' + sessaoId + (typeof n === 'number' ? '/' + n : '')); }
+/* Navegação: entrar na aula cria uma entrada no histórico; trocar de aula
+   (abas) não cria; "voltar" desfaz a entrada. Assim o voltar da Sessão
+   (history.back) nunca devolve para a aula, e ninguém fica preso em ciclo. */
+const _ccemUrlAula = (sessaoId, n) => '#/aula/' + sessaoId + (typeof n === 'number' ? '/' + n : '');
+let _ccemAulaComVolta = false;
+window.addEventListener('hashchange', () => { if (!location.hash.startsWith('#/aula/')) _ccemAulaComVolta = false; });
+function ccemAbrirAula(sessaoId, n) { _ccemAulaComVolta = true; go(_ccemUrlAula(sessaoId, n)); }
+function ccemTrocarAula(sessaoId, n) { location.replace(_ccemUrlAula(sessaoId, n)); }
+function ccemSairDaAula(sessaoId) {
+  if (_ccemAulaComVolta) window.history.back();
+  else location.replace('#/sessao/' + sessaoId);   // aberta por link ou após recarregar
+}
 
 /* Notas desta aula, em ordem. n null = sessão toda (notas sem aula). */
 function ccemNotasDaAula(captures, sessaoId, n) {
@@ -40,14 +51,14 @@ function BalaoIA({ children }) {
   );
 }
 
-function ItemFoto({ c, ocupado, aoPedir }) {
+function ItemFoto({ c, ocupado, aoPedir, aoCarregar }) {
   const foto = useFoto(c.foto);
   const feitas = new Set((c.respostas || []).map(x => x.acao));
   return (
     <>
       <div style={{display:'flex',justifyContent:'flex-end',margin:'0 0 6px'}}>
         <div style={{maxWidth:'86%'}}>
-          {foto ? <img src={foto} alt="Foto do slide" style={{display:'block',maxWidth:'100%',maxHeight:260,borderRadius:12,border:`1px solid ${C.linhaSoft}`}}/>
+          {foto ? <img src={foto} alt="Foto do slide" onLoad={aoCarregar} style={{display:'block',maxWidth:'100%',maxHeight:260,borderRadius:12,border:`1px solid ${C.linhaSoft}`}}/>
                 : <div style={{padding:'20px 14px',background:'#eef2f8',borderRadius:12,fontSize:13,color:C.cinza}}>Foto</div>}
           <div style={{fontSize:12,color:C.cinza,textAlign:'right',marginTop:2}}>{c.time}</div>
         </div>
@@ -75,11 +86,15 @@ function AulaScreen({ sessaoId, fala }) {
   const f = n !== null ? ccemFalaDe(sessaoId, n) : null;
   const [texto, setTexto] = useState('');
   const [ocupado, setOcupado] = useState(null);   // texto do que está em andamento
+  const [pendente, setPendente] = useState(null); // foto ainda sendo preparada/guardada
   const fotoRef = useRef(null);
   const fimRef = useRef(null);
+  const listaRef = useRef(null);
+  // Rola até o fim (também depois que a imagem carrega e a altura muda).
+  const aoFim = () => requestAnimationFrame(() => { const el = listaRef.current; if (el) el.scrollTop = el.scrollHeight; });
   const notas = s ? ccemNotasDaAula(appState.captures, sessaoId, n) : [];
 
-  useEffect(() => { if (fimRef.current) fimRef.current.scrollIntoView({ block:'end' }); }, [notas.length, ocupado, notas.reduce((t, c) => t + (c.respostas || []).length, 0)]);
+  useEffect(() => { aoFim(); }, [notas.length, ocupado, pendente, notas.reduce((t, c) => t + (c.respostas || []).length, 0)]);
 
   if (!s) return <div style={{padding:24,color:C.cinza}}>Sessão não encontrada.</div>;
   const titulo = f ? `Aula ${f.n}${f.titulo ? ' · ' + f.titulo : ''}` : (aulas.length ? 'Sessão toda' : s.titulo);
@@ -93,10 +108,15 @@ function AulaScreen({ sessaoId, fala }) {
   }
   async function foto(arquivo) {
     if (!arquivo) return;
+    setPendente('lendo');                                  // aparece na hora, antes de qualquer processamento
     let previa;
-    try { previa = (await ccemReduzirFoto(arquivo)).previa; } catch (e) { showToast('Não foi possível ler a foto'); return; }
+    try { previa = (await ccemReduzirFoto(arquivo)).previa; }
+    catch (e) { setPendente(null); showToast('Não foi possível ler a foto. Tente de novo.'); return; }
+    setPendente(previa);
     const t = texto.trim(); setTexto('');
-    await ccemGravarNota({ texto: t, foto: previa, sessaoId, fala: n, silencioso: true });
+    const r = await ccemGravarNota({ texto: t, foto: previa, sessaoId, fala: n, silencioso: true });
+    setPendente(null);
+    if (!r || !r.ok) setTexto(t);
   }
   async function perguntar() {
     const q = texto.trim();
@@ -125,17 +145,20 @@ function AulaScreen({ sessaoId, fala }) {
       {/* Cabeçalho */}
       <div style={{background:C.azul,color:'#fff',flexShrink:0}}>
         <div style={{display:'flex',alignItems:'center',gap:6,padding:'4px 8px'}}>
-          <button onClick={()=>go('#/sessao/'+sessaoId)} aria-label="Voltar à sessão" style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',background:'none',border:'none',cursor:'pointer',padding:0}}><IcoArrowL size={20} color="#fff"/></button>
+          <button onClick={()=>ccemSairDaAula(sessaoId)} aria-label="Voltar à sessão" style={{width:44,height:44,display:'flex',alignItems:'center',justifyContent:'center',background:'none',border:'none',cursor:'pointer',padding:0}}><IcoArrowL size={20} color="#fff"/></button>
           <div style={{flex:1,minWidth:0}}>
             <div style={{fontSize:15,fontWeight:700,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{titulo}</div>
             <div style={{fontSize:12,opacity:.8,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{sub}</div>
           </div>
+          <button onClick={()=>go('#/programa')} aria-label="Ir para o Programa"
+            style={{flexShrink:0,minHeight:44,padding:'0 10px',display:'flex',alignItems:'center',gap:5,background:'rgba(255,255,255,.14)',border:'1px solid rgba(255,255,255,.3)',borderRadius:9,color:'#fff',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,cursor:'pointer'}}>
+            <IcoCal size={16} color="#fff"/>Programa</button>
         </div>
         {aulas.length>0&&(
           <div role="tablist" aria-label="Aulas" style={{display:'flex',gap:6,overflowX:'auto',padding:'0 10px 8px'}}>
             {[...aulas.map(a => ({ n:a.n, rot:'Aula ' + a.n })), { n:null, rot:'Sessão toda' }].map(o => {
               const on = o.n === n;
-              return <button key={String(o.n)} role="tab" aria-selected={on} onClick={()=>ccemAbrirAula(sessaoId, o.n)}
+              return <button key={String(o.n)} role="tab" aria-selected={on} onClick={()=>ccemTrocarAula(sessaoId, o.n)}
                 style={{flexShrink:0,minHeight:44,padding:'0 14px',borderRadius:22,border:'1px solid rgba(255,255,255,.4)',background:on?'#fff':'transparent',color:on?C.azul:'#fff',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:700,cursor:'pointer'}}>{o.rot}</button>;
             })}
           </div>
@@ -143,7 +166,7 @@ function AulaScreen({ sessaoId, fala }) {
       </div>
 
       {/* Conversa */}
-      <div style={{flex:1,overflowY:'auto',padding:'12px 12px 4px'}}>
+      <div ref={listaRef} style={{flex:1,overflowY:'auto',padding:'12px 12px 4px'}}>
         {notas.length===0&&!ocupado&&(
           <div style={{textAlign:'center',color:C.cinza,fontSize:13.5,lineHeight:1.5,padding:'28px 16px'}}>
             Tudo desta {f ? 'aula' : 'sessão'} fica aqui, em ordem: suas anotações, as fotos dos slides e as respostas da IA.<br/>
@@ -152,7 +175,7 @@ function AulaScreen({ sessaoId, fala }) {
         )}
         {notas.map(c => (
           <div key={c.id}>
-            {c.foto ? <ItemFoto c={c} ocupado={!!ocupado} aoPedir={pedir}/> : (
+            {c.foto ? <ItemFoto c={c} ocupado={!!ocupado} aoPedir={pedir} aoCarregar={aoFim}/> : (
               <>
                 {c.body&&<BalaoEu hora={c.time}>{ccemNotaEmTexto(c.body)}</BalaoEu>}
               </>
@@ -167,6 +190,16 @@ function AulaScreen({ sessaoId, fala }) {
             )}
           </div>
         ))}
+        {pendente&&(
+          <div data-foto-pendente style={{display:'flex',justifyContent:'flex-end',margin:'0 0 8px'}}>
+            <div style={{maxWidth:'86%',textAlign:'right'}}>
+              {pendente!=='lendo'
+                ? <img src={pendente} alt="Foto sendo guardada" onLoad={aoFim} style={{display:'block',maxWidth:'100%',maxHeight:260,borderRadius:12,opacity:.7}}/>
+                : <div style={{padding:'22px 18px',background:'#e8eef8',borderRadius:12,fontSize:13,color:C.cinza}}>Preparando a foto…</div>}
+              <div role="status" style={{fontSize:12,color:C.cinza,marginTop:2}}>Guardando no aparelho…</div>
+            </div>
+          </div>
+        )}
         {ocupado&&(
           <BalaoIA>
             <div role="status" style={{display:'inline-flex',alignItems:'center',gap:6,background:'#fff',border:`1px solid ${C.linhaSoft}`,borderRadius:14,padding:'8px 12px',fontSize:13,color:C.cinza}}>
@@ -198,4 +231,4 @@ function AulaScreen({ sessaoId, fala }) {
   );
 }
 
-Object.assign(window, { AulaScreen, ccemAbrirAula, ccemNotasDaAula });
+Object.assign(window, { AulaScreen, ccemAbrirAula, ccemTrocarAula, ccemSairDaAula, ccemNotasDaAula });
