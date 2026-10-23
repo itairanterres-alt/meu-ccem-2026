@@ -188,16 +188,17 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
     try { setFoto((await ccemReduzirFoto(arquivo)).previa); }
     catch (e) { showToast('Não foi possível ler a foto'); }
   }
-  async function salvar() {
+  async function salvar(comIA) {
     if (!texto.trim() && !fotoVista) { showToast('Escreva algo ou anexe uma foto'); return; }
     setSalvando(true);
     const { ok, id } = await ccemGravarNota({ id: antiga && antiga.id, texto: texto.trim(), foto, sessaoId: sessao, duvida, fala: aulas.length ? aula : null });
     setSalvando(false);
     aoFechar();
-    // Nota com foto: a IA fica a um toque, sem sair da aula.
+    // Nota com foto: a IA na hora ("Salvar e perguntar à IA") ou a um toque no aviso.
     const salva = ok && (_ccemStore.state.captures || []).find(c => c.id === id);
     if (salva && salva.foto && typeof ccemPerguntarSlide === 'function') {
-      showToast('Nota salva', { rotulo: 'Perguntar à IA', aoTocar: () => ccemPerguntarSlide(id) });
+      if (comIA === true) ccemPerguntarSlide(id);
+      else showToast('Nota salva', { rotulo: 'Perguntar à IA', aoTocar: () => ccemPerguntarSlide(id) });
     }
   }
   async function excluir() {
@@ -263,14 +264,22 @@ function EditorNota({ notaId, sessaoId, fala, aoFechar }) {
             Marcar como dúvida <span style={{fontSize:12.5,color:C.cinza}}>(para rever depois; filtro "Dúvidas")</span>
           </label>
           <p style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,color:C.cinza,lineHeight:1.45,margin:'12px 0 0'}}>
-            A nota e a foto ficam só neste aparelho e funcionam sem internet. Depois, se quiser, use "Resumir com IA" no Caderno.
+            A nota e a foto ficam só neste aparelho e funcionam sem internet. {fotoVista ? 'Para a IA explicar o slide, toque em "Salvar e perguntar à IA".' : 'Ela aparece na tela da sessão e no Caderno.'}
           </p>
         </div>
-        <div style={{display:'flex',gap:8,padding:'10px 16px 12px',borderTop:`1px solid ${C.linhaSoft}`,flexShrink:0}}>
+        {fotoVista&&(
+          <div style={{padding:'10px 16px 0',borderTop:`1px solid ${C.linhaSoft}`,flexShrink:0}}>
+            <button onClick={()=>salvar(true)} disabled={salvando}
+              style={{...BTN,width:'100%',display:'flex',alignItems:'center',justifyContent:'center',gap:8,background:C.azulBg,border:`1px solid ${C.azul}`,color:C.azul,opacity:salvando?0.6:1}}>
+              <img src={CCEM_AVATAR} alt="" width="22" height="22" style={{borderRadius:'50%'}}/>Salvar e perguntar à IA
+            </button>
+          </div>
+        )}
+        <div style={{display:'flex',gap:8,padding:'10px 16px 12px',borderTop:fotoVista?'none':`1px solid ${C.linhaSoft}`,flexShrink:0}}>
           {antiga&&<button onClick={excluir} style={{...BTN,background:'#fff',border:'1px solid #c53030',color:'#c53030'}}>Excluir</button>}
           <span style={{flex:1}}/>
           <button onClick={aoFechar} style={{...BTN,background:'#fff',border:`1px solid ${C.linha}`,color:C.cinza}}>Cancelar</button>
-          <button onClick={salvar} disabled={salvando} style={{...BTN,background:C.azul,border:'none',color:'#fff',opacity:salvando?0.6:1}}>{salvando?'Salvando…':'Salvar'}</button>
+          <button onClick={()=>salvar(false)} disabled={salvando} style={{...BTN,background:C.azul,border:'none',color:'#fff',opacity:salvando?0.6:1}}>{salvando?'Salvando…':'Salvar'}</button>
         </div>
       </div>
     </div>
@@ -534,6 +543,31 @@ function NotaCartao({ c }) {
 }
 
 /* ── Tela Caderno ────────────────────────────────────────────── */
+/* Notas desta sessão, na própria tela da sessão, agrupadas por aula. */
+function NotasDaSessao({ sessaoId }) {
+  const appState = useAppState();
+  const notas = (appState.captures || []).filter(c => c.sessaoId === sessaoId).sort((a, b) => a.ts - b.ts);
+  if (!notas.length) return null;
+  const aulas = ccemAulas(sessaoId);
+  const grupos = aulas.length
+    ? [...aulas.map(f => ({ chave: f.n, rot: ccemRotuloAula(sessaoId, f.n), itens: notas.filter(c => c.fala === f.n) })),
+       { chave: 'toda', rot: 'Sessão toda', itens: notas.filter(c => !aulas.some(f => f.n === c.fala)) }]
+    : [{ chave: 'toda', rot: '', itens: notas }];
+  return (
+    <div style={{marginBottom:10}}>
+      <div style={{fontFamily:'DM Sans,system-ui,sans-serif',fontSize:12,textTransform:'uppercase',letterSpacing:'0.08em',color:C.cinza,margin:'6px 2px 8px',fontWeight:600}}>
+        Minhas notas desta sessão · {notas.length}
+      </div>
+      {grupos.filter(g => g.itens.length).map(g => (
+        <div key={g.chave}>
+          {g.rot&&<div style={{fontSize:12.5,fontWeight:700,color:C.azul,margin:'4px 2px 6px'}}>{g.rot}</div>}
+          {g.itens.map(c => <NotaCartao key={c.id} c={c}/>)}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function CadernoScreen() {
   const appState = useAppState();
   const [filtro, setFiltro] = useState('all');
@@ -653,5 +687,5 @@ function CadernoScreen() {
 Object.assign(window, {
   ccemPatrocinio, ccemAulas, ccemRotuloAula, ccemArtigoSeguro, ccemRespostaSegura,
   ccemDataHoraJoinville, ccemNotaEmTexto, ccemExportarCaderno, ccemAbrirEditor, ccemGravarNota,
-  ccemFotoSalvar, ccemFotoLer, ccemLimparTudo, ccemBaixarBackup, ccemRestaurarBackup, EditorNota, CadernoScreen, AvisoSemArmazenamento,
+  ccemFotoSalvar, ccemFotoLer, ccemLimparTudo, ccemBaixarBackup, ccemRestaurarBackup, EditorNota, CadernoScreen, AvisoSemArmazenamento, NotaCartao, NotasDaSessao,
 });

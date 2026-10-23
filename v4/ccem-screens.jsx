@@ -378,6 +378,9 @@ function SessaoDetail({ id }) {
           </button>
         </div>
 
+        {/* Minhas notas desta sessão (por aula), com "Perguntar sobre o slide" */}
+        {typeof NotasDaSessao === 'function' && <NotasDaSessao sessaoId={id}/>}
+
         {/* Calendário */}
         <button onClick={()=>ccemBaixarIcs([s], 'ccem-'+id+'.ics')}
           style={{width:'100%',minHeight:44,display:'flex',alignItems:'center',justifyContent:'center',gap:8,background:'#fff',color:C.azul,border:`1px solid ${C.linha}`,borderRadius:10,padding:'10px 14px',fontFamily:'DM Sans,sans-serif',fontSize:13,fontWeight:600,cursor:'pointer',marginBottom:8}}>
