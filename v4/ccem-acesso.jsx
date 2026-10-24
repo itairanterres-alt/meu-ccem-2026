@@ -87,10 +87,18 @@ async function ccemPostEntrar(corpo) {
     let dados = {};
     try { dados = await res.json(); } catch (e) {}
     if (res.ok) return { dados };
-    return { erro: CCEM_ERROS_ENTRAR[dados.erro] || 'Não foi possível continuar agora. Tente de novo.' };
+    return { erro: CCEM_ERROS_ENTRAR[dados.erro] || 'Não foi possível continuar agora. Tente de novo.', codigo: dados.erro || 'http-' + res.status };
   } catch (e) {
-    return { erro: 'Sem conexão com a internet. Tente de novo quando a rede voltar.' };
+    return { erro: 'Sem conexão com a internet. Tente de novo quando a rede voltar.', codigo: 'sem-rede' };
   }
+}
+
+/* Estatística anônima do resultado de cada tentativa de entrada (página virtual
+   no Web Analytics; ver index.html): só o tipo do resultado, nunca o e-mail. */
+const CCEM_LOGIN_RESULTADO = { nao_inscrito: 'nao-inscrito', envio: 'erro-envio', limite: 'limite', email: 'email-invalido',
+  codigo: 'codigo-errado', expirado: 'codigo-expirado', desligado: 'desligado', 'sem-rede': 'sem-rede', enviado: 'codigo-enviado' };
+function ccemContarLogin(codigo) {
+  if (window.ccemContar) window.ccemContar('/_login-' + (CCEM_LOGIN_RESULTADO[codigo] || 'erro'));
 }
 
 let _ultimoEmail = '';
@@ -111,7 +119,8 @@ function FolhaEntrar({ aoConcluir }) {
     setOcupado(true); setErro('');
     const r = await ccemPostEntrar({ acao: 'pedir', email: em });
     setOcupado(false);
-    if (r.erro) { setErro(r.erro); return; }
+    if (r.erro) { ccemContarLogin(r.codigo); setErro(r.erro); return; }
+    ccemContarLogin('enviado');
     setDesafio(r.dados.desafio); setCodigo(''); setEtapa('codigo');
     setTimeout(() => codigoRef.current && codigoRef.current.focus(), 50);
   }
@@ -121,7 +130,7 @@ function FolhaEntrar({ aoConcluir }) {
     setOcupado(true); setErro('');
     const r = await ccemPostEntrar({ acao: 'confirmar', desafio, codigo });
     setOcupado(false);
-    if (r.erro) { setErro(r.erro); return; }
+    if (r.erro) { ccemContarLogin(r.codigo); setErro(r.erro); return; }
     ccemGuardarSessao({ token: r.dados.sessao, validade: r.dados.validade, email: _ultimoEmail.trim().toLowerCase() });
     if (window.ccemContar) window.ccemContar('/_login');   // estatística anônima: só a contagem, sem e-mail
     showToast('Pronto! Você já pode usar a IA.');

@@ -92,10 +92,24 @@ async function ccemPostEntrar(corpo) {
     } catch (e) {
     }
     if (res.ok) return { dados };
-    return { erro: CCEM_ERROS_ENTRAR[dados.erro] || "N\xE3o foi poss\xEDvel continuar agora. Tente de novo." };
+    return { erro: CCEM_ERROS_ENTRAR[dados.erro] || "N\xE3o foi poss\xEDvel continuar agora. Tente de novo.", codigo: dados.erro || "http-" + res.status };
   } catch (e) {
-    return { erro: "Sem conex\xE3o com a internet. Tente de novo quando a rede voltar." };
+    return { erro: "Sem conex\xE3o com a internet. Tente de novo quando a rede voltar.", codigo: "sem-rede" };
   }
+}
+const CCEM_LOGIN_RESULTADO = {
+  nao_inscrito: "nao-inscrito",
+  envio: "erro-envio",
+  limite: "limite",
+  email: "email-invalido",
+  codigo: "codigo-errado",
+  expirado: "codigo-expirado",
+  desligado: "desligado",
+  "sem-rede": "sem-rede",
+  enviado: "codigo-enviado"
+};
+function ccemContarLogin(codigo) {
+  if (window.ccemContar) window.ccemContar("/_login-" + (CCEM_LOGIN_RESULTADO[codigo] || "erro"));
 }
 let _ultimoEmail = "";
 function FolhaEntrar({ aoConcluir }) {
@@ -116,9 +130,11 @@ function FolhaEntrar({ aoConcluir }) {
     const r = await ccemPostEntrar({ acao: "pedir", email: em });
     setOcupado(false);
     if (r.erro) {
+      ccemContarLogin(r.codigo);
       setErro(r.erro);
       return;
     }
+    ccemContarLogin("enviado");
     setDesafio(r.dados.desafio);
     setCodigo("");
     setEtapa("codigo");
@@ -132,6 +148,7 @@ function FolhaEntrar({ aoConcluir }) {
     const r = await ccemPostEntrar({ acao: "confirmar", desafio, codigo });
     setOcupado(false);
     if (r.erro) {
+      ccemContarLogin(r.codigo);
       setErro(r.erro);
       return;
     }
