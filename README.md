@@ -127,6 +127,9 @@ Em **Pages**:
 | `/sessao/<id>` (rota `/sessao/[id]`) | cada sessão consultada |
 | `/aula/<id>/<n>` (rota `/aula/[id]/[n]`) | conversas de aula abertas |
 | `/_login` | entradas com o código de e-mail (visitantes = pessoas que entraram) |
+| `/_login-codigo-enviado` | código enviado por e-mail (se há muito mais disso que `/_login`, o e-mail não está chegando: spam) |
+| `/_login-nao-inscrito` | e-mail fora da lista de inscritos (palestrantes e convidados: incluir em `ACESSO_EXTRA`) |
+| `/_login-erro-envio`, `/_login-limite`, `/_login-codigo-errado`, `/_login-codigo-expirado`, `/_login-sem-rede` | demais falhas na entrada |
 | `/_ia-liberada` | aparelhos com a IA liberada que abriram o app no dia (1×/dia/aparelho) |
 | `/_ia/assistente`, `/_ia/foto`, `/_ia/artigo`, `/_ia/organizar` | respostas da IA recebidas |
 
